@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    anki (0.0.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  anki
+
+BUNDLED WITH
+   1.11.2

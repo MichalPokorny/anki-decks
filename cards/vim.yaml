@@ -1,0 +1,33 @@
+-
+        front: Vim - increment/decrement current number
+        back: C-a, C-x
+-
+        front: Vim - move one paragraph forward/backward
+        back: \{\}
+-
+        front: Vim - move one sentence forward/backward
+        back: ()
+-
+        front: Vim - change to other end of selection in visual mode
+        back: o
+-
+        front: Vim - insert output of command
+        back: `:read !ls /home`
+-
+        front: Vim - create mark
+        back: mX (X = mark name)
+-
+        front: Vim - go to mark
+        back: \'X (X = mark name)
+-
+        front: Vim - start and open a window for each file; split vertically
+        back: vim -o ...; vim -O ...
+-
+        front: Vim - revive selection
+        back: gv
+-
+        front: Vim - run filter command over buffer
+        back: :%!command
+-
+        front: Vim - insert file content here
+        back: :read (file) -- aka :r (file)

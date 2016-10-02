@@ -1,0 +1,112 @@
+-
+        front: Ruby =>
+        back: Hashrocket
+-
+        front: Ruby hashrocket
+        back: =>
+-
+        front: Ruby <=>
+        back: Spaceship
+-
+        front: Ruby spaceship
+        back: <=>
+-
+        front: Ruby threequals
+        back: ===
+-
+        front: Ruby ===
+        back: Threequals
+-
+        front: Ruby twiddle-wakka
+        back: ~>
+-
+        front: Ruby ~>
+        back: Twiddle-wakka
+-
+        front: Ruby stabby lambda
+        back: ->
+-
+        front: Ruby ->
+        back: Stabby lambda
+-
+        front: Ruby spiral
+        back: @
+-
+        front: Ruby @
+        back: Spiral
+-
+        front: Ruby splat
+        back: *
+-
+        front: Ruby *
+        back: Splat
+
+-
+        front: Ruby octothorpe
+        back: \#
+-
+        front: Ruby \#
+        back: Octothorpe
+-
+        front: Ruby skull tag
+        back: <%=
+-
+        front: Ruby crab claws
+        back: \#\{\}
+-
+        front: Ruby \#\{\}
+        back: Crab claws
+-
+        front: Ruby ?:
+        back: Elvis
+-
+        front: Ruby elvis
+        back: ?:
+-
+        front: Ruby shovel
+        back: <<
+-
+        front: Ruby <<
+        back: shovel
+-
+        front: Ruby constellation
+        back: \*\*
+-
+        front: Ruby \*\*
+        back: constellation
+-
+        front: Ruby equalike
+        back: =~
+-
+        front: Ruby =~
+        back: Equalike
+-
+        front: Ruby hat
+        back: ^
+-
+        front: Ruby ^
+        back: Hat
+-
+        front: Ruby pretzel
+        back: &
+-
+        front: Ruby &
+        back: pretzel
+-
+        front: Ruby /
+        back: whack
+-
+        front: Ruby whack
+        back: /
+-
+        front: Ruby _
+        back: blank
+-
+        front: Ruby blank
+        back: _
+-
+        front: Ruby ||=
+        back: t-square
+-
+        front: Ruby t-square
+        back: ||=

@@ -1,0 +1,201 @@
+-
+        front: Paradox of hedonism
+        back: AKA pleasure paradox. Pleasure cannot be acquired directly. Constant pleasure-seeking may not yield the most actual pleasure or happiness in the long run - consciously pursuing pleasure interferes with experiencing it.
+-
+        front: Number of deaths per day
+        back: 150 000
+-
+        front: F-1 score
+        back: 2 * precision * recall / (precision + recall). AKA F-measure.
+-
+        front: PE ratio
+        back: Price/earnings
+-
+        front: Good Friday Agreement
+        back: Northern Ireland peace agreement
+-
+        front: Grep - count occurrences
+        back: \`grep -c\`
+-
+        front: Skolem paradox
+        back: ZF set theory has a countable model
+-
+        front: CAP theorem
+        back: Cannot have consistency & availability & partition tolerance
+-
+        front: Screen - attach; attach to non-attached session
+        back: "screen -x; screen -r: attach to non-detached"
+-
+        front: Screen - detach
+        back: C-a d
+-
+        front: Send job to background, bring it back
+        back: "Ctrl-Z: send to background; bring back: fg"
+-
+        front: Python - list all methods of module
+        back: "`import zlib; dir(slib)`"
+-
+        front: GCC - destroy some identifier(s) forever
+        back: \#pragma GCC poison (identifiers)
+-
+        front: Midnight Commander - launch tab completion
+        back: <Esc>-<Tab>
+-
+        front: Hedonism
+        back: Ethical theory that claims good and bad == pleasure and pain
+-
+        front: Ruby - fast HTTP server
+        back: ruby -run -e httpd . -p 8080
+-
+        front: Ruby - overloading unary operators
+        back: def +@, -@, ~@, \!@
+-
+        front: Ruby - single character string syntax
+        back: ?x (== \"x\")
+-
+        front: Python - what is falsey?
+        back: False, None, \[\], \{\}, (), \'\', 0
+-
+        front: Python - mapping over multiple sequences
+        back: map(fn, seq1, seq2, ...) - works like zip
+-
+        front: Python - assert
+        back: Does not omit instructions when optimized into bytecode (as in C)
+-
+        front: mplayer - cycle between alternate audio tracks
+        back: \#
+-
+        front: freopen
+        back:
+                \`FILE* freopen(const char \*path, const char \*mode, FILE \*stream);\`
+                e.g. freopen("soubor.in:", "r", stdin);
+-
+        front: C erf
+        back: Gauss distribution error function
+-
+        front: C - free behavior on NULL
+        back: OK. If ptr is NULL, no operation is performed.
+-
+        front: Spigot algorithm
+        back:
+                Algorithm for computing the value of a constant such as pi or e which generates digits left to right with limited intermediate storage.
+-
+        front: BBP-type formula
+        back:
+                Bailey-Borwein-Plouffe formula. Computes n-th binary digit of pi using base 16 math.
+                Can directly calculate some digit of pi without calculating preceding digits.
+                Since this discovery, many formulas for other irrational constants have been discovered of the general form.
+                Formulas in this form are known as BBP-type formulas.
+                $$\pi = \sum_{k = 0}^{\infty}\left[ \frac{1}{16^k} \left( \frac{4}{8k + 1} - \frac{2}{8k + 4} - \frac{1}{8k + 5} - \frac{1}{8k + 6} \right) \right]$$
+
+                https://wikimedia.org/api/rest_v1/media/math/render/svg/af6bc360851499dd2ab2a90bee03fbe2040089d5
+-
+        front: Steiner tree
+        back: Similar to planar MST, but I can add new vertices. NP-complete.
+-
+        front: ZooKeeper
+        back: Hadoop's hierarchical key-value store (Chubby)
+-
+        front: HBase
+        back: Hadoop BigTable
+-
+        front: A4 paper size
+        back: "210 x 297 mm; (A0 defined as: area: 1 m^2, aspect ratio: sqrt(2))"
+-
+        front: Number of hours in 1 year
+        back: 8760
+-
+        front: 2^32
+        back: 4 294 967 296 (~4 billion)
+-
+        front: Creating a symbolic link using `cp`
+        back: "`cp -s (link-target) (link)`"
+-
+        front: How to display diff output in two columns
+        back: "`diff -y`"
+-
+        front: Wedderburn theorem
+        back: Every finite field is commutative
+-
+        front: Principal-agent problem
+        back:
+                AKA agency dilemma. Occurs when one person/entity ("agent") is
+                able to make decisions on behalf of "principal". Exists when
+                agent is motivated to act in his own interests, which are
+                contrary to those of the principal. Example of moral hazard.
+-
+        front: APR
+        back: Annual percentage rate = daily rate * 365. Effective APR = daily rate ^ 365.
+-
+        front: NAV
+        back: Net asset value
+-
+        front: Goodhart's law
+        back: When a measure becomes a target, it ceases to be a good measure
+-
+        front: Integrated circuit die
+        back: DIP; invented in 1964
+-
+        front: Chicken bits
+        back:
+                CPU fuses for disabling risky features.
+-
+        front: Omega point, noosphere - author
+        back: Pierre Teilhard de Chardin; jesuit; 1881-1995
+-
+        front: US work visa
+        back: H-1b (NOT H1-B)
+-
+        front: Generative vs. discriminative models
+        back:
+                Discriminative model learns conditional probability distribution $p(y|x)$.
+                Generative model learns joint probability distribution $p(x,y)$.
+-
+        front: Holism
+        back: Theory that parts of a whole are in intimate interconnection, such that they cannot exist independently of the whole
+-
+        front: Hugh Everett
+        back: Father of many-worlds interpretation
+-
+        front: Kubler-Ross model
+        back: 5-stage grief model. Denial, anger, bargaining, depression, acceptance.
+-
+        front: Mute in Google Inbox
+        back: Alt-M; press & hold Done on mobile
+-
+        front: SGD
+        back: Stochastic Gradient Descent
+-
+        front: Logistic function
+        back: AKA sigmoid. $f(x)=(1+e^{-\lambda x})^{-1}$
+-
+        front: Bad faith
+        back: A refusal to accept the absurd (existentialism)
+-
+        front: The Physical Impossibility of Death in the Mind of Someone Living
+        back: Work of art - shark in formaldehyde
+-
+        front: Alexithymia
+        back:
+                "No words for emotions". The distinguishing factor was their
+                inability to elaborate beyond a few limited adjectives such
+                as "happy" or "unhappy" when describing their feelings.[23]
+                The core issue is that alexithymics have poorly differentiated
+                emotions limiting their ability to distinguish and describe
+                them to others.[4] This contributes to the sense of emotional
+                detachment from themselves and difficulty connecting with
+                others, making alexithymia negatively associated with life
+                satisfaction even when depression and other confounding factors
+                are controlled for.[24]
+-
+        front: Cluster A personality disorders
+        back: Paranoid ("accusatory"), schizoid ("aloof"), schizotypical ("awkward")
+-
+        front: Cluster B personality disorders
+        back: Antisocial, borderline, histrionic, narcissistic
+-
+        front: Cluster C personality disorders
+        back: Avoidant ("cowardly"), obsessive-compulsive ("compulsive"), dependent ("clingy")
+
+# TODO: schizoid personality disorder?
+# TODO: schizotypical personality disorder?
