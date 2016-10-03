@@ -252,3 +252,27 @@ notes:
                 uid: 50
                 front: Color picker
                 back: "`gcolor2`"
+        -
+                uid: 51
+                front: "`uzbl`"
+                back: Web browser
+        -
+                uid: 52
+                front: "`cgdb`"
+                back: gdb CLI GUI
+        -
+                uid: 53
+                front: "`lftp`"
+                back: Command-line FTP client
+        -
+                uid: 54
+                front: "`tmux`"
+                back: Console multiplexer, similar to GNU Screen
+        -
+                uid: 55
+                front: Jekyll
+                back: Ruby static page generator
+        -
+                uid: 56
+                front: Start SMART tests and read results
+                back: "`smartctl -c /dev/sda (-t short|long|conveyance)`"

@@ -26,3 +26,7 @@ notes:
                 uid: 6
                 front: "`tqdm`"
                 back: "Progress bar. `for item in tqdm(items):`"
+        -
+                uid: 7
+                front: "`pygments`"
+                back: Code formatter

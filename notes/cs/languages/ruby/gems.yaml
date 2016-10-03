@@ -1,0 +1,51 @@
+topic: Ruby gems
+uid_tag: cs/languages/ruby/gems
+notes:
+        -
+                uid: 1
+                front: Core duplication detector
+                back: "`flay`"
+                include_reverse: true
+        -
+                uid: 2
+                front: Fuzz tester
+                back: "`heckle`"
+                include_reverse: true
+        -
+                uid: 3
+                front: Code complexity estimator
+                back: "`flog`"
+        -
+                uid: 4
+                front: English stemmer
+                back: "`fast-stemmer`"
+        -
+                uid: 5
+                back: Web automation
+                front: "`mechanize`"
+                include_reverse: true
+        -
+                uid: 6
+                front: "`capybara`"
+                back: Web integration/acceptance tester
+                include_reverse: true
+        -
+                uid: 7
+                front: "`highline`"
+                back: CLI interface builder
+                include_reverse: true
+        -
+                uid: 8
+                front: Pretty-printer gems
+                back: "`pp`", "`ap`"
+                include_reverse: true
+        -
+                uid: 9
+                front: "`grit`"
+                back: Git library
+                include_reverse: true
+        -
+                uid: 10
+                front: "`ribbit`"
+                back: libgit2 bindings library
+                include_reverse: true

@@ -1,0 +1,15 @@
+topic: LessWrong
+uid_prefix: lesswrong
+notes:
+        -
+                uid: 1
+                front: Basilisk counterarguments
+                back:
+                        Ignoring acausal blackmail - the basilisk is about the use of negative incentives to influence my actions.
+                        If I refuse these incentives, then it's not instrumentally useful to apply them in the first place.
+                        Engage in all positive acausal trades and ignore all attempts at acausal blackmail.
+                        Act as if you are already being simulated, and ignore the possibility of a negative incentive.
+
+                        Decision theories are not binding. I can decide not to use whichever decision theory and tell
+                        Omega to fuck off and anyone simulating you will come to the same conclusion, making it not
+                        instrumentally useful to blackmail you.

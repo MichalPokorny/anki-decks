@@ -153,3 +153,15 @@ notes:
                 uid: 88
                 front: OpenShift
                 back: Red Hat's web app hosting platform. Includes Go support.
+        -
+                uid: 92
+                front: Wikidata
+                back: Wikipedia formalization in RDF form, with statements and quantifiers (sources)
+        -
+                uid: 93
+                front: Miracleberry
+                back: Switches sour to sweet for ~20 minutes.
+        -
+                uid: 94
+                front: Regex - Zero-width look-ahead assertion
+                back: "`(?=regex...)`"

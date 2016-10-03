@@ -24,3 +24,7 @@ notes:
                 front: GCC - warn on misleading indentation
                 back: "`gcc -Wmisleading-intentation`"
                 include_reverse: true
+        -
+                uid: 6
+                front: No-return header
+                back: "`#include <stdnoreturn.h>`; provides `noreturn` macro."

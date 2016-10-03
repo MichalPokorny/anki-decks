@@ -83,13 +83,10 @@ notes:
                 back: Mopery (with intent to gawk/creep): vague, informal name for minor offenses.
         -
                 uid: 92
-                front: Wikidata
-                back: Wikipedia formalization in RDF form, with statements and quantifiers (sources)
+                front: Vague, informal name for minor offenses
+                back: Mopery (with intent to gawk/creep)
         -
-                uid: 93
-                front: Miracleberry
-                back: Switches sour to sweet for ~20 minutes.
-        -
-                uid: 94
-                front: Regex - Zero-width look-ahead assertion
-                back: "`(?=regex...)`"
+                uid: 95
+                front: Conveyance
+                back: The act of taking or carrying someone or something from one place to another; something that carries; transmission; communication
+                include_reverse: true

@@ -1,0 +1,7 @@
+topic: LaTeX
+uid_tag: cs/languages/latex
+notes:
+        -
+                uid: 1
+                front: TODO notes
+                back: "`\\usepackage{todonotes}`, then `\\todo{Oprav to!}`"
