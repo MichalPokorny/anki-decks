@@ -37,3 +37,7 @@ notes:
                 uid: 9
                 front: Bazel
                 back: Google's build tool, open-source Blaze
+        -
+                uid: 10
+                front: C# string formatting
+                back: "$\"hello{parameters[0, i]}\""

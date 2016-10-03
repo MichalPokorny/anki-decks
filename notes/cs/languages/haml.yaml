@@ -1,0 +1,16 @@
+topic: HAML
+uid_tag: cs/languages/haml
+notes:
+        -
+                uid: 1
+                front: Surround with braces
+                # TODO: does this format properly?
+                back:
+                        ```
+                        = surround "(", ")" do
+                            = link_to "learn more", "#"
+                        ```
+        -
+                uid: 2
+                front: Avoid empty (void) tag
+                back: "`%br/`; automatic for img, br, hr, input, ..."

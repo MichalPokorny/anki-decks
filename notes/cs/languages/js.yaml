@@ -9,3 +9,7 @@ notes:
                 uid: 2
                 front: Labella.js
                 back: Places labels without overlapping (https://twitter.github.io/labella.js/)
+        -
+                uid: 3
+                front: Vegas
+                back: jQuery cool background

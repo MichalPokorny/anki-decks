@@ -49,3 +49,7 @@ notes:
                 front: "`ribbit`"
                 back: libgit2 bindings library
                 include_reverse: true
+        -
+                uid: 11
+                front: "`rspec`"
+                back: Spec-driven testing

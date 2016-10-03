@@ -1,0 +1,15 @@
+uid_tag: cs/libraries
+topic: Libraries
+notes:
+        -
+                uid: 1
+                front: Google SparseHash
+                back: Highly optimized hash library
+        -
+                uid: 2
+                front: OpenCV
+                back: Open computer vision library
+        -
+                uid: 3
+                front: assimp
+                back: Open Asset Import Library (for 3D models)

@@ -1,0 +1,8 @@
+topic: Go
+uid_tag: cs/languages/go
+notes:
+        -
+                uid: 1
+                front: Function to run on startup (per-package)
+                back: "`func init()`"
+                include_reverse: true
