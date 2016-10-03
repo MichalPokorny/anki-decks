@@ -1,0 +1,28 @@
+topic: Python packages
+uid_tag: cs/languages/python/packages
+notes:
+        -
+                uid: 1
+                front: Bitcoin wallet manipulation
+                back: "`pywallet`"
+                include_reverse: true
+        -
+                uid: 2
+                front: XML and HTML screenscraping
+                back: "`BeautifulSoup`"
+        -
+                uid: 3
+                front: Implementation of algorithms in AI, a Modern Approach
+                back: "`simpleai`"
+        -
+                uid: 4
+                front: Graph algorithms library
+                back: "`networkx`"
+        -
+                uid: 5
+                front: "`pyxl`"
+                back: Templating engine by Dropbox
+        -
+                uid: 6
+                front: "`tqdm`"
+                back: "Progress bar. `for item in tqdm(items):`"

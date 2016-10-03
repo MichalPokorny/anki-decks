@@ -8,138 +8,13 @@ notes:
                 front: Number of deaths per day
                 back: 150 000
         -
-                uid: 16
-                front: F-1 score
-                back: 2 * precision * recall / (precision + recall). AKA F-measure.
-        -
                 uid: 17
                 front: PE ratio
                 back: Price/earnings
         -
-                uid: 18
-                front: Good Friday Agreement
-                back: Northern Ireland peace agreement
-        -
-                uid: 19
-                front: Grep - count occurrences
-                back: "`grep -c`"
-                include_reverse: true
-        -
-                uid: 20
-                front: Skolem paradox
-                back: ZF set theory has a countable model
-        -
-                uid: 21
-                front: CAP theorem
-                back: Cannot have consistency & availability & partition tolerance
-        -
-                uid: 22
-                front: Screen - attach, including already attached sessions
-                back: "`screen -x (session)`"
-                include_reverse: true
-        -
-                uid: 23
-                front: Screen - attach to non-attached session
-                back: "`screen -r (session)`"
-                include_reverse: true
-        -
-                uid: 24
-                front: Screen - detach
-                back: C-a d
-        -
-                uid: 25
-                front: Bash - Send job to background
-                back: "C-z"
-        -
-                uid: 26
-                front: Bash - C-z
-                back: Send job to background
-        -
-                uid: 27
-                front: Bash - Bring back backgrounded job
-                back: "`fg`"
-        -
-                uid: 28
-                front: Python - list all methods of module
-                back: "`import zlib; dir(slib)`"
-                include_reverse: true
-        -
-                uid: 29
-                front: GCC - destroy some identifier(s) forever
-                back: "`#pragma GCC poison (identifiers)`"
-                include_reverse: true
-        -
-                uid: 30
-                front: Midnight Commander - launch tab completion
-                back: <Esc>-<Tab>
-        -
                 uid: 31
                 front: Hedonism
                 back: Ethical theory that claims good and bad == pleasure and pain
-        -
-                uid: 32
-                front: Ruby - fast HTTP server
-                back: "`ruby -run -e httpd . -p 8080`"
-                include_reverse: true
-        -
-                uid: 33
-                front: Ruby - overloading unary operators
-                back: "`def +@`, `-@`, `~@`, `!@`"
-                include_reverse: true
-        -
-                uid: 34
-                front: Ruby - single character string syntax
-                back: "`?x` (`== \"x\"`)"
-        -
-                uid: 35
-                front: Python - what is falsey?
-                back: "`False`, `None`, `[]`, `{}`, `()`, `\"\"`, `0`"
-        -
-                uid: 36
-                front: Python - mapping over multiple sequences
-                back: "`map(fn, seq1, seq2, ...)` - works like `zip`"
-        -
-                uid: 37
-                front: "Python - `assert`"
-                back: Does not omit instructions when optimized into bytecode (as in C)
-        -
-                uid: 38
-                front: mplayer - cycle between alternate audio tracks
-                back: "#"
-        -
-                uid: 39
-                front: "C - `freopen`"
-                back: "`FILE* freopen(const char *path, const char *mode, FILE *stream);` - e.g. `freopen(\"soubor.in:\", \"r\", stdin);`"
-        -
-                uid: 40
-                front: "C - `erf`"
-                back: Gauss distribution error function
-        -
-                uid: 41
-                front: "C - `free` behavior on `NULL`"
-                back: OK. If `ptr` is `NULL`, no operation is performed.
-        -
-                uid: 42
-                front: Spigot algorithm
-                back:
-                        Algorithm for computing the value of a constant such as pi or e which generates digits left to right with limited intermediate storage.
-        -
-                uid: 43
-                front: BBP-type formula
-                back:
-                        Bailey-Borwein-Plouffe formula. Computes n-th binary digit of pi using base 16 math.
-                        Can directly calculate some digit of pi without calculating preceding digits.
-                        Since this discovery, many formulas for other irrational constants have been discovered of the general form.
-                        Formulas in this form are known as BBP-type formulas.
-                        [latex]
-                        \pi = \sum_{k = 0}^{\infty}\left[ \frac{1}{16^k} \left( \frac{4}{8k + 1} - \frac{2}{8k + 4} - \frac{1}{8k + 5} - \frac{1}{8k + 6} \right) \right]
-                        [/latex]
-
-                        https://wikimedia.org/api/rest_v1/media/math/render/svg/af6bc360851499dd2ab2a90bee03fbe2040089d5
-        -
-                uid: 44
-                front: Steiner tree
-                back: Similar to planar MST, but I can add new vertices. NP-complete.
         -
                 uid: 45
                 front: ZooKeeper
@@ -148,34 +23,6 @@ notes:
                 uid: 46
                 front: HBase
                 back: Hadoop BigTable
-        -
-                uid: 47
-                front: A4 paper size
-                back: "210 x 297 mm; (A0 defined as: area: 1 m^2, aspect ratio: sqrt(2))"
-        -
-                uid: 48
-                front: Number of hours in 1 year
-                back: 8760
-        -
-                uid: 49
-                front: 2^32
-                back: 4 294 967 296 (~4 billion)
-        -
-                uid: 50
-                front: "Creating a symbolic link using `cp`"
-                back: "`cp -s (link-target) (link)`"
-        -
-                uid: 51
-                front: "`cp -s x y`"
-                back: "Creates symbolic link at `y`, pointing to `x`"
-        -
-                uid: 52
-                front: How to display diff output in two columns
-                back: "`diff -y`"
-        -
-                uid: 53
-                front: Wedderburn theorem
-                back: Every finite field is commutative
         -
                 uid: 54
                 front: Principal-agent problem
@@ -201,10 +48,6 @@ notes:
                 front: Integrated circuit die
                 back: DIP; invented in 1964
         -
-                uid: 59
-                front: Chicken bits
-                back: CPU fuses for disabling risky features.
-        -
                 uid: 60
                 front: Omega point, noosphere - author
                 back: Pierre Teilhard de Chardin; jesuit; 1881-1995
@@ -212,12 +55,6 @@ notes:
                 uid: 61
                 front: US work visa
                 back: H-1b (NOT H1-B)
-        -
-                uid: 62
-                front: Generative vs. discriminative models
-                back:
-                        Discriminative model learns conditional probability distribution [$]p(y|x)[/$].
-                        Generative model learns joint probability distribution [$]p(x,y)[/$].
         -
                 uid: 63
                 front: Holism
@@ -227,21 +64,9 @@ notes:
                 front: Hugh Everett
                 back: Father of many-worlds interpretation
         -
-                uid: 65
-                front: Kubler-Ross model
-                back: 5-stage grief model. Denial, anger, bargaining, depression, acceptance.
-        -
                 uid: 66
                 front: Mute in Google Inbox
                 back: Alt-M; press & hold Done on mobile
-        -
-                uid: 74
-                front: SGD
-                back: Stochastic Gradient Descent
-        -
-                uid: 67
-                front: Logistic function
-                back: AKA sigmoid. $f(x)=(1+e^{-\lambda x})^{-1}$
         -
                 uid: 68
                 front: Bad faith
@@ -252,30 +77,79 @@ notes:
                 back: Work of art - shark in formaldehyde
         -
                 uid: 70
-                front: Alexithymia
-                back:
-                        \"No words for emotions\". The distinguishing factor was their
-                        inability to elaborate beyond a few limited adjectives such
-                        as \"happy\" or \"unhappy\" when describing their feelings.
-                        The core issue is that alexithymics have poorly differentiated
-                        emotions limiting their ability to distinguish and describe
-                        them to others. This contributes to the sense of emotional
-                        detachment from themselves and difficulty connecting with
-                        others, making alexithymia negatively associated with life
-                        satisfaction even when depression and other confounding factors
-                        are controlled for.
+                front: RISUG
+                back: Reversible Inhibition of Sperm Under Guidance; male contraception
         -
                 uid: 71
-                front: Cluster A personality disorders
-                back: Paranoid ("accusatory"), schizoid ("aloof"), schizotypical ("awkward")
+                front: Summamed chemical
+                back: Azithromycin
         -
                 uid: 72
-                front: Cluster B personality disorders
-                back: Antisocial, borderline, histrionic, narcissistic
+                front: Whiteout in PowerPoint
+                back: "`w`"
         -
                 uid: 73
-                front: Cluster C personality disorders
-                back: Avoidant ("cowardly"), obsessive-compulsive ("compulsive"), dependent ("clingy")
-
-        # TODO: schizoid personality disorder?
-        # TODO: schizotypical personality disorder?
+                front: Blackout in PowerPoint
+                back: "`b`"
+        -
+                uid: 74
+                front: Starfish Prime
+                back: US nuclear test; largest man-made explosion in outer space (1.4 MT TNT). Caused far larger EMP than expected - drove instrumentation off scale. Knocked out 300 streetlights in Hawaii (1445 km away), set off numerous burglar alarms.
+        -
+                uid: 75
+                front: Shortest crashing C program
+                back: "`main;` (from `int main = 0;` ==> `main=0;` ==> `main;`)"
+        -
+                uid: 76
+                front: Vandenberg AFB
+                back: Space shuttle base; location in Deus Ex
+        -
+                uid: 77
+                front: E-prime
+                back: 'English without any form of "to be"'
+        -
+                uid: 78
+                front: Chesterson's fence
+                back: Don't tear down the fence if you don't know why is the fence there. (From The Drift from Domesticity by G. K. Chesterson)
+        -
+                uid: 79
+                front: Don't tear down things you don't understand
+                back: Chesterson's fence
+        -
+                uid: 80
+                front: Von Neumann-Morgenstern theorem
+                back: Rational decisions are utility maximization
+                include_reverse: true
+        -
+                uid: 81
+                front: Predict app
+                back: Calibration training app for Android
+        -
+                uid: 82
+                front: Hutter prize
+                back: Compression of a 100MB chunk of Wikipedia ("good compressor has world knowledge")
+        -
+                uid: 83
+                front: Plumbing and porcelain
+                back: Plumbing: backend. Analogy with house plumbing.
+        -
+                uid: 84
+                front: Will MacAskill
+                back: Effective Altruism, 80k Hours founder. Formerly Will Crutch.
+        -
+                uid: 85
+                front: "`gopherjs`"
+                back: Go to JavaScript compiler
+        -
+                uid: 86
+                front: Keybase
+                back: Identity proof/key sharing site. Keybase.io
+        -
+                uid: 87
+                front: Crystal language
+                back: Ruby-like language compiling to C
+                include_reverse: true
+        -
+                uid: 88
+                front: OpenShift
+                back: Red Hat's web app hosting platform. Includes Go support.

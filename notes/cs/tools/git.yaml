@@ -66,3 +66,8 @@ notes:
                 front: Automatically squash fixup commits
                 back: '`git rebase --autosquash`'
                 include_reverse: true
+        -
+                uid: 14
+                front: Pull, but don't create merge commit or rebase.
+                back: '`git pull --ff-only`'
+                include_reverse: true

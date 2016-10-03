@@ -1,0 +1,14 @@
+uid_tag: constants
+notes:
+        -
+                uid: 1
+                front: A4 paper size
+                back: "210 x 297 mm; (A0 defined as: area: 1 m^2, aspect ratio: sqrt(2))"
+        -
+                uid: 2
+                front: Number of hours in 1 year
+                back: 8760
+        -
+                uid: 3
+                front: 2^32
+                back: 4 294 967 296 (~4 billion)

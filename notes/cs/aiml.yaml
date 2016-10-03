@@ -1,0 +1,16 @@
+uid_tag: aiml
+notes:
+        -
+                uid: 1
+                front: F-1 score
+                back: 2 * precision * recall / (precision + recall). AKA F-measure.
+        -
+                uid: 2
+                front: Generative vs. discriminative models
+                back:
+                        Discriminative model learns conditional probability distribution [$]p(y|x)[/$].
+                        Generative model learns joint probability distribution [$]p(x,y)[/$].
+        -
+                uid: 3
+                front: SGD
+                back: Stochastic Gradient Descent

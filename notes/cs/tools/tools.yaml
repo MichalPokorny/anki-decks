@@ -1,0 +1,254 @@
+topic: Tools
+uid_tag: tools
+notes:
+        -
+                uid: 1
+                front: GUI hex editor
+                back: "`bless`"
+                include_reverse: true
+        -
+                uid: valgrind/1
+                topic: Valgrind
+                front: Attach debugger on first error
+                back: "`valgrind --db-attach=yes` ..."
+                include_reverse: true
+        -
+                uid: valgrind/2
+                topic: Valgrind
+                front: Save log of errors
+                back: "`valgrind --log-file=xyzzy.log` ..."
+                include_reverse: true
+        -
+                uid: 3
+                topic: Linux utilities
+                front: Output file with line numbers
+                back: "`nl`"
+        -
+                uid: 4
+                front: "List directory, showing file types"
+                back: "`ls -F`"
+                include_reverse: true
+        -
+                uid: 5
+                front: "PIC microchip simulator"
+                back: "`gpsim`"
+                include_reverse: true
+        -
+                uid: 6
+                front: "YouTube downloader"
+                back: "`youtube-dl`"
+                include_reverse: true
+        -
+                uid: 7
+                front: "Disk usage visualizer"
+                back: "`baobab`"
+                include_reverse: true
+        -
+                uid: 8
+                front: "Paint program"
+                back: "`mypaint`"
+                include_reverse: true
+        -
+                uid: 9
+                front: "Print Linux kernel log in human-readable format"
+                back: "`dmesg --human`"
+                include_reverse: true
+        -
+                uid: 10
+                front: "Flash cards program"
+                back: "`anki`"
+                include_reverse: true
+        -
+                uid: 11
+                front: "Change screen temperature according to time of day"
+                back: "`redshift`"
+                include_reverse: true
+        -
+                uid: 12
+                front: "Time tracker"
+                back: "`hamster`"
+                include_reverse: true
+        -
+                uid: 13
+                front: "JSON pretty-printer"
+                back: "`jshon`"
+                include_reverse: true
+        -
+                uid: 14
+                front: "Quick and dirty Python HTTP server"
+                back: "`python -m SimpleHTTPServer 8080`"
+                include_reverse: true
+        -
+                uid: 15
+                front: "Network monitor by process"
+                back: "`nethogs -i enp0s25`"
+                include_reverse: true
+        -
+                uid: 16
+                front: "Monitor the progress of data through a pipe"
+                back: "`pv`"
+                include_reverse: true
+        -
+                uid: 17
+                front: "Trace syscalls of running process"
+                back: "`strace -p 12345`"
+                include_reverse: true
+        -
+                uid: 18
+                front: "Make ASCII-art banner"
+                back: "`banner`"
+                include_reverse: true
+        -
+                uid: 19
+                front: "Convert Windows newlines to Unix"
+                back: "`dos2unix`"
+                include_reverse: true
+        -
+                uid: 20
+                front: "Follow streamed file in new pager"
+                back: "`less -F`"
+                include_reverse: true
+        -
+                uid: 21
+                front: "Text formatter to wrap to constant width"
+                back: "`fmt`"
+                include_reverse: true
+        -
+                uid: 22
+                front: "Show ASCII table"
+                back: "`man ascii`"
+                include_reverse: true
+        -
+                uid: 23
+                front: "Run Matrix effect in console"
+                back: "`cmatrix`"
+                include_reverse: true
+        -
+                uid: 24
+                front: "Encode content as QR code"
+                back: "`qrencode`"
+                include_reverse: true
+        -
+                uid: 25
+                front: "Curses Git GUI"
+                back: "`tig`"
+                include_reverse: true
+        -
+                uid: 26
+                front: "GNU parser generator"
+                back: "`yacc`"
+                include_reverse: true
+        -
+                uid: 27
+                topic: Pacman
+                front: List explicitly installed packages (not as dependencies)
+                back: "`pacman -Qe`"
+                include_reverse: true
+        -
+                uid: 28
+                front: "`systemd` - plot startup graph"
+                back: "`systemd-analyze plot`"
+                include_reverse: true
+        -
+                uid: 29
+                front: Count occurrences of a string in file
+                back: "`grep -c`"
+                include_reverse: true
+        -
+                uid: 30
+                front: Screen - attach, including already attached sessions
+                back: "`screen -x (session)`"
+                include_reverse: true
+        -
+                uid: 31
+                front: Screen - attach to non-attached session
+                back: "`screen -r (session)`"
+                include_reverse: true
+        -
+                uid: 32
+                front: Screen - detach
+                back: C-a d
+        -
+                uid: 33
+                front: "Creating a symbolic link using `cp`"
+                back: "`cp -s (link-target) (link)`"
+        -
+                uid: 34
+                front: "`cp -s x y`"
+                back: "Creates symbolic link at `y`, pointing to `x`"
+        -
+                uid: 35
+                front: Display diff output in two columns
+                back: "`diff -y`"
+                include_reverse: true
+        -
+                uid: 36
+                front: mplayer - cycle between alternate audio tracks
+                back: "#"
+        -
+                uid: 37
+                front: Midnight Commander - launch tab completion
+                back: <Esc>-<Tab>
+        -
+                uid: 38
+                front: C++ code deduplicator
+                back: "`simian`"
+                include_reverse: true
+        -
+                uid: 39
+                topic: Pacman
+                front: Mark package as installed as dependency
+                back: "`pacman -D --asdeps <pkgs>`"
+                include_reverse: true
+        -
+                uid: 40
+                front: Count lines of code
+                back: "`cloc`"
+                include_reverse: true
+        -
+                uid: 41
+                front: Limit CPU usage of process
+                back: "`cpulimit`"
+                include_reverse: true
+        -
+                uid: 42
+                front: Mount FTP as filesystem
+                back: "`curlftpfs`"
+                include_reverse: true
+        -
+                uid: 43
+                back: Guitar tuner
+                front: "`fmit`"
+                include_reverse: true
+
+        -
+                uid: 44
+                front: Limit bandwidth usage
+                back: "`wondershaper`"
+                include_reverse: true
+        -
+                uid: 45
+                front: Open-source Prolog implementation
+                back: "`swipl`" (SWI Prolog)
+        -
+                uid: 46
+                front: "`scons`"
+                back: Build system
+        -
+                uid: 47
+                front: Dotfiles management system
+                back: "`rcm`"
+                include_reverse: true
+        -
+                uid: 48
+                front: GNU replacement for Matlab
+                back: "`octave`"
+                include_reverse: true
+        -
+                uid: 49
+                front: JavaScript linter
+                back: "`jslint`"
+        -
+                uid: 50
+                front: Color picker
+                back: "`gcolor2`"

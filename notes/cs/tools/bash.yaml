@@ -1,0 +1,28 @@
+topic: Bash
+uid_tag: bash
+notes:
+        -
+                uid: 1
+                front: Redo last command
+                back: "`!!`"
+                include_reverse: true
+        -
+                uid: 2
+                front: Redo last command as root
+                back: "`sudo !!`"
+                include_reverse: true
+        -
+                uid: 5
+                front: "Edit last command's argument in `vim`"
+                back: "`vim !!:2`"
+                include_reverse: true
+        -
+                uid: 6
+                front: Send job to background
+                back: "C-z"
+                include_reverse: true
+        -
+                uid: 7
+                front: Bring back backgrounded job
+                back: "`fg`"
+                include_reverse: true

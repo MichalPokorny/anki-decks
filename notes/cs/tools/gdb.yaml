@@ -1,0 +1,22 @@
+topic: gdb
+uid_tag: gdb
+notes:
+        -
+                uid: 1
+                front: Step single line
+                back: "`s` (`step`)"
+                include_reverse: true
+        -
+                uid: 2
+                front: Step over this line
+                back: "`n` (`next`)"
+                include_reverse: true
+        -
+                uid: 3
+                front: Continue execution
+                back: "`c` (`continue`)"
+                include_reverse: true
+        -
+                uid: 4
+                front: Show source around current line
+                back: "`l` (`list`)"

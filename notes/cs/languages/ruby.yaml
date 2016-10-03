@@ -1,0 +1,18 @@
+topic: Ruby
+uid_tag: cs/languages/ruby
+notes:
+        -
+                uid: 1
+                front: Quick and dirty HTTP server
+                back: "`ruby -run -e httpd . -p 8080`"
+                include_reverse: true
+        -
+                uid: 2
+                front: Overloading unary operators
+                back: "`def +@`, `-@`, `~@`, `!@`"
+                include_reverse: true
+        -
+                uid: 3
+                front: Single character string syntax
+                back: "`?x`"
+                include_reverse: true

@@ -1,0 +1,50 @@
+uid_tag: psychology
+notes:
+        -
+                uid: 1
+                front: Kubler-Ross model
+                back: 5-stage grief model. Denial, anger, bargaining, depression, acceptance.
+        -
+                uid: 2
+                front: 5-stage grief model
+                back: Kubler-Ross model. Denial, anger, bargaining, depression, acceptance.
+        -
+                uid: 3
+                front: Alexithymia
+                back:
+                        \"No words for emotions\". The distinguishing factor was their
+                        inability to elaborate beyond a few limited adjectives such
+                        as \"happy\" or \"unhappy\" when describing their feelings.
+                        The core issue is that alexithymics have poorly differentiated
+                        emotions limiting their ability to distinguish and describe
+                        them to others. This contributes to the sense of emotional
+                        detachment from themselves and difficulty connecting with
+                        others, making alexithymia negatively associated with life
+                        satisfaction even when depression and other confounding factors
+                        are controlled for.
+        -
+                uid: 4
+                front: Cluster A personality disorders
+                back: Paranoid ("accusatory"), schizoid ("aloof"), schizotypical ("awkward")
+        -
+                uid: 5
+                front: Cluster B personality disorders
+                back: Antisocial, borderline, histrionic, narcissistic personality disorder
+                include_reverse: true
+        -
+                uid: 6
+                front: Cluster C personality disorders
+                back: Avoidant ("cowardly"), obsessive-compulsive ("compulsive"), dependent ("clingy")
+        -
+                uid: 7
+                front: Egosyntronic
+                back: Behaviors, values and feelings that are in harmony with the needs and goals of the ego, consistent of one's ideal self-image. Many personality disorders are egosyntronic.
+                include_reverse: true
+        -
+                uid: 8
+                front: Egodystronic
+                back: Inconsistent with ideal self-image.
+                include_reverse: true
+
+# TODO: schizoid personality disorder?
+# TODO: schizotypical personality disorder?

@@ -1,0 +1,11 @@
+topic: JavaScript
+uid_tag: cs/languages/js
+notes:
+        -
+                uid: 1
+                front: sir-trevor-js
+                back: Block-based editor, used in Represent.com
+        -
+                uid: 2
+                front: Labella.js
+                back: Places labels without overlapping (https://twitter.github.io/labella.js/)

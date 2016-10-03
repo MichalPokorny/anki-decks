@@ -1,0 +1,48 @@
+uid_tag: math
+notes:
+        -
+                uid: 1
+                front: Logistic function
+                back: AKA sigmoid. $f(x)=(1+e^{-\lambda x})^{-1}$
+        -
+                uid: 2
+                front: Wedderburn theorem
+                back: Every finite field is commutative
+        -
+                uid: 3
+                front: BBP-type formula
+                back:
+                        Bailey-Borwein-Plouffe formula. Computes n-th binary digit of pi using base 16 math.
+                        Can directly calculate some digit of pi without calculating preceding digits.
+                        Since this discovery, many formulas for other irrational constants have been discovered of the general form.
+                        Formulas in this form are known as BBP-type formulas.
+                        [latex]
+                        \pi = \sum_{k = 0}^{\infty}\left[ \frac{1}{16^k} \left( \frac{4}{8k + 1} - \frac{2}{8k + 4} - \frac{1}{8k + 5} - \frac{1}{8k + 6} \right) \right]
+                        [/latex]
+
+                        https://wikimedia.org/api/rest_v1/media/math/render/svg/af6bc360851499dd2ab2a90bee03fbe2040089d5
+        -
+                uid: 4
+                front: Skolem paradox
+                back: ZF set theory has a countable model
+        -
+                uid: 5
+                front: Goodstein theorem
+                back: Goodstein theorem is a statement about natural numbers which states that every Goodstein sequence eventually terminates at 0. Unprovable in Peano arithmetic, but can be proven in stronger systems, e.g. second order arithmetic.
+        -
+                uid: 6
+                front: Brouwer theorem
+                back: Brouwer fixed-point theorem: for any continuous f mapping a compact convex set into itself has a fixed point
+        -
+                uid: 7
+                front: Holden Karnofsky
+                back: Executive Director of Open Philanthropy Project. Previously one of MIRI's critics.
+        -
+                uid: 8
+                front: Creative incompetence
+                back: "Against Parkinson\'s law.  \"Create the impression that you have reached your level of incompetence.\""
+        -
+                uid: 9
+                front: Subject-object interview
+                back: Detects Kegan's stage of social maturity
+# TODO: Kegan's stages

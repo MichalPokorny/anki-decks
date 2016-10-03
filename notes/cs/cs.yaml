@@ -1,0 +1,39 @@
+uid_tag: cs
+notes:
+        -
+                uid: 1
+                front: Spigot algorithm
+                back:
+                        Algorithm for computing the value of a constant such as pi or e which generates digits left to right with limited intermediate storage.
+        -
+                uid: 2
+                front: Steiner tree
+                back: Similar to planar MST, but I can add new vertices. NP-complete.
+        -
+                uid: 3
+                front: CAP theorem
+                back: Cannot have consistency & availability & partition tolerance
+        -
+                uid: 4
+                front: Chicken bits
+                back: CPU fuses for disabling risky features.
+        -
+                uid: 5
+                front: Cyclomatic complexity
+                back: "In basic block graph: E - V + 2P (P = function exit point)"
+        -
+                uid: 6
+                front: SMACSS
+                back: Scalable and Modular Architecture for CSS
+        -
+                uid: 7
+                front: Sidekiq
+                back: Ruby queue
+        -
+                uid: 8
+                front: '0mq'
+                back: Zero-MQ. Queue for intel-language communication.
+        -
+                uid: 9
+                front: Bazel
+                back: Google's build tool, open-source Blaze

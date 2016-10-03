@@ -1,6 +1,7 @@
 #!/usr/bin/python2
 import markdown
 import yaml
+import glob
 import subprocess
 import os
 import csv
@@ -33,9 +34,7 @@ def load_notes_to_import():
     uids = set()
 
     my_notes = []
-    for path in ['notes/git.yaml', 'notes/cards.yaml',
-                 'notes/ruby_ops.yaml', 'notes/terms.yaml',
-                 'notes/vim.yaml']:
+    for path in glob.glob('notes/**/*.yaml'):
         with open(path) as yf:
             data = yaml.load(yf)
 
@@ -100,7 +99,7 @@ for note_id in note_ids:
     if note.model()['id'] != model['id']:
         continue
 
-    front, back, add_reverse, origin_file, uid, git_revision = note.fields
+    uid, topic, front, back, add_reverse, origin_file, git_revision = note.fields
     got_uids.add((origin_file, uid))
 
 print 'Already got UIDs:', got_uids

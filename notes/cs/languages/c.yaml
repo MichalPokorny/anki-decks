@@ -1,0 +1,26 @@
+topic: C
+uid_tag: cs/languages/c
+notes:
+        -
+                uid: 1
+                front: "`freopen`"
+                back: "`FILE* freopen(const char *path, const char *mode, FILE *stream);` - e.g. `freopen(\"soubor.in:\", \"r\", stdin);`"
+        -
+                uid: 2
+                front: "`erf`"
+                back: Gauss distribution error function
+                include_reverse: true
+        -
+                uid: 3
+                front: "`free` behavior on `NULL`"
+                back: OK. If `ptr` is `NULL`, no operation is performed.
+        -
+                uid: 4
+                front: GCC - destroy some identifier(s) forever
+                back: "`#pragma GCC poison (identifiers)`"
+                include_reverse: true
+        -
+                uid: 5
+                front: GCC - warn on misleading indentation
+                back: "`gcc -Wmisleading-intentation`"
+                include_reverse: true

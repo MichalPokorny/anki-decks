@@ -1,0 +1,23 @@
+topic: Readline/Bash
+uid_tag: readline
+notes:
+        -
+                uid: 1
+                front: Jump forward by 1 word
+                back: "`C-f`"
+                include_reverse: true
+        -
+                uid: 2
+                front: Jump backward by 1 word
+                back: "`C-b`"
+                include_reverse: true
+        -
+                uid: 3
+                front: Go to start of line
+                back: "`C-a`"
+                include_reverse: true
+        -
+                uid: 4
+                front: Go to end of line
+                back: "`C-e`"
+                include_reverse: true

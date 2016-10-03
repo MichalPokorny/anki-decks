@@ -1,0 +1,20 @@
+topic: Python
+uid_tag: cs/languages/python
+notes:
+        -
+                uid: 1
+                front: What is falsey?
+                back: "`False`, `None`, `[]`, `{}`, `()`, `\"\"`, `0`"
+        -
+                uid: 2
+                front: Mapping over multiple sequences
+                back: "`map(fn, seq1, seq2, ...)` - works like `zip`"
+        -
+                uid: 3
+                front: "`assert`"
+                back: Does not omit instructions when optimized into bytecode (as in C)
+        -
+                uid: 4
+                front: List all methods of module
+                back: "`import zlib; dir(slib)`"
+                include_reverse: true
