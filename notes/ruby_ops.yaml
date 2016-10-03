@@ -1,0 +1,98 @@
+topic: Ruby ops pronounciation
+uid_tag: ruby_ops
+notes:
+        -
+                uid: 1
+                front: =>
+                back: Hashrocket
+                include_reverse: true
+        -
+                uid: 2
+                front: <=>
+                back: Spaceship
+                include_reverse: true
+        -
+                uid: 3
+                front: Threequals
+                back: ===
+                include_reverse: true
+        -
+                uid: 4
+                front: Twiddle-wakka
+                back: ~>
+                include_reverse: true
+        -
+                uid: 5
+                front: Stabby lambda
+                back: ->
+                include_reverse: true
+        -
+                uid: 6
+                front: Spiral
+                back: "`@`"
+                include_reverse: true
+        -
+                uid: 7
+                front: Splat
+                back: "`*`"
+                include_reverse: true
+        -
+                uid: 8
+                front: Octothorpe
+                back: "`#`"
+                include_reverse: true
+        -
+                uid: 9
+                front: Skull tag
+                back: "`<%=`"
+                include_reverse: true
+        -
+                uid: 10
+                front: Crab claws
+                back: "`#{}`"
+                include_reverse: true
+        -
+                uid: 11
+                front: "`?:`"
+                back: Elvis
+                include_reverse: true
+        -
+                uid: 12
+                front: Shovel
+                back: "`<<`"
+                include_reverse: true
+        -
+                uid: 13
+                front: Constellation
+                back: "`**`"
+                include_reverse: true
+        -
+                uid: 14
+                front: Equalike
+                back: =~
+                include_reverse: true
+        -
+                uid: 15
+                front: Hat
+                back: ^
+                include_reverse: true
+        -
+                uid: 16
+                front: Pretzel
+                back: "`&`"
+                include_reverse: true
+        -
+                uid: 17
+                front: /
+                back: Whack
+                include_reverse: true
+        -
+                uid: 18
+                front:  _
+                back: Blank
+                include_reverse: true
+        -
+                uid: 19
+                front: "`||=`"
+                back: T-square
+                include_reverse: true

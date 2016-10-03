@@ -14,11 +14,14 @@ def get_git_revision():
     return subprocess.check_output(['git', 'rev-parse', 'HEAD']).strip()
 
 class Note(object):
-    def __init__(self, origin_file, uid, include_reverse, front, back,
+    def __init__(self, origin_file, uid, include_reverse,
+                 topic,
+                 front, back,
                  git_revision):
         self.origin_file = origin_file
         self.uid = uid
         self.include_reverse = include_reverse
+        self.topic = topic
         self.front = front
         self.back = back
         self.git_revision = git_revision
@@ -30,14 +33,24 @@ def load_notes_to_import():
     uids = set()
 
     my_notes = []
-    for path in ['cards/git.yaml', 'cards/cards.yaml',
-                 'cards/ruby_ops.yaml', 'cards/terms.yaml',
-                 'cards/vim.yaml']:
+    for path in ['notes/git.yaml', 'notes/cards.yaml',
+                 'notes/ruby_ops.yaml', 'notes/terms.yaml',
+                 'notes/vim.yaml']:
         with open(path) as yf:
             data = yaml.load(yf)
 
-        for note_row in data:
-            origin_file, uid = unicode(path), unicode(str(note_row['uid']))
+        if 'uid_tag' in data:
+            uid_tag = data['uid_tag'] + '/'
+        else:
+            uid_tag = ''
+
+        if 'topic' in data:
+            topic = data['topic']
+        else:
+            topic = ''
+
+        for note_row in data['notes']:
+            origin_file, uid = unicode(path), unicode(uid_tag + str(note_row['uid']))
             if uid in uids:
                 raise Exception("Duplicated UID:" + str(uid))
             uids.add(uid)
@@ -48,6 +61,10 @@ def load_notes_to_import():
             else:
                 include_reverse = False
 
+            note_topic = topic
+            if 'topic' in note_row:
+                note_topic = note_row['topic']
+
             front = markdown.markdown(unicode(note_row['front']))
             back = markdown.markdown(unicode(note_row['back']))
 
@@ -55,6 +72,7 @@ def load_notes_to_import():
                 origin_file = origin_file,
                 uid = uid,
                 include_reverse = include_reverse,
+                topic = note_topic,
                 front = front,
                 back = back,
                 git_revision = git_revision
@@ -72,7 +90,6 @@ deck_id = deck['id']
 #collection.decks.get(deck_id)
 collection.decks.select(deck_id)
 
-# model = collection.models.byName("Basic (and reversed card) - synchronized with anki-decks")
 model = collection.models.byName("Basic (and reversed card) - synchronized with anki-decks")
 
 got_uids = set()
@@ -96,14 +113,16 @@ with open(csv_file, 'w') as f:
         if (note.origin_file, note.uid) in got_uids:
             print 'Not adding:', origin_file, uid
             continue
-        # (front) (back) (add-reverse) (origin-file) (uid) (git-revision)
-
         # TODO: Rewrite as in anki.importing.noteimp
 
         row = '\t'.join(
-            [note.front, note.back,
-             'true' if note.include_reverse else '',
-             note.origin_file, note.uid, note.git_revision]
+            [
+                note.uid,
+                note.topic,
+                note.front, note.back,
+                 'true' if note.include_reverse else '',
+                 note.origin_file, note.git_revision
+            ]
         )
         print row
         f.write(row.encode('utf-8') + '\n')

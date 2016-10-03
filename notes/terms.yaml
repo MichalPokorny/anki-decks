@@ -1,0 +1,74 @@
+topic: English terms
+uid_tag: terms
+notes:
+        -
+                uid: 1
+                front: Parthian shot
+                back: Incorrectly "parting shot". Barbed insult as its speaker departs.
+        -
+                uid: 2
+                front: Barbed insult as its speaker departs
+                back: Parthian shot
+        -
+                uid: 3
+                front: Maverick
+                back: Unorthodox/independent-minded person; a person who refuses to follow the customs or rules of a group
+                include_reverse: true
+        -
+                uid: 4
+                front: Make do
+                back: to survive, get by with, or use whatever is available (due to lack of resources)
+                include_reverse: true
+        -
+                uid: 5
+                front: In-joke
+                back: In-group joke
+        -
+                uid: 6
+                front: Foregone conclusion
+                back: A result that can be predicted with certainty
+                include_reverse: true
+        -
+                uid: 79
+                front: Abut
+                back: To border (something) -- "neighboring social classes socially abut"
+        -
+                uid: 80
+                front: To border (something) -- "neighboring social classes socially [...]"
+                back: Abut
+        -
+                uid: 81
+                front: Pronounciation of event
+                back: /ɪˈvɛnt/
+        -
+                uid: 82
+                front: Something consumed
+                back: Consumption
+        -
+                uid: 84
+                front: Parsimony
+                back: The quality of being very unwilling to spend money
+                include_reverse: true
+        -
+                uid: 85
+                front: Overton window
+                back: Range of ideas the public will accept.
+                include_reverse: true
+        -
+                uid: 86
+                front: Trotskyism
+                back: A few coordinated smart people in the right place can seize organizations
+                include_reverse: true
+        -
+                uid: 87
+                front: Panglossian
+                back: "Naively/unreasonably optimistic (Pangloss: character in Voltaire's Candide)"
+        -
+                uid: 89
+                front: Panglossian
+                back: Naively/unreasonably optimistic
+        -
+                uid: 88
+                front: Pet peeve
+                back: Minor annoyance that an individual identifies as particularly annoying
+                include_reverse: true

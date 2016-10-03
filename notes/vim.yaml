@@ -1,0 +1,53 @@
+topic: Vim
+uid_tag: vim
+notes:
+        -
+                uid: 1
+                front: Increment/decrement current number
+                back: C-a, C-x
+        -
+                uid: 2
+                front: Move one paragraph forward/backward
+                back: "`{}`"
+        -
+                uid: 3
+                front: Move one sentence forward/backward
+                back: "`()`"
+        -
+                uid: 4
+                front: Change to other end of selection in visual mode
+                back: "`o`"
+        -
+                uid: 5
+                front: Insert output of command
+                back: "`:read !ls /home`"
+        -
+                uid: 6
+                front: Create mark
+                back: '`mX` (`X` = mark name)'
+        -
+                uid: 7
+                front: Go to mark
+                back: "`'X` (`X` = mark name)"
+        -
+                uid: 8
+                front: Start and open a window for each file
+                back: "`vim -o ...`"
+                include_reverse: true
+        -
+                uid: 12
+                front: Start and open a window for each file, split vertically
+                back: "`vim -O ...`"
+                include_reverse: true
+        -
+                uid: 9
+                front: Revive selection
+                back: "`gv`"
+        -
+                uid: 10
+                front: Run filter command over buffer
+                back: "`:%!command`"
+        -
+                uid: 11
+                front: Insert file content here
+                back: "`:read (file)` -- aka `:r (file)`"
