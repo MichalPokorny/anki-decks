@@ -10,6 +10,57 @@ sys.path.append('/usr/share/anki')
 import anki
 import anki.importing
 
+def get_git_revision():
+    return subprocess.check_output(['git', 'rev-parse', 'HEAD']).strip()
+
+class Note(object):
+    def __init__(self, origin_file, uid, include_reverse, front, back,
+                 git_revision):
+        self.origin_file = origin_file
+        self.uid = uid
+        self.include_reverse = include_reverse
+        self.front = front
+        self.back = back
+        self.git_revision = git_revision
+
+def load_notes_to_import():
+    git_revision = get_git_revision()
+    print 'git rev:', git_revision
+
+    uids = set()
+
+    my_notes = []
+    for path in ['cards/git.yaml', 'cards/cards.yaml',
+                 'cards/ruby_ops.yaml', 'cards/terms.yaml',
+                 'cards/vim.yaml']:
+        with open(path) as yf:
+            data = yaml.load(yf)
+
+        for note_row in data:
+            origin_file, uid = unicode(path), unicode(str(note_row['uid']))
+            if uid in uids:
+                raise Exception("Duplicated UID:" + str(uid))
+            uids.add(uid)
+            print (origin_file, uid)
+            # (front) (back) (add-reverse) (origin-file) (uid) (git-revision)
+            if 'include_reverse' in note_row:
+                include_reverse = note_row['include_reverse']
+            else:
+                include_reverse = False
+
+            front = markdown.markdown(unicode(note_row['front']))
+            back = markdown.markdown(unicode(note_row['back']))
+
+            my_notes.append(Note(
+                origin_file = origin_file,
+                uid = uid,
+                include_reverse = include_reverse,
+                front = front,
+                back = back,
+                git_revision = git_revision
+            ))
+    return my_notes
+
 collection_path = '/home/prvak/dropbox/anki/User 1/collection.anki2'
 cwd = os.getcwd()
 collection = anki.Collection(collection_path)
@@ -37,35 +88,25 @@ for note_id in note_ids:
 
 print 'Already got UIDs:', got_uids
 
+my_notes = load_notes_to_import()
 csv_file = 'import_dump.csv'
 added = 0
-with open(csv_file, 'wb') as f:
-    path = 'cards/git.yaml'
-
-    with open(path) as yf:
-        data = yaml.load(yf)
-
-    git_revision = subprocess.check_output(['git', 'rev-parse', 'HEAD']).strip()
-    print 'git rev:', git_revision
-
-    writer = csv.writer(f, delimiter='\t')
-    for x in data:
-        origin_file, uid = unicode(path), unicode(str(x['uid']))
-        print (origin_file, uid)
-        if (origin_file, uid) in got_uids:
+with open(csv_file, 'w') as f:
+    for note in my_notes:
+        if (note.origin_file, note.uid) in got_uids:
             print 'Not adding:', origin_file, uid
             continue
         # (front) (back) (add-reverse) (origin-file) (uid) (git-revision)
-        if x['include_reverse']:
-            include_reverse = 'true'
-        else:
-            include_reverse = ''
 
-        front = markdown.markdown(x['front'])
-        back = markdown.markdown(x['back'])
+        # TODO: Rewrite as in anki.importing.noteimp
 
-        writer.writerow([front, back, include_reverse,
-                         origin_file, uid, git_revision])
+        row = '\t'.join(
+            [note.front, note.back,
+             'true' if note.include_reverse else '',
+             note.origin_file, note.uid, note.git_revision]
+        )
+        print row
+        f.write(row.encode('utf-8') + '\n')
         added += 1
 
 
