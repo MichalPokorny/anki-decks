@@ -1,33 +1,65 @@
 -
+        uid: 1
         front: Generate fixup commit that can be autosquashed
-        back: git commit --fixup=HEAD, then git rebase --autosquash
+        back: '`git commit --fixup=HEAD`'
+        include_reverse: true
 -
+        uid: 13
+        front: Automatically squash fixup commits
+        back: '`git rebase --autosquash`'
+        include_reverse: true
+-
+        uid: 2
         front: Show content of file at some revision
-        back: git show commitish:filename
+        back: '`git show commitish:filename`'
+        include_reverse: true
 -
+        uid: 3
         front: Store object into object database
-        back: echo 'hello world' | git hash-object -w --stdin
+        back: '`echo "hello world" | git hash-object -w --stdin`'
+        include_reverse: true
 -
+        uid: 4
         front: Get content of object
-        back: git cat-file -p (sha1)
+        back: '`git cat-file -p (sha1)`'
+        include_reverse: true
 -
+        uid: 5
         front: Diff word-by-word
         back: "`git diff --word-diff`"
+        include_reverse: true
 -
+        uid: 6
         front: Get representation with tag and current commit
         back: '`git describe` -- "2.0.0-125-gc7d7c65"'
+        include_reverse: false
 -
+        uid: 7
         front: Push tags to remote
         back: "`git push origin --tags`"
+        include_reverse: true
 -
+        uid: 8
         front: Get branches merged into HEAD
         back: "`git branch --merged`"
+        include_reverse: true
 -
+        uid: 9
         front: Get branches, not including those merged into HEAD
         back: "`git branch --no-merged`"
+        include_reverse: true
 -
+        uid: 10
         front: Stage hunk-by-hunk
         back: "`git add -p`"
+        include_reverse: true
 -
+        uid: 11
         front: Pull and try to rebase atop updated upstream
         back: "`git pull --rebase`"
+        include_reverse: true
+-
+        uid: 12
+        front: Get working directory
+        back: "`git rev-parse --show-toplevel`"
+        include_reverse: true
