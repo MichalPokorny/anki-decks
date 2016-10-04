@@ -71,3 +71,8 @@ notes:
                 front: Pull, but don't create merge commit or rebase.
                 back: '`git pull --ff-only`'
                 include_reverse: true
+        -
+                uid: 15
+                front: Forcefully push, but only if remote's branch hasn't moved forward from my snapshot of it.
+                back: "`git push --force-with-lease`"
+                include_reverse: true
