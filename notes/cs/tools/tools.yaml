@@ -276,3 +276,8 @@ notes:
                 uid: 56
                 front: Start SMART tests and read results
                 back: "`smartctl -c /dev/sda (-t short|long|conveyance)`"
+        -
+                uid: 57
+                front: Silverlight for Firefox & Linux
+                back: Pipelight
+                include_reverse: true
