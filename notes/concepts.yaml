@@ -1,0 +1,18 @@
+notes:
+        -
+                uuid: 5108d231-f374-48f9-b35b-ef641163a059
+                front: Chesterson's fence
+                back: Don't tear down the fence if you don't know why is the fence there. (From The Drift from Domesticity by G. K. Chesterson)
+        -
+                uuid: 8c3bb058-e274-42a6-838f-fda4f6d737e1
+                front: Don't tear down things you don't understand
+                back: Chesterson's fence
+        -
+                uuid: 6f886fdb-1e2c-4882-849a-b94cb75832f9
+                front: Overton window
+                back: Range of ideas the public will accept.
+                include_reverse: true
+        -
+                uuid: 8b87e9a7-a52f-4392-bafc-949d6f3c2394
+                front: Creative incompetence
+                back: "Against Parkinson\'s law.  \"Create the impression that you have reached your level of incompetence.\""
