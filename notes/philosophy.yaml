@@ -1,0 +1,14 @@
+deck: Philosophy
+notes:
+        -
+                uuid: 52cfdda7-5ce1-4cd6-bd66-d80ee78ef122
+                front: Hedonism
+                back: Ethical theory that claims good and bad == pleasure and pain
+        -
+                uuid: d3414442-098c-4aad-91b3-edc6e2e99bdf
+                front: Holism
+                back: Theory that parts of a whole are in intimate interconnection, such that they cannot exist independently of the whole
+        -
+                uuid: 9c11e872-ea5c-4c12-8c77-18b6e9043ebf
+                front: Bad faith
+                back: A refusal to accept the absurd (existentialism)

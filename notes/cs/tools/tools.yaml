@@ -1,4 +1,5 @@
 topic: Tools
+deck: CS::Tools
 uid_tag: tools
 notes:
         -
@@ -281,4 +282,35 @@ notes:
                 front: Silverlight for Firefox & Linux
                 back: Pipelight
                 include_reverse: true
+        -
+                uuid: eb31c6c9-3331-4380-ac69-dd05ceda735b
+                front: "`gopherjs`"
+                back: Go to JavaScript compiler
+                include_reverse: true
+        -
+                uuid: aa74bcfa-3e5e-4952-8636-175de541ef47
+                front: Keybase
+                back: Identity proof/key sharing site. Keybase.io
+        -
+                uuid: 4c34d929-09b9-4b82-9904-fd2b949a63cd
+                front: OpenShift
+                back: Red Hat's web app hosting platform. Includes Go support.
+        -
+                uuid: 11ba1433-070a-4766-a7b4-a298221c72c2
+                front: Wikidata
+                back: Wikipedia formalization in RDF form, with statements and quantifiers (sources)
+                include_reverse: true
+        -
+                uuid: 27d7031e-6ad3-429b-8912-5f8a6223fa3e
+                front: Regex - Zero-width look-ahead assertion
+                back: "`(?=regex...)`"
+        -
+                uuid: 3c5817e0-8c5d-41f5-8f57-8fff308c3a62
+                front: Whiteout in PowerPoint
+                back: "`w`"
+        -
+                uuid: f6e28468-b92d-44e1-b082-25f2cc7837d5
+                front: Blackout in PowerPoint
+                back: "`b`"
 # TODO: how to show specific man page? list of available ones?
+# TODO: whiteout, blackout in Google Docs

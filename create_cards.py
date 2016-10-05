@@ -1,6 +1,7 @@
 #!/usr/bin/python2
 
 # TODO: Remove notes no longer linked to any UID
+# TODO: Import to specific decks
 
 import markdown
 import yaml

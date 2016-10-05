@@ -1,3 +1,4 @@
+deck: Concepts
 notes:
         -
                 uuid: 5108d231-f374-48f9-b35b-ef641163a059
@@ -16,3 +17,21 @@ notes:
                 uuid: 8b87e9a7-a52f-4392-bafc-949d6f3c2394
                 front: Creative incompetence
                 back: "Against Parkinson\'s law.  \"Create the impression that you have reached your level of incompetence.\""
+        -
+                uuid: a8d47460-65a9-4146-8277-5f94e35f2d86
+                front: Principal-agent problem
+                back:
+                        AKA agency dilemma. Occurs when one person/entity ("agent") is
+                        able to make decisions on behalf of "principal". Exists when
+                        agent is motivated to act in his own interests, which are
+                        contrary to those of the principal. Example of moral hazard.
+        -
+                uuid: 1c8f3107-81f2-4aac-bfab-9435ef220835
+                front: Goodhart's law
+                back: When a measure becomes a target, it ceases to be a good measure
+                include_reverse: true
+        -
+                uuid: a743fbe1-0d8b-4b12-91ff-a1475a90e70d
+                front: Von Neumann-Morgenstern theorem
+                back: Rational decisions are utility maximization
+                include_reverse: true

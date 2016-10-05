@@ -1,3 +1,4 @@
+deck: Various
 notes:
         -
                 uuid: 06028ad9-916e-4d85-a0f9-53b1392bd215
@@ -12,26 +13,6 @@ notes:
                 front: PE ratio
                 back: Price/earnings
         -
-                uuid: 52cfdda7-5ce1-4cd6-bd66-d80ee78ef122
-                front: Hedonism
-                back: Ethical theory that claims good and bad == pleasure and pain
-        -
-                uuid: e9f2ca8e-bb3c-4589-9871-840ca975b8c2
-                front: ZooKeeper
-                back: Hadoop's hierarchical key-value store (Chubby)
-        -
-                uuid: 970768dd-fa5f-4760-8211-5237ddc32ba4
-                front: HBase
-                back: Hadoop BigTable
-        -
-                uuid: a8d47460-65a9-4146-8277-5f94e35f2d86
-                front: Principal-agent problem
-                back:
-                        AKA agency dilemma. Occurs when one person/entity ("agent") is
-                        able to make decisions on behalf of "principal". Exists when
-                        agent is motivated to act in his own interests, which are
-                        contrary to those of the principal. Example of moral hazard.
-        -
                 uuid: e09572ed-5ce5-42a9-a1bb-7de6791a96cb
                 front: APR
                 back: Annual percentage rate = daily rate * 365. Effective APR = daily rate ^ 365.
@@ -39,10 +20,6 @@ notes:
                 uuid: e252195b-34d7-4912-b50b-2b4350c36f06
                 front: NAV
                 back: Net asset value
-        -
-                uuid: 1c8f3107-81f2-4aac-bfab-9435ef220835
-                front: Goodhart's law
-                back: When a measure becomes a target, it ceases to be a good measure
         -
                 uuid: 0022a3bd-846d-47bf-acb3-3565ec4d8fa8
                 front: Integrated circuit die
@@ -56,21 +33,9 @@ notes:
                 front: US work visa
                 back: H-1b (NOT H1-B)
         -
-                uuid: d3414442-098c-4aad-91b3-edc6e2e99bdf
-                front: Holism
-                back: Theory that parts of a whole are in intimate interconnection, such that they cannot exist independently of the whole
-        -
-                uuid: c6d30a76-baf0-4289-92fc-35308710655b
-                front: Hugh Everett
-                back: Father of many-worlds interpretation
-        -
                 uuid: 9c64e22c-5623-4d3b-b617-cc021a798c51
                 front: Mute in Google Inbox
                 back: Alt-M; press & hold Done on mobile
-        -
-                uuid: 9c11e872-ea5c-4c12-8c77-18b6e9043ebf
-                front: Bad faith
-                back: A refusal to accept the absurd (existentialism)
         -
                 uuid: 6d53c521-6914-4be2-9458-bb3c40b19e55
                 front: RISUG
@@ -80,21 +45,9 @@ notes:
                 front: Summamed chemical
                 back: Azithromycin
         -
-                uuid: 3c5817e0-8c5d-41f5-8f57-8fff308c3a62
-                front: Whiteout in PowerPoint
-                back: "`w`"
-        -
-                uuid: f6e28468-b92d-44e1-b082-25f2cc7837d5
-                front: Blackout in PowerPoint
-                back: "`b`"
-        -
                 uuid: 164601ef-dcc2-4fe8-b646-86dc7219a5ef
                 front: Starfish Prime
                 back: US nuclear test; largest man-made explosion in outer space (1.4 MT TNT). Caused far larger EMP than expected - drove instrumentation off scale. Knocked out 300 streetlights in Hawaii (1445 km away), set off numerous burglar alarms.
-        -
-                uuid: fcfdf4e1-4df9-4f1e-ab04-dc01f5f68626
-                front: Shortest crashing C program
-                back: "`main;` (from `int main = 0;` ==> `main=0;` ==> `main;`)"
         -
                 uuid: 813a19ad-963b-4419-9f45-093549cfa6e9
                 front: Vandenberg AFB
@@ -103,11 +56,6 @@ notes:
                 uuid: 4c0d4f23-49c7-45d8-a4b0-288d5f164245
                 front: E-prime
                 back: 'English without any form of "to be"'
-        -
-                uuid: a743fbe1-0d8b-4b12-91ff-a1475a90e70d
-                front: Von Neumann-Morgenstern theorem
-                back: Rational decisions are utility maximization
-                include_reverse: true
         -
                 uuid: ba1d7a7a-d46d-4648-8854-59220ec47509
                 front: Predict app
@@ -121,33 +69,11 @@ notes:
                 front: Plumbing and porcelain
                 back: Plumbing: backend. Analogy with house plumbing.
         -
-                uuid: eb31c6c9-3331-4380-ac69-dd05ceda735b
-                front: "`gopherjs`"
-                back: Go to JavaScript compiler
-                include_reverse: true
-        -
-                uuid: aa74bcfa-3e5e-4952-8636-175de541ef47
-                front: Keybase
-                back: Identity proof/key sharing site. Keybase.io
-        -
                 uuid: 14e59d8c-bfcb-4954-9744-f2dbd15eaba3
                 front: Crystal language
                 back: Ruby-like language compiling to C
                 include_reverse: true
         -
-                uuid: 4c34d929-09b9-4b82-9904-fd2b949a63cd
-                front: OpenShift
-                back: Red Hat's web app hosting platform. Includes Go support.
-        -
-                uuid: 11ba1433-070a-4766-a7b4-a298221c72c2
-                front: Wikidata
-                back: Wikipedia formalization in RDF form, with statements and quantifiers (sources)
-                include_reverse: true
-        -
                 uuid: 414855d2-95cf-499e-86e0-260cc9353fb3
                 front: Miracleberry
                 back: Switches sour to sweet for ~20 minutes.
-        -
-                uuid: 27d7031e-6ad3-429b-8912-5f8a6223fa3e
-                front: Regex - Zero-width look-ahead assertion
-                back: "`(?=regex...)`"

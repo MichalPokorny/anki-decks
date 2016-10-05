@@ -1,4 +1,5 @@
 topic: C
+deck: CS::Languages::C
 uid_tag: cs/languages/c
 notes:
         -
@@ -28,3 +29,7 @@ notes:
                 uuid: be5643b2-4dc9-4a78-a704-0247a081f646
                 front: No-return header
                 back: "`#include <stdnoreturn.h>`; provides `noreturn` macro."
+        -
+                uuid: fcfdf4e1-4df9-4f1e-ab04-dc01f5f68626
+                front: Shortest crashing C program
+                back: "`main;` (from `int main = 0;` ==> `main=0;` ==> `main;`)"

@@ -1,0 +1,14 @@
+deck: Persons
+notes:
+        -
+                uuid: 46d58bf1-d509-4b94-aeab-2a1fff779864
+                front: Holden Karnofsky
+                back: Executive Director of Open Philanthropy Project. Previously one of MIRI's critics.
+        -
+                uuid: 2f4aa445-c7fe-447e-90b3-32d68835c0ee
+                front: Will MacAskill
+                back: Effective Altruism, 80k Hours founder. Formerly Will Crutch.
+        -
+                uuid: c6d30a76-baf0-4289-92fc-35308710655b
+                front: Hugh Everett
+                back: Father of many-worlds interpretation
