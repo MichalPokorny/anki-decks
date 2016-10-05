@@ -1,15 +1,15 @@
 uid_tag: psychology
 notes:
         -
-                uid: 1
+                uuid: ceb51e6f-19b0-4b00-82c4-78941568136b
                 front: Kubler-Ross model
                 back: 5-stage grief model. Denial, anger, bargaining, depression, acceptance.
         -
-                uid: 2
+                uuid: 44d455e7-0f24-4689-9308-d9355392cd16
                 front: 5-stage grief model
                 back: Kubler-Ross model. Denial, anger, bargaining, depression, acceptance.
         -
-                uid: 3
+                uuid: 5f00e9d2-85f1-49b0-bc5b-4a05282d36f9
                 front: Alexithymia
                 back:
                         \"No words for emotions\". The distinguishing factor was their
@@ -23,27 +23,32 @@ notes:
                         satisfaction even when depression and other confounding factors
                         are controlled for.
         -
-                uid: 4
+                uuid: 3b03c222-adaf-4cc2-9235-41a357dc54db
                 front: Cluster A personality disorders
                 back: Paranoid ("accusatory"), schizoid ("aloof"), schizotypical ("awkward")
         -
-                uid: 5
+                uuid: 8c885142-3b8e-4fd9-b982-f34061750073
                 front: Cluster B personality disorders
                 back: Antisocial, borderline, histrionic, narcissistic personality disorder
                 include_reverse: true
         -
-                uid: 6
+                uuid: 6739e1d5-b844-4b9e-aca9-e6a055bdc47a
                 front: Cluster C personality disorders
                 back: Avoidant ("cowardly"), obsessive-compulsive ("compulsive"), dependent ("clingy")
         -
-                uid: 7
+                uuid: c1ecc733-112c-4095-beee-e6d7815d11a8
                 front: Egosyntronic
                 back: Behaviors, values and feelings that are in harmony with the needs and goals of the ego, consistent of one's ideal self-image. Many personality disorders are egosyntronic.
                 include_reverse: true
         -
-                uid: 8
+                uuid: 783af68e-fe9a-4bf6-a6e0-1079f8edb231
                 front: Egodystronic
                 back: Inconsistent with ideal self-image.
+                include_reverse: true
+        -
+                uuid: b87c242e-24b8-4341-b85f-807b5790b91d
+                front: Subject-object interview
+                back: Detects Kegan's stage of social maturity
                 include_reverse: true
 
 # TODO: schizoid personality disorder?

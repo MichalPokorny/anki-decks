@@ -2,19 +2,19 @@ topic: Python
 uid_tag: cs/languages/python
 notes:
         -
-                uid: 1
+                uuid: a1e179ac-fc29-41fd-ba81-e61b7d436604
                 front: What is falsey?
                 back: "`False`, `None`, `[]`, `{}`, `()`, `\"\"`, `0`"
         -
-                uid: 2
+                uuid: 94c196a9-e9c1-49f4-8ac4-a5a3f25e7d73
                 front: Mapping over multiple sequences
                 back: "`map(fn, seq1, seq2, ...)` - works like `zip`"
         -
-                uid: 3
+                uuid: 8e6cb786-3554-488d-8973-567d01c23954
                 front: "`assert`"
                 back: Does not omit instructions when optimized into bytecode (as in C)
         -
-                uid: 4
+                uuid: 1a5945da-e19f-485b-a062-a2292e74a702
                 front: List all methods of module
                 back: "`import zlib; dir(slib)`"
                 include_reverse: true

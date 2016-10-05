@@ -2,21 +2,21 @@ topic: gdb
 uid_tag: gdb
 notes:
         -
-                uid: 1
+                uuid: 6bda51d7-59b3-4748-a02e-6058f7f7d896
                 front: Step single line
                 back: "`s` (`step`)"
                 include_reverse: true
         -
-                uid: 2
+                uuid: fe18cf8e-c742-46a7-a89b-2e6fb8573079
                 front: Step over this line
                 back: "`n` (`next`)"
                 include_reverse: true
         -
-                uid: 3
+                uuid: 837cd1b1-0f20-4440-a4d0-703e14d2f6ca
                 front: Continue execution
                 back: "`c` (`continue`)"
                 include_reverse: true
         -
-                uid: 4
+                uuid: a878ff41-625c-413d-a06b-5f58854c9a53
                 front: Show source around current line
                 back: "`l` (`list`)"

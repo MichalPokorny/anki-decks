@@ -2,6 +2,6 @@ topic: LaTeX
 uid_tag: cs/languages/latex
 notes:
         -
-                uid: 1
+                uuid: 5916f44c-facc-4fc7-80e9-b8be66cafd6a
                 front: TODO notes
                 back: "`\\usepackage{todonotes}`, then `\\todo{Oprav to!}`"

@@ -2,7 +2,7 @@ topic: LessWrong
 uid_prefix: lesswrong
 notes:
         -
-                uid: 1
+                uuid: 1
                 front: Basilisk counterarguments
                 back:
                         Ignoring acausal blackmail - the basilisk is about the use of negative incentives to influence my actions.

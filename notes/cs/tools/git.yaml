@@ -2,86 +2,86 @@ topic: Git
 uid_tag: git
 notes:
         -
-                uid: 1
+                uuid: debe7aa2-c154-41cf-863e-63b50ba1a1cf
                 front: Generate fixup commit that can be autosquashed
                 back: '`git commit --fixup=HEAD`'
                 include_reverse: true
         -
-                uid: 2
+                uuid: b8d543ba-4704-4e92-857f-dfa4c907289f
                 front: Show content of file at some revision
                 back: '`git show commitish:filename`'
                 include_reverse: true
         -
-                uid: 3
+                uuid: d472a335-9fca-4ecc-8058-e6163d02f291
                 front: Store object into object database
                 back: '`echo "hello world" | git hash-object -w --stdin`'
                 include_reverse: true
         -
-                uid: 4
+                uuid: 0e91430b-f9b3-45b3-966f-820844aecad3
                 front: Get content of object
                 back: '`git cat-file -p (sha1)`'
                 include_reverse: true
         -
-                uid: 5
+                uuid: 887376d3-92a5-4bff-af26-c4e734bbc0a3
                 front: Diff word-by-word
                 back: "`git diff --word-diff`"
                 include_reverse: true
         -
-                uid: 6
+                uuid: ca95a87b-82eb-465a-8fb2-9f9b6332f0e4
                 front: Get representation with tag and current commit
                 back: '`git describe` -- "2.0.0-125-gc7d7c65"'
                 include_reverse: false
         -
-                uid: 7
+                uuid: ed5ed1c5-b579-4e7f-8167-b215cc810ce2
                 front: Push tags to remote
                 back: "`git push origin --tags`"
                 include_reverse: true
         -
-                uid: 8
+                uuid: 16b7da2d-a29c-453b-8c70-6719b38b3f34
                 front: Get branches merged into HEAD
                 back: "`git branch --merged`"
                 include_reverse: true
         -
-                uid: 9
+                uuid: 00432758-f124-4326-b3aa-9180e4bf09c7
                 front: Get branches, not including those merged into HEAD
                 back: "`git branch --no-merged`"
                 include_reverse: true
         -
-                uid: 10
+                uuid: d8477c07-fbd0-43a9-9d00-d9ea91722596
                 front: Stage hunk-by-hunk
                 back: "`git add -p`"
                 include_reverse: true
         -
-                uid: 11
+                uuid: 1265ccce-f372-45cd-bad1-f082acb9b0ff
                 front: Pull and try to rebase atop updated upstream
                 back: "`git pull --rebase`"
                 include_reverse: true
         -
-                uid: 12
+                uuid: 71b25e0d-c7f8-432c-86c6-d6d292706b22
                 front: Get working directory
                 back: "`git rev-parse --show-toplevel`"
                 include_reverse: true
         -
-                uid: 13
+                uuid: b2349f81-3361-4d87-b90d-f5df5d9bde94
                 front: Automatically squash fixup commits
                 back: '`git rebase --autosquash`'
                 include_reverse: true
         -
-                uid: 14
+                uuid: 59172dea-b98c-40a4-ae6a-26f72d76993c
                 front: Pull, but don't create merge commit or rebase.
                 back: '`git pull --ff-only`'
                 include_reverse: true
         -
-                uid: 15
+                uuid: fcec5182-0cb0-41f3-82c0-c98303c65e0a
                 front: Forcefully push, but only if remote's branch hasn't moved forward from my snapshot of it.
                 back: "`git push --force-with-lease`"
                 include_reverse: true
         -
-                uid: 16
+                uuid: 73e03027-f05f-48ff-9cab-8fd78e3e4e01
                 front: Show diff in index
                 back: "`git diff --staged`"
                 include_reverse: true
         -
-                uid: 17
+                uuid: 3a0d545e-9f65-4a21-8aa7-9d2e9253a01a
                 front: List available diff tools
                 back: "`git difftool --tool-help`"

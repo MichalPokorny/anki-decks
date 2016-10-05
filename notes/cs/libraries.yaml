@@ -2,14 +2,14 @@ uid_tag: cs/libraries
 topic: Libraries
 notes:
         -
-                uid: 1
+                uuid: ebb48f9d-871c-4c9d-9643-a3bdeed59ac8
                 front: Google SparseHash
                 back: Highly optimized hash library
         -
-                uid: 2
+                uuid: cec5f480-46b8-4536-a19e-8b02530dd58d
                 front: OpenCV
                 back: Open computer vision library
         -
-                uid: 3
+                uuid: d1413cac-7e58-4da6-930c-0143ee59f479
                 front: assimp
                 back: Open Asset Import Library (for 3D models)

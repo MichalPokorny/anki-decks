@@ -2,54 +2,54 @@ topic: Ruby gems
 uid_tag: cs/languages/ruby/gems
 notes:
         -
-                uid: 1
+                uuid: 8cca1a5f-2cca-4780-8893-51fc4f1bfd42
                 front: Core duplication detector
                 back: "`flay`"
                 include_reverse: true
         -
-                uid: 2
+                uuid: d679de6e-d843-4a77-ad14-7995d40af3e9
                 front: Fuzz tester
                 back: "`heckle`"
                 include_reverse: true
         -
-                uid: 3
+                uuid: a2a940d3-2599-4a6c-87f0-aea0fd6d7c2c
                 front: Code complexity estimator
                 back: "`flog`"
         -
-                uid: 4
+                uuid: f613302b-0f8f-46bd-ba74-605cd2502ce2
                 front: English stemmer
                 back: "`fast-stemmer`"
         -
-                uid: 5
+                uuid: ccd58834-8054-4bb3-b9c3-b83f9b5f6e5f
                 back: Web automation
                 front: "`mechanize`"
                 include_reverse: true
         -
-                uid: 6
+                uuid: f5ebb7a0-8375-4c08-ac28-e17b0850bf4c
                 front: "`capybara`"
                 back: Web integration/acceptance tester
                 include_reverse: true
         -
-                uid: 7
+                uuid: 47ab2974-b46e-4c9d-964a-57043424c9ea
                 front: "`highline`"
                 back: CLI interface builder
                 include_reverse: true
         -
-                uid: 8
+                uuid: 46dc8cbb-5390-4646-b36f-89d29bca1a40
                 front: Pretty-printer gems
                 back: "`pp`", "`ap`"
                 include_reverse: true
         -
-                uid: 9
+                uuid: 5a031d14-0c09-40f1-b888-ba65561ef6b0
                 front: "`grit`"
                 back: Git library
                 include_reverse: true
         -
-                uid: 10
+                uuid: 5e9eb8b2-680f-41e4-858a-6f38c628d8cb
                 front: "`ribbit`"
                 back: libgit2 bindings library
                 include_reverse: true
         -
-                uid: 11
+                uuid: 969336d7-201f-455e-a278-5cf3134cc37e
                 front: "`rspec`"
                 back: Spec-driven testing

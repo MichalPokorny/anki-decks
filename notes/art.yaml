@@ -1,5 +1,11 @@
-tag: art
+uid_tag: art
 notes:
         -
+                uuid: 67702765-7cdf-4a86-ab46-0ed28f7f0786
                 front: Gerald Scarfe
                 back: Caricaturist, illustrator; Pink Floyd - The Wall
+        -
+                uuid: 83594d95-b2f3-4e12-a498-d3650d39f786
+                front: The Physical Impossibility of Death in the Mind of Someone Living
+                back: Work of art - shark in formaldehyde
+                include_reverse: true

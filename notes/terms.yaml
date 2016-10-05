@@ -2,91 +2,86 @@ topic: English terms
 uid_tag: terms
 notes:
         -
-                uid: 1
+                uuid: ebd0bd3a-24b2-4ab8-b969-90442607c2d1
                 front: Parthian shot
                 back: Incorrectly "parting shot". Barbed insult as its speaker departs.
         -
-                uid: 2
+                uuid: 79459005-8761-4e61-92a0-08f85fac284b
                 front: Barbed insult as its speaker departs
                 back: Parthian shot
         -
-                uid: 3
+                uuid: 43674e5c-729d-43bd-9afc-522887798488
                 front: Maverick
                 back: Unorthodox/independent-minded person; a person who refuses to follow the customs or rules of a group
                 include_reverse: true
         -
-                uid: 4
+                uuid: 50793e5f-65e3-4cf8-8e8b-a55e650e3699
                 front: Make do
                 back: to survive, get by with, or use whatever is available (due to lack of resources)
                 include_reverse: true
         -
-                uid: 5
+                uuid: 2e22a345-bae4-4da7-a6ba-265fd46419b3
                 front: In-joke
                 back: In-group joke
         -
-                uid: 6
+                uuid: 09802a2a-4905-445d-8e3c-8177f2daf4b3
                 front: Foregone conclusion
                 back: A result that can be predicted with certainty
                 include_reverse: true
         -
-                uid: 79
+                uuid: 834a6c70-0399-4ea5-bf3b-0873bc26f8c1
                 front: Abut
                 back: To border (something) -- "neighboring social classes socially abut"
         -
-                uid: 80
+                uuid: d13de5f0-237e-45f3-9289-35d1a54bee1a
                 front: To border (something) -- "neighboring social classes socially [...]"
                 back: Abut
         -
-                uid: 81
+                uuid: 989057d3-ceae-43fe-8fd0-19837e5bfe7b
                 front: Pronounciation of event
                 back: /ɪˈvɛnt/
         -
-                uid: 82
+                uuid: 0e6c89d4-8f1b-4e33-b1d5-dd9b864e0b68
                 front: Something consumed
                 back: Consumption
         -
-                uid: 84
+                uuid: 4cb5063d-e09f-46ce-8b8c-c61507755a57
                 front: Parsimony
                 back: The quality of being very unwilling to spend money
                 include_reverse: true
         -
-                uid: 85
-                front: Overton window
-                back: Range of ideas the public will accept.
-                include_reverse: true
-        -
-                uid: 86
+                uuid: 5b5401d0-6523-44ce-90fe-647460869f19
                 front: Trotskyism
                 back: A few coordinated smart people in the right place can seize organizations
                 include_reverse: true
         -
-                uid: 87
+                uuid: eebf7001-f417-4548-8aa7-7ec0cf4287a8
                 front: Panglossian
                 back: "Naively/unreasonably optimistic (Pangloss: character in Voltaire's Candide)"
         -
-                uid: 89
+                uuid: ad598553-e43e-4638-aac7-2b86374a4df4
                 front: Panglossian
                 back: Naively/unreasonably optimistic
         -
-                uid: 88
+                uuid: a2faefae-80d6-47ad-b1d5-05f9c605acb0
                 front: Pet peeve
                 back: Minor annoyance that an individual identifies as particularly annoying
                 include_reverse: true
         -
-                uid: 90
+                uuid: 7114fcd5-8685-437c-b9c1-846f501fb69c
                 front: Intermittent
                 back: Stopping or ceasing for a time; alternately ceasing and beginning again.
                 include_reverse: true
         -
-                uid: 91
+                uuid: c07d6e7b-9fb1-49dd-91ae-226e9af06270
                 front: Mopery
                 back: Mopery (with intent to gawk/creep): vague, informal name for minor offenses.
         -
-                uid: 92
+                uuid: a0fd7af0-10e5-4800-a533-6b74ffedc608
                 front: Vague, informal name for minor offenses
                 back: Mopery (with intent to gawk/creep)
         -
-                uid: 95
+                uuid: dd1b8818-15f4-4f94-a3c3-b4fe4db9b3ec
                 front: Conveyance
                 back: The act of taking or carrying someone or something from one place to another; something that carries; transmission; communication
                 include_reverse: true

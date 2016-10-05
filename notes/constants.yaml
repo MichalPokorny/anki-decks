@@ -1,14 +1,14 @@
 uid_tag: constants
 notes:
         -
-                uid: 1
+                uuid: b644187e-b8e7-433a-8e10-7ed8722dd682
                 front: A4 paper size
                 back: "210 x 297 mm; (A0 defined as: area: 1 m^2, aspect ratio: sqrt(2))"
         -
-                uid: 2
+                uuid: f2dd397a-8fc4-4634-af4d-dccae7ed37ad
                 front: Number of hours in 1 year
                 back: 8760
         -
-                uid: 3
+                uuid: e041169d-2512-46b5-811b-fe78b7ee43bc
                 front: 2^32
                 back: 4 294 967 296 (~4 billion)

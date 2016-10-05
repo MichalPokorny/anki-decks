@@ -2,7 +2,7 @@ topic: Go
 uid_tag: cs/languages/go
 notes:
         -
-                uid: 1
+                uuid: b71dc18a-82c3-4330-8f6a-d88676199534
                 front: Function to run on startup (per-package)
                 back: "`func init()`"
                 include_reverse: true

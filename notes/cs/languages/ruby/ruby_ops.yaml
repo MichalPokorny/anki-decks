@@ -2,97 +2,97 @@ topic: Ruby ops pronounciation
 uid_tag: cs/languages/ruby/ops_pronounciation
 notes:
         -
-                uid: 1
+                uuid: b9382783-6d95-47c2-9a16-677fe41dbb39
                 front: =>
                 back: Hashrocket
                 include_reverse: true
         -
-                uid: 2
+                uuid: a0269ea8-9693-4b6a-bd56-3142afdd1fdd
                 front: <=>
                 back: Spaceship
                 include_reverse: true
         -
-                uid: 3
+                uuid: ad296eab-ec9a-4d7d-9979-9f6c5cc85e48
                 front: Threequals
                 back: ===
                 include_reverse: true
         -
-                uid: 4
+                uuid: b4d78453-5dd1-450e-94ba-d5d2cd16332c
                 front: Twiddle-wakka
                 back: ~>
                 include_reverse: true
         -
-                uid: 5
+                uuid: 919edd6a-a10e-4c0a-b25a-3e82258d375e
                 front: Stabby lambda
                 back: ->
                 include_reverse: true
         -
-                uid: 6
+                uuid: 2c546a9b-18fb-4b3f-b5b4-288c1bb5e517
                 front: Spiral
                 back: "`@`"
                 include_reverse: true
         -
-                uid: 7
+                uuid: 6281441b-5d3b-4581-b6ea-e0f09f36dd95
                 front: Splat
                 back: "`*`"
                 include_reverse: true
         -
-                uid: 8
+                uuid: aeaec2b8-2525-4b35-a348-1ba3e34c1635
                 front: Octothorpe
                 back: "`#`"
                 include_reverse: true
         -
-                uid: 9
+                uuid: 1f010b74-37aa-4908-b345-7da7f7797dcc
                 front: Skull tag
                 back: "`<%=`"
                 include_reverse: true
         -
-                uid: 10
+                uuid: a3117e96-2141-4fa4-bdc0-5c5dccccbd91
                 front: Crab claws
                 back: "`#{}`"
                 include_reverse: true
         -
-                uid: 11
+                uuid: 4b118b6f-b387-4004-8fa5-250817c2b9d1
                 front: "`?:`"
                 back: Elvis
                 include_reverse: true
         -
-                uid: 12
+                uuid: 117acccb-901b-4dc3-98ec-a4e879233dd7
                 front: Shovel
                 back: "`<<`"
                 include_reverse: true
         -
-                uid: 13
+                uuid: 0cb526f5-3bdf-4890-b3e6-a43b09eb2c34
                 front: Constellation
                 back: "`**`"
                 include_reverse: true
         -
-                uid: 14
+                uuid: 2d39db85-92c1-4ee6-a1db-8ef66903c185
                 front: Equalike
                 back: =~
                 include_reverse: true
         -
-                uid: 15
+                uuid: 96a4e8d5-282c-428d-9520-049f49012604
                 front: Hat
                 back: ^
                 include_reverse: true
         -
-                uid: 16
+                uuid: 17af80ec-0591-4dee-8a4d-60cb446cdf6c
                 front: Pretzel
                 back: "`&`"
                 include_reverse: true
         -
-                uid: 17
+                uuid: 48b0868d-a3e8-484f-96bd-552f9adfe728
                 front: /
                 back: Whack
                 include_reverse: true
         -
-                uid: 18
+                uuid: d3e1c5db-8fa1-47bd-80c7-f68765b9a573
                 front:  _
                 back: Blank
                 include_reverse: true
         -
-                uid: 19
+                uuid: 52eaf40a-d73a-4e4a-8337-d8eb62ebbd1b
                 front: "`||=`"
                 back: T-square
                 include_reverse: true

@@ -2,17 +2,17 @@ topic: Ruby
 uid_tag: cs/languages/ruby/ruby
 notes:
         -
-                uid: 1
+                uuid: 2f31f035-5cda-40cf-a77e-db10b300fb50
                 front: Quick and dirty HTTP server
                 back: "`ruby -run -e httpd . -p 8080`"
                 include_reverse: true
         -
-                uid: 2
+                uuid: 379bbd27-934a-460d-bec7-324e0ceb631f
                 front: Overloading unary operators
                 back: "`def +@`, `-@`, `~@`, `!@`"
                 include_reverse: true
         -
-                uid: 3
+                uuid: 8e30bcff-2042-4b8e-9492-23fecdc4b3f8
                 front: Single character string syntax
                 back: "`?x`"
                 include_reverse: true

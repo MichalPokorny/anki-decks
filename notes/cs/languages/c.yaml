@@ -2,29 +2,29 @@ topic: C
 uid_tag: cs/languages/c
 notes:
         -
-                uid: 1
+                uuid: 225318ea-ab7c-40a0-9ef8-cfdb6f12d963
                 front: "`freopen`"
                 back: "`FILE* freopen(const char *path, const char *mode, FILE *stream);` - e.g. `freopen(\"soubor.in:\", \"r\", stdin);`"
         -
-                uid: 2
+                uuid: 9571b5f1-8784-4da8-b045-87f075a06e80
                 front: "`erf`"
                 back: Gauss distribution error function
                 include_reverse: true
         -
-                uid: 3
+                uuid: 5c75c7e5-136d-400f-b46b-0c28ced1ef5f
                 front: "`free` behavior on `NULL`"
                 back: OK. If `ptr` is `NULL`, no operation is performed.
         -
-                uid: 4
+                uuid: f14bead7-c952-46f7-a719-081fc576adea
                 front: GCC - destroy some identifier(s) forever
                 back: "`#pragma GCC poison (identifiers)`"
                 include_reverse: true
         -
-                uid: 5
+                uuid: 96c6d7a7-28dd-4ca4-8beb-33b064697729
                 front: GCC - warn on misleading indentation
                 back: "`gcc -Wmisleading-intentation`"
                 include_reverse: true
         -
-                uid: 6
+                uuid: be5643b2-4dc9-4a78-a704-0247a081f646
                 front: No-return header
                 back: "`#include <stdnoreturn.h>`; provides `noreturn` macro."

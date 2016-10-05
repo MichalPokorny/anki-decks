@@ -2,7 +2,7 @@ topic: HAML
 uid_tag: cs/languages/haml
 notes:
         -
-                uid: 1
+                uuid: 7fc778ea-e597-42cc-aa28-b2b8f71f5c90
                 front: Surround with braces
                 # TODO: does this format properly?
                 back:
@@ -11,6 +11,6 @@ notes:
                             = link_to "learn more", "#"
                         ```
         -
-                uid: 2
+                uuid: d2000fca-d012-41c3-b4f0-5a7cf69a57d3
                 front: Avoid empty (void) tag
                 back: "`%br/`; automatic for img, br, hr, input, ..."

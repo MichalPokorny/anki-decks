@@ -2,22 +2,22 @@ topic: Readline/Bash
 uid_tag: readline
 notes:
         -
-                uid: 1
+                uuid: 75576f1f-6d94-4170-8cc6-7b5a4d7daddd
                 front: Jump forward by 1 word
                 back: "`C-f`"
                 include_reverse: true
         -
-                uid: 2
+                uuid: 56d05836-8250-44ca-b0c3-65750f0fd549
                 front: Jump backward by 1 word
                 back: "`C-b`"
                 include_reverse: true
         -
-                uid: 3
+                uuid: e7436440-590b-4271-bfac-875bbf946958
                 front: Go to start of line
                 back: "`C-a`"
                 include_reverse: true
         -
-                uid: 4
+                uuid: ec4ca6f8-aeb7-4f74-82a2-5fe2fa8cc9ad
                 front: Go to end of line
                 back: "`C-e`"
                 include_reverse: true

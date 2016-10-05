@@ -1,43 +1,43 @@
 uid_tag: cs
 notes:
         -
-                uid: 1
+                uuid: 0ec7bd52-d429-4a52-ab45-06d370a9038a
                 front: Spigot algorithm
                 back:
                         Algorithm for computing the value of a constant such as pi or e which generates digits left to right with limited intermediate storage.
         -
-                uid: 2
+                uuid: 622013c7-4805-4139-88a7-c33642b62686
                 front: Steiner tree
                 back: Similar to planar MST, but I can add new vertices. NP-complete.
         -
-                uid: 3
+                uuid: a08fa5b7-8741-45d5-8a40-f8fea801bf40
                 front: CAP theorem
                 back: Cannot have consistency & availability & partition tolerance
         -
-                uid: 4
+                uuid: 76c1620b-5f8c-4f84-9992-ac8c87d50724
                 front: Chicken bits
                 back: CPU fuses for disabling risky features.
         -
-                uid: 5
+                uuid: f8ed41c1-4837-47c0-87f1-d10df5d49d8a
                 front: Cyclomatic complexity
                 back: "In basic block graph: E - V + 2P (P = function exit point)"
         -
-                uid: 6
+                uuid: bcb5d766-2e63-4254-bfe6-e784d6696ac5
                 front: SMACSS
                 back: Scalable and Modular Architecture for CSS
         -
-                uid: 7
+                uuid: 80fde9c1-1b2f-4e62-817a-9905696f7e69
                 front: Sidekiq
                 back: Ruby queue
         -
-                uid: 8
+                uuid: d03401a6-2b39-4b70-a810-6f7d4336f360
                 front: '0mq'
                 back: Zero-MQ. Queue for intel-language communication.
         -
-                uid: 9
+                uuid: 0400a4e9-c598-4c97-a631-81342e026621
                 front: Bazel
                 back: Google's build tool, open-source Blaze
         -
-                uid: 10
+                uuid: 7e7ae73d-1d6f-4357-a237-e91841d71cdf
                 front: C# string formatting
                 back: "$\"hello{parameters[0, i]}\""

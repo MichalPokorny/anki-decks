@@ -2,52 +2,52 @@ topic: Vim
 uid_tag: vim
 notes:
         -
-                uid: 1
+                uuid: 234dbb3b-bfa6-4e47-88e8-1c160d33b3af
                 front: Increment/decrement current number
                 back: C-a, C-x
         -
-                uid: 2
+                uuid: 3511ce47-af75-41bd-9bde-97ca608b5952
                 front: Move one paragraph forward/backward
                 back: "`{}`"
         -
-                uid: 3
+                uuid: 714f43dd-a6a7-474e-a675-f0b454b1e7bb
                 front: Move one sentence forward/backward
                 back: "`()`"
         -
-                uid: 4
+                uuid: bbaa3261-44dd-42d1-871b-27198ba94944
                 front: Change to other end of selection in visual mode
                 back: "`o`"
         -
-                uid: 5
+                uuid: c9a40478-0e53-44b3-82e3-2309ea4a0dc1
                 front: Insert output of command
                 back: "`:read !ls /home`"
         -
-                uid: 6
+                uuid: 33bd0e53-5c32-4324-a680-b90ab3b0143d
                 front: Create mark
                 back: '`mX` (`X` = mark name)'
         -
-                uid: 7
+                uuid: 3208c345-745b-4497-9145-1ab135d38dd5
                 front: Go to mark
                 back: "`'X` (`X` = mark name)"
         -
-                uid: 8
+                uuid: 97963064-88d3-47a6-ad66-3dbe77c7c0e4
                 front: Start and open a window for each file
                 back: "`vim -o ...`"
                 include_reverse: true
         -
-                uid: 12
+                uuid: 6f7d2479-4ff0-4949-80bd-5b87202acde5
                 front: Start and open a window for each file, split vertically
                 back: "`vim -O ...`"
                 include_reverse: true
         -
-                uid: 9
+                uuid: 4f97ca60-608a-496d-aa6d-4e68d5061210
                 front: Revive selection
                 back: "`gv`"
         -
-                uid: 10
+                uuid: 9cae9f68-eb5c-407f-9c38-e913c00d8796
                 front: Run filter command over buffer
                 back: "`:%!command`"
         -
-                uid: 11
+                uuid: 7a9b08e5-c24f-463f-ab2a-598bbb2c7aee
                 front: Insert file content here
                 back: "`:read (file)` -- aka `:r (file)`"

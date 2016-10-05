@@ -2,27 +2,27 @@ topic: Bash
 uid_tag: bash
 notes:
         -
-                uid: 1
+                uuid: 11fc9fb8-4da4-4590-bd88-d991b79045d0
                 front: Redo last command
                 back: "`!!`"
                 include_reverse: true
         -
-                uid: 2
+                uuid: 22ef9fe5-d2e7-47c1-86f0-ad1119310a8d
                 front: Redo last command as root
                 back: "`sudo !!`"
                 include_reverse: true
         -
-                uid: 5
+                uuid: ced4ea3a-5b84-4945-8db0-8ca483f013dc
                 front: "Edit last command's argument in `vim`"
                 back: "`vim !!:2`"
                 include_reverse: true
         -
-                uid: 6
+                uuid: 8d4531bc-59b1-43e8-976e-967236dc3779
                 front: Send job to background
                 back: "C-z"
                 include_reverse: true
         -
-                uid: 7
+                uuid: cac0295e-16d5-4af6-97ec-b6de90cf49b6
                 front: Bring back backgrounded job
                 back: "`fg`"
                 include_reverse: true

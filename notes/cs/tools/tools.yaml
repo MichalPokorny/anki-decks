@@ -2,282 +2,283 @@ topic: Tools
 uid_tag: tools
 notes:
         -
-                uid: 1
+                uuid: 0a283dbf-a7ba-40e4-9811-7a1dd7701a89
                 front: GUI hex editor
                 back: "`bless`"
                 include_reverse: true
         -
-                uid: valgrind/1
+                uuid: df69d00c-8158-481f-9cd2-6a149a2a2659
                 topic: Valgrind
                 front: Attach debugger on first error
                 back: "`valgrind --db-attach=yes` ..."
                 include_reverse: true
         -
-                uid: valgrind/2
+                uuid: 6ad7a641-f416-49c1-8f8b-3cb6860ae469
                 topic: Valgrind
                 front: Save log of errors
                 back: "`valgrind --log-file=xyzzy.log` ..."
                 include_reverse: true
         -
-                uid: 3
-                topic: Linux utilities
+                uuid: 6e27637f-16e3-4200-8c4b-e3b1c8018ddb
                 front: Output file with line numbers
                 back: "`nl`"
+                include_reverse: true
         -
-                uid: 4
+                uuid: 67afaaa3-a061-4ece-9368-ec0f909d5f4f
                 front: "List directory, showing file types"
                 back: "`ls -F`"
                 include_reverse: true
         -
-                uid: 5
+                uuid: e92c02d9-92f0-4643-bad2-1682c951c555
                 front: "PIC microchip simulator"
                 back: "`gpsim`"
                 include_reverse: true
         -
-                uid: 6
+                uuid: 7b375c52-b014-41a1-8091-9c2c7b29b9ab
                 front: "YouTube downloader"
                 back: "`youtube-dl`"
                 include_reverse: true
         -
-                uid: 7
+                uuid: 3860f642-a093-4772-8b4d-980b2fd2f28c
                 front: "Disk usage visualizer"
                 back: "`baobab`"
                 include_reverse: true
         -
-                uid: 8
+                uuid: 1a5e809c-5ff6-46eb-ab6a-82a0d8bfacd8
                 front: "Paint program"
                 back: "`mypaint`"
                 include_reverse: true
         -
-                uid: 9
+                uuid: 153080ab-b224-45a9-9f03-54f912ee4215
                 front: "Print Linux kernel log in human-readable format"
                 back: "`dmesg --human`"
                 include_reverse: true
         -
-                uid: 10
+                uuid: 8a1d9119-00a8-4525-b9e7-fcc19d9b1af2
                 front: "Flash cards program"
                 back: "`anki`"
                 include_reverse: true
         -
-                uid: 11
+                uuid: 0544f8eb-46eb-457e-8d69-cf023648db64
                 front: "Change screen temperature according to time of day"
                 back: "`redshift`"
                 include_reverse: true
         -
-                uid: 12
+                uuid: a25a8bbb-3617-4890-b9dc-318a866ca5a8
                 front: "Time tracker"
                 back: "`hamster`"
                 include_reverse: true
         -
-                uid: 13
+                uuid: 7955cfd7-7d76-4603-b49b-89d59251c6be
                 front: "JSON pretty-printer"
                 back: "`jshon`"
                 include_reverse: true
         -
-                uid: 14
+                uuid: 6d48fdb7-7f4e-4e7f-a6db-e2c0ac0ad469
                 front: "Quick and dirty Python HTTP server"
                 back: "`python -m SimpleHTTPServer 8080`"
                 include_reverse: true
         -
-                uid: 15
+                uuid: 9a499667-bd50-4410-86ca-418f8d1b3cac
                 front: "Network monitor by process"
                 back: "`nethogs -i enp0s25`"
                 include_reverse: true
         -
-                uid: 16
+                uuid: dc9f6e2d-165f-4be6-a833-1ce12266bce4
                 front: "Monitor the progress of data through a pipe"
                 back: "`pv`"
                 include_reverse: true
         -
-                uid: 17
+                uuid: 1df83c08-703e-4aa3-9d2d-a15ce47bf8e9
                 front: "Trace syscalls of running process"
                 back: "`strace -p 12345`"
                 include_reverse: true
         -
-                uid: 18
+                uuid: 2da5b917-9f07-416b-a7db-4f52ed460b38
                 front: "Make ASCII-art banner"
                 back: "`banner`"
                 include_reverse: true
         -
-                uid: 19
+                uuid: 804e6b8a-5a0d-428a-8f37-78f50de16457
                 front: "Convert Windows newlines to Unix"
                 back: "`dos2unix`"
                 include_reverse: true
         -
-                uid: 20
+                uuid: edb463b4-0a98-41e4-aafd-db031779509e
                 front: "Follow streamed file in new pager"
                 back: "`less -F`"
                 include_reverse: true
         -
-                uid: 21
+                uuid: ae49a687-22b7-4b38-8fe9-dcf2340bc87c
                 front: "Text formatter to wrap to constant width"
                 back: "`fmt`"
                 include_reverse: true
         -
-                uid: 22
+                uuid: 66ba52e2-0ff2-4450-948c-885b5dc45662
                 front: "Show ASCII table"
                 back: "`man ascii`"
                 include_reverse: true
         -
-                uid: 23
+                uuid: 46c49bce-49cb-401a-91f7-188cd03cc34a
                 front: "Run Matrix effect in console"
                 back: "`cmatrix`"
                 include_reverse: true
         -
-                uid: 24
+                uuid: 8d6c6663-ab23-4aef-8f40-be4f9efefa6a
                 front: "Encode content as QR code"
                 back: "`qrencode`"
                 include_reverse: true
         -
-                uid: 25
+                uuid: ebe8171e-21e7-4081-aa99-8a51faa3c624
                 front: "Curses Git GUI"
                 back: "`tig`"
                 include_reverse: true
         -
-                uid: 26
+                uuid: aa37f76d-9d64-44bb-88ad-50b2031b980c
                 front: "GNU parser generator"
                 back: "`yacc`"
                 include_reverse: true
         -
-                uid: 27
+                uuid: f12111e2-6520-4689-9d47-825ca6efc6a4
                 topic: Pacman
                 front: List explicitly installed packages (not as dependencies)
                 back: "`pacman -Qe`"
                 include_reverse: true
         -
-                uid: 28
+                uuid: 35dbad9a-21ad-4287-86a2-6e516448c36c
                 front: "`systemd` - plot startup graph"
                 back: "`systemd-analyze plot`"
                 include_reverse: true
         -
-                uid: 29
+                uuid: ec778376-7ac4-4a17-9362-5c6969f866ea
                 front: Count occurrences of a string in file
                 back: "`grep -c`"
                 include_reverse: true
         -
-                uid: 30
+                uuid: 0661c3db-3903-4e75-ac30-82fc31611e50
                 front: Screen - attach, including already attached sessions
                 back: "`screen -x (session)`"
                 include_reverse: true
         -
-                uid: 31
+                uuid: bb231898-cb17-4f46-8770-24a86c36df2c
                 front: Screen - attach to non-attached session
                 back: "`screen -r (session)`"
                 include_reverse: true
         -
-                uid: 32
+                uuid: ed27be40-be97-4efd-b713-8a765a8db4fd
                 front: Screen - detach
                 back: C-a d
         -
-                uid: 33
+                uuid: a479ae33-6970-46a9-8f51-fa11be8f849b
                 front: "Creating a symbolic link using `cp`"
                 back: "`cp -s (link-target) (link)`"
         -
-                uid: 34
+                uuid: cf65f36d-74c9-456a-8ab2-ec9564a364ea
                 front: "`cp -s x y`"
                 back: "Creates symbolic link at `y`, pointing to `x`"
         -
-                uid: 35
+                uuid: 9c5adea1-186d-4fa7-87dc-11fa359249d5
                 front: Display diff output in two columns
                 back: "`diff -y`"
                 include_reverse: true
         -
-                uid: 36
+                uuid: b6977d03-a44d-4e4e-8b5f-7e32d0183d28
                 front: mplayer - cycle between alternate audio tracks
                 back: "#"
         -
-                uid: 37
+                uuid: d05a58a8-865d-4399-84e7-a4fa2a75c5cb
                 front: Midnight Commander - launch tab completion
                 back: <Esc>-<Tab>
         -
-                uid: 38
+                uuid: e37246bb-95bc-43fd-b1ad-00725946b86c
                 front: C++ code deduplicator
                 back: "`simian`"
                 include_reverse: true
         -
-                uid: 39
+                uuid: f4318a5b-d750-47cc-b934-64fdc0efac88
                 topic: Pacman
                 front: Mark package as installed as dependency
                 back: "`pacman -D --asdeps <pkgs>`"
                 include_reverse: true
         -
-                uid: 40
+                uuid: 9f5aacbe-0412-4fd1-960b-471e89e62edb
                 front: Count lines of code
                 back: "`cloc`"
                 include_reverse: true
         -
-                uid: 41
+                uuid: 0e6f1b92-8973-450e-8c08-f704b7bfc8a3
                 front: Limit CPU usage of process
                 back: "`cpulimit`"
                 include_reverse: true
         -
-                uid: 42
+                uuid: 809e0252-68ac-4deb-ac28-2eb212005693
                 front: Mount FTP as filesystem
                 back: "`curlftpfs`"
                 include_reverse: true
         -
-                uid: 43
+                uuid: a6bbccaa-64fc-4f2a-a4c0-c2d0b3cacf9e
                 back: Guitar tuner
                 front: "`fmit`"
                 include_reverse: true
 
         -
-                uid: 44
+                uuid: 6575036b-fc4c-471d-98db-a9db63cbaa8e
                 front: Limit bandwidth usage
                 back: "`wondershaper`"
                 include_reverse: true
         -
-                uid: 45
+                uuid: 3740e177-b467-49b4-a17e-f6ce0623b649
                 front: Open-source Prolog implementation
                 back: "`swipl`" (SWI Prolog)
         -
-                uid: 46
+                uuid: 606afaec-c0a6-4a61-b54c-9956ab7661fb
                 front: "`scons`"
                 back: Build system
         -
-                uid: 47
+                uuid: 7b383c07-7eaa-457c-a976-5fe3fdaac8e4
                 front: Dotfiles management system
                 back: "`rcm`"
                 include_reverse: true
         -
-                uid: 48
+                uuid: 5747f5c1-c0f9-48ea-97ed-b37033366167
                 front: GNU replacement for Matlab
                 back: "`octave`"
                 include_reverse: true
         -
-                uid: 49
+                uuid: 22018ef4-0a83-4908-b47c-d6d540aa6cb2
                 front: JavaScript linter
                 back: "`jslint`"
         -
-                uid: 50
+                uuid: 3687d3ec-f046-4974-90f1-8206fae752a9
                 front: Color picker
                 back: "`gcolor2`"
         -
-                uid: 51
+                uuid: 7675f4e2-9ad8-4c55-adf3-159cf7a2eb66
                 front: "`uzbl`"
                 back: Web browser
         -
-                uid: 52
+                uuid: 45078b6a-1117-49e1-a78a-1c063766f94d
                 front: "`cgdb`"
                 back: gdb CLI GUI
         -
-                uid: 53
+                uuid: 84e8770d-cb64-4a75-ad00-45881e4e25eb
                 front: "`lftp`"
                 back: Command-line FTP client
         -
-                uid: 54
+                uuid: 7e9be7ad-67d4-4be0-a00d-e4bb2ff796fa
                 front: "`tmux`"
                 back: Console multiplexer, similar to GNU Screen
         -
-                uid: 55
+                uuid: 8a593382-eeb0-4edb-b707-33049de02286
                 front: Jekyll
                 back: Ruby static page generator
         -
-                uid: 56
+                uuid: 543fdea0-20e1-4429-be6b-5c3907fe3da8
                 front: Start SMART tests and read results
                 back: "`smartctl -c /dev/sda (-t short|long|conveyance)`"
         -
-                uid: 57
+                uuid: 24e09e05-6d30-4dc2-a6d5-53b66abd8b4e
                 front: Silverlight for Firefox & Linux
                 back: Pipelight
                 include_reverse: true
+# TODO: how to show specific man page? list of available ones?

@@ -1,15 +1,15 @@
 uid_tag: math
 notes:
         -
-                uid: 1
+                uuid: 5c64ac78-bc43-4821-9084-f2bf98e6c320
                 front: Logistic function
                 back: AKA sigmoid. $f(x)=(1+e^{-\lambda x})^{-1}$
         -
-                uid: 2
+                uuid: 8b422f19-b1a6-4853-ae6c-c373e8daa591
                 front: Wedderburn theorem
                 back: Every finite field is commutative
         -
-                uid: 3
+                uuid: ebca1d61-11bf-48b7-a21b-5733e28e5dc9
                 front: BBP-type formula
                 back:
                         Bailey-Borwein-Plouffe formula. Computes n-th binary digit of pi using base 16 math.
@@ -22,27 +22,16 @@ notes:
 
                         https://wikimedia.org/api/rest_v1/media/math/render/svg/af6bc360851499dd2ab2a90bee03fbe2040089d5
         -
-                uid: 4
+                uuid: 5cb921d7-535c-441f-b074-78cdabe4d336
                 front: Skolem paradox
                 back: ZF set theory has a countable model
+                include_reverse: true
         -
-                uid: 5
+                uuid: 6db03c44-0ad5-4d37-b4e0-55ade1ec116f
                 front: Goodstein theorem
-                back: Goodstein theorem is a statement about natural numbers which states that every Goodstein sequence eventually terminates at 0. Unprovable in Peano arithmetic, but can be proven in stronger systems, e.g. second order arithmetic.
+                back: Statement about natural numbers which states that every Goodstein sequence eventually terminates at 0. Unprovable in Peano arithmetic, but can be proven in stronger systems, e.g. second order arithmetic.
         -
-                uid: 6
+                uuid: 40ea1145-01bf-4d44-856a-2c36f8bdfd89
                 front: Brouwer theorem
                 back: Brouwer fixed-point theorem: for any continuous f mapping a compact convex set into itself has a fixed point
-        -
-                uid: 7
-                front: Holden Karnofsky
-                back: Executive Director of Open Philanthropy Project. Previously one of MIRI's critics.
-        -
-                uid: 8
-                front: Creative incompetence
-                back: "Against Parkinson\'s law.  \"Create the impression that you have reached your level of incompetence.\""
-        -
-                uid: 9
-                front: Subject-object interview
-                back: Detects Kegan's stage of social maturity
 # TODO: Kegan's stages
