@@ -33,3 +33,45 @@ notes:
                 uuid: fcfdf4e1-4df9-4f1e-ab04-dc01f5f68626
                 front: Shortest crashing C program
                 back: "`main;` (from `int main = 0;` ==> `main=0;` ==> `main;`)"
+        -
+                uuid: fa5c375e-e697-4511-bb80-8ef3c5cc2072
+                topic: "C - `printf`"
+                front: "Align to left (print '42  ')"
+                back: '`printf("%-4d\n", 42);'
+                include_reverse: true
+        -
+                uuid: cf13970d-e91a-4902-9749-aa3150d3c09b
+                topic: "C - `printf`"
+                front: "Print number with sign, + or - (print '+42')"
+                back: '`printf("%+d\n", 42);'
+                include_reverse: true
+        -
+                uuid: 78a17c8f-f85c-4259-9984-db789c5226ec
+                front: "`calloc`"
+                back: '`void *calloc(size_t nmemb, size_t size);`; allocates memory, like `malloc`'
+        -
+                uuid: a4889ec5-e7da-426d-b30d-6fa603ca9369
+                front: "Dynamically allocate heap memory for an array"
+                back: '`void *calloc(size_t nmemb, size_t size);`; allocates memory, like `malloc`'
+        -
+                uuid: dbbf9846-47ad-41ed-be45-5d80d95d152c
+                front: "`realloc`"
+                back: '`void *realloc(void *ptr, size_t size);`; returns `NULL` on failure; `ptr` may be `NULL`'
+        -
+                uuid: 8043cfc6-53c9-4e64-b218-190972f45b35
+                front: "`asprintf`"
+                back: >
+                        Allocate large enough string and sprintf into it.
+                        `int asprintf(char **strp, const char *fmt, ...);`;
+                        `*strp` should be `free`'d. Returns number of bytes printed, or -1 on error.
+        -
+                uuid: 2a95993b-127a-43f2-85f8-d2e4db5c6031
+                front: Allocate large enough string and sprintf into it
+                back: >
+                        "`asprintf`"
+                        `int asprintf(char **strp, const char *fmt, ...);`;
+                        `*strp` should be `free`'d. Returns number of bytes printed, or -1 on error.
+        -
+                uuid: 5cdd8d57-3c25-4ed5-bf3c-657765c1d978
+                front: "What does `puts("hello");` do?"
+                back: "Writes `hello` and a newline to `stdout`."

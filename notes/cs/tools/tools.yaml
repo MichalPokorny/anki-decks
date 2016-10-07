@@ -312,5 +312,68 @@ notes:
                 uuid: f6e28468-b92d-44e1-b082-25f2cc7837d5
                 front: Blackout in PowerPoint
                 back: "`b`"
+        -
+                uuid: 7fc48588-1173-454a-a81b-047336aef1d7
+                front: Git backup tool
+                back: "`git annex`"
+                include_reverse: true
+        -
+                uuid: aa8deb39-8708-42d8-8404-a23093400360
+                front: 'Search all man pages and short descriptions for mentions of "printf"'
+                back: "`man -k printf`"
+                include_reverse: true
+        -
+                uuid: e2060f58-0eaa-439b-8fcd-5c16a351b4d4
+                front: 'Look up all man pages named "printf"'
+                back: "`man -f printf`"
+                include_reverse: true
+        -
+                uuid: e8a63dbe-341d-4202-ad51-1e3a76c57bfd
+                topic: "man sections"
+                front: "1"
+                back: "Executable programs or shell commands"
+                include_reverse: true
+        -
+                uuid: 1132f133-e257-46fa-a1eb-57b8cb2bfb62
+                topic: "man sections"
+                front: "2"
+                back: "System calls (functions provided by the kernel)"
+                include_reverse: true
+        -
+                uuid: 09d7381e-e7bd-41bf-8c4b-0bcd0a2cab79
+                topic: "man sections"
+                front: "3"
+                back: "Library calls (functions within program libraries)"
+                include_reverse: true
+        -
+                uuid: 68992887-41d7-48df-9892-9946e5fc6806
+                topic: "man sections"
+                front: "4"
+                back: "Special files (usually found in /dev)"
+                include_reverse: true
+        -
+                uuid: ec71edfd-047d-4c65-bc14-50bce3f5e723
+                topic: "man sections"
+                front: "5"
+                back: "File formats and conventions, e.g. /etc/passwd"
+                include_reverse: true
+        -
+                uuid: f9de7c2c-c146-4e88-bd54-95f3209c0402
+                topic: "man sections"
+                front: "6"
+                back: "Games"
+                include_reverse: true
+        -
+                uuid: e73c0672-eb37-422a-852d-1d4367e757cf
+                topic: "man sections"
+                front: "7"
+                back: "Miscellaneous (including macro packages and conventions), e.g. man(7), groff(7)"
+                include_reverse: true
+        -
+                uuid: 31cd0e21-961a-45ec-8068-1fa3e0fe134e
+                topic: "man sections"
+                front: "8"
+                back: "System administration commands (usually only for root)"
+                include_reverse: true
 # TODO: how to show specific man page? list of available ones?
 # TODO: whiteout, blackout in Google Docs

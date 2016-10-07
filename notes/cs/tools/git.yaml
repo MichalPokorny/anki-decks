@@ -86,3 +86,12 @@ notes:
                 uuid: 3a0d545e-9f65-4a21-8aa7-9d2e9253a01a
                 front: List available diff tools
                 back: "`git difftool --tool-help`"
+        -
+                uuid: 2f774758-4285-497e-bad6-4271703906c3
+                front: "`HEAD~1`"
+                back: Previous commit to HEAD
+        -
+                uuid: 641308ac-0a5c-4c5d-95d6-ce82daa1de5d
+                front: 10 commits before HEAD
+                back: "`HEAD~10`"
+                include_reverse: true

@@ -1,0 +1,9 @@
+topic: Programming languages
+deck: CS::Languages
+uid_tag: cs/languages
+notes:
+        -
+                uuid: f2b6290b-b61e-4891-a2e7-37628eef51ba
+                front: "`ruboto`"
+                back: Ruby for Dalvik JVM, using JRuby
+                include_reverse: true

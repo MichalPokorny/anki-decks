@@ -52,3 +52,13 @@ notes:
                 uuid: 7a9b08e5-c24f-463f-ab2a-598bbb2c7aee
                 front: Insert file content here
                 back: "`:read (file)` -- aka `:r (file)`"
+        -
+                uuid: 52b1456c-be13-4d83-a9c5-13747a657b81
+                front: Create directory for current buffer
+                back: "`:!mkdir -p %:h`"
+                include_reverse: true
+        -
+                uuid: 832d32a8-2b4f-4645-ad34-7f2fff5529f9
+                front: Open read-only Vim
+                back: "`view`"
+                include_reverse: true

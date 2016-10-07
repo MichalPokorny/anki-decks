@@ -27,3 +27,7 @@ notes:
                 front: Bring back backgrounded job
                 back: "`fg`"
                 include_reverse: true
+        -
+                uuid: acdb9620-ef06-4822-aa73-30b9efc8233a
+                front: Collapse whitespace in output of program into one space
+                back: "echo `some program`"
