@@ -17,5 +17,5 @@ notes:
         -
                 uuid: 1a5945da-e19f-485b-a062-a2292e74a702
                 front: List all methods of module
-                back: "`import zlib; dir(slib)`"
+                back: "`import zlib; dir(zlib)`"
                 include_reverse: true

@@ -5,7 +5,7 @@ notes:
         -
                 uuid: 2f31f035-5cda-40cf-a77e-db10b300fb50
                 front: Quick and dirty HTTP server
-                back: "`ruby -run -e httpd . -p 8080`"
+                back: "`ruby -run -e httpd .`"
                 include_reverse: true
         -
                 uuid: 379bbd27-934a-460d-bec7-324e0ceb631f
