@@ -68,10 +68,10 @@ notes:
                 uuid: 2a95993b-127a-43f2-85f8-d2e4db5c6031
                 front: Allocate large enough string and sprintf into it
                 back: >
-                        "`asprintf`"
+                        `asprintf`
                         `int asprintf(char **strp, const char *fmt, ...);`;
                         `*strp` should be `free`'d. Returns number of bytes printed, or -1 on error.
         -
                 uuid: 5cdd8d57-3c25-4ed5-bf3c-657765c1d978
-                front: "What does `puts("hello");` do?"
+                front: 'What does `puts("hello");` do?'
                 back: "Writes `hello` and a newline to `stdout`."

@@ -30,7 +30,7 @@ notes:
                 front: Convert number to binary string
                 back: "`31337.to_s(2)` or `\"%b\" % 31337`"
         -
-                uuid: 1b156569-eb87-4d8f-b39a-12b86bc93d32
+                uuid: 55552bfe-7d0c-4cb4-a788-e1c7ba1ecaeb
                 front: Convert number to hexadecimal string
                 back: "`31337.to_s(16)`"
                 include_reverse: true
