@@ -86,3 +86,15 @@ notes:
                 front: Conveyance
                 back: The act of taking or carrying someone or something from one place to another; something that carries; transmission; communication
                 include_reverse: true
+        -
+                uuid: 80480816-60e8-49a0-9b22-efdeceb15578
+                front: Proselytize
+                back: Convert or attempt to convert (someone) from one religion, belief or opinion to another
+                include_reverse: true
+        -
+                uuid: 33bb0977-df6d-4214-b0dc-9c1ee440ce1b
+                front: Conation
+                back:
+                        Any natural tendency, impulse, striving, or directed effort.
+                        The area of one's active mentality that has to do with desire, volition and striving.
+                include_reverse: true
