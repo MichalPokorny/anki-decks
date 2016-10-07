@@ -445,3 +445,13 @@ notes:
                 front: Randomly permute input lines
                 back: "`shuf`"
                 include_reverse: true
+        -
+                uuid: 518a2d40-73d7-45b8-8c68-2b2330329e17
+                front: Show ASCII-art process tree
+                back: "`pstree`"
+                include_reverse: true
+        -
+                uuid: a280e3c8-cb40-4c5f-8ef6-6c5193a7b992
+                front: Check, correct and pretty-print HTML files
+                back: "`tidy`"
+                include_reverse: true

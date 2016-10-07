@@ -19,3 +19,8 @@ notes:
                 front: List all methods of module
                 back: "`import zlib; dir(zlib)`"
                 include_reverse: true
+        -
+                uuid: 0ce29921-7c4a-48a4-bb85-67b7d104a028
+                front: 'Magic method implementing `in`'
+                back: '`__contains__`'
+                include_reverse: true
