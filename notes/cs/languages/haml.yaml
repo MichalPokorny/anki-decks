@@ -6,7 +6,7 @@ notes:
                 uuid: 7fc778ea-e597-42cc-aa28-b2b8f71f5c90
                 front: Surround with braces
                 # TODO: does this format properly?
-                back:
+                back: >
                         ```
                         = surround "(", ")" do
                             = link_to "learn more", "#"

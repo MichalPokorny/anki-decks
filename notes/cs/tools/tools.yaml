@@ -230,7 +230,7 @@ notes:
         -
                 uuid: 3740e177-b467-49b4-a17e-f6ce0623b649
                 front: Open-source Prolog implementation
-                back: "`swipl`" (SWI Prolog)
+                back: "`swipl` (SWI Prolog)"
         -
                 uuid: 606afaec-c0a6-4a61-b54c-9956ab7661fb
                 front: "`scons`"

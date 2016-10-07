@@ -34,5 +34,5 @@ notes:
         -
                 uuid: 40ea1145-01bf-4d44-856a-2c36f8bdfd89
                 front: Brouwer theorem
-                back: Brouwer fixed-point theorem: for any continuous f mapping a compact convex set into itself has a fixed point
+                back: "Brouwer fixed-point theorem: for any continuous f mapping a compact convex set into itself has a fixed point"
 # TODO: Kegan's stages

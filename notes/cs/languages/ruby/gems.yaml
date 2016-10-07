@@ -38,7 +38,7 @@ notes:
         -
                 uuid: 46dc8cbb-5390-4646-b36f-89d29bca1a40
                 front: Pretty-printer gems
-                back: "`pp`", "`ap`"
+                back: "`pp`, `ap`"
                 include_reverse: true
         -
                 uuid: 5a031d14-0c09-40f1-b888-ba65561ef6b0

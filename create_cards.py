@@ -3,6 +3,8 @@
 # TODO: Remove notes no longer linked to any UID
 # TODO: Import to specific decks
 
+import uuid
+import fnmatch
 import markdown
 import yaml
 import glob
@@ -18,11 +20,15 @@ import anki.importing
 def get_git_revision():
     return subprocess.check_output(['git', 'rev-parse', 'HEAD']).strip()
 
+N_FIELDS = 7
+
 class Note(object):
     def __init__(self, origin_file, uuid, include_reverse,
                  topic,
                  front, back,
-                 git_revision):
+                 git_revision,
+                 deck):
+        self.deck = deck
         self.origin_file = origin_file
         self.uuid = uuid
         self.include_reverse = include_reverse
@@ -31,14 +37,46 @@ class Note(object):
         self.back = back
         self.git_revision = git_revision
 
-def load_notes_to_import():
+    def to_fields(self):
+        return [
+            self.uuid,
+            self.topic,
+            self.front, self.back,
+            'true' if self.include_reverse else '',
+            self.origin_file, self.git_revision,
+
+            #'' # TAGS  --  can add those.
+        ]
+
+
+def get_uuids_in_deck(collection, deck_name):
+    got_uuids = set()
+    note_ids = collection.findNotes('deck:"' + deck_name + '"')
+    for note_id in note_ids:
+        note = collection.getNote(note_id)
+        if note.model()['id'] != model['id']:
+            continue
+        uuid, topic, front, back, add_reverse, origin_file, git_revision = note.fields
+        got_uuids.add((origin_file, uuid))
+    print 'Already got UIDs:', got_uuids
+    return got_uuids
+
+
+def load_all_notes():
     git_revision = get_git_revision()
     print 'git rev:', git_revision
 
     uuids = set()
 
     my_notes = []
-    for path in glob.glob('notes/**/*.yaml'):
+
+    yaml_files = []
+    for root, dirnames, filenames in os.walk('notes'):
+        for filename in fnmatch.filter(filenames, '*.yaml'):
+            yaml_files.append(os.path.join(root, filename))
+
+    for path in yaml_files:
+        print(path)
         with open(path) as yf:
             data = yaml.load(yf)
 
@@ -52,14 +90,21 @@ def load_notes_to_import():
         else:
             topic = ''
 
+        deck = data['deck']
+
         for note_row in data['notes']:
-            uuid = note_row['uuid']
+            note_uuid = note_row['uuid']
+            try:
+                uuid.UUID(note_uuid)
+            except ValueError:
+                print "Bad UUID", note_uuid, "in", path
+                raise
             origin_file = unicode(path)
-            if uuid in uuids:
-                raise Exception("Duplicated UID:" + str(uuid))
-            uuids.add(uuid)
-            print (origin_file, uuid)
-            # (front) (back) (add-reverse) (origin-file) (uuid) (git-revision)
+            if note_uuid in uuids:
+                raise Exception("Duplicated UID:" + str(note_uuid))
+            uuids.add(note_uuid)
+            # print (origin_file, note_uuid)
+            # (front) (back) (add-reverse) (origin-file) (note_uuid) (git-revision)
             if 'include_reverse' in note_row:
                 include_reverse = note_row['include_reverse']
             else:
@@ -74,77 +119,98 @@ def load_notes_to_import():
 
             my_notes.append(Note(
                 origin_file = origin_file,
-                uuid = uuid,
+                uuid = note_uuid,
                 include_reverse = include_reverse,
                 topic = note_topic,
                 front = front,
                 back = back,
-                git_revision = git_revision
+                git_revision = git_revision,
+                deck = deck
             ))
     return my_notes
 
-collection_path = '/home/prvak/dropbox/anki/User 1/collection.anki2'
-cwd = os.getcwd()
-collection = anki.Collection(collection_path)
-os.chdir(cwd)
+class MyTextImporter(anki.importing.TextImporter):
+    pass
+    #def noteFromFields(self, fields):
+    #    note = super(MyTextImporter, self).noteFromFields(fields)
+    #    # TODO: add some tags, too?
 
-# My Default deck
-deck = collection.decks.byName("Default")
-deck_id = deck['id']
-#collection.decks.get(deck_id)
-collection.decks.select(deck_id)
+    #    #assert len(fields) == N_FIELDS + 1
+    #    # [fields...] [comma,divided,tags]
+    #    #note.fields = fields[:N_FIELDS]
+    #    # note.tags = self.tagsToAdd # [] # TODO
+    #    #print(note.fields)
+    #    return note
 
-model = collection.models.byName("Basic (and reversed card) - synchronized with anki-decks")
+def main():
+    collection_path = '/home/prvak/dropbox/anki/User 1/collection.anki2'
+    cwd = os.getcwd()
+    collection = anki.Collection(collection_path)
+    os.chdir(cwd)
 
-def get_uuids_in_deck(deck_name):
-    got_uuids = set()
-    note_ids = collection.findNotes('deck:"' + deck_name + '"')
-    for note_id in note_ids:
-        note = collection.getNote(note_id)
-        if note.model()['id'] != model['id']:
-            continue
-        uuid, topic, front, back, add_reverse, origin_file, git_revision = note.fields
-        got_uuids.add((origin_file, uuid))
-    print 'Already got UIDs:', got_uuids
-    return got_uuids
 
-my_notes = load_notes_to_import()
-csv_file = 'import_dump.csv'
-added = 0
-got_uuids = get_uuids_in_deck('Default')
-with open(csv_file, 'w') as f:
+    model = collection.models.byName("Basic (and reversed card) - synchronized with anki-decks")
+
+    my_notes = load_all_notes()
+
+    notes_by_deck = {}
     for note in my_notes:
-        if (note.origin_file, note.uuid) in got_uuids:
-            print 'Not adding:', origin_file, uuid
-            continue
-        # TODO: Rewrite as in anki.importing.noteimp
+        deck = note.deck
+        if deck not in notes_by_deck:
+            notes_by_deck[deck] = []
+        notes_by_deck[deck].append(note)
 
-        row = '\t'.join(
-            [
-                note.uuid,
-                note.topic,
-                note.front, note.back,
-                 'true' if note.include_reverse else '',
-                 note.origin_file, note.git_revision
-            ]
-        )
-        print row
-        f.write(row.encode('utf-8') + '\n')
-        added += 1
+    for deck_name, deck_notes in notes_by_deck.iteritems():
+        print "Importing into", deck_name
 
+        # Finds or creates deck.
+        deck_id = collection.decks.id(deck_name)
+        collection.decks.select(deck_id)
 
-if added > 0:
-    deck['mid'] = model['id']
-    collection.decks.save(deck)
+        deck = collection.decks.get(deck_id)
+        deck['mid'] = model['id']
+        collection.decks.save(deck)
 
-    print 'Importing...'
+        csv_file = 'import_dump.csv'
+        imported = 0
+        # got_uuids = get_uuids_in_deck(collection, 'Default')
+        with open(csv_file, 'w') as f:
+            for note in deck_notes:
+                # If the UUID matches, then importing updates the note.
 
-    importer = anki.importing.TextImporter(collection, csv_file)
-    importer.allowHTML = True
-    importer.delimiter = '\t'
-    importer.initMapping()
-    importer.run()
-else:
-    print 'Nothing to add.'
+                # NOTE: To skip updating:
+                # if (note.origin_file, note.uuid) in got_uuids:
+                #     print 'Not adding:', origin_file, uuid
+                #     continue
 
-collection.close()
+                # TODO: Rewrite as in anki.importing.noteimp
+
+                row = '\t'.join(note.to_fields())
+                # print row
+                f.write(row.encode('utf-8') + '\n')
+                imported += 1
+
+        if imported > 0:
+            print 'Importing...'
+
+            importer = MyTextImporter(collection, csv_file)
+            importer.allowHTML = True
+            importer.delimiter = '\t'
+            importer.initMapping()
+            importer.run()
+        else:
+            print 'Nothing to add.'
+
+        for note in deck_notes:
+            cards = collection.findCards('anki-decks-uid:"' + note.uuid + '"')
+            for card_id in cards:
+                card = collection.getCard(card_id)
+                card.did = deck_id
+                card.flush()
+            print(note.uuid, cards)
+
+    collection.save()
+    collection.close()
+
+if __name__ == '__main__':
+    main()

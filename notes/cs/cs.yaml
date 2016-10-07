@@ -33,7 +33,7 @@ notes:
         -
                 uuid: d03401a6-2b39-4b70-a810-6f7d4336f360
                 front: '0mq'
-                back: Zero-MQ. Queue for intel-language communication.
+                back: Zero-MQ. Queue for inter-language communication.
         -
                 uuid: 0400a4e9-c598-4c97-a631-81342e026621
                 front: Bazel

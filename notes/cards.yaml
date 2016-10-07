@@ -67,7 +67,7 @@ notes:
         -
                 uuid: 30b72885-2872-4103-991c-f805afa73145
                 front: Plumbing and porcelain
-                back: Plumbing: backend. Analogy with house plumbing.
+                back: "Plumbing: backend. Analogy with house plumbing."
         -
                 uuid: 14e59d8c-bfcb-4954-9744-f2dbd15eaba3
                 front: Crystal language
