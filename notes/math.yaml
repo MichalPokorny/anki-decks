@@ -4,7 +4,7 @@ notes:
         -
                 uuid: 5c64ac78-bc43-4821-9084-f2bf98e6c320
                 front: Logistic function
-                back: AKA sigmoid. $f(x)=(1+e^{-\lambda x})^{-1}$
+                back: AKA sigmoid. [$]f(x)=(1+e^{-\lambda x})^{-1}[/$]
         -
                 uuid: 8b422f19-b1a6-4853-ae6c-c373e8daa591
                 front: Wedderburn theorem
