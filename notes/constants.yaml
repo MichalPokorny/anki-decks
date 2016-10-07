@@ -13,3 +13,19 @@ notes:
                 uuid: e041169d-2512-46b5-811b-fe78b7ee43bc
                 front: 2^32
                 back: 4 294 967 296 (~4 billion)
+        -
+                uuid: ebcc3274-db0d-49d0-bb92-7a76a20aa341
+                front: Minimum wage in Czech Republic
+                back: 9900 Kč/month, as of 2016-01-01 (before taxes)
+        -
+                uuid: 3ebd083c-9c8f-4eff-93c4-90e8fe3d047e
+                front: Average wage in Czech Republic
+                back: 27 297 Kč/month, as of 2016-10-08 (before taxes)
+        -
+                uuid: 03d467a3-ff41-4fba-bf62-1ccd33a097c8
+                front: Number of deaths per day
+                back: 153 000, as of 2016-10-08
+        -
+                uuid: 03d467a3-ff41-4fba-bf62-1ccd33a097c8
+                front: Number of births per day
+                back: 353 000, as of 2016-10-08

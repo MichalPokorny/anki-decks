@@ -5,10 +5,6 @@ notes:
                 front: Paradox of hedonism
                 back: AKA pleasure paradox. Pleasure cannot be acquired directly. Constant pleasure-seeking may not yield the most actual pleasure or happiness in the long run - consciously pursuing pleasure interferes with experiencing it.
         -
-                uuid: 03d467a3-ff41-4fba-bf62-1ccd33a097c8
-                front: Number of deaths per day
-                back: 150 000
-        -
                 uuid: c0330886-fec9-4142-9b97-b0bab86d5db0
                 front: PE ratio
                 back: Price/earnings
@@ -68,11 +64,6 @@ notes:
                 uuid: 30b72885-2872-4103-991c-f805afa73145
                 front: Plumbing and porcelain
                 back: "Plumbing: backend. Analogy with house plumbing."
-        -
-                uuid: 14e59d8c-bfcb-4954-9744-f2dbd15eaba3
-                front: Crystal language
-                back: Ruby-like language compiling to C
-                include_reverse: true
         -
                 uuid: 414855d2-95cf-499e-86e0-260cc9353fb3
                 front: Miracleberry

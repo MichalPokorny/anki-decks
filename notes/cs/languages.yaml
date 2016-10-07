@@ -7,3 +7,8 @@ notes:
                 front: "`ruboto`"
                 back: Ruby for Dalvik JVM, using JRuby
                 include_reverse: true
+        -
+                uuid: 14e59d8c-bfcb-4954-9744-f2dbd15eaba3
+                front: Crystal language
+                back: Ruby-like language compiling to C
+                include_reverse: true
