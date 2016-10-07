@@ -14,3 +14,7 @@ notes:
                 uuid: d1413cac-7e58-4da6-930c-0143ee59f479
                 front: assimp
                 back: Open Asset Import Library (for 3D models)
+        -
+                uuid: 6d7685bf-0de1-427e-b871-11cd2f8849d3
+                front: gecode
+                back: CSP solver

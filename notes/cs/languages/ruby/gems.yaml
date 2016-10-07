@@ -54,3 +54,24 @@ notes:
                 uuid: 969336d7-201f-455e-a278-5cf3134cc37e
                 front: "`rspec`"
                 back: Spec-driven testing
+                include_reverse: true
+        -
+                uuid: 6eb74385-2d5e-441d-8591-994194033363
+                front: "`better_errors`"
+                back: Better error screens for Rails
+                include_reverse: true
+        -
+                uuid: f2a00d5d-68f7-4c19-8678-a730d16e8116
+                front: "`conductor`"
+                back: Web console for Rails
+                include_reverse: true
+        -
+                uuid: c3f80d5d-eb97-4473-a1ec-034e01235446
+                front: "`bullet`"
+                back: (N+1)-query killer
+                include_reverse: true
+        -
+                uuid: 27727456-7392-42cb-a127-a637dbe88bd4
+                front: "`faker`"
+                back: Fake test data generator
+                include_reverse: true

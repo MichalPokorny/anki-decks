@@ -1,0 +1,113 @@
+topic: Octave/Matlab
+deck: CS::Languages::Octave/Matlab
+notes:
+        -
+                uuid: 83a3b8c3-f1e1-463c-8592-213f05f7f5ea
+                front: "Set PS1"
+                back: "`PS1('>> ');"
+                include_reverse: true
+        -
+                uuid: e7be4728-9c48-45af-86df-ad43f4e20922
+                front: "Don't write out return value of command"
+                back: "Semicolon after command"
+                include_reverse: true
+        -
+                uuid: 8e77f0ca-c4d5-4327-8435-c02d8517990b
+                front: "Comment syntax"
+                back: "`a = 100; % comment`"
+        -
+                uuid: 3d4d37f1-e501-413a-8537-83172720a7a8
+                front: "Matrix of 2 rows, 3 columns, full of 1"
+                back: "`ones(2, 3)`"
+                include_reverse: true
+        -
+                uuid: 772a4b1e-9d9e-4f50-a29b-573f8257cf85
+                front: "Matrix of 3 rows, 2 columns, full of 0"
+                back: "`zeros(3, 2)`"
+                include_reverse: true
+        -
+                uuid: e641a400-e1ed-434f-b682-9d091e7176e9
+                front: "Identity matrix 5x5"
+                back: "`eye(5)`"
+                include_reverse: true
+        -
+                uuid: 907035d1-ee3c-4896-9586-dd3bbe1dd0d2
+                front: "List variables in workspace"
+                back: "`who`"
+                include_reverse: true
+        -
+                uuid: 1eea9bfa-091d-4811-bb16-f99d533b2411
+                front: "Clear out a variable"
+                back: "`clear X`"
+                include_reverse: true
+        -
+                uuid: 61f5dfe0-da23-4d8f-9daa-df7c6684578d
+                front: "Matrix literal syntax?"
+                back: "`A=[1 2; 5 7; 0 1]`"
+        -
+                uuid: 69eafa55-5181-49c7-b587-74e7168f5129
+                front: "Create 2x2 matrix of uniform-distributed numbers [0;1]"
+                back: "`rand(2)`"
+                include_reverse: true
+        -
+                uuid: a08727b9-faef-4fd7-acd7-9d6958f5dcc2
+                front: "Matrix multiplication"
+                back: "`A = ones(2); B = rand(2); C = A * B`"
+                include_reverse: true
+        -
+                uuid: a6eda362-8b15-4ef3-bac6-459d0faea342
+                front: "Create matrix B with 1's where A's element >= 3"
+                back: "`B = (A >= 3)`"
+        -
+                uuid: e7a2a766-cea1-43ad-869b-14f3ffb48b0e
+                front: "Matrix transpose"
+                back: "`A'`"
+        -
+                uuid: 2450d5d8-3b67-431f-bc92-c837ff437c8c
+                front: "Get number of rows in matrix"
+                back: "`A = [1 2; 30 40; 5 6]; size(A, 1)`"
+                include_reverse: true
+        -
+                uuid: 8d42ad60-7dc6-4fc3-b944-a793c1c2d25c
+                front: "Get number of columns in matrix"
+                back: "`A = [1 2; 30 40; 5 6]; size(A, 2)`"
+                include_reverse: true
+        -
+                uuid: 42071c0c-b821-4969-aebf-7cb98d6440bd
+                front: "Get (num rows, num columns) in matrix"
+                back: "`A = [1 2; 30 40; 5 6]; size(A)`"
+                include_reverse: true
+        -
+                uuid: 34da977b-ac99-4c04-af13-7976383fac3b
+                front: "Get help for command `eye`"
+                back: "`help eye`"
+                include_reverse: true
+        -
+                uuid: 699a420f-62e4-4245-9579-06b6595e8480
+                front: "Booleans in Octave"
+                back: "1 = true, 0 = false"
+        -
+                uuid: 206fc4da-ee54-413b-a5ee-ce63aeb46532
+                front: "`a ~= b`"
+                back: "Non-equality operator (!=)"
+                include_reverse: true
+        -
+                uuid: 674a37db-eb33-4ab6-8f78-48b9519f3c6c
+                front: "Element-wise matrix multiplication"
+                back: "`A .* B`"
+                include_reverse: true
+        -
+                uuid: 59f707c3-a4b2-4598-8635-8df21af49a10
+                front: "Element-wise matrix element squaring"
+                back: "`A .^ 2`"
+                include_reverse: true
+        -
+                uuid: 6dd677d7-0828-4a39-a60f-75cd0f5a9ea0
+                front: "Matrix (pseudo)inverse"
+                back: "`pinv(A)`"
+                include_reverse: true
+        -
+                uuid: 12d7f6ac-a696-4eab-b427-42164d6fb8c1
+                front: "Print value of variable"
+                back: "`disp(X);`"
+                include_reverse: true

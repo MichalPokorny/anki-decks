@@ -22,3 +22,8 @@ notes:
                 front: Go to end of line
                 back: "`C-e`"
                 include_reverse: true
+        -
+                uuid: 9d04ca8a-eff3-4acb-8d74-9c55af5d5602
+                front: Backspace-delete until start of line
+                back: "`C-u`"
+                include_reverse: true

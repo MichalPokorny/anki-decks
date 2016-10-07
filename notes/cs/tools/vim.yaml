@@ -16,7 +16,7 @@ notes:
                 back: "`()`"
         -
                 uuid: bbaa3261-44dd-42d1-871b-27198ba94944
-                front: Change to other end of selection in visual mode
+                front: Go to other end of selection in visual mode
                 back: "`o`"
         -
                 uuid: c9a40478-0e53-44b3-82e3-2309ea4a0dc1
@@ -62,3 +62,102 @@ notes:
                 front: Open read-only Vim
                 back: "`view`"
                 include_reverse: true
+        -
+                uuid: 6b6f1fe9-0716-4e56-8add-ff31ea347e8d
+                front: "`M` in Normal mode"
+                back: "Go to middle of page"
+                include_reverse: true
+        -
+                uuid: 810f51bb-7533-4def-bbfa-370f37538271
+                front: "`L` in Normal mode"
+                back: "Go to start of page"
+                include_reverse: true
+        -
+                uuid: e04dbb9d-8b8b-40b7-9f6b-ebc9b2544e8a
+                front: "`H` in Normal mode"
+                back: "Go to end of page"
+                include_reverse: true
+        -
+                uuid: ee22c0cc-cfd3-40a2-b4cd-e589a3b854eb
+                front: "`]c`, `[c`"
+                back: "Jump to next, previous change in `vimdiff`"
+                include_reverse: true
+        -
+                uuid: ab14f024-7f23-4a81-8f9b-fe530e9daccc
+                front: "`O`"
+                back: "Insert line above and start writing"
+                include_reverse: true
+        -
+                uuid: 671b3d74-9674-4a8c-ae21-628d6993b5a1
+                front: "`b`"
+                back: "Go back by a word"
+                include_reverse: true
+        -
+                uuid: babee966-4538-48de-a293-a111d2746a09
+                front: "`%`"
+                back: "Jump to matching pair construct (`()`/`[]`/`#if`/...)"
+                include_reverse: true
+        -
+                uuid: 7b4be7c6-5975-4c21-93f1-676dd9ba62dc
+                front: "`g~`"
+                back: "Switch upper/lowercase in selection"
+                include_reverse: true
+        -
+                uuid: 07560444-4fff-4c82-bbe2-d7624cc45b4e
+                front: "`gu`"
+                back: "Switch selection to lowercase"
+                include_reverse: true
+        -
+                uuid: 23b2e89a-d396-4955-bf97-c264a5e04681
+                front: "`gU`"
+                back: "Switch selection to uppercase"
+                include_reverse: true
+        -
+                uuid: 358bd63c-6f53-4abf-9f0a-61a1a0b4061e
+                front: "`~`"
+                back: "Switch upper/lowercase of character"
+                include_reverse: true
+        -
+                uuid: ba51a63e-4f0c-46ca-b8d3-ae654b58428d
+                front: "Write buffer, appending its content to `otherfile.txt`"
+                back: "`:w >>otherfile.txt`"
+                include_reverse: true
+        -
+                uuid: 6fe27c8c-9748-4e13-8070-50530940c780
+                front: "Jump immediately before next occurence of `x` on this line"
+                back: "`tx`"
+                include_reverse: true
+        -
+                uuid: 79881b2a-95a9-4266-b5ec-782a4cabd9d1
+                front: "Search current word, backwards"
+                back: "`#`"
+                include_reverse: true
+        -
+                uuid: c43597d2-8abf-4223-bd3e-b779977c7b06
+                front: "Paste content of register, in Insert mode"
+                back: "`C-r (register)`"
+                include_reverse: true
+        -
+                uuid: 3f90fb54-db4f-4dfd-aa47-cd325b00359a
+                front: "Arithmetic register"
+                back: "`=`"
+        -
+                uuid: 21001fd8-5a54-4394-896e-8a90c34b155f
+                front: "Paste 5+15, in Insert mode"
+                back: "`C-r =5+15 <Enter>`"
+        -
+                uuid: 808a44df-eb2d-465b-8388-1ed3e72db56f
+                front: "Scroll down without changing focused line"
+                back: "`C-e`"
+                # mnemonic: "E-xtra lines"
+                include_reverse: true
+        -
+                uuid: 2cc06e7e-05a7-4dff-bfa2-b63e6c322016
+                front: "Scroll up without changing focused line"
+                back: "`C-y`"
+                # mnemonic: "E-xtra lines"
+                include_reverse: true
+        -
+                uuid: 2cb7bd94-3a1c-4ce6-a697-cbc0fcc56f65
+                front: "Find a pattern and add something to occurences"
+                back: "`:%s/pattern/&+something/`"

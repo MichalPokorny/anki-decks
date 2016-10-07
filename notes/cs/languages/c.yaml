@@ -46,6 +46,25 @@ notes:
                 back: '`printf("%+d\n", 42);'
                 include_reverse: true
         -
+                uuid: cec698e8-7ad2-4403-8483-732eeedff415
+                topic: "C - `printf`"
+                front: "Print number with -, or space for positives (print ' 42')"
+                back: '`printf("% d\n", 42);'
+                include_reverse: true
+        -
+                uuid: fa5c375e-e697-4511-bb80-8ef3c5cc2072
+                topic: "C - `printf`"
+                front: "Print float in hexadecimal form (`0x1.91eb86p+1`)"
+                back: '`printf("pi=%a\n", 3.14);'
+                include_reverse: true
+        -
+                uuid: 5f76b470-81f4-4583-9885-4a9c70a34c7b
+                topic: "C - `printf`"
+                front: "Print out `0x1a`, without `0x` in format string"
+                back: '`printf("%#X\n", 26);'
+                include_reverse: true
+                # TODO: also works for octal
+        -
                 uuid: 78a17c8f-f85c-4259-9984-db789c5226ec
                 front: "`calloc`"
                 back: '`void *calloc(size_t nmemb, size_t size);`; allocates memory, like `malloc`'
@@ -75,3 +94,21 @@ notes:
                 uuid: 5cdd8d57-3c25-4ed5-bf3c-657765c1d978
                 front: 'What does `puts("hello");` do?'
                 back: "Writes `hello` and a newline to `stdout`."
+        -
+                uuid: a55e3141-8c90-4818-9fe0-60e3291fb678
+                front: 'What to do with continuation markers in multi-line macro bodies?'
+                back: "Right-align them"
+        -
+                uuid: 6c110fe4-7a9a-4224-b339-c00e6d861323
+                front: '`reallocarray` and why to use it'
+                back: "`void* reallocarray(void *ptr, size_t nmemb, size_t size);` -- use because `num * size` in `malloc`/`realloc` call might lead to overflow"
+        -
+                uuid: ef449a86-449d-4792-bccc-4a632666b326
+                front: "Zero out memory without allowing de-optimizing it away (e.g., for passwords)"
+                back: "`void explicit_bzero(void *buf, size_t len);`"
+        -
+                uuid: d32ea83d-9075-4db1-aedb-3401655af5d6
+                front: "`explicit_bzero`"
+                back: >
+                        Zero out memory without allowing de-optimizing it away (e.g., for passwords).
+                        `void explicit_bzero(void *buf, size_t len);`

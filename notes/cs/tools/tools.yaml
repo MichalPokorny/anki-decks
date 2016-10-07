@@ -35,6 +35,11 @@ notes:
                 back: "`gpsim`"
                 include_reverse: true
         -
+                uuid: 5ba25172-5bbb-4a50-becf-6c249c7d6019
+                front: "PIC microchip utilities"
+                back: "`gputils`"
+                include_reverse: true
+        -
                 uuid: 7b375c52-b014-41a1-8091-9c2c7b29b9ab
                 front: "YouTube downloader"
                 back: "`youtube-dl`"
@@ -53,6 +58,11 @@ notes:
                 uuid: 153080ab-b224-45a9-9f03-54f912ee4215
                 front: "Print Linux kernel log in human-readable format"
                 back: "`dmesg --human`"
+                include_reverse: true
+        -
+                uuid: 4e877fe4-c300-43fd-933f-cc1da988684f
+                front: "Print Linux kernel log and print incoming messages"
+                back: "`dmesg --follow`"
                 include_reverse: true
         -
                 uuid: 8a1d9119-00a8-4525-b9e7-fcc19d9b1af2
@@ -156,6 +166,11 @@ notes:
                 back: "`grep -c`"
                 include_reverse: true
         -
+                uuid: 037ae95b-fdf5-4bac-8ba3-a2950ca1732d
+                topic: "`grep`"
+                front: Search only within files meeting a glob
+                back: '`grep --include="*.rb" ...`'
+        -
                 uuid: 0661c3db-3903-4e75-ac30-82fc31611e50
                 front: Screen - attach, including already attached sessions
                 back: "`screen -x (session)`"
@@ -195,6 +210,15 @@ notes:
                 front: C++ code deduplicator
                 back: "`simian`"
                 include_reverse: true
+        -
+                uuid: a7916680-3788-4922-a38c-38ab4d95ad5c
+                front: TUI disk usage visualizer
+                back: "`ncdu`"
+                include_reverse: true
+        -
+                uuid: ef421f30-02d2-411e-8ece-c4e4c53ebe5a
+                front: "`patoline`"
+                back: Typesetting system
         -
                 uuid: f4318a5b-d750-47cc-b934-64fdc0efac88
                 topic: Pacman
@@ -375,5 +399,49 @@ notes:
                 front: "8"
                 back: "System administration commands (usually only for root)"
                 include_reverse: true
+        -
+                uuid: 588b3103-a7a8-47be-aa07-3b9f6393b3f4
+                topic: "`ssh`"
+                front: "Connect to server without pubkey auth"
+                back: "`ssh rny.cz -o PubkeyAuthentication=no`"
+                include_reverse: true
+        -
+                uuid: 36b1e5ca-8bd5-47f7-9452-07c7251dd67b
+                topic: "`ssh`"
+                front: "Enable compression on command-line"
+                back: "`ssh -C ...`"
+                include_reverse: true
+        -
+                uuid: c442269e-24e8-43d7-8d6b-cb73d3898293
+                topic: "`ssh`"
+                front: "Enable compression in configuration file"
+                back: "`Compression yes`"
+        -
+                uuid: f766e966-7532-4b7b-a41b-7ca60d2edcbd
+                topic: "`ssh`"
+                front: "`~.` on beginning of line"
+                back: "Disconnect forcefully (`~` is `ssh` escape character)"
+        -
+                uuid: b4885e60-92b9-465f-986f-432010620615
+                topic: "`ssh`"
+                front: "Disconnect forcefully"
+                back: "`~.`, on beginning of line (`~` is `ssh` escape character)"
+        -
+                uuid: 74fe99ef-4838-4473-a509-140f01cd5a0c
+                topic: "`ssh`"
+                front: "`~~`"
+                back: "Send escape character"
+                include_reverse: true
+        -
+                uuid: 3ad773ca-d27e-4d0a-a820-5c35e06d6ddf
+                topic: "`ssh`"
+                front: "Enable X forwarding"
+                back: "`ssh -X ...`"
+
 # TODO: how to show specific man page? list of available ones?
 # TODO: whiteout, blackout in Google Docs
+        -
+                uuid: 4ceab1d5-2924-4bf7-bba9-64d9ee6e0879
+                front: Randomly permute input lines
+                back: "`shuf`"
+                include_reverse: true
