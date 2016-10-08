@@ -37,13 +37,13 @@ notes:
                 uuid: fa5c375e-e697-4511-bb80-8ef3c5cc2072
                 topic: "C - `printf`"
                 front: "Align to left (print '42  ')"
-                back: '`printf("%-4d\n", 42);'
+                back: '`printf("%-4d\n", 42);`'
                 include_reverse: true
         -
                 uuid: cf13970d-e91a-4902-9749-aa3150d3c09b
                 topic: "C - `printf`"
                 front: "Print number with sign, + or - (print '+42')"
-                back: '`printf("%+d\n", 42);'
+                back: '`printf("%+d\n", 42);`'
                 include_reverse: true
         -
                 uuid: cec698e8-7ad2-4403-8483-732eeedff415
@@ -55,13 +55,13 @@ notes:
                 uuid: 045dfdd5-d388-49be-9c1d-d9c273fb855d
                 topic: "C - `printf`"
                 front: "Print float in hexadecimal form (`0x1.91eb86p+1`)"
-                back: '`printf("pi=%a\n", 3.14);'
+                back: '`printf("pi=%a\n", 3.14);`'
                 include_reverse: true
         -
                 uuid: 5f76b470-81f4-4583-9885-4a9c70a34c7b
                 topic: "C - `printf`"
                 front: "Print out `0x1a`, without `0x` in format string"
-                back: '`printf("%#X\n", 26);'
+                back: '`printf("%#X\n", 26);`'
                 include_reverse: true
                 # TODO: also works for octal
         -
