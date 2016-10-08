@@ -8,7 +8,7 @@ notes:
         -
                 uuid: 718d9ebc-98a4-45b9-9ea5-4208fe49e944
                 front: A0 paper area and aspect ratio
-                back: "1 m<sup>2</sup>, aspect ratio [$]\sqrt{2}[/$]"
+                back: '1 m<sup>2</sup>, aspect ratio [$]\sqrt{2}[/$]'
         -
                 uuid: f2dd397a-8fc4-4634-af4d-dccae7ed37ad
                 front: Number of hours in 1 year
@@ -30,6 +30,6 @@ notes:
                 front: Number of deaths per day
                 back: 153 000, as of 2016-10-08
         -
-                uuid: 03d467a3-ff41-4fba-bf62-1ccd33a097c8
+                uuid: 7f669eb2-24b7-4532-b356-931a6a805b31
                 front: Number of births per day
                 back: 353 000, as of 2016-10-08

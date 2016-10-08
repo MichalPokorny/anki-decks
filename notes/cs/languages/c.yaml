@@ -52,7 +52,7 @@ notes:
                 back: '`printf("% d\n", 42);'
                 include_reverse: true
         -
-                uuid: fa5c375e-e697-4511-bb80-8ef3c5cc2072
+                uuid: 045dfdd5-d388-49be-9c1d-d9c273fb855d
                 topic: "C - `printf`"
                 front: "Print float in hexadecimal form (`0x1.91eb86p+1`)"
                 back: '`printf("pi=%a\n", 3.14);'
