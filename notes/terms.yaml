@@ -98,9 +98,9 @@ notes:
                         Any natural tendency, impulse, striving, or directed effort.
                         The area of one's active mentality that has to do with desire, volition and striving.
                 include_reverse: true
-	# Added by add-term.py
-	-
-		uuid: 0df1b4b2-8cac-11e6-b373-a44e31493108
-		front: "In-kind donation"
-		back: "Gift of goods or services, instead of money to buy them."
-		include_reverse: true
+        # Added by add-term.py
+        -
+                uuid: 0df1b4b2-8cac-11e6-b373-a44e31493108
+                front: "In-kind donation"
+                back: "Gift of goods or services, instead of money to buy them."
+                include_reverse: true
