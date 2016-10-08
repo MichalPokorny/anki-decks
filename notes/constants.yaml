@@ -4,7 +4,11 @@ notes:
         -
                 uuid: b644187e-b8e7-433a-8e10-7ed8722dd682
                 front: A4 paper size
-                back: "210 x 297 mm; (A0 defined as: area: 1 m^2, aspect ratio: sqrt(2))"
+                back: "210 x 297 mm"
+        -
+                uuid: 718d9ebc-98a4-45b9-9ea5-4208fe49e944
+                front: A0 paper area and aspect ratio
+                back: "1 m<sup>2</sup>, aspect ratio [$]\sqrt{2}[/$]"
         -
                 uuid: f2dd397a-8fc4-4634-af4d-dccae7ed37ad
                 front: Number of hours in 1 year
