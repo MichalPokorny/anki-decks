@@ -111,3 +111,100 @@ notes:
                 front: "Print value of variable"
                 back: "`disp(X);`"
                 include_reverse: true
+        -
+                uuid: 65f04f06-5241-4ea1-8f32-1b158aab0fb2
+                front: "Scalar equality test"
+                back: "x == y"
+                include_reverse: true
+        -
+                uuid: 134fbe0b-07f9-4b10-a7ea-a8fa74e5e11d
+                front: "Logical and, or"
+                back: "x && y; x || y;"
+        -
+                uuid: e91cf6ff-fe29-470e-8862-dc9674f5d915
+                front: "Pi"
+                back: "`pi`"
+        -
+                uuid: 0048c9ad-fd74-4cf7-b9f9-cd35760bc99c
+                front: "Print out formatted string"
+                back: "`disp(sprintf('Hello %.2f', a));`"
+        -
+                uuid: c51f98ce-e615-4d8e-9ab3-ac9874e41b6c
+                front: "Set number of printed digits to a few/a lot"
+                back: "`format short` / `format long;`"
+                include_reverse: true
+        -
+                uuid: 34bf6129-ee7f-48c6-aa7e-f6e94cda90f1
+                front: "`[1.0 1.2 1.4 ... 2.0]`"
+                back: "`1.0:0.2:2.0`"
+                include_reverse: true
+        -
+                uuid: 7929c4fd-4d30-4e3d-aecb-506a5edd2de7
+                front: "Row vector"
+                back: "[1 2 3]"
+                include_reverse: true
+        -
+                uuid: 7be077f9-3100-452b-a44a-75165a22fe67
+                front: "Column vector"
+                back: "[1; 2; 3]"
+                include_reverse: true
+        -
+                uuid: 2560914b-bab8-4a66-bc77-04a2904c703a
+                front: "Number of items in row or column vector"
+                back: "length(x)"
+                include_reverse: true
+        -
+                uuid: 7f5195e3-8a57-4429-a9d7-ec8eeb681fc7
+                front: "Select vector items 2, 3, 4, 5. Works both for row and column vectors."
+                back: "`x(2:5)`"
+                include_reverse: true
+        -
+                uuid: 6dfb9987-01a5-4be1-8eed-baeeab9338a0
+                front: "Append column to matrix"
+                back: "`A = [A, [100; 101; 102]]`"
+                include_reverse: true
+        -
+                uuid: d239981f-6f63-4632-97e5-ee346c0d9fc7
+                front: "Elementwise reciprocal"
+                back: "1 ./ v"
+                include_reverse: true
+        -
+                uuid: 2930f816-019c-4a3c-8447-698e0714eb10
+                front: "Matrix 3x3 full of 3's"
+                back: "ones(3) + 2"
+                include_reverse: true
+        -
+                uuid: 73835cf2-539b-4723-abbb-5ee6f2f33941
+                front: "Get list of indices where vector `x` is greater than 5"
+                back: "`x = [1 10 2 20]; find(x > 5)`"
+                include_reverse: true
+        -
+                uuid: 93f86d82-1d59-434e-9552-e1b8a7f5be77
+                front: "Return list of non-zero indices in vector"
+                back: "`find`"
+                include_reverse: true
+        -
+                uuid: 4d90cb9a-5d0c-4650-93aa-f5301e0816c6
+                front: "Return 5x5 magic square"
+                back: "`magic(5)`"
+                include_reverse: true
+        -
+                uuid: f76eb94c-d26f-4950-ae17-68b62b5acde2
+                front: "Multiply together entire vector"
+                back: "`prod(v)`"
+                include_reverse: true
+        -
+                uuid: c87c0a29-f952-4cc8-a605-8ee26162f88a
+                front: "Vectorize matrix by appending rows together"
+                back: "`A(:)`"
+                include_reverse: true
+        -
+                uuid: 05a011c3-9105-42c4-87dc-42eb6641f9f2
+                front: "Get matrix second column"
+                back: "`A(:,2)`"
+                include_reverse: true
+        -
+                uuid: e1836723-454b-46b5-8d7c-8a43185714d7
+                front: "Get matrix second row"
+                back: "`A(2,:)`"
+                include_reverse: true

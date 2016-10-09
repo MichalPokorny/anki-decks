@@ -112,3 +112,16 @@ notes:
                 back: >
                         Zero out memory without allowing de-optimizing it away (e.g., for passwords).
                         `void explicit_bzero(void *buf, size_t len);`
+        -
+                uuid: 59810d5e-9dc4-41d7-adc9-3e6d660d03bc
+                front: "`pread`/`pwrite`"
+                back: >
+                        Syscall. Read from or write to a file descriptor at a given offset.
+                        `#include <unistd.h>`
+                        `ssize_t pread(int fd, void *buf, size_t count, off_t offset);`
+                        `ssize_t pwrite(int fd, const void *buf, size_t count, off_t offset);`
+                        Returns number of bytes/written, or -1 and `errno` on error.
+        -
+                uuid: c1a580b9-96b2-4eff-be6b-3c6ccbda0895
+                front: Syscalls to read/write to/from fd at a given offset.
+                back: "`pread`/`pwrite` in `<unistd.h>`"

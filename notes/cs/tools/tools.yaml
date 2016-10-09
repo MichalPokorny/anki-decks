@@ -557,3 +557,7 @@ notes:
                 front: "Executable file compressor"
                 back: "UPX"
                 include_reverse: true
+        -
+                uuid: de501d85-74fc-4196-80db-a1ac0b90c6df
+                front: "X-ARF"
+                back: "eXtended Abuse Report Format; mail for reporting abuse"

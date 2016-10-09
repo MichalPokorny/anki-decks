@@ -1,0 +1,8 @@
+topic: C++
+deck: CS::Languages::C++
+notes:
+        -
+                uuid: f4c2ffc5-9e32-40ed-b7f4-be5f588ab1e8
+                front: "`if (auto x = ...) { ... }`"
+                back: "Declare a variable, while simultaneously branching on its truthiness"
+                include_reverse: true

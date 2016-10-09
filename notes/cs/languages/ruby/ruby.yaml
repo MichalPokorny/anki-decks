@@ -44,3 +44,17 @@ notes:
                 front: Run RSpec tests from just one spec file
                 back: "`rspec /path/x.rb`"
                 include_reverse: true
+        -
+                uuid: 89d64532-12c4-4d7d-b461-c969260bda32
+                front: "Lambda `#call` syntax sugar"
+                back: "`x = lambda { |a, b| a + b }; x.(1,2)  # 3`"
+        -
+                uuid: c6add35f-bea4-4885-b062-abc3cea0ba37
+                front: "Run `map` and join output arrays"
+                back: "`Enumerable#flat_map`"
+                include_reverse: true
+        -
+                uuid: 05d58bb4-fbb6-4bc1-a6a1-acd8ef92d0e8
+                front: "Exit from block, possibly with return value"
+                back: "`next`"
+                include_reverse: true

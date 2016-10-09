@@ -9,6 +9,10 @@ notes:
                 include_reverse: true
         -
                 uuid: 14e59d8c-bfcb-4954-9744-f2dbd15eaba3
-                front: Crystal language
+                front: Crystal
                 back: Ruby-like language compiling to C
                 include_reverse: true
+        -
+                uuid: c61e049a-28ce-418d-892f-cda373946d85
+                front: Mirah
+                back: Similar to Ruby, compiled into Java

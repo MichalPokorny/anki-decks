@@ -16,3 +16,8 @@ notes:
                 front: Vegas
                 back: jQuery cool background
                 include_reverse: true
+        -
+                uuid: a8333c84-1a97-42fb-b1a1-737c23dd7ebe
+                front: D3
+                back: Data visualization library
+                include_reverse: true

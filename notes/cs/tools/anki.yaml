@@ -1,0 +1,18 @@
+deck: CS::Tools::Anki
+topic: Anki
+notes:
+        -
+                uuid: 4de7c8e9-434c-4987-a001-0136ee30abe1
+                front: Group of related information that yields cards, e.g. word, translation, page number
+                back: Note
+                include_reverse: true
+        -
+                uuid: ad28df99-355b-430d-b0b6-708acbd37d4e
+                front: Chinese::Hanzl
+                back: Deck Hanzl, subdeck of deck Chinese
+                include_reverse: true
+        -
+                uuid: e3247465-dd02-4e73-82de-9c7a6515ff77
+                front: Piece of information contained in a note (type)
+                back: Field
+                include_reverse: true

@@ -24,3 +24,8 @@ notes:
                 front: 'Magic method implementing `in`'
                 back: '`__contains__`'
                 include_reverse: true
+        -
+                uuid: 793785e4-8951-413b-a153-795201225a6a
+                front: Chaining comparison
+                back: "`a < b < c`"
+                include_reverse: true

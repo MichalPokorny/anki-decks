@@ -42,7 +42,7 @@ notes:
                 include_reverse: true
         -
                 uuid: 4f97ca60-608a-496d-aa6d-4e68d5061210
-                front: Revive selection
+                front: Revive last selection
                 back: "`gv`"
         -
                 uuid: 9cae9f68-eb5c-407f-9c38-e913c00d8796
@@ -134,7 +134,8 @@ notes:
                 include_reverse: true
         -
                 uuid: c43597d2-8abf-4223-bd3e-b779977c7b06
-                front: "Paste content of register, in Insert mode"
+                topic: Vim - Insert mode
+                front: "Paste content of register"
                 back: "`C-r (register)`"
                 include_reverse: true
         -
@@ -143,7 +144,8 @@ notes:
                 back: "`=`"
         -
                 uuid: 21001fd8-5a54-4394-896e-8a90c34b155f
-                front: "Paste 5+15, in Insert mode"
+                topic: Vim - Insert mode
+                front: "Paste 5+15"
                 back: "`C-r =5+15 <Enter>`"
         -
                 uuid: 808a44df-eb2d-465b-8388-1ed3e72db56f
@@ -161,3 +163,161 @@ notes:
                 uuid: 2cb7bd94-3a1c-4ce6-a697-cbc0fcc56f65
                 front: "Find a pattern and add something to occurences"
                 back: "`:%s/pattern/&+something/`"
+        -
+                uuid: 006ead5b-61e6-4460-8985-6abc34894028
+                front: "Open window with command history"
+                back: "`q:`"
+        -
+                uuid: 1ea2eb93-3bba-46c5-aee9-970bd1531fb6
+                topic: Vim - Insert mode
+                front: "`C-w`"
+                back: "Delete last word"
+                include_reverse: true
+        -
+                uuid: e9e1434f-7db7-41de-9faf-24b8536610d6
+                topic: Vim - Insert mode
+                front: "`C-u`"
+                back: "Backspace until start of line"
+                include_reverse: true
+        -
+                uuid: 6c1b7707-1f07-45ca-9f52-84031a5a237b
+                front: "Replace current line with output of command"
+                back: "`!!` (...)"
+                include_reverse: true
+        -
+                uuid: f4d10a4a-d9a6-474b-afb7-ba15bf9e27da
+                front: "Insert output of command here"
+                back: "`:r!xyz`"
+                include_reverse: true
+        -
+                uuid: 0f8c2e2a-f05d-424f-9d31-e0265e915286
+                front: "Change window height to 35 lines"
+                back: "`35 C-W _`"
+                include_reverse: true
+        -
+                uuid: 8d5e9ea0-626b-4066-b175-0a0e078f8162
+                front: "Change window width to 35 chars"
+                back: "`35 C-W |`"
+                include_reverse: true
+        -
+                uuid: e6495158-3b99-4cba-b546-2bc1cf1be58c
+                front: "Go to previous position in position stack"
+                back: "`C-O`"
+                include_reverse: true
+        -
+                uuid: 253a48e4-8514-41dc-8e7e-ed5f964e3fe2
+                front: "Go to next position in position stack"
+                back: "`C-I`"
+                include_reverse: true
+        -
+                uuid: 864aed40-c3b6-4d6f-9a66-2fd8d804cf81
+                front: "Change entire line"
+                back: "`cc` or `C`"
+                include_reverse: true
+        -
+                uuid: ec7bbcf5-7268-4363-ac43-a390beea09cd
+                front: "Get man page of current word"
+                back: "`K`"
+                include_reverse: true
+        -
+                uuid: 2884123c-8687-4bdd-94a1-aef170989093
+                topic: Vim - Insert mode
+                front: "Insert character at same position in line above"
+                back: "`C-y`"
+                include_reverse: true
+        -
+                uuid: d73df7fb-a5ed-41eb-956a-15707d7ba913
+                front: "Get UTF-8 representation of char"
+                back: "`g8`"
+                include_reverse: true
+        -
+                uuid: ad9d0354-d668-4bfe-ab40-293f6753a109
+                front: "Get ASCII representation of char, including hex"
+                back: "`ga`"
+                include_reverse: true
+        -
+                uuid: 00fb7dd3-0d94-4198-852c-113ff8118848
+                front: "Cursor to column 10"
+                back: "`10|`"
+                include_reverse: true
+        -
+                uuid: 66ba953f-2a69-4e20-b168-e9b46c4fbfe2
+                front: "Go to 40% of file"
+                back: "`40%`"
+                include_reverse: true
+        -
+                uuid: 18bb0924-c2c0-4c61-992c-945ac708dea9
+                front: "Equalize windows"
+                back: "`C-w =`"
+                include_reverse: true
+        -
+                uuid: d5f11805-0f18-4a3b-8713-a010ffcec95a
+                front: "List errors"
+                back: "`:clist`"
+                include_reverse: true
+        -
+                uuid: db2cef8d-afb6-4915-b434-748a661ae628
+                front: "List errors, in new window"
+                back: "`:copen`"
+                include_reverse: true
+        -
+                uuid: 7599b352-1206-4916-b030-5d0dd746a6b7
+                front: "List errors, including whole `makeprg` output"
+                back: "`:clist!`"
+                include_reverse: true
+        -
+                uuid: 1b0f12a7-5c20-4298-a2ab-e201ac97c3ff
+                front: "Goto beginning of previous word"
+                back: "`b`"
+                include_reverse: true
+        -
+                uuid: 2ffc7d7b-4d38-4468-8aa0-2347ec47ce5d
+                front: "Goto next word end"
+                back: "`e`"
+                include_reverse: true
+        -
+                uuid: 96faec0f-8f89-4aab-877a-b1bccaf81194
+                front: "Repeat last executed macro"
+                back: "`@@`"
+                include_reverse: true
+        -
+                uuid: 93cfd3bf-a89d-4efe-8a7a-e974f36c6f49
+                front: "Write buffer to new filename and switch to new filename"
+                back: "`:saveas x`"
+                include_reverse: true
+        -
+                uuid: 3c544dc9-079c-41ef-a446-fbcb83b84d09
+                front: "Open file under cursor"
+                back: "`gf`"
+                include_reverse: true
+        -
+                uuid: 3c723e02-0c15-4f17-8f5b-93871e923092
+                front: "Switch between last 2 files"
+                back: "`C-^`"
+                include_reverse: true
+        -
+                uuid: 2681bfd3-215f-4dce-8451-8e1a2dd7cee0
+                topic: Vim - Insert mode
+                front: "Do one normal mode command"
+                back: "`C-o`"
+                include_reverse: true
+        -
+                uuid: d3784d82-9ae5-4181-8b08-6a7ac1ced857
+                front: "Go to 100th file character"
+                back: "`:goto 100`"
+                include_reverse: true
+        -
+                uuid: fd4d6e64-2aa6-4e26-a364-f4419f23e93d
+                front: "Pipe buffer into the command `foo`"
+                back: "`:w !foo`"
+                include_reverse: true
+        -
+                uuid: 4644234c-3ca1-4ec4-9542-8cf7a1de311e
+                front: "Record macro `c`"
+                back: "`qc ... ... q`"
+                include_reverse: true
+        -
+                uuid: ab6f9cea-5ddb-47b5-b86b-dfcd8ac7e5e8
+                front: "Play macro `c`"
+                back: "`@c`"
+                include_reverse: true

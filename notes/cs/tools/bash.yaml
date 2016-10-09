@@ -31,3 +31,8 @@ notes:
                 uuid: acdb9620-ef06-4822-aa73-30b9efc8233a
                 front: Collapse whitespace in output of program into one space
                 back: "echo `some program`"
+                include_reverse: true
+        -
+                uuid: 82d78c9f-8461-442e-b970-34c7fc57f7df
+                front: 'Difference in `source` behavior between `bash` and `sh`'
+                back: "In `sh`, `source` searches in `$PATH`. In `bash`, it also searches in `$CWD`."
