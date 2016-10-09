@@ -204,7 +204,7 @@ notes:
         -
                 uuid: d05a58a8-865d-4399-84e7-a4fa2a75c5cb
                 front: Midnight Commander - launch tab completion
-                back: "\<Esc\>-\<Tab\>"
+                back: '\<Esc\>-\<Tab\>'
         -
                 uuid: e37246bb-95bc-43fd-b1ad-00725946b86c
                 front: C++ code deduplicator
