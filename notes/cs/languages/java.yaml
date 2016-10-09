@@ -1,0 +1,23 @@
+topic: Java
+deck: CS::Languages::Java
+notes:
+        -
+                uuid: 2fc0dd24-e54c-44a6-8977-664f7ab19689
+                front: 'Join `List<String>` by `", "`'
+                back: '`list.stream().collect(Collectors.joining(", "))`'
+                include_reverse: true
+        -
+                uuid: 8c37d746-1c07-4cfa-b9c9-14755ebad4c7
+                front: 'Call map function on `List<String>` to convert to integers, then sum up results'
+                back: '`list.stream().mapToLong(fn).sum()`'
+                include_reverse: true
+        -
+                uuid: 6b9be4dc-6e46-46d0-af6c-53b8b9a0ac47
+                front: 'Group `List<X>` by result of `fn`, yielding `Map<X, List<Y>>`'
+                back: '`list.stream().collect(Collectors.groupingBy(fn))`'
+                include_reverse: true
+        -
+                uuid: 03204f7b-1349-47b1-acb5-16df12473405
+                front: 'Class of pair / map entry'
+                back: '`Map.Entry<K, V>`'
+                include_reverse: true

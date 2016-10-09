@@ -458,3 +458,102 @@ notes:
                 front: "Tgz up a directory"
                 back: "tar cvzf foo.tar.gz cps100"
                 # TODO: Which flags do which?
+        -
+                uuid: 8bd5ef59-fd3b-4297-833a-a51f6c59e194
+                topic: Firefox addons
+                front: Custom styling by URL
+                back: Stylish
+                include_reverse: true
+        -
+                uuid: fd778dd8-35cd-4390-b369-144256137903
+                front: Haskell replacement for Xournal
+                back: Hoodle
+                include_reverse: true
+        -
+                uuid: 21e2cb0f-b573-4ef9-bef6-907133dbbae1
+                front: Haskell replacement for Xournal
+                back: Hoodle
+                include_reverse: true
+        -
+                uuid: 5064f3fb-6d4c-43f4-8d11-4476be548597
+                front: Jam
+                back: Build tool used by Boost
+                include_reverse: true
+        -
+                uuid: 5aca0194-e13f-420d-8af3-03106b509054
+                front: pacgraph
+                back: Pacman package dependency graph creator
+                include_reverse: true
+        -
+                uuid: 0dac8da9-89a2-40d1-8425-0377c71f27a1
+                front: Leksah
+                back: Haskell IDE
+        -
+                uuid: c45e42f3-d6d5-4a81-969d-68d7f1a36f98
+                front: Pencil
+                back: Wireframing tool for Linux
+                include_reverse: true
+        -
+                uuid: bca0cdcb-1b8d-42ca-875f-dbdca5718818
+                front: Zathura
+                back: Vim-like PDF browser
+        -
+                uuid: d11079e1-67b4-4a73-a10e-0b9c73d04929
+                front: Selenium
+                back: Browser automation server
+        -
+                uuid: ccd11342-2194-469c-98dc-bcad589ba558
+                front: Hydrogen
+                back: Linux drum machine
+        -
+                uuid: a01b2370-9568-41c4-ac84-5ba271ecec91
+                front: Shamir's secret sharing scheme tool
+                back: '`ssss`'
+                # TODO: ssss-combine, ssss-split
+                include_reverse: true
+        -
+                uuid: a37e2e7b-dccd-4830-b666-b9c62f110400
+                front: '`pocketsphinx`'
+                back: TTS
+        -
+                uuid: 9f7470a4-0aac-400d-8d41-6fbdf4efa867
+                front: '`nmtui`'
+                back: TUI for NetworkManager
+                include_reverse: true
+        -
+                uuid: cfa2e128-7379-476c-8970-11cbb42ab660
+                front: '`fail2ban`'
+                back: Banning daemon from logs; supports httpd, vsftpd, sshd, etc.
+                include_reverse: true
+        -
+                uuid: 81802f26-c538-4778-b9b8-77090ad668fb
+                front: Drop disk cache
+                back: '`sync && echo 3 > /proc/sys/vm/drop_caches`'
+                include_reverse: true
+        -
+                uuid: 0aaf0db0-7e91-4c39-8871-cb8c717727df
+                front: 'Extract sound from video into MP3'
+                back: 'ffmpeg -i in.flv -vn -f mp3 out.mp3'
+                include_reverse: true
+        -
+                uuid: f3e496bb-a283-4168-aebc-97915874a483
+                topic: "`ffmpeg` flags"
+                front: 'Disable recording video'
+                back: '`-vn`'
+                include_reverse: true
+        -
+                uuid: a861d48a-b511-46c6-9927-b53ce1e5e717
+                topic: "`ffmpeg` flags"
+                front: 'Explicitly set format'
+                back: '`-f (...)`'
+                include_reverse: true
+        -
+                uuid: a253f826-a37d-4910-9a98-216a9e82c06b
+                front: "Convert whitespace-separated input to ASCII table"
+                back: "`column -t`"
+                include_reverse: true
+        -
+                uuid: be62ffbc-42a2-45ef-afec-fc8d9ca20670
+                front: "Executable file compressor"
+                back: "UPX"
+                include_reverse: true
