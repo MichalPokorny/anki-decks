@@ -200,11 +200,11 @@ notes:
         -
                 uuid: b6977d03-a44d-4e4e-8b5f-7e32d0183d28
                 front: mplayer - cycle between alternate audio tracks
-                back: "#"
+                back: '\#'
         -
                 uuid: d05a58a8-865d-4399-84e7-a4fa2a75c5cb
                 front: Midnight Commander - launch tab completion
-                back: <Esc>-<Tab>
+                back: "\<Esc\>-\<Tab\>"
         -
                 uuid: e37246bb-95bc-43fd-b1ad-00725946b86c
                 front: C++ code deduplicator
@@ -437,8 +437,6 @@ notes:
                 topic: "`ssh`"
                 front: "Enable X forwarding"
                 back: "`ssh -X ...`"
-
-# TODO: how to show specific man page? list of available ones?
 # TODO: whiteout, blackout in Google Docs
         -
                 uuid: 4ceab1d5-2924-4bf7-bba9-64d9ee6e0879
@@ -455,3 +453,8 @@ notes:
                 front: Check, correct and pretty-print HTML files
                 back: "`tidy`"
                 include_reverse: true
+        -
+                uuid: 0690643b-c3fa-4d0f-be12-fe11f3d97632
+                front: "Tgz up a directory"
+                back: "tar cvzf foo.tar.gz cps100"
+                # TODO: Which flags do which?

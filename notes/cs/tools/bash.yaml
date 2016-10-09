@@ -15,7 +15,7 @@ notes:
         -
                 uuid: ced4ea3a-5b84-4945-8db0-8ca483f013dc
                 front: "Edit last command's argument in `vim`"
-                back: "`vim !!:2`"
+                back: "`vim !!:1`"
                 include_reverse: true
         -
                 uuid: 8d4531bc-59b1-43e8-976e-967236dc3779

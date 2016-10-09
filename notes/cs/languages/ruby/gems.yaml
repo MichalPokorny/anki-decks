@@ -4,7 +4,7 @@ uid_tag: cs/languages/ruby/gems
 notes:
         -
                 uuid: 8cca1a5f-2cca-4780-8893-51fc4f1bfd42
-                front: Core duplication detector
+                front: Code duplication detector
                 back: "`flay`"
                 include_reverse: true
         -

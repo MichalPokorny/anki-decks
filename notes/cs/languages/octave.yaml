@@ -4,7 +4,7 @@ notes:
         -
                 uuid: 83a3b8c3-f1e1-463c-8592-213f05f7f5ea
                 front: "Set PS1"
-                back: "`PS1('>> ');"
+                back: "`PS1('>> ');`"
                 include_reverse: true
         -
                 uuid: e7be4728-9c48-45af-86df-ad43f4e20922
