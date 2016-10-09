@@ -69,12 +69,12 @@ notes:
                 include_reverse: true
         -
                 uuid: 810f51bb-7533-4def-bbfa-370f37538271
-                front: "`L` in Normal mode"
+                front: "`H` in Normal mode"
                 back: "Go to start of page"
                 include_reverse: true
         -
                 uuid: e04dbb9d-8b8b-40b7-9f6b-ebc9b2544e8a
-                front: "`H` in Normal mode"
+                front: "`L` in Normal mode"
                 back: "Go to end of page"
                 include_reverse: true
         -

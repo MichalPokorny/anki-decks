@@ -3,13 +3,38 @@ deck: CS::Tools::Readline/Bash
 uid_tag: readline
 notes:
         -
-                uuid: 75576f1f-6d94-4170-8cc6-7b5a4d7daddd
+                uuid: eaca6cac-1c62-4d61-95a2-87bcb4bf53e0
                 front: Jump forward by 1 word
+                back: "`Meta (Alt)-f`"
+                include_reverse: true
+        -
+                uuid: da639956-59eb-4e99-9aff-2e59dfeb749b
+                front: Jump backward by 1 word
+                back: "`Meta (Alt)-b`"
+                include_reverse: true
+        -
+                uuid: 5efcd573-fbd4-4884-a109-ea0fa77c1642
+                front: Search backward in history
+                back: '`C-r`'
+                include_reverse: true
+        -
+                uuid: 57a73eaa-0fd0-4205-a736-88a38c1f2697
+                front: Search forward in history
+                back: '`C-s`'
+                include_reverse: true
+        -
+                uuid: 5723ded7-bb60-4245-81b7-c281ce5bb63a
+                front: Insert Tab character
+                back: '`Meta (Alt)-Tab`'
+                include_reverse: true
+        -
+                uuid: 75576f1f-6d94-4170-8cc6-7b5a4d7daddd
+                front: Jump forward by 1 character
                 back: "`C-f`"
                 include_reverse: true
         -
                 uuid: 56d05836-8250-44ca-b0c3-65750f0fd549
-                front: Jump backward by 1 word
+                front: Jump backward by 1 character
                 back: "`C-b`"
                 include_reverse: true
         -
@@ -26,4 +51,14 @@ notes:
                 uuid: 9d04ca8a-eff3-4acb-8d74-9c55af5d5602
                 front: Backspace-delete until start of line
                 back: "`C-u`"
+                include_reverse: true
+        -
+                uuid: e712dd03-df27-4261-afe4-820c7a879bd5
+                front: Delete until end of line
+                back: "`C-k`"
+                include_reverse: true
+        -
+                uuid: fd97b329-6580-4fc5-858f-674bb1d4819b
+                front: Undo on current line
+                back: "`C-_`"
                 include_reverse: true
