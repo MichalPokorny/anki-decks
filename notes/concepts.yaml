@@ -67,3 +67,9 @@ notes:
                 uuid: c96d8983-3a6e-4b62-80bb-8dfb98dd20e6
                 front: How likely is first digit to be 1? (Benford's law)
                 back: 30%
+        -
+                # http://www.succeedsocially.com/socialmodes
+                uuid: c005ebb3-e28f-418a-b3f2-4361874280b0
+                front: Shoehorn interactions into logical mode
+                back: For example, trying to talk politics at Friday evening dinner. Problem of overly serious people. Hindering.
+                include_reverse: true

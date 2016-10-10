@@ -36,3 +36,8 @@ notes:
                 uuid: 82d78c9f-8461-442e-b970-34c7fc57f7df
                 front: 'Difference in `source` behavior between `bash` and `sh`'
                 back: "In `sh`, `source` searches in `$PATH`. In `bash`, it also searches in `$CWD`."
+        -
+                uuid: 983e1c51-c9f6-4c5c-beee-be968104be7e
+                front: "Use program input/output pipes as file paths"
+                back: "wc -l <(cat x.txt); ./someprog --output-file >(./process-somehow)"
+                include_reverse: true

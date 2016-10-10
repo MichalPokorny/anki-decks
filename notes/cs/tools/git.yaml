@@ -95,3 +95,8 @@ notes:
                 front: 10 commits before HEAD
                 back: "`HEAD~10`"
                 include_reverse: true
+        -
+                uuid: f46aeffd-abae-48a5-a35c-8f3c9af2b2a6
+                front: 'Start showing new, unstaged file in `git diff`'
+                back: "git add --intent-to-add (file)"
+                include_reverse: true

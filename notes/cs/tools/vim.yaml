@@ -321,3 +321,29 @@ notes:
                 front: "Play macro `c`"
                 back: "`@c`"
                 include_reverse: true
+        -
+                uuid: 757c252f-2222-40ff-a139-c9fd09ffb5ef
+                topic: Vim - Insert mode
+                front: "`C-n`"
+                back: "Next autocomplete"
+        -
+                uuid: c79e906a-7b09-492a-9ea7-b89db94c4053
+                topic: Vim - Insert mode
+                front: "`C-p`"
+                back: "Previous autocomplete"
+        -
+                uuid: e76217ca-e0f6-49dd-98fe-58986a5cca6a
+                front: "`:cn`"
+                back: "Go to next error"
+        -
+                uuid: ba1f83b3-d04d-4ab1-a3d0-90584bd7c5ef
+                front: "`:cc`"
+                back: "Show this error's full error message"
+        -
+                uuid: 83bb4a81-b0bd-425e-875c-68a4b2e0eb10
+                front: "`;`"
+                back: "Next character search match on this line"
+        -
+                uuid: 41f6b66d-7dd6-4546-b66e-bc184d75abdd
+                front: "`,`"
+                back: "Previous character search match on this line"
