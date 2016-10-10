@@ -391,7 +391,7 @@ notes:
                 uuid: e73c0672-eb37-422a-852d-1d4367e757cf
                 topic: "man sections"
                 front: "7"
-                back: "Miscellaneous (including macro packages and conventions), e.g. man(7), groff(7)"
+                back: "Miscellaneous (including macro packages and conventions), e.g. `man`, `groff`"
                 include_reverse: true
         -
                 uuid: 31cd0e21-961a-45ec-8068-1fa3e0fe134e
