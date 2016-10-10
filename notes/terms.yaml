@@ -140,3 +140,8 @@ notes:
                 front: Ganbaru
                 back: "Ubiquitous Japanese word, roughly 'slog on tenaciously through tough times'."
                 include_reverse: true
+        -
+                uuid: 7cc6b4d7-11f5-4faf-906c-edc34cd80ecf
+                front: Extant
+                back: "Still in existence; surviving."
+                include_reverse: true

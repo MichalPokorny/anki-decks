@@ -16,3 +16,7 @@ notes:
                 front: Piece of information contained in a note (type)
                 back: Field
                 include_reverse: true
+        -
+                uuid: 984eeb79-44bd-4a43-8f92-5604d69d95f1
+                front: Bury vs. suspend
+                back: Bury - buries until next day, suspend - suspends until manually unsuspended

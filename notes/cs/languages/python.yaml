@@ -34,3 +34,8 @@ notes:
                 front: Easter egg to show Zen of Python
                 back: "`import this`"
                 include_reverse: true
+        -
+                uuid: 13d49123-b87e-4205-a592-d804fa85f390
+                front: Packages Python into single ZIP
+                back: "PEX"
+                include_reverse: true
