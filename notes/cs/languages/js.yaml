@@ -21,3 +21,8 @@ notes:
                 front: D3
                 back: Data visualization library
                 include_reverse: true
+        -
+                uuid: f9f37ebc-3c87-47ac-a8c0-2c6a4142b2d7
+                front: Show introductions to interface
+                back: Intro.js
+                include_reverse: true

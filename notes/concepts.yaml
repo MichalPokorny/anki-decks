@@ -35,3 +35,35 @@ notes:
                 front: Von Neumann-Morgenstern theorem
                 back: Rational decisions are utility maximization
                 include_reverse: true
+        -
+                uuid: 8562d8bf-623b-4acb-b2fe-ce06cce5fec4
+                front: Sophistication effect
+                back: More knowledgable people (or people who know about biases) use their knowledge to better shoot down facts opposing their pre-existing beliefs.
+                include_reverse: true
+        -
+                uuid: 75c329f8-366b-4e24-87a7-846e945b0e70
+                front: Positive hypocricy
+                back: Speak and act like the person you wish you were
+                include_reverse: true
+        -
+                uuid: 7ca8728f-dd1b-4ff7-8ddd-8f192a223c5e
+                front: Logical rudeness
+                back: Finding license, authority or justification in theory X itself for refusing to answer objections to theory X.
+                include_reverse: true
+        -
+                uuid: f46a0087-b833-4551-85d9-62bf4eb5fb88
+                front: Ugh field
+                back: Unconsciously flinching from thinking about a serious personal problem. Self-shadowing blind spot covering an area desperately in need of optimization.
+                include_reverse: true
+        -
+                uuid: 5033c444-ae3b-4651-998c-d73ee5fd70c4
+                front: Strategy against ugh fields
+                back: Actively look out for the flinch
+        -
+                uuid: 0d7ead10-f196-48a8-afc3-4619461fab4d
+                front: Benford's law
+                back: Aka first-digit law. In many real-life datasets, the first digit is likely to be small.
+        -
+                uuid: c96d8983-3a6e-4b62-80bb-8dfb98dd20e6
+                front: How likely is first digit to be 1? (Benford's law)
+                back: 30%

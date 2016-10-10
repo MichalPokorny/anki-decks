@@ -125,3 +125,7 @@ notes:
                 uuid: c1a580b9-96b2-4eff-be6b-3c6ccbda0895
                 front: Syscalls to read/write to/from fd at a given offset.
                 back: "`pread`/`pwrite` in `<unistd.h>`"
+        -
+                uuid: 7902232c-9ff9-452d-b6e7-d9b98e47694c
+                front: "`strtoul`/`strtoull`"
+                back: "In `stdlib.h`. `unsigned long strtoul(const char *nptr, char **endptr, int base);`, `strtoull` is `unsigned long long`."

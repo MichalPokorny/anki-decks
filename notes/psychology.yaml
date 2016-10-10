@@ -54,3 +54,8 @@ notes:
 
 # TODO: schizoid personality disorder?
 # TODO: schizotypical personality disorder?
+        -
+               uuid: 08403751-64c4-4060-a05d-7e8b1f350e0b
+               front: Implicit association test
+               back: Measure to detect association between mental representation of concepts in memory. White/pleasant, or black/suffering?
+               include_reverse: true

@@ -145,3 +145,13 @@ notes:
                 front: Extant
                 back: "Still in existence; surviving."
                 include_reverse: true
+        -
+                uuid: 65deaf6e-0df5-4eb9-8ee0-dfb63f1a1e23
+                front: Foremost
+                back: "Most prominent in rank, importance, or position. Also an adverb. ('It was, (...), the first demonstration of the process.')"
+                include_reverse: true
+        -
+                uuid: 842f1469-ca9e-47fd-bf26-2996b5ace505
+                front: Haka
+                back: Traditional war cry, dance, or challenge from the Māori people of New Zealand
+                include_reverse: true

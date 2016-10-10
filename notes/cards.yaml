@@ -84,3 +84,8 @@ notes:
                 uuid: 62bd59c3-cc0a-409d-a389-730f2bad67c8
                 front: When sitting down in a suit jacket...
                 back: ...always unfasten your jacket buttons.
+        -
+                uuid: b4f47892-8eab-4b6c-972d-90da0b4ae550
+                front: Pomodoro technique & length
+                back: Break down work into 25 minute intervals, separated by short breaks (to improve mental agility)
+                include_reverse: true

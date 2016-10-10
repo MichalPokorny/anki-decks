@@ -54,3 +54,13 @@ notes:
                 uuid: f2e81cf7-faa0-4996-8288-79825493c3f7
                 front: 'Recast'
                 back: 3D navigation library
+        -
+                uuid: 0a591c7b-592e-4762-a170-2e82ecc384bf
+                front: "`libnotify`"
+                back: Send desktop notifications to GNOME notification daemon
+                include_reverse: true
+        -
+                uuid: 0bed282b-d05c-4068-8f77-dd02814fa761
+                front: "`libcanberra`"
+                back: Simple interface for playing event sounds, implements XDG specs (e.g. GNOME desktops)
+                include_reverse: true

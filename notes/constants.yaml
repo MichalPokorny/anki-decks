@@ -43,3 +43,25 @@ notes:
                 front: Blood pressure with no further benefit from lowering
                 back: 110/70
                 # TODO: Research, where is that figure from?
+        -
+                uuid: 1761d695-8506-4868-9965-9d0680fa8bae
+                front: BMI definition
+                back: weight in kg / (height in meters squared)
+        -
+                uuid: f2d01dd3-9f62-4cb2-9864-4532e6920946
+                front: Underweight BMI
+                back: BMI < 18.5
+        -
+                uuid: 1bf8e928-c676-486e-8663-9b86bbd6aebc
+                front: Normal weight BMI
+                back: BMI 18.5 - 25
+                include_reverse: true
+        -
+                uuid: 00e6575c-7579-43d8-a76b-09cec3b9172e
+                front: Overweight BMI
+                back: BMI 25 - 30
+                include_reverse: true
+        -
+                uuid: 86cadf85-1b74-4e66-ad05-0e5940f4b8f5
+                front: Obese BMI
+                back: BMI 30+

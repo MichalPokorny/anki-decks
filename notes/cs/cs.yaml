@@ -57,3 +57,12 @@ notes:
                 uuid: 4484c6de-4e3d-4f52-b634-7414a5e491e7
                 front: HTTP caching and query string
                 back: URLs with a query string are not cached
+        -
+                uuid: fb226a8e-a15d-46ef-8395-ba87ce28623c
+                front: Paamayim Nekudotayim
+                back: "'Twice colon' in Hebrew. PHP token name for `::`."
+                include_reverse: true
+        -
+                uuid: 560f5618-6ec8-4523-b25f-903891fa2475
+                front: Semantic highlighting
+                back: Every variable in a different color
