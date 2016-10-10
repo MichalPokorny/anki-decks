@@ -77,10 +77,6 @@ notes:
                 front: GOOG vs. GOOGL
                 back: 'GOOG: class C, no voting rights. GOOGL: class A, has voting rights.'
         -
-                uuid: a68f631b-7d5d-4b73-941b-8d7b14c45ce0
-                front: End sentence on Android
-                back: "(space) (space)"
-        -
                 uuid: e14c7fb9-1e05-4f97-b9d1-ede03f4868d0
                 front: Apache Cordova
                 back: Wrapper of HTML/JavaScript apps into a native container
