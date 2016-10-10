@@ -38,6 +38,7 @@ notes:
                 uuid: 0400a4e9-c598-4c97-a631-81342e026621
                 front: Bazel
                 back: Google's build tool, open-source Blaze
+                include_reverse: true
         -
                 uuid: 7e7ae73d-1d6f-4357-a237-e91841d71cdf
                 front: C# string formatting
@@ -46,7 +47,13 @@ notes:
                 uuid: e9f2ca8e-bb3c-4589-9871-840ca975b8c2
                 front: ZooKeeper
                 back: Hadoop's hierarchical key-value store (Chubby)
+                include_reverse: true
         -
                 uuid: 970768dd-fa5f-4760-8211-5237ddc32ba4
                 front: HBase
                 back: Hadoop BigTable
+                include_reverse: true
+        -
+                uuid: 4484c6de-4e3d-4f52-b634-7414a5e491e7
+                front: HTTP caching and query string
+                back: URLs with a query string are not cached

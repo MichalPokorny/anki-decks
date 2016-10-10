@@ -31,3 +31,7 @@ notes:
                 uuid: ed4cd8aa-3980-4ffc-b3f4-24a9c18349f9
                 front: "`pygments`"
                 back: Code formatter
+        -
+                uuid: 25e23f0f-cd93-479e-be5c-476c330af29f
+                front: "`flask`"
+                back: Simple web framework

@@ -29,3 +29,8 @@ notes:
                 front: Chaining comparison
                 back: "`a < b < c`"
                 include_reverse: true
+        -
+                uuid: 688595ae-76cb-4548-931f-6250798e26f4
+                front: Easter egg to show Zen of Python
+                back: "`import this`"
+                include_reverse: true

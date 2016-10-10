@@ -72,3 +72,19 @@ notes:
                 uuid: 4cfcbdb7-7265-4b50-baaa-63adfc1c79d0
                 front: When eating sushi...
                 back: ... soy sauce should't go on rice.
+        -
+                uuid: eb96681e-3080-4d58-963b-8fe1c40d110c
+                front: GOOG vs. GOOGL
+                back: 'GOOG: class C, no voting rights. GOOGL: class A, has voting rights.'
+        -
+                uuid: a68f631b-7d5d-4b73-941b-8d7b14c45ce0
+                front: End sentence on Android
+                back: "(space) (space)"
+        -
+                uuid: e14c7fb9-1e05-4f97-b9d1-ede03f4868d0
+                front: Apache Cordova
+                back: Wrapper of HTML/JavaScript apps into a native container
+        -
+                uuid: 62bd59c3-cc0a-409d-a389-730f2bad67c8
+                front: When sitting down in a suit jacket...
+                back: ...always unfasten your jacket buttons.

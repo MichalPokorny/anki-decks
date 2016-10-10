@@ -561,3 +561,46 @@ notes:
                 uuid: de501d85-74fc-4196-80db-a1ac0b90c6df
                 front: "X-ARF"
                 back: "eXtended Abuse Report Format; mail for reporting abuse"
+        -
+                uuid: e9db0a02-58be-468f-ae6f-887da9103db2
+                front: Microsoft's theorem prover
+                back: Z3
+                include_reverse: true
+        -
+                uuid: 7e2c5888-3867-4239-b1b9-7bca59015622
+                topic: Less
+                front: "Start following file's tail"
+                back: "`F`"
+                include_reverse: true
+        -
+                uuid: e53abb54-b816-4477-bb65-de96d0801ed4
+                front: "`dialog`"
+                back: "Display dialog boxes from shell scripts"
+                include_reverse: true
+        -
+                uuid: e15df95f-8b04-4610-a4d8-561d3b26bdf7
+                front: "`zenity`"
+                back: "Display GTK+ dialog boxes from shell scripts"
+                include_reverse: true
+        -
+                uuid: 50cfa69c-d22d-453a-9a94-12d312ceba21
+                front: "`vanitygen`"
+                back: "Bitcoin vanity address generator"
+                include_reverse: true
+        -
+                uuid: bffbdd83-494d-4ef0-bc69-d43880a0bec2
+                front: "`fc`"
+                back: "Open editor, edit last command-line, then run it"
+                include_reverse: true
+        -
+                uuid: 2b5e7cf7-0f15-47b9-82d2-4106ca7f7a5e
+                front: "Apache Mahout"
+                back: "Distributed or otherwise scalable ML algorithms, mainly collaborative filtering, clustering and classification"
+        -
+                uuid: ac4c98ff-f261-4673-b377-618b7d94458d
+                front: "`gnugo`"
+                back: Play Go
+        -
+                uuid: 8c272a9d-4822-41d2-a0af-55308f12786b
+                front: "`cppcheck`"
+                back: "Static analysis tool for C/C++ code"

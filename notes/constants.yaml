@@ -33,3 +33,13 @@ notes:
                 uuid: 7f669eb2-24b7-4532-b356-931a6a805b31
                 front: Number of births per day
                 back: 353 000, as of 2016-10-08
+        -
+                uuid: b5bb1a6a-609e-4121-b076-ccd6cd0af033
+                front: Cost to save a life through AMF
+                back: $3500 (as of 2015)
+                # Source: http://www.givewell.org/giving101/Your-dollar-goes-further-overseas
+        -
+                uuid: cfe03d2d-0a20-470a-920c-1bc08225e14a
+                front: Blood pressure with no further benefit from lowering
+                back: 110/70
+                # TODO: Research, where is that figure from?

@@ -104,3 +104,39 @@ notes:
                 front: "In-kind donation"
                 back: "Gift of goods or services, instead of money to buy them."
                 include_reverse: true
+        -
+                uuid: 405409d6-b928-4a72-96ef-73ea763b7a5b
+                front: Naturally occurring psychedelic compound produced by more than 200 species of mushrooms
+                back: Psilocybin
+                include_reverse: true
+        -
+                uuid: 487f2df5-83f4-47bb-b03a-856d1a7fb248
+                front: a) anxiety, mental uneasiness; b) deviation of a system from its regular state or path caused by outside influence
+                back: Perturbation
+                include_reverse: true
+        -
+                uuid: 8f7d0202-bb2c-4091-908e-71886dfd9803
+                front: 'Extra full moon: a) third of four full moons in a season, b) second full moon in a calendar month'
+                back: Blue moon
+                include_reverse: true
+                # source: wiki
+        -
+                uuid: cb213509-7f13-4394-9b04-75fef8600a5f
+                front: A quiet, gentle song sung to send a child to sleep
+                back: Lullaby
+                include_reverse: true
+        -
+                uuid: 54b257ea-1f9e-4404-a8c6-946cb7cee771
+                front: A feeling of self-consciousness, shame, or awkwardness.
+                back: Embarrassment
+                include_reverse: true
+        -
+                uuid: b99e2627-682d-4409-90ca-3a3f801d1e04
+                front: Causing embarrassment
+                back: Embarrassing
+                include_reverse: true
+        -
+                uuid: 68cbd9f2-20b8-4edb-ba3b-c17394ae98fb
+                front: Ganbaru
+                back: "Ubiquitous Japanese word, roughly 'slog on tenaciously through tough times'."
+                include_reverse: true
