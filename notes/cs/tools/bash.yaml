@@ -39,5 +39,10 @@ notes:
         -
                 uuid: 983e1c51-c9f6-4c5c-beee-be968104be7e
                 front: "Use program input/output pipes as file paths"
-                back: "wc -l <(cat x.txt); ./someprog --output-file >(./process-somehow)"
+                back: "`wc -l <(cat x.txt); ./someprog --output-file >(./process-somehow)`"
+                include_reverse: true
+        -
+                uuid: b495afb3-6386-4811-a30b-1063eb1a91c6
+                front: "Print out every executed command"
+                back: "`set -x`"
                 include_reverse: true
