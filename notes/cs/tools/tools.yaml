@@ -730,3 +730,8 @@ notes:
                 front: "`-t / --unrequired`"
                 back: Restrict to packages not required or optionally required by any installed package
                 include_reverse: true
+        -
+                uuid: d7dbd661-e000-4b36-8112-8617a75cdede
+                topic: Easily display biggest subfolders
+                back: "`du -Sa | sort -n`"
+                include_reverse: true

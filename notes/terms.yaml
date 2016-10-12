@@ -155,3 +155,8 @@ notes:
                 front: Haka
                 back: Traditional war cry, dance, or challenge from the Māori people of New Zealand
                 include_reverse: true
+        -
+                uuid: 2869d183-aa2d-40ed-a4c4-854542dea871
+                front: Bless your heart
+                back: "Sincere expression of sympathy/concern. Precursor to an insult to soften the blow. \"You're dumb or impaired, but you can't help it.\""
+                include_reverse: true

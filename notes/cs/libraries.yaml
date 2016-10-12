@@ -64,3 +64,8 @@ notes:
                 front: "`libcanberra`"
                 back: Simple interface for playing event sounds, implements XDG specs (e.g. GNOME desktops)
                 include_reverse: true
+        -
+                uuid: 4a29316c-d5e6-49e7-b95c-5070b38a1262
+                front: Google Guava
+                back: "Google's core libraries: collections, caching, primitives, etc."
+                include_reverse: true

@@ -19,3 +19,8 @@ notes:
                 front: David Chalmers
                 back: Philosopher of mind, long-haired. Formulated hard problem of consciousness.
                 include_reverse: true
+        -
+                uuid: 88810ca8-fd88-4906-97e9-7f767d078f5a
+                front: Ben Goertzel
+                back: Chairman of OpenCog Foundation; previously Director of Research of MIRI.
+                include_reverse: true

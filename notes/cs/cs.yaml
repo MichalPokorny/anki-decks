@@ -66,3 +66,7 @@ notes:
                 uuid: 560f5618-6ec8-4523-b25f-903891fa2475
                 front: Semantic highlighting
                 back: Every variable in a different color
+        -
+                uuid: 27009414-715f-4fe4-b10b-f8b8b5bd5e7b
+                front: Supersampling
+                back: Sample more accurately where more precision is needed (i.e., on edges)

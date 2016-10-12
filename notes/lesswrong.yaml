@@ -18,3 +18,11 @@ notes:
                 uuid: de9be0eb-9e89-463b-a7f0-212c5866f061
                 front: Geriatrics vs. gerontology
                 back: 'Geriatrics: medical care of old people, gerontology: study of the process of aging'
+        -
+                uuid: dce63b0e-ae6b-4e25-b1ee-cf77d7da90a0
+                front: Avoiding biases on important decisions
+                back: Try to make important decisions in a neutral environment; clear your mind
+        -
+                uuid: c850aa26-0f2c-494c-b4c1-70777591aaba
+                front: Having hard time making a decision
+                back: Simulate the outcomes
