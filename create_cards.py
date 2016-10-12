@@ -114,6 +114,9 @@ def load_all_notes():
             if 'topic' in note_row:
                 note_topic = note_row['topic']
 
+            if 'front' not in note_row:
+                raise Exception('No front: ' + note_uuid)
+
             front = markdown.markdown(unicode(note_row['front']))
             back = markdown.markdown(unicode(note_row['back']))
 
