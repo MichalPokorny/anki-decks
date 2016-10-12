@@ -100,3 +100,8 @@ notes:
                 front: 'Start showing new, unstaged file in `git diff`'
                 back: "git add --intent-to-add (file)"
                 include_reverse: true
+        -
+                uuid: 6fa73b3e-d261-46f2-bf97-019887ee36fc
+                front: 'Return 0 if index is clean, 1 otherwise'
+                back: "git diff --quiet --exit-code --staged"
+                include_reverse: true

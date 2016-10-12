@@ -39,3 +39,13 @@ notes:
                 front: Packages Python into single ZIP
                 back: "PEX"
                 include_reverse: true
+        -
+                uuid: 6f31897f-8cfd-488b-8a94-837f349048ef
+                front: "`bytes` to `str`"
+                back: "x.encode('utf-8')"
+                include_reverse: true
+        -
+                uuid: a38606af-352e-4b69-8c9d-df18c9f40f38
+                front: "`str` to `bytes`"
+                back: "x.decode('utf-8')"
+                include_reverse: true
