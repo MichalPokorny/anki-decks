@@ -192,22 +192,22 @@ notes:
         -
                 uuid: 0f8c2e2a-f05d-424f-9d31-e0265e915286
                 front: "Change window height to 35 lines"
-                back: "`35 C-W _`"
+                back: "`35 C-w _`"
                 include_reverse: true
         -
                 uuid: 8d5e9ea0-626b-4066-b175-0a0e078f8162
                 front: "Change window width to 35 chars"
-                back: "`35 C-W |`"
+                back: "`35 C-w |`"
                 include_reverse: true
         -
                 uuid: e6495158-3b99-4cba-b546-2bc1cf1be58c
                 front: "Go to previous position in position stack"
-                back: "`C-O`"
+                back: "`C-o`"
                 include_reverse: true
         -
                 uuid: 253a48e4-8514-41dc-8e7e-ed5f964e3fe2
                 front: "Go to next position in position stack"
-                back: "`C-I`"
+                back: "`C-i`"
                 include_reverse: true
         -
                 uuid: 864aed40-c3b6-4d6f-9a66-2fd8d804cf81

@@ -58,3 +58,8 @@ notes:
                 front: "Exit from block, possibly with return value"
                 back: "`next`"
                 include_reverse: true
+        -
+                uuid: cd449502-9d33-4619-aba1-15da5c940c4b
+                front: "Inspect object"
+                back: "`Object#inspect`"
+                include_reverse: true

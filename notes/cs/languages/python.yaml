@@ -49,3 +49,8 @@ notes:
                 front: "`str` to `bytes`"
                 back: "x.decode('utf-8')"
                 include_reverse: true
+        -
+                uuid: 73e010d5-f4ff-473b-bf0d-bd7b80cb0213
+                front: "Get executable Python representation of object"
+                back: "`repr`"
+                include_reverse: true
