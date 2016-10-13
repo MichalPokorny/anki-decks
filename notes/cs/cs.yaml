@@ -70,3 +70,13 @@ notes:
                 uuid: 27009414-715f-4fe4-b10b-f8b8b5bd5e7b
                 front: Supersampling
                 back: Sample more accurately where more precision is needed (i.e., on edges)
+        -
+                uuid: 7c80c82b-3ff4-4d8d-8764-faaf3a719898
+                topic: Hadoop
+                front: Get application logs from Yarn
+                back: "`yarn logs -applicationId <appid>`"
+        -
+                uuid: bb7d792b-7894-4217-bb1f-fa6ca28ef702
+                topic: Hadoop
+                front: Kill application
+                back: "`yarn application -kill <appid>`"
