@@ -160,3 +160,8 @@ notes:
                 front: Bless your heart
                 back: "Sincere expression of sympathy/concern. Precursor to an insult to soften the blow. \"You're dumb or impaired, but you can't help it.\""
                 include_reverse: true
+        -
+                uuid: a7760dd0-a5ef-48fc-97e7-aeab01783580
+                front: Histrionic
+                back: "Excessively theatrical or dramatic in character or style"
+                include_reverse: true
