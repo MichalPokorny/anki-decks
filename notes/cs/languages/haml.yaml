@@ -6,11 +6,12 @@ notes:
                 uuid: 7fc778ea-e597-42cc-aa28-b2b8f71f5c90
                 front: Surround with braces
                 # TODO: does this format properly?
-                back: >
+                back: "
                         ```
-                        = surround "(", ")" do
-                            = link_to "learn more", "#"
+                        = surround \"(\", \")\" do
+                            = link_to \"learn more\", \"#\"
                         ```
+                "
         -
                 uuid: d2000fca-d012-41c3-b4f0-5a7cf69a57d3
                 front: Avoid empty (void) tag
@@ -46,17 +47,19 @@ notes:
                 uuid: 18c59d10-b9d1-421a-892c-151e3a580b79
                 front: "Precede tag with `*`"
                 # TODO: does this format properly?
-                back: >
+                back: "
                         ```
                         = precede '*' do
                             %span Required
                         ```
+                "
         -
                 uuid: fddd829a-82a6-4eee-bd69-536a958e124a
                 front: "Succeed tag with `*`"
                 # TODO: does this format properly?
-                back: >
+                back: "
                         ```
                         = succeed '*' do
                             %span This is a star:
                         ```
+                "

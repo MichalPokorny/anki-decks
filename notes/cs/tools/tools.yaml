@@ -744,6 +744,6 @@ notes:
         -
                 uuid: 8271e1e9-00d0-4139-bd3e-df43e77ce4a0
                 topic: Slack
-                front: "Add ¯\\_(ツ)_/¯ to message"
+                front: "Add ¯\\\\_(ツ)_/¯ to message"
                 back: "`/shrug`"
                 include_reverse: true
