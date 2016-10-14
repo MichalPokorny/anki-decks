@@ -162,7 +162,7 @@ notes:
         -
                 uuid: 2cb7bd94-3a1c-4ce6-a697-cbc0fcc56f65
                 front: "Find a pattern and add something to occurences"
-                back: "`:%s/pattern/&+something/`"
+                back: "`:%s/pattern/&+something/` => replace `pattern` with `pattern+something`"
         -
                 uuid: 006ead5b-61e6-4460-8985-6abc34894028
                 front: "Open window with command history"

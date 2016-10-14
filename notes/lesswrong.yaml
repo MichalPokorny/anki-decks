@@ -26,3 +26,8 @@ notes:
                 uuid: c850aa26-0f2c-494c-b4c1-70777591aaba
                 front: Having hard time making a decision
                 back: Simulate the outcomes
+        -
+                uuid: 0857921c-b083-4c4c-ab68-13093915c7dd
+                front: Dedicating 5 minutes of attention by the clock to a problem
+                back: Focused grit
+                include_reverse: true

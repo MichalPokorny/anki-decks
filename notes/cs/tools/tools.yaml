@@ -735,3 +735,15 @@ notes:
                 front: Easily display biggest subfolders
                 back: "`du -Sa | sort -n`"
                 include_reverse: true
+        -
+                uuid: cdfeb972-8803-457b-9b53-162508861e56
+                topic: Slack
+                front: Set a reminder
+                back: "`/remind me I rock! at 9 am every Friday`; or `/remind #general Hello! November 19` or `in 15 minutes`."
+                include_reverse: true
+        -
+                uuid: 8271e1e9-00d0-4139-bd3e-df43e77ce4a0
+                topic: Slack
+                front: "Add ¯\\_(ツ)_/¯ to message"
+                back: "`/shrug`"
+                include_reverse: true
