@@ -54,3 +54,8 @@ notes:
                 front: "Get executable Python representation of object"
                 back: "`repr`"
                 include_reverse: true
+        -
+                uuid: ecbe3c4d-580f-4bf7-b379-a121a6c04fe2
+                front: "Open XKCD about Python being awesome"
+                back: "`import antigravity`"
+                include_reverse: true
