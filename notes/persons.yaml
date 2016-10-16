@@ -24,3 +24,8 @@ notes:
                 front: Ben Goertzel
                 back: Chairman of OpenCog Foundation; previously Director of Research of MIRI.
                 include_reverse: true
+        -
+                uuid: c125b04d-a7a3-4671-8232-12b12e8409e1
+                front: George Washington
+                back: First President of the United States
+                include_reverse: true
