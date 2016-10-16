@@ -69,7 +69,8 @@ notes:
         -
                 uuid: 27009414-715f-4fe4-b10b-f8b8b5bd5e7b
                 front: Supersampling
-                back: Sample more accurately where more precision is needed (i.e., on edges)
+                back: "An anti-aliasing method: sample several sampling positions within a pixel and average out the colors."
+                include_reverse: true
         -
                 uuid: 7c80c82b-3ff4-4d8d-8764-faaf3a719898
                 topic: Hadoop
