@@ -17,6 +17,11 @@ notes:
                 back: '`list.stream().collect(Collectors.groupingBy(fn))`'
                 include_reverse: true
         -
+                uuid: 265249d1-4e19-4179-a7ac-5d7ee2867724
+                front: 'Convert from `List<X>` to `List<Y>` through `fn`'
+                back: '`list.stream().map(fn).collect(Collectors::toList)`'
+                include_reverse: true
+        -
                 uuid: 03204f7b-1349-47b1-acb5-16df12473405
                 front: 'Class of pair / map entry'
                 back: '`Map.Entry<K, V>`'
