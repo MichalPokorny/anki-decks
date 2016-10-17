@@ -26,3 +26,8 @@ notes:
                 front: 'Class of pair / map entry'
                 back: '`Map.Entry<K, V>`'
                 include_reverse: true
+        -
+                uuid: e675da1d-7e79-4e4a-a1de-90df8795ff9f
+                front: 'Get list sublist of items [5;10)'
+                back: '`list.subList(5, 10);`'
+                include_reverse: true
