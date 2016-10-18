@@ -31,3 +31,7 @@ notes:
                 front: 'Get list sublist of items [5;10)'
                 back: '`list.subList(5, 10);`'
                 include_reverse: true
+        -
+                uuid: 3036df31-5a38-4640-a8ea-008dc66a6f5e
+                front: 'Write stack trace of exception to stdout'
+                back: '`exception.printStackTrace();`'
