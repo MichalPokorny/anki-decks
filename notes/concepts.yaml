@@ -78,3 +78,58 @@ notes:
                 front: Important/urgent matrix (Q1..Q4)
                 back: Eisenhower matrix
                 include_reverse: true
+        -
+                uuid: 404e987b-d373-42fd-9ff7-d2ae0b5b86d7
+                front: Halo effect
+                back: "Cognitive bias: an observer's overall impression of a person, company, product influences the observer's feelings and thoughts about that entity's character or properties."
+                include_reverse: true
+        -
+                uuid: 5d96587f-a40c-4eef-a8b4-30289ac3569a
+                front: Fundamental attribution error
+                back: AKA correspondence bias; tendency to over-emphasize personality-based explanations for behaviours observe in others, and under-emphasizing situational influences.
+                include_reverse: true
+        -
+                uuid: e92edde7-67b9-4cfa-9077-9f488d39a833
+                front: Correspondence bias
+                back: Other name for fundamental attribution error
+                include_reverse: true
+        -
+                uuid: 7d515cff-4bb3-415f-b928-2c79aeb4721e
+                front: Tendency to search for/interpret information in a way that confirms one's preconceptions, and discredit information that does not support one's views.
+                back: Confirmation bias
+                include_reverse: true
+        -
+                uuid: e6a93e05-ab95-4e26-8ea2-9977f65fb564
+                front: Tendency to claim more responsibility for successes than failures; may also manifest as evaluating ambiguous information in a way beneficial to own interests.
+                back: Self-serving bias
+                include_reverse: true
+        -
+                uuid: 31b2ba92-c9e7-42c7-9c01-7a9560a7465d
+                front: Belief bias
+                back: When one's evaluation of the logical strength of an argument is biased by belief in truth or falsity of the conclusion
+                include_reverse: true
+        -
+                uuid: 47b2e6b6-f7ce-40b3-b61d-ae7d7606aea2
+                front: Hindsight bias
+                back: 'Inclination to see past events as being predictable. AKA "I-knew-it-all-along" effect.'
+                include_reverse: true
+        -
+                uuid: e4ee94b9-f8b1-452d-857a-4a2e71804533
+                front: Illusory superiority
+                back: 'Cognitive bias whereby individuals overestimate their own qualities and abilities, relative to others.'
+                include_reverse: true
+        -
+                uuid: 1467565d-2842-4cda-aa2f-b243fd2617c5
+                front: Dunning-Kruger effect
+                back: 'Low-ability individuals suffer from illusory superiority, mistakingly assessing their ability as much higher than it really is.'
+                include_reverse: true
+        -
+                uuid: c0adf504-b379-467c-a8a5-713719402377
+                front: Cognitive dissonance
+                back: 'Mental stress experienced by holding contradictory beliefs, ideas or values; performing actions contradictory to beliefs, ideas or values; confronted by new information against contradicting existing beliefs.'
+                include_reverse: true
+        -
+                uuid: 7cc71a76-ccff-4824-bbb0-8ac463a7edba
+                front: Forer effect
+                back: 'AKA Barnum effect. Individuals will give high accuracy ratings to supposedly personally-tailored descriptions of their personality that are in fact vague and general. Explanation for astrology et al.'
+                include_reverse: true
