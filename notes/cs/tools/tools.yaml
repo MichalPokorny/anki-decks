@@ -87,7 +87,7 @@ notes:
         -
                 uuid: 6d48fdb7-7f4e-4e7f-a6db-e2c0ac0ad469
                 front: "Quick and dirty Python HTTP server"
-                back: "`python -m SimpleHTTPServer 8080`"
+                back: "`python -m http.server`"
                 include_reverse: true
         -
                 uuid: 9a499667-bd50-4410-86ca-418f8d1b3cac
@@ -746,4 +746,14 @@ notes:
                 topic: Slack
                 front: "Add ¯\\\\_(ツ)_/¯ to message"
                 back: "`/shrug`"
+                include_reverse: true
+        -
+                uuid: 5698d8b5-1b69-453d-9255-32e7cca4efd1
+                front: "Numeric sort in shell"
+                back: "`sort -n`"
+                include_reverse: true
+        -
+                uuid: 4671f56e-9032-4664-9ccf-7458954c8d01
+                front: "Include children in `strace`"
+                back: "`strace -f (...)`"
                 include_reverse: true
