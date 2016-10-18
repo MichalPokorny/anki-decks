@@ -73,3 +73,8 @@ notes:
                 front: Shoehorn interactions into logical mode
                 back: For example, trying to talk politics at Friday evening dinner. Problem of overly serious people. Hindering.
                 include_reverse: true
+        -
+                uuid: 645e9c1f-1826-4504-9b77-f68ee013d30a
+                front: Important/urgent matrix (Q1..Q4)
+                back: Eisenhower matrix
+                include_reverse: true
