@@ -43,7 +43,8 @@ class Note(object):
             self.topic,
             self.front, self.back,
             'true' if self.include_reverse else '',
-            self.origin_file, self.git_revision,
+            self.origin_file,
+            self.git_revision,
 
             #'' # TAGS  --  can add those.
         ]
@@ -177,7 +178,8 @@ def main():
         csv_file = 'import_dump.csv'
         imported = 0
         # got_uuids = get_uuids_in_deck(collection, 'Default')
-        with open(csv_file, 'w') as f:
+        with open(csv_file, 'wb') as f:
+            writer = csv.writer(f, delimiter='\t')
             for note in deck_notes:
                 # If the UUID matches, then importing updates the note.
 
@@ -188,9 +190,8 @@ def main():
 
                 # TODO: Rewrite as in anki.importing.noteimp
 
-                row = '\t'.join(note.to_fields())
-                # print row
-                f.write(row.encode('utf-8') + '\n')
+                writer.writerow(map(lambda s: s.encode('utf-8'),
+                                    note.to_fields()))
                 imported += 1
 
         if imported > 0:

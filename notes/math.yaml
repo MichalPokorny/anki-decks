@@ -17,9 +17,9 @@ notes:
                         Can directly calculate some digit of pi without calculating preceding digits.
                         Since this discovery, many formulas for other irrational constants have been discovered of the general form.
                         Formulas in this form are known as BBP-type formulas.
-                        [latex]
+                        [$$]
                         \pi = \sum_{k = 0}^{\infty}\left[ \frac{1}{16^k} \left( \frac{4}{8k + 1} - \frac{2}{8k + 4} - \frac{1}{8k + 5} - \frac{1}{8k + 6} \right) \right]
-                        [/latex]
+                        [/$$]
 
                         https://wikimedia.org/api/rest_v1/media/math/render/svg/af6bc360851499dd2ab2a90bee03fbe2040089d5
         -
