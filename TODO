@@ -1,9 +1,8 @@
 * First aid
 * Countries by shape
+* Countries by location
 * Capitals
 * Book notes
 * gnuplot usage
-* Czech minimum wage
-* GDP of USA
 
 TODO: Add "context" (e.g. printf("%-4d\n", 42); // 0042)
