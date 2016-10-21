@@ -145,3 +145,8 @@ notes:
                 uuid: d20ac924-6512-4001-992b-40e6783c2e36
                 front: USA gross domestic product per capita
                 back: '$53 000 (2013)'
+        -
+                uuid: f7ee30bd-ef57-4b1c-a1a3-e09a40f4e6a4
+                front: 'Short for "meme complex". Group of memes that are often found in the same individual.'
+                back: Memeplex
+                include_reverse: true
