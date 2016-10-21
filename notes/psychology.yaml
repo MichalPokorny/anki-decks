@@ -59,3 +59,7 @@ notes:
                front: Implicit association test
                back: Measure to detect association between mental representation of concepts in memory. White/pleasant, or black/suffering?
                include_reverse: true
+        -
+               uuid: a18d65b3-9e91-4dd3-8c5d-bab0dab0c6cb
+               front: MBCT
+               back: Mindfulness-based cognitive therapy

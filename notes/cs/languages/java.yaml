@@ -35,3 +35,11 @@ notes:
                 uuid: 3036df31-5a38-4640-a8ea-008dc66a6f5e
                 front: 'Write stack trace of exception to stdout'
                 back: '`exception.printStackTrace();`'
+        -
+                uuid: eb4f1c47-9dde-474a-9fdf-66af8365b389
+                front: "Set `Set<T> s1` to the intersection of `s1` and `s2`"
+                back: "`s1.retainAll(s2);`"
+        -
+                uuid: 7fe94df0-718d-4208-a861-f5363e130b34
+                front: "Set `Set<T> s1` to the `s1` set-minus `s2`"
+                back: "`s1.removeAll(s2);`"
