@@ -762,3 +762,9 @@ notes:
                 topic: "GNU Screen"
                 front: "Rename currently open session"
                 back: "`C-a :sessionname (name) <Enter>`"
+                include_reverse: true
+        -
+                uuid: 2e52a057-3443-44f1-ab40-6768509aa43a
+                front: "Detach background job from running bash and stop sending the job SIGHUPs when SIGHUP is sent to shell"
+                back: "`disown -h (jobspec)`"
+                include_reverse: true
