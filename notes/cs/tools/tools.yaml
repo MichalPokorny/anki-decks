@@ -757,3 +757,8 @@ notes:
                 front: "Include children in `strace`"
                 back: "`strace -f (...)`"
                 include_reverse: true
+        -
+                uuid: 25266ee6-1d81-47bd-b94a-dd7a5614d0cb
+                topic: "GNU Screen"
+                front: "Rename currently open session"
+                back: "`C-a :sessionname (name) <Enter>`"
