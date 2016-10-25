@@ -356,15 +356,15 @@ notes:
         -
                 uuid: 1adc19cb-5f9f-4703-802f-441eec740d28
                 front: "Mark of start of last changed text (e.g., pasted)"
-                back: "`\\`[`"
+                back: '<code>\`[</code>'
                 include_reverse: true
         -
                 uuid: db0ac34a-af2d-4e38-a8cc-d4c6bd7a5f3e
                 front: "Mark of end of last changed text (e.g., pasted)"
-                back: "`\\`]`"
+                back: '<code>\`]</code>'
                 include_reverse: true
         -
                 uuid: beb11e5a-aa12-4849-ad4a-aaa16c5bbd7f
                 front: "Select last changed text (e.g., pasted)"
-                back: "`\\`[v\\`]`"
+                back: '<code>\`[v\`]</code>'
                 include_reverse: true
