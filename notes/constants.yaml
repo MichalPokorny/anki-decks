@@ -65,3 +65,15 @@ notes:
                 uuid: 86cadf85-1b74-4e66-ad05-0e5940f4b8f5
                 front: Obese BMI
                 back: BMI 30+
+        -
+                uuid: 098cb216-d1c6-45a9-95c6-6cf64ab48410
+                front: USA gross domestic product
+                back: '$17 trillion == 17 x 10^12 (2013)'
+        -
+                uuid: 69d997dd-cfec-40f8-a133-7107ba0d8f3e
+                front: India gross domestic product per capita
+                back: '$1500 (2013)'
+        -
+                uuid: d20ac924-6512-4001-992b-40e6783c2e36
+                front: USA gross domestic product per capita
+                back: '$53 000 (2013)'

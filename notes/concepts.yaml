@@ -134,18 +134,6 @@ notes:
                 back: 'AKA Barnum effect. Individuals will give high accuracy ratings to supposedly personally-tailored descriptions of their personality that are in fact vague and general. Explanation for astrology et al.'
                 include_reverse: true
         -
-                uuid: 098cb216-d1c6-45a9-95c6-6cf64ab48410
-                front: USA gross domestic product
-                back: '$17 trillion == 17 x 10^12 (2013)'
-        -
-                uuid: 69d997dd-cfec-40f8-a133-7107ba0d8f3e
-                front: India gross domestic product per capita
-                back: '$1500 (2013)'
-        -
-                uuid: d20ac924-6512-4001-992b-40e6783c2e36
-                front: USA gross domestic product per capita
-                back: '$53 000 (2013)'
-        -
                 uuid: f7ee30bd-ef57-4b1c-a1a3-e09a40f4e6a4
                 front: 'Short for "meme complex". Group of memes that are often found in the same individual.'
                 back: Memeplex
