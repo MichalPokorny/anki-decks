@@ -768,3 +768,9 @@ notes:
                 front: "Detach background job from running bash and stop sending the job SIGHUPs when SIGHUP is sent to shell"
                 back: "`disown -h (jobspec)`"
                 include_reverse: true
+        -
+                uuid: a2ab421d-b1ea-48e7-aa53-027fff5a13ad
+                topic: "Hadoop MapReduce"
+                front: "Get job status from CLI, incl. counters"
+                back: "`mapred job -status job_1477124670116_0034`"
+                include_reverse: true
