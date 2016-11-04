@@ -138,3 +138,21 @@ notes:
                 front: 'Short for "meme complex". Group of memes that are often found in the same individual.'
                 back: Memeplex
                 include_reverse: true
+        -
+                uuid: 99a96c84-8323-422d-825a-46b12efb382b
+                front: Exaptation
+                back: The process by which features acquire functions for which they were not originally adapted or selected.
+                include_reverse: true
+        -
+                uuid: fcac86ce-b8e0-42fa-a508-8bddaa6d7081
+                front: Stotting
+                back: Gazelles - spring into the air, lifting all four feet off the ground simultaneously. Honest signal to predators that gazelle is not worth pursuing.
+                include_reverse: true
+        -
+                uuid: 5ed37412-35b2-442c-9566-b8a3eb6856f1
+                front: Network effect
+                back: Network effect occurs when product/service becomes more valuable to its users as more people use it.
+        -
+                uuid: df51aae9-7a12-40f4-8516-5081c49776d6
+                front: Ideological Turing test
+                back: Test if your defense of a position you don't hold is distinguishable by a panel of judges from a genuine defense of the position.
