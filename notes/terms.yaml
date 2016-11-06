@@ -182,3 +182,11 @@ notes:
                 uuid: 5ad8ff71-a712-4c89-9a9e-1c76928b26ac
                 front: Uncle Tom
                 back: "Uncle Tom is the title character of Harriet Beecher Stowe's 1852 novel, Uncle Tom's Cabin. The term \"Uncle Tom\" is also used as a derogatory epithet for an excessively subservient person, particularly when that person perceives their own lower-class status based on race."
+        -
+                uuid: 1606b5e9-1755-4625-8026-1d71ee440da5
+                front: Euphony
+                back: The quality of being pleasing to the ear
+        -
+                uuid: bd2aa5dc-9f27-4c12-aadc-ea156f3da99d
+                front: Petulant
+                back: Childishly irritable
