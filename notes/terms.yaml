@@ -186,18 +186,22 @@ notes:
                 uuid: 1606b5e9-1755-4625-8026-1d71ee440da5
                 front: Euphony
                 back: The quality of being pleasing to the ear
+                include_reverse: true
         -
                 uuid: bd2aa5dc-9f27-4c12-aadc-ea156f3da99d
                 front: Petulant
                 back: Childishly irritable
+                include_reverse: true
         -
                 uuid: 590141d7-3d6e-4b57-938a-e622c46f1566
                 front: Disingenuous
                 back: Not candid or sincere, typically by pretending that one knows less about something than one really does
+                include_reverse: true
         -
                 uuid: f5fbc628-d56c-4d9d-b01a-480f2e184ee6
                 front: Patrology
                 back: "or patristics: study of early Christian writers who are designated Church Fathers"
+                include_reverse: true
         -
                 uuid: 04634187-84b1-429c-b95c-ff8658529392
                 front: Silver lining
@@ -206,3 +210,4 @@ notes:
                 uuid: 381b39ab-aa16-49cf-8922-df2194476c7e
                 front: What's that got to do with the price of tea in China?
                 back: Retort to an irrelevant suggestion (denoting an irrelevance or non sequitur in the current discussion).
+                include_reverse: true
