@@ -43,3 +43,7 @@ notes:
                 uuid: 7fe94df0-718d-4208-a861-f5363e130b34
                 front: "Set `Set<T> s1` to the `s1` set-minus `s2`"
                 back: "`s1.removeAll(s2);`"
+        -
+                uuid: c487c222-f2f3-4ecd-80b8-981d410197d0
+                front: "Convert list to set using stream"
+                back: "`list.stream().collect(Collectors.toSet())`"

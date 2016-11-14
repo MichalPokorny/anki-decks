@@ -7,7 +7,6 @@ import uuid
 import fnmatch
 import markdown
 import yaml
-import glob
 import subprocess
 import os
 import csv
@@ -72,6 +71,7 @@ def load_all_notes():
     my_notes = []
 
     yaml_files = []
+    # TODO: follow symlinks
     for root, dirnames, filenames in os.walk('notes'):
         for filename in fnmatch.filter(filenames, '*.yaml'):
             yaml_files.append(os.path.join(root, filename))
