@@ -125,4 +125,51 @@ notes:
                 uuid: bcf2cd52-2e3c-4f62-8117-554842a55edd
                 front: Triage guideline - grab the ... (...; ...)
                 back: low-hanging fruit (head slappers; cheap hits)
-
+        -
+                uuid: d95a3ca8-2eab-4f73-9376-c50b56b84bb9
+                front: Things that diminish goodwill - Hiding ...
+                back: ... information that I want (phone numbers, prices, ...)
+        -
+                uuid: ed603f28-2898-4f58-9302-fc0b815e8c4f
+                front: Things that diminish goodwill - Punishing ...
+                back: ... me for not doing things your way (formatting data, ...)
+        -
+                uuid: 5314e579-4d50-46e9-9a14-ca2a9ba58cd7
+                front: Things that diminish goodwill - Asking ...
+                back: ... me for information you don't really need
+        -
+                uuid: 4fb65dd7-db11-4afa-9466-f6c9f1d3a6c4
+                front: Things that diminish goodwill - Shucking ...
+                back: ... and jiving me (faux sincerity, disingenuous attempts to convince me that you care about me)
+        -
+                uuid: 66637bce-b3c9-443c-a465-2af30318965c
+                front: Things that diminish goodwill - Putting ...
+                back: ... sizzle in my way (Flash intros, ...)
+        -
+                uuid: 0af11559-368f-409a-8fdb-48663f6cf7f4
+                front: Things that increase goodwill - Know the ...; make them ...
+                back: ... main thing that people want to do on your site; make them obvious and easy
+        -
+                uuid: f59d4ee2-ae92-4eb4-857d-0c9099b5a433
+                front: Things that increase goodwill - Tell me ...
+                back: ... what I want to know (shipping costs, parking fees, ...)
+        -
+                uuid: 36b1ab90-5f49-4ee0-8cea-8fec4bcb0d16
+                front: Things that increase goodwill - Save me ...
+                back: ... steps wherever you can (give the phone number on invoice, put a link in e-mail receipts, ...)
+        -
+                uuid: 88d0f388-61db-47e6-b8fe-2c6f620eb5ea
+                front: Things that increase goodwill - Put ... into it
+                back: ... effort ... (generate information, ensure it's up to date, ...)
+        -
+                uuid: 19e8b5e7-61f1-48a7-9970-2c32815b2f5d
+                front: Things that increase goodwill - Know what ..., and ... them
+                back: questions am I likely to have, and answer them (FAQs are not 'questions you WISH people asked!')
+        -
+                uuid: 2633bd54-590c-486e-a520-43d3e1f9e98f
+                front: Things that increase goodwill - Make it easy to ...
+                back: recover from errors.
+        -
+                uuid: 548d9cd6-3f9a-45ca-a4e4-38e83137dcc3
+                front: Things that increase goodwill - When in doubt, ...
+                back: apologize. (At least let the user know you're inconveniencing them.)

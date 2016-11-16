@@ -89,3 +89,16 @@ notes:
                 front: Pomodoro technique & length
                 back: Break down work into 25 minute intervals, separated by short breaks (to improve mental agility)
                 include_reverse: true
+        -
+                uuid: 55a63443-f110-4ef3-b06d-d5cdc89a44a4
+                front: Section 508 ...
+                back: ... of the 1988 Amendments to the Rehabilitation Act -- standards for information technology that must be met by any vendor that wants to do business with the US government (accessibility)
+                include_reverse: true
+        -
+                uuid: 8e30f106-1408-4ace-a15a-86b2a4be4a34
+                front: WCAG meaning?
+                back: Web Content Accessibility Guidelines; there are validators.
+        -
+                uuid: 3d8ea1d2-a7cf-4790-aaa1-2f3ec969f3d5
+                front: Barney Rubble
+                back: 'Bernard "Barney" Rubble is a cartoon character who appears in the television animated series The Flintstones.'

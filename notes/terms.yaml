@@ -225,4 +225,13 @@ notes:
                 front: Mensch
                 back: German-derived Yiddish word originally meaning 'human being'; a person of integrity and honor; 'a stand-up guy'; someone who does the right thing
                 include_reverse: true
-
+        -
+                uuid: 86607ca7-f0bb-478f-b100-deb9ef7ca961
+                front: Shucking
+                back: 'Informal: cause (someone) to believe something that is not true; fool or tease.'
+                include_reverse: true
+        -
+                uuid: 47cb2755-92af-465c-85f5-bf0ba940c31c
+                front: Sizzle
+                back: Verb - (of food) make a hissing sound when frying or cooking.
+                include_reverse: true
