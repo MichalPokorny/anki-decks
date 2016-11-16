@@ -105,3 +105,8 @@ notes:
                 front: 'Return 0 if index is clean, 1 otherwise'
                 back: "git diff --quiet --exit-code --staged"
                 include_reverse: true
+        -
+                uuid: 07cc4be7-1ff4-4712-b1d2-4faf2e3c410d
+                front: 'Checkout a new branch unrelated to master'
+                back: "git checkout --orphan"
+                include_reverse: true

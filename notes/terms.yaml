@@ -211,3 +211,18 @@ notes:
                 front: What's that got to do with the price of tea in China?
                 back: Retort to an irrelevant suggestion (denoting an irrelevance or non sequitur in the current discussion).
                 include_reverse: true
+        -
+                uuid: 6460dcb1-a32a-41af-92b7-f2cfef250945
+                front: "Meaning of 'ht' abbreviation"
+                back: Hat tip
+        -
+                uuid: b3411949-39ad-48f1-8391-9662b799b65f
+                front: "Curriculum"
+                back: The subjects comprising a course of study in a school or college (exact spelling!)
+                include_reverse: true
+        -
+                uuid: d6455578-1178-4249-926a-d5a825dcc1d6
+                front: Mensch
+                back: German-derived Yiddish word originally meaning 'human being'; a person of integrity and honor; 'a stand-up guy'; someone who does the right thing
+                include_reverse: true
+

@@ -1,0 +1,128 @@
+deck: Notes::Don't Make Me Think
+notes:
+        -
+                uuid: bc245403-ce57-4642-9aff-19596a547761
+                front: First principle
+                back: Don't make me think
+        -
+                uuid: 06fc974b-a9c6-49bf-9d1b-1edd08b778ee
+                front: Make clickable ...
+                back: ... things obvious.
+        -
+                uuid: 93c7e7cb-0500-4a08-aa28-d0784a986b45
+                front: We don't read web pages...
+                back: ..., we scan them.
+        -
+                uuid: 2adcadbc-3ebf-49fe-acd4-dcbde89b957a
+                front: We don't make optimal choices...
+                back: ..., we satisfice.
+        -
+                uuid: 53259848-0242-40bd-8177-c77d8b0fdcc0
+                front: We don't figure out how things work...
+                back: ..., we muddle through.
+        -
+                uuid: 03fd7c6d-746d-497b-a7b8-ec2daaed5e97
+                front: Billboard design 101
+                back:
+                        Create a clear visual hierarchy on each page.
+                        Take advantage of conventions.
+                        Break pages up into clearly defined areas.
+                        Make it obvious what's clickable.
+                        Minimize noise.
+        -
+                uuid: 0f571beb-4579-4b12-85b9-4dffe6040d0a
+                front: "Krug's second law of usability: It doesn't matter how many times I have to click..."
+                back: ..., as long as each click is a mindless, unambiguous choice.
+        -
+                uuid: 225c3dee-c463-44ca-a82b-b20b44c7fcb6
+                front: "Krug's third law of usability: Get rid of ..."
+                back: ... half the words, then of half of what's left.
+        -
+                uuid: 8546a6e9-59c2-406c-9c2c-a54e14e85eaf
+                front: Happy talk
+                back: 'Introductory text to welcome us. If you listen closely while reading it, a tiny voice in your head says "blah blah blah...". Self-congratulatory unspecific promotional text. It must die. E.g.: "The following questionnaire is designed to provide ..."'
+        -
+                uuid: 0cb39a88-f351-448e-885e-daaba7bf8521
+                front: Instructions
+                back: 'They must die. No one is going to read them. Make everything self-explanatory.'
+        -
+                uuid: c6eb2e04-9fda-4ae7-abe8-176f38a8f0c9
+                front: Purposes of navigation
+                back: "Gives us something to hold on to. Tells us what's here. Tells us how to use the site. Gives confidence in people who built it."
+        -
+                uuid: aef3d54a-07d4-4f83-a117-2f136270f242
+                front: Page names and links to page
+                back: "Should match. Click on Lug nuts => get page named 'Lug nuts'. Match as closely as possible"
+        -
+                uuid: cd20ba90-33c9-4077-ba8b-4629be5bd56f
+                front: Subtle cues
+                back: "Designers love them, users are in a hurry and miss them."
+        -
+                uuid: 643caa3f-8c87-4f95-af5d-7b9c0456dab5
+                front: Origin of tab navigation
+                back: "Tabs in actual notebooks. For the metaphor to work correctly, it has to look like the active one is in front."
+        -
+                uuid: da420240-ffae-422d-ab5e-003ab61ac2da
+                front: Trunk test
+                back:
+                        Test of navigation. You were locked in a trunk and landed deep inside your site. What site is it? Where am I? What are the sections? What are my options? How can I search?
+
+                        To perform, print out a page, hold at arms length,
+                        then circle site ID, page name, sections & subsections,
+                        local navigation, ...
+        -
+                uuid: 88d98cff-0f4a-4a84-83e6-5d0b9b86900a
+                front: Stacking underlined text
+                back: Avoid it. It's very hard to read.
+        -
+                uuid: 20c2da49-3a13-479f-b2bb-eb923b936ea7
+                front: Questions a home page needs to answer
+                back: What is this? What can I do here? Why should I be here and not somewhere else?
+        -
+                uuid: a4e70311-6e89-40d6-940e-8b34001a116a
+                front: Focus group vs. usability test
+                back: "
+                        Focus group: 5-8 people around a table react to ideas and designs; group process; participants react to each other. Quickly sample users' opinions and feelings.
+                        Usability test: one user at a time. (a) what is it? (b) try to use it
+
+                        Focus groups are to be used EARLY in the process to learn about audience.
+                        "
+        -
+                uuid: 5805e94f-10bd-4639-8178-4d0be8e5ccce
+                front: Testing early or late? Testing 1 or none?
+                back:
+                        Testing 1 user early is better than testing 50 near the end.
+                        Testing 1 is 100% better than testing none.
+        -
+                uuid: 5b24226c-e703-4873-a913-edd839b523ad
+                front: Ideal number of users for a round of testing
+                back: 3-4 -- they will find all the most important problems
+        -
+                uuid: 550dc695-405b-4074-ac97-b0b734ebf3c0
+                front: Cubicle test
+                back: Particularly for new forms. Print them out and see if the guy in the cubicle next to yours can make sense of it.
+        -
+                uuid: 9e681d4b-2e25-4128-bded-ae0a44cff4e0
+                front: Things to say to test subject
+                back:
+                        Don't worry about hurting my feelings (I didn't design it).
+                        We're testing the site, not you.
+                        Think out loud.
+                        You can ask questions, but I might not always be able to answer, because we want to see how actual people use the site.
+        -
+                uuid: ee79d5a2-c8d3-47e8-b4db-ebac104bfaa8
+                front: Triage guideline - ignore ... problems
+                back: Kayak (user fails, but recovers quickly)
+        -
+                uuid: d0e94bb5-eebd-436c-9349-58e0041e7b8d
+                front: Triage guideline - resist ...
+                back: the impulse to add new things
+        -
+                uuid: 6955113f-7ba8-4fe7-a2d8-7476f6d79424
+                front: Triage guideline - take ... with a grain of salt
+                back: '"new feature" requests'
+        -
+                uuid: bcf2cd52-2e3c-4f62-8117-554842a55edd
+                front: Triage guideline - grab the ... (...; ...)
+                back: low-hanging fruit (head slappers; cheap hits)
+
