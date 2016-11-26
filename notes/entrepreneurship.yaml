@@ -7,4 +7,4 @@ notes:
         -
                 uuid: d8b48889-cb60-416b-8d09-cb0ead39eeb5
                 front: CPM
-                back: Cost per 1000 (impressions)
+                back: Cost per 1000 (mille) -- (impressions)
