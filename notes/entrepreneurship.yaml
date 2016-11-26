@@ -1,0 +1,10 @@
+deck: Entrepreneurship
+notes:
+        -
+                uuid: b334db5a-7e15-4a70-a04e-3db2ba38a668
+                front: RPM
+                back: Revenue per 1000 pageviews
+        -
+                uuid: d8b48889-cb60-416b-8d09-cb0ead39eeb5
+                front: CPM
+                back: Cost per 1000 (impressions)

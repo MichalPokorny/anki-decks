@@ -235,3 +235,38 @@ notes:
                 front: Sizzle
                 back: Verb - (of food) make a hissing sound when frying or cooking.
                 include_reverse: true
+        -
+                uuid: 23cd9869-8b8f-4467-9838-64bbc6d39d4c
+                front: Jive
+                back: 'North American, informal: taunt or sneer at.'
+                include_reverse: true
+        -
+                uuid: bd1d762e-c6a0-47a1-b7b9-52400653bdc8
+                front: Flimflam
+                back: Confidence trick; nonsensical or insincere talk; (verb) to swindle someone with a confidence trick
+                include_reverse: true
+        -
+                uuid: 71f98473-e167-48c6-9516-76d23eaa9f65
+                front: consilience
+                back: 'the principle that evidence from independent, unrelated sources can "converge" to strong conclusions'
+                include_reverse: true
+        -
+                uuid: 95854682-9062-49af-bc3e-25ff7f09cb75
+                front: indelible
+                back: 'Impossible to remove, erase, or wash away; permanent: ... ink; unable to be forgotten, memorable: an ... memory'
+                include_reverse: true
+        -
+                uuid: 80bba8df-78b6-4631-acc8-b80a8bb0223d
+                front: entrepreneur
+                back: a person who organizes and manages any enterprise, especially a business, usually with considerable initiative and ris
+                include_reverse: true
+        -
+                uuid: 95fc1bd9-af07-4900-9d1a-c498cb3eaf57
+                front: autarky
+                back: The quality of being self-sufficient. Usually the term is applied to political states or their economic systems.
+                include_reverse: true
+        -
+                uuid: 166e8f0f-a1f4-4698-b59e-b640b31fa898
+                front: dearth
+                back: 'a scarcity or lack of something; archaic: famine'
+                include_reverse: true

@@ -12,3 +12,8 @@ notes:
                 uuid: 9c11e872-ea5c-4c12-8c77-18b6e9043ebf
                 front: Bad faith
                 back: A refusal to accept the absurd (existentialism)
+        -
+                uuid: 12dea366-9b31-4e3a-bbb4-0663aeffe220
+                front: solipsism
+                back: the view or theory that the self is all that can be known to exist.
+                include_reverse: true

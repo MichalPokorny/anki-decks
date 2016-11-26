@@ -102,3 +102,31 @@ notes:
                 uuid: 3d8ea1d2-a7cf-4790-aaa1-2f3ec969f3d5
                 front: Barney Rubble
                 back: 'Bernard "Barney" Rubble is a cartoon character who appears in the television animated series The Flintstones.'
+        -
+                uuid: 0ff77a08-364d-4d29-aeea-d12bcadede88
+                front: Robert Cialdini's 6 principles of persuasion applied to EA
+                back:
+                        Reciprocation - people feel indebted to those who do something for them or give them a gift.
+
+                        Social proof - when people are uncertain about a decision, they look to those around them for guidance.
+
+                        Commitment and consistency - people don't like to back out of commitments; they follow pre-existing attitudes, values, actions.
+                                -- ask "will you consider taking the pledge"; praise people for making good past decisions ("You've always been a charitable person.")
+
+                        Liking - people are more likely to say yes to people they know and like.
+
+                        Authority - impressive clothing, etc. (Bill Gates, Warren Buffet, Mark Zuckenberg; EA started by academics at Oxford)
+
+                        Scarcity - people are more likely to want something they perceive as scarce (GiveWell recommends just 4 or 5)
+        -
+                uuid: 5fc1c016-5e8c-497e-a1e2-0b0b3f951793
+                front: Free will determinism
+                back: All behavior is fully determined by background causes, and free will is incompatible with that
+        -
+                uuid: 8cd5ff76-0444-4092-96e4-62dadf3bbb5f
+                front: Free will libertarianism
+                back: Human agency rises above physical causation; free will would be incompatible with a fully-physical universe
+        -
+                uuid: d22c0902-fa76-4abb-9e35-084b7de39b6c
+                front: Free will compatibilism
+                back: Free will is compatible with determinism. You are free as long as you have no inner/outer compulsions that would prevent you from acting on actual desires and intentions. (We don't have to be the *conscious source* of our thoughts to be free.)

@@ -774,3 +774,8 @@ notes:
                 front: "Get job status from CLI, incl. counters"
                 back: "`mapred job -status job_1477124670116_0034`"
                 include_reverse: true
+        -
+                uuid: 4b29bbd5-b15a-4d13-84ad-f9349b2d9b7e
+                front: "Remove EXIF tags from image"
+                back: "`exiftool -all= x.jpg`"
+                include_reverse: true

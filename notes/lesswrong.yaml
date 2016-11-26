@@ -31,3 +31,8 @@ notes:
                 front: Dedicating 5 minutes of attention by the clock to a problem
                 back: Focused grit
                 include_reverse: true
+        -
+                uuid: 31a8b9d0-6c4b-48cb-84dd-7b3061e17402
+                front: Motivated reasoning/cognition
+                back: Emotion-biased decision-making phenomenon -- describes role of motivation; strategy of mitigating cognitive dissonance. Leads to desired conclusions regardless of their veracity.
+                include_reverse: true
