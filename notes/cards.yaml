@@ -130,3 +130,14 @@ notes:
                 uuid: d22c0902-fa76-4abb-9e35-084b7de39b6c
                 front: Free will compatibilism
                 back: Free will is compatible with determinism. You are free as long as you have no inner/outer compulsions that would prevent you from acting on actual desires and intentions. (We don't have to be the *conscious source* of our thoughts to be free.)
+        -
+                uuid: 10e70c4d-4718-4048-8015-c92852a76d08
+                front: Maitreya
+                back: "A bodhisattva who will appear on Earth in the future, achieve complete enlightenment, and teach the pure dharma. According to scriptures, ... will be a successor to the present Buddha, Gautama Buddha (also known as Śākyamuni Buddha)."
+                include_reverse: true
+        -
+                uuid: 210e557d-78dc-4c70-b0d1-3a29eececdef
+                front: explanatory gap
+                back: the difficulty that physicalist theories of mind have in explaining how physical properties give rise to the way things feel when they are experienced
+                include_reverse: true
+

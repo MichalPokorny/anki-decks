@@ -1,0 +1,37 @@
+deck: Notes::Naive Decision Making
+notes:
+        -
+                uuid: 6ec69a8b-4d37-4a3e-8a1d-f78c706a2797
+                front: Two-horse betting - setting? How to bet optimally?
+                back:
+                        We pay [$]y_1[/$], if horse 1 wins, we get back [$]u_1 y_1[/$], otherwise nothing.
+
+                        Optimal bet for fixed [$]Y=y_1+y_2[/$] is [$]y_1^* u_1 = y_2^* u_2[/$]
+        -
+                uuid: 30521a65-2064-4317-8774-c80761f1a596
+                front: Multi-horse betting - setting? What's the optimal betting allocation? When does an optimal betting allocation yield a guaranteed profit?
+                back:
+                        We pay [$]y_1[/$], if horse 1 wins, we get back [$]u_1 y_1[/$], otherwise nothing.
+
+                        Optimal bet for fixed [$]Y=y_1+y_2+\ldots[/$] is [$]y_1^* u_1 = y_2^* u_2 = \ldots[/$]
+
+                        I can get a guaranteed profit if [$]\frac{1}{\sum_i u_i^{-1}} > 1[/$].
+                        If it's equal, I break even. Else, I lose.
+        -
+                uuid: 2d4f2d09-e074-44b8-9621-e9c4bece07ec
+                front: Multi-horse betting - say I have 2 ideal bookmarkers (who I can't individually profit from) and they set a different multiplier for some horse. How can I turn a profit from that?
+                back: >
+                        Because they're optimal, for both of them:
+                        [$]\frac{1}{\sum_i a_i^{-1}} = 1[/$],
+                        [$]\frac{1}{\sum_i b_i^{-1}} = 1[/$].
+                        Grab the one odd that differs and use it to make a profit.
+        -
+                uuid: 9e2c0aea-efd6-47e3-9c38-dcb13c5970b0
+                front: Multi-horse betting - how do I maximize expected profit if I know probabilities?
+                back:
+                        Say payout multipliers are [$]u_i[/$].
+                        Pick the horse where [$]u_i p_i[/$] is the greatest.
+                        I will expect to profit if it's [$]>1[/$].
+
+                        Or, if [$]q_j = 1/u_j[/$], pick maximum [$]p_j/q_j[/$].
+

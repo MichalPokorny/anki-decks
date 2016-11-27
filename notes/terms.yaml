@@ -270,3 +270,100 @@ notes:
                 front: dearth
                 back: 'a scarcity or lack of something; archaic: famine'
                 include_reverse: true
+        -
+                uuid: f3502615-7df8-4844-91dd-d11bc323e720
+                front: jaundice
+                back: yellow discoloration of the skin, mucous membranes, and the whites of the eyes caused by increased amounts of bilirubin in the blood
+                include_reverse: true
+        -
+                uuid: 04ba8ede-68c1-49d2-9700-7c6a3704e869
+                front: acrimony
+                back: bitterness or ill feeling
+                include_reverse: true
+        -
+                uuid: c20db5f4-9447-4e44-82b8-49b4c34c1f6c
+                front: inure
+                back: accustom (someone) to something, especially something unpleasant
+                include_reverse: true
+        -
+                uuid: 52eb4781-a5a2-4e6f-954e-24dda9c3ea66
+                front: ratiocinative
+                back:  Of, relating to, marked by, or skilled in methodical and logical reasoning
+                include_reverse: true
+        -
+                uuid: addef86b-94ac-476a-9eea-feb4da352d66
+                front: prurient
+                back: having or encouraging an excessive interest in sexual matters, especially the sexual activity of others
+                include_reverse: true
+        -
+                uuid: 53b541cf-bf2b-44ea-9e2d-345e4ca51da4
+                front: commensurable
+                back: measurable by the same standard
+                include_reverse: true
+        -
+                uuid: cf056fc1-7f3f-43d6-b5f6-0828952ac1fc
+                front: conspecific
+                back: a member of the same species
+                include_reverse: true
+        -
+                uuid: 92182b6b-7c85-4dbb-9919-58dc8e26f1f9
+                front: priggish
+                back: self-righteously moralistic and superior
+                include_reverse: true
+        -
+                uuid: a55eb5d9-111b-4622-b14c-53d5774a1a47
+                front: rectitude
+                back: morally correct behaviour or thinking; righteousness
+                include_reverse: true
+        -
+                uuid: 453f8774-96b6-47b3-9e7e-73996664e57a
+                front: vicarious
+                back: "experienced in the imagination through the feelings or actions of another person ('this catalogue brings ... pleasure in luxury living'); acting or done for another"
+                include_reverse: true
+        -
+                uuid: 42c76a5c-210d-4769-931a-68927ed76827
+                front: equivocation
+                back: the use of ambiguous language to conceal the truth or to avoid committing oneself
+                include_reverse: true
+        -
+                uuid: 8437c155-f4e0-4da9-ba81-b9850ccff7e2
+                front: sophistry
+                back: the use of clever but false arguments, especially with the intention of deceiving; a fallacious argument
+                include_reverse: true
+        -
+                uuid: 24a29655-8fa9-4ea9-8245-47488e4a53e4
+                front: peripheralism
+                back: the explanation of psychological events emphasizing peripheral human functions, as those of skeletal muscles or the sex organs, rather than cognition or other processes of the central nervous system
+        -
+                uuid: 0c42c756-b343-4168-8b56-c7943d8a76f4
+                front: to tub-thump
+                back: to argue for or promote something vigorously
+        -
+                uuid: 0ebc9e47-3cec-4b94-b5bb-45e815071a22
+                front: shrift
+                back: confession, especially to a priest; absolution by a priest
+        -
+                uuid: 245f44e0-2c8e-4837-a474-15072ffbf20d
+                front: dolorous
+                back: feeling or expressing great sorrow or distress
+        -
+                uuid: 74ccf234-f65a-438b-b0e6-c02cb034bd7f
+                front: dotage
+                back: the period of life in which a person is old and weak
+        -
+                uuid: 5b7b44d7-7376-40e1-9f13-e555d1ac8798
+                front: Lebensraum
+                back: the territory which a state or nation believes is needed for its natural development
+        -
+                uuid: 640a751c-5ace-47ec-b720-a6529d0e86a5
+                front: Bekenstein bound
+                back: upper limit on the entropy S, or information I, that can be contained within a given finite region of space which has a finite amount of energy—or conversely, the maximum amount of information required to perfectly describe a given physical system down to the quantum level
+                include_reverse: true
+        -
+                uuid: e4ee6430-4650-4e5a-b994-ffcad4391ddd
+                front: ersatz
+                back: (of a product) made or used as a substitute, typically an inferior one, for something else
+        -
+                uuid: c637a29d-ffa2-4210-84ce-164de003e3fa
+                front: atavism
+                back: an evolutionary throwback, such as traits reappearing that had disappeared generations before

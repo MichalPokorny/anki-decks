@@ -22,13 +22,24 @@ notes:
                 back: ..., we muddle through.
         -
                 uuid: 03fd7c6d-746d-497b-a7b8-ec2daaed5e97
-                front: Billboard design 101
-                back:
-                        Create a clear visual hierarchy on each page.
-                        Take advantage of conventions.
-                        Break pages up into clearly defined areas.
-                        Make it obvious what's clickable.
-                        Minimize noise.
+                front: "Billboard design 101: Create a ... on each ..."
+                back: ... clear visual hierarchy on each page.
+        -
+                uuid: 5df5fe91-356c-4c73-99df-ae15bbc592aa
+                front: "Billboard design 101: Take advantage ..."
+                back: ... of conventions
+        -
+                uuid: f6427f6c-ee61-4cf4-8b0d-6eedd6ace837
+                front: "Billboard design 101: Break pages ..."
+                back: ... up into clearly defined areas.
+        -
+                uuid: 13df5ff8-29a9-4289-ad52-3960c283a6ee
+                front: "Billboard design 101: Make it ... what's ..."
+                back: ... obvious what's clickable
+        -
+                uuid: da24f420-a00c-451c-838d-1066910ee2eb
+                front: "Billboard design 101: Minimize ..."
+                back: ... noise.
         -
                 uuid: 0f571beb-4579-4b12-85b9-4dffe6040d0a
                 front: "Krug's second law of usability: It doesn't matter how many times I have to click..."
