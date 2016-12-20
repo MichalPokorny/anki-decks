@@ -156,3 +156,8 @@ notes:
                 uuid: df51aae9-7a12-40f4-8516-5081c49776d6
                 front: Ideological Turing test
                 back: Test if your defense of a position you don't hold is distinguishable by a panel of judges from a genuine defense of the position.
+        -
+                uuid: acb6eb9c-9bfa-4613-8105-549f64277346
+                front: Campbell's law
+                back: Another name for Goodhart's law
+                include_reverse: true

@@ -318,7 +318,7 @@ notes:
         -
                 uuid: 453f8774-96b6-47b3-9e7e-73996664e57a
                 front: vicarious
-                back: "experienced in the imagination through the feelings or actions of another person ('this catalogue brings ... pleasure in luxury living'); acting or done for another"
+                back: "experienced in the imagination through the feelings or actions of another person ('this catalogue brings ... pleasure in luxury living'); acting or done for another; zprostředkovaný"
                 include_reverse: true
         -
                 uuid: 42c76a5c-210d-4769-931a-68927ed76827
@@ -367,3 +367,32 @@ notes:
                 uuid: c637a29d-ffa2-4210-84ce-164de003e3fa
                 front: atavism
                 back: an evolutionary throwback, such as traits reappearing that had disappeared generations before
+        -
+                uuid: 4a9adeb7-c186-4e79-b454-0c6c398e5dd1
+                front: rainmaker
+                back: A person who brings in new business and wins new accounts almost by magic, since it is often not readily apparent how this new business activity is caused. It means generating substantial new business or additional cash flow from sources sometimes outside established business channels, sometimes by connecting with people in non-traditional or hidden markets, and sometimes by prompting current clients to spend more money. A ... is usually a key figure in the business or organization, not merely a salesperson, but a principal or executive who is usually highly regarded within the enterprise.
+                include_reverse: true
+        -
+                uuid: c8aaac2b-3f43-4182-81e9-977ad0770ea1
+                front: NRE(eng.)
+                back: Non-recurring engineering (NRE) refers to the one-time cost to research, develop, design and test a new product. When budgeting for a new product, NRE must be considered to analyze if a new product will be profitable.
+        -
+                uuid: 635ff3f4-811d-455f-b7a3-f63b526b644e
+                front: cap-and-trade
+                back: carbon permit trading system - building a market for permit trading
+                include_reverse: true
+        -
+                uuid: bb12f717-c7ce-4682-8bcd-48ae48055c24
+                front: empiricism
+                back:  theory that states that knowledge comes only or primarily from sensory experience. One of several views of epistemology, the study of human knowledge, along with rationalism and skepticism, ... emphasizes the role of evidence in the formation of ideas, over the notion of innate ideas or traditions; ... may argue however that traditions (or customs) arise due to relations of previous sense experiences.
+                include_reverse: true
+        -
+                uuid: 77f451bb-769d-4640-938b-737f4cf47219
+                front: epistemology
+                back: the branch of philosophy concerned with the theory of knowledge
+                include_reverse: true
+        -
+                uuid: 5911b919-df0d-4a63-83f2-06a52f911776
+                front: paraphernalia
+                back: miscellaneous articles, especially the equipment needed for a particular activity
+                include_reverse: true

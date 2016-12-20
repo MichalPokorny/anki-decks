@@ -2,11 +2,11 @@ deck: Notes::Naive Decision Making
 notes:
         -
                 uuid: 6ec69a8b-4d37-4a3e-8a1d-f78c706a2797
-                front: Two-horse betting - setting? How to bet optimally?
+                front: Two-horse betting without known probabilities - setting? How to bet optimally?
                 back:
                         We pay [$]y_1[/$], if horse 1 wins, we get back [$]u_1 y_1[/$], otherwise nothing.
 
-                        Optimal bet for fixed [$]Y=y_1+y_2[/$] is [$]y_1^* u_1 = y_2^* u_2[/$]
+                        Optimal bet for fixed [$]Y=y_1+y_2[/$] is [$]y_1^\* u_1 = y_2^\* u_2[/$]
         -
                 uuid: 30521a65-2064-4317-8774-c80761f1a596
                 front: Multi-horse betting - setting? What's the optimal betting allocation? When does an optimal betting allocation yield a guaranteed profit?
