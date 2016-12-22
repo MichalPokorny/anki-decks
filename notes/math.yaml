@@ -36,3 +36,63 @@ notes:
                 front: Brouwer theorem
                 back: "Brouwer fixed-point theorem: for any continuous f mapping a compact convex set into itself has a fixed point"
 # TODO: Kegan's stages
+        -
+                uuid: eea9aac1-ad18-4f44-83ca-a2336da27940
+                front: Vapnik-Chervonenkis dimension
+                back: >
+                        Ať je [$]C=\\{f_i\\}[/$] množina funkcí (concept class).
+                        Množina [$]m[/$] vzorů [$]\\{t_1,\\ldots t_m\\}[/$]
+                        jde rozčlenit pomocí [$]C[/$], jestli existuje pro každé z 0/1 označení, kterých je [$]2^m[/$], existuje aspoň jedna funkce [$]f_i[/$] která mu vyhovuje.
+
+                        VC-dimenze [$]V[/$] množiny funkcí [$]C[/$] je největší
+                        [$]m[/$], pro které existuje množina [$]m[/$] rozčlenitelných trénovacích vzorů.
+
+                        Je-li VC dimenze nekonečná, je to nenaučitelné.
+
+                        Neuronová síť může mít hodně parametrů, ale měla by mít malou VC dimenzi. Velká VC dimenze znamená horší generalizaci.
+
+                        Příklad: VC-dimenze lineárních funkcí v [$]n[/$]-rozměrném prostoru je [$]n+1[/$] (víc jich rozdělit nejde).
+                        Příklad: VC-dimenze sinusovek s libovolnou periodou je nekonečno
+        -
+                uuid: d8dfb615-f927-4284-a746-c3fa7e21bc46
+                front: Definice pseudoinverzní matice
+                back: >
+                        [$]X \\hat{X} X = X, \\hat{X} X \\hat{X} = \\hat{X}, \\hat{X} X[/$] a [$]X \\hat{X}[/$] jsou symetricke.
+                        Vzdy existuje a je jednoznacne urcena.
+        -
+                uuid: 2de3f4b6-ac7d-400a-be6d-d08aadf7f53b
+                front: Věta co minimalizuje pseudoinverzní matice, důkaz
+                back: >
+                        Ať je [$]X\\in\\R^{m\\times n}, Y\\in\\R^{m\\times k}[/$]. Pak [$]W=\\hat{X} Y[/$] minimalizuje [$]\\|XW-Y\\|^2[/$].
+
+                        Zároveň [$]\\hat{X}[/$] minimalizuje [$]\\|X\\hat{X}-I\\|^2[/$].
+
+                        [$]E:=\\|XW-Y\\|^2[/$]
+
+                        Dá se vyjádřit jako [$]E=tr(S)[/$], kde [$]S=(XW-Y)^T (XW-Y)[/$]
+
+                        [$$]
+                        (XW-Y)^T (XW-Y) = (Y-XW)^T (Y-XW) = (-XW)^T (Y-XW) + Y^T(-XW) + Y^T Y =
+
+                        = (-XW)^T (Y-XW) + Y^T X \\hat{X} (Y-XW) + Y^T(I-X\\hat{X})Y =
+
+                        = (X\\hat{X}Y-XW)^T (Y-XW) + Y^T (I-X\\hat{X})Y =
+
+                        = (\\hat{X}Y-W)^T X^T (Y-XW)+Y^T(I-X\\hat{X})Y =
+
+                        = (\\hat{X}Y-W)^T (X^T Y-X^T XW)+Y^T(I-X\\hat{X})Y =
+
+                        = (\\hat{X}Y-W)^T ((X\\hat{X}X)^T Y-X^T XW)+Y^T(I-X\\hat{X})Y =
+
+                        = (\\hat{X}Y-W)^T (X^T X\\hat{X}Y-X^T XW)+Y^T (I-X\\hat{X})Y =
+
+                        = (\\hat{X}Y-W)^T X^T X(\\hat{X}Y-W)+Y^T(I-X\\hat{X})Y
+                        [/$$]
+
+                        Tedy:
+                        [$$]
+                        E=tr((\\hat{X}Y-W)^T X^T X (\\hat{X}Y-W)) + tr(Y^T (I-X\\hat{X}) Y)
+                        [/$$]
+
+                        To vpravo je konstanta. To vlevo je minimální pro [$]W=\\hat{X}Y[/$].
+

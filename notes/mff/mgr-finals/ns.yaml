@@ -77,4 +77,846 @@ notes:
                 uuid: a42eb832-b4a5-40ab-b046-6952f70d0d43
                 front: Dlouhodobý paměťový mechanismus
                 back: Kopíruje střednědobou paměť do bílkovin v neuronech, hlavně v jádrech. Někdy zůstanou až celý život.
-        # TODO: 02+
+        # 02-perceptron: nothing
+        # 03-multilayered-nns
+        -
+                uuid: 5b2844e9-94ba-40a5-af9f-47a7153c9440
+                front: Chybová funkce pro feedforward sítě
+                back: >
+                        [$]E=\\frac{1}{2}\\sum_{p} \\sum_{j} (y_{j,p}-d_{j,p})^2[/$],
+                        kde [$]j[/$] je index ve výstupním vektoru, [$]p[/$] je vzor
+        -
+                uuid: b922cbf1-635a-456b-90b2-14e5f04a6352
+                front: Jak vypadá update pro feedforward sítě, obecně?
+                back: >
+                        [$$]
+                        w_{ij} -= \\frac{\\partial E}{\\partial w_{ij}} = \\frac{\\partial E}{\\partial y_j}\\frac{\\partial y_j}{\\partial \\xi_j}\\frac{\\partial \\xi_j}{\\partial w_{ij}}
+                        [/$$]
+        -
+                uuid: 78dc62d7-6f8f-4ebc-9bd3-4efafc2ccbc3
+                front: Co je v updatu pro feedforward sítě [$]\\delta[/$]?
+                back: >
+                        [$$]
+                        \\delta_j := -\\frac{\\partial E}\\frac{\\partial \\xi_j}
+                        [/$$]
+        -
+                uuid: cbaf91a5-83a2-43ee-a16d-61a019357318
+                front: Jak vypadá role [$]\\delta[/$] v updatovacím pravidle?
+                back: >
+                        [$$]
+                        w_{ij} += \\delta_j \\frac{\\partial \\xi_j}{\\partial w_{ij}} = \\delta_j y_i
+                        [/$$]
+        -
+                uuid: d4a36360-45fe-44e5-ac35-c417012061a9
+                front: Plná forma updatu pro váhy do výstupní vrstvy
+                back: >
+                        [$$]
+                        w_{ij} -= (y_j - d_j) f'(\\xi_j) y_i
+                        [/$$]
+        -
+                uuid: 111c73aa-eade-4989-bc69-2f4cec56779b
+                front: Plná forma updatu pro váhy do skrytých vrstev
+                back: >
+                        [$$]
+                        w_{ij} -= (\\sum_k \\frac{\\partial E}{\\partial \\xi_k} w_{jk}) f'(\\xi_j) y_i =
+
+                        = (\\sum_k \\delta_k w_{jk}) f'(\\xi_j) y_i
+                        [/$$]
+        -
+                uuid: e40d07d1-565a-40f1-8066-0c313967d318
+                front: Derivace sigmoidy s parametrem [$]\\lambda[/$] vzhledem k její hodnotě
+                back: >
+                        [$]f'(x) = \\lambda f(x) (1-f(x))[/$]
+        -
+                uuid: 3e6d5447-bf83-456a-aba4-d6bc537ab880
+                front: Aktualizace vah s momentem
+                back: >
+                        [$$]
+                        w_{ij}^{(t+1)} = w_{ij}^{(t)} + \\alpha \\delta_j y_i + \\alpma_m (w_{ij}^{(t)} - w_{ij}^{(t-1)})
+                        [/$$]
+        -
+                uuid: 855893e2-9a41-4b34-9a45-c05098fce827
+                front: Velikost momentu učení
+                back: >
+                        [$]\\alpha_m \\in [0;1)[/$]
+        -
+                uuid: d07c9791-5d35-47e5-a396-4e0c984c81a9
+                front: Složitost učení neuronových sítí
+                back: NP-úplný
+        -
+                uuid: c545814c-390b-4ff6-86c0-d2bd755436ef
+                front: Chytrá volba počátečních vah - proč nulově vycentrované?
+                back: Budou v intervalu [$][-\\alpha_m;\\alpha_m][/$]. Protože přenosová funkce má v 0 maximální derivaci. Šířená chyba je pak větší.
+        -
+                uuid: 2cd4abd6-9386-4cd9-8abb-4049fdfd8ece
+                front: Proč jsou problém příliš velké i příliš malé váhy?
+                back: >
+                        Příliš malé: Šířená chyba je pak moc malá.
+                        Příliš velké: chybová funkce se dostane do saturované zóny, je plochá.
+        -
+                uuid: f3485758-c4a8-4f09-b934-0adceccebb6e
+                front: Chytrá volba vah - jak nanormalizujeme vstupy?
+                back: >
+                        Normalizujeme je do [$][0;1][/$].
+        -
+                uuid: e7ea5e2f-d109-457c-aadd-4a09155b21ac
+                front: Jaká bude střední hodnota potenciálu když nainicializujeme váhy náhodně v [$]\\alpha_m[/$] kolem nuly?
+                back: >
+                        [$$]
+                        E[\\xi_j] = E[\\sum_{i=0}^n w_{ij} x_i]=\\sum_{i=0}^n E[w_ij] E[x_i] = 0
+                        [/$$]
+        -
+                uuid: 6bfe2886-12e0-4001-9652-80e9da1b051b
+                front: Chytrá volba vah - odvození rozptylu potenciálu
+                back: >
+                        [$$]
+                        \\sigma_{\\xi_j}^2 = E[(\\xi_j)^2] - (E[\\xi_j])^2 = E[(\\sum_{i=0}^n w_{ij} x_i)^2] - 0 =
+
+                        = \\sum_{i,k=0}^{n} E[w_{ij} w_{kj} x_i x_k] = \\sum_{i=0}^n E[(w_{ij})^2 E[(x_i)^2]
+                        [/$$]
+        -
+                uuid: 27dde7d4-ec20-4d03-a645-c191998c0b62
+                front: Chytrá volba vah - jaká je střední hodnota [$](x_i)^2[/$] když je [$]x[/$] rovnoměrně v [$][0;1][/$]?
+                back: >
+                        [$]1/3[/$]
+        -
+                uuid: 01f20ae2-2fc3-4490-aec4-d1da73e92863
+                front: Chytrá volba vah - jaká je střední hodnota [$](w_{ij})^2[/$] když je [$]w_{ij}[/$] rovnoměrně v [$][-a;a][/$]?
+                back: >
+                        [$]a^2/3[/$]
+        -
+                uuid: 3e982b3e-298b-4aab-9eb9-a3f564d0cfcd
+                front: Když chci aby měl potenciál směrodatnou odchylku [$]A=\\sigma_{\\xi}[/$], jak mám zvolit interval [$][-a;a][/$] pro vstupní váhy? Jaká je chytrá volba A?
+                back: >
+                        [$]a = 3A/\\sqrt{N}[/$] ([$]A=\\sigma_\\xi = a/3 \\sqrt{N}[/$]). Chytrá volba: A=1 (rychlé učení, velký gradient)
+        -
+                uuid: 544ed41c-952b-40b9-aad3-9118a9ddce3f
+                front: K čemu je moment?
+                back: Snižuje oscilaci, tedy urychluje učení
+        -
+                uuid: 3bd20133-9998-45b8-84e0-7f980f6435b4
+                front: Adaptivní parametr učení -- obecně
+                back: Pro každou váhu samostatný parametr [$]\\alpha_{ij}[/$]
+        -
+                uuid: 486172e7-653f-443b-81bf-3aef15ba9cff
+                front: Silva-Almeida heuristika
+                back: Jestli se nezměnilo znaménko parciální derivace, urychluj ([$]\\cdot \\uparrow[/$]). Když se změnilo, zpomaluj ([$]\\cdot\\downarrow[/$]).
+        -
+                uuid: 7b3c1733-32ae-4cc9-b36b-b0c5ee1c9782
+                front: Delta-bar-delta algoritmus, proč je lepší než Silva-Almeida
+                back: >
+                        Není tak citlivý na exponenciální růst když se moc dlouho zrychluje.
+
+                        [$]\\delta_{ij}^{(k)} = (1-\\Phi)\\frac{\\partial E}{\\partial w_{ij}} + \\Phi \\delta_i^{(k+1)}[/$],
+                        kde [$]\\Phi[/$] je konstanta.
+
+                        Když [$]\\delta_{ij}^{(k-1)} \\cdot \\frac{\\partial E}{\\partial w_{ij}} > 0[/$], tak [$]\\alpha_{ij} += u[/$], jinak [$]*= d[/$].
+
+                        Aktualizace vah je bez momentu.
+        -
+                uuid: 337f8612-aa5f-4688-a6b3-2cf6b499bf65
+                front: Super-SAB algoritmus
+                back: >
+                        Dělej backprop s momentem.
+                        Začni s rychlostí 1.2.
+                        Když se nezměnilo znaménko, vynásob rychlost 1.05.
+                        Když se změnilo, undoni poslední změnu, pak poděl rychlost 2 a pro účely momentu v dalším updatu se tvař že rychlost v téhle souřadnici je 0.
+        -
+                uuid: 69dfb87b-0ab7-4953-a173-722046c8167f
+                front: Taylorova řada pro aproximaci E druhého řádu
+                back: >
+                        [$]E(w+h) \\simeq E(w) + \\nabla E(w)^T \\cdot h + \\frac{1}{2}h^T \\nabla^2 E(w) h[/$]
+
+                        Kde [$]\\nabla^2 E(w)[/$] je [$]n\\times n[/$] Hessovská matice, kde prvek [$]ij[/$] je [$]\\partial^2 E(w) / \\partial w_i \\partial w_j[/$].
+        -
+                uuid: 8606828b-9128-45ff-b000-7e22e0ad5b19
+                front: Aproximace gradientu druhého řádu. O co se s ním snažíme?
+                back: >
+                        [$]\\nable E(w+h)^T\\simeq\\nabla E(w)^T + h^T \\nabla^2 E(w)[/$]
+
+                        Snažíme se gradient [$]h = -(\\nabla^2 E(w))^{-1} \\nabla E(w)[/$] mít nulový, protože hledáme minimum [$]E[/$].
+        -
+                uuid: ce22d60a-439f-42ab-8126-003b0d1a71ea
+                front: Newtonovské metody pro druhý řád a problémy
+                back: >
+                        Aktualizace vah:
+                        [$$]w_{ij} -= (\\nabla^2 E(w))^{-1} \\nabla E(w)[/$$]
+                        Problém: výpočet inverzní Hessovské matice
+        -
+                uuid: db9136b3-4c7d-439e-9089-a472eddbca40
+                front: Pseudonewtonovské metody, proč se používají, jak zjednodušují newtonovské metody, kdy fungují
+                back: >
+                        Berou v úvahu jenom diagonálu Hessovské matice.
+                        Adaptace: [$$]
+                        w_{ij} -= \\frac{\\nabla_{ij} E(w)}{\\frac{\\partial^2 E(w)}{\\partial w_{ij}^2}}
+                        [/$$]
+                        Fungují dobře když chybová funkce má "kvadratický tvar".
+        -
+                uuid: a70f0d15-a2d4-46da-8214-3f342c831577
+                front: Algoritmus QuickProp. Alternativní způsob psaní aktualizace. Čemu odpovídá jmenovatel?
+                back: >
+                        [$]w_{ij} += \\Delta^{(k)} w_i[/$]
+
+                        [$$]\\Delta^{(k)} w_i = \\Delta^{(k-1)} w_i \\cdot \\frac{\\nabla_i E^{(k)}}{\\nabla_i E^{(k-1)} - \\nabla_i E^{(k)}}[/$$]
+
+                        Jde psát taky:
+                        [$$]
+                        \\Delta^{(k)}w_i = -\\frac{\\nabla_i E^{(k)}}{\\frac{\\nabla_i E^{(k)}-\\nabla_i E^{(k-1)}}{\\Delta^{(k-1)}w_i}}
+                        [/$$]
+                        Jmenovatel je diskrétní aproximace parciální derivace [$]\\partial^2 E(w) / \\partial w_i^2[/$]
+        -
+                uuid: f7eda12e-ea8c-4f7b-9241-e381ce03f077
+                front: Levenberg-Marquardtův algoritmus
+                back: >
+                        Je rychlejší a přesnější v oblasti minima erf.
+                        Kombinace gradientní a Newtonovy metody.
+                        [$$]w_{\\min}=w_0-(H+\\lambda I)^{-1} \\cdot g[/$$], kde [$]g[/$] je gradient, [$]H[/$] je Hessovská matice
+
+                        Pro 1 výstup: [$]g_i = \\partial E/\\partial w_i = 2(y-d)\\frac{\\partial y}{\\partial w_i}[/$]
+
+                        [$$]\\partial^2 E/\\partial w_i \\partial w_j = 2[\\frac{\\partial y}{\\partial w_i}\\frac{\\partial y}{\\partial w_j} + (y-d)\\frac{\\partial^2 y}{\\partial w_i \\partial w_j}][/$$]
+                        Druhý člen -- ten s [$](y-d)[/$] -- se zanedbá.
+        -
+                uuid: 4e8953f3-7b3e-4d23-8c89-b618df5773a6
+                front: Relaxační metody - perturbace vah
+                back: >
+                        Vždy pro náhodně zvolenou váhu si spočítám chybovou funkci když ji o trochu posunu, podle toho spočítám diskrétní aproximaci gradientu a aktualizuju.
+        -
+                uuid: ee40f752-837d-4d47-9787-f7bdbc09711b
+                front: Alternativní perturbační metoda s rychlejší konvergencí
+                back: >
+                        Zperturbuju výstup neuronu [$]i[/$] ([$]o_i[/$]) o [$]\\Delta o_i[/$].
+                        Spočítám rozdíl chyb. Jestli se chyba zlepší, tak si spočítám, jak má vypadat potenciál neuronu, aby měl tenhle výstup. Adaptuju váhy proporcionálně k jejich velikosti ([$]w_i'/\\xi' = w_i/\\xi[/$].
+        # 04-multilayer-properties
+        -
+                uuid: ef9250b7-8401-4331-ab84-826be6c72ff8
+                front: Realizovatelnost funkcí
+                back: Každá funkce jde aproximovat prahovými jednotkami s libovolně malou chybou. To samé jde i se sigmoidami.
+        -
+                uuid: 57831b2e-2ac4-4bc6-b420-38e3dd343898
+                front: Počet oblastí určených [$]m[/$] dělícími nadrovinami dimenze [$]n-1[/$] v [$]n[/$]-rozměrném prostoru -- rekurzivní vzorec
+                back: >
+                        [$]R(m,n)=R(m-1,n)+R(m-1,n-1)[/$]
+        -
+                uuid: 99ccc2b2-92aa-42f0-9324-395f522bd8ad
+                front: Počet oblastí určených [$]m[/$] dělícími nadrovinami dimenze [$]n-1[/$] v [$]n[/$]-rozměrném prostoru -- closed-form vzorec
+                back: >
+                        [$]R(m,n)=2 \\sum_{i=0}^{n-1} ({m-1} \\choose {i})[/$]
+        -
+                uuid: bab5c148-ed49-41aa-a7a9-e4adc2e8399a
+                front: Počet vzorů potřebných pro správné zobecňování s generalizační chybou [$]\\varepsilon[/$], dle počtu vah [$]W[/$] a počtu neuronů [$]N[/$]
+                back: >
+                        [$]P \\geq (W/\\varepsilon) \\log_2 (N/\\varepsilon)[/$]
+
+                        Pro 1 skrytou vrstvu: nemůže dobře zobecňovat když bylo méně než [$]W/\\varepsilon[/$] vzorů.
+                        Tedy: pro přesnost [$]90\\%[/$] chci aspoň [$]10\\cdot W[/$] vzorů.
+        # 05-internal-representation
+        -
+                uuid: bc424437-cb79-4278-acce-3893f428a98e
+                front: Kondenzovaná vnitřní reprezentace, binární
+                back: >
+                        Interpretace skrytých neuronů: [$]0/1/\\frac{1}{2}[/$]
+
+                        Binární: jen 0/1
+
+                        Přidá se člen:
+                        [$$]
+                        F=\\sum_{p} \\sum_{h} y_{h,p}^X (1-y_{h,p})^Y (y_{h,p}-0.5)^Z
+                        [/$$]
+        -
+                uuid: adf31f57-65b6-40e5-9cae-d759e46052bf
+                front: Jednoznačná vnitřní reprezentace
+                back: >
+                        Intuice: pro hodně různé výstupy chci hodně jiné vnitřní reprezentace
+
+                        [$$]
+                        H = -\\frac{1}{2}\\sum_{p, q; p\\neq q} \\sum_{j} \\sum_{o} (d_{o,p}-d_{o,q})^2 (y_{j,p}-y_{j,q})^2
+                        [/$$]
+        -
+                uuid: d14d2601-5db9-4c7e-a943-718b893ad9d4
+                front: Prořezávání dle interní reprezentace
+                back: Spoj neurony, co jsou pořád konstantní, nebo rovné jinému neuronu, nebo mu inverzní. Postupně zredukuj celou síť.
+        # 06-associative-memories
+        -
+                uuid: 9f846394-8002-4e78-b804-13657d3b1969
+                front: Cíl asociativních sítí versus BP sítí
+                back: >
+                        Zobrazit zašuměné okolí vzoru přesně na správný výstup.
+                        BP sítě: okolí vstupu se zobrazuje na okolí správného výstupu.
+        -
+                uuid: ef5f7835-c422-4ff2-bb21-af8881f3c286
+                front: Tři typy asociativních sítí
+                back: >
+                        Heteroasociativní: když jsem do [$]\\varepsilon[/$] vzdálenosti od správného vzoru, namapuje se správně.
+                        Autoasociativní: "oprava zašuměných vzorů"
+                        Pattern recognition síť: přiřadí skalární hodnotu
+        -
+                uuid: f88de9b7-ef95-4ead-ae75-cc1160ad4e89
+                front: Jednovrstevnatá heteroasociativní síť bez zpětné vazby
+                back: >
+                        [$]y = x \cdot W[/$], kde [$]y[/$] ma [$]k[/$] slozek, [$]x[/$] jich ma [$]n[/$].
+                        Hledáme matici [$]W[/$] takovou, aby [$]X \cdot W = Y[/$].
+        -
+                uuid: c3a5e6b1-be02-4e1b-bff2-430ee6c2d1ef
+                front: Jednovrstevnatá heteroasociativní síť bez zpětné vazby - co když je [$]m=n[/$]?
+                back: >
+                        Když je [$]m=n[/$], tak je [$]X[/$] čtvercová, a má-li inverzi, tak [$]W=X^{-1}\cdot Y[/$]
+        -
+                uuid: f762504c-ad36-4db0-b964-877035c03a31
+                front: Rekurentní autoasociativní síť bez step function - vlastní vektory
+                back: >
+                        Existuje-li pevný bod [$]\\xi \cdot W = \\xi[/$], tak to je vlastní vektor s [$]\\lambda=1[/$].
+        -
+                uuid: 55c0f857-affd-4e65-8f0b-d18c047b00ac
+                front: Co se stane, když matici s různými lambdami budu neustále násobit jedním vektorem?
+                back: >
+                        Dostanu z toho největší vlastní číslo. Jeho eigenvektor je atraktor.
+        -
+                uuid: f429ddf1-63a8-4764-9875-f6ebca02b5fc
+                front: Hebbovské učení
+                back: >
+                        Síť má přenosovou funkci [$]\\sgn[/$], je jednovrstvá.
+                        Vstupní neurony mají na začátku [$]x[/$], které je n-rozměrné, výstupní mají y, které je k-rozměrné.
+
+                        Adaptační pravidlo:
+                        [$$]\\Delta w_{ij} = \\gamma x_i y_j[/$$]
+
+                        Váhová matice:
+                        [$$]W^{(1)}_{ij} = x^{(1)}_i \\cdot y^{(1)}_j[/$$]
+        -
+                uuid: 104a8bf1-2f98-463f-bfe7-3e465da899e0
+                front: Proč se v Hebbovském učení používá bipolární kódování, ne binární?
+                back: Protože bipolární vektory mají větší šanci na ortogonalitu.
+        -
+                uuid: 62c57f98-ecf3-4202-89da-f2e7a7cbce49
+                front: Výstup Hebbovské sítě natrénované na matici pro [$](x,y)[/$] na nenulovém vektoru [$]x[/$], [$]-x[/$]?
+                back: >
+                        [$]y[/$], [$]-y[/$]
+        -
+                uuid: 42fd3ab6-5cbc-488b-b62d-1071d55681a3
+                front: Jak vypadá matice sítě pro Hebbovské učení, která má trénovací vzory [$](x_1,y_1), (x_2,y_2), \\ldots[/$]?
+                back: >
+                        [$]W=W^{(1)} + W^{(2)} + \\ldots + W^{(m)}[/$]
+
+                        [$]W^{(1)}_{ij}=x^{(1)}_i y^{(1)}_j[/$]
+        -
+                uuid: d0f60e88-2117-4142-b014-77fc0fa4c53a
+                front: Rozdělení výstupu Hebbovské sítě na správný výstup a crosstalk?
+                back: >
+                        [$$]
+                        x^{(p)} \\cdot W = x^{(p)} \\cdot (W^{(1)} + \\ldots) = x^{(p)} W^{(p)} + \\sum_{l\\neq p} x^{(p)} \\cdot W^{(l)} =
+
+                        = y^{(p)} \\cdot (x^{(p)} \\cdot x^{(p)}) + \\sum_{l\\neq p} y^{(l)} \\cdot (x^{(l)} \\cdot x^{(p)})
+                        [/$$]
+
+                        Crosstalk je poslední kus: [$]\\sum_{l\\neq p} y^{(l)} \\cdot (x^{(l)} \\cdot x^{(p)})[/$]
+        -
+                uuid: b4cb093c-66b9-4fad-b9a1-7ad8b27814a0
+                front: Jak by měl vypadat crosstalk, aby síť dávala dobré výsledky?
+                back: >
+                        Výstup sítě bude:
+                        [$$]
+                        \\sgn(x^{(p)}\\cdot W)=\\sgn(y^{(p)} \\cdot (x^{(p)} \\cdot x^{(p)}) + \\sum_{l\\neq p}y^{(l)} \\cdot (x^{(l)} \\cdot x^{(p)}))
+                        [/$$]
+
+                        Protože [$]x^{(p)} \\cdot x^{(p)} > 0[/$]:
+                        [$$]
+                        \\sgn(x^{(p)} \\cdot W)=\\sgn(y^{(p)} + \\sum_{l\\neq p}y^{(l)} \\cdot \\frac{x^{(l)} \\cdto x^{(p)}}{x^{(p)} \\cdot x^{(p)}})
+                        [/$$]
+
+                        Takže chci, aby absolutní hodnota všech složek
+                        [$]\\sum_{l\\neq p}y^{(l)} \\cdot \\frac{x^{(l)} \\cdto x^{(p)}}{x^{(p)} \\cdot x^{(p)}}[/$] byla menší než 1.
+        -
+                uuid: 88bd1b9f-4b04-4351-982d-c37c4c467862
+                front: Rekurentní asociativní paměť versus bez zpětné vazby
+                back: >
+                        Sféry vlivu atraktorů jsou v rekurentní větší. Ale zase rekurentní asociativní paměť má menší kapacitu.
+        -
+                uuid: bfd153d4-6451-41a1-80d9-8ba16a67a76f
+                front: Maximální kapacita autoasociativní Hebbovské sítě podle dimenze vstupního vektoru
+                back: >
+                        [$]m\\sim 0.18n[/$], kde [$]n[/$] je dimenze vstupu, [$]m[/$] je počet uložených vzorů.
+                        Předpokládáme nekorelované vzory.
+        -
+                uuid: 3c69131b-45db-4fbb-8a83-e4f11a7eb932
+                front: Maximální kapacita autoasociativní Hebbovské sítě podle dimenze vstupního vektoru -- je to m=0.18n, jak se to odvodí?
+                back: >
+                        Chceme pro každý bit [$]i[/$] mít tohle menší než 1:
+                        [$]
+                        \\frac{1}{n} \\sum_{l\\neq p} x_i^{(l)}(x^{(l)} \\cdot x^{(p)})
+                        [/$]
+
+                        Tedy dostaneme [$]m\\cdot n[/$] náhodných hodnot, očekávaná hodnota je 0 (bipolární).
+
+                        Součet má binomické rozdělení, pro aproximujeme ho normálním rozdělením s [$]\\sigma = \\sqrt{m/n}[/$].
+                        Mrkneme se do tabulek, jak velký je interval že součet vyjde uvnitř [$]\\pm 1[/$]. Strčíme do toho, že chceme pravděpodobnost chyby [$]0.01[/$].
+                        Dostaneme [$]m\\sim 0.18n[/$].
+        -
+                uuid: 7e9cb342-4b25-42d6-b8c5-1783fb56fc8d
+                front: Proč můžeme chtít použít pseudoinverzní matici?
+                back: Protože vzory můžou být korelované, takže nevhodné pro přímé Hebbovské učení s korelační maticí.
+        -
+                uuid: 0fd9a24f-e224-49fe-bb34-367ca7cc0625
+                front: K čemu je pseudoinverzní matice?
+                back: >
+                        Hledáme váhovou matici pro asociační paměť že [$]XW=Y[/$].
+                        Ale k [$]X[/$] nemusí existovat inverze, tak hledáme matici co minimalizuje [$]\\|XW-Y\\|^2[/$], to minimalizuje [$]W=\\hat{X}Y[/$]
+        -
+                uuid: 2d2d66de-68ad-4ced-bc71-877cf5c8949e
+                front: Pseudoinverzní matice pro minimalizaci odchylky v single-layer síti
+                back: >
+                        Chci nulový gradient, který je podle váhy [$]w_{ij}[/$] rovný [$]-2\\sum_{p=1}^P (\\sum_{i=1}^n d_{j,p}-w_{ij} x_{i,p})x_{i,p}[/$]
+                        Maticově: [$]WXX^T=DX^T[/$]. K [$]XX^T[/$] můžeme použít pseudoinverzi.
+
+                        Řešení může být víc: omezíme velikosti vah: [$]E=\\lambda\\sum_{i=1}^n \\sum_{j=1}^m w_{ij}^2[/$].
+
+                        Minimalizace přes parciální derivace: [$]W(XX^T+\\lambda I)=DX^T[/$]
+
+                        Pro [$]\\lambda>0[/$] existuje inverze k [$]XX^T+\\lambda I[/$],
+                        tak to takhle vyřešíme pro [$]W[/$].
+
+                        Limitně pro [$]\\lambda\\rightarrow 0[/$]: W = D\\hat{X}[/$].
+                        Když je více řešení, tak tohle minimalizuje součet čtverců vah.
+        -
+                uuid: e2f01b17-6c02-4037-a66c-d326c5c33e74
+                front: Výpočet pseudoinverzní matice přes vrstevnaté neuronové sítě
+                back: >
+                        Zkonstruuju síť, pro kterou střední kvadratická odchylka odpovídá [$]\|XW-Y\|^2[/$], backprop se bude snažit najít [$]W[/$] které to minimalizuje, tedy pseudoinverzi.
+        # 07-bam-hopfield
+        -
+                uuid: 65863075-3e56-41dc-a24b-1a1d2e7492ba
+                front: >
+                        BAM: co to je?
+                back: >
+                        Synchronní asociativní model, synapse jsou obousměrné.
+                        Je to typ rekurentní asociativní paměti.
+                        Snaží se dosáhnout stabilního stavu.
+                        Aktivační funkce [$]\\sgn[/$], bipolární kódování.
+        -
+                uuid: 957d2bad-5577-4979-b1a3-cf31aac81c16
+                front: >
+                        BAM: jak se dá rovnicemi vyjádřit stabilní stav?
+                back: >
+                        [$]y=\\sgn(xW) \\wedge x=\\sgn(Wy)[/$], snaží se najít po konečném množství iterací
+        -
+                uuid: dc4ecdf7-3448-4d47-8ffb-248a0df135d4
+                front: Jak se učí BAMy? Co to znamená na jednom vzoru?
+                back: >
+                        Hebbovským učením.
+
+                        Pro jeden vzor: [$]W=x^T y[/$], takže [$]y=\\sgn(xW)=\\sgn(x x^T y) = \\sgn(\\|x\\|^2 y)=y[/$],
+                        to samé pro [$]x[/$].
+        -
+                uuid: be56641a-04d0-4f75-b00e-7a343e9a79dd
+                front: Kdy by [$](x_0,y_0)[/$] byl stabilní stav BAM? Jak se z toho odvodí energetická funkce BAMu?
+                back: >
+                        [$]e^T:=W\cdot y_0[/$]
+
+                        [$](x_0,y_0)[/$] je stabilni stav, kdyz [$]\\sgn(e)=x_0[/$]
+                        (skalarni soucin [$]x_0 \\cdot e^T[/$] by mel byt vetsi nez skalarni soucin jinych excitacnich vektoru a [$]x_0[/$])
+
+                        Energeticka funkce BAM: [$]E:=-x_0 W y_0^T[/$].
+                        Lokální minima odpovídají stabilním stavům.
+        -
+                uuid: f1216920-8f6e-4dc5-a34e-1e0911a9a5fb
+                front: Zobecnění energetické funkce BAM pro neurony, kde přidáme práh
+                back: >
+                        Vektory [$]x[/$] transformujeme tak že přidáme jedničku na konec.
+                        Jako bychom přidali do obou vrstev neuron s výstupem 1.
+
+                        [$]E(x_i,y_i) = -\\frac{1}{2}x_i W y_i^T + \\frac{1}{2}\\theta_r y_i^T + \\frac{1}{2}x_i \\theta_l^T[/$]
+        -
+                uuid: 7fd399a9-7005-43f1-b5d2-e71db5da2b68
+                front: Asynchronní BAM a konvergence
+                back: >
+                        Vyberu náhodný neuron a opravím jeho výstup podle jeho excitace.
+                        Končím když jsem v stabilním stavu.
+
+                        Asynchronní sítě konvergují, protože změna neuronu vždycky sníží energii a je konečně mnoho stavů.
+
+                        To platí i pro sítě se synchronní dynamikou.
+        -
+                uuid: 29887485-c696-4ff1-a7f6-990fa86294c5
+                front: Hopfieldova síť
+                back: >
+                        Bipolární neurony se skokovou přenosovou funkcí, propojené všechny se všemi.
+                        Používá se na učení bez učitele a optimalizaci. Neodděluje vstupní a výstupní neurony.
+        -
+                uuid: 85cd9e4d-f569-4759-8632-3d89d8709ccb
+                front: Učení Hopfieldových sítí
+                back: >
+                        [$$]w_{ij} = \\sum_{s=1}^m x_{i}^{(s)} x_j^{(s)}
+                        [/$$]
+                        Když [$]i=j[/$], tak je to 0.
+        -
+                uuid: 2fe35573-4e3d-491a-94ae-91aef75a21cc
+                front: Průběh výpočtu Hopfieldovy sítě
+                back: >
+                        Iterace: spočítej skokové přechodové funkce, všechny neurony zároveň změň. Opakuj dokud se neustálí. Výstup je pak vzor, který se nejvíc podobal předloženému vektoru.
+        -
+                uuid: f1828634-701b-4d8d-84bd-3f624d7aa561
+                front: Přibližná kapacita Hopfieldovy sítě na vzory
+                back: >
+                        [$]m<0.15n[/$], kde [$]n[/$] je počet neuronů
+        -
+                uuid: d4fbf83b-6cc0-46a4-81b5-0ae20bd8f800
+                front: Tvar vektoru potenciálů v Hopfieldově síti. Jak vypadá perturbační člen? Kdy je stav stabilní?
+                back: >
+                        [$$]\\xi = x_1 \\cdot W = x_1 \\cdot (x_1^T x_1 + \\ldots + x_m^T x_m - mI) =
+
+                        = (x_1 x_1^T) x_1 + (x_1 x_2^T) x_2 + \\ldots + (x_1 x_m^T) x_m - m x_1 I[/$$]
+
+                        Přitom: [$]x_1 x_1^T = n[/$], označíme si [$]x_1 x_2^T =: \\alpha_{12}[/$].
+
+                        Pak: [$]\\xi = (n-m)x_1 + \\sum_{j=2}^m \\alpha_{1j}x_j[/$]
+
+                        Poslední věci se říká *perturbace*.
+
+                        Stav je stabilní, když [$]m<n[/$] a perturbace je malá, pak [$]\\sgn(\\xi)=\\sgn(x_1)[/$]. Chceme tedy malý počet ortogonálních vzorů.
+        -
+                uuid: e6c91db6-f75c-4dc9-9ca0-78498b24e83e
+                front: Nutná podmínka ke stabilnímu řešení v Hopfieldově síti
+                back: Symetrická váhová matice s nulovou diagonálou, asynchronní dynamika
+        -
+                uuid: 7f3b7147-4c97-493b-b828-dfbbd17d20e6
+                front: Energetická funkce Hopfieldovy sítě, s prahovými neurony
+                back: >
+                        [$$]E(x)=-\\frac{1}{2}xWx^T[/$$]
+
+                        S prahy: [$] + \\theta x^T[/$]
+        -
+                uuid: 2c7f716b-6ada-42d0-a6dd-683b2db5f565
+                front: K čemu se hodí perceptronové učení Hopfieldových sítí?
+                back: Někdy nejde Hebbovským učením najít správné váhy, i když existují. Crosstalk může být moc velký.
+        -
+                uuid: 54949644-7a63-4284-a567-4f76a73d9c11
+                front: Vzorečky pro perceptronové učení Hopfieldových sítí
+                back: >
+                        Máme mít stabilní stavy. Tedy:
+
+                        Neuron 1: [$]\\sgn(x_1) (0+x_2 w_{12} + \\ldots + x_n w_{1n}-\\theta_1) > 0[/$],
+                        Neuron 2: [$]\\sgn(x_2) (x_1 w_{21}+0 + \\ldots + x_n w_{2n}-\\theta_2) > 0[/$],
+                        atd.
+
+                        Zapíšeme jako:
+                        Neuron 1: [$]\\sgn(x_1) z_1 \\cdot v > 0[/$],
+                        Neuron 2: [$]\\sgn(x_2) z_2 \\cdot v > 0[/$],
+                        atd.
+
+                        Každý vzor transformujeme do [$]n[/$] "pomocných" podvzorů, co odpovídají všem rovnicím co máme splnit.
+        -
+                uuid: e4208254-d1d3-4403-9d1f-68f711e471f8
+                front: Použití Hopfieldova modelu na řešení optimalizačních úloh - Multiflop
+                back: >
+                        Úloha: chceme mít aktivní právě jeden neuron z binárních
+
+                        Cíl: [$]E(x_1,\\ldots x_n)=((\\sum_{x_i) - 1)^2[/$]
+
+                        Podobně se dá použít na 8-queens, TSP.
+        -
+                uuid: a6919724-8154-4f96-a8ff-83bf8c0c004e
+                front: Stochastické modely Hopfieldových sítí - dvě strategie
+                back: >
+                        A. spojitý model -- sigmoidální přenosová funkce. zvětší počet cest k řešení co je globální optimum.
+
+                        B. omezení lokálních minim -- "zašuměná dynamika". simulované žíhání, Boltzmannův stroj.
+
+                        obě brání uváznutí v lokálním minimu.
+        -
+                uuid: cbd26dea-0d20-44b5-9a73-4983d8a7c9dd
+                front: Spojitý model Hopfieldovy sítě
+                back: >
+                        Excitace neuronů: [$]u_i[/$]
+
+                        Aktivace neuronů: [$]x_i = \\sigma(u_i) = \\frac{1}{1+e^{-u_i}}[/$]
+
+                        Pomalá změna excitace v čase, kde [$]\\gamma>0[/$] je adaptační parametr:
+                        [$$]
+                        \\frac{d u_i}{dt} = \\gamma(-u_i+\\sum_{j=1}^n w_{ij}x_j) = \\gamma(-u_i+\\sum_{j=1}^n w_{ij}s(u_j))
+                        [/$$]
+
+                        Výpočet: diskrétně aproximovat derivaci a přičíst
+
+                        Asynchronni dynamika vede do rovnovazneho stavu.
+        -
+                uuid: 08329897-2aea-417a-b4dd-3b6e5457f557
+                front: Energetická funkce spojitého modelu Hopfieldovy sítě
+                back: >
+                        [$$]E = -\\frac{1}{2}\\sum_{i=1}^n \\sum_{j=1}^n w_{ij} x_i x_j + \\sum_{i=1}^n \\int_{0}^{x_i} s^{-1}(x) dx[/$$]
+        -
+                uuid: d7e6e3cc-da15-4d8f-8c0b-f362e006f319
+                front: Proč Hopfieldova síť konverguje do lokálního optima?
+                back: >
+                        Zderivuj energii podle času. Dostaneš:
+                        [$$]dE/dt = -\\sum_{i=1}^n \\sum_{j=1}^n w_{ij} \\frac{dx_i}{dt} x_j + \\sum_{i=1}^n s^{-1}(x_i) \\frac{dx_i}{dt}[/$$]
+
+                        Síť je symetrická a [$]u_i=s^{-1}(x_i)[/$], tak:
+                        [$$]dE/dt=-\\sum_{i=1}^n \\frac{dx_i}{dt}(\\sum_{j=1}^n w_{ij}x_j - u_i)[/$$]
+
+                        Přitom [$]du_i/dt = \\gamma(\\sum_{j=1}^n w_{ij}x_j - u_i)[/$], tedy [$]dE/dt=-\\frac{1}{\\gamma}\\sum_{i=1}^n \\frac{dx_i}{dt}\\frac{du_i}{dt}[/$]
+
+                        Dosaď [$]x_i=s(u_i)[/$]: [$]dE/dt = -\\frac{1}{\\gamma}\\sum_{i=1}^n s^{-1}(u_i) (\\frac{du_i}{dt})^2[/$]
+
+                        Protože [$]s^{-1}(x_i)>0[/$] (sigmoida roste) a [$]\\gamma>0[/$], tak [$]dE/dt\\leq 0[/$].
+        -
+                uuid: aeb40e17-72bf-40d6-bd22-1b8eef1daa9d
+                front: Simulované žíhání
+                back: >
+                        Pokud změna sníží energii, proveď ji.
+                        Pokud ji zvýší o [$]\\Delta E[/$], přijmi s [$]p=\\frac{1}{1+\\exp(\\Delta E/T)}[/$] kde [$]T[/$] je teplotni konstanta.
+                        Pro velké [$]T[/$] je [$]p\\simeq 1/2[/$].
+        -
+                uuid: a1609cff-c797-49be-b60e-c4ad967dd11d
+                front: Boltzmannův stroj - architektura, pravděpodobnost aktualizace
+                back: >
+                        Hopfieldova síť
+                        Aktualizace stavu [$]x_i[/$] na 1: pravděpodobnost [$]p_i[/$], jinak na 0
+
+                        [$$]p_i = \\sigma(\\frac{\\sum_{j=1}^n w_{ij} x_j - \\theta_i}{T})[/$$]
+        -
+                uuid: 2626be18-48e4-4d6e-9167-678859a66e4e
+                front: Energetická funkce Boltzmannova stroje
+                back: >
+                        [$$]E=-\\frac{1}{2}\\sum_{i=1}^n \\sum_{j=1}^n w_{ij}x_i x_j + \\sum_{i=1}^n \\theta_i x_i[/$$]
+        -
+                uuid: 08d6bd3e-bfe2-4252-8662-919cdacb71e1
+                front: Vztah mezi Boltzmannovým strojem a Hopfieldovou sítí
+                back: >
+                        Boltzmannův stroj aproximuje Hopfieldovu síť, najde lokální minimum energetické funkce.
+
+                        Nezůstane v jediném stavu. Pro velké teploty může projít celý stavový prostor.
+
+                        Pokud budeme správně snižovat teplotu, s [$]p=1[/$] najde globální optimum.
+        # 08-unsupervised
+        -
+                uuid: 0d486c65-3912-4a06-af42-148b417569af
+                front: Jaký vztah mezi neurony se používá k učení bez učitele?
+                back: >
+                        Inhibice: neurony soutěží o rozpoznání vzoru. "Winner takes all."
+        -
+                uuid: d9e8f239-ce85-41ae-9756-3f8189b2893c
+                front: Síť na kompetiční učení bez učitele
+                back: >
+                        Neurony počítají Euklidovskou vzdálenost.
+                        Vyhraje nejbližší, a přes laterální spoje potlačí ostatní.
+                        Vítěz se posune o [$]\\alpha[/$] směrem k vstupu.
+        -
+                uuid: 38bba9b3-1dc3-4b0c-8dc1-609cebc0f004
+                front: Síť na kompetiční učení bez učitele - vhodná inicializace vah
+                back: >
+                        Váhy budou náhodné vzory z datasetu.
+        -
+                uuid: 521ab663-7660-4b7b-bba7-65f1acce4255
+                front: Problémy v síti na kompetiční učení bez učitele
+                back: >
+                        Mrtvé neurony: v Kohonenově mapě pomáhá mřížka
+        -
+                uuid: 1fdba122-da33-484b-aca0-bec67d03b8c1
+                front: Energetická funkce sítě na kompetiční učení bez učitele s jedním neuronem. Kde je optimum?
+                back: >
+                        [$$]E_X(w)=\\sum_{i=1}^m \\|x_i-w\\|^2[/$$]
+
+                        Dá se ukázat, že optimum je v těžišti: [$]E = \\ldots = m\\|w-x^*\\|^2+C[/$]
+        -
+                uuid: 2072bd8e-458a-45e3-953a-8c2bab6198d2
+                front: >
+                        [$]k[/$]-means algoritmus
+                back: >
+                        Update: nastav středy jako těžiště jejich shluků; Přenastav příslušnosti ke shlukům
+        -
+                uuid: c16c1976-bf8b-40a8-a51e-d9dae9a8f694
+                front: Jak se pro kompetiční učení bez učitele předzpracuje vstup?
+                back: Vstupní vektory se znormují
+        -
+                uuid: c92483e6-602a-45a3-865a-9784a175cbb3
+                front: Různá pravidla učení pro sítě na kompetiční učení bez učitele
+                back: >
+                        Aktualizace pomocí parametru učení: [$]\\Delta w = \\eta x_j[/$]
+
+                        Diferenční: [$]\\Delta_w = \\eta (x_j - w)[/$]
+
+                        Dávková aktualizace
+        -
+                uuid: 6e149cef-86c7-4d3a-8eef-7244d308200a
+                front: Stabilní rovnovážný stav v kompetičním učení
+                back: >
+                        Chceme jasně ohraničené shluky, co se nepřekrývají a nejsou moc rozsáhlé.
+
+                        Svazek := [$]\\{x = \\alpha_1 p_1 + \\ldots \\alpha_m p_m : \\alpha_1 \\in \\R^+\\}[/$]
+
+                        Průměr svazku: [$]\\varphi = \\sup\\{\\arccos (a\\cdot b)|\\|a\\|=\\|b\\|=1, a,b\\in S\\}[/$]
+
+                        Postačující podmínka pro stabilitu: úhlový průměr svazků je menší než jejich vzájemná vzdálenost (jakmile se střed shluku dostane do svazku, už tam dostane)
+        -
+                uuid: 24d127c4-e258-4169-b08c-297848fc76cb
+                front: PCA a základní algoritmus na výpočet
+                back: >
+                        Principal component analysis.
+
+                        Hlavní komponenta: maximalizuje [$]\\frac{1}{m} \\sum_{i=1}^m \\|w \\cdot x_i\\|^2[/$]
+                        Druhá: odečteme od vektorů jejich projekci na první a pokračujeme
+        -
+                uuid: 11a4da75-7474-41b3-b866-bd1ada9f1198
+                front: Ojův algoritmus. Předpoklad.
+                back: >
+                        Vybere hlavní komponentu
+
+                        Předpoklad: těžiště dat je v počátku
+
+                        Náhodně inicializuje vektor [$]w[/$], zvolí parametr učení [$]\\gamma\\in(0;1][/$]
+
+                        Náhodně vyber [$]x[/$], spočítej [$]\\Phi=x\\cdot w[/$], nový váhový vektor je [$]w+\\gamma\\Phi(x-\\Phi w)[/$].
+                        Zmenši [$]\\gamma[/$] a opakuj.
+
+                        Váhový vektor se "automaticky normalizuje".
+        -
+                uuid: b305d565-9d5b-45ca-a948-b399db50fb5e
+                front: Konvergence Ojova algoritmu a důkaz
+                back: >
+                        Idea: začne-li Ojův algoritmus ve svazku, bude v něm oscilovat, ale neopustí ho.
+                        Pro [$]\\|w\\|=1[/$] je [$]\\Psi=x\\cdot w[/$] délka projekce [$]x[/$] na [$]w[/$]
+
+                        Vektor [$]x-\\Psi w[/$] je kolmý na [$]w[/$].
+
+                        Iterace přitahují [$]w[/$] k vektorům ze shluku X.
+
+                        Pokud je délka [$]w[/$] blízko 1, umístí se [$]w[/$] v centru shluku.
+
+                        Dále to chce dokázat, že Ojův algoritmus automaticky normuje [$]w[/$].
+        -
+                uuid: 6192e830-b4e3-4865-937b-7b81bca3cc1f
+                front: Problémy Ojova algoritmu, zobecnění
+                back: >
+                        "Řidké" shluky, příliš velké rozdíly v délce vstupních vektorů.
+                        Dá se zobecnit, aby najednou počítal více nejdůležitějších příznaků.
+        # 09-kohonen-hybrid
+        -
+                uuid: adc2c3cf-9d46-4ac2-aff4-e616686aee7c
+                front: Kohonenova mapa
+                back: >
+                        Učení bez učitele.
+                        Najdi topologické okolí nejbližšího neuronu a taky ho uprav.
+                        Funkce laterální interakce: [$]\\Phi(i,k)[/$], například "funkce mexického klobouku"
+                        Vigilační koeficient [$]\\alpha\\in(0;1)[/$] určuje plasticitu, klesá v čase.
+        -
+                uuid: 964a216b-1159-4e20-840a-e79d82a64e67
+                front: Co by mělo platit v Kohonenově mapě pro vigilační koeficient?
+                back: >
+                        [$]\\sum_{t=1}^\\infty \\alpha(t)=\\infty \\wedge \\sum_{t=1}^\\infty \\alpha^2(t) < \\infty[/$]
+        -
+                uuid: 6d368fb6-973e-465d-8a2d-30bea1c20260
+                front: >
+                        Kostra důkazu: Jeden neuron Kohonenovy mapy na intervalu [$][a;b][/$] se ustálí ve středu
+                back: >
+                        1. Ocekavana hodnota derivace musi byt 0, jinak by mohlo byt ocekavana hodnota vahy [$]<a[/$] nebo [$]>b[/$].
+                        2. Derivace je nula, tedy ocekavana hodnota vahy vyjde [$](a+b)/2[/$]
+        -
+                uuid: 69a572dd-fa8e-40b6-9367-29d8a18c7d99
+                front: Varianty učících algoritmů pro Kohonenovy mapy
+                back: >
+                        Pro učení s učitelem:
+                                LVQ1: [$]x[/$] by mělo patřit ke stejné třídě jako nejbližší [$]w_i[/$].
+
+                                Vezmi nejbližší neuron, když je klasifikovaný stejně, přibliž ho, kryž různě, oddal ho. S ostatními neurony nehýbej.
+
+                                LVQ2.1: Adaptuj dva nejbližší sousedy současně. Jeden z nich musí patřit ke správné třídě, druhý k nesprávné.
+                                Když je [$]x[/$] z okenka mezi [$]w_i[/$], [$]w_j[/$] a ty neurony maji ruzne tridy, tak spravny neuron prisun a spatny odsun.
+                                Okenko: [$]\\min(\\frac{d_i}{d_j}, \\frac{d_j}{d_i})>\\frac{1-s}{1+s}[/$], kde [$]s[/$] je sirka okenka, treba [$]0.2[/$] az [$]0.3[/$]
+
+                                LVQ3: Plus: jestlize [$]w_i[/$] i [$]w_j[/$] patri do sejne tridy, tak je prisun o [$]\\varepsilon \\alpha(t)[x(t)-w_{i/j}(t)][/$], kde [$]0.1\\leq\\varepsilon\\leq 0.5[/$]
+        -
+                uuid: 56e732ce-9373-44b0-9d81-7c6cb3d4561a
+                front: Sítě se vstřícným šířením (counterpropagation)
+                back: >
+                        Ma dve vrstvy: Kohonenovskou a Grossbergovskou (adaptuje vahy jen pro vitezne neurony z Kohonenovy vrstvy).
+                        Pouziva se jako heteroasociativni pamet.
+
+                        1. Vyber nejblizsi neuron v Kohonenovse vrstve.
+                        2. Aktualizuj vahy v Kohonenovske vrstve
+                        3. Uprav vahy mezi "vitezem" [$]c[/$] z Kohonenovy vrstvy a neurony Grossbergovske vrstvy, aby vystup odpovidal vic ocekavane odezve [$]d[/$]:
+
+                                [$$]w_{cj} \\leftarrow (1-\\beta)w_{cj} + \\gamma z_c d_j[/$$]
+
+                                Kde [$]\\beta>0, \\gamma>0, z_c[/$] je aktivita vitezneho neuronu Kohonenovske vrstvy
+        -
+                uuid: b59d1818-0ec4-4305-8bb3-f8a90582d92a
+                front: RBF sítě
+                back: >
+                        Radial Basis Functions.
+
+                        Vstup => Kohonenovská vrstva s Gaussovskou přenosovou funkcí => lineární asociátor.
+
+                        Neuron [$]j[/$] počítá výstup [$]g_j(t)[/$].
+                        Ať [$]RBF(x,w,\\sigma) := \\exp\\{\\frac{(x-w)^2}{2\\sigma^2}\\}[/$].
+                        Pak [$]g_j(x)=RBF(x, w_j, \\sigma_j) / \\sum_k RBF(x, w_k, \\sigma_k)[/$].
+
+                        [$]\\sigma_i[/$] jsou konstanty: například nastavené podle vzdálenosti mezi váhovým vektorem a jeho nejbližším sousedem
+
+                        Z RBF vrstvy vedou váhy [$]z_1\\ldots z_m[/$].
+                        Ty jdou nastavit třeba zpětným šířením:
+                        [$$]
+                        E=\\frac{1}{2}\\sum_p (\\sum_{i=1}^n g_i(x_p)z_i - d_p)^2
+                        [/$$]
+
+                        [$$]
+                        \\Delta z_i \\simeq -\\partial E/\\partial z_i = \\gamma g_i(x) (d - \\sum_{i=1}^n g_i(x) z_i)
+                        [/$$]
+        -
+                uuid: a4eb55d5-10de-44d4-8d2f-5b91d7f334cd
+                front: ART sítě -- architektura
+                back: >
+                        Dvě vrstvy: vstupní a výstupní.
+
+                        Vstupy jsou binární. Učí se bez učitele.
+
+                        Spojení: vstupy => výstupy, výstupy => vstupy, výstupy mezi sebou (ale bez smyček z neuronu zpět do něj)
+
+                        Laterální inhibice na určení výstupního neuronu s maximální odezvou.
+                        Zpětná vazba z výstupu ke vstupu je k porovnání skutečné podobnosti s rozpoznaným vzorem.
+
+                        Má mechanismus pro vypnutí výstupního neuronu s maximální odezvou.
+
+                        Problém: i při troše šumu začne ukládat moc vzorů
+        -
+                uuid: ae99b9ea-f197-41ae-a9ca-e08804981b66
+                front: ART -- učící algoritmus
+                back: >
+                        [$]t_{ij}(0) = 1[/$] (váhy z výstupu do vstupu -- vzor specifikovaný výstupním neuronem [$]j[/$])
+
+                        [$]b_{ij}(0)=1 / (1+N)[/$] (váhy ze vstupu do výstupu)
+
+                        [$]\\rho\\in[0;1][/$] -- jak blízko musí být vstup k uloženému vzoru, aby byl ve stejné kategorii.
+
+                        Předlož nový vstup.
+
+                        Spočítej výstupy výstupných neuronů: [$]\\mu_j = \\sum_{i=0}^{N-1} b_{ij}(t) x_i[/$]
+
+                        Vyber nejlépe odpovídající vzor: [$]\\mu_{j^*} = \\max_j\\{\\mu_j\\}[/$]
+
+                        Test bdělosti: [$]\\|x\\|=\\sum_i x_i, \\|T\\cdot x\\|=\\sum_i t_{ij} \\cdot x_i[/$]
+                        Když [$]\\frac{\\|T\\cdot x\\|}{\\|x\\|}<\\rho[/$], dočasně nastav výstup [$]j^*[/$] na nulu, znova vyber nejlepší neuron (aniž se tenhle účastní).
+
+                        Aktualizace nejlépe odpovídajícího neuronu:
+                        [$]t_{ij^*}(t+1) = t_{ij^*}(t) \\cdot x_i[/$],
+                        [$]b_{ij^*}(t+1) = \\frac{t_{ij^*) \\cdot x_i}{0.5 + \\sum_{k=0}^{N-1} t_{kj^*}(t) \\cdot x_k}
+
+                        Odmraž neurony a opakuj.
+        -
+                uuid: bfffc115-79e0-4ac9-afe0-4c70be3876b1
+                front: Kaskádová korelace, algoritmus učení
+                back: >
+                        Začnu s přímým propojením vstupů na výstup.
+                        Postupně přidávám skryté neurony.
+                        Vstupy nového neuronu jsou propojeny se všemi předchozími vstupy a výstupy dřívějších neuronů.
+
+                        1. Vezmi existující síť, adaptuj přes QuickProp. Když je dost malá chyba, ukonči učení.
+                        2. Přidej neuron, který maximalizuje korelaci svého výstupu s chybou na výstupu sítě. V další iteraci zmrazím váhy jeho vstupů, doučím váhu jeho výstupů.
+
+                        Chceme maximalizovat [$]S[/$]:
+                                [$$]S:=|\\sum_{i=1}^p (V_i-\\overline{V})(E_i-\\overline{E})|[/$$]
+
+                        [$]V_i[/$]: výstup přidávaného neuronu pro vzor [$]i[/$], [$]\\overline{V}[/$]: průměrný výstup přidávaného neuronu, to samé chyba
+
+                        [$]\\partial S/\\partial w_k = \\sum_{i=1}^p \\sigma (E_i-\\overline{E}) f_i' I_{i,k}[/$],
+                        kde [$]\\sigma[/$] je znaménko korelace mezi přidávaným neuronem a výstupem, [$]f'_i[/$] je derivace přenosové funkce, [$]I_{i,k}[/$] je [$]k[/$]-tý vstup přidávaného neuronu pro vzor [$]i[/$]
+        # 10-genetic

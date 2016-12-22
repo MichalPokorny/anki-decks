@@ -77,3 +77,23 @@ notes:
                 uuid: d20ac924-6512-4001-992b-40e6783c2e36
                 front: USA gross domestic product per capita
                 back: '$53 000 (2013)'
+        -
+                uuid: 8a1d7ef7-886c-4a95-886c-d16323fcf80e
+                front: Population of Europe
+                back: 743 million
+        -
+                uuid: fa173c62-73e4-425e-ae56-6cee7623bfbb
+                front: Population of Asia
+                back: 4.4 billion
+        -
+                uuid: e172cdf5-7ca2-44ea-bac8-c66ce5c319c9
+                front: Population of Oceania, including Australia
+                back: 38 million
+        -
+                uuid: 4011aaa7-6f4c-4661-bc74-901a5b9c6c51
+                front: Population of North America
+                back: 579 million
+        -
+                uuid: f3294abd-420d-4ee0-8fe2-3ced17fc1836
+                front: Population of South America
+                back: 423 million
