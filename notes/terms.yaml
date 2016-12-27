@@ -416,3 +416,8 @@ notes:
                 front: maudlin
                 back: self-pityingly or tearfully sentimental, often through drunkenness
                 include_reverse: true
+        -
+                uuid: 0e362460-1192-4b53-913a-760e11cca22a
+                front: moral hazard
+                back: lack of incentive to guard against risk where one is protected from its consequences, e.g. by insurance
+                include_reverse: true

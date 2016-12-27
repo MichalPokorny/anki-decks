@@ -90,7 +90,7 @@ notes:
                 uuid: a9707bec-b494-4377-9508-534f1d5f62fd
                 front: Kódování vstupu pro TS co počítají funkci [$]n[/$] parametrů
                 back: >
-                        [$](x_1)_B \\# (x_2)_B \\# (x_3)_B \ldots[/$]
+                        [$] (x_1)_B \\# (x_2)_B \\# (x_3)_B \ldots[/$]
         -
                 uuid: e33e9780-8f70-47ce-b708-bd1aca81678a
                 front: Gödelovo číslo TS
@@ -149,7 +149,7 @@ notes:
                 uuid: b074ffcf-48e5-4acc-bab3-4b71c4154dab
                 front: Simulace RAM na TS
                 back: >
-                        Mám na pásce reprezentační řetězec pro využité registry (protože jsou sparse): [$](i_1)_B | ([r_{i_1}])_B \\# (i_2)_B | ([r_{i_2}])_B \\# \ldots[/$]
+                        Mám na pásce reprezentační řetězec pro využité registry (protože jsou sparse): [$] (i_1)_B | ([r_{i_1}])_B \\# (i_2)_B | ([r_{i_2}])_B \\# \ldots[/$]
         -
                 uuid: e8ba61d0-4af5-4847-a1e4-b81ffc8abd9c
                 front: Pojmenování - Částečně/obecně rekurzivní funkce a (totální) vyčíslitelné funkce?
@@ -204,7 +204,7 @@ notes:
                 back: >
                         [$]A[/$] je [$]m[/$]-převoditelný na [$]B[/$] ([$]A\\leq_m B[/$]),
                         pokud existuje totální vyčíslitelná funkce [$]f[/$] kde
-                        [$](\\a x\\in\\Sigma_b^*)[x\\in A\\ekv f(x)\\in B][/$]
+                        [$] (\\a x\\in\\Sigma_b^*)[x\\in A\\ekv f(x)\\in B][/$]
 
                         [$]A[/$] je [$]m[/$]-úplný, když [$]A[/$] je částečně rozhodnutelný a každý částečně rozhodnutelný jazyk je na něj [$]m[/$]-převoditelný.
 
@@ -393,7 +393,7 @@ notes:
                 uuid: 73d93eaf-7076-4438-b11b-8bf67e38c6dd
                 front: Polynomiální převoditelnost jazyků - definice
                 back: >
-                        [$]A[/$] je převoditelný na [$]B[/$] v polynomiálním čase ([$]A\\leq_m^P B[/$]) pokud existuje funkce [$]f:\\Sigma^*\\rightarrow\\Sigma^*[/$] vyčíslitelná v polynomiálním čase, pro kterou platí [$](\\a w\\in\\Sigma^*)[w\\in A\\ekv f(w)\\in B][/$].
+                        [$]A[/$] je převoditelný na [$]B[/$] v polynomiálním čase ([$]A\\leq_m^P B[/$]) pokud existuje funkce [$]f:\\Sigma^*\\rightarrow\\Sigma^*[/$] vyčíslitelná v polynomiálním čase, pro kterou platí [$] (\\a w\\in\\Sigma^*)[w\\in A\\ekv f(w)\\in B][/$].
         -
                 uuid: fd140e5b-ec7b-4715-b4ec-285ee23ea004
                 front: Vlastnosti relace polynomiální převoditelnosti, P a NP třídy
