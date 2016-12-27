@@ -1,0 +1,91 @@
+deck: Magisterské státnice::Datové struktury
+notes:
+        -
+                uuid: ae5a81b0-dec8-4bd1-bd6b-5f1c8f7fb3eb
+                front: Základní vlasnost binárních vyhledávacích stromů
+                back: V pořadí zleva doprava v DFS jsou klíče uspořádané od nejmenšího po největší.
+        -
+                uuid: caf785f4-dcf0-400e-9c72-dd0f8b5b5ba5
+                front: Na jaké vlastnosti záleží doba vyhledávání ve vyhl. stromu? Jak se to optimalizuje?
+                back: >
+                        Na hloubce vrcholů. Systematické vyvažování: AVL/red-black/...; (a,b)-stromy; "dynamicky": splay stromy
+        -
+                uuid: 017590ba-1c6b-43b3-9454-5641a154476d
+                front: >
+                        [$] (a,b)[/$]-stromy: význam [$]a[/$], [$]b[/$], invariant
+                back: >
+                        [$]a\\geq 2[/$], [$]b\\geq 2a-1[/$]
+
+                        Každý vrchol má aspoň [$]a[/$] a nejvýš [$]b[/$] synů ([$]\\in[a;b][/$])
+
+                        Hodnoty jsou v listech. Vnitřní uzly obsahují maxima svých podstromů.
+        -
+                uuid: eebfb938-29c8-4db5-aedb-9b62c93a96b5
+                front: Kolik listů má [$](a,b)[/$]-strom? Jakou má hloubku, podle množství listů?
+                back: >
+                        Mezi [$]a^{d-1}[/$] a [$]b^d[/$]. Hloubka: [$]\\log_b n \\leq b \\leq 1 + \\log_a n[/$].
+        -
+                uuid: abb7a7f3-7173-492b-b118-3e7b6f7ea15b
+                front: >
+                        [$] (a,b)[/$]-strom -- Insert
+                back: >
+                        1. Najdi vrchol *v*, pod který patří nový list.<br>
+
+                        2. Pokud má *v* míň než [$]b[/$] synů, přidej pod něj *v* <br>
+
+                        3. Pokud má *v* [$]b[/$] synů, rozštěp ho na dva, co má každý [$](b+1)/2[/$] synů. Rekurzivně vlož do otce.
+        -
+                uuid: 163b97da-16f0-493e-a772-66e7b80956b9
+                front: >
+                        [$] (a,b)[/$]-strom -- Delete
+                back: >
+                        1. Pokud otec mazaného listu obsahuje [$]>a[/$] synů, odmaž list a je to.<br>
+
+                        2. Pokud otec spolu s levým nebo pravým sourozencem obsahuje [$]>2a[/$] synů, jednoho přesuň a smaž [$]v[/$]. Zaktualizuj informace o maximech.<br>
+
+                        3. Jinak otce a strýce sluč a rekurzivně pokračuj nahoru.
+        -
+                uuid: e6660a05-296f-4e06-84bc-2f8c520aff01
+                front: >
+                        [$] (a,b)[/$]-strom -- Join
+                back: >
+                        Spojí ztromy [$]T_1[/$], [$]T_2[/$], pokud [$]\\max T_1 < \\min T_2[/$].
+
+                        Ať je [$]T_1[/$] ten vyšší. [$]r=d(T_1) - d(T_2)[/$]
+
+                        Syny kořene [$]T_2[/$] přidej najednou k synům posledního vrcholu na hladině [$]r[/$] ve stromě [$]T_1[/$].
+                        Pokud bude mít moc synů, rozštěp ho jako při Insertu. Složitost: [$]\\O(d(T_1) - d(T_2))[/$]
+        -
+                uuid: 97fefc3c-d1b3-4bc2-a7ab-5acb6e67718f
+                front: >
+                        [$] (a,b)[/$]-strom -- Split
+                back: >
+                        Rozdělí strom na dva, jeden s klíči [$]<k[/$], druhý [$]\\geq k[/$].
+
+                        Máme dva zásobníky: jeden pro levé stromy, druhý pro pravé.
+                        Postupuj jako při Find, rozděluj přitom na [$]T_L[/$], [$]T_k[/$], [$]T_P[/$].
+                        Postupně plň zásobníky. Pak postupně pojoinuj stromy v zásobnících,
+                        takže Split bude trvat [$]\\O(\\log n)[/$].
+        -
+                uuid: b56212a0-6576-40e6-b4ea-850ff2d6561e
+                front: >
+                        [$] (a,b)[/$]-strom -- amortizovaný počet štěpení a splučování v sekvenci Insertů a Deletů
+                back: >
+                        [$]\\O(m+l+\\log n)[/$] splitů na [$]m[/$] Insertů, [$]\\ell[/$] Deletů, takže [$]\\O(1)[/$] amortizovaně splitů/insertů za operaci
+        -
+                uuid: 34d286ac-489f-42df-89f4-be0f7ec168ab
+                front: A-sort a jeho složitost
+                back: >
+                        Postupně vkládej do [$] (a,b)[/$]-stromu, pak je vypiš během DFS.
+
+                        Drž si prst na poslední vložený prvek, od něj dělej hledání při vkládání dalšího.
+
+                        Celkový čas: [$]\\leq 2 \\sum_{i=1}^n \\log_a |{j\\leq i, x_i < x_j}| + \\O(n)[/$]
+
+                        ([$]\\log[/$] je konkávní)
+
+                        [$$]\\leq 2n \\log_a \\frac{\\sum_i |{j\\leq i, x_i < x_j}|}{n} = \\O(n\\log(F/n))[/$$]
+
+                        [$]F[/$]: počet "inverzí"
+
+                        Alternativně: hledání od nejpravějšího listu [$]\\rightarrow \\leq 1 + \\log_a |{j<i+1, x_j>x_i}|[/$]
