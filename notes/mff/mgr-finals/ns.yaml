@@ -920,3 +920,139 @@ notes:
                         [$]\\partial S/\\partial w_k = \\sum_{i=1}^p \\sigma (E_i-\\overline{E}) f_i' I_{i,k}[/$],
                         kde [$]\\sigma[/$] je znaménko korelace mezi přidávaným neuronem a výstupem, [$]f'_i[/$] je derivace přenosové funkce, [$]I_{i,k}[/$] je [$]k[/$]-tý vstup přidávaného neuronu pro vzor [$]i[/$]
         # 10-genetic
+        -
+                uuid: 8949770d-17e2-4828-9311-0222a69d69b6
+                front: Použití genetických algoritmů v učení NS
+                back: >
+                        Dají se použít normální strategie - crossover a mutace (na malých sítích) -- jako optimalizace spojitých funkcí.
+
+                        Algoritmus NEAT.
+        -
+                uuid: 00546be9-75f8-49af-b562-ff8f95712268
+                front: Jednoduchý genetický algoritmus
+                back: >
+                        Populace; binární (nebo jiný) genotyp; fitness funkce
+
+                        1) Spočítej ohodnocení<br>
+                        2) Selektivní reprodukcí vyber novou populaci<br>
+                        3) Proveď křížení<br>
+                        4) Mutuj chromosomy<br>
+
+                        Reprodukce ruletou.
+        -
+                uuid: 89dee31c-00c2-4498-b510-539194330190
+                front: Problémy jednoduché ruletové selekce a řešení
+                back: >
+                        Když mají všichni jedinci stejné ohodnocení, nebo jich pár silně dominuje.
+
+                        Řešení: škálování: zvětšit nebo zmenšit rozdíly; selekce podle pořadí (a jemu úměrná ruletová hmotnost)
+        -
+                uuid: 4506dd19-9727-46f9-b572-e35b1d8a0441
+                front: Selekce s ořezáváním
+                back: >
+                        Jedince uspořádej podle dobrosti, okopíruj nejlepších [$]X[/$] [$]Y[/$]-krát
+        -
+                uuid: c786470f-76d9-4a68-b591-592478196b7c
+                front: Turnajová selekce
+                back: >
+                        Vezmi dva jedince; ten, co vyhraje (podle nějakého parametru) se zkopíruje
+        -
+                uuid: 003d14ee-206b-4c43-aa2c-bf70d981622f
+                front: Elitismus
+                back: >
+                        Zajisti že několik nejlepších jedinců se vždy zkopíruje
+        -
+                uuid: 9b287a54-9712-4d0f-bbd5-fbec603f18b0
+                front: Typy křížení sekvence
+                back: >
+                        Jednobodová, vícebodová, uniformní
+        -
+                uuid: 82506d9b-4246-4b07-9138-8567d2cf5068
+                front: Schema - kolik jich je pro délku? Kolik je genomů?
+                back: >
+                        Schema: genom, kde jsou 0/1/?; schemat je [$]3^l[/$].
+                        Genomů je [$]2^l[/$].
+                        Schemata se považují za základní blok evoluce.
+        -
+                uuid: 1e6c2269-d808-4569-a3b7-5583055ef63f
+                front: Holland 1975 - implicitní paralelismus GA
+                back: >
+                        GA zpracuje v jednom kroku až [$]N^3[/$] schemat, když používá [$]N[/$] řetězců.
+        -
+                uuid: ec60fcee-7214-47f9-ad64-5737c20f9c0d
+                front: Definice - řád schematu
+                back: >
+                        Počet pevných pozic
+        -
+                uuid: 3ac069af-1e34-404b-95be-06ae9e9349e8
+                front: Definice - délka schematu
+                back: >
+                        Vzdálenost prvního a posledního zafixovaného písmena
+        -
+                uuid: a8406dd6-e66f-4bfd-b52a-31eb0f81eebf
+                front: Věta o schematech
+                back: >
+                        [$$]m(H, t+1) \\geq m(H, t) \\cdot \\frac{f(H)}{\\overline{f}} \\cdot [1 - p_e \\frac{\\delta(H)}{\\ell - 1} - o(H) \\cdot p_m][/$$]
+
+                        [$]m(H,t)[/$]: počet řetězců v populaci odpovídajících schematu<br>
+                        [$]f(H)[/$]: průměrná fitness jedinců odpovídajících schematu<br>
+                        [$]p_e[/$]: křížení nastává náhodně<br>
+                        [$]p_m[/$]: pravděpodobnost mutace na jedné pozici<br>
+                        [$]o(H)[/$]: řád schematu<br>
+
+                        Pro malé [$]p_m[/$]: [$](1-p(m))^{o(H)} \\approx 1-o(H) \\cdot p_m[/$]
+        -
+                uuid: d0369892-a5b7-4b6f-b54f-be61f6d28fed
+                front: Kdy může být lepší použít GA než backprop?
+                back: Například když nemám explicitní derivovatelnou chybovou funkci, ale mám jenom fitness.
+        -
+                uuid: 31b5482b-5f69-43ac-876a-921d5e89723d
+                front: Algoritmus NEAT - přibližně
+                back: >
+                        Neuroevolution of Augmenting Topologies
+
+                        Síť: seznam hran, každá hrana má informace o vrcholech, vahách a "rodné číslo".
+
+                        Kříží se jen hrany se stejnými "rodnými čísly", zbytek se přenáší beze změn. (Tedy křížím jen hrany se stejným evolučním původem.)
+
+                        Na vektorech hran s rodnými čísly se definuje podobnost. Při evoluci jsou podobné sítě zahrnuty do stejného druhu, fitness je relativní vzhledem k druhu.
+                        (Tím se chrání nové topologie než se jim dovyvinou váhy.)
+
+                        Každý neuron taky má rodné číslo.
+
+                        Mutace: přidání spoje, přidání neuronu.
+                        Když jsou jedinci moc daleko, jsou v různých druzích.
+        -
+                uuid: 0f735c39-2b8a-4a1c-9db6-4c3d532834dc
+                front: Evoluce architektury
+                back: >
+                        Genotyp: kodovani prepisovacich pravidel; jejich vystup je binarni matice spoju mezi neurony, vahy se douci BP
+        -
+                uuid: 33a61f5b-ffdd-4e9b-a83f-38fb18a94d25
+                front: Algoritmus SANE
+                back: >
+                        Jedna skrytá vrstva.
+                        Vyvíjí se jednotlivé skryté neurony.
+                        Fitness neuronů je fitness všech testů, kde byl použit.
+                        Každý neuron použijeme aspoň 10x.
+                        Vítězi jsou nejužitečnější neurony.
+        -
+                uuid: efdd20d0-8450-450b-b812-bfe059c7fc3e
+                front: Algoritmus ESP
+                back: >
+                        Enforced Sub-Populations
+
+                        Vyvijeji se jednotlive neurony, aby spolupracovaly.
+                        Dopredu se stanovi pocet druhu, vyvoj probiha v ramci jednoho druhu.
+
+                        Jeden (skryty) neuron = jedna sub-populace.
+                        Vyviji se pevna topologie.
+                        Daji se vyvijet i rekurentni site.
+        -
+                uuid: 4831c1e3-be4b-4d5a-869c-9924893fd821
+                front: Algoritmus CoSyNE
+                back: >
+                        Cooperative Synapse NeuroEvolution
+
+                        Vahy pro jednu synapsi jsou v samostatne subpopulaci.
+
