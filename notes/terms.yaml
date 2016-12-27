@@ -396,3 +396,23 @@ notes:
                 front: paraphernalia
                 back: miscellaneous articles, especially the equipment needed for a particular activity
                 include_reverse: true
+        -
+                uuid: 57597dc9-f585-4392-9a23-bff7d3898513
+                front: schistosomiasis
+                back: Also known as snail fever, bilharzia, Katayama fever; a disease caused by parasitic flatworms
+                include_reverse: true
+        -
+                uuid: e0b603c1-8fe6-455b-8468-cfad351278fc
+                front: cockeyed
+                back: crooked or askew; not level; (of a person or their eyes) having a squint.
+                include_reverse: true
+        -
+                uuid: bd8e826f-9d43-43b7-9132-2ec86effb2c9
+                front: vicacious
+                back: "lively in temper, conduct, or spirit : sprightly."
+                include_reverse: true
+        -
+                uuid: 7bffc3a1-9cd3-43c3-9c61-d64caea143eb
+                front: maudlin
+                back: self-pityingly or tearfully sentimental, often through drunkenness
+                include_reverse: true

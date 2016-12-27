@@ -68,7 +68,18 @@ notes:
                front: Westermarck effect
                back: AKA reverse sexual imprinting. Hypothetical psychological effect through which people who live in close domestic proximity during the first few years of their lives become desensitized to sexual attraction.
         -
-                uuid: e5425dd7-d2d5-4dcc-ac94-0185880879c8
-                front: Sapir-Whorf hypothesis
-                back: The structure of a language determines a native speaker's perception and categorization of experience
-                include_reverse: true
+               uuid: e5425dd7-d2d5-4dcc-ac94-0185880879c8
+               front: Sapir-Whorf hypothesis
+               back: The structure of a language determines a native speaker's perception and categorization of experience
+        -
+                uuid: f89cb6bd-62f6-4d26-8341-9865ed0daa1c
+                front: Repetition compulsion
+                back: >
+                        Psychological phenomenon in which a person repeats a traumatic event or its circumstances over and over again.
+                        This includes reenacting the event or putting oneself in situations where the event is likely to happen again.
+                        This "re-living" can also take the form of dreams in which memories and feelings of what happened are repeated,
+                        and even hallucination.
+
+                        The term can also be used to cover the repetition of behaviour or life patterns more broadly: a "key component in
+                        Freud's understanding of mental life, 'XYZZYFOO'...describes the pattern whereby people endlessly repeat patterns
+                        of behaviour which were difficult or distressing in earlier life."

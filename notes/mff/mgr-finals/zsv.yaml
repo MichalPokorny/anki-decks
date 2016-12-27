@@ -15,7 +15,7 @@ notes:
                        [$]M = (Q, \\Sigma, \\delta, q_0, F)[/$]. [$]Q[/$]: stavy, [$]\\Sigma[/$]: pasova abeceda co obsahuje [$]\\lambda[/$] pro prázdné políčko, [$]\\delta:Q\\times\\Sigma\\rightarrow Q\\times\\Sigma\\times\\{R, N, L\\} \\cup \\{\\perp\\}[/$] přechodová funkce, [$]q_0\\in Q[/$] počáteční stav, [$]F\\subseteq Q[/$] množina přijímacích stavů.
 
                        Řídící jednotka, páska (potenciálně nekonečná v obou směrech), hlava (pro čtení a zápis) pohybující se oběma směry.
-                       Displej: [$](q,a)[/$]: stav a symbol pod hlavou.
+                       Displej: [$] (q,a) [/$]: stav a symbol pod hlavou.
                        Konfigurace: stav řídící jednotky, slovo na pásce (neprázdné), pozice hlavy
         -
                 uuid: 47e06129-1d02-4c3f-8188-81602e3dc58f
@@ -85,7 +85,7 @@ notes:
                 uuid: f4474703-6da8-45bf-ad66-3cddba0eb4ea
                 front: Turingovy stroje a částečné funkce
                 back: >
-                        [$]M[/$] nad abecedou [$]\\Sigma[/$] počítá částečnou funkci [$]f:\\Sigma^*\\rightarrow\\Sigma^*[/$], co vede na slovo po skončení výpočtu, jinak značíme [$]f_M(w)\\uparrow[/$].
+                        [$]M[/$] nad abecedou [$]\\Sigma[/$] počítá částečnou funkci [$]f:\\Sigma^\* \\rightarrow \\Sigma^\*[/$], co vede na slovo po skončení výpočtu, jinak značíme [$]f_M(w)\\uparrow[/$].
         -
                 uuid: a9707bec-b494-4377-9508-534f1d5f62fd
                 front: Kódování vstupu pro TS co počítají funkci [$]n[/$] parametrů
