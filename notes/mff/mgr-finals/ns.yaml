@@ -97,7 +97,7 @@ notes:
                 front: Co je v updatu pro feedforward sítě [$]\\delta[/$]?
                 back: >
                         [$$]
-                        \\delta_j := -\\frac{\\partial E}\\frac{\\partial \\xi_j}
+                        \\delta_j := -\\frac{\\partial E}{\\partial \\xi_j}
                         [/$$]
         -
                 uuid: cbaf91a5-83a2-43ee-a16d-61a019357318

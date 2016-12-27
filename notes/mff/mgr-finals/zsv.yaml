@@ -150,12 +150,12 @@ notes:
                 front: Simulace RAM na TS
                 back: >
                         Mám na pásce reprezentační řetězec pro využité registry (protože jsou sparse): [$] (i_1)_B | ([r_{i_1}])_B \\# (i_2)_B | ([r_{i_2}])_B \\# \ldots[/$]
-        -
-                uuid: e8ba61d0-4af5-4847-a1e4-b81ffc8abd9c
-                front: Pojmenování - Částečně/obecně rekurzivní funkce a (totální) vyčíslitelné funkce?
-                back: >
-                        Obecně rekurzivní funkce: totální vyčíslitelná funkce
-                        Částecná rekurzivní funkce: vyčíslitelná funkce
+#        -
+#                uuid: e8ba61d0-4af5-4847-a1e4-b81ffc8abd9c
+#                front: Pojmenování - Částečně/obecně rekurzivní funkce a (totální) vyčíslitelné funkce?
+#                back: >
+#                        Obecně rekurzivní funkce: totální vyčíslitelná funkce<br>
+#                        Částecná rekurzivní funkce: vyčíslitelná funkce
         -
                 uuid: 7fc4be5d-62db-4562-866a-72adfbae02ff
                 front: >
@@ -163,9 +163,13 @@ notes:
                 back: >
                         [$$]
                         dom f = \\{x\\in\\Sigma_b^* | f(x)\\downarrow\\}
+                        [/$$]
 
+                        [$$]
                         rng f = \\{y\\in\\Sigma_b^* | (\\e x\\in\\Sigma_b^*)[f(x)\downarrow=y]\\}
+                        [/$$]
 
+                        [$$]
                         f\\simeq g\\Leftrightarrow[dom f = dom g \\wedge (\\a x\\in dom f)[f(x)=g(x)]]
                         [/$$]
         -
@@ -185,8 +189,8 @@ notes:
                 front: >
                         Tři ekvivalence pro částečně rozhodnutelné jazyky
                 back: >
-                        [$]L[/$] je částečně rozhodnutelný, právě když existuje TS [$]M[/$] že [$]L=\\{x\\in\\Sigma_b^*|M_e(x)\\downarrow\\}(=dom \\varphi_e)[/$],
-                        právě když existuje rozhodnutelný jazyk [$]B[/$] splňující [$]L=\\{x\\in\\Sigma_b^*|(\\e y\\in\\Sigma_b^*)[<x,y>\\in B]\\}[/$]
+                        [$]L[/$] je částečně rozhodnutelný, právě když existuje TS [$]M[/$] že [$]L=\\{x\\in\\Sigma_b^\\*|M_e(x)\\downarrow\\}(=dom \\varphi_e)[/$],<br>
+                        právě když existuje rozhodnutelný jazyk [$]B[/$] splňující [$]L=\\{x\\in\\Sigma_b^\\*|(\\e y\\in\\Sigma_b^*)[<x,y>\\in B]\\}[/$]
         -
                 uuid: 355cfdb8-e5f1-44a5-af7d-fa959ade824e
                 front: Rozhodnutelnost jazyka a jeho charakteristická funkce
