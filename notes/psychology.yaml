@@ -83,3 +83,13 @@ notes:
                         The term can also be used to cover the repetition of behaviour or life patterns more broadly: a "key component in
                         Freud's understanding of mental life, 'XYZZYFOO'...describes the pattern whereby people endlessly repeat patterns
                         of behaviour which were difficult or distressing in earlier life."
+        -
+                uuid: 69f6348d-f965-4c82-87b3-f75a0244f6dc
+                front: Dual-process model of thinking
+                back: >
+                        System 1: implicit, automatic, low effort, large capacity, rapid, default process, contextualized, evolutionarily old, nonverbal, modular cognition, parallel
+
+                        System 2: explicit, controlled, high effort, small capacity, slow, inhibitory, abstract, evolutionarily recent, linked to language, fluid intelligence, serial
+
+                        System 2 ("analytic"/"rational"/"rule-based" system): specific to humans.
+

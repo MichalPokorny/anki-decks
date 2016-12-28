@@ -8,3 +8,16 @@ notes:
                 uuid: d8b48889-cb60-416b-8d09-cb0ead39eeb5
                 front: CPM
                 back: Cost per 1000 (mille) -- (impressions)
+        -
+                uuid: 357ce6d4-a5d6-43e8-b5b3-ce3db0bbc54a
+                front: Dwell time
+                back:  the actual length of time that a visitor spends on a page before returning to the SERPs. In theory, the longer the dwell time the better, as this indicates that the visitor has consumed most (if not all) of the content on a page before either returning to the SERPs or performing another action on the site
+        -
+                uuid: 0ab26294-c790-4a1f-92e1-037a7fe979b6
+                front: SERP
+                back: Search engine results page
+        -
+                uuid: 0f5d3f80-e2c2-466b-a7de-150c8d341e71
+                front: Bounce rate
+                back: the percentage of single-page sessions (i.e. sessions in which the person left your site from the entrance page without interacting with the page)
+
