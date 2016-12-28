@@ -89,3 +89,220 @@ notes:
                         [$]F[/$]: počet "inverzí"
 
                         Alternativně: hledání od nejpravějšího listu [$]\\rightarrow \\leq 1 + \\log_a |{j<i+1, x_j>x_i}|[/$]
+        -
+                uuid: cede43cf-fed3-463f-abe4-646bd6fc51aa
+                front: Red-black trees -- axiomy
+                back: >
+                        Každý uzel je červený nebo černý. Červené uzly mohou být syny pouze černých uzlů. Na každé cestě do listu je stejný počet černých vrcholů.
+                        Hodnoty jsou ve vnitřních vrcholech.
+        -
+                uuid: 121e2648-cfe6-4f4a-8ad3-642a376baae5
+                front: Red-black trees -- ekvivalence s [$](a,b)[/$]
+                back: >
+                        Ekvivalentní [$](2,4)[/$]-stromům. Jsou tři možnosti: vrchol je červený a má dva černé syny; je černý a má dva červené syny; je černý a má jednoho červeného syna. To jsou gadgety na 4, 2, 3 syny.
+        -
+                uuid: 781d7242-25bd-4b2a-8862-f80a6ebc397e
+                front: Vlastnosti splay stromu - maximální, amortizovaná cena vkládání
+                back: >
+                        Na operaci: až [$]\\O(n)[/$]
+
+                        Cena za [$]m[/$] operací, [$]n[/$] vložených prvků: [$]\\O(m\\log n+n\\log n)[/$]
+        -
+                uuid: f0795afe-ab1d-4293-a1ad-e6f88a9c80f5
+                front: Operace Splay
+                back: >
+                        [$]Splay(x)[/$]
+
+                        Případy:
+
+                        A:
+                        <pre>
+                               z              x
+                              / \            / \
+                             y   .          .   y
+                            / \        ==>     / \
+                           x   .              .   z
+                          / \                    / \
+                         .   .                  .   .
+                        </pre>
+
+                        B:
+                        <pre>
+                               z                   x
+                              / \                /  \
+                             y   .              y    z
+                            / \        ==>     / \  / \
+                           .   x              .   ..   .
+                              / \
+                             .   .
+                        </pre>
+
+                        C: (u kořene)
+                        <pre>
+                             y                     x
+                            / \                   / \
+                           x   .     ==>         .   y
+                          / \                       / \
+                         .   .                     .   .
+                        </pre>
+        -
+                uuid: 5071f3a5-9735-46ce-90d8-e13d3e9d9eea
+                front: Amortizovaný čas na Splay -- jak vyjde, další kroky v důkazu
+                back: >
+                        [$]t = a + \\Phi(T') - \\Phi(T)[/$], kde [$]a[/$] je skutečný čas, [$]\\Phi[/$] je potenciál, [$]t[/$] je amortizovaný čas
+
+                        [$]\\Phi(t) := \\sum_{x\\in T}r(x); r(x) := \\log_2([/$]počet vrcholů pod [$]x)[/$]
+
+                        Čas na [$]m[/$] operací: [$]\\sum^m t_i = \\sum^m [a_i + \\Phi(T_i) - \\Phi(T_{i-1})] = (\\sum^m a_i) + \\Phi(T_m) - \\Phi(T_0) \\Rightarrow \\sum^m a_i = \\sum^m t_i + \\Phi(T_0) - \\Phi(T_m)[/$],
+                        tedy čas na [$]m[/$] operací je [$]m \\O(\\log n) + \\O(n \\log n)[/$]
+
+                        Budeme chtít dokázat, že jednotlivé cases ve Splay nemění moc potenciál.
+        -
+                uuid: 263424b5-62f8-4d35-a8ae-c17bece6d6fb
+                front: Amortizovaný čas na Splay -- obecný postup
+                back: >
+                        Rozeberu po případech, že počet amortizovaných rotací je
+                        [$$]t\\leq 1+3(r(v)-r(x))[/$$]
+                        Kde [$]v[/$] je původní kořen.
+
+                        Amortizovaný čas na Splay je [$]\\leq 1 + 3\\log_2 n[/$].
+        -
+                uuid: 041041da-2e5b-4696-95c9-94c1e7f4855b
+                front: Amortizovaný čas na Splay -- na případ [$]z\\rightarrow y\\rightarrow x \\Rightarrow z\\leftarrow x\\leftarrow x[/$]
+                back: >
+                        [$$]t \\leq 2 + r'(x) - r(x) + r'(y) - r(y) + r'(z) - r(z)[/$$]
+
+                        [$]r(z) = r'(x)[/$], tedy [$]= 2 - r(x) + r'(y) - r(y) + r'(z)...[/$]
+
+                        Protože [$]r'(y) \\leq r'(x)[/$] (protože potom je [$]y[/$] pod [$]x[/$]) a [$]r(y) \\geq r(x)[/$]:
+                        [$$]t \\leq 2 - r(x) + r'(x) - r(x) + r'(z) = 2 + r'(x) - 2r(x) + r'(z)[/$$]
+
+                        Pozorování: [$]2 \\leq 2r'(x) - r(x) - r'(z)[/$]
+
+                        Totiž:
+                        [$$]r'(x) = \\log_2[|A| + |B| + |C| + |D| + 3][/$$]
+                        [$$]r'(y) = \\log_2[|A| + |B| + 1][/$$]
+                        [$$]r'(z) = \\log_2[|C| + |D| + 1][/$$]
+
+                        Povšimni si:
+                        [$$]\\log_2 a + \\log_2 b \\leq 2\\log \\frac{a+b}{2}[/$$]
+
+                        [$$]r'(x) = \\log(a+b+1)\\geq (\\log \\frac{a+b}{2})+1[/$$]
+
+                        [$$]2r'(x)-r(x)-r'(z)\\geq 2[/$$]
+
+                        Tedy: [$$]t\\leq 2+r'(x)-2r(x)+r'(z) \\leq 3r'(x)-3r(x)[/$$]
+        -
+                uuid: 065f235b-8a51-475a-a1b1-2a56296b940e
+                front: Amortizovaný čas na Splay -- na případ [$]x \\rightarrow y \\leftarrow z[/$]
+                back: >
+                        [$$]t \\leq 2+r'(x)-r(x)+r'(y)-r(y)+r'(z)-r(z)[/$$]
+                        [$$]= 2-r(x)+r'(y)-r(y)+r'(z)[/$$]
+                        [$$]\\leq 2-2r(x)+r'(y)+r'(z)[/$$]
+
+                        Pozorování: [$]2\\leq 2r'(x)-r'(y)-r'(z)[/$]
+
+                        Tedy: [$$]\\leq 2r'(x)-2r(x)=2(r'(x)-r(x))[/$$]
+        -
+                uuid: cd420f77-33c2-4660-8c81-eefc5cc04e1b
+                front: Amortizovaný čas na Splay -- na případ [$]x\\rightarrow y[/$] v kořeni
+                back: >
+                        [$$]t\\leq 1+r'(x)-r(x)+r'(y)-r(y)[/$$]
+
+                        Poz.: [$]r'(y)<r(y)[/$], [$]r'(x)-r(x)>0[/$]
+
+                        [$$]\\leq 1+r'(x)-r(x) \\leq 1+3(r'(x)-r(x))[/$$]
+        -
+                uuid: dc66b323-9313-4e90-9de3-e00034c2cf8e
+                front: Splay strom -- Insert
+                back: >
+                        Vysplayuj nahoru poslední vrchol na cestě k chybějícímu [$]x[/$].
+
+                        Podrozděl levou nebo pravou hranu z vysplayovaného kořene novým vrcholem [$]x[/$].
+        -
+                uuid: a95b34fc-04cd-4672-aaa9-ed11305aea42
+                front: Splay strom -- Delete
+                back: >
+                        Vysplayuj nahoru vrchol co chci odebrat.
+                        Odeber ho, nahraď ho nejmenším/největším z pravého/levého podstromu.
+        -
+                uuid: 7738e830-27af-432c-9f98-4266eae390e8
+                front: Haldy -- obecný interface
+                back: >
+                        Insert, Min, DeleteMin
+        -
+                uuid: 98f1108a-eb48-4c63-ba19-aef0d126a539
+                front: Regulární halda -- invariant, uložení do pole
+                back: >
+                        Invariant: Prvek je menší než všechny pod ním.
+                        Pod [$]i[/$] jsou prvky [$]2i[/$], [$]2i+1[/$].
+        -
+                uuid: d77b8f43-105e-4074-8728-893e94fc4584
+                front: Regulární halda -- Insert
+                back: >
+                        Přidej prvek na konec pole. Bublej ho směrem ke kořeni,
+                        dokud je porušena podmínka, že otec je menší než syn.
+        -
+                uuid: 8a30657b-6486-43b4-b69c-4acb6d6c7777
+                front: Regulární halda -- Delete
+                back: >
+                        Poslední prvek přesuň do prvního, bublej s menším ze synů směrem dolů dokud je otec větší než syn.
+        -
+                uuid: 53dbd39b-fe32-406d-9da8-b7d3f206bd0b
+                front: Regulární halda -- časy
+                back: >
+                        Insert, DeleteMin: [$]\\O(\\log n)[/$], Min: [$]\\O(1)[/$]
+        -
+                uuid: a117f9b8-e1b0-4e51-8ed8-e67f2c8572d0
+                front: Binomiální halda -- struktura
+                back: >
+                        Soubor haldově uspořádaných stromů velikostí [$]2^k[/$].
+                        Pamatujeme si, který obsahuje minimální prvek.
+
+                        Zbrklá varianta: nejvýše jeden strom dané varianty.
+
+                        Líná varianta: bez omezení na počet stromů stejné velikosti.
+
+                        Jeden binomiální strom obsahuje kořen a hned pod ním menší binomiální stromy všech menších velikostí.
+        -
+                uuid: f4b71aef-78b4-46b1-a788-42d1dc6620fc
+                front: Eager binomiální halda -- Insert
+                back: >
+                        Přidej nový haldový strom velikosti 1,
+                        postupně slívej dokud existují dva stromy stejné velikosti.
+                        Aktualizuj ukazatel na strom s minimálním prvkem.
+        -
+                uuid: f90fa989-ff96-41b1-8a27-0eeaaa17cc8d
+                front: Eager binomiální halda -- DeleteMin
+                back: >
+                        Odřízneme kořen stromu s minimálním prvkem. Rozpadne se na [$]i[/$] stromů velikosti [$]2^0, 2^1, \\ldots 2^{i-1}[/$].
+                        Postupně slívej jako při Insertu.
+        -
+                uuid: f60d57a1-990f-4c50-8992-f9a82e172a74
+                front: Eager binomiální halda -- složitosti
+                back: >
+                        Insert [$]\\O(\\log n)[/$], Min [$]\\O(1)[/$], DeleteMin [$]\\O(\\log n)[/$].
+
+                        Stejně jako regulární halda, ale [$]n[/$] insertů trvá jenom [$]\\O(n)[/$] (amortizací přes inkrement).
+                        (Takže amortizovaně [$]\\O(1)[/$] na Insert dokud se neprovede DeleteMin.)
+        -
+                uuid: 3badd3b1-40d5-4e0c-925a-3126f13208cf
+                front: Líná binomiální halda -- Insert
+                back: Vytvoř nový strom velikosti 1 a aktualizuj odkaz na minimum.
+        -
+                uuid: baad0a81-0faa-4a86-8dd4-552e0aa815d6
+                front: Líná binomiální halda -- DeleteMin
+                back: >
+                        Odřízni kořen stromu s minimálním prvkem. Slévej stromy stejné velikosti dokud to jde.
+        -
+                uuid: 00bd62d4-b7b8-461d-a215-3ac8f38335b2
+                front: Líná binomiální halda -- složitosti, důkazy
+                back: >
+                        Insert [$]\\O(1)[/$], Min [$]\\O(1)[/$], DeleteMin [$]\\O(n)[/$], ale amortizovaně [$]\\O(\\log n)[/$]
+
+                        Potenciál: [$]\\Phi(T) = C \\cdot [/$] počet stromů v haldě
+
+                        Insert: [$]\\leq C + \\Phi(T')-\\Phi(T) = C[/$]
+
+                        DeleteMin: [$]\\leq C \\cdot [/$] počet stromů [$]+\\Phi(T')-\\Phi(T)\\leq C\\cdot\\log n = \\O(\\log n)[/$]
+

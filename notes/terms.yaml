@@ -421,3 +421,18 @@ notes:
                 front: moral hazard
                 back: lack of incentive to guard against risk where one is protected from its consequences, e.g. by insurance
                 include_reverse: true
+        -
+                uuid: c0332389-05c9-41f8-b82e-46c0e5dc9b84
+                front: effulgence
+                back:  brightness taken to the extreme. You may be dazzled by it, stunned by it, or even overcome by it. Usually used to refer to the sun or some other mega-star, ... can also be used figuratively.
+                include_reverse: true
+        -
+                uuid: 1eccbd13-1f19-410f-8069-104de9f11402
+                front: cupidity
+                back: greed for money or possessions
+                include_reverse: true
+        -
+                uuid: 89f913f8-2f4b-43ee-ab69-223c68f78f51
+                front: parochial
+                back: relating to a Church parish // having a limited or narrow outlook or scope.
+                include_reverse: true
