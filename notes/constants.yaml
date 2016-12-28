@@ -97,3 +97,76 @@ notes:
                 uuid: f3294abd-420d-4ee0-8fe2-3ced17fc1836
                 front: Population of South America
                 back: 423 million
+        -
+                uuid: aacac98f-d6df-4f72-8f94-0fc502efeb84
+                topic: Latency Numbers Every Programmer Should Know
+                front: L1 cache reference
+                back: 1 ns
+                include_reverse: true
+        -
+                uuid: bbbeac25-492f-46b2-802f-cb04e7cfea73
+                topic: Latency Numbers Every Programmer Should Know
+                front: Branch mispredict
+                back: 3 ns
+                include_reverse: true
+        -
+                uuid: f306fb30-cb04-4b08-9be2-680852b49c80
+                topic: Latency Numbers Every Programmer Should Know
+                front: L2 cache reference
+                back: 4 ns
+                include_reverse: true
+        -
+                uuid: 9f58f568-a0ba-466c-80ea-17d4ba13ae92
+                topic: Latency Numbers Every Programmer Should Know
+                front: Mutex lock/unlock
+                back: 17 ns
+        -
+                uuid: 93fb0034-cde0-42ce-9a58-5ffe80313e75
+                topic: Latency Numbers Every Programmer Should Know
+                front: Main memory reference
+                back: 100 ns
+        -
+                uuid: 340b061b-107e-4c49-ba49-271d77e1f766
+                topic: Latency Numbers Every Programmer Should Know
+                front: Compress 1K bytes with Zippy
+                back: 2 [$]\\mu s[/$]
+        -
+                uuid: 0f59c1ed-35fb-41e5-9f98-7e933140c15a
+                topic: Latency Numbers Every Programmer Should Know
+                front: Send 2K bytes over commodity network
+                back: 177 ns
+        -
+                uuid: 510d4e2b-be59-450a-946e-d36d81adebcb
+                topic: Latency Numbers Every Programmer Should Know
+                front: Read 1 MB sequentially from memory
+                back: 7 [$]\\mu s[/$]
+        -
+                uuid: a848776f-c846-4263-963c-e0381ab2eaae
+                topic: Latency Numbers Every Programmer Should Know
+                front: SSD random read
+                back: 16 [$]\\mu s[/$]
+        -
+                uuid: dcf91ee8-e127-4d87-8bf3-684a2e7d92c4
+                topic: Latency Numbers Every Programmer Should Know
+                front: Round trip within same datacenter
+                back: 500 [$]\\mu s[/$]
+        -
+                uuid: 834f0b30-a6d6-494b-ac17-5d2c60324670
+                topic: Latency Numbers Every Programmer Should Know
+                front: Read 1 MB sequentially from disk
+                back: 1 ms
+        -
+                uuid: 68d87b64-5dc2-42cb-ad40-f9c8ac4575c7
+                topic: Latency Numbers Every Programmer Should Know
+                front: Disk seek
+                back: 3 ms
+        -
+                uuid: c70f3e7e-4f5f-411d-80de-c4fc53ff5fe3
+                topic: Latency Numbers Every Programmer Should Know
+                front: Read 1 MB sequentially from SSD
+                back: 123 [$]\\mu s[/$]
+        -
+                uuid: 905de71d-23bf-4b41-8cfe-7922b67bf556
+                topic: Latency Numbers Every Programmer Should Know
+                front: Send packet CA->Netherlands->CA
+                back: 150 ms
