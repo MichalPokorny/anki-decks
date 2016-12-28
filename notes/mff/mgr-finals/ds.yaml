@@ -305,4 +305,80 @@ notes:
                         Insert: [$]\\leq C + \\Phi(T')-\\Phi(T) = C[/$]
 
                         DeleteMin: [$]\\leq C \\cdot [/$] počet stromů [$]+\\Phi(T')-\\Phi(T)\\leq C\\cdot\\log n = \\O(\\log n)[/$]
+        -
+                uuid: aa2bd2dc-0887-4116-b0fd-7920f52db5b5
+                front: Model externí paměti -- notace
+                back: >
+                        [$]M[/$]: velikost paměti
+
+                        [$]B[/$]: velikost přenášených bloků
+
+                        [$]M/B[/$]: počet bloků v paměti
+        -
+                uuid: fc258cff-8cef-495b-a6ca-69afbc5252f9
+                front: Model externí paměti -- složitost sekvenčního čtení
+                back: >
+                        [$]\\lceil N/B \\rceil + 1[/$]
+        -
+                uuid: c9501f8e-cfb7-4cda-b76c-997165ec1cdb
+                front: Model externí paměti -- složitost binárního vyhledávání
+                back: >
+                        [$]\\log N - \\log B[/$]
+        -
+                uuid: 421b4c33-4f9e-4ceb-8ae5-55590e3be666
+                front: Model externí paměti -- transpozice matice
+                back: >
+                        [$]N^2[/$] přenosů když [$]M/B < N[/$]
+
+                        Když [$]M>B^2[/$], jde udělat algoritmus s [$]N^2/B[/$] přenosy (optimální).
+                        Transponuj po podmaticích velikosti [$]B\\times B[/$].
+        -
+                uuid: b0008716-72b5-43cb-a275-0cc8975b732e
+                front: Cache-oblivious algoritmy
+                back: >
+                        Algoritmus je navržený bez známého [$]M[/$], [$]B[/$].
+                        Analyzujeme s tím, že to jsou neznámé.
+        -
+                uuid: 02c3fb00-23d9-4011-869f-9287b94fb132
+                front: Transpozice matice cache-obliviously. Jaký má předpoklad?
+                back: >
+                        Rekurzivně po čtvrtinách. Předpoklad: [$]M\\geq B^2[/$] (tall cache assumption)
+
+                        Jakmile se dostanu na velikost [$]B\\times B[/$], tak jedna transpozice trvá [$]B[/$] přenosů. Takových matic je [$]N^2/B^2[/$]. [$]\\O(N^2/B^2 \\cdot B)=\\O(N^2/B)[/$] I/O operací.
+        -
+                uuid: f7be2627-47a5-4c5e-bf80-bceaf95803dc
+                front: van Emde-Boasovo uspořádání
+                back: >
+                        Useknu strom v půlce výšky. Nahoře je [$]\\sqrt{N}[/$] prvků, dole je [$]\\sqrt{N}[/$] stromů, každý velký [$]\\sqrt{N}[/$]. Uložím je za sebe.
+                        Počet I/O operací: [$]\\frac{\\log n}{\\log \\sqrt{B}}=2\\log_B N[/$]
+
+                        To je zlepšení proti binárnímu vyhledávání ([$]\\log N - \\log B[/$]).
+        -
+                uuid: f71b5948-d157-4aec-b0b5-4aa6544b839f
+                front: Třídení -- optimální cache-oblivious složitosti
+                back: >
+                        Za předpokladu [$]M\\geq B^2[/$] jde [$]\\O(n\\log n)[/$] operací, [$]\\O(N/B \\log_{M/B}[N/B])[/$] I/O
+        -
+                uuid: cae253c8-de58-49f7-b3dc-a110268de71f
+                front: Ideální cache vs. skutečná cache
+                back: Skutečné cache mají asociativitu, nejsou plně asociativní. Skutečné cache nevidí budoucnost, mají LRU.
+        -
+                uuid: bc29fdf5-d98c-4503-8c47-97882feef63d
+                front: Sleator-Tarjanova věta o LRU/OPT strategii
+                back: >
+                        Ať je posloupnost přístupů [$]s_1, \\ldots s_N[/$], LRU ať má [$]n_{LRU}[/$] stránek, OPT ať má [$]n_{OPT}[/$] stránek.
+
+                        Tvrzení: [$]\\#[/$] LRU výpadků [$]\\leq \\frac{n_{LRU}}{n_{LRU}-n_{OPT}}\\cdot\\#[/$] výpadků OPT [$]+n_{LRU}[/$]
+
+                        Pozorování:
+                        Když má LRU výpadek v čase [$]t_1, t_2[/$] na stejné stránce ([$]s_{t_1}=s_{t_2}[/$]),
+                        tak mezi [$]t_1[/$] a [$]t_2[/$] přistupuje k [$]n_{LRU}[/$] různým stránkám.
+
+                        Rozsekejme [$]s_{\\*}[/$] na kusy, v nichž v každém je v LRU [$]n_{LRU}[/$] výpadků (až na poslední).
+                        V každém se přistupuje k aspoň [$]n_{LRU}[/$] různým stránkám.
+                        OPT musí mít v daném úseku aspoň [$]n_{LRU}-n_{OPT}[/$] výpadků, protože na začátku má OPT v sobě nejvýš [$]n_{OPT}[/$] stránek.
+
+                        Tedy: [$]\\#_{LRU}/n_{LRU} \\leq \\lceil \\#_{OPT} / (n_{LRU}-n_{OPT}) \\rceil[/$]
+
+                        Když zvolím 2x větší LRU, bude konstanta nejvýš 2.
 
