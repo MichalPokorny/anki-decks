@@ -29,3 +29,8 @@ notes:
                 front: George Washington
                 back: First President of the United States
                 include_reverse: true
+        -
+                uuid: 0646fc65-4b73-441d-a155-770c54065d5e
+                front: Daniel Dennett
+                back: an atheist and secularist, one of the "Four Horsemen of New Atheism", American philosopher, writer, and cognitive scientist whose research centers on the philosophy of mind, philosophy of science, and philosophy of biology, particularly as those fields relate to evolutionary biology and cognitive science
+                include_reverse: true

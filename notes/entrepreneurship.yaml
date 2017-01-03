@@ -20,4 +20,15 @@ notes:
                 uuid: 0f5d3f80-e2c2-466b-a7de-150c8d341e71
                 front: Bounce rate
                 back: the percentage of single-page sessions (i.e. sessions in which the person left your site from the entrance page without interacting with the page)
+        -
+                uuid: eaf86a49-059f-4287-b781-5c7656166be2
+                front: SMART criteria
+                back: >
+                        Criteria to guide setting objectives.
+
+                        Specific – target a specific area for improvement.
+                        Measurable – quantify or at least suggest an indicator of progress.
+                        Achievable/assignable (to someone)
+                        Relevant/realistic - relevant: bigger picture and vision
+                        Time-bound – specify when the result(s) can be achieved.
 

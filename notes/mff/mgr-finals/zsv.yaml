@@ -98,7 +98,7 @@ notes:
                         Jen TS co mají 1 přijímací stav a binární vstupní abecedu.
                         Pracovní abeceda je neomezená.
                         Zapíšeme přechodovou funkci do [$]\\{0,1,L,N,R,|,\\#,\\;\\}[/$].
-                        Kód instrukce: [$]\\delta(q_i, X_j) = (q_k, X<l, Z) (Z\\in\\{L,N,R\\}): (i)_B | (j)_B | (k)_B | (l)_B | Z[/$].
+                        Kód instrukce: [$]\\delta(q_i, X_j) = (q_k, X < l, Z) (Z\\in\\{L,N,R\\}): (i)_B | (j)_B | (k)_B | (l)_B | Z[/$].
                         Kód přechodové funkce: [$]C_1 \\# C_2 \\# \\ldots \\# C_N[/$]
                         Kód binárního řetězce: vezmi řetězec a přidej před něj jedničku, to je binární číslo. (Dostanu vzájemně jednoznačné zobrazení do kladných přirozených čísel. Plus konvence: 0 odpovídá [$]\\varepsilon[/$].)
         -
@@ -175,7 +175,7 @@ notes:
         -
                 uuid: 21f375d5-ecc2-4ce6-84b7-f2e60bac1a01
                 front: >
-                        Značení: funkce počítaná [$]M_e[/$], funkce [$]n[/$] parametrů ([$]\\<x_1,\\ldots x_n>=\\<x_1\\#x_2\\#\\ldots x_n>\\in\\sigma_b^*[/$]) počítaná [$]M_e[/$]
+                        Značení: funkce počítaná [$]M_e[/$], funkce [$]n[/$] parametrů ([$]\\< x_1,\\ldots x_n >=\\< x_1\\#x_2\\#\\ldots x_n >\\in\\sigma_b^*[/$]) počítaná [$]M_e[/$]
                 back: >
                         [$]\varphi_e[/$]; [$]\varphi_e^{(n)}[/$]
         -
@@ -190,7 +190,7 @@ notes:
                         Tři ekvivalence pro částečně rozhodnutelné jazyky
                 back: >
                         [$]L[/$] je částečně rozhodnutelný, právě když existuje TS [$]M[/$] že [$]L=\\{x\\in\\Sigma_b^\\*|M_e(x)\\downarrow\\}(=dom \\varphi_e)[/$],<br>
-                        právě když existuje rozhodnutelný jazyk [$]B[/$] splňující [$]L=\\{x\\in\\Sigma_b^\\*|(\\e y\\in\\Sigma_b^*)[\\<x,y>\\in B]\\}[/$]
+                        právě když existuje rozhodnutelný jazyk [$]B[/$] splňující [$]L=\\{x\\in\\Sigma_b^\\*|(\\e y\\in\\Sigma_b^*)[\\< x,y >\\in B]\\}[/$]
         -
                 uuid: 355cfdb8-e5f1-44a5-af7d-fa959ade824e
                 front: Rozhodnutelnost jazyka a jeho charakteristická funkce
@@ -225,7 +225,7 @@ notes:
                 front: >
                         [$]m[/$]-úplný jazyk [$]K_0[/$]
                 back: >
-                        [$]K_0=\\{\\<w_i,x\\> | M_i(x)\\downarrow \\}[/$]. Částečně rozhodnutelný, nikoli rozhodnutelný.
+                        [$]K_0=\\{\\< w_i,x \\> | M_i(x)\\downarrow \\}[/$]. Částečně rozhodnutelný, nikoli rozhodnutelný.
         -
                 uuid: a77116ea-55e8-4341-b122-d3760503a58d
                 front: >
@@ -292,7 +292,7 @@ notes:
                 uuid: 0c026be6-6a0a-4614-9ca4-751d6a748329
                 front: Verifikátory a certifikáty
                 back: >
-                        Verifikátor pro jazyk A: algoritmus V, že [$]A=\\{x: (\\e y)[V prijme \\<x,y\\>]\\}[/$]
+                        Verifikátor pro jazyk A: algoritmus V, že [$]A=\\{x: (\\e y)[V prijme \\< x,y \\>]\\}[/$]
                         [$]y[/$]: certifikát pro [$]x[/$].
                         Časová složitost verifikátoru se měří dle [$]|x|[/$].
                         Polynomiální verifikátor, certifikát: polynomiální čas, tedy i délka certifikátu.

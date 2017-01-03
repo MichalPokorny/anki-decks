@@ -436,3 +436,104 @@ notes:
                 front: parochial
                 back: relating to a Church parish // having a limited or narrow outlook or scope.
                 include_reverse: true
+        -
+                uuid: 57dd1c36-3762-4f0e-b013-1d03e34e1e66
+                front: reticent
+                back: not revealing one's thoughts or feelings readily
+                include_reverse: true
+        -
+                uuid: 120de067-10df-49fe-9854-b89b9430313f
+                front: reticence
+                back: the quality of being reticent; reserve
+                include_reverse: true
+        -
+                uuid: a6cc8a26-7486-4b77-81f2-0e117eea6b2b
+                front: redolent
+                back: >
+                        strongly reminiscent or suggestive of; archaic/literary: fragrant or sweet-smelling
+                include_reverse: true
+        -
+                uuid: 2a8c971f-acb0-430d-86b0-5bfccbd28e69
+                front: hauteur
+                back: proud haughtiness of manner
+                include_reverse: true
+        -
+                uuid: 949473e2-3699-4758-9366-4fe28b328cbb
+                front: haughty
+                back: arrogantly superior and disdainful
+                include_reverse: true
+        -
+                uuid: 14f0b75b-d923-4eb0-979e-60f02c1341d8
+                front: nary
+                back: often used in the phrase "nary a" to mean "not a single," is an 18th century alteration of the adjectival phrase "ne'er a"
+        -
+                uuid: ee509394-f8d0-4cb1-bce3-0aec549621d0
+                front: double take
+                back: giving something/someone a second glance, after initially taking notice the first time
+                include_reverse: true
+        -
+                uuid: 0824e5ed-a9b0-42ff-8609-ae20207931bb
+                front: perennial
+                back: lasting or existing for a long or apparently infinite time; enduring or continually recurring; (of a plant) living for several years
+                include_reverse: true
+        -
+                uuid: 8769fbc1-8290-47c3-9e36-ec9f6fc7493e
+                front: theodicy
+                back: the vindication of divine providence in view of the existence of evil
+                include_reverse: true
+        -
+                uuid: 730504be-2a11-4f9b-8708-9c6be17cf721
+                front: intentionality
+                back: the feature of certain mental states by which they are directed at or about objects and states of affairs in the world. Beliefs, desires, intentions have it, undirected depression/anxiety doesn't.
+                include_reverse: true
+        -
+                uuid: 73ec1576-7fdd-4213-b518-3e59cfe4af6c
+                front: cogitation
+                back: the action of thinking deeply about something; contemplation
+                include_reverse: true
+        -
+                uuid: b1decf0f-176b-48b5-b717-6f57b7d78cf6
+                front: tassel
+                back: a tuft of loosely hanging threads or cords knotted at one end and attached for decoration to soft furnishings, clothing, or other items
+                include_reverse: true
+        -
+                uuid: c92ec515-c602-46c5-9448-384489f108c3
+                front: consanguinity
+                back: the property of being from the same kinship as another person
+                include_reverse: true
+        -
+                uuid: 6a2238e0-3ce3-4c36-9f20-004cb181cd9f
+                front: ennui
+                back: a feeling of listlessness and dissatisfaction arising from a lack of occupation or excitement
+                include_reverse: true
+        -
+                uuid: 6bbd5acd-2ab5-47fa-9606-31f00d73acc3
+                front: dixi
+                back: >
+                        a Latin expression, literally translated as "I have spoken". When used, it usually means: "I have said all that I had to say and thus the argument is settled"
+                include_reverse: true
+        -
+                uuid: 381d00f4-7f00-45be-adb2-2893a05b861c
+                front: weigh
+                back: verb - find out how heavy (someone or something) is, typically using scales; assess the nature or importance of, especially with a view to a decision or action.
+                include_reverse: true
+        -
+                uuid: 047c861e-6ecd-49df-be64-e98219a17c18
+                front: tutelage
+                back: protection of or authority over someone or something; guardianship; instruction; tuition.
+                include_reverse: true
+        -
+                uuid: ec271910-0c40-4e54-91c7-87dbaffda59e
+                front: conflagrant
+                back: Burning intensely; blazing.
+        -
+                uuid: 61774782-b6bb-446b-9a24-e7e9b733298b
+                front: dirigible
+                back: >
+                        noun: an airship; adjective: capable of being steered, guided, or directed.
+                include_reverse: true
+        -
+                uuid: f242c89e-c0b2-48f1-913b-1175de1a765b
+                front: filigree
+                back: ornamental work of fine (typically gold or silver) wire formed into delicate tracery
+                include_reverse: true
