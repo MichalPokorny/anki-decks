@@ -13,15 +13,17 @@ notes:
                 uuid: 017590ba-1c6b-43b3-9454-5641a154476d
                 front: >
                         [$] (a,b)[/$]-stromy: význam [$]a[/$], [$]b[/$], invariant
+
+                        Kde jsou hodnoty? Co je ve vnitřních uzlech?
                 back: >
-                        [$]a\\geq 2[/$], [$]b\\geq 2a-1[/$]
+                        [$]a\\geq 2[/$], [$]b\\leq 2a-1[/$]
 
                         Každý vrchol má aspoň [$]a[/$] a nejvýš [$]b[/$] synů ([$]\\in[a;b][/$])
 
                         Hodnoty jsou v listech. Vnitřní uzly obsahují maxima svých podstromů.
         -
                 uuid: eebfb938-29c8-4db5-aedb-9b62c93a96b5
-                front: Kolik listů má [$](a,b)[/$]-strom? Jakou má hloubku, podle množství listů?
+                front: Kolik listů má [$] (a,b) [/$]-strom dané hloubky? Jakou má hloubku, podle množství listů?
                 back: >
                         Mezi [$]a^{d-1}[/$] a [$]b^d[/$]. Hloubka: [$]\\log_b n \\leq b \\leq 1 + \\log_a n[/$].
         -
@@ -33,7 +35,7 @@ notes:
 
                         2. Pokud má *v* míň než [$]b[/$] synů, přidej pod něj *v* <br>
 
-                        3. Pokud má *v* [$]b[/$] synů, rozštěp ho na dva, co má každý [$](b+1)/2[/$] synů. Rekurzivně vlož do otce.
+                        3. Pokud má *v* [$]b[/$] synů, rozštěp ho na dva, co má každý [$] (b+1)/2 [/$] synů. Rekurzivně vlož do otce.
         -
                 uuid: 163b97da-16f0-493e-a772-66e7b80956b9
                 front: >
@@ -97,9 +99,9 @@ notes:
                         Hodnoty jsou ve vnitřních vrcholech.
         -
                 uuid: 121e2648-cfe6-4f4a-8ad3-642a376baae5
-                front: Red-black trees -- ekvivalence s [$](a,b)[/$]
+                front: Red-black trees -- ekvivalence s [$] (a,b) [/$]
                 back: >
-                        Ekvivalentní [$](2,4)[/$]-stromům. Jsou tři možnosti: vrchol je červený a má dva černé syny; je černý a má dva červené syny; je černý a má jednoho červeného syna. To jsou gadgety na 4, 2, 3 syny.
+                        Ekvivalentní [$] (2,4) [/$]-stromům. Jsou tři možnosti: vrchol je červený a má dva černé syny; je černý a má dva červené syny; je černý a má jednoho červeného syna. To jsou gadgety na 4, 2, 3 syny.
         -
                 uuid: 781d7242-25bd-4b2a-8862-f80a6ebc397e
                 front: Vlastnosti splay stromu - maximální, amortizovaná cena vkládání

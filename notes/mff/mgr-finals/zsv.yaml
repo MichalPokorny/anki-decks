@@ -225,7 +225,7 @@ notes:
                 front: >
                         [$]m[/$]-úplný jazyk [$]K_0[/$]
                 back: >
-                        [$]K_0=\\{\\< w_i,x \\> | M_i(x)\\downarrow \\}[/$]. Částečně rozhodnutelný, nikoli rozhodnutelný.
+                        [$]K_0=\\{< w_i,x > | M_i(x)\\downarrow \\}[/$]. Částečně rozhodnutelný, nikoli rozhodnutelný.
         -
                 uuid: a77116ea-55e8-4341-b122-d3760503a58d
                 front: >
