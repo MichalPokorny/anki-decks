@@ -164,12 +164,12 @@ notes:
                 uuid: 5071f3a5-9735-46ce-90d8-e13d3e9d9eea
                 front: Amortizovaný čas na Splay -- jak vyjde, další kroky v důkazu
                 back: >
-                        [$]t = a + \\Phi(T') - \\Phi(T)[/$], kde [$]a[/$] je skutečný čas, [$]\\Phi[/$] je potenciál, [$]t[/$] je amortizovaný čas
+                        [$]t = a + \\Phi(T') - \\Phi(T)[/$], kde [$]a[/$] je skutečný čas, [$]\\Phi[/$] je potenciál, [$]t[/$] je amortizovaný čas<br>
 
-                        [$]\\Phi(t) := \\sum_{x\\in T}r(x); r(x) := \\log_2([/$]počet vrcholů pod [$]x)[/$]
+                        Potenciál pro Splay strom: [$]\\Phi(t) := \\sum_{x\\in T}r(x); r(x) := \\log_2([/$]počet vrcholů pod [$]x)[/$]<br>
 
-                        Čas na [$]m[/$] operací: [$]\\sum^m t_i = \\sum^m [a_i + \\Phi(T_i) - \\Phi(T_{i-1})] = (\\sum^m a_i) + \\Phi(T_m) - \\Phi(T_0) \\Rightarrow \\sum^m a_i = \\sum^m t_i + \\Phi(T_0) - \\Phi(T_m)[/$],
-                        tedy čas na [$]m[/$] operací je [$]m \\O(\\log n) + \\O(n \\log n)[/$]
+                        Čas na [$]m[/$] operací: [$]\\sum_m t_i = \\sum_m [a_i + \\Phi(T_i) - \\Phi(T_{i-1})] = (\\sum_m a_i) + \\Phi(T_m) - \\Phi(T_0) \\Rightarrow \\sum_m a_i = \\sum_m t_i + \\Phi(T_0) - \\Phi(T_m)[/$],
+                        tedy čas na [$]m[/$] operací je [$]m \\O(\\log n) + \\O(n \\log n)[/$]<br>
 
                         Budeme chtít dokázat, že jednotlivé cases ve Splay nemění moc potenciál.
         -
@@ -178,33 +178,33 @@ notes:
                 back: >
                         Rozeberu po případech, že počet amortizovaných rotací je
                         [$$]t\\leq 1+3(r(v)-r(x))[/$$]
-                        Kde [$]v[/$] je původní kořen.
+                        Kde [$]v[/$] je původní kořen.<br>
 
                         Amortizovaný čas na Splay je [$]\\leq 1 + 3\\log_2 n[/$].
         -
                 uuid: 041041da-2e5b-4696-95c9-94c1e7f4855b
                 front: Amortizovaný čas na Splay -- na případ [$]z\\rightarrow y\\rightarrow x \\Rightarrow z\\leftarrow x\\leftarrow x[/$]
                 back: >
-                        [$$]t \\leq 2 + r'(x) - r(x) + r'(y) - r(y) + r'(z) - r(z)[/$$]
+                        [$$]t \\leq 2 + r'(x) - r(x) + r'(y) - r(y) + r'(z) - r(z)[/$$]<br>
 
-                        [$]r(z) = r'(x)[/$], tedy [$]= 2 - r(x) + r'(y) - r(y) + r'(z)...[/$]
+                        [$]r(z) = r'(x)[/$], tedy [$]= 2 - r(x) + r'(y) - r(y) + r'(z)...[/$]<br>
 
                         Protože [$]r'(y) \\leq r'(x)[/$] (protože potom je [$]y[/$] pod [$]x[/$]) a [$]r(y) \\geq r(x)[/$]:
-                        [$$]t \\leq 2 - r(x) + r'(x) - r(x) + r'(z) = 2 + r'(x) - 2r(x) + r'(z)[/$$]
+                        [$$]t \\leq 2 - r(x) + r'(x) - r(x) + r'(z) = 2 + r'(x) - 2r(x) + r'(z)[/$$]<br>
 
-                        Pozorování: [$]2 \\leq 2r'(x) - r(x) - r'(z)[/$]
+                        Pozorování: [$]2 \\leq 2r'(x) - r(x) - r'(z)[/$]<br>
 
                         Totiž:
                         [$$]r'(x) = \\log_2[|A| + |B| + |C| + |D| + 3][/$$]
                         [$$]r'(y) = \\log_2[|A| + |B| + 1][/$$]
-                        [$$]r'(z) = \\log_2[|C| + |D| + 1][/$$]
+                        [$$]r'(z) = \\log_2[|C| + |D| + 1][/$$]<br>
 
                         Povšimni si:
-                        [$$]\\log_2 a + \\log_2 b \\leq 2\\log \\frac{a+b}{2}[/$$]
+                        [$$]\\log_2 a + \\log_2 b \\leq 2\\log \\frac{a+b}{2}[/$$]<br>
 
-                        [$$]r'(x) = \\log(a+b+1)\\geq (\\log \\frac{a+b}{2})+1[/$$]
+                        [$$]r'(x) = \\log(a+b+1)\\geq (\\log \\frac{a+b}{2})+1[/$$]<br>
 
-                        [$$]2r'(x)-r(x)-r'(z)\\geq 2[/$$]
+                        [$$]2r'(x)-r(x)-r'(z)\\geq 2[/$$]<br>
 
                         Tedy: [$$]t\\leq 2+r'(x)-2r(x)+r'(z) \\leq 3r'(x)-3r(x)[/$$]
         -
