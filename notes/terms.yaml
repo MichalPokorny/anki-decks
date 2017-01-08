@@ -537,3 +537,195 @@ notes:
                 front: filigree
                 back: ornamental work of fine (typically gold or silver) wire formed into delicate tracery
                 include_reverse: true
+        -
+                uuid: da0fdd46-49ff-47a8-acd4-ebb41779dd99
+                front: abbatoir
+                back: a slaughterhouse
+                include_reverse: true
+        -
+                uuid: 8d740392-6b21-4fa2-9ea7-14972ee7bbf7
+                front: riposte
+                back: a quick, clever reply to an insult or criticism; a quick return thrust in fencing
+                include_reverse: true
+        -
+                uuid: a7687e21-a693-4a6c-af34-9624fe916ae7
+                front: shrew
+                back: rejsek
+                include_reverse: true
+        -
+                uuid: 78ff09be-6f78-473d-ba1b-54e74f8c1023
+                front: homage
+                back: respect or reverence paid or rendered
+        -
+                uuid: 3b6ea71e-2121-45f3-a513-6e1183cf4b26
+                front: wince
+                back: make a slight involuntary grimace or shrinking movement of the body out of pain or distress
+                include_reverse: true
+        -
+                uuid: b06e9367-2c16-4db2-b52e-5fb2790ea7f5
+                front: effluent
+                back: liquid waste or sewage discharged into a river or the sea (sewage, discharge)
+                include_reverse: true
+        -
+                uuid: d05dd77e-ff37-4e2e-8423-f0d6f69ca4e9
+                front: respite
+                back: a short period of rest or relief from something difficult or unpleasant
+                include_reverse: true
+        -
+                uuid: b35f4155-da30-4805-aa32-c5d6dfe9ef84
+                front: soused
+                back: >
+                        (of food, especially fish) preserved in pickle or a marinade; informal: drunk
+                include_reverse: true
+        -
+                uuid: a90be3f6-27a8-4930-a9cc-73ff278f5349
+                front: ensorcell
+                back: enchant; fascinate (literary)
+                include_reverse: true
+        -
+                uuid: 9f17c41a-a3a5-4b72-ad21-d8ae098c1f2e
+                front: sultry
+                back: >
+                        (of the air or weather) hot and humid, (especially of a woman or her behaviour) displaying or suggesting a strongly sexual nature.
+                include_reverse: true
+        -
+                uuid: 34226eb0-d2bb-4c46-b395-4c15df40c76b
+                front: pouty
+                back: the look on someone's face who is frowning
+        -
+                uuid: fc932e67-b158-4365-baa1-85a8e908d104
+                front: levity
+                back: the treatment of a serious matter with humour or lack of due respect
+                include_reverse: true
+        -
+                uuid: a04be674-ec15-4497-8ce3-544532db201d
+                front: august
+                back: respected and impressive
+                include_reverse: true
+        -
+                uuid: 6eb63ff2-76b9-4fdd-a4e1-b3bdef3cf488
+                front: collusion
+                back: an agreement between two or more parties, sometimes illegal and therefore secretive, to limit open competition by deceiving, misleading, or defrauding others of their legal rights, or to obtain an objective forbidden by law typically by defrauding or gaining an unfair market advantage
+                include_reverse: true
+        -
+                uuid: db9b9696-9959-4849-83fa-65605ee9ca7f
+                front: reverberate
+                back: >
+                        (of a loud noise) be repeated several times as an echo; have continuing and serious effects
+                include_reverse: true
+        -
+                uuid: ca37cc33-8d90-40e5-b3eb-99cbf5ebf5e9
+                front: eve
+                back: the day or period of time immediately before an event or occasion; the evening or day before a religious festival; (literary) evening
+                include_reverse: true
+        -
+                uuid: 6778b1b2-8ca6-48f3-aa96-9d5bb7eb699b
+                front: nadir
+                back: the lowest or most unsuccessful point in a situation; (astronomy) the point on the celestial sphere directly below an observer
+                include_reverse: true
+        -
+                uuid: 0c382cf0-6a67-4973-bfb2-e6eb7ca995d6
+                front: vise
+                back: a metal tool with movable jaws which are used to hold an object firmly in place while work is done on it, typically attached to a workbench
+                include_reverse: true
+        -
+                uuid: e101a734-d49d-4c1a-bf5f-904ae476af52
+                front: jarring
+                back: incongruous in a striking or shocking way; clashing. causing a physical shock, jolt, or vibration.
+                include_reverse: true
+        -
+                uuid: 93c94bec-5b14-4862-9a29-a60eaa9c6bce
+                front: haute couture
+                back: expensive, fashionable clothes produced by leading fashion houses
+                include_reverse: true
+        -
+                uuid: ae5ad625-6516-439a-b947-2335574a9f32
+                front: brig
+                back: a two-masted square-rigged ship, typically having an additional lower fore-and-aft sail on the gaff and a boom to the mainmast; (informal) a prison, especially on a warship.
+                include_reverse: true
+        -
+                uuid: 6c0d0a91-c003-409b-af10-32313c0bea47
+                front: murder hole/meutrière
+                back: >
+                        a hole in the ceiling of a gateway or passageway in a fortification through which the defenders could fire, throw or pour harmful substances or objects, such as rocks, arrows, scalding water, hot sand, quicklime, tar, or boiling oil, down on attackers
+                include_reverse: true
+        -
+                uuid: f202e753-dc7c-4f08-abb0-452c78d52c8d
+                front: R&R
+                back: military slang for rest and recuperation
+        -
+                uuid: 66ca4ec9-8c80-499a-9021-e6ac14a0041f
+                front: paroxysm
+                back: a sudden attack or outburst of a particular emotion or activity; (medicine) a sudden recurrence or attack of a disease
+                include_reverse: true
+        -
+                uuid: 3f22b18b-6e31-4f7a-8c7d-497a3a86b848
+                front: frond
+                back: the leaf or leaf-like part of a palm, fern, or similar plant
+                include_reverse: true
+        -
+                uuid: 29d6a8b4-289b-4356-8216-fd67c93dd392
+                front: conflagration
+                back: an extensive fire which destroys a great deal of land or property
+                include_reverse: true
+        -
+                uuid: 6e9d407f-4278-4f4c-bf7f-15639c690777
+                front: copacetic
+                back: in excellent order (North American, informal)
+                include_reverse: true
+        -
+                uuid: cce9480a-d38e-4aa6-acda-fa1937840f29
+                front: mollify
+                back: appease the anger or anxiety of (someone); (rare) reduce the severity of (something)
+                include_reverse: true
+        -
+                uuid: ec7f934a-b2a8-4fd2-bcec-470f3f9b44ab
+                front: jaunty
+                back: having or expressing a lively, cheerful, and self-confident manner
+                include_reverse: true
+        -
+                uuid: db86daca-9bcb-47ab-9caa-49cf8ab5c407
+                front: stoked
+                back: (North American, informal) excited or euphoric
+        -
+                uuid: 042f51c6-03dc-4f30-8e98-ac03e1da8585
+                front: jingoism
+                back: nationalism in the form of aggressive foreign policy
+                include_reverse: true
+        -
+                uuid: c5fe6f72-b65d-4224-a2a4-7e071698ec34
+                front: rind
+                back: >
+                        noun: the tough outer skin of certain fruit, especially citrus fruit, verb: strip the bark from (a tree)
+                include_reverse: true
+        -
+                uuid: 5ab530cf-ebf9-49d5-9ff5-1a74cbd25ad0
+                front: reverie
+                back: a state of being pleasantly lost in one's thoughts; a daydream
+                include_reverse: true
+        -
+                uuid: e750f46a-a009-4bd6-8587-e80548880c72
+                front: apperception
+                back: the mental process by which a person makes sense of an idea by assimilating it to the body of ideas he or she already possesses
+        -
+                uuid: 3e3e0c1e-240d-4c4f-bb49-e611581701e0
+                front: galvanize
+                back: shock or excite (someone) into taking action; coat (iron or steel) with a protective layer of zinc
+                include_reverse: true
+        -
+                uuid: a6c151d9-386f-415a-beb2-c9eb1405251c
+                front: belay
+                back: fix (a running rope) round a cleat, rock, pin, or other object, to secure it; (nautical slang) stop; desist from
+                include_reverse: true
+        -
+                uuid: 620987dd-1f60-4af2-9619-a5813c6da3cd
+                front: to line one's pockets
+                back: make much money, especially in an illegal or questionable way
+        -
+                uuid: 555047b7-517d-4da5-bb5d-a6bd0c1a771c
+                front: confounded
+                back: used for emphasis, especially to express anger or annoyance (informal, dated)
+        -
+                uuid: 6bcf6888-6bb1-4c16-9b8b-6015d016af5f
+                front: jostle
+                back: push, elbow, or bump against (someone) roughly, typically in a crowd
