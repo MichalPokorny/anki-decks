@@ -164,12 +164,17 @@ notes:
                 uuid: 5071f3a5-9735-46ce-90d8-e13d3e9d9eea
                 front: Amortizovaný čas na Splay -- jak vyjde, další kroky v důkazu
                 back: >
-                        [$]t = a + \\Phi(T') - \\Phi(T)[/$], kde [$]a[/$] je skutečný čas, [$]\\Phi[/$] je potenciál, [$]t[/$] je amortizovaný čas<br>
+                        [$]t = a + \\Phi(T') - \\Phi(T)[/$],<br>
+                        kde [$]a[/$] je skutečný čas, [$]\\Phi[/$] je potenciál, [$]t[/$] je amortizovaný čas<br>
 
-                        Potenciál pro Splay strom: [$]\\Phi(t) := \\sum_{x\\in T}r(x); r(x) := \\log_2([/$]počet vrcholů pod [$]x)[/$]<br>
+                        Potenciál pro Splay strom:<br>
+                        [$]\\Phi(t) := \\sum_{x\\in T}r(x); r(x) := \\log_2([/$]počet vrcholů pod [$]x)[/$]<br><br>
 
-                        Čas na [$]m[/$] operací: [$]\\sum_m t_i = \\sum_m [a_i + \\Phi(T_i) - \\Phi(T_{i-1})] = (\\sum_m a_i) + \\Phi(T_m) - \\Phi(T_0) \\Rightarrow \\sum_m a_i = \\sum_m t_i + \\Phi(T_0) - \\Phi(T_m)[/$],
-                        tedy čas na [$]m[/$] operací je [$]m \\O(\\log n) + \\O(n \\log n)[/$]<br>
+                        Čas na [$]m[/$] operací: [$]\\sum_m t_i =
+                        \\sum_m [a_i + \\Phi(T_i) - \\Phi(T_{i-1})] =
+                        (\\sum_m a_i) + \\Phi(T_m) - \\Phi(T_0) \\Rightarrow[/$]
+                        [$$]\\sum_m a_i = \\sum_m t_i + \\Phi(T_0) - \\Phi(T_m)[/$$],
+                        tedy čas na [$]m[/$] operací je [$]m \\O(\\log n) + \\O(n \\log n)[/$]<br><br>
 
                         Budeme chtít dokázat, že jednotlivé cases ve Splay nemění moc potenciál.
         -

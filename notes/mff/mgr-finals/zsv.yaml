@@ -34,7 +34,7 @@ notes:
                 uuid: 89023cc1-1554-4a94-b11a-1564f2c50738
                 front: Značení všech slov nad abecedou [$]\\Sigma[/$]
                 back: >
-                        [$]\\Sigma^*[/$]
+                        [$]\\Sigma^{ * }[/$]
         -
                 uuid: 543cd1cc-3c57-4507-81bb-025ce4efd0e6
                 front: Značení doplňku jazyka
@@ -116,7 +116,7 @@ notes:
                 uuid: 5c6cf7a4-017d-4858-98bb-a77ba89f9e97
                 front: Diagonalizační jazyk a jaký je?
                 back: >
-                        [$]L_{DIAG}=\\{w_i\\in\\{0,1\\}^*: w_i\\not\\in L(M_i)\\}[/$]
+                        [$]L_{DIAG}=\\{w_i\\in\\{0,1\\}^{ * }: w_i\\not\\in L(M_i)\\}[/$]
                         Není částečně rozhodnutelný. Jeho doplněk je částečně rozhodnutelný, není rozhodnutelný.
         -
                 uuid: fae12c3e-b261-4f67-ba8c-f7838a29b2b0
@@ -176,7 +176,7 @@ notes:
                 uuid: 21f375d5-ecc2-4ce6-84b7-f2e60bac1a01
                 front: >
                         Značení: funkce počítaná [$]M_e[/$], funkce [$]n[/$]
-                        parametrů ([$]< x_1,\\ldots x_n >=< x_1\\#x_2\\#\\ldots x_n >\\in\\sigma_b^*[/$]) počítaná [$]M_e[/$]
+                        parametrů ([$]< x_1,\\ldots x_n >=< x_1\\#x_2\\#\\ldots x_n >\\in\\sigma_b^{ * }[/$]) počítaná [$]M_e[/$]
                 back: >
                         [$]\varphi_e[/$]; [$]\varphi_e^{(n)}[/$]
         -
@@ -191,7 +191,7 @@ notes:
                         Tři ekvivalence pro částečně rozhodnutelné jazyky
                 back: >
                         [$]L[/$] je částečně rozhodnutelný, právě když existuje TS [$]M[/$] že [$]L=\\{x\\in\\Sigma_b^\\*|M_e(x)\\downarrow\\}(=dom \\varphi_e)[/$],<br>
-                        právě když existuje rozhodnutelný jazyk [$]B[/$] splňující [$]L=\\{x\\in\\Sigma_b^\\*|(\\e y\\in\\Sigma_b^*)[< x,y >\\in B]\\}[/$]
+                        právě když existuje rozhodnutelný jazyk [$]B[/$] splňující [$]L=\\{x\\in\\Sigma_b^\\*|(\\e y\\in\\Sigma_b^{ * })[< x,y >\\in B]\\}[/$]
         -
                 uuid: 355cfdb8-e5f1-44a5-af7d-fa959ade824e
                 front: Rozhodnutelnost jazyka a jeho charakteristická funkce
@@ -209,7 +209,7 @@ notes:
                 back: >
                         [$]A[/$] je [$]m[/$]-převoditelný na [$]B[/$] ([$]A\\leq_m B[/$]),
                         pokud existuje totální vyčíslitelná funkce [$]f[/$] kde
-                        [$] (\\a x\\in\\Sigma_b^*)[x\\in A\\ekv f(x)\\in B][/$]
+                        [$] (\\a x\\in\\Sigma_b^{ * })[x\\in A\\ekv f(x)\\in B][/$]
 
                         [$]A[/$] je [$]m[/$]-úplný, když [$]A[/$] je částečně rozhodnutelný a každý částečně rozhodnutelný jazyk je na něj [$]m[/$]-převoditelný.
 
@@ -242,7 +242,7 @@ notes:
                 uuid: 59b466a9-4d50-467a-a626-fa0ff7fbbc18
                 front: s-m-n věta
                 back: >
-                        Pro každá [$]m,n\\geq 1[/$] existuje prostá totální vyčíslitelná funkce [$]s_n^m:\\N^{m+1}\\rightarrow\\N[/$] že pro každé [$]x,y_1,\\ldots y_m,z_1,\\ldots z_n\\in\\Sigma_b^*[/$] platí:
+                        Pro každá [$]m,n\\geq 1[/$] existuje prostá totální vyčíslitelná funkce [$]s_n^m:\\N^{m+1}\\rightarrow\\N[/$] že pro každé [$]x,y_1,\\ldots y_m,z_1,\\ldots z_n\\in\\Sigma_b^{ * }[/$] platí:
                         [$$]\\varphi^{(n)}_{s_n^m(x,y_1,\\ldots,y_m)}(z_1,\\ldots z_n)\\simeq \\varphi_x^{(m+n)}(y_1,\\ldots y_m,z_1,\\ldots z_n)[/$$]
         -
                 uuid: 0fbdef69-824c-445e-8d35-36c9ee3c35c1
@@ -398,7 +398,11 @@ notes:
                 uuid: 73d93eaf-7076-4438-b11b-8bf67e38c6dd
                 front: Polynomiální převoditelnost jazyků - definice
                 back: >
-                        [$]A[/$] je převoditelný na [$]B[/$] v polynomiálním čase ([$]A\\leq_m^P B[/$]) pokud existuje funkce [$]f:\\Sigma^*\\rightarrow\\Sigma^*[/$] vyčíslitelná v polynomiálním čase, pro kterou platí [$] (\\a w\\in\\Sigma^*)[w\\in A\\ekv f(w)\\in B][/$].
+                        [$]A[/$] je převoditelný na [$]B[/$] v polynomiálním
+                        čase ([$]A\\leq_m^P B[/$]) pokud existuje funkce
+                        [$]f:\\Sigma^{ * }\\rightarrow\\Sigma^{ * }[/$]
+                        vyčíslitelná v polynomiálním čase, pro kterou platí
+                        [$] (\\a w\\in\\Sigma^{ * })[w\\in A\\ekv f(w)\\in B][/$].
         -
                 uuid: fd140e5b-ec7b-4715-b4ec-285ee23ea004
                 front: Vlastnosti relace polynomiální převoditelnosti, P a NP třídy
@@ -456,18 +460,19 @@ notes:
                 uuid: 51e11847-8c9c-4dcb-96e9-7436a42f315d
                 front: Pseudopolynomiální algoritmus na batoh, složitost
                 back: >
-                        Vstup: velikost batohu, pole cen a hmotností předmětů. Výstup: maximálně cenné předměty co se vejdou do batohu.
+                        Vstup: velikost batohu, pole cen a hmotností předmětů. Výstup: maximálně cenné předměty co se vejdou do batohu.<br>
 
-                        Algoritmus: Postupně buduj matici, co pro každé [$]j, c[/$] obsahuje množinu prvků z [$]\\{1,\ldots j\\}[/$] s cenou [$]c[/$] a minimální celkovou vahou předmětů.
+                        Algoritmus: Postupně buduj matici, co pro každé [$]j, c[/$] obsahuje množinu prvků z [$]\\{1,\ldots j\\}[/$] s cenou [$]c[/$] a minimální celkovou vahou předmětů.<br>
 
-                        Složitost: [$]\\Theta(nV)[/$], kde [$]V[/$] je součet cen.
+                        Složitost: [$]\\Theta(nV)[/$], kde [$]V[/$] je součet cen.<br>
                         Velikost vstupu je [$]O(n\\log_2 (B+V))[/$], takže je pseudopolynomiální.
         -
                 uuid: 3970c764-03cb-4435-8c87-3a6e8c799bdd
                 front: Číselný rozhodovací problém
                 back: >
-                        Rozhodovací problém [$]A[/$] je číselný, pokud pro každý polynom [$]p[/$] existuje instance kde [$]max(I) > p(len(I))[/$], kde [$]max[/$] je největší číselný parametr vyskytující se v [$]I[/$], [$]len[/$] je délka instance v binárním kódování.
-                        Batoh, Loupežníci jsou číselné. Splnitelnost, Kachlíkování nejsou.
+                        Rozhodovací problém [$]A[/$] je číselný, pokud pro každý polynom [$]p[/$] existuje instance kde [$]max(I) > p(len(I))[/$], kde [$]max[/$] je největší číselný parametr vyskytující se v [$]I[/$], [$]len[/$] je délka instance v binárním kódování.<br>
+                        Batoh, Loupežníci jsou číselné.<br>
+                        Splnitelnost, Kachlíkování nejsou.
         -
                 uuid: eb633e57-b96a-4939-a4cf-0e0382b17f16
                 front: Definice pseudopolynomiálního algoritmu
@@ -531,7 +536,9 @@ notes:
                 uuid: 572141c6-b0be-42b6-97cb-928b80eab0c2
                 front: co-NP a verifikátory
                 back: >
-                        [$]L[/$] patří do co-NP právě když existuje polynom [$]p[/$] a polynomiální verifikátor, že [$]L=\\{x | (\\a y) [|y|\\leq p(|x|) \\Righarrow V(x,y) přijme]\\}[/$]. (Viz: [$]\\a[/$], ne [$]\\e[/$])
+                        [$]L[/$] patří do co-NP právě když existuje polynom
+                        [$]p[/$] a polynomiální verifikátor, že [$]L=\\{x | (\\a y) [|y|\\leq p(|x|) \\Rightarrow V(x,y) prijme]\\}[/$].
+                        (Viz: [$]\\a[/$], ne [$]\\e[/$])
         -
                 uuid: 1fceb52f-228d-412e-ab24-ddacb23e3f01
                 front: P a NP a co-NP

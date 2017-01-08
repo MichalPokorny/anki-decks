@@ -21,6 +21,10 @@ for path in yaml_files:
             raise
 
         for note in data['notes']:
+            if 'uuid' not in note:
+                print(note)
+                print('No UUID')
+                sys.exit(1)
             uuid = note['uuid']
             if uuid in uuids:
                 print('Duplicated UUID:', uuid)

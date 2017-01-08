@@ -13,7 +13,7 @@ notes:
                 back:
                         We pay [$]y_1[/$], if horse 1 wins, we get back [$]u_1 y_1[/$], otherwise nothing.
 
-                        Optimal bet for fixed [$]Y=y_1+y_2+\ldots[/$] is [$]y_1^* u_1 = y_2^* u_2 = \ldots[/$]
+                        Optimal bet for fixed [$]Y=y_1+y_2+\ldots[/$] is [$]y_1^{ * } u_1 = y_2^{ * } u_2 = \ldots[/$]
 
                         I can get a guaranteed profit if [$]\frac{1}{\sum_i u_i^{-1}} > 1[/$].
                         If it's equal, I break even. Else, I lose.

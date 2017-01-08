@@ -1,5 +1,10 @@
 deck: Magisterské státnice::Neuronové sítě
 notes:
+        -
+                uuid: fd1046a3-c791-47a7-bc0b-61af423e6ab1
+                front: Sigmoida s parametrem
+                back: >
+                        [$$]\\sigma(t)=(1+\\exp(-\\lambda t))^{-1}[/$$]
         # 01-introduction
         -
                 uuid: 9750b835-3a32-4395-9cca-cd9e09bf5fe6
@@ -132,7 +137,8 @@ notes:
                 front: Aktualizace vah s momentem
                 back: >
                         [$$]
-                        w_{ij}^{(t+1)} = w_{ij}^{(t)} + \\alpha \\delta_j y_i + \\alpma_m (w_{ij}^{(t)} - w_{ij}^{(t-1)})
+                        w_{ij}^{(t+1)} = w_{ij}^{(t)} + \\alpha \\delta_j y_i +
+                                \\alpha_m (w_{ij}^{(t)} - w_{ij}^{(t-1)})
                         [/$$]
         -
                 uuid: 855893e2-9a41-4b34-9a45-c05098fce827
@@ -163,25 +169,26 @@ notes:
                 front: Jaká bude střední hodnota potenciálu když nainicializujeme váhy náhodně v [$]\\alpha_m[/$] kolem nuly?
                 back: >
                         [$$]
-                        E[\\xi_j] = E[\\sum_{i=0}^n w_{ij} x_i]=\\sum_{i=0}^n E[w_ij] E[x_i] = 0
+                        E[\\xi_j] = E[\\sum_{i=0}^n w_{ij} x_i]=\\sum_{i=0}^n E[w_{ij}] E[x_i] = 0
                         [/$$]
         -
                 uuid: 6bfe2886-12e0-4001-9652-80e9da1b051b
                 front: Chytrá volba vah - odvození rozptylu potenciálu
                 back: >
                         [$$]
-                        \\sigma_{\\xi_j}^2 = E[(\\xi_j)^2] - (E[\\xi_j])^2 = E[(\\sum_{i=0}^n w_{ij} x_i)^2] - 0 =
-
-                        = \\sum_{i,k=0}^{n} E[w_{ij} w_{kj} x_i x_k] = \\sum_{i=0}^n E[(w_{ij})^2 E[(x_i)^2]
+                        \\sigma_{\\xi_j}^2 = E[ (\\xi_j)^2] - (E[\\xi_j])^2 = E[ (\\sum_{i=0}^n w_{ij} x_i)^2] - 0 =
+                        [/$$]
+                        [$$]
+                        = \\sum_{i,k=0}^{n} E[w_{ij} w_{kj} x_i x_k] = \\sum_{i=0}^n E[(w_{ij})^2] E[(x_i)^2]
                         [/$$]
         -
                 uuid: 27dde7d4-ec20-4d03-a645-c191998c0b62
-                front: Chytrá volba vah - jaká je střední hodnota [$](x_i)^2[/$] když je [$]x[/$] rovnoměrně v [$][0;1][/$]?
+                front: Chytrá volba vah - jaká je střední hodnota [$] (x_i)^2[/$] když je [$]x[/$] rovnoměrně v [$][0;1][/$]?
                 back: >
                         [$]1/3[/$]
         -
                 uuid: 01f20ae2-2fc3-4490-aec4-d1da73e92863
-                front: Chytrá volba vah - jaká je střední hodnota [$](w_{ij})^2[/$] když je [$]w_{ij}[/$] rovnoměrně v [$][-a;a][/$]?
+                front: Chytrá volba vah - jaká je střední hodnota [$] (w_{ij})^2[/$] když je [$]w_{ij}[/$] rovnoměrně v [$][-a;a][/$]?
                 back: >
                         [$]a^2/3[/$]
         -
@@ -207,12 +214,12 @@ notes:
                 back: >
                         Není tak citlivý na exponenciální růst když se moc dlouho zrychluje.
 
-                        [$]\\delta_{ij}^{(k)} = (1-\\Phi)\\frac{\\partial E}{\\partial w_{ij}} + \\Phi \\delta_i^{(k+1)}[/$],
+                        [$]\\delta_{i}^{(k)} = (1-\\Phi)\\frac{\\partial E}{\\partial \\xi_{i}} + \\Phi \\delta_i^{(k+1)}[/$],
                         kde [$]\\Phi[/$] je konstanta.
 
-                        Když [$]\\delta_{ij}^{(k-1)} \\cdot \\frac{\\partial E}{\\partial w_{ij}} > 0[/$], tak [$]\\alpha_{ij} += u[/$], jinak [$]*= d[/$].
+                        Když [$]\\delta_{i}^{(k-1)} \\cdot \\frac{\\partial E}{\\partial \\xi_{i}} > 0[/$], tak [$]\\alpha_{i} += \\uparrow[/$], jinak [$]/= \\downarrow[/$].
 
-                        Aktualizace vah je bez momentu.
+                        Aktualizace vah je bez momentu: [$]w_i -= \\alpha_i^{(k)} \\delta_i^{(k)} y_i^{(k)}[/$].
         -
                 uuid: 337f8612-aa5f-4688-a6b3-2cf6b499bf65
                 front: Super-SAB algoritmus
@@ -232,7 +239,7 @@ notes:
                 uuid: 8606828b-9128-45ff-b000-7e22e0ad5b19
                 front: Aproximace gradientu druhého řádu. O co se s ním snažíme?
                 back: >
-                        [$]\\nable E(w+h)^T\\simeq\\nabla E(w)^T + h^T \\nabla^2 E(w)[/$]
+                        [$]\\nabla E(w+h)^T\\simeq\\nabla E(w)^T + h^T \\nabla^2 E(w)[/$]<br>
 
                         Snažíme se gradient [$]h = -(\\nabla^2 E(w))^{-1} \\nabla E(w)[/$] mít nulový, protože hledáme minimum [$]E[/$].
         -
@@ -270,12 +277,12 @@ notes:
                 back: >
                         Je rychlejší a přesnější v oblasti minima erf.
                         Kombinace gradientní a Newtonovy metody.
-                        [$$]w_{\\min}=w_0-(H+\\lambda I)^{-1} \\cdot g[/$$], kde [$]g[/$] je gradient, [$]H[/$] je Hessovská matice
+                        [$$]w_{\\min}=w_0-(H+\\lambda I)^{-1} \\cdot g[/$$], kde [$]g[/$] je gradient, [$]H[/$] je Hessovská matice<br>
 
-                        Pro 1 výstup: [$]g_i = \\partial E/\\partial w_i = 2(y-d)\\frac{\\partial y}{\\partial w_i}[/$]
+                        Pro 1 výstup: [$]g_i = \\partial E/\\partial w_i = 2(y-d)\\frac{\\partial y}{\\partial w_i}[/$]<br>
 
-                        [$$]\\partial^2 E/\\partial w_i \\partial w_j = 2[\\frac{\\partial y}{\\partial w_i}\\frac{\\partial y}{\\partial w_j} + (y-d)\\frac{\\partial^2 y}{\\partial w_i \\partial w_j}][/$$]
-                        Druhý člen -- ten s [$](y-d)[/$] -- se zanedbá.
+                        [$$]\\partial^2 E/\\partial w_i \\partial w_j = 2[\\frac{\\partial y}{\\partial w_i}\\frac{\\partial y}{\\partial w_j} + (y-d)\\frac{\\partial^2 y}{\\partial w_i \\partial w_j}][/$$]<br>
+                        Druhý člen -- ten s [$] (y-d)[/$] -- se zanedbá.<br>
         -
                 uuid: 4e8953f3-7b3e-4d23-8c89-b618df5773a6
                 front: Relaxační metody - perturbace vah
@@ -301,14 +308,14 @@ notes:
                 uuid: 99ccc2b2-92aa-42f0-9324-395f522bd8ad
                 front: Počet oblastí určených [$]m[/$] dělícími nadrovinami dimenze [$]n-1[/$] v [$]n[/$]-rozměrném prostoru -- closed-form vzorec
                 back: >
-                        [$]R(m,n)=2 \\sum_{i=0}^{n-1} ({m-1} \\choose {i})[/$]
+                        [$]R(m,n)=2 \\sum_{i=0}^{n-1} { {m-1} \\choose {i}}[/$]
         -
                 uuid: bab5c148-ed49-41aa-a7a9-e4adc2e8399a
                 front: Počet vzorů potřebných pro správné zobecňování s generalizační chybou [$]\\varepsilon[/$], dle počtu vah [$]W[/$] a počtu neuronů [$]N[/$]
                 back: >
-                        [$]P \\geq (W/\\varepsilon) \\log_2 (N/\\varepsilon)[/$]
+                        [$]P \\geq (W/\\varepsilon) \\log_2 (N/\\varepsilon)[/$]<br>
 
-                        Pro 1 skrytou vrstvu: nemůže dobře zobecňovat když bylo méně než [$]W/\\varepsilon[/$] vzorů.
+                        Pro 1 skrytou vrstvu: nemůže dobře zobecňovat když bylo méně než [$]W/\\varepsilon[/$] vzorů.<br>
                         Tedy: pro přesnost [$]90\\%[/$] chci aspoň [$]10\\cdot W[/$] vzorů.
         # 05-internal-representation
         -
@@ -389,12 +396,12 @@ notes:
                 back: Protože bipolární vektory mají větší šanci na ortogonalitu.
         -
                 uuid: 62c57f98-ecf3-4202-89da-f2e7a7cbce49
-                front: Výstup Hebbovské sítě natrénované na matici pro [$](x,y)[/$] na nenulovém vektoru [$]x[/$], [$]-x[/$]?
+                front: Výstup Hebbovské sítě natrénované na matici pro [$] (x,y)[/$] na nenulovém vektoru [$]x[/$], [$]-x[/$]?
                 back: >
                         [$]y[/$], [$]-y[/$]
         -
                 uuid: 42fd3ab6-5cbc-488b-b62d-1071d55681a3
-                front: Jak vypadá matice sítě pro Hebbovské učení, která má trénovací vzory [$](x_1,y_1), (x_2,y_2), \\ldots[/$]?
+                front: Jak vypadá matice sítě pro Hebbovské učení, která má trénovací vzory [$] (x_1,y_1), (x_2,y_2), \\ldots[/$]?
                 back: >
                         [$]W=W^{(1)} + W^{(2)} + \\ldots + W^{(m)}[/$]
 
@@ -508,11 +515,11 @@ notes:
                         to samé pro [$]x[/$].
         -
                 uuid: be56641a-04d0-4f75-b00e-7a343e9a79dd
-                front: Kdy by [$](x_0,y_0)[/$] byl stabilní stav BAM? Jak se z toho odvodí energetická funkce BAMu?
+                front: Kdy by [$] (x_0,y_0)[/$] byl stabilní stav BAM? Jak se z toho odvodí energetická funkce BAMu?
                 back: >
                         [$]e^T:=W\cdot y_0[/$]
 
-                        [$](x_0,y_0)[/$] je stabilni stav, kdyz [$]\\sgn(e)=x_0[/$]
+                        [$] (x_0,y_0)[/$] je stabilni stav, kdyz [$]\\sgn(e)=x_0[/$]
                         (skalarni soucin [$]x_0 \\cdot e^T[/$] by mel byt vetsi nez skalarni soucin jinych excitacnich vektoru a [$]x_0[/$])
 
                         Energeticka funkce BAM: [$]E:=-x_0 W y_0^T[/$].
@@ -716,7 +723,7 @@ notes:
                 back: >
                         [$$]E_X(w)=\\sum_{i=1}^m \\|x_i-w\\|^2[/$$]
 
-                        Dá se ukázat, že optimum je v těžišti: [$]E = \\ldots = m\\|w-x^*\\|^2+C[/$]
+                        Dá se ukázat, že optimum je v těžišti: [$]E = \\ldots = m\\|w-x^{ * }\\|^2+C[/$]
         -
                 uuid: 2072bd8e-458a-45e3-953a-8c2bab6198d2
                 front: >
@@ -809,7 +816,7 @@ notes:
                         Kostra důkazu: Jeden neuron Kohonenovy mapy na intervalu [$][a;b][/$] se ustálí ve středu
                 back: >
                         1. Ocekavana hodnota derivace musi byt 0, jinak by mohlo byt ocekavana hodnota vahy [$]<a[/$] nebo [$]>b[/$].
-                        2. Derivace je nula, tedy ocekavana hodnota vahy vyjde [$](a+b)/2[/$]
+                        2. Derivace je nula, tedy ocekavana hodnota vahy vyjde [$] (a+b)/2[/$]
         -
                 uuid: 69a572dd-fa8e-40b6-9367-29d8a18c7d99
                 front: Varianty učících algoritmů pro Kohonenovy mapy
@@ -891,14 +898,14 @@ notes:
 
                         Spočítej výstupy výstupných neuronů: [$]\\mu_j = \\sum_{i=0}^{N-1} b_{ij}(t) x_i[/$]
 
-                        Vyber nejlépe odpovídající vzor: [$]\\mu_{j^*} = \\max_j\\{\\mu_j\\}[/$]
+                        Vyber nejlépe odpovídající vzor: [$]\\mu_{j^{ * }} = \\max_j\\{\\mu_j\\}[/$]
 
                         Test bdělosti: [$]\\|x\\|=\\sum_i x_i, \\|T\\cdot x\\|=\\sum_i t_{ij} \\cdot x_i[/$]
-                        Když [$]\\frac{\\|T\\cdot x\\|}{\\|x\\|}<\\rho[/$], dočasně nastav výstup [$]j^*[/$] na nulu, znova vyber nejlepší neuron (aniž se tenhle účastní).
+                        Když [$]\\frac{\\|T\\cdot x\\|}{\\|x\\|}<\\rho[/$], dočasně nastav výstup [$]j^{ * }[/$] na nulu, znova vyber nejlepší neuron (aniž se tenhle účastní).
 
                         Aktualizace nejlépe odpovídajícího neuronu:
-                        [$]t_{ij^*}(t+1) = t_{ij^*}(t) \\cdot x_i[/$],
-                        [$]b_{ij^*}(t+1) = \\frac{t_{ij^*) \\cdot x_i}{0.5 + \\sum_{k=0}^{N-1} t_{kj^*}(t) \\cdot x_k}
+                        [$]t_{ij^{ * }}(t+1) = t_{ij^{ * }}(t) \\cdot x_i[/$],
+                        [$]b_{ij^{ * }}(t+1) = \\frac{t_{ij^{ * }) \\cdot x_i}{0.5 + \\sum_{k=0}^{N-1} t_{kj^{ * }}(t) \\cdot x_k}
 
                         Odmraž neurony a opakuj.
         -
@@ -1000,7 +1007,7 @@ notes:
                         [$]p_m[/$]: pravděpodobnost mutace na jedné pozici<br>
                         [$]o(H)[/$]: řád schematu<br>
 
-                        Pro malé [$]p_m[/$]: [$](1-p(m))^{o(H)} \\approx 1-o(H) \\cdot p_m[/$]
+                        Pro malé [$]p_m[/$]: [$] (1-p(m))^{o(H)} \\approx 1-o(H) \\cdot p_m[/$]
         -
                 uuid: d0369892-a5b7-4b6f-b54f-be61f6d28fed
                 front: Kdy může být lepší použít GA než backprop?
@@ -1124,7 +1131,7 @@ notes:
                         konstanta [$]K_\\varepsilon>0[/$], že:
 
                         Pokud existuje v [$]\\ell[/$]-té skryté vrstvě neuron
-                        [$]k[/$] takový, že [$](\\a x\\in S)(\\a i \\in O) |w_ki z_k| \\leq K_\\varepsilon[/$],
+                        [$]k[/$] takový, že [$] (\\a x\\in S)(\\a i \\in O) |w_ki z_k| \\leq K_\\varepsilon[/$],
 
                         <br>
                         potom je [$]M^k[/$], ve které odeberu neuron [$]k[/$],

@@ -1,0 +1,112 @@
+deck: Magisterské státnice::Řešení úloh a plánování
+notes:
+        # AI lecture03eng
+        -
+                uuid: 8342b4dc-4a9c-4c8c-b57f-94b53653afed
+                front: Prohledávání stavového prostoru jako stromu -- velmi obecně
+                back: >
+                        Začni v rootu. Zkontroluj jestli jsem v goalu.
+                        Expanduj cíl, pomocí prohledávací strategie vyber další stav.
+        -
+                uuid: e6ef86bf-1eba-4bb5-99c8-9760d4ad3ec9
+                front: Co obsahuje vrchol v prohledávacím stromu ve stavovém prostoru?
+                back: >
+                        Současný stav, pointer do předka, akci která vedla, cenu od kořene, hloubku
+        -
+                uuid: fe251941-8358-4b01-b741-0a8f376d9473
+                front: Prohledávání stavového prostoru - Fringe
+                back: >
+                        Ještě neexpandované vrcholy
+        -
+                uuid: be2091b5-6825-446d-80c1-4b77bc72c965
+                front: Co nás zajímá na algoritmech na prohledání stavového prostoru?
+                back: >
+                        Kompletnost - najde řešení když existuje?<br>
+                        Najde optimální řešení?<br>
+                        Časová složistost<br>
+                        Prostorová složitost
+        -
+                uuid: 6a6ebfa1-3d51-40c4-8c5c-9f93993d4845
+                front: Jaké faktory určují složitost prohledávání stavového prostoru?
+                back: >
+                        Branching faktor: [$]b[/$]<br>
+                        Depth: [$]d[/$] (do nejbližšího goalu)<br>
+                        Path length: [$]m[/$] (maximální délka cesty)
+        -
+                uuid: c79e7482-5e74-47bd-a372-fb3772d4d8b6
+                front: Informované a neinformované hledání
+                back: >
+                        Informované hledání: používám heuristiky
+        -
+                uuid: 3a7a6840-ec4b-448f-98d4-1394cbc76b37
+                front: Prohledávání stavového prostoru - BFS, časová složitost, prostorová složitost
+                back: >
+                        Expanduj všechno v dané hloubce -- FIFO.
+                        Je kompletní.<br>
+
+                        Optimalita: Nejmělčí cílový stav není nutně optimální!<br>
+
+                        Časová složitost: [$]\\O(b^{d+1})[/$], to samé prostor. Brzo dojde.
+        -
+                uuid: 0b4190bb-97c2-45be-b979-8a27aa7278f9
+                front: Uniform-cost search
+                back: >
+                        Modifikuju BFS abych našel optimální řešení.
+                        Expanduju node, který má nejmenší cost [$]g(n)[/$].
+                        (Bacha na zero-cost steps!)<br>
+
+                        Completeness and optimality: jestli cena kroku je kladná (nenulová)<br>
+
+                        Složitost záleží na ceně optimální cesty.
+                        [$]\\O(b^{1+\\lfloor C^*/\\varepsilon \\rfloor})[/$]<br>
+
+                        Může to být mnohem horší než BFS.
+        -
+                uuid: 6f7b2909-b6c3-4bf9-9a5e-e74daaee48b1
+                front: Prohledávání stavového prostoru - DFS, složitost - prostorová, časová
+                back: >
+                        Vždy expanduj nejhlubší node, pomocí LIFO jako frontieru.
+                        Není kompletní (může se zacyklit), nemusí najít optimum.<br>
+
+                        Složitost: [$]\\O(b^m)[/$], kde [$]m[/$] je maximální hloubka. (Délka cesty může být [$]d<<m[/$]...)<br>
+
+                        Prostorová složitost: [$]\\O(bm)[/$]<br>
+                        Jestli dělám backtracking a generuju jenom jednoho successora: [$]\\O(m)[/$].
+                        Modifikuj jenom tenhle stav: [$]\\O(m)[/$] akcí, [$]\\O(1)[/$] stavů
+        -
+                uuid: 0fa8e941-36e3-4319-af1f-63cb7479629f
+                front: Jak můžu určit depth limit pro DFS?
+                back: Můžu to vykoukat z problému (například, počet měst, průměr grafu). Čím větší hloubku dovolím DFS, tím déle bude trvat.
+        -
+                uuid: fd7c9d1d-65c5-4b74-95f3-f141681c5bd0
+                front: Jak udělat z depth-limited search kompletní algoritmus?
+                back: Iterative deepening
+        -
+                uuid: 9ea6deed-73cd-4de5-85ba-ba861f8557d9
+                front: Iterative deepening - kompletnost, optimalita, spotřeba paměti, časová složitost
+                back: >
+                        Kompletnost: ano, když je konečný branching faktor<br>
+                        Optimalita: jenom jestli je cena cesty úměrná hloubce<br>
+                        Paměť: [$]\\O(bd)[/$]<br>
+                        Časová složitost: [$]\\O(b^d)[/$] (BFS prozkoumá totiž ještě jeden level?)
+        -
+                uuid: eed965d2-4aa4-4a40-ad8b-86deaf7d65d0
+                front: Jakou metodu uninformed search použít když je velký stavový prostor a neznám hloubku řešení?
+                back: Iterative speech
+        -
+                uuid: ed0b5358-68fd-4cdb-b0a8-12a8af3a5829
+                front: Bidirectional search
+                back: >
+                        Dva searche zároveň: forward a backward.
+                        [$]b^{d/2}+b^{d/2}<<b^d[/$].
+                        <br>
+                        Než expanduju node, prověřím že není ve druhém frontieru.
+                        Jeden musím nechat v paměti (tedy [$]\\O(b^{d/2})[/$] na paměť).
+                        Jestli použiju BFS, dostanu kompletní algoritmus.
+                        (Ale první řešení pořád nemusí být optimální.)
+        -
+                uuid: 6283bbe8-7558-41d5-9469-ccd7dacf5476
+                front: Problém při zpětném prohledávání ve stavovém prostoru
+                back: >
+                        Když cíl je nějaká abstraktní funkce (např. 8-queens).
+        # AI lecture04eng
