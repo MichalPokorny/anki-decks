@@ -191,7 +191,7 @@ notes:
                         Tři ekvivalence pro částečně rozhodnutelné jazyky
                 back: >
                         [$]L[/$] je částečně rozhodnutelný, právě když existuje TS [$]M[/$] že [$]L=\\{x\\in\\Sigma_b^\\*|M_e(x)\\downarrow\\}(=dom \\varphi_e)[/$],<br>
-                        právě když existuje rozhodnutelný jazyk [$]B[/$] splňující [$]L=\\{x\\in\\Sigma_b^\\*|(\\e y\\in\\Sigma_b^*)[\\< x,y >\\in B]\\}[/$]
+                        právě když existuje rozhodnutelný jazyk [$]B[/$] splňující [$]L=\\{x\\in\\Sigma_b^\\*|(\\e y\\in\\Sigma_b^*)[< x,y >\\in B]\\}[/$]
         -
                 uuid: 355cfdb8-e5f1-44a5-af7d-fa959ade824e
                 front: Rozhodnutelnost jazyka a jeho charakteristická funkce

@@ -59,9 +59,9 @@ notes:
                 uuid: 9e37fe36-e0fd-4464-8967-a9c10809dc60
                 front: Dva typy neuronových membrán
                 back: >
-                        Vodivá (myelinový povlak), transmisní
+                        Vodivá (myelinový povlak), transmisní<br>
 
-                        Vodivá: má v sobě Ranvierovy zářezy (zrychlují přenos asi 50x a snižují zkreslení)
+                        Vodivá: má v sobě Ranvierovy zářezy (zrychlují přenos asi 50x a snižují zkreslení)<br>
                         Transmisní: navíc má v sobě receptorové proteiny, co zavírají/otevírají iontové kanály
         -
                 uuid: 10df7441-510e-405b-b79a-ce9eff9c001b

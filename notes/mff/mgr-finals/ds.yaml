@@ -73,7 +73,11 @@ notes:
                 front: >
                         [$] (a,b)[/$]-strom -- amortizovaný počet štěpení a splučování v sekvenci Insertů a Deletů
                 back: >
-                        [$]\\O(m+l+\\log n)[/$] splitů na [$]m[/$] Insertů, [$]\\ell[/$] Deletů, takže [$]\\O(1)[/$] amortizovaně splitů/insertů za operaci
+                        [$]\\O(m+\\ell+\\log n)[/$] splitů na [$]m[/$] Insertů,
+                        [$]\\ell[/$] Deletů, takže [$]\\O(1)[/$] amortizovaně
+                        splitů/insertů za operaci<br>
+
+                        Předpoklad: [$]b\\geq 2a[/$]
         -
                 uuid: 34d286ac-489f-42df-89f4-be0f7ec168ab
                 front: A-sort a jeho složitost
@@ -90,7 +94,7 @@ notes:
 
                         [$]F[/$]: počet "inverzí"<br>
 
-                        Alternativně: hledání od nejpravějšího listu [$]\\rightarrow \\leq 1 + \\log_a |\{j < i+1, x_j > x_i\}|[/$]
+                        Alternativně: hledání od nejpravějšího listu [$]\\rightarrow \\leq 1 + \\log_a |\\{j < i+1, x_j > x_i\\}|[/$]
         -
                 uuid: cede43cf-fed3-463f-abe4-646bd6fc51aa
                 front: Red-black trees -- axiomy
