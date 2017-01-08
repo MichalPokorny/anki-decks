@@ -162,11 +162,11 @@ notes:
                         Značení a definice: doména, obor hodnot funkce, podmíněná rovnost
                 back: >
                         [$$]
-                        dom f = \\{x\\in\\Sigma_b^\\* | f(x)\\downarrow\\}
+                        dom f = \\{x\\in\\Sigma_b^{ * } | f(x)\\downarrow\\}
                         [/$$]
 
                         [$$]
-                        rng f = \\{y\\in\\Sigma_b^\\* | (\\e x\\in\\Sigma_b^\\*)[f(x)\downarrow=y]\\}
+                        rng f = \\{y\\in\\Sigma_b^{ * } | (\\e x\\in\\Sigma_b^{ * })[f(x)\downarrow=y]\\}
                         [/$$]
 
                         [$$]

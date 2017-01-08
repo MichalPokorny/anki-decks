@@ -170,3 +170,15 @@ notes:
                 topic: Latency Numbers Every Programmer Should Know
                 front: Send packet CA->Netherlands->CA
                 back: 150 ms
+        -
+                uuid: 1e7abb11-fed9-4935-bd50-dcfa96216acb
+                front: 1 AU in km
+                back: >
+                        1 AU = [$]149.6 \\cdot 10^6 km[/$]
+
+                        Průměrná vzdálenost ze středu Země do středu Slunce.
+        -
+                uuid: 41627fc8-cbff-4df7-b767-3a66199a3905
+                front: Speed of light
+                back: >
+                        [$]\\simeq 300 000 km/s[/$]
