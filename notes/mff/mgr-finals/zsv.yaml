@@ -242,7 +242,7 @@ notes:
                 front: s-m-n věta
                 back: >
                         Pro každá [$]m,n\\geq 1[/$] existuje prostá totální vyčíslitelná funkce [$]s_n^m:\\N^{m+1}\\rightarrow\\N[/$] že pro každé [$]x,y_1,\\ldots y_m,z_1,\\ldots z_n\\in\\Sigma_b^*[/$] platí:
-                        [$$]\\sigma^{(n)}_{s_n^m(x,y_1,\\ldots,y_m)}(z_1,\\ldots z_n)\\simeq \\sigma_x^{(m+n)}(y_1,\\ldots y_m,z_1,\\ldots z_n)[/$$]
+                        [$$]\\varphi^{(n)}_{s_n^m(x,y_1,\\ldots,y_m)}(z_1,\\ldots z_n)\\simeq \\varphi_x^{(m+n)}(y_1,\\ldots y_m,z_1,\\ldots z_n)[/$$]
         -
                 uuid: 0fbdef69-824c-445e-8d35-36c9ee3c35c1
                 front: Postův korespondenční problém
@@ -292,7 +292,7 @@ notes:
                 uuid: 0c026be6-6a0a-4614-9ca4-751d6a748329
                 front: Verifikátory a certifikáty
                 back: >
-                        Verifikátor pro jazyk A: algoritmus V, že [$]A=\\{x: (\\e y)[V prijme \\< x,y \\>]\\}[/$]
+                        Verifikátor pro jazyk A: algoritmus V, že [$]A=\\{x: (\\e y)[V prijme < x,y >]\\}[/$]
                         [$]y[/$]: certifikát pro [$]x[/$].
                         Časová složitost verifikátoru se měří dle [$]|x|[/$].
                         Polynomiální verifikátor, certifikát: polynomiální čas, tedy i délka certifikátu.
