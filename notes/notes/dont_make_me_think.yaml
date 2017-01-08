@@ -116,9 +116,9 @@ notes:
                 uuid: 9e681d4b-2e25-4128-bded-ae0a44cff4e0
                 front: Things to say to test subject
                 back:
-                        Don't worry about hurting my feelings (I didn't design it).
-                        We're testing the site, not you.
-                        Think out loud.
+                        Don't worry about hurting my feelings (I didn't design it).<br>
+                        We're testing the site, not you.<br>
+                        Think out loud.<br>
                         You can ask questions, but I might not always be able to answer, because we want to see how actual people use the site.
         -
                 uuid: ee79d5a2-c8d3-47e8-b4db-ebac104bfaa8

@@ -51,21 +51,21 @@ notes:
                 front: >
                         [$] (a,b)[/$]-strom -- Join
                 back: >
-                        Spojí ztromy [$]T_1[/$], [$]T_2[/$], pokud [$]\\max T_1 < \\min T_2[/$].
+                        Spojí ztromy [$]T_1[/$], [$]T_2[/$], pokud [$]\\max T_1 < \\min T_2[/$].<br>
 
-                        Ať je [$]T_1[/$] ten vyšší. [$]r=d(T_1) - d(T_2)[/$]
+                        Ať je [$]T_1[/$] ten vyšší. [$]r=d(T_1) - d(T_2)[/$]<br>
 
-                        Syny kořene [$]T_2[/$] přidej najednou k synům posledního vrcholu na hladině [$]r[/$] ve stromě [$]T_1[/$].
+                        Syny kořene [$]T_2[/$] přidej najednou k synům posledního vrcholu na hladině [$]r[/$] ve stromě [$]T_1[/$].<br>
                         Pokud bude mít moc synů, rozštěp ho jako při Insertu. Složitost: [$]\\O(d(T_1) - d(T_2))[/$]
         -
                 uuid: 97fefc3c-d1b3-4bc2-a7ab-5acb6e67718f
                 front: >
                         [$] (a,b)[/$]-strom -- Split
                 back: >
-                        Rozdělí strom na dva, jeden s klíči [$]<k[/$], druhý [$]\\geq k[/$].
+                        Rozdělí strom na dva, jeden s klíči [$]<k[/$], druhý [$]\\geq k[/$].<br>
 
-                        Máme dva zásobníky: jeden pro levé stromy, druhý pro pravé.
-                        Postupuj jako při Find, rozděluj přitom na [$]T_L[/$], [$]T_k[/$], [$]T_P[/$].
+                        Máme dva zásobníky: jeden pro levé stromy, druhý pro pravé.<br>
+                        Postupuj jako při Find, rozděluj přitom na [$]T_L[/$], [$]T_k[/$], [$]T_P[/$].<br>
                         Postupně plň zásobníky. Pak postupně pojoinuj stromy v zásobnících,
                         takže Split bude trvat [$]\\O(\\log n)[/$].
         -
@@ -78,24 +78,26 @@ notes:
                 uuid: 34d286ac-489f-42df-89f4-be0f7ec168ab
                 front: A-sort a jeho složitost
                 back: >
-                        Postupně vkládej do [$] (a,b)[/$]-stromu, pak je vypiš během DFS.
+                        Postupně vkládej do [$] (a,b)[/$]-stromu, pak je vypiš během DFS.<br>
 
-                        Drž si prst na poslední vložený prvek, od něj dělej hledání při vkládání dalšího.
+                        Drž si prst na poslední vložený prvek, od něj dělej hledání při vkládání dalšího.<br>
 
-                        Celkový čas: [$]\\leq 2 \\sum_{i=1}^n \\log_a |{j\\leq i, x_i < x_j}| + \\O(n)[/$]
+                        Celkový čas: [$]\\leq 2 \\sum_{i=1}^n \\log_a |{j\\leq i, x_i < x_j}| + \\O(n)[/$]<br>
 
-                        ([$]\\log[/$] je konkávní)
+                        ([$]\\log[/$] je konkávní)<br>
 
                         [$$]\\leq 2n \\log_a \\frac{\\sum_i |{j\\leq i, x_i < x_j}|}{n} = \\O(n\\log(F/n))[/$$]
 
-                        [$]F[/$]: počet "inverzí"
+                        [$]F[/$]: počet "inverzí"<br>
 
-                        Alternativně: hledání od nejpravějšího listu [$]\\rightarrow \\leq 1 + \\log_a |{j<i+1, x_j>x_i}|[/$]
+                        Alternativně: hledání od nejpravějšího listu [$]\\rightarrow \\leq 1 + \\log_a |\{j < i+1, x_j > x_i\}|[/$]
         -
                 uuid: cede43cf-fed3-463f-abe4-646bd6fc51aa
                 front: Red-black trees -- axiomy
                 back: >
-                        Každý uzel je červený nebo černý. Červené uzly mohou být syny pouze černých uzlů. Na každé cestě do listu je stejný počet černých vrcholů.
+                        Každý uzel je červený nebo černý.<br>
+                        Červené uzly mohou být syny pouze černých uzlů (nemůže být červený uzel pod červeným).<br>
+                        Na každé cestě do listu je stejný počet černých vrcholů.<br>
                         Hodnoty jsou ve vnitřních vrcholech.
         -
                 uuid: 121e2648-cfe6-4f4a-8ad3-642a376baae5
@@ -116,8 +118,6 @@ notes:
                         Na operaci: až [$]\\O(n)[/$]
 
                         Cena za [$]m[/$] operací, [$]n[/$] vložených prvků: [$]\\O(m\\log n+n\\log n)[/$]
-
-                        Předpoklad: [$]b\\geq 2a[/$]
         -
                 uuid: f0795afe-ab1d-4293-a1ad-e6f88a9c80f5
                 front: Operace Splay

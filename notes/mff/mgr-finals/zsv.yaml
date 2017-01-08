@@ -175,7 +175,8 @@ notes:
         -
                 uuid: 21f375d5-ecc2-4ce6-84b7-f2e60bac1a01
                 front: >
-                        Značení: funkce počítaná [$]M_e[/$], funkce [$]n[/$] parametrů ([$]\\< x_1,\\ldots x_n >=\\< x_1\\#x_2\\#\\ldots x_n >\\in\\sigma_b^*[/$]) počítaná [$]M_e[/$]
+                        Značení: funkce počítaná [$]M_e[/$], funkce [$]n[/$]
+                        parametrů ([$]< x_1,\\ldots x_n >=< x_1\\#x_2\\#\\ldots x_n >\\in\\sigma_b^*[/$]) počítaná [$]M_e[/$]
                 back: >
                         [$]\varphi_e[/$]; [$]\varphi_e^{(n)}[/$]
         -
