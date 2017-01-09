@@ -320,11 +320,11 @@ notes:
         # 05-internal-representation
         -
                 uuid: bc424437-cb79-4278-acce-3893f428a98e
-                front: Kondenzovaná vnitřní reprezentace, binární
+                front: Kondenzovaná vnitřní reprezentace, binární; jak se učí?
                 back: >
-                        Interpretace skrytých neuronů: [$]0/1/\\frac{1}{2}[/$]
+                        Interpretace skrytých neuronů: [$]0/1/\\frac{1}{2}[/$]<br>
 
-                        Binární: jen 0/1
+                        Binární: jen 0/1<br>
 
                         Přidá se člen:
                         [$$]
@@ -332,9 +332,9 @@ notes:
                         [/$$]
         -
                 uuid: adf31f57-65b6-40e5-9cae-d759e46052bf
-                front: Jednoznačná vnitřní reprezentace
+                front: Jednoznačná vnitřní reprezentace; jak se naučí?
                 back: >
-                        Intuice: pro hodně různé výstupy chci hodně jiné vnitřní reprezentace
+                        Intuice: pro hodně různé výstupy chci hodně jiné vnitřní reprezentace<br>
 
                         [$$]
                         H = -\\frac{1}{2}\\sum_{p, q; p\\neq q} \\sum_{j} \\sum_{o} (d_{o,p}-d_{o,q})^2 (y_{j,p}-y_{j,q})^2
@@ -354,14 +354,14 @@ notes:
                 uuid: ef5f7835-c422-4ff2-bb21-af8881f3c286
                 front: Tři typy asociativních sítí
                 back: >
-                        Heteroasociativní: když jsem do [$]\\varepsilon[/$] vzdálenosti od správného vzoru, namapuje se správně.
-                        Autoasociativní: "oprava zašuměných vzorů"
+                        Heteroasociativní: když jsem do [$]\\varepsilon[/$] vzdálenosti od správného vzoru, namapuje se správně.<br>
+                        Autoasociativní: "oprava zašuměných vzorů"<br>
                         Pattern recognition síť: přiřadí skalární hodnotu
         -
                 uuid: f88de9b7-ef95-4ead-ae75-cc1160ad4e89
                 front: Jednovrstevnatá heteroasociativní síť bez zpětné vazby
                 back: >
-                        [$]y = x \cdot W[/$], kde [$]y[/$] ma [$]k[/$] slozek, [$]x[/$] jich ma [$]n[/$].
+                        [$]y = x \cdot W[/$], kde [$]y[/$] ma [$]k[/$] slozek, [$]x[/$] jich ma [$]n[/$].<br>
                         Hledáme matici [$]W[/$] takovou, aby [$]X \cdot W = Y[/$].
         -
                 uuid: c3a5e6b1-be02-4e1b-bff2-430ee6c2d1ef
