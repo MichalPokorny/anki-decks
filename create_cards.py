@@ -118,8 +118,12 @@ def load_all_notes():
             if 'front' not in note_row:
                 raise Exception('No front: ' + note_uuid)
 
-            front = markdown.markdown(unicode(note_row['front']))
-            back = markdown.markdown(unicode(note_row['back']))
+            front = unicode(note_row['front'])
+            back = unicode(note_row['back'])
+
+            if ('markdown' not in note_row) or (note_row['markdown']):
+                front = markdown.markdown(unicode(note_row['front']))
+                back = markdown.markdown(unicode(note_row['back']))
 
             my_notes.append(Note(
                 origin_file = origin_file,

@@ -187,85 +187,102 @@ notes:
                         Zkratky: [$]T:=(p\\vee\\neg p), \\perp:=(p\\wedge\\neg p)[/$] kde [$]p\\in P[/$] je pevný prvovýrok
         -
                 uuid: dde0c382-a21c-4b8f-aef9-f8003cd6ddbc
+                topic: Výroková logika
                 front: Definice výrokové formule (výroku)
                 back: Konečnou indukcí ze spojek, prvovýroků
         -
                 uuid: b6688c17-2ecb-4a2a-a7a3-f9cd341f9ade
+                topic: Výroková logika
                 front: Notace - množina výrokových formulí nad množinou prvovýroků
                 back: >
                         [$]VF_P[/$]
         -
                 uuid: 36e19f36-84bc-4e96-b5d0-b2d41c85cb8b
+                topic: Výroková logika
                 front: >
                         Notace - výrokové proměnné ve formuli [$]\\varphi[/$]
                 back: >
                         [$]var(\\varphi)[/$]
         -
                 uuid: 211f7d08-34ae-48b5-afad-ec3d461d0e2a
+                topic: Výroková logika
                 front: Jak je daná sémantika logických spojek?
                 back: Tabulkami
         -
                 uuid: a95aa0a7-b43b-4c31-bdd4-541ffb2fbedc
+                topic: Výroková logika
                 front: Notace a definice - hodnota výroku při ohodnocení
                 back: >
                         [$]\\overline{v}(\\varphi)[/$] při ohodnocení [$]v:P\\rightarrow\\{0,1\\}[/$] dána induktivně po spojkách.
                         Hodnota výroku záleží jenom na ohodnocení jeho proměnných (indukcí).
         -
                 uuid: f8ecda2e-b187-4d77-94f4-d080c80bd066
+                topic: Výroková logika
                 front: Notace a definice - výrok platí při ohodnocení
                 back: >
                         [$]v\\vDash \\varphi[/$], to když [$]\\overline{v}(\\varphi)=1[/$]
         -
                 uuid: 78f1427c-c059-49ae-953d-71446b03a327
+                topic: Výroková logika
                 front: Notace a definice - výrok (logicky) platí, je tautologie
                 back: >
                         [$]\\vDash \\varphi[/$], to když [$]\\a v: \\overline{v}(\\varphi)=1[/$];
                         obdobně lživý (sporný), nezávislý, splnitelný
         -
                 uuid: 330383ff-d803-4471-804d-29a1308db645
+                topic: Výroková logika
                 front: Notace a definice - výroky jsou (logicky) ekvivalentní
                 back: >
                         [$]\\varphi\\sim\\psi[/$]: [$]\\a v: \\overline{v}(\\varphi)=\\overline{v}(\\psi)[/$],
                         tj. [$]\\varphi\\ekv\\psi[/$] je pravdivý výrok
         -
                 uuid: 1cae8dc0-b567-4bf7-92a0-099cb5477b4b
+                topic: Výroková logika
                 front: Notace a definice - modely
                 back: >
                         Model: ohodnocení z [$]{}^P 2[/$].<br>
                         Třída modelů: [$]M(P)={}^P 2[/$]
         -
                 uuid: afe80311-06a8-49fe-81a8-16429eb3622b
+                topic: Výroková logika
                 front: Peirceova spojka
                 back: NOR ([$]p\\downarrow q[/$])
                 include_reverse: true
         -
                 uuid: fc9604da-8035-4f13-9bcf-728abf307d82
+                topic: Výroková logika
                 front: Shefferova spojka
                 back: NAND ([$]p\\uparrow q[/$])
                 include_reverse: true
         -
                 uuid: f4c534be-7a2f-466f-9b40-17043533fb86
+                topic: Výroková logika
                 front: CNF
                 back: Konjunkce klauzulí
         -
                 uuid: 73a7e68a-d783-4ff5-afc8-022ec040f71c
+                topic: Výroková logika
                 front: DNF
                 back: Disjunkce elementárních konjunkcí
         -
                 uuid: 016aafc4-9d5c-47ca-af68-44e724632c2d
+                topic: Výroková logika
                 front: Kdy je výrok v CNF pravdivý?
                 back: Každá klauzule obsahuje dvojici opačných literálů
         -
                 uuid: 2d4b0844-a823-4115-9083-b4b07aa980ef
+                topic: Výroková logika
                 front: Kdy je výrok v DNF splnitelný?
                 back: Aspoň jedna elementární konjunkce neobsahuje dvojici opačných literálů
         -
                 uuid: 578417e1-fd32-482f-bd3c-47c6ff9e8927
+                topic: Výroková logika
                 front: Reprezentace množiny modelů pomocí DNF, CNF
                 back: >
                         [$]M_P(\\bigvee_{v\\in K}\\bigwedge_{p\\in P}p^{v(p)})=K=M^P(\\bigwedge_{v\\in\\overline{K}}\\bigvee_{p\\in P}\\overline{p^{v(p)}})[/$]
         -
                 uuid: 969de64f-db8b-4b61-9401-b4bfa3d07211
+                topic: Výroková logika
                 front: Postup pro převod na CNF/DNF
                 back: >
                         1. [$] (\\varphi\\imp\\psi)\\sim(\\neg\\varphi\\vee\\psi), (\\varphi\\ekv\\psi)\\sim((\\neg\\varphi\\vee\\psi)\\wedge(\\neg\\psi\\vee\\varphi)[/$]
@@ -277,6 +294,7 @@ notes:
                         3'. [$] (\\varphi\\wedge(\\psi\\vee\\chi))\\sim((\\phi\\vee\\chi)\\wedge\\varphi)\\sim((\\varphi\\wedge\\psi)\\vee(\\varphi\\wedge\\chi)) [/$]
         -
                 uuid: 550a4ee9-619d-4af7-bcf1-054e26bdb484
+                topic: Výroková logika
                 front: Co udělá ve výroku znegování literálů a náhrada [$]\\wedge\\ekv\\vee[/$]?
                 back: >
                         [$]\\neg\\varphi\\sim\\varphi^{\\*}[/$]
@@ -288,9 +306,10 @@ notes:
                         od konce naplňuj implikační graf jedničkami
         -
                 uuid: f4a4fe05-e63c-4178-8fd1-ffeaa8cd30bf
+                topic: Výroková logika
                 front: Hornova klauzule v VL
                 back: >
-                        Klauzule: [$](\\neg a \\vee \\neg b \\vee \\ldots \\vee q) \\sim (a \\wedge b \\wedge \\ldots)\\rightarrow q[/$]
+                        Klauzule: [$] (\\neg a \\vee \\neg b \\vee \\ldots \\vee q) \\sim (a \\wedge b \\wedge \\ldots)\\rightarrow q[/$]
                         Obsahuje nejvýše jeden pozitivní literál
         -
                 uuid: ae7be4b1-3e29-4b48-aa2b-881d2376b360
@@ -303,7 +322,8 @@ notes:
                         Neobsahuje-li jednotkovou klauzuli, je splnitelný nastavením všeho ostatního na 0.
         -
                 uuid: 6dc7d6e7-6b0e-4c75-9d76-aacbc074a8cc
-                front: Teorie v VL, model teorie
+                topic: Výroková logika
+                front: Teorie, model teorie
                 back: >
                         Množina výroků, kterým říkáme axiomy. Model teorie je
                         ohodnocení ve kterém teorie platí. Konečná teorie jde
@@ -311,11 +331,15 @@ notes:
         # VPL03
         -
                 uuid: 55dd42d4-a5aa-4115-9ef2-c9b02cd48f5a
-                front: Důsledek výrokové teorie
+                topic: Výroková logika
+                front: Důsledek výrokové teorie - značení, definice
                 back: >
-                        [$]\\Theta^{\\mathbb{P}}(T)[/$] je množina pravdivých výroků ([$]\\{\\varphi\\in VF_{\\mathbb{P} } | T\\vDash \\varphi\\}[/$])
+                        [$]\\Theta^{\\mathbb{P}}(T)[/$] je množina pravdivých výroků:
+                        <br>
+                        [$$]\\{\\varphi\\in VF_{\\mathbb{P} } | T\\vDash \\varphi\\}[/$$]
         -
                 uuid: ee08dd5a-636f-438c-9493-4fdad59f4e94
+                topic: Výroková logika
                 front: Výrokové teorie a uzavřenost
                 back: >
                         [$]T\\subseteq \\Theta^{\\mathbb{P} }(T) = \\Theta^{\\mathbb{P} }(\\Theta^{\\mathbb{P} }(T))[/$]<br>
@@ -323,21 +347,24 @@ notes:
                         Když [$]T\\subseteq T'[/$], tak [$]\\Theta^{\\mathbb{P} }(T)\\subseteq \\Theta^{\\mathbb{P} }(T')[/$]
         -
                 uuid: eb3e8359-a566-418d-b318-9978b71660cb
-                front: Kdy je [$]\\varphi\\in\\Theta^{\\mathbb{P} }(\\{\\varphi_1,\\varphi_2,\\ldots\\}[/$]?
+                front: Kdy je [$]\\varphi\\in\\Theta^{\\mathbb{P} }(\\{\\varphi_1,\\varphi_2,\\ldots\\})[/$]?
                 back: >
                         Právě když
                         [$]\\vDash(\\varphi_1\\wedge\\ldots\\wedge\\varphi_n)\\rightarrow\\varphi[/$]
         -
                 uuid: 2e159e6a-d88a-4fd5-bb91-672b58bf1316
+                topic: Výroková logika
                 front: Kdy je teorie sporná, bezesporná?
                 back: Když v ní platí [$]\\perp[/$], jinak splnitelná/bezesporná.
         -
                 uuid: 1fefd1f4-381f-4be6-8d7e-987d6047d26d
-                front: Kdy je teorie kompletní?
+                topic: Výroková logika
+                front: Kdy je teorie kompletní, v závislosti na výrocích?
                 back: Když v ní není žádný nezávislý výrok.
         -
                 uuid: 538cee1e-0347-4653-866a-61e1e8c05890
-                front: Kdy je [$]T[/$] nad [$]P[/$] extenze teorie [$]T'[/$] nad [$]P'[/$]? Jednoduchá extenze? Konzervativní?
+                topic: Výroková logika
+                front: Kdy je [$]T[/$] nad [$]P[/$] extenze teorie [$]T'[/$] nad [$]P'[/$]? Jednoduchá extenze? Konzervativní? (V řeči důsledků teorie.)
                 back: >
                         Když [$]P'\\subseteq P[/$] a [$]\\Theta^{P'}(T')\\subseteq \\Theta^P(T)[/$]<br>
 
@@ -400,10 +427,12 @@ notes:
                         [$]2^m[/$], kde [$]m=|M^P(T)|[/$]
         -
                 uuid: 8bd25630-4c07-4715-b3d6-ddbbe6646c8d
+                topic: Výroková logika
                 front: Kolik je [$]T[/$]-neekvivalentních výroků co jsou v [$]T[/$] pravdivé(lživé)?
                 back: 1
         -
                 uuid: 17ac32d5-2a7d-47a2-8813-be73dd86c2fe
+                topic: Výroková logika
                 front: Kolik je T-neekvivalentních výroků nad [$]P[/$] nezávislých v [$]T[/$]?
                 back: >
                         [$]2^m-2[/$], kde [$]m[/$] je počet modelů [$]T[/$]
@@ -414,11 +443,13 @@ notes:
                         [$]T\\vdash\\varphi[/$]
         -
                 uuid: 4d36b776-53d6-4de6-9296-8a8b2d7796c8
+                topic: Výroková logika
                 front: Tablo metoda - předpoklady
                 back: >
                         Jazyk je pevný a nejvýše spočetný, tedy taky nejvýše spočetné teorie.
         -
                 uuid: 59196e8c-7002-43d3-b792-8d03c3b10945
+                topic: Výroková logika
                 front: Tablo metody - neformálně, co to je tablo, jak vypadá důkaz, jak bude vypadat protipříklad
                 back: >
                         Tablo je binární značkovaný strom co reprezentuje hledání protipříkladu.<br>
@@ -428,6 +459,7 @@ notes:
                         Pokud existuje protipříklad, bude v tablu větev co ho poskytne; možná nekonečná.
         -
                 uuid: db2135ef-5703-46a3-8800-a8f8e2766fdc
+                topic: Výroková logika
                 front: Atomická tabla, konečná tabla.
                 back: >
                         Rozvine nějakou formuli, co je true/false, na možnosti, jak může být true/false.<br>
@@ -437,6 +469,7 @@ notes:
                         Tablo je posloupnost konečných tabel, co vznikají postupným výběrem.<br>
         -
                 uuid: 929f4e0e-d098-466b-91f1-0c30f427ad65
+                topic: Výroková logika
                 front: Systematická tabla, tablo důkaz, vyvrácení
                 back: >
                         Konvence: položka, podle které prodlužujeme, nebude opakovaná.<br>
@@ -452,12 +485,14 @@ notes:
                         Vyvrácení: sporné s kořenem [$]T\\varphi[/$], potom [$]\\vdash\\neg\\varphi[/$]
         -
                 uuid: 2dbbe3d0-a408-4de5-b2a6-b263ea1c3fe9
+                topic: Výroková logika
                 front: Tablo z teorie
                 back: >
                         Umožním krok "přidej axiom z teorie".
         # VPL04
         -
                 uuid: 5938cb30-73ed-41cb-b42f-396a3dc80441
+                topic: Výroková logika
                 front: Systematická konstrukce tabla
                 back: >
                         Dokud to jde, vezmi nejlevější položku [$]P[/$] v co nejmenší úrovni,
@@ -471,6 +506,7 @@ notes:
                         atomické tablo pro výroky z teorie.
         -
                 uuid: 94b787d4-4675-4b84-9fcd-c5fcaf06c5cc
+                topic: Výroková logika
                 front: Konečnost tablo důkazů
                 back: >
                         Jestli je [$]\\tau=\\bigcup \\tau_i[/$] sporné,
@@ -480,6 +516,7 @@ notes:
                         Proto jsou tablo důkazy konečné.
         -
                 uuid: 5dd4f32d-c67d-4ec9-9be4-aa7228c5ba12
+                topic: Výroková logika
                 front: Korektnost tablo důkazů
                 back: >
                         Když vemu nějaký model teorie, pak existuje v tablu
@@ -488,6 +525,7 @@ notes:
                         [$]T\\vdash\\varphi \\Rightarrow T\\vDash\\varphi[/$]
         -
                 uuid: aa9a0811-5102-4951-8fbf-3dd4d5da2f6a
+                topic: Výroková logika
                 front: Úplnost tablo metody
                 back: >
                         Bezesporná větev v dokončeném tablu obsahuje protipříklad.
@@ -499,21 +537,25 @@ notes:
                         (Jinak z něho vykoukáme protipříkladový model.)
         -
                 uuid: eccffdeb-c2aa-48b3-a849-08e4978c6f6a
+                topic: Výroková logika
                 front: Značení - Množina vět teorie
                 back: >
                         [$]Thm^P(T)=\\{\\varphi\\in VF_P | T\\vdash\\varphi\\}[/$]
         -
                 uuid: 5b415825-02e5-41f0-9f43-b2b4a120a6ac
+                topic: Výroková logika
                 front: Kdy je teorie sporná, v řeči důkazů?
                 back: >
                         Když je v ní dokazatelný [$]\\perp[/$], jinak bezesporná
         -
                 uuid: 62e6a8ed-08d2-45ed-851b-05d68fc93dd6
+                topic: Výroková logika
                 front: Kdy je teorie kompletní, v řeči důkazů?
                 back: >
                         Když není sporná a pro každou formuli je dokazatelná nebo její opak.
         -
                 uuid: 49196989-9bcb-4014-a61b-739b5a695834
+                topic: Výroková logika
                 front: Kdy je [$]T[/$] nad [$]P[/$] extenze teorie [$]T'[/$] nad [$]P'[/$] v řeči důkazů? Kdy je jednoduchá a konzervativní?
                 back: >
                         Když [$]P'\\subseteq P[/$] a [$]Thm^{P'}(T')\\subseteq Thm^P(T)[/$].
@@ -521,7 +563,8 @@ notes:
                         konzervativní: [$]Thm^{P'}(T')=Thm^P(T)\\cap VF_{P'}[/$]
         -
                 uuid: 2b7d1685-6255-415d-b748-8fa56cf28d64
-                front: Věta o kompaktnosti (výroková logika)
+                topic: Výroková logika
+                front: Věta o kompaktnosti
                 back: >
                         Teorie má model právě když každá její konečná část má model.<br>
 
@@ -529,17 +572,19 @@ notes:
         # VPL05
         -
                 uuid: 9cd8aea3-f680-40ed-afe2-cceb82ac2e07
+                topic: Výroková logika
                 front: Hilbertovy axiomy a odv. pravidla
                 back: >
-                        1. [$]\\varphi\\rightarrow(\\psi\\rightarrow\\varphi[/$]
+                        1. [$]\\varphi\\rightarrow(\\psi\\rightarrow\\varphi)[/$]
 
-                        2. [$](\\alpha\\rightarrow(\\beta\\rightarrow\\gamma))\\rightarrow((\\alpha\\rightarrow\\beta)\\rightarrow(\\alpha\\rightarrow\\gamma))[/$]
+                        2. [$] (\\alpha\\rightarrow(\\beta\\rightarrow\\gamma))\\rightarrow((\\alpha\\rightarrow\\beta)\\rightarrow(\\alpha\\rightarrow\\gamma))[/$]
 
-                        3. [$](\\neg\\alpha\\rightarrow\\neg\\beta)\\rightarrow(\\beta\\rightarrow\\alpha)[/$]
+                        3. [$] (\\neg\\alpha\\rightarrow\\neg\\beta)\\rightarrow(\\beta\\rightarrow\\alpha)[/$]
 
                         Odvozovací pravidlo: modus ponens ([$]\\alpha, \\alpha\\rightarrow\\beta[/$] ==> [$]\\beta[/$])
         -
                 uuid: 14ccef71-7564-494a-84a2-13e59c0d9f66
+                topic: Výroková logika
                 front: Hilbertovy systémy - vlastnosti
                 back: >
                         [$]T\\vdash_H \\varphi \\Rightarrow T\\vDash \\varphi[/$]
@@ -547,6 +592,7 @@ notes:
                         Taky je úplný. (Ale bez důkazu.)
         -
                 uuid: 10560f57-6949-4cdb-9700-ed78c8c25908
+                topic: Výroková logika
                 front: Rezoluční metoda - množinová reprezentace
                 back: >
                         Klauzule je konečná množina kladných nebo záporných literálů.
@@ -554,6 +600,7 @@ notes:
                         (Částečné) hodnocení je libovolná konzistentní množina literálů.
         -
                 uuid: 2e3c9cf5-50be-4bae-97e2-b50dc295c058
+                topic: Výroková logika
                 front: Rezoluční pravidlo
                 back: >
                         Ať je [$]C_1[/$], [$]C_2[/$] klauzule, [$]l\\in C_1, \\overline{l}\\in C_2[/$] nějaký
@@ -565,6 +612,7 @@ notes:
                         Je korektní.
         -
                 uuid: 09391262-d1b6-42c1-bb9d-3cd9e055173b
+                topic: Výroková logika
                 front: Rezoluční důkaz, rezoluční strom, uzávěr
                 back: >
                         Konečná posloupnost kde každá klauzule je rezoluce předchozích klauzulí a začátek je teorie.
@@ -574,11 +622,13 @@ notes:
                         Uzávěr: všechno co jde resolvovat.
         -
                 uuid: af0107b9-d3e9-4058-9b01-65bb2e900422
+                topic: Výroková logika
                 front: Rezoluce - splnitelnost formule a dosazení literálu
                 back: >
                         [$]S[/$] je splnitelná právě když je splnitelná [$]S^{\\ell}[/$] nebo [$]S^{\\overline{\\ell} }[/$] (dosazení s unit propagation)
         -
                 uuid: 00085e32-d2c3-4bc9-8e44-2e369dcc75db
+                topic: Výroková logika
                 front: Úplnost rezoluce
                 back: >
                         Jestli je konečná teorie nesplnitelná, dá se rezolucí vyvrátit.<br>
@@ -587,6 +637,7 @@ notes:
                         Rezolucí kořenů ([$]\\{\\ell\\}[/$] a [$]\\{\\overline{\\ell}\\}[/$]) získáme spor.
         -
                 uuid: 38974d87-11b0-4dfb-a831-28dc2ad9671f
+                topic: Výroková logika
                 front: Lineární důkaz
                 back: >
                         Konečná posloupnost dvojic: jedna je boční klauzule (buď něco už dokázaného, nebo axiom).
@@ -595,6 +646,7 @@ notes:
         # VPL06
         -
                 uuid: 69795a03-adcf-4807-a029-1e44b541f3aa
+                topic: Predikátová logika
                 front: Jazyk predikátové logiky
                 back: >
                         Spočetně mnoho proměnných ([$]Var[/$])<br>
@@ -605,22 +657,26 @@ notes:
                         Závorky
         -
                 uuid: 975ca80f-6978-450c-9d7c-34aef9c01d61
+                topic: Predikátová logika
                 front: Jazyk predikátové logiky - logické symboly
                 back: >
                         Proměnné, kvantifikátory, logické spojky, závorky
         -
                 uuid: 3c41be43-70a0-4de3-a64f-ed2fbb2fbf33
+                topic: Predikátová logika
                 front: Jazyk predikátové logiky - mimologické symboly symboly
                 back: >
                         Funkční a relační symboly (mimo rovnosti)
         -
                 uuid: c9fc1b59-1345-492d-a0a5-062d717c2b49
+                topic: Predikátová logika
                 front: Jazyk predikátové logiky - signatura
                 back: >
                         Dvojice disjunktních množin relačních, funkčních symbolů. Určuje všechny mimologické symboly.
                         Určuje jazyk, s uvedením jestli má rovnost.
         -
                 uuid: 23b26383-4ffc-4304-aa1f-134a3f7b9ef8
+                topic: Predikátová logika
                 front: Jazyk predikátové logiky - term
                 back: >
                         Proměnná nebo konstantní symbol; aplikace funkce; konečně rekurzivně.<br>
@@ -630,37 +686,44 @@ notes:
                         [$]Term_L[/$]<br>
         -
                 uuid: fd065fa4-4615-4f4d-936b-ba6d9b69ae85
+                topic: Predikátová logika
                 front: Predikátová logika - atomická formule
                 back: >
                         [$]AFm_L[/$]` aplikace relačního symbolu na termy.
         -
                 uuid: ff8a816b-b627-4c3b-985b-da2c4f9915e5
+                topic: Predikátová logika
                 front: Predikátová logika - formule
                 back: >
                         Atomická formule, pak indukce nad spojkami,
                         přidání kvantifikátorů; [$]Fm_L[/$]
         -
                 uuid: 2f29cdd6-054d-419c-bbf7-a3f898096b66
+                topic: Predikátová logika
                 front: Vázaný, volný výskyt proměnné
                 back: >
-                        Je součást podformule co začíná [$](\a x)[/$] nebo [$](\e x)[/$].
+                        Je součást podformule co začíná [$] (\a x)[/$] nebo [$] (\e x)[/$].<br>
                         Volný výskyt je ten co není vázaný.
                         Proměnná může být volná i vázaná.
         -
                 uuid: c15d88b8-3355-4d23-8863-10609edf0914
+                topic: Predikátová logika
                 front: Predikátová logika - otevřená formule
                 back: Neobsahuje žádný kvantifikátor
         -
                 uuid: 35fed406-e6dd-43f6-a992-498882898efe
+                topic: Predikátová logika
                 front: Predikátová logika - uzavřená formule (sentence)
                 back: Všechny výskyty jsou vázané
         -
                 uuid: f40b899d-6a4f-43db-b48c-add74adb0ba1
+                topic: Predikátová logika
                 front: Jaká formule je zároveň uzavřená a otevřená?
                 back: >
                         Když má všechny termy konstantní.
         -
                 uuid: c710c373-4324-456c-a932-1cf0c9ca586c
+                topic: Predikátová logika
                 front: Instance formule [$]\\varphi(x/t)[/$]
                 back: >
                         Substituuji term [$]t[/$] za proměnnou [$]x[/$].
@@ -669,16 +732,18 @@ notes:
                         žádný vázaný výskyt žádné proměnné z [$]t[/$].
         -
                 uuid: ccdfaa76-d9a5-4990-8376-c7420ddd5a10
+                topic: Predikátová logika
                 front: Varianta formule
                 back: >
-                        At je [$](Qx)\\psi[/$] podformule v [$]\\varphi[/$]
+                        At je [$] (Qx)\\psi[/$] podformule v [$]\\varphi[/$]
                         a [$]y[/$] je promenna, co je substituoatelna za [$]x[/$] do
                         [$]\\psi[/$] a [$]y[/$] nema volny vyskyt v [$]\\psi[/$].<br>
-                        Nahrazeni podformule [$](Qx)\\phi[/$] za [$](Qy)\\phi(x/y)[/$]
-                        vznikne varianta formule [$]\\varphi[/$] v podformuli [$](Qx)\\psi[/$].<br>
+                        Nahrazeni podformule [$] (Qx)\\phi[/$] za [$] (Qy)\\phi(x/y)[/$]
+                        vznikne varianta formule [$]\\varphi[/$] v podformuli [$] (Qx)\\psi[/$].<br>
                         Postupnou aplikaci variant vznikne varianta.
         -
                 uuid: 900d9315-ebb7-4d42-be1e-78a99547a9f7
+                topic: Predikátová logika
                 front: Struktura pro jazyk
                 back: >
                         [$]L=<R,F>[/$] at je jazyk, [$]A[/$] neprazdna mnozina.
@@ -691,6 +756,7 @@ notes:
                         doména (univerzum) -- NEPRÁZDNÁ, realizace relací, realizace funkcí.
         -
                 uuid: 206817a7-4702-4c97-a587-78cdb5606734
+                topic: Predikátová logika
                 front: Hodnota termu
                 back: >
                         Ohodnocení proměnných v množině [$]A[/$]: [$]e:Var\\rightarrow A[/$].
@@ -698,12 +764,14 @@ notes:
                         Hodnota termu záleží jenom na ohodnocení proměnných.
         -
                 uuid: f5ae98b3-d8c7-4b34-ab70-85b8ef73b6e1
+                topic: Predikátová logika
                 front: Hodnota atomické formule
                 back: >
                         Hodnota [$]H_{at}^{A}(\\varphi)[e][/$]: pro atomickou formuli ([$]=^A[/$] je [$]Id_A[/$]).
                         Když je [$]\\varphi[/$] sentence, hodnota nezáleží na ohodnocení.
         -
                 uuid: 9c307f26-043d-4bb3-9ce3-32df21c68bc8
+                topic: Predikátová logika
                 front: Hodnota neatomické formule
                 back: >
                         Použiju Booleovské funkce definované tabulkami.<br>
@@ -711,17 +779,20 @@ notes:
                         Záleží jenom na volných proměnných.
         -
                 uuid: 559e0291-255d-448a-ae25-dbab2c2e58e2
+                topic: Predikátová logika
                 front: Značení - formule platí při ohodnocení ve struktuře
                 back: >
                         [$]\\mathcal{A}\\vDash\\varphi[e][/$] (když [$]H^A(\\varphi)[e]=1[/$]).
         -
                 uuid: 99164312-4f7a-4410-a65e-02616a49d4ad
                 front: Platnost ve struktuře
+                topic: Predikátová logika
                 back: >
                         [$]\\mathcal{A}\\vDash\\varphi[/$] když platí pro každé ohodnocení.
                         Podobně lživá.
         -
                 uuid: 74221bc3-313b-4e52-b416-41e7f436047e
+                topic: Predikátová logika
                 front: Teorie v predikátové logice
                 back: >
                         Teorie je libovolná množina formulí (axiomů).<br>
@@ -730,20 +801,24 @@ notes:
         # VPL07
         -
                 uuid: 57180c0e-17da-4b23-bc7c-d4276feb2528
+                topic: Predikátová logika
                 front: Kdy jsou dvě struktury pro jazyk elementárně ekvivalentní?
                 back: >
                         Když v nich platí stejné formule.
         -
                 uuid: 7026775f-598b-4f44-a40f-bafe3377d3e3
+                topic: Predikátová logika
                 front: Kdy je teorie predikátové logiky kompletní?
                 back: Když má až na elementární ekvivalenci jeden model.
         -
                 uuid: f1ae363a-3beb-43be-9298-96d4462df6cc
+                topic: Predikátová logika
                 front: Sentence platí a modely její teorie
                 back: >
                         [$]T,\\neg\\varphi[/$] nemá model právě když [$]T\\vDash\\varphi[/$]
         -
                 uuid: 0ac76171-c4fc-4472-b630-a7cd346f8ac0
+                topic: Predikátová logika
                 front: Definice - podstruktura
                 back: >
                         [$]\\mathcal{B}\\subseteq \\mathcal{A}[/$],
@@ -774,7 +849,7 @@ notes:
                 back: >
                         Když je [$]B[/$] nejmenší podmnožina nosné množiny
                         co je uzavřená na všechny funkce, pak [$]\\mathcal{A}\\upharpoonright B[/$]
-                        se značí taky [$]\\mathcal{A}<X>[/$] -- generovaná množinou X.
+                        se značí taky [$]\\mathcal{A}< X >[/$] -- generovaná množinou X.
         -
                 uuid: 653333bb-a0e5-484c-bcbb-c25d0fd6d2d4
                 front: Redukty a expanze struktury

@@ -258,7 +258,7 @@ notes:
         -
                 uuid: 80bba8df-78b6-4631-acc8-b80a8bb0223d
                 front: entrepreneur
-                back: a person who organizes and manages any enterprise, especially a business, usually with considerable initiative and ris
+                back: a person who organizes and manages any enterprise, especially a business, usually with considerable initiative and risk
                 include_reverse: true
         -
                 uuid: 95fc1bd9-af07-4900-9d1a-c498cb3eaf57
@@ -733,4 +733,8 @@ notes:
                 uuid: 8f4c3014-10e1-4066-85f4-c0ced3b79d1d
                 front: impetuous
                 back: acting or done quickly and without thought or care
+        -
+                uuid: b6cac6cc-1270-4837-b24f-b3287f903ab6
+                front: ergodic
+                back: relating to or denoting systems or processes with the property that, given sufficient time, they include or impinge on all points in a given space and can be represented statistically by a reasonably large selection of points
 

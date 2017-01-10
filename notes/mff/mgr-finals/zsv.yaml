@@ -9,14 +9,33 @@ notes:
                 front: Church-Turingova teze
                 back: Ke každému algoritmu v intuitivním smyslu (konečná posloupnost jednoduchých instrukcí vedoucí k řešení úlohy) existuje ekvivalentní Turingův stroj.
         -
-                uuid: 5ee82dde-5b11-46db-a2fa-430ac5a99026
-                front: Definice Turingova stroje
+                uuid: 78534147-beaa-405a-a522-bebc16a15989
+                topic: Turingův stroj
+                front: Co to je "displej"?
                 back: >
-                       [$]M = (Q, \\Sigma, \\delta, q_0, F)[/$]. [$]Q[/$]: stavy, [$]\\Sigma[/$]: pasova abeceda co obsahuje [$]\\lambda[/$] pro prázdné políčko, [$]\\delta:Q\\times\\Sigma\\rightarrow Q\\times\\Sigma\\times\\{R, N, L\\} \\cup \\{\\perp\\}[/$] přechodová funkce, [$]q_0\\in Q[/$] počáteční stav, [$]F\\subseteq Q[/$] množina přijímacích stavů.
+                        [$] (q,a) [/$]: stav a symbol pod hlavou.
+        -
+                uuid: 843fc7e1-f042-47b6-bcc7-4df55ef11732
+                topic: Turingův stroj
+                front: Co to je "konfigurace"?
+                back: Stav řídící jednotky, slovo na pásce (neprázdné), pozice hlavy
+        -
+                uuid: 5ee82dde-5b11-46db-a2fa-430ac5a99026
+                front: Definice Turingova stroje. Jaká je páska? Jak se hýbe hlava? Co hlava umí?
+                back: >
+                        [$]M = (Q, \\Sigma, \\delta, q_0, F)[/$].<br>
+                        [$]Q[/$]: stavy, [$]\\Sigma[/$]: pásková abeceda co obsahuje [$]\\lambda[/$] pro prázdné políčko,
+                        [$]\\delta:Q\\times\\Sigma\\rightarrow Q\\times\\Sigma\\times\\{R, N, L\\} \\cup \\{\\perp\\}[/$] přechodová funkce,
+                        [$]q_0\\in Q[/$] počáteční stav,
+                        [$]F\\subseteq Q[/$] množina přijímacích stavů.<br>
 
-                       Řídící jednotka, páska (potenciálně nekonečná v obou směrech), hlava (pro čtení a zápis) pohybující se oběma směry.
-                       Displej: [$] (q,a) [/$]: stav a symbol pod hlavou.
-                       Konfigurace: stav řídící jednotky, slovo na pásce (neprázdné), pozice hlavy
+                        Řídící jednotka, páska (potenciálně nekonečná v obou směrech), hlava (pro čtení a zápis) pohybující se oběma směry.
+        -
+                uuid: 05d670a1-dc4d-4d8b-a465-134994a887b1
+                topic: Turingův stroj
+                front: Signatura přechodové funkce
+                back: >
+                        [$]\\delta:Q\\times\\Sigma\\rightarrow Q\\times\\Sigma\\times\\{R, N, L\\} \\cup \\{\\perp\\}[/$]
         -
                 uuid: 47e06129-1d02-4c3f-8188-81602e3dc58f
                 front: Počáteční konfigurace TS
@@ -65,11 +84,13 @@ notes:
                         [$]L(M)[/$]
         -
                 uuid: 995603f3-6e10-49c8-a249-bad8783f8ae2
-                front: Částečné rozhodnutelný, resp. rekurzivně spočetný jazyk
+                front: >
+                        Definice: Částečné rozhodnutelný, resp. rekurzivně spočetný jazyk
                 back: Existuje [$]M[/$], že [$]L = L(M)[/$]
         -
                 uuid: 69517f5e-52e1-4926-afb3-26fdf34cc07a
-                front: Rozhodnutelný, resp. rekurzivní jazyk
+                front: >
+                        Definice: Rozhodnutelný, resp. rekurzivní jazyk
                 back: Existuje [$]M[/$], co se vždy zastaví a [$]L = L(M)[/$]
         -
                 uuid: 5d3c7ba1-6e25-459e-b67d-a2308a284475
@@ -224,13 +245,13 @@ notes:
         -
                 uuid: 52567f0e-8619-443a-b5b2-66a3a8f2ac12
                 front: >
-                        [$]m[/$]-úplný jazyk [$]K_0[/$]
+                        [$]m[/$]-úplný jazyk [$]K_0[/$]. Jaký je?
                 back: >
                         [$]K_0=\\{< w_i,x > | M_i(x)\\downarrow \\}[/$]. Částečně rozhodnutelný, nikoli rozhodnutelný.
         -
                 uuid: a77116ea-55e8-4341-b122-d3760503a58d
                 front: >
-                        [$]m[/$]-úplný jazyk [$]K[/$]
+                        [$]m[/$]-úplný jazyk [$]K[/$]. Jaký je?
                 back: >
                         [$]K=\\{w_i | M_i(w_i)\\downarrow \\}[/$]. Částečně rozhodnutelný, nikoli rozhodnutelný.
         -
@@ -256,16 +277,18 @@ notes:
                         Výstup: pro [$]x[/$] nějaké [$]y[/$] co splňuje nějaké podmínky, nebo že to nejde.
         -
                 uuid: 763ce358-2b76-4e73-bd5a-625b3af19567
-                front: Časová a prostorová složitost TS
+                topic: Turingův stroj
+                front: >
+                        Definice: Časová a prostorová složitost
                 back: >
                         Pracuje v čase [$]f(n)[/$] když na vstupu délky [$]|x|=n[/$] skončí po nejvýše [$]f(n)[/$] krocích. Obdobně prostor a použité popsané buňky.
         -
                 uuid: 0b3960ff-41f0-459f-b5ca-e38f1a0cbd91
                 front: >
-                        [$]TIME(f(n))[/$], [$]SPACE(f(n))[/$]
+                        [$]TIME(f(n))[/$], [$]SPACE(f(n))[/$], vztah
                 back: >
-                        TIME: jazyky přijímané TS co pracují v čase [$]O(f(n))[/$].
-                        SPACE: jazyky přijímané TS co pracují v prostoru [$]O(f(n))[/$].
+                        TIME: jazyky přijímané TS co pracují v čase [$]O(f(n))[/$].<br>
+                        SPACE: jazyky přijímané TS co pracují v prostoru [$]O(f(n))[/$].<br>
                         Triviálně [$]TIME(f(n))\\subseteq SPACE(f(n))[/$] pro každou funkci [$]f[/$].
         -
                 uuid: d659deb4-dc71-4d30-b1de-3513f8f826bb
@@ -445,7 +468,16 @@ notes:
         -
                 uuid: 43d726be-5716-4bbb-8ea4-6623de7ab012
                 front: Definice - aproximační algoritmus a poměr
-                back: Algoritmus [$]R[/$] co pro instanci [$]I\\in D_A[/$] má za výstup [$]R(I)[/$] přípustné řešení [$]\\sigma\\in S_A(I)[/$] (pokud přípustné řešení existuje). Když maximalizuju, tak [$]\\varepsilon > 1[/$] je takové že [$]opt(I) \\leq \\varepsilon \\cdot \\mu_A(I,R(I))[/$]. Když minimalizuju, tak [$]\\varepsilon \\geq 1[/$], [$]\\mu_A(I,R(I))\\leq \\varepsilon\\cdot opt(I)[/$].
+                back: >
+                        Algoritmus [$]R[/$] co pro instanci [$]I\\in D_A[/$] má
+                        za výstup [$]R(I)[/$] přípustné řešení [$]\\sigma\\in S_A(I)[/$]
+                        (pokud přípustné řešení existuje).
+                        <br>
+                        Když maximalizuju, tak [$]\\varepsilon > 1[/$] je takové
+                        že [$]opt(I) \\leq \\varepsilon \\cdot \\mu_A(I,R(I))[/$].
+                        <br>
+                        Když minimalizuju, tak [$]\\varepsilon \\geq 1[/$],
+                        [$]\\mu_A(I,R(I))\\leq \\varepsilon\\cdot opt(I)[/$].
         -
                 uuid: 49474cd2-9e98-41f3-be43-ca11ff1e7743
                 front: Bin-packing a first-fit aproximacni faktor
@@ -462,13 +494,14 @@ notes:
                 back: >
                         Vstup: velikost batohu, pole cen a hmotností předmětů. Výstup: maximálně cenné předměty co se vejdou do batohu.<br>
 
-                        Algoritmus: Postupně buduj matici, co pro každé [$]j, c[/$] obsahuje množinu prvků z [$]\\{1,\ldots j\\}[/$] s cenou [$]c[/$] a minimální celkovou vahou předmětů.<br>
+                        Algoritmus: Postupně buduj matici, co pro každé [$]j, c[/$]
+                        obsahuje množinu prvků z [$]\\{1,\ldots j\\}[/$] s cenou [$]c[/$] a minimální celkovou vahou předmětů.<br>
 
                         Složitost: [$]\\Theta(nV)[/$], kde [$]V[/$] je součet cen.<br>
                         Velikost vstupu je [$]O(n\\log_2 (B+V))[/$], takže je pseudopolynomiální.
         -
                 uuid: 3970c764-03cb-4435-8c87-3a6e8c799bdd
-                front: Číselný rozhodovací problém
+                front: Definice - Číselný rozhodovací problém
                 back: >
                         Rozhodovací problém [$]A[/$] je číselný, pokud pro každý polynom [$]p[/$] existuje instance kde [$]max(I) > p(len(I))[/$], kde [$]max[/$] je největší číselný parametr vyskytující se v [$]I[/$], [$]len[/$] je délka instance v binárním kódování.<br>
                         Batoh, Loupežníci jsou číselné.<br>
@@ -481,19 +514,21 @@ notes:
                 uuid: 3cdba4a8-ede4-47c1-a6e0-b1346b3bf4f7
                 front: Definice silné NP-úplnosti
                 back: >
-                        [$]A[/$] je rozhodovací problém, [$]p[/$] polynom.
-                        [$]A(p)[/$]: restrikce na instance, kde [$]max(I) \\leq p(len(I))[/$].
-                        [$]A[/$] je silně NP-úplný, jestli nějaká jeho polynomiální
+                        [$]A[/$] je rozhodovací problém, [$]p[/$] polynom.<br>
+                        [$]A(p)[/$]: restrikce na instance, kde [$]max(I) \\leq p(len(I))[/$].<br>
+                        [$]A[/$] je silně NP-úplný, když nějaká jeho polynomiální
                         restrikce je NP-úplná.
         -
                 uuid: 1edd0126-bfa7-4d98-831b-b04ddf3c9c77
                 front: Silná NP-úplnost a číselné problémy
                 back: >
-                        Každý nečíselný NP-úplný problém je silně NP-úplný. Jinými slovy: NP-úplný i při unárním kódování.
+                        Každý nečíselný NP-úplný problém je silně NP-úplný.<br>
+                        Jinými slovy: NP-úplný i při unárním kódování.
         -
                 uuid: c497d3df-677c-4206-9325-b5989b8d8fd8
                 front: >
-                        Co kdyby existoval silně NP-úplný problém co jde vyřešit pseudopolynomiálním algoritmem?
+                        Co kdyby existoval silně NP-úplný problém co jde vyřešit
+                        pseudopolynomiálním algoritmem?
                 back: Pak by bylo P=NP.
         -
                 uuid: 0337d32b-a15d-40cc-b709-88e67a7b54e6
@@ -501,7 +536,7 @@ notes:
                 back: TSP je silně NP-c
         -
                 uuid: c3e9c8b3-7644-484f-8b98-3615ae5960a7
-                front: Úplné polynomiální aproximační schema pro Batoh
+                front: Úplně polynomiální aproximační schema pro Batoh
                 back: >
                         Vstup: velikost batohu, velikosti předmětů a cen, předpokládám že všechny předměty se jednotlivě vejdou do batohu, racionální číslo [$]\\varepsilon > 0[/$]
                         Když [$]\\varepsilon[/$] je větší než [$]n-1[/$], vrať nejdražší předmět.
@@ -514,20 +549,29 @@ notes:
         -
                 uuid: 99b1151e-7725-4bbf-9a3d-2cd4447be606
                 front: Definice - aproximační schema
-                back: Algoritmus co na instanci a [$]\\varepsilon>0[/$] vydá řešení s apx. poměrem [$]1+\\varepsilon[/$].
+                back: >
+                        Algoritmus co na instanci a [$]\\varepsilon>0[/$] vydá
+                        řešení s apx. poměrem [$]1+\\varepsilon[/$].
         -
                 uuid: bb62e0eb-f496-46b1-a623-c26432fd3b2c
                 front: Definice - Polynomiální aproximační schema
                 back: Aproximační schema co pracuje v [$]O(poly(len(I)))[/$]
         -
                 uuid: f6a37dbc-71dc-4cdc-a42d-9686bf28fea7
-                front: Definice - Úplné polynomiální aproximační schema
+                front: Definice - Úplně polynomiální aproximační schema
                 back: Aproximační schema co pracuje v [$]O(poly(len(I), \\frac{1}{\\varepsilon}))[/$]
         -
                 uuid: 78a6ff60-b26d-47eb-8e56-001c8bb2d1ea
                 front: Aproximační schemata a silná NP-úplnost. Důsledek?
                 back: >
-                        Ať je [$]A[/$] optimalizační úloha a existuje [$]q[/$] polynom že pro všechny instance [$]opt(I) < q(len(I), max(I))[/$]. Když existuje ÚPAS pro A, tak existuje pseudopolynomiální algoritmus pro A. (Tedy: pokud P!=NP, neexistuje ÚPAS pro žádnou silně NP-úplnou úlohu co splňuje požadavky věty)
+                        Ať je [$]A[/$] optimalizační úloha a existuje polynom [$]q[/$],
+                        že pro všechny instance [$]opt(I) < q(len(I), max(I))[/$].
+                        <br>
+                        Když existuje ÚPAS pro A, tak existuje pseudopolynomiální
+                        algoritmus pro A.
+                        <br>
+                        (Tedy: pokud P!=NP, neexistuje ÚPAS pro žádnou silně
+                        NP-úplnou úlohu co splňuje požadavky věty)
         -
                 uuid: fc1a3d8c-ed49-4d9e-9f83-0bac1f831006
                 front: Definice co-NP

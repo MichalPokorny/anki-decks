@@ -54,7 +54,7 @@ notes:
                 back: Trvale přenášejí ionty draslíku a sodíku, tedy polarizují membránu.
         -
                 uuid: 7b90070a-c895-4e86-9c31-8e7660c26769
-                front: Polarizace neuronového povrchu
+                front: Polarizace neuronového povrchu - jaká je vevnitř, venku?
                 back: Venku kladná, vevnitř záporná
         -
                 uuid: 4fa5ac9c-ef80-4c9c-b683-7ac6f4cdb537
@@ -311,7 +311,7 @@ notes:
                         [$]R(m,n)=2 \\sum_{i=0}^{n-1} { {m-1} \\choose {i}}[/$]
         -
                 uuid: bab5c148-ed49-41aa-a7a9-e4adc2e8399a
-                front: Počet vzorů potřebných pro správné zobecňování s generalizační chybou [$]\\varepsilon[/$], dle počtu vah [$]W[/$] a počtu neuronů [$]N[/$]
+                front: Počet vzorů potřebných pro správné zobecňování s generalizační chybou [$]\\varepsilon[/$], dle počtu vah [$]W[/$] a počtu neuronů [$]N[/$]. Rule of thumb?
                 back: >
                         [$]P \\geq (W/\\varepsilon) \\log_2 (N/\\varepsilon)[/$]<br>
 
@@ -328,8 +328,10 @@ notes:
 
                         Přidá se člen:
                         [$$]
-                        F=\\sum_{p} \\sum_{h} y_{h,p}^X (1-y_{h,p})^Y (y_{h,p}-0.5)^Z
+                        F=\\sum_{p} \\sum_{h} y_{h,p}^X (1-y_{h,p})^Y (y_{h,p}-0.5)^2Z
                         [/$$]
+
+                        U 1/2 to musí být sudé (symetrické).
         -
                 uuid: adf31f57-65b6-40e5-9cae-d759e46052bf
                 front: Jednoznačná vnitřní reprezentace; jak se naučí?
@@ -424,15 +426,15 @@ notes:
                         Výstup sítě bude:
                         [$$]
                         \\sgn(x^{(p)}\\cdot W)=\\sgn(y^{(p)} \\cdot (x^{(p)} \\cdot x^{(p)}) + \\sum_{l\\neq p}y^{(l)} \\cdot (x^{(l)} \\cdot x^{(p)}))
-                        [/$$]
+                        [/$$]<br>
 
                         Protože [$]x^{(p)} \\cdot x^{(p)} > 0[/$]:
                         [$$]
-                        \\sgn(x^{(p)} \\cdot W)=\\sgn(y^{(p)} + \\sum_{l\\neq p}y^{(l)} \\cdot \\frac{x^{(l)} \\cdto x^{(p)}}{x^{(p)} \\cdot x^{(p)}})
+                        \\sgn(x^{(p)} \\cdot W)=\\sgn(y^{(p)} + \\sum_{l\\neq p}y^{(l)} \\cdot \\frac{x^{(l)} \\cdot x^{(p)}}{x^{(p)} \\cdot x^{(p)}})
                         [/$$]
 
                         Takže chci, aby absolutní hodnota všech složek
-                        [$]\\sum_{l\\neq p}y^{(l)} \\cdot \\frac{x^{(l)} \\cdto x^{(p)}}{x^{(p)} \\cdot x^{(p)}}[/$] byla menší než 1.
+                        [$]\\sum_{l\\neq p}y^{(l)} \\cdot \\frac{x^{(l)} \\cdot x^{(p)}}{x^{(p)} \\cdot x^{(p)}}[/$] byla menší než 1.
         -
                 uuid: 88bd1b9f-4b04-4351-982d-c37c4c467862
                 front: Rekurentní asociativní paměť versus bez zpětné vazby
@@ -460,7 +462,7 @@ notes:
                         Dostaneme [$]m\\sim 0.18n[/$].
         -
                 uuid: 7e9cb342-4b25-42d6-b8c5-1783fb56fc8d
-                front: Proč můžeme chtít použít pseudoinverzní matici?
+                front: Proč můžeme chtít použít pseudoinverzní matici místo Hebbovského učení?
                 back: Protože vzory můžou být korelované, takže nevhodné pro přímé Hebbovské učení s korelační maticí.
         -
                 uuid: 0fd9a24f-e224-49fe-bb34-367ca7cc0625
@@ -470,19 +472,19 @@ notes:
                         Ale k [$]X[/$] nemusí existovat inverze, tak hledáme matici co minimalizuje [$]\\|XW-Y\\|^2[/$], to minimalizuje [$]W=\\hat{X}Y[/$]
         -
                 uuid: 2d2d66de-68ad-4ced-bc71-877cf5c8949e
-                front: Pseudoinverzní matice pro minimalizaci odchylky v single-layer síti
+                front: Použití pseudoinverzní matice pro minimalizaci odchylky v single-layer BP síti
                 back: >
                         Chci nulový gradient, který je podle váhy [$]w_{ij}[/$] rovný [$]-2\\sum_{p=1}^P (\\sum_{i=1}^n d_{j,p}-w_{ij} x_{i,p})x_{i,p}[/$]
-                        Maticově: [$]WXX^T=DX^T[/$]. K [$]XX^T[/$] můžeme použít pseudoinverzi.
+                        Maticově: [$]WXX^T=DX^T[/$]. K [$]XX^T[/$] můžeme použít pseudoinverzi.<br>
 
-                        Řešení může být víc: omezíme velikosti vah: [$]E=\\lambda\\sum_{i=1}^n \\sum_{j=1}^m w_{ij}^2[/$].
+                        Řešení může být víc: omezíme velikosti vah: [$]E=\\lambda\\sum_{i=1}^n \\sum_{j=1}^m w_{ij}^2[/$].<br>
 
-                        Minimalizace přes parciální derivace: [$]W(XX^T+\\lambda I)=DX^T[/$]
+                        Minimalizace přes parciální derivace: [$]W(XX^T+\\lambda I)=DX^T[/$]<br>
 
                         Pro [$]\\lambda>0[/$] existuje inverze k [$]XX^T+\\lambda I[/$],
-                        tak to takhle vyřešíme pro [$]W[/$].
+                        tak to takhle vyřešíme pro [$]W[/$].<br>
 
-                        Limitně pro [$]\\lambda\\rightarrow 0[/$]: W = D\\hat{X}[/$].
+                        Limitně pro [$]\\lambda\\rightarrow 0[/$]: [$]W = D\\hat{X}[/$].
                         Když je více řešení, tak tohle minimalizuje součet čtverců vah.
         -
                 uuid: e2f01b17-6c02-4037-a66c-d326c5c33e74
@@ -493,11 +495,12 @@ notes:
         -
                 uuid: 65863075-3e56-41dc-a24b-1a1d2e7492ba
                 front: >
-                        BAM: co to je?
+                        BAM: Co to je? Jak to vypadá?
                 back: >
-                        Synchronní asociativní model, synapse jsou obousměrné.
-                        Je to typ rekurentní asociativní paměti.
-                        Snaží se dosáhnout stabilního stavu.
+                        Bidirectional associative memory.<br>
+                        Synchronní asociativní model, synapse jsou obousměrné.<br>
+                        Je to typ rekurentní asociativní paměti.<br>
+                        Snaží se dosáhnout stabilního stavu.<br>
                         Aktivační funkce [$]\\sgn[/$], bipolární kódování.
         -
                 uuid: 957d2bad-5577-4979-b1a3-cf31aac81c16

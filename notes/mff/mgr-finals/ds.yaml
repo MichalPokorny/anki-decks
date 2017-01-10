@@ -71,7 +71,7 @@ notes:
         -
                 uuid: b56212a0-6576-40e6-b4ea-850ff2d6561e
                 front: >
-                        [$] (a,b)[/$]-strom -- amortizovaný počet štěpení a splučování v sekvenci Insertů a Deletů
+                        [$] (a,b)[/$]-strom -- amortizovaný počet štěpení a splučování v sekvenci Insertů a Deletů; jaký to má předpoklad?
                 back: >
                         [$]\\O(m+\\ell+\\log n)[/$] splitů na [$]m[/$] Insertů,
                         [$]\\ell[/$] Deletů, takže [$]\\O(1)[/$] amortizovaně
@@ -124,7 +124,8 @@ notes:
                         Cena za [$]m[/$] operací, [$]n[/$] vložených prvků: [$]\\O(m\\log n+n\\log n)[/$]
         -
                 uuid: f0795afe-ab1d-4293-a1ad-e6f88a9c80f5
-                front: Operace Splay
+                topic: Splay stromy
+                front: Operace Splay -- případy
                 back: >
                         [$]Splay(x)[/$]
 
@@ -161,90 +162,107 @@ notes:
                          .   .                     .   .
                         </pre>
         -
-                uuid: 5071f3a5-9735-46ce-90d8-e13d3e9d9eea
-                front: Amortizovaný čas na Splay -- jak vyjde, další kroky v důkazu
-                back: >
-                        [$]t = a + \\Phi(T') - \\Phi(T)[/$],<br>
-                        kde [$]a[/$] je skutečný čas, [$]\\Phi[/$] je potenciál, [$]t[/$] je amortizovaný čas<br>
-
-                        Potenciál pro Splay strom:<br>
-                        [$]\\Phi(t) := \\sum_{x\\in T}r(x); r(x) := \\log_2([/$]počet vrcholů pod [$]x)[/$]<br><br>
-
-                        Čas na [$]m[/$] operací: [$]\\sum_m t_i =
-                        \\sum_m [a_i + \\Phi(T_i) - \\Phi(T_{i-1})] =
-                        (\\sum_m a_i) + \\Phi(T_m) - \\Phi(T_0) \\Rightarrow[/$]
-                        [$$]\\sum_m a_i = \\sum_m t_i + \\Phi(T_0) - \\Phi(T_m)[/$$],
-                        tedy čas na [$]m[/$] operací je [$]m \\O(\\log n) + \\O(n \\log n)[/$]<br><br>
-
-                        Budeme chtít dokázat, že jednotlivé cases ve Splay nemění moc potenciál.
-        -
-                uuid: 263424b5-62f8-4d35-a8ae-c17bece6d6fb
-                front: Amortizovaný čas na Splay -- obecný postup
-                back: >
-                        Rozeberu po případech, že počet amortizovaných rotací je
-                        [$$]t\\leq 1+3(r(v)-r(x))[/$$]
-                        Kde [$]v[/$] je původní kořen.<br>
-
-                        Amortizovaný čas na Splay je [$]\\leq 1 + 3\\log_2 n[/$].
-        -
-                uuid: 041041da-2e5b-4696-95c9-94c1e7f4855b
-                front: Amortizovaný čas na Splay -- na případ [$]z\\rightarrow y\\rightarrow x \\Rightarrow z\\leftarrow x\\leftarrow x[/$]
-                back: >
-                        [$$]t \\leq 2 + r'(x) - r(x) + r'(y) - r(y) + r'(z) - r(z)[/$$]<br>
-
-                        [$]r(z) = r'(x)[/$], tedy [$]= 2 - r(x) + r'(y) - r(y) + r'(z)...[/$]<br>
-
-                        Protože [$]r'(y) \\leq r'(x)[/$] (protože potom je [$]y[/$] pod [$]x[/$]) a [$]r(y) \\geq r(x)[/$]:
-                        [$$]t \\leq 2 - r(x) + r'(x) - r(x) + r'(z) = 2 + r'(x) - 2r(x) + r'(z)[/$$]<br>
-
-                        Pozorování: [$]2 \\leq 2r'(x) - r(x) - r'(z)[/$]<br>
-
-                        Totiž:
-                        [$$]r'(x) = \\log_2[|A| + |B| + |C| + |D| + 3][/$$]
-                        [$$]r'(y) = \\log_2[|A| + |B| + 1][/$$]
-                        [$$]r'(z) = \\log_2[|C| + |D| + 1][/$$]<br>
-
-                        Povšimni si:
-                        [$$]\\log_2 a + \\log_2 b \\leq 2\\log \\frac{a+b}{2}[/$$]<br>
-
-                        [$$]r'(x) = \\log(a+b+1)\\geq (\\log \\frac{a+b}{2})+1[/$$]<br>
-
-                        [$$]2r'(x)-r(x)-r'(z)\\geq 2[/$$]<br>
-
-                        Tedy: [$$]t\\leq 2+r'(x)-2r(x)+r'(z) \\leq 3r'(x)-3r(x)[/$$]
-        -
-                uuid: 065f235b-8a51-475a-a1b1-2a56296b940e
-                front: Amortizovaný čas na Splay -- na případ [$]x \\rightarrow y \\leftarrow z[/$]
-                back: >
-                        [$$]t \\leq 2+r'(x)-r(x)+r'(y)-r(y)+r'(z)-r(z)[/$$]
-                        [$$]= 2-r(x)+r'(y)-r(y)+r'(z)[/$$]
-                        [$$]\\leq 2-2r(x)+r'(y)+r'(z)[/$$]
-
-                        Pozorování: [$]2\\leq 2r'(x)-r'(y)-r'(z)[/$]
-
-                        Tedy: [$$]\\leq 2r'(x)-2r(x)=2(r'(x)-r(x))[/$$]
-        -
-                uuid: cd420f77-33c2-4660-8c81-eefc5cc04e1b
-                front: Amortizovaný čas na Splay -- na případ [$]x\\rightarrow y[/$] v kořeni
-                back: >
-                        [$$]t\\leq 1+r'(x)-r(x)+r'(y)-r(y)[/$$]
-
-                        Poz.: [$]r'(y)<r(y)[/$], [$]r'(x)-r(x)>0[/$]
-
-                        [$$]\\leq 1+r'(x)-r(x) \\leq 1+3(r'(x)-r(x))[/$$]
-        -
                 uuid: dc66b323-9313-4e90-9de3-e00034c2cf8e
-                front: Splay strom -- Insert
+                topic: Splay stromy
+                front: Insert
                 back: >
                         Vysplayuj nahoru poslední vrchol na cestě k chybějícímu [$]x[/$].
 
                         Podrozděl levou nebo pravou hranu z vysplayovaného kořene novým vrcholem [$]x[/$].
         -
                 uuid: a95b34fc-04cd-4672-aaa9-ed11305aea42
-                front: Splay strom -- Delete
+                topic: Splay stromy
+                front: Delete
                 back: >
                         Vysplayuj nahoru vrchol co chci odebrat.
                         Odeber ho, nahraď ho nejmenším/největším z pravého/levého podstromu.
+        -
+                uuid: 5071f3a5-9735-46ce-90d8-e13d3e9d9eea
+                topic: Splay stromy
+                front: Amortizovaný čas na Splay -- definice - skutečný čas a potenciál před a po operaci
+                back: >
+                        [$]t = a + \\Phi(T') - \\Phi(T)[/$],<br>
+                        kde [$]a[/$] je skutečný čas, [$]\\Phi[/$] je potenciál, [$]t[/$] je amortizovaný čas<br>
+        -
+                uuid: 3e6385c5-e3b9-400c-9bc1-f6cf01561dfc
+                topic: Splay stromy
+                front: Definice potenciálu
+                back: >
+                        [$$]\\Phi(t) := \\sum_{x\\in T}r(x); r(x) := \\log_2(\\text{počet vrcholů pod}\\ x)[/$$]
+        -
+                uuid: 45db7dff-0f55-44f9-964d-65a5a69dd29a
+                topic: Splay stromy
+                front: Teleskopická suma porovnávající amortizovaný čas a skutečný čas
+                back: >
+                        Pro amortizovaný čas:
+                        [$$]\\sum_i t_i = (\\sum_i a_i) + \\Phi(T_m)-\\Phi(T_0)[/$$]<br>
+
+                        Takže pro skutečný čas:
+                        [$$]\\sum_{i=1}^m a_i = \\sum_{i=1}^m t_i + \\Phi(T_0) - \\Phi(T_m) \\leq \\sum_{i=1}^m t_i + \\Phi(T_0)[/$$]
+        -
+                uuid: 5af4b439-60f4-4a7a-a103-ac9ad8cd2b02
+                topic: Splay stromy
+                front: Co chci dokázat o času na jeden dvourotační krok?
+                back: >
+                        Že jeho amortizovaný čas (tedy změna plus skutečný čas [$]\\Phi(T')-\\Phi(T)[/$]) je:<br>
+                        Pro rotace vevnitř (případ [$]x\\rightarrow y\\rightarrow z[/$], [$]x\\leftarrow y\\rightarrow z[/$]): [$]t\\leq 3(r'(x)-r(x))[/$].
+                        Pro rotaci u kořene: [$]t\\leq 3(r'(x)-r(x)) + 1[/$].
+        -
+                uuid: 8d4b7b9b-26fa-4fb5-aca4-3f8af1d65cf3
+                topic: Splay stromy
+                front: K čemu se bude hodit omezení na amortizovaný čas na dvourotační kroky?
+                back: >
+                        Na krok je čas [$]\\leq 3(r'(x)-r(x))[/$], plus 1 za rotaci u kořene.<br>
+                        To se postupným splayováním vyteleskopuje na [$]1+3(r(v)-r(x))[/$], kde [$]v[/$] je kořen stromu.<br>
+                        To je nejvýš [$]\\Theta(\\log N)[/$].
+        -
+                uuid: 041041da-2e5b-4696-95c9-94c1e7f4855b
+                topic: Splay stromy
+                markdown: false
+                front: >
+                        Amortizovaný čas na Splay -- na případ [$]z\searrow y\searrow x \Longrightarrow z\swarrow y\swarrow x[/$]
+                back: >
+                        [latex]
+                        \begin{align*}
+                                t := & a+\Phi(T')-\Phi(T) = &
+                        \\         = & \underbrace{2}_{Rotace} + r'(x) - r(x) + r'(y) - r(y) + r'(z) - r(z) = & [r(z)=r'(x)]
+                        \\         = & 2 - r(x) + r'(y) - r(y) + r'(z) \leq & [r'(y) \leq r'(x); r(y)\geq r(x)]
+                        \\      \leq & 2 - r(x) + r'(x) - r(x) + r'(z) &
+                        \\         = & 2 + r'(x) - 2r(x) + r'(z) &
+                        \end{align*}
+                        [/latex]
+                        <br>
+                        Pozorování: [$]2 \\leq 2r'(x) - r(x) - r'(z)[/$]<br>
+                        Tedy: [$$]t\\leq 2+r'(x)-2r(x)+r'(z) \\leq 3r'(x)-3r(x)[/$$]
+        -
+                uuid: 065f235b-8a51-475a-a1b1-2a56296b940e
+                topic: Splay stromy
+                markdown: false
+                front: Amortizovaný čas na Splay -- na případ [$]z\searrow y\swarrow x \Longrightarrow z\nearrow x\nwarrow y[/$]
+                back: >
+                        [latex]
+                        \begin{align*}
+                                t := & a+\Phi(T')-\Phi(T) = &
+                        \\         = & \underbrace{2}_{Rotace} + r'(x) - r(x) + r'(y) - r(y) + r'(z) - r(z) = & [r(z)=r'(x)]
+                        \\         = & 2 - r(x) + r'(y) - r(y) + r'(z) \leq & [r(y) > r(x)]
+                        \\      \leq & 2 - 2r(x) + r'(y) - r'(z) &
+                        \end{align*}
+                        [/latex]
+                        <br>
+
+                        Pozorování: [$]2\\leq 2r'(x)-r'(y)-r'(z)[/$]<br>
+
+                        Tedy: [$$]t \\leq 2r'(x)-2r(x)=2(r'(x)-r(x))\\leq 3(r'(x)-r(x))[/$$]
+        -
+                uuid: cd420f77-33c2-4660-8c81-eefc5cc04e1b
+                topic: Splay stromy
+                front: Amortizovaný čas na Splay -- na případ [$]x\\rightarrow y[/$] v kořeni
+                back: >
+                        [$$]t\\leq 1+r'(x)-r(x)+r'(y)-r(y)[/$$]
+
+                        Poz.: [$]r'(y)<r(y)[/$], [$]r'(x)-r(x)>0[/$]
+
+                        [$$]t \\leq 1+r'(x)-r(x) \\leq 1+3(r'(x)-r(x))[/$$]
         -
                 uuid: 7738e830-27af-432c-9f98-4266eae390e8
                 front: Haldy -- obecný interface
@@ -252,13 +270,15 @@ notes:
                         Insert, Min, DeleteMin
         -
                 uuid: 98f1108a-eb48-4c63-ba19-aef0d126a539
-                front: Regulární halda -- invariant, uložení do pole
+                topic: Regulární halda
+                front: Invariant, uložení do pole
                 back: >
                         Invariant: Prvek je menší než všechny pod ním.
                         Pod [$]i[/$] jsou prvky [$]2i[/$], [$]2i+1[/$].
         -
                 uuid: d77b8f43-105e-4074-8728-893e94fc4584
-                front: Regulární halda -- Insert
+                topic: Regulární halda
+                front: Algoritmus Insert
                 back: >
                         Přidej prvek na konec pole. Bublej ho směrem ke kořeni,
                         dokud je porušena podmínka, že otec je menší než syn.
@@ -307,22 +327,25 @@ notes:
                         (Takže amortizovaně [$]\\O(1)[/$] na Insert dokud se neprovede DeleteMin.)
         -
                 uuid: 3badd3b1-40d5-4e0c-925a-3126f13208cf
-                front: Líná binomiální halda -- Insert
+                topic: Líná binomiální halda
+                front: Algoritmus pro Insert
                 back: Vytvoř nový strom velikosti 1 a aktualizuj odkaz na minimum.
         -
                 uuid: baad0a81-0faa-4a86-8dd4-552e0aa815d6
-                front: Líná binomiální halda -- DeleteMin
+                topic: Líná binomiální halda
+                front: Algoritmus pro DeleteMin
                 back: >
                         Odřízni kořen stromu s minimálním prvkem. Slévej stromy stejné velikosti dokud to jde.
         -
                 uuid: 00bd62d4-b7b8-461d-a215-3ac8f38335b2
-                front: Líná binomiální halda -- složitosti, důkazy
+                topic: Líná binomiální halda
+                front: Složitosti, důkazy
                 back: >
-                        Insert [$]\\O(1)[/$], Min [$]\\O(1)[/$], DeleteMin [$]\\O(n)[/$], ale amortizovaně [$]\\O(\\log n)[/$]
+                        Insert [$]\\O(1)[/$], Min [$]\\O(1)[/$], DeleteMin [$]\\O(n)[/$], ale amortizovaně [$]\\O(\\log n)[/$]<br>
 
-                        Potenciál: [$]\\Phi(T) = C \\cdot [/$] počet stromů v haldě
+                        Potenciál: [$]\\Phi(T) = C \\cdot [/$] počet stromů v haldě<br>
 
-                        Insert: [$]\\leq C + \\Phi(T')-\\Phi(T) = C[/$]
+                        Insert: [$]\\leq C + \\Phi(T')-\\Phi(T) = C[/$]<br>
 
                         DeleteMin: [$]\\leq C \\cdot [/$] počet stromů [$]+\\Phi(T')-\\Phi(T)\\leq C\\cdot\\log n = \\O(\\log n)[/$]
         -
@@ -346,12 +369,11 @@ notes:
                         [$]\\log N - \\log B[/$]
         -
                 uuid: 421b4c33-4f9e-4ceb-8ae5-55590e3be666
-                front: Model externí paměti -- transpozice matice
+                front: Model externí paměti -- transpozice matice, za jaké podmínky to funguje. Co naivní algoritmus?
                 back: >
-                        [$]N^2[/$] přenosů když [$]M/B < N[/$]
-
                         Když [$]M>B^2[/$], jde udělat algoritmus s [$]N^2/B[/$] přenosy (optimální).
-                        Transponuj po podmaticích velikosti [$]B\\times B[/$].
+                        Transponuj po podmaticích velikosti [$]B\\times B[/$].<br>
+                        Naivní algoritmus chce [$]N^2[/$] přenosů (pokud [$]\\frac{M}{B}<N[/$]).
         -
                 uuid: b0008716-72b5-43cb-a275-0cc8975b732e
                 front: Cache-oblivious algoritmy
@@ -386,19 +408,19 @@ notes:
                 uuid: bc29fdf5-d98c-4503-8c47-97882feef63d
                 front: Sleator-Tarjanova věta o LRU/OPT strategii
                 back: >
-                        Ať je posloupnost přístupů [$]s_1, \\ldots s_N[/$], LRU ať má [$]n_{LRU}[/$] stránek, OPT ať má [$]n_{OPT}[/$] stránek.
+                        Ať je posloupnost přístupů [$]s_1, \\ldots s_N[/$], LRU ať má [$]n_{LRU}[/$] stránek, OPT ať má [$]n_{OPT}[/$] stránek.<br>
 
-                        Tvrzení: [$]\\#[/$] LRU výpadků [$]\\leq \\frac{n_{LRU}}{n_{LRU}-n_{OPT}}\\cdot\\#[/$] výpadků OPT [$]+n_{LRU}[/$]
+                        Tvrzení: [$]\\#[/$] LRU výpadků [$]\\leq \\frac{n_{LRU}}{n_{LRU}-n_{OPT}}\\cdot\\#[/$] výpadků OPT [$]+n_{LRU}[/$]<br>
 
                         Pozorování:
                         Když má LRU výpadek v čase [$]t_1, t_2[/$] na stejné stránce ([$]s_{t_1}=s_{t_2}[/$]),
-                        tak mezi [$]t_1[/$] a [$]t_2[/$] přistupuje k [$]n_{LRU}[/$] různým stránkám.
+                        tak mezi [$]t_1[/$] a [$]t_2[/$] přistupuje k [$]n_{LRU}[/$] různým stránkám.<br>
 
                         Rozsekejme [$]s_{\\*}[/$] na kusy, v nichž v každém je v LRU [$]n_{LRU}[/$] výpadků (až na poslední).
                         V každém se přistupuje k aspoň [$]n_{LRU}[/$] různým stránkám.
-                        OPT musí mít v daném úseku aspoň [$]n_{LRU}-n_{OPT}[/$] výpadků, protože na začátku má OPT v sobě nejvýš [$]n_{OPT}[/$] stránek.
+                        OPT musí mít v daném úseku aspoň [$]n_{LRU}-n_{OPT}[/$] výpadků, protože na začátku má OPT v sobě nejvýš [$]n_{OPT}[/$] stránek.<br>
 
-                        Tedy: [$]\\#_{LRU}/n_{LRU} \\leq \\lceil \\#_{OPT} / (n_{LRU}-n_{OPT}) \\rceil[/$]
+                        Tedy: [$]\\#_{LRU}/n_{LRU} \\leq \\lceil \\#_{OPT} / (n_{LRU}-n_{OPT}) \\rceil[/$]<br>
 
                         Když zvolím 2x větší LRU, bude konstanta nejvýš 2.
 

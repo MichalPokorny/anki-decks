@@ -6,3 +6,63 @@ notes:
                 uuid: 5916f44c-facc-4fc7-80e9-b8be66cafd6a
                 front: TODO notes
                 back: "`\\usepackage{todonotes}`, then `\\todo{Oprav to!}`"
+        -
+                uuid: 826ad2ea-68ed-4249-890a-ecef4a6ece42
+                front: Add text to math; package
+                back: "`$\\text{Hello}\\ \\sqrt{x}$`; [$]\\text{Hello}\\ \\sqrt{x}[/$]; `amsmath`"
+        -
+                uuid: 67cf4b34-996e-421a-8790-ef07639a4d76
+                front: Import package
+                back: "`\\usepackage{amsmath}`"
+        -
+                uuid: 6bac8891-a8b6-434c-86a0-31ae79eace81
+                front: Define new unary math operation
+                back: "`\\DeclareMathOperator\\mycos{cos}`"
+        -
+                uuid: 0e7b2430-cd3d-4289-935a-24c822b819ad
+                front: "
+                        [$$]
+                        f(x)=\\begin{cases}
+                                \\sin x & \\text{if }x\\geq 0,\\\\\\\\
+                                \\cos x & \\text{otherwise}
+                        \\end{cases}
+                        [/$$]
+                        "
+                back: >
+                        `
+                        f(x)=\begin{cases}
+                                \sin x & \text{if }x\\geq 0, \\
+                                \cos x & \text{otherwise}
+                        \end{cases}
+                        `
+                include_reverse: true
+        -
+                uuid: bcd27fd1-6c5d-4e2b-b91d-4fd543a03b9d
+                markdown: false
+                front: "
+                        [$$]
+                        f(x) = \\underbrace{(x+2)^3}_\\text{Hello} + \\overbrace{(x-3)}^\\text{World}
+                        [/$$]
+                        "
+                back: >
+                        <code>
+                        f(x) = \underbrace{(x+2)^3}_\text{Hello} + \overbrace{(x-3)}^\text{World}
+                        </code>
+        -
+                uuid: 2eb8b0c2-e4ce-41d4-a6cb-af006661b707
+                markdown: false
+                front: >
+                        [latex]
+                        \begin{align*}
+                        a + b + c & = d + e \\
+                        z & = 1
+                        \end{align*}
+                        [/latex]
+                back: >
+                        <code>
+                        \begin{align*}
+                        a + b + c & = d + e \\
+                        z & = 1
+                        \end{align*}
+                        </code>
+

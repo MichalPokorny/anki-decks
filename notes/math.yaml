@@ -63,29 +63,36 @@ notes:
                 uuid: 2de3f4b6-ac7d-400a-be6d-d08aadf7f53b
                 front: Věta co minimalizuje pseudoinverzní matice, důkaz
                 back: >
-                        Ať je [$]X\\in\\R^{m\\times n}, Y\\in\\R^{m\\times k}[/$]. Pak [$]W=\\hat{X} Y[/$] minimalizuje [$]\\|XW-Y\\|^2[/$].
+                        Ať je [$]X\\in\\R^{m\\times n}, Y\\in\\R^{m\\times k}[/$]. Pak [$]W=\\hat{X} Y[/$] minimalizuje [$]\\|XW-Y\\|^2[/$].<br>
 
-                        Zároveň [$]\\hat{X}[/$] minimalizuje [$]\\|X\\hat{X}-I\\|^2[/$].
+                        Zároveň [$]\\hat{X}[/$] minimalizuje [$]\\|X\\hat{X}-I\\|^2[/$].<br>
 
-                        [$]E:=\\|XW-Y\\|^2[/$]
+                        [$]E:=\\|XW-Y\\|^2[/$]<br>
 
-                        Dá se vyjádřit jako [$]E=tr(S)[/$], kde [$]S=(XW-Y)^T (XW-Y)[/$]
+                        Dá se vyjádřit jako [$]E=tr(S)[/$], kde [$]S=(XW-Y)^T (XW-Y)[/$]<br>
 
                         [$$]
                         (XW-Y)^T (XW-Y) = (Y-XW)^T (Y-XW) = (-XW)^T (Y-XW) + Y^T(-XW) + Y^T Y =
-
+                        [/$$]
+                        [$$]
                         = (-XW)^T (Y-XW) + Y^T X \\hat{X} (Y-XW) + Y^T(I-X\\hat{X})Y =
-
+                        [/$$]
+                        [$$]
                         = (X\\hat{X}Y-XW)^T (Y-XW) + Y^T (I-X\\hat{X})Y =
-
+                        [/$$]
+                        [$$]
                         = (\\hat{X}Y-W)^T X^T (Y-XW)+Y^T(I-X\\hat{X})Y =
-
+                        [/$$]
+                        [$$]
                         = (\\hat{X}Y-W)^T (X^T Y-X^T XW)+Y^T(I-X\\hat{X})Y =
-
+                        [/$$]
+                        [$$]
                         = (\\hat{X}Y-W)^T ((X\\hat{X}X)^T Y-X^T XW)+Y^T(I-X\\hat{X})Y =
-
+                        [/$$]
+                        [$$]
                         = (\\hat{X}Y-W)^T (X^T X\\hat{X}Y-X^T XW)+Y^T (I-X\\hat{X})Y =
-
+                        [/$$]
+                        [$$]
                         = (\\hat{X}Y-W)^T X^T X(\\hat{X}Y-W)+Y^T(I-X\\hat{X})Y
                         [/$$]
 

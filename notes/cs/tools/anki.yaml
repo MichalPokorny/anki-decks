@@ -20,3 +20,7 @@ notes:
                 uuid: 984eeb79-44bd-4a43-8f92-5604d69d95f1
                 front: Bury vs. suspend
                 back: Bury - buries until next day, suspend - suspends until manually unsuspended
+        #-
+        #        uuid: 5ec29d08-ec9f-446a-a8d5-41ddb68143bb
+        #        front: Embed some LaTeX, not an equation
+        #        back: [latex]Some LaTeX[/latex]
