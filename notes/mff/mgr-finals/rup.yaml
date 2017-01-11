@@ -356,7 +356,7 @@ notes:
                         Součet vzdáleností tilů od jejich cílů (Manhattan heuristika).
         -
                 uuid: ab93dba1-29b3-44a0-82b3-d9d888223810
-                front: Jak se poměřují dobrosti heuristik?
+                front: Jak se poměřují dobrosti A-star heuristik číselně?
                 back: >
                         Ať heuristika rozbalí [$]N[/$] nodů.
                         Porovnáváme [$]b^{ * }[/$], branching faktor
@@ -421,9 +421,8 @@ notes:
                         Stochastický: vyber si náhodně mezi zlepšujícími kroky;
                         pravděpodobnost může záležet na velikosti zlepšení.
                         <br>
-                        First-choice: implemetuj stochastický hill climbing
-                        dokud nenajdeš successora lepšího než současný stav.
-                        (TODO: jak se liší od stochastického?)
+                        First-choice: jdi do prvního lepšího successora
+                        co najdeš.
                         <br>
                         Random-restart: dělej náhodné hill-climbingy z náhodných stavů.
                         Když má hill climbing šanci [$]p[/$] na úspěch,
@@ -504,4 +503,581 @@ notes:
                         Mezi akcemi vyber tu, co minimalizuje LRTA-cost, která je založená
                         i na podpoře explorace. (Když nevíme, co akce dělá, předpokládáme,
                         že vede hned do cíle -- [$]h(s)[/$].)
-        # AI1 lecture06eng
+        # DPV 01
+        -
+                uuid: 8e2b26e8-30f3-4c2c-aba3-6c85c6284774
+                topic: Řešení SAT
+                front: NNF formule a jak rychlý je převod
+                back: >
+                        Formule co má jenom [$]\\wedge, \\vee, \\neg[/$] a negace je jenom u literálů.
+                        Převod trvá lineární čas (de Morgan a eliminace dvojité negace formuli neprodlužují).
+        -
+                uuid: 0f9b799d-839b-4e9e-8ae1-2314bae8f593
+                topic: Řešení SAT
+                front: Převod do CNF v lineárním čase
+                back: >
+                        Tseitinovo kódování.<br>
+                        Vyrobím si pro formuli generující strom.<br>
+                        Pro vnitřní vrcholy stromu si vyrobím nové proměnné.
+        -
+                uuid: dd575466-88ed-4d73-8c3b-a3166cc6bcc0
+                topic: Řešení SAT
+                front: Definice - Antecedentní klauzule (v SAT solveru)
+                back: >
+                        Klauzule, která vyvolala unit propagaci literálu (ve které se nacházel).
+        -
+                uuid: ad4dd92e-6a3a-4d07-80d9-4e797a51ccfe
+                topic: Řešení SAT
+                front: Definice implikačního grafu
+                back: >
+                        Graf popisuje fázi DPLL.<br>
+                        Vrcholy jsou proměnné a K.
+                        Jsou označené ohodnocením a "decision levelem".
+                        <br>
+                        Hrany jsou důvody k přiřazení hodnoty proměnné.
+                        Hrana mezi [$]x\\rightarrow y[/$]:
+                        [$]Antecedent(y)[/$] obsahuje buď [$]\\neg x[/$] a
+                        [$]\\alpha(x)=1[/$], nebo obsahuje [$]x[/$] a [$]\\alpha(x)=0[/$].
+                        Hrana je označena [$]Antecedent(y)[/$].
+                        <br>
+                        Vertex K označuje konflikt:
+                        vlož hranu [$]x\\rightarrow K[/$]
+                        pokud existuje konfliktní klauzule [$]c[/$] vzhledem k [$]\\alpha[/$]
+                        a [$]c[/$] buď obsahuje [$]\\neg x[/$] a [$]\\alpha(x)=1[/$],
+                        nebo obsahuje [$]x[/$] a [$]\\alpha(x)=0[/$].
+                        Tuto hranu označ konfliktní klauzulí.
+        -
+                uuid: d819b91f-b306-437a-9aed-189891951eb5
+                topic: Řešení SAT
+                front: Jak se z implikačního grafu vykouká nová konfliktní klauzule?
+                back: >
+                        Řez v grafu mezi rozhodnutími a K.
+        -
+                uuid: 8b253b81-ab75-44b3-8dfd-6454c64fcde2
+                topic: Řešení SAT
+                front: K čemu jsou v implikačním grafu řezy?
+                back: >
+                        Řez v grafu mezi rozhodnutími a K je konfliktní
+                        klauzule implikovaná rozhodnutími.
+        -
+                uuid: f2529af7-25ca-42a2-a230-ec5edf03cb03
+                topic: Řešení SAT
+                front: Algoritmus CDCL - za co je to zkratka, co dělá?
+                back: >
+                        Conflict-driven clause learning.<br>
+
+                        Udělej unit propagaci a pure variable elimination.<br>
+
+                        Opakuj:
+                        <ul>
+                        <li>Vyber proměnnou, která ještě není ohodnocená, nebo skonči.
+                        <li>Přidej nové ohodnocení do modelu.
+                        <li>(@) Udělej unit propagaci
+                        <li>Jestli unit propagace dopadla špatně,
+                        <li>zanalyzuj konflikt -- najdi backtrack úroveň a vlož novou naučenou konfliktní klauzuli,
+                        <li>backtrackuj před konflikt (smaž pozdější přiřazení),
+                        <li>jdi na (@)
+                        </ul>
+        -
+                uuid: 1c2792bd-77f2-46b9-bc3c-34fad1a2a7a4
+                topic: Řešení SAT
+                front: Jak v CDCL vybrat vhodnou klauzuli k naučení?
+                back: >
+                        Asserting clause: konfliktní klauzule co obsahuje
+                        přesně jeden literál ze současného rozhodnutí.
+                        (Po backtracku unit propagace okamžitě dá rozhodnutí.)
+                        <br>
+                        Unique implication point: takový bod, skrz který vedou
+                        všechny cesty z posledního decision vertexu do K.
+                        <br>
+                        Vybereme UIP, který je nejbližší k K.
+                        Naučíme se jako konfliktní klauzuli tenhle UIP spolu
+                        s opakem literálu z poslední rozhodovací vrstvy.
+        -
+                uuid: 597265d0-ed3d-4af5-ad9f-dfc558da09d0
+                topic: Řešení SAT
+                front: Kam v CDCL backtrackovat?
+                back: >
+                        Podívej se na klauzuli, kterou ses naučil.
+                        Backtrackni do druhé nejhlubší úrovně přiřazení v ní.
+                        (Smaž všechny rozhodnutí udělané potom.)
+        -
+                uuid: b72a9764-ad55-4a3b-b72a-4376e36eed3c
+                topic: Řešení SAT
+                front: CDCL - detaily analýzy konfliktu
+                back: >
+                        Vezmi konfliktní klauzuli.
+
+                        Dokud neobsahuje konfliktní klauzule právě jeden literál
+                        z posledního decision levelu: vezmi poslední v ní
+                        dosazený literál a resolvuj ho s jeho antecedentem.
+        -
+                uuid: cea23069-42ba-472c-b0f0-f875e55b8cf7
+                topic: Řešení SAT
+                front: Heuristiky pro výběr proměnných k dosazení
+                back: >
+                        VSIDS (Variable State Independent Decaying Sum),
+                        Berkmin
+        -
+                uuid: 05bb9ed3-3b6f-44fa-a69d-519a55ef075c
+                topic: Řešení SAT
+                front: Heuristika VSIDS
+                back: >
+                        Každý literál má skóre. Když se naučím klauzuli,
+                        přičtu jejím literálům 1, pravidělně všechny skóre
+                        exponenciálně zmenšuju.
+                        Preferuju řešit konfliktní klauzule.
+        -
+                uuid: 3bfa2a31-4515-4bd9-abcf-fa2ce8ef91f9
+                topic: Řešení SAT
+                front: Heuristika Berkmin
+                back: >
+                        Každá proměnná, literál má VSIDS skóre, které se nedělí
+                        průběžně.<br>
+                        Konfliktní klauzule házím do stacku.
+                        Když vybírám proměnnou, vezmu jednu klauzuli
+                        ze stacku, z ní dosadím do proměnné s nejvyšším skóre
+                        a polaritu podle skóre literálu. Jestli je stack
+                        vyberu jinak.
+        -
+                uuid: 5f932d37-3de7-43c5-8c67-50e2e844762d
+                topic: Řešení SAT
+                front: Sledování dvou literálů
+                back: >
+                        V každé nevyřešené klauzuli si označím dva nedosazené literály.
+                        <br>
+                        Pro každou proměnnou si pamatuju označené výskyty.
+                        Když dosadím třeba [$]x_1=0[/$], zkontroluju jenom
+                        klauzule co sledují [$]x_1[/$] -- potřebuju v nich
+                        najít další proměnnou ke sledování. Jestli neexistuje,
+                        tak z klauzule zbyla jednotková klauzule.
+        -
+                uuid: 75e77a4d-deea-4807-86d3-fbeede06e813
+                front: Co udělá sledování dvou literálů při backtracku?
+                back: Nic se nemusí měnit
+        # AI1 lecture06eng (CSP)
+        -
+                uuid: 088f9f53-2262-4422-9b13-b5cfe69f4538
+                topic: CSP
+                front: >
+                        Základní termíny
+                back: >
+                        Domény, proměnné, podmínky (různé arity), (filtrování).
+        -
+                uuid: 1136669b-f0ad-4b35-80ec-ff85de0e11f1
+                topic: CSP
+                front: >
+                        Podle jakých heuristik budeme vybírat proměnnou k dosazení?
+                back: >
+                        Tu, jejíž dosazení do nejdříve selže (fail-first).
+                        Tedy:<br>
+
+                        dom heuristika: proměnná s nejmenší doménou<br>
+
+                        deg heuristika: proměnná co má nejvíc podmínek<br>
+
+                        dom+deg heuristika: mezi proměnnými s nejmenší doménou
+                        vyber tu co má nejvíc podmínek
+        -
+                uuid: 97caa973-7b9c-4385-9a39-c21d00f284a7
+                topic: CSP
+                front: >
+                        Podle jakých heuristik budeme vybírat pořadí hodnot k dosazení?
+                back: >
+                        Succeed-first: Tedy:<br>
+
+                        Taková proměnná co nejméně omezí ostatní proměnné.<br>
+
+                        Zkus problém zrelaxovat, najít řešení relaxovaného problému
+                        a z něj vzít hodnotu.<br>
+
+                        Problem-dependent heuristics.
+        -
+                uuid: 335f20af-07e8-405a-8331-f23057d628df
+                topic: CSP
+                front: Forward checking
+                back: >
+                        Po přiřazení zkontroluj constrainy mezi právě přiřazenou
+                        proměnnou a budoucími proměnnými.
+        -
+                uuid: 0ab920fd-72d2-44e7-8c34-e1fc95d662eb
+                topic: CSP
+                front: Arc consistency
+                back: >
+                        Každá hrana má podporu, tedy každá hodnota v každé doméně
+                        má podporu na druhé straně podmínek.
+                        Při každé změně uděláme další filtrování.
+        -
+                uuid: 9dd1edf2-6c4f-41f7-a611-a4a54845be01
+                topic: CSP
+                front: AC-3 algoritmus a časová složitost
+                back: >
+                        Měj queue všech hran.
+                        Vyber hranu z queue.<br>
+
+                        Pro hranu zkontroluj, že každé dosazení doleva má podporu vpravo.
+                        (Kontrola trvá [$]d^2[/$].)<br>
+
+                        Pokud jsem něco odebral, přidám všechny hrany
+                        ze změněné domény do queue.<br>
+
+                        Tedy celkem složitost: [$]\\O(ed^3)[/$], kde [$]e[/$] je
+                        počet podmínek.
+        -
+                uuid: e8cbd3a0-6013-4c57-9279-d6ae60d6f8c7
+                topic: CSP
+                front: >
+                        [$]k[/$]-konzistence - definice
+                back: >
+                        Když pro každé konzistentní přiřazení [$](k-1)[/$]
+                        proměnných ho umíme rozšířit o další proměnnou
+        -
+                uuid: ee762038-22a3-4ef8-b129-786aa4bbc750
+                topic: CSP
+                front: >
+                        [$]k[/$]-konzistence a řešení bez backtracků
+                back: >
+                        Jestli je problém [$]k[/$]-konzistentní pro [$]k\\in\\{1,\\ldots n\\}[/$],
+                        jde vyřešit bez backtracků.
+        -
+                uuid: caa2d40c-363e-4b69-8ecd-5cf307824bdf
+                topic: CSP
+                front: Časová složitost [$]k[/$]-konzistence
+                back: >
+                        Exponenciální v [$]k[/$]
+        -
+                uuid: 6f35387f-61d2-4b92-afbc-65eb98efc6f4
+                topic: CSP
+                front: Globální podmínky a příklad
+                back: >
+                        Obalují podproblém - například <code>all_different</code>
+                        obaluje párování v bipartitním grafu
+        -
+                uuid: 41c999c5-02dd-4903-9fae-97bbdbd1ee53
+                topic: CSP
+                front: Jak se v CSP řeší optimalizace?
+                back: Branch and bound
+        # planovani lecture01
+        -
+                uuid: c2d9d34f-5d36-4601-b17a-5cbec59f321d
+                front: Plánování vs. rozvrhování
+                back: >
+                        Plánování: počáteční a požadovaný stav světa,
+                        popis akcí, výstup je plán. Nezajímá nás čas ani zdroje.
+                        Téma umělé inteligence, složitost často horší než NP-c.
+                        <br>
+                        Rozvrhování: máme částečně uspořádané aktivity
+                        a dostupné zdroje, výstup je alokace. Čas a zdroje
+                        jsou omezené, aktivity jsou známé předem.
+                        Téma operačního výzkumu, typicky NP-c.
+        -
+                uuid: 763130f5-f272-4555-9a37-207bd980c1ad
+                front: Značení - počáteční stav, cílová podmínka, operátory měnící stav
+                back: >
+                        [$$](s_0,g,O)[/$$]
+        # P&R lecture02
+        -
+                uuid: 95b3a90e-dbc5-4bab-8713-1468756d7622
+                front: Konceptuální model plánování, cíle; zjednodušení světa?
+                back: >
+                        Stavy: množina, akce: množina, události mimo naši kontrolu,
+                        přechodová funkce<br>
+                        Cíle: cílový stav / splnění dané podmínky v plánu (např.
+                        "vyhni se tomuhle stavu" / optimalizace objektivní funkce<br>
+
+                        Systém je konečný, plně pozorovatelný, deterministický,
+                        statický (žádné události), cíle jsou jenom dosažení
+                        nějakého stavu, plány jsou sekvenšní, čas je implicitní
+                        (akce jsou okamžité), plánujeme offline
+        -
+                uuid: 732febcc-69de-4eac-ae60-dcff6f9ec4e2
+                topic: STRIPS plánování
+                front: >
+                        Stav systému, akce, plánovací doména,
+                        použitelnost akce, přechodová funkce
+                back: >
+                        Stav: množina platných výroků,
+                        akce je přidá nebo smaže<br>
+                        Doména nad výroky [$]L[/$]: [$]\\Sigma=(s,A,\\gamma)[/$],
+                        kde [$]s\\subseteq \\P(L)[/$] je stav.
+                        <br>
+                        Akce: [$]a=(precond(a),eff^{-}(a), eff^{+}(a))[/$];
+                        ([$]eff^- \\cap eff^+ = \\emptyset[/$]),
+                        použitelná když [$]precond(a)\\subseteq s[/$]
+                        <br>
+                        Přechodová funkce: [$]\\gamma(s,a)=(s-eff^{-}(a))\\cup eff^+(a)[/$]
+                        je-li [$]a[/$] použitelná akce.
+        -
+                uuid: 0b79d1b3-d1c5-403f-ab8b-49b95b4cc411
+                topic: STRIPS plánování
+                front: Definice - Plánovací problém
+                back: >
+                        [$]P = (\\Sigma,s_0,g)[/$], kde [$]\\Sigma=(S,A,\\gamma)[/$]
+                        je plánovací doména, [$]s_0[/$] je počáteční stav,
+                        [$]g\\subseteq L[/$] jsou cílové výroky.
+        -
+                uuid: 73c1b436-401f-4cec-bdb8-4f0bf63da074
+                topic: STRIPS plánování
+                front: Definice - minimální řešení
+                back: Plán jehož výsledek splňuje cílové výroky a je takový nejkratší.
+        -
+                uuid: 4e46e196-cd01-43e9-9234-a49402354757
+                topic: STRIPS plánování
+                front: Definice - akce je relevantní pro cíl [$]g[/$]
+                back: >
+                        Když [$]g\\cap eff^+(a)\\neq\\emptyset[/$] a [$]g\\cap eff^-(a)=\\emptyset[/$].
+        -
+                uuid: da45bb52-8736-4e6d-9754-e7a707678e33
+                topic: STRIPS plánování
+                front: Definice - regresní množiny
+                back: >
+                        Pro cíl [$]g[/$] a relevantní akci [$]a[/$]:
+                        [$$]\\gamma^{-1}(g,a)=(g-eff^{+}(a))\\cup precond(a)[/$$]
+                        [$$]\\Gamma^{-1}(g)=\\{\\gamma^{-1}(g,a) : a\\in A, \\text{relevantni pro}\\ g\\}[/$$]
+                        [$$]\\Gamma_\\infty^{-1}(g)=\\Gamma^{-1}(g)\\cup\\Gamma^{-1}(g)\\cup\\ldots[/$$]
+        -
+                uuid: 80482898-f547-4b91-8b36-f9362c688e06
+                topic: STRIPS plánování
+                front: Kdy má problém řešení, v řeči regresních množin?
+                back: >
+                        Když [$]s_0[/$] je nadmnožina nějakého prvku [$]\\Gamma_\\infty^{-1}(g)[/$].
+        -
+                uuid: 9f3820c7-6ea2-44fc-a98e-b62f77dcaa94
+                topic: STRIPS plánování
+                front: Klasická reprezentace
+                back: >
+                        Jazyk: máme relační symboly a konstanty, můžeme používat proměnné.
+                        Nemáme funkce. Stav je množina instanciovaných atomů (konečně mnoha).
+                        <br>
+                        Máme closed world assumption.
+        -
+                uuid: c5dbfefc-72ce-4476-9110-6b7ff1555875
+                topic: STRIPS plánování
+                front: Klasická reprezentace - typy atomů podle toho, co dělají
+                back: Flexibilní (fluent) se mění, neměnné (rigid) jsou výroky co platí pořád.
+        -
+                uuid: ecbf6bce-83b9-4d15-acd6-2c7bd62ea698
+                topic: STRIPS plánování
+                front: Definice - Plánovací operátor a akce
+                back: >
+                        [$$](name(o), precond(o), effects(o)[/$$]
+                        <br>
+                        Jméno: symbol a symboly parametrů operátoru ([$]n(x_1,\\ldots x_k)[/$]).
+                        <br>
+                        Preconditions: pozitivní a negativní atomy.
+                        <br>
+                        Effects: nesmí být neměnné atomy.
+                        <br>
+                        Akce je plně instanciovaný operátor.
+        -
+                uuid: 980e7651-cdb8-4cb9-b435-0e8e879ed6f4
+                topic: STRIPS plánování
+                front: Notace - pozitivní a negativní atomy v S
+                back: >
+                        [$$]S^+, S^-[/$$]
+        -
+                uuid: 12412f4d-9dd1-4855-973f-ca777c25f870
+                topic: STRIPS plánování
+                front: Kdy je akce použitelná?
+                back: Když jsou splněny pozitivní preconditiony a žádný z negativních precondition atomů.
+        -
+                uuid: 596441a3-8174-41a4-9207-af9eedacabf6
+                topic: STRIPS plánování
+                front: Rozšíření klasického plánování
+                back: >
+                        Typované proměnné.<br>
+                        Existenčně kvantifikované cíle.<br>
+                        Podmíněné operátory ("přepni přepínač" vs. "zapni" a "vypni").<br>
+                        Disjunktivní předpoklady (libovolné formule)<br>
+                        Připojené procedury (složitější předpoklady operátorů)<br>
+                        Logické axiomy (třeba "být vedle je ekvivalence") --
+                        musíme rozdělit atomy na primární (jsou v předpokladech i efektech)
+                        a sekundární (jen v předpokladech) -- příklad "holding/empty"
+        # planovani a rozvrhovani lecture03
+        -
+                uuid: 54b4e7a1-9e3e-40ac-83a5-9426c4820552
+                topic: Plánování
+                front: Co by se stalo kdybychom přidali funkční symboly do reprezentace?
+                back: Z problému existence plánu by se stal částečně rozhodnutelný problém (byl by z toho halting problém).
+        -
+                uuid: 7611f49c-dafa-4762-96ec-0ded99c1201c
+                topic: Plánování
+                front: >
+                        Složitost - Negativní efekty? Existence plánu?
+                back: >
+                        Negativní efekty: existence je EXPSPACE-c, plán do dané délky je NEXPTIME-c.
+                        <br>
+                        Bez negativních efektů, s negativními předpoklady: existence je NEXPTIME-c, do dané délky je NEXPTIME-c.
+                        <br>
+                        # TODO: Divne. Nejsou tady ty tridy obracene?
+                        Bez negativních efektů a předpokladů: existence je EXPTIME-c, plán do dané délky je NEXPTIME-c.
+        -
+                uuid: e0e993d1-de4f-40e6-abc7-63183df5f1ca
+                topic: Plánování
+                front: >
+                        Prostory, které při plánování prohledáváme
+                back: >
+                        Stavový prostor, nebo prostor plánů (uzly jsou částečně instanciované plány).
+        -
+                uuid: b55b012e-ac6c-45a8-b6db-916c13d7d99a
+                topic: Plánování
+                front: >
+                        Zpětné plánování ve stavovém prostoru a jeho neefektivita
+                back: >
+                        Začnu od konce.
+                        <br>
+                        Nedeterministicky zkouším akce, které jsou relevantní
+                        k cíli.
+                        <br>
+                        Neefektivita: není to liftnuté, zbytečně instanciujeme
+        -
+                uuid: 52bb360d-51fc-4e5f-be01-4896cdda5d12
+                topic: Plánování
+                front: Algoritmus lifted backward search
+                back: >
+                        Najdi MGU mezi efekty nějakého operátoru
+                        a nějakého atomu, který mám v cíli.
+                        <br>
+                        Vyber si nedeterministicky a pokračuj.
+                        <br>
+                        Volné proměnné ztěžují detekci cyklů.
+        -
+                uuid: 13205a65-48c4-486f-b806-8954fad936a4
+                front: Jak STRIPS algoritmus redukuje prostor zpětného plánování?
+                back: >
+                        Z podcíle řeší vždy jen část odpovídající předpokladům
+                        poslední přidané akce.
+                        (Tj. místo [$]\\gamma^{-1}(s,a)[/$] použij jako cíl
+                        [$]precond(a)[/$].)
+                        Kvůli tomu je neúplný.
+                        <br>
+                        Pokud aktuální stav splňuje všechny předpoklady operátoru,
+                        operátor se použije, a při backtrackingu ten závazek
+                        nezruším.
+        -
+                uuid: cbc43b9b-fafe-4437-9400-c6b79caf42f7
+                front: Ground-STRIPS algoritmus -- popis
+                back: >
+                        Začni s prázdným plánem.
+
+                        <br>
+                        Nedeterministicky vyber akci, která je relevantní
+                        pro cíl.
+                        <br>
+                        Pokračuj s podcílem [$]precond(a)[/$].
+        -
+                uuid: e7bd7fec-22e3-4c24-bff7-11c99b16076d
+                front: Problémy plánování ve stavovém prostoru a jak je řeší plánování v prostoru plánů
+                back: >
+                        Velký větvící faktor a spousta alternativních pořadí akcí.
+                        <br>
+                        Řešení: least commitment -- nerozhoduj co nemusíš rozhodnout teď
+        -
+                uuid: 336a7bd4-ef38-4070-b831-c06971860289
+                front: Sussmanova anomálie
+                back: >
+                        Svět kostek. Stack 1: (c) nad (a), stack 2: (b).
+                        Cíl: (a) nad (b) nad (c).
+        # planovani a rozvrhovani lecture04
+        -
+                uuid: 7a888339-4772-4f9f-8309-e7bb2b722d96
+                front: Princip plánování v prostoru plánů
+                back: >
+                        Začnu v prázdném plánu, co má jenom poč. stav a cíle.
+                        Přidáváme akce, co plní otevřené cíle.
+                        Přidáváme vazby mezi akcemi.
+                        Plánování je opravování kazů, dokud nedostaneme úplný
+                        plán.
+        -
+                uuid: 5a6559f3-1763-4fca-9e8a-50793776ed06
+                topic: Plánování v prostoru plánů
+                front: Kódování startu a cíle
+                back: >
+                        Start: akce co nemá předpoklady a je na začátku,
+                        cíl: akce co má prázdný efekt a je poslední
+        -
+                uuid: 717a8985-f6f6-4490-ae19-db6ef0fc506b
+                topic: Plánování v prostoru plánů
+                front: Uzel prostoru plánů
+                back: >
+                        Částečný plán: [$]\\Pi=(A,<,B,L)[/$]
+                        <br>
+                        kde [$]A[/$] jsou částečně instanciované
+                        plánovací operátory,
+                        <br>
+                        [$]<[/$] je část. usp. na [$]A[/$],
+                        <br>
+                        [$]B[/$] jsou vazby typu [$]x=y[$], [$]x\\neq y[/$]
+                        nebo [$]x\\in D_i[/$],
+                        <br>
+                        [$]L[/$] jsou kauzální vztahy typu [$]a_i \\rightarrow^p a_j[/$]:
+                        [$]a_i < a_j[/$] v částečném uspořádání, [$]p[/$] je efekt
+                        [$]a_i[/$] a předpoklad [$]a_j[/$], v [$]B[/$] jsou
+                        vazby mezi proměnnými v [$]p[/$]
+        -
+                uuid: dedc413d-63ec-41b1-a1ca-739e3245de10
+                topic: Plánování v prostoru plánů
+                front: Otevřený cíl a jak se dá řešit
+                back: >
+                        Je to předpoklad [$]p[/$] operátoru [$]b[/$],
+                        na který ještě neexistuje kauzální vazba.<br>
+                        Odstranění:
+                        <ol>
+                        <li>Najdi operátor (buď přítomný v plánu nebo nový),
+                                co se dá použít na splnění [$]p[/$]
+                                (tj. [$]p[/$] je efekt a může být před [$]b[/$]).
+                        <li>Svaž proměnné
+                        <li>Vytvoř kauzální vazbu
+                        </ol>
+        -
+                uuid: bd7b1a12-8410-49f3-9f1b-b9c21917059b
+                topic: Plánování v prostoru plánů
+                front: Hrozba - co to je, jak ji vyřešit
+                back: >
+                        Hrozba je akce, co může porušit kauzální vazbu:
+                        [$]a_i\\rightarrow^p a_j[/$] je vazba
+                        a akce [$]b[/$] je unifikovatelná s negací [$]p[/$]
+                        a může být v [$]<[/$] mezi [$]a_i[/$] a [$]a_j[/$].
+                        <br>
+                        Tři možné způsoby:
+                        <ul>
+                        <li>[$]b<a_i[/$]
+                        <li>[$]b>a_j[/$]
+                        <li>Navázání proměnných v [$]b[/$], aby nerušily platnost [$]p[/$]
+                        </ul>
+        -
+                uuid: cbd24fa0-e675-4896-aeba-602d3c411f84
+                topic: Plánování v prostoru plánů
+                front: Kdy je částečný plán řešící plán?
+                back: >
+                        Když má globálně konzistentní vazby [$]a=b/a\\neq b/a\\in D_i[/$],
+                        konzistentní uspořádání [$]<[/$].
+                        <br>
+                        To je ekvivalentní tomu, když nemá kazy (tj. otevř. cíle a hrozby)
+                        a vazby [$]B[/$] a [$]<[/$] jsou glob. konzistentní.
+                        Důkaz indukcí.
+        -
+                uuid: 0e25a3ad-82ec-4fbe-ba5e-b497e02ad876
+                topic: Plánování v prostoru plánů
+                front: Detaily algoritmu PSP -- časy na hledání hrozeb, konzistence, agenda
+                back: >
+                        Agenda předpokladů akcí: když přidám kauzální vazbu pro něco, odeberu to z agendy.
+                        <br>
+                        Hrozby: nalezení po trojicích akcí ([$]\\O(n^3)[/$]),
+                        lépe: po přidání akce zjisti komu hrozí ([$]\\O(n^2)[/$]),
+                        po přidání kauzální vazby ověř její hrozby ([$]\\O(n)[/$]).
+                        <br>
+                        Pro odstrańování kazů používej jenom konzistentní zjemnění plánu.
+                        Udržuj tranzitivní uzávěr [$]<[/$] nebo detekuj cykly.
+                        Konzistence vztahů [$]B[/$]: když nemám negaci, stačí AC.
+                        Když mám negaci, je to NP-úplné :/
+        -
+                uuid: 3f1ea7e9-42b0-403f-8fd0-5d7e20c18ac8
+                topic: Plánování v prostoru plánů
+                front: Korektnost, úplnost, konečnost
+                back: >
+                        Korektnost: pokud skončí, tak vydá dobrý plán.<br>
+                        Pokud existuje plán, vrátí ho.<br>
+                        Pozor: prostor plánů není konečný! Je potřeba např.
+                        iterative deepening.
+        # TODO planovani a rozvrhovani lecture05
