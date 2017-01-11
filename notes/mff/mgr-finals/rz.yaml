@@ -1070,7 +1070,7 @@ notes:
                         pokud se to dá zunifikovat s něčím co už je v KB a konsekvent není přejmenování něčeho co už máme:
                         přidej to do KB. jestli odvodím hledanou věc, vrať že to jde přidat.<br>
 
-                        Problém: [$]R(x) -> R(S(x))[/$] odvodí nekonečně mnoho faktů
+                        Problém: [$]R(x) \\longrightarrow R(S(x))[/$] odvodí nekonečně mnoho faktů
         -
                 uuid: 2580fca8-2aa3-4d3b-82c6-7bf1a7a18d14
                 front: Složitost pattern-matchingu při hledání, jestli je splněné tělo klauzule
@@ -1126,7 +1126,7 @@ notes:
                         Je to pak sound & complete.
         -
                 uuid: f9fb23bd-7d34-405d-954f-de5bfe06cd59
-                front: Strategie pro rezoluci
+                front: Strategie pro rezoluci v FOL
                 back: >
                         Jednotková propagace: preferujeme ji pokud jde udělat.
                         (Pro Hornovské klauzule to je kompletní.)
@@ -1166,14 +1166,16 @@ notes:
                 back: Učí se utility stavů i policy, takže potřebuje i exploration
         -
                 uuid: 7f9a9722-e639-4a62-a0c5-197829ce21c6
-                front: Utility funkce, kterou se učí pasivní učení; model
+                front: Utility funkce, kterou se učí pasivní učení; model (jako nekonečná suma)
                 back: >
                         [$]U^\\pi(s)=\\mathbb{E}[\\sum_{t=0\\ldots\\infty} \\gamma^t \\cdot R(s_t)] [/$]
         -
                 uuid: 2fb6e2af-125c-4dd4-8a86-3495a89ee87c
                 topic: Reinforcement learning
                 front: Co nezná pasivní učení?
-                back: Agent nezná transition model ([$]P(s'|s,a)[/$]), reward function ([$]R(s)[/$]).
+                back: >
+                        Agent nezná transition model [$]P(s'|s,a)[/$],
+                        reward function [$]R(s)[/$] (postupně se učí z perceptů).
         -
                 uuid: 105d7079-f317-4368-a9a3-f1541d832c30
                 topic: Reinforcement learning
@@ -1412,4 +1414,9 @@ notes:
 
                         Kde [$]\\varepsilon[/$] je limit, jak daleko si dovolím být od skutečných utilit.
         # TODO: konvergence value iteration
-
+        -
+                uuid: 6d4c7aeb-065e-41da-beec-10d8ff00d117
+                topic: Predikátová logika
+                front: Značení - hodnota formule v ohodnocení a struktuře
+                back: >
+                        [$$]H^A(\\varphi)[e][/$$]

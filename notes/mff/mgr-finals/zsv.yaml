@@ -21,7 +21,8 @@ notes:
                 back: Stav řídící jednotky, slovo na pásce (neprázdné), pozice hlavy
         -
                 uuid: 5ee82dde-5b11-46db-a2fa-430ac5a99026
-                front: Definice Turingova stroje. Jaká je páska? Jak se hýbe hlava? Co hlava umí?
+                front: >
+                        Definice Turingova stroje, dále: Jaká je páska? Jak se hýbe hlava? Co hlava umí?
                 back: >
                         [$]M = (Q, \\Sigma, \\delta, q_0, F)[/$].<br>
                         [$]Q[/$]: stavy, [$]\\Sigma[/$]: pásková abeceda co obsahuje [$]\\lambda[/$] pro prázdné políčko,
@@ -574,7 +575,7 @@ notes:
                         NP-úplnou úlohu co splňuje požadavky věty)
         -
                 uuid: fc1a3d8c-ed49-4d9e-9f83-0bac1f831006
-                front: Definice co-NP
+                front: Definice co-NP jazyků (proti NP jazykům)
                 back: Jazyky, jejichž doplněk patří do NP
         -
                 uuid: 572141c6-b0be-42b6-97cb-928b80eab0c2

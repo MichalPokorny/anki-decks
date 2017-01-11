@@ -24,13 +24,13 @@ notes:
                 uuid: eaf86a49-059f-4287-b781-5c7656166be2
                 front: SMART criteria
                 back: >
-                        Criteria to guide setting objectives.
+                        Criteria to guide setting objectives.<br><br>
 
-                        Specific – target a specific area for improvement.
-                        Measurable – quantify or at least suggest an indicator of progress.
-                        Achievable/assignable (to someone)
-                        Relevant/realistic - relevant: bigger picture and vision
-                        Time-bound – specify when the result(s) can be achieved.
+                        Specific – target a specific area for improvement.<br>
+                        Measurable – quantify or at least suggest an indicator of progress.<br>
+                        Achievable/assignable (to someone)<br>
+                        Relevant/realistic - relevant: bigger picture and vision<br>
+                        Time-bound – specify when the result(s) can be achieved.<br>
         -
                 uuid: 15043b5b-e8e7-405c-a258-c3a7e7c43072
                 front: CTR

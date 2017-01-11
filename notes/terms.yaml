@@ -721,20 +721,39 @@ notes:
                 uuid: 620987dd-1f60-4af2-9619-a5813c6da3cd
                 front: to line one's pockets
                 back: make much money, especially in an illegal or questionable way
+                include_reverse: true
         -
                 uuid: 555047b7-517d-4da5-bb5d-a6bd0c1a771c
                 front: confounded
                 back: used for emphasis, especially to express anger or annoyance (informal, dated)
+                include_reverse: true
         -
                 uuid: 6bcf6888-6bb1-4c16-9b8b-6015d016af5f
                 front: jostle
                 back: push, elbow, or bump against (someone) roughly, typically in a crowd
+                include_reverse: true
         -
                 uuid: 8f4c3014-10e1-4066-85f4-c0ced3b79d1d
                 front: impetuous
                 back: acting or done quickly and without thought or care
+                include_reverse: true
         -
                 uuid: b6cac6cc-1270-4837-b24f-b3287f903ab6
                 front: ergodic
                 back: relating to or denoting systems or processes with the property that, given sufficient time, they include or impinge on all points in a given space and can be represented statistically by a reasonably large selection of points
-
+                include_reverse: true
+        -
+                uuid: d997dd10-9f77-4537-b200-4cfa041104fe
+                front: prestidigitation
+                back: conjuring tricks performed as entertainment (formal)
+                include_reverse: true
+        -
+                uuid: 3f42639c-d261-4933-8cca-f707e7f36107
+                front: malfeasance
+                back: wrongdoing, especially (US) by a public official. (law)
+                include_reverse: true
+        -
+                uuid: 7df7da93-a5d8-4501-a59e-e567cabf0b4d
+                front: patsy
+                back: a person who is easily taken advantage of, especially by being cheated or blamed for something. (North American, informal)
+                include_reverse: true
