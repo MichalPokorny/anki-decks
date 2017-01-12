@@ -20,7 +20,7 @@ notes:
                         Každé pravdivé tvrzení je dokazatelé.
         -
                 uuid: 15be3bd4-cd02-4e59-a111-af17faab4d7b
-                front: Úplné a korektní dokazovací systémy
+                front: Úplné a korektní dokazovací systémy - kde existuji?
                 back: >
                         Existují pro predikátovou logiku 1. řádu. Pro vyšší řády to neplatí.
         -
@@ -126,7 +126,7 @@ notes:
                 uuid: 64a22917-7908-4fd9-a69a-c32e48aefd6c
                 front: Temno - celá čísla
                 back: >
-                        [$] (\\N\\times\\N)/\\sim, (a,b)\\sim(c,d) := (a+c)=(b+d)[/$]
+                        [$] (\\N\\times\\N)/\\sim, (a,b)\\sim(c,d) := (a+d)=(b+c)[/$]
         -
                 uuid: 99cd93eb-8c5b-47c5-b80d-792c2228814a
                 front: Temno - racionální čísla
@@ -687,13 +687,13 @@ notes:
         -
                 uuid: fd065fa4-4615-4f4d-936b-ba6d9b69ae85
                 topic: Predikátová logika
-                front: Predikátová logika - atomická formule
+                front: Značení - atomická formule
                 back: >
                         [$]AFm_L[/$]` aplikace relačního symbolu na termy.
         -
                 uuid: ff8a816b-b627-4c3b-985b-da2c4f9915e5
                 topic: Predikátová logika
-                front: Predikátová logika - formule
+                front: Definice - formule
                 back: >
                         Atomická formule, pak indukce nad spojkami,
                         přidání kvantifikátorů; [$]Fm_L[/$]
@@ -757,10 +757,10 @@ notes:
         -
                 uuid: 206817a7-4702-4c97-a587-78cdb5606734
                 topic: Predikátová logika
-                front: Hodnota termu
+                front: Hodnota termu, značení
                 back: >
-                        Ohodnocení proměnných v množině [$]A[/$]: [$]e:Var\\rightarrow A[/$].
-                        Hodnota termu: rekurzivně definovaná [$]t^A[e][/$].
+                        Ohodnocení proměnných v množině [$]A[/$]: [$]e:Var\\rightarrow A[/$].<br>
+                        Hodnota termu: rekurzivně definovaná [$]t^A[e][/$].<br>
                         Hodnota termu záleží jenom na ohodnocení proměnných.
         -
                 uuid: f5ae98b3-d8c7-4b34-ab70-85b8ef73b6e1
@@ -992,10 +992,11 @@ notes:
                 back: počet klauzulí / počet proměnných = 4.3
         -
                 uuid: af330fd7-d530-4274-888f-a68c88dfc60d
+                topic: Algoritmy pro KB-Ask
                 front: Rezoluční algoritmus, pro formuli
                 back: >
                         Vyrob množinu odvozených klauzulí, dej tam negaci formule a KB.
-
+                        <br>
                         Vyber všechny dvojice klauzulí a zkus rezoluci.
                         Když odvodíš prázdnou klauzuli, vrať že formule platí.
                         Když přestaneš odvozovat, vrať že to nemusí být splněné.
@@ -1075,7 +1076,8 @@ notes:
                 uuid: 2580fca8-2aa3-4d3b-82c6-7bf1a7a18d14
                 front: Složitost pattern-matchingu při hledání, jestli je splněné tělo klauzule
                 back: >
-                        NP-kompletní. Dá se na to převést barvení grafu ([$]Diff(Red,Green), \\ldots, Diff(wa,nt) \\wedge Diff(nt,sf) \\wedge \\ldots \\Rightarrow Colorable[/$])
+                        NP-kompletní. Dá se na to převést barvení grafu
+                        ([$]\\mathrm{diff}(\\mathrm{red},\\mathrm{green}), \\ldots, \\mathrm{diff}(\\mathrm{Wa},\\mathrm{Nt}) \\wedge \\mathrm{diff}(\\mathrm{Nt},\\mathrm{Sf}) \\wedge \\ldots \\Rightarrow \\mathrm{Colorable}[/$])
         -
                 uuid: d7c74937-dfcd-45fa-9034-16a6c8710d78
                 front: Heuristiky k pattern-matchingu v FOL
@@ -1434,7 +1436,7 @@ notes:
                 topic: Nejistota
                 front: Definice podmíněné pravděpodobnosti
                 back: >
-                        [$$]P(A|B)=P(A&B) / P(B)[/$$]
+                        [$$]P(A|B)=P(A\\wedge B) / P(B)[/$$]
                         <br>
                         (povinně [$]P(B)>0[/$])
         -
@@ -1451,7 +1453,7 @@ notes:
                 front: Jak získat posteriory z KB, co je full joint distribution?
                 back: >
                         Marginalizace:<br>
-                        [$$]P(\\Phi)=\\sum_{\\omega: \\omega\\vDash\\phi} P(\\omega)[/$$]
+                        [$$]P(\\Phi)=\\sum_{\\omega: \\omega\\vDash\\phi} P(\\omega)[/$$]<br>
                         [$$]\\mathbf{P}(\\mathbf{Y})=\\sum_{z\\in\\mathbf{Z}}\\mathbf{P}(\\mathbf{Y},z)[/$$]
         -
                 uuid: 09c54a08-9e8c-4ef6-b70a-f9bcc58ff9cf
@@ -1507,14 +1509,14 @@ notes:
                 topic: Nejistota
                 front: Kauzální vs. diagnostický směr
                 back: >
-                        Kauzální: [$]P(effect|cause)[/$], diagnostický: [$]P(cause|effect)[/$]
+                        Kauzální: [$]P(\\text{effect}|\\text{cause})[/$], diagnostický: [$]P(\\text{cause}|\\text{effect})[/$]
         -
                 uuid: 6ee8d234-650e-4232-9f72-c12f0ccfd311
                 front: Naivní Bayesovský klasifikátor
                 back: >
                         Když jsou všechny efekty nezávislé při pevné příčině,
                         dostaneme:
-                        [$$]\\mathbf{P}(Cause, E_1,\\ldots E_n)=\\mathbf{P}(Cause)\\product_i \\mathbf{P}(Eff_i|Cause)[/$$]
+                        [$$]\\mathbf{P}(\\text{Cause}, E_1,\\ldots E_n)=\\mathbf{P}(\\text{Cause})\\prod_i \\mathbf{P}(E_i|\\text{Cause})[/$$]
                         <br>
                         Často se používá i když efekty ve skutečnosti nezávislé nejsou.
         # ai1 lecture02eng
@@ -1528,7 +1530,7 @@ notes:
                 uuid: 8a052ca5-55e4-40f6-b727-ccff6d31d155
                 front: Vzorec pro jak z podmíněných distribucí v Bayesovské síti dostat pravděpodobnost jednoho světa
                 back: >
-                        [$$]P(x_1,\\ldots x_n) = \\product_i P(x_i | \\text{parents}(X_i))[/$$]
+                        [$$]P(x_1,\\ldots x_n) = \\prod_i P(x_i | \\text{parents}(X_i))[/$$]
         -
                 uuid: e3f59843-753e-4dbd-bb66-8d1e4da31d8a
                 front: Podmíněné nezávislosti proměnných v Bayesovské síti?
@@ -1556,7 +1558,7 @@ notes:
                         Když první proměnná má dosazenou hodnotu,
                         vrať [$]P(Y=y|Pa(Y)) \\times EnumAll(Rest(vars),e)[/$].
                         <br>
-                        Jinak vrať [$]\\sum_y P(Y=y|Pa(Y)) \\times EnumAll(Rest(vars),e)[/$].
+                        Jinak vrať [$]\\sum_y P(Y=y|Pa(Y)) \\times EnumAll(Rest(vars),e+[Y=y])[/$].
         -
                 uuid: a893942d-0f71-4e5f-b89a-1d569dd69cfd
                 topic: Bayesovské sítě
@@ -1643,9 +1645,9 @@ notes:
                         <br>
                         [$$]\\mathbf{P}(X|e)=\\alpha \\mathbf{N}(X,e) w(X,e)[/$$]
                         <br>
-                        Kde: [$]w(X,e)=\\product_j P(e_j|parents(e_j))[/$]
+                        Kde: [$]w(X,e)=\\prod_j P(e_j|\\text{parents}(e_j))[/$]
                         <br>
-                        (Bayesovo pravidlo. [$]P(z,e)=\\product_i P(z_i|parents(z_i))[/$])
+                        (Bayesovo pravidlo. [$]P(z,e)=\\prod_i P(z_i|\\text{parents}(z_i))[/$])
                         <br>
                         Elegantně: když proměnná má přiřazenou viděnou hodnotu,
                         vynásob hmotnost vzorku pravděpodobností, že tuhle

@@ -161,3 +161,249 @@ notes:
                 front: Campbell's law
                 back: Another name for Goodhart's law
                 include_reverse: true
+        -
+                uuid: e6f560b9-77b1-4549-bece-65fa59686e26
+                front: Signalling
+                back: The idea that an action conveys information to someone about the actor
+                include_reverse: true
+        -
+                uuid: b8250346-bfd0-4e9a-ab3f-0c1ba7725f72
+                front: Countersignalling
+                back: When the information you’re trying to signal is so obvious that you need not have signalled in the first place. For instance, Warren Buffett doesn’t need to drive around in a Ferrari to signal how rich he is – everybody already knows that – and not driving around in a Ferrari differentiates him from the plebs that do need to drive one.
+                include_reverse: true
+        -
+                uuid: 568b3a91-2421-4a72-b36a-a6228e44270c
+                front: Nudge
+                back: >
+                        The manner in which choices are presented to a target audience can have dramatic effects on their chosen action – even without changing the incentives which might typically motivate an individual to make a given choice.
+                        <br>
+                        The tax office can write letters saying that 90% of people who work the same job as you have completed their tax return already.
+                        Your electricity company can install an electricity meter which constantly reminds you how many watts you’re chewing through at a given time.
+                include_reverse: true
+        -
+                uuid: 4e199ec9-8602-4e3e-a085-529e277e083b
+                front: Marginal thinking
+                back: >
+                        What are extra resources worth?
+                        <br>
+                        If you have no bananas, and you get a banana, it’s probably worth more to you than if you already had one million bananas and you get an extra.
+                include_reverse: true
+        -
+                uuid: c9f4d2f8-1aac-4fe1-845e-c170f9c9a243
+                front: Comparative vs. absolute advantage
+                back: >
+                        If you are better than me at earning an income from your
+                        job and cleaning the house, you have an absolute advantage
+                        in both these activities.
+                        <br>
+                        Does that mean that both of us are better off if you do
+                        both? Not necessarily.
+                        <br>
+                        Suppose you earn $100/hour at work, 10 times more than
+                        my $10/hour and further that you clean the house
+                        approximately twice as fast as I do. Of these two jobs,
+                        I’m ‘least bad’ at cleaning the house, so it might be
+                        that both of us would be better off if you paid me $25
+                        an hour to clean your house. Generally, people should
+                        do the action that they’re the least bad at, thus
+                        working to their comparative advantage.
+        -
+                uuid: b2c3711a-5e1d-4e92-aecc-46b57cd1c110
+                front: Efficient market hypothesis
+                back: There are many people approximately as clever as you who value approximately the same things you do
+                include_reverse: true
+        -
+                uuid: 54c66332-da6f-4b5d-9784-b78a3c2769ab
+                front: Illusion of transparency
+                back: >
+                        We tend to overestimate how much our mental state is
+                        known by others, a fact not helped by the ambiguity of
+                        the English language. “Elizabeth Newton created a simple
+                        test that she regarded as an illustration of the
+                        phenomenon. She would tap out a well-known song, such
+                        as “Happy Birthday” or the national anthem, with her
+                        finger and have the test subject guess the song. People
+                        usually estimate that the song will be guessed correctly
+                        in about 50 percent of the tests, but only 3 percent
+                        pick the correct song.
+                include_reverse: true
+        -
+                uuid: 754f1ab1-3a84-42c2-baca-d2409be6a558
+                front: Opportunity cost
+                back: >
+                        When we choose to take one option, we are implicitly
+                        not taking another. If you only have enough room for
+                        one meal and your favourite is the Pad Thai, you choose
+                        it. But this means you can’t also get the Massaman curry
+                        (your second favourite). Your choice minus the benefits
+                        of the next best alternative.
+                include_reverse: true
+        -
+                uuid: 1a2efb52-7523-4345-8e90-2b95d71c59bd
+                front: Time value of money
+                back: >
+                        We’d prefer to have $100 today than tomorrow, or in a
+                        year’s time. In a real sense, this implies that money
+                        today is worth more than money in the future.
+                include_reverse: true
+        -
+                uuid: ab0b05f2-3db1-4639-b48a-33a05745535a
+                front: Revealed preferences
+                back: >
+                        Talk is cheap, and our actions reveal more about our
+                        preferences than we’d like to believe. For instance,
+                        although I might say that Marmite is my favourite
+                        spread to put on toast, I actually buy Vegemite
+                include_reverse: true
+        -
+                uuid: db5271ea-c4f9-4e65-b8f7-0a788f2d6411
+                front: Typical mind fallacy
+                back: >
+                        The mistaken belief that others are having the same mental experiences that we are.
+                include_reverse: true
+        -
+                uuid: 0d05b3c9-ff6b-4af7-bb90-f64f2cba3067
+                front: Bikeshedding
+                back: >
+                        Substituting a hard and important problem for an easy
+                        and inconsequential one. When designing a nuclear plant,
+                        Parkinson observed that the committee dedicated
+                        a disproportionate amount of time to designing the
+                        bikeshed. These are the kind of questions that everyone
+                        is clever enough to contribute to, and where everyone
+                        likely wants to have their opinions heard. Unfortunately,
+                        these might be discussed at the cost of some of crucial
+                        detail, like how to prevent the power plant from killing
+                        everyone.
+        -
+                uuid: 8984509f-a1ca-4d1e-a2f4-cd973b8cea9d
+                front: Algernon’s law
+                back: IQ is nearly impossible to improve in healthy people without tradeoffs
+                include_reverse: true
+        -
+                uuid: 0d760713-6952-41d7-91eb-a6e6733f6f9a
+                front: Social intuitionism
+                back: >
+                        Moral judgements are made predominantly on the basis of intuition, which is followed by rationalisation. For example, slavery was previously a social norm and thought to be acceptable. When asked a question (“is slavery good?”), proponents of slavery introspected an answer (“yes”), and confabulated a reason (“because they’re not actually human” or similar atrocious falsehoods).
+                include_reverse: true
+        -
+                uuid: c2341105-bdbe-4e81-9839-d1b5b60dd85c
+                front: Apophenia
+                back: The natural tendency of humans to see patterns in random noise
+                include_reverse: true
+        -
+                uuid: ff43f9ff-509f-411a-8ef1-268dc777b948
+                front: Moral licensing
+                back: Doing less good after you feel like you’ve done some good. After donating to charity in the morning, we’re less likely to hold the door open for someone in the afternoon.
+                include_reverse: true
+        -
+                uuid: 65d6f007-a557-4ff4-abc1-d32698288217
+                front: Peltzman effect
+                back: Taking more risks when you feel more safe. When seatbelts were first introduced, motorists actually drove faster and closer to the car in front of them.
+                include_reverse: true
+        -
+                uuid: 5dbfb332-dff5-4b0a-9dce-73c43e277f0e
+                front: Semmelweis reflex
+                back: >
+                        Not evaluating evidence on the basis of its merits and
+                        instead rejecting it because it contradicts existing
+                        norms, beliefs and paradigms. Similar to the status
+                        quo bias.
+                include_reverse: true
+        -
+                uuid: 397d0263-635e-405b-9657-939a521b8566
+                front: Bateman’s principle
+                back: >
+                        The most sexually selective sex will be that which has the most costs from rearing the offspring. In humans, women have more costs associated with raising offspring (maternal mortality, breastfeeding, rearing) and are the more selective sex. In seahorses, the opposite is true: male seahorses carry the offspring in their pouch, and are more selective with those they choose to mate with.
+                include_reverse: true
+        -
+                uuid: c50df8ec-d6d0-4ee0-bce7-bea6b684bb28
+                front: Hawthorne effect
+                back: People react differently when they know they are being observed.
+                include_reverse: true
+        -
+                uuid: 09cd7a2d-6061-4138-9368-45c55791e405
+                front: Bulverism
+                back: Dismissing a claim on the basis of how the opponent got there, rather than a reasoned rebuttal. For example, “but you’re just biased!” or “of course you’d believe that, you’re scared of the alternative.”
+                include_reverse: true
+        -
+                uuid: 901f3269-727a-48c2-ac51-67e6746af3a9
+                front: Flynn effect
+                back: IQ has increased by 3 points per decade since around the 1930s. It is hotly debated why this is happening, and whether the trend will continue.
+                include_reverse: true
+        -
+                uuid: 07b23d8b-363c-4bb8-9ee4-56345d2ee50e
+                front: Arbitrage
+                back: Taking advantage of different prices between markets for the same products.
+                include_reverse: true
+        -
+                uuid: 51d38d8f-bc6f-4e1b-88a9-f50c8c0876fe
+                front: Chaos theory
+                back: "When the present determines the future, but the approximate present does not approximately determine the future. (double rod pendulum)"
+                include_reverse: true
+        -
+                uuid: 93d93198-7a63-45d4-90c6-ef23477c0354
+                front: Red Queen hypothesis
+                back: Organisms need to be constantly evolving to keep up with the offenses and defenses of their predators and prey, respectively. This is probably the effect we should thank for the existence of sex.
+                include_reverse: true
+        -
+                uuid: b73e6909-e1dc-4104-bb83-98e37537ed6e
+                front: Schelling’s segregation
+                back: Even when groups only have a mild preference to be around others with a similar characteristic – say, a preference for playing baseball – neighbourhoods will segregate on this basis.
+                include_reverse: true
+        -
+                uuid: 85721e95-f503-4aa2-b387-5de2fc2ebd19
+                front: Pareto improvement
+                back: A change that makes at least one person better off, without making anyone worse off.
+                include_reverse: true
+        -
+                uuid: 2d9667b0-89c9-449e-bb2d-5687d9090d84
+                front: Regression toward the mean
+                back: If you get an extreme result (in a normal distribution) once, additional results are likely to be closer to the average selection. If one trial suggests that health supplement x is amazingly better than all the others, you shouldn’t put all your faith in that result.
+                include_reverse: true
+        -
+                uuid: 883379c2-719b-4395-8a5a-b00bdc109f95
+                front: Coefficient of determination, including definition
+                back: >
+                        How well a model fits or explains data (i.e. how much
+                        of the variance it explains).
+                        <br>
+                        Noted: [$]R^2[/$]
+                        <br>
+                        Total sum of squares (proportional to variance):
+                        [$$]SS_{tot} = \\sum_i (y_i-\\overline{i})^2[/$$]
+                        <br>
+                        Explained (regression) sum of squares:
+                        [$$]SS_{reg} = \\sum_i (f_i-\\overline{i})^2[/$$]
+                        <br>
+                        Residual sum of squares:
+                        [$$]SS_{res} = \\sum_i (y_i-f_i)^2 = \\sum_i e_i^2[/$$]
+                        <br>
+                        [$$]R^2 := 1 - \\frac{SS_{res}}{SS_{tot}}[/$$]
+        -
+                uuid: d2c26cd2-f069-4454-b206-f63bb7d5a03f
+                front: Godwin’s Law
+                back: As an online discussion grows longer, the probability of a comparison involving Nazis or Hitler approaches 1. At this point, all hope of meaningful conversation is lost, and the discussion must stop.
+                include_reverse: true
+        -
+                uuid: a8c4c155-f814-47c6-ab2f-a53f9c59f5ce
+                front: Commitment and consistency
+                back: If people commit to an idea or goal, they are more likely to honour the commitment if establishing that idea or goal is consistent with their self-image. Even if the original incentive or motivation is removed after they have agreed, they will continue to honour the agreement.
+                include_reverse: true
+        -
+                uuid: afae3ded-1ab2-4d66-98ba-db10570c9458
+                front: Affective forecasting
+                back: Predicting how happy you will be in the future contingent upon some event or change is hard. We normally guess that the magnitude of the effect will be larger than it actually is, because 1) we’ve just been asked to think about that event, which makes it seem more important than it actually is in our everyday happiness, and 2) we underestimate our ability to adapt.
+                include_reverse: true
+        -
+                uuid: 05b6782a-dc3c-4537-b0d0-46cbb6d9b9c6
+                front: Fermi calculation
+                back: Back-of-the-envelope calculation (number of piano tuners in Chicago)
+                include_reverse: true
+        -
+                uuid: 07a7b852-0651-4e8b-8c4c-9dea0c3eb14e
+                front: Reversal test
+                back: >
+                        When a proposal to change a certain parameter is thought to have bad overall consequences, consider a change to the same parameter in the opposite direction. If this is also thought to have bad overall consequences, then the onus is on those who reach these conclusions to explain why our position cannot be improved through changes to this parameter. If they are unable to do so, then we have reason to suspect that they suffer from status quo bias.
+                include_reverse: true
+

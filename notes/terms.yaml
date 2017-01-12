@@ -757,3 +757,13 @@ notes:
                 front: patsy
                 back: a person who is easily taken advantage of, especially by being cheated or blamed for something. (North American, informal)
                 include_reverse: true
+        -
+                uuid: 29e13071-a0d9-4a78-9fba-2b97263f51e7
+                front: fatuous
+                back: silly and pointless
+                include_reverse: true
+        -
+                uuid: dc7afb22-6eb0-4b0e-b77a-3f92bd842071
+                front: teleology
+                back: the explanation of phenomena by the purpose they serve rather than by postulated causes
+                include_reverse: true

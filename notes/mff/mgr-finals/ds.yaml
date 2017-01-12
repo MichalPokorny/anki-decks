@@ -232,8 +232,8 @@ notes:
                         \end{align*}
                         [/latex]
                         <br>
-                        Pozorování: [$]2 \\leq 2r'(x) - r(x) - r'(z)[/$]<br>
-                        Tedy: [$$]t\\leq 2+r'(x)-2r(x)+r'(z) \\leq 3r'(x)-3r(x)[/$$]
+                        Pozorování: [$]2 \leq 2r'(x) - r(x) - r'(z)[/$]<br>
+                        Tedy: [$$]t\leq 2+r'(x)-2r(x)+r'(z) \leq 3r'(x)-3r(x)[/$$]
         -
                 uuid: 065f235b-8a51-475a-a1b1-2a56296b940e
                 topic: Splay stromy

@@ -231,9 +231,9 @@ notes:
                 back: >
                         [$]A[/$] je [$]m[/$]-převoditelný na [$]B[/$] ([$]A\\leq_m B[/$]),
                         pokud existuje totální vyčíslitelná funkce [$]f[/$] kde
-                        [$] (\\a x\\in\\Sigma_b^{ * })[x\\in A\\ekv f(x)\\in B][/$]
+                        [$] (\\a x\\in\\Sigma_b^{ * })[x\\in A\\ekv f(x)\\in B][/$]<br>
 
-                        [$]A[/$] je [$]m[/$]-úplný, když [$]A[/$] je částečně rozhodnutelný a každý částečně rozhodnutelný jazyk je na něj [$]m[/$]-převoditelný.
+                        [$]A[/$] je [$]m[/$]-úplný, když [$]A[/$] je částečně rozhodnutelný a každý částečně rozhodnutelný jazyk je na něj [$]m[/$]-převoditelný.<br>
 
                         1-převoditelnost a úplnost: [$]f[/$] má být navíc prostá
 

@@ -262,14 +262,15 @@ notes:
                 uuid: a70f0d15-a2d4-46da-8214-3f342c831577
                 front: Algoritmus QuickProp. Alternativní způsob psaní aktualizace. Čemu odpovídá jmenovatel?
                 back: >
-                        [$]w_{ij} += \\Delta^{(k)} w_i[/$]
+                        [$]w_{ij} += \\Delta^{(k)} w_i[/$]<br>
 
-                        [$$]\\Delta^{(k)} w_i = \\Delta^{(k-1)} w_i \\cdot \\frac{\\nabla_i E^{(k)}}{\\nabla_i E^{(k-1)} - \\nabla_i E^{(k)}}[/$$]
+                        [$$]\\Delta^{(k)} w_i = \\Delta^{(k-1)} w_i \\cdot \\frac{\\nabla_i E^{(k)}}{\\nabla_i E^{(k-1)} - \\nabla_i E^{(k)}}[/$$]<br>
 
                         Jde psát taky:
                         [$$]
                         \\Delta^{(k)}w_i = -\\frac{\\nabla_i E^{(k)}}{\\frac{\\nabla_i E^{(k)}-\\nabla_i E^{(k-1)}}{\\Delta^{(k-1)}w_i}}
-                        [/$$]
+                        [/$$]<br>
+
                         Jmenovatel je diskrétní aproximace parciální derivace [$]\\partial^2 E(w) / \\partial w_i^2[/$]
         -
                 uuid: f7eda12e-ea8c-4f7b-9241-e381ce03f077
@@ -488,9 +489,11 @@ notes:
                         Když je více řešení, tak tohle minimalizuje součet čtverců vah.
         -
                 uuid: e2f01b17-6c02-4037-a66c-d326c5c33e74
-                front: Výpočet pseudoinverzní matice přes vrstevnaté neuronové sítě
+                front: Výpočet pseudoinverzní matice přes vrstevnaté neuronové sítě. K čemu se hodí?
                 back: >
                         Zkonstruuju síť, pro kterou střední kvadratická odchylka odpovídá [$]\|XW-Y\|^2[/$], backprop se bude snažit najít [$]W[/$] které to minimalizuje, tedy pseudoinverzi.
+                        <br>
+                        Hodí se k nalezení vah pro asociativní síť (BAM).
         # 07-bam-hopfield
         -
                 uuid: 65863075-3e56-41dc-a24b-1a1d2e7492ba
@@ -632,9 +635,9 @@ notes:
                 uuid: e4208254-d1d3-4403-9d1f-68f711e471f8
                 front: Použití Hopfieldova modelu na řešení optimalizačních úloh - Multiflop
                 back: >
-                        Úloha: chceme mít aktivní právě jeden neuron z binárních
+                        Úloha: chceme mít aktivní právě jeden neuron z binárních<br>
 
-                        Cíl: [$]E(x_1,\\ldots x_n)=(\\sum_{x_i) - 1)^2[/$]
+                        Cíl: [$]E(x_1,\\ldots x_n)=(\\sum_{x_i} - 1)^2[/$]<br>
 
                         Podobně se dá použít na 8-queens, TSP.
         -
@@ -740,18 +743,26 @@ notes:
                         Mrtvé neurony: v Kohonenově mapě pomáhá mřížka
         -
                 uuid: 1fdba122-da33-484b-aca0-bec67d03b8c1
+                markdown: false
                 front: Energetická funkce sítě na kompetiční učení bez učitele s jedním neuronem. Kde je optimum? Jak se to dokáže?
                 back: >
-                        [$$]E_X(w)=\\sum_{i=1}^m \\|x_i-w\\|^2[/$$]<br>
+                        [$$]E_X(w)=\sum_{i=1}^m \|x_i-w\|^2[/$$]<br>
 
                         Dá se ukázat, že optimum je v těžišti:<br>
 
-                        [$$]E = \\sum_{i=1}^m \\|x_i-w\\|^2 = \\sum_i\\sum_j(x_{ij}-w_j)^2=[/$$]
-                        [$$]= \\sum_i \\sum_j (x_{ij}^2 - 2x_{ij}w_j + w_j^2) =[/$$]
-                        [$$]= m(\\sum_j w_j^2 - \\frac{2}{m}\\sum_j w_j (\\sum_i x_{ij})) + \\sum_i \\sum_j x_{ij}^2 =[/$$]
-                        [$$]= m\\sum_j (w_j^2 - \\frac{2}{m}\\sum_j(\\sum_i x_{ij}) + \\frac{1}{m^2}(\\sum_i x_{ij})(\\sum_i x_{ij})) \\underbrace{- \\frac{1}{m}\\sum_{j=1}^n (\\sum_i x_{ij})(\\sum_i x_{ij}) + \\sum_i \\sum_j x_{ij}^2}_{K} =[/$$]
-                        [$$]= m(\\sum_j (w_j - \\frac{1}{m}\\sum_i x_{ij})^2) + K =[/$$]
-                        [$$]= m\\|w-x^{ * }\\|^2 + K[/$$]
+                        [latex]
+                        \begin{align*}
+                        E & = & \sum_{i=1}^m \|x_i-w\|^2 = \sum_i\sum_j(x_{ij}-w_j)^2= \\
+                          & = & \sum_i \sum_j (x_{ij}^2 - 2x_{ij}w_j + w_j^2) = \\
+                          & = & m\left( (\sum_j w_j^2) - \frac{2}{m}\sum_j w_j (\sum_i x_{ij}) \right) + \sum_i \sum_j x_{ij}^2 = \\
+                          & = & m\sum_j (w_j^2 - \frac{2}{m}\sum_j(\sum_i x_{ij}) +
+                                \frac{1}{m^2}(\sum_i x_{ij})(\sum_i x_{ij}))
+                                \underbrace{- \frac{1}{m}\sum_{j=1}^n (\sum_i x_{ij})(\sum_i x_{ij}) + \sum_i \sum_j x_{ij}^2}_{=K} = \\
+                          & = & m(\sum_j (w_j - \frac{1}{m}\sum_i x_{ij})^2) + K = \\
+                          & = & m\|w-x^{ * }\|^2 + K
+                        \end{align*}
+                        [/latex]
+
         -
                 uuid: 2072bd8e-458a-45e3-953a-8c2bab6198d2
                 front: >
@@ -861,8 +872,6 @@ notes:
                 front: Co by mělo platit v Kohonenově mapě pro vigilační koeficient?
                 back: >
                         [$$]\\sum_{t=1}^\\infty \\alpha(t)=\\infty \\wedge \\sum_{t=1}^\\infty \\alpha^2(t) < \\infty[/$$]
-                        <br>
-                        Kde [$]y_i^{(g)}[/$] jsou výstupy řídící sítě.
         -
                 uuid: 6d368fb6-973e-465d-8a2d-30bea1c20260
                 topic: Kononenova mapa

@@ -45,6 +45,10 @@ notes:
                 back: "`youtube-dl`"
                 include_reverse: true
         -
+                uuid: d97e5e05-975a-474b-9ae7-60560dae301d
+                front: "`youtube-dl` - combine best video with best audio"
+                back: "`youtube-dl -f bestvideo+bestaudio/best ...`"
+        -
                 uuid: 3860f642-a093-4772-8b4d-980b2fd2f28c
                 front: "Disk usage visualizer"
                 back: "`baobab`"

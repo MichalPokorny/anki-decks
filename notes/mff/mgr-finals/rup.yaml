@@ -614,7 +614,7 @@ notes:
         -
                 uuid: cea23069-42ba-472c-b0f0-f875e55b8cf7
                 topic: Řešení SAT
-                front: Heuristiky pro výběr proměnných k dosazení
+                front: Heuristiky pro výběr proměnných k dosazení - jak se jmenují?
                 back: >
                         VSIDS (Variable State Independent Decaying Sum),
                         Berkmin
