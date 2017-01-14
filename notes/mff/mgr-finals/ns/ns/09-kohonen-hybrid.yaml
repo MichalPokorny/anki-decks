@@ -1,0 +1,186 @@
+deck: All::Magisterské státnice::Neuronové sítě::Přednáška 9 (Kohonenovy sítě a hybridní sítě)
+notes:
+        # 09-kohonen-hybrid
+        -
+                uuid: adc2c3cf-9d46-4ac2-aff4-e616686aee7c
+                topic: Kononenova mapa
+                front: >
+                        K čemu je? Jaké má parametry?
+                back: >
+                        Učení bez učitele.<br>
+                        Najdi topologické okolí nejbližšího neuronu a taky ho uprav.<br>
+                        Funkce laterální interakce: [$]\\Phi(i,k)[/$], například "funkce mexického klobouku"<br>
+                        Vigilační koeficient [$]\\alpha\\in(0;1)[/$] určuje plasticitu, klesá v čase.
+        -
+                uuid: 964a216b-1159-4e20-840a-e79d82a64e67
+                topic: Kononenova mapa
+                front: Co by mělo platit v Kohonenově mapě pro vigilační koeficient?
+                back: >
+                        [$$]\\sum_{t=1}^\\infty \\alpha(t)=\\infty \\wedge \\sum_{t=1}^\\infty \\alpha^2(t) < \\infty[/$$]
+        -
+                uuid: 6d368fb6-973e-465d-8a2d-30bea1c20260
+                topic: Kononenova mapa
+                front: >
+                        Kostra důkazu: Jeden neuron Kohonenovy mapy na intervalu [$][a;b][/$] se ustálí ve středu
+                back: >
+                        Adaptační pravidlo: [$]w_n\\leftarrow w_{n-1}+\\eta(x-w_{n-1})[/$], kde [$]x[/$] je náhodně zvolené z [$][a,b][/$].
+                        Pro [$]\\eta\\in(0;1)[/$] nemůže [$]w[/$] opustit [$][a,b][/$]<br>
+
+                        Ocekavana hodnota [$]\\E[dx/dt][/$] musi byt 0, jinak by mohlo byt [$]\\E[x]\\notin [a;b][/$].<br>
+
+                        [$$]\\E[dx/dt]=\\eta(\\E[x]-\\E[w])=\\eta((a+b)/2 - \\E[x]) = 0 \\longrightarrow \\E[w]=(a+b)/2[/$$]
+        -
+                uuid: 69a572dd-fa8e-40b6-9367-29d8a18c7d99
+                topic: Kononenova mapa
+                front: Varianty učících algoritmů pro učení s učitelem pro Kohonenovy mapy
+                back: >
+                        Pro učení s učitelem:
+                        <ul>
+                        <li>
+                        LVQ1: [$]x[/$] by mělo patřit ke stejné třídě jako
+                        nejbližší [$]w_i[/$].<br>
+
+                        Vezmi nejbližší neuron, když je klasifikovaný stejně,
+                        přibliž ho, kryž různě, oddal ho. S ostatními neurony
+                        nehýbej.
+                        <li>
+                        LVQ2.1: Adaptuj dva nejbližší sousedy současně. Jeden
+                        z nich musí patřit ke správné třídě, druhý k nesprávné.
+                        Když je [$]x[/$] z okenka mezi [$]w_i[/$], [$]w_j[/$] a
+                        ty neurony maji ruzne tridy, tak spravny neuron prisun
+                        a spatny odsun.<br>
+                        Okenko: [$]\\min(\\frac{d_i}{d_j}, \\frac{d_j}{d_i})>\\frac{1-s}{1+s}[/$],
+                        kde [$]s[/$] je sirka okenka, treba [$]0.2[/$] az [$]0.3[/$]
+                        <li>
+                        LVQ3: Plus: jestlize [$]w_i[/$] i [$]w_j[/$] patri do
+                        stejne tridy, tak je prisun
+                        o [$]\\varepsilon \\alpha(t)[x(t)-w_{i/j}(t)][/$], kde [$]0.1\\leq\\varepsilon\\leq 0.5[/$]
+                        </ul>
+        -
+                uuid: 56e732ce-9373-44b0-9d81-7c6cb3d4561a
+                front: Sítě se vstřícným šířením (counterpropagation)
+                back: >
+                        Ma dve vrstvy: Kohonenovskou a Grossbergovskou (adaptuje vahy jen pro vitezne neurony z Kohonenovy vrstvy).
+                        Pouziva se jako heteroasociativni pamet.<br>
+
+                        1. Vyber nejblizsi neuron v Kohonenovse vrstve.<br>
+                        2. Aktualizuj vahy v Kohonenovske vrstve<br>
+                        3. Uprav vahy mezi "vitezem" [$]c[/$] z Kohonenovy vrstvy a neurony Grossbergovske vrstvy, aby vystup odpovidal vic ocekavane odezve [$]d[/$]:<br>
+
+                        [$$]w_{cj} \\leftarrow (1-\\beta)w_{cj} + \\gamma z_c d_j[/$$]<br>
+
+                        Kde [$]\\beta>0, \\gamma>0, z_c[/$] je aktivita vitezneho neuronu Kohonenovske vrstvy
+        -
+                uuid: e8b48098-6b46-4500-8fc9-d7e816888ce9
+                topic: RBF sítě
+                front: Definice RBF funkce a co ta zkratka znamená
+                back: >
+                        Radial Basis Functions.<br>
+                        [$$]RBF(x,w,\\sigma) := \\exp\\{-\\frac{(x-w)^2}{2\\sigma^2}\\}[/$$]
+        -
+                uuid: fa514eee-0607-4206-af82-7df4be2c1dd3
+                topic: RBF sítě
+                front: Jakou mají architekturu?
+                back: >
+                        Vstup => Kohonenovská vrstva s Gaussovskou přenosovou funkcí => lineární asociátor => skalární výstup
+        -
+                uuid: b59d1818-0ec4-4305-8bb3-f8a90582d92a
+                topic: RBF sítě
+                front: Jak počítá?
+                back: >
+                        Neuron [$]j[/$] počítá výstup
+                        [$]g_j(x)=RBF(x, w_j, \\sigma_j) / \\sum_k RBF(x, w_k, \\sigma_k)[/$].<br>
+
+                        [$]\\sigma_i[/$] jsou konstanty: například nastavené podle vzdálenosti mezi váhovým vektorem a jeho nejbližším sousedem<br>
+
+                        Z RBF vrstvy vedou váhy [$]z_1\\ldots z_m[/$].<br>
+                        Ty jdou nastavit třeba zpětným šířením.
+        -
+                uuid: af99f342-72d2-4801-a35a-bbfb0fdde854
+                topic: RBF sítě
+                front: Jak jdou nastavit váhy [$]z_i[/$] z Kohonenovských neuronů k lineárnímu asociátoru?
+                back: >
+                        [$$]
+                        E=\\frac{1}{2}\\sum_p (\\sum_{i=1}^n g_i(x_p)z_i - d_p)^2
+                        [/$$]<br>
+
+                        [$$]
+                        \\Delta z_i \\simeq -\\partial E/\\partial z_i = \\gamma g_i(x) (d - \\sum_{j=1}^n g_j(x) z_j)
+                        [/$$]
+        -
+                uuid: a4eb55d5-10de-44d4-8d2f-5b91d7f334cd
+                topic: ART
+                front: ART sítě -- architektura, jaké je kódování
+                back: >
+                        Dvě vrstvy: vstupní a výstupní.<br>
+
+                        Vstupy jsou binární. Učí se bez učitele.<br>
+
+                        Spojení: vstupy => výstupy, výstupy => vstupy, výstupy mezi sebou (ale bez smyček z neuronu zpět do něj)<br>
+
+                        Laterální inhibice na určení výstupního neuronu s maximální odezvou.
+                        Zpětná vazba z výstupu ke vstupu je k porovnání skutečné podobnosti s rozpoznaným vzorem.<br>
+
+                        Má mechanismus pro vypnutí výstupního neuronu s maximální odezvou.<br>
+
+                        Problém: i při troše šumu začne ukládat moc vzorů
+        -
+                uuid: 179f5bf7-0dd8-42d5-b161-c607274db0de
+                topic: ART
+                front: Značení vah a parametrů
+                back: >
+                        [$]t_{ij}(0) = 1[/$] (váhy z výstupu do vstupu -- vzor specifikovaný výstupním neuronem [$]j[/$])<br>
+
+                        [$]b_{ij}(0)=1 / (1+N)[/$] (váhy ze vstupu do výstupu)<br>
+
+                        [$]\\rho\\in[0;1][/$] -- jak blízko musí být vstup k uloženému vzoru, aby byl ve stejné kategorii.<br>
+
+                        Výstupy výstupních neuronů: [$]\\mu_j[/$]
+        -
+                uuid: ae99b9ea-f197-41ae-a9ca-e08804981b66
+                topic: ART
+                front: Učící algoritmus
+                back: >
+                        Předlož nový vstup.<br>
+
+                        Spočítej výstupy výstupných neuronů: [$]\\mu_j = \\sum_{i=0}^{N-1} b_{ij}(t) x_i[/$]<br>
+
+                        Vyber nejlépe odpovídající vzor: [$]\\mu_{j^{ * }} =
+                        \\max_j\\{\\mu_j\\}[/$]<br>
+
+                        Test bdělosti: [$]\\|x\\|=\\sum_i x_i, \\|T\\cdot x\\|=\\sum_i t_{ij} \\cdot x_i[/$]
+                        Když [$]\\frac{\\|T\\cdot x\\|}{\\|x\\|}<\\rho[/$],
+                        dočasně nastav výstup [$]j^{ * }[/$] na nulu, znova
+                        vyber nejlepší neuron (aniž se tenhle účastní).<br>
+
+                        Aktualizace nejlépe odpovídajícího neuronu:
+                        [$]t_{ij^{ * }}(t+1) = t_{ij^{ * }}(t) \\cdot x_i[/$],
+                        [$]b_{ij^{ * }}(t+1) =
+                        \\frac{t_{ij^{ * }} \\cdot x_i}{0.5 + \\sum_{k=0}^{N-1} t_{kj^{ * }}(t) \\cdot x_k}[/$]<br>
+
+                        Odmraž neurony a opakuj.
+        -
+                uuid: bfffc115-79e0-4ac9-afe0-4c70be3876b1
+                front: Kaskádová korelace, algoritmus učení
+                back: >
+                        Začnu s přímým propojením vstupů na výstup.<br>
+                        Postupně přidávám skryté neurony.<br>
+                        Vstupy nového neuronu jsou propojeny se všemi předchozími vstupy a výstupy dřívějších neuronů.
+
+                        1. Vezmi existující síť, adaptuj přes QuickProp. Když je dost malá chyba, ukonči učení.<br>
+                        2. Přidej neuron, který maximalizuje korelaci svého výstupu s chybou na výstupu sítě. V další iteraci zmrazím váhy jeho vstupů, doučím váhu jeho výstupů.<br>
+
+                        Chceme maximalizovat [$]S[/$]:
+                                [$$]S:=|\\sum_{i=1}^p (V_i-\\overline{V})(E_i-\\overline{E})|[/$$]<br>
+
+                        [$]V_i[/$]: výstup přidávaného neuronu pro vzor [$]i[/$], [$]\\overline{V}[/$]: průměrný výstup přidávaného neuronu, to samé chyba<br>
+
+                        [$]\\partial S/\\partial w_k = \\sum_p \\delta_p I_{pi}[/$],
+                        kde:
+                        <br>
+                        [$]\\delta_p = \\sum_o \\sigma_o(e_{po}-\\overline{e_j})f'_p
+
+                        <br>
+                        [$]\\sigma_o[/$] je znaménko korelace mezi přidávaným neuronem a reziduální chybou na výstupu [$]o[/$]<br>
+                        [$]f'_i[/$] je derivace přenosové funkce ve výstupní jednotce<br>
+                        [$]I_{pi}[/$] je [$]i[/$]-tý vstup přidávaného neuronu pro vzor [$]p[/$]

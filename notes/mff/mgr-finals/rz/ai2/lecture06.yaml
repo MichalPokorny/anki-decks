@@ -1,0 +1,82 @@
+deck: All::Magisterské státnice::Reprezentace znalostí::AI2::Přednáška 6
+notes:
+        # AI2 lecture06eng
+        -
+                uuid: 9dbae52a-38b4-4a95-bbf8-f66c42d75c1d
+                front: Decision network
+                back: >
+                        Chance node (ovál): náhodné proměnné (jako v Bayesovských sítích)<br>
+                        Decision node (obdélník): body kde decision maker dělá rozhodnutí<br>
+                        Utility node (kosočtverec): utilita
+        -
+                uuid: 4217ab1f-1fc0-4820-a29f-8dcb1d89009b
+                front: Sensitivity analysis
+                back: >
+                        Zjistit, co se stane, když trochu tweaknu hodnoty co jsou
+                        v (Bayesovském) modelu. (Neměl bych mít příliš citlivý model.)
+        -
+                uuid: 6c711d32-c727-471f-b07f-66b11984776b
+                front: Markovian state transition model
+                back: >
+                        Pevné pravděpodobnosti [$]P(s'|s,a)[/$].
+        -
+                uuid: 2369ac01-bbe0-4a4f-a410-1fa83ebb4a99
+                front: Markov decision process
+                back: >
+                        Sequential decision problem for a fully observable,
+                        stochastic environment with a Markovian transition
+                        model and additive rewards.
+        -
+                uuid: 7471ca66-e741-414b-ae98-e5498bf8bf41
+                front: What's the decision to a MDP?
+                back: >
+                        A policy ([$]\\pi(s)[/$]).
+                        Optimal policy: highest expected utility.
+        -
+                uuid: dcda144b-a485-4371-879d-a01924638ea8
+                front: How to deal with utilities over time?
+                back: >
+                        A. Finite horizon; after some time, nothing matters.
+                        B. Infinite horizon: optimal policy is stationary.
+                        <br>
+                        Rewards: additive or discounted. Discounting: exponential.
+        -
+                uuid: 6e18efe6-ac68-41ad-89a1-026ad9d92e42
+                front: Expected utility from policy and reward function
+                back: >
+                        [$$]U^\\pi(s)=E[\\sum_{i=0\\ldots\\infty} \\gamma^i R(S_i)][/$$]
+        -
+                uuid: a24296e7-25ea-45a3-bd3c-f6366122bf8d
+                front: Definition - true utility of state; how to go from that to best policy
+                back: >
+                        [$$]U(s)=U^{\\pi^{ * }}(s)[/$$]
+
+                        Optimal policy:
+                        [$$]\\pi^{ * }(s)=\\arg\\max_a \\sum_{s'}P(s'|s,a)U(s')[/$$]
+        -
+                uuid: 82c49ae3-c696-46a2-aa58-c71e0458d26c
+                front: Bellman equation for true utilities
+                back: >
+                        [$$]U(s)=R(s)+\\gamma\\max_{a}\\sum_{s'}P(s'|s,a)U(s')[/$$]
+        -
+                uuid: 319b02b0-a895-4c26-a5b9-3cefc387fcd1
+                front: Value iteration algorithm, kdy se skončí?
+                back: >
+                        Začnu s náhodnými počátečními hodnotami.
+                        Pak postupně dělám Bellmanovský update:
+                        [$$]
+                        U_{i+1}(s)\\leftarrow R(s)+\\gamma\\max_a \\sum_{s'}P(s'|s,a)U(s')
+                        [/$$]
+                        <br>
+                        Potřebuju mít přechodový model.
+
+                        Jakmile se utilita už mění jenom málo ([$]\\delta < \\varepsilon (1-\\gamma)/\\gamma[/$]), skonči.
+
+                        Kde [$]\\varepsilon[/$] je limit, jak daleko si dovolím být od skutečných utilit.
+        # TODO: konvergence value iteration
+        -
+                uuid: 6d4c7aeb-065e-41da-beec-10d8ff00d117
+                topic: Predikátová logika
+                front: Značení - hodnota formule v ohodnocení a struktuře
+                back: >
+                        [$$]H^A(\\varphi)[e][/$$]

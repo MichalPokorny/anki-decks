@@ -1,0 +1,139 @@
+deck: All::Magisterské státnice::Neuronové sítě::Přednáška 8 (učení bez učitele)
+notes:
+        # 08-unsupervised
+        -
+                uuid: 0d486c65-3912-4a06-af42-148b417569af
+                front: Jaký vztah mezi neurony se používá k učení bez učitele?
+                back: >
+                        Inhibice: neurony soutěží o rozpoznání vzoru. "Winner takes all."
+        -
+                uuid: d9e8f239-ce85-41ae-9756-3f8189b2893c
+                front: Síť na kompetiční učení bez učitele
+                back: >
+                        Neurony počítají Euklidovskou vzdálenost.
+                        Vyhraje nejbližší, a přes laterální spoje potlačí ostatní.
+                        Vítěz se posune o [$]\\alpha[/$] směrem k vstupu.
+        -
+                uuid: 38bba9b3-1dc3-4b0c-8dc1-609cebc0f004
+                front: Síť na kompetiční učení bez učitele - vhodná inicializace vah
+                back: >
+                        Váhy budou náhodné vzory z datasetu.
+        -
+                uuid: 521ab663-7660-4b7b-bba7-65f1acce4255
+                front: Problémy v síti na kompetiční učení bez učitele
+                back: >
+                        Mrtvé neurony: v Kohonenově mapě pomáhá mřížka
+        -
+                uuid: 1fdba122-da33-484b-aca0-bec67d03b8c1
+                markdown: false
+                front: Energetická funkce sítě na kompetiční učení bez učitele s jedním neuronem. Kde je optimum? Jak se to dokáže?
+                back: >
+                        [$$]E_X(w)=\sum_{i=1}^m \|x_i-w\|^2[/$$]<br>
+
+                        Dá se ukázat, že optimum je v těžišti:<br>
+
+                        [latex]
+                        \begin{align*}
+                        E & = & \sum_{i=1}^m \|x_i-w\|^2 = \sum_i\sum_j(x_{ij}-w_j)^2= \\
+                          & = & \sum_i \sum_j (x_{ij}^2 - 2x_{ij}w_j + w_j^2) = \\
+                          & = & m\left( (\sum_j w_j^2) - \frac{2}{m}\sum_j w_j (\sum_i x_{ij}) \right) + \sum_i \sum_j x_{ij}^2 = \\
+                          & = & m\sum_j (w_j^2 - \frac{2}{m}\sum_j(\sum_i x_{ij}) +
+                                \frac{1}{m^2}(\sum_i x_{ij})(\sum_i x_{ij}))
+                                \underbrace{- \frac{1}{m}\sum_{j=1}^n (\sum_i x_{ij})(\sum_i x_{ij}) + \sum_i \sum_j x_{ij}^2}_{=K} = \\
+                          & = & m(\sum_j (w_j - \frac{1}{m}\sum_i x_{ij})^2) + K = \\
+                          & = & m\|w-x^{ * }\|^2 + K
+                        \end{align*}
+                        [/latex]
+
+        -
+                uuid: 2072bd8e-458a-45e3-953a-8c2bab6198d2
+                front: >
+                        [$]k[/$]-means algoritmus
+                back: >
+                        Update: nastav středy jako těžiště jejich shluků; Přenastav příslušnosti ke shlukům
+        -
+                uuid: c16c1976-bf8b-40a8-a51e-d9dae9a8f694
+                front: Jak se pro kompetiční učení bez učitele předzpracuje vstup?
+                back: Vstupní vektory se znormují
+        -
+                uuid: c92483e6-602a-45a3-865a-9784a175cbb3
+                front: Různá pravidla učení pro sítě na kompetiční učení bez učitele
+                back: >
+                        Aktualizace pomocí parametru učení: [$]\\Delta w = \\eta x_j[/$]<br>
+
+                        Diferenční: [$]\\Delta w = \\eta (x_j - w)[/$]<br>
+
+                        Dávková aktualizace
+        -
+                uuid: 6e149cef-86c7-4d3a-8eef-7244d308200a
+                front: Stabilní rovnovážný stav v kompetičním učení - jaká je postačující podmínka?
+                back: >
+                        Chceme jasně ohraničené shluky, co se nepřekrývají a nejsou moc rozsáhlé.<br>
+
+                        Svazek := [$]\\{x = \\alpha_1 p_1 + \\ldots \\alpha_m p_m : \\alpha_1 \\in \\R^+\\}[/$]<br>
+
+                        Průměr svazku: [$]\\varphi = \\sup\\{\\arccos (a\\cdot b)|\\|a\\|=\\|b\\|=1, a,b\\in S\\}[/$]<br>
+
+                        Postačující podmínka pro stabilitu: úhlový průměr svazků je menší než jejich vzájemná vzdálenost (jakmile se střed shluku dostane do svazku, už tam dostane)
+        -
+                uuid: f3d9f7e9-bc7c-43a1-b5c5-a652ebd0776d
+                topic: PCA
+                front: Co to je? Co dělá?
+                back: >
+                        Principal component analysis.<br>
+
+                        Hlavní komponenta je ta, co vysvětluje (ve vystředěných a normalizovaných datech)
+                        nejvíce rozptylu.<br>
+
+                        Ostatní jsou na ni ortogonální.
+
+        -
+                uuid: 24d127c4-e258-4169-b08c-297848fc76cb
+                topic: PCA
+                front: Obecný algoritmus na výpočet
+                back: >
+                        Hlavní komponenta: maximalizuje [$]\\frac{1}{m} \\sum_{i=1}^m (w \\cdot x_i)^2[/$]<br>
+                        Druhá: odečteme od vektorů jejich projekci na první a pokračujeme
+        -
+                uuid: a7bde697-35ba-408c-aacd-ee4db75e8e9a
+                topic: Ojův algoritmus
+                front: Co je jeho cíl?
+                back: Hledá hlavní komponentu v matici pro PCA.
+        -
+                uuid: 81f631a0-b983-43e7-b63c-facf062cfed2
+                topic: Ojův algoritmus
+                front: Co předpokládá?
+                back: Těžiště dat je v počátku
+        -
+                uuid: 11a4da75-7474-41b3-b866-bd1ada9f1198
+                topic: Ojův algoritmus
+                front: Jak probíhá?
+                back: >
+                        Náhodně inicializuje vektor [$]w[/$], zvolí parametr učení [$]\\gamma\\in(0;1][/$]<br>
+
+                        Náhodně vyber [$]x[/$], spočítej [$]\\Phi=x\\cdot w[/$],
+                        nový váhový vektor je [$]w+\\gamma\\Phi(x-\\Phi w)[/$].
+                        Zmenši [$]\\gamma[/$] a opakuj.<br>
+
+                        Váhový vektor se "automaticky normalizuje".
+        -
+                uuid: b305d565-9d5b-45ca-a948-b399db50fb5e
+                topic: Ojův algoritmus
+                front: Konvergence a důkaz
+                back: >
+                        Idea: začne-li Ojův algoritmus ve svazku, bude v něm oscilovat, ale neopustí ho.<br>
+                        Pro [$]\\|w\\|=1[/$] je [$]\\Phi=x\\cdot w[/$] délka projekce [$]x[/$] na [$]w[/$]<br>
+
+                        Vektor [$]x-\\Phi w[/$] je kolmý na [$]w[/$].<br>
+
+                        Iterace přitahují [$]w[/$] k vektorům ze shluku X.<br>
+
+                        Pokud je délka [$]w[/$] blízko 1, umístí se [$]w[/$] v centru shluku.<br>
+
+                        Dále to chce dokázat, že Ojův algoritmus automaticky normuje [$]w[/$].
+        -
+                uuid: 6192e830-b4e3-4865-937b-7b81bca3cc1f
+                front: Problémy Ojova algoritmu, zobecnění
+                back: >
+                        "Řidké" shluky, příliš velké rozdíly v délce vstupních vektorů.
+                        Dá se zobecnit, aby najednou počítal více nejdůležitějších příznaků.

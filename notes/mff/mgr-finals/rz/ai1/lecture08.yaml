@@ -1,0 +1,121 @@
+deck: All::Magisterské státnice::Reprezentace znalostí::AI1::Přednáška 8
+notes:
+        # AI1 lecture08eng
+        -
+                uuid: 5a69d98e-5c28-4ab7-bd1b-f42a409e6d38
+                front: Knowledge-based agents
+                back: >
+                        Form representations of a complex world. Use inference.
+                        Use information and current observation to uncover
+                        hidden aspects of the world, use them for action
+                        selection.
+        -
+                uuid: aa2b3bf4-bb7b-4f1f-ad3c-e8f0c6e9745a
+                front: Wumpus world
+                back: >
+                        Stench: next to wumpus<br>
+                        Breeze: adjacent to pit<br>
+                        On gold: glitter<br>
+                        Bump when hitting a wall.<br>
+                        Just one arrow.<br>
+                        Killed wumpus screams, and it can be heard everywhere.<br>
+                        <br>
+                        +1000 points for exiting with gold.
+                        -1000 for dying.
+                        -1 per action.
+                        -10 for using an arrow.
+                        4x4 grid of rooms.
+        -
+                uuid: fa8c6a5d-7fd7-4a88-aca2-96ad891314d2
+                front: World parameters
+                back: >
+                        Observable fully or partially?<br>
+                        Deterministic? (action results are deterministic)<br>
+                        Episodic? (is the ordering of actions important?)<br>
+                        Static or dynamic?<br>
+                        Discrete or continuous?<br>
+                        Single-agent or multi-agent?
+        -
+                uuid: f22d1e32-4575-4f82-924d-002c086ccfa0
+                front: Syntax and semantics
+                back: >
+                        Syntax: allowable sentences. <br>
+                        Semantics: rules for determining truth in some model.
+        -
+                uuid: a40431e9-ff7c-4ef9-b332-bd03a09f473b
+                front: Entailment, soundness, completeness
+                back: >
+                        [$]KB \\vdash \\alpha[/$].
+                        Sound, if [$]\\vdash\\rightarrow\\vDash[/$].
+                        Complete, if [$]\\vdash\\leftarrow\\vDash[/$].
+        -
+                uuid: 7d7eb23d-528e-4207-a492-cd6c2745e950
+                front: Model checking vs. inference rules
+                back: >
+                        Model checking: enumerating a truth table (DPLL, local search)<br>
+                        Inference rules: theorem proving by applying inference; resolution
+        -
+                uuid: 5d4a8625-7347-4bc4-83f6-203b796b3cb6
+                front: DPLL - full name
+                back: Davis, Putnam, Logemann, Loveland
+        -
+                uuid: 3349db11-6a76-43ce-9713-b60fa007d4d2
+                front: DPLL - algoritmus
+                back: >
+                        Postupně buduj model.
+
+                        Pokud všechny klauzule platí v modelu, vrať true.
+                        Pokud některá neplatí, vrať false.
+
+                        Najdi čistý symbol (co je jenom true nebo jenom false).
+                        Jestli existuje, přidej do modelu a odeber všechny klauzule co ho obsahují.
+
+                        Najdi jednotkovou klauzuli.
+                        Jestli existuje, přidej ji do modelu a odeber.
+
+                        Potom, vyzkoušej nastavení nějakého literálu na true nebo false.
+        -
+                uuid: 5c833a52-d98e-43d4-a6f7-28c02467087c
+                front: WalkSAT - algoritmus, vlastnosti
+                back: >
+                        Hill climbing s random walk.
+
+                        Minimalizuju počet konfliktních klauzulí.
+
+                        Lokální krok je prohození hodnoty jedné proměnné.
+                        Je korektní, ale není úplný.
+
+                        S pravděpodobností [$]p[/$]: vyber náhodně nesplněnou klauzuli a flipni v ní náhodný literál.
+                        Jinak: flipni v ní ten symbol, co maximalizuje počet splněných klauzulí.
+        -
+                uuid: 5bcba863-e602-4f36-980b-8eae27c89520
+                front: Fázový přechod mezi náhodnými splnitelnými a nesplnitelnými formulemi v 3-SATu
+                back: počet klauzulí / počet proměnných = 4.3
+        -
+                uuid: af330fd7-d530-4274-888f-a68c88dfc60d
+                topic: Algoritmy pro KB-Ask
+                front: Rezoluční algoritmus, pro formuli
+                back: >
+                        Vyrob množinu odvozených klauzulí, dej tam negaci formule a KB.
+                        <br>
+                        Vyber všechny dvojice klauzulí a zkus rezoluci.
+                        Když odvodíš prázdnou klauzuli, vrať že formule platí.
+                        Když přestaneš odvozovat, vrať že to nemusí být splněné.
+        -
+                uuid: efd03dde-5859-4cdd-97df-ee4ba989c438
+                front: Jakou formu mají ve výrokové logice Hornovské klauzule?
+                back: >
+                        Nejvýše jeden pozitivní literál v klauzuli.
+        -
+                uuid: ee26feb0-37d9-45a0-96a2-b2b1044f8084
+                front: Forward-chaining ve výrokové logice - algoritmus, časová složitost
+                back: >
+                        Funguje na Hornovské klauzule.
+                        Ze známých faktů odvodíme všechno, co můžeme.<br>
+
+                        Pro každou klauzuli si budu držet počet zatím nesplněných
+                        předpokladů. Když dosáhnu 0, tak odvodím-li hledaný důsledek,
+                        vrátím 0, jinak přidám odvozený symbol do agendy.<br>
+
+                        Je to úplný a korektní algoritmus pro Hornovy klauzule.
+                        Má lineární složitost vzhledem k velikosti KB.

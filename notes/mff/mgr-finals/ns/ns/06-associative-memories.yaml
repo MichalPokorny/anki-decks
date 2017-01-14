@@ -1,0 +1,150 @@
+deck: All::Magisterské státnice::Neuronové sítě::Přednáška 6 (asociativní paměti)
+notes:
+        # 06-associative-memories
+        -
+                uuid: 9f846394-8002-4e78-b804-13657d3b1969
+                front: Cíl asociativních sítí versus BP sítí
+                back: >
+                        Zobrazit zašuměné okolí vzoru přesně na správný výstup.
+                        BP sítě: okolí vstupu se zobrazuje na okolí správného výstupu.
+        -
+                uuid: ef5f7835-c422-4ff2-bb21-af8881f3c286
+                front: Tři typy asociativních sítí
+                back: >
+                        Heteroasociativní: když jsem do [$]\\varepsilon[/$] vzdálenosti od správného vzoru, namapuje se správně.<br>
+                        Autoasociativní: "oprava zašuměných vzorů"<br>
+                        Pattern recognition síť: přiřadí skalární hodnotu
+        -
+                uuid: f88de9b7-ef95-4ead-ae75-cc1160ad4e89
+                front: Jednovrstevnatá heteroasociativní síť bez zpětné vazby
+                back: >
+                        [$]y = x \cdot W[/$], kde [$]y[/$] ma [$]k[/$] slozek, [$]x[/$] jich ma [$]n[/$].<br>
+                        Hledáme matici [$]W[/$] takovou, aby [$]X \cdot W = Y[/$].
+        -
+                uuid: c3a5e6b1-be02-4e1b-bff2-430ee6c2d1ef
+                front: Jednovrstevnatá heteroasociativní síť bez zpětné vazby - co když je [$]m=n[/$]?
+                back: >
+                        Když je [$]m=n[/$], tak je [$]X[/$] čtvercová, a má-li inverzi, tak [$]W=X^{-1}\cdot Y[/$]
+        -
+                uuid: f762504c-ad36-4db0-b964-877035c03a31
+                front: Rekurentní autoasociativní síť bez step function - vlastní vektory
+                back: >
+                        Existuje-li pevný bod [$]\\xi \cdot W = \\xi[/$], tak to je vlastní vektor s [$]\\lambda=1[/$].
+        -
+                uuid: 55c0f857-affd-4e65-8f0b-d18c047b00ac
+                front: Co se stane, když matici s různými lambdami budu neustále násobit jedním vektorem?
+                back: >
+                        Dostanu z toho největší vlastní číslo. Jeho eigenvektor je atraktor.
+        -
+                uuid: f429ddf1-63a8-4764-9875-f6ebca02b5fc
+                front: Hebbovské učení
+                back: >
+                        Síť má přenosovou funkci [$]\\sgn[/$], je jednovrstvá.
+                        Vstupní neurony mají na začátku [$]x[/$], které je n-rozměrné, výstupní mají y, které je k-rozměrné.
+
+                        Adaptační pravidlo:
+                        [$$]\\Delta w_{ij} = \\gamma x_i y_j[/$$]
+
+                        Váhová matice:
+                        [$$]W^{(1)}_{ij} = x^{(1)}_i \\cdot y^{(1)}_j[/$$]
+        -
+                uuid: 104a8bf1-2f98-463f-bfe7-3e465da899e0
+                front: Proč se v Hebbovském učení používá bipolární kódování, ne binární?
+                back: Protože bipolární vektory mají větší šanci na ortogonalitu.
+        -
+                uuid: 62c57f98-ecf3-4202-89da-f2e7a7cbce49
+                front: Výstup Hebbovské sítě natrénované na matici pro [$] (x,y)[/$] na nenulovém vektoru [$]x[/$], [$]-x[/$]?
+                back: >
+                        [$]y[/$], [$]-y[/$]
+        -
+                uuid: 42fd3ab6-5cbc-488b-b62d-1071d55681a3
+                front: Jak vypadá matice sítě pro Hebbovské učení, která má trénovací vzory [$] (x_1,y_1), (x_2,y_2), \\ldots[/$]?
+                back: >
+                        [$]W=W^{(1)} + W^{(2)} + \\ldots + W^{(m)}[/$]
+
+                        [$]W^{(1)}_{ij}=x^{(1)}_i y^{(1)}_j[/$]
+        -
+                uuid: d0f60e88-2117-4142-b014-77fc0fa4c53a
+                front: Rozdělení výstupu Hebbovské sítě na správný výstup a crosstalk?
+                back: >
+                        [$$]
+                        x^{(p)} \\cdot W = x^{(p)} \\cdot (W^{(1)} + \\ldots) = x^{(p)} W^{(p)} + \\sum_{l\\neq p} x^{(p)} \\cdot W^{(l)} =
+
+                        = y^{(p)} \\cdot (x^{(p)} \\cdot x^{(p)}) + \\sum_{l\\neq p} y^{(l)} \\cdot (x^{(l)} \\cdot x^{(p)})
+                        [/$$]
+
+                        Crosstalk je poslední kus: [$]\\sum_{l\\neq p} y^{(l)} \\cdot (x^{(l)} \\cdot x^{(p)})[/$]
+        -
+                uuid: b4cb093c-66b9-4fad-b9a1-7ad8b27814a0
+                front: Jak by měl vypadat crosstalk, aby síť dávala dobré výsledky?
+                back: >
+                        Výstup sítě bude:
+                        [$$]
+                        \\sgn(x^{(p)}\\cdot W)=\\sgn(y^{(p)} \\cdot (x^{(p)} \\cdot x^{(p)}) + \\sum_{l\\neq p}y^{(l)} \\cdot (x^{(l)} \\cdot x^{(p)}))
+                        [/$$]<br>
+
+                        Protože [$]x^{(p)} \\cdot x^{(p)} > 0[/$]:
+                        [$$]
+                        \\sgn(x^{(p)} \\cdot W)=\\sgn(y^{(p)} + \\sum_{l\\neq p}y^{(l)} \\cdot \\frac{x^{(l)} \\cdot x^{(p)}}{x^{(p)} \\cdot x^{(p)}})
+                        [/$$]
+
+                        Takže chci, aby absolutní hodnota všech složek
+                        [$]\\sum_{l\\neq p}y^{(l)} \\cdot \\frac{x^{(l)} \\cdot x^{(p)}}{x^{(p)} \\cdot x^{(p)}}[/$] byla menší než 1.
+        -
+                uuid: 88bd1b9f-4b04-4351-982d-c37c4c467862
+                front: Rekurentní asociativní paměť versus bez zpětné vazby
+                back: >
+                        Sféry vlivu atraktorů jsou v rekurentní větší. Ale zase rekurentní asociativní paměť má menší kapacitu.
+        -
+                uuid: bfd153d4-6451-41a1-80d9-8ba16a67a76f
+                front: Maximální kapacita autoasociativní Hebbovské sítě podle dimenze vstupního vektoru
+                back: >
+                        [$]m\\sim 0.18n[/$], kde [$]n[/$] je dimenze vstupu, [$]m[/$] je počet uložených vzorů.
+                        Předpokládáme nekorelované vzory.
+        -
+                uuid: 3c69131b-45db-4fbb-8a83-e4f11a7eb932
+                front: Maximální kapacita autoasociativní Hebbovské sítě podle dimenze vstupního vektoru -- je to m=0.18n, jak se to odvodí?
+                back: >
+                        Chceme pro každý bit [$]i[/$] mít tohle menší než 1:
+                        [$]
+                        \\frac{1}{n} \\sum_{l\\neq p} x_i^{(l)}(x^{(l)} \\cdot x^{(p)})
+                        [/$]
+
+                        Tedy dostaneme [$]m\\cdot n[/$] náhodných hodnot, očekávaná hodnota je 0 (bipolární).
+
+                        Součet má binomické rozdělení, pro aproximujeme ho normálním rozdělením s [$]\\sigma = \\sqrt{m/n}[/$].
+                        Mrkneme se do tabulek, jak velký je interval že součet vyjde uvnitř [$]\\pm 1[/$]. Strčíme do toho, že chceme pravděpodobnost chyby [$]0.01[/$].
+                        Dostaneme [$]m\\sim 0.18n[/$].
+        -
+                uuid: 7e9cb342-4b25-42d6-b8c5-1783fb56fc8d
+                front: Proč můžeme chtít použít pseudoinverzní matici místo Hebbovského učení?
+                back: Protože vzory můžou být korelované, takže nevhodné pro přímé Hebbovské učení s korelační maticí.
+        -
+                uuid: 0fd9a24f-e224-49fe-bb34-367ca7cc0625
+                front: K čemu je pseudoinverzní matice?
+                back: >
+                        Hledáme váhovou matici pro asociační paměť že [$]XW=Y[/$].
+                        Ale k [$]X[/$] nemusí existovat inverze, tak hledáme matici co minimalizuje [$]\\|XW-Y\\|^2[/$], to minimalizuje [$]W=\\hat{X}Y[/$]
+        -
+                uuid: 2d2d66de-68ad-4ced-bc71-877cf5c8949e
+                front: Použití pseudoinverzní matice pro minimalizaci odchylky v single-layer BP síti
+                back: >
+                        Chci nulový gradient, který je podle váhy [$]w_{ij}[/$] rovný [$]-2\\sum_{p=1}^P (\\sum_{i=1}^n d_{j,p}-w_{ij} x_{i,p})x_{i,p}[/$]
+                        Maticově: [$]WXX^T=DX^T[/$]. K [$]XX^T[/$] můžeme použít pseudoinverzi.<br>
+
+                        Řešení může být víc: omezíme velikosti vah: [$]E=\\lambda\\sum_{i=1}^n \\sum_{j=1}^m w_{ij}^2[/$].<br>
+
+                        Minimalizace přes parciální derivace: [$]W(XX^T+\\lambda I)=DX^T[/$]<br>
+
+                        Pro [$]\\lambda>0[/$] existuje inverze k [$]XX^T+\\lambda I[/$],
+                        tak to takhle vyřešíme pro [$]W[/$].<br>
+
+                        Limitně pro [$]\\lambda\\rightarrow 0[/$]: [$]W = D\\hat{X}[/$].
+                        Když je více řešení, tak tohle minimalizuje součet čtverců vah.
+        -
+                uuid: e2f01b17-6c02-4037-a66c-d326c5c33e74
+                front: Výpočet pseudoinverzní matice přes vrstevnaté neuronové sítě. K čemu se hodí?
+                back: >
+                        Zkonstruuju síť, pro kterou střední kvadratická odchylka odpovídá [$]\|XW-Y\|^2[/$], backprop se bude snažit najít [$]W[/$] které to minimalizuje, tedy pseudoinverzi.
+                        <br>
+                        Hodí se k nalezení vah pro asociativní síť (BAM).

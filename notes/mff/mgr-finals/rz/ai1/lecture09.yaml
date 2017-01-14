@@ -1,0 +1,127 @@
+deck: All::Magisterské státnice::Reprezentace znalostí::AI1::Přednáška 9
+notes:
+        # AI1 lecture09eng
+        -
+                uuid: 7e46b252-cedb-4f04-9aa8-9bea1746fd6c
+                front: Co udělám s kvantifikátory když budeme dělat inferenci nad predikátovou logikou?
+                back: Skolemizace (přidám funkční symboly)
+        -
+                uuid: c01a8c64-7ceb-457c-92b8-d14c3a1d9761
+                front: Redukce predikátové logiky do výrokové logiky
+                back: >
+                        Vyrobím instance všech termů.
+                        Z atomických sentencí udělám výrokové proměnné.
+                        Z existenčních kvantifikátorů udělám novou konstantu.
+                        Pro univerzální kvantifikátor substituuji všechny termy.
+        -
+                uuid: 777d9f11-a154-4c9d-b54b-e906343b4dcd
+                front: Herbrandtova věta (krátce z AI1)
+                back: >
+                        Jestli se něco dá dokázat v predikátové logice,
+                        jde to dokázat z konečné podmnožiny výrokové konverze.
+        -
+                uuid: 697dc7f9-4284-4e95-b215-b129470542a3
+                front: Liftovaný modus ponens a substituce
+                back: >
+                        [$]p_1,\\ldots,p_2, q_1\\wedge q_2\\wedge\\ldots\\wedge q_n\\rightarrow q[/$] ==> [$]Subst(\\Theta,q)[/$],
+                        kde [$]\\Theta[/$] je substituce ze [$]Subst(\\Theta,p_i)=Subst(\\Theta,q_i)[/$]<br>
+
+                        Funguje na Hornovské klauzule.
+        -
+                uuid: 23ca99f1-2d6a-4686-bbe1-5444e9fe03a1
+                front: Hledání MGU (most general unifier), algoritmus
+                back: >
+                        Existuje právě jedna (až na přejmenování proměnných).<br><br>
+
+                        Vstupy: x, y a zatím vybudovaná substituce.
+                        x i y jsou proměnná, konstanta, seznam nebo term.<br><br>
+
+                        Jestli jsou x=y, vrať.<br>
+                        Jsou-li jedno z toho proměnné, udělej unifikaci proměnných.<br>
+                        Jsou-li oba compoundy, musí mít stejné operace a unifikuj seznamy.<br>
+                        Jsou-li oba seznamy, unifikuj postupně od začátku.<br><br>
+
+                        Unifikace proměnné: jestli je do proměnné něco dosazené, dosaď to.
+                        Zkontroluj, že dosazení můžu udělat (například ne třeba [$]x[/$] a [$]f(x)[/$]).<br>
+
+                        Standartně z kontrolování proměnných vyjde kvadratická složitost. Ale jde to i lineárně?
+        -
+                uuid: e2b57811-bb9b-433a-8290-01fa63da49fd
+                front: Forward-chaining algoritmus v FOL s Horn-klauzulemi, nevýhody
+                back: >
+                        Pro každou klauzuli v KB, ve které přejmenuju proměnné aby byly různé od mých:
+                        pokud se to dá zunifikovat s něčím co už je v KB a konsekvent není přejmenování něčeho co už máme:
+                        přidej to do KB. jestli odvodím hledanou věc, vrať že to jde přidat.<br>
+
+                        Problém: [$]R(x) \\longrightarrow R(S(x))[/$] odvodí nekonečně mnoho faktů
+        -
+                uuid: 2580fca8-2aa3-4d3b-82c6-7bf1a7a18d14
+                front: Složitost pattern-matchingu při hledání, jestli je splněné tělo klauzule
+                back: >
+                        NP-kompletní. Dá se na to převést barvení grafu
+                        ([$]\\mathrm{diff}(\\mathrm{red},\\mathrm{green}), \\ldots, \\mathrm{diff}(\\mathrm{Wa},\\mathrm{Nt}) \\wedge \\mathrm{diff}(\\mathrm{Nt},\\mathrm{Sf}) \\wedge \\ldots \\Rightarrow \\mathrm{Colorable}[/$])
+        -
+                uuid: d7c74937-dfcd-45fa-9034-16a6c8710d78
+                front: Heuristiky k pattern-matchingu v FOL
+                back: >
+                        Indexuj fakta podle jejich predikátu.<br>
+                        [$$]\\mathrm{missile}(X) \\wedge \\mathrm{owns}(\\mathrm{nono},X) \\Rightarrow \\mathrm{sells}(\\mathrm{west},X,\\mathrm{nono})[/$$]
+                        <br>
+                        Budu hledat nejdřív rakety, nebo věci co vlastní Nono?
+                        Najdi to čeho je míň (first-fail -- constrain satisfaction).
+                        <br>
+                        Používej při inferenci pravidlo jenom jestli jsme od jeho
+                        posledního použití odvodili nějaký nový fakt, který
+                        je v jeho těle. (Resp., co je unifikovatelný s něčím v těle.)
+        -
+                uuid: 0527ffb0-7f61-454a-922e-e17fe12edaf1
+                front: Rete algoritmus
+                back: >
+                        Horn-SAT v FOL.
+                        <br>
+                        Preprocesuj pravidla tak, abys rychleji uměl vyhledat,
+                        které pravidlo znova odpálit až odvodíš nový fakt.
+        -
+                uuid: 353e6652-6f25-4f9d-9fde-dbb90b762d78
+                front: Backward chaining v FOL
+                back: >
+                        Query: seznam konjunkci co hledame v KB.
+                        Substituce: nejdriv prazdna.<br>
+
+                        Jestli nejsou goaly: vrat nalezenou substituci.<br>
+
+                        Aplikuj substituci na prvni cil, a rozsir ji.<br>
+                        Najdi nejake pravidlo, jehoz hlava jde zunifikovat s cilem.
+                        Pokus se rekurzivne pridat mezi cile jeho telo, zkomponuj substituce.
+        -
+                uuid: ee3bd8a2-816b-4cc6-9fba-1f60c563d9f0
+                front: Prostorová složitost FOL-BackwardChain-ASK, kompletnost
+                back: >
+                        Použij DFS na vyhledání všech řešení.
+                        Lineární prostor vzhledem k délce důkazu.
+                        Algoritmus není úplný.
+        -
+                uuid: 91172c55-d558-484d-87d7-f0fdd67a7e19
+                front: Co je potřeba přidat do first-order logické rezoluce aby byla kompletní?
+                back: >
+                        Unifikace.
+                        Rozšířit na víc literálů.
+                        Faktorizování (na odebrání redundantních literálů - tj. těch co se dají zunifikovat).
+                        Je to pak sound & complete.
+        -
+                uuid: f9fb23bd-7d34-405d-954f-de5bfe06cd59
+                front: Strategie pro rezoluci v FOL
+                back: >
+                        Jednotková propagace: preferujeme ji pokud jde udělat.
+                        (Pro Hornovské klauzule to je kompletní.)
+                        <br>
+                        Podpůrná množina (support set): sada klauzulí
+                        že jedna klauzule pro rezoluci je vždy z téhle množiny
+                        a rezolvovanou klauzuli tam přidám.
+                        Na začátku to obsahuje jenom negovaný query.
+                        <br>
+                        Input resolution: (nekompletní): každý rezoluční krok
+                        obsahuje aspoň jednu klauzuli ze vstupu.
+                        <br>
+                        Subsumpce: nepřidávej redundantní klauzule do KB
+                        (co jsou implikované něčím jiným už)

@@ -1,4 +1,4 @@
-deck: Magisterské státnice::Základy složitosti a vyčíslitelnosti
+deck: All::Magisterské státnice::Základy složitosti a vyčíslitelnosti
 notes:
         -
                 uuid: 98519f43-e9a2-4139-bc9e-20693a348ddb
@@ -475,16 +475,16 @@ notes:
                         (pokud přípustné řešení existuje).
                         <br>
                         Když maximalizuju, tak [$]\\varepsilon > 1[/$] je takové
-                        že [$]opt(I) \\leq \\varepsilon \\cdot \\mu_A(I,R(I))[/$].
+                        že [$]\\mathrm{opt}(I) \\leq \\varepsilon \\cdot \\mu_A(I,R(I))[/$].
                         <br>
                         Když minimalizuju, tak [$]\\varepsilon \\geq 1[/$],
-                        [$]\\mu_A(I,R(I))\\leq \\varepsilon\\cdot opt(I)[/$].
+                        [$]\\mu_A(I,R(I))\\leq \\varepsilon\\cdot \\mathrm{opt}(I)[/$].
         -
                 uuid: 49474cd2-9e98-41f3-be43-ca11ff1e7743
                 front: Bin-packing a first-fit aproximacni faktor
                 back: >
-                        FF vytvori nejvyse [$]2 \cdot opt(I)[/$] kosu.
-                        Pro kazde [$]m[/$] existuje instance [$]I[/$] kde [$]opt(I)\geq m[/$] a [$]FF[/$] vytvori aspon [$]5/3 opt(I)[/$] kosu.
+                        FF vytvori nejvyse [$]2 \cdot \mathrm{opt}(I)[/$] kosu.
+                        Pro kazde [$]m[/$] existuje instance [$]I[/$] kde [$]\mathrm{opt}(I)\geq m[/$] a [$]FF[/$] vytvori aspon [$]5/3 \mathrm{opt}(I)[/$] kosu.
         -
                 uuid: a4723772-5d5a-420c-9d8b-4e11889f60de
                 front: Aproximace TSP a P vs. NP
@@ -504,19 +504,24 @@ notes:
                 uuid: 3970c764-03cb-4435-8c87-3a6e8c799bdd
                 front: Definice - Číselný rozhodovací problém
                 back: >
-                        Rozhodovací problém [$]A[/$] je číselný, pokud pro každý polynom [$]p[/$] existuje instance kde [$]max(I) > p(len(I))[/$], kde [$]max[/$] je největší číselný parametr vyskytující se v [$]I[/$], [$]len[/$] je délka instance v binárním kódování.<br>
+                        Rozhodovací problém [$]A[/$] je číselný, pokud pro každý
+                        polynom [$]p[/$] existuje instance kde [$]\\mathrm{max}(I) > p(\\mathrm{len}(I))[/$],
+                        kde [$]\\mathrm{max}[/$] je největší číselný parametr vyskytující se v [$]I[/$],
+                        [$]\\mathrm{len}[/$] je délka instance v binárním kódování.<br>
+
                         Batoh, Loupežníci jsou číselné.<br>
+
                         Splnitelnost, Kachlíkování nejsou.
         -
                 uuid: eb633e57-b96a-4939-a4cf-0e0382b17f16
                 front: Definice pseudopolynomiálního algoritmu
-                back: Složitost omezena polynomem [$]len(I)[/$] a [$]max(I)[/$]
+                back: Složitost omezena polynomem [$]\\mathrm{len}(I)[/$] a [$]\\mathrm{max}(I)[/$]
         -
                 uuid: 3cdba4a8-ede4-47c1-a6e0-b1346b3bf4f7
                 front: Definice silné NP-úplnosti
                 back: >
                         [$]A[/$] je rozhodovací problém, [$]p[/$] polynom.<br>
-                        [$]A(p)[/$]: restrikce na instance, kde [$]max(I) \\leq p(len(I))[/$].<br>
+                        [$]A(p)[/$]: restrikce na instance, kde [$]\\mathrm{max}(I) \\leq p(\\mathrm{len}(I))[/$].<br>
                         [$]A[/$] je silně NP-úplný, když nějaká jeho polynomiální
                         restrikce je NP-úplná.
         -
@@ -546,7 +551,7 @@ notes:
                 uuid: bd5a8921-00d9-4479-8094-8fa418bad34f
                 front: Aproximační schema pro Batoh - složitost a aproximační poměr
                 back: >
-                        [$]opt(I) \\leq (1+\\varepsilon)\\cdot bapx(I,\\varepsilon)[/$], čas [$]O(n^3 / \\varepsilon)[/$]
+                        [$]\\mathrm{opt}(I) \\leq (1+\\varepsilon)\\cdot bapx(I,\\varepsilon)[/$], čas [$]O(n^3 / \\varepsilon)[/$]
         -
                 uuid: 99b1151e-7725-4bbf-9a3d-2cd4447be606
                 front: Definice - aproximační schema
@@ -556,17 +561,17 @@ notes:
         -
                 uuid: bb62e0eb-f496-46b1-a623-c26432fd3b2c
                 front: Definice - Polynomiální aproximační schema
-                back: Aproximační schema co pracuje v [$]O(poly(len(I)))[/$]
+                back: Aproximační schema co pracuje v [$]O(poly(\\mathrm{len}(I)))[/$]
         -
                 uuid: f6a37dbc-71dc-4cdc-a42d-9686bf28fea7
                 front: Definice - Úplně polynomiální aproximační schema
-                back: Aproximační schema co pracuje v [$]O(poly(len(I), \\frac{1}{\\varepsilon}))[/$]
+                back: Aproximační schema co pracuje v [$]O(poly(\\mathrm{len}(I), \\frac{1}{\\varepsilon}))[/$]
         -
                 uuid: 78a6ff60-b26d-47eb-8e56-001c8bb2d1ea
                 front: Aproximační schemata a silná NP-úplnost. Důsledek?
                 back: >
                         Ať je [$]A[/$] optimalizační úloha a existuje polynom [$]q[/$],
-                        že pro všechny instance [$]opt(I) < q(len(I), max(I))[/$].
+                        že pro všechny instance [$]\\mathrm{opt}(I) < q(\\mathrm{len}(I), \\mathrm{max}(I))[/$].
                         <br>
                         Když existuje ÚPAS pro A, tak existuje pseudopolynomiální
                         algoritmus pro A.
@@ -594,3 +599,15 @@ notes:
                 front: NP-úplnost a co-NP-úplnost
                 back: >
                         [$]A[/$] je co-NP-complete právě když [$]\\overline{A}[/$] je NP-complete. Kdyby byl nějaký jazyk NP-úplný a v co-NP, tak by bylo co-NP=NP.
+        -
+                uuid: ef01a082-06c9-499e-be1f-482577aa6095
+                front: Třída [$]2-EXPTIME[/$]
+                back: >
+                        [$$]\\bigcup_{k\\in\\N} TIME(2^{2^{n^k}})[/$$]
+                include_reverse: true
+        -
+                uuid: b37ecf53-14dc-488c-a19a-46303f2ee6ed
+                front: Třída [$]ELEMENTARY[/$]
+                back: >
+                        [$$]EXPTIME \\cup 2-EXPTIME \\cup 3-EXPTIME \\cup \\ldots = TIME(2^n) \\cup TIME(2^{2^n}) \\cup TIME(2^{2^{2^n}}) \\cup \\ldots[/$$]
+                include_reverse: true

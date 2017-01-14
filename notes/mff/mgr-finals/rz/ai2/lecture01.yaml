@@ -1,0 +1,100 @@
+deck: All::Magisterské státnice::Reprezentace znalostí::AI2::Přednáška 1
+notes:
+        # AI2 lecture01eng
+        -
+                uuid: 8c7866c5-262c-4b97-9ad5-3e5619aed06b
+                front: Nejistota v logických agentech a problémy
+                back: >
+                        Musí počítat se všemi, i nepravděpodobnými možnostmi,
+                        které jsou logicky konzistentní, a to i v plánech,
+                        které jsou pak ohromné. Občas musíme jednat
+                        i když není žádná akce co nutně logicky vede
+                        k úspěchu.
+        -
+                uuid: 13e89e28-588c-4a78-8307-2ad1c00ad69d
+                topic: Nejistota
+                front: Definice podmíněné pravděpodobnosti
+                back: >
+                        [$$]P(A|B)=P(A\\wedge B) / P(B)[/$$]
+                        <br>
+                        (povinně [$]P(B)>0[/$])
+        -
+                uuid: 7b3a872d-2057-4b5e-9581-6de29cafc492
+                topic: Nejistota
+                front: Axiomy pravděpodobnosti
+                back: >
+                        [$$]P(\\neg A)=1-P(A)[/$$]
+                        [$$]P(A\\vee B)=P(A)+P(B)-P(A\\wedge B)[/$$]
+                        [$$]\\mathbf{P}(A,B,C,D)=\\mathbf{P}(A|B,C,D)\\mathbf{P}(B,C,D)=\\ldots[/$$]
+        -
+                uuid: e686aa77-2800-490f-a64d-18268bc9b0e1
+                topic: Nejistota
+                front: Jak získat posteriory z KB, co je full joint distribution?
+                back: >
+                        Marginalizace:<br>
+                        [$$]P(\\Phi)=\\sum_{\\omega: \\omega\\vDash\\phi} P(\\omega)[/$$]<br>
+                        [$$]\\mathbf{P}(\\mathbf{Y})=\\sum_{z\\in\\mathbf{Z}}\\mathbf{P}(\\mathbf{Y},z)[/$$]
+        -
+                uuid: 09c54a08-9e8c-4ef6-b70a-f9bcc58ff9cf
+                topic: Nejistota
+                front: K čemu je normalizace?
+                back: >
+                        [$$]P(\\neg a|b) = P(\\neg a \\wedge b) / P(b)[/$$]
+                        [$$]P(a|b)=P(a\\wedge b)/P(b)[/$$]
+
+                        Když nás zajímá [$]\\mathbf{P}(A|b)[/$],
+                        stačí: [$]\\mathbf{P}(A|b)=\\alpha \\mathbf{P}(A,b)[/$]
+                        -- dělitelé jsou stejní, víme že se to má posčítat na 1.
+        -
+                uuid: 5743e1a2-606e-4383-bc3b-f53fb76ad491
+                topic: Nejistota
+                front: Problémy s inferencí pomocí enumerace (skrz skryté proměnné)
+                back: >
+                        Časová složitost [$]\\O(d^n)[/$] ([$]d[/$] je velikost domény).
+                        Prostor [$]\\O(d^n)[/$]. Není feasible zjistit všechny
+                        pravděpodobnosti všech možných světů.
+        -
+                uuid: 258e0929-9895-47a2-9968-16d21be4be9c
+                topic: Nejistota
+                front: Definice - Nezávislost proměnných
+                back: >
+                        [$]\\mathbf{P}(X|Y)=\\mathbf{P}(X)[/$],
+                        nebo [$]\\mathbf{P}(Y|X)=\\mathbf{P}(Y)[/$],
+                        nebo [$]\\mathbf{P}(X,Y)=\\mathbf{P}(X)\\cdot \\mathbf{P}(Y)[/$].
+        -
+                uuid: eab2cd2a-b534-4b5d-8f1d-75e81aecf0d2
+                topic: Nejistota
+                front: Definice - Podmíněná nezávislost
+                back: >
+                        Catch, Toothache jsou nezávislé, pokud známe hodnotu Cavity.
+                        <br>
+                        [$]\\mathbf{P}(X|Y,Z)=\\mathbf{P}(X|Y)[/$], nebo
+                        [$]\\mathbf{P}(Z|X,Y)=\\mathbf{P}(Z|Y)[/$], nebo
+                        [$]\\mathbf{P}(Z,X|Y)=\\mathbf{P}(Z|Y)\\cdot\\mathbf{P}(X|Y)[/$]
+        -
+                uuid: 795b5ac9-50f2-4770-8fa5-b414609466ee
+                topic: Nejistota
+                front: Bayesovo pravidlo, pro jevy
+                back: >
+                        [$$]P(a|b)=P(b|a)\\cdot P(a)/P(b)[/$$]
+        -
+                uuid: 0fefc9eb-5229-4955-ace8-1185d87e36e0
+                topic: Nejistota
+                front: Bayesovo pravidlo, pro proměnné
+                back: >
+                        [$$]\\mathbf{P}(Y|X)=\\mathbf{P}(X|Y)\\mathbf{P}(Y)/\\mathbf{P}(X)=\\alpha \\mathbf{P}(X|Y)\\mathbf{P}(Y)[/$$]
+        -
+                uuid: e0b75cca-9f94-447e-a4c9-c068029e0a4b
+                topic: Nejistota
+                front: Kauzální vs. diagnostický směr
+                back: >
+                        Kauzální: [$]P(\\text{effect}|\\text{cause})[/$], diagnostický: [$]P(\\text{cause}|\\text{effect})[/$]
+        -
+                uuid: 6ee8d234-650e-4232-9f72-c12f0ccfd311
+                front: Naivní Bayesovský klasifikátor
+                back: >
+                        Když jsou všechny efekty nezávislé při pevné příčině,
+                        dostaneme:
+                        [$$]\\mathbf{P}(\\text{Cause}, E_1,\\ldots E_n)=\\mathbf{P}(\\text{Cause})\\prod_i \\mathbf{P}(E_i|\\text{Cause})[/$$]
+                        <br>
+                        Často se používá i když efekty ve skutečnosti nezávislé nejsou.

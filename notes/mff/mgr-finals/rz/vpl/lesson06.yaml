@@ -1,0 +1,157 @@
+deck: All::Magisterské státnice::Reprezentace znalostí::Výroková a predikátová logika::Přednáška 6
+notes:
+        # VPL06
+        -
+                uuid: 69795a03-adcf-4807-a029-1e44b541f3aa
+                topic: Predikátová logika
+                front: Jazyk predikátové logiky
+                back: >
+                        Spočetně mnoho proměnných ([$]Var[/$])<br>
+                        Funkční symboly včetně konstantních symbolů<br>
+                        Relační symboly, potenciálně rovnost (speciální relační symbol) (nulární relační symboly můžou být výrokové proměnné)<br>
+                        Kvantifikátory pro každou proměnnou<br>
+                        Logické spojky<br>
+                        Závorky
+        -
+                uuid: 975ca80f-6978-450c-9d7c-34aef9c01d61
+                topic: Predikátová logika
+                front: Jazyk predikátové logiky - logické symboly
+                back: >
+                        Proměnné, kvantifikátory, logické spojky, závorky
+        -
+                uuid: 3c41be43-70a0-4de3-a64f-ed2fbb2fbf33
+                topic: Predikátová logika
+                front: Jazyk predikátové logiky - mimologické symboly symboly
+                back: >
+                        Funkční a relační symboly (mimo rovnosti)
+        -
+                uuid: c9fc1b59-1345-492d-a0a5-062d717c2b49
+                topic: Predikátová logika
+                front: Jazyk predikátové logiky - signatura
+                back: >
+                        Dvojice disjunktních množin relačních, funkčních symbolů. Určuje všechny mimologické symboly.
+                        Určuje jazyk, s uvedením jestli má rovnost.
+        -
+                uuid: 23b26383-4ffc-4304-aa1f-134a3f7b9ef8
+                topic: Predikátová logika
+                front: Jazyk predikátové logiky - term
+                back: >
+                        Proměnná nebo konstantní symbol; aplikace funkce; konečně rekurzivně.<br>
+
+                        Konstantní term: bez proměnných<br>
+
+                        [$]Term_L[/$]<br>
+        -
+                uuid: fd065fa4-4615-4f4d-936b-ba6d9b69ae85
+                topic: Predikátová logika
+                front: Značení - atomická formule
+                back: >
+                        [$]AFm_L[/$]` aplikace relačního symbolu na termy.
+        -
+                uuid: ff8a816b-b627-4c3b-985b-da2c4f9915e5
+                topic: Predikátová logika
+                front: Definice - formule
+                back: >
+                        Atomická formule, pak indukce nad spojkami,
+                        přidání kvantifikátorů; [$]Fm_L[/$]
+        -
+                uuid: 2f29cdd6-054d-419c-bbf7-a3f898096b66
+                topic: Predikátová logika
+                front: Vázaný, volný výskyt proměnné
+                back: >
+                        Je součást podformule co začíná [$] (\a x)[/$] nebo [$] (\e x)[/$].<br>
+                        Volný výskyt je ten co není vázaný.
+                        Proměnná může být volná i vázaná.
+        -
+                uuid: c15d88b8-3355-4d23-8863-10609edf0914
+                topic: Predikátová logika
+                front: Predikátová logika - otevřená formule
+                back: Neobsahuje žádný kvantifikátor
+        -
+                uuid: 35fed406-e6dd-43f6-a992-498882898efe
+                topic: Predikátová logika
+                front: Predikátová logika - uzavřená formule (sentence)
+                back: Všechny výskyty jsou vázané
+        -
+                uuid: f40b899d-6a4f-43db-b48c-add74adb0ba1
+                topic: Predikátová logika
+                front: Jaká formule je zároveň uzavřená a otevřená?
+                back: >
+                        Když má všechny termy konstantní.
+        -
+                uuid: c710c373-4324-456c-a932-1cf0c9ca586c
+                topic: Predikátová logika
+                front: Instance formule [$]\\varphi(x/t)[/$]
+                back: >
+                        Substituuji term [$]t[/$] za proměnnou [$]x[/$].
+                        Term je substituovatelný za [$]x[/$], když
+                        po současném nahrazení všech výskytů nevznikne
+                        žádný vázaný výskyt žádné proměnné z [$]t[/$].
+        -
+                uuid: ccdfaa76-d9a5-4990-8376-c7420ddd5a10
+                topic: Predikátová logika
+                front: Varianta formule
+                back: >
+                        At je [$] (Qx)\\psi[/$] podformule v [$]\\varphi[/$]
+                        a [$]y[/$] je promenna, co je substituoatelna za [$]x[/$] do
+                        [$]\\psi[/$] a [$]y[/$] nema volny vyskyt v [$]\\psi[/$].<br>
+                        Nahrazeni podformule [$] (Qx)\\phi[/$] za [$] (Qy)\\phi(x/y)[/$]
+                        vznikne varianta formule [$]\\varphi[/$] v podformuli [$] (Qx)\\psi[/$].<br>
+                        Postupnou aplikaci variant vznikne varianta.
+        -
+                uuid: 900d9315-ebb7-4d42-be1e-78a99547a9f7
+                topic: Predikátová logika
+                front: Struktura pro jazyk
+                back: >
+                        [$]L=<R,F>[/$] at je jazyk, [$]A[/$] neprazdna mnozina.
+                        <br>
+                        Realizace relacniho symbolu: relace. Realizace rovnosti: identita.
+                        <br>
+                        Podobne realizace funkci.
+                        <br>
+                        Struktura: trojice [$]\\mathcal{A}=<A,R^A,F^A>[/$] --
+                        doména (univerzum) -- NEPRÁZDNÁ, realizace relací, realizace funkcí.
+        -
+                uuid: 206817a7-4702-4c97-a587-78cdb5606734
+                topic: Predikátová logika
+                front: Hodnota termu, značení
+                back: >
+                        Ohodnocení proměnných v množině [$]A[/$]: [$]e:Var\\rightarrow A[/$].<br>
+                        Hodnota termu: rekurzivně definovaná [$]t^A[e][/$].<br>
+                        Hodnota termu záleží jenom na ohodnocení proměnných.
+        -
+                uuid: f5ae98b3-d8c7-4b34-ab70-85b8ef73b6e1
+                topic: Predikátová logika
+                front: Hodnota atomické formule
+                back: >
+                        Hodnota [$]H_{at}^{A}(\\varphi)[e][/$]: pro atomickou formuli ([$]=^A[/$] je [$]Id_A[/$]).
+                        Když je [$]\\varphi[/$] sentence, hodnota nezáleží na ohodnocení.
+        -
+                uuid: 9c307f26-043d-4bb3-9ce3-32df21c68bc8
+                topic: Predikátová logika
+                front: Hodnota neatomické formule
+                back: >
+                        Použiju Booleovské funkce definované tabulkami.<br>
+                        Nad strukturou: [$]H^A((\a x)\\varphi)[e] = \\min_{a\\in A}(H^A(\\varphi)[e(x/a)])[/$]
+                        Záleží jenom na volných proměnných.
+        -
+                uuid: 559e0291-255d-448a-ae25-dbab2c2e58e2
+                topic: Predikátová logika
+                front: Značení - formule platí při ohodnocení ve struktuře
+                back: >
+                        [$]\\mathcal{A}\\vDash\\varphi[e][/$] (když [$]H^A(\\varphi)[e]=1[/$]).
+        -
+                uuid: 99164312-4f7a-4410-a65e-02616a49d4ad
+                front: Platnost ve struktuře
+                topic: Predikátová logika
+                back: >
+                        [$]\\mathcal{A}\\vDash\\varphi[/$] když platí pro každé ohodnocení.
+                        Podobně lživá.
+        -
+                uuid: 74221bc3-313b-4e52-b416-41e7f436047e
+                topic: Predikátová logika
+                front: Teorie v predikátové logice
+                back: >
+                        Teorie je libovolná množina formulí (axiomů).<br>
+                        Model je L-struktura ve které platí axiomy teorie.<br>
+                        Třída modelů [$]M(T)[/$].

@@ -1,0 +1,90 @@
+deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška 2
+notes:
+        # planovani a rozvrhovani lecture03
+        -
+                uuid: 54b4e7a1-9e3e-40ac-83a5-9426c4820552
+                topic: Plánování
+                front: Co by se stalo kdybychom přidali funkční symboly do reprezentace?
+                back: Z problému existence plánu by se stal částečně rozhodnutelný problém (byl by z toho halting problém).
+        -
+                uuid: 7611f49c-dafa-4762-96ec-0ded99c1201c
+                topic: Plánování
+                front: >
+                        Složitost - Negativní efekty? Existence plánu?
+                back: >
+                        Negativní efekty: existence je EXPSPACE-c, plán do dané délky je NEXPTIME-c.
+                        <br>
+                        Bez negativních efektů, s negativními předpoklady: existence je NEXPTIME-c, do dané délky je NEXPTIME-c.
+                        <br>
+                        # TODO: Divne. Nejsou tady ty tridy obracene?
+                        Bez negativních efektů a předpokladů: existence je EXPTIME-c, plán do dané délky je NEXPTIME-c.
+        -
+                uuid: e0e993d1-de4f-40e6-abc7-63183df5f1ca
+                topic: Plánování
+                front: >
+                        Prostory, které při plánování prohledáváme
+                back: >
+                        Stavový prostor, nebo prostor plánů (uzly jsou částečně instanciované plány).
+        -
+                uuid: b55b012e-ac6c-45a8-b6db-916c13d7d99a
+                topic: Plánování
+                front: >
+                        Zpětné plánování ve stavovém prostoru a jeho neefektivita
+                back: >
+                        Začnu od konce.
+                        <br>
+                        Nedeterministicky zkouším akce, které jsou relevantní
+                        k cíli.
+                        <br>
+                        Neefektivita: není to liftnuté, zbytečně instanciujeme
+        -
+                uuid: 52bb360d-51fc-4e5f-be01-4896cdda5d12
+                topic: Plánování
+                front: Algoritmus lifted backward search
+                back: >
+                        Najdi MGU mezi efekty nějakého operátoru
+                        a nějakého atomu, který mám v cíli.
+                        <br>
+                        Vyber si nedeterministicky a pokračuj.
+                        <br>
+                        Volné proměnné ztěžují detekci cyklů.
+        -
+                uuid: 13205a65-48c4-486f-b806-8954fad936a4
+                front: Jak STRIPS algoritmus redukuje prostor zpětného plánování?
+                back: >
+                        Z podcíle řeší vždy jen část odpovídající předpokladům
+                        poslední přidané akce.
+                        (Tj. místo [$]\\gamma^{-1}(s,a)[/$] použij jako cíl
+                        [$]\\mathrm{precond}(a)[/$].)
+                        Kvůli tomu je neúplný.
+                        <br>
+                        Pokud aktuální stav splňuje všechny předpoklady operátoru,
+                        operátor se použije, a při backtrackingu ten závazek
+                        nezruším.
+        -
+                uuid: cbc43b9b-fafe-4437-9400-c6b79caf42f7
+                front: Ground-STRIPS algoritmus -- popis
+                back: >
+                        Začni s prázdným plánem.
+
+                        <br>
+                        Nedeterministicky vyber akci, která je relevantní
+                        pro cíl.
+                        <br>
+                        Pokračuj rekurzivně s podcílem [$]\\mathrm{precond}(a)[/$].
+                        Až najdeš plán co splňuje tyto podmínky, tak podle něj
+                        posuň počáteční stav a udělej tu akci.<br>
+                        Splňuj další část cíle.
+        -
+                uuid: e7bd7fec-22e3-4c24-bff7-11c99b16076d
+                front: Problémy plánování ve stavovém prostoru a jak je řeší plánování v prostoru plánů
+                back: >
+                        Velký větvící faktor a spousta alternativních pořadí akcí.
+                        <br>
+                        Řešení: least commitment -- nerozhoduj co nemusíš rozhodnout teď
+        -
+                uuid: 336a7bd4-ef38-4070-b831-c06971860289
+                front: Sussmanova anomálie
+                back: >
+                        Svět kostek. Stack 1: (c) nad (a), stack 2: (b).
+                        Cíl: (a) nad (b) nad (c).

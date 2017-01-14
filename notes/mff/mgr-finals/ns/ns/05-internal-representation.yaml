@@ -1,0 +1,30 @@
+deck: All::Magisterské státnice::Neuronové sítě::Přednáška 5 (vnitřní reprezentace)
+notes:
+        # 05-internal-representation
+        -
+                uuid: bc424437-cb79-4278-acce-3893f428a98e
+                front: Kondenzovaná vnitřní reprezentace, binární; jak se učí?
+                back: >
+                        Interpretace skrytých neuronů: [$]0/1/\\frac{1}{2}[/$]<br>
+
+                        Binární: jen 0/1<br>
+
+                        Přidá se člen:
+                        [$$]
+                        F=\\sum_{p} \\sum_{h} y_{h,p}^X (1-y_{h,p})^Y (y_{h,p}-0.5)^2Z
+                        [/$$]
+
+                        U 1/2 to musí být sudé (symetrické).
+        -
+                uuid: adf31f57-65b6-40e5-9cae-d759e46052bf
+                front: Jednoznačná vnitřní reprezentace; jak se naučí?
+                back: >
+                        Intuice: pro hodně různé výstupy chci hodně jiné vnitřní reprezentace<br>
+
+                        [$$]
+                        H = -\\frac{1}{2}\\sum_{p, q; p\\neq q} \\sum_{j} \\sum_{o} (d_{o,p}-d_{o,q})^2 (y_{j,p}-y_{j,q})^2
+                        [/$$]
+        -
+                uuid: d14d2601-5db9-4c7e-a943-718b893ad9d4
+                front: Prořezávání dle interní reprezentace
+                back: Spoj neurony, co jsou pořád konstantní, nebo rovné jinému neuronu, nebo mu inverzní. Postupně zredukuj celou síť.

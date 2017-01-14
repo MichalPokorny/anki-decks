@@ -1,0 +1,214 @@
+deck: All::Magisterské státnice::Neuronové sítě::Přednáška 3 (vrstevnaté sítě)
+notes:
+        # 03-multilayered-nns
+        -
+                uuid: 5b2844e9-94ba-40a5-af9f-47a7153c9440
+                front: Chybová funkce pro feedforward sítě
+                back: >
+                        [$]E=\\frac{1}{2}\\sum_{p} \\sum_{j} (y_{j,p}-d_{j,p})^2[/$],
+                        kde [$]j[/$] je index ve výstupním vektoru, [$]p[/$] je vzor
+        -
+                uuid: b922cbf1-635a-456b-90b2-14e5f04a6352
+                front: Jak vypadá update pro feedforward sítě, obecně?
+                back: >
+                        [$$]
+                        w_{ij} -= \\frac{\\partial E}{\\partial w_{ij}} = \\frac{\\partial E}{\\partial y_j}\\frac{\\partial y_j}{\\partial \\xi_j}\\frac{\\partial \\xi_j}{\\partial w_{ij}}
+                        [/$$]
+        -
+                uuid: 78dc62d7-6f8f-4ebc-9bd3-4efafc2ccbc3
+                front: Co je v updatu pro feedforward sítě [$]\\delta[/$]?
+                back: >
+                        [$$]
+                        \\delta_j := -\\frac{\\partial E}{\\partial \\xi_j}
+                        [/$$]
+        -
+                uuid: cbaf91a5-83a2-43ee-a16d-61a019357318
+                front: Jak vypadá použití [$]\\delta[/$] v updatovacím pravidle?
+                back: >
+                        [$$]
+                        w_{ij} += \\delta_j \\frac{\\partial \\xi_j}{\\partial w_{ij}} = \\delta_j y_i
+                        [/$$]
+        -
+                uuid: d4a36360-45fe-44e5-ac35-c417012061a9
+                front: Plná forma updatu pro váhy do výstupní vrstvy
+                back: >
+                        [$$]
+                        w_{ij} -= (y_j - d_j) f'(\\xi_j) y_i
+                        [/$$]
+        -
+                uuid: 111c73aa-eade-4989-bc69-2f4cec56779b
+                front: Plná forma updatu pro váhy do skrytých vrstev
+                back: >
+                        [$$]
+                        w_{ij} -= (\\sum_k \\frac{\\partial E}{\\partial \\xi_k} w_{jk}) f'(\\xi_j) y_i =
+
+                        = (\\sum_k \\delta_k w_{jk}) f'(\\xi_j) y_i
+                        [/$$]
+        -
+                uuid: e40d07d1-565a-40f1-8066-0c313967d318
+                front: Derivace sigmoidy s parametrem [$]\\lambda[/$] vzhledem k její hodnotě
+                back: >
+                        [$]f'(x) = \\lambda f(x) (1-f(x))[/$]
+        -
+                uuid: 3e6d5447-bf83-456a-aba4-d6bc537ab880
+                front: Aktualizace vah s momentem
+                back: >
+                        [$$]
+                        w_{ij}^{(t+1)} = w_{ij}^{(t)} + \\alpha \\delta_j y_i +
+                                \\alpha_m (w_{ij}^{(t)} - w_{ij}^{(t-1)})
+                        [/$$]
+        -
+                uuid: 855893e2-9a41-4b34-9a45-c05098fce827
+                front: Velikost momentu učení
+                back: >
+                        [$]\\alpha_m \\in [0;1)[/$]
+        -
+                uuid: d07c9791-5d35-47e5-a396-4e0c984c81a9
+                front: Složitost učení neuronových sítí
+                back: NP-úplný
+        -
+                uuid: c545814c-390b-4ff6-86c0-d2bd755436ef
+                front: Chytrá volba počátečních vah - proč nulově vycentrované?
+                back: Budou v intervalu [$][-\\alpha_m;\\alpha_m][/$]. Protože přenosová funkce má v 0 maximální derivaci. Šířená chyba je pak větší.
+        -
+                uuid: 2cd4abd6-9386-4cd9-8abb-4049fdfd8ece
+                front: Proč jsou problém příliš velké i příliš malé váhy?
+                back: >
+                        Příliš malé: Šířená chyba je pak moc malá.
+                        Příliš velké: chybová funkce se dostane do saturované zóny, je plochá.
+        -
+                uuid: f3485758-c4a8-4f09-b934-0adceccebb6e
+                front: Chytrá volba vah - jak nanormalizujeme vstupy?
+                back: >
+                        Normalizujeme je do [$][0;1][/$].
+        -
+                uuid: e7ea5e2f-d109-457c-aadd-4a09155b21ac
+                front: Jaká bude střední hodnota potenciálu když nainicializujeme váhy náhodně v [$]\\alpha_m[/$] kolem nuly?
+                back: >
+                        [$$]
+                        E[\\xi_j] = E[\\sum_{i=0}^n w_{ij} x_i]=\\sum_{i=0}^n E[w_{ij}] E[x_i] = 0
+                        [/$$]
+        -
+                uuid: 6bfe2886-12e0-4001-9652-80e9da1b051b
+                front: Chytrá volba vah - odvození rozptylu potenciálu
+                back: >
+                        [$$]
+                        \\sigma_{\\xi_j}^2 = E[ (\\xi_j)^2] - (E[\\xi_j])^2 = E[ (\\sum_{i=0}^n w_{ij} x_i)^2] - 0 =
+                        [/$$]
+                        [$$]
+                        = \\sum_{i,k=0}^{n} E[w_{ij} w_{kj} x_i x_k] = \\sum_{i=0}^n E[(w_{ij})^2] E[(x_i)^2]
+                        [/$$]
+        -
+                uuid: 27dde7d4-ec20-4d03-a645-c191998c0b62
+                front: Chytrá volba vah - jaká je střední hodnota [$] (x_i)^2[/$] když je [$]x[/$] rovnoměrně v [$][0;1][/$]?
+                back: >
+                        [$]1/3[/$]
+        -
+                uuid: 01f20ae2-2fc3-4490-aec4-d1da73e92863
+                front: Chytrá volba vah - jaká je střední hodnota [$] (w_{ij})^2[/$] když je [$]w_{ij}[/$] rovnoměrně v [$][-a;a][/$]?
+                back: >
+                        [$]a^2/3[/$]
+        -
+                uuid: 3e982b3e-298b-4aab-9eb9-a3f564d0cfcd
+                front: Když chci aby měl potenciál směrodatnou odchylku [$]A=\\sigma_{\\xi}[/$], jak mám zvolit interval [$][-a;a][/$] pro vstupní váhy? Jaká je chytrá volba A?
+                back: >
+                        [$]a = 3A/\\sqrt{N}[/$] ([$]A=\\sigma_\\xi = a/3 \\sqrt{N}[/$]). Chytrá volba: A=1 (rychlé učení, velký gradient)
+        -
+                uuid: 544ed41c-952b-40b9-aad3-9118a9ddce3f
+                front: K čemu je moment?
+                back: Snižuje oscilaci, tedy urychluje učení
+        -
+                uuid: 3bd20133-9998-45b8-84e0-7f980f6435b4
+                front: Adaptivní parametr učení -- obecně
+                back: Pro každou váhu samostatný parametr [$]\\alpha_{ij}[/$]
+        -
+                uuid: 486172e7-653f-443b-81bf-3aef15ba9cff
+                front: Silva-Almeida heuristika
+                back: Jestli se nezměnilo znaménko parciální derivace, urychluj ([$]\\cdot \\uparrow[/$]). Když se změnilo, zpomaluj ([$]\\cdot\\downarrow[/$]).
+        -
+                uuid: 7b3c1733-32ae-4cc9-b36b-b0c5ee1c9782
+                front: Delta-bar-delta algoritmus, proč je lepší než Silva-Almeida
+                back: >
+                        Není tak citlivý na exponenciální růst když se moc dlouho zrychluje.
+
+                        [$]\\delta_{i}^{(k)} = (1-\\Phi)\\frac{\\partial E}{\\partial \\xi_{i}} + \\Phi \\delta_i^{(k+1)}[/$],
+                        kde [$]\\Phi[/$] je konstanta.
+
+                        Když [$]\\delta_{i}^{(k-1)} \\cdot \\frac{\\partial E}{\\partial \\xi_{i}} > 0[/$], tak [$]\\alpha_{i} += \\uparrow[/$], jinak [$]/= \\downarrow[/$].
+
+                        Aktualizace vah je bez momentu: [$]w_i -= \\alpha_i^{(k)} \\delta_i^{(k)} y_i^{(k)}[/$].
+        -
+                uuid: 337f8612-aa5f-4688-a6b3-2cf6b499bf65
+                front: Super-SAB algoritmus
+                back: >
+                        Dělej backprop s momentem.
+                        Začni s rychlostí 1.2.
+                        Když se nezměnilo znaménko, vynásob rychlost 1.05.
+                        Když se změnilo, undoni poslední změnu, pak poděl rychlost 2 a pro účely momentu v dalším updatu se tvař že rychlost v téhle souřadnici je 0.
+        -
+                uuid: 69dfb87b-0ab7-4953-a173-722046c8167f
+                front: Taylorova řada pro aproximaci E druhého řádu
+                back: >
+                        [$]E(w+h) \\simeq E(w) + \\nabla E(w)^T \\cdot h + \\frac{1}{2}h^T \\nabla^2 E(w) h[/$]
+
+                        Kde [$]\\nabla^2 E(w)[/$] je [$]n\\times n[/$] Hessovská matice, kde prvek [$]ij[/$] je [$]\\partial^2 E(w) / \\partial w_i \\partial w_j[/$].
+        -
+                uuid: 8606828b-9128-45ff-b000-7e22e0ad5b19
+                front: Aproximace gradientu druhého řádu. O co se s ním snažíme?
+                back: >
+                        [$]\\nabla E(w+h)^T\\simeq\\nabla E(w)^T + h^T \\nabla^2 E(w)[/$]<br>
+
+                        Snažíme se gradient [$]h = -(\\nabla^2 E(w))^{-1} \\nabla E(w)[/$] mít nulový, protože hledáme minimum [$]E[/$].
+        -
+                uuid: ce22d60a-439f-42ab-8126-003b0d1a71ea
+                front: Newtonovské metody pro druhý řád a problémy
+                back: >
+                        Aktualizace vah:
+                        [$$]w_{ij} -= (\\nabla^2 E(w))^{-1} \\nabla E(w)[/$$]
+                        Problém: výpočet inverzní Hessovské matice
+        -
+                uuid: db9136b3-4c7d-439e-9089-a472eddbca40
+                front: Pseudonewtonovské metody, proč se používají, jak zjednodušují newtonovské metody, kdy fungují
+                back: >
+                        Berou v úvahu jenom diagonálu Hessovské matice.
+                        Adaptace: [$$]
+                        w_{ij} -= \\frac{\\nabla_{ij} E(w)}{\\frac{\\partial^2 E(w)}{\\partial w_{ij}^2}}
+                        [/$$]
+                        Fungují dobře když chybová funkce má "kvadratický tvar".
+        -
+                uuid: a70f0d15-a2d4-46da-8214-3f342c831577
+                front: Algoritmus QuickProp. Alternativní způsob psaní aktualizace. Čemu odpovídá jmenovatel?
+                back: >
+                        [$]w_{ij} += \\Delta^{(k)} w_i[/$]<br>
+
+                        [$$]\\Delta^{(k)} w_i = \\Delta^{(k-1)} w_i \\cdot \\frac{\\nabla_i E^{(k)}}{\\nabla_i E^{(k-1)} - \\nabla_i E^{(k)}}[/$$]<br>
+
+                        Jde psát taky:
+                        [$$]
+                        \\Delta^{(k)}w_i = -\\frac{\\nabla_i E^{(k)}}{\\frac{\\nabla_i E^{(k)}-\\nabla_i E^{(k-1)}}{\\Delta^{(k-1)}w_i}}
+                        [/$$]<br>
+
+                        Jmenovatel je diskrétní aproximace parciální derivace [$]\\partial^2 E(w) / \\partial w_i^2[/$]
+        -
+                uuid: f7eda12e-ea8c-4f7b-9241-e381ce03f077
+                front: Levenberg-Marquardtův algoritmus
+                back: >
+                        Je rychlejší a přesnější v oblasti minima erf.
+                        Kombinace gradientní a Newtonovy metody.
+                        [$$]w_{\\min}=w_0-(H+\\lambda I)^{-1} \\cdot g[/$$], kde [$]g[/$] je gradient, [$]H[/$] je Hessovská matice<br>
+
+                        Pro 1 výstup: [$]g_i = \\partial E/\\partial w_i = 2(y-d)\\frac{\\partial y}{\\partial w_i}[/$]<br>
+
+                        [$$]\\partial^2 E/\\partial w_i \\partial w_j = 2[\\frac{\\partial y}{\\partial w_i}\\frac{\\partial y}{\\partial w_j} + (y-d)\\frac{\\partial^2 y}{\\partial w_i \\partial w_j}][/$$]<br>
+                        Druhý člen -- ten s [$] (y-d)[/$] -- se zanedbá.<br>
+        -
+                uuid: 4e8953f3-7b3e-4d23-8c89-b618df5773a6
+                front: Relaxační metody - perturbace vah
+                back: >
+                        Vždy pro náhodně zvolenou váhu si spočítám chybovou funkci když ji o trochu posunu, podle toho spočítám diskrétní aproximaci gradientu a aktualizuju.
+        -
+                uuid: ee40f752-837d-4d47-9787-f7bdbc09711b
+                front: Alternativní perturbační metoda s rychlejší konvergencí
+                back: >
+                        Zperturbuju výstup neuronu [$]i[/$] ([$]o_i[/$]) o [$]\\Delta o_i[/$].
+                        Spočítám rozdíl chyb. Jestli se chyba zlepší, tak si spočítám, jak má vypadat potenciál neuronu, aby měl tenhle výstup. Adaptuju váhy proporcionálně k jejich velikosti ([$]w_i'/\\xi' = w_i/\\xi[/$].

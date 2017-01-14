@@ -1,0 +1,289 @@
+deck: All::Magisterské státnice::Řešení úloh a plánování::AI1::Přednáška 4 (informované prohledávání)
+notes:
+        # AI lecture04eng
+        -
+                uuid: a3c06aab-9f5b-4e12-ae4b-70c719757186
+                front: Algoritmy informovaného prohledávání
+                back: B(est)FS, A*, IDA*, RBFS, SMA*
+                markdown: false
+        -
+                uuid: 7b16ee4b-f787-4dac-b73b-cc27f933e29f
+                front: Jak budovat heuristiky pro informované prohledávání?
+                back: Relaxace problému, pattern databases
+        -
+                uuid: e119c8fb-e53c-4804-bcb5-38792d3607f4
+                front: Funkce heuristické funkce
+                back: >
+                        Odhaduje délku nejkratší/nejlevnější cesty do cílového stavu.
+                        Když [$]h(n)=0[/$], tak je to cíl.
+        -
+                uuid: 48d49a75-1ab7-4a3f-9bfd-c62372add5da
+                front: (Greedy) best-first search, optimalita?
+                back: >
+                        Jako první expanduj node, který má nejmenší vzdálenost do cíle.<br>
+
+                        Nemusí najít optimální cestu.
+        -
+                uuid: 1ce201f6-2289-41a2-8808-c7d39101043c
+                front: Zkonstruuj příklad, kdy greedy best-first-search nenajde optimální cestu.
+                markdown: false
+                back: >
+                        <pre>
+                             ___(100)___O____(10)___GOAL
+                            /
+                           O
+                            \___(20)____O____(20)___GOAL
+                        </pre>
+        -
+                uuid: 75011b95-88e2-4166-a504-ac5cf5cc9fa2
+                front: Časová a paměťová složitost greedy best-first-search
+                back: >
+                        [$$]\\O(b^m), \\O(b^m)[/$$]
+        -
+                uuid: 1cf39109-4c9c-49bc-9ba2-4d64cdbbeba6
+                front: Kompletnost greedy best-first-search
+                back: >
+                        Může se zacyklit. Musíme dělat prevenci cyklů.
+        -
+                uuid: 47a37ccc-2a54-4345-b09a-ef2057be9040
+                markdown: false
+                topic: A*
+                front: Podle čeho prioritizuje A*?
+                back: >
+                        Podle [$]f(n)=g(n)+h(n)[/$], kde [$]g(n)[/$] je délka cesty do [$]n[/$] z kořene
+        -
+                uuid: c4f970b6-0348-48a8-8fc3-961866eb81c6
+                topic: A*
+                front: Jaká heuristika je admisibilní? Co to znamená pro [$]f(n)[/$]?
+                back: >
+                        [$$]h(n)\\leq\\text{cena nejlevnější cesty z}\\ n\\ \\text{do cíle}[/$$]
+                        Tedy optimistický pohled, [$]f(n)[/$] je pak dolní odhad na délku cesty do cíle skrz [$]n[/$].
+        -
+                uuid: fe78b7a8-0b18-43ad-a775-3957c9e60bca
+                topic: A*
+                front: Jaká heuristika je monotónní/konzistentní?
+                back: >
+                        Ať je [$]n'[/$] následník [$]n[/$] skrz akci [$]a[/$].
+                        Pak:
+                        [$$]
+                        h(n)\\leq c(n,a,n') + h(n')
+                        [/$$]
+                        Je to forma trojúhelníkové nerovnosti.
+        -
+                uuid: 169cbbbe-f02f-4105-b9db-cd4a6301f30b
+                topic: A*
+                front: Vztah přípustných(admisibilních) a monotónních heuristik
+                back: >
+                        Monotónní heuristiky jsou admisibilní.<br>
+
+                        Ať je [$]n_1,n_2,\\ldots n_k[/$] optimální cesta z
+                        [$]n_1[/$] do cíle [$]n_k[/$].<br>
+                        Pak z monotonie: [$]h(n_i)-h(n_{i+1})\\leq c(n_i,a_i,n_{i+1})[/$].<br>
+                        Před teleskop: [$]h(n_1)\\leq\\sum_{i=1}^{k-1} c(n_i,a_i,n_{i+1})[/$]
+        -
+                uuid: 4415b7e7-88da-4811-b3d3-7d76a308e43f
+                topic: A*
+                front: Monotónní heuristiky a hodnoty [$]f(n)[/$]. Důkaz?
+                back: >
+                        Pro monotónní heuristiku hodnoty [$]f(n)[/$] na žádné cestě neklesají.<br>
+
+                        Ať je [$]n'[/$] successor [$]n[/$], tedy [$]g(n')=g(n)+c(n,a,n')[/$].<br>
+
+                        Pak: [$]f(n')=g(n')+h(n')=g(n)+c(n,a,n')+h(n')\\geq g(n)+h(n)=f(n)[/$]
+        -
+                uuid: 7bf554b8-2b8d-4310-8302-a8d634a8c265
+                topic: A*
+                front: Jaké dva grafové meta-algoritmy se liší a jak? Co heuristiky?
+                back: >
+                        Tree-Search: stačí mít admisibilní heuristiku aby byl A-star optimální.<br>
+                        Graph-Search: musí být monotónní.<br>
+
+                        V Graph-Search jde jednoho vrcholu dosáhnout více cestami, kde druhá může zkrátit první.
+        -
+                uuid: 44799b49-ffd1-4c2c-90ef-942bb2b43b82
+                topic: A*
+                front: Kdy je A-star optimální v Tree-Search? Důkaz.
+                back: >
+                        Když je [$]h(n)[/$] admisibilní heuristika.<br>
+
+                        Ať je [$]G_2[/$] cíl, který je na fringe a [$]C^{ * }[/$] je optimální cost.<br>
+                        Pak: [$]f(G_2)=\\underbrace{g(G_2)+h(G_2)=g(G_2)}_{h(G_2)=0}>C{ * }[/$]<br>
+
+                        Ať [$]n[/$] je node na fringe co leží na optimální cestě.
+                        Pak: [$]f(n)=g(n)+h(n)\\leq C^{ * }[/$], protože [$]h[/$] je admisibilní.<br>
+
+                        Dohromady: [$]f(n)\\leq C^{ * }>f(G_2)[/$]. Proto algoritmus nejdřív rozbalí [$]n[/$].
+        -
+                uuid: 3f87c2c1-0080-4ac1-9588-bf2b840124e4
+                topic: A*
+                front: Kdy je A-star optimální v Graph-Search? Důkaz. Jak se to dá řešit jinak?
+                back: >
+                        Když je heuristika monotónní.<br>
+
+                        Můžu taky (zřejmě) vybrat z obou cest co vedou do uzavírané cesty tu lepší, ale to chce extra bookkeeping.<br>
+
+                        Protože hodnoty [$]f(n)[/$] na žádné cestě neklesají
+                        a expanduju vrchol co má [$]f(n)[/$] nejmenší,
+                        tak mezi "otevřenými" cestami do [$]n[/$] nemůže existovat
+                        žádná kratší než ta, co už znám.
+                        Proto první uzavřený goal node je optimální.
+        -
+                uuid: d916f074-cb0c-4bc5-b805-13959d9ae4b5
+                topic: A*
+                front: >
+                        A-star a kontury a cesta do cíle.
+                        Co jsou nody, které algoritmus za svůj běh expanduje?
+                back: >
+                        Pro neklesající [$]f(n)[/$] jdou nakreslit podle hodnot [$]f(n)[/$].
+                        Čím mám přesnější [$]h(n)[/$], tím jsou užší kolem cesty do cíle<br>
+
+                        Nody na kontuře co mají [$]f(n)<C^{ * }[/$] se expandují, některé nody
+                        s [$]f(n)=C^{ * }[/$] se můžou expandovat, [$]f(n)>C^{ * }[/$] se neexpandují.<br>
+
+                        A-star je optimálně efektivní pro libovolnou konzistentní heuristiku.
+        -
+                uuid: c3d6269c-f870-4d63-a63d-0e62d52953eb
+                topic: A*
+                front: Časová složitost a nejvyšší počet expandovaných nodů
+                back: >
+                        Až exponenciální
+        -
+                uuid: aad7eae5-bf63-421b-831c-0ef427453977
+                topic: A*
+                front: Jak můžu zabezpečit aby se neexpandoval exponenciální počet nodů?
+                back: >
+                        Když [$]|h(n)-h^{ * }(n)|\\leq \\O(\\log h^{ * }(n))[/$],
+                        kde [$]h^{ * }[/$] je délka optimální cesty.
+        -
+                uuid: f3d32243-faa9-4ac7-8264-91c8391a6f7b
+                topic: A*
+                front: Paměťová složitost
+                back: >
+                        Držím v paměti všechny expandované nody, je jich až exponenciálně.
+        -
+                uuid: baefb97c-b818-4b65-8c69-6eef61c6293f
+                topic: A*
+                front: Co je bottleneck?
+                back: >
+                        Paměť. Spotřebuje se jí stejně jako času a obvykle dojde první.
+        -
+                uuid: 2989ad27-c59d-4cdb-98a2-7cafed518160
+                front: IDA* -- algoritmus
+                back: >
+                        Iterative deepening A-star.<br>
+
+                        Začnu s malým limitem na [$]f(n)[/$] (konkrétně
+                        [$]f(\\text{kořen})[/$]. Pomocí DFS prohledám všechny
+                        vrcholy, co mají nejvýše takové [$]f(n)[/$].<br>
+
+                        Když nenaleznu řešení, tak zvýším limit na
+                        nejmenší [$]f(n)[/$], které bylo nad limitem, a opakuju.
+        -
+                uuid: 5bac3bf9-057e-412e-82c4-289a1f4c484f
+                topic: IDA*
+                front: Výhoda oproti A-star
+                back: >
+                        Má menší spotřebu paměti, protože je depth-first.
+        -
+                uuid: 7276de86-7996-4f66-b737-23afb9bd6259
+                front: Recursive best-first search -- algoritmus
+                back: >
+                        V každém volání si pamatuju odhady na délky optimálních
+                        cest skrz successory.<br>
+
+                        Odhady začnu jako [$]f(n')[/$].<br>
+
+                        Rekurzivně se zavolám v successorovi, co má nejmenší
+                        odhad.<br>
+
+                        Jakmile zjistím, že exploruju, ale někde v mém předkovi
+                        je slibnější podstrom, abortuju a jdu nahoru.
+                        Po cestě nahoru probublám přesnější (vyšší)
+                        odhad na délku cesty skrz současný podstrom.
+        -
+                uuid: 0776ba77-2a66-4efb-8524-d3de22131639
+                front: Kdy je IDA-star optimální?
+                back: >
+                        Když používá admisibilní heuristiku.
+        -
+                uuid: b69ec95e-fb52-4868-8c51-1437d5509218
+                front: Recursive best-first search -- spotřeba paměti
+                back: >
+                        [$$]\\O(bd)[/$$]
+        -
+                uuid: b2f46ed6-cbb5-428c-a811-44b90e9d1d36
+                front: Recursive best-first search -- spotřeba času
+                back: >
+                        Exponenciální (excesivní regenerace)
+        -
+                uuid: 21870f9e-b509-4de0-9894-065b9829acb3
+                front: SMA* -- algoritmus
+                back: >
+                        Simplified memory-bounded A-star.<br>
+
+                        Pro každý vrchol si pamatuju náš současný nejpřesnější odhad na délku
+                        cesty skrz něj, jako v IDA-star.<br>
+
+                        Jako v A-staru expanduju node s nejmenším odhadem na délku
+                        cesty do cíle skrz něj.<br>
+
+                        Když mi dojde paměť, smažu nejhorší list; jestli jich je několik,
+                        smaž z nich ten nejmíň hluboký. Jeho informace pošli nahoru.
+        -
+                uuid: b094b561-0314-4e8b-a841-b67e6bffb178
+                front: SMA* -- optimalita
+                back: >
+                        Když je dost paměti na zapamatování si nejlepší cesty (a heuristika je admisibilní), SMA-star najde v tree-search nejlepší cestu.<br>
+                        Jestli není dost paměti, najde tu nejlepší co se do paměti vejde.
+        -
+                uuid: e65df462-b1d2-4ef4-b451-8aa670451f94
+                front: Příklady heuristik získaných relaxací 8-puzzle
+                back: >
+                        Počet špatně umístěných tilů.<br>
+
+                        Součet vzdáleností tilů od jejich cílů (Manhattan heuristika).
+        -
+                uuid: ab93dba1-29b3-44a0-82b3-d9d888223810
+                front: Jak se poměřují dobrosti A-star heuristik číselně?
+                back: >
+                        Ať heuristika rozbalí [$]N[/$] nodů.
+                        Porovnáváme [$]b^{ * }[/$], branching faktor
+                        plného stromu co má [$]N+1[/$] nodů ([$]N+1=1+b^{ * }+\\ldots+(b^{ * })^d[/$]).
+        -
+                uuid: b7042e65-c900-4aa5-9d5f-f16326927b72
+                front: Definice - dominující heuristika
+                back: >
+                        Heuristika [$]h_2[/$] dominuje heuristiku [$]h_1[/$],
+                        když [$] (\a n) h_2(n)\\geq h_1(n)[/$].
+        -
+                uuid: 2efbf879-7dbb-4cb1-a6d1-643ee9b82937
+                front: Jak se liší A-star na dvojici heuristik, kde jedna dominuje druhou?
+                back: >
+                        A-star na dominující heuristice expanduje nejvýše tolik nodů jako na dominované.
+                        Expanduje totiž nody, kde [$]f(n)<C^{ * }[/$], neboli [$]h(n)<C^{ * }-g(n)[/$].
+                        Když tedy expanduje node pomocí dominující heuristiky, expanduje ho i při dominované heuristice.
+        -
+                uuid: 32c66cbc-4dec-40b6-9b0c-da669133e8c9
+                front: Kdy je lepší dávat dominující heuristiku?
+                back: >
+                        Vždy, když zůstane admisibilní a když netrvá moc dlouho ji počítat.
+        -
+                uuid: 540f40fe-43b4-4f0c-8020-efd283bd5117
+                front: Jak můžu zkombinovat různé heuristiky co se navzájem nedominují?
+                back: >
+                        Můžu z nich vzít maximum, které je všechny dominuje.
+        -
+                uuid: 0ad36a46-3dd1-4d40-93bb-bd4a24b0e34d
+                front: Jak můžu stavět heuristiky kromě relaxace? Jak se to implementuje? Na co dát bacha?
+                back: >
+                        Pattern database.<br>
+
+                        Například pro 8-puzzle: podívám se jenom kde je 1,2,3,4,
+                        všechny ostatní přeznačím jako "?". Vyřeším problém
+                        dostat na svoje místo 1,2,3,4.<br>
+
+                        Heuristika: maximový čas na vyřešení všech patternů
+                        co matchují současný stav.<br>
+
+                        Bacha: součet cen patternů nemusí být admisibilní (řešení jednoho
+                        patternu může pomoct k řešení druhého).

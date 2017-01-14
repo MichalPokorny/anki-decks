@@ -1,0 +1,114 @@
+deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška 2
+notes:
+        # planovani a rozvrhovani lecture04
+        -
+                uuid: 7a888339-4772-4f9f-8309-e7bb2b722d96
+                front: Princip plánování v prostoru plánů
+                back: >
+                        Začnu v prázdném plánu, co má jenom poč. stav a cíle.
+                        Přidáváme akce, co plní otevřené cíle.
+                        Přidáváme vazby mezi akcemi.
+                        Plánování je opravování kazů, dokud nedostaneme úplný
+                        plán.
+        -
+                uuid: 5a6559f3-1763-4fca-9e8a-50793776ed06
+                topic: Plánování v prostoru plánů
+                front: Kódování startu a cíle
+                back: >
+                        Start: akce co nemá předpoklady a je na začátku,
+                        cíl: akce co má prázdný efekt a je poslední
+        -
+                uuid: 358e3a64-2588-4ba7-a0bb-1933604dec7e
+                topic: Plánování v prostoru plánů
+                front: Jak vypadají kauzální vazby?
+                back: >
+                        [$]a_i \\rightarrow^p a_j[/$]:
+                        [$]a_i < a_j[/$] v částečném uspořádání, [$]p[/$] je
+                        efekt [$]a_i[/$] a předpoklad [$]a_j[/$], v [$]B[/$]
+                        jsou vazby mezi proměnnými v [$]p[/$]
+        -
+                uuid: 717a8985-f6f6-4490-ae19-db6ef0fc506b
+                topic: Plánování v prostoru plánů
+                front: Uzel prostoru plánů
+                back: >
+                        Částečný plán: [$]\\Pi=(A,<,B,L)[/$]
+                        <br>
+                        kde [$]A[/$] jsou částečně instanciované
+                        plánovací operátory,
+                        <br>
+                        [$]<[/$] je část. usp. na [$]A[/$],
+                        <br>
+                        [$]B[/$] jsou vazby typu [$]x=y[/$], [$]x\\neq y[/$]
+                        nebo [$]x\\in D_i[/$],
+                        <br>
+                        [$]L[/$] jsou kauzální vztahy typu [$]a_i \\rightarrow^p a_j[/$]:
+                        [$]a_i < a_j[/$] v částečném uspořádání, [$]p[/$] je efekt
+                        [$]a_i[/$] a předpoklad [$]a_j[/$], v [$]B[/$] jsou
+                        vazby mezi proměnnými v [$]p[/$]
+        -
+                uuid: dedc413d-63ec-41b1-a1ca-739e3245de10
+                topic: Plánování v prostoru plánů
+                front: Otevřený cíl a jak se dá řešit
+                back: >
+                        Je to předpoklad [$]p[/$] operátoru [$]b[/$],
+                        na který ještě neexistuje kauzální vazba.<br>
+                        Odstranění:
+                        <ol>
+                        <li>Najdi operátor (buď přítomný v plánu nebo nový),
+                                co se dá použít na splnění [$]p[/$]
+                                (tj. [$]p[/$] je efekt a může být před [$]b[/$]).
+                        <li>Svaž proměnné
+                        <li>Vytvoř kauzální vazbu
+                        </ol>
+        -
+                uuid: bd7b1a12-8410-49f3-9f1b-b9c21917059b
+                topic: Plánování v prostoru plánů
+                front: Hrozba - co to je, jak ji vyřešit
+                back: >
+                        Hrozba je akce, co může porušit kauzální vazbu:
+                        [$]a_i\\rightarrow^p a_j[/$] je vazba
+                        a akce [$]b[/$] je unifikovatelná s negací [$]p[/$]
+                        a může být v [$]<[/$] mezi [$]a_i[/$] a [$]a_j[/$].
+                        <br>
+                        Tři možné způsoby:
+                        <ul>
+                        <li>[$]b<a_i[/$]
+                        <li>[$]b>a_j[/$]
+                        <li>Navázání proměnných v [$]b[/$], aby nerušily platnost [$]p[/$]
+                        </ul>
+        -
+                uuid: cbd24fa0-e675-4896-aeba-602d3c411f84
+                topic: Plánování v prostoru plánů
+                front: Kdy je částečný plán řešící plán?
+                back: >
+                        Když má globálně konzistentní vazby [$]a=b/a\\neq b/a\\in D_i[/$],
+                        konzistentní uspořádání [$]<[/$].
+                        <br>
+                        To je ekvivalentní tomu, když nemá kazy (tj. otevř. cíle a hrozby)
+                        a vazby [$]B[/$] a [$]<[/$] jsou glob. konzistentní.
+                        Důkaz indukcí.
+        -
+                uuid: 0e25a3ad-82ec-4fbe-ba5e-b497e02ad876
+                topic: Plánování v prostoru plánů
+                front: Detaily algoritmu PSP -- časy na hledání hrozeb, konzistence, agenda
+                back: >
+                        Agenda předpokladů akcí: když přidám kauzální vazbu pro něco, odeberu to z agendy.
+                        <br>
+                        Hrozby: nalezení po trojicích akcí ([$]\\O(n^3)[/$]),
+                        lépe: po přidání akce zjisti komu hrozí ([$]\\O(n^2)[/$]),
+                        po přidání kauzální vazby ověř její hrozby ([$]\\O(n)[/$]).
+                        <br>
+                        Pro odstrańování kazů používej jenom konzistentní zjemnění plánu.
+                        Udržuj tranzitivní uzávěr [$]<[/$] nebo detekuj cykly.
+                        <br>
+                        Konzistence vztahů [$]B[/$]: když nemám negaci, stačí AC.
+                        Když mám negaci, je to NP-úplné :/
+        -
+                uuid: 3f1ea7e9-42b0-403f-8fd0-5d7e20c18ac8
+                topic: Plánování v prostoru plánů
+                front: Korektnost, úplnost, konečnost
+                back: >
+                        Korektnost: pokud skončí, tak vydá dobrý plán.<br>
+                        Pokud existuje plán, vrátí ho.<br>
+                        Pozor: prostor plánů není konečný! Je potřeba např.
+                        iterative deepening.

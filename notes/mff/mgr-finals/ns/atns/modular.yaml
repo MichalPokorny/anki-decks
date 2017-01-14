@@ -1,0 +1,131 @@
+deck: All::Magisterské státnice::Neuronové sítě::Aplikace teorie neuronových sítí::Modulární sítě
+notes:
+        # ATNS modular
+        -
+                uuid: c5fa0a87-3c18-47f1-ba41-4bc20bebc629
+                front: Dva druhy robustnosti NS a jak se jich dosahuje
+                back: >
+                        Vzhledem ke ztrátě neuronu: přidám robustnostní člen
+                        do chybové funkce; prořezání a duplikace: zdvojení těch
+                        neuronů, jejichž ztráta způsobí největší odchylku na
+                        výstupu sítě<br>
+
+                        Vzhledem k drobným odchylkám vstupu: zkonstruuj
+                        [$]\\varepsilon[/$]-ekvivalentní síť co je robustnější
+        -
+                uuid: 6302a3ec-2753-4bd5-a9a2-10401f2fc5b9
+                front: >
+                        [$]\\varepsilon[/$]-ekvivalence neuronových sítí
+                back: >
+                        Jsou [$]\\varepsilon[/$]-ekvivalentní, když pro všechny vstupy [$]\\|y_{B_1} - y_{B_2}\\|\\leq\\varepsilon[/$]
+        -
+                uuid: 13d67716-cd49-41a6-8b73-a17101a23771
+                front: Robustnostní chybová funkce -- různé varianty, jejich různé následky
+                back: >
+                        [$]y_{i,-k}[/$]: výstup [$]i[/$] když zruším neuron [$]k[/$]<br>
+
+                        [$]\\varepsilon = E_{d_m} - E_1 =
+                        \\frac{1}{2N_h}\\sum_p \\sum_i \\sum_k (y_{i, -k}-d_i)^2 - \\frac{1}{2}\\sum_p \\sum_i (y_i-d_i)^2[/$]:
+                                chyba když zmizí průměrný skrytý neuron<br>
+
+                        Odchylka výstupu ke ztrátě neuronu: [$]E_{y_m}=\\frac{1}{2N_h}\\sum_p\\sum_i\\sum_k(y_i-y_{i,-k})^2[/$]<br>
+
+                        Nejhorší následky: [$]E_d=\\max_{p,i,k}\\|y_{i,-k}-d_i\\|[/$]
+                        [$]E_y=\\max_{p,i,k}\\|y_{i,-k}-y_i\\|[/$]
+        -
+                uuid: aed8cb4d-e1b2-4fb3-ba9d-e2eded605006
+                front: Trik při minimalizaci robustnostního členu [$]E_{y_m}[/$]
+                back: >
+                        Minimalizuj místo toho
+                        [$]E_{y'_m}=\\frac{1}{N_h}\\sum_p\\sum_i\\sum_k(\\xi_i-\\xi_{i,-k})^2=
+                        \\frac{1}{2N_h}\\sum_p\\sum_i\\sum_j(x_j w_{ij})^2[/$]
+                        ([$]\\xi_i[/$] místo [$]y_i[/$])
+        -
+                uuid: 69dbe90a-05a4-4d94-a7c5-99897c231ad0
+                front: Prořezávání a duplikace
+                back: >
+                        Adaptuj síť přes backprop.
+                        Identifikuj neuron, jehož ztráta by způsobila největší změnu robustnosti.
+                        "Zdvoj" ho.
+                        "Rozpůl" váhy obou "kopií" vedoucí k výstupní vrstvě.
+                        "Kopie" nahradí některý z ostatních skrytých neuronů.<br>
+
+                        Výsledek jsou robustnější sítě, malá výpočetní složitost, lepší generalizace, omezení problémů s lokálními minimy.
+        -
+                uuid: 9cd55fa3-f1ae-4229-8446-246c8b2bd259
+                front: Pointa modularity
+                back: >
+                        Rozdělení úlohy do podúloh.<br>
+
+                        Extrahujeme [$]\\varepsilon[/$]-ekvivalentní moduly BP-sítí.<br>
+                        Eliminujeme přebytečné skryté/výstupní neurony.<br>
+                        Uděláme kompromis mezi přesností extrahovaného modulu a jeho optimální architekturou.
+        -
+                uuid: ad1ba955-bf80-4f15-b4a9-7b2fd5d7d601
+                front: Co je to modul BP-sítě?
+                back: >
+                        Stejný počet vrstev, každá skrytá vrstva je podmnožina skryté vrstvy hlavní sítě.
+        -
+                uuid: f7ccbfeb-28b8-4bc1-af0d-5bec78c716e1
+                front: Věta o extrakci modulů a její důkaz
+                back: >
+                        TODO
+                        Nechť [$]S[/$] je konečná množina vstupních vzorů,
+                        [$]B[/$] BP-síť, [$]H_l[/$] neurony poslední skryté vrstvy.
+
+                        Potom pro libovolné [$]\\varepsilon>1[/$] existuje
+                        konstanta [$]K_\\varepsilon>0[/$], že:
+
+                        Pokud existuje v [$]\\ell[/$]-té skryté vrstvě neuron
+                        [$]k[/$] takový, že [$] (\\a x\\in S)(\\a i \\in O) |w_ki z_k| \\leq K_\\varepsilon[/$],
+
+                        <br>
+                        potom je [$]M^k[/$], ve které odeberu neuron [$]k[/$],
+                        [$]\\varepsilon[/$]-ekvivalentní modul [$]B[/$] ([$]M_k\\sim_\\varepsilon^S B[/$]).
+        -
+                uuid: e650e8f0-1358-455a-9c08-1483092e9174
+                front: Co chceme od NS s modulární architekturou?
+                back: >
+                        Rychlost a konvergenci učení.<br>
+                        Optimalizaci architektury.<br>
+                        Robustnost a generalizaci.<br>
+                        "Useful diversity" jednotlivých modulů.
+        -
+                uuid: b2c2aa65-8c5d-46a5-952a-780776e99436
+                topic: Adaptivní směsi lokálních neuronových sítí
+                front: Architektura
+                back: >
+                        Soustava lokálních sítí s řídící sítí.<br>
+                        Lokální jsou BP. Všechny mají stejnou topologii.<br>
+                        Řídící síť má výstupy [$]P_j[/$], stejné vstupy jako lokální sítě.<br>
+                        Výstup je [$]\\sum_j P_j y^{(j)}[/$].
+        -
+                uuid: 4166fe03-4498-4ba3-98d7-323484d30059
+                topic: Adaptivní směsi lokálních neuronových sítí
+                front: Co by mělo platit pro koeficienty [$]p_i[/$]?
+                back: >
+                        [$$]p_i=\\frac{y_i^{(g)}}{\\sum_{j=1}^t y_j^{(g)}}, i=1\\ldots t, p_i\\in(0;1), \\sum_i^t p_i = 1[/$$]
+        -
+                uuid: 2ba0a009-b724-44ee-ad28-ae103ea96678
+                topic: Adaptivní směsi lokálních neuronových sítí
+                front: Chybová funkce
+                back: >
+                        Pro jeden vzor [$]p[/$]:
+                        [$$]E_p=\\frac{1}{2}\\sum_{i=1}^t (p_i\\|y^{(i)}-d\\|)^2[/$$]<br>
+
+                        Plná chybová funkce je suma přes všechny vzory.<br>
+
+                        Kde: [$]p_i[/$] je gating koeficient pro danou síť,
+                        [$]y^{(i)}[/$] je výstup jedné sítě, [$]t[/$] je počet
+                        síťových modulů.<br>
+
+                        Vyjádří se jako:
+                        [$$]E_p = \\frac{1}{2}\\sum_{i=1}^t (\\sum_k (g_{k}^{(i)})^2)[/$$]
+                        Kde [$]g_k^{(i)}=p_i\\|y_k^{(i)}-d_k\\|[/$] pro výstupní neuron, jinak [$]0[/$]
+        -
+                uuid: 770144db-51f5-4b29-a6ce-7b90ddd960b9
+                front: Síť na inverzní kinematiku robota
+                back: >
+                        Kontextová síť: na základě kontextového vstupu určuje váhy pro funkční síť.<br>
+                        Převedení: zobrazení [$]n\\rightarrow n^2[/$] na [$]n^2[/$] funkcí [$]n\\rightarrow 1[/$]
+

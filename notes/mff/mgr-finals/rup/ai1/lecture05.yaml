@@ -1,0 +1,109 @@
+deck: All::Magisterské státnice::Řešení úloh a plánování::AI1::Přednáška 5 (lokální prohledávání)
+notes:
+        # ai1 lecture05eng
+        -
+                uuid: 8350e13e-3fc2-4d61-af47-3c5970ec635c
+                front: Algoritmy pro lokální vyhledávání
+                back: >
+                        Hill climbing, simulated annealing, local beam search, generické algoritmy
+        -
+                uuid: 744461b9-f721-4f1b-9578-cbd991934665
+                front: Problémy hill climbingu
+                back: >
+                        Lokální optimum: všichni sousedi jsou horší, nejde utéct.<br>
+
+                        Ridge -- sekvence lokálních optim<br>
+
+                        Plató -- může se zacyklit
+        -
+                uuid: cf2b97e4-16a5-44db-aabc-f8629b04b4ba
+                front: Varianty hill-climbingu
+                back: >
+                        Stochastický: vyber si náhodně mezi zlepšujícími kroky;
+                        pravděpodobnost může záležet na velikosti zlepšení.
+                        <br>
+                        First-choice: jdi do prvního lepšího successora
+                        co najdeš.
+                        <br>
+                        Random-restart: dělej náhodné hill-climbingy z náhodných stavů.
+                        Když má hill climbing šanci [$]p[/$] na úspěch,
+                        očekávaný počet restartů je [$]1/p[/$].
+                        <br>
+                        (Velmi dobré na N-queens.)
+        -
+                uuid: 9569e3b1-061e-42b1-8669-0f2cf4752bf1
+                front: Simulované žíhání (AI1)
+                back: >
+                        Snižuje teplotu.
+
+                        Stav se přijme, když je to zlepšení. Když to není
+                        zlepšení, tak když mu to dovolí cooling schema ([$]p\\sim \\exp(\\Delta E/T)[/$]).
+        -
+                uuid: 5ff7f53f-a6d2-4e13-82a8-31d3ca4c2412
+                front: Local beam search; algoritmus, jak se dá zvětšit diverzita?
+                back: >
+                        Držím si [$]k[/$] stavů místo jednoho.
+                        V jednom kroku vygeneruju všechny jejich successory
+                        a vyberu z nich do dalšího kroku [$]k[/$] nejlepších.<br>
+
+                        Diverzita se dá zlepšit stochastikou - vyber s pravděpodobností
+                        úměrnou tomu, jak jsou dobré.
+        -
+                uuid: f505034a-5d26-4974-b7be-827333cd326d
+                front: Online vs. offline search
+                back: V online vyhledání prolínám pohyb a vyhledávání -- prostředí je dynamické. Hodí se taky pro nedeterministické, neznámé prostředí.
+        -
+                uuid: 85031dd6-cfcd-4704-b6b3-8bd414ae7494
+                front: Co umí agenti v on-line search?
+                back: >
+                        V cíli znají dovolené akce, znají cost akcí když znají cíl
+                        ze kterého se jde, umí identifikovat cílový stav.<br>
+                        Umí si budovat mapu (poznat kde byl).
+                        Akce jsou deterministické.
+                        Agent má admisibilní heuristiku.
+        -
+                uuid: 1b52e972-a1cf-4c26-95ea-c98c40760087
+                front: Jak se porovnávají online vyhledávací algoritmy? Jak nejhůř to může dopadnout?
+                back: >
+                        Podle poměru kvality proti offline vyhledávání.<br>
+
+                        Adversary argument: prostředí může být smrtelné.
+                        Předpokládáme, že ze všech stavů se dá dosáhnout cíle.<br>
+
+                        Protože můžu arbitrárně prodloužit libovolnou cestu (adversary argument),
+                        porovnáváme úspěšnost online search vzhledem k velikosti celého stavového prostoru -- ne vzhledem k hloubce nejnižšího cíle.
+        -
+                uuid: f2f0aca9-d7da-4063-975d-95ba7925b73e
+                front: Online DFS
+                back: >
+                        Pro každý stav si pamatuj ještě nevyzkoušené akce<br>
+
+                        Pamatuj si pro každý stav, jaké backtracky jsme v něm ještě nezkusili.
+                        (NOTE: v jedné cestě do něj můžeme vstoupit různými způsoby.)<br>
+
+                        Funguje jenom když jsou všechny akce reverzivilní.
+                        Kompetitivní poměr může být libovolně špatný.
+                        Přinejhorším projde každou hranu dvakrát.
+        -
+                uuid: 9ac90ede-b46a-40ac-83d3-9f276c799e49
+                front: Lokální online vyhledávání - triviální řešení, jaké má vlastnosti
+                back: >
+                        Kombinace HC a náhodné procházky. Nakonec najde cíl nebo
+                        dokončí exploraci (v konečném stavovém prostoru), ale
+                        může to být hodně dlouhé (např., exponenciální -- žebřík).
+        -
+                uuid: 5f8be220-b3d0-4070-a47c-a3da07f0829f
+                front: Jak můžu při online vyhledávání použít paměť?
+                back: >
+                        Můžu si pro stavy pamatovat nejlepší odhady na délku
+                        cesty z nich do cíle. Začnu s heuristikou, ale můžu
+                        to zpřesňovat při návratech.
+        -
+                uuid: 64893b54-cf13-4f19-8ff3-97f4c15ae5b0
+                front: LRTA* algoritmus
+                back: >
+                        Dělá lokální kroky a učí se důsledy akcí a lepší odhad délky do cíle (H).<br>
+
+                        Mezi akcemi vyber tu, co minimalizuje LRTA-cost, která je založená
+                        i na podpoře explorace. (Když nevíme, co akce dělá, předpokládáme,
+                        že vede hned do cíle -- [$]h(s)[/$].)

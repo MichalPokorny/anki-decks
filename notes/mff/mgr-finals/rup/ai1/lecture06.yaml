@@ -1,0 +1,104 @@
+deck: All::Magisterské státnice::Řešení úloh a plánování::DPV::Přednáška 1 (řešení SAT)
+notes:
+        # AI1 lecture06eng (CSP)
+        -
+                uuid: 088f9f53-2262-4422-9b13-b5cfe69f4538
+                topic: CSP
+                front: >
+                        Základní termíny
+                back: >
+                        Domény, proměnné, podmínky (různé arity), (filtrování).
+        -
+                uuid: 1136669b-f0ad-4b35-80ec-ff85de0e11f1
+                topic: CSP
+                front: >
+                        Podle jakých heuristik budeme vybírat proměnnou k dosazení?
+                back: >
+                        Tu, jejíž dosazení do nejdříve selže (fail-first).
+                        Tedy:<br>
+
+                        dom heuristika: proměnná s nejmenší doménou<br>
+
+                        deg heuristika: proměnná co má nejvíc podmínek<br>
+
+                        dom+deg heuristika: mezi proměnnými s nejmenší doménou
+                        vyber tu co má nejvíc podmínek
+        -
+                uuid: 97caa973-7b9c-4385-9a39-c21d00f284a7
+                topic: CSP
+                front: >
+                        Podle jakých heuristik budeme vybírat pořadí hodnot k dosazení?
+                back: >
+                        Succeed-first: Tedy:<br>
+
+                        Taková proměnná co nejméně omezí ostatní proměnné.<br>
+
+                        Zkus problém zrelaxovat, najít řešení relaxovaného problému
+                        a z něj vzít hodnotu.<br>
+
+                        Problem-dependent heuristics.
+        -
+                uuid: 335f20af-07e8-405a-8331-f23057d628df
+                topic: CSP
+                front: Forward checking
+                back: >
+                        Po přiřazení zkontroluj constrainy mezi právě přiřazenou
+                        proměnnou a budoucími proměnnými.
+        -
+                uuid: 0ab920fd-72d2-44e7-8c34-e1fc95d662eb
+                topic: CSP
+                front: Arc consistency
+                back: >
+                        Každá hrana má podporu, tedy každá hodnota v každé doméně
+                        má podporu na druhé straně podmínek.
+                        Při každé změně uděláme další filtrování.
+        -
+                uuid: 9dd1edf2-6c4f-41f7-a611-a4a54845be01
+                topic: CSP
+                front: AC-3 algoritmus a časová složitost
+                back: >
+                        Měj queue všech hran.
+                        Vyber hranu z queue.<br>
+
+                        Pro hranu zkontroluj, že každé dosazení doleva má podporu vpravo.
+                        (Kontrola trvá [$]d^2[/$].)<br>
+
+                        Pokud jsem něco odebral, přidám všechny hrany
+                        ze změněné domény do queue.<br>
+
+                        Tedy celkem složitost: [$]\\O(ed^3)[/$], kde [$]e[/$] je
+                        počet podmínek.
+        -
+                uuid: e8cbd3a0-6013-4c57-9279-d6ae60d6f8c7
+                topic: CSP
+                front: >
+                        [$]k[/$]-konzistence - definice
+                back: >
+                        Když pro každé konzistentní přiřazení [$] (k-1)[/$]
+                        proměnných ho umíme rozšířit o další proměnnou
+        -
+                uuid: ee762038-22a3-4ef8-b129-786aa4bbc750
+                topic: CSP
+                front: >
+                        [$]k[/$]-konzistence a řešení bez backtracků
+                back: >
+                        Jestli je problém [$]k[/$]-konzistentní pro [$]k\\in\\{1,\\ldots n\\}[/$],
+                        jde vyřešit bez backtracků.
+        -
+                uuid: caa2d40c-363e-4b69-8ecd-5cf307824bdf
+                topic: CSP
+                front: Časová složitost [$]k[/$]-konzistence
+                back: >
+                        Exponenciální v [$]k[/$]
+        -
+                uuid: 6f35387f-61d2-4b92-afbc-65eb98efc6f4
+                topic: CSP
+                front: Globální podmínky a příklad
+                back: >
+                        Obalují podproblém - například <code>all_different</code>
+                        obaluje párování v bipartitním grafu
+        -
+                uuid: 41c999c5-02dd-4903-9fae-97bbdbd1ee53
+                topic: CSP
+                front: Jak se v CSP řeší optimalizace?
+                back: Branch and bound

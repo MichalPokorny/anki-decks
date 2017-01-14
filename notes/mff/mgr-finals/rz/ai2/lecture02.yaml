@@ -1,0 +1,178 @@
+deck: All::Magisterské státnice::Reprezentace znalostí::AI2::Přednáška 2
+notes:
+        # ai1 lecture02eng
+        -
+                uuid: 458503cb-d268-44b8-99ce-1b26c29b5bb5
+                front: Struktura Bayesovské sítě
+                back: >
+                        Acyklický graf, hrana když existuje závislost, ve vrcholech
+                        jsou podmíněné pravděpodobnostní distribuce.
+        -
+                uuid: 8a052ca5-55e4-40f6-b727-ccff6d31d155
+                front: Vzorec pro jak z podmíněných distribucí v Bayesovské síti dostat pravděpodobnost jednoho světa
+                back: >
+                        [$$]P(x_1,\\ldots x_n) = \\prod_i P(x_i | \\text{parents}(X_i))[/$$]
+        -
+                uuid: e3f59843-753e-4dbd-bb66-8d1e4da31d8a
+                front: Podmíněné nezávislosti proměnných v Bayesovské síti?
+                back: >
+                        Proměnná je podmíněně nezávislá na proměnných, které
+                        nejsou její potomci, pokud známe její rodiče.
+                        <br>
+                        Proměnná je podmíněně nezávislá na všech ostatních
+                        proměnných, pokud známe rodiče, potomky a rodiče potomků
+                        (*Markov blanket*).
+        -
+                uuid: 6a0c788e-a08d-4c05-b66f-c458a4a4ef27
+                front: Základní algoritmus pro výpočet v Bayesovské síti
+                back: >
+                        Enumeration-Ask: dostane proměnnou a zafixovaná pozorování,
+                        vrátí její distribuci.
+                        Postupně vyzkouší všechny hodnoty a zavolá na nich Enumerate-All,
+                        pak výsledky znormalizuje a vrátí distribuci.<br>
+                        <br>
+                        Enumerate-All: dostane proměnné (iniciálně všechny
+                        v Bayesovské síti) a zafixovaná pozorování.
+                        <br>
+                        Když proměnné jsou prázdné, vrať 1.
+                        <br>
+                        Když první proměnná má dosazenou hodnotu,
+                        vrať [$]P(Y=y|\\mathrm{Pa}(Y)) \\times \\mathrm{EnumAll}(\\mathrm{Rest}(vars),e)[/$].
+                        <br>
+                        Jinak vrať [$]\\sum_y P(Y=y|\\mathrm{Pa}(Y)) \\times \\mathrm{EnumAll}(\\mathrm{Rest}(vars),e+[Y=y])[/$].
+        -
+                uuid: a893942d-0f71-4e5f-b89a-1d569dd69cfd
+                topic: Bayesovské sítě
+                front: Faktor, operace na faktorech
+                back: >
+                        Faktor: tabulka s proměnnými, hodnotami a pravděpodobnostmi.
+                        Taky se jim říká "potenciály".
+                        <br>
+                        Násobení faktorů: spojím, pointwise.
+                        <br>
+                        Sum out (marginalizace): [$]\\sum_a f(A,B,C)=f(B,C)[/$]
+        -
+                uuid: d216a6ba-dff4-4174-88e6-72c1bd245542
+                topic: Bayesovské sítě
+                front: Inferenční algoritmus Eliminace proměnných, jeho složitost. Jak vypadá sum-out?
+                back: >
+                        Vstup: query proměnná, evidence, belief net.<br>
+
+                        Faktory: [], proměnné: síť topologicky od příčin k důsledkům<br>
+
+                        Pro každou proměnnou:
+                        přidej na začátek faktorů [$]Make-Factor(var,e)[/$].
+                        <br>
+                        Jestli je proměnná skrytá, tak ji z faktorů vysčítej (vymarginalizuj).
+                        <br>
+                        Vrať: normalizovaný pointwise produkt všech faktorů.
+                        <br>
+                        Složitost: velikost největšího faktoru
+                        <br><br>
+                        Sum-out:
+                        Sesumíruje dohromady všechny faktory, které obsahují
+                        skrytou proměnnou -- do jednoho velkého faktoru.
+        -
+                uuid: 1126f580-6ff1-4743-8e1d-c15d2c28d02f
+                front: Variable Elimination -- čím se ovlivní složitost?
+                back: >
+                        Tím, v jakém pořadí eliminuju proměnné. (Resp., procházím je.)
+                        Musí jít topologicky, ale kromě toho mám svobodu.
+        -
+                uuid: 7684e87e-ad83-4e87-89ea-13b39a8d8bd0
+                front: Variable Elimination -- jak je těžké najít optimální pořadí eliminace?
+                back: >
+                        NP-těžké
+        -
+                uuid: d06b451e-76f2-4173-93c6-f3d06eda8631
+                front: Variable Elimination -- podle jaké heuristiky můžu vybrat další proměnnou k eliminaci?
+                back: >
+                        Tu, která povede na vyrobení nejmenšího faktoru.
+        -
+                uuid: 8a4e1e23-0a38-4bf8-8112-edabc065adcd
+                front: Jak složitá je inference v Bayesovské síti co je les?
+                back: >
+                        [$]\\O(n\\cdot d^k)[/$] čas i prostor (tj. stejně jako součet velikosti všech tabulek)
+        -
+                uuid: 587e5c4f-9b08-4071-b4e0-d4f5d0d90f4c
+                front: Jak složitá je inference v Bayesovské síti?
+                back: >
+                        Obecně NP-těžká, resp. Sharp-P těžká (převodem z 3-SATu)
+        -
+                uuid: 18d150c2-553e-4350-b57e-a81b9fcda507
+                front: >
+                        Algoritmy přibližné inference pro Bayesovské sítě
+                back: >
+                        Přímé vzorkování, Markov chain sampling
+        -
+                uuid: c4d80bf8-75ec-4751-84fc-1248445f9384
+                front: >
+                        Přímé vzorkování v Bayesovských sítích, rejection sampling
+                back: >
+                        Vezmu proměnné v topologickém pořadí, postupně
+                        si házím korunami podle pravděpodobností daných rodiči.
+                        <br>
+                        Rejection sampling: vygeneruju vzorek, mrknu jestli sedí
+                        na pozorování, jinak ho zahodím. Když sedí, tak
+                        s jeho pomocí stavím [$]\\mathbf{P}(X|e)\\simeq \\mathbf{N}(X,e)/N(e)[/$].
+        -
+                uuid: 080a09bb-4d88-4031-b6db-cfc663d1f4fc
+                front: Likelihood weighting
+                back: >
+                        Nechci zahazovat vzorky jako v rejetction samplingu.
+                        <br>
+                        Zafixuju evidence variables, sampluju jenom non-evidence
+                        variables.
+                        <br>
+                        [$$]\\mathbf{P}(X|e)=\\alpha \\mathbf{N}(X,e) w(X,e)[/$$]
+                        <br>
+                        Kde: [$]w(X,e)=\\prod_j P(e_j|\\text{parents}(e_j))[/$]
+                        <br>
+                        (Bayesovo pravidlo. [$]P(z,e)=\\prod_i P(z_i|\\text{parents}(z_i))[/$])
+                        <br>
+                        Elegantně: když proměnná má přiřazenou viděnou hodnotu,
+                        vynásob hmotnost vzorku pravděpodobností, že tuhle
+                        hodnotu dostane. Když ji nemá, hoď ji náhodně podle
+                        distribuce z jejich rodičů.
+        -
+                uuid: eddcc300-85af-4c39-a7f8-3bf8419eced6
+                topic: MCMC
+                front: >
+                        Co to je za zkratku?
+                back: Monte Carlo Markov chain
+        -
+                uuid: 06ab77e1-96f2-462e-aa74-974836db5668
+                topic: MCMC
+                front: Jak funguje?
+                back: >
+                        Další vzorek dostanu tak, že vezmu nějakou proměnnou
+                        co není v evidence a znova ji nasampluju podle její
+                        Markovské obálky.
+        -
+                uuid: 330e605f-c69b-4a48-828f-5bc95fdc83a8
+                topic: MCMC
+                front: Proč funguje?
+                back: >
+                        Samplovací proces bude dlouhodobě trávit ve stavu
+                        poměr odpovídající jeho pravděpodobnosti.
+                        <br>
+                        Označ: [$]q(x\\rightarrow x')[/$] přechod ve stavu,
+                        [$]\\pi_t(x)[/$] pravděpodobnost že jsem ve stavu v čase.
+                        <br>
+                        Vždy platí: [$]\\pi_{t+1}(x')=\\sum_x \\pi_t(x)q(x\\rightarrow x')[/$].
+                        <br>
+                        Pro stacionární distribuci musí platit:
+                        [$]\\pi(x')=\\sum_x \\pi(x) q(x\\rightarrow x')[/$].
+                        <br>
+                        Tohle platí například když [$]\\pi(x)q(x\\rightarrow x')=\\pi(x')q(x'\\rightarrow x)[/$].
+                        <br>
+                        Ať jsme změnili proměnnou [$]X_i[/$] z [$]x_i[/$] na [$]x_i'[/$]
+                        a ostatní ([$]Y_i[/$] s hodnotami [$]y_i[/$]) nechali.<br>
+                        [$$]q(x\\rightarrow x')=P(x_i'|y_i, e)=P(x_i'|mb(X_i))[/$$]
+                        (Říká se tomu Gibbs sampling.)
+                        <br>
+                        [$$]\\pi(\\mathbf{x}) q(\\mathbf{x}\\rightarrow \\mathbf{x}')=
+                        P(\\mathbf{x}|\\mathbf{e}) P(x_i'|\\mathbf{y}_i,e) =
+                        P(x_i,\\mathbf{y}_i|\\mathbf{e})P(x_i'|y_i,e)=[/$$]
+                        [$$]=P(x_i|y_i,e) P(y_i|e) P(x_i'|y_i,e) =[/$$]
+                        [$$]=P(x_i|y_i,e) P(x_i',y_i|e) = q(x'\\rightarrow x)\\pi(x')[/$$]

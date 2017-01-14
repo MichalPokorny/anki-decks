@@ -1,0 +1,125 @@
+deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška 2
+notes:
+        # P&R lecture02
+        -
+                uuid: 95b3a90e-dbc5-4bab-8713-1468756d7622
+                front: Konceptuální model plánování, cíle; zjednodušení světa?
+                back: >
+                        Stavy: množina, akce: množina, události mimo naši kontrolu,
+                        přechodová funkce<br>
+                        Cíle: cílový stav / splnění dané podmínky v plánu (např.
+                        "vyhni se tomuhle stavu" / optimalizace objektivní funkce<br>
+
+                        Systém je konečný, plně pozorovatelný, deterministický,
+                        statický (žádné události), cíle jsou jenom dosažení
+                        nějakého stavu, plány jsou sekvenční, čas je implicitní
+                        (akce jsou okamžité), plánujeme offline
+        -
+                uuid: 732febcc-69de-4eac-ae60-dcff6f9ec4e2
+                topic: STRIPS plánování
+                front: >
+                        Stav systému, akce, plánovací doména,
+                        použitelnost akce, přechodová funkce
+                back: >
+                        Stav: množina platných výroků,
+                        akce je přidá nebo smaže<br>
+                        Doména nad výroky [$]L[/$]: [$]\\Sigma=(s,A,\\gamma)[/$],
+                        kde [$]s\\subseteq \\P(L)[/$] je stav.
+                        <br>
+                        Akce: [$]a=(\\mathrm{precond}(a),\\mathrm{eff}^{-}(a), \\mathrm{eff}^{+}(a))[/$];
+                        ([$]\\mathrm{eff}^- \\cap \\mathrm{eff}^+ = \\emptyset[/$]),
+                        použitelná když [$]\\mathrm{precond}(a)\\subseteq s[/$]
+                        <br>
+                        Přechodová funkce: [$]\\gamma(s,a)=(s-\\mathrm{eff}^{-}(a))\\cup \\mathrm{eff}^+(a)[/$]
+                        je-li [$]a[/$] použitelná akce.
+        -
+                uuid: 0b79d1b3-d1c5-403f-ab8b-49b95b4cc411
+                topic: STRIPS plánování
+                front: Definice - Plánovací problém
+                back: >
+                        [$]P = (\\Sigma,s_0,g)[/$], kde [$]\\Sigma=(S,A,\\gamma)[/$]
+                        je plánovací doména, [$]s_0[/$] je počáteční stav,
+                        [$]g\\subseteq L[/$] jsou cílové výroky.
+        -
+                uuid: 73c1b436-401f-4cec-bdb8-4f0bf63da074
+                topic: STRIPS plánování
+                front: Definice - minimální řešení
+                back: Plán jehož výsledek splňuje cílové výroky a je takový nejkratší.
+        -
+                uuid: 4e46e196-cd01-43e9-9234-a49402354757
+                topic: STRIPS plánování
+                front: Definice - akce je relevantní pro cíl [$]g[/$]
+                back: >
+                        Když [$]g\\cap \\mathrm{eff}^+(a)\\neq\\emptyset[/$] a [$]g\\cap \\mathrm{eff}^-(a)=\\emptyset[/$].
+        -
+                uuid: da45bb52-8736-4e6d-9754-e7a707678e33
+                topic: STRIPS plánování
+                front: Definice - regresní množiny
+                back: >
+                        Pro cíl [$]g[/$] a relevantní akci [$]a[/$]:
+                        [$$]\\gamma^{-1}(g,a)=(g-\\mathrm{eff}^{+}(a))\\cup \\mathrm{precond}(a)[/$$]
+                        [$$]\\Gamma^{-1}(g)=\\{\\gamma^{-1}(g,a) : a\\in A, \\text{relevantni pro}\\ g\\}[/$$]
+                        [$$]\\Gamma_\\infty^{-1}(g)=\\Gamma^{-1}(g)\\cup\\Gamma^{-2}(g)\\cup\\ldots[/$$]
+        -
+                uuid: 80482898-f547-4b91-8b36-f9362c688e06
+                topic: STRIPS plánování
+                front: Kdy má problém řešení, v řeči regresních množin?
+                back: >
+                        Když [$]s_0[/$] je nadmnožina nějakého prvku [$]\\Gamma_\\infty^{-1}(g)[/$].
+        -
+                uuid: 9f3820c7-6ea2-44fc-a98e-b62f77dcaa94
+                topic: STRIPS plánování
+                front: Klasická reprezentace
+                back: >
+                        Jazyk: máme relační symboly a konstanty, můžeme používat proměnné.
+                        Nemáme funkce. Stav je množina instanciovaných atomů (konečně mnoha).
+                        <br>
+                        Máme closed world assumption.
+        -
+                uuid: c5dbfefc-72ce-4476-9110-6b7ff1555875
+                topic: STRIPS plánování
+                front: Klasická reprezentace - typy atomů podle toho, co dělají
+                back: Flexibilní (fluent) se mění, neměnné (rigid) jsou výroky co platí pořád.
+        -
+                uuid: 70b0865c-eb0c-477a-b6f0-e6701d4d08fe
+                topic: STRIPS plánování
+                front: Jaké preconditions můžou mít operátory?
+                back: Pozitivní a negativní atomy
+        -
+                uuid: ecbf6bce-83b9-4d15-acd6-2c7bd62ea698
+                topic: STRIPS plánování
+                front: Definice - Plánovací operátor a akce
+                back: >
+                        [$$] (\\mathrm{name}(o), \\mathrm{precond}(o), \\mathrm{effects}(o))[/$$]
+                        <br>
+                        Jméno: symbol a symboly parametrů operátoru ([$]n(x_1,\\ldots x_k)[/$]).
+                        <br>
+                        Preconditions: pozitivní a negativní atomy.
+                        <br>
+                        Effects: nesmí být neměnné atomy.
+                        <br>
+                        Akce je plně instanciovaný operátor.
+        -
+                uuid: 980e7651-cdb8-4cb9-b435-0e8e879ed6f4
+                topic: STRIPS plánování
+                front: Notace - pozitivní a negativní atomy v S
+                back: >
+                        [$$]S^+, S^-[/$$]
+        -
+                uuid: 12412f4d-9dd1-4855-973f-ca777c25f870
+                topic: STRIPS plánování
+                front: Kdy je akce použitelná?
+                back: Když jsou splněny pozitivní preconditiony a žádný z negativních precondition atomů.
+        -
+                uuid: 596441a3-8174-41a4-9207-af9eedacabf6
+                topic: STRIPS plánování
+                front: Rozšíření klasického plánování
+                back: >
+                        Typované proměnné.<br>
+                        Existenčně kvantifikované cíle.<br>
+                        Podmíněné operátory ("přepni přepínač" vs. "zapni" a "vypni").<br>
+                        Disjunktivní předpoklady (libovolné formule)<br>
+                        Připojené procedury (složitější předpoklady operátorů)<br>
+                        Logické axiomy (třeba "být vedle je ekvivalence") --
+                        musíme rozdělit atomy na primární (jsou v předpokladech i efektech)
+                        a sekundární (jen v předpokladech) -- příklad "holding/empty"

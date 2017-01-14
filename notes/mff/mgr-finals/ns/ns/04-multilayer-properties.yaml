@@ -1,0 +1,25 @@
+deck: All::Magisterské státnice::Neuronové sítě::Přednáška 4 (vlastnosti vrstevnatých sítí)
+notes:
+        # 04-multilayer-properties
+        -
+                uuid: ef9250b7-8401-4331-ab84-826be6c72ff8
+                front: Realizovatelnost funkcí
+                back: Každá funkce jde aproximovat prahovými jednotkami s libovolně malou chybou. To samé jde i se sigmoidami.
+        -
+                uuid: 57831b2e-2ac4-4bc6-b420-38e3dd343898
+                front: Počet oblastí určených [$]m[/$] dělícími nadrovinami dimenze [$]n-1[/$] v [$]n[/$]-rozměrném prostoru -- rekurzivní vzorec
+                back: >
+                        [$]R(m,n)=R(m-1,n)+R(m-1,n-1)[/$]
+        -
+                uuid: 99ccc2b2-92aa-42f0-9324-395f522bd8ad
+                front: Počet oblastí určených [$]m[/$] dělícími nadrovinami dimenze [$]n-1[/$] v [$]n[/$]-rozměrném prostoru -- closed-form vzorec
+                back: >
+                        [$]R(m,n)=2 \\sum_{i=0}^{n-1} { {m-1} \\choose {i}}[/$]
+        -
+                uuid: bab5c148-ed49-41aa-a7a9-e4adc2e8399a
+                front: Počet vzorů potřebných pro správné zobecňování s generalizační chybou [$]\\varepsilon[/$], dle počtu vah [$]W[/$] a počtu neuronů [$]N[/$]. Rule of thumb?
+                back: >
+                        [$]P \\geq (W/\\varepsilon) \\log_2 (N/\\varepsilon)[/$]<br>
+
+                        Pro 1 skrytou vrstvu: nemůže dobře zobecňovat když bylo méně než [$]W/\\varepsilon[/$] vzorů.<br>
+                        Tedy: pro přesnost [$]90\\%[/$] chci aspoň [$]10\\cdot W[/$] vzorů.
