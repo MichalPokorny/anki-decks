@@ -1,0 +1,80 @@
+deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška 6
+topic: Plánování s plánovacím grafem
+notes:
+        # planovani a rozvrhovani lecture06
+        -
+                uuid: bfc4332e-5d35-4f43-bda3-bd05086a909d
+                topic: Plánování jako SAT
+                front: Co je problém při kódování plánování do SAT/CSP? Jak se to vyřeší?
+                back: >
+                        SAT/CSP jsou statické. Budeme hledat jenom plány
+                        do nějaké maximální délky.
+        -
+                uuid: 6b2504bf-e38e-4c51-8c5d-4c6a3337f777
+                topic: Plánování jako SAT
+                front: >
+                        Kódování plánování jako SAT
+                back: >
+                        Atomy kódujeme jako výrokovou proměnnou s jejich časem (fluenty).
+                        <br>
+                        Nezapomeneme zahrnout negaci věcí, co neplatí.
+                        <br>
+                        Zakódujeme přechody a přidáme ke každému novou proměnnou,
+                        která říká, jaká akce udělala přechod.
+                        <br>
+                        Vyloučíme dělat dvě akce zároveň.
+                        <br>
+                        Frame axioms.
+        -
+                uuid: 80193da3-fdfe-4d45-abc6-2ce0486fdc70
+                topic: Plánování jako SAT
+                front: Frame axioms -- dva způsoby
+                back: >
+                        A. Proměnná [$]p[/$] co není v efektech, se nemění:
+                        [$]a_i \\rightarrow (p_i \\leftrightarrow p_{i+1})[/$];
+                        vyber aspoň jednu akci: [$]\\bigvee\\{a_i : a\\in A\\}[/$]
+                        <br>
+                        B. S vysvětlením: pravdivostní hodnota se mění jenom
+                        když to udělá nějaká akce: [$] (\\neg p_i \\wedge p_{i+1}) \\rightarrow (\\bigvee \\{a_i: p\\in\\mathrm{eff}^+(a)\\})[/$]
+                        a to samé při odebrání.
+                        <br>
+                        Pro *B* axiom úplného vyloučení (tj. právě jedna akce najednou)
+                        moc vylučuje. Stačí axiom konfliktního vyloučení:
+                        nedělat najednou dvě konfliktní akce.
+        -
+                uuid: 6fb7a79a-87f7-47b6-a9b5-9902749c9ba4
+                topic: Plánování jako SAT
+                front: Jak zmenšit počet proměnných pro reprezentaci akcí jako SAT?
+                back: >
+                        Z three-place akční proměnné (posuň robota [$]r[/$] z [$]loc_1[/$] do [$]loc_2[/$])
+                        udělej tři one-place akční proměnné (posuň [$]r[/$], z [$]loc_1[/$], do [$]loc_2[/$]).
+                        Různé akce teď sdílejí proměnné, a jde to i mezi
+                        akcemi různého typu (třeba move/fly).
+        -
+                uuid: b851c651-d119-4dd6-ba1d-ad07c36997d6
+                front: Rozdíl CSP reprezentace od SAT
+                back: >
+                        Stavové proměnné: například pozice robota, atd.<br>
+                        Neměnné vztahy se popisují relacemi. Operátory
+                        dělají změny stavových proměnných.
+        -
+                uuid: fc31ffb0-fa12-4800-beae-500e1f46decd
+                front: Jak v CSP kódujeme akce?
+                back: >
+                        Jako podmínky mezi frame axiomy.
+        -
+                uuid: 0fd530e3-8094-40ce-87c4-c055c0707b37
+                front: Na co nesmíme zapomenout při kódování jako CSP/SAT?
+                back: >
+                        Axiomy rámce
+        -
+                uuid: 6271c929-aaf6-4836-b1fe-6cba8cf1aabe
+                front: Kde je dobře použitelné plánování jako CSP?
+                back: >
+                        Plánování v prostoru plánů: test konzistence (rychlý ale neúplný).
+                        (Úplný test konzistence jde udělat až když máme úplný plán.)
+                        <br>
+                        Plánování s plánovacím grafem: plánovací graf je statická
+                        struktura zakódovatelná jako CSP, použijeme CSP
+                        na extrakci plánu.
+        # missing: Graphplan jako CSP, SAT

@@ -406,4 +406,19 @@ notes:
                 back: >
                         When a proposal to change a certain parameter is thought to have bad overall consequences, consider a change to the same parameter in the opposite direction. If this is also thought to have bad overall consequences, then the onus is on those who reach these conclusions to explain why our position cannot be improved through changes to this parameter. If they are unable to do so, then we have reason to suspect that they suffer from status quo bias.
                 include_reverse: true
-
+        -
+                uuid: 137865f8-c6a8-4c87-9faf-f6a66deb219c
+                front: Outcome bias
+                back: >
+                        Error made in evaluating the quality of a decision
+                        when the outcome of that decision is already known.
+                        <br>
+                        Occurs when the same "behavior produce[s] more ethical
+                        condemnation when it happen[s] to produce bad rather
+                        than good outcome, even if the outcome is determined
+                        by chance."
+                        <br>
+                        Unlike hindsight bias, exclusively focuses on weighting
+                        past outcome heavier than other pieces of information
+                        in deciding if a past decision was correct. Hindsight
+                        bias distorts memory to favor the actor.

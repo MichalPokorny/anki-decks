@@ -24,3 +24,27 @@ notes:
         #        uuid: 5ec29d08-ec9f-446a-a8d5-41ddb68143bb
         #        front: Embed some LaTeX, not an equation
         #        back: [latex]Some LaTeX[/latex]
+        -
+                uuid: 250111f9-5e8f-4cbe-9551-a96d49f251e5
+                front: Tag for cards that are new
+                back: >
+                        `is:new`
+                include_reverse: true
+        -
+                uuid: b8940b78-aff3-4931-ac97-afa49742989a
+                front: Tag for cards that are in learning
+                back: >
+                        `is:learn`
+                include_reverse: true
+        -
+                uuid: a54f0b8d-58f3-409e-acff-59f297056924
+                front: Tag for cards that are reviews (both due and not due) and lapsed cards
+                back: >
+                        `is:review`
+                include_reverse: true
+        -
+                uuid: 5ade5b71-93cb-4a23-9b60-24480c36cd68
+                front: Tag for cards that are review and learning cards waiting to be studied
+                back: >
+                        `is:due`
+                include_reverse: true

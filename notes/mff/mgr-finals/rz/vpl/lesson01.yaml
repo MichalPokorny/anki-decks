@@ -88,7 +88,7 @@ notes:
                 uuid: dc27025f-a9b3-4b08-8c5e-0c9aa33a8409
                 front: Surjektivní funkce (na [$]Y[/$])
                 back: >
-                        [$]rng(f)=Y[/$]
+                        [$]\\mathrm{rng}(f)=Y[/$]
 
         -
                 uuid: 2c22092b-1786-4976-b848-c6ec6d669c5a

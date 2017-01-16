@@ -153,26 +153,29 @@ notes:
                 topic: MCMC
                 front: Proč funguje?
                 back: >
-                        Samplovací proces bude dlouhodobě trávit ve stavu
-                        poměr odpovídající jeho pravděpodobnosti.
+                        Samplovací proces se ustálí v dynamickém ekvilibriu,
+                        ve kterém dlouhodobě bude trávit ve stavech
+                        poměr odpovídající jejich pravděpodobnosti.
                         <br>
-                        Označ: [$]q(x\\rightarrow x')[/$] přechod ve stavu,
-                        [$]\\pi_t(x)[/$] pravděpodobnost že jsem ve stavu v čase.
+                        Označ: [$]q(x\\rightarrow x')[/$] pravděpodobnost
+                        přechodu, [$]\\pi_t(x)[/$] pravděpodobnost že jsem ve
+                        stavu v čase [$]t[/$].
                         <br>
-                        Vždy platí: [$]\\pi_{t+1}(x')=\\sum_x \\pi_t(x)q(x\\rightarrow x')[/$].
+                        Obecně platí:
+                        [$]\\pi_{t+1}(x')=\\sum_x \\pi_t(x)q(x\\rightarrow x')[/$].
                         <br>
                         Pro stacionární distribuci musí platit:
                         [$]\\pi(x')=\\sum_x \\pi(x) q(x\\rightarrow x')[/$].
                         <br>
                         Tohle platí například když [$]\\pi(x)q(x\\rightarrow x')=\\pi(x')q(x'\\rightarrow x)[/$].
                         <br>
-                        Ať jsme změnili proměnnou [$]X_i[/$] z [$]x_i[/$] na [$]x_i'[/$]
-                        a ostatní ([$]Y_i[/$] s hodnotami [$]y_i[/$]) nechali.<br>
-                        [$$]q(x\\rightarrow x')=P(x_i'|y_i, e)=P(x_i'|mb(X_i))[/$$]
+                        Ať jsme změnili proměnnou [$]A[/$] z [$]a_i[/$] na [$]a'_i[/$]
+                        a všechny ostatní ([$]B[/$] s hodnotami [$]b_i[/$]) nechali.<br>
+                        [$$]q(x\\rightarrow x')=P(a'_i|b_i, e)=P(a'_i|mb(A_i))[/$$]
                         (Říká se tomu Gibbs sampling.)
                         <br>
-                        [$$]\\pi(\\mathbf{x}) q(\\mathbf{x}\\rightarrow \\mathbf{x}')=
-                        P(\\mathbf{x}|\\mathbf{e}) P(x_i'|\\mathbf{y}_i,e) =
-                        P(x_i,\\mathbf{y}_i|\\mathbf{e})P(x_i'|y_i,e)=[/$$]
-                        [$$]=P(x_i|y_i,e) P(y_i|e) P(x_i'|y_i,e) =[/$$]
-                        [$$]=P(x_i|y_i,e) P(x_i',y_i|e) = q(x'\\rightarrow x)\\pi(x')[/$$]
+                        [$$]\\pi(x) q(x\\rightarrow x')=
+                        P(a_i, b_i|e) P(x_i'|b_i,e) =
+                        [/$$]
+                        [$$]=P(a_i|b_i,e) P(b_i|e) P(a_i'|b_i,e) =[/$$]
+                        [$$]=P(a_i|b_i,e) P(a_i',b_i|e) = q(x'\\rightarrow x)\\pi(x')[/$$]

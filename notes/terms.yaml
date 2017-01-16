@@ -767,3 +767,25 @@ notes:
                 front: teleology
                 back: the explanation of phenomena by the purpose they serve rather than by postulated causes
                 include_reverse: true
+        -
+                uuid: 6d4e69e8-df9c-43c6-b1d2-545b55df5914
+                front: ebullient
+                back: bubbling over with enthusiasm
+                include_reverse: true
+        -
+                uuid: 1cae02a3-7888-481f-a909-92dcd43e4de0
+                front: cooptation
+                back: >
+                        1. to elect into a body by the votes of the existing members<br>
+                        2. to assimilate, take, or win over into a larger or established group<br>
+                        3. to appropriate as one's own; preempt
+                include_reverse: true
+        -
+                uuid: 9abb425d-9aa8-42fb-abdc-f158d757e4d9
+                front: wit (verb)
+                back: >
+                        have knowledge/that is to say (used to be more specific
+                        about something already referred to) ["The textbooks
+                        show an irritating parochialism, to ... an almost total
+                        exclusion of papers not in English."]
+                include_reverse: true

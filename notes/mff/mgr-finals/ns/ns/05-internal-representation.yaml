@@ -11,8 +11,8 @@ notes:
 
                         Přidá se člen:
                         [$$]
-                        F=\\sum_{p} \\sum_{h} y_{h,p}^X (1-y_{h,p})^Y (y_{h,p}-0.5)^2Z
-                        [/$$]
+                        F=\\sum_{p} \\sum_{h} y_{h,p}^X (1-y_{h,p})^Y (y_{h,p}-0.5)^{2Z}
+                        [/$$]<br>
 
                         U 1/2 to musí být sudé (symetrické).
         -

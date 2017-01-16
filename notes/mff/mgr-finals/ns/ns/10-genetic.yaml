@@ -115,8 +115,15 @@ notes:
                 back: >
                         Genotyp: kodovani prepisovacich pravidel; jejich vystup je binarni matice spoju mezi neurony, vahy se douci BP
         -
+                uuid: 81a122e2-de5a-4899-8744-be89a41ba9b7
+                topic: Algoritmus SANE
+                front: Co ta zkratka znamená?
+                back: >
+                        Symbiotic Adaptive Neuro-Evolution
+        -
                 uuid: 33a61f5b-ffdd-4e9b-a83f-38fb18a94d25
-                front: Algoritmus SANE
+                topic: Algoritmus SANE
+                front: Jak funguje?
                 back: >
                         Jedna skrytá vrstva.<br>
                         Vyvíjí se jednotlivé skryté neurony.<br>
@@ -124,8 +131,14 @@ notes:
                         Každý neuron použijeme aspoň 10x.<br>
                         Vítězi jsou nejužitečnější neurony.
         -
+                uuid: 8e0ee1e3-c808-4618-86bb-3b109ce86950
+                topic: Algoritmus ESP
+                front: Co ta zkratka znamená?
+                back: Enforced Sub-Populations
+        -
                 uuid: efdd20d0-8450-450b-b812-bfe059c7fc3e
-                front: Algoritmus ESP
+                topic: Algoritmus ESP
+                front: Jak funguje?
                 back: >
                         Enforced Sub-Populations<br>
 
