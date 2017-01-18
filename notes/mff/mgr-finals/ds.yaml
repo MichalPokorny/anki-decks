@@ -352,21 +352,21 @@ notes:
                 uuid: aa2bd2dc-0887-4116-b0fd-7920f52db5b5
                 front: Model externí paměti -- notace
                 back: >
-                        [$]M[/$]: velikost paměti
+                        [$]M[/$]: velikost paměti<br>
 
-                        [$]B[/$]: velikost přenášených bloků
+                        [$]B[/$]: velikost přenášených bloků<br>
 
                         [$]M/B[/$]: počet bloků v paměti
         -
                 uuid: fc258cff-8cef-495b-a6ca-69afbc5252f9
                 front: Model externí paměti -- složitost sekvenčního čtení
                 back: >
-                        [$]\\lceil N/B \\rceil + 1[/$]
+                        [$$]\\lceil N/B \\rceil + 1[/$$]
         -
                 uuid: c9501f8e-cfb7-4cda-b76c-997165ec1cdb
                 front: Model externí paměti -- složitost binárního vyhledávání
                 back: >
-                        [$]\\log N - \\log B[/$]
+                        [$$]\\log N - \\log B[/$$]
         -
                 uuid: 421b4c33-4f9e-4ceb-8ae5-55590e3be666
                 front: Model externí paměti -- transpozice matice, za jaké podmínky to funguje. Co naivní algoritmus?
@@ -407,20 +407,387 @@ notes:
         -
                 uuid: bc29fdf5-d98c-4503-8c47-97882feef63d
                 front: Sleator-Tarjanova věta o LRU/OPT strategii
+                markdown: false
                 back: >
-                        Ať je posloupnost přístupů [$]s_1, \\ldots s_N[/$], LRU ať má [$]n_{LRU}[/$] stránek, OPT ať má [$]n_{OPT}[/$] stránek.<br>
+                        Ať je posloupnost přístupů [$]s_1, \ldots s_N[/$], LRU ať má [$]n_{\mathrm{LRU}}[/$] stránek, OPT ať má [$]n_{\mathrm{OPT}}[/$] stránek.<br>
 
-                        Tvrzení: [$]\\#[/$] LRU výpadků [$]\\leq \\frac{n_{LRU}}{n_{LRU}-n_{OPT}}\\cdot\\#[/$] výpadků OPT [$]+n_{LRU}[/$]<br>
+                        Tvrzení: [$]f_{\mathrm{LRU}} \leq \frac{n_{LRU}}{n_{LRU}-n_{OPT}}\cdot f_{\mathrm{OPT}}+n_{\mathrm{LRU}}[/$]<br><br>
 
                         Pozorování:
                         Když má LRU výpadek v čase [$]t_1, t_2[/$] na stejné stránce ([$]s_{t_1}=s_{t_2}[/$]),
-                        tak mezi [$]t_1[/$] a [$]t_2[/$] přistupuje k [$]n_{LRU}[/$] různým stránkám.<br>
+                        tak mezi [$]t_1[/$] a [$]t_2[/$] přistupuje k [$]n_{\mathrm{LRU}}[/$] různým stránkám.<br>
 
-                        Rozsekejme [$]s_{\\*}[/$] na kusy, v nichž v každém je v LRU [$]n_{LRU}[/$] výpadků (až na poslední).
-                        V každém se přistupuje k aspoň [$]n_{LRU}[/$] různým stránkám.
-                        OPT musí mít v daném úseku aspoň [$]n_{LRU}-n_{OPT}[/$] výpadků, protože na začátku má OPT v sobě nejvýš [$]n_{OPT}[/$] stránek.<br>
+                        Rozsekejme [$]s_{\*}[/$] na kusy, v nichž v každém je v LRU [$]n_{\mathrm{LRU}}[/$] výpadků (až na poslední).
+                        V každém se přistupuje k aspoň [$]n_{\mathrm{LRU}}[/$] různým stránkám.
+                        OPT musí mít v daném úseku aspoň [$]n_{\mathrm{LRU}}-n_{\mathrm{OPT}}[/$] výpadků, protože na začátku má OPT v sobě nejvýš [$]n_{\mathrm{OPT}}[/$] stránek.<br>
 
-                        Tedy: [$]\\#_{LRU}/n_{LRU} \\leq \\lceil \\#_{OPT} / (n_{LRU}-n_{OPT}) \\rceil[/$]<br>
+                        Tedy: [$]f_{\mathrm{LRU}}/n_{\mathrm{LRU}} \leq \lceil f_{\mathrm{OPT}} / (n_{\mathrm{LRU}}-n_{\mathrm{OPT}}) \rceil[/$]<br>
 
                         Když zvolím 2x větší LRU, bude konstanta nejvýš 2.
+        -
+                uuid: 521fe3ca-0fe0-4e1f-ad8b-f7a2868fbd1c
+                topic: Hashování
+                front: Jaký problém řeší, a obecně jak?
+                back: >
+                        Máme velké univerzum [$]U[/$], chceme reprezentovat [$]S\\subseteq U[/$], [$]|S|=n[/$],
+                        operace Find, Insert, (Delete).
+                        <br>
+                        Triviálně bychom mohli použít pole velikosti [$]|U|[/$].
+                        <br>
+                        Vybereme funkci [$]h:U\\imp\\{1\\ldots m\\}[/$],
+                        kde [$]m << |U|[/$].
+        -
+                uuid: c71f666f-87cf-4e3a-9a82-fdd34870f868
+                topic: Hashování
+                front: Způsoby řešení kolizí -- jen názvy
+                back: >
+                        Separované řetězce, srůstající řetězce, s pomocným polem,
+                        lineární přidávání, dvojité hashování
+        -
+                uuid: e09b4e0b-73ad-4c1a-9fb5-b4fc5b5be227
+                topic: Hashování
+                front: Řešení kolizí přes separované řetězce
+                back: V každém kyblíku je vyhledávací strom
+                include_reverse: true
+        -
+                uuid: 375fb09c-1fd8-4f9c-9fd4-e2af45d3c60a
+                topic: Hashování
+                front: Srůstající řetězce (a dva podzpůsoby)
+                back: >
+                        Každý kyblík obsahuje jeden prvek a
+                        volitelně jeden ukazatel, který tvoří jednosměrný
+                        spojový seznam.
+                        Když přidám nový ukazatel, přidám ho buď na konec
+                        seznamu (LICH), nebo za první prvek seznamu (EICH).
+                include_reverse: true
+        -
+                uuid: cc8b7849-4bef-452a-831c-4fa1840cf780
+                topic: Hashování
+                front: S pomocným polem
+                back: >
+                        V kyblíku je místo na prvek a ukazatel.
+                        Ukazatele ukazují do pomocného pole, které může ukazovat dál.
+                        Jakmile dojde pomocné pole, začnu ukládat přetékající prvky
+                        do hlavního pole.
+        -
+                uuid: 3d2bb991-29ac-4946-ae79-9ac263d37cde
+                topic: Hashování
+                front: Lineární přidávání
+                back: Prvek vkládám na nejbližší volnou pozici za jeho kyblík.
+                include_reverse: true
+        -
+                uuid: e0960c1a-6420-4b43-8f99-dad5a9dcae79
+                topic: Hashování
+                front: Dvojité hashování
+                back: Zkouším postupně pozice [$]h_1(x)+i\\cdot h_2(x)[/$]
+        -
+                uuid: b287950b-c81e-4ddd-b13e-6c8b7b2d79fa
+                topic: Hashování
+                front: Co vyžaduje dvojité hashování?
+                back: >
+                        Když je [$]m[/$] kyblíků a pozice se počítá
+                        [$]h_1(x)+i\\cdot h_2(x)[/$], je potřeba aby [$]h_2(x)[/$]
+                        bylo nesoudělné s [$]m[/$] (to platí např. když
+                        [$]m\\in P[/$] a [$]h_2(x)\\in\\{1,\\ldots m-1\\}[/$].
+        -
+                uuid: 5fefc52d-1b67-4396-8cdf-5789671300b5
+                topic: Hashování
+                front: Jak se dělá Delete?
+                back: >
+                        Je problematický.<br>
+                        Jako trik můžu označit smazané prvky a při Insert je
+                        znovu použít. Pokud jich bude příliš mnoho označených,
+                        udělám přehashování.
+        -
+                uuid: ac827d29-d92c-464a-af33-fb9c17cfedd1
+                topic: Hashování
+                front: Balls & bins - pravděpodobnost, že koš je prázdný
+                back: >
+                        [$]n[/$] košů a [$]n[/$] míčků, které házím náhodně.
+                        <br>
+                        [$$]P[\\text{kos je prazdny}]=(1-\\frac{1}{n})^2\\rightarrow_{n\\rightarrow\\infty} \\frac{1}{e}[/$$]
+        -
+                uuid: 468efc83-6992-449e-a0a1-b17b35267089
+                topic: Hashování
+                front: Balls & bins - pravděpodobnost, že koš obsahuje [$]k[/$] míčků
+                back: >
+                        [$$]P[\\text{kos ma}\\ n\\ \\text{micku}]=
+                                {n\\choose k} \\frac{1}{n^k} (1-\\frac{1}{n})^{n-k} \\simeq_{k<<n} \\frac{n^k}{k!} \\cdot \\frac{1}{n^k} \\cdot \\frac{1}{e} = \\frac{1}{e \\cdot k!}[/$$]
+        -
+                uuid: ac807671-0264-404e-b631-1cb43628151d
+                topic: Hashování
+                front: Balls & bins - jaké je maximum v libovolném košíku?
+                back: >
+                        S velkou pravděpodobností [$]\\Theta(\\log n/\\log \\log n)[/$].
+                        >
+                        [$]n! < n^n[/$]. Vezmi [$]x=\\log n/\\log\\log n[/$].
+                        [$]x^x < n[/$], pokud [$]x \\log x < \\log n[/$].<br>
+                        [$$](x \\log x) = (\\frac{\\log n}{\\log\\log n})\\log(\\frac{\\log n}{\\log\\log n}) < \\log x[/$$]<br>
+                        >
+                        Pravděpodobnost, že v jednom koši je [$]k[/$] míčků, je [$]\\Theta(\\frac{1}{k!})[/$],
+                        pravděpodobnost, že v jednom koši je [$]\\geq k[/$], je [$]\\Theta(\\frac{1}{k!})[/$].
+                        <br>
+                        Pravděpodobnost, že v žádném koši není [$]\\geq k[/$], je [$]\\geq n/k![/$],
+                        takže z toho vyjde že pro [$]k=\\Theta(\\log n/\\log\\log n)[/$] je to konstantní pravděpodobnost.
+        -
+                uuid: 3cb51b71-608b-49d3-96b9-ee2e796bfac9
+                topic: Hashování
+                front: Proč nás zajímá balls & bins?
+                back: >
+                        Protože to říká že při náhodně zvolené hashovací funkci 
+                        bude maximální velikost kyblíku [$]\\Theta(\\log n/\\log\\log n)[/$].
+        -
+                uuid: 935989fe-baee-45f7-a1c1-e4aefdf82607
+                topic: Hashování
+                front: Analýza lineárního přidávání
+                markdown: false
+                back: >
+                        Předpokládám, že [$]h[/$] přiděluje prvky zcela náhodně.
+                        <br>
+                        [$]p_{k,s}[/$]: pravděpodobnost, že nejbližší volná pozice je po [$]k[/$] prvcích
+                        a před [$]h(x)[/$] je dalších [$]s[/$] prvků.
+                        <br>
+                        [latex]
+                        \begin{align*}
+                        p_{k,s} & = & {n\choose k+s} \cdot (\frac{k+s}{m})^{k+s} \leq & \\
+                        & \leq & \frac{n^{k+s}}{(k+s)!} \cdot \frac{(k+s)^{k+s}}{m^{k+s}} = \frac{n^{k+s}}{m^{k+s}}\cdot\frac{(k+s)^{k+s)}{(k+s)!} = & \text{Stirling:} a!\simeq \sqrt{2\pi a}(a/e)^a \\
+                        & = & (n/m)^{k+s} \cdot \frac{1}{\sqrt{k+s}} \cdot e^{k+s} \cdot \frac{1}{\sqrt{2\pi}
+                        \end{align*}
+                        [/latex]
+                        <br>
+                        Zvolím [$]m\geq 3n[/$], protože [$]e\simeq 2.718\ldots[/$].
+                        <br>
+                        [$$]\ldots (e/3)^{k+s} \cdot \frac{1}{\sqrt{(k+s)2\pi}[/$$]
+                        <br>
+                        Očekávaná doba vkládání:
+                        [$$]\leq \sum_{k\geq 1}k\cdot Pr[\text{hledani potrva cas}\ k]\leq\sum_{k\geq 1} k\cdot\underbrace{\sum_{s\geq 0} (e/3)^{k+s} \cdot \frac{1}{\sqrt{(k+s)2\pi}}}_{\leq \mathcal{O}((e/3)^k)} = \mathcal{O}(1)[/$$]
+        -
+                uuid: 0339b66e-85a4-4d31-b828-4675c05308b1
+                topic: Hashování
+                front: Očekávání maximální zaplnění koše při balls & bins, když zvolím náhodně dva koše a hodím do toho prázdnějšího
+                back: >
+                        [$$]\\mathcal{O}(\\log\\log n)[/$$]
+        -
+                uuid: a07d81f9-50a8-40f3-979f-2af29909f06a
+                topic: Kukaččí hashování
+                front: Jak funguje?
+                back: >
+                        Mám dvě hashovací funkce, [$]x[/$] je buď v [$]h_1(x)[/$], nebo [$]h_2(x)[/$].
+                        <br>
+                        Insert:
+                        [$]pos\\leftarrow h_1(x)[/$].
+                        Opakuj n-krát: pokud je kyblík [$]pos[/$] zaplněný,
+                        vyměň [$]x[/$] a [$]T[pos][/$], vyber [$]x[/$] jako druhý hash.
+                        Jestli to doběhne a furt držíš prvek, přehashuj.
+        -
+                uuid: c74711df-85a0-43a9-a527-3f63dab19f6e
+                topic: Kukaččí hashování
+                front: Pro jaké [$]m[/$] funguje dobře?
+                back: >
+                        [$]m\\simeq 2.3n[/$], ale analýzu ukážu pro [$]m=6n[/$].
+        -
+                uuid: 427e6fb9-f7ad-4c90-8142-2fcbf25c0a8f
+                topic: Kukaččí hashování
+                front: Důkaz očekávaného počtu přehašování za Inserty
+                back: >
+                        [$]m=6n[/$].
+                        <br>
+                        Tvrzení: Pravděpodobnost, že pro náhodně zvolené funkce
+                        obsahuje kukačkový graf cyklus, je [$]\leq 1/2[/$].
+                        <br>
+                        Lemma: Pravděpodobnost, že pro náhodné hf jsou pozice
+                        [$]i,j[/$] spojeny cyklem délky [$]\ell[/$] je
+                        [$]\leq (2n/m)^\ell \cdot \frac{1}{m} \leq \frac{1}{3^\ell}\cdot\frac{1}{m}[/$].
+                        <br>
+                        Důkaz lemmatu:<br>
+                        [latex]
+                        \begin{align*}
+                        P[d(i,j)=l] & \leq & P[e x_1,\ldots x_\ell, i_1,\ldots i_{\ell-1}:
+                                h(x_1)=\{i,i_1\} \wedge \ldots h(x_\ell)=\{i_{\ell-1},j\}]\leq\\
+                                    & \leq & \underbrace{2^\ell}_{\text{parita}} \cdot n \cdot (n-1) \cdot \ldots \cdot (n-1+1) \cdot m^{l-1} \cdot m^{2(n-\ell)} / m^{2\ell} \leq \\
+                                    & \leq & \frac{2^\ell}{m^{2\ell}} \cdot n^\ell \cdot m^{\ell-1} = (\frac{2n}{m})^\ell \cdot \frac{1}{m}
+                        \end{align*}
+                        [/latex]
+                        <br>
+                        Důkaz tvrzení:
+                        <br>
+                        [$$]P[i\text{ je v cyklu delky }\ell]\leq\frac{1}{3^\ell}\frac{1}{m}[/$$]<br>
+                        [$$]P[i\text{ je v cyklu}]\leq\sum_{\ell\geq 1}\frac{1}{3^\ell}\cdot\frac{1}{m}\leq\frac{1}{2m}[/$$]<br>
+                        [$$]P[\text{existuje cyklus}]\leq\frac{1}{2}[/$$]
+                        <br>
+                        Očekávaný počet přehashování je tedy [$]\leq 1[/$] na [$]n[/$] insertů.
+        -
+                uuid: 049eba81-3ab3-41dd-ad0a-5b4ede0ba8c0
+                topic: Kukaččí hashování
+                front: Důkaz konstantního času na Insert
+                markdown: false
+                back: >
+                        (Za předpokladu, že není cyklus.)
+                        <br>
+                        Očekávaná doba:
+                        [$$]\leq \sum_{\ell\geq 1}\ell\cdot P[\text{z}\ i\ \text{vede cesta delky}\ell]\leq\sum_{\ell\geq 1}\ell\cdot(\frac{1}{3^\ell}\cdot{1}{m})\cdot m\leq O(1)[/$$]
+        -
+                uuid: 46f606f8-0e32-430e-a048-f1fae5219434
+                topic: Kukaččí hashování
+                front: Rychlejší zaříznutí Insertu
+                back: >
+                        Jakmile mám třeba [$]2\\log n[/$] kroků, začnu už
+                        přehashovávat (tak dlouhá cesta je nepravděpodobná).
+        -
+                uuid: d52ea10a-0954-4378-9970-11cbc6f11e83
+                front: Proč chceme vybírat hashovací funkci netriviálně?
+                back: >
+                        Protože data nejsou většinou uniformní a nezávislá.
+                        Kdyby byly distribuovány uniformně nezávisle, libovolná
+                        funkce co by mapovala do stejně velkých bucketů by
+                        fungovala dobře.
+        -
+                uuid: c1ffa339-6cfd-4dcb-8a54-f5b394d260d8
+                front: Proč prostě nevybereme náhodnou hashovací funkci?
+                back: >
+                        Protože by potřebovala [$]|U|\\cdot\\log m[/$]
+                        bitů na popis, to je moc.
+        -
+                uuid: 7d120cf9-d36a-4458-acb0-d3112c9f85fe
+                front: Co je to univerzální hashovací systém?
+                back: >
+                        Pro každé pevné [$]x,y[/$]: [$]P_{h\in H}[h(x)=h(y)]=\frac{1}{m}[/$]
+                        <br>
+                        Neboli: pravděpodobnost kolize dvou prvků je stejná
+                        jako u zcela náhodné funkce.
+        -
+                uuid: 52cb81e7-a118-4769-b2ef-e509bbaa8ad5
+                front: Co je to [$]k[/$]-univerzální hashovací systém (resp., po [$]k[/$] nezávislá hashovací funkce)?
+                back: >
+                        Pro libovolná [$]x_1,\\ldots x_k\\in U, a_1,\\ldots a_k\\in [m][/$]:
+                        [$]P_{h\\in H}[h(x_1)=a_1\\wedge\\ldots\\wedge h(x_k)=a_k]=1/m^k[/$]
+        -
+                uuid: aecfe9c1-4f48-4a72-9811-affb44735f47
+                front: Příklady 2-univerzálních hashovacích systémů
+                markdown: false
+                back: >
+                        Hashování [$](ax+b)\bmod m[/$].
+                        Maticové násobení.
+                        Hashování konvolucí.
+                        Hashování multiply-shift.
+                        Vektory.
+
+        -
+                uuid: 142132d5-e801-478c-ad31-62242ad61c7b
+                front: Hashování [$](ax+b)\\bmod m[/$] a vlastnosti
+                back: >
+                        [$]m[/$] prvočíslo, [$]H=\\{h_{a,b}:a,b\in [m-1]\\}[/$],
+                        [$]h_{a,b}(x)=(ax+b) \\bmod m[/$]<br>
+                        Potřebuje dělení. Je 2-univerzální.
+        -
+                uuid: f41af809-04ef-4d51-8e33-64159e4001b7
+                front: Hashování násobením matic a vlastnosti
+                back: >
+                        [$]h:\\{0,1\\}^w\\rightarrow\\{0,1\\}^k[/$],
+                        [$]H=\\{h_{A,b}, A\\in\\{0,1\\}^{k\\times w},b\\in\\{0,1\\}^k\\}[/$],
+                        [$]h_{A,b}(x)=Ax+b[/$], kde maticové násobení je nad [$]GF(2)[/$],
+                        popis potřebuje [$]k\\cdot W+k[/$] bitů
+                        <br>
+                        Maticové násobení je nepraktické. Je 2-univerzální.
+        -
+                uuid: debfbd21-8f66-48f2-a8e9-f69f99762618
+                front: Hashování konvolucí a vlastnosti
+                back: >
+                        [$]w,k\\in \\Z, h:\\{0,1\\}^w\\rightarrow\\{0,1\\}^k[/$],
+                        [$]H=\\{h_{a,b}:a\\in\\{0,1\\}^{w+k-1},b\\in\\{0,1\\}^b\\}[/$].
+                        [$](h_{a,b}(x))_j=b_j+\\sum_{i=1}^w a_{i+j-1} x_i[/$]
+                        <br>
+                        Konvoluce je nepraktická. Je 2-univerzální.
+        -
+                uuid: 54210963-0024-487a-a312-3fd5eee08e62
+                front: Hashování multiply-shift a vlastnosti
+                back: >
+                        [$]h:\\{0,1\\}^w\\rightarrow\\{0,1\\}^k[/$],
+                        [$]a,b\\in\\{0,1\\}^{w+k-1}[/$],
+                        [$]h_{a,b}(x)=[(ax+b)>>(w-1)]_{1\\ldots k}[/$] -- vyber nejnižší bity
+                        (+,* nad celými čísly)
+                        <br>
+                        Je rychlé, nepotřebuje dělení, stačí jedno násobení. Je 2-univerzální.
+                        <br>
+                        Zobecnění: [$][ax+b]_{w'-k+1,\\ldots w'}[/$]
+        -
+                uuid: 849ad267-6f90-4c38-b71c-d3f7fc9e3c97
+                front: Hashování vektory
+                back: >
+                        [$]h:\\{0,1\\}^{w\\times d}\\rightarrow\\{0,1\\}^k[/$], kde [$]w'\\geq w+k-1[/$].
+                        <br>
+                        [$$]H=\\{h_{a_0,a_1,\\ldots a_{d-1},b}: a_0,\\ldots a_{d-1},b\\in\\{0,1\\}^{w}\\}[/$$]
+                        <br>
+                        [$$]h(x_0,\\ldots x_{d-1})=[(\\sum a_i x_i) + b]_{w-k+1,\\ldots w'}[/$$]
+                        (výběr bitů)
+                        <br>
+                        Když je [$]d[/$] sudé, jde použít k ušetření násobení:
+                        [$$]h(x_0,\\ldots x_{d-1})=[(\\sum_{i\\in\\{0,\\ldots d/2-1\\}} (a_{2i}+x_{2i+1})(a_{2i+1}+x_{2i})) + b][/$$]
+                        <br>
+                        Pokud chci heshovat vektory proměnné délky [$]d'<d[/$], kde [$]d'[/$] je sudé:
+                        [$$]h(x_0,\\ldots x_{d'-1})=[(\\sum_{i\\in\\{0,\\ldots d'/2-1\\}} (a_{2i}+x_{2i+1})(a_{2i+1}+x_{2i})) + a_{d'}]_{w'-k+1,\\ldots w'}[/$$]
+        -
+                uuid: c317b366-ac24-4ebb-9b43-2cd34dd2fe4f
+                front: Hashování řetězců
+                back: >
+                        Vyberu [$]p\\in P (p\\geq |U|)[/$],
+                        [$]a\\in\\{0,\\ldots p-1\\}[/$].
+                        <br>
+                        Vstup: [$]x_0,\\ldots x_{d-1}\\in U[/$].
+                        <br>
+                        [$$]h_a(x_0,\\ldots x_{d-1})=\\sum_{i=0}^{d-1}x_i\\cdot a^i \\bmod p[/$$]
+                        <br>
+                        Věta: když [$]\\overline{x}\\neq\\overline{y}[/$] stejné délky,
+                        tak [$]P_a[h_a(\\overline{x})=h_a(\\overline{y})]\\leq d/p[/$].
+                        <br>
+                        Důkaz: dva různé polynomy stupně [$]\\leq d-1[/$] se mohou shodovat
+                        nejvýše v [$]d[/$] bodech.
+                        <br>
+                        [$]h_a[/$] jde složit s hašovací funkcí [$]\\{0,\\ldots p-1\\}\\rightarrow\\{0,\\ldots m-1\\}[/$]:
+                        [$$]h_{a,b,c\\in\\{0,\\ldots p-1\\}} = ((a(\\sum_{i=0}^{d-1} x_i c^i)+b)\\bmod p)\\bmod m[/$$]
+                        <br>
+                        Pokud [$]d<p/m[/$], tak je pst. kolize [$]\\leq 2/m[/$].
+        -
+                uuid: 0b8ea909-fb00-43df-836c-4ed075aa9f69
+                front: Tabulkové hashování
+                back: >
+                        Zvolím [$]x_0,\\ldots x_{d-1}\\in\\{0,\\ldots m-1\\}[/$],
+                        náhodné tabulky [$]T_0,\\ldots T_{d-1}:\\{0,1\\ldots m-1\\}\\rightarrow\\{0,1\\}^\\ell[/$],
+                        výstup je [$]T_0[x_0]\\oplus \\ldots T_{d-1}(x_{d-1})[/$]
+                        (XOR po bitech).
+                        <br>
+                        Je 2-univerzální.
+        -
+                uuid: a35d77b3-acf6-4133-8d01-69c2005d42a8
+                front: 5-univerzální tabulkové hashování
+                back: >
+                        [$]x_0,x_1\\in\\{0,\\ldots m-1\\}[/$],
+                        náhodné tabulky [$]T_0,T_1:\\{0,\\ldots m-1\\}\\rightarrow\\{0,1\\}^\\ell[/$],
+                        [$]T_2:\\{0,\\ldots,2m-1\\}\\rightarrow\\{0,1\\}^\\ell[/$].<br>
+                        Výsledek: [$]T_0[x_0]\\oplus T_1[x_1]\\oplus T_2[x_0 || x_1][/$]
+        -
+                uuid: 50650fe5-887f-4b2c-a138-d651bcdb725d
+                front: Konstrukce [$]k[/$]-univerzálního hashování
+                back: >
+                        [$]p\\in P, x\\in\\{0,\\ldots p-1\\},
+                        a_0,\\ldots a_{k-1}\\in\\{0,\\ldots p-1\\}[/$] náhodně<br>
+                        <br>
+                        [$$]h_{a_0,\\ldots a_{k-1}}(x)=\\sum_{i=0}^{k-1} a_i x_i \\bmod p[/$$]
+                        <br>
+                        Je [$]k[/$]-univerzální.
+        -
+                uuid: c2b4ae9f-c490-459c-84e9-314ca20ad298
+                front: K čemu jsou užitečná Mersennova prvočísla?
+                back: >
+                        Dá se jimi rychle modulit: [$]y=(y \\& p) + (y >> a)(\\bmod p)[/$]
+        -
+                uuid: ee03f9d3-2e24-4b87-b30d-e1db4c34f915
+                front: Perfektní hashování
+                back: >
+                        Vezmu 2-univerzální hashovací systém.
+                        [$]P_{h\\in H}[h(x_1)=h(x_2)]=1/m[/$].
+                        <br><br>
+                        Očekávaný počet rolí, co kolidují: [$]\\leq n^2\\cdot\\frac{1}{m}[/$]
+                        <br><br>
+                        Když [$]m\\geq 2n^2[/$], pak [$]P[h\\ \\text{je perfektní pro}\\ S]\\geq\\frac{1}{2}[/$].
 

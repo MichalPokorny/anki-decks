@@ -124,7 +124,7 @@ notes:
                 front: K čemu je pseudoinverzní matice?
                 back: >
                         Hledáme váhovou matici pro asociační paměť že [$]XW=Y[/$].
-                        Ale k [$]X[/$] nemusí existovat inverze, tak hledáme matici co minimalizuje [$]\\|XW-Y\\|^2[/$], to minimalizuje [$]W=\\hat{X}Y[/$]
+                        Ale k [$]X[/$] nemusí existovat inverze, tak hledáme matici co minimalizuje [$]\\|XW-Y\\|^2[/$], to minimalizuje [$]W=\\tilde{X}Y[/$]
         -
                 uuid: 2d2d66de-68ad-4ced-bc71-877cf5c8949e
                 front: Použití pseudoinverzní matice pro minimalizaci odchylky v single-layer BP síti
@@ -139,7 +139,7 @@ notes:
                         Pro [$]\\lambda>0[/$] existuje inverze k [$]XX^T+\\lambda I[/$],
                         tak to takhle vyřešíme pro [$]W[/$].<br>
 
-                        Limitně pro [$]\\lambda\\rightarrow 0[/$]: [$]W = D\\hat{X}[/$].
+                        Limitně pro [$]\\lambda\\rightarrow 0[/$]: [$]W = D\\tilde{X}[/$].
                         Když je více řešení, tak tohle minimalizuje součet čtverců vah.
         -
                 uuid: e2f01b17-6c02-4037-a66c-d326c5c33e74

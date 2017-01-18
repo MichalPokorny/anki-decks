@@ -57,49 +57,81 @@ notes:
                 uuid: d8dfb615-f927-4284-a746-c3fa7e21bc46
                 front: Definice pseudoinverzní matice
                 back: >
-                        [$]X \\hat{X} X = X, \\hat{X} X \\hat{X} = \\hat{X}, \\hat{X} X[/$] a [$]X \\hat{X}[/$] jsou symetricke.
+                        [$]X \\tilde{X} X = X, \\tilde{X} X \\tilde{X} = \\tilde{X}, \\tilde{X} X[/$] a [$]X \\tilde{X}[/$] jsou symetricke.
                         Vzdy existuje a je jednoznacne urcena.
         -
                 uuid: 2de3f4b6-ac7d-400a-be6d-d08aadf7f53b
                 front: Věta co minimalizuje pseudoinverzní matice, důkaz
+                markdown: false
                 back: >
-                        Ať je [$]X\\in\\R^{m\\times n}, Y\\in\\R^{m\\times k}[/$]. Pak [$]W=\\hat{X} Y[/$] minimalizuje [$]\\|XW-Y\\|^2[/$].<br>
+                        Ať je [$]X\in\R^{m\times n}, Y\in\R^{m\times k}[/$]. Pak [$]W=\tilde{X} Y[/$] minimalizuje [$]\|XW-Y\|^2[/$].<br>
 
-                        Zároveň [$]\\hat{X}[/$] minimalizuje [$]\\|X\\hat{X}-I\\|^2[/$].<br>
+                        Zároveň [$]\tilde{X}[/$] minimalizuje [$]\|X\tilde{X}-I\|^2[/$].<br>
 
-                        [$]E:=\\|XW-Y\\|^2[/$]<br>
+                        [$]\|XW-Y\|^2[/$] dá se vyjádřit jako [$]\mathrm{trace}(S)[/$]:
+                        <br>
 
-                        Dá se vyjádřit jako [$]E=tr(S)[/$], kde [$]S=(XW-Y)^T (XW-Y)[/$]<br>
-
-                        [$$]
-                        (XW-Y)^T (XW-Y) = (Y-XW)^T (Y-XW) = (-XW)^T (Y-XW) + Y^T(-XW) + Y^T Y =
-                        [/$$]
-                        [$$]
-                        = (-XW)^T (Y-XW) + Y^T X \\hat{X} (Y-XW) + Y^T(I-X\\hat{X})Y =
-                        [/$$]
-                        [$$]
-                        = (X\\hat{X}Y-XW)^T (Y-XW) + Y^T (I-X\\hat{X})Y =
-                        [/$$]
-                        [$$]
-                        = (\\hat{X}Y-W)^T X^T (Y-XW)+Y^T(I-X\\hat{X})Y =
-                        [/$$]
-                        [$$]
-                        = (\\hat{X}Y-W)^T (X^T Y-X^T XW)+Y^T(I-X\\hat{X})Y =
-                        [/$$]
-                        [$$]
-                        = (\\hat{X}Y-W)^T ((X\\hat{X}X)^T Y-X^T XW)+Y^T(I-X\\hat{X})Y =
-                        [/$$]
-                        [$$]
-                        = (\\hat{X}Y-W)^T (X^T X\\hat{X}Y-X^T XW)+Y^T (I-X\\hat{X})Y =
-                        [/$$]
-                        [$$]
-                        = (\\hat{X}Y-W)^T X^T X(\\hat{X}Y-W)+Y^T(I-X\\hat{X})Y
-                        [/$$]
+                        [latex]
+                        \begin{align*}
+                        S & = & (XW-Y)^T (XW-Y) = \\
+                          & = & (Y-XW)^T (Y-XW) = \\
+                          & = & (-XW)^T (Y-XW) + Y^T(-XW) + \underbrace{\cancel{Y^T Y}}_{=C} = \\
+                          & = & (-XW)^T (Y-XW) + Y^T(-X\tilde{X}XW) = \\
+                          & = & (-XW)^T (Y-XW) + Y^T X \tilde{X} (Y-XW) - \underbrace{\cancel{Y^TX\tilde{X}Y}}_{=C} = \\
+                          & = & (Y^T X \tilde{X} - XW)^T (Y-XW) = \\
+                          & = & (X \tilde{X} Y-XW)^T (Y-XW) = \\
+                          & = & (\tilde{X}Y-W)^T X^T (Y-XW) = \\
+                          & = & (\tilde{X}Y-W)^T (X^T Y-X^T XW) = \\
+                          & = & (\tilde{X}Y-W)^T ((X\tilde{X}X)^T Y-X^T XW) = \\
+                          & = & (\tilde{X}Y-W)^T (X^T X\tilde{X}Y-X^T XW) = \\
+                          & = & (\tilde{X}Y-W)^T X^T X(\tilde{X}Y-W)
+                        \end{align*}
+                        [/latex]<br>
 
                         Tedy:
                         [$$]
-                        E=tr((\\hat{X}Y-W)^T X^T X (\\hat{X}Y-W)) + tr(Y^T (I-X\\hat{X}) Y)
-                        [/$$]
-
-                        To vpravo je konstanta. To vlevo je minimální pro [$]W=\\hat{X}Y[/$].
-
+                        E=\mathrm{trace}((\tilde{X}Y-W)^T X^T X (\tilde{X}Y-W)) + \mathrm{trace}(Y^T (I-X\tilde{X}) Y)
+                        [/$$]<br>
+                        To vpravo je konstanta. To vlevo je minimální pro [$]W=\tilde{X}Y[/$].
+        -
+                uuid: b505e84d-0856-4f05-87ee-4663e16384bf
+                front: Definice a notace Hessovské matice
+                back: >
+                        [$]\\nabla^2 F(x)[/$] nebo [$]\\mathbf{H}(f)[/$]<br>
+                        [$$][\\nabla^2 F(x)]_{ij} = \\partial^2 F(x) / \\partial x_i \\partial x_j[/$$]
+        -
+                uuid: 065842a1-ec10-4639-b219-2bd4015bcf75
+                front: Definice a notace Jacobiho matice
+                back: >
+                        Buď [$]f:\\R^n \\rightarrow \\R^m[/$].<br>
+                        [$$][\\mathbf{J}(f)]_{ij} = \\partial f_i / \\partial x_j[/$$]
+        -
+                uuid: fad18700-163d-4439-8c3f-bb7e613a54dc
+                front: >
+                        [$$]\\lim_{n\\rightarrow\\infty} (1-\\frac{1}{n})^n[/$$]
+                back: >
+                        [$]1/e[/$] přes limitu
+                include_reverse: true
+        -
+                uuid: 09762a50-6134-4680-a011-a2f15084c653
+                front: >
+                        [$$]\\lim_{n\\rightarrow\\infty} (1+\\frac{1}{n})^n[/$$]
+                back: >
+                        [$]e[/$] přes limitu
+                include_reverse: true
+        -
+                uuid: 596c2736-2780-4111-b181-57558a8ba3b2
+                front: Stirling's approximation of [$]n![/$]
+                back: >
+                        [$$]\\sqrt{2\\pi n}(\\frac{n}{e})^n[/$$]
+        -
+                uuid: c68cbdd1-404a-49bd-8523-ebad279b53b2
+                front: Co je to Mersennovo prvočíslo?
+                back: >
+                        [$$]2^n-1[/$$]
+        -
+                uuid: f40d801e-4a21-492d-960a-75fd03dfdf01
+                front: >
+                        Čtyři Mersennova prvočísla
+                back: >
+                        [$]2^{31}-1[/$], [$]2^{61}-1[/$], [$]2^{89}-1[/$], [$]2^{107}-1[/$]

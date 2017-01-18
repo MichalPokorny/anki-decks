@@ -26,6 +26,11 @@ notes:
                         Pro jeden vzor: [$]W=x^T y[/$], takže [$]y=\\sgn(xW)=\\sgn(x x^T y) = \\sgn(\\|x\\|^2 y)=y[/$],
                         to samé pro [$]x[/$].
         -
+                uuid: 82cf4129-ca2e-4a32-888c-3e5743f707ef
+                front: Jak vypadá energetická funkce BAM bez prahů?
+                back: >
+                        [$$]E:=-x_0 W y_0^T[/$$]
+        -
                 uuid: be56641a-04d0-4f75-b00e-7a343e9a79dd
                 front: Kdy by [$] (x_0,y_0)[/$] byl stabilní stav BAM? Jak se z toho odvodí energetická funkce BAMu?
                 back: >
@@ -143,7 +148,7 @@ notes:
                 back: >
                         Úloha: chceme mít aktivní právě jeden neuron z binárních<br>
 
-                        Cíl: [$]E(x_1,\\ldots x_n)=(\\sum_{x_i} - 1)^2[/$]<br>
+                        Cíl: [$]E(x_1,\\ldots x_n)=(\\sum x_i - 1)^2[/$]<br>
 
                         Podobně se dá použít na 8-queens, TSP.
         -

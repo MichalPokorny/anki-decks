@@ -58,7 +58,7 @@ notes:
                         </ul>
         -
                 uuid: 56e732ce-9373-44b0-9d81-7c6cb3d4561a
-                front: Sítě se vstřícným šířením (counterpropagation)
+                front: Sítě se vstřícným šířením (counterpropagation) - architektura, učení
                 back: >
                         Ma dve vrstvy: Kohonenovskou a Grossbergovskou (adaptuje vahy jen pro vitezne neurony z Kohonenovy vrstvy).
                         Pouziva se jako heteroasociativni pamet.<br>

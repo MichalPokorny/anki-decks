@@ -61,7 +61,7 @@ notes:
                         Faktory: [], proměnné: síť topologicky od příčin k důsledkům<br>
 
                         Pro každou proměnnou:
-                        přidej na začátek faktorů [$]Make-Factor(var,e)[/$].
+                        přidej na začátek faktorů [$]\\mathrm{Make-Factor}(var,e)[/$].
                         <br>
                         Jestli je proměnná skrytá, tak ji z faktorů vysčítej (vymarginalizuj).
                         <br>

@@ -48,6 +48,7 @@ notes:
                         <code>
                         f(x) = \underbrace{(x+2)^3}_\text{Hello} + \overbrace{(x-3)}^\text{World}
                         </code>
+                include_reverse: true
         -
                 uuid: 2eb8b0c2-e4ce-41d4-a6cb-af006661b707
                 markdown: false
@@ -65,4 +66,38 @@ notes:
                         z & = 1
                         \end{align*}
                         </code>
-
+                include_reverse: true
+        -
+                uuid: 88953613-bc6e-48fe-b15a-7ab34322bfff
+                markdown: false
+                front: >
+                        [$$]\tilde{X}[/$$]
+                back: >
+                        <code>
+                        \tilde{X}
+                        </code>
+                include_reverse: true
+        -
+                uuid: 2e75abf3-9be4-4f5e-824b-83ce37e2d906
+                markdown: false
+                front: >
+                        [$$]\textcolor{red}{x^2} + \textcolor{green}{y^2} = \textcolor{blue}{z^2}[/$$]
+                back: >
+                        <code>
+                        \textcolor{red}{x^2} + \textcolor{green}{y^2} = \textcolor{blue}{z^2}
+                        </code>
+                        <br>
+                        Package <code>xcolor</code>
+                include_reverse: true
+        -
+                uuid: 6e66baa2-2617-4c5b-ab5a-95219862f2f7
+                markdown: false
+                front: >
+                        [$$]x + \cancel{500} = \cancel{5 \times 100} + y[/$$]
+                back: >
+                        <code>
+                        x + \cancel{500} = \cancel{5 \times 100} + y
+                        </code>
+                        <br>
+                        Package <code>cancel</code>
+                include_reverse: true

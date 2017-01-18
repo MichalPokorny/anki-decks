@@ -7,7 +7,7 @@ notes:
                 back: Socrates
         -
                 uuid: 3a787a6e-9d59-4b44-9823-84dc239fde0d
-                front: Motto of Socrates
+                front: Motto of Socrates, where was it inscribed?
                 back: Know thyself (inscribed in temple of Apollo in Delphi)
         -
                 uuid: 2a5c3bbe-d126-44b5-9309-32cc985aa9b0
@@ -48,7 +48,7 @@ notes:
                 uuid: 028581a6-fdb1-4e9f-b207-80aab11af073
                 topic: Theogony
                 front: First race of gods
-                back: Titans and three Cyclops, and hree other sons (each with 100 arms, 50 heads)
+                back: Titans and three Cyclops, and three other sons (each with 100 arms, 50 heads)
         -
                 uuid: fa901b9d-ce6d-459d-a6ef-05d73ce762d5
                 topic: Theogony
@@ -63,11 +63,13 @@ notes:
                         hated the three horrible sons (100 arms, 50 heads).
         -
                 uuid: 3998a41a-47fe-4227-8035-e3e9f7ad6c95
-                front: Theogony - what are Furies?
+                topic: Theogony
+                front: What are Furies?
                 back: Monstrous goddesses who hunt down and punish wrongdoers
         -
                 uuid: c6700379-c273-473a-a7a9-2b068cb45bc0
-                front: Theogony - where are Furies from?
+                topic: Theogony
+                front: Where are Furies from?
                 back: >
                         They were born where Ouranos (Heaven)'s blood drops on land.
         -
@@ -329,3 +331,8 @@ notes:
                 uuid: 34c1f2fa-7df8-48e0-8208-71387b442a88
                 front: Hefaistos
                 back: god of blacksmiths, craftsmen, artisans, sculptors, metals, metallurgy, fire and volcanoes
+        -
+                uuid: f3600e65-4404-4aeb-8ea5-d584620d321a
+                front: Heaven in Greek
+                back: Ouranos
+                include_reverse: true
