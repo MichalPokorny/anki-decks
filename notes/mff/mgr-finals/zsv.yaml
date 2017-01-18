@@ -138,8 +138,9 @@ notes:
                 uuid: 5c6cf7a4-017d-4858-98bb-a77ba89f9e97
                 front: Diagonalizační jazyk a jaký je?
                 back: >
-                        [$]L_{DIAG}=\\{w_i\\in\\{0,1\\}^{ * }: w_i\\not\\in L(M_i)\\}[/$]
-                        Není částečně rozhodnutelný. Jeho doplněk je částečně rozhodnutelný, není rozhodnutelný.
+                        [$$]L_{\\mathrm{DIAG}}=\\{w_i\\in\\{0,1\\}^{ * }: w_i\\not\\in L(M_i)\\}[/$$]<br>
+                        Není částečně rozhodnutelný. Jeho doplněk je částečně
+                        rozhodnutelný, není rozhodnutelný.
         -
                 uuid: fae12c3e-b261-4f67-ba8c-f7838a29b2b0
                 front: Univerzální TS a jeho jazyk. Jaký je univerzální jazyk?
@@ -286,28 +287,28 @@ notes:
         -
                 uuid: 0b3960ff-41f0-459f-b5ca-e38f1a0cbd91
                 front: >
-                        [$]TIME(f(n))[/$], [$]SPACE(f(n))[/$], vztah
+                        [$]\\mathrm{TIME}(f(n))[/$], [$]\\mathrm{SPACE}(f(n))[/$], vztah
                 back: >
-                        TIME: jazyky přijímané TS co pracují v čase [$]O(f(n))[/$].<br>
-                        SPACE: jazyky přijímané TS co pracují v prostoru [$]O(f(n))[/$].<br>
-                        Triviálně [$]TIME(f(n))\\subseteq SPACE(f(n))[/$] pro každou funkci [$]f[/$].
+                        [$]\\mathrm{TIME}(f(n))[/$]: jazyky přijímané TS co pracují v čase [$]O(f(n))[/$].<br>
+                        [$]\\mathrm{SPACE}(f(n))[/$]: jazyky přijímané TS co pracují v prostoru [$]O(f(n))[/$].<br>
+                        Triviálně [$]\\mathrm{TIME}(f(n))\\subseteq \\mathrm{SPACE}(f(n))[/$] pro každou funkci [$]f[/$].
         -
                 uuid: d659deb4-dc71-4d30-b1de-3513f8f826bb
-                front: Třída [$]P[/$]
+                front: Třída [$]\\mathrm{P}[/$]
                 back: >
-                        [$]\\bigcup_{k\\in\\N} TIME(n^k)[/$]
+                        [$]\\bigcup_{k\\in\\N} \\mathrm{TIME}(n^k)[/$]
                 include_reverse: true
         -
                 uuid: 5805f05a-b5cc-40d2-941a-8e2e4fafcbb4
-                front: Třída [$]PSPACE[/$]
+                front: Třída [$]\\mathrm{PSPACE}[/$]
                 back: >
-                        [$]\\bigcup_{k\\in\\N} SPACE(n^k)[/$]
+                        [$]\\bigcup_{k\\in\\N} \\mathrm{SPACE}(n^k)[/$]
                 include_reverse: true
         -
                 uuid: 6e2f4f56-206f-444b-aea6-0706a6de9e2a
-                front: Třída [$]EXPTIME[/$]
+                front: Třída [$]\\mathrm{EXPTIME}[/$]
                 back: >
-                        [$]\\bigcup_{k\\in\\N} TIME(2^{n^k})[/$]
+                        [$]\\bigcup_{k\\in\\N} \\mathrm{TIME}(2^{n^k})[/$]
                 include_reverse: true
         -
                 uuid: a3da5e25-49ea-44d9-a3e6-7ea04b98fa97
@@ -335,24 +336,25 @@ notes:
                         NTS přijímá, když existuje přijímací výpočet.
         -
                 uuid: 88616d36-0832-410c-838c-cdf36c140cd3
-                front: Třída [$]NTIME(f(n))[/$]
+                front: Třída [$]\\mathrm{NTIME}(f(n))[/$]
                 back: Třída jazyků přijímaných nedeterministickými TS co pracují v čase [$]O(f(n))[/$]
                 include_reverse: true
         -
                 uuid: 43571b5d-7947-405e-9dd1-d553b06a0d72
-                front: Třída [$]NSPACE(f(n))[/$]
+                front: Třída [$]\\mathrm{NSPACE}(f(n))[/$]
                 back: Třída jazyků přijímaných nedeterministickými TS co pracují v prostoru [$]O(f(n))[/$]
                 include_reverse: true
         -
                 uuid: e71fca6e-3759-4259-8a61-ccc45d7c7492
-                front: Vztah [$]SPACE(f(n)), TIME(f(n)), NSPACE(f(n)), NTIME(f(n))[/$]
+                front: Vztah [$]\\mathrm{SPACE}(f(n)), \\mathrm{TIME}(f(n)), \\mathrm{NSPACE}(f(n)), \\mathrm{NTIME}(f(n))[/$]
                 back: >
-                        [$]TIME(f(n))\\subseteq NTIME(f(n))\\subseteq SPACE(f(n))\\subseteq NSPACE(f(n))[/$]
+                        [$]\\mathrm{TIME}(f(n))\\subseteq \\mathrm{NTIME}(f(n))\\subseteq
+                        \\mathrm{SPACE}(f(n))\\subseteq \\mathrm{NSPACE}(f(n))[/$]
         -
                 uuid: 5da5a595-57a1-4545-b19f-9a82b2c3a6f8
                 front: Definice NP přes nedeterministické TS
                 back: >
-                        [$]\\bigcup_{k\\in\\N} NTIME(n^k)[/$]
+                        [$]\\bigcup_{k\\in\\N} \\mathrm{NTIME}(n^k)[/$]
                 include_reverse: true
         -
                 uuid: 70b7db3b-de10-46ad-9fc7-f8c1f2dd4def
@@ -360,64 +362,92 @@ notes:
                 back: Vstupní páska jen pro čtení, pracovní pro čtení a zápis, výstupní jen pro zápis a hýbe se jen vpravo. Do prostoru se počítají jen pracovní pásky.
         -
                 uuid: c8a14621-ce88-4418-bd87-1ab2c84b8d09
-                front: Definice třídy [$]L[/$]
+                front: Definice třídy [$]\\mathrm{L}[/$]
                 back: >
-                        [$]SPACE(\\log_2 n)[/$]
+                        [$]\\mathrm{SPACE}(\\log_2 n)[/$]
         -
                 uuid: 2151bb0f-df3a-42e1-8bf7-6bde8c9fb003
-                front: Definice třídy [$]NL[/$]
+                front: Definice třídy [$]\\mathrm{NL}[/$]
                 back: >
-                        [$]NSPACE(\\log_2 n)[/$]
+                        [$]\\mathrm{NSPACE}(\\log_2 n)[/$]
         -
                 uuid: 3d409a07-ca27-4e80-b52d-883f50f00ed7
-                front: Definice třídy [$]NPSPACE[/$]
+                front: Definice třídy [$]\\mathrm{NPSPACE}[/$]
                 back: >
-                        [$]\\bigcup_{k\\in\\N}NSPACE(n^k)[/$]
+                        [$]\\bigcup_{k\\in\\N}\\mathrm{NSPACE}(n^k)[/$]
         -
                 uuid: dcae06a4-33c2-4df2-9fb3-dbb4c45ba3f9
-                front: Věta [$]NSPACE(f(n))[/$] a [$]TIME(2^{c_L f(n)})[/$]
+                front: Věta [$]\\mathrm{NSPACE}(f(n))[/$] a [$]\\mathrm{TIME}(2^{c_L f(n)})[/$]
                 back: Ať [$]f(n)[/$] je funkce kde [$]f(n)\\geq\\log_2 n[/$]. Pak pro každý [$]L\\in NSPACE(f(n))[/$] platí [$]L\\in TIME(2^{c_L f(n)})[/$], kde [$]c_L[/$] je konstanta závislá na jazyku [$]L[/$].
         -
                 uuid: b4b43824-cbd5-4aad-81a0-bf5c3df8b35b
-                front: Inkluze [$]L, P, EXPTIME, NL, NP, NPSPACE, PSPACE[/$]
+                front: >
+                        Inkluze [$]\\mathrm{L}, \\mathrm{P}, \\mathrm{EXPTIME},
+                        \\mathrm{NL}, \\mathrm{NP}, \\mathrm{NPSPACE},
+                        \\mathrm{PSPACE}[/$]
                 back: >
-                        [$]L\\subseteq NL\\subseteq P\\subseteq NP\\subseteq PSPACE\\subseteq NPSPACE\\subseteq EXPTIME[/$]
+                        [$$]\\mathrm{L}\\subseteq \\mathrm{NL}\\subseteq
+                        \\mathrm{P}\\subseteq \\mathrm{NP}\\subseteq
+                        \\mathrm{PSPACE}\\subseteq \\mathrm{NPSPACE}\\subseteq
+                        \\mathrm{EXPTIME}[/$$]
         -
                 uuid: c77f1c6a-338b-428d-a132-a0f0a7b3e4af
                 front: Savičova věta
-                back: Pro každou [$]f(n)\\geq\\log_2 n[/$] platí že [$]NSPACE(f(n))\\subseteq SPACE(f^2(n))[/$].
+                back: >
+                        Pro každou [$]f(n)\\geq\\log_2 n[/$] platí že
+                        [$]\\mathrm{NSPACE}(f(n))\\subseteq \\mathrm{SPACE}(f^2(n))[/$].
         -
                 uuid: f7d5891b-43cb-4b1c-a185-7da5b612801a
-                front: Vztah PSPACE/NPSPACE, proč
-                back: PSPACE=NPSPACE, kvůli Savičově větě.
+                front: Vztah [$]\\mathrm{PSPACE}[/$]/[$]\\mathrm{NPSPACE}[/$], proč
+                back: >
+                        [$]\\mathrm{PSPACE}=\\mathrm{NPSPACE}[/$], kvůli Savičově větě.
         -
                 uuid: 25318cf5-00a0-4e58-9c80-10e173e326b1
                 front: Definice prostorově konstruovatelné funkce
                 back: >
-                        [$]f:\\N\\rightarrow\\N[/$] je prostorově konstruovatelná je-li všude [$]f(n)\\geq\\log n[/$] a a když funkce zobrazující [$]1^n[/$] na binární reprezentaci [$]f(n)[/$] je vyčíslitelná v prostoru [$]O(f(n))[/$]
+                        [$]f:\\N\\rightarrow\\N[/$] je prostorově konstruovatelná
+                        je-li všude [$]f(n)\\geq\\log n[/$] a a když funkce
+                        zobrazující [$]1^n[/$] na binární reprezentaci [$]f(n)[/$]
+                        je vyčíslitelná v prostoru [$]O(f(n))[/$]
         -
                 uuid: 90cfc959-8db4-45a9-b10f-2a7ee1fde167
                 front: Věta o deterministické prostorové hierarchii
-                back: Pro každou prostorově konstruovatelnou [$]f[/$] existuje jazyk rozhodnutelný v prostoru [$]O(f(n))[/$], ale ne [$]o(f(n))[/$].
+                back: >
+                        Pro každou prostorově konstruovatelnou [$]f[/$] existuje
+                        jazyk rozhodnutelný v prostoru [$]O(f(n))[/$], ale ne
+                        [$]o(f(n))[/$].
         -
                 uuid: 23ebec62-49ea-43f6-8fea-aa1170729614
-                front: NL a PSPACE, PSPACE a EXPSPACE, proč
+                front: >
+                        [$]\\mathrm{NL}[/$] a [$]\\mathrm{PSPACE}[/$],
+                        [$]\\mathrm{PSPACE}[/$] a [$]\\mathrm{EXPSPACE}[/$],
+                        proč
                 back: >
-                        [$]NL\\subsetneq PSPACE\\subsetneq EXPSPACE[/$], protože věta o deterministické prostorové hierarchii
+                        [$]\\mathrm{NL}\\subsetneq \\mathrm{PSPACE}\\subsetneq
+                        \\mathrm{EXPSPACE}[/$], protože věta o deterministické
+                        prostorové hierarchii
         -
                 uuid: 60d64151-8ee1-462e-9b79-9804d94a94f2
                 front: Definice časově konstruovatelné funkce
                 back: >
-                        [$]f:\\N\\rightarrow\\N[/$] kde [$]f(n)\geq n[/$] je časově konstruovatelná, jestli je funkce zobrazující [$]1^n[/$] na binární reprezentaci [$]f(n)[/$] vyčíslitelná v čase [$]O(f(n))[/$].
+                        [$]f:\\N\\rightarrow\\N[/$] kde [$]f(n)\geq n[/$] je
+                        časově konstruovatelná, jestli je funkce zobrazující
+                        [$]1^n[/$] na binární reprezentaci [$]f(n)[/$]
+                        vyčíslitelná v čase [$]O(f(n))[/$].
         -
                 uuid: 21be0cf6-4398-494e-8ec6-5f7f4520bacc
                 front: Věta o deterministické časové hierarchii
-                back: Pro každou časově konstruovatelnou funkci [$]f[/$] existuje jazyk [$]A[/$] rozhodnutelný v čase [$]O(f(n))[/$], ale ne v čase [$]o(f(n) / \\log f(n))[/$].
+                back: >
+                        Pro každou časově konstruovatelnou funkci [$]f[/$]
+                        existuje jazyk [$]A[/$] rozhodnutelný v čase [$]O(f(n))[/$],
+                        ale ne v čase [$]o(f(n) / \\log f(n))[/$].
         -
                 uuid: a0d4cf5d-ffc0-4fb8-83b9-f556c387a96e
-                front: P a EXPTIME, proč
+                front: >
+                        [$]\\mathrm{P}[/$] a [$]\\mathrm{EXPTIME}[/$], proč
                 back: >
-                        [$]P\\subsetneq EXPTIME[/$], protože věta o deterministické časové hierarchii
+                        [$]\\mathrm{P}\\subsetneq \\mathrm{EXPTIME}[/$], protože
+                        věta o deterministické časové hierarchii
         -
                 uuid: 73d93eaf-7076-4438-b11b-8bf67e38c6dd
                 front: Polynomiální převoditelnost jazyků - definice
@@ -429,13 +459,19 @@ notes:
                         [$] (\\a w\\in\\Sigma^{ * })[w\\in A\\ekv f(w)\\in B][/$].
         -
                 uuid: fd140e5b-ec7b-4715-b4ec-285ee23ea004
-                front: Vlastnosti relace polynomiální převoditelnosti, P a NP třídy
-                back: Je to kvaziuspořádání (tranzitivní a reflexivní). Když [$]A\\leq_m^P B[/$] a [$]B\\in P[/$], pak [$]A\\in P[/$]. Stejně [$]NP[/$].
+                front: >
+                        Vlastnosti relace polynomiální převoditelnosti,
+                        [$]\\mathrm{P}[/$] a [$]\\mathrm{NP}[/$] třídy
+                back: >
+                        Je to kvaziuspořádání (tranzitivní a reflexivní). Když
+                        [$]A\\leq_m^P B[/$] a [$]B\\in \\mathrm{P}[/$], pak
+                        [$]A\\in \\mathrm{P}[/$]. Stejně [$]\\mathrm{NP}[/$].
         -
                 uuid: a468c4b4-e340-4f44-bfa7-ab25e9ee98ab
                 front: Definice NP-těžkosti
                 back: >
-                        [$]B[/$] je NP-těžký jazyk když na něj je polypřevoditelný libovolný jazyk [$]A\\in NP[/$].
+                        [$]B[/$] je NP-těžký jazyk když na něj je polypřevoditelný
+                        libovolný jazyk [$]A\\in \\mathrm{NP}[/$].
         -
                 uuid: 0ce7e067-d55d-4a95-8958-a82a143c3e75
                 front: Definice NP-úplnosti
@@ -601,13 +637,16 @@ notes:
                         [$]A[/$] je co-NP-complete právě když [$]\\overline{A}[/$] je NP-complete. Kdyby byl nějaký jazyk NP-úplný a v co-NP, tak by bylo co-NP=NP.
         -
                 uuid: ef01a082-06c9-499e-be1f-482577aa6095
-                front: Třída [$]2-EXPTIME[/$]
+                front: Třída [$]\\mathrm{2-EXPTIME}[/$]
                 back: >
-                        [$$]\\bigcup_{k\\in\\N} TIME(2^{2^{n^k}})[/$$]
+                        [$$]\\bigcup_{k\\in\\N} \\mathrm{TIME}(2^{2^{n^k}})[/$$]
                 include_reverse: true
         -
                 uuid: b37ecf53-14dc-488c-a19a-46303f2ee6ed
-                front: Třída [$]ELEMENTARY[/$]
+                front: Třída [$]\\mathrm{ELEMENTARY}[/$]
                 back: >
-                        [$$]EXPTIME \\cup 2-EXPTIME \\cup 3-EXPTIME \\cup \\ldots = TIME(2^n) \\cup TIME(2^{2^n}) \\cup TIME(2^{2^{2^n}}) \\cup \\ldots[/$$]
+                        [$$]\\mathrm{EXPTIME} \\cup \\mathrm{2-EXPTIME} \\cup
+                        \\mathrm{3-EXPTIME} \\cup \\ldots = \\mathrm{TIME}(2^n)
+                        \\cup \\mathrm{TIME}(2^{2^n}) \\cup \\mathrm{TIME}(2^{2^{2^n}})
+                        \\cup \\ldots[/$$]
                 include_reverse: true
