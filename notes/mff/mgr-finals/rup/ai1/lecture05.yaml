@@ -56,10 +56,10 @@ notes:
                 uuid: 85031dd6-cfcd-4704-b6b3-8bd414ae7494
                 front: Co umí agenti v on-line search?
                 back: >
-                        V cíli znají dovolené akce, znají cost akcí když znají cíl
-                        ze kterého se jde, umí identifikovat cílový stav.<br>
-                        Umí si budovat mapu (poznat kde byl).
-                        Akce jsou deterministické.
+                        Ve stavu znají dovolené akce, znají cost akcí když znají
+                        stav ze kterého se jde, umí identifikovat cílový stav.<br>
+                        Umí si budovat mapu (poznat kde byl).<br>
+                        Akce jsou deterministické.<br>
                         Agent má admisibilní heuristiku.
         -
                 uuid: 1b52e972-a1cf-4c26-95ea-c98c40760087

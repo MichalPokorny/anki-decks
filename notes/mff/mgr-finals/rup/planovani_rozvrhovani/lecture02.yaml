@@ -18,18 +18,33 @@ notes:
                 uuid: 732febcc-69de-4eac-ae60-dcff6f9ec4e2
                 topic: STRIPS plánování
                 front: >
-                        Stav systému, akce, plánovací doména,
-                        použitelnost akce, přechodová funkce
+                        Definice - Stav systému
                 back: >
-                        Stav: množina platných výroků,
+                        Stav: množina platných výroků z množiny [$]L[/$],
                         akce je přidá nebo smaže<br>
+        -
+                uuid: 034f6a96-233b-405d-b391-38e4f0a1babd
+                topic: STRIPS plánování
+                front: >
+                        Definice - Doména
+                back: >
                         Doména nad výroky [$]L[/$]: [$]\\Sigma=(s,A,\\gamma)[/$],
                         kde [$]s\\subseteq \\P(L)[/$] je stav.
-                        <br>
+        -
+                uuid: 121e9e45-d6a2-4170-acf4-143a3e826192
+                topic: STRIPS plánování
+                front: >
+                        Definice - Akce, kdy je použitelná
+                back: >
                         Akce: [$]a=(\\mathrm{precond}(a),\\mathrm{eff}^{-}(a), \\mathrm{eff}^{+}(a))[/$];
                         ([$]\\mathrm{eff}^- \\cap \\mathrm{eff}^+ = \\emptyset[/$]),
                         použitelná když [$]\\mathrm{precond}(a)\\subseteq s[/$]
-                        <br>
+        -
+                uuid: 2c07c245-ae07-4fc2-9857-952e41e102ea
+                topic: STRIPS plánování
+                front: >
+                        Definice - přechodová funkce
+                back: >
                         Přechodová funkce: [$]\\gamma(s,a)=(s-\\mathrm{eff}^{-}(a))\\cup \\mathrm{eff}^+(a)[/$]
                         je-li [$]a[/$] použitelná akce.
         -
