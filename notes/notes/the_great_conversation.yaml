@@ -1,0 +1,331 @@
+deck: All::Notes::The Great Conversation - A Historical Introduction to Philosophy
+notes:
+        -
+                uuid: 1878e77c-59db-4b85-a94c-78af30e67e1c
+                front: >
+                        Who said: The unexamined life is not worth living.
+                back: Socrates
+        -
+                uuid: 3a787a6e-9d59-4b44-9823-84dc239fde0d
+                front: Motto of Socrates
+                back: Know thyself (inscribed in temple of Apollo in Delphi)
+        -
+                uuid: 2a5c3bbe-d126-44b5-9309-32cc985aa9b0
+                front: Year of Socrates' execution
+                back: 399 BC
+                include_reverse: true
+        -
+                uuid: 13330c53-09ef-4625-b87b-11dce51b14e4
+                front: Where did Socrates live?
+                back: Athens
+        -
+                uuid: 57fed93c-9f96-4ae2-b505-d4364b2d3dc9
+                front: When and where did philosophy start?
+                back: 6th, 5th century BC, Greece
+        -
+                uuid: eca0ea94-34ad-4f12-8052-0e9b23fd1780
+                front: Author of Theogony
+                back: Hésiodos
+        -
+                uuid: d9b1ba56-35ae-4409-829f-cbe207b99777
+                front: Meaning of "theogony"
+                back: Birth of gods
+        -
+                uuid: 3e4dddfe-a71b-489e-be35-2d4f847a63e0
+                front: When did Hésiodos compose Theogony?
+                back: End of 8th century BC
+        -
+                uuid: c82c817b-4866-409d-a73d-986e22043201
+                topic: Theogony
+                front: Greek tradition - origin of Muses
+                back: 9 daughters of Zeus and Memory
+        -
+                uuid: aeda7754-bd2b-4ed0-a50c-7eb75a0ac8af
+                topic: Theogony
+                front: Ancestors of Gods
+                back: Earth (Gaia), Heaven (Ouranos)
+        -
+                uuid: 028581a6-fdb1-4e9f-b207-80aab11af073
+                topic: Theogony
+                front: First race of gods
+                back: Titans and three Cyclops, and hree other sons (each with 100 arms, 50 heads)
+        -
+                uuid: fa901b9d-ce6d-459d-a6ef-05d73ce762d5
+                topic: Theogony
+                front: Boldest of Titans, later ruler of Titans
+                back: Kronos
+        -
+                uuid: 7e2abfda-97d0-4da5-bfd6-ca26a6922f01
+                topic: Theogony
+                front: What did Kronos do?
+                back: >
+                        Castrated his father (Heaven) because Earth
+                        hated the three horrible sons (100 arms, 50 heads).
+        -
+                uuid: 3998a41a-47fe-4227-8035-e3e9f7ad6c95
+                front: Theogony - what are Furies?
+                back: Monstrous goddesses who hunt down and punish wrongdoers
+        -
+                uuid: c6700379-c273-473a-a7a9-2b068cb45bc0
+                front: Theogony - where are Furies from?
+                back: >
+                        They were born where Ouranos (Heaven)'s blood drops on land.
+        -
+                uuid: 7d865b51-3b50-4ace-abaa-966aa2416b78
+                topic: Theogony
+                front: Who is Aphrodite?
+                back: Goddess of love and desire
+        -
+                uuid: 6a1606ac-deae-4329-8a5c-2a77420cbc11
+                topic: Theogony
+                front: Where is Aphrodite from?
+                back: Where Ouranos (Heaven)'s blood fell on sea.
+        -
+                uuid: b1f26abe-7830-429a-911d-afb59e3ab9e3
+                topic: Theogony
+                front: Mate of Kronos
+                back: Rhea, another Titan
+        -
+                uuid: 70f89103-0d7c-4273-8f11-2a38985a617e
+                topic: Theogony
+                front: Some children of Kronos
+                back: Hera, Hades, Poseidon
+        -
+                uuid: 1545c02e-822a-4d39-b3b4-b72621c15bfd
+                topic: Theogony
+                front: What happen to Kronos's children?
+                back: >
+                        He swallowed the newborns, learning of a prophecy that they'll dethrone him.
+                        When Rhea bore another son, she hid him in a cave on Crete and gave Kronos
+                        a stone wrapped in swaddling clothes to swallow. This hidden son is Zeus.
+        -
+                uuid: 16f55d50-c353-49ec-88c6-3f483282be31
+                topic: Theogony
+                front: How did Zeus overthrow Kronos?
+                back: >
+                        When he grew up, he disguised himself as a cupbearer and
+                        persuaded Kronos to drink poison, which caused Kronos
+                        to vomit up his brothers and sisters, and the stone.
+        -
+                uuid: 30735532-cd0a-493f-9c90-53ccf6d8113a
+                topic: Theogony
+                front: What happened to the stone disguised as Zeus?
+                back: >
+                        Hesiod says it was set up in Dephi, northwest of Athens,
+                        to mark the center of the earth.
+        -
+                uuid: 9ddcee25-c72b-4138-bc3b-9a15b66c4a46
+                topic: Theogony
+                front: Tartarus
+                back: The deep abyss that is used as a dungeon of torment and suffering for the wicked and as the prison for the Titans
+                include_reverse: true
+        -
+                uuid: 8db33bec-1488-455c-9bee-2d8adb55481f
+                topic: Theogony
+                front: What were the names of the "mighty and violent sons"?
+                back: >
+                        Kottos, Gyes, Briareus
+        -
+                uuid: 58dd32eb-a7ac-464b-9479-cf843a6e103e
+                topic: Theogony
+                front: What were the names of the Cyclops?
+                back: >
+                        Brontes, Arges, Steropes
+        -
+                uuid: 31e82dfa-58c6-470b-9d0f-5a149afe4a18
+                topic: Theogony
+                front: How long was the war with Titans and how did it end?
+                back: >
+                        10 years.
+                        Zeus freed the Cyclops from their imprisonment in Tartarus,
+                        they then gave him a lightning bolt, gave Poseidon a trident,
+                        and give Hades a helmet that made him invisible.
+                        <br>
+                        The gods then overthrew the Titans and hurled them to Tartarus.
+        -
+                uuid: b9aa19b4-6fcf-4d19-9a45-b9fefc7f53c7
+                topic: Theogony
+                front: Who governs clouds, sea, Tartarus and Earth?
+                back: >
+                        Clouds: Zeus, sea: Poseidon, Tartarus: Hades;
+                        Earth: shared among all three.
+        -
+                uuid: d98db150-0921-43f7-826a-57290cc002dc
+                front: Great teacher of all subjects to Greeks
+                back: Homer
+        -
+                uuid: 86de09c0-763f-42ed-8435-47faeca801ae
+                front: Homer's background
+                back: Assumption of Hesiodos's Theogony and tradition, through there were several other traditions
+        -
+                uuid: 8a7a2a0c-d66f-43ee-8133-628cd232f28c
+                front: Probable origin of cult of Dionysos
+                back: Older religions of fertility, ecstatic communion with gods, etc.
+        -
+                uuid: a83c1779-2e86-44de-8cfb-f63dbf7732de
+                front: End of classical period in Greece
+                back: 4th century BC
+        -
+                uuid: f6389149-0c51-4a24-97d5-b010dc8004a3
+                front: Homer's two great poems
+                back: The Iliad, The Odyssey
+        -
+                uuid: 1c7915b8-6245-46c8-a2be-5e29f49f28ec
+                front: Topic of The Iliad
+                back: Trojan war
+        -
+                uuid: 6d395784-b933-4dc2-be6a-e7ff3e07a3dd
+                front: Length of Trojan war
+                back: 9 years
+        -
+                uuid: 69c975a5-68a6-4251-be8c-03f3bdb29868
+                front: What was Homer's handicap?
+                back: Blindness
+        -
+                uuid: e4520056-ca92-4006-99b4-b8a7099cc531
+                front: Rough date of Trojan war
+                back: End of 13th century BC
+        -
+                uuid: 2fa26022-13a5-4f45-a346-978f339d7faf
+                topic: Trojan war
+                front: How did it start?
+                back: >
+                        Paris, son of Priam (king of Troy), seduced Helen
+                        and stole her away from Achaea.
+        -
+                uuid: 4baa97e5-b127-4579-b447-c8d6d1f91950
+                topic: Trojská válka
+                front: Co je Achaea?
+                back: Poloostrov v jižním Řecku
+        -
+                uuid: e75bcbca-a7b9-45c6-90d5-862e18cc7d38
+                topic: Trojská válka
+                front: Čí byla Helena manželka?
+                back: Menelaus, král Sparty
+        -
+                uuid: f602d7b7-4f00-4dc7-8a59-fea25079cda6
+                topic: Trojská válka
+                front: Kdo byl Menelaův bratr?
+                back: Agamemnón, král Argosu (na sever od Sparty)
+        -
+                uuid: aecfb2bb-5db5-45b5-a76b-ae4d89389e64
+                topic: Trojská válka
+                front: Kdo plul k Troji?
+                back: Agamemnón
+        -
+                uuid: bd0d6a5d-10a8-4908-89e4-1900b57b09ad
+                topic: Trojská válka
+                front: Jak souvisí Achilles s Trojskou válkou?
+                back: Plul s Agamemnónovou flotilou
+        -
+                uuid: fa916494-1512-4a8c-a325-2754cc88b9e4
+                topic: Trojská válka
+                front: Kdo poslal mor na Agamemnonovu armádu?
+                back: Apollo, syn Dia
+        -
+                uuid: 386b9677-051e-41dd-bc8c-63792bc54bbb
+                topic: Trojská válka
+                front: Proč poslal Apollo mor na Agamemnonovu armádu?
+                back: >
+                        Protože ho Agamemnon urazil.<br>
+                        <br>
+                        Při nájezdu na spojence Tróje Řekové zajmuli
+                        dívku, dceru Apolova kněžího. Armáda ji dala Agamemnonovi.
+                        Kněz přišel žádat o její návrat za rukojmí, ale
+                        byl hrubě odmítnut. Kněz požádal Apolla o pomoc.
+        -
+                uuid: a8803aca-c4f0-419d-b1dd-622ff764a5d3
+                topic: Trojská válka
+                front: Kdo byl Calchas?
+                back: >
+                        Věštec v Agamemnonově armádě, který vysvětlil,
+                        proč se Apollo hněvá na Agamemnóna.
+        -
+                uuid: ea0c7907-ceb2-4229-ad41-6fbf2acf1305
+                topic: Trojská válka
+                front: Co se stalo, když Agamemnon zjistil, proč se Apollo hněvá?
+                back: >
+                        Nechtěl se vzdát dívky Apollova kněžího.
+                        Vzdal se jí, ale chtěl za ni Achillovu cenu,
+                        obzvlášť hezkou dívku.
+                        Pohádali se a Achilles se vrátil do stanu a odmítal dál bojovat.
+        -
+                uuid: 316fdcd9-e421-421f-a6d6-abfdbb89892e
+                topic: Trojská válka
+                front: Jaký následek mělo, že Achilles odmítl dál bojovat?
+                back: >
+                        Řekové začli prohrávat.
+        -
+                uuid: a741eb32-9f23-4d00-b29f-b96693c5905a
+                topic: Trojská válka
+                front: Jak se jmenoval Achillův nejlepší přítel?
+                back: Patroclus
+        -
+                uuid: 07c0e2d0-e670-45a6-9332-7e95657e35d8
+                topic: Trojská válka
+                front: Co udělal Achilles, když Patroclus po něm žádal, aby šel dál bojovat?
+                back: >
+                        Dovolil, aby Patroclus vzal na sebe jeho brnění a bojoval
+                        za něj.
+        -
+                uuid: 4b3beca8-a5e1-45c7-87a2-4778d6ac4480
+                topic: Trojská válka
+                front: Kdo zabil Patrokla a při čem?
+                back: >
+                        Hektor, další syn Priama a největší trojský válečník.
+                        <br>
+                        Patroclus umřel když odráželi Trojany.
+        -
+                uuid: 3f4a71ea-4dc9-44a1-97bc-04111d546657
+                topic: Trojská válka
+                front: Proč se Achilles naštval na Hektora?
+                back: >
+                        Protože Hektor zabil Patrokla.
+        -
+                uuid: 9f251a2c-dfb9-4230-bc8d-b1831dc22e40
+                topic: Trojská válka
+                front: Co udělal Achilles Hektorovi?
+                back: >
+                        Porazil ho (s velkým krveprolitím) a přitáhl ho
+                        za vozem do tábora.
+        -
+                uuid: f1515bf9-0de3-47f0-8f35-e28e402b2158
+                topic: Trojská válka
+                front: Co se stalo potom co Achilles přitáhl Hektorovu mrtvolu do tábora?
+                back: >
+                        V noci přišel král Priam aby žádal Achilla o tělo.
+                        S Achillem si pobrečeli za Hektora a Patrokla
+                        a Achilles tělo vrátí.
+        -
+                uuid: 2a7e4e53-451f-41f9-80b0-abc563cd5d96
+                topic: Trojská válka
+                front: Kdo byla Achillova matka?
+                back: >
+                        Bohyně Thetis
+        -
+                uuid: 42740302-2ed8-4a4b-bb21-66f1c74c13e8
+                topic: Trojská válka
+                front: Jaký měla vztah Hera a Zeus?
+                back: Hera byla jeho manželka
+        -
+                uuid: 80ae4877-c84c-4121-83cc-11bd01a8a5da
+                topic: Trojská válka
+                front: Na čí straně v Trojské válce byla Hera?
+                back: >
+                        Na straně Řeků
+        -
+                uuid: e1286185-2535-47d9-85e9-1e5f4e1ca1aa
+                topic: Trojská válka
+                front: Jakou roli měla Thetis v trojské válce?
+                back: >
+                        Žádala Dia, aby pomohl Trojanům, dokud Řekové nevrátí
+                        Achillovi jeho loot co mu sebral Agamemnón.
+        -
+                uuid: 5748cee7-9f1e-412a-a5a2-d3bc5fb75bef
+                topic: Trojská válka
+                front: Kdo byl Nestor?
+                back: Poradce Řeků
+        -
+                uuid: 34c1f2fa-7df8-48e0-8208-71387b442a88
+                front: Hefaistos
+                back: god of blacksmiths, craftsmen, artisans, sculptors, metals, metallurgy, fire and volcanoes

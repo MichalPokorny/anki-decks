@@ -28,8 +28,9 @@ notes:
                 front: >
                         Definice - Doména
                 back: >
-                        Doména nad výroky [$]L[/$]: [$]\\Sigma=(s,A,\\gamma)[/$],
-                        kde [$]s\\subseteq \\P(L)[/$] je stav.
+                        [$]L[/$] je konečná množina výrokových symbolů.<br>
+                        Doména nad výroky [$]L[/$]: [$]\\Sigma=(S,A,\\gamma)[/$],
+                        kde [$]S\\subseteq\\mathcal{P}(L)[/$] je množina stavů.
         -
                 uuid: 121e9e45-d6a2-4170-acf4-143a3e826192
                 topic: STRIPS plánování

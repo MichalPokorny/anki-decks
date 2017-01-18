@@ -789,3 +789,19 @@ notes:
                         show an irritating parochialism, to ... an almost total
                         exclusion of papers not in English."]
                 include_reverse: true
+        -
+                uuid: d4dd64a3-71e5-4a3e-ab86-def849818470
+                front: suppliant
+                back: a person making a humble or earnest plea to someone in power or authority
+                include_reverse: true
+        -
+                uuid: 8f75851e-c7d1-4646-bb92-e2a8d2093c3d
+                front: hubris
+                back: excessive pride or self-confidence; (in Greek tragedy) excessive pride towards or defiance of the gods, leading to nemesis
+                include_reverse: true
+        -
+                uuid: 6a085dc2-84f2-4daa-812c-b9cf5d01ffda
+                front: nemesis
+                back: >
+                        the inescapable agent of someone's or something's downfall; a long-standing rival; an arch-enemy; a downfall caused by an inescapable agent
+                include_reverse: true

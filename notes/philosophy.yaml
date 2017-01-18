@@ -17,3 +17,10 @@ notes:
                 front: solipsism
                 back: the view or theory that the self is all that can be known to exist.
                 include_reverse: true
+        -
+                uuid: 400378e0-9601-42e0-b77a-d0ee215842af
+                front: metaphysics
+                back: >
+                        the theory of reality: "What is there?"
+                include_reverse: true
+
