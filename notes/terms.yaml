@@ -805,3 +805,8 @@ notes:
                 back: >
                         the inescapable agent of someone's or something's downfall; a long-standing rival; an arch-enemy; a downfall caused by an inescapable agent
                 include_reverse: true
+        -
+                uuid: 5ea1f2f2-da5d-41e2-b862-905f712c8414
+                front: it takes one to know one
+                back: The person who expressed criticism has similar faults to the person being criticized. This classic retort to an insult dates from the early 1900s.
+                include_reverse: true

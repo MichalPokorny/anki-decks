@@ -21,6 +21,10 @@ for path in yaml_files:
             raise
 
         for note in data['notes']:
+            if not note:
+                print(path)
+                print("no note")
+                sys.exit(1)
             if 'uuid' not in note:
                 print(note)
                 print('No UUID')

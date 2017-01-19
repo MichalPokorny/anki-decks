@@ -124,20 +124,38 @@ notes:
                 front: K čemu je pseudoinverzní matice?
                 back: >
                         Hledáme váhovou matici pro asociační paměť že [$]XW=Y[/$].
-                        Ale k [$]X[/$] nemusí existovat inverze, tak hledáme matici co minimalizuje [$]\\|XW-Y\\|^2[/$], to minimalizuje [$]W=\\tilde{X}Y[/$]
+                        Ale k [$]X[/$] nemusí existovat inverze, tak hledáme
+                        matici co minimalizuje [$]\\|XW-Y\\|^2[/$], to
+                        minimalizuje [$]W=\\tilde{X}Y[/$]
         -
                 uuid: 2d2d66de-68ad-4ced-bc71-877cf5c8949e
-                front: Použití pseudoinverzní matice pro minimalizaci odchylky v single-layer BP síti
+                front: >
+                        Použití pseudoinverzní matice pro minimalizaci odchylky
+                        v single-layer BP síti
                 back: >
-                        Chci nulový gradient, který je podle váhy [$]w_{ij}[/$] rovný [$]-2\\sum_{p=1}^P (\\sum_{i=1}^n d_{j,p}-w_{ij} x_{i,p})x_{i,p}[/$]
-                        Maticově: [$]WXX^T=DX^T[/$]. K [$]XX^T[/$] můžeme použít pseudoinverzi.<br>
+                        Odchylka: [$]E = \\sum_{p=1}^P \\sum_{j=1}^m (d_{j,p}-y_{j,p})^2[/$]
+                        <br>
+                        [$$]y_{j,p} = \\sum_{i=1}^n w_{ij} x_{i,p}[/$$]
+                        <br>
+                        Gradient:
+                        [$$]\\partial E/\\partial w_{ij} =
+                        -2\\sum_{p=1}^P (\\sum_{i=1}^n d_{j,p}-w_{ij} x_{i,p})x_{i,p}[/$$]
+                        Budeme ho chtít mít nulový.
+                        <br>
+                        Maticově: [$]WXX^T=DX^T[/$]. K [$]XX^T[/$] obecně nemusí
+                        existovat inverzní matice.<br>
 
-                        Řešení může být víc: omezíme velikosti vah: [$]E=\\lambda\\sum_{i=1}^n \\sum_{j=1}^m w_{ij}^2[/$].<br>
+                        Řešení může být víc: omezíme velikosti vah:
+                        [$]E += \\lambda\\sum_{i=1}^n \\sum_{j=1}^m w_{ij}^2[/$].<br>
 
-                        Minimalizace přes parciální derivace: [$]W(XX^T+\\lambda I)=DX^T[/$]<br>
+                        Minimalizace přes parciální derivace:
+                        [$]W(XX^T+\\lambda I)=DX^T[/$]<br>
 
                         Pro [$]\\lambda>0[/$] existuje inverze k [$]XX^T+\\lambda I[/$],
-                        tak to takhle vyřešíme pro [$]W[/$].<br>
+                        tak to takhle vyřešíme pro [$]W[/$]:<br>
+                        [$$]
+                        W(XX^T+\\lambda I)(XX^T+\\lambda I)^{-1}=DX^T(XX^T+\\lambda I)^{-1}
+                        [/$$]<br>
 
                         Limitně pro [$]\\lambda\\rightarrow 0[/$]: [$]W = D\\tilde{X}[/$].
                         Když je více řešení, tak tohle minimalizuje součet čtverců vah.

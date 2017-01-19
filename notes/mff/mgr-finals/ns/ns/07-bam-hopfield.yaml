@@ -23,8 +23,8 @@ notes:
                 back: >
                         Hebbovským učením.
 
-                        Pro jeden vzor: [$]W=x^T y[/$], takže [$]y=\\sgn(xW)=\\sgn(x x^T y) = \\sgn(\\|x\\|^2 y)=y[/$],
-                        to samé pro [$]x[/$].
+                        Pro jeden vzor: [$]W_{(i)}=y_{(i)} x_{(i)}^T[/$], takže [$]y_{(i)}=\\sgn(Wx_{(i)})=\\sgn(y_{(i)} x_{(i)}^T x_{(i)}) = \\sgn(\\|x_{(i)}\\|^2 y_{(i)})=y_{(i)}[/$],
+                        to samé pro [$]x_{(i)}[/$].
         -
                 uuid: 82cf4129-ca2e-4a32-888c-3e5743f707ef
                 front: Jak vypadá energetická funkce BAM bez prahů?

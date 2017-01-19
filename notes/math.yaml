@@ -108,14 +108,14 @@ notes:
         -
                 uuid: fad18700-163d-4439-8c3f-bb7e613a54dc
                 front: >
-                        [$$]\\lim_{n\\rightarrow\\infty} (1-\\frac{1}{n})^n[/$$]
+                        [$$]\\lim_{n\\rightarrow\\infty} \\left(1-\\frac{1}{n}\\right)^n[/$$]
                 back: >
                         [$]1/e[/$] přes limitu
                 include_reverse: true
         -
                 uuid: 09762a50-6134-4680-a011-a2f15084c653
                 front: >
-                        [$$]\\lim_{n\\rightarrow\\infty} (1+\\frac{1}{n})^n[/$$]
+                        [$$]\\lim_{n\\rightarrow\\infty} \\left(1+\\frac{1}{n}\\right)^n[/$$]
                 back: >
                         [$]e[/$] přes limitu
                 include_reverse: true
@@ -123,7 +123,7 @@ notes:
                 uuid: 596c2736-2780-4111-b181-57558a8ba3b2
                 front: Stirling's approximation of [$]n![/$]
                 back: >
-                        [$$]\\sqrt{2\\pi n}(\\frac{n}{e})^n[/$$]
+                        [$$]\\sqrt{2\\pi n}\\left(\\frac{n}{e}\\right)^n[/$$]
         -
                 uuid: c68cbdd1-404a-49bd-8523-ebad279b53b2
                 front: Co je to Mersennovo prvočíslo?
@@ -132,6 +132,6 @@ notes:
         -
                 uuid: f40d801e-4a21-492d-960a-75fd03dfdf01
                 front: >
-                        Čtyři Mersennova prvočísla
+                        Pět Mersenných prvočísel
                 back: >
-                        [$]2^{31}-1[/$], [$]2^{61}-1[/$], [$]2^{89}-1[/$], [$]2^{107}-1[/$]
+                        [$]2^{31}-1[/$], [$]2^{61}-1[/$], [$]2^{89}-1[/$], [$]2^{107}-1[/$], [$]2^{127}-1[/$]

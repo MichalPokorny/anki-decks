@@ -80,4 +80,78 @@ notes:
                         Plánování s plánovacím grafem: plánovací graf je statická
                         struktura zakódovatelná jako CSP, použijeme CSP
                         na extrakci plánu.
-        # missing: Graphplan jako CSP, SAT
+        -
+                uuid: 0eaf5364-c57f-4d4a-b6c8-35653a897312
+                topic: Graphplan jako CSP
+                front: Kódování do CSP - role proměnných, domén, omezujících podmínek
+                back: >
+                        Proměnné: výroky ve stavových vrstvách.
+                        <br>
+                        Domény: akce, které mají atom jako pozitivní efekt,
+                        [$]\\perp[/$] pro neaktivní atom.
+                        <br>
+                        Omezující podmínky: spojují pozitivní efekty s
+                        předpoklady akce; mutexy.
+        -
+                uuid: 7373e1b3-4933-4c33-b38c-623723445edd
+                topic: Graphplan jako CSP
+                front: Kódování do CSP - přesné podmínky
+                back: >
+                        [$]p_{4,m}=a \\longrightarrow p_{1,m-1}\\neq\\perp\\wedge
+                        p_{2,m-1}\\neq\\perp[/$]:
+                        akce má předpoklady [$]p_1[/$], [$]p_2[/$] a pozitivní
+                        efekt [$]p_4[/$]; přidám podmínku pro každý pozitivní efekt.
+                        <br>
+                        Mutex mezi atomy: [$]p_{i,m}=\\perp\\vee p_{j,m}=\\perp[/$]
+                        <br>
+                        Akce jsou mutex, provaž jejich pozitivní efekty:
+                        [$]p_{i,m}\\neq a\\vee p_{j,m}\\neq b[/$]
+                        <br>
+                        Kódování cíle: [$]p_{i,k}\\neq\\perp[/$] ([$]k[/$] je
+                        poslední vrstva).
+                        <br>
+                        V jedné vrstvě je přiřazena proměnným maximálně jedna
+                        akce jiná než no-op (tj., žádné paralelní akce).
+                        Minimálně jedna akce jiná než no-op na vrstvu (žádné
+                        prázdné vrstvy).
+        -
+                uuid: d30a0b9f-3881-4c10-8aeb-d2f86a0125d5
+                topic: Graphplan jako BCSP
+                front: BCSP proměnné, domény
+                back: >
+                        Boolean proměnné pro akční uzly a výrokové uzly
+                        ([$]A_{j,m}, P_{j,n}[/$]). True: akce/výrok je aktivní.
+                        Podmínky kódují mutexy, spojují akce s předpoklady
+                        a pozitivními efekty.
+        -
+                uuid: cd07db05-30ad-44d1-9ecf-912454c1df00
+                topic: Graphplan jako BCSP
+                front: BCSP podmínky
+                back: >
+                        Pro předpoklady akce: [$]A_{i,m}\\rightarrow P_{j,m-1}[/$]<br>
+                        Podmínky pro následující stav:
+                        [$$]p_{i,m}\\leftrightarrow (\\bigvee_{p_i\\in\\mathrm{eff]^+(a_j) A_{j,m})
+                        \\vee (p_{i,m-1} \\wedge (\\bigvee_{p_i\\in\\mathrm{eff}^-(a_j)} \\neg A_{j,m}))[/$$]
+                        <br>
+                        Stav je aktivní, byl-li přidán a nebyl-li smazán.
+                        (Nepoužívám no-opy.)
+                        Podmínky pro mutex jsou potřeba, abych nedovolil zároveň smazat a přidat.<br>
+                        Mutex: [$]\\neg A_{i,m} \\vee \\neg A_{j,m}[/$],
+                        [$]\\neg P_{i,n} \\vee \\neg P_{j,n}[/$]
+                        <br>
+                        Nastavení počátečních a koncových atomů.
+                        <br>
+                        Žádné paralelní akce a žádné prázdné vrstvy.
+        -
+                uuid: 6df84a72-3b04-4892-96a5-793fbd68bb2a
+                front: Porovnání kódování Graphplan jako CSP a SAT
+                back: >
+                        CSP kódování je kompaktnější. Nepotřebuje axiomy vyloučení akcí (protože na to je proměnná).<br>
+        -
+                uuid: 1e7ecb60-bcd1-409f-8dbe-d10d7e058d42
+                front: CSP, SAT jsou NP-c, ale plánování je PSPACE- nebo NEXPTIME-c. Jak to?
+                back: >
+                        Převod plánování na SAT/CSP exponenciálně zvětší problém.
+                        V SATu se exponenciálně zvětší počet proměnných,
+                        v CSP je proměnných sice lineárně hodně, ale narůstají
+                        domény.

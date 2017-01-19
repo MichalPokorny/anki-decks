@@ -378,7 +378,17 @@ notes:
         -
                 uuid: dcae06a4-33c2-4df2-9fb3-dbb4c45ba3f9
                 front: Věta [$]\\mathrm{NSPACE}(f(n))[/$] a [$]\\mathrm{TIME}(2^{c_L f(n)})[/$]
-                back: Ať [$]f(n)[/$] je funkce kde [$]f(n)\\geq\\log_2 n[/$]. Pak pro každý [$]L\\in NSPACE(f(n))[/$] platí [$]L\\in TIME(2^{c_L f(n)})[/$], kde [$]c_L[/$] je konstanta závislá na jazyku [$]L[/$].
+                back: >
+                        Ať [$]f(n)[/$] je funkce kde [$]f(n)\\geq\\log_2 n[/$].
+                        Pak pro každý [$]L\\in \\mathrm{NSPACE}(f(n))[/$] platí
+                        [$]L\\in \\mathrm{TIME}(2^{c_L f(n)})[/$], kde
+                        [$]c_L[/$] je konstanta závislá na jazyku [$]L[/$].
+        -
+                uuid: 0c0ba73a-68d5-43e5-917c-b70fa45f345c
+                front: Ať je [$]L\\in\\mathrm{NSPACE}(f(n))[/$]. Co víme o čase?
+                back: >
+                        [$$]L\\in\\mathrm{TIME}(2^{c_L f(n)})[/$$]
+                        (pro nějakou konstantu [$]c_L[/$] závislou na [$]L[/$])
         -
                 uuid: b4b43824-cbd5-4aad-81a0-bf5c3df8b35b
                 front: >

@@ -382,7 +382,7 @@ notes:
                         Analyzujeme s tím, že to jsou neznámé.
         -
                 uuid: 02c3fb00-23d9-4011-869f-9287b94fb132
-                front: Transpozice matice cache-obliviously. Jaký má předpoklad?
+                front: Transpozice matice cache-obliviously. Jaký má předpoklad? Jakou má složitost?
                 back: >
                         Rekurzivně po čtvrtinách. Předpoklad: [$]M\\geq B^2[/$] (tall cache assumption)
 
@@ -505,25 +505,25 @@ notes:
                 back: >
                         [$]n[/$] košů a [$]n[/$] míčků, které házím náhodně.
                         <br>
-                        [$$]P[\\text{kos je prazdny}]=(1-\\frac{1}{n})^2\\rightarrow_{n\\rightarrow\\infty} \\frac{1}{e}[/$$]
+                        [$$]P[\\text{kos je prazdny}]=\\left(1-\\frac{1}{n}\\right)^n\\rightarrow_{n\\rightarrow\\infty} \\frac{1}{e}[/$$]
         -
                 uuid: 468efc83-6992-449e-a0a1-b17b35267089
                 topic: Hashování
                 front: Balls & bins - pravděpodobnost, že koš obsahuje [$]k[/$] míčků
                 back: >
                         [$$]P[\\text{kos ma}\\ n\\ \\text{micku}]=
-                                {n\\choose k} \\frac{1}{n^k} (1-\\frac{1}{n})^{n-k} \\simeq_{k<<n} \\frac{n^k}{k!} \\cdot \\frac{1}{n^k} \\cdot \\frac{1}{e} = \\frac{1}{e \\cdot k!}[/$$]
+                                {n\\choose k} \\frac{1}{n^k} \\left(1-\\frac{1}{n}\\right)^{n-k} \\simeq_{k<<n} \\frac{n^k}{k!} \\cdot \\frac{1}{n^k} \\cdot \\frac{1}{e} = \\frac{1}{e \\cdot k!}[/$$]
         -
                 uuid: ac807671-0264-404e-b631-1cb43628151d
                 topic: Hashování
                 front: Balls & bins - jaké je maximum v libovolném košíku?
                 back: >
                         S velkou pravděpodobností [$]\\Theta(\\log n/\\log \\log n)[/$].
-                        >
+                        <br>
                         [$]n! < n^n[/$]. Vezmi [$]x=\\log n/\\log\\log n[/$].
                         [$]x^x < n[/$], pokud [$]x \\log x < \\log n[/$].<br>
-                        [$$](x \\log x) = (\\frac{\\log n}{\\log\\log n})\\log(\\frac{\\log n}{\\log\\log n}) < \\log x[/$$]<br>
-                        >
+                        [$$] (x \\log x) = (\\frac{\\log n}{\\log\\log n})\\log(\\frac{\\log n}{\\log\\log n}) < \\log x[/$$]<br>
+                        <br>
                         Pravděpodobnost, že v jednom koši je [$]k[/$] míčků, je [$]\\Theta(\\frac{1}{k!})[/$],
                         pravděpodobnost, že v jednom koši je [$]\\geq k[/$], je [$]\\Theta(\\frac{1}{k!})[/$].
                         <br>
@@ -666,7 +666,7 @@ notes:
                 front: Příklady 2-univerzálních hashovacích systémů
                 markdown: false
                 back: >
-                        Hashování [$](ax+b)\bmod m[/$].
+                        Hashování [$] (ax+b)\bmod m[/$].
                         Maticové násobení.
                         Hashování konvolucí.
                         Hashování multiply-shift.
@@ -674,7 +674,7 @@ notes:
 
         -
                 uuid: 142132d5-e801-478c-ad31-62242ad61c7b
-                front: Hashování [$](ax+b)\\bmod m[/$] a vlastnosti
+                front: Hashování [$] (ax+b)\\bmod m[/$] a vlastnosti
                 back: >
                         [$]m[/$] prvočíslo, [$]H=\\{h_{a,b}:a,b\in [m-1]\\}[/$],
                         [$]h_{a,b}(x)=(ax+b) \\bmod m[/$]<br>
@@ -695,7 +695,7 @@ notes:
                 back: >
                         [$]w,k\\in \\Z, h:\\{0,1\\}^w\\rightarrow\\{0,1\\}^k[/$],
                         [$]H=\\{h_{a,b}:a\\in\\{0,1\\}^{w+k-1},b\\in\\{0,1\\}^b\\}[/$].
-                        [$](h_{a,b}(x))_j=b_j+\\sum_{i=1}^w a_{i+j-1} x_i[/$]
+                        [$] (h_{a,b}(x))_j=b_j+\\sum_{i=1}^w a_{i+j-1} x_i[/$]
                         <br>
                         Konvoluce je nepraktická. Je 2-univerzální.
         -
