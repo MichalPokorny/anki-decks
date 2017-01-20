@@ -175,7 +175,7 @@ notes:
                 back: >
                         Pomalá změna excitace v čase, kde [$]\\gamma>0[/$] je adaptační parametr:<br>
                         [$$]
-                        \\frac{d u_i}{dt} = \\gamma(-u_i+\\sum_{j=1}^n w_{ij}x_j) = \\gamma(-u_i+\\sum_{j=1}^n w_{ij}s(u_j))
+                        \\frac{d u_i}{dt} = \\gamma(-u_i+\\sum_{j=1}^n w_{ij}x_j) = \\gamma(-u_i+\\sum_{j=1}^n w_{ij}\\sigma(u_j))
                         [/$$]<br>
 
                         Výpočet: diskrétně aproximovat derivaci a přičíst<br>
@@ -200,7 +200,7 @@ notes:
 
                         Přitom [$]du_i/dt = \\gamma(\\sum_{j=1}^n w_{ij}x_j - u_i)[/$], tedy [$]dE/dt=-\\frac{1}{\\gamma}\\sum_{i=1}^n \\frac{dx_i}{dt}\\frac{du_i}{dt}[/$]<br>
 
-                        Dosaď [$]x_i=s(u_i)[/$]: [$]dE/dt = -\\frac{1}{\\gamma}\\sum_{i=1}^n \\sigma'(u_i) (\\frac{du_i}{dt})^2[/$]<br>
+                        Dosaď [$]x_i=\\sigma(u_i)[/$]: [$]dE/dt = -\\frac{1}{\\gamma}\\sum_{i=1}^n \\sigma'(u_i) (\\frac{du_i}{dt})^2[/$]<br>
 
                         Protože [$]\\sigma'(x_i)>0[/$] (sigmoida roste) a [$]\\gamma>0[/$], tak [$]dE/dt\\leq 0[/$].
         -
@@ -218,7 +218,7 @@ notes:
                         Hopfieldova síť<br>
                         Aktualizace stavu [$]x_i[/$] na 1: pravděpodobnost [$]p_i[/$], jinak na 0<br>
 
-                        [$$]p_i = \\sigma(\\frac{\\sum_{j=1}^n w_{ij} x_j - \\theta_i}{T})[/$$]
+                        [$$]p_i = \\sigma\\left(\\frac{\\sum_{j=1}^n w_{ij} x_j - \\theta_i}{T}\\right)[/$$]
         -
                 uuid: 2626be18-48e4-4d6e-9167-678859a66e4e
                 topic: Boltzmannův stroj

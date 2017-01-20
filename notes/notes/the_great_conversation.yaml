@@ -336,3 +336,521 @@ notes:
                 front: Heaven in Greek
                 back: Ouranos
                 include_reverse: true
+        # chapter 2 (philosophy before Socrates)
+        -
+                uuid: 0434b35c-f0bd-4619-a820-328baf2c0b4f
+                front: >
+                        Pre-socratics: what characterized them? Do we have their writing?
+                back: >
+                        Nature philosopher/protoscientists; they wrote books, but they're mostly lost
+        -
+                uuid: daabc90d-fe5a-4421-bdff-efbada955607
+                topic: Anaximenes
+                front: Which range of history is he from?
+                back: Pre-socratics
+        -
+                uuid: d0d237b1-6e5e-485a-8488-deca0de1b0c0
+                topic: Empedocles
+                front: Which range of history is he from?
+                back: Pre-socratics
+        -
+                uuid: df87afab-3857-4293-897f-75b3dd2a0d5d
+                topic: Anaxagoras
+                front: Which range of history is he from?
+                back: Pre-socratics
+        -
+                uuid: 966b8a06-c355-4561-90a6-27073991266a
+                front: Birth and death of Thales of Miletus
+                back: 625 BC - 547 BC
+        -
+                uuid: 430b97e3-42f6-4666-8cc7-6ab6705b79da
+                front: Who did Aristotle call the founder of philosophy?
+                back: Thales of Miletus
+        -
+                uuid: c6561815-915a-446b-93df-fa57beed4cd2
+                front: What were Thales's main views?
+                back: >
+                        1) The cause and element of all things is water.<br>
+                        2) All things are filled with gods.
+        -
+                uuid: fee2059a-3c1d-4550-a263-d6f12ebdbe5d
+                front: What was Thales's radical departure?
+                back: >
+                        Accounts for what he can see/touch in terms of other
+                        things he can see/touch (water principle).
+                        No gods in there.
+                        <br>
+                        All things are filled with gods, so Zeus doesn't strike
+                        someone's house because he's angry with him.
+                        <br>
+                        If we want to understand this world, we should look
+                        into this world, not in another.
+        -
+                uuid: a44d773e-0a80-4860-96ea-1f42d7ce96cb
+                front: Anaximander - where was he from? When was he born? Who did he probably know?
+                back: >
+                        He was from Miletus, born around 612 BC. He may have known Thales.
+        -
+                uuid: 3a122a1c-e89f-43c1-a8a4-e2cd7ee7d431
+                front: Anaximander's ideas
+                back: >
+                        The One as the Boundless. The cause of everything
+                        (since everything has to have a cause). The "divine"/infinite.
+        -
+                uuid: 9db3267d-0bf0-4f51-a65e-9ad844dbf01d
+                front: What kind of religious thinking does Anaximander represent?
+                back: >
+                        Reinterpreting gods with a wide justification ("the cause of all causes")
+        -
+                uuid: b87327f3-b95c-45dd-a433-87f0cc81a294
+                front: Greeks's problem with Thales's idea of "everything is water"
+                back: >
+                        How are there opposites if everything is one?
+                        (e.g., how is something dry and something wet?)
+        -
+                uuid: 7ccddca0-7edd-4096-a175-47b1ab023f70
+                front: The source of all things according to Anaximander
+                back: >
+                        The One and the Boundless
+                include_reverse: true
+        -
+                uuid: 3c9775c1-81c9-4bdc-817e-ee560a5933a1
+                front: Everything is water - who thought that?
+                back: Thales
+        -
+                uuid: e3a9566c-2594-4b8c-9426-2357c30d1c3f
+                front: Everything is The One/the Boundless - who thought that?
+                back: Anaximander
+        -
+                uuid: 8f0b0cdc-2f4d-4304-88c9-02e955959550
+                front: Anaximander's explanation of differentiation of the One
+                back: >
+                        The One is undifferentiated, chaotic.
+                        <br>
+                        Take a big pan and put in water, stones, sand, etc.
+                        <br>
+                        Swirl the water around.
+                        <br>
+                        Like goes to like: heavy bits to heavy bits, etc.
+                        <br>
+                        How do we know that the Boundless swirls? Sun, moon,
+                        stars, etc. swirl.
+        -
+                uuid: 34c83b80-9776-4e22-b9ad-caaeb5f6df72
+                topic: Anaximander
+                front: What is the order of elements by weight?
+                back: Fire (lightest and hot), air, water, earth (heaviest and cold)
+        -
+                uuid: d4a1f8f6-c733-491f-b2fe-444b8aa80503
+                topic: Anaximander
+                front: >
+                        Explain: existing things make reparation to one another for their injustice according to the ordinance of time
+                back: >
+                        Anaximander předpokládá balanci, která musí být navrácena,
+                        ať převážil kterýkoli element.
+                        Je to extenze Homerova vidění (který vykresloval balanci
+                        emocí - hněv, pýcha vedou k boží odplatě).
+                        Tento princip podle Anaximandra platí i všude ve světě,
+                        nejen mezi lidmi.
+                        Tento princip taky není od bohů, ale od světa samotného.
+                        Takhle podle Anaximandra svět prostě funguje - to je
+                        odpojení od Homéra (s Thaletem).
+        -
+                uuid: 2f978191-45ec-4538-bd18-ffd8f4a80538
+                topic: Xenophanes
+                front: Main difference from Anaximander
+                back: >
+                        Xenophanes explicitly noticed that his results are at
+                        odds with tradition. (Anaximander didn't point this out.)
+        -
+                uuid: e27d61fa-2dc4-4c20-8ef6-27b202d07526
+                topic: Xenophanes
+                front: Two points of critique of gods
+                back: >
+                        Gods (of Hesiod/Homer) are unworthy of admiration or reverence.
+                        They decept, steal, sleep with each others' wives, etc.
+                        (Later further developed by Plato.)
+                        <br>
+        -
+                uuid: 888321eb-43d7-4e3d-a303-73e9e94c7af4
+                topic: Xenophanes
+                front: His accusation of Homer
+                back: >
+                        Horses' gods would have horse heads, etc.; god does
+                        not make man in his own image, we make gods in our
+                        own image (Ethiopians make their gods snub-nosed
+                        and black, Thracians make theirs gray-eyed and red-haired.)
+                        <br>
+                        Accuses that Homer is inventing stories.
+        -
+                uuid: 54cb5077-b603-4603-8f37-08e0c807bde0
+                topic: Xenophanes
+                front: His conception of divine
+                back: >
+                        One god, greatest among gods and men, in no way similar
+                        to mortals either in body or mind.
+                        He sees all over, thinks all over, hears all over.
+                        Remains in the same place.
+                        Without toil, he sets all things in motion by
+                        the thought of his mind.
+                        (Stresses difference from Homeric tradition.)
+        -
+                uuid: 63ecc4e1-ce02-4851-b295-a55cba1da53c
+                front: Why did Xenophanes believe the one god was intelligent?
+                back: >
+                        Greeks' background assumption: where there is order,
+                        there is intelligence
+        -
+                uuid: a1c217d1-f124-4980-b769-25e176739ffc
+                front: Who was Iris?
+                back: >
+                        Goddess, messenger from Gods to men, identified
+                        with rainbow
+        -
+                uuid: 8f3dcd53-cfe0-4728-b11d-59c6983d55c0
+                front: When was Pythagoras born?
+                back: 570 BC
+        -
+                uuid: 52f211fe-738d-4d16-8446-a2598b95b245
+                front: Pythagoreans' belief
+                back: >
+                        All things are numbers.
+                        Developed abstract geometry.
+        -
+                uuid: 93bfa43c-c906-4dd0-85f1-274fd954cfff
+                front: Music of the spheres
+                back: >
+                        Pythagoreans believed sun, moon etc. make a noise as they move (like a piece of wood on a string).
+                        This is a cosmic harmony.
+        -
+                uuid: 9ef544ed-a716-44ac-9f48-053b1d1a8bad
+                front: Pythagoras about the soul
+                back: >
+                        It's a distinct immortal entity, "entombed" in a body.
+                        Afterwards, it migrates to a different body,maybe to an animal.
+                        Mathematics was a means to purify the soul.
+        -
+                uuid: 0c3241cf-c307-42ef-8a37-e9b4de83cd1e
+                front: Why were Pythagoreans vegetarians?
+                back: >
+                        Because they believed in reincarnation.
+        -
+                uuid: 6168337a-4d0f-4470-b1fd-89f279c7235d
+                front: Pythagoras on philosophers
+                back: >
+                        Pythagoras first called himself a philosopher, a lover of wisdom.
+                        According to him, noone is wise but the god.
+        -
+                uuid: 0b4091da-01cc-43e0-93f4-788787627f71
+                front: Greeks on the origin of poetry, etc., and departure of Xenophanes
+                back: >
+                        Muses act through the artist.<br><br>
+                        Xenophanes: gods haven't revealed everything true to us,
+                        we find out ourselves *in time* (not all at once).
+                        No man knows the truth, nobody will ever know about gods.
+                        Claim of divine revelation is not guarantee of truth.
+        -
+                uuid: 77f61672-bbb4-4b9c-9fd6-dde1cf2650d8
+                front: The father of epistemology
+                back: Xenophanes
+        -
+                uuid: 1fcad91d-7a80-463f-a2ba-9ce00c18a1ee
+                front: Rough peak of Heraclitus
+                back: ~500 BC
+        -
+                uuid: 765cbe2d-179b-4216-bd36-cde17b47ac66
+                front: What was Heraclitus' epithet and why?
+                back: >
+                        "Heraclitus the obscure" (by Romans) - he wrote
+                        in riddles (we only have fragments of his book).
+        -
+                uuid: 6c15cb60-1464-4e34-a811-ecb27a112a36
+                front: Heraclitus' principles
+                back: >
+                        <ul>
+                        <li> All things come into being through opposition, and all are in flux, like a river
+                        <li> Upon those who step into the same rivers flow other and yet other waters ("you cannot step into the same river twice")
+                        <li> Things that are opposite are at the same time one ("sea water is very pure - drinkable/healthful for fish - and impure - to men").
+                             The way up and the way down are the same.
+                        <li> Tension/opposition/conflict are necessary
+                        </ul>
+
+                        Flux: river/fire
+        -
+                uuid: 7493b2c1-84d2-44a4-9fd1-8d7a6de6954d
+                front: Where are sun/stars, according to Araximander?
+                back: Outermost ring of fire (luminous aether); the gods live there, Olympus is immersed in it
+        -
+                uuid: a522198c-abe7-4584-a381-660e2b8847ae
+                front: Heraclitus' view of strife
+                back: >
+                        Necessary.
+                        "To god, all things are beautiful and good and just; but men suppose some things to be just and others unjust."
+        -
+                uuid: c420bb5e-6927-4467-88d2-63f593a35b2d
+                front: Heraclitus on god's intelligence
+                back: >
+                        It is not characteristic of men to be intelligent; but it is characteristic of god.
+        -
+                uuid: e0a21b5b-fb7c-413a-888c-a29fae67a858
+                front: Meaning of "logos"
+                back: >
+                        The words a speaker says.<br>
+                        "The word" - something like "message" / "discourse".
+                        Also, "rationale" or "argument" for the thought in the message.
+        -
+                uuid: 6fa4b555-d861-423f-81d4-57dc08095767
+                front: Origin of term "logic"
+                back: >
+                        From "logos"; the job of logic is building rationale/arguments for messages
+        -
+                uuid: 65bce2d4-10e8-4e61-ae6c-a027625ab496
+                front: Logos for Heraclitus
+                back: >
+                        How things come into being; the structure of the world-order.
+                        There is a logic to it that can be seen as reasonable and right.
+                        It is not understood, through, by "the many".
+                        Contrast between the few who are wise and the many who are foolish.
+        -
+                uuid: dcee433c-d156-41c3-82b8-16a66bb629e7
+                front: Why don't people understand Heraclitus's logos?
+                back: >
+                        Because they are at variance with it, so it seems alien to them.<br>
+                        Through you can't say/do anything without being in the logos,
+                        we are like sleepers living in private dreams.
+                        Hence we become foolish rather than wise.
+        -
+                uuid: 090344b2-2628-441a-9aad-195b8d3be45c
+                front: According to Heraclitus, what does it mean to be wise?
+                back: >
+                        To understand the thought which steers all things through all things.
+                        It is willing and unwilling to be called Zeus.
+        -
+                uuid: a7660ac4-167c-4e39-93aa-e6f25e6d0051
+                front: Xenophanes, Heraclitus, Pythagoras, Parmenides, ...
+                back: Presokratici
+        -
+                uuid: 8a1cc574-6ad7-405e-9c19-94235527bca7
+                front: The story of Croesus and the Delphi oracle
+                back: >
+                        Croesus was king of Lydians.
+                        He wanted to know whether to go to war against the Persians.
+                        The Oracle said: "If you go to war, a mighty empire will fall."
+                        He was encouraged to go to war, and defeated, lost his empire.
+        -
+                uuid: 4b33ba66-6c17-4131-92d4-7ffe4114e3f1
+                topic: Heraclitus
+                front: How can we come to understand the world-order?
+                back: >
+                        Not by listening to poets/seers/"wise men",
+                        but by using our eyes and ears, but we must be
+                        careful, because senses can be "bad witnesses".
+                        They must be used critically - "not everyone understands
+                        their language".
+        -
+                uuid: 2528b597-5fe6-4826-aa7f-eb5c5c2b5295
+                topic: Heraclitus
+                front: How should humans, according to the logos?
+                back: >
+                        It is not good for men to get all they wish. [because it would destroy the necessary tensions]<br>
+                        If happiness were just bodily pleasures,
+                        we ought to call oxen happy who find vetch to eat.<br>
+                        It is hard to fight against impulse, for what it wants
+                        it buys at the expense of the soul.<br>
+                        Moderation is the greatest virtue.<br>
+                        Wisdom is to speak the truth and to act according to nature,
+                        giving heed to it.
+        -
+                uuid: 2e3a39f2-0ccd-49ee-bd5c-1c5915b77d83
+                topic: Heraclitus
+                front: Why must we limit our desires?
+                back: >
+                        Because opposition is the very life of the world-order.
+        -
+                uuid: 7208c154-82b5-42e8-a124-7bb1770bfdd1
+                topic: Parmenides
+                front: Basic idea
+                back: Only "the one" exists, there is no "many"
+        -
+                uuid: dc4bc21a-2386-4161-9583-4d4264952070
+                topic: Parmenides
+                front: Difference from Anixamander, Thales, Xenophanes, Heraclitus
+                back: These were Ionian, so he has a different tradition (he lived in southern Italy colonies)
+        -
+                uuid: 39fc45b8-ed3f-419a-b935-cbae4cb489f5
+                topic: Parmenides
+                front: Roughly when was he born, died?
+                back: >
+                        ~515 BC - ~450 BC
+        -
+                uuid: 21b68049-3cf0-42d8-98fa-d1a4ad77da81
+                topic: Parmenides
+                front: Claimed source of his poem (book)
+                back: Divine inspiration, but he presents an argument from a goddess
+        -
+                uuid: 668424b4-1896-40a1-b922-b5b119499cae
+                topic: Parmenides
+                front: Two parts of his poem
+                back: The Way of Truth, The Way of Opinion
+        -
+                uuid: 85879a6f-0efb-4934-af5b-bd9c784b87c6
+                topic: Parmenides
+                front: Why is there only The One?
+                back: >
+                        Consider any thought.
+                        If you think "the desk is brown", I am thinking what is.
+                        If I think falsely "the desk is not brown", it's just an unclear way of expressing the real thought -- that the desk is, say, grey.
+                        <br>
+                        To think at all, he says, is to think that something *is*. Thought and being are the same.
+                        Thinking and being are inseparable.
+                        It is necessary to speak and to think what is; for being is, but nothing is not.
+                        It's impossible to think of "nothing".
+                        <br>
+                        Hence, nothing comes into being or comes to pass,
+                        because it would mean thinking of "nothing".
+                        Change is impossible, as is the Heracleitan flux.
+        -
+                uuid: e5bfe75a-ad4d-413d-9ce8-e541f4cd303a
+                topic: Parmenides
+                front: Departure from Heraclitus
+                back: >
+                        Heraclitus says that to be and not to be is the same (i.e., "to be clean").
+                        Parmenides says those are not the same.
+        -
+                uuid: 4d8cc91b-7d2b-4ffb-8d70-53aeac9508cf
+                topic: Parmenides
+                front: What to do if arguments conflict with senses?
+                back: Disregard senses, go wherever your arguments take you; this is a departure from naturalist philosophers
+        -
+                uuid: 566f2d71-f485-4bfb-a9e0-2b89beacf570
+                front: Position that one should follow where reason takes us
+                back: rationalism
+        -
+                uuid: bc3f5420-5a3e-49bc-a754-81e7cce71b40
+                front: First rationalist philosopher
+                back: Parmenides
+        -
+                uuid: 8568e3dc-0cdc-4652-a913-b78f17ef376c
+                front: Parmenides's view of time
+                back: It's an illusion. What is is now.
+        -
+                uuid: 47a6ca37-4d77-4a92-b74d-b29b5e2c45f3
+                topic: Parmenides
+                front: Why is the One unseparable?
+                back: Because only what is not could separate what is from what is, and there is nothing that is not.
+        -
+                uuid: 00f0ac35-2da3-4123-a56c-30420faf012c
+                topic: Parmenides
+                front: How did Parmenides stumble into the problem of appearance and reality?
+                back: >
+                        It appears that what is changes and that things come to be and come to pass, but that's not really the case.
+        -
+                uuid: 9576f237-0c68-4857-b12b-59c7a12bf7c0
+                front: Zeno's connection to Parmenides
+                back: >
+                        Parmenides holds that the One is unchanging, etc.;
+                        Zeno supports it by showing that common sense (e.g., motion) is inconsistent.
+                        Zeno was Parmenides's pupil.
+        -
+                uuid: e14510e4-cc13-4ebf-99e2-5538da0b7535
+                front: Why won't Achilles ever catch the tortoise?
+                back: >
+                        When he starts, tortoise is at point A.
+                        When he reaches point A, tortoise is already at point B.
+                        Etc.
+        -
+                uuid: 73cb4db2-cd6f-485a-aae9-86ac96043677
+                front: Why doesn't the arrow fly?
+                back: >
+                        Where does it move?
+                        If it moves in where it is, then there's no space left for it to move into.
+                        If it moves in some space where it's not, it's not there, so that's not possible.
+        -
+                uuid: 5079a02b-7330-45ab-bbf6-6e16b604e399
+                topic: Atomism
+                front: Two figures preeminent in development of atomist thought
+                back: Leucippus, Democritus
+        -
+                uuid: 65ced142-57f2-43e0-89f4-b2a0cd5836b1
+                front: Monism
+                back: Believers in the One
+        -
+                uuid: 9c15c122-4990-4f4e-8338-5ad0df0f74c0
+                topic: Atomism
+                front: Leucippus Infinitely many Ones - name Democritus made for those
+                back: Atoms
+        -
+                uuid: 43f44258-50db-4d56-9d6e-9f26d6ce1423
+                topic: Atomism
+                front: Atomism argument
+                back: >
+                        Empty space *is*, it just contains nothing.<br>
+                        We can distinguish *what-is-not-at-all* from
+                        *what-does-not-contain-any-body*.
+                        <br>
+                        The One can be separated by *empty space*, not just
+                        by something that *is not*.
+        -
+                uuid: 6a7fc916-8641-41d0-8020-699a8ad75c17
+                topic: Democritus
+                front: Nothing vs. no-thing
+                back: >
+                       Nothing isn't. No-thing is, it's just empty.
+        -
+                uuid: 0ba3a089-2265-4163-b84b-395bcc3f2ae8
+                topic: Atomism
+                front: Origin of word "atom"
+                back: Greek root "not cuttable"
+        -
+                uuid: f3cb868b-3589-4e3c-aad5-e155f3113bb2
+                front: How do atomists explain the structure of the universe?
+                back: >
+                        Vortex motion, like goes to like
+        -
+                uuid: d22a8060-cc19-4d62-933d-d9f6ed444d2e
+                front: Difference between (Alaximander, Xenophanes, Heraclitus)'s view of god and atomistic (Democritus's) god
+                back: >
+                        Democritus's principle leaves no room for intelligent direction to things.
+                        What exists are atoms and void.
+                        There is *not further reason*, n purpose or intention behind it.
+                        Nothing occurs at random, but everything occurs for a reason and by necessity.
+        -
+                uuid: 235f991c-2a16-4f33-b4ea-fa89cefc44c1
+                topic: Atomism
+                front: Atomistic explanation of the soul
+                back: >
+                        Soul is from very fine, spherical atoms, interpenetrating the whole body.
+                        Their movement sets the body in motion.
+        -
+                uuid: 014db545-c034-48af-85cf-35bad1ed5429
+                topic: Atomism
+                front: Atomistic explanation of fire
+                back: Composed of small atoms that spontaneously move
+        -
+                uuid: c84f8a8f-6075-41ca-b37e-fc8348e16435
+                topic: Atomism
+                front: Atomistic explanation of senses
+                back: >
+                        Taste, hearing, etc.: shape and size of atoms, moving
+                        atoms
+                        <br>
+                        Sight: bodies of combined atoms are constantly giving
+                        off "images", composed of exceptionally fine atoms
+        -
+                uuid: 1995e5f4-d78d-4b7d-89d0-bba34834adc0
+                topic: Atomism
+                front: Character of sense knowledge
+                back: >
+                        No direct and certain knowledge of the world.
+                        Sweetness, bitterness (honey tastes bitter to
+                        some sick people) is in us, not in nature.
+        -
+                uuid: 6582a9b1-b85d-43af-9f42-9e68832e34f5
+                front: What does it mean for something to exist by convention?
+                back: >
+                        Its existence depends upon us (e.g., qualia)
+        -
+                uuid: 30516502-d3d2-4e54-8b9c-0ec439e432ed
+                front: Democritus and the good life
+                back: >
+                        He wrote extensively on it, but only fragments remain.

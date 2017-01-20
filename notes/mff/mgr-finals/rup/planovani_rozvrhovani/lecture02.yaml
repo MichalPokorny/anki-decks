@@ -136,6 +136,11 @@ notes:
                         Podmíněné operátory ("přepni přepínač" vs. "zapni" a "vypni").<br>
                         Disjunktivní předpoklady (libovolné formule)<br>
                         Připojené procedury (složitější předpoklady operátorů)<br>
-                        Logické axiomy (třeba "být vedle je ekvivalence") --
-                        musíme rozdělit atomy na primární (jsou v předpokladech i efektech)
+                        Logické axiomy (třeba "být vedle je ekvivalence")
+        -
+                uuid: 3c7255ce-7c7f-46b0-a41d-b6698f01153b
+                topic: STRIPS plánování
+                front: Co se musí udělat, když rozšíříme klasické plánování o logické axiomy?
+                back: >
+                        Musíme rozdělit atomy na primární (jsou v předpokladech i efektech)
                         a sekundární (jen v předpokladech) -- příklad "holding/empty"

@@ -175,7 +175,7 @@ notes:
                         (Říká se tomu Gibbs sampling.)
                         <br>
                         [$$]\\pi(x) q(x\\rightarrow x')=
-                        P(a_i, b_i|e) P(x_i'|b_i,e) =
+                        P(a_i, b_i|e) P(a_i'|b_i,e) =
                         [/$$]
                         [$$]=P(a_i|b_i,e) P(b_i|e) P(a_i'|b_i,e) =[/$$]
                         [$$]=P(a_i|b_i,e) P(a_i',b_i|e) = q(x'\\rightarrow x)\\pi(x')[/$$]

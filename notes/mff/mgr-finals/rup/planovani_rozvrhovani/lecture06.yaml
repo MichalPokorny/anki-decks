@@ -117,10 +117,13 @@ notes:
         -
                 uuid: d30a0b9f-3881-4c10-8aeb-d2f86a0125d5
                 topic: Graphplan jako BCSP
-                front: BCSP proměnné, domény
+                front: BCSP proměnné, domény, co dělají podmínky
                 back: >
                         Boolean proměnné pro akční uzly a výrokové uzly
-                        ([$]A_{j,m}, P_{j,n}[/$]). True: akce/výrok je aktivní.
+                        ([$]A_{j,m}, P_{j,n}[/$]).
+                        <br>
+                        True: akce/výrok je aktivní.
+                        <br>
                         Podmínky kódují mutexy, spojují akce s předpoklady
                         a pozitivními efekty.
         -
@@ -130,10 +133,10 @@ notes:
                 back: >
                         Pro předpoklady akce: [$]A_{i,m}\\rightarrow P_{j,m-1}[/$]<br>
                         Podmínky pro následující stav:
-                        [$$]p_{i,m}\\leftrightarrow (\\bigvee_{p_i\\in\\mathrm{eff]^+(a_j) A_{j,m})
+                        [$$]p_{i,m}\\leftrightarrow (\\bigvee_{p_i\\in\\mathrm{eff}^+(a_j)} A_{j,m})
                         \\vee (p_{i,m-1} \\wedge (\\bigvee_{p_i\\in\\mathrm{eff}^-(a_j)} \\neg A_{j,m}))[/$$]
                         <br>
-                        Stav je aktivní, byl-li přidán a nebyl-li smazán.
+                        (Stav je aktivní, byl-li přidán a nebyl-li smazán.)
                         (Nepoužívám no-opy.)
                         Podmínky pro mutex jsou potřeba, abych nedovolil zároveň smazat a přidat.<br>
                         Mutex: [$]\\neg A_{i,m} \\vee \\neg A_{j,m}[/$],

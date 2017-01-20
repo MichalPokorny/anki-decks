@@ -13,13 +13,13 @@ notes:
                 uuid: 017590ba-1c6b-43b3-9454-5641a154476d
                 front: >
                         [$] (a,b)[/$]-stromy: význam [$]a[/$], [$]b[/$], invariant
-
+                        <br>
                         Kde jsou hodnoty? Co je ve vnitřních uzlech?
                 back: >
                         [$]a\\geq 2[/$], [$]b\\geq 2a-1[/$]
-
+                        <br>
                         Každý vrchol má aspoň [$]a[/$] a nejvýš [$]b[/$] synů ([$]\\in[a;b][/$])
-
+                        <br>
                         Hodnoty jsou v listech. Vnitřní uzly obsahují maxima svých podstromů.
         -
                 uuid: eebfb938-29c8-4db5-aedb-9b62c93a96b5
@@ -472,7 +472,7 @@ notes:
         -
                 uuid: 3d2bb991-29ac-4946-ae79-9ac263d37cde
                 topic: Hashování
-                front: Lineární přidávání
+                front: Jak funguje lineární přidávání
                 back: Prvek vkládám na nejbližší volnou pozici za jeho kyblík.
                 include_reverse: true
         -
@@ -549,15 +549,16 @@ notes:
                         <br>
                         [latex]
                         \begin{align*}
-                        p_{k,s} & = & {n\choose k+s} \cdot (\frac{k+s}{m})^{k+s} \leq & \\
-                        & \leq & \frac{n^{k+s}}{(k+s)!} \cdot \frac{(k+s)^{k+s}}{m^{k+s}} = \frac{n^{k+s}}{m^{k+s}}\cdot\frac{(k+s)^{k+s)}{(k+s)!} = & \text{Stirling:} a!\simeq \sqrt{2\pi a}(a/e)^a \\
-                        & = & (n/m)^{k+s} \cdot \frac{1}{\sqrt{k+s}} \cdot e^{k+s} \cdot \frac{1}{\sqrt{2\pi}
+                        p_{k,s} & = & {n\choose {k+s}} \cdot \left(\frac{k+s}{m}\right)^{k+s} \leq &
+                        \\      & \leq & \frac{n^{k+s}}{(k+s)!} \cdot \frac{(k+s)^{k+s}}{m^{k+s}} = &
+                        \\      & = & \frac{n^{k+s}}{m^{k+s}}\cdot\frac{(k+s)^{k+s}}{(k+s)!} = & \text{Stirling:} a!\simeq \sqrt{2\pi a}(a/e)^a
+                        \\      & = & (n/m)^{k+s} \cdot \frac{1}{\sqrt{k+s}} \cdot e^{k+s} \cdot \frac{1}{\sqrt{2\pi}} &
                         \end{align*}
                         [/latex]
                         <br>
                         Zvolím [$]m\geq 3n[/$], protože [$]e\simeq 2.718\ldots[/$].
                         <br>
-                        [$$]\ldots (e/3)^{k+s} \cdot \frac{1}{\sqrt{(k+s)2\pi}[/$$]
+                        [$$]\ldots (e/3)^{k+s} \cdot \frac{1}{\sqrt{(k+s)2\pi}}[/$$]
                         <br>
                         Očekávaná doba vkládání:
                         [$$]\leq \sum_{k\geq 1}k\cdot Pr[\text{hledani potrva cas}\ k]\leq\sum_{k\geq 1} k\cdot\underbrace{\sum_{s\geq 0} (e/3)^{k+s} \cdot \frac{1}{\sqrt{(k+s)2\pi}}}_{\leq \mathcal{O}((e/3)^k)} = \mathcal{O}(1)[/$$]
@@ -596,16 +597,16 @@ notes:
                         obsahuje kukačkový graf cyklus, je [$]\leq 1/2[/$].
                         <br>
                         Lemma: Pravděpodobnost, že pro náhodné hf jsou pozice
-                        [$]i,j[/$] spojeny cyklem délky [$]\ell[/$] je
+                        [$]i,j[/$] spojeny cestou délky [$]\ell[/$] je
                         [$]\leq (2n/m)^\ell \cdot \frac{1}{m} \leq \frac{1}{3^\ell}\cdot\frac{1}{m}[/$].
                         <br>
                         Důkaz lemmatu:<br>
                         [latex]
                         \begin{align*}
-                        P[d(i,j)=l] & \leq & P[e x_1,\ldots x_\ell, i_1,\ldots i_{\ell-1}:
-                                h(x_1)=\{i,i_1\} \wedge \ldots h(x_\ell)=\{i_{\ell-1},j\}]\leq\\
-                                    & \leq & \underbrace{2^\ell}_{\text{parita}} \cdot n \cdot (n-1) \cdot \ldots \cdot (n-1+1) \cdot m^{l-1} \cdot m^{2(n-\ell)} / m^{2\ell} \leq \\
-                                    & \leq & \frac{2^\ell}{m^{2\ell}} \cdot n^\ell \cdot m^{\ell-1} = (\frac{2n}{m})^\ell \cdot \frac{1}{m}
+                        P[d(i,j)=l] & \leq & P[e x_{1,\ldots \ell}, i_{1,\ldots \ell-1}:
+                                h(x_1)=\\{i,i_1\\} \wedge \ldots h(x_\ell)=\\{i_{\ell-1},j\\}] \leq \\\\\\\\
+                                    & \leq & \underbrace{2^\ell}_{\text{parita}} \cdot n \cdot (n-1) \cdot \ldots \cdot (n-\ell+1) \cdot m^{l-1} \cdot m^{2(n-\ell)} / m^{2n} \leq \\\\\\\\
+                                    & \leq & \frac{2^\ell}{m^{2\ell}} \cdot n^\ell \cdot m^{\ell-1} = \\left(\frac{2n}{m}\\right)^\ell \cdot \frac{1}{m}
                         \end{align*}
                         [/latex]
                         <br>
@@ -625,7 +626,7 @@ notes:
                         (Za předpokladu, že není cyklus.)
                         <br>
                         Očekávaná doba:
-                        [$$]\leq \sum_{\ell\geq 1}\ell\cdot P[\text{z}\ i\ \text{vede cesta delky}\ell]\leq\sum_{\ell\geq 1}\ell\cdot(\frac{1}{3^\ell}\cdot{1}{m})\cdot m\leq O(1)[/$$]
+                        [$$]\leq \sum_{\ell\geq 1}\ell\cdot P[\text{z}\ i\ \text{vede cesta delky}\ell]\leq\sum_{\ell\geq 1}\ell\cdot(\frac{1}{3^\ell}\cdot\frac{1}{m})\cdot m\leq O(1)[/$$]
         -
                 uuid: 46f606f8-0e32-430e-a048-f1fae5219434
                 topic: Kukaččí hashování
@@ -666,17 +667,19 @@ notes:
                 front: Příklady 2-univerzálních hashovacích systémů
                 markdown: false
                 back: >
-                        Hashování [$] (ax+b)\bmod m[/$].
-                        Maticové násobení.
-                        Hashování konvolucí.
-                        Hashování multiply-shift.
-                        Vektory.
+                        <ul>
+                        <li> Hashování [$] (ax+b)\bmod m[/$].
+                        <li> Maticové násobení.
+                        <li> Hashování konvolucí.
+                        <li> Hashování multiply-shift.
+                        <li> Vektory.
+                        </ul>
 
         -
                 uuid: 142132d5-e801-478c-ad31-62242ad61c7b
                 front: Hashování [$] (ax+b)\\bmod m[/$] a vlastnosti
                 back: >
-                        [$]m[/$] prvočíslo, [$]H=\\{h_{a,b}:a,b\in [m-1]\\}[/$],
+                        [$]m[/$] prvočíslo, [$]H=\\{h_{a,b}:a,b\in [m]\\}[/$],
                         [$]h_{a,b}(x)=(ax+b) \\bmod m[/$]<br>
                         Potřebuje dělení. Je 2-univerzální.
         -

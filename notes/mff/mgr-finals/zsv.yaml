@@ -660,3 +660,11 @@ notes:
                         \\cup \\mathrm{TIME}(2^{2^n}) \\cup \\mathrm{TIME}(2^{2^{2^n}})
                         \\cup \\ldots[/$$]
                 include_reverse: true
+        -
+                uuid: 25325877-2a15-4525-bfaa-afce84718c3b
+                front: Co by se stalo, kdyby byl nějaký NP-úplný problém v co-NP?
+                back: NP=co-NP
+        -
+                uuid: a80d25f9-95ca-4c34-9f77-850a97b6ee2c
+                front: Co by se stalo, kdyby byl nějaký co-NP-úplný problém v NP?
+                back: NP=co-NP

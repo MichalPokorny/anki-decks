@@ -810,3 +810,50 @@ notes:
                 front: it takes one to know one
                 back: The person who expressed criticism has similar faults to the person being criticized. This classic retort to an insult dates from the early 1900s.
                 include_reverse: true
+        -
+                uuid: 101477f6-7064-4008-b2e2-8a248beb8499
+                front: ordinance
+                back: >
+                        (formal) an authoritative order / a religious rite
+                include_reverse: true
+        -
+                uuid: d80264df-5af4-4f52-9828-c277709966be
+                front: congenial
+                back: >
+                        (of a person) pleasing or liked on account of having qualities or interests that are similar to one's own
+                        ("his need for some ... company")
+                        <br>
+                        (of a thing) pleasant or agreeable because suited to one's taste or inclination
+                        ("he want to a more ... climate for his kidneys")
+                include_reverse: true
+        -
+                uuid: 6c5e816a-bcbe-46e2-b308-eadc98480ec1
+                front: ox
+                back: a domesticated bovine animal kept for milk or meat; a cow or bull; a castrated bull used as a draught animal
+                include_reverse: true
+        -
+                uuid: 28047f94-f4df-4119-bcd0-c43c2eeb541a
+                front: ply
+                back: a thickness or layer of a folded or laminated material
+                include_reverse: true
+        -
+                uuid: 4ba9893b-0121-4e50-ab07-26296c708626
+                front: rarefaction
+                back: reduction in the density of something, especially air or a gas; (medicine) the lessening of density of tissue, especially of nervous tissue or bone
+                include_reverse: true
+        -
+                uuid: c5a57e2e-1a4e-45cd-a164-2f41bab76765
+                front: effluence
+                back: a substance that flows out from something; the action of flowing out
+                include_reverse: true
+        -
+                uuid: e4537405-4c6b-42a6-8bc1-67ab17cf25c2
+                front: conceit
+                back: excessive pride in oneself / an ingenious or fanciful comparison or metaphor
+                include_reverse: true
+        -
+                uuid: d6c0f65d-9158-43ee-9efc-2cbe31943d0d
+                front: Croesus (metaphoric)
+                back: >
+                        Synonym for a wealthy man in Greek and Persian cultures.
+                        "Rich as Croesus"/"richer than Coresus".

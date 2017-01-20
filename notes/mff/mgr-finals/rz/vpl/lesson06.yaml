@@ -135,6 +135,12 @@ notes:
                         Nad strukturou: [$]H^A((\a x)\\varphi)[e] = \\min_{a\\in A}(H^A(\\varphi)[e(x/a)])[/$]
                         Záleží jenom na volných proměnných.
         -
+                uuid: 6fe2dbb2-5bfe-4f33-9d2c-35a37d176f8b
+                topic: Predikátová logika
+                front: Značení - hodnota formule při ohodnocení ve struktuře
+                back: >
+                        [$$]H^A(\\varphi)[e]=1\\in\\{0,1\\}[/$$]
+        -
                 uuid: 559e0291-255d-448a-ae25-dbab2c2e58e2
                 topic: Predikátová logika
                 front: Značení - formule platí při ohodnocení ve struktuře
@@ -155,3 +161,9 @@ notes:
                         Teorie je libovolná množina formulí (axiomů).<br>
                         Model je L-struktura ve které platí axiomy teorie.<br>
                         Třída modelů [$]M(T)[/$].
+        -
+                uuid: 6d4c7aeb-065e-41da-beec-10d8ff00d117
+                topic: Predikátová logika
+                front: Značení - hodnota formule v ohodnocení a struktuře
+                back: >
+                        [$$]H^A(\\varphi)[e][/$$]

@@ -75,8 +75,113 @@ notes:
                         Kde [$]\\varepsilon[/$] je limit, jak daleko si dovolím být od skutečných utilit.
         # TODO: konvergence value iteration
         -
-                uuid: 6d4c7aeb-065e-41da-beec-10d8ff00d117
-                topic: Predikátová logika
-                front: Značení - hodnota formule v ohodnocení a struktuře
+                uuid: ff9e93d8-dc40-4cfb-92aa-5894f88f9dd5
+                front: Definice - policy loss
                 back: >
-                        [$$]H^A(\\varphi)[e][/$$]
+                        [$$]|U^{\\pi} - U|_{\\max}[/$$]
+        -
+                uuid: 063da015-a6aa-4b18-b322-35ca98b48265
+                front: Maximální policy loss po [$]i[/$] krocích value iteration
+                back: >
+                        [$$]|U_i-U| < \\varepsilon \\rightarrow |U^{\\pi_i}-U| < 2\\varepsilon\\gamma(1-\\gamma)[/$$]
+        -
+                uuid: 871ebfb8-4596-44e2-bfcd-a7ff6418b879
+                topic: Policy iteration
+                front: Motivace proti value iteration
+                back: >
+                        Value iteration policy často zkonverguje daleko dřív než
+                        zkonvergují utility. Nezáleží na přesném rozdílu když
+                        je jedna akce jasně optimální.
+        -
+                uuid: c8b26eb3-5279-4e9a-886a-1390a3614ce7
+                topic: Policy iteration
+                front: Algoritmus
+                back: >
+                        Opakuje kroky:
+                        <br>
+                        1. Policy evaluation: Spočítám utilitu současné policy.
+                        (Pro malé stavové prostory se dá přesně spočítat, trvá [$]\\O(n^3)[/$]; znám přechodový model).
+                        <br>
+                        Pro velké prostory: udělám několik kroků value iteration.
+                        <br>
+                        2. Policy improvement: vyberu pro každý stav akci, co
+                        je optimální podle současných utilit.
+                        <br><br>
+                        Pokud jsem nezměnil policy, tak opakuju.
+        -
+                uuid: 2fe35ff1-dbb9-4631-87b6-ae4d9bf55958
+                front: Model rozhodování v MDP vs. POMDP - co se přidá?
+                back: Prostředí je jenom částečně pozorovatelné
+        -
+                uuid: 8f95a529-05b8-4a07-aa0e-9747159a2df2
+                front: Model POMDP
+                back: >
+                        Máme [$]P(s'|s,a)[/$], reward function [$]R(s)[/$],
+                        sensor model [$]P(e|s)[/$].
+                        <br>
+                        Neznáme náš stav.
+        -
+                uuid: e9c2ac0d-8329-479f-a6a4-e4a094544786
+                topic: POMDP
+                front: Jak se dají reprezentovat neznámé stavy a konceptuálně hledat správné akce?
+                back: >
+                        Neznámý stav aproximujeme jako belief stav -- vektor
+                        pravděpodobností, že jsem v nějakém stavu.
+                        Budu hledat optimální policy pro belief staty:
+                        [$]\\pi(b)[/$], kde [$]b(s)\\in[0;1][/$].
+        -
+                uuid: aa4a4e70-ca6d-4c67-9b8c-831969406c80
+                topic: POMDP
+                front: Jak spočítat další belief, když máme pozorování?
+                back: >
+                        [$]b'(s')=\\alpha P(e|s') \\sum_s P(s'|s,a) b(s)[/$];
+                        to je to samé jako operace FORWARD
+        -
+                uuid: 394f4b6a-efe7-4cfe-a002-e30d94591327
+                topic: POMDP
+                front: Jak spočítat další belief, když nemáme pozorování?
+                back: >
+                        Když v belief statu udělám [$]a[/$], pravděpodobnost že
+                        pak dostanu [$]e[/$]:
+                        [$$]P(e|a,b) = \\sum_{s'} P(e|a,b,s') P(s'|a,b) = \\sum_{s'} P(e|s') P(s'|a,b) = \\sum_{s'} P(e|s') \\sum_{s} P(s'|a,s) b(s)[/$$]
+                        <br>
+                        Pravděpodobnost, že se dostanu z [$]b[/$] do [$]b'[/$]:
+                        [$$]P(b'|b,a)=\\sum_e P(b'|a,b,e) P(e|a,b) = \\sum_e P(b'|a,b,e) \\sum_{s'} P(e|s') \\sum_{s} P(s'|a,s) b(s)[/$$]
+                        <br>
+                        Kde: [$]P(b'|a,b,e)=1[/$] když [$]b=FORWARD(b,a,e)[/$]
+        -
+                uuid: a184be69-a2f3-4934-8b55-f26f37a88f75
+                topic: POMDP
+                front: Zobecnění reward function pro POMDP belief state
+                back: >
+                        [$$]r(b)=\\sum_s b(s) R(s)[/$$]
+        -
+                uuid: bb1bd1e2-a7b9-4179-aec1-b6a44ad14347
+                topic: POMDP
+                front: Redukce POMDP na MDP
+                back: >
+                        [$]P(b'|b,a)[/$] a [$]r(b)[/$] (na belief statech)
+                        jsou pozorovatelný MDP. Akorát že z toho dostanu
+                        spojitý MDP...
+        -
+                uuid: d3a32672-736d-43f5-b721-7af54ce23990
+                topic: POMDP
+                front: Architektura online agentů pro POMDP
+                back: >
+                        Podmíněné plány: akce se vybere podle pozorování a
+                        předchozích akcí.
+                        <br>
+                        Value iteration se dá modifikovat na POMDP, ale
+                        není moc efektivní.
+                        <br>
+                        Použijeme dynamické Bayesovské sítě a look-ahead
+                        techniky.
+        -
+                uuid: bda74237-4b43-4525-92c3-169fb6270876
+                front: Jak se podobá řešení POMDP hraní her?
+                back: >
+                        Nejistota je jako protihráč. Můžeme použít
+                        něco jako EXPECTEDMINIMAX.
+                        Hloubku stromu zjistíme podle discount faktoru
+                        (jakmile je hodně malá změna podle toho co tam uděláme,
+                        neprodlužujeme).
