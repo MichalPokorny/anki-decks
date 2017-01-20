@@ -195,6 +195,16 @@ notes:
                         Paris, son of Priam (king of Troy), seduced Helen
                         and stole her away from Achaea.
         -
+                uuid: 1670d872-93da-456b-882f-a2157c1fa6d5
+                topic: Trojan war
+                front: Kdo byl Priam?
+                back: Trojský král
+        -
+                uuid: cbc9aa72-0fde-4389-a9c6-03dc484d755f
+                topic: Trojan war
+                front: Who was Paris's father?
+                back: Priam, king of Troy
+        -
                 uuid: 4baa97e5-b127-4579-b447-c8d6d1f91950
                 topic: Trojská válka
                 front: Co je Achaea?
@@ -224,6 +234,11 @@ notes:
                 topic: Trojská válka
                 front: Kdo poslal mor na Agamemnonovu armádu?
                 back: Apollo, syn Dia
+        -
+                uuid: 5f92ce1e-87d5-427f-bb1f-b63e119a3423
+                topic: Trojská válka
+                front: Čí byl Apollo syn?
+                back: Dia
         -
                 uuid: 386b9677-051e-41dd-bc8c-63792bc54bbb
                 topic: Trojská válka
@@ -854,3 +869,781 @@ notes:
                 front: Democritus and the good life
                 back: >
                         He wrote extensively on it, but only fragments remain.
+        -
+                uuid: 1b862aee-d475-4892-8785-65a4eb8a6f17
+                topic: Trojan war
+                front: Kdo byl otec Hektora?
+                back: Priam
+        # chapter 3 - the sophists
+        -
+                uuid: 5d0bc089-302b-4153-8eec-32e85ccc6994
+                front: Where were Sophists based?
+                back: Athens
+        -
+                uuid: 2d016608-130b-4a85-a5e2-8ef7481af552
+                front: When did Greek culture center in Athens?
+                back: 3-4th centuries BC
+        -
+                uuid: b2206240-5b87-4049-af08-5c98c7a24280
+                front: State of Greece before beginning of 5th century (~500 BC)
+                back: Many city-states (polis)
+        -
+                uuid: b17671f8-8ab0-4a52-8784-9f1ad7d91388
+                front: Some prominent Greek city-states
+                back: >
+                        Thebes, Corinth, Argos, Sparta, Athens
+        -
+                uuid: 392e8fea-1533-42a1-bc6c-7d1bf91a5187
+                front: Which 2 factors contributes to the rise of Athens?
+                back: >
+                        Persian wars, rise of democracy
+        -
+                uuid: 0221b0d3-b6fc-4474-9c6f-a604abe6e473
+                front: Whose reforms allowed common people of Athens some voice in governance?
+                back: Solon
+        -
+                uuid: 5a87d860-c6a1-4b8c-abee-1b01b64287ef
+                front: Athens government since Solon's reforms
+                back: >
+                        Council: "the best men" (aristocrats)
+                        <br>
+                        Assembly: all free men
+                        <br>
+                        Council makes important decisions, Assembly can veto excessively unpopular measures
+        -
+                uuid: 7b07e952-6192-448f-af5e-beb924f5c99f
+                front: Who ruled Athens for most of 6th century BC?
+                back: >
+                        Tyrants ("boss"/"chief"); the title was not hereditiary;
+                        most respected Solon's government
+        -
+                uuid: 3f53759b-232c-4ad2-9fee-04a0e5f32571
+                front: Athens - events of 508 BC
+                back: >
+                        Large influx of immigrants.
+                        Aristocrats were fearful for their power and tried to purge the citizenship rolls,
+                        but the Assembly passed a proposal extending citizenship to many new residents.
+                        After a three-day siege of the Acropolis by the people,
+                        the king and the aristocrats and soldiers capitulated.
+                        Citizenship was broadened, through not to women and slaves,
+                        and citizens controlled major decisions.
+                        This ensued for the next ~100 years, and (with some exceptions) some time after that.
+        -
+                uuid: 6f7dc6f7-7ef8-4621-b943-336826fafaaf
+                topic: Persian wars
+                front: What happened in 499 BC?
+                back: >
+                        Greek colonies in Asia Minor rebelled against paying taxes to Persians.
+                        Athens sent 20 ships to aid them, and they burnt Sardis, one of the principal Persian cities.
+        -
+                uuid: d0d13a2b-044a-4703-9eba-c9dace5ecf95
+                topic: Persian wars
+                front: How did the 499 BC rebellion end?
+                back: >
+                        Persians quenched them and had reason to take reverenge.
+        -
+                uuid: fa7db7ce-392d-4532-b953-eb03ae004623
+                topic: Persian wars
+                front: What happened after the 499 BC rebellion?
+                back: >
+                        In 490 BC, Persians landed at Marathon.
+        -
+                uuid: 99581a27-5dbf-4d59-94e8-00abc26f6390
+                topic: Persian wars
+                front: Who led the Greeks that defeated 6400 Persians who landed by Marathon?
+                back: Miltiades, an Ionian general
+        -
+                uuid: c7f7cd5b-9647-4573-bd69-25e2f8052e92
+                topic: Persian wars
+                front: Who commanded the Persians during the Persian wars?
+                back: Xerxes, their king
+        -
+                uuid: b338ace7-ba01-40f2-a666-1db471c80550
+                topic: Persian wars
+                front: Who was the father of Xerxes?
+                back: Darius, king of Persians
+        -
+                uuid: 4029ec56-fcef-494b-9564-c13df464009f
+                topic: Persian wars
+                front: Which sides did the debate in Athens after the Marathon victory have?
+                back: Land-based defenses (citing victory at Marathon) and defense by sea
+        -
+                uuid: 3367a28a-5f58-4684-8a31-4a2b7af0c734
+                topic: Persian wars
+                front: Who led the "defense by sea" side in Athens?
+                back: >
+                        Themistocles
+        -
+                uuid: f03bb94c-4ce2-4f01-80b3-e98f099c063a
+                topic: Persian wars
+                front: What happened in 480 BC?
+                back: >
+                        Xerxes lashed together ships to build a bridge and led
+                        an army of 200,000 to Hellenspont (which separates Asia
+                        from Europe).
+                        He took Thrace into submission and began to advance
+                        on Athens.
+        -
+                uuid: d47f6dac-de72-4d3f-90b4-8940e8d5b595
+                topic: Persian wars
+                front: >
+                        What did the Oracle at Delphi tell Athens to do after
+                        Xerxes's invasion to Hellensport?
+                back: >
+                        "That the wooden wall only shall not fall,
+                        but help you and your children."
+        -
+                uuid: e799862d-7025-4613-b486-83bd725d084c
+                topic: Persian wars
+                front: Which side did most Athenians follow?
+                back: >
+                        Themistocles - defense by sea
+        -
+                uuid: 4d6fc6b6-cec3-4ccf-a5aa-5bd4c663a964
+                topic: Persian wars
+                front: Who met Persian at Thermopylae?
+                back: >
+                        Spartan army, led by king Leonidas
+        -
+                uuid: fa511d35-c40a-4e5e-b470-7bd909e62fb2
+                topic: Persian wars
+                front: Why did Spartans fight against Persians?
+                back: >
+                        Xerxes was seen as a threat to Greece as a whole,
+                        not just Athens.
+        -
+                uuid: ca02367b-4206-4080-8331-099f8b131f74
+                topic: Persian wars
+                front: Where are Thermopylae compared to Athens?
+                back: Northwest, 80 miles
+        -
+                uuid: 151bbc34-0461-485c-911a-a2203b20081d
+                topic: Persian wars
+                front: How did the battle at Thermopylae end?
+                back: >
+                        Greek defeat (they were greatly outnumbered),
+                        king Leonidas of Sparta was killed.
+        -
+                uuid: 6c9a961e-7096-4f7f-b844-8e631c8d28d0
+                topic: Persian wars
+                front: What happened after the battle of Thermopylae?
+                back: >
+                        Persians took Athens, overwhelmed the defenders
+                        of Acropolis and burned temples.
+        -
+                uuid: ba18f7b6-152b-4723-8ba0-07e40b4be97a
+                topic: Persian wars
+                front: Where were the main Greek forces during the conquest of Athens?
+                back: >
+                        On the nearby island of Salamis
+        -
+                uuid: 95d317b8-439b-4eb3-8207-c29a21e22c3d
+                topic: Persian wars
+                front: What did the main Greek forces do after Xerxes took Athens?
+                back: >
+                        Defeated his navy. Themistocles' strategy worked.
+        -
+                uuid: 8282bc4b-46e1-4b07-8850-0ea0151180da
+                topic: Persian wars
+                front: What happened after Greeks drove out Persians?
+                back: >
+                        The next spring (479 BC), they came back.
+        -
+                uuid: 35645451-8099-4888-98c1-410307a52abd
+                topic: Persian wars
+                front: What drove out Persians from Athens the second time?
+                back: >
+                        Combined effort of Athens and Sparta at Platea.
+        -
+                uuid: 2317a841-7abc-47f8-bd4b-26be31cf7bd9
+                topic: Persian wars
+                front: What was the consequence of the Persian wars for Athens?
+                back: >
+                        Athens became preeminent, other states paid them tribute for protection.
+                        They became very wealthy, a great sea power, the center
+                        of Greek cultural life, a trading hub.
+        -
+                uuid: 0977f767-d662-4a52-a4f9-0e282613f0bc
+                front: Who was the most influential leader of Athens in the middle of 5th sentury BC?
+                back: Pericles
+        -
+                uuid: c632e1e6-5cec-40c9-ab32-39037c22e71f
+                front: Pericles's influence on culture
+                back: >
+                        He supported art and sculpture, new learning, he was
+                        a close associate of some philosophers.
+        -
+                uuid: 17a900c7-a36a-49d6-b4de-48c1eebac7a2
+                front: Who was Thucydides?
+                back: A historian
+        -
+                uuid: b52a76f1-8ec7-4ee5-8fb8-e3e12bf6c8f7
+                front: What did the social situation in Athens in 5th century BC call for?
+                back: >
+                        Innovations in education. "Best men" no longer commanded a natural leadership.
+                        What counted was actual ability. Educating with
+                        Homer and traditional virtues was no longer entirely adequate.
+        -
+                uuid: d116ad26-6b51-447f-849c-f8517e7f968b
+                front: What was the standard of education in Athens?
+                back: >
+                        Most citizens had elementary education and were literate.
+        -
+                uuid: 286a833a-6f93-41aa-bec4-da227e633142
+                front: Who were the Sophists?
+                back: >
+                        Teachers offering higher education, charging for their
+                        instruction.
+        -
+                uuid: 1f3fa09a-efea-4411-af70-faac1b7b5338
+                front: Who was Protagoras?
+                back: >
+                        One of the greatest Sophists.
+        -
+                uuid: 2e654a32-0c1e-4fa5-a09c-db5e071856e9
+                front: Who was Phidias?
+                back: The most famous sculptor in Athens?
+        -
+                uuid: 7512f70a-87d0-440a-809f-0fbf7755e1af
+                front: How wealthy was Protagoras when he died?
+                back: Wealthier than 5 Phidiases.
+        -
+                uuid: d7cb0f88-a2ff-4b2a-b3fe-a930d8d4c04a
+                front: How was Protagoras paid?
+                back: >
+                        He and the pupil would go to the temple and the pupil
+                        would promise to pay what he thought the education
+                        was worth after he received it.
+        -
+                uuid: 43015223-339d-4f68-879d-3da7ce715237
+                front: What did Protagoras's education make pupils better and better in?
+                back: >
+                        How to best manage personal estate, how to be in the
+                        strongest position in conduct, speech and action,
+                        the common business of the city.
+        -
+                uuid: 06b87bbb-329a-45c7-a663-e2eaf8dda2fe
+                front: What does *arete* mean?
+                back: >
+                        Excellence/virtue (also horses, knives, etc. can have "arete")
+        -
+                uuid: 254515f7-bb17-4250-a3e5-5e685d7c4ecc
+                front: What does *sophos* mean?
+                back: >
+                        Wise
+        -
+                uuid: 52db9844-75c6-4ff7-bd2f-60272b158f85
+                topic: Sophists
+                front: What did Gorgias teach?
+                back: Only rhetoric
+        -
+                uuid: 843becd1-b328-40e3-a7f6-c10450b7df7d
+                front: What is the interesting new thing about teaching rhetoric?
+                back: >
+                        Supposedly, it can be used to prove any side of any issue.
+                        Students can construct arguments both for and against.
+        -
+                uuid: d6b4a37c-cf78-4615-9c68-ab41776c6a67
+                front: Protagoras and his student of rhetoric - story
+                back: >
+                        The young man was poor and agreed with Protagoras
+                        the he wouldn't pay until he won his first case.
+                        He didn't enter any cases for some time.
+                        Protagoras eventually brought him to court, prosecuting
+                        him for payment.
+                        <br>
+                        The student argued:
+                        <br>
+                        If I win, I shall not have to pay (according to the
+                        judgement of the court). If I lose, I will not have
+                        won my first case, so I will not have to pay.
+                        So I don't have to pay.
+                        <br>
+                        Protagoras:
+                        <br>
+                        If he loses this case, then by the judgement he will
+                        have to pay me. If he wins it, he will have won his
+                        first case and therefore he will have to pay me.
+                        So he has to pay.
+        -
+                uuid: 29482f72-53b3-47aa-bcef-025f03281b8b
+                front: Plural of *logos*
+                back: logoi
+        -
+                uuid: 16c81a83-2dac-475e-a4e8-2472a6e48a7c
+                front: Sophists vs. Parmenides and Heraclitus
+                back: >
+                        Heraclitus and Parmenides both believe in truth
+                        (world-order/logos).<br>
+                        Sophists believe that thought and being are *not*
+                        the same. Thought can represent or misrepresent reality.
+                        Sophists think we can't discriminate truth from
+                        opinion.
+        -
+                uuid: efa92b2b-f24e-4f72-9703-844a9187d825
+                front: Sophists's agreement with Democritus
+                back: >
+                        We are cut off from the real by the conventional nature
+                        of our sense experience (see: rhetoric).
+        -
+                uuid: 8a29409a-c857-4479-9572-eb990c5674dc
+                front: Sophists' disagreement with Democritus
+                back: >
+                        Unlike Democritus: "there is no other avenue to the truth beside senses".
+                        <br>
+                        Democritus thinks intelligence/mind can penetrate where senses fail us.
+        -
+                uuid: 85ba385f-f414-4876-9de2-69f19d566cbf
+                front: Which school brought skepticism?
+                back: Sophists
+        -
+                uuid: a5c4bf24-d118-4b26-9ad1-4a99cb3de462
+                front: Protagoras on gods
+                back: >
+                        He is not in a position to know whether they are or not,
+                        and what they look like (there are many things
+                        preventing knowledge: obscurity of the matter, brevity of human life).
+        -
+                uuid: fd90a3fd-414d-4f54-b9c7-c473cd66a2d4
+                front: What was Protagoras's accusation?
+                back: >
+                        That he was an atheist. He probably provoked
+                        anger. Some of his books were burned and he
+                        was banished from Athens for some time.
+                        (He was actually an agnostic.)
+                include_reverse: true
+        -
+                uuid: 97ce6617-13c5-4884-b81f-99b613c667cb
+                front: First sentence of the *On Truth* book by Protagoras (and the only one we still have)
+                back: >
+                        Of all things the measure is man: of existing things,
+                        that they exist; of non-existing things, that they
+                        do not exist.
+                include_reverse: true
+        -
+                uuid: 42e9d29e-b225-4c9e-a16e-9e30446616a6
+                front: Who was Herodotus?
+                back: A historian
+        -
+                uuid: ff67f8ba-db75-40f7-aa81-1f7d11392160
+                front: Who was "king of all", according to Sophists?
+                back: Custom (distinction between *physis* and *nomos*)
+        -
+                uuid: 7cd78b07-c4e0-44e1-8260-12dab243963d
+                topic: Sophists
+                front: What does *physis* mean?
+                back: >
+                        What the nature philosophers study - clear
+                        characteristics of the world, independent of human
+                        beings
+        -
+                uuid: bb80454b-a1ff-41ec-b2b0-48ce33bb896c
+                topic: Sophists
+                front: What does *nomos* mean?
+                back: >
+                        Custom and convention (of humans) - example: which side
+                        of the road to drive on
+        -
+                uuid: aeb4e8bd-6b65-4103-a226-1f1f8dfb3ec9
+                front: What is the difference between the laws of nomos and physis?
+                back: >
+                        It's possible to go against the laws of *nomos*
+                        (normative laws).
+        -
+                uuid: 7d9b6b53-7353-4264-9e54-abcc8b853fc9
+                front: Who wrote the play *Antigone*?
+                back: Sophocles
+        -
+                uuid: 087b9a2f-23ce-48c2-8605-de7d4e6be264
+                front: What was natural law according to Antiphon?
+                back: >
+                        Self-preservation. Its punishment is death.<br>
+                        Unlike conventional laws, this punishment
+                        necessarily follows violations of the law. This
+                        makes it a natural law, not a convention.<br>
+                        In contrast, conventional justice
+                        places *chains upon nature*.
+                        <br>
+                        There is tension between natural and conventional law.
+        -
+                uuid: 8657265b-fbb5-43d6-88fb-1088f5b26795
+                topic: Sophists
+                front: Callicles's idea of conventional justice
+                back: >
+                        Conventional justice is made by weak majority.
+                        A strong individual can overcome it, and it is
+                        naturally just.
+                        The weak try to fetter the strong by imposing
+                        on them a guilty conscience.
+                        <br>
+                        This dramatically contrasts with traditional
+                        Greek ethics, e.g. Heraclitus ("moderation
+                        is the greatest virtue").
+        -
+                uuid: 1a95b1db-a0e7-4774-a6c5-19a69487637c
+                front: Peloponesian war - how did Thucydides know it?
+                back: He lived through it, and wrote a book with that title
+        -
+                uuid: 5b85b009-3aee-4f39-a586-8e6e95075731
+                front: What is Peloponnesus?
+                back: >
+                        Large penisula at the southern tip of mainland Greece
+        -
+                uuid: ac1f5b48-d987-4e93-bb89-03c931aa4fed
+                front: What connects Peloponnesus to Greece proper?
+                back: >
+                        Isthmus of Corinth
+        -
+                uuid: fd3a35d9-7769-4800-a015-ca01c902c1bd
+                front: What was the dominant power on the Peloponnesus penisula in 5th century BC?
+                back: >
+                        Sparta
+        -
+                uuid: ede599aa-6a7e-4f1a-a20d-5efc43e9270c
+                front: Difference in army type of Sparta and Athens
+                back: >
+                        Athens had a strong navy, Sparta was a land power
+        -
+                uuid: 4abb3dc7-75de-485e-837e-466221f649ce
+                front: Name of large Spartan slave population
+                back: Helots
+        -
+                uuid: 033bb6dc-afd9-4683-ab19-d7368f580d70
+                front: Which powers fought in the Peloponnesian war?
+                back: >
+                        Sparta and Athens
+        -
+                uuid: 0aace6ff-5b72-4480-bcb5-78b43e9168cc
+                front: What was the consequence of the Peloponnesian war?
+                back: >
+                        The defeat of Athens and the weakening of Greece in general.
+                        The beginning of the end of the Golden Age of Greece.
+        -
+                uuid: a16a7f24-f450-4ac8-851c-58f17865ce58
+                front: When did Peloponnesian war start and end?
+                back: >
+                        431 BC - 404 BC, with 7 years of relative peace
+                        in the middle
+        -
+                uuid: 6043de88-3a3c-4a32-bd19-770c02054c8e
+                front: >
+                        What internal struggles of Athens were intensified by the Peloponnesian war?
+                        What event exemplified this?
+                back: >
+                        Between the *demos* (the common people) and the aristocracy.
+                        They were even more intense in other city states
+                        which imported Athenian democracy.
+                        <br>
+                        In Corcyra, after the democratic side won over the
+                        oligarchs, they killed them.
+        -
+                uuid: bcd27dac-d308-4073-835e-19159b48a48f
+                topic: Peloponnesian war
+                front: The story of the island of Melos
+                back: >
+                        It was a neutral island.
+                        The Athenian commanded conquered it after it
+                        refused to ally itself with them, arguing with
+                        self-interest and laws of natural power.
+        -
+                uuid: de63419d-c4e3-4c81-b412-69d37a1c60ea
+                topic: Peloponnesian war
+                front: Who led Athens after the death of Pericles and how?
+                back: >
+                        Who could persuasively speak to the Assembly.<br>
+                        Demagogues: *agoge* (lead) the *demos* (people).<br>
+                        Policy was inconsistent and sometimes reversed,
+                        depending on the favorite speaker of the day.
+                        Dissatisfaction with democracy grew.
+        -
+                uuid: 432ccfa6-63d3-4a01-b78b-b63685aea1fd
+                topic: Peloponnesian war
+                front: When were Athens defeated?
+                back: 404 BC
+        -
+                uuid: edf80877-df8f-4e70-b4e0-1c37091b95ee
+                topic: Peloponnesian war
+                front: Terms of peace agreement imposed on Athens
+                back: >
+                        Athens will receive exiles (mostly antidemocratic)
+                        from Sparta and accept provisional government
+                        by a Council, known as the Thirty.<br>
+        -
+                uuid: 2e19ce5e-7091-4ba6-82c7-f43d0923a614
+                topic: Peloponnesian war
+                front: What did the Thirty do in Athens?
+                back: >
+                        Thirty purged "wrong-doers" supported by Spartan
+                        men-at-arms.
+                        <br>
+                        They involved as many Athenians in the purge as
+                        they could, to prevent them from making accusations
+                        later.
+                        <br>
+                        Reign of terror.
+        -
+                uuid: ec58047c-27c9-44c6-b9c5-33bf91cab408
+                topic: Peloponnesian war
+                front: What did Socrates do when the Thirty summoned him to arrest Leon of Salamis?
+                back: Refuse
+        -
+                uuid: bee610dc-8701-47ea-a998-d7b29aa48c74
+                topic: Peloponnesian war
+                front: How long did the rule of the Thirty in Athens last?
+                back: >
+                        1 year
+        -
+                uuid: 22075e24-dce3-4246-acde-aec632122048
+                topic: Peloponnesian war
+                front: Who led the Thirty?
+                back: Critias
+        -
+                uuid: 486ed9c4-c46a-4712-8a1d-1a8427653308
+                topic: Peloponnesian war
+                front: What happened after the Thirty were overthrown?
+                back: Democracy was restored, with bad feelings on all sides
+        -
+                uuid: 7a7f5438-d485-43fb-b2df-221357682460
+                front: The three great tragedians
+                back: Sophocles, Aeschylus, Euripides
+        -
+                uuid: b416fa82-63df-40d3-afdf-0f915eef1924
+                front: Who was Aristophanes?
+                back: A writer of comedies
+        # chapter 4 - socrates
+        -
+                uuid: 34fc9d3d-1b0a-46b7-b80b-8631f23e9bb8
+                front: What did Socrates write?
+                back: >
+                        Nothing, just a hymn to Apollo and he put Aesop's
+                        fables into verse
+        -
+                uuid: c9955b6a-dc9b-4a63-b178-3bc8a5128e94
+                front: How do we know about Socrates, if he didn't write anything?
+                back: >
+                        From references by others, and by Plato, his pupil.
+                        <br><br>
+                        Plato left a large number of dialogues.
+                        They were written after his death.
+                        He may have been putting his thought into Socrates's mouth.
+        -
+                uuid: 92bf441d-dd84-40a5-abc4-032cecd9cdfa
+                front: Three periods of dialogues with Socrates
+                back: >
+                        Early: such as Euthyphro, Crito, Apology.
+                        Quite accurate on Socrates' own views.
+                        He questions various people about piety, courage, justice
+                        or arete. Usually there is no agreed-upon conclusion.
+                        The participant starts with claiming to have an answer
+                        and later admits ignorance.
+                        <br>
+                        Middle dialogues: Meno, Phaedo, Symposium, Republic:
+                        Socrates is still the main character, many positive
+                        doctrines supported by arguments. Plato is working
+                        out his own solutions to the problems of Sophists,
+                        goes beyond negative answers to Socratic questioning.
+                        <br>
+                        Late: explore difficulties discovered in the middle
+                        dialogues. Socrates plays a lesser role. In Laws,
+                        he disappears altogether.
+        -
+                uuid: 852ec224-17b6-462f-90ee-835cd901dafd
+                front: When was Socrates born?
+                back: In 470 or 469 BC
+        -
+                uuid: 7b65f061-1626-4fd2-a50c-3975e5cdd3e6
+                front: Who was Socrates' wife?
+                back: Xanthippe
+        -
+                uuid: 2f2fa25b-caad-445c-9638-c49ffa3fdd84
+                front: What was Xanthippe's reputation?
+                back: Shrewishness
+        -
+                uuid: b1800856-79b3-407f-bd65-309e5c7c10d1
+                front: How did Socrates relate to his mother's job?
+                back: >
+                        His mother was a midwife. Midwives determined
+                        if children were basterds (by was of resemblance
+                        to purported father). He can help deliver
+                        ideas to others and determine their truth by
+                        examining them.
+        -
+                uuid: 3d354bd6-8c5a-42b2-88a4-6e15d910c392
+                front: How did Socrates walk?
+                back: Barefoot
+        -
+                uuid: aad0e9a4-e834-4045-9f88-916ecd30309d
+                front: How did Socrates look?
+                back: He was extraordinarily ugly (through, interestingly so)
+        -
+                uuid: 75d2e7ca-b878-4ecd-ae2f-e412f2955688
+                front: What was Socrates' humor like?
+                back: Self-directed, also sharp and biting
+        -
+                uuid: 8cd7f2cd-8a93-450a-b7d6-c4ea4dbba303
+                front: Where did Alcibiades know Socrates from?
+                back: From Socrates's military service
+        -
+                uuid: 8157fe80-3445-4a09-8774-63dfe8b80e88
+                front: Alcibiades's reputation
+                back: >
+                        First young and brilliant.
+                        Later notorious for lechery and lust for power.
+                        Suspected of mutilation of status of Hermes
+                        (often by gates of Athenian houses), put on trial
+                        while away on a military assignment.
+                        He eventually deserted an served as a Spartan general.
+        -
+                uuid: 47675312-69ca-44da-9107-5cd697d5ff73
+                front: How did Socrates make a living?
+                back: >
+                        He was frugal, temperate, not independently wealthy.
+                        He refrained from physical relationships (between
+                        older men and their young proteges).
+                        He believed friendships were properly aimed to make
+                        the "beloved" more virtuous, self-controlled and just.
+        -
+                uuid: de328608-3f46-453a-a5af-21c9f818e429
+                front: What was Socrates's subject matter?
+                back: Arete
+        -
+                uuid: 0963d743-fc08-486f-865b-8e8628f80334
+                front: How does Socrates differ from Sophists?
+                back: >
+                        Sophists claimed to teach arete. Socrates didn't claim to know what it is.
+                        He tried to clarify it: whether it can be taught, whether it's one thing or many, etc.
+                        <br><br>
+                        Socrates also dabbled in natural philosophy (which
+                        Sophists teach), but he gave it up, since it didn't
+                        intrigue him.
+                        He was interested in i.e., "why are we here?"
+                        <br><br>
+                        He claimed he never taught anybody anything.
+                        <br><br>
+                        Socrates doesn't take any pay. His highest reward
+                        was the gain of good friends.
+        -
+                uuid: 8d222238-6da5-414d-a3a4-5696dfd8ddfc
+                front: >
+                        Socrates's vs. sophists's approach to rhetoric
+                back: >
+                        Sophists: win<br>
+                        Socrates: advance toward the truth.
+                        He is convinced there is a truth
+                        and that we can make our opinions more like it.
+                        He is neither a relativist nor a skeptic.
+        -
+                uuid: 2a49d977-eca9-4996-bb8f-aec1a9b8352c
+                front: >
+                        Name of technique "proposal-question-difficulties-new proposal-questions"
+                back: dialectic
+        -
+                uuid: 6b623b11-60d9-4f5d-a25b-0581c3653558
+                front: Conditions on working dialectic
+                back: >
+                        Everyone must say what they really believe,
+                        and not hang on to beliefs "no matter what".
+                        Both must aim for truth, not victory over the other speaker.
+        -
+                uuid: 4cd61c3d-788c-447d-aa1c-d2baf585750c
+                front: What kind of a person must you be to enjoy Socrates?
+                back: >
+                        One who must be as happy to be shown wrong
+                        as to show someone else to be wrong.
+                        Or - even happier -- because false opinions are evils.
+        -
+                uuid: ea23f086-5093-4611-93c1-5ff95935ba86
+                front: >
+                        Socrates' beliefs he'd be willing to die for (and not yield on)
+                back: >
+                        We ought to search for truth.<br><br>
+                        Human excellence is knowledge.<br><br>
+                        All wrongdoing is due to ignorance.<br><br>
+                        The most important thing of all is to care for your soul.
+        -
+                uuid: c1df2624-ab76-4950-89ae-af7de2b82f99
+                topic: Socrates
+                front: The soul and the truth
+                back: >
+                        The soul knows the truth before it enters a human body.
+                        We hope to recover what we knew before birth.
+        -
+                uuid: 738c22bf-2339-472d-bc53-c097e93e703d
+                topic: Socrates
+                front: On relativism
+                back: >
+                        Socrates believes relativism makes us worse persons,
+                        less brave and lazier. "It's true for me" leads
+                        to intellectual idleness and cowardice.
+        -
+                uuid: 14c153c2-953d-4267-934d-3c7fae087646
+                topic: Socrates
+                front: What kind of knowledge does Socrates mean to be human excellence?
+                back: >
+                        Knowledge of *what* to do and *how* to do it
+                        *Techne* -- a kind of applied knowledge (competent
+                        doctors, horse trainers, ... have it);
+                        mastering the "craft" of living
+        -
+                uuid: d432b5df-49b9-4df6-84cf-262444621f8f
+                front: What is *techne*?
+                back: Applied knowledge (competency - doctors, horse trainers, pilots, ...)
+        -
+                uuid: 5b65a39d-f66e-491e-9af4-eb870596c570
+                topic: Socrates
+                front: Why are traditional virtues secondary to knowledge?
+                back: >
+                        They can be misused without knowledge.
+        -
+                uuid: b8f70c0d-5f8e-4dd7-b70c-b5a547601abe
+                topic: Socrates
+                front: On suffering and commiting injustice
+                back: It is better to suffer injustice than to commit injustice.
+        -
+                uuid: 65d98ec6-cf0f-41c8-9c06-9e0bbbdafa50
+                topic: Socrates
+                front: On harm to good people
+                back: A good person cannot be harmed in either life or death.
+        -
+                uuid: 80b98d36-ca5a-495d-9c74-260bf270b5d4
+                topic: Socrates
+                front: Why is self-knowledge essential?
+                back: >
+                        Because from the soul flow all actions that reveal what we really are.
+                        <br>
+                        We need to know what we do know and what we do not so that
+                        we can act wisely. Foolishness is based on false opinions.
+        # chapter 5 - the trial and death of socrates
+        -
+                uuid: 8ac989d8-620d-433b-903c-2c12c8852159
+                topic: Socrates
+                front: Setting of the dialogue Euthyphro
+                back: >
+                        Socrates is indicted to the king-archon's court
+                        for corrupting the youth. He meets Euthyphro, a priest.
+                        Euthyphro charges his own father before the court.
+                        A servant of Euthyphro killed another servent in anger.
+                        Euthyphro's father bound the killer, and the cold and
+                        bonds caused his death before the message what should
+                        be done with him could be delivered.
+                        <br>
+                        They talk on piety - Socrates wants a definition
+                        so he can defend himself.
+        -
+                uuid: 17b876d0-45d9-4d84-8269-daf0ea602c6b
+                topic: Socrates
+                front: His sign from the gods
+                back: >
+                        It always told him not to do something.
+                        Probably vivid conscience?
+        -
+                uuid: ed35f8dc-b957-45f0-96e5-b9e0ceb58e8f
+                front: What is *form*?
+                back: >
+                        The essence of what makes, e.g., an elephant an elephant.
+        -
+                uuid: f830713d-f616-4e60-a02c-0d9044ec8167
+                topic: Socrates
+                front: Apology - setting
+                back: >
+                        Socrates's defense on his trial

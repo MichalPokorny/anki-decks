@@ -101,3 +101,1332 @@ notes:
                         <br>
                         Package <code>cancel</code>
                 include_reverse: true
+        -
+                uuid: 2665a747-57cd-4585-baf1-bc193f83f5cd
+                markdown: false
+                front: >
+                        [$$]\vdash[/$$]
+                back: >
+                        <code>
+                        \vdash
+                        </code>
+                include_reverse: true
+        -
+                uuid: 4c6a432c-c9ad-404b-ba97-6408e45d6268
+                markdown: false
+                front: >
+                        [$$]\gg[/$$]
+                back: >
+                        <code>
+                        \gg
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 6c1c9e32-41be-4046-8ba9-73dc5fcd6c54
+                markdown: false
+                front: >
+                        [$$]\ll[/$$]
+                back: >
+                        <code>
+                        \ll
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 235395cd-2776-4658-b1a1-3ce914204085
+                markdown: false
+                front: >
+                        [$$]\approx[/$$]
+                back: >
+                        <code>
+                        \approx
+                        </code>
+                include_reverse: true
+        -
+                uuid: 6769ee4e-f6f2-477e-8a62-41bcd9f5f6b1
+                markdown: false
+                front: >
+                        [$$]\ast[/$$]
+                back: >
+                        <code>
+                        \ast
+                        </code>
+                include_reverse: true
+        -
+                uuid: 4c11203f-c995-4e70-b71b-39ac4e262600
+                markdown: false
+                front: >
+                        [$$]\backslash[/$$]
+                back: >
+                        <code>
+                        \backslash
+                        </code>
+                include_reverse: true
+        -
+                uuid: d21c9c32-4447-46df-87c8-41c32352aea1
+                markdown: false
+                front: >
+                        [$$]\because[/$$]
+                back: >
+                        <code>
+                        \because
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 92411933-f5e8-4846-a09d-fe2b9c995446
+                markdown: false
+                front: >
+                        [$$]\circ[/$$]
+                back: >
+                        <code>
+                        \circ
+                        </code>
+                include_reverse: true
+        -
+                uuid: f9710d83-0f94-444c-86f8-6f5b6d43c267
+                markdown: false
+                front: >
+                        [$$]\oplus[/$$]
+                back: >
+                        <code>
+                        \oplus
+                        </code>
+                include_reverse: true
+        -
+                uuid: db4d6dfc-4cb6-4ebd-9d2e-8b45bbd78b41
+                markdown: false
+                front: >
+                        [$$]\otimes[/$$]
+                back: >
+                        <code>
+                        \otimes
+                        </code>
+                include_reverse: true
+        -
+                uuid: c6b7dab2-43db-4087-8935-5bc62da728dd
+                markdown: false
+                front: >
+                        [$$]\bigsqcup[/$$]
+                back: >
+                        <code>
+                        \bigsqcup
+                        </code>
+                include_reverse: true
+        -
+                uuid: 68a95f69-7e4a-450c-bb83-ffe489a230a1
+                markdown: false
+                front: >
+                        [$$]\bot[/$$]
+                back: >
+                        <code>\bot</code> (respectively <code>\perp</code>)
+                include_reverse: true
+        -
+                uuid: 55ed02f9-36e3-47cf-8220-0635a8ab8af0
+                markdown: false
+                front: >
+                        [$$]\checkmark[/$$]
+                back: >
+                        <code>
+                        \checkmark
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 20d26656-727f-4ff0-8e5c-013855427344
+                markdown: false
+                front: >
+                        [$$]\clubsuit[/$$]
+                back: >
+                        <code>
+                        \clubsuit
+                        </code>
+                include_reverse: true
+        -
+                uuid: 75c636a9-cb6f-45d2-a1d6-b99f5c93a127
+                markdown: false
+                front: >
+                        [$$]\coprod[/$$]
+                back: >
+                        <code>
+                        \coprod
+                        </code>
+                include_reverse: true
+        -
+                uuid: f21cdf61-2fea-4edb-9e70-df321e6849ba
+                markdown: false
+                front: >
+                        [$$]\curlyeqprec[/$$]
+                back: >
+                        <code>
+                        \curlyeqprec
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 60e21496-6b72-4e5a-a7d9-c72d66d5ca41
+                markdown: false
+                front: >
+                        [$$]\curlyeqsucc[/$$]
+                back: >
+                        <code>
+                        \curlyeqsucc
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 74448b4f-098a-4129-b013-c0a788520787
+                markdown: false
+                front: >
+                        [$$]\dagger[/$$]
+                back: >
+                        <code>
+                        \dagger
+                        </code>
+                include_reverse: true
+        -
+                uuid: c2450104-d624-4842-9c3c-9e5d8da33ea7
+                markdown: false
+                front: >
+                        [$$]\ddagger[/$$]
+                back: >
+                        <code>
+                        \ddagger
+                        </code>
+                include_reverse: true
+        -
+                uuid: 49c54ef4-b152-4fee-8bcc-0314b1a06c24
+                markdown: false
+                front: >
+                        [$$]\ddots[/$$]
+                back: >
+                        <code>
+                        \ddots
+                        </code>
+                include_reverse: true
+        -
+                uuid: 07ea4684-23aa-4600-95f3-6d39cf5da8f8
+                markdown: false
+                front: >
+                        [$$]\diamond[/$$]
+                back: >
+                        <code>
+                        \diamond
+                        </code>
+                include_reverse: true
+        -
+                uuid: 5b6cf268-f95c-4a58-8926-7d716fa76f12
+                markdown: false
+                front: >
+                        [$$]\diamondsuit[/$$]
+                back: >
+                        <code>\diamondsuit</code>
+                        <br>
+                        (or <code>\lozenge</code>,
+                        package <code>amssymb</code>)
+                include_reverse: true
+        -
+                uuid: 2e676c9e-64a8-47f4-a07a-4054c23c43ff
+                markdown: false
+                front: >
+                        [$$]\div[/$$]
+                back: >
+                        <code>
+                        \div
+                        </code>
+                include_reverse: true
+        -
+                uuid: 32b52455-5649-4971-8a13-a1f7c0f0a844
+                markdown: false
+                front: >
+                        [$$]\divideontimes[/$$]
+                back: >
+                        <code>
+                        \divideontimes
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: fdc0421e-12e9-46fe-811b-c65bdb102832
+                markdown: false
+                front: >
+                        [$$]\doteq[/$$]
+                back: >
+                        <code>
+                        \doteq
+                        </code>
+                include_reverse: true
+        -
+                uuid: e6f3ba81-de13-4b2b-96b2-431ff0696931
+                markdown: false
+                front: >
+                        [$$]\upharpoonright[/$$]
+                back: >
+                        <code>
+                        \upharpoonright
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 21a3246f-a628-4f7e-8e70-2991e282dcba
+                markdown: false
+                front: >
+                        [$$]\equiv[/$$]
+                back: >
+                        <code>
+                        \equiv
+                        </code>
+                include_reverse: true
+        -
+                uuid: 18d1c07d-a9d7-4c9f-8cfb-a5fda91af7f2
+                markdown: false
+                front: >
+                        [$$]\flat[/$$]
+                back: >
+                        <code>
+                        \flat
+                        </code>
+                include_reverse: true
+        -
+                uuid: a7154cee-1d2c-4b54-aef9-668928d864c5
+                markdown: false
+                front: >
+                        [$$]\geqslant[/$$]
+                back: >
+                        <code>
+                        \geqslant
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 26fa3e24-334a-48bc-97a7-f36ed98535df
+                markdown: false
+                front: >
+                        [$$]\gtrless[/$$]
+                back: >
+                        <code>
+                        \gtrless
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 756d73c1-44ec-4fdf-b911-9cf3bfced834
+                markdown: false
+                front: >
+                        [$$]\heartsuit[/$$]
+                back: >
+                        <code>
+                        \heartsuit
+                        </code>
+                include_reverse: true
+        -
+                uuid: e0b00cfe-ac12-4dd0-a24d-bb580fd8443e
+                markdown: false
+                front: >
+                        [$$]\hookleftarrow[/$$]
+                back: >
+                        <code>
+                        \hookleftarrow
+                        </code>
+                include_reverse: true
+        -
+                uuid: 67606a8b-3fab-4d79-a7a6-8ebfaba029c8
+                markdown: false
+                front: >
+                        [$$]\hookrightarrow[/$$]
+                back: >
+                        <code>
+                        \hookrightarrow
+                        </code>
+                include_reverse: true
+        -
+                uuid: 7ee3e0e6-de42-432a-ae2e-57dafc50da0e
+                markdown: false
+                front: >
+                        [$$]\hbar[/$$]
+                back: >
+                        <code>
+                        \hbar
+                        </code>
+                include_reverse: true
+        -
+                uuid: 1d3fce60-30ff-4fc4-ae36-075576b759d3
+                markdown: false
+                front: >
+                        [$$]\leqslant[/$$]
+                back: >
+                        <code>
+                        \leqslant
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: f563e5b1-34a6-4de3-a90c-fc340d838052
+                markdown: false
+                front: >
+                        [$$]\ltimes[/$$]
+                back: >
+                        <code>
+                        \ltimes
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 7450a544-2edb-48f5-9877-d323d05de8b6
+                markdown: false
+                front: >
+                        [$$]\mapsto[/$$]
+                back: >
+                        <code>
+                        \mapsto
+                        </code>
+                include_reverse: true
+        -
+                uuid: 2a2c75e3-33da-4c66-a1b5-793a0e893cd6
+                markdown: false
+                front: >
+                        [$$]\mathfrak{B}[/$$]
+                back: >
+                        <code>
+                        \mathfrak{B}
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: b01d6fcc-9834-4ce9-8f97-d064ec51c087
+                markdown: false
+                front: >
+                        [$$]\mathunderscore[/$$] (math mode)
+                back: >
+                        <code>
+                        \mathunderscore
+                        </code>
+                include_reverse: true
+        -
+                uuid: bfc946fb-d1ed-48d7-ab33-236abd13e84f
+                markdown: false
+                front: >
+                        [$$]\mid[/$$] (math mode)
+                back: >
+                        <code>
+                        \mid
+                        </code>
+                include_reverse: true
+        -
+                uuid: ff024c16-1c2f-4cce-bc32-30d2f95c8510
+                markdown: false
+                front: >
+                        [$$]\models[/$$]
+                back: >
+                        <code>
+                        \models
+                        </code>
+                include_reverse: true
+        -
+                uuid: 50802c58-e877-4bcf-b509-af92ecfa456c
+                markdown: false
+                front: >
+                        [$$]\nabla[/$$]
+                back: >
+                        <code>
+                        \nabla
+                        </code>
+                include_reverse: true
+        -
+                uuid: e656c87b-fe47-4bef-9f30-91ae14ea66b0
+                markdown: false
+                front: >
+                        [$$]\nearrow[/$$]
+                back: >
+                        <code>
+                        \nearrow
+                        </code>
+                include_reverse: true
+        -
+                uuid: f8cae680-317d-40f0-9252-32b96bba662b
+                markdown: false
+                front: >
+                        [$$]\natural[/$$]
+                back: >
+                        <code>
+                        \natural
+                        </code>
+                include_reverse: true
+        -
+                uuid: b822597a-2a99-4724-b1ec-fd570521897d
+                markdown: false
+                front: >
+                        [$$]\neg[/$$]
+                back: >
+                        <code>
+                        \neg
+                        </code>
+                include_reverse: true
+        -
+                uuid: 03f42593-0b41-4565-a1cf-4b4338e1c1e1
+                markdown: false
+                front: >
+                        [$$]\nexists[/$$]
+                back: >
+                        <code>
+                        \nexists
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 3db8cf7f-cd23-4ea9-b12b-20ac6c1f2b08
+                markdown: false
+                front: >
+                        [$$]\ngeq[/$$]
+                back: >
+                        <code>
+                        \ngeq
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: a2d7e9cb-87e0-4276-a9c0-7f6869ae3007
+                markdown: false
+                front: >
+                        [$$]\ni[/$$]
+                back: >
+                        <code>
+                        \ni
+                        </code>
+                include_reverse: true
+        -
+                uuid: 4d9abdc1-608d-4f2a-8bc9-5adedad5f550
+                markdown: false
+                front: >
+                        [$$]\nleftarrow[/$$]
+                back: >
+                        <code>
+                        \nleftarrow
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 4c8c6df4-47e6-4a19-aee4-2883c0d16977
+                markdown: false
+                front: >
+                        [$$]\nmid[/$$]
+                back: >
+                        <code>
+                        \nmid
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 57e89db2-2e4c-43ef-aa2e-347e19a9770a
+                markdown: false
+                front: >
+                        [$$]\nsupseteq[/$$]
+                back: >
+                        <code>
+                        \nsupseteq
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: c8a7f7bd-d165-47e7-ad69-7a5dc73aae0e
+                markdown: false
+                front: >
+                        [$$]\ntriangleleft[/$$]
+                back: >
+                        <code>
+                        \ntriangleleft
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 8dedbe1e-7778-437d-9bdc-ec8c30ca883c
+                markdown: false
+                front: >
+                        [$$]\ntrianglelefteq[/$$]
+                back: >
+                        <code>
+                        \ntrianglelefteq
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: e119dfa0-a8c0-4a98-9f4c-a864c89f7494
+                markdown: false
+                front: >
+                        [$$]\ntrianglerighteq[/$$]
+                back: >
+                        <code>
+                        \ntrianglerighteq
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 6a36f010-1be4-497b-b4cf-dfb9119c7cd9
+                markdown: false
+                front: >
+                        [$$]\ntriangleright[/$$]
+                back: >
+                        <code>
+                        \ntriangleright
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: d467cd75-778f-44ab-82b4-8be14c7fdff8
+                markdown: false
+                front: >
+                        [$$]\nu[/$$]
+                back: >
+                        <code>
+                        \nu
+                        </code>
+                include_reverse: true
+        -
+                uuid: cd9d571e-50b3-4c38-b4b9-8dbe421ae76b
+                markdown: false
+                front: >
+                        [$$]\nwarrow[/$$]
+                back: >
+                        <code>
+                        \nwarrow
+                        </code>
+                include_reverse: true
+        -
+                uuid: eb349ab6-a4aa-4ac1-bb4a-44a454598cdd
+                markdown: false
+                front: >
+                        [$$]\oint[/$$]
+                back: >
+                        <code>
+                        \oint
+                        </code>
+                include_reverse: true
+        -
+                uuid: 563f9f13-99b4-4f7a-839e-0bde999dafb7
+                markdown: false
+                front: >
+                        [$$]\ominus[/$$]
+                back: >
+                        <code>
+                        \ominus
+                        </code>
+                include_reverse: true
+        -
+                uuid: f79de4d6-84a5-4882-ab08-5ea0d41af486
+                markdown: false
+                front: >
+                        [$$]\oplus[/$$]
+                back: >
+                        <code>
+                        \oplus
+                        </code>
+                include_reverse: true
+        -
+                uuid: 6208f92e-b88f-44cd-bd9c-bc23fd4d7ea1
+                markdown: false
+                front: >
+                        [$$]\oslash[/$$]
+                back: >
+                        <code>
+                        \oslash
+                        </code>
+                include_reverse: true
+        -
+                uuid: 5d3c605e-52bf-4ebb-b5ed-05c1a4901b36
+                markdown: false
+                front: >
+                        [$$]\otimes[/$$]
+                back: >
+                        <code>
+                        \otimes
+                        </code>
+                include_reverse: true
+        -
+                uuid: 357bf314-ac43-4e52-87c1-c94f6be0f70a
+                markdown: false
+                front: >
+                        [$$]\parallel[/$$]
+                back: >
+                        <code>
+                        \parallel
+                        </code>
+                include_reverse: true
+        -
+                uuid: 9d911b62-87da-4dfa-9f34-90daed2156b0
+                markdown: false
+                front: >
+                        [$$]\partial[/$$]
+                back: >
+                        <code>
+                        \partial
+                        </code>
+                include_reverse: true
+        -
+                uuid: d5205344-d45e-43a2-9d29-ab19df903679
+                markdown: false
+                front: >
+                        [$$]\perp[/$$]
+                back: >
+                        <code>\perp</code> (respectively <code>\bot</code>)
+                include_reverse: true
+        -
+                uuid: 7f6592ef-1222-4a85-be49-73d023d1b95b
+                markdown: false
+                front: >
+                        [$$]\pm[/$$]
+                back: >
+                        <code>
+                        \pm
+                        </code>
+                include_reverse: true
+        -
+                uuid: 64d7c389-8995-40a4-93d7-6a1228756059
+                markdown: false
+                front: >
+                        [$$]\prec[/$$]
+                back: >
+                        <code>
+                        \prec
+                        </code>
+                include_reverse: true
+        -
+                uuid: b64d9962-74cd-4cf8-9ca0-0c43652262e3
+                markdown: false
+                front: >
+                        [$$]\preceq[/$$]
+                back: >
+                        <code>
+                        \preceq
+                        </code>
+                include_reverse: true
+        -
+                uuid: 144be625-dd73-495a-9d47-e6c62acc5d21
+                markdown: false
+                front: >
+                        [$$]\prime[/$$]
+                back: >
+                        <code>
+                        \prime
+                        </code>
+                include_reverse: true
+        -
+                uuid: 46cb2c48-5386-427c-b9b3-a9f6d03780b2
+                markdown: false
+                front: >
+                        [$$]\prod[/$$]
+                back: >
+                        <code>
+                        \prod
+                        </code>
+                include_reverse: true
+        -
+                uuid: 4dd26650-7f20-4995-ab4f-aed70f1e5c4c
+                markdown: false
+                front: >
+                        [$$]\propto[/$$]
+                back: >
+                        <code>
+                        \propto
+                        </code>
+                include_reverse: true
+        -
+                uuid: 2ada5f4c-528c-4440-b8c5-6e66810fa27f
+                markdown: false
+                front: >
+                        [$$]\Re[/$$]
+                back: >
+                        <code>
+                        \Re
+                        </code>
+                include_reverse: true
+        -
+                uuid: 8cf9fc31-a926-468f-a539-d032c7985d1d
+                markdown: false
+                front: >
+                        [$$]\rightleftarrows[/$$]
+                back: >
+                        <code>
+                        \rightleftarrows
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: e9846848-a905-4925-b84f-e92dea4ec6ea
+                markdown: false
+                front: >
+                        [$$]\rightleftharpoons[/$$]
+                back: >
+                        <code>
+                        \rightleftharpoons
+                        </code>
+                include_reverse: true
+        -
+                uuid: 59ebcd36-174b-4798-8287-68128b64a92e
+                markdown: false
+                front: >
+                        [$$]\rightsquigarrow[/$$]
+                back: >
+                        <code>
+                        \rightsquigarrow
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 141eb16d-543c-4037-ba52-bd8be535f1ce
+                markdown: false
+                front: >
+                        [$$]\rtimes[/$$]
+                back: >
+                        <code>
+                        \rtimes
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 56434ff6-ea94-460a-ae94-534f99be8323
+                markdown: false
+                front: >
+                        [$$]\searrow[/$$]
+                back: >
+                        <code>
+                        \searrow
+                        </code>
+                include_reverse: true
+        -
+                uuid: e837ffd3-00c2-4da7-8b9c-36e080823a9b
+                markdown: false
+                front: >
+                        [$$]\sharp[/$$]
+                back: >
+                        <code>
+                        \sharp
+                        </code>
+                include_reverse: true
+        -
+                uuid: a4f459bd-bf84-43ee-838a-de6b2d2ec9d2
+                markdown: false
+                front: >
+                        [$$]\sim[/$$]
+                back: >
+                        <code>
+                        \sim
+                        </code>
+                include_reverse: true
+        -
+                uuid: 9e31a0a5-c499-4934-ab1c-81c9e174d603
+                markdown: false
+                front: >
+                        [$$]\spadesuit[/$$]
+                back: >
+                        <code>
+                        \spadesuit
+                        </code>
+                include_reverse: true
+        -
+                uuid: c956f731-417c-4cd2-b6d7-ea2e7948fe7d
+                markdown: false
+                front: >
+                        [$$]\sqcap[/$$]
+                back: >
+                        <code>
+                        \sqcap
+                        </code>
+                include_reverse: true
+        -
+                uuid: 4e5e336b-8ef5-4cd6-8b5b-c3abdc64babc
+                markdown: false
+                front: >
+                        [$$]\sqcup[/$$]
+                back: >
+                        <code>
+                        \sqcup
+                        </code>
+                include_reverse: true
+        -
+                uuid: 7a52682a-ff56-4ec5-8954-0ccd3daa5ecf
+                markdown: false
+                front: >
+                        [$$]\sqsubseteq[/$$]
+                back: >
+                        <code>
+                        \sqsubseteq
+                        </code>
+                include_reverse: true
+        -
+                uuid: 2ee2112f-97eb-497f-b725-5770561b8657
+                markdown: false
+                front: >
+                        [$$]\sqsupseteq[/$$]
+                back: >
+                        <code>
+                        \sqsupseteq
+                        </code>
+                include_reverse: true
+        -
+                uuid: cf9c06c7-658e-4f7e-a0d1-9d672f64bf1c
+                markdown: false
+                front: >
+                        [$$]\square[/$$]
+                back: >
+                        <code>
+                        \square
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: ef959124-a63e-4197-868d-809846e060af
+                markdown: false
+                front: >
+                        [$$]\star[/$$]
+                back: >
+                        <code>
+                        \star
+                        </code>
+                include_reverse: true
+        -
+                uuid: 9958dfbe-b845-47f5-81d8-8992df412e4c
+                markdown: false
+                front: >
+                        [$$]\subset[/$$]
+                back: >
+                        <code>
+                        \subset
+                        </code>
+                include_reverse: true
+        -
+                uuid: d1818388-1fe2-4ad5-b0f5-d39e2c2f92b7
+                markdown: false
+                front: >
+                        [$$]\subsetneq[/$$]
+                back: >
+                        <code>
+                        \subsetneq
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 5e6e1718-8f33-4dd5-8179-4469de1b3b0b
+                markdown: false
+                front: >
+                        [$$]\succ[/$$]
+                back: >
+                        <code>
+                        \succ
+                        </code>
+                include_reverse: true
+        -
+                uuid: 27dde465-63e7-4e5b-9413-05656c3da9ec
+                markdown: false
+                front: >
+                        [$$]\succeq[/$$]
+                back: >
+                        <code>
+                        \succeq
+                        </code>
+                include_reverse: true
+        -
+                uuid: f21ca4ae-823d-4b10-b96f-b4ee1f32e7c2
+                markdown: false
+                front: >
+                        [$$]\supset[/$$]
+                back: >
+                        <code>
+                        \supset
+                        </code>
+                include_reverse: true
+        -
+                uuid: 1960106d-ddc8-491b-b055-1478d04dbaee
+                markdown: false
+                front: >
+                        [$$]\supseteq[/$$]
+                back: >
+                        <code>
+                        \supseteq
+                        </code>
+                include_reverse: true
+        -
+                uuid: ee075869-2169-42dd-b094-e1484a671a6b
+                markdown: false
+                front: >
+                        [latex]\textparagraph[/latex] (textmode)
+                back: >
+                        <code>
+                        \textparagraph
+                        </code>
+                include_reverse: true
+        -
+                uuid: 9ee92b16-4293-4657-b4da-03f7d7456565
+                markdown: false
+                front: >
+                        [latex]\textquotedblleft[/latex] (textmode)
+                back: >
+                        <code>
+                        \textquotedblleft
+                        </code>
+                include_reverse: true
+        -
+                uuid: 0518b686-0d2f-4bf1-a72b-17bd21e82e34
+                markdown: false
+                front: >
+                        [latex]\textquotedblright[/latex] (textmode)
+                back: >
+                        <code>
+                        \textquotedblright
+                        </code>
+                include_reverse: true
+        -
+                uuid: ffb8600f-10b5-4cf9-ab07-6234dd2852c5
+                markdown: false
+                front: >
+                        [latex]\textquoteright[/latex] (textmode)
+                back: >
+                        <code>
+                        \textquoteright
+                        </code>
+                include_reverse: true
+        -
+                uuid: 11d3301b-ab70-4051-8b50-3bbb72fac006
+                markdown: false
+                front: >
+                        [latex]\textquoteleft[/latex] (textmode)
+                back: >
+                        <code>
+                        \textquoteleft
+                        </code>
+                include_reverse: true
+        -
+                uuid: fcf53256-b511-435f-998d-fd776aa4355c
+                markdown: false
+                front: >
+                        [latex]\textregistered[/latex] (textmode)
+                back: >
+                        <code>
+                        \textregistered
+                        </code>
+                include_reverse: true
+        -
+                uuid: 61c9f9bd-d877-4323-85c8-d574d4c2d725
+                markdown: false
+                front: >
+                        [latex]\textsection[/latex] (textmode)
+                back: >
+                        <code>
+                        \textsection
+                        </code>
+                include_reverse: true
+        -
+                uuid: 6ea306c8-92d5-4803-81d9-dfe5a1869846
+                markdown: false
+                front: >
+                        [latex]\textunderscore[/latex] (textmode)
+                back: >
+                        <code>
+                        \textunderscore
+                        </code>
+                include_reverse: true
+        -
+                uuid: 82762d40-49a5-46f8-8175-4a4e08816cbc
+                markdown: false
+                front: >
+                        [$$]\therefore[/$$]
+                back: >
+                        <code>
+                        \therefore
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 91cd5fac-46c3-43b5-9c9f-0e498543d31f
+                markdown: false
+                front: >
+                        [$$]\times[/$$]
+                back: >
+                        <code>
+                        \times
+                        </code>
+                include_reverse: true
+        -
+                uuid: a255f014-d25f-4a10-af6c-86f39c3aeccc
+                markdown: false
+                front: >
+                        [$$]\top[/$$] (math mode)
+                back: >
+                        <code>
+                        \top
+                        </code>
+                include_reverse: true
+        -
+                uuid: 8ca3a90a-620c-49d8-8057-06f647572b9b
+                markdown: false
+                front: >
+                        [$$]\triangle[/$$]
+                back: >
+                        <code>
+                        \triangle
+                        </code>
+                include_reverse: true
+        -
+                uuid: 57fbf015-01d3-47e7-9031-592c98f64bbb
+                markdown: false
+                front: >
+                        [$$]\triangleleft[/$$]
+                back: >
+                        <code>
+                        \triangleleft
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 34c48b0f-3bdd-4026-8761-f763a9f79e69
+                markdown: false
+                front: >
+                        [$$]\triangleright[/$$]
+                back: >
+                        <code>
+                        \triangleright
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 5a7fc04d-54a9-4d7c-93f1-5d633c64b309
+                markdown: false
+                front: >
+                        [$$]\trianglerighteq[/$$]
+                back: >
+                        <code>
+                        \trianglerighteq
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: cf2e7682-30f6-4767-a933-557cff816b73
+                markdown: false
+                front: >
+                        [$$]\trianglelefteq[/$$]
+                back: >
+                        <code>
+                        \trianglelefteq
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: a43dac20-5f02-48c8-89fd-9f4f1712806b
+                markdown: false
+                front: >
+                        [$$]\twoheadleftarrow[/$$]
+                back: >
+                        <code>
+                        \twoheadleftarrow
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 2a30bfb1-f05e-4d08-8c74-47404856fab3
+                markdown: false
+                front: >
+                        [$$]\twoheadrightarrow[/$$]
+                back: >
+                        <code>
+                        \twoheadrightarrow
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: 89b1c3a1-a83f-40bb-8aa1-314e6bafcdcc
+                markdown: false
+                front: >
+                        [$$]\updownarrow[/$$]
+                back: >
+                        <code>
+                        \updownarrow
+                        </code>
+                include_reverse: true
+        -
+                uuid: 8bd1e70d-0e9f-4594-be0a-d6e77fb2c2aa
+                markdown: false
+                front: >
+                        [$$]\uplus[/$$]
+                back: >
+                        <code>
+                        \uplus
+                        </code>
+                include_reverse: true
+        -
+                uuid: 53dc6edd-7100-42dc-a802-1bf1a806d20a
+                markdown: false
+                front: >
+                        [$$]\upsilon[/$$]
+                back: >
+                        <code>
+                        \upsilon
+                        </code>
+                include_reverse: true
+        -
+                uuid: a2daa573-0aea-47d8-963e-605aa8b9fe16
+                markdown: false
+                front: >
+                        [$$]\Upsilon[/$$]
+                back: >
+                        <code>
+                        \Upsilon
+                        </code>
+                include_reverse: true
+        -
+                uuid: 60668833-0930-4cfa-93bd-12077a048f37
+                markdown: false
+                front: >
+                        [$$]\varepsilon[/$$]
+                back: >
+                        <code>
+                        \varepsilon
+                        </code>
+                include_reverse: true
+        -
+                uuid: 56158fd2-d6d6-4dcb-bb3c-6380b389bfc8
+                markdown: false
+                front: >
+                        [$$]\varnothing[/$$]
+                back: >
+                        <code>
+                        \varnothing
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: f2759a7d-44c6-415f-94a0-b657fc562bd0
+                markdown: false
+                front: >
+                        [$$]\varphi[/$$]
+                back: >
+                        <code>
+                        \varphi
+                        </code>
+                include_reverse: true
+        -
+                uuid: d6d13da1-abd8-4758-97e7-c40cf2ed354f
+                markdown: false
+                front: >
+                        [$$]\varpi[/$$]
+                back: >
+                        <code>
+                        \varpi
+                        </code>
+                include_reverse: true
+        -
+                uuid: 67bc69a1-79d8-4bf5-b9a9-51d56ef17b89
+                markdown: false
+                front: >
+                        [$$]\varrho[/$$]
+                back: >
+                        <code>
+                        \varrho
+                        </code>
+                include_reverse: true
+        -
+                uuid: 765c8ab1-e0bb-4890-9dc8-01922a0a76fb
+                markdown: false
+                front: >
+                        [$$]\varsigma[/$$]
+                back: >
+                        <code>
+                        \varsigma
+                        </code>
+                include_reverse: true
+        -
+                uuid: 2777d17a-8e88-4754-8835-31483eac037b
+                markdown: false
+                front: >
+                        [$$]\vartheta[/$$]
+                back: >
+                        <code>
+                        \vartheta
+                        </code>
+                include_reverse: true
+        -
+                uuid: c679fa54-d0a3-46ee-a336-76d005d4e1ca
+                markdown: false
+                front: >
+                        [$$]\vdots[/$$]
+                back: >
+                        <code>
+                        \vdots
+                        </code>
+                include_reverse: true
+        -
+                uuid: 139feb63-37b8-49d2-b93c-1bc37306b8cf
+                markdown: false
+                front: >
+                        [$$]\veebar[/$$]
+                back: >
+                        <code>
+                        \veebar
+                        </code>
+                        <br>
+                        Package <code>amssymb</code>
+                include_reverse: true
+        -
+                uuid: d7119656-a1da-4c4b-a19b-e3ca63faa2ec
+                markdown: false
+                front: >
+                        [$$]\wp[/$$]
+                back: >
+                        <code>
+                        \wp
+                        </code>
+                include_reverse: true
+        -
+                uuid: b0c548b3-aee8-457b-afd0-d4f0880d0160
+                markdown: false
+                front: >
+                        [$$]\wr[/$$]
+                back: >
+                        <code>
+                        \wr
+                        </code>
+                include_reverse: true
+        -
+                uuid: fb24ac54-e5b4-4a4f-bc01-85011804f98c
+                markdown: false
+                front: >
+                        [$$]\zeta[/$$]
+                back: >
+                        <code>
+                        \zeta
+                        </code>
+                include_reverse: true

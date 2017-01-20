@@ -695,49 +695,60 @@ notes:
         -
                 uuid: debfbd21-8f66-48f2-a8e9-f69f99762618
                 front: Hashování konvolucí a vlastnosti
+                markdown: false
                 back: >
-                        [$]w,k\\in \\Z, h:\\{0,1\\}^w\\rightarrow\\{0,1\\}^k[/$],
-                        [$]H=\\{h_{a,b}:a\\in\\{0,1\\}^{w+k-1},b\\in\\{0,1\\}^b\\}[/$].
-                        [$] (h_{a,b}(x))_j=b_j+\\sum_{i=1}^w a_{i+j-1} x_i[/$]
+                        [$]w,k\in \N, h:\{0,1\}^w\rightarrow\{0,1\}^k[/$],
+                        [$]H=\{h_{a,b}:a\in\{0,1\}^{w+k-1},b\in\{0,1\}^b\}[/$].
+                        [$] (h_{a,b}(x))_j=b_j+\sum_{i=1}^w a_{i+j-1} x_i[/$]
                         <br>
                         Konvoluce je nepraktická. Je 2-univerzální.
         -
                 uuid: 54210963-0024-487a-a312-3fd5eee08e62
                 front: Hashování multiply-shift a vlastnosti
+                markdown: false
                 back: >
-                        [$]h:\\{0,1\\}^w\\rightarrow\\{0,1\\}^k[/$],
-                        [$]a,b\\in\\{0,1\\}^{w+k-1}[/$],
-                        [$]h_{a,b}(x)=[(ax+b)>>(w-1)]_{1\\ldots k}[/$] -- vyber nejnižší bity
+                        [$]h:\{0,1\}^w\rightarrow\{0,1\}^k[/$],
+                        [$]a,b\in\{0,1\}^{w+k-1}[/$]<br>
+                        [$$]h_{a,b}(x)=[(ax+b)\gg w-1)]_{1\ldots k}[/$$] -- vyber nejnižší bity
                         (+,* nad celými čísly)
+                        <br>
                         <br>
                         Je rychlé, nepotřebuje dělení, stačí jedno násobení. Je 2-univerzální.
                         <br>
-                        Zobecnění: [$][ax+b]_{w'-k+1,\\ldots w'}[/$]
+                        Zobecnění: [$][ax+b]_{w'-k+1,\ldots w'}[/$]
         -
                 uuid: 849ad267-6f90-4c38-b71c-d3f7fc9e3c97
                 front: Hashování vektory
+                markdown: false
                 back: >
-                        [$]h:\\{0,1\\}^{w\\times d}\\rightarrow\\{0,1\\}^k[/$], kde [$]w'\\geq w+k-1[/$].
+                        [$]h:\{0,1\}^{w\times d}\rightarrow\{0,1\}^k[/$], kde [$]w'\geq w+k-1[/$].
                         <br>
-                        [$$]H=\\{h_{a_0,a_1,\\ldots a_{d-1},b}: a_0,\\ldots a_{d-1},b\\in\\{0,1\\}^{w}\\}[/$$]
+                        [$$]H=\{h_{a_{0,1,\ldots d-1},b}: a_{0,\ldots d-1},b\in\{0,1\}^{w}\}[/$$]
                         <br>
-                        [$$]h(x_0,\\ldots x_{d-1})=[(\\sum a_i x_i) + b]_{w-k+1,\\ldots w'}[/$$]
+                        [$$]h(x_0,\ldots x_{d-1})=[(\sum a_i x_i) + b]_{w-k+1,\ldots w'}[/$$]
                         (výběr bitů)
-                        <br>
+        -
+                uuid: f93cafa0-b68c-40b8-bac5-b0e103d37916
+                front: Hashování vektory - vychytávky
+                markdown: false
+                back: >
                         Když je [$]d[/$] sudé, jde použít k ušetření násobení:
-                        [$$]h(x_0,\\ldots x_{d-1})=[(\\sum_{i\\in\\{0,\\ldots d/2-1\\}} (a_{2i}+x_{2i+1})(a_{2i+1}+x_{2i})) + b][/$$]
+                        [$$]h(x_0,\ldots x_{d-1})=[(\sum_{i\in\{0,\ldots d/2-1\}} (a_{2i}+x_{2i+1})(a_{2i+1}+x_{2i})) + b][/$$]
                         <br>
-                        Pokud chci heshovat vektory proměnné délky [$]d'<d[/$], kde [$]d'[/$] je sudé:
-                        [$$]h(x_0,\\ldots x_{d'-1})=[(\\sum_{i\\in\\{0,\\ldots d'/2-1\\}} (a_{2i}+x_{2i+1})(a_{2i+1}+x_{2i})) + a_{d'}]_{w'-k+1,\\ldots w'}[/$$]
+                        Pokud chci hashovat vektory proměnné délky [$]d'<d[/$], kde [$]d'[/$] je sudé:
+                        [$$]h(x_0,\ldots x_{d'-1})=[(\sum_{i\in\{0,\ldots d'/2-1\}} (a_{2i}+x_{2i+1})(a_{2i+1}+x_{2i})) + a_{d'}]_{w'-k+1,\ldots w'}[/$$]
         -
                 uuid: c317b366-ac24-4ebb-9b43-2cd34dd2fe4f
-                front: Hashování řetězců
+                front: Hashování řetězců - definice
                 back: >
                         Vyberu [$]p\\in P (p\\geq |U|)[/$],
                         [$]a\\in\\{0,\\ldots p-1\\}[/$].
                         <br>
                         Vstup: [$]x_0,\\ldots x_{d-1}\\in U[/$].
-                        <br>
+        -
+                uuid: 5896cca5-4819-470d-95d0-50f221d780a7
+                front: Hashování řetězců - pravděpodobnost kolize a důkaz
+                back: >
                         [$$]h_a(x_0,\\ldots x_{d-1})=\\sum_{i=0}^{d-1}x_i\\cdot a^i \\bmod p[/$$]
                         <br>
                         Věta: když [$]\\overline{x}\\neq\\overline{y}[/$] stejné délky,
@@ -745,17 +756,20 @@ notes:
                         <br>
                         Důkaz: dva různé polynomy stupně [$]\\leq d-1[/$] se mohou shodovat
                         nejvýše v [$]d[/$] bodech.
-                        <br>
+        -
+                uuid: c9a1a95c-fc5b-400d-ba9b-0a6295cda04c
+                front: Hashování řetězců - spojení co dá malou pravděpodobnost kolize
+                back: >
                         [$]h_a[/$] jde složit s hašovací funkcí [$]\\{0,\\ldots p-1\\}\\rightarrow\\{0,\\ldots m-1\\}[/$]:
                         [$$]h_{a,b,c\\in\\{0,\\ldots p-1\\}} = ((a(\\sum_{i=0}^{d-1} x_i c^i)+b)\\bmod p)\\bmod m[/$$]
                         <br>
                         Pokud [$]d<p/m[/$], tak je pst. kolize [$]\\leq 2/m[/$].
         -
                 uuid: 0b8ea909-fb00-43df-836c-4ed075aa9f69
-                front: Tabulkové hashování
+                front: Tabulkové hashování a jeho vlastnosti
                 back: >
-                        Zvolím [$]x_0,\\ldots x_{d-1}\\in\\{0,\\ldots m-1\\}[/$],
-                        náhodné tabulky [$]T_0,\\ldots T_{d-1}:\\{0,1\\ldots m-1\\}\\rightarrow\\{0,1\\}^\\ell[/$],
+                        Zvolím [$]x_0,\\ldots x_{d-1}\\in [m][/$],
+                        náhodné tabulky [$]T_0,\\ldots T_{d-1}: [m]\\rightarrow\\{0,1\\}^\\ell[/$],
                         výstup je [$]T_0[x_0]\\oplus \\ldots T_{d-1}(x_{d-1})[/$]
                         (XOR po bitech).
                         <br>
@@ -764,25 +778,25 @@ notes:
                 uuid: a35d77b3-acf6-4133-8d01-69c2005d42a8
                 front: 5-univerzální tabulkové hashování
                 back: >
-                        [$]x_0,x_1\\in\\{0,\\ldots m-1\\}[/$],
-                        náhodné tabulky [$]T_0,T_1:\\{0,\\ldots m-1\\}\\rightarrow\\{0,1\\}^\\ell[/$],
-                        [$]T_2:\\{0,\\ldots,2m-1\\}\\rightarrow\\{0,1\\}^\\ell[/$].<br>
+                        [$]x_0,x_1\\in [m][/$],
+                        náhodné tabulky [$]T_0,T_1: [m]\\rightarrow\\{0,1\\}^\\ell[/$],
+                        [$]T_2:[2m]\\rightarrow\\{0,1\\}^\\ell[/$].<br>
                         Výsledek: [$]T_0[x_0]\\oplus T_1[x_1]\\oplus T_2[x_0 || x_1][/$]
         -
                 uuid: 50650fe5-887f-4b2c-a138-d651bcdb725d
                 front: Konstrukce [$]k[/$]-univerzálního hashování
                 back: >
-                        [$]p\\in P, x\\in\\{0,\\ldots p-1\\},
-                        a_0,\\ldots a_{k-1}\\in\\{0,\\ldots p-1\\}[/$] náhodně<br>
+                        [$]p\\in P, x\\in \\Z_p,
+                        a_0,\\ldots a_{k-1}\\in \\Z_p náhodně<br>
                         <br>
-                        [$$]h_{a_0,\\ldots a_{k-1}}(x)=\\sum_{i=0}^{k-1} a_i x_i \\bmod p[/$$]
+                        [$$]h_{a_0,\\ldots a_{k-1}}(x)=\\sum_{i=0}^{k-1} a_i x^i \\bmod p[/$$]
                         <br>
                         Je [$]k[/$]-univerzální.
         -
                 uuid: c2b4ae9f-c490-459c-84e9-314ca20ad298
                 front: K čemu jsou užitečná Mersennova prvočísla?
                 back: >
-                        Dá se jimi rychle modulit: [$]y=(y \\& p) + (y >> a)(\\bmod p)[/$]
+                        Dá se jimi rychle modulit: [$]y=(y \\& p) + (y \\gg a)(\\bmod p)[/$]
         -
                 uuid: ee03f9d3-2e24-4b87-b30d-e1db4c34f915
                 front: Perfektní hashování

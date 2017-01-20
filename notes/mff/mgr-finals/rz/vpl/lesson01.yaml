@@ -5,7 +5,7 @@ notes:
                 uuid: dbb93f47-fe5c-4246-b2a8-fa5e09d2641e
                 front: De Morganovy zákony
                 back: >
-                        [$]\\neg (p\\vee q)\\ekv \\neg p \\wedge \\neg q[/$],
+                        [$]\\neg (p\\vee q)\\ekv \\neg p \\wedge \\neg q[/$]<br>
                         [$]\\neg (p\\wedge q)\\ekv \\neg p \\vee \\neg q[/$]
         -
                 uuid: a0e05572-826d-48dc-a83c-eee6c47f1da0

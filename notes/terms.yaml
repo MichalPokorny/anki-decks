@@ -857,3 +857,68 @@ notes:
                 back: >
                         Synonym for a wealthy man in Greek and Persian cultures.
                         "Rich as Croesus"/"richer than Coresus".
+        -
+                uuid: 204eab42-ee6c-4e73-b1ce-6265fa5e4ebe
+                front: immanent
+                back: >
+                        existing or operating within; inherent; (of God) permanently pervading and sustaining the universe
+                include_reverse: true
+        -
+                uuid: d11dc10b-c3d9-40d1-b9ed-df8d6d7c20ad
+                front: eschaton
+                back: >
+                        (literally) the last; used in theology to refer to
+                        the world during the posthistoric era of God's overt
+                        (apocalyptic) reign, immediately preceding the end of
+                        the world
+                include_reverse: true
+        -
+                uuid: 4e370a21-58e3-4040-9cfa-0bdfbd170d04
+                front: sophism
+                back: >
+                        a clever but false argument, especially one used
+                        deliberately to deceive
+                include_reverse: true
+        -
+                uuid: 786f7c85-a55a-4f87-97b0-c63a3085b8cb
+                front: to hem and haw (/ hum and haw)
+                back: to be indecisive (British)
+        -
+                uuid: 664fd51f-532f-492c-b94a-73bb20533c47
+                front: isthmus
+                back: >
+                        a narrow strip of land with sea on either side, forming a link between two larger areas of land;
+                        (anatomy) a narrow organ, passage, or piece of tissue connecting two larger parts.
+                include_reverse: true
+        -
+                uuid: b7f13337-475b-47a6-b745-d5ca96086c08
+                front: empyrean
+                back: (adjective) relating to heaven; (noun) the highest part of heaven, thought by the ancients to be the realm of pure fir
+                include_reverse: true
+        -
+                uuid: ff06b070-6a60-4599-b2c2-40e4fa7d14cf
+                front: tootle
+                back: >
+                        make a series of sounds by blowing a horn, trumpet, or similar instrument; (informal) go or travel in a leisurely way.
+                include_reverse: true
+        -
+                uuid: e236b2da-44b7-43cd-9a5b-65295cb1c929
+                front: convection
+                back: >
+                        heat transfer by mass motion of a fluid such as air or
+                        water when the heated fluid is caused to move away from
+                        the source of heat, carrying energy with it
+                include_reverse: true
+        -
+                uuid: 7b8ee726-8b05-4cac-9f98-cd8b67f95458
+                front: peccadillo
+                back: a relatively minor fault or sin
+                include_reverse: true
+        -
+                uuid: 0f813af6-dabf-4ac3-9766-af460f725a57
+                front: dogmatism
+                back: >
+                        the tendency to lay down principles as undeniably true,
+                        without consideration of evidence or the opinions of
+                        others
+                include_reverse: true

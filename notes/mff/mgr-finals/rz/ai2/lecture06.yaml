@@ -99,7 +99,7 @@ notes:
                 back: >
                         Opakuje kroky:
                         <br>
-                        1. Policy evaluation: Spočítám utilitu současné policy.
+                        1. Policy evaluation: Počítám utilitu.
                         (Pro malé stavové prostory se dá přesně spočítat, trvá [$]\\O(n^3)[/$]; znám přechodový model).
                         <br>
                         Pro velké prostory: udělám několik kroků value iteration.

@@ -17,10 +17,18 @@ notes:
                 front: Jak modelujeme v plánování čas?
                 back: >
                         Čas je spojitá nebo diskrétní množina s tranzitivním a asymetrickým uspořádáním.
-                        <br>
-                        Plánování bude používat databázi časových údajů, které updatuje a ptá se na konzistenci.
-                        <br>
-                        S časem pracujeme kvalitativně (tj. relativní vztahy), nebo kvantitativně (tj. zajímají nás absolutní hodnoty).
+        -
+                uuid: 488918b1-5ba7-4a62-bd7b-a57ab03a5945
+                front: Jaké rozhraní k času budeme při plánování používat?
+                back: >
+                        Plánování bude používat databázi časových údajů, které
+                        updatuje a ptá se na konzistenci.
+        -
+                uuid: 74aec57b-3cb4-477d-93c2-4e236e22b534
+                front: Jaké jsou dva způsoby práce s časem v plánování?
+                back: >
+                        S časem pracujeme kvalitativně (tj. relativní vztahy),
+                        nebo kvantitativně (tj. zajímají nás absolutní hodnoty).
         -
                 uuid: 26354eb1-17e7-4c6e-b273-7d675a3b6626
                 front: Co nás zajímá v kvalitativním přístupu k času?
