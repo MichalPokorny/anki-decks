@@ -1647,3 +1647,351 @@ notes:
                 front: Apology - setting
                 back: >
                         Socrates's defense on his trial
+        -
+                uuid: 2ea3993b-2ff7-466b-ba24-ad0999715196
+                topic: Socrates
+                front: Where did he tell the story of the oracle saying nobody's wiser than him?
+                back: In Apology
+        -
+                uuid: 3a906409-6b91-4cab-a4e3-a481cf4bf6cb
+                topic: Socrates
+                front: Why, in Socrates's mind, is nobody wiser than him?
+                back: >
+                        He tried to find someone wiser than him.
+                        Many people think they are wise, but are not.
+                        Many people, like poets, are good at one thing, and think they're wise at other most important pursuits.
+
+                        This man among you, mortals, is wisest who, like Socrates, understands that his wisdom is worthless.
+        -
+                uuid: 615127a7-41f3-4604-a350-64e0acbefad6
+                topic: Socrates
+                front: Why shouldn't a good man fear death?
+                back: >
+                        He doesn't know if it isn't the biggest blessing of his life.
+                        It wuld be a great ignorance to believe that one knows what one doesn't know.
+        -
+                uuid: 17342cd9-5114-4d64-94fd-fc5237da64ba
+                topic: Socrates
+                front: Apology - How should a man who really fights for justice live?
+                back: >
+                        A private life, not a public one (like politics).
+                        <br>
+                        A good man would not survive in public life.
+        -
+                uuid: 517a34ac-c25d-4308-b435-f0b475114d70
+                topic: Socrates
+                front: Apology - Why didn't Socrates corrupt anybody?
+                back: >
+                        Families of his followers were in the jury.
+                        All of them defended him.
+                        So they weren't corrupted or given bad advice.
+        -
+                uuid: 6cb14f50-1eea-4893-bd76-aa60bfe376af
+                topic: Socrates
+                front: How many children did he have?
+                back: 3 sons
+        -
+                uuid: 21e70f32-f883-410c-8cfb-e70ec12265c5
+                topic: Socrates
+                front: Name of his main accuser
+                back: Meletus
+        -
+                uuid: f97a6552-fbd0-4be5-98f2-8812c7d86adf
+                topic: Socrates
+                front: What did Socrates propose as his punishment?
+                back: Free meals in the magistrates' hall / town hall
+        -
+                uuid: 331660bb-e6e9-4968-a7ad-7ae9311bd066
+                topic: Socrates
+                front: What did Socrates tell those who convicted him to death before parting?
+                back: That more young ones asking questions will come after him and that killing him won't help anything.
+        -
+                uuid: 34c7d762-d264-42cf-bf5b-b6a3336778bf
+                topic: Socrates
+                front: What's the difference between the wisdom of humans and gods?
+                back: >
+                        Gods know what makes for virtue and a good life, people don't.
+                        <br>
+                        The best we can do is subject ourselves to constant
+                        dialectical examination.
+                        <br>
+                        This will rid us of false opinions and cure us of hubris of thinking that
+                        we have a wisdom appropriate only to the god.
+                        <br>
+                        That's why the unexamined life is not worth living.
+        -
+                uuid: cc3eead1-c880-4c3c-92ab-1a1bc94dcf5b
+                front: What's the name of two sides of a dilemma?
+                back: >
+                        "Horns"
+        -
+                uuid: 02528898-78dc-492f-b718-2cdd50db7dac
+                topic: Socrates
+                front: What kind of connection to the divine did Socrates have?
+                back: >
+                        His "divine sign" stopping him from doing wrong.
+        -
+                uuid: 57e62d28-bd10-4e57-a5a3-7a6594ac600f
+                topic: Socrates
+                front: What was his connection with Critias, leader of the Thirty?
+                back: Critias was closely associated with him
+        -
+                uuid: cd2b8a16-fddd-4678-9df8-2ceb4a3a6dd0
+                topic: Socrates
+                front: Evidence for the soul knowing everything before entering the human body
+                back: >
+                        We recognize solutions when we see them ("given a square, construct one of twice the area")
+        -
+                uuid: ee169d0b-67bf-451c-b10c-0926a1858d33
+                topic: Socrates
+                front: If he wasn't a teacher, what was he?
+                back: A midwife - he helps the "learner" see what he already knew
+        -
+                uuid: d9f289ec-eccb-4a98-bfa1-2f466257cdfb
+                topic: Socrates
+                front: Crito - background
+                back: >
+                        While a state galley was gone on a religious mission,
+                        no executions could take place. It's returning.
+                        Socrates' old and faithful friend, Crito, makes
+                        one last effort to persuade him to escape into exile.
+        -
+                uuid: daf4bb87-1fe4-478e-9f1a-3c1d7b05edf0
+                topic: Socrates
+                front: Who tried to convince him to escape into exile?
+                back: Crito
+        -
+                uuid: 5af57306-c1e1-4e9d-856d-e0269ebd2a11
+                topic: Socrates
+                front: Death scene dialogue - name
+                back: Phaedo
+        -
+                uuid: ebd2b866-f576-4006-bda9-d28c037d73ca
+                topic: Socrates
+                front: Last wish
+                back: >
+                        "Crito, we owe a cock to Asclepius; make this offfering to him and do not forget."
+                        <br><br>
+                        Cocks were sacrificed by sick people sleeping in Asclepius's temples,
+                        hoping for a cure. "Death is a cure for the ills of life."
+        -
+                uuid: 4677f88a-c515-4669-9d6b-2d02d8e30a19
+                topic: Socrates
+                front: When did he die?
+                back: 399 BC
+        -
+                uuid: ccee71c6-9bc1-415e-8c50-fda9e10b2551
+                topic: Plato
+                front: How old was he on Socrates's death?
+                back: >
+                        30 years old
+        -
+                uuid: a67b2d1b-8865-433b-9bfe-5b5916f80039
+                topic: Plato
+                front: Who was his most famous pupil?
+                back: Aristotle
+        -
+                uuid: 38c10379-2cb1-4173-9e47-190a9878892d
+                topic: Plato
+                front: Alfred North Whitehead on Plato
+                back: >
+                        The safest general characterization of the European
+                        philosophical tradition is that it consists of
+                        a series of footnotes to Plato.
+                include_reverse: true
+        -
+                uuid: fe3d87fc-8f10-4e42-91a8-d19a03655a9a
+                topic: Plato
+                front: Plato and Aristotle on The School of Athens by Raphael
+                back: >
+                        Plato: left, points upwards<br>
+                        Aristotle: right, hand stretched out horizontally
+        -
+                uuid: 0e3d8ac5-a48f-402a-b8df-a66eea1491ce
+                front: What did Plato do between Socrates' death and 387 BC?
+                back: Travel
+        -
+                uuid: 4967196f-507b-42a4-a377-d46458ae856c
+                front: When did Plato return to Athens?
+                back: 387 BC
+        -
+                uuid: 317b6823-c9f9-4ba5-a1fc-65ae1d115560
+                front: Plato's main goal
+                back: >
+                        Refuting skepticism and relativism<br>
+                        There is a truth about reality and it can be known<br>
+                        Contrary to Democritus: reality is not indifferent to moral and religious values
+        -
+                uuid: b477bbbc-b591-4d89-b2f3-4fa591238e6c
+                front: Plato's basic goal
+                back: >
+                        Establish a pattern for a good state:
+                        one in which a good person can live a good life
+        -
+                uuid: f200cb14-0065-4916-8877-46c5484fec86
+                front: Plato's epistemological attack on Sophists
+                back: >
+                        There is a difference between belief and knowledge.
+        -
+                uuid: 0f96772d-99fa-471a-af46-547e3688aa7c
+                topic: Plato
+                front: Distinction between belief and knowledge
+                back: >
+                        You can believe falsely, but not know falsely.
+                        Knowledge involves truth.
+                        (Impossible: "I used to know the sky was red,
+                        now I know it's not.")
+                        <br><br>
+                        Knowledge involves having the reason and cannot be
+                        overcome by rhetoric.
+                        Opinion is at the mercy of every persuasive speaker
+                        who comes along.
+        -
+                uuid: 4e8b530d-fcca-4766-a1cf-e1f87c8cfca5
+                topic: Plato
+                front: What turns beliefs into knowledge?
+                back: >
+                        "Tying them down", so they don't "escape from a man's mind".
+                        <br>
+                        An "account of the reason why".
+                        (Belief without knowledge: blind people who happen to follow the right road.)
+        -
+                uuid: b234c017-26e1-4d07-bcd5-0c44956c8098
+                topic: Plato
+                front: What do we know, for example?
+                back: >
+                        Mathematical truths
+        -
+                uuid: 34cd6516-089a-4114-8599-a32a747cc13f
+                front: Plato on senses
+                back: >
+                        Senses never get it right, they aren't precise or accurate.
+                        We only grasp the truth by reasoning (by a *logos*).
+                        <br>
+                        Plato is a rationalist.
+        -
+                uuid: 4ef1998a-7009-4e15-b8ca-1b63df29e0b9
+                topic: Plato
+                front: >
+                        What can we have knowledge about?
+                back: >
+
+                        Socrates's sand drawing is not the subject of the slave boy's knowledge.
+                        <br><br>
+                        The truth cannot be something that bounces around, the truth we know cannot be about the world disclosed to our senses. Nothing about that world remains in place.
+                        <br><br>
+                        We can only know about objects apprehended only by the intellect.
+                        Whether we see a particular square as red or green,
+                        we agree its diagonal is [$]\\sqrt{2}\\cdot x[/$].
+        -
+                uuid: 869d19ad-6387-4677-a1a9-abf035bca2a6
+                topic: Plato
+                front: On Parmenides and Heraclitus
+                back: >
+                        Parmenides and Heraclitus are both correct.
+                        Each is talking about a different reality.
+                        <br>
+                        Parmenides's reality is revealed by reasoning, Heraclitus's by senses.
+        -
+                uuid: ff859838-0127-4b18-b4da-81781e6090a2
+                topic: Plato
+                front: The term *Form*
+                back: >
+                        The general term for the objects of knowledge
+                        (e.g., "the Form of the Square").
+        -
+                uuid: 7a1873b1-bb30-4c39-9a15-4e2851a44af7
+                topic: Plato
+                front: Epistemological argument for the world of Forms
+                back: >
+                        <ul>
+                        <li> Knowledge is enduring, true, rational belief based on instruction.
+                        <li> We do have knowledge.
+                        <li> This knowledge cannot be about the world revealed through the senses.
+                        <li> It must be about another world, one that endures.
+                        <li> This is the world of Forms
+                        </ul>
+        -
+                uuid: 17ee261d-c9e8-4d8f-ada2-eae6fc503e52
+                topic: Plato
+                front: Metaphysical argument for the world of Forms
+                back: >
+                        Elephant A and B are both large, but since they
+                        have many other characteristics, the "large"
+                        they share cannot be either of them.
+        -
+                uuid: b20ee247-f3bf-4d49-848b-6e3e15a6feb2
+                topic: Plato
+                front: Semantic argument for the world of Forms
+                back: >
+                        We customarily hypothesize a single form in connection
+                        with each of the many things to which we apply the same
+                        name.
+        -
+                uuid: 395431ba-7484-4424-8cb8-25b19459cd82
+                topic: Plato
+                front: How do *general* words get their meaning?
+                back: >
+                        They are *specific names* standing for Forms.
+        -
+                uuid: 0ca79f63-7e67-41e8-a369-edb15d5f10c9
+                topic: Plato
+                front: Why is the world of the Forms real?
+                back: >
+                        Because you can't know what *isn't*.
+        -
+                uuid: a2f2e331-361c-44f4-ab92-b414865c0c16
+                topic: Plato
+                front: Knowledge, opinion, and invincible ignorance
+                back: >
+                        Knowledge: of things that truly *are* (the world of Forms)
+                        <br>
+                        Invincible ignorace: things that *aren't*.
+                        Because they aren't, we cannot know those,
+                        because we can only know what *is*.
+                        <br>
+                        Opinion: midway between.
+                        It's a capacity of ours, so some objects must answer
+                        to it: we have opinions *about something*.
+                        The thing that opinions would be about would be
+                        things that are midway between *being* and *not being*
+                        (*opinable*).
+        -
+                uuid: 417a7547-5971-4111-9ba5-70f992f00dfd
+                topic: Plato
+                front: What things are *opinable*?
+                back: >
+                        The things in the Heraclitan flux: the world of experience.
+                        Opinion is about the world of experience.
+        -
+                uuid: 188f5caa-46bc-4762-ac11-2d9cdc619063
+                topic: Plato
+                front: What is real?
+                back: >
+                        The world (of experience) and the Forms, which are realer
+        -
+                uuid: 41a9b75a-9045-494d-a691-e8226be03771
+                topic: Plato
+                front: How are the Forms and the world of experience related?
+                back: >
+                        The Divided Line:
+                        <br><br>
+                        Divide into two unequal sections: the visible and the intelligible.
+                        <br><br>
+                        In terms of relative clarity and opacity, visible
+                        is subdivided into images (shadows, reflections in water, etc.)
+                        and originals (animals, plants, ...).
+                        <br><br>
+                        Relationship is the same between originals and shadows in the world; and the world of Forms and the world
+        -
+                uuid: d9e5fd71-fa41-45c9-8c74-aa390746890e
+                topic: Plato
+                front: Two relationships between Forms and appearances
+                back: >
+                        Making Intelligible (makes eagle intelligible), Producing (accounts for eagle's existence as an eagle)
+        -
+                uuid: de517f13-23bb-4196-8bdf-a8093ed8bd78
+                topic: Plato
+                front: Superiority of the intelligible to the visible
+                back: >
+                        The intelligible endures. If we kill all the eagles, the Form Eagle remains.

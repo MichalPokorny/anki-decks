@@ -922,3 +922,26 @@ notes:
                         without consideration of evidence or the opinions of
                         others
                 include_reverse: true
+        -
+                uuid: eb35ad6b-5ab3-4f9b-8830-1c98c846d649
+                front: affidavit
+                back: (legal) a written statement confirmed by oath or affirmation, for use as evidence in court
+                include_reverse: true
+        -
+                uuid: 171f3ad5-7c4d-4a71-b9fa-e5862dfd66ba
+                front: sycophant
+                back: a person who acts obsequiously towards someone important in order to gain advantage
+                include_reverse: true
+        -
+                uuid: 4b3ef7da-80a6-4b9c-8527-c411ed513042
+                front: lechery
+                back: excessive or offensive sexual desire; lustfulness
+        -
+                uuid: f6f7affe-cdcc-4fca-916a-252898c31008
+                front: reveller
+                back: a person who is enjoying themselves in a lively and noisy way
+        -
+                uuid: a455cc5f-6cb0-4b0c-994a-9205bf53db11
+                front: obsequious
+                back: obedient or attentive to an excessive or servile degree
+                include_reverse: true

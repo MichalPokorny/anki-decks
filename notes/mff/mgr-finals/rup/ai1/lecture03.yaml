@@ -38,61 +38,107 @@ notes:
                 back: >
                         Informované hledání: používám heuristiky
         -
+                uuid: 45d06942-4e82-4602-9c72-124ce192810a
+                topic: BFS
+                front: Časová a prostorová složitost
+                back: >
+                        Časová složitost: [$]\\O(b^{d+1})[/$], to samé prostor. Brzo dojde.
+        -
                 uuid: 3a7a6840-ec4b-448f-98d4-1394cbc76b37
-                front: Prohledávání stavového prostoru - BFS, časová složitost, prostorová složitost, optimalita
+                front: Prohledávání stavového prostoru - BFS, kompletnost, optimalita
                 back: >
                         Expanduj všechno v dané hloubce -- FIFO.
                         Je kompletní.<br>
 
                         Optimalita: Nejmělčí cílový stav není nutně optimální!<br>
-
-                        Časová složitost: [$]\\O(b^{d+1})[/$], to samé prostor. Brzo dojde.
         -
-                uuid: 0b4190bb-97c2-45be-b979-8a27aa7278f9
-                front: Uniform-cost search, kompletnost, optimalita, složitost
+                uuid: 4d14c594-7344-4142-b97a-032dcdc99b5e
+                topic: Uniform-cost search
+                front: Kompletnost a optimalita
+                back: >
+                        Jestli cena kroku je kladná (nenulová)
+        -
+                uuid: 6cec0e12-30d4-4703-aea4-d8a6fb2c6efb
+                topic: Uniform-cost search
+                front: Algoritmus
                 back: >
                         Modifikuju BFS abych našel optimální řešení.
                         Expanduju node, který má nejmenší cost [$]g(n)[/$].
-                        (Bacha na zero-cost steps!)<br>
-
-                        Completeness and optimality: jestli cena kroku je kladná (nenulová)<br>
-
+                        (Bacha na zero-cost steps!)
+        -
+                uuid: 0b4190bb-97c2-45be-b979-8a27aa7278f9
+                topic: Uniform-cost search
+                front: Časová a paměťová složitost
+                back: >
                         Složitost záleží na ceně optimální cesty.
                         [$]\\O(b^{1+\\lfloor C^*/\\varepsilon \\rfloor})[/$]<br>
 
                         Může to být mnohem horší než BFS.
         -
                 uuid: 6f7b2909-b6c3-4bf9-9a5e-e74daaee48b1
-                front: Prohledávání stavového prostoru - DFS, složitost - prostorová, časová
+                topic: DFS
+                front: Algoritmus
                 back: >
                         Vždy expanduj nejhlubší node, pomocí LIFO jako frontieru.
+        -
+                uuid: e955eb0b-d8fe-4da2-8790-b876684bc353
+                topic: DFS
+                front: Kompletnost a optimalita
+                back: >
                         Není kompletní (může se zacyklit), nemusí najít optimum.<br>
-
-                        Složitost: [$]\\O(b^m)[/$], kde [$]m[/$] je maximální hloubka. (Délka cesty může být [$]d<<m[/$]...)<br>
-
-                        Prostorová složitost: [$]\\O(bm)[/$]<br>
+        -
+                uuid: 29559321-2468-4d59-aa8f-9887be830531
+                topic: DFS
+                front: Prostorová složitost
+                back: >
+                        [$$]\\O(bm)[/$$]
+        -
+                uuid: 8814b4a0-9204-4821-9f18-49815e6f81be
+                topic: DFS
+                front: Časová složitost
+                back: >
+                        [$]\\O(b^m)[/$], kde [$]m[/$] je maximální hloubka.
+                        (Délka cesty může být [$]d<<m[/$]...)
         -
                 uuid: 66403ffa-1ab6-4d9e-a8c6-0d54fa2050f2
                 front: Jaké vychytávky umí zlepšit paměťovou složitost DFS?
                 back: >
-                        Jestli dělám backtracking a generuju jenom jednoho successora: [$]\\O(m)[/$].
+                        Jestli dělám backtracking a generuju jenom jednoho successora: [$]\\O(m)[/$].<br>
                         Modifikuj jenom tenhle stav: [$]\\O(m)[/$] akcí, [$]\\O(1)[/$] stavů
         -
                 uuid: 0fa8e941-36e3-4319-af1f-63cb7479629f
                 front: Jak můžu určit depth limit pro DFS?
-                back: Můžu to vykoukat z problému (například, počet měst, průměr grafu). Čím větší hloubku dovolím DFS, tím déle bude trvat.
+                back: >
+                        Můžu to vykoukat z problému (například, počet měst,
+                        průměr grafu). Čím větší hloubku dovolím DFS, tím déle
+                        bude trvat.
         -
                 uuid: fd7c9d1d-65c5-4b74-95f3-f141681c5bd0
                 front: Jak udělat z depth-limited search kompletní algoritmus?
                 back: Iterative deepening
         -
                 uuid: 9ea6deed-73cd-4de5-85ba-ba861f8557d9
-                front: Iterative deepening - kompletnost, optimalita, spotřeba paměti, časová složitost
+                topic: Iterative deepening
+                front: Kompletnost
                 back: >
-                        Kompletnost: ano, když je konečný branching faktor<br>
-                        Optimalita: jenom jestli je cena cesty úměrná hloubce<br>
-                        Paměť: [$]\\O(bd)[/$]<br>
-                        Časová složitost: [$]\\O(b^d)[/$] (BFS prozkoumá totiž ještě jeden level?)
+                        Ano, když je konečný branching faktor
+        -
+                uuid: 3d71cea4-0380-4b90-adca-597882c92e7b
+                topic: Iterative deepening
+                front: Optimalita
+                back: Jenom jestli je cena cesty úměrná hloubce
+        -
+                uuid: af59cf1c-d5c3-4142-8f63-fe605f73aa5b
+                topic: Iterative deepening
+                front: Spotřeba paměti
+                back: >
+                        [$$]\\O(bd)[/$$]
+        -
+                uuid: 6aaa099b-9a98-481f-a8f5-a504e2b01002
+                topic: Iterative deepening
+                front: Časová složitost
+                back: >
+                        [$$]\\O(b^d)[/$$] (BFS prozkoumá totiž ještě jeden level?)
         -
                 uuid: eed965d2-4aa4-4a40-ad8b-86deaf7d65d0
                 front: Jakou metodu uninformed search použít když je velký stavový prostor a neznám hloubku řešení?
