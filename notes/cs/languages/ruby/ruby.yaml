@@ -63,3 +63,8 @@ notes:
                 front: "Inspect object"
                 back: "`Object#inspect`"
                 include_reverse: true
+        -
+                uuid: 8bb2579e-a26f-497c-b13f-f8edbef8f63a
+                front: Symbol array syntax
+                back: "`%i[hello world foo bar]`"
+                include_reverse: true

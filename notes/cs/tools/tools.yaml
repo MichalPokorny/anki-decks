@@ -783,3 +783,75 @@ notes:
                 front: "Remove EXIF tags from image"
                 back: "`exiftool -all= x.jpg`"
                 include_reverse: true
+        -
+                uuid: 2c77a3f1-9cee-4f2e-acf2-909f65e587b3
+                front: "Start `less` to immediately follow"
+                back: "`less +F`"
+                include_reverse: true
+        -
+                uuid: ba4d8a08-9dd4-4438-a09b-ff9a4b924c3d
+                front: "List all available block devices"
+                back: "`lsblk`"
+                include_reverse: true
+        -
+                uuid: 08926c6b-9fe3-4475-abc6-bc3e33092572
+                front: "Netstat - which processes are listening?"
+                back: >
+                        "`netstat -lntp` (for TCP; add `-u` for UDP)"
+        -
+                uuid: 68417b60-a364-4687-99a1-b3540d3c3130
+                front: Convert HTML to text
+                back: "`lynx -dump -stdin`"
+                include_reverse: true
+        -
+                uuid: fd48c6e4-0193-4c61-a875-f5cb2dcd54f0
+                topic: Awk
+                front: Sum up all numbers in the 3rd column
+                back: >
+                        `awk '{ x += $3 } END { print x }'`
+        -
+                uuid: c23157e4-3a39-4618-abba-72448ac036cf
+                front: Diff two directories recursively
+                back: "`diff -r abc def`"
+                include_reverse: true
+        -
+                uuid: 47e5b40a-8c12-4542-b034-b0612f25fd3d
+                front: Select bits of text from binaries
+                back: "`strings`"
+                include_reverse: true
+        -
+                uuid: 5de2df88-2a9b-4dd5-ba4f-e0edf7a5d186
+                front: Give file immutable flag
+                back: "`sudo chattr +i /dir/file`"
+                include_reverse: true
+        -
+                uuid: bd62416f-be22-4d8a-bf43-e2c48401d238
+                front: Library and system call tracer
+                back: "`ltrace`"
+                include_reverse: true
+        -
+                uuid: 3a87f295-ba23-4293-97ce-0cc23c250506
+                front: Command-line XML manipulation tool
+                back: "`xmlstarlet`"
+                include_reverse: true
+        -
+                uuid: 74329575-4cfe-4e5d-a66e-00db0f0c8e85
+                front: Print a string a lot
+                back: "`cal`"
+                include_reverse: true
+        -
+                uuid: 4da36e14-a810-4961-9d62-435aaab07287
+                front: A command that runs a command, useful in hashbangs
+                back: "`env`"
+        -
+                uuid: 30aca0a0-6dc5-4acd-8f00-3daa7840e676
+                front: Convert between tabs and spaces
+                back: "`expand`/`unexpand`"
+        -
+                uuid: 529ee30e-4575-43e3-a84b-29b72cff8a1f
+                front: Create/lock semaphore file
+                back: "`lockfile`"
+        -
+                uuid: 68dc5c50-6240-4cfc-8152-6b3b8ca7d556
+                front: Read all input before writing it -- for reading then writing to the same file
+                back: "`sponge`"

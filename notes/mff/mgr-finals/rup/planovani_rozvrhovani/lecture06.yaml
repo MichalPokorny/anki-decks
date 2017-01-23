@@ -97,23 +97,27 @@ notes:
                 topic: Graphplan jako CSP
                 front: Kódování do CSP - přesné podmínky
                 back: >
+                        <ul>
+                        <li>
+                        *Splnění podmínek*:
                         [$]p_{4,m}=a \\longrightarrow p_{1,m-1}\\neq\\perp\\wedge
                         p_{2,m-1}\\neq\\perp[/$]:
                         akce má předpoklady [$]p_1[/$], [$]p_2[/$] a pozitivní
                         efekt [$]p_4[/$]; přidám podmínku pro každý pozitivní efekt.
-                        <br>
-                        Mutex mezi atomy: [$]p_{i,m}=\\perp\\vee p_{j,m}=\\perp[/$]
-                        <br>
-                        Akce jsou mutex, provaž jejich pozitivní efekty:
+                        <li>
+                        *Mutex mezi atomy*: [$]p_{i,m}=\\perp\\vee p_{j,m}=\\perp[/$]
+                        <li>
+                        *Akce jsou mutex*, provaž jejich pozitivní efekty:
                         [$]p_{i,m}\\neq a\\vee p_{j,m}\\neq b[/$]
-                        <br>
-                        Kódování cíle: [$]p_{i,k}\\neq\\perp[/$] ([$]k[/$] je
+                        <li>
+                        *Cíl*: [$]p_{i,k}\\neq\\perp[/$] ([$]k[/$] je
                         poslední vrstva).
-                        <br>
+                        <li>
                         V jedné vrstvě je přiřazena proměnným maximálně jedna
                         akce jiná než no-op (tj., žádné paralelní akce).
                         Minimálně jedna akce jiná než no-op na vrstvu (žádné
                         prázdné vrstvy).
+                        </ul>
         -
                 uuid: d30a0b9f-3881-4c10-8aeb-d2f86a0125d5
                 topic: Graphplan jako BCSP

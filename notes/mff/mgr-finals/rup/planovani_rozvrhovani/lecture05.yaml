@@ -15,15 +15,18 @@ notes:
                 uuid: 997a5411-4702-440b-9de1-dc7797639962
                 front: Základní myšlenky plánování s grafem
                 back: >
-                        Strategie silných závazků: akce jsou plně instanciovány
-                        a zvoleno jejich místo v plánu.<br>
-
-                        Analýza dosažitelnosti: zjišťujeme jestli nějakého
-                        stavu můžu dosáhnout v nějakém počtu kroků.<br>
-
-                        Disjunktivní zjemňování: kazy opravíme použitím
+                        <ul>
+                        <li>
+                        *Strategie silných závazků*: akce jsou plně instanciovány
+                        a zvoleno jejich místo v plánu.
+                        <li>
+                        *Analýza dosažitelnosti*: zjišťujeme jestli nějakého
+                        stavu můžu dosáhnout v nějakém počtu kroků.
+                        <li>
+                        *Disjunktivní zjemňování*: kazy opravíme použitím
                         disjunkce rozkladů, zachycením interferencí rozkladů
                         formou omezení
+                        </ul>
         -
                 uuid: f1407f01-3c70-451e-9592-2ee55275b59c
                 front: Graf dosažitelnosti  a jaký je s ním problém
@@ -84,8 +87,8 @@ notes:
                 uuid: 7dd3d00d-d9d9-418c-9232-acf1bfc58283
                 front: Použitelnost, výsledek aplikace množiny nezávislých akcí
                 back: >
-                        Použitelnost: všechny předpoklady jsou splněny<br>
-                        Výsledek aplikace: odeberu negativní efekty a přidám pozitivní.
+                        *Použitelnost*: všechny předpoklady jsou splněny<br>
+                        *Výsledek aplikace*: odeberu negativní efekty a přidám pozitivní.
                         Na permutaci nesejde.
         -
                 uuid: f099651f-f287-4222-9343-0b0e83a8a095
@@ -221,12 +224,15 @@ notes:
                 uuid: 1524608d-e166-4a82-b431-6ef322242a6c
                 front: Jakými heuristikami můžu líp prohledávat?
                 back: >
+                        <ul>
+                        <li>
                         Nejdřív vybírej atomy co mají menší počet "podpůrných akcí",
                         nebo atomy, co se v grafu objevily nejpozději.
-                        <br>
+                        <li>
                         Při výběru akce preferuj no-opy nebo akce, co se
                         objevily v grafu nejdřív.
-                        <br>
+                        <li>
                         Po výběru akce pro zbývající atomy kontrolujeme,
                         jestli pořád mají některé podporující akce
                         (kontrola dopředu).
+                        </ul>

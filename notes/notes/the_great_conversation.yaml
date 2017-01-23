@@ -1430,22 +1430,25 @@ notes:
                 uuid: 92bf441d-dd84-40a5-abc4-032cecd9cdfa
                 front: Three periods of dialogues with Socrates
                 back: >
-                        Early: such as Euthyphro, Crito, Apology.
+                        <ul>
+                        <li>
+                        *Early*: such as Euthyphro, Crito, Apology.<br>
                         Quite accurate on Socrates' own views.
-                        He questions various people about piety, courage, justice
-                        or arete. Usually there is no agreed-upon conclusion.
-                        The participant starts with claiming to have an answer
+                        He questions people about piety, courage, justice
+                        or arete. Usually no agreed-upon conclusion.
+                        Participant starts with claiming to have an answer
                         and later admits ignorance.
-                        <br>
-                        Middle dialogues: Meno, Phaedo, Symposium, Republic:
-                        Socrates is still the main character, many positive
+                        <li>
+                        *Middle*: Meno, Phaedo, Symposium, Republic.<br>
+                        Socrates still the main character, many positive
                         doctrines supported by arguments. Plato is working
                         out his own solutions to the problems of Sophists,
                         goes beyond negative answers to Socratic questioning.
-                        <br>
-                        Late: explore difficulties discovered in the middle
+                        <li>
+                        *Late*: Explore difficulties discovered in the middle
                         dialogues. Socrates plays a lesser role. In Laws,
                         he disappears altogether.
+                        </ul>
         -
                 uuid: 852ec224-17b6-462f-90ee-835cd901dafd
                 front: When was Socrates born?
@@ -1770,7 +1773,7 @@ notes:
                 topic: Socrates
                 front: Last wish
                 back: >
-                        "Crito, we owe a cock to Asclepius; make this offfering to him and do not forget."
+                        "Crito, we owe a cock to Asclepius; make this offering to him and do not forget."
                         <br><br>
                         Cocks were sacrificed by sick people sleeping in Asclepius's temples,
                         hoping for a cure. "Death is a cure for the ills of life."
@@ -1823,7 +1826,7 @@ notes:
                         Contrary to Democritus: reality is not indifferent to moral and religious values
         -
                 uuid: b477bbbc-b591-4d89-b2f3-4fa591238e6c
-                front: Plato's basic goal
+                front: Plato's main project (and topic of his main work)
                 back: >
                         Establish a pattern for a good state:
                         one in which a good person can live a good life
@@ -1995,3 +1998,608 @@ notes:
                 front: Superiority of the intelligible to the visible
                 back: >
                         The intelligible endures. If we kill all the eagles, the Form Eagle remains.
+        -
+                uuid: f5332277-d9d1-4d74-8e29-d29dc5774ab9
+                topic: Plato
+                front: >
+                        Lower and Higher Forms
+                back: >
+                        Lower forms are explained in terms of higher Forms.
+                        <br>
+                        Every question of "why?" uses some factor higher
+                        on the Divided Line.
+                        Eagle shadows are explained by actual eagles (image -- object);
+                        eagles are explained by the Form Eagle;
+                        that Form by more basic Forms.
+                        <br>
+                        At the end of the explanation chains, there
+                        must be some basic point where we can't use this
+                        pattern of explanation any more -- where we won't appeal
+                        to something more basic. But it must be intelligible
+                        in itself, and self-evident.
+        -
+                uuid: 51b6c68d-5397-42fa-9be1-0baf1c599d61
+                topic: Plato
+                front: What is science?
+                back: >
+                        Construction of lower Forms
+        -
+                uuid: 1713c3e7-0757-4442-936a-8c659de8233a
+                topic: Plato
+                front: What is dialectic?
+                back: >
+                        Moving from Form to Form until we reach the First Principle --
+                        the highest Form.
+        -
+                uuid: 4abc32fa-1d8b-40be-a958-474ae93cda0e
+                topic: Plato
+                front: Dialectic will give us...
+                back: ...certainty.
+        -
+                uuid: 1a96fc22-7c22-48fb-9b69-9369498cec99
+                topic: Plato
+                front: Why should the form of the Good be the highest Principle?
+                back: >
+                        Because satisfying explanations should mention "good" somehow.<br><br>
+                        Socrates sitting in prison is not best explained
+                        by his bones, muscles etc., but by that he thought
+                        it was better to not escape.
+        -
+                uuid: 2ee12006-6812-4814-a6fa-e2eaabdee01a
+                topic: Plato
+                front: Analogy of Good to the other forms
+                back: >
+                        Like the Sun to visible objects, but in the intelligible realm.
+                        In the visible realm, light and sight are considered sun-like,
+                        but they aren't the sun. Knowledge and truth is goodlike,
+                        but they aren't good.
+        -
+                uuid: a0ec9c3a-7699-4969-a89e-7af0aa734fc1
+                topic: Plato
+                front: What is "good"?
+                back: Plato doesn't know
+        -
+                uuid: 980fe85d-d889-423b-a56c-23fbbdedc128
+                topic: Plato
+                front: What is the cause of reality?
+                back: The Form of the Good
+        -
+                uuid: cbb7e65d-5c46-4a17-a76e-f40f2144ac2a
+                topic: Plato
+                front: Why is atomism false?
+                back: >
+                        Because what exists isn't just made from atoms and the void.
+                        There are also forms, which are radically different from atoms - they can be shared by many particulars.
+                        Plato thinks a complete explanation of the world must say
+                        why what happens is for the best; atomists say there
+                        is no purpose, goal or direction in the world.
+        -
+                uuid: 99b12fd1-08b0-4b6f-b6ec-a0e444e630c2
+                topic: Plato
+                front: Allegory of the cave
+                back: >
+                        Prisoners fettered in cave only see images of reality
+                        (Homer/Hesiod, or in our day, media, soaps, television news, ...).
+                        <br><br>
+                        Who clims up the wall are like those whoa can look
+                        directly on things in the visible world.
+                        <br><br>
+                        The fire casting the shadows represents the Sun.
+                        <br><br>
+                        Climbing out of the cave is the transition from things
+                        to Forms.
+                        <br><br>
+                        The Sun there is the Form of the Good. At first, it
+                        cannot be seen directly -- only through lower
+                        forms illuminated by it, reflections of the Good.
+                        <br><br>
+                        The prisoner returning to the cave and being killed
+                        and ridiculed is analogous to Socrates.
+                        <br><br>
+                        To love wisdom is to be motivated to leave the cave.
+                        The struggle is difficult and painful.
+        -
+                uuid: 2800b34b-d8fb-4267-89ec-eed62909340a
+                topic: Plato
+                front: What is education?
+                back: Redirecting sight appropriately
+        -
+                uuid: b63907b4-24be-4ab1-82a5-77cc47317058
+                topic: Plato
+                front: What is the topic of the Socratic dialogue Symposium?
+                back: Love (in particular, eros)
+        -
+                uuid: 90797d18-87ed-4213-bd43-a8551e8ed915
+                topic: Plato
+                front: Stages of recognizing the Form of Beauty
+                back: >
+                        First, individual lover.
+                        Then, transcending lovers; beautiful souls in husks of ugly bodies (e.g., Socrates).
+                        Then, institutions and societies.
+                        Then, knowledge and wisdom.
+                        Then, everlasting loveliness which neither comes nor goes, which neither flowers nor fades (the Form of Beauty).
+                        It is nothing human or worldly.
+                        <br><br>
+                        This is why we should love wisdom. We are all lovers.
+        -
+                uuid: e1f75276-62dd-4f7a-b2a4-1414b91cd86f
+                topic: Plato
+                front: His view on the soul
+                back: >
+                        It is immortal (see Socrates).
+                        <br><br>
+                        Soul is a principle of *self-motion* (thing that moves by itself).
+                        A body does not move by itself.
+                        <br><br>
+                        Life is the very essence of the soul.
+                        It is immortal, because "it cannot abadon its own nature" - it cannot die.
+        -
+                uuid: 48ee0dc8-250a-4b78-a778-3ec98fe85539
+                topic: Plato
+                front: How should one cultivate one's soul?
+                back: >
+                        Release its bonds to the body.
+                        The separation of the soul is actual death.
+                        So philosophers are training for dying and they
+                        fear death least of all men.
+        -
+                uuid: 2148cc40-806d-4d04-9219-aba28c9c423c
+                topic: Plato
+                front: Why does Plato point upward in The School of Athens?
+                back: >
+                        Because according to him, our true home is not in this
+                        world, but in another
+        -
+                uuid: 89df4566-27f2-41e5-ad34-5177eca850b4
+                topic: Plato
+                front: Myth of the Charioteer
+                back: >
+                        On the structure of the soul.
+                        <br><br>
+                        The soul is like a two-horse chariot.
+                        <br><br>
+                        One horse: good stock, clean-limbed, carries his head high,
+                        hooked nose, lover of glory, white with black eyes,
+                        quickly listens to commands.
+                        ("The spirited part of the soul.")
+                        <br><br>
+                        Other horse: Thick short neck, gray eyes, hot-blooded,
+                        consorting ith wantonness and vainglory, shaggy of ear,
+                        deaf, hard to control with whip and goad.
+                        (Desire, appetite)
+                        <br><br>
+                        The soul is controlled by the charioteer.
+                        His task is difficult and troublesome.
+                        <br><br>
+                        Desire *motivates*, spirit *animates*, reason *guides*.
+        -
+                uuid: cef77c37-3991-4b7b-b1a1-61062d772513
+                topic: Plato
+                front: Three types of people
+                back: Philosophic, victory-loving and profit-loving (by the dominant part of the soul)
+        -
+                uuid: 39ed908b-6f14-495f-83bb-542ff9a7589b
+                topic: Plato
+                front: Humorous variant of The Golden Rule
+                back: He who has the gold, makes the rule
+        -
+                uuid: d097a444-a003-4e0d-87d1-296197681d7b
+                topic: Plato
+                front: What does it mean to adopt the Self-interest Theory of Rationality?
+                back: >
+                        Which life is the most *worthwhile*, or the most
+                        advantageous, or provides the greatest happiness?
+                        An action can be rational only if it is in your
+                        long-term interest.
+        -
+                uuid: e2f3f0b7-7920-4e14-a84e-0c19db27cddf
+                topic: Plato
+                front: Why should we be just?
+                back: Because it is in our long-term self-interest (as the only way to be happy), and valuable for itself.
+        -
+                uuid: 7543a6c3-89a9-4c96-8e01-9586552d2e02
+                topic: Plato
+                front: What is one thing everyone admits is good by nature?
+                back: Happiness
+        -
+                uuid: b69a6f49-10e1-4ab9-8214-b23dd51c9054
+                front: The story of the Ring of Gyres
+                back: >
+                        Gyres was a shepard in service of the ruler of Lydia.
+                        <br><br>
+                        During a storm, an earthquake broke open the ground
+                        and created a chasm where he was tending his sheep.
+                        <br><br>
+                        Inside, he found (among other things) a hollow bronze
+                        horse, and inside, a corpse wearing just a golden ring.
+                        <br><br>
+                        On a regular meeting with the king on the state
+                        of the flocks, he tried turning the ring in and out,
+                        and found that it makes him visible and invisible.
+                        <br><br>
+                        He arranged to become one of the messengers sent to
+                        the king, and he seduced his wife, attacked him
+                        with her help, killed him and took over the kingdom.
+        -
+                uuid: e46594ef-ba10-463b-b68a-facbbe6e3a8a
+                front: Plato's argument for just people being happy
+                back: >
+                        Imagine a wholly unjust man who is known as just,
+                        an a wholly just man who is known as unjust.
+                        <br><br>
+                        Plato will show that the just man is happier.
+                        <br><br>
+                        Men are happy when their soul is in excellent shape --
+                        all 3 parts function properly.
+                        <br>
+                        The source of unhappiness is a lack of harmony in the soul.
+                        Reason makes the decisions, supported by spirit, and
+                        desire is channeled in appropriate directions.
+                        <br><br>
+                        Justice happens when people are in harmony.
+                        The soul is happy when it is in harmony,
+                        hence "just".
+                        We have *social justice* and *internal personal justice*.
+                        Plato needs to show that *social justice* is good
+                        for the individual.
+                        *Internal justice*, it has been shown, is good for itself.
+                        <br>
+                        To be unjust is to allow the "internal beast" to rule
+                        and overwhelm "the man within".
+                        To be good is to be just,
+                        so the Form of Justice takes us to the Form of the Good.
+        -
+                uuid: 318997ab-da88-420b-9c95-79dc89803a47
+                topic: Plato
+                front: Structure of Plato's ideal state
+                back: >
+                        Analogous to the soul's three parts.
+                        <br><br>
+                        (1) Laborers, carpenters, plumbers, merchants, farmers...: *productive* part of the community, corresponds to *appetite*
+                        <br><br>
+                        (2) Adventurous, strong, brave...: *army and navy*, protective part of the state - *spirit*
+                        <br><br>
+                        (3) Intelligent, rational, self-controlled, in love with wisdom: *governing part*
+        -
+                uuid: 10cfe01f-81f2-4096-8002-1eb52bda9d16
+                topic: Plato
+                front: Plato's elitism
+                back: >
+                        As with Socrates, contrast between the many and the few.
+                        Plato is consciously and explicitly rejecting
+                        Athenian democracy. Not everyone is equally fit to govern.
+                        Where democracy rules, rhetoric and persuasion carry
+                        the day, not reason and wisdom.
+        -
+                uuid: 28b14087-7b31-40c2-9f48-7d19d1a3391f
+                topic: Plato
+                front: Who should govern in Plato's ideal state?
+                back: >
+                        Philosophers should rule as kings.
+                        Political power should coincide with philosophy.
+                        Philosopher-kings should love the sight of truth.
+        -
+                uuid: 4faef039-2787-4382-a610-2d8cfe10c230
+                topic: Plato
+                front: Analogy of the ship
+                back: >
+                        Imagine a ship ruled by a strong, but stupid captain,
+                        who knows nothing about the sea.
+                        <br><br>
+                        The people (equally unknowledgable) call the ones who can persuade
+                        him to turn the rudder "navigators" or "captains",
+                        or that they "know ships".
+                        But they don't know anything about the sky, the stars,
+                        the sea, etc.
+                        And they think the craft of navigation is not teachable,
+                        and no knowledge can enable one to steer the ship
+                        better.
+                        <br><br>
+                        The true captain would be called a babbler and a
+                        good-for-nothing in ships governed that way.
+        -
+                uuid: 9a46bf5b-c3e8-4ac8-8d0b-08a89da2f0f4
+                topic: Plato
+                front: What should the ideal state do with the many who can't know?
+                back: >
+                        Good beliefs are as good (in practice) as knowledge.
+                        <br><br>
+                        We should ensure they have correct beliefs, since
+                        they may not be able to follow dialectical reasoning.
+                        They should be persuaded to be just.
+                        <br><br>
+                        This should be imparted by *education* -- education
+                        that the best and happiest life is one of moderation,
+                        rational self-control and justice.
+        -
+                uuid: b9535094-f225-40c6-a058-29372def4040
+                topic: Plato
+                front: On "the life unexamined is not worth living"
+                back: >
+                        The standard is too high for most people.
+                        The many need propaganda, censorship, indoctrination
+                        and persuasion.
+        -
+                uuid: f57f667c-316c-4807-bed5-6452f254d5c6
+                topic: Plato
+                front: How do Forms lead to infinite regress?
+                back: >
+                        Say we have John and Peter who are both strong.
+                        They are both instances of the form Strong.
+                        <br><br>
+                        The Strong form is in itself strong.
+                        So there's one more form, which the Form of Strength takes,
+                        as well as John and Peter. Infinite regress.
+                        <br><br>
+                        This is called the *Third Man Argument*.
+        # chapter 7 - aristotle
+        -
+                uuid: b1a0a2b0-22c5-473a-802e-b1749681b2c3
+                topic: Aristotle
+                front: When was he born?
+                back: 384 BC, in northern Thrace
+        -
+                uuid: 2ae8f53a-3081-43ae-864c-b9aacc70984c
+                topic: Aristotle
+                front: When did he go to Athens?
+                back: When he was 18
+        -
+                uuid: 48d471bb-a54a-4bbd-8c66-96ccd272db3d
+                topic: Aristotle
+                front: How long did Aristotle stay in Athens?
+                back: 20 years
+        -
+                uuid: 772b0ef8-e35b-4a87-a0ae-fa935eb808b3
+                topic: Aristotle
+                front: What did he do after leaving Athens?
+                back: >
+                        He went to Macedonia and he tutored the young
+                        Alexander the Great.
+        -
+                uuid: 409297ca-5743-4a76-bb66-ae1b824bca33
+                front: When did Aristotle return to Athens and what did he do there?
+                back: >
+                        335 BC; he founded the Lyceum
+        -
+                uuid: 8608b635-39aa-4869-b14c-99fb76ab326e
+                front: When was Aristotle forced to flee from Athens?
+                back: 323 BC
+        -
+                uuid: f8a7981e-6bd0-44dc-8cc9-1cd8ca4d5b1a
+                front: When did Aristotle die and how old was he?
+                back: 322 BC, 63 years old
+        -
+                uuid: 787add16-d851-41eb-811a-2f068b5ef03c
+                front: Plato's epistemology vs. Aristotle's
+                back: >
+                        Plato: rationalist, Aristotle: while senses are imperfect,
+                        they are the only reliable avenues along which to pursue knowledge
+        -
+                uuid: b6ce3d0e-44ec-406d-a6bc-ce348cbc2213
+                front: Plato on persons vs. Aristotle
+                back: >
+                        Plato: we are immortal souls, bodies are prisons,
+                        death frees us to communion with the Forms
+                        <br><br>
+                        Aristotle: we are "rational animals", not identical
+                        with a soul-thing distinct from the body. A person
+                        has a soul of a certain sort, but it is not a thing;
+                        it is simply the "form" of the particular sort of
+                        body that a man has. A person is not a "tandem"
+                        composed of "stoker" and "captain" -- we are unified
+                        creatures.
+        -
+                uuid: d8e80bb9-f130-4c07-929f-611b79af40ce
+                front: What did Plato blame for killing Socrates?
+                back: >
+                        Relativism and skepticism
+        -
+                uuid: 3e385014-cca1-4ed9-91c0-7c264fd287bd
+                front: Aristotle's other scientific occupation
+                back: Biology
+        -
+                uuid: 3d848937-8ffe-40b1-a8cb-d2ee10cbaf40
+                front: Aristotle on ethics and elitism
+                back: >
+                        He is more cautious and less inclined to grandiose
+                        claims (e.g., the cave). The ordinary citizen is able
+                        to make good decisions and live a good life.
+        -
+                uuid: 126a1fe3-00b7-4369-adb8-05d97a8a9dc9
+                front: >
+                        "The fox knows many things, the hedgehog knows one great thing"
+                        -- Plato and Aristotle
+                back: >
+                        Plato: one big problem, everything he touches is transformed by the concertn.
+                        <br><br>
+                        Aristotle: many small problems, has a pattern to
+                        their treatment, he is interested in each for its own sake.
+                        <br><br>
+                        Aristotle is a fox, Plato is a hedgehog
+        -
+                uuid: 01b0a129-8772-4bdb-ba68-a07c701221e7
+                front: What is Aristotle's agreement with Plato on knowledge?
+                back: It must be certain and enduring, so it must be about forms
+        -
+                uuid: 906734f7-2198-475f-83b9-0ce919f06e4c
+                front: Which comedist made fun of Sophists and Socrates?
+                back: Aristophanes
+        -
+                uuid: 36a3fe13-b836-420f-a8e9-3aab8830d295
+                front: Aristotle's famous work
+                back: Metaphysics
+        -
+                uuid: bdbe14a3-393a-444f-ab2c-473a0ac461cc
+                topic: Aristotle
+                front: What is wisdom?
+                back: >
+                        It involves or is *knowledge*.<br><br>
+                        Knowledge involves *statements* and *reasons*,
+                        which are true (falsehoods cannot make up knowledge).
+        -
+                uuid: 53a29e9b-703c-4eb0-a6f5-620912346377
+                topic: Aristotle
+                front: What are *categories*? Examples?
+                back: >
+                        Every uncombined term indicates substance or quantity
+                        or quality or relationship to something or place or
+                        time or posture or state or the doing of something
+                        or the undergoing of something.
+                        <br><br>
+                        Category Substance -- man, horse.<br>
+                        Category Quantity -- two feet long<br><br>
+                        Category Place -- in the Lyceum<br><br>
+                        etc etc
+                        <br><br>
+                        Categories are *ways in which being is manifested*
+        -
+                uuid: 0ff00868-6568-4f5c-977d-b70f0e3f9b79
+                topic: Aristotle
+                front: What are statements made from?
+                back: >
+                        Statements are made from terms. Terms are not true or false on their own. Sentences are.
+        -
+                uuid: 487e9617-38e1-48d0-809d-b89369708814
+                topic: Aristotle
+                front: Sentences vs. statements
+                back: >
+                        Not every sentence is a statement (e.g., "Close the door, please.")
+        -
+                uuid: 4f672106-bbae-469b-bce8-4872ac84cc52
+                topic: Aristotle
+                front: Subject and predicate
+                back: >
+                        Subject: what we are talking about,
+                        predicate: what we are saying about it
+        -
+                uuid: 492098f7-22d7-4ee6-92aa-fc4d2beaa0d0
+                topic: Aristotle
+                front: What is *substance*?
+                back: >
+                        Substances can only be the subject, never the predicate.
+        -
+                uuid: 43722abf-48e4-4586-8de5-0ab6f1f870c5
+                topic: Aristotle
+                front: What is *primary substance*?
+                back: >
+                        Ultimate subjects of statements.
+                        More fully substances than anything else --
+                        particular horses, this snail, Socrates.
+                        They are the most real things there are - not just shadows.
+                        All else is real in relation to them.
+        -
+                uuid: 749a99e2-9e25-476e-8766-2c6468fe26d3
+                topic: Aristotle
+                front: What are *secondary substances*?
+                back: >
+                        Primary substances belong, as species, to secondary substances.
+                        E.g., "man", "animal" are secondary substances.
+                        (What is fully real is the individual thing.)
+        -
+                uuid: 08754812-c72c-4aac-bef2-8f570b1550b1
+                topic: Aristotle
+                front: Definition of truth
+                back: >
+                        To say that what is is not, or that what is not is, is false
+                        and to say that what is is, or that what is not is not,
+                        is true.
+        -
+                uuid: bd8b9c74-a5b4-43e4-a3d3-e1e81ef5bb7b
+                front: Correspondence theory of truth
+                back: >
+                        A statement is true just when it "corresponds" to the reality it is about.
+                        (Also: classical view of truth.)
+                        Claimed by Aristotle.
+        -
+                uuid: ea476556-7c9f-4c70-a4c6-10b9d11fc311
+                topic: Aristotle
+                front: What are good reasons someone wise offers that support their claims?
+                back: Giving a reason is giving an *argument*
+        -
+                uuid: b908d03d-02f9-4d86-9ebc-5bac014d2435
+                topic: Aristotle
+                front: Why do we need a formal theory of logic to determine the veracity of arguments?
+                back: Persuasiveness is not enough, as Sophists have shown
+        -
+                uuid: db50e90e-5e7b-432c-ad51-af674bab0feb
+                topic: Aristotle
+                front: Division of statements
+                back: >
+                        Affirmative/negative; universal/particular ("some men are mortal")
+        -
+                uuid: 58c38987-13a7-4d85-83dd-a883bf251743
+                topic: Aristotle
+                front: Square of Opposition
+                back: >
+                        A: All S is P
+                        <br>
+                        E: No S is P
+                        <br>
+                        I: Some S is P
+                        <br>
+                        O: Some S is not P
+                        <br><br>
+                        <pre>
+                        A E<br>
+                        I O
+                        </pre>
+                        <br>
+                        A <-> E: contraries (cannot both be true, but may both be false)
+                        <br>
+                        I <-> O: subcontraries (cannot both be false, but may both be true)
+                        <br>
+                        A implies I, E implies O
+                        <br>
+                        A <-> O, I <-> E: contradictories
+                        # TODO: drawing
+        -
+                uuid: 72efa26b-821e-4b71-839b-0568d3315886
+                topic: Aristotle
+                front: Which inferences are *immediate*?
+                back: >
+                        Inferences within the Square of Opposition
+        -
+                uuid: 8aa6c605-f131-4a42-838a-a5a8b4eb309d
+                topic: Aristotle
+                front: >
+                        What is a *syllogism*?
+                back: >
+                        Three statements with three terms.<br>
+                        Two terms in each statement.<br>
+                        Two terms serve as reasons for the third.<br>
+                        The first two are premises, the last one is the conclusion.
+        -
+                uuid: 017ce1f1-8308-496a-a1f7-28f473b44d65
+                topic: Aristotle
+                front: Which term in the syllogism is the *middle one*? (by Aristotle's nomenclature)
+                back: >
+                        The last one (the derived one)
+        -
+                uuid: e0f1235b-895d-4828-bb45-93f727c52e58
+                topic: Aristotle
+                front: His big realization about the structure of good syllogisms
+                back: >
+                        It has nothing to do with their persuasiveness,
+                        *or* their particular subject matter. The success
+                        depends merely on the form of the syllogism.
+                        We can use letters of the alphabet instead of
+                        particulars.
+        -
+                uuid: 594db68a-4a08-4299-9456-405038c71947
+                topic: Aristotle
+                front: What is the point of giving arguments?
+                back: Answering "why?"
+        -
+                uuid: ce5c9463-34ff-421a-803d-f5eadd1302d7
+                topic: Aristotle
+                front: What constitutes an argument's *validity*?
+                back: >
+                        The relation between premises and conclusion
+                        must be such that if the premises are true,
+                        the conclusion can't be false.
+        -
+                uuid: c26b26df-ac88-4f6d-9331-d15d86d34bbe
+                topic: Aristotle
+                front: What must a good argument satisfy?
+                back: >
+                        The reasons must be true, and the argument must be *valid*.

@@ -5,9 +5,14 @@ notes:
                 uuid: 9dbae52a-38b4-4a95-bbf8-f66c42d75c1d
                 front: Decision network
                 back: >
-                        Chance node (ovál): náhodné proměnné (jako v Bayesovských sítích)<br>
-                        Decision node (obdélník): body kde decision maker dělá rozhodnutí<br>
-                        Utility node (kosočtverec): utilita
+                        <ul>
+                        <li>
+                        *Chance node* (ovál): náhodné proměnné (jako v Bayesovských sítích)
+                        <li>
+                        *Decision node* (obdélník): body kde decision maker dělá rozhodnutí
+                        <li>
+                        *Utility node* (kosočtverec): utilita
+                        </ul>
         -
                 uuid: 4217ab1f-1fc0-4820-a29f-8dcb1d89009b
                 front: Sensitivity analysis
@@ -98,16 +103,17 @@ notes:
                 front: Algoritmus
                 back: >
                         Opakuje kroky:
-                        <br>
+                        <ul>
+                        <li>
                         1. Policy evaluation: Počítám utilitu.
                         (Pro malé stavové prostory se dá přesně spočítat, trvá [$]\\O(n^3)[/$]; znám přechodový model).
                         <br>
                         Pro velké prostory: udělám několik kroků value iteration.
-                        <br>
+                        <li>
                         2. Policy improvement: vyberu pro každý stav akci, co
                         je optimální podle současných utilit.
-                        <br><br>
-                        Pokud jsem nezměnil policy, tak opakuju.
+                        </ul>
+                        Pokud jsem změnil policy, tak opakuju.
         -
                 uuid: 2fe35ff1-dbb9-4631-87b6-ae4d9bf55958
                 front: Model rozhodování v MDP vs. POMDP - co se přidá?

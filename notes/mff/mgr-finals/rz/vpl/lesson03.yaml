@@ -136,9 +136,13 @@ notes:
                 back: >
                         Rozvine nějakou formuli, co je true/false, na možnosti, jak může být true/false.<br>
 
-                        Konečné tablo vznikne připojením atomického tabla na konec větve jiného tabla.<br>
-
-                        Tablo je posloupnost konečných tabel, co vznikají postupným výběrem.<br>
+                        Konečné tablo vznikne připojením atomického tabla na konec větve jiného tabla.
+        -
+                uuid: b99f938e-5c93-4cfe-b6fe-b8dbe413fd04
+                topic: Výroková logika
+                front: Co je to, formálně, *tablo*?
+                back:
+                        Tablo je posloupnost konečných tabel, co vznikají postupným přidáváním atomických tabel z předchozího.
         -
                 uuid: 929f4e0e-d098-466b-91f1-0c30f427ad65
                 topic: Výroková logika

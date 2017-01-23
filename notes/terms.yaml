@@ -945,3 +945,8 @@ notes:
                 front: obsequious
                 back: obedient or attentive to an excessive or servile degree
                 include_reverse: true
+        -
+                uuid: 2a6aad5b-9359-43a7-ab23-1945b0532e87
+                front: shrewish
+                back: (of a woman) bad-tempered or aggressively assertive
+                include_reverse: true

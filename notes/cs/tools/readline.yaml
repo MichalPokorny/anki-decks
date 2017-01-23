@@ -62,3 +62,8 @@ notes:
                 front: Undo on current line
                 back: "`C-_`"
                 include_reverse: true
+        -
+                uuid: fc62b18b-bde9-4737-81d5-754a4366412d
+                front: Expand glob
+                back: "`Meta-*`"
+                include_reverse: true

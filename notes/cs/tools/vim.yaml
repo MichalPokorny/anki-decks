@@ -368,3 +368,63 @@ notes:
                 front: "Select last changed text (e.g., pasted)"
                 back: '<code>\`[v\`]</code>'
                 include_reverse: true
+        -
+                uuid: 9d88eca5-9bea-4fc1-bb52-032c83d1bbe8
+                front: "Undo all changes on current line"
+                back: "`U`"
+                include_reverse: true
+        -
+                uuid: df60586b-43da-44fd-8ecf-e6b520e19dc0
+                front: "Center current line on screen"
+                back: "`zz`"
+                include_reverse: true
+        -
+                uuid: 20ee57ec-c2ed-4330-8b06-3192eb441e30
+                front: "Rot-13 selection (Visual mode)"
+                back: "`g?`"
+                include_reverse: true
+        -
+                uuid: da9b1bf4-4081-4423-a1fc-269990e3e4b9
+                front: "Go to definition (globally)"
+                back: "`gD`"
+                include_reverse: true
+        -
+                uuid: 69418583-e1ee-4759-819c-6114d2e3be6d
+                front: "Go to definition (only in current function)"
+                back: "`gd`"
+                include_reverse: true
+        -
+                uuid: 75f24356-4ed3-4c05-81f5-2dc8521781df
+                front: "Move to next method in programming language"
+                back: "`]m`"
+                include_reverse: true
+        -
+                uuid: f01825ed-f4ef-471b-b2de-c18edd3036bd
+                front: "Move to previous method in programming language"
+                back: "`[m`"
+                include_reverse: true
+        -
+                uuid: 35d0b068-01ae-4ac9-995e-e2d8c180c3ed
+                front: "Reformat current paragraph"
+                back: "`{gq}`"
+                include_reverse: true
+        -
+                uuid: be75a679-f786-4a75-9f92-0f71d8b53ee4
+                front: "Reformat until `(movement)`"
+                back: "`gq(movement)`"
+                include_reverse: true
+        -
+                uuid: 71fcd542-fd41-466c-8028-0b0243ba95a4
+                front: "List all marks"
+                back: "`:marks`"
+                include_reverse: true
+        -
+                uuid: 759c565c-acf5-43d8-9e13-789d5e5f34a5
+                front: "Open and edit new buffer"
+                back: "`:enew`"
+                include_reverse: true
+        -
+                uuid: 9bd33989-c6b9-4f12-be08-cccd0828b282
+                front: "Split vertically and explore filesystem"
+                back: "`:Sex`"
+                include_reverse: true

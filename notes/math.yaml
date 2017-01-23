@@ -135,3 +135,48 @@ notes:
                         Pět Mersenných prvočísel
                 back: >
                         [$]2^{31}-1[/$], [$]2^{61}-1[/$], [$]2^{89}-1[/$], [$]2^{107}-1[/$], [$]2^{127}-1[/$]
+        -
+                uuid: e0eca326-92c8-4818-88ff-94c7aeb069ea
+                topic: Cromwell's rule
+                front: Statement
+                back: >
+                        The use of prior probabilities 0 or 1 should be
+                        avoided except for logically true or false statements.
+        -
+                uuid: 92761762-1509-42d0-94ca-be89131f3655
+                topic: Cromwell's rule
+                front: What does it refer to?
+                back: >
+                        To Oliver Cromwell, who wrote to the synod of the
+                        Church of Scotland on 5 August 1650, including:
+                        <br><br>
+                        "I beseech you, in the bowels of Christ, think it possible that you may be mistaken."
+        -
+                uuid: 4529494d-a081-4f94-8825-e3f87c381974
+                front: Laplace's rule of succession - statement and purpose, interpretation
+                back: >
+                        Treats the sunrise problem, respects Cromwell's rule.
+                        <br><br>
+                        If [$]X_1,\\ldots X_{n+1}[/$] are conditionally independent
+                        0/1 random variables -- results of an experiment
+                        (e.g., does the sun rise up?) -- and we know nothing
+                        more about them,
+                        then:
+                        <br><br>
+                        [$$]P[X_{n+1}=1|X_1+\\ldots+X_n=s] = \\frac{s+1}{n+2}[/$$]
+                        <br><br>
+                        Interpretation: as if we observed 1 success and 1 failure
+                        at first.
+        -
+                uuid: 75b4bcdb-c578-49b9-b5ad-1d65a4e7c880
+                front: Definition - convex set
+                back: >
+                        A region such that for every pair of points within
+                        the region, every point on the line segment connecting
+                        those is also within the region.
+        -
+                uuid: a2660b1d-c888-45a5-ba4f-90a19f97fa34
+                front: Definition - compact set
+                back: >
+                        [$]X[/$] is a compact set if every open cover of [$]X[/$]
+                        has a finite subcover

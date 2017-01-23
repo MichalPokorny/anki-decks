@@ -208,3 +208,77 @@ notes:
                 front: "Get matrix second row"
                 back: "`A(2,:)`"
                 include_reverse: true
+        -
+                uuid: 8ad384c5-db2a-4501-85af-e790e019d982
+                front: "Get floor of value"
+                back: "`B = floor(A)`"
+                include_reverse: true
+        -
+                uuid: 642a992b-6b30-40d2-9b87-2a3ddf39ccfc
+                front: "Get ceiling of value"
+                back: "`ceil(a)`"
+                include_reverse: true
+        -
+                uuid: 885b43dc-73f8-44fc-8bcf-56057c8b86bf
+                front: "Save value in `v` into `.mat` (Octave/Matlab) format"
+                back: "`save hello.mat v`"
+                include_reverse: true
+        -
+                uuid: 3d388c79-db2c-42b3-96df-1b9d8e946e67
+                front: "Clear out entire environment"
+                back: "`clear`"
+                include_reverse: true
+        -
+                uuid: 25d2578f-286e-4e6d-b1dc-276d59c2ac96
+                front: "Show the histogram of `x`"
+                back: "`hist(x)`"
+                include_reverse: true
+        -
+                uuid: 4b0d81e0-6d5b-4987-8ae6-a6921e74ebc6
+                front: "Get random matrix (5 rows, 3 columns), Gaussian-distributed, mean = 0, variance = 1"
+                back: "`randn(5,3)`"
+                include_reverse: true
+        -
+                uuid: 2d33f359-b866-4ef2-b80f-60bfe67821a7
+                front: Save string into variable
+                back: "`b = 'hi';`"
+        -
+                uuid: a66260c1-871e-43b2-b597-fbcbbbd8bb2a
+                front: Get working directory
+                back: "`pwd`"
+                include_reverse: true
+        -
+                uuid: 8f7bb9ea-7dd1-4dd9-8b44-5fdb7058d8d9
+                front: Flip matrix up-down
+                back: "`flipud(X)`"
+                include_reverse: true
+        -
+                uuid: 998dc10f-bbf0-4364-983f-3ec838e826d4
+                front: Variable storing last result
+                back: "`ans`"
+                include_reverse: true
+        -
+                uuid: cba5029c-6619-43fd-a3fa-79af82e3b338
+                front: "Get row of matrix column averages"
+                back: "`mean(X);`"
+                include_reverse: true
+        -
+                uuid: 9bc495e5-75fc-4b2a-a9f1-1d9562777dbd
+                front: "Get column of matrix row averages"
+                back: "`mean(X')';`"
+                include_reverse: true
+        -
+                uuid: b6102852-76e0-4dd2-aee4-bda6541dd1e1
+                front: "Get average of vector"
+                back: "`avg(a);`"
+                include_reverse: true
+        -
+                uuid: 2990320e-6345-4ea2-ac79-112959beadca
+                front: "For-cycle syntax"
+                markdown: false
+                back: >
+                        <code>
+                        for i = 1:10<br>
+                          disp("Ahoj!");<br>
+                        endfor
+                        </code>

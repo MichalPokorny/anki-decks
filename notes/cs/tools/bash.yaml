@@ -8,6 +8,16 @@ notes:
                 back: "`!!`"
                 include_reverse: true
         -
+                uuid: 1571d5ac-9424-4b85-8f0b-4f174424d885
+                front: Redo second-to-last command
+                back: "`!2`"
+                include_reverse: true
+        -
+                uuid: aede762c-fb55-4ad1-8e17-bfa09b8dc1f0
+                front: Last argument of last command
+                back: "`!$`"
+                include_reverse: true
+        -
                 uuid: 22ef9fe5-d2e7-47c1-86f0-ad1119310a8d
                 front: Redo last command as root
                 back: "`sudo !!`"
@@ -46,3 +56,77 @@ notes:
                 front: "Print out every executed command"
                 back: "`set -x`"
                 include_reverse: true
+        -
+                uuid: eb94ea6a-a468-445a-bd1d-2cc3674ebc92
+                front: Figure which type of command something is
+                back: "`type something`"
+                include_reverse: true
+        -
+                uuid: 34b394c4-09e6-468d-a6b5-00c4bea3f822
+                front: How to iterate on files containing whitespace in a for loop?
+                back: >
+                        `IFS=$'\n'`
+        -
+                uuid: 8e4eed22-224d-4cf0-8b3a-c065ddd95af5
+                front: Detect unset variable usages
+                back: "`set -u`"
+                include_reverse: true
+        -
+                uuid: 6999d50e-6fa4-4157-b6c8-f26f99833261
+                front: "Usage of `trap` to echo when script fails with error"
+                back: >
+                        `trap "echo 'Script failed'" ERR`
+        -
+                uuid: fcbfa3ec-03fc-441a-8684-e9a159599eac
+                front: Separate subshell, isolating current directory
+                back: >
+                        `(cd /some/dir && other-command)`
+                include_reverse: true
+        -
+                uuid: 5776faa6-ad9d-4823-8e60-90eb117d1771
+                front: Get value of variable, or error out with 'something' if it's empty
+                back: "`${name:?something}`"
+                include_reverse: true
+        -
+                uuid: 4c27039c-93f1-479c-830d-5fb6d2142f8c
+                include_reverse: true
+                front: Get value of variable, or use a default value of 'something'
+                back: "`${name:-something}`"
+        -
+                uuid: 18670d9e-0f9c-41a6-8b06-1bd731d3334e
+                front: Arithmetic variable expansion
+                include_reverse: true
+                back: "`$(( (i + 1) % 5 ))`"
+        -
+                uuid: fcae5b81-b952-48e0-bb72-411aeb870676
+                include_reverse: true
+                front: "Trim suffix of `something` from `$var`"
+                back: >
+                        `${name%something}`
+        -
+                uuid: f545df66-78eb-425f-8927-33c930b83520
+                front: "Trim prefix of `something` from `$var`"
+                include_reverse: true
+                back: >
+                        `${name#something}`
+        -
+                uuid: 03792b08-8c8c-47a0-9f45-7cfd5bdebe9f
+                front: "Sequence `1` to `100`, without `seq`"
+                back: "`{1..100}`"
+                include_reverse: true
+        -
+                uuid: 387f7eac-dbef-4425-940c-560f98e1ce13
+                front: Prevent partially downloaded scripts from executing (due to syntax error)
+                back: >
+                        `{<br>code code code ...<br>}`
+        -
+                uuid: 4ac246ee-7074-4f95-a1f0-3e307f433484
+                front: "Redirect both stdout and stderr to `file`"
+                back: >
+                        "`command >file 2>&1` or `command &>file`"
+        -
+                uuid: eaa44164-69d1-4fb0-a2ee-e4f63ac120e8
+                front: Literal tab
+                markdown: false
+                back: >
+                        <code>$'\t'</code>
