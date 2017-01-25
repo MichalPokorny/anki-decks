@@ -672,7 +672,17 @@ notes:
                         we ought to call oxen happy who find vetch to eat.<br>
                         It is hard to fight against impulse, for what it wants
                         it buys at the expense of the soul.<br>
-                        Moderation is the greatest virtue.<br>
+        -
+                uuid: 83f4b944-6368-44de-af58-a582fd6fcb7a
+                topic: Heraclitus
+                front: What is the greatest virtue?
+                back: >
+                        Moderation is the greatest virtue.
+        -
+                uuid: de747a36-9099-476e-abc8-3ec5bb96148a
+                topic: Heraclitus
+                front: What is wisdom?
+                back: >
                         Wisdom is to speak the truth and to act according to nature,
                         giving heed to it.
         -
@@ -2081,7 +2091,7 @@ notes:
                         Prisoners fettered in cave only see images of reality
                         (Homer/Hesiod, or in our day, media, soaps, television news, ...).
                         <br><br>
-                        Who clims up the wall are like those whoa can look
+                        Who clims up the wall are like those who can look
                         directly on things in the visible world.
                         <br><br>
                         The fire casting the shadows represents the Sun.

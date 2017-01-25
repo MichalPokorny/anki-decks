@@ -21,12 +21,12 @@ notes:
                         Low birth rate, ageing population
         -
                 uuid: 0eb022ca-988d-4ffa-a029-7f38e3376d72
-                front: Proportion of people in cities, and in the past?
+                front: What is the proportion of people in cities like, and what was it like in the past?
                 back: >
                         High; 100 years ago, Switzerland was mostly rural
         -
                 uuid: 7b45b010-9746-4194-b0c0-a1290f68d12e
-                front: Division of communities by language
+                front: How can we divide communities by language?
                 back: German, French, Italian
         -
                 uuid: 7c6fbebc-d1ab-418b-be50-f831a246d82e
@@ -42,7 +42,7 @@ notes:
                 back: Romansch
         -
                 uuid: fd67333d-1fd0-4564-8f94-0cd2a29fa6e1
-                front: Division of cantons by religion
+                front: How can we divide cantons by religion?
                 back: >
                         Protestant/Catholic majority
         -
@@ -161,10 +161,30 @@ notes:
                 topic: History
                 front: 1332 - 1353
                 back: >
-                        Other communities join the Confederation: Luzern (1332),
-                        Zurich (1351), Glarus and Zug (1352), Bern (1353).
+                        Other communities join the Confederation: Luzern,
+                        Zurich, Glarus and Zug, Bern.
                         The eight states form the acht alten Orte (eight old states)
                 include_reverse: true
+        -
+                uuid: ebd7aafa-a70a-4535-9dcc-af64594caa06
+                topic: History
+                front: When did Luzern join the Confederation?
+                back: 1332
+        -
+                uuid: 6927122f-c5ca-4bf9-84c2-06ab81b28630
+                topic: History
+                front: When did Zurich join the Confederation?
+                back: 1351
+        -
+                uuid: 22d21867-82af-4872-bc48-4727729e9f31
+                topic: History
+                front: When did Glarus and Zug join the Confederation?
+                back: 1352
+        -
+                uuid: b3511695-cfb1-4c02-8c5c-db6800701596
+                topic: History
+                front: When did Bern join the Confederation?
+                back: 1353
         -
                 uuid: eb13788e-ba81-433f-bbab-f026e2ef80ef
                 topic: History
