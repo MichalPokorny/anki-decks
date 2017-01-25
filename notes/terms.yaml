@@ -950,3 +950,8 @@ notes:
                 front: shrewish
                 back: (of a woman) bad-tempered or aggressively assertive
                 include_reverse: true
+        -
+                uuid: b8676afc-2c43-454c-bdf2-a5151c06b7a0
+                front: cobbler
+                back: shoe maker
+                include_reverse: true

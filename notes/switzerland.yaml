@@ -61,7 +61,7 @@ notes:
         -
                 uuid: cf9f240b-2bdc-4a49-b111-e245c9bacfb5
                 front: Is Switzerland part of EU?
-                back: No
+                back: "No"
         -
                 uuid: 09874a0d-15d1-4caf-af92-7e0b35438d4f
                 front: When were women granted suffrage?
@@ -846,6 +846,7 @@ notes:
         -
                 uuid: df045aef-c689-4dc0-806e-fbf036c09711
                 include_reverse: true
+                topic: Phrases - French
                 front: Good night
                 back: Bon nuit
         -

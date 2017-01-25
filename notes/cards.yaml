@@ -145,3 +145,10 @@ notes:
                 front: Herbal tea from dried coffee cherries (name)
                 back: Cascara
                 include_reverse: true
+        -
+                uuid: d7cc02d3-3d61-4db3-82ce-970109618b64
+                front: The two types of pu-erh and the difference
+                back: >
+                        Sheng Puerh is raw, non-fermented. It is harvested and stored naturally.
+                        <br><br>
+                        Shu Puerh is fermented, leaves are reddish-brown.

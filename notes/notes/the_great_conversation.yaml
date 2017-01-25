@@ -1112,7 +1112,7 @@ notes:
         -
                 uuid: 2e654a32-0c1e-4fa5-a09c-db5e071856e9
                 front: Who was Phidias?
-                back: The most famous sculptor in Athens?
+                back: The most famous sculptor in Athens
         -
                 uuid: 7512f70a-87d0-440a-809f-0fbf7755e1af
                 front: How wealthy was Protagoras when he died?
@@ -2346,7 +2346,7 @@ notes:
         -
                 uuid: b1a0a2b0-22c5-473a-802e-b1749681b2c3
                 topic: Aristotle
-                front: When was he born?
+                front: When and where was he born?
                 back: 384 BC, in northern Thrace
         -
                 uuid: 2ae8f53a-3081-43ae-864c-b9aacc70984c
@@ -2467,7 +2467,8 @@ notes:
                 topic: Aristotle
                 front: What are statements made from?
                 back: >
-                        Statements are made from terms. Terms are not true or false on their own. Sentences are.
+                        Statements are made from terms. Terms are not true or
+                        false on their own. Statements are.
         -
                 uuid: 487e9617-38e1-48d0-809d-b89369708814
                 topic: Aristotle
@@ -2484,7 +2485,7 @@ notes:
         -
                 uuid: 492098f7-22d7-4ee6-92aa-fc4d2beaa0d0
                 topic: Aristotle
-                front: What is *substance*?
+                front: What characterizes *substance* in statements?
                 back: >
                         Substances can only be the subject, never the predicate.
         -
@@ -2523,7 +2524,7 @@ notes:
         -
                 uuid: ea476556-7c9f-4c70-a4c6-10b9d11fc311
                 topic: Aristotle
-                front: What are good reasons someone wise offers that support their claims?
+                front: What do we call good reasons that support a claim of someone wise?
                 back: Giving a reason is giving an *argument*
         -
                 uuid: b908d03d-02f9-4d86-9ebc-5bac014d2435
@@ -2613,3 +2614,762 @@ notes:
                 front: What must a good argument satisfy?
                 back: >
                         The reasons must be true, and the argument must be *valid*.
+        -
+                uuid: 214fb17d-ad9f-4d2d-a103-0c16433ce7dc
+                topic: Aristotle
+                front: Can everything knowable be demonstrated?
+                back: No; we can't have proofs for every premise.
+        -
+                uuid: d94138e2-bf93-4f71-a982-95356e46d130
+                topic: Aristotle
+                front: Which kind of reasoning doesn't Aristotle handle?
+                back: Induction, and others
+        -
+                uuid: 3e00a4c9-b11c-421f-b01b-e09bd5dc04a9
+                topic: Aristotle
+                front: What is the starting point for reasoning?
+                back: >
+                        An immediate premise, which has no premise prior to it
+                        -- *first principles*.
+        -
+                uuid: 1ff41a35-5d9c-4796-ad52-c64d070b3329
+                topic: Aristotle
+                front: What do we know with absolute certainty?
+                back: >
+                        Ultimate, *first principles*
+        -
+                uuid: 69d6bf13-482c-4561-8675-1234321bea81
+                topic: Aristotle
+                front: How can we get from knowing *nothing* to knowing *something* - the first principles?
+                back: >
+                        The key is not the *preexistence* of the soul (as Plato claimed),
+                        but that things may be "known" in several senses.
+                        <br><br>
+                        Knowledge develops from implicit to more explicit forms.
+                        What is pre-supposed is not full-blown explicit certain
+                        knowledge, but stages, beginning in a *capacity*.
+        -
+                uuid: 032776aa-424d-4578-82ec-dcb00809f19d
+                topic: Aristotle
+                front: Where does knowledge begin? How does it differ from it?
+                back: In perception; however, knowledge is universal. Perception can be mistaken, knowledge cannot.
+        -
+                uuid: 8db3fdf9-43e7-42d5-819e-28463cfd9827
+                topic: Aristotle
+                front: How does experience come about? What comes from it?
+                back: >
+                        From traces of what animals/people perceive in numerous
+                        encounters with the environment. From experience
+                        comes a *universal*, a sense of the unity of the
+                        many things encountered.
+        -
+                uuid: e7a505b5-de03-40c5-a7fe-a62b52c455de
+                topic: Aristotle
+                front: His analogy of experience
+                back: >
+                        A rout ending in battle: individual men fleeing (many perceptions
+                        pouring into the soul), one turns and stands (memory),
+                        the another (solidifying), and another (experience),
+                        until a battle line is formed (One is made from Many).
+                        <br><br>
+                        When one percept "has come to a halt",
+                        this is the first beginning of the presence there of a universal.
+                        E.g., a particular species of animal leads to the genus "animal", etc.
+                        We acquire knowledge of the primary premises by induction,
+                        and this is how sense-perception provides us with universals.
+        -
+                uuid: ce675180-9977-4ba7-b4d7-c70b625fc2fd
+                topic: Aristotle
+                front: How do we come to the first principles?
+                back: By induction
+        -
+                uuid: 46e7f3e0-6dd5-4f90-b9c1-df8ccb1c9fe0
+                topic: Aristotle
+                front: What is the name of our capacity to induce -- grasp what cannot be known by demonstration?
+                back: >
+                        *Nous*. Not our reasoning ability (because this has
+                        nothing to do with proof). It's not senses, memory
+                        or experience.
+        -
+                uuid: 47abe341-a72f-44e5-a1de-6c29d2b7adc2
+                front: How is *nous* sometimes translated?
+                back: Mind (too broad), intuition (too vague)
+        -
+                uuid: 48d15d6d-44ab-417a-995a-6c3d1f195954
+                front: What is *nous*?
+                back: >
+                        The ability we have to grasp first principles by abstracting what is essential from many particular instances present to our senses
+        -
+                uuid: 47edb29e-a6f4-456b-a163-111aeaaf1d50
+                topic: Aristotle
+                front: How does he refer to his predecessors?
+                back: >
+                        Often and in detail. He believes we can learn from them.
+                        He thinks they go wrong by not *observing* closely enough.
+                        Their explanations are usually either too general
+                        (Thales's water, the Boundless), or conclude that
+                        there is no intelligibility (Parmenides - the world
+                        is mere appearance, Plato - only Forms are intelligible).
+        -
+                uuid: 1814ea5f-c368-4639-981d-b84f386dba46
+                topic: Aristotle
+                front: Where is intelligibility? How does it relate to the world?
+                back: >
+                        Within things that make up our world. The world is not
+                        a chaotic flux from which we must flee to find knowledge.
+                        <br><br>
+                        The world is made from primary substances that are ordered,
+                        their principles of order are internal to them and
+                        they can be known by using perception.
+        -
+                uuid: f78f4a9f-7077-4562-a833-30a5896be873
+                topic: Aristotle
+                front: What does he mean by "nature"? How are those distinguished?
+                back: >
+                        Things that exist by nature - animals, plants,
+                        earth, fire, water, ...
+                        <br><br>
+                        Each of those has in them a source of movement.
+                        (Or, growth and decay, etc.)
+        -
+                uuid: 76782396-e463-4ba6-8bef-15eeb4cc2c06
+                topic: Aristotle
+                front: Why do artifacts change?
+                back: Because they are made from natural materials
+        -
+                uuid: d5a020ba-7159-41a6-8d8e-036aac86a30a
+                topic: Aristotle
+                front: What is the locus of change?
+                back: Nature
+        -
+                uuid: ef7298ca-ceb5-4232-812f-da7cd7738900
+                topic: Aristotle
+                front: What are subjects of change?
+                back: Primary substances in nature
+        -
+                uuid: a4e548e0-5eef-49f0-a4dc-8943c047a2e4
+                topic: Aristotle
+                front: What kinds of changes do primary substances undergo?
+                back: (1) Come to being and pass away, (2) while in existence, vary in quality, quantity, place etc.
+        -
+                uuid: fba625ec-e21d-4f79-a913-7d1698691ecc
+                topic: Aristotle
+                front: Why is nature real?
+                back: Because we can have knowledge about it.
+        -
+                uuid: 78e2944c-e0e1-492c-b77c-a70abfbc05af
+                topic: Aristotle
+                front: Four why's?
+                back: >
+                        There are 4 types of *causation*.
+                        <br><br>
+                        <ul>
+                        <li> *Material causes*: Why is the statue like that? Because it's from bronze. (Thales) The substrate that doesn't change is real.
+                        <li> *Formal cause*: Citing the form. Elements of
+                                a bone are not a bone, they are at best a *potential bone. There is no statue until it takes the *shape*.
+                                Why a thing is the thing it is: it *satisfies the requirements* for being that sort of thing.
+                                *Form*: a statue, a bone, etc.
+                                Forms are only *theoretically* separable from the object in question.
+                                The form of a thing is not an *independent* object.
+                        <li> *Efficient cause*: What was the immediate thing
+                                that acted or was acted upon. For Aristotle,
+                                these causes are always substances ("man generates man").
+                        <li> *Final cause*: Why are there houses?
+                                What *purpose* do houses serve?
+                                Why is Socrates in prison?
+                        </ul>
+        -
+                uuid: 576966cd-d135-446e-ae99-8fa214560f72
+                topic: Aristotle
+                front: Aristotle's forms vs. Plato's Forms
+                back: >
+                        Plato's Forms are real, Aristotle's forms don't have a separate existence from what they describe.
+        -
+                uuid: 748218d3-cd2c-4642-88a7-547240efe387
+                topic: Aristotle
+                front: It is controversial that ... causes would apply to nature.
+                back: final
+        -
+                uuid: a1185b9f-f11a-46f3-afa7-b33646c10702
+                topic: Aristotle
+                front: What does Aristotle impute into nature?
+                back: >
+                        *Purposes* (not *intentions* - only rational beings have those).
+        -
+                uuid: d8665cb4-1fc4-43ce-a46c-cf17aebca9fe
+                topic: Aristotle
+                front: Is there anything in nature without purpose?
+                back: >
+                        Things that happen accidentally, by chance.
+        -
+                uuid: 34e194ed-5036-4d88-b43a-37f9cef4fccc
+                topic: Aristotle
+                front: Why is there purpose in nature?
+                back: >
+                        (1) All natural objects come into being in a given way,
+                        and that's not the case with anything that comes to be
+                        by chance.
+                        <br><br>
+                        (2) Art (i.e., of physicians/house builders) either
+                        completes nature or "imitates nature". There is purpose
+                        in art, so there must be purpose in nature as well.
+        -
+                uuid: d182be5b-ec5b-4194-8199-fbcc095dde5f
+                front: Idea that natural substances are *for* something
+                back: Teleology
+                include_reverse: true
+        -
+                uuid: 510e8dd5-d4b4-433d-af45-d4e8564b7caa
+                front: >
+                        What does *telos* mean?
+                back: End or goal.
+        -
+                uuid: 330bda63-f6be-44bc-95ba-800a3d2b10d0
+                topic: Aristotle
+                front: >
+                        What does *entelechy* mean?
+                back: >
+                        Indwelling of an object's goal.
+                        A toad's egg has the goal of becoming a toad in it.
+                        The egg *actually* has the form of an egg, but the form
+                        frog is *potentially* there.
+                        (The egg can't turn into *anything*.)
+        -
+                uuid: 6824f1ba-1ad0-4b5d-8a41-d761fade0a51
+                topic: Aristotle
+                front: In what sense is there purpose in nature?
+                back: >
+                        Things have indwelling goals, standard directions
+                        of development.
+        -
+                uuid: 8bbf8ac1-436e-4210-83b5-95a7776127c3
+                topic: Aristotle
+                front: Which new concepts did Aristotle introduce to explain forms guiding the natural world?
+                back: >
+                        The four causes, actuality and potentiality.
+        -
+                uuid: fe106e98-0cca-4c96-87f6-fa7229accb2e
+                topic: Aristotle
+                front: Does there have to be a practical payoff to knowledge?
+                back: >
+                        There need not be. We want to know "for its own sake".
+                        We are enslaved by having to devote lots of time
+                        to our own survival. Knowledge that isn't useful
+                        for us is "more than human", because it frees
+                        us from this bondage - it's the
+                        knowledge a god would have.
+        -
+                uuid: 09d37917-a675-4ff3-b4ca-971649ca65b4
+                topic: Aristotle
+                front: What would be "first philosophy"?
+                back: >
+                        Knowledge of everything and the causes of everything.
+                        The principal objects would
+                        be things that are independent of anything else - "first" or "primary" things.
+        -
+                uuid: ed1d0279-a8fb-40e5-a96e-f5f0f6487a35
+                topic: Aristotle
+                front: What would be the "first science" and what would it depend on?
+                back: >
+                        If there is no substance apart from nature, natural science would be the first science.
+                        <br><br>
+                        If there is an immovable substance, the science of it is prior to natural science, and it is the first philosophy.
+                        This science would study *being qua being*.
+        -
+                uuid: 2b0ed0d4-c462-4836-a8b2-74b223ba94df
+                topic: Aristotle
+                front: What is *being qua being*?
+                back: >
+                        The characteristics of being, unqualified: of being qua being.
+                        This would be *metaphysics*.
+        -
+                uuid: 44af396a-209f-4507-b3f8-fb833cdceeb3
+                topic: Aristotle
+                front: His criticism of Plato's Forms
+                back: >
+                        Third Man Problem.
+                        <ul>
+                        <li> Things are supposed to derive reality from "participation" in Forms, but Plato never defines what this amounts to. This is just a "poetic metaphor".
+                        <li> We try to explain the real world by postulating Forms, which are even more multiplied.
+                             We are just multiplying the entities in need of explanation
+                        <li> The requirements of *being the thing that individuals of the same kind have in common* and *being individual realities* are in conflict.
+                             If Forms are individual substances, it makes no sense to think of them as shared among substances.
+                             If they are universal (non-individual), there is no sense in thinking of them as things existing separately from particulars.
+                             Being-a-man is (according to Aristotle) not realized in a Form, but only in *each individual man*.
+                             Forms just add "self" to sensible terms.
+                        <li> There is no way how eternally unchanging Forms can account for changes.
+                        </ul>
+        -
+                uuid: bb924064-4e20-4fd0-ac4b-b2d6b9c33a70
+                topic: Aristotle
+                front: What criteria for *being* don't Plato's Forms satisfy?
+                back: >
+                        The fundamental things that exist are *individual* and exist *independently* of other things.
+                        Forms don't have independent being - they depend on individual substances.
+                        If anything beyond individual entities (beavers, people, etc.)
+                        exists, it will also be substantial, individual and capable of independent existence.
+                        It will not be a "common feature" of individual things.
+        -
+                uuid: 2bda6578-2a50-4d1b-a28a-36271cf66662
+                topic: Aristotle
+                front: What does he do about mathematics?
+                back: >
+                        We can "conceptually" separate attributes of things and consider them on their own,
+                        without supposing that they must be independent things.
+                        Mathematics is the study of nature (like any natural science),
+                        but it doesn't study it *as nature* - it only studies
+                        some abstractions from natural things, without supposing
+                        that those abstractions are themselves things.
+        -
+                uuid: 5ff19299-02bc-47e5-b0d4-61ac0deab3a7
+                topic: Aristotle
+                front: What is the *substance* of something?
+                back: >
+                        What it *is*. Not just what is an attribute (ways the thing is).
+        -
+                uuid: 960899e9-a2b3-4f53-8ef6-e3daa1768510
+                topic: Aristotle
+                front: What makes an object a substance?
+                back: >
+                        Not matter - the object would not be itself if we stripped away all form.<br><br>
+                        This must be "prime matter" and it can't be anything at all on its own;
+                        it doesn't have inependent existence and exists only as *formed*.
+                        The thing that makes a portion of being into a substance
+                        is a *form* (Aristotle shows by a long and complex argument),
+                        and the form responsible for the substantiality of substances
+                        is the **essence** of the thing.
+        -
+                uuid: aabfa891-79b2-4781-8a40-dc03591bb3ca
+                topic: Aristotle
+                front: What is *essence*?
+                back: The form responsible for the substantiality of a substance
+        -
+                uuid: 8320cbab-8ef2-4338-add2-7eb121f2c001
+                topic: Aristotle
+                front: What is essence of natural things?
+                back: >
+                        A set of characteristics without which they would not
+                        be what they are.
+                        <br><br>
+                        Example: frogs are always amphibians
+        -
+                uuid: 110dc44b-720f-48a0-be3e-eb552ba2f994
+                topic: Aristotle
+                front: What is the very substance of substance?
+                back: "*Essence*, a form"
+        -
+                uuid: 3c9ad82e-b205-4584-8df5-b76daa9adbcd
+                topic: Aristotle
+                front: What would be the interesting substance/form possibility, the most divine knowledge?
+                back: Substances that are *pure forms*, not compounds of form and matter. The most divine knowledge would be such knowledge of *pure substances*.
+        -
+                uuid: a4fc81ec-399a-44d8-b5f8-fcb9f60ebec9
+                topic: Aristotle
+                front: Why would pure substances admit no change?
+                back: Because change is a movement from something potential to something actual, and pure substances have to be pure *actualities*, because the principle of potentiality is matter.
+        -
+                uuid: 9bc73612-6587-44ae-985b-82f029a0e2eb
+                topic: Aristotle
+                front: Why would pure substances have to be *best* things?
+                back: >
+                        A frog is *best* when the form that makes it a frog is most fully actualized in the matter.
+                        If it is hindered from being best, then it has potentiality to be less than best,
+                        and that's due to matter.
+        -
+                uuid: 410e0fc6-d84c-4dc9-bc77-1836e9e11226
+                topic: Aristotle
+                front: Which natural substances are closest to ideals?
+                back: Celestial bodies (moving eternally in great circles)
+        -
+                uuid: 6f3dacc7-0a30-4d50-a50f-77c647b6b173
+                topic: Aristotle
+                front: Properties of God
+                back: >
+                        It is the *ultimate mover* -- all others are intermediate (*unmoved mover*).<br><br>
+                        It is also the *ultimate cause*.<br><br>
+                        It must be eternal, because it accounts for the movement of celestial bodies.<br><br>
+                        It is a substance, for it cannot be less basic than other substances that depend on it.<br><br>
+                        It must be fully actual, or it would need and explanation.
+                        <br><br><br><br>
+                        It is the "object of desire and thought", and functions as a final cause - it is what they all "love".
+        -
+                uuid: f769605b-9db5-4c93-8162-0f2f63b602cf
+                topic: Aristotle
+                front: Why is God a final cause?
+                back: >
+                        The ultimate mover:
+                        It cannot be a material cause, because it's purely potential.
+                        It cannot be an efficient cause, because it doesn't need a temporal trigger.
+                        It cannot be a formal cause, because it contains no matter.
+                        It can only be a *final cause*.
+        -
+                uuid: b6e47215-3c0c-4c25-b628-74e7b2500725
+                topic: Aristotle
+                front: Why is God good?
+                back: >
+                        It exists of necessity, so its existence must be good (as it's an object of love and desire), and so it must be the first principle.
+        -
+                uuid: 27096e26-2b71-43a1-af7b-52746268fcbd
+                topic: Aristotle
+                front: What kind of life does God live?
+                back: >
+                        Its life is like the best that we can enjoy, but only for a short time.
+                        <br>
+                        It is alive, because life is the actuality of mind,
+                        and God is that actuality, and his independent
+                        actuality is the best life and eternal life.
+                        God is an eternal and most excellent living being.
+        -
+                uuid: 7298e87d-f13a-4352-8f2e-e1a7cd6dbc87
+                topic: Aristotle
+                front: What does God think about?
+                back: >
+                        About what is most divine, most valuable and plainly
+                        it does not change; for change would be for the worse.
+                        So, the mind must think of itself, and its
+                        thought will be thought about thought.
+        -
+                uuid: 16df2332-64c6-443b-a146-c95a16381c1f
+                topic: Aristotle
+                front: Is God the creator of the world?
+                back: >
+                        No. It's an ideal. It's not the origin, but the goal.
+                        Yet he is an actually existing, individual substance.
+                        He is the unifying principle of reality.
+        -
+                uuid: b46628d3-896f-4467-a07f-6460c53a25c0
+                topic: Aristotle
+                front: What objection does Aristotle raise on Plato's view on the soul?
+                back: >
+                        Too narrow, doesn't include souls of animals.
+        -
+                uuid: 74c43b2b-423f-4ee0-bb29-a52193a1c77c
+                topic: Aristotle
+                front: The definition of a soul
+                back: What distinguishes what has life from what doesn't have it
+        -
+                uuid: 046d2bd5-5c29-4d0f-be8e-b8b1985ee867
+                topic: Aristotle
+                front: What are the three levels of souls?
+                back: Of plants, of beasts, of humans
+        -
+                uuid: 17e89d96-ceb1-4191-b63a-92ebf9bbd4c1
+                topic: Aristotle
+                front: What is the *nutritive soul*?
+                back: >
+                        The capacity to take in nourishment and convert it to life.
+                        Plants and above have it.
+        -
+                uuid: 3c5d9ee0-9fd3-4c30-a058-8b4f6a815a6c
+                topic: Aristotle
+                front: Why do living things reproduce?
+                back: >
+                        For Aristotle, we need to mention a final cause.<br><br>
+                        The most natural function of a living being is to reproduce, so it may share in eternity and divinity.<br><br>
+                        This is what they all desire and the purpose of all their activity.<br><br>
+                        What persists cannot be numerically the same (because it's not possible to participate
+                        both in eternity and divinity), so the species reproduces.
+        -
+                uuid: 316fac83-48ce-4c64-a59c-b219a3cf40bf
+                topic: Aristotle
+                front: What is the *sensitive soul*?
+                back: >
+                        Appetite: desire, anger, will. All animals have at least the sense of touch.
+                        Anything with sense is acquainted with pleasure and pain, that that leads to desire.
+                        Animals and above have it.
+        -
+                uuid: 55188f1c-0ded-4184-bca9-d9146deca61f
+                topic: Aristotle
+                front: What is the uniquely human level of soul?
+                back: Rational soul
+        -
+                uuid: e558bd64-59be-4a6e-9a55-94a680d507a5
+                topic: Aristotle
+                front: What two answers does Aristotle give to the question of whether souls exist independently on bodies?
+                back: >
+                        Soul doesn't feel pity, learns or thinks - a man does these.
+                        Sometimes they penetrate to the soul.
+                        <br>
+                        Sensation starts from particular objects;
+                        recollection starts from the soul.
+                        Sensation cannot occur without a body. Recollections
+                        have bodily effects (e.g., running to catch a bus).
+                        A person is *one being* with *one essence*.
+                        <br><br>
+                        The soul is a *substance*, inasmuch as it is the form of a natural body that potentially possesses life.
+                        A soul is a form for a *primary substance*.
+                        If the eye were an animal, its soul would be sight.
+                        <br><br>
+                        His account is for *souls in general* and for *rational souls*.
+        -
+                uuid: 1e86a113-4d3d-428b-9d5f-289243c0ed31
+                topic: Aristotle
+                front: Distinction between physiology and psychology
+                back: There is none; one studies the substance, one studies the form (this smells of *functionalism*)
+        -
+                uuid: 0e6ed26c-3399-4dbe-959e-87b8f4b90d57
+                topic: Aristotle
+                front: Account of *souls in general*
+                back: >
+                        They don't exist independently on bodies. They are forms actualized in bodies.
+        -
+                uuid: 7dadfe6f-5947-4fc4-a744-2cf758cdbc5b
+                topic: Aristotle
+                front: Is *nous* just an aspect of the form of living human bodies?
+                back: >
+                        No.<br><br>
+                        *Analogy to sight*: we need a red car, an eye and light.
+                        The capacity to register qualities is too passive to count
+                        as knowledge. We need something more active.
+                        <br><br>
+                        This "*light*" is separable, incapable of being acted upon,
+                        mixed with nothing, and in essence an actuality.
+                        The passive power of *nous* can potentially "become everything"
+                        (register the color of the car, etc.), but you
+                        need an active power in the mind to actually know.
+                        (Compare: analogy of the Sun - highest Form of Plato.)
+        -
+                uuid: 3082fb8f-7ca6-41be-a4db-9f698dfb6ea2
+                topic: Aristotle
+                front: Why must *nous* be a pure form unmixed with matter?
+                back: >
+                        Because it can actualize *everything*. Hence,
+                        it can't be a part of the body.
+        -
+                uuid: 9222fd62-914a-4ac8-a399-55c679fa9f58
+                topic: Aristotle
+                front: What is Aristotle's physical evidence for the *nous* being nonphysical?
+                back: >
+                        He didn't know of any organ for it.
+        -
+                uuid: 01cb240d-20eb-4514-b5a8-f7dc372a5f06
+                topic: Aristotle
+                front: What is the heart for?
+                back: For perceiving emotions and sensations
+        -
+                uuid: 80171836-fcfd-4f9e-9072-44aaefb3d88e
+                topic: Aristotle
+                front: What is the brain for?
+                back: For cooling the body
+        -
+                uuid: 57ad442a-1481-48ec-9d86-877bc1e74538
+                topic: Aristotle
+                front: Why don't we know that the *nous* is immortal and eternal?
+                back: >
+                        We don't remember what the *nous* knew before it was born -- there is nothing there to remember.
+                        Because the *other mind* which is capable of being acted upon is perishable, but nothing in the mind thinks without it.
+        -
+                uuid: 2157d0dc-f0e7-4e39-9529-80cc403d9d75
+                topic: Aristotle
+                front: Open problems about *nous*
+                back: >
+                        Is it numerically the same in everyone?
+                        What is the relation between nous and God?
+        -
+                uuid: bafcb186-193b-42d9-aa4c-5867c960bd96
+                topic: Aristotle
+                front: General agreements and disagreements with Plato on living a good life
+                back: >
+                        Same conclusions - rational reasons for traditional virtues
+                        <br><br>
+                        Aristotle thinks knowledge in the strict sense is not possible in this sphere.
+                        Aristotle also thinks practically than Plato in ethics.
+        -
+                uuid: 297546da-91e1-42b2-95b3-c3385e771be5
+                front: Which pre-Socratic hinted at evolution?
+                back: Empedocles
+        -
+                uuid: 987ca41e-1306-4278-a537-a74a30410072
+                front: Greek for Plato's Form
+                back: >
+                        *Eidea*
+        -
+                uuid: a2f0583f-07c1-4693-8408-8cdb2303166a
+                topic: Aristotle
+                front: What is his main treatise on ethics?
+                back: Nicomachean Ethics
+        -
+                uuid: 486c5200-2f06-4360-abd8-339e53d61498
+                topic: Aristotle
+                front: What is our end in everything?
+                back: Some good; no one strives for what he or she considers bad
+        -
+                uuid: 67ff8610-8911-44ea-8fd4-5221c3982a84
+                topic: Aristotle
+                front: What is the greatest good, and its Greek name (of Aristotle)?
+                back: >
+                        Happiness; *eudaimonia* (well-being/flourishing)
+                        <br>
+                        Aristotle distinguishes *feeling* happy from *being* happy
+        -
+                uuid: 6ddfb93d-779d-47c7-9849-ef36e50aa3c1
+                topic: Aristotle
+                front: Why can't happiness be just pleasure?
+                back: >
+                        It couldn't beright that the good life for human beings
+                        was the same as the kind of life lived by cattle.
+                        Amusements are pleasant, but it would be absurd
+                        if we worked hard just for amusement.
+        -
+                uuid: 3389aec3-9198-43d7-be20-955b6083b49b
+                topic: Aristotle
+                front: Why can't happiness be just honor?
+                back: >
+                        It is more superficial than what we are looking for.
+                        It rests on the man giving the honor.
+                        It can be taken from us.
+                        *The many* couldn't bestow the greatest blessing.
+        -
+                 uuid: f398479d-0b3c-4744-8b86-593b30ddc041
+                 topic: Aristotle
+                 front: How could we discover what happiness is?
+                 back: >
+                         Look for the function characteristic of humans.
+                         Not just in virtue of being cobblers, flute players, etc.
+        -
+                 uuid: 040073f1-4805-4765-b822-f4929a74b724
+                 topic: Aristotle
+                 front: What is the function of human beings?
+                 back: >
+                         Activity of soul in accordance with reason, or at least not contrary to it.
+        -
+                 uuid: b079afe1-e218-4834-b3db-0e224dc3b0c2
+                 topic: Aristotle
+                 front: Why is activity of the soul the function of human beings?
+                 back: >
+                         Rationality is the characteristic of the human soul.
+        -
+                 uuid: 05ce7132-71c3-42ad-ae10-bef0a41cfd00
+                 topic: Aristotle
+                 front: What are *moral virtues*?
+                 back: Our excellences in the social and physical aspects of our lives
+        -
+                 uuid: a439ea6c-8d31-4684-9ca4-74499193cb82
+                 topic: Aristotle
+                 front: What is the relation between externalities (pleasure, good fortune, ...) and happiness?
+                 back: >
+                         Some amount of good fortune is a prerequisite for happiness.
+                         Happiness is not entirely in our control.
+        -
+                 uuid: e5e41b72-5afb-4065-81cb-1be75e889ede
+                 topic: Aristotle
+                 front: Happiness and activity
+                 back: >
+                         Happiness is an *activity* of the soul in accord with excellence.
+                         Rest is not happiness.
+        -
+                 uuid: 9dbd4ce6-e497-48ad-a6b0-a747e545cbef
+                 topic: Aristotle
+                 front: On arete
+                 back: >
+                         (1) We are praised and blamed for our virtues and vices.
+                         It cannot be an emotion: (1) we are blamed not
+                         for being angry but for giving in to it,
+                         (2) we feel fear and anger without choosing to,
+                         but virtues are a kind of choice (or aren't possible
+                         without choice). We also can't be good *naturally*.
+                         <br><br>
+                         (2) Virtues aren't innate, through we have a capacity
+                         for them. They are learned by practicing them
+                         until they become habitual and they can be taught.
+                         <br><br>
+                         (3) Is virtue one or many? Both Plato and Socrates
+                         think goodness is one. Aristotle: there are many virtues,
+                         and they are possibly somehow independent. Often,
+                         brave men are not moderate.In their perfection, you
+                         can't have one virtue without having them all.
+        -
+                uuid: 425ecc81-73f4-44e9-96f3-cd01e6d8156f
+                topic: Aristotle
+                front: What is the role in reason to the development of virtues?
+                back: >
+                        With reason, you ensure you don't develop just
+                        one virtue with the exclusion of others.
+                        The use of reason is *practical sense* or *practical wisdom*.
+                        Once *practical sense* is present, all virtues
+                        will be present.
+        -
+                uuid: 66bcf566-83bb-4ca3-888d-1ee0b67e58e5
+                topic: Aristotle
+                front: What are virtues? What does it mean to have them?
+                back: >
+                         Virtues are **dispositions or habits**.
+                         To have a virtue is to behave according to it.
+        -
+                uuid: c764bccc-f5d7-4e6c-9855-f688e9bafc4f
+                topic: Aristotle
+                front: Why should we teach our children virtues?
+                back: >
+                        Because if they find pleasure in excellent exercise
+                        of their human nature, they will be happier people,
+                        and also virtuous and good.
+        -
+                uuid: 25a972b5-d647-4263-b3b2-3ae554818047
+                topic: Aristotle
+                front: Where are virtues? What is the role of reason?
+                back: >
+                        On the mean - of emotions, etc. We should have the
+                        *right* amount of fear, for example - not too much
+                        and not too little.
+                        <br><br>
+                        The right amount depends on the *circumstances*
+                        and the *person*. What is courageous for one
+                        may not be courageous for another.
+                        This is an *objective* relativity.
+                        <br><br>
+                        The role of reason is *finding this mean*, the right amount.
+                        That is *practical sense* or *practical wisdom*.
+        -
+                uuid: 231df8c9-6fb9-47ad-825f-e53ee2be12d1
+                topic: Aristotle
+                front: On how hard it is to get the right amount
+                back: >
+                        Going wrong happens in many ways, whereas going right happens in one way only. Missing the target is easy, but hitting is hard.
+        -
+                uuid: d9115f77-6ca6-4982-8690-7e615e775e9f
+                topic: Aristotle
+                front: What is the standard on where the mean lies?
+                back: >
+                       What a good person would do.
+                       <br><br>
+                       Not everyone is as good as everyone else as judging
+                       the mean.
+                       The mean is discovered by the "right reason".
+        -
+                uuid: 9035acbc-7579-47a2-aad3-3dfd7a6a01aa
+                topic: Aristotle
+                front: What are *excusing conditions*?
+                back: >
+                        Conditions which make praise/blame for good/bad things inappropriate.
+        -
+                uuid: 45a2e1e7-9068-4a84-b588-5b9cb0f048e0
+                topic: Aristotle
+                front: Which two excusing conditions did he identify?
+                back: Ignorance and compulsion
+        -
+                uuid: 133dc696-115e-4324-b28b-de763244b143
+                topic: Aristotle
+                front: What kind of ignorance is an excusing condition?
+                back: >
+                        Not knowing what is right is **not**. Those people are not ignorant, but *wicked*.
+                        <br><br>
+                        Ignorance of what everyone should know is **not**.
+                        <br><br>
+                        Ignorance of particular circumstances is.
+        -
+                uuid: 606e97c2-5d3c-4d9e-bd78-60ba7624e1c6
+                topic: Aristotle
+                front: What is the mark of ignorance being an excusing condition?
+                back: Regret
+        -
+                uuid: e69c4bd7-0835-493d-a404-551cf6e659b1
+                topic: Aristotle
+                front: What is the best activity of soul?
+                back: >
+                        The activity of the *nous* - it is the highest good and the greatest happiness.
+                        Contemplation (throught NOT meditation in today's sense).
+                        This life is most pleasant and most self-sufficent.
+                        (Also, an immitation of God.)
+        # chapter 8 - epicureans, stoics and skeptics
+
+

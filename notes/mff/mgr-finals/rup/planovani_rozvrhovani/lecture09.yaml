@@ -1,0 +1,205 @@
+deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška 9
+topic: Plánovací heuristiky
+notes:
+        # planovani lecture09
+        -
+                uuid: 843cd56a-47ff-4481-8592-88550799a8fb
+                front: Jak můžeme zlepšit efektivitu plánovacích algoritmů?
+                back: >
+                        <ul>
+                        <li>*Heuristiky*: problémově závislí průvodci
+                        <li>*Řídící pravidla*: problémově závislé prořezávání stavů
+                        <li>*Hierarchické plánování*: problémově závislé návody na řešení úloh
+                        </ul>
+        -
+                uuid: 46ae6501-69e7-4fa1-81b1-fb5625a2deb4
+                front: Co chceme po heuristikách?
+                back: >
+                        Aby vybraly uzel co nejblíž orákulu (které by problém
+                        řešilo deterministicky) a efektivně se počítaly.
+        -
+                uuid: c7e7c30e-6fb2-45eb-a397-6e09d38bc968
+                front: Jak se dají heuristiky stavět?
+                back: >
+                        Relaxací problému
+        -
+                uuid: c45fe171-7df7-45f3-af3c-48905fb8ec39
+                front: Jak vypadají optimalizační heuristiky? Kdy jsou přípustné?
+                markdown: false
+                back: >
+                        Heuristiky [$]h(u)[/$] odhadují [$]h^*(u)[/$] -- cenu nejlepšího řešení.
+                        Přípustné heuristiky jsou když [$]h(u)\\leq h^*(u)[/$]
+                        (pro minimalizaci ceny).
+        -
+                uuid: 2ca2e18f-7d25-406e-9f7b-14e8c5e3f942
+                front: Jak můžeme konstruovat heuristiky pro plánování se stavy?
+                back: >
+                        Odhaduje počet akcí z daného atomu stavu o cílového stavu.
+                        <br><br>
+                        Vyřešíme relaxovaný problém: uvažujeme jenom pozitivní efekty,
+                        předpokládáme že různé atomy se dosahují nezávisle na sobě.
+        -
+                uuid: 70b80436-5f0f-477e-a31c-09d6821a4eb7
+                front: Heuristika [$]\\Delta_0[/$]
+                back: >
+                        <ul>
+                        <li>[$]\\Delta_0(s,p)=0[/$] když [$]p\\in S[/$]
+                        <li>[$]\\Delta_0(s,g)=0[/$] když [$]g\\subseteq S[/$]
+                        <li>[$]\\Delta_0(s,p)=\\infty[/$] když [$]p\\notin s[/$] a [$]\\a a\\in A: p\\notin \\mathrm{eff}^+(a)[/$]
+                        <li>[$]\\Delta_0(s,p)=\\min_a \\{1+\\Delta_0(s, precond(s)) : p\\in\\mathrm{eff}^+(a)\\}[/$]
+                        <li>[$]\\Delta_0(s,g)=\\sum_{p\\in g}\\Delta_0(s,p)[/$]
+                        </ul>
+
+                        Toto není přípustná heuristika -- není to dolní odhad vzdálenosti.
+        -
+                uuid: 697e6738-7009-4bc5-9667-ccfa303f402d
+                front: Heuristika [$]\\Delta_1[/$]
+                back: >
+                        [$$]\\Delta_1(s,g)=\\max\\{\\Delta_0(s,p) : p\\in g\\}[/$$]
+                        <br><br>
+                        Když je hodnota heuristiky větší než dosud nejlepší
+                        známé řešení, můžeme bezpečně uříznout větev.
+                        Je ale méně informovaná než [$]\\Delta_0[/$].
+        -
+                uuid: e5ab2222-291a-4f40-aa6f-f1cac29c79c3
+                front: Heuristika [$]\\Delta_2[/$]
+                back: >
+                        Budeme zjišťovat dosažitelnost dvojice atomů najednou:
+                        <br><br>
+                        <ul>
+                        <li>
+                        [$$]\\Delta_2(s,p)=\\min_a \\{1+\\Delta_2(s, \\mathrm{precond}(a)) : p\\in\\mathrm{eff}^+(a)\\}[/$$]
+                        <li>
+                        [$$]\\Delta_2(s,\\{p,q\\})=1 + \\min\\{
+                                \\min_a \\{\\Delta_2(s, \\mathrm{precond}(a)) : \\{p,q\\}\\subseteq \\mathrm{eff}^+(a)\\},
+                                \\min_a \\{\\Delta_2(s, \\{q\\}\\cup\\mathrm{precond}(a)) : p\\in\\mathrm{eff}^+(a)\\},
+                                \\min_a \\{\\Delta_2(s, \\{p\\}\\cup\\mathrm{precond}(a)) : q\\in\\mathrm{eff}^+(a)\\}
+                                \\}[/$$]
+                        </ul>
+                        <br><br>
+                        Jde zobecnit pro větší [$]k[/$], ale pro [$]k>2[/$]
+                        je složitost moc velká.
+        -
+                uuid: c47c09c2-9fb0-4eaf-81d9-a86626aa0f07
+                front: Jak souvisí [$]\\Delta_2[/$] s Graphplan?
+                back: >
+                        Graphplan má navíc mutexy.
+                        Můžu ji přizpůsobit víc tím, že když vyrobím dvojici
+                        atomů přes dvě nezávislé akce, budu to považovat
+                        za jeden krok.
+        -
+                uuid: 239fa1b7-7038-452b-a8e9-4def27baba4e
+                front: Použití heuristik při dopředném a zpětném plánování
+                back: >
+                        Dopředné: vyber akci, jejiž heuristická vzdálenost
+                        do cíle je nejmenší.
+                        <br>
+                        Zpětné: na úvod vypočtu heuristické vzdálenosti
+                        z počátku [$]s_0[/$] do všech atomů: [$]\\Delta(s_0,p)[/$].
+                        (To můžu inkrementálně upravovat.)
+                        Preferuju akce, jejichž předpoklady jsou heuristicky
+                        blíž počátku.
+        -
+                uuid: 79e6a08d-3d5c-4cdc-b745-30aebf4f2376
+                front: Jak heuristicky volit kaz k opravě v plánování s plány?
+                back: >
+                        FAF - fewest alternatives first. Jako první oprav
+                        ten kaz, co má nejmíň různých způsobů opravy.
+        -
+                uuid: 4a5562d3-d9f0-4743-aa76-6b23a26bce7b
+                front: Jak heuristicky zvolit způsob opravy kazu v plánování s plány?
+                back: >
+                        Podívej se na různé opravy kazu.
+                        <br><br>
+                        Pokus 1: preferuj plán co má míň otevřených cílů.
+                        To ale není korelované se složitostí, jak jich dosáhnout...
+                        [$]\\eta_0(\\pi)=|g_\\pi|[/$]
+                        <br><br>
+                        Pokus 2: Vygenerujeme AND-OR graf pro [$]\\pi[/$]
+                        do dané hloubky a spočítáme počet nových akcí v grafu
+                        a počet otevřených cílů, co nejsou v [$]s_0[/$]:
+                        [$]\\eta_k(\\pi)[/$]. To je ale hodně výpočetně náročné.
+                        <br><br>
+                        Pokus 3: Uděláme (stačí jednou) plánovací graf pro
+                        původní cíl. Najdeme otevřený cíl [$]p[/$] v [$]\\pi[/$],
+                        který se přidal do grafu jako poslední, a na cestě
+                        [$]s_0\\rightarrow p[/$] spočítáme počet akcí,
+                        co nejsou v [$]\\pi[/$]: [$]\\eta(\\pi)[/$]
+        -
+                uuid: 3a7b6d4c-d3fb-48c4-b2e6-22eae5ac12de
+                topic: Simple temporal logic
+                front: >
+                        [$$]\\Phi_1\\cup \\Phi_2[/$$]
+                back: >
+                        <h3>Až do</h3>
+                        [$]\\Phi_2[/$] platí teď nebo v některém příštím stavu,
+                        [$]\\Phi_1[/$] platí až do té doby
+                include_reverse: true
+        -
+                uuid: 9ff0278d-caa7-444a-9ea1-7dbc84cffe26
+                topic: Simple temporal logic
+                front: >
+                        [$$]\\square\\Phi[/$]
+                back: >
+                        [$]\\Phi[/$] platí teď a v každém z příštích stavů
+                include_reverse: true
+        -
+                uuid: 890ed346-46f5-480a-819e-f8a5ac9d2398
+                topic: Simple temporal logic
+                front: >
+                        [$$]\\diamond\\Phi[/$]
+                back: >
+                        [$]\\Phi[/$] platí teď nebo v některém z příštích stavů
+                include_reverse: true
+        -
+                uuid: 14d626e6-0f0a-44dd-b618-5649552b0be5
+                topic: Simple temporal logic
+                front: >
+                        [$$]\\circ\\Phi[/$$]
+                back: >
+                        [$]\\Phi[/$] platí v následujícím stavu
+                include_reverse: true
+        -
+                uuid: 1b8d424f-ae8b-4bb8-9e59-8ec97517930f
+                topic: Simple temporal logic
+                front: >
+                        [$$]\\mathrm{GOAL}(\\Phi)[/$$]
+                back: >
+                        [$]\\Phi[/$] (která nesmí mít modální operátory) platí v cílovém stavu
+                include_reverse: true
+        -
+                uuid: 5fdaa21c-b61c-40a8-9462-eb25d8f9eb4d
+                topic: Simple temporal logic
+                front: Jak interpretujeme formule?
+                back: >
+                        [$](S,s_i,g)[/$]: [$]S[/$] je nekonečná posloupnost
+                        stavů, [$]s_i\\in S[/$] je aktuální stav,
+                        [$]g[/$] je cílová formule.
+                        <br><br>
+                        [$](S,s_i,g)\\models\\varphi[/$] definujeme rekurzivně.
+        -
+                uuid: af06ce6a-5276-4437-ba27-90778adf38d1
+                front: Jak můžu postavit řídící pravidlo pro svět kostek
+                back: >
+                        [$]goodtower[/$] pro kostku, když pod ní všechno
+                        je tak, jak má být podle zadání,
+                        postaveno logikou prvního řádu
+                        <br><br>
+                        Řídící pravidlo: pomocí [$]\\circ[/$]: nedávej nic
+                        na bad towers; nerozbíjej goodtowery; neber kostky
+                        ze stolu když nejdou dát na goodtower
+        -
+                uuid: 71676587-fb79-4092-b518-6ab141791160
+                topic: Simple temporal logic
+                front: Jak uděláme progress o jeden stav dál?
+                back: >
+                        Rekurzivně; díky closed world assumption
+                        progresi [$]\a, \e[/$] děláme vyjmenováním do spojek.
+                        Vyjmenujeme, jak se dělají progrese modálních operátorů.
+        -
+                uuid: 3aeeaaed-0078-431b-84f5-ba5a4c72c0e7
+                front: Ŕízené plánování
+                back: >
+                        Postupně přes progress upravujeme řídící formuli
+                        pro další stavy. Dokud hlásí neúspěch, víme,
+                        že neexistuje tím směrem plán, co by splnil pravidlo.
