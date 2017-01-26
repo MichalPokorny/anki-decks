@@ -192,31 +192,34 @@ notes:
                 topic: Zespojitěné Hopfielovy sítě
                 front: Proč konverguje do lokálního optima?
                 back: >
-                        Zderivuj energii podle času. Dostaneš:
-                        [$$]dE/dt = -\\sum_{i=1}^n \\sum_{j=1}^n w_{ij} \\frac{dx_i}{dt} x_j + \\sum_{i=1}^n \\sigma^{-1}(x_i) \\frac{dx_i}{dt}[/$$]<br>
+                        [$]dE/dt = -\\sum_{i=1}^n \\sum_{j=1}^n w_{ij} \\frac{dx_i}{dt} x_j + \\sum_{i=1}^n \\sigma^{-1}(x_i) \\frac{dx_i}{dt}[/$]<br>
 
                         Síť je symetrická a [$]u_i=\\sigma^{-1}(x_i)[/$], tak:
-                        [$$]dE/dt=-\\sum_{i=1}^n \\frac{dx_i}{dt}(\\sum_{j=1}^n w_{ij}x_j - u_i)[/$$]<br>
+                        [$]dE/dt=-\\sum_{i=1}^n \\frac{dx_i}{dt}(\\sum_{j=1}^n w_{ij}x_j - u_i)[/$]<br>
 
-                        Přitom [$]du_i/dt = \\gamma(\\sum_{j=1}^n w_{ij}x_j - u_i)[/$], tedy [$]dE/dt=-\\frac{1}{\\gamma}\\sum_{i=1}^n \\frac{dx_i}{dt}\\frac{du_i}{dt}[/$]<br>
+                        Přitom [$]du_i/dt = \\gamma(\\sum_{j=1}^n w_{ij}x_j - u_i)[/$], tedy
+                        [$]dE/dt=-\\frac{1}{\\gamma}\\sum_{i=1}^n \\frac{dx_i}{dt}\\frac{du_i}{dt}[/$]<br>
+                        <br>
 
-                        Dosaď [$]x_i=\\sigma(u_i)[/$]: [$]dE/dt = -\\frac{1}{\\gamma}\\sum_{i=1}^n \\sigma'(u_i) (\\frac{du_i}{dt})^2[/$]<br>
+                        Dosaď [$]x_i=\\sigma(u_i)[/$]:
+                        [$]dE/dt = -\\frac{1}{\\gamma}\\sum_{i=1}^n \\sigma'(u_i) (\\frac{du_i}{dt})^2[/$]<br>
+                        <br>
 
-                        Protože [$]\\sigma'(x_i)>0[/$] (sigmoida roste) a [$]\\gamma>0[/$], tak [$]dE/dt\\leq 0[/$].
+                        [$]\\sigma'(x_i)>0[/$] (sigmoida roste) a [$]\\gamma>0[/$], tak [$]dE/dt\\leq 0[/$].
         -
                 uuid: aeb40e17-72bf-40d6-bd22-1b8eef1daa9d
                 front: Simulované žíhání
                 back: >
                         Pokud změna sníží energii, proveď ji.
                         Pokud ji zvýší o [$]\\Delta E[/$], přijmi s [$]p=\\frac{1}{1+\\exp(\\Delta E/T)}[/$] kde [$]T[/$] je teplotni konstanta.
-                        Pro velké [$]T[/$] je [$]p\\simeq 1/2[/$].
+                        Pro velké [$]T[/$] je [$]p\\approx 1/2[/$].
         -
                 uuid: a1609cff-c797-49be-b60e-c4ad967dd11d
                 topic: Boltzmannův stroj
                 front: Architektura, pravděpodobnost aktualizace
                 back: >
-                        Hopfieldova síť<br>
-                        Aktualizace stavu [$]x_i[/$] na 1: pravděpodobnost [$]p_i[/$], jinak na 0<br>
+                        Jako Hopfieldova síť, ale neurony jsou binární<br>
+                        [$]x_i\\leftarrow 1[/$]: pravděpodobnost [$]p_i[/$], jinak [$]\\leftarrow 0[/$]<br>
 
                         [$$]p_i = \\sigma\\left(\\frac{\\sum_{j=1}^n w_{ij} x_j - \\theta_i}{T}\\right)[/$$]
         -

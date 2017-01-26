@@ -74,8 +74,8 @@ notes:
                 uuid: 2cd4abd6-9386-4cd9-8abb-4049fdfd8ece
                 front: Proč jsou problém příliš velké i příliš malé váhy?
                 back: >
-                        Příliš malé: Šířená chyba je pak moc malá.
-                        Příliš velké: chybová funkce se dostane do saturované zóny, je plochá.
+                        Malé: Šířená chyba je moc malá.<br>
+                        Velké: Chybová funkce se dostane do saturované zóny, je plochá.
         -
                 uuid: f3485758-c4a8-4f09-b934-0adceccebb6e
                 front: Chytrá volba vah - jak nanormalizujeme vstupy?
@@ -141,22 +141,22 @@ notes:
                 uuid: 337f8612-aa5f-4688-a6b3-2cf6b499bf65
                 front: Super-SAB algoritmus
                 back: >
-                        Dělej backprop s momentem.
-                        Začni s rychlostí 1.2.
-                        Když se nezměnilo znaménko, vynásob rychlost 1.05.
+                        Dělej backprop s momentem.<br>
+                        Začni s rychlostí 1.2.<br>
+                        Když se nezměnilo znaménko, vynásob rychlost 1.05.<br>
                         Když se změnilo, undoni poslední změnu, pak poděl rychlost 2 a pro účely momentu v dalším updatu se tvař že rychlost v téhle souřadnici je 0.
         -
                 uuid: 69dfb87b-0ab7-4953-a173-722046c8167f
                 front: Taylorova řada pro aproximaci E druhého řádu
                 back: >
-                        [$]E(w+h) \\simeq E(w) + \\nabla E(w)^T \\cdot h + \\frac{1}{2}h^T \\nabla^2 E(w) h[/$]
+                        [$]E(w+h) \\approx E(w) + \\nabla E(w)^T \\cdot h + \\frac{1}{2}h^T \\nabla^2 E(w) h[/$]
 
                         Kde [$]\\nabla^2 E(w)[/$] je [$]n\\times n[/$] Hessovská matice, kde prvek [$]ij[/$] je [$]\\partial^2 E(w) / \\partial w_i \\partial w_j[/$].
         -
                 uuid: 8606828b-9128-45ff-b000-7e22e0ad5b19
                 front: Aproximace gradientu druhého řádu. O co se s ním snažíme?
                 back: >
-                        [$]\\nabla E(w+h)^T\\simeq\\nabla E(w)^T + h^T \\nabla^2 E(w)[/$]<br>
+                        [$]\\nabla E(w+h)^T\\approx\\nabla E(w)^T + h^T \\nabla^2 E(w)[/$]<br>
 
                         Snažíme se gradient [$]h = -(\\nabla^2 E(w))^{-1} \\nabla E(w)[/$] mít nulový, protože hledáme minimum [$]E[/$].
         -

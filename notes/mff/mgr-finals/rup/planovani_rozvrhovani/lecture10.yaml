@@ -186,7 +186,7 @@ notes:
                         [$$]1\mid r_j\mid L_{\max}[/$$]
                 front: Jak řešit, když povolím preempci?
                 back: >
-                        Optimální rozvrh konstruuj podle pravidla UDD.
+                        Optimální rozvrh konstruuj podle pravidla EDD.
                         Jakmile narazím na další termín dostupnosti nebo
                         dokončím úlohu, změním task, na kterém dělám, na úlohu,
                         která má teď nejmenší due date.
@@ -355,16 +355,19 @@ notes:
                         [$$]F2\mid\mid C_{\max}[/$$]
                 front: Řešení
                 back: >
-                        Máme dokázáno, že stačí jenom určit pořadí, a na obou
+                        Víme, že stačí jenom určit pořadí, a na obou
                         strojích může být stejné.
                         <br><br>
-                        Úlohy rozdělíme do [$]U[/$]: úlohy co mají operaci
+                        Úlohy rozdělíme do [$]U[/$]: ty co mají operaci
                         na zdroji 1 kratší než na zdroji 2, [$]V[/$]:
-                        úlohy co mají operaci na zdroji 1 delší než na zdroji 2.
+                        ty co mají operaci na zdroji 1 delší než na zdroji 2.
                         <br><br>
-                        Správné pořadí je: [$]U[/$] uspořádané vzestupně
+                        Správné pořadí je:<br>
+                        [$]U[/$] uspořádané vzestupně
                         podle [$]p_{1j}[/$], pak [$]V[/$] sestupně
-                        podle [$]p_{2j}[/$]. Každou operai rozvrhneme
+                        podle [$]p_{2j}[/$].
+                        <br>
+                        Každou operaci rozvrhneme
                         do co nejmenšího možného startovního času.
         -
                 uuid: cc118a32-453c-4936-960a-b38335bbf6f7

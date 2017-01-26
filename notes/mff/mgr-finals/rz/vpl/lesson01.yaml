@@ -9,12 +9,14 @@ notes:
                         [$]\\neg (p\\wedge q)\\ekv \\neg p \\vee \\neg q[/$]
         -
                 uuid: a0e05572-826d-48dc-a83c-eee6c47f1da0
-                front: Korektnost dokazovacího systému
+                front: >
+                        Definice: Korektnost dokazovacího systému
                 back: >
                         Každé dokazatelné tvrzení je pravdivé.
         -
                 uuid: f30ff920-05b4-4398-a1ac-be85830b70ff
-                front: Úplnost dokazovacího systému
+                front: >
+                        Definice: Úplnost dokazovacího systému
                 back: >
                         Každé pravdivé tvrzení je dokazatelé.
         -
@@ -130,17 +132,23 @@ notes:
                 uuid: 99cd93eb-8c5b-47c5-b80d-792c2228814a
                 front: Temno - racionální čísla
                 back: >
-                        [$]Q=(\\Z\\times(\\Z\\setminus\\{0\\}))/\\sim; \\sim:=(a,b)\\sim(c,d) :=: a\\cdot d = b\\cdot c[/$]
+                        [$]\\mathbb{Q}=(\\Z\\times(\\Z\\setminus\\{0\\}))/\\sim; \\sim:=(a,b)\\sim(c,d) :=: a\\cdot d = b\\cdot c[/$]
         -
                 uuid: 7da62bd3-8a22-4aac-a45e-afd2fa97e1ef
                 front: Temno - reálná čísla
                 back: >
-                        Množina řezů reálných čísel (netrivální, dolů uzavřené podmnožiny Q bez největšího prvku).
-                        Uzavřenost dolů: [$]y<x\\in A\\rightarrow y\\in A[/$]
+                        Množina řezů [$]\\mathbb{Q}[/$] (netriviální,
+                        dolů uzavřené podmnožiny [$]Q[/$] bez největšího prvku).
+        -
+                uuid: 699fbc2b-de26-41d5-8413-738f99de1ef1
+                front: Temno - konstrukce reálných čísel přes řezy, co je uzavřenost dolů?
+                back: >
+                        [$]y<x\\in A\\rightarrow y\\in A[/$]
         -
                 uuid: 8aa0f5d0-d6ab-4766-a4e1-4f3e32054ad0
                 front: Temno - subvalence/stejná nebo menší velikost
-                back: x je subvalentní y, když existuje prostá funkce z x do y
+                back: >
+                        [$]x \\prec y[/$], když existuje prostá funkce z [$]x[/$] do [$]y[/$]
         -
                 uuid: 371d6d55-64fa-43dd-9b59-92f75469f0bc
                 front: Temno - stejná velikost

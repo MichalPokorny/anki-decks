@@ -31,7 +31,7 @@ notes:
                         Ocekavana hodnota [$]\\mathbb{E}[dx/dt][/$] musi byt 0,
                         jinak by mohlo byt [$]\\mathbb{E}[x]\\notin [a;b][/$].<br>
 
-                        [$$]\\mathbb{E}[dx/dt]=\\eta(\\mathbb{E][x]-\\mathbb{E}[w])=
+                        [$$]\\mathbb{E}[dx/dt]=\\eta(\\mathbb{E}[x]-\\mathbb{E}[w])=
                         \\eta((a+b)/2 - \\mathbb{E}[x]) = 0 \\longrightarrow \\mathbb{E}[w]=(a+b)/2[/$$]
         -
                 uuid: 69a572dd-fa8e-40b6-9367-29d8a18c7d99
@@ -113,7 +113,7 @@ notes:
                         [/$$]<br>
 
                         [$$]
-                        \\Delta z_i \\simeq -\\partial E/\\partial z_i = \\gamma g_i(x) (d - \\sum_{j=1}^n g_j(x) z_j)
+                        \\Delta z_i \\approx -\\partial E/\\partial z_i = \\gamma g_i(x) (d - \\sum_{j=1}^n g_j(x) z_j)
                         [/$$]
         -
                 uuid: a4eb55d5-10de-44d4-8d2f-5b91d7f334cd

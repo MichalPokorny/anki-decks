@@ -74,12 +74,16 @@ notes:
                 topic: A*
                 front: Vztah přípustných(admisibilních) a monotónních heuristik
                 back: >
-                        Monotónní heuristiky jsou admisibilní.<br>
-
+                        Monotónní heuristiky jsou admisibilní.
+        -
+                uuid: 77b21f2b-2751-41a0-a5b6-42090620e351
+                topic: A*
+                front: Důkaz, že každá monotónní heuristika je admisibilní
+                back: >
                         Ať je [$]n_1,n_2,\\ldots n_k[/$] optimální cesta z
                         [$]n_1[/$] do cíle [$]n_k[/$].<br>
-                        Pak z monotonie: [$]h(n_i)-h(n_{i+1})\\leq c(n_i,a_i,n_{i+1})[/$].<br>
-                        Před teleskop: [$]h(n_1)\\leq\\sum_{i=1}^{k-1} c(n_i,a_i,n_{i+1})[/$]
+                        Monotonie: [$]h(n_i)-h(n_{i+1})\\leq c(n_i,a_i,n_{i+1})[/$].<br>
+                        Teleskop: [$]h(n_1)\\leq\\sum_{i=1}^{k-1} c(n_i,a_i,n_{i+1})[/$]
         -
                 uuid: 4415b7e7-88da-4811-b3d3-7d76a308e43f
                 topic: A*

@@ -152,3 +152,43 @@ notes:
                         Sheng Puerh is raw, non-fermented. It is harvested and stored naturally.
                         <br><br>
                         Shu Puerh is fermented, leaves are reddish-brown.
+        -
+                uuid: c5d1a678-7633-4f37-98cc-db6ab0e2b9dc
+                front: Mahayana
+                back: >
+                        One of the two major traditions of Buddhism, now
+                        practised especially in China, Tibet, Japan, and Korea.
+                        The tradition emerged around the 1st century AD and is
+                        typically concerned with personal spiritual practice
+                        and the ideal of the bodhisattva.
+        -
+                uuid: e6291fa1-8e8f-4a13-a200-d6fbba1852db
+                front: Hinayana
+                back: >
+                        A name given by the followers of Mahayana Buddhism to
+                        the more orthodox schools of early Buddhism. The
+                        tradition died out in India, but it survived in Ceylon
+                        (Sri Lanka) as the Theravada school and was taken from
+                        there to other regions of SE Asia.
+        -
+                uuid: e93c5c3a-41df-4247-8a33-e6e6cc1ebf19
+                front: Difference between Mahayana and Hinayana buddhism
+                back: >
+                        Hinayana: "modest/lesser vehicle",
+                        Mahayana: "greater/vast vehicle".
+                        <br>
+                        <br>
+                        Mahayana: don't enter Nirvana until everyone does
+        -
+                uuid: 2ebc2251-b21b-4530-a8b9-0deadb0e5947
+                front: Da Hong Pao
+                back: >
+                        According to legend, the mother of a Ming dynasty
+                        emperor was cured of an illness by a certain tea, and
+                        that emperor sent great red robes to clothe the four
+                        bushes from which that tea originated. Six of these
+                        original bushes, growing on a rock on the Wuyi Mountains
+                        and reportedly dating back to the Song dynasty, still
+                        survive today and are highly venerated.
+
+                        (Da Hong Pao can sell for up to US$1,025,000 per kg.)

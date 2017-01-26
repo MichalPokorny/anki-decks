@@ -81,3 +81,11 @@ notes:
                 topic: Hadoop
                 front: Kill application
                 back: "`yarn application -kill <appid>`"
+        -
+                uuid: c85cd496-00e4-44f9-9b4f-c05089c1f4df
+                front: "`char c1, c2; c1 = 'A'; c2 = c1 ^ ' '; putc(c2);`"
+                back: "`a`"
+        -
+                uuid: 57e6de4c-1da8-44d4-b95f-2d0a1ee06d84
+                front: Quick operator hack to switch case of a character
+                back: "`'A' ^ ' ' == 'a'`"

@@ -1,4 +1,4 @@
-deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška 2
+deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška 3
 notes:
         # planovani a rozvrhovani lecture03
         -
@@ -48,6 +48,12 @@ notes:
                         Vyber si nedeterministicky a pokračuj.
                         <br>
                         Volné proměnné ztěžují detekci cyklů.
+        -
+                uuid: d1b7402b-bdce-4073-b223-8755d8663c40
+                topic: STRIPS plánování
+                front: Písmeno označující plánovací doménu
+                back: >
+                        [$]\\Sigma[/$]
         -
                 uuid: 13205a65-48c4-486f-b806-8954fad936a4
                 front: Jak STRIPS algoritmus redukuje prostor zpětného plánování?

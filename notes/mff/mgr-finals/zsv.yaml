@@ -193,7 +193,7 @@ notes:
                         [/$$]
 
                         [$$]
-                        f\\simeq g\\Leftrightarrow[dom f = dom g \\wedge (\\a x\\in dom f)[f(x)=g(x)]]
+                        f\\approx g\\Leftrightarrow[dom f = dom g \\wedge (\\a x\\in dom f)[f(x)=g(x)]]
                         [/$$]
         -
                 uuid: 21f375d5-ecc2-4ce6-84b7-f2e60bac1a01
@@ -207,7 +207,7 @@ notes:
                 front: >
                         Univerzální funkce pro [$]n[/$]
                 back: >
-                        [$]\\Psi_n(e,x_1,\\ldots x_n)\\simeq \\varphi_e^{(n)}(x_1,\\ldots x_n)[/$]
+                        [$]\\Psi_n(e,x_1,\\ldots x_n)\\approx \\varphi_e^{(n)}(x_1,\\ldots x_n)[/$]
         -
                 uuid: 0c0f25fb-2f98-4961-88c2-f4560dfeaab4
                 front: >
@@ -266,7 +266,7 @@ notes:
                 front: s-m-n věta
                 back: >
                         Pro každá [$]m,n\\geq 1[/$] existuje prostá totální vyčíslitelná funkce [$]s_n^m:\\N^{m+1}\\rightarrow\\N[/$] že pro každé [$]x,y_1,\\ldots y_m,z_1,\\ldots z_n\\in\\Sigma_b^{ * }[/$] platí:
-                        [$$]\\varphi^{(n)}_{s_n^m(x,y_1,\\ldots,y_m)}(z_1,\\ldots z_n)\\simeq \\varphi_x^{(m+n)}(y_1,\\ldots y_m,z_1,\\ldots z_n)[/$$]
+                        [$$]\\varphi^{(n)}_{s_n^m(x,y_1,\\ldots,y_m)}(z_1,\\ldots z_n)\\approx \\varphi_x^{(m+n)}(y_1,\\ldots y_m,z_1,\\ldots z_n)[/$$]
         -
                 uuid: 0fbdef69-824c-445e-8d35-36c9ee3c35c1
                 front: Postův korespondenční problém
@@ -312,7 +312,7 @@ notes:
                 include_reverse: true
         -
                 uuid: a3da5e25-49ea-44d9-a3e6-7ea04b98fa97
-                front: Silnější verze CT teze pro polynomy
+                front: Silnější Church-Turingova teze pro polynomy
                 back: Reálné výpočetní modely jde simulovat na TS s polynomiálním zpomalením/nárůstem prostoru.
         -
                 uuid: 0c026be6-6a0a-4614-9ca4-751d6a748329

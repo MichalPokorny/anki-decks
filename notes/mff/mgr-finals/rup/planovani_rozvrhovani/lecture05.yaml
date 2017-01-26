@@ -218,21 +218,20 @@ notes:
                 uuid: d4500262-276a-4827-be18-1cda09c4b05d
                 front: Trik na lepší správu paměti
                 back: >
-                        Nebudu si explicitně budovat vrstvy, jenom si pro každý
-                        atom a akci uložím, kde byla poprvé (kvůli monotonii).
+                        Nebudovat explicitně budovat vrstvy, jen pro každý
+                        atom a akci uložit, kde byla poprvé (kvůli monotonii).
         -
                 uuid: 1524608d-e166-4a82-b431-6ef322242a6c
                 front: Jakými heuristikami můžu líp prohledávat?
                 back: >
                         <ul>
                         <li>
-                        Nejdřív vybírej atomy co mají menší počet "podpůrných akcí",
-                        nebo atomy, co se v grafu objevily nejpozději.
+                        Nejdřív řeš atomy co mají menší počet "podpůrných akcí",
+                        nebo co se objevily nejpozději.
                         <li>
-                        Při výběru akce preferuj no-opy nebo akce, co se
-                        objevily v grafu nejdřív.
+                        Preferuj no-opy nebo akce, co se objevily nejdřív.
                         <li>
                         Po výběru akce pro zbývající atomy kontrolujeme,
-                        jestli pořád mají některé podporující akce
+                        jestli pořád mají podporující akce
                         (kontrola dopředu).
                         </ul>

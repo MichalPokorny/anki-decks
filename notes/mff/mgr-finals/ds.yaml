@@ -322,9 +322,9 @@ notes:
                 front: Eager binomiální halda -- složitosti
                 back: >
                         Insert [$]\\O(\\log n)[/$], Min [$]\\O(1)[/$], DeleteMin [$]\\O(\\log n)[/$].
-
-                        Stejně jako regulární halda, ale [$]n[/$] insertů trvá jenom [$]\\O(n)[/$] (amortizací přes inkrement).
-                        (Takže amortizovaně [$]\\O(1)[/$] na Insert dokud se neprovede DeleteMin.)
+                        <br><br>
+                        Ale [$]n[/$] insertů trvá jenom [$]\\O(n)[/$] (amortizací přes inkrement).
+                        (Amortizovaně [$]\\O(1)[/$] na Insert dokud se neprovede DeleteMin.)
         -
                 uuid: 3badd3b1-40d5-4e0c-925a-3126f13208cf
                 topic: Líná binomiální halda
@@ -435,7 +435,7 @@ notes:
                         Triviálně bychom mohli použít pole velikosti [$]|U|[/$].
                         <br>
                         Vybereme funkci [$]h:U\\imp\\{1\\ldots m\\}[/$],
-                        kde [$]m << |U|[/$].
+                        kde [$]m \\ll |U|[/$].
         -
                 uuid: c71f666f-87cf-4e3a-9a82-fdd34870f868
                 topic: Hashování
@@ -512,7 +512,7 @@ notes:
                 front: Balls & bins - pravděpodobnost, že koš obsahuje [$]k[/$] míčků
                 back: >
                         [$$]P[\\text{kos ma}\\ n\\ \\text{micku}]=
-                                {n\\choose k} \\frac{1}{n^k} \\left(1-\\frac{1}{n}\\right)^{n-k} \\simeq_{k<<n} \\frac{n^k}{k!} \\cdot \\frac{1}{n^k} \\cdot \\frac{1}{e} = \\frac{1}{e \\cdot k!}[/$$]
+                                {n\\choose k} \\frac{1}{n^k} \\left(1-\\frac{1}{n}\\right)^{n-k} \\approx_{k\\ll n} \\frac{n^k}{k!} \\cdot \\frac{1}{n^k} \\cdot \\frac{1}{e} = \\frac{1}{e \\cdot k!}[/$$]
         -
                 uuid: ac807671-0264-404e-b631-1cb43628151d
                 topic: Hashování
@@ -551,12 +551,12 @@ notes:
                         \begin{align*}
                         p_{k,s} & = & {n\choose {k+s}} \cdot \left(\frac{k+s}{m}\right)^{k+s} \leq &
                         \\      & \leq & \frac{n^{k+s}}{(k+s)!} \cdot \frac{(k+s)^{k+s}}{m^{k+s}} = &
-                        \\      & = & \frac{n^{k+s}}{m^{k+s}}\cdot\frac{(k+s)^{k+s}}{(k+s)!} = & \text{Stirling:} a!\simeq \sqrt{2\pi a}(a/e)^a
+                        \\      & = & \frac{n^{k+s}}{m^{k+s}}\cdot\frac{(k+s)^{k+s}}{(k+s)!} = & \text{Stirling:} a!\approx \sqrt{2\pi a}(a/e)^a
                         \\      & = & (n/m)^{k+s} \cdot \frac{1}{\sqrt{k+s}} \cdot e^{k+s} \cdot \frac{1}{\sqrt{2\pi}} &
                         \end{align*}
                         [/latex]
                         <br>
-                        Zvolím [$]m\geq 3n[/$], protože [$]e\simeq 2.718\ldots[/$].
+                        Zvolím [$]m\geq 3n[/$], protože [$]e\approx 2.718\ldots[/$].
                         <br>
                         [$$]\ldots (e/3)^{k+s} \cdot \frac{1}{\sqrt{(k+s)2\pi}}[/$$]
                         <br>
@@ -585,7 +585,7 @@ notes:
                 topic: Kukaččí hashování
                 front: Pro jaké [$]m[/$] funguje dobře?
                 back: >
-                        [$]m\\simeq 2.3n[/$], ale analýzu ukážu pro [$]m=6n[/$].
+                        [$]m\\approx 2.3n[/$], ale analýzu ukážu pro [$]m=6n[/$].
         -
                 uuid: 427e6fb9-f7ad-4c90-8142-2fcbf25c0a8f
                 topic: Kukaččí hashování

@@ -114,7 +114,7 @@ notes:
                         <br>
                         Rejection sampling: vygeneruju vzorek, mrknu jestli sedí
                         na pozorování, jinak ho zahodím. Když sedí, tak
-                        s jeho pomocí stavím [$]\\mathbf{P}(X|e)\\simeq \\mathbf{N}(X,e)/N(e)[/$].
+                        s jeho pomocí stavím [$]\\mathbf{P}(X|e)\\approx \\mathbf{N}(X,e)/N(e)[/$].
         -
                 uuid: 080a09bb-4d88-4031-b6db-cfc663d1f4fc
                 front: Likelihood weighting

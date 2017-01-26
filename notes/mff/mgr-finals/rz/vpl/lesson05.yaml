@@ -46,7 +46,7 @@ notes:
                 topic: Výroková logika
                 front: Rezoluční důkaz, rezoluční strom, uzávěr
                 back: >
-                        Konečná posloupnost kde každá klauzule je rezoluce předchozích klauzulí a začátek je teorie.
+                        Konečná posloupnost kde každá klauzule je rezoluce předchozích a začátek je teorie.
                         Zamítnutí je rezoluční důkaz sporu.<br>
                         Jestli je věta rezolucí zamítnutelná, je nesplnitelná.<br>
                         Rezoluční strom: posloupnost rezolucí<br>

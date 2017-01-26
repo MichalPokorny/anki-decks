@@ -33,7 +33,7 @@ notes:
                         model and additive rewards.
         -
                 uuid: 7471ca66-e741-414b-ae98-e5498bf8bf41
-                front: What's the decision to a MDP?
+                front: What's the solution to a MDP?
                 back: >
                         A policy ([$]\\pi(s)[/$]).
                         Optimal policy: highest expected utility.

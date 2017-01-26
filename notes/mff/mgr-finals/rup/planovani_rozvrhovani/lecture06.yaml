@@ -29,17 +29,21 @@ notes:
                 topic: Plánování jako SAT
                 front: Frame axioms -- dva způsoby
                 back: >
-                        A. Proměnná [$]p[/$] co není v efektech, se nemění:
-                        [$]a_i \\rightarrow (p_i \\leftrightarrow p_{i+1})[/$];
-                        vyber aspoň jednu akci: [$]\\bigvee\\{a_i : a\\in A\\}[/$]
+                        <ul>*Klasické*: proměnné co nejsou efekty
+                        se nemění [$](p\\not\\in \\mathrm{eff}^+(a))::
+                                a_i \\rightarrow (p_i \\leftrightarrow p_{i+1})[/$];
+                        vyber nějakou akci: [$]\\bigvee\\{a_i : a\\in A\\}[/$]
+                        <li>
+                        *S vysvětlením*: atom se mění jenom akcemi:
+                        [$] (\\neg p_i \\wedge p_{i+1}) \\rightarrow (\\bigvee \\{a_i: p\\in\\mathrm{eff}^+(a)\\})[/$]
+                        a analogicky pro [$]\\mathrm{eff}^-[/$].
                         <br>
-                        B. S vysvětlením: pravdivostní hodnota se mění jenom
-                        když to udělá nějaká akce: [$] (\\neg p_i \\wedge p_{i+1}) \\rightarrow (\\bigvee \\{a_i: p\\in\\mathrm{eff}^+(a)\\})[/$]
-                        a to samé při odebrání.
-                        <br>
-                        Pro *B* axiom úplného vyloučení (tj. právě jedna akce najednou)
-                        moc vylučuje. Stačí axiom konfliktního vyloučení:
-                        nedělat najednou dvě konfliktní akce.
+                        Zde stačí axiom *konfliktního vyloučení*:
+                        nedělat najednou závislé akce.
+        -
+                uuid: b99d6e34-e2fb-4e2a-8977-e8192f6a2c3e
+                front: Co se používá víc? Plánování jako SAT, nebo jako CSP?
+                back: Plánování jako CSP
         -
                 uuid: 6fb7a79a-87f7-47b6-a9b5-9902749c9ba4
                 topic: Plánování jako SAT
@@ -74,12 +78,10 @@ notes:
                 topic: Plánování jako CSP
                 front: Kde je dobře použitelné plánování jako CSP?
                 back: >
-                        Plánování v prostoru plánů: test konzistence (rychlý ale neúplný).
-                        (Úplný test konzistence jde udělat až když máme úplný plán.)
+                        *V prostoru plánů*: test konzistence (rychlý ale neúplný).
+                        (Úplný jde udělat až na úplném plánu.)
                         <br>
-                        Plánování s plánovacím grafem: plánovací graf je statická
-                        struktura zakódovatelná jako CSP, použijeme CSP
-                        na extrakci plánu.
+                        *S plánovacím grafem*: použijeme CSP na extrakci.
         -
                 uuid: 0eaf5364-c57f-4d4a-b6c8-35653a897312
                 topic: Graphplan jako CSP

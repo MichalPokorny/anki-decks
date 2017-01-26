@@ -21,7 +21,7 @@ notes:
         -
                 uuid: 3c41be43-70a0-4de3-a64f-ed2fbb2fbf33
                 topic: Predikátová logika
-                front: Jazyk predikátové logiky - mimologické symboly symboly
+                front: Jazyk predikátové logiky - mimologické symboly
                 back: >
                         Funkční a relační symboly (mimo rovnosti)
         -
@@ -139,7 +139,7 @@ notes:
                 topic: Predikátová logika
                 front: Značení - hodnota formule při ohodnocení ve struktuře
                 back: >
-                        [$$]H^A(\\varphi)[e]=1\\in\\{0,1\\}[/$$]
+                        [$$]H^A(\\varphi)[e]\\in\\{0,1\\}[/$$]
         -
                 uuid: 559e0291-255d-448a-ae25-dbab2c2e58e2
                 topic: Predikátová logika
@@ -161,9 +161,3 @@ notes:
                         Teorie je libovolná množina formulí (axiomů).<br>
                         Model je L-struktura ve které platí axiomy teorie.<br>
                         Třída modelů [$]M(T)[/$].
-        -
-                uuid: 6d4c7aeb-065e-41da-beec-10d8ff00d117
-                topic: Predikátová logika
-                front: Značení - hodnota formule v ohodnocení a struktuře
-                back: >
-                        [$$]H^A(\\varphi)[e][/$$]

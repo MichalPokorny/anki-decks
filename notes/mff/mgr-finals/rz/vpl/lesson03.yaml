@@ -105,7 +105,7 @@ notes:
         -
                 uuid: 17ac32d5-2a7d-47a2-8813-be73dd86c2fe
                 topic: Výroková logika
-                front: Kolik je T-neekvivalentních výroků nad [$]P[/$] nezávislých v [$]T[/$]?
+                front: Kolik je [$]T[/$]-neekvivalentních výroků nad [$]P[/$] nezávislých v [$]T[/$]?
                 back: >
                         [$]2^m-2[/$], kde [$]m[/$] je počet modelů [$]T[/$]
         -

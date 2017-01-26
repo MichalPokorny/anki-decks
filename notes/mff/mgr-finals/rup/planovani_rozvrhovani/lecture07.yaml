@@ -14,15 +14,15 @@ notes:
                         Můžu mít průběžné cíle.
         -
                 uuid: b30faf34-e2b9-4588-854e-0d6a72d7da47
-                front: Jak modelujeme v plánování čas?
+                front: Co je to formálně *čas*, v modelu plánování?
                 back: >
-                        Čas je spojitá nebo diskrétní množina s tranzitivním a asymetrickým uspořádáním.
+                        Spojitá nebo diskrétní množina s tranzitivním a
+                        asymetrickým uspořádáním.
         -
                 uuid: 488918b1-5ba7-4a62-bd7b-a57ab03a5945
                 front: Jaké rozhraní k času budeme při plánování používat?
                 back: >
-                        Plánování bude používat databázi časových údajů, které
-                        updatuje a ptá se na konzistenci.
+                        Databázi časových údajů; Update; IsConsistent?
         -
                 uuid: 74aec57b-3cb4-477d-93c2-4e236e22b534
                 front: Jaké jsou dva způsoby práce s časem v plánování?
@@ -159,20 +159,19 @@ notes:
                         <br>
                         Konzistence po cestě nestačí.
                         <br>
-                        Síť podmínek rozložím na několik STN, jednu pro každou disjunkci.
-                        Výsledek dostanu jako sjednocení řešení těch STN.
+                        Síť podmínek rozložím na několik STN, jednu pro každou
+                        disjunkci. Výsledek je sjednocení řešení těch STN.
         -
                 uuid: 860dc614-1dcf-4a07-a16e-14c58b029b77
-                front: TNA síť - struktura a otázka
+                front: TNA síť - struktura a problém
                 back: >
-                        Je to DAG co má mezi uzly větvící relace. Proces se může
-                        rozdělit na paralelní větve (AND), nebo na alternativní větve
-                        (OR).
+                        DAG co má větvící relace - paralelní větve (AND),
+                        alternativní větve (OR).
+                        <br>
                         Hrana je precedence.
                         <br>
-                        Řekneme, že nějaký uzel musí být vybraný (např., konec).
-                        Otázka je, jak je těžké najít podgraf, co má tyhle
-                        uzly a splňuje podmínky větvení.
+                        Problém: najít podgraf, co má vybrané uzly (např., konec)
+                        a splňuje podmínky větvení.
         -
                 uuid: d30cf5f5-e78c-4d81-b151-6ccd5653e3d4
                 front: Složiost rozhodnutí o validitě/nevaliditě v P/A grafu
@@ -182,11 +181,14 @@ notes:
                 uuid: 02bcb167-8d9d-4c6b-8ae2-0b78556a13d5
                 front: Na jakých grafech je TNA výběr uzlů polynomiálně řešitelný?
                 back: >
-                        Zahnízděné grafy (co jdou zkonstruovat postupnou aplikací dekompoziční operace).
+                        Zahnízděné grafy (vzniknou postupnou aplikací dekompoziční operace).
                         <br>
                         Operace:
                         <br>
-                        Hrana (a -> b) ==> hrany (a -> c1 -> b), (a -> c2 -> b), ... s novými vrcholy c1, c2, ...<br>
+                        (Hrana [$](a \\rightarrow b)[$], [$]n\\in\\N[/$]) ==>
+                        hrany [$](a\\rightarrow x_1 \\rightarrow b), \\ldots
+                        (a\\rightarrow x_n \\rightarrow b)[/$]
+                        na nových vrcholech [$]x_1,\\ldots x_n[/$].
         -
                 uuid: b6117756-0abb-4623-a34a-e0614b641c80
                 front: (Zahnizdene) temporalni site s alternativami
@@ -196,4 +198,3 @@ notes:
                 uuid: 490b8409-236b-4d49-b9b6-e92a8e9b0892
                 front: Složitost globální konzistence temporálních podmínek v zahnízděných sítích
                 back: NP-úplná (subset sum)
-        # TODO: slaba a silna filtrace, filtrace v CSP modelu s precedencemi (lecture07)

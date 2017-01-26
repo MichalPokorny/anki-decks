@@ -9,7 +9,7 @@ notes:
                         <ul>
                         <li>*Heuristiky*: problémově závislí průvodci
                         <li>*Řídící pravidla*: problémově závislé prořezávání stavů
-                        <li>*Hierarchické plánování*: problémově závislé návody na řešení úloh
+                        <li>*Heuristické plánování*: problémově závislé návody na řešení úloh
                         </ul>
         -
                 uuid: 46ae6501-69e7-4fa1-81b1-fb5625a2deb4
@@ -28,13 +28,13 @@ notes:
                 markdown: false
                 back: >
                         Heuristiky [$]h(u)[/$] odhadují [$]h^*(u)[/$] -- cenu nejlepšího řešení.
-                        Přípustné heuristiky jsou když [$]h(u)\\leq h^*(u)[/$]
+                        Přípustné heuristiky jsou když [$]h(u)\leq h^*(u)[/$]
                         (pro minimalizaci ceny).
         -
                 uuid: 2ca2e18f-7d25-406e-9f7b-14e8c5e3f942
                 front: Jak můžeme konstruovat heuristiky pro plánování se stavy?
                 back: >
-                        Odhaduje počet akcí z daného atomu stavu o cílového stavu.
+                        Odhaduje počet akcí z daného atomu stavu do cíle.
                         <br><br>
                         Vyřešíme relaxovaný problém: uvažujeme jenom pozitivní efekty,
                         předpokládáme že různé atomy se dosahují nezávisle na sobě.

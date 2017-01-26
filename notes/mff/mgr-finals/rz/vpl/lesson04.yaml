@@ -67,11 +67,11 @@ notes:
         -
                 uuid: 49196989-9bcb-4014-a61b-739b5a695834
                 topic: Výroková logika
-                front: Kdy je [$]T[/$] nad [$]P[/$] extenze teorie [$]T'[/$] nad [$]P'[/$] v řeči důkazů? Kdy je jednoduchá a konzervativní?
+                front: Kdy je [$]T[/$] nad [$]P[/$] extenze teorie [$]T'[/$] nad [$]P'[/$] v řeči důkazů? Kdy je konzervativní?
                 back: >
-                        Když [$]P'\\subseteq P[/$] a [$]Thm^{P'}(T')\\subseteq Thm^P(T)[/$].
-                        Jednoduchá: [$]P=P'[/$],
-                        konzervativní: [$]Thm^{P'}(T')=Thm^P(T)\\cap VF_{P'}[/$]
+                        Když [$]P'\\subseteq P[/$] a [$]\\mathrm{Thm}^{P'}(T')\\subseteq \\mathrm{Thm}^P(T)[/$].
+                        <br><br>
+                        Konzervativní: [$]\\mathrm{Thm}^{P'}(T')=\\mathrm{Thm}^P(T)\\cap VF_{P'}[/$]
         -
                 uuid: 2b7d1685-6255-415d-b748-8fa56cf28d64
                 topic: Výroková logika

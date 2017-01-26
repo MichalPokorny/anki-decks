@@ -37,7 +37,7 @@ notes:
                 front: Stavová proměnná a čas
                 back: >
                         Nyní bude závislá na čase:
-                        [$]\\mathrm{rloc}:\\mathrm{robot}\\times\\mathrm{time}\\righarrow\\mathrm{locations}[/$]
+                        [$]\\mathrm{rloc}:\\mathrm{robot}\\times\\mathrm{time}\\rightarrow\\mathrm{locations}[/$]
         -
                 uuid: b8cd1015-3c45-4cf9-baee-3becf783e3a6
                 front: Události a trvající okolnosti na stavových proměnných
@@ -72,7 +72,7 @@ notes:
                         [$]C[/$] je množina 1. objektových podmínek
                         (vazby proměnných -- [$]x\\in D,x=y,x\\neq y[/$] --
                         a vztahy dané neměnnými relacemi) a
-                        2. časových podmínek ([$]</=/>[/$] nad časovými proměnnými)
+                        2. časových podmínek (</=/> nad časovými proměnnými)
                         </ul>
         -
                 uuid: cefd49fa-91b3-4ad4-bcd9-70a398ac4d9c
@@ -95,14 +95,14 @@ notes:
                 back: >
                         <ul>
                         <li>Pro [$]x@[t_1,t_2):v_1[/$] a [$]x@[t_3,t_4):v_2[/$]:
-                                a) [$]t_2\\leq t_3[/$], b) [$]t_4\\leq t_1[/$],
+                                a) [$]t_2\leq t_3[/$], b) [$]t_4\leq t_1[/$],
                                 c) [$]v_1=v_2[/$]
                         <li>Pro [$]x@t:(v_1,v_2)[/$] a [$]x@[t_1,t_2):v[/$]:
                                 a) [$]t<t_1[/$], b) [$]t_2<t[/$],
-                                c) [$](t_1=t\\wedge v=v_2)[/$],
-                                d) [$](t_2=t\\wedge v=v_1)[/$]
+                                c) [$](t_1=t\wedge v=v_2)[/$],
+                                d) [$](t_2=t\wedge v=v_1)[/$]
                         <li>Pro [$]x@t:(v_1,v_2)[/$], [$]x@t':(v_1',v_2')[/$]:
-                                a) [$]t\\neq t'[/$], b) [$](v_1=v_1' \\wedge v_2=v_2')[/$]
+                                a) [$]t\neq t'[/$], b) [$](v_1=v_1' \wedge v_2=v_2')[/$]
                         </ul>
         -
                 uuid: 136cb068-5048-4c9e-a35f-b3780169821a

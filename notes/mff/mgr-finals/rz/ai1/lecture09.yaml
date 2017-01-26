@@ -64,35 +64,40 @@ notes:
                 uuid: d7c74937-dfcd-45fa-9034-16a6c8710d78
                 front: Heuristiky k pattern-matchingu v FOL
                 back: >
-                        Indexuj fakta podle jejich predikátu.<br>
+                        <ul>
+                        <li> *Indexuj podle predikátu*
+                        <li>
                         [$$]\\mathrm{missile}(X) \\wedge \\mathrm{owns}(\\mathrm{nono},X) \\Rightarrow \\mathrm{sells}(\\mathrm{west},X,\\mathrm{nono})[/$$]
                         <br>
-                        Budu hledat nejdřív rakety, nebo věci co vlastní Nono?
-                        Najdi to čeho je míň (first-fail -- constrain satisfaction).
-                        <br>
-                        Používej při inferenci pravidlo jenom jestli jsme od jeho
-                        posledního použití odvodili nějaký nový fakt, který
-                        je v jeho těle. (Resp., co je unifikovatelný s něčím v těle.)
+                        Matchovat nejdřív rakety, nebo co vlastní Nono? To čeho je míň (first-fail).
+                        <li> Použij při inferenci pravidlo *jenom když se od jeho
+                        posledního použití našel nový fakt* unifikovatelný
+                        s něčím v těle.
+                        </ul>
+        -
+                uuid: d64e682c-d2d1-48c8-890f-c6b55000394b
+                topic: Rete algoritmus
+                front: Na jaké formy KB se používá?
+                back: Horn-SAT v FOL
         -
                 uuid: 0527ffb0-7f61-454a-922e-e17fe12edaf1
-                front: Rete algoritmus
+                topic: Rete algoritmus
+                front: Co dělá?
                 back: >
-                        Horn-SAT v FOL.
-                        <br>
                         Preprocesuj pravidla tak, abys rychleji uměl vyhledat,
                         které pravidlo znova odpálit až odvodíš nový fakt.
         -
                 uuid: 353e6652-6f25-4f9d-9fde-dbb90b762d78
-                front: Backward chaining v FOL
+                front: Backward chaining v first-order Horn-SAT - algoritmus
                 back: >
                         Query: seznam konjunkci co hledame v KB.
                         Substituce: nejdriv prazdna.<br>
 
-                        Jestli nejsou goaly: vrat nalezenou substituci.<br>
+                        Jestli nemám goaly: vrať nalezenou substituci.<br>
 
-                        Aplikuj substituci na prvni cil, a rozsir ji.<br>
-                        Najdi nejake pravidlo, jehoz hlava jde zunifikovat s cilem.
-                        Pokus se rekurzivne pridat mezi cile jeho telo, zkomponuj substituce.
+                        Aplikuj substituci na prvni cil [$]g_1[/$], a rozsir ji.<br>
+                        Najdi nejake pravidlo, jehoz hlava jde zunifikovat s [$]g_1[/$].<br>
+                        Přídej mezi cíle jeho tělo, zkomponuj substituce, rekurze.
         -
                 uuid: ee3bd8a2-816b-4cc6-9fba-1f60c563d9f0
                 front: Prostorová složitost FOL-BackwardChain-ASK, kompletnost
@@ -104,24 +109,24 @@ notes:
                 uuid: 91172c55-d558-484d-87d7-f0fdd67a7e19
                 front: Co je potřeba přidat do first-order logické rezoluce aby byla kompletní?
                 back: >
-                        Unifikace.
-                        Rozšířit na víc literálů.
-                        Faktorizování (na odebrání redundantních literálů - tj. těch co se dají zunifikovat).
+                        <ul>
+                        <li> Unifikace.
+                        <li> Rozšířit na víc literálů.
+                        <li> *Faktorizování* (na odebrání redundantních literálů - tj. těch co se dají zunifikovat).
+                        </ul>
                         Je to pak sound & complete.
         -
                 uuid: f9fb23bd-7d34-405d-954f-de5bfe06cd59
                 front: Strategie pro rezoluci v FOL
                 back: >
-                        Jednotková propagace: preferujeme ji pokud jde udělat.
-                        (Pro Hornovské klauzule to je kompletní.)
-                        <br>
-                        Podpůrná množina (support set): sada klauzulí
+                        <ul>
+                        <li> *Jednotková propagace*: preferujeme pokud jde udělat.
+                        (Pro Hornovské klauzule je kompletní.)
+                        <li> Podpůrná množina (*support set*): sada klauzulí
                         že jedna klauzule pro rezoluci je vždy z téhle množiny
                         a rezolvovanou klauzuli tam přidám.
                         Na začátku to obsahuje jenom negovaný query.
-                        <br>
-                        Input resolution: (nekompletní): každý rezoluční krok
+                        <li> *Input resolution*: (nekompletní): každý rezoluční krok
                         obsahuje aspoň jednu klauzuli ze vstupu.
-                        <br>
-                        Subsumpce: nepřidávej redundantní klauzule do KB
-                        (co jsou implikované něčím jiným už)
+                        <li> *Subsumpce*: nepřidávej redundantní klauzule do KB
+                        </ul>

@@ -4,7 +4,7 @@ notes:
         -
                 uuid: 6f2dc87d-6cd2-4f0f-af24-41f59c1bd1e7
                 topic: Reinforcement learning
-                front: Model
+                front: Odkud přijde reward?
                 back: >
                         Reward je soucast perceptu.
         -
@@ -109,15 +109,19 @@ notes:
                 topic: Reinforcement learning
                 front: Jak integrovat exploraci?
                 back: >
-                        Občas udělat náhodnou akci: je extrémně pomalé.
-                        <br>
-                        Přidat exploraci do odhadu na utilitu:
+                        <ul>
+                        <li> *Občas náhodná akce*: extrémně pomalé.
+                        <li> *Exploraci v odhadu utility*:
                         [$$]
                         U^+(s)\\leftarrow R(s)+\\gamma\\max_a f(\\sum_{s'} P(s'|s,a) U^+(s'), N(s,a))
                         [/$$]
-                        Kde [$]N(s,a)[/$] je kolikrát jsme to viděli,
-                        [$]U^+[/$] je optimistický odhad utility,
-                        [$]f(u,n)[/$] stoupá v [$]u[/$], klesá v [$]n[/$] (například [$]1[/$] pokud [$]n<100[/$], jinak [$]u[/$])
+                        <br>
+                        [$]N(s,a)[/$]: kolikrát jsme viděli [$]s\\rightarrow_a[/$],
+                        <br>
+                        [$]U^+[/$] optimistický odhad utility,
+                        <br>
+                        [$]f(u,n)[/$] stoupá v [$]u[/$], klesá v [$]n[/$]
+                        </ul>
         -
                 uuid: b7a2ae3f-3106-438d-8cc5-12b6b5879993
                 topic: Reinforcement learning

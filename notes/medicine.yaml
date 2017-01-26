@@ -28,5 +28,9 @@ notes:
                 uuid: 89123037-c2b3-4644-a3dd-f76115f72c4e
                 front: germ line
                 back: a series of germ cells each descended or developed from earlier cells in the series, regarded as continuing through successive generations of an organism.
+        -
+                uuid: a8c7debe-ab4b-4207-9869-6948a1a78f3a
+                front: enuresis
+                back: involuntary urination, especially by children at night
 
 # TODO: https://en.wikipedia.org/wiki/Mesolimbic_pathway

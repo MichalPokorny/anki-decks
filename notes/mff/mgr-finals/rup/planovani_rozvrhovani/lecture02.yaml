@@ -85,11 +85,20 @@ notes:
         -
                 uuid: 9f3820c7-6ea2-44fc-a98e-b62f77dcaa94
                 topic: STRIPS plánování
-                front: Klasická reprezentace
+                front: Klasická reprezentace - jak vypadá jazyk?
                 back: >
-                        Jazyk: máme relační symboly a konstanty, můžeme používat proměnné.
-                        Nemáme funkce. Stav je množina instanciovaných atomů (konečně mnoha).
-                        <br>
+                        Máme relační symboly a konstanty, můžeme používat proměnné. Nemáme funkce.
+        -
+                uuid: a5b34232-4fca-492c-8767-20afa831b20d
+                topic: STRIPS plánování
+                front: Klasická reprezentace - co je stav?
+                back: >
+                        Množina konečně mnoha instanciovaných atomů.
+        -
+                uuid: c364eeda-1c3a-4baf-abf2-df5ef363e1aa
+                topic: STRIPS plánování
+                front: Klasická reprezentace - jaký je logický předpoklad?
+                back: >
                         Máme closed world assumption.
         -
                 uuid: c5dbfefc-72ce-4476-9110-6b7ff1555875

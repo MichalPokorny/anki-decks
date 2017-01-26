@@ -955,3 +955,13 @@ notes:
                 front: cobbler
                 back: shoe maker
                 include_reverse: true
+        -
+                uuid: b7c675a6-45d3-45ce-af34-5439b56c69b9
+                front: aspen / poplar (anglicky)
+                back: topol (česky)
+                include_reverse: true
+        -
+                uuid: c360199d-73e1-4330-ab26-0b2d683b1bab
+                front: penisula (česky)
+                back: poloostrov (anglicky)
+                include_reverse: true

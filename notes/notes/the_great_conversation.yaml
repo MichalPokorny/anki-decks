@@ -10,18 +10,13 @@ notes:
                 front: Motto of Socrates, where was it inscribed?
                 back: Know thyself (inscribed in temple of Apollo in Delphi)
         -
-                uuid: 2a5c3bbe-d126-44b5-9309-32cc985aa9b0
-                front: Year of Socrates' execution
-                back: 399 BC
-                include_reverse: true
-        -
                 uuid: 13330c53-09ef-4625-b87b-11dce51b14e4
                 front: Where did Socrates live?
                 back: Athens
         -
                 uuid: 57fed93c-9f96-4ae2-b505-d4364b2d3dc9
                 front: When and where did philosophy start?
-                back: 6th, 5th century BC, Greece
+                back: 6/5th century BC, Greece
         -
                 uuid: eca0ea94-34ad-4f12-8052-0e9b23fd1780
                 front: Author of Theogony
@@ -71,7 +66,7 @@ notes:
                 topic: Theogony
                 front: Where are Furies from?
                 back: >
-                        They were born where Ouranos (Heaven)'s blood drops on land.
+                        Born where Ouranos (Heaven)'s blood drops on land.
         -
                 uuid: 7d865b51-3b50-4ace-abaa-966aa2416b78
                 topic: Theogony
@@ -97,9 +92,11 @@ notes:
                 topic: Theogony
                 front: What happened to Kronos's children?
                 back: >
-                        He swallowed the newborns, learning of a prophecy that they'll dethrone him.
-                        When Rhea bore another son, she hid him in a cave on Crete and gave Kronos
-                        a stone wrapped in swaddling clothes to swallow. This hidden son is Zeus.
+                        He swallowed the newborns, learning of a prophecy that
+                        they'll dethrone him. When Rhea bore another son, she
+                        hid him in a cave on Crete and gave Kronos
+                        a stone wrapped in swaddling clothes to swallow. This
+                        hidden son is Zeus.
         -
                 uuid: 16f55d50-c353-49ec-88c6-3f483282be31
                 topic: Theogony
@@ -119,7 +116,7 @@ notes:
                 uuid: 9ddcee25-c72b-4138-bc3b-9a15b66c4a46
                 topic: Theogony
                 front: Tartarus
-                back: The deep abyss that is used as a dungeon of torment and suffering for the wicked and as the prison for the Titans
+                back: Deep abyss used as a dungeon of suffering for the wicked and prison for Titans
                 include_reverse: true
         -
                 uuid: 8db33bec-1488-455c-9bee-2d8adb55481f
@@ -136,9 +133,13 @@ notes:
         -
                 uuid: 31e82dfa-58c6-470b-9d0f-5a149afe4a18
                 topic: Theogony
-                front: How long was the war with Titans and how did it end?
+                front: How long was the war with Titans?
+                back: 10 years
+        -
+                uuid: c92f2f32-307c-4b9d-b347-2744deaab778
+                topic: Theogony
+                front: How did the war with Titans end?
                 back: >
-                        10 years.
                         Zeus freed the Cyclops from their imprisonment in Tartarus,
                         they then gave him a lightning bolt, gave Poseidon a trident,
                         and give Hades a helmet that made him invisible.
@@ -149,8 +150,12 @@ notes:
                 topic: Theogony
                 front: Who governs clouds, sea, Tartarus and Earth?
                 back: >
-                        Clouds: Zeus, sea: Poseidon, Tartarus: Hades;
-                        Earth: shared among all three.
+                        <ul>
+                        <li> Clouds: Zeus
+                        <li> Sea: Poseidon
+                        <li> Tartarus: Hades
+                        <li> Earth: shared among all three.
+                        </ul>
         -
                 uuid: d98db150-0921-43f7-826a-57290cc002dc
                 front: Great teacher of all subjects to Greeks
@@ -222,7 +227,7 @@ notes:
         -
                 uuid: aecfb2bb-5db5-45b5-a76b-ae4d89389e64
                 topic: Trojská válka
-                front: Kdo plul k Troji?
+                front: Kdo vedl plavbu k Troji?
                 back: Agamemnón
         -
                 uuid: bd0d6a5d-10a8-4908-89e4-1900b57b09ad
@@ -375,8 +380,14 @@ notes:
                 back: Pre-socratics
         -
                 uuid: 966b8a06-c355-4561-90a6-27073991266a
-                front: Birth and death of Thales of Miletus
-                back: 625 BC - 547 BC
+                front: >
+                        Year of birth: Thales of Miletus
+                back: 625 BC
+        -
+                uuid: 54d77bf5-b7dd-48b1-a150-bccbcd204bc2
+                front: >
+                        Year of death: Thales of Miletus
+                back: 547 BC
         -
                 uuid: 430b97e3-42f6-4666-8cc7-6ab6705b79da
                 front: Who did Aristotle call the founder of philosophy?
@@ -385,8 +396,10 @@ notes:
                 uuid: c6561815-915a-446b-93df-fa57beed4cd2
                 front: What were Thales's main views?
                 back: >
-                        1) The cause and element of all things is water.<br>
-                        2) All things are filled with gods.
+                        <ul>
+                        <li> The cause and element of all things is water.
+                        <li> All things are filled with gods.
+                        </ul>
         -
                 uuid: fee2059a-3c1d-4550-a263-d6f12ebdbe5d
                 front: What was Thales's radical departure?
@@ -504,8 +517,8 @@ notes:
                 back: >
                         One god, greatest among gods and men, in no way similar
                         to mortals either in body or mind.
-                        He sees all over, thinks all over, hears all over.
-                        Remains in the same place.
+                        Sees all over, thinks all over, hears all over.
+                        Remains in one place.
                         Without toil, he sets all things in motion by
                         the thought of his mind.
                         (Stresses difference from Homeric tradition.)
@@ -523,7 +536,8 @@ notes:
                         with rainbow
         -
                 uuid: 8f3dcd53-cfe0-4728-b11d-59c6983d55c0
-                front: When was Pythagoras born?
+                front: >
+                        Year: Pythagoras born
                 back: 570 BC
         -
                 uuid: 52f211fe-738d-4d16-8446-a2598b95b245
@@ -554,19 +568,19 @@ notes:
                 front: Pythagoras on philosophers
                 back: >
                         Pythagoras first called himself a philosopher, a lover of wisdom.
-                        According to him, noone is wise but the god.
+                        According to him, noone is wise but god.
         -
                 uuid: 0b4091da-01cc-43e0-93f4-788787627f71
-                front: Greeks on the origin of poetry, etc., and departure of Xenophanes
+                front: Greeks on origin of poetry, etc., and departure of Xenophanes
                 back: >
-                        Muses act through the artist.<br><br>
+                        Muses act through artist.<br><br>
                         Xenophanes: gods haven't revealed everything true to us,
                         we find out ourselves *in time* (not all at once).
                         No man knows the truth, nobody will ever know about gods.
                         Claim of divine revelation is not guarantee of truth.
         -
                 uuid: 77f61672-bbb4-4b9c-9fd6-dde1cf2650d8
-                front: The father of epistemology
+                front: Father of epistemology
                 back: Xenophanes
         -
                 uuid: 1fcad91d-7a80-463f-a2ba-9ce00c18a1ee
@@ -594,7 +608,7 @@ notes:
         -
                 uuid: 7493b2c1-84d2-44a4-9fd1-8d7a6de6954d
                 front: Where are sun/stars, according to Araximander?
-                back: Outermost ring of fire (luminous aether); the gods live there, Olympus is immersed in it
+                back: Outermost ring of fire (luminous aether); gods live there, Olympus is immersed in it
         -
                 uuid: a522198c-abe7-4584-a381-660e2b8847ae
                 front: Heraclitus' view of strife
@@ -610,7 +624,7 @@ notes:
                 uuid: e0a21b5b-fb7c-413a-888c-a29fae67a858
                 front: Meaning of "logos"
                 back: >
-                        The words a speaker says.<br>
+                        Words a speaker says.<br>
                         "The word" - something like "message" / "discourse".
                         Also, "rationale" or "argument" for the thought in the message.
         -
@@ -646,11 +660,11 @@ notes:
                 back: Presokratici
         -
                 uuid: 8a1cc574-6ad7-405e-9c19-94235527bca7
-                front: The story of Croesus and the Delphi oracle
+                front: Story of Croesus and Delphi oracle
                 back: >
                         Croesus was king of Lydians.
-                        He wanted to know whether to go to war against the Persians.
-                        The Oracle said: "If you go to war, a mighty empire will fall."
+                        He wanted to know whether to go to war against Persians.
+                        Oracle said: "If you go to war, a mighty empire will fall."
                         He was encouraged to go to war, and defeated, lost his empire.
         -
                 uuid: 4b33ba66-6c17-4131-92d4-7ffe4114e3f1
@@ -675,16 +689,13 @@ notes:
         -
                 uuid: 83f4b944-6368-44de-af58-a582fd6fcb7a
                 topic: Heraclitus
-                front: What is the greatest virtue?
-                back: >
-                        Moderation is the greatest virtue.
+                front: Greatest virtue?
+                back: Moderation
         -
                 uuid: de747a36-9099-476e-abc8-3ec5bb96148a
                 topic: Heraclitus
                 front: What is wisdom?
-                back: >
-                        Wisdom is to speak the truth and to act according to nature,
-                        giving heed to it.
+                back: To speak the truth and to act according to nature, giving heed to it.
         -
                 uuid: 2e3a39f2-0ccd-49ee-bd5c-1c5915b77d83
                 topic: Heraclitus
@@ -704,14 +715,20 @@ notes:
         -
                 uuid: 39fc45b8-ed3f-419a-b935-cbae4cb489f5
                 topic: Parmenides
-                front: Roughly when was he born, died?
+                front: Rough year of birth
                 back: >
-                        ~515 BC - ~450 BC
+                        ~515 BC
+        -
+                uuid: 544b72a9-f7a8-4a2b-a89b-bce6271e910c
+                topic: Parmenides
+                front: Rough year of death
+                back: >
+                        ~450 BC
         -
                 uuid: 21b68049-3cf0-42d8-98fa-d1a4ad77da81
                 topic: Parmenides
                 front: Claimed source of his poem (book)
-                back: Divine inspiration, but he presents an argument from a goddess
+                back: Divine inspiration, but presents an argument from a goddess
         -
                 uuid: 668424b4-1896-40a1-b922-b5b119499cae
                 topic: Parmenides
@@ -722,18 +739,20 @@ notes:
                 topic: Parmenides
                 front: Why is there only The One?
                 back: >
-                        Consider any thought.
-                        If you think "the desk is brown", I am thinking what is.
-                        If I think falsely "the desk is not brown", it's just an unclear way of expressing the real thought -- that the desk is, say, grey.
+                        Thought and being are same and unseparable.
                         <br>
-                        To think at all, he says, is to think that something *is*. Thought and being are the same.
-                        Thinking and being are inseparable.
-                        It is necessary to speak and to think what is; for being is, but nothing is not.
+                        To think at all is to think that something *is*.
                         It's impossible to think of "nothing".
+                        It is necessary to speak/think what is;
+                        for being is, but nothing is not.
                         <br>
                         Hence, nothing comes into being or comes to pass,
                         because it would mean thinking of "nothing".
-                        Change is impossible, as is the Heracleitan flux.
+                        Change is impossible, as is Heracleitan flux.
+                        <br>
+                        (If I think falsely "the desk is not brown", it's
+                        an unclear way of expressing the real thought -- that
+                        the desk is grey.)
         -
                 uuid: e5bfe75a-ad4d-413d-9ce8-e541f4cd303a
                 topic: Parmenides
@@ -844,7 +863,7 @@ notes:
                 topic: Atomism
                 front: Atomistic explanation of the soul
                 back: >
-                        Soul is from very fine, spherical atoms, interpenetrating the whole body.
+                        Soul is from very fine, spherical atoms, interpenetrating the body.
                         Their movement sets the body in motion.
         -
                 uuid: 014db545-c034-48af-85cf-35bad1ed5429
@@ -904,7 +923,7 @@ notes:
                         Thebes, Corinth, Argos, Sparta, Athens
         -
                 uuid: 392e8fea-1533-42a1-bc6c-7d1bf91a5187
-                front: Which 2 factors contributes to the rise of Athens?
+                front: Which 2 factors contributes to rise of Athens?
                 back: >
                         Persian wars, rise of democracy
         -
@@ -915,7 +934,7 @@ notes:
                 uuid: 5a87d860-c6a1-4b8c-abee-1b01b64287ef
                 front: Athens government since Solon's reforms
                 back: >
-                        Council: "the best men" (aristocrats)
+                        Council: "best men" (aristocrats)
                         <br>
                         Assembly: all free men
                         <br>
@@ -924,27 +943,36 @@ notes:
                 uuid: 7b07e952-6192-448f-af5e-beb924f5c99f
                 front: Who ruled Athens for most of 6th century BC?
                 back: >
-                        Tyrants ("boss"/"chief"); the title was not hereditiary;
+                        Tyrants ("boss"/"chief"); not hereditiary;
                         most respected Solon's government
         -
                 uuid: 3f53759b-232c-4ad2-9fee-04a0e5f32571
                 front: Athens - events of 508 BC
                 back: >
                         Large influx of immigrants.
-                        Aristocrats were fearful for their power and tried to purge the citizenship rolls,
-                        but the Assembly passed a proposal extending citizenship to many new residents.
-                        After a three-day siege of the Acropolis by the people,
-                        the king and the aristocrats and soldiers capitulated.
+                        <br>
+                        Aristocrats fear for power and tried to purge citizenship rolls,
+                        but Assembly passed a proposal extending citizenship to many new residents.
+                        After 3-day siege of Acropolis by the people,
+                        the king, aristocrats and soldiers capitulated.
                         Citizenship was broadened, through not to women and slaves,
-                        and citizens controlled major decisions.
-                        This ensued for the next ~100 years, and (with some exceptions) some time after that.
+                        citizens controlled major decisions.
+                        <br>
+                        This ensued for the next ~100 years, and (with some
+                        exceptions) some time after that.
         -
                 uuid: 6f7dc6f7-7ef8-4621-b943-336826fafaaf
                 topic: Persian wars
                 front: What happened in 499 BC?
                 back: >
-                        Greek colonies in Asia Minor rebelled against paying taxes to Persians.
-                        Athens sent 20 ships to aid them, and they burnt Sardis, one of the principal Persian cities.
+                        Greek colonies in Asia Minor rebelled against paying
+                        taxes to Persians.
+                        Athens sent 20 ships to aid, and burnt Sardis.
+        -
+                uuid: ff32477c-0406-4141-9719-19433786aaab
+                topic: Persian wars
+                front: By burning which city did Greeks provoke Xerxes?
+                back: Sardis
         -
                 uuid: d0d13a2b-044a-4703-9eba-c9dace5ecf95
                 topic: Persian wars
@@ -958,14 +986,21 @@ notes:
                 back: >
                         In 490 BC, Persians landed at Marathon.
         -
+                uuid: 3dc3b14c-24d3-4ed6-89df-8b17bd3c50b5
+                topic: Persian wars
+                front: How many Persians landed by Marathon?
+                back: 6400
+        -
                 uuid: 99581a27-5dbf-4d59-94e8-00abc26f6390
                 topic: Persian wars
-                front: Who led the Greeks that defeated 6400 Persians who landed by Marathon?
+                front: >
+                        Who led the Greeks that defeated 6400 Persians who
+                        landed by Marathon?
                 back: Miltiades, an Ionian general
         -
                 uuid: c7f7cd5b-9647-4573-bd69-25e2f8052e92
                 topic: Persian wars
-                front: Who commanded the Persians during the Persian wars?
+                front: Who commanded Persians during the Persian wars?
                 back: Xerxes, their king
         -
                 uuid: b338ace7-ba01-40f2-a666-1db471c80550
@@ -975,8 +1010,12 @@ notes:
         -
                 uuid: 4029ec56-fcef-494b-9564-c13df464009f
                 topic: Persian wars
-                front: Which sides did the debate in Athens after the Marathon victory have?
-                back: Land-based defenses (citing victory at Marathon) and defense by sea
+                front: >
+                        Which sides did the debate in Athens after the Marathon
+                        victory have?
+                back: >
+                        Land defenses (citing Marathon victory) and defense by
+                        sea
         -
                 uuid: 3367a28a-5f58-4684-8a31-4a2b7af0c734
                 topic: Persian wars
@@ -991,7 +1030,8 @@ notes:
                         Xerxes lashed together ships to build a bridge and led
                         an army of 200,000 to Hellenspont (which separates Asia
                         from Europe).
-                        He took Thrace into submission and began to advance
+                        <br>
+                        Took Thrace into submission and began to advance
                         on Athens.
         -
                 uuid: d47f6dac-de72-4d3f-90b4-8940e8d5b595
@@ -1011,7 +1051,7 @@ notes:
         -
                 uuid: 4d6fc6b6-cec3-4ccf-a5aa-5bd4c663a964
                 topic: Persian wars
-                front: Who met Persian at Thermopylae?
+                front: Who met Persians at Thermopylae?
                 back: >
                         Spartan army, led by king Leonidas
         -
@@ -1029,23 +1069,23 @@ notes:
         -
                 uuid: 151bbc34-0461-485c-911a-a2203b20081d
                 topic: Persian wars
-                front: How did the battle at Thermopylae end?
+                front: How did battle at Thermopylae end?
                 back: >
-                        Greek defeat (they were greatly outnumbered),
+                        Greek defeat (greatly outnumbered),
                         king Leonidas of Sparta was killed.
         -
                 uuid: 6c9a961e-7096-4f7f-b844-8e631c8d28d0
                 topic: Persian wars
-                front: What happened after the battle of Thermopylae?
+                front: What happened after battle of Thermopylae?
                 back: >
-                        Persians took Athens, overwhelmed the defenders
+                        Persians took Athens, overwhelmed defenders
                         of Acropolis and burned temples.
         -
                 uuid: ba18f7b6-152b-4723-8ba0-07e40b4be97a
                 topic: Persian wars
                 front: Where were the main Greek forces during the conquest of Athens?
                 back: >
-                        On the nearby island of Salamis
+                        On nearby island of Salamis
         -
                 uuid: 95d317b8-439b-4eb3-8207-c29a21e22c3d
                 topic: Persian wars
@@ -1055,9 +1095,9 @@ notes:
         -
                 uuid: 8282bc4b-46e1-4b07-8850-0ea0151180da
                 topic: Persian wars
-                front: What happened after Greeks drove out Persians?
+                front: What happened after Greeks drove out Persians from Athens?
                 back: >
-                        The next spring (479 BC), they came back.
+                        Next spring (479 BC), they came back.
         -
                 uuid: 35645451-8099-4888-98c1-410307a52abd
                 topic: Persian wars
@@ -1067,35 +1107,39 @@ notes:
         -
                 uuid: 2317a841-7abc-47f8-bd4b-26be31cf7bd9
                 topic: Persian wars
-                front: What was the consequence of the Persian wars for Athens?
+                front: What was the consequence of Persian wars for Athens?
                 back: >
-                        Athens became preeminent, other states paid them tribute for protection.
-                        They became very wealthy, a great sea power, the center
-                        of Greek cultural life, a trading hub.
+                        Preeminence, other states paid tribute for protection.
+                        Became very wealthy, great sea power, center
+                        of Greek cultural life, trading hub.
         -
                 uuid: 0977f767-d662-4a52-a4f9-0e282613f0bc
-                front: Who was the most influential leader of Athens in the middle of 5th sentury BC?
+                front: >
+                        Name: Most influential leader of Athens in middle of 5th sentury BC?
                 back: Pericles
         -
                 uuid: c632e1e6-5cec-40c9-ab32-39037c22e71f
                 front: Pericles's influence on culture
                 back: >
-                        He supported art and sculpture, new learning, he was
+                        Supported art and sculpture, new learning, was
                         a close associate of some philosophers.
         -
                 uuid: 17a900c7-a36a-49d6-b4de-48c1eebac7a2
-                front: Who was Thucydides?
-                back: A historian
+                front: >
+                        Occupation: Thucydides
+                back: Historian
         -
                 uuid: b52a76f1-8ec7-4ee5-8fb8-e3e12bf6c8f7
-                front: What did the social situation in Athens in 5th century BC call for?
+                front: What did social situation in Athens in 5th century BC call for?
                 back: >
-                        Innovations in education. "Best men" no longer commanded a natural leadership.
-                        What counted was actual ability. Educating with
-                        Homer and traditional virtues was no longer entirely adequate.
+                        Innovations in education.
+                        <br>
+                        "Best men" no longer had natural leadership.
+                        What counted was ability. Educating with Homer and
+                        traditional virtues was no longer adequate.
         -
                 uuid: d116ad26-6b51-447f-849c-f8517e7f968b
-                front: What was the standard of education in Athens?
+                front: Standard of education in Athens?
                 back: >
                         Most citizens had elementary education and were literate.
         -
@@ -1112,7 +1156,7 @@ notes:
         -
                 uuid: 2e654a32-0c1e-4fa5-a09c-db5e071856e9
                 front: Who was Phidias?
-                back: The most famous sculptor in Athens
+                back: Most famous sculptor in Athens
         -
                 uuid: 7512f70a-87d0-440a-809f-0fbf7755e1af
                 front: How wealthy was Protagoras when he died?
@@ -1199,7 +1243,8 @@ notes:
                 uuid: 8a29409a-c857-4479-9572-eb990c5674dc
                 front: Sophists' disagreement with Democritus
                 back: >
-                        Unlike Democritus: "there is no other avenue to the truth beside senses".
+                        Unlike Democritus: "there is no other avenue to truth
+                        beside senses".
                         <br>
                         Democritus thinks intelligence/mind can penetrate where senses fail us.
         -
@@ -1210,21 +1255,22 @@ notes:
                 uuid: a5c4bf24-d118-4b26-9ad1-4a99cb3de462
                 front: Protagoras on gods
                 back: >
-                        He is not in a position to know whether they are or not,
-                        and what they look like (there are many things
-                        preventing knowledge: obscurity of the matter, brevity of human life).
+                        Not in a position to know whether they are or not,
+                        and what they look like (many things
+                        prevent knowledge: obscurity of the matter, brevity
+                        of human life).
         -
                 uuid: fd90a3fd-414d-4f54-b9c7-c473cd66a2d4
-                front: What was Protagoras's accusation?
+                front: What was Protagoras accused of? What happened to him?
                 back: >
-                        That he was an atheist. He probably provoked
+                        Being an atheist. He probably provoked
                         anger. Some of his books were burned and he
                         was banished from Athens for some time.
                         (He was actually an agnostic.)
                 include_reverse: true
         -
                 uuid: 97ce6617-13c5-4884-b81f-99b613c667cb
-                front: First sentence of the *On Truth* book by Protagoras (and the only one we still have)
+                front: First sentence of *On Truth* book by Protagoras (and only one we still have)
                 back: >
                         Of all things the measure is man: of existing things,
                         that they exist; of non-existing things, that they
@@ -1232,8 +1278,9 @@ notes:
                 include_reverse: true
         -
                 uuid: 42e9d29e-b225-4c9e-a16e-9e30446616a6
-                front: Who was Herodotus?
-                back: A historian
+                front: >
+                        Occupation: Herodotus
+                back: Historian
         -
                 uuid: ff67f8ba-db75-40f7-aa81-1f7d11392160
                 front: Who was "king of all", according to Sophists?
@@ -1243,7 +1290,7 @@ notes:
                 topic: Sophists
                 front: What does *physis* mean?
                 back: >
-                        What the nature philosophers study - clear
+                        What nature philosophers study - clear
                         characteristics of the world, independent of human
                         beings
         -
@@ -1252,12 +1299,12 @@ notes:
                 front: What does *nomos* mean?
                 back: >
                         Custom and convention (of humans) - example: which side
-                        of the road to drive on
+                        of road to drive on
         -
                 uuid: aeb4e8bd-6b65-4103-a226-1f1f8dfb3ec9
-                front: What is the difference between the laws of nomos and physis?
+                front: Difference between laws of nomos and physis?
                 back: >
-                        It's possible to go against the laws of *nomos*
+                        It's possible to go against laws of *nomos*
                         (normative laws).
         -
                 uuid: 7d9b6b53-7353-4264-9e54-abcc8b853fc9
@@ -1292,12 +1339,12 @@ notes:
         -
                 uuid: 1a95b1db-a0e7-4774-a6c5-19a69487637c
                 front: Peloponesian war - how did Thucydides know it?
-                back: He lived through it, and wrote a book with that title
+                back: Lived through it, and wrote a book with that title
         -
                 uuid: 5b85b009-3aee-4f39-a586-8e6e95075731
                 front: What is Peloponnesus?
                 back: >
-                        Large penisula at the southern tip of mainland Greece
+                        Large penisula at southern tip of mainland Greece
         -
                 uuid: ac1f5b48-d987-4e93-bb89-03c931aa4fed
                 front: What connects Peloponnesus to Greece proper?
@@ -1305,29 +1352,34 @@ notes:
                         Isthmus of Corinth
         -
                 uuid: fd3a35d9-7769-4800-a015-ca01c902c1bd
-                front: What was the dominant power on the Peloponnesus penisula in 5th century BC?
+                front: Dominant power on Peloponnesus penisula in 5th century BC?
                 back: >
                         Sparta
         -
                 uuid: ede599aa-6a7e-4f1a-a20d-5efc43e9270c
                 front: Difference in army type of Sparta and Athens
                 back: >
-                        Athens had a strong navy, Sparta was a land power
+                        Athens: strong navy, Sparta: land power
         -
                 uuid: 4abb3dc7-75de-485e-837e-466221f649ce
                 front: Name of large Spartan slave population
                 back: Helots
         -
                 uuid: 033bb6dc-afd9-4683-ab19-d7368f580d70
-                front: Which powers fought in the Peloponnesian war?
+                front: Which powers fought in Peloponnesian war?
                 back: >
                         Sparta and Athens
         -
                 uuid: 0aace6ff-5b72-4480-bcb5-78b43e9168cc
-                front: What was the consequence of the Peloponnesian war?
+                front: Consequence of tPeloponnesian war?
                 back: >
-                        The defeat of Athens and the weakening of Greece in general.
-                        The beginning of the end of the Golden Age of Greece.
+                        Defeat of Athens, weakening of Greece in general.
+                        Beginning of the end of Golden Age of Greece.
+        -
+                uuid: e8776424-7c43-4128-a77f-656aaceb7c1e
+                front: >
+                        Year: Peloponnesian war starts
+                back: 431 BC
         -
                 uuid: a16a7f24-f450-4ac8-851c-58f17865ce58
                 front: When did Peloponnesian war start and end?
@@ -1337,22 +1389,23 @@ notes:
         -
                 uuid: 6043de88-3a3c-4a32-bd19-770c02054c8e
                 front: >
-                        What internal struggles of Athens were intensified by the Peloponnesian war?
+                        What internal struggles of Athens were intensified by
+                        Peloponnesian war?
                         What event exemplified this?
                 back: >
-                        Between the *demos* (the common people) and the aristocracy.
-                        They were even more intense in other city states
+                        Between *demos* (common people) and aristocracy.
+                        Even more intense in other city states
                         which imported Athenian democracy.
                         <br>
-                        In Corcyra, after the democratic side won over the
-                        oligarchs, they killed them.
+                        Corcyra: after democratic side won over oligarchs,
+                        they killed them.
         -
                 uuid: bcd27dac-d308-4073-835e-19159b48a48f
                 topic: Peloponnesian war
-                front: The story of the island of Melos
+                front: Story of the island of Melos
                 back: >
                         It was a neutral island.
-                        The Athenian commanded conquered it after it
+                        Athenians conquered it after it
                         refused to ally itself with them, arguing with
                         self-interest and laws of natural power.
         -
@@ -1360,7 +1413,7 @@ notes:
                 topic: Peloponnesian war
                 front: Who led Athens after the death of Pericles and how?
                 back: >
-                        Who could persuasively speak to the Assembly.<br>
+                        Who could persuade the Assembly.<br>
                         Demagogues: *agoge* (lead) the *demos* (people).<br>
                         Policy was inconsistent and sometimes reversed,
                         depending on the favorite speaker of the day.
@@ -1368,7 +1421,8 @@ notes:
         -
                 uuid: 432ccfa6-63d3-4a01-b78b-b63685aea1fd
                 topic: Peloponnesian war
-                front: When were Athens defeated?
+                front: >
+                        Year: Athens defeated
                 back: 404 BC
         -
                 uuid: edf80877-df8f-4e70-b4e0-1c37091b95ee
@@ -1394,12 +1448,12 @@ notes:
         -
                 uuid: ec58047c-27c9-44c6-b9c5-33bf91cab408
                 topic: Peloponnesian war
-                front: What did Socrates do when the Thirty summoned him to arrest Leon of Salamis?
+                front: What did Socrates do when Thirty summoned him to arrest Leon of Salamis?
                 back: Refuse
         -
                 uuid: bee610dc-8701-47ea-a998-d7b29aa48c74
                 topic: Peloponnesian war
-                front: How long did the rule of the Thirty in Athens last?
+                front: How long did rule of Thirty in Athens last?
                 back: >
                         1 year
         -
@@ -1423,7 +1477,8 @@ notes:
         # chapter 4 - socrates
         -
                 uuid: 34fc9d3d-1b0a-46b7-b80b-8631f23e9bb8
-                front: What did Socrates write?
+                topic: Socrates
+                front: His written works
                 back: >
                         Nothing, just a hymn to Apollo and he put Aesop's
                         fables into verse
@@ -1433,8 +1488,8 @@ notes:
                 back: >
                         From references by others, and by Plato, his pupil.
                         <br><br>
-                        Plato left a large number of dialogues.
-                        They were written after his death.
+                        Plato left a large number of dialogues written after
+                        his death.
                         He may have been putting his thought into Socrates's mouth.
         -
                 uuid: 92bf441d-dd84-40a5-abc4-032cecd9cdfa
@@ -1442,30 +1497,38 @@ notes:
                 back: >
                         <ul>
                         <li>
-                        *Early*: such as Euthyphro, Crito, Apology.<br>
-                        Quite accurate on Socrates' own views.
-                        He questions people about piety, courage, justice
-                        or arete. Usually no agreed-upon conclusion.
-                        Participant starts with claiming to have an answer
-                        and later admits ignorance.
+                        *Early*: Accurate on Socrates' own views.
+                        Questions people about piety, courage, justice, arete.
+                        Usually no agreed conclusion.
+                        Participant claims answers, later admits ignorance.
                         <li>
-                        *Middle*: Meno, Phaedo, Symposium, Republic.<br>
-                        Socrates still the main character, many positive
+                        *Middle*: Socrates still main character, many positive
                         doctrines supported by arguments. Plato is working
-                        out his own solutions to the problems of Sophists,
+                        out his solutions to problems of Sophists,
                         goes beyond negative answers to Socratic questioning.
                         <li>
-                        *Late*: Explore difficulties discovered in the middle
-                        dialogues. Socrates plays a lesser role. In Laws,
-                        he disappears altogether.
+                        *Late*: Explores difficulties found in middle
+                        dialogues. Socrates plays lesser role. In Laws,
+                        he disappears.
                         </ul>
         -
+                uuid: 0daddb92-0d62-4434-9b31-7413a633b919
+                front: Three early dialogues with Socrates
+                back: Euthyphro, Crito, Apology
+        -
+                uuid: 2f2b0fa3-34e6-4878-8765-419b29f61035
+                front: Four middle dialogues with Socrates
+                back: Meno, Phaedo, Symposium, Republic
+        -
                 uuid: 852ec224-17b6-462f-90ee-835cd901dafd
-                front: When was Socrates born?
-                back: In 470 or 469 BC
+                topic: Socrates
+                front: Year of birth
+                back: 470 or 469 BC
+                include_reverse: true
         -
                 uuid: 7b65f061-1626-4fd2-a50c-3975e5cdd3e6
-                front: Who was Socrates' wife?
+                topic: Socrates
+                front: Who was his wife?
                 back: Xanthippe
         -
                 uuid: 2f2fa25b-caad-445c-9638-c49ffa3fdd84
@@ -1487,7 +1550,7 @@ notes:
         -
                 uuid: aad0e9a4-e834-4045-9f88-916ecd30309d
                 front: How did Socrates look?
-                back: He was extraordinarily ugly (through, interestingly so)
+                back: Extraordinarily ugly (through, interestingly so)
         -
                 uuid: 75d2e7ca-b878-4ecd-ae2f-e412f2955688
                 front: What was Socrates' humor like?
@@ -1502,18 +1565,18 @@ notes:
                 back: >
                         First young and brilliant.
                         Later notorious for lechery and lust for power.
-                        Suspected of mutilation of status of Hermes
+                        Suspected of mutilation of Hermes statues
                         (often by gates of Athenian houses), put on trial
                         while away on a military assignment.
-                        He eventually deserted an served as a Spartan general.
+                        Eventually deserted an served as a Spartan general.
         -
                 uuid: 47675312-69ca-44da-9107-5cd697d5ff73
                 front: How did Socrates make a living?
                 back: >
-                        He was frugal, temperate, not independently wealthy.
-                        He refrained from physical relationships (between
+                        Frugal, temperate, not independently wealthy.
+                        Refrained from physical relationships (between
                         older men and their young proteges).
-                        He believed friendships were properly aimed to make
+                        Believed friendships were properly aimed to make
                         the "beloved" more virtuous, self-controlled and just.
         -
                 uuid: de328608-3f46-453a-a5af-21c9f818e429
@@ -1523,17 +1586,17 @@ notes:
                 uuid: 0963d743-fc08-486f-865b-8e8628f80334
                 front: How does Socrates differ from Sophists?
                 back: >
-                        Sophists claimed to teach arete. Socrates didn't claim to know what it is.
-                        He tried to clarify it: whether it can be taught, whether it's one thing or many, etc.
+                        Sophists claimed to teach arete. Didn't claim to know what it is.
+                        Tried to clarify it: whether it can be taught, whether it's one thing or many, etc.
                         <br><br>
-                        Socrates also dabbled in natural philosophy (which
-                        Sophists teach), but he gave it up, since it didn't
+                        Also dabbled in natural philosophy (which
+                        Sophists teach), but gave it up, since it didn't
                         intrigue him.
-                        He was interested in i.e., "why are we here?"
+                        Interested in i.e., "why are we here?"
                         <br><br>
-                        He claimed he never taught anybody anything.
+                        Claimed he never taught anybody anything.
                         <br><br>
-                        Socrates doesn't take any pay. His highest reward
+                        Didn't take any pay, highest reward
                         was the gain of good friends.
         -
                 uuid: 8d222238-6da5-414d-a3a4-5696dfd8ddfc
@@ -1556,7 +1619,7 @@ notes:
                 back: >
                         Everyone must say what they really believe,
                         and not hang on to beliefs "no matter what".
-                        Both must aim for truth, not victory over the other speaker.
+                        Both must aim for truth, not victory over other speaker.
         -
                 uuid: 4cd61c3d-788c-447d-aa1c-d2baf585750c
                 front: What kind of a person must you be to enjoy Socrates?
@@ -1572,7 +1635,7 @@ notes:
                         We ought to search for truth.<br><br>
                         Human excellence is knowledge.<br><br>
                         All wrongdoing is due to ignorance.<br><br>
-                        The most important thing of all is to care for your soul.
+                        The most important thing is to care for your soul.
         -
                 uuid: c1df2624-ab76-4950-89ae-af7de2b82f99
                 topic: Socrates
@@ -1633,8 +1696,8 @@ notes:
                 front: Setting of the dialogue Euthyphro
                 back: >
                         Socrates is indicted to the king-archon's court
-                        for corrupting the youth. He meets Euthyphro, a priest.
-                        Euthyphro charges his own father before the court.
+                        for corrupting the youth. Meets Euthyphro, a priest.
+                        Euthyphro charges his own father.
                         A servant of Euthyphro killed another servent in anger.
                         Euthyphro's father bound the killer, and the cold and
                         bonds caused his death before the message what should
@@ -1645,7 +1708,7 @@ notes:
         -
                 uuid: 17b876d0-45d9-4d84-8269-daf0ea602c6b
                 topic: Socrates
-                front: His sign from the gods
+                front: His sign from gods
                 back: >
                         It always told him not to do something.
                         Probably vivid conscience?
@@ -1653,7 +1716,7 @@ notes:
                 uuid: ed35f8dc-b957-45f0-96e5-b9e0ceb58e8f
                 front: What is *form*?
                 back: >
-                        The essence of what makes, e.g., an elephant an elephant.
+                        What makes, e.g., an elephant an elephant.
         -
                 uuid: f830713d-f616-4e60-a02c-0d9044ec8167
                 topic: Socrates
@@ -1671,10 +1734,12 @@ notes:
                 front: Why, in Socrates's mind, is nobody wiser than him?
                 back: >
                         He tried to find someone wiser than him.
-                        Many people think they are wise, but are not.
-                        Many people, like poets, are good at one thing, and think they're wise at other most important pursuits.
-
-                        This man among you, mortals, is wisest who, like Socrates, understands that his wisdom is worthless.
+                        People think they are wise, but are not.
+                        People, like poets, are good at one thing, and think
+                        they're wise at other most important pursuits.
+                        <br><br>
+                        "This man among you, mortals, is wisest who, like
+                        Socrates, understands that his wisdom is worthless."
         -
                 uuid: 615127a7-41f3-4604-a350-64e0acbefad6
                 topic: Socrates
@@ -1712,7 +1777,7 @@ notes:
                 uuid: f97a6552-fbd0-4be5-98f2-8812c7d86adf
                 topic: Socrates
                 front: What did Socrates propose as his punishment?
-                back: Free meals in the magistrates' hall / town hall
+                back: Free meals in magistrates' hall / town hall
         -
                 uuid: 331660bb-e6e9-4968-a7ad-7ae9311bd066
                 topic: Socrates
@@ -1721,7 +1786,7 @@ notes:
         -
                 uuid: 34c7d762-d264-42cf-bf5b-b6a3336778bf
                 topic: Socrates
-                front: What's the difference between the wisdom of humans and gods?
+                front: Difference between wisdom of humans and gods?
                 back: >
                         Gods know what makes for virtue and a good life, people don't.
                         <br>
@@ -1751,14 +1816,14 @@ notes:
         -
                 uuid: cd2b8a16-fddd-4678-9df8-2ceb4a3a6dd0
                 topic: Socrates
-                front: Evidence for the soul knowing everything before entering the human body
+                front: Evidence for soul knowing everything before entering the body
                 back: >
-                        We recognize solutions when we see them ("given a square, construct one of twice the area")
+                        We recognize solutions on sight ("given a square, construct one of twice the area")
         -
                 uuid: ee169d0b-67bf-451c-b10c-0926a1858d33
                 topic: Socrates
                 front: If he wasn't a teacher, what was he?
-                back: A midwife - he helps the "learner" see what he already knew
+                back: A midwife - he helps "learner" see what he already knew
         -
                 uuid: d9f289ec-eccb-4a98-bfa1-2f466257cdfb
                 topic: Socrates
@@ -1789,19 +1854,20 @@ notes:
                         hoping for a cure. "Death is a cure for the ills of life."
         -
                 uuid: 4677f88a-c515-4669-9d6b-2d02d8e30a19
-                topic: Socrates
-                front: When did he die?
+                front: >
+                        Year: execution of Socrates
                 back: 399 BC
+                include_reverse: true
         -
                 uuid: ccee71c6-9bc1-415e-8c50-fda9e10b2551
                 topic: Plato
-                front: How old was he on Socrates's death?
+                front: Ag on Socrates's death
                 back: >
                         30 years old
         -
                 uuid: a67b2d1b-8865-433b-9bfe-5b5916f80039
                 topic: Plato
-                front: Who was his most famous pupil?
+                front: His most famous pupil?
                 back: Aristotle
         -
                 uuid: 38c10379-2cb1-4173-9e47-190a9878892d
@@ -1824,8 +1890,13 @@ notes:
                 front: What did Plato do between Socrates' death and 387 BC?
                 back: Travel
         -
+                uuid: 3e407a5a-a845-47f8-97d1-7aff4e41379b
+                front: What did Plato do in 387 BC?
+                back: Return to Athens from his travels
+        -
                 uuid: 4967196f-507b-42a4-a377-d46458ae856c
-                front: When did Plato return to Athens?
+                front: >
+                        Year: Plato returns to Athens
                 back: 387 BC
         -
                 uuid: 317b6823-c9f9-4ba5-a1fc-65ae1d115560
@@ -1848,26 +1919,29 @@ notes:
         -
                 uuid: 0f96772d-99fa-471a-af46-547e3688aa7c
                 topic: Plato
-                front: Distinction between belief and knowledge
+                front: >
+                        Distinction: belief vs. knowledge
                 back: >
                         You can believe falsely, but not know falsely.
                         Knowledge involves truth.
-                        (Impossible: "I used to know the sky was red,
-                        now I know it's not.")
                         <br><br>
                         Knowledge involves having the reason and cannot be
                         overcome by rhetoric.
-                        Opinion is at the mercy of every persuasive speaker
-                        who comes along.
+                        Opinion is at mercy of persuasive speakers
+                        who come along.
         -
                 uuid: 4e8b530d-fcca-4766-a1cf-e1f87c8cfca5
                 topic: Plato
                 front: What turns beliefs into knowledge?
                 back: >
-                        "Tying them down", so they don't "escape from a man's mind".
-                        <br>
-                        An "account of the reason why".
-                        (Belief without knowledge: blind people who happen to follow the right road.)
+                        An "account of the reason why" --
+                        "tying them down", so they don't "escape from a man's mind".
+        -
+                uuid: ef7a848b-2d25-48b6-9c0a-e2292d0cb0a2
+                topic: Plato
+                front: What is belief without knowledge like?
+                back: >
+                        Blind people who happen to follow the right road.
         -
                 uuid: b234c017-26e1-4d07-bcd5-0c44956c8098
                 topic: Plato
@@ -1879,7 +1953,7 @@ notes:
                 front: Plato on senses
                 back: >
                         Senses never get it right, they aren't precise or accurate.
-                        We only grasp the truth by reasoning (by a *logos*).
+                        We only grasp truth by reasoning (by a *logos*).
                         <br>
                         Plato is a rationalist.
         -
@@ -1888,12 +1962,14 @@ notes:
                 front: >
                         What can we have knowledge about?
                 back: >
-
-                        Socrates's sand drawing is not the subject of the slave boy's knowledge.
+                        Sand drawing is not the subject of the boy's knowledge.
                         <br><br>
-                        The truth cannot be something that bounces around, the truth we know cannot be about the world disclosed to our senses. Nothing about that world remains in place.
+                        Truth cannot be bounce around, truth we know cannot be
+                        about the world disclosed to our senses. Nothing about
+                        that world sits in place.
                         <br><br>
-                        We can only know about objects apprehended only by the intellect.
+                        We can only know about objects apprehended only by the
+                        intellect.
                         Whether we see a particular square as red or green,
                         we agree its diagonal is [$]\\sqrt{2}\\cdot x[/$].
         -
@@ -1908,7 +1984,7 @@ notes:
         -
                 uuid: ff859838-0127-4b18-b4da-81781e6090a2
                 topic: Plato
-                front: The term *Form*
+                front: His use of the term *Form*
                 back: >
                         The general term for the objects of knowledge
                         (e.g., "the Form of the Square").
@@ -1957,25 +2033,27 @@ notes:
                 topic: Plato
                 front: Knowledge, opinion, and invincible ignorance
                 back: >
-                        Knowledge: of things that truly *are* (the world of Forms)
-                        <br>
-                        Invincible ignorace: things that *aren't*.
+                        <ul>
+                        <li>
+                        **Knowledge**: of things that truly *are* (the world of Forms)
+                        <li>
+                        **Invincible ignorace**: things that *aren't*.
                         Because they aren't, we cannot know those,
                         because we can only know what *is*.
-                        <br>
-                        Opinion: midway between.
-                        It's a capacity of ours, so some objects must answer
+                        <li>
+                        **Opinion**: midway between.
+                        A capacity of ours, so some objects answer
                         to it: we have opinions *about something*.
-                        The thing that opinions would be about would be
-                        things that are midway between *being* and *not being*
+                        The thing opinions are about would be
+                        things midway between *being* and *not being*
                         (*opinable*).
+                        </ul>
         -
                 uuid: 417a7547-5971-4111-9ba5-70f992f00dfd
                 topic: Plato
                 front: What things are *opinable*?
                 back: >
-                        The things in the Heraclitan flux: the world of experience.
-                        Opinion is about the world of experience.
+                        The world of experience -- the Heraclitan flux
         -
                 uuid: 188f5caa-46bc-4762-ac11-2d9cdc619063
                 topic: Plato
@@ -2015,13 +2093,13 @@ notes:
                         Lower and Higher Forms
                 back: >
                         Lower forms are explained in terms of higher Forms.
-                        <br>
+                        <br> <br>
                         Every question of "why?" uses some factor higher
                         on the Divided Line.
-                        Eagle shadows are explained by actual eagles (image -- object);
-                        eagles are explained by the Form Eagle;
-                        that Form by more basic Forms.
-                        <br>
+                        Eagle shadows &rarr; actual eagles;
+                        eagles &rarr; Form Eagle;
+                        Form Eagle &rarr; more basic Forms.
+                        <br> <br>
                         At the end of the explanation chains, there
                         must be some basic point where we can't use this
                         pattern of explanation any more -- where we won't appeal
@@ -2123,12 +2201,14 @@ notes:
                 topic: Plato
                 front: Stages of recognizing the Form of Beauty
                 back: >
-                        First, individual lover.
-                        Then, transcending lovers; beautiful souls in husks of ugly bodies (e.g., Socrates).
-                        Then, institutions and societies.
-                        Then, knowledge and wisdom.
-                        Then, everlasting loveliness which neither comes nor goes, which neither flowers nor fades (the Form of Beauty).
+                        <ul>
+                        <li>Individual lover.
+                        <li>Transcending lovers; beautiful souls in husks of ugly bodies (e.g., Socrates).
+                        <li>Institutions and societies.
+                        <li>Knowledge and wisdom.
+                        <li>Everlasting loveliness which neither comes nor goes, which neither flowers nor fades (the Form of Beauty).
                         It is nothing human or worldly.
+                        </ul>
                         <br><br>
                         This is why we should love wisdom. We are all lovers.
         -
@@ -2140,15 +2220,19 @@ notes:
                         <br><br>
                         Soul is a principle of *self-motion* (thing that moves by itself).
                         A body does not move by itself.
-                        <br><br>
+        -
+                uuid: 7b2b8f87-9371-4f2d-a00a-fa8e13fc7b2e
+                topic: Plato
+                front: Why is the soul immortal?
+                back: >
                         Life is the very essence of the soul.
                         It is immortal, because "it cannot abadon its own nature" - it cannot die.
         -
                 uuid: 48ee0dc8-250a-4b78-a778-3ec98fe85539
                 topic: Plato
-                front: How should one cultivate one's soul?
+                front: How to cultivate one's soul?
                 back: >
-                        Release its bonds to the body.
+                        Release bonds to the body.
                         The separation of the soul is actual death.
                         So philosophers are training for dying and they
                         fear death least of all men.
@@ -2215,20 +2299,20 @@ notes:
                 uuid: b69a6f49-10e1-4ab9-8214-b23dd51c9054
                 front: The story of the Ring of Gyres
                 back: >
-                        Gyres was a shepard in service of the ruler of Lydia.
+                        He was a shepard in service of the ruler of Lydia.
                         <br><br>
                         During a storm, an earthquake broke open the ground
                         and created a chasm where he was tending his sheep.
                         <br><br>
-                        Inside, he found (among other things) a hollow bronze
+                        Inside, he found (among others) a hollow bronze
                         horse, and inside, a corpse wearing just a golden ring.
                         <br><br>
-                        On a regular meeting with the king on the state
-                        of the flocks, he tried turning the ring in and out,
+                        On a regular meeting with the king on state
+                        of flocks, he turned the ring in and out,
                         and found that it makes him visible and invisible.
                         <br><br>
                         He arranged to become one of the messengers sent to
-                        the king, and he seduced his wife, attacked him
+                        the king, seduced his wife, attacked him
                         with her help, killed him and took over the kingdom.
         -
                 uuid: e46594ef-ba10-463b-b68a-facbbe6e3a8a
@@ -2265,7 +2349,7 @@ notes:
                 back: >
                         Analogous to the soul's three parts.
                         <br><br>
-                        (1) Laborers, carpenters, plumbers, merchants, farmers...: *productive* part of the community, corresponds to *appetite*
+                        (1) Laborers, merchants, farmers...: *productive* part of the community, corresponds to *appetite*
                         <br><br>
                         (2) Adventurous, strong, brave...: *army and navy*, protective part of the state - *spirit*
                         <br><br>
@@ -2293,17 +2377,16 @@ notes:
                 topic: Plato
                 front: Analogy of the ship
                 back: >
-                        Imagine a ship ruled by a strong, but stupid captain,
-                        who knows nothing about the sea.
+                        Ship ruled by a strong, stupid captain, who knows
+                        nothing about the sea.
                         <br><br>
-                        The people (equally unknowledgable) call the ones who can persuade
-                        him to turn the rudder "navigators" or "captains",
+                        The people (also stupid) call the ones who can persuade
+                        him to turn the rudder "navigators",
                         or that they "know ships".
                         But they don't know anything about the sky, the stars,
                         the sea, etc.
-                        And they think the craft of navigation is not teachable,
-                        and no knowledge can enable one to steer the ship
-                        better.
+                        They think navigation is not teachable,
+                        and nothing can enable one to steer the ship better.
                         <br><br>
                         The true captain would be called a babbler and a
                         good-for-nothing in ships governed that way.
@@ -2334,25 +2417,29 @@ notes:
                 topic: Plato
                 front: How do Forms lead to infinite regress?
                 back: >
-                        Say we have John and Peter who are both strong.
-                        They are both instances of the form Strong.
+                        *Third Man Argument*:
+                        <br>
+                        John and Peter are both men, instances of the form Man.
                         <br><br>
-                        The Strong form is in itself strong.
-                        So there's one more form, which the Form of Strength takes,
+                        The Man form is in itself a man.
+                        So there's one more form, which the Form of Man takes,
                         as well as John and Peter. Infinite regress.
-                        <br><br>
-                        This is called the *Third Man Argument*.
         # chapter 7 - aristotle
         -
                 uuid: b1a0a2b0-22c5-473a-802e-b1749681b2c3
                 topic: Aristotle
-                front: When and where was he born?
-                back: 384 BC, in northern Thrace
+                front: Year of birth
+                back: 384 BC
+        -
+                uuid: c9f33c05-b1e6-4913-a2a1-49743cb85147
+                topic: Aristotle
+                front: Place of birth
+                back: Northern Thrace
         -
                 uuid: 2ae8f53a-3081-43ae-864c-b9aacc70984c
                 topic: Aristotle
-                front: When did he go to Athens?
-                back: When he was 18
+                front: How old was he when he went to Athens?
+                back: 18 years old
         -
                 uuid: 48d471bb-a54a-4bbd-8c66-96ccd272db3d
                 topic: Aristotle
@@ -2363,21 +2450,36 @@ notes:
                 topic: Aristotle
                 front: What did he do after leaving Athens?
                 back: >
-                        He went to Macedonia and he tutored the young
+                        Went to Macedonia and tutored the young
                         Alexander the Great.
         -
                 uuid: 409297ca-5743-4a76-bb66-ae1b824bca33
-                front: When did Aristotle return to Athens and what did he do there?
+                topic: Aristotle
+                front: >
+                        Year: Aristotle return to Athens
                 back: >
-                        335 BC; he founded the Lyceum
+                        335 BC
+        -
+                uuid: f37f2d6f-4f3c-44fa-988e-f51871c8ddca
+                topic: Aristotle
+                front: What did he do when he returned to Athens to 335 BC?
+                back: Founded the Lyceum
         -
                 uuid: 8608b635-39aa-4869-b14c-99fb76ab326e
-                front: When was Aristotle forced to flee from Athens?
+                front: >
+                        Year: Aristotle forced to flee from Athens
                 back: 323 BC
         -
                 uuid: f8a7981e-6bd0-44dc-8cc9-1cd8ca4d5b1a
-                front: When did Aristotle die and how old was he?
-                back: 322 BC, 63 years old
+                topic: Aristotle
+                front: >
+                        Year: death
+                back: 322 BC
+        -
+                uuid: 658eccc0-dfd7-4c8b-8341-3a6a068e96f9
+                topic: Aristotle
+                front: Age on death
+                back: 63 years
         -
                 uuid: 787add16-d851-41eb-811a-2f068b5ef03c
                 front: Plato's epistemology vs. Aristotle's
@@ -2411,7 +2513,7 @@ notes:
                 uuid: 3d848937-8ffe-40b1-a8cb-d2ee10cbaf40
                 front: Aristotle on ethics and elitism
                 back: >
-                        He is more cautious and less inclined to grandiose
+                        More cautious and less inclined to grandiose
                         claims (e.g., the cave). The ordinary citizen is able
                         to make good decisions and live a good life.
         -
@@ -2441,7 +2543,7 @@ notes:
         -
                 uuid: bdbe14a3-393a-444f-ab2c-473a0ac461cc
                 topic: Aristotle
-                front: What is wisdom?
+                front: What constitutes wisdom?
                 back: >
                         It involves or is *knowledge*.<br><br>
                         Knowledge involves *statements* and *reasons*,
@@ -2494,9 +2596,9 @@ notes:
                 front: What is *primary substance*?
                 back: >
                         Ultimate subjects of statements.
-                        More fully substances than anything else --
-                        particular horses, this snail, Socrates.
-                        They are the most real things there are - not just shadows.
+                        More fully substances than anything else &emdash; this snail,
+                        Socrates.
+                        Most real things there are - not just shadows.
                         All else is real in relation to them.
         -
                 uuid: 749a99e2-9e25-476e-8766-2c6468fe26d3
@@ -2536,7 +2638,7 @@ notes:
                 topic: Aristotle
                 front: Division of statements
                 back: >
-                        Affirmative/negative; universal/particular ("some men are mortal")
+                        Affirmative/negative; universal/particular
         -
                 uuid: 58c38987-13a7-4d85-83dd-a883bf251743
                 topic: Aristotle
@@ -2590,9 +2692,9 @@ notes:
                 topic: Aristotle
                 front: His big realization about the structure of good syllogisms
                 back: >
-                        It has nothing to do with their persuasiveness,
-                        *or* their particular subject matter. The success
-                        depends merely on the form of the syllogism.
+                        It has nothing to do with persuasiveness,
+                        *or* particular subject matter. Success
+                        depends merely on syllogism's form.
                         We can use letters of the alphabet instead of
                         particulars.
         -
@@ -2667,15 +2769,15 @@ notes:
                 topic: Aristotle
                 front: His analogy of experience
                 back: >
-                        A rout ending in battle: individual men fleeing (many perceptions
+                        Rout ending in battle: individual men fleeing (many perceptions
                         pouring into the soul), one turns and stands (memory),
                         the another (solidifying), and another (experience),
-                        until a battle line is formed (One is made from Many).
+                        until battle line forms (One made from Many).
                         <br><br>
                         When one percept "has come to a halt",
-                        this is the first beginning of the presence there of a universal.
+                        this is first beginning of the presence there of a universal.
                         E.g., a particular species of animal leads to the genus "animal", etc.
-                        We acquire knowledge of the primary premises by induction,
+                        We acquire knowledge of primary premises by induction,
                         and this is how sense-perception provides us with universals.
         -
                 uuid: ce675180-9977-4ba7-b4d7-c70b625fc2fd
@@ -2704,8 +2806,8 @@ notes:
                 topic: Aristotle
                 front: How does he refer to his predecessors?
                 back: >
-                        Often and in detail. He believes we can learn from them.
-                        He thinks they go wrong by not *observing* closely enough.
+                        Often and in detail. We can learn from them.
+                        They go wrong by not *observing* closely enough.
                         Their explanations are usually either too general
                         (Thales's water, the Boundless), or conclude that
                         there is no intelligibility (Parmenides - the world
@@ -2724,7 +2826,7 @@ notes:
         -
                 uuid: f78f4a9f-7077-4562-a833-30a5896be873
                 topic: Aristotle
-                front: What does he mean by "nature"? How are those distinguished?
+                front: What does he mean by "nature"? How is it distinguished from "non-nature"?
                 back: >
                         Things that exist by nature - animals, plants,
                         earth, fire, water, ...
@@ -2985,11 +3087,11 @@ notes:
                 topic: Aristotle
                 front: Properties of God
                 back: >
-                        It is the *ultimate mover* -- all others are intermediate (*unmoved mover*).<br><br>
-                        It is also the *ultimate cause*.<br><br>
-                        It must be eternal, because it accounts for the movement of celestial bodies.<br><br>
-                        It is a substance, for it cannot be less basic than other substances that depend on it.<br><br>
-                        It must be fully actual, or it would need and explanation.
+                        *Ultimate mover* -- all others are intermediate (*unmoved mover*).<br><br>
+                        *Ultimate cause*.<br><br>
+                        *Eternal*, because it accounts for the movement of celestial bodies.<br><br>
+                        A *substance*, for it cannot be less basic than other substances that depend on it.<br><br>
+                        Must be *fully actual*, or it would need and explanation.
                         <br><br><br><br>
                         It is the "object of desire and thought", and functions as a final cause - it is what they all "love".
         -
@@ -2998,9 +3100,9 @@ notes:
                 front: Why is God a final cause?
                 back: >
                         The ultimate mover:
-                        It cannot be a material cause, because it's purely potential.
-                        It cannot be an efficient cause, because it doesn't need a temporal trigger.
-                        It cannot be a formal cause, because it contains no matter.
+                        Not material: it's purely formal.
+                        Not efficient: doesn't need a temporal trigger.
+                        Not formal: it contains no matter.
                         It can only be a *final cause*.
         -
                 uuid: b6e47215-3c0c-4c25-b628-74e7b2500725
@@ -3024,16 +3126,24 @@ notes:
                 topic: Aristotle
                 front: What does God think about?
                 back: >
-                        About what is most divine, most valuable and plainly
-                        it does not change; for change would be for the worse.
-                        So, the mind must think of itself, and its
-                        thought will be thought about thought.
+                        Of itself, and its thought is thought about thought.
+                        <br><br>
+                        (About what is most divine, valuable and plainly
+                        it does not change &emdash; change would be for
+                        the worse. So, the mind must think of itself, and its
+                        thought will be thought about thought.)
         -
                 uuid: 16df2332-64c6-443b-a146-c95a16381c1f
                 topic: Aristotle
                 front: Is God the creator of the world?
                 back: >
-                        No. It's an ideal. It's not the origin, but the goal.
+                        No.
+        -
+                uuid: 7fd5097a-cbdc-41ad-b6f2-cbd9641fe173
+                topic: Aristotle
+                front: If God isn't the creator of the world, what is it?
+                back: >
+                        An ideal. Not the origin, but the goal.
                         Yet he is an actually existing, individual substance.
                         He is the unifying principle of reality.
         -
@@ -3051,7 +3161,9 @@ notes:
                 uuid: 046d2bd5-5c29-4d0f-be8e-b8b1985ee867
                 topic: Aristotle
                 front: What are the three levels of souls?
-                back: Of plants, of beasts, of humans
+                back: >
+                        Of plants (nutritive), of beasts (sensitive),
+                        of humans (rational)
         -
                 uuid: 17e89d96-ceb1-4191-b63a-92ebf9bbd4c1
                 topic: Aristotle
@@ -3065,8 +3177,8 @@ notes:
                 front: Why do living things reproduce?
                 back: >
                         For Aristotle, we need to mention a final cause.<br><br>
-                        The most natural function of a living being is to reproduce, so it may share in eternity and divinity.<br><br>
-                        This is what they all desire and the purpose of all their activity.<br><br>
+                        Most natural function of living beings is reproduction, so they may share in eternity and divinity.<br><br>
+                        This is what they all desire and purpose of all their activity.<br><br>
                         What persists cannot be numerically the same (because it's not possible to participate
                         both in eternity and divinity), so the species reproduces.
         -
@@ -3115,18 +3227,19 @@ notes:
         -
                 uuid: 7dadfe6f-5947-4fc4-a744-2cf758cdbc5b
                 topic: Aristotle
-                front: Is *nous* just an aspect of the form of living human bodies?
+                front: Is *nous* just an aspect of the form of living human bodies? Why?
                 back: >
                         No.<br><br>
                         *Analogy to sight*: we need a red car, an eye and light.
-                        The capacity to register qualities is too passive to count
+                        Capacity to register qualities is too passive to count
                         as knowledge. We need something more active.
                         <br><br>
-                        This "*light*" is separable, incapable of being acted upon,
+                        This "*light*" is separate, incapable of being acted upon,
                         mixed with nothing, and in essence an actuality.
-                        The passive power of *nous* can potentially "become everything"
+                        Passive power of *nous* can potentially "become everything"
                         (register the color of the car, etc.), but you
                         need an active power in the mind to actually know.
+                        <br> <br>
                         (Compare: analogy of the Sun - highest Form of Plato.)
         -
                 uuid: 3082fb8f-7ca6-41be-a4db-9f698dfb6ea2
@@ -3140,24 +3253,27 @@ notes:
                 topic: Aristotle
                 front: What is Aristotle's physical evidence for the *nous* being nonphysical?
                 back: >
-                        He didn't know of any organ for it.
+                        Didn't know of any organ for it.
         -
                 uuid: 01cb240d-20eb-4514-b5a8-f7dc372a5f06
                 topic: Aristotle
                 front: What is the heart for?
-                back: For perceiving emotions and sensations
+                back: Perceiving emotions and sensations
         -
                 uuid: 80171836-fcfd-4f9e-9072-44aaefb3d88e
                 topic: Aristotle
                 front: What is the brain for?
-                back: For cooling the body
+                back: Cooling the body
         -
                 uuid: 57ad442a-1481-48ec-9d86-877bc1e74538
                 topic: Aristotle
-                front: Why don't we know that the *nous* is immortal and eternal?
+                front: Why don't we know that *nous* is immortal and eternal?
                 back: >
-                        We don't remember what the *nous* knew before it was born -- there is nothing there to remember.
-                        Because the *other mind* which is capable of being acted upon is perishable, but nothing in the mind thinks without it.
+                        We don't remember what *nous* knew before it was born
+                        -- there is nothing there to remember.
+                        Because the *other mind* which is capable of being
+                        acted upon is perishable, but nothing in the mind
+                        thinks without it.
         -
                 uuid: 2157d0dc-f0e7-4e39-9529-80cc403d9d75
                 topic: Aristotle
@@ -3168,12 +3284,17 @@ notes:
         -
                 uuid: bafcb186-193b-42d9-aa4c-5867c960bd96
                 topic: Aristotle
-                front: General agreements and disagreements with Plato on living a good life
+                front: >
+                        General agreements and disagreements with Plato
+                        on living a good life
                 back: >
-                        Same conclusions - rational reasons for traditional virtues
+                        Same conclusions - rational reasons for traditional
+                        virtues
                         <br><br>
-                        Aristotle thinks knowledge in the strict sense is not possible in this sphere.
-                        Aristotle also thinks practically than Plato in ethics.
+                        Aristotle thinks knowledge in the strict sense is not
+                        possible in ethics.
+                        Aristotle also thinks more practically than Plato
+                        in ethics.
         -
                 uuid: 297546da-91e1-42b2-95b3-c3385e771be5
                 front: Which pre-Socratic hinted at evolution?
@@ -3206,18 +3327,18 @@ notes:
                 topic: Aristotle
                 front: Why can't happiness be just pleasure?
                 back: >
-                        It couldn't beright that the good life for human beings
-                        was the same as the kind of life lived by cattle.
+                        It couldn't be right that good life for humans
+                        was same as life lived by cattle.
                         Amusements are pleasant, but it would be absurd
-                        if we worked hard just for amusement.
+                        if we worked just for amusement.
         -
                 uuid: 3389aec3-9198-43d7-be20-955b6083b49b
                 topic: Aristotle
                 front: Why can't happiness be just honor?
                 back: >
-                        It is more superficial than what we are looking for.
-                        It rests on the man giving the honor.
-                        It can be taken from us.
+                        More superficial than what we are looking for.
+                        Rests on the man giving the honor.
+                        Can be taken from us.
                         *The many* couldn't bestow the greatest blessing.
         -
                  uuid: f398479d-0b3c-4744-8b86-593b30ddc041
@@ -3262,21 +3383,20 @@ notes:
                  topic: Aristotle
                  front: On arete
                  back: >
-                         (1) We are praised and blamed for our virtues and vices.
-                         It cannot be an emotion: (1) we are blamed not
+                         (1) It cannot be an emotion: (1) we are blamed not
                          for being angry but for giving in to it,
-                         (2) we feel fear and anger without choosing to,
+                         (2) we feel fear and anger without choice,
                          but virtues are a kind of choice (or aren't possible
                          without choice). We also can't be good *naturally*.
                          <br><br>
                          (2) Virtues aren't innate, through we have a capacity
-                         for them. They are learned by practicing them
-                         until they become habitual and they can be taught.
+                         for them, but learned by practicing
+                         until they become habitual. They can be taught.
                          <br><br>
-                         (3) Is virtue one or many? Both Plato and Socrates
-                         think goodness is one. Aristotle: there are many virtues,
+                         (3) Is virtue one or many? Plato, Socrates
+                         think goodness is one. Aristotle: many virtues,
                          and they are possibly somehow independent. Often,
-                         brave men are not moderate.In their perfection, you
+                         brave men are not moderate. In their perfection, you
                          can't have one virtue without having them all.
         -
                 uuid: 425ecc81-73f4-44e9-96f3-cd01e6d8156f
@@ -3366,7 +3486,7 @@ notes:
                 topic: Aristotle
                 front: What is the best activity of soul?
                 back: >
-                        The activity of the *nous* - it is the highest good and the greatest happiness.
+                        Activity of the *nous* - it is the highest good and greatest happiness.
                         Contemplation (throught NOT meditation in today's sense).
                         This life is most pleasant and most self-sufficent.
                         (Also, an immitation of God.)
