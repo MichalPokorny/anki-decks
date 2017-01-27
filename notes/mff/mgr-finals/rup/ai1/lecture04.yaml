@@ -171,11 +171,14 @@ notes:
                 back: >
                         Paměť. Spotřebuje se jí stejně jako času a obvykle dojde první.
         -
-                uuid: 2989ad27-c59d-4cdb-98a2-7cafed518160
-                front: IDA* -- algoritmus
+                uuid: 53caeae2-0b87-4fff-97d3-7b3ef7c14106
+                front: IDA* &mdash; Co znamená zkratka?
                 back: >
-                        Iterative deepening A-star.<br>
-
+                        Iterative deepening A-star.
+        -
+                uuid: 2989ad27-c59d-4cdb-98a2-7cafed518160
+                front: IDA* &mdash; algoritmus
+                back: >
                         Začnu s malým limitem na [$]f(n)[/$] (konkrétně
                         [$]f(\\text{kořen})[/$]. Pomocí DFS prohledám všechny
                         vrcholy, co mají nejvýše takové [$]f(n)[/$].<br>
@@ -190,7 +193,7 @@ notes:
                         Má menší spotřebu paměti, protože je depth-first.
         -
                 uuid: 7276de86-7996-4f66-b737-23afb9bd6259
-                front: Recursive best-first search -- algoritmus
+                front: Recursive best-first search &mdash; algoritmus
                 back: >
                         V každém volání si pamatuju odhady na délky optimálních
                         cest skrz successory.<br>
@@ -211,20 +214,24 @@ notes:
                         Když používá admisibilní heuristiku.
         -
                 uuid: b69ec95e-fb52-4868-8c51-1437d5509218
-                front: Recursive best-first search -- spotřeba paměti
+                front: Recursive best-first search &mdash; spotřeba paměti
                 back: >
                         [$$]\\O(bd)[/$$]
         -
                 uuid: b2f46ed6-cbb5-428c-a811-44b90e9d1d36
-                front: Recursive best-first search -- spotřeba času
+                front: Recursive best-first search &mdash; spotřeba času
                 back: >
                         Exponenciální (excesivní regenerace)
         -
-                uuid: 21870f9e-b509-4de0-9894-065b9829acb3
-                front: SMA* -- algoritmus
+                uuid: 9f21c5b6-dd18-471a-8bf2-fab06d2ea323
+                front: SMA* &mdash; Co znamená zkratka?
                 back: >
                         Simplified memory-bounded A-star.<br>
 
+        -
+                uuid: 21870f9e-b509-4de0-9894-065b9829acb3
+                front: SMA* &mdash; algoritmus
+                back: >
                         Pro každý vrchol si pamatuju náš současný nejpřesnější odhad na délku
                         cesty skrz něj, jako v IDA-star.<br>
 
@@ -235,7 +242,7 @@ notes:
                         smaž z nich ten nejmíň hluboký. Jeho informace pošli nahoru.
         -
                 uuid: b094b561-0314-4e8b-a841-b67e6bffb178
-                front: SMA* -- optimalita
+                front: SMA* &mdash; optimalita
                 back: >
                         Když je dost paměti na zapamatování si nejlepší cesty (a heuristika je admisibilní), SMA-star najde v tree-search nejlepší cestu.<br>
                         Jestli není dost paměti, najde tu nejlepší co se do paměti vejde.

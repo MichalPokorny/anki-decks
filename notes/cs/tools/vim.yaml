@@ -6,14 +6,17 @@ notes:
                 uuid: 234dbb3b-bfa6-4e47-88e8-1c160d33b3af
                 front: Increment/decrement current number
                 back: C-a, C-x
+                include_reverse: true
         -
                 uuid: 3511ce47-af75-41bd-9bde-97ca608b5952
                 front: Move one paragraph forward/backward
                 back: "`{}`"
+                include_reverse: true
         -
                 uuid: 714f43dd-a6a7-474e-a675-f0b454b1e7bb
                 front: Move one sentence forward/backward
                 back: "`()`"
+                include_reverse: true
         -
                 uuid: bbaa3261-44dd-42d1-871b-27198ba94944
                 front: Go to other end of selection in visual mode
@@ -22,14 +25,17 @@ notes:
                 uuid: c9a40478-0e53-44b3-82e3-2309ea4a0dc1
                 front: Insert output of command
                 back: "`:read !ls /home`"
+                include_reverse: true
         -
                 uuid: 33bd0e53-5c32-4324-a680-b90ab3b0143d
                 front: Create mark
                 back: '`mX` (`X` = mark name)'
+                include_reverse: true
         -
                 uuid: 3208c345-745b-4497-9145-1ab135d38dd5
                 front: Go to mark
                 back: "`'X` (`X` = mark name)"
+                include_reverse: true
         -
                 uuid: 97963064-88d3-47a6-ad66-3dbe77c7c0e4
                 front: Start and open a window for each file
@@ -44,14 +50,18 @@ notes:
                 uuid: 4f97ca60-608a-496d-aa6d-4e68d5061210
                 front: Revive last selection
                 back: "`gv`"
+                include_reverse: true
         -
                 uuid: 9cae9f68-eb5c-407f-9c38-e913c00d8796
                 front: Run filter command over buffer
                 back: "`:%!command`"
+                include_reverse: true
         -
                 uuid: 7a9b08e5-c24f-463f-ab2a-598bbb2c7aee
                 front: Insert file content here
-                back: "`:read (file)` -- aka `:r (file)`"
+                back: >
+                        `:read (file)` &mdash; aka `:r (file)`
+                include_reverse: true
         -
                 uuid: 52b1456c-be13-4d83-a9c5-13747a657b81
                 front: Create directory for current buffer
@@ -141,7 +151,8 @@ notes:
         -
                 uuid: 3f90fb54-db4f-4dfd-aa47-cd325b00359a
                 front: "Arithmetic register"
-                back: "`=`"
+                back: >
+                        `=`
         -
                 uuid: 21001fd8-5a54-4394-896e-8a90c34b155f
                 topic: Vim - Insert mode
@@ -150,14 +161,15 @@ notes:
         -
                 uuid: 808a44df-eb2d-465b-8388-1ed3e72db56f
                 front: "Scroll down without changing focused line"
-                back: "`C-e`"
+                back: >
+                        `C-e`
                 # mnemonic: "E-xtra lines"
                 include_reverse: true
         -
                 uuid: 2cc06e7e-05a7-4dff-bfa2-b63e6c322016
                 front: "Scroll up without changing focused line"
-                back: "`C-y`"
-                # mnemonic: "E-xtra lines"
+                back: >
+                        `C-y`
                 include_reverse: true
         -
                 uuid: 2cb7bd94-3a1c-4ce6-a697-cbc0fcc56f65

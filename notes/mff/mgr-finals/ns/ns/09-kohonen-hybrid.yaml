@@ -118,7 +118,7 @@ notes:
         -
                 uuid: a4eb55d5-10de-44d4-8d2f-5b91d7f334cd
                 topic: ART
-                front: ART sítě -- architektura, jaké je kódování
+                front: ART sítě &mdash; architektura, jaké je kódování
                 back: >
                         Dvě vrstvy: vstupní a výstupní.<br>
 
@@ -141,14 +141,14 @@ notes:
                 include_reverse: true
         -
                 uuid: bf9305e1-c32f-4861-876b-4702cf317e59
-                topic: ART -- Značení
+                topic: ART &mdash; Značení
                 front: Váhy z výstupu [$]j[/$] do vstupu [$]i[/$]
                 back: >
                         [$$]t_{ij}[/$$]
                 include_reverse: true
         -
                 uuid: 17908552-6d39-43de-8c7c-4bba1fb61b9d
-                topic: ART -- Značení
+                topic: ART &mdash; Značení
                 front: Výstupy výstupních neuronů
                 back: >
                         [$$]\\mu_j[/$$]
@@ -158,16 +158,16 @@ notes:
                 topic: ART
                 front: Značení vah a parametrů, jejich inicializace
                 back: >
-                        [$]t_{ij}(0) = 1[/$] (váhy z výstupu do vstupu -- vzor specifikovaný výstupním neuronem [$]j[/$])<br>
+                        [$]t_{ij}(0) = 1[/$] (váhy z výstupu do vstupu &mdash; vzor specifikovaný výstupním neuronem [$]j[/$])<br>
 
                         [$]b_{ij}(0)=1 / (1+N)[/$] (váhy ze vstupu do výstupu)<br>
 
-                        [$]\\rho\\in[0;1][/$] -- jak blízko musí být vstup k uloženému vzoru, aby byl ve stejné kategorii.<br>
+                        [$]\\rho\\in[0;1][/$] &mdash; jak blízko musí být vstup k uloženému vzoru, aby byl ve stejné kategorii.<br>
 
                         Výstupy výstupních neuronů: [$]\\mu_j[/$]
         -
                 uuid: 5dde3276-aa9f-48f6-bc31-ee7b4c40eb7a
-                topic: ART -- Značení
+                topic: ART &mdash; Značení
                 front: Konstanta bdělosti
                 back: >
                         [$$]\\rho\\in[0;1][/$$]

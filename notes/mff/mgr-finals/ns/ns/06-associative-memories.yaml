@@ -103,7 +103,10 @@ notes:
                         Předpokládáme nekorelované vzory.
         -
                 uuid: 3c69131b-45db-4fbb-8a83-e4f11a7eb932
-                front: Maximální kapacita autoasociativní Hebbovské sítě podle dimenze vstupního vektoru -- je to m=0.18n, jak se to odvodí?
+                front: >
+                        Maximální kapacita autoasociativní Hebbovské sítě podle
+                        dimenze vstupního vektoru &mdash; je to [$]m=0.18n[/$],
+                        jak se to odvodí?
                 back: >
                         Chceme pro každý bit [$]i[/$] mít tohle menší než 1:
                         [$]

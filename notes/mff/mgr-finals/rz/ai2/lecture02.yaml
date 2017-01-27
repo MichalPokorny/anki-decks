@@ -71,23 +71,27 @@ notes:
                         <br><br>
                         Sum-out:
                         Sesumíruje dohromady všechny faktory, které obsahují
-                        skrytou proměnnou -- do jednoho velkého faktoru.
+                        skrytou proměnnou &mdash; do jednoho velkého faktoru.
         -
                 uuid: 1126f580-6ff1-4743-8e1d-c15d2c28d02f
-                front: Variable Elimination -- čím se ovlivní složitost?
+                front: Variable Elimination &mdash; co ovlivní složitost?
                 back: >
-                        Tím, v jakém pořadí eliminuju proměnné. (Resp., procházím je.)
+                        Pořadí eliminace proměnných.
                         Musí jít topologicky, ale kromě toho mám svobodu.
         -
                 uuid: 7684e87e-ad83-4e87-89ea-13b39a8d8bd0
-                front: Variable Elimination -- jak je těžké najít optimální pořadí eliminace?
+                front: >
+                        Variable Elimination &mdash;
+                        Složitost nalezení optimálního pořadí eliminace
                 back: >
                         NP-těžké
         -
                 uuid: d06b451e-76f2-4173-93c6-f3d06eda8631
-                front: Variable Elimination -- podle jaké heuristiky můžu vybrat další proměnnou k eliminaci?
+                front: >
+                        Variable Elimination &mdash;
+                        Heuristika nalezení další proměnné k eliminaci
                 back: >
-                        Tu, která povede na vyrobení nejmenšího faktoru.
+                        Vyber tu, co povede na vyrobení nejmenšího faktoru.
         -
                 uuid: 8a4e1e23-0a38-4bf8-8112-edabc065adcd
                 front: Jak složitá je inference v Bayesovské síti co je les?

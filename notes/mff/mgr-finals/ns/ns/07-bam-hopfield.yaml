@@ -155,19 +155,25 @@ notes:
                 uuid: a6919724-8154-4f96-a8ff-83bf8c0c004e
                 front: Stochastické modely Hopfieldových sítí - dvě strategie
                 back: >
-                        A. spojitý model -- sigmoidální přenosová funkce. zvětší počet cest k řešení co je globální optimum.
-
-                        B. omezení lokálních minim -- "zašuměná dynamika". simulované žíhání, Boltzmannův stroj.
-
-                        obě brání uváznutí v lokálním minimu.
+                        <ol type="A">
+                        <li> *Spojitý model*: přenosová funkce [$]\\sigma[/$].
+                        Zvětší počet cest k řešení co je globální optimum.
+                        <li> *Zašuměná dynamika*: omezení lokálních minim.
+                        Simulované žíhání, Boltzmannův stroj.
+                        </ol>
+                        Obě brání uváznutí v lokálním minimu.
+        -
+                uuid: cef46a63-90a4-493f-8e4b-6528d633f564
+                topic: Zespojitěné Hopfieldovy sítě
+                front: Jak se počítá aktivace neuronu z excitace?
+                back: >
+                        [$]x_i = \\sigma(u_i)[/$]
         -
                 uuid: cbd26dea-0d20-44b5-9a73-4983d8a7c9dd
                 topic: Zespojitěné Hopfielovy sítě
-                front: Jak se značí excitace? Jak se počítá aktivace?
+                front: Jak se značí excitace?
                 back: >
-                        Excitace neuronů: [$]u_i[/$]<br>
-
-                        Aktivace neuronů: [$]x_i = \\sigma(u_i) = \\frac{1}{1+e^{-u_i}}[/$]<br>
+                        [$]u_i[/$]
         -
                 uuid: 01621990-3bab-490a-be42-3f7833caf3a1
                 topic: Zespojitěné Hopfielovy sítě

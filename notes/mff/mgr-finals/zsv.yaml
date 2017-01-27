@@ -243,24 +243,37 @@ notes:
                 front: >
                         m-převoditelnost: vlastnosti a rozhodnutelnost
                 back: >
-                        [$]\\leq_m[/$] je reflexivní a tranzitivní -- kvaziuspořádání. Když je [$]A\\leq_m B[/$] a B je (částečně) rozhodnutelný, tak to je i A. Když je B částečně rozhodnutelný a A m-úplný, tak B je taky m-úplný.
+                        <ul>
+                        <li>
+                        [$]\\leq_m[/$] je kvaziuspořádání.
+                        <li>
+                        Když [$]A\\leq_m B[/$] a [$]B[/$] je
+                        (částečně) rozhodnutelný, tak to je i [$]A[/$].
+                        Když je [$]B[/$] částečně rozhodnutelný a [$]A[/$]
+                        m-úplný, tak [$]B[/$] je taky m-úplný.
+                        </ul>
         -
                 uuid: 52567f0e-8619-443a-b5b2-66a3a8f2ac12
                 front: >
                         [$]m[/$]-úplný jazyk [$]K_0[/$]. Jaký je?
                 back: >
-                        [$]K_0=\\{< w_i,x > | M_i(x)\\downarrow \\}[/$]. Částečně rozhodnutelný, nikoli rozhodnutelný.
+                        [$]K_0=\\{< w_i,x > | M_i(x)\\downarrow \\}[/$].
+                        Částečně rozhodnutelný, nikoli rozhodnutelný.
         -
                 uuid: a77116ea-55e8-4341-b122-d3760503a58d
                 front: >
                         [$]m[/$]-úplný jazyk [$]K[/$]. Jaký je?
                 back: >
-                        [$]K=\\{w_i | M_i(w_i)\\downarrow \\}[/$]. Částečně rozhodnutelný, nikoli rozhodnutelný.
+                        [$]K=\\{w_i | M_i(w_i)\\downarrow \\}[/$].
+                        Částečně rozhodnutelný, nikoli rozhodnutelný.
         -
                 uuid: a8ac3a43-e12f-4cc8-9cc3-3f0373c1b1cc
                 front: Riceova věta
                 back: >
-                        Ať [$]C[/$] je třída vyčíslitelných funkcí, položme [$]A_C=\\{e | \\varphi_e\\in C\\}[/$]. Potom [$]A_C[/$] je rozhodnutelná, právě když je [$]C[/$] buď prázdná nebo obsahuje všechny vyčíslitelné funkce.
+                        Ať [$]C[/$] je třída vyčíslitelných funkcí, položme
+                        [$]A_C=\\{e | \\varphi_e\\in C\\}[/$]. Potom
+                        [$]A_C[/$] je rozhodnutelná, právě když je [$]C[/$]
+                        buď prázdná nebo obsahuje všechny vyčíslitelné funkce.
         -
                 uuid: 59b466a9-4d50-467a-a626-fa0ff7fbbc18
                 front: s-m-n věta

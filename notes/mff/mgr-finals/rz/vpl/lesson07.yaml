@@ -51,7 +51,7 @@ notes:
                 back: >
                         Když je [$]B[/$] nejmenší podmnožina nosné množiny
                         co je uzavřená na všechny funkce, pak [$]\\mathcal{A}\\upharpoonright B[/$]
-                        se značí taky [$]\\mathcal{A}< X >[/$] -- generovaná množinou X.
+                        se značí taky [$]\\mathcal{A}< X >[/$] &mdash; generovaná množinou X.
         -
                 uuid: 653333bb-a0e5-484c-bcbb-c25d0fd6d2d4
                 front: Redukty a expanze struktury

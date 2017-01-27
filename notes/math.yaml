@@ -13,9 +13,13 @@ notes:
                 uuid: ebca1d61-11bf-48b7-a21b-5733e28e5dc9
                 front: BBP-type formula
                 back:
-                        Bailey-Borwein-Plouffe formula. Computes n-th binary digit of pi using base 16 math.
-                        Can directly calculate some digit of pi without calculating preceding digits.
-                        Since this discovery, many formulas for other irrational constants have been discovered of the general form.
+                        Bailey-Borwein-Plouffe formula. Computes n-th binary
+                        digit of [$]\\pi[/$] using base 16 math.
+                        Can directly calculate some digit of [$]\\pi[/$]
+                        without calculating preceding digits.
+                        Since this discovery, many formulas for other
+                        irrational constants have been discovered of the
+                        general form.
                         Formulas in this form are known as BBP-type formulas.
                         [$$]
                         \pi = \sum_{k = 0}^{\infty}\left[ \frac{1}{16^k} \left( \frac{4}{8k + 1} - \frac{2}{8k + 4} - \frac{1}{8k + 5} - \frac{1}{8k + 6} \right) \right]
@@ -30,11 +34,18 @@ notes:
         -
                 uuid: 6db03c44-0ad5-4d37-b4e0-55ade1ec116f
                 front: Goodstein theorem
-                back: Statement about natural numbers which states that every Goodstein sequence eventually terminates at 0. Unprovable in Peano arithmetic, but can be proven in stronger systems, e.g. second order arithmetic.
+                back: >
+                        "Every Goodstein sequence eventually terminates at 0."
+                        <br><br>
+                        Unprovable in Peano arithmetic, but can be proven in
+                        stronger systems, e.g. second order arithmetic.
         -
                 uuid: 40ea1145-01bf-4d44-856a-2c36f8bdfd89
                 front: Brouwer theorem
-                back: "Brouwer fixed-point theorem: for any continuous f mapping a compact convex set into itself has a fixed point"
+                back: >
+                        Brouwer fixed-point theorem: any continuous [$]f[/$]
+                        mapping a compact convex set into itself has a fixed
+                        point
 # TODO: Kegan's stages
         -
                 uuid: eea9aac1-ad18-4f44-83ca-a2336da27940
@@ -124,6 +135,7 @@ notes:
                 front: Stirling's approximation of [$]n![/$]
                 back: >
                         [$$]\\sqrt{2\\pi n}\\left(\\frac{n}{e}\\right)^n[/$$]
+                include_reverse: true
         -
                 uuid: c68cbdd1-404a-49bd-8523-ebad279b53b2
                 front: Co je to Mersennovo prvočíslo?
@@ -132,7 +144,7 @@ notes:
         -
                 uuid: f40d801e-4a21-492d-960a-75fd03dfdf01
                 front: >
-                        Pět Mersenných prvočísel
+                        5 Mersenných prvočísel
                 back: >
                         [$]2^{31}-1[/$], [$]2^{61}-1[/$], [$]2^{89}-1[/$], [$]2^{107}-1[/$], [$]2^{127}-1[/$]
         -
@@ -147,36 +159,45 @@ notes:
                 topic: Cromwell's rule
                 front: What does it refer to?
                 back: >
-                        To Oliver Cromwell, who wrote to the synod of the
+                        Oliver Cromwell, who wrote to the synod of
                         Church of Scotland on 5 August 1650, including:
                         <br><br>
-                        "I beseech you, in the bowels of Christ, think it possible that you may be mistaken."
+                        "I beseech you, in the bowels of Christ, think it
+                        possible that you may be mistaken."
         -
                 uuid: 4529494d-a081-4f94-8825-e3f87c381974
                 front: Laplace's rule of succession - statement and purpose, interpretation
                 back: >
                         Treats the sunrise problem, respects Cromwell's rule.
                         <br><br>
-                        If [$]X_1,\\ldots X_{n+1}[/$] are conditionally independent
-                        0/1 random variables -- results of an experiment
-                        (e.g., does the sun rise up?) -- and we know nothing
-                        more about them,
-                        then:
+                        Results of an experiment: [$]X_1,\\ldots X_{n+1}[/$]
+                        (conditionally independent 0/1 random variables)
+                        and we know nothing more about them.
                         <br><br>
+                        Then:
+                        <br>
                         [$$]P[X_{n+1}=1|X_1+\\ldots+X_n=s] = \\frac{s+1}{n+2}[/$$]
                         <br><br>
-                        Interpretation: as if we observed 1 success and 1 failure
-                        at first.
+                        Interpretation: as if we observed 1 success and
+                        1 failure at first.
         -
                 uuid: 75b4bcdb-c578-49b9-b5ad-1d65a4e7c880
-                front: Definition - convex set
+                front: >
+                        Definition: Convex set
                 back: >
-                        A region such that for every pair of points within
+                        Region such that for every pair of points within
                         the region, every point on the line segment connecting
                         those is also within the region.
         -
                 uuid: a2660b1d-c888-45a5-ba4f-90a19f97fa34
-                front: Definition - compact set
+                front: >
+                        Definition: Compact set
                 back: >
-                        [$]X[/$] is a compact set if every open cover of [$]X[/$]
+                        [$]X[/$] is compact if every open cover of [$]X[/$]
                         has a finite subcover
+        -
+                uuid: d96e7ab6-2224-40ab-a4f7-8ab5e4323e41
+                front: >
+                        Definition: Quasiordering
+                back: >
+                        Reflexive and transitive relation

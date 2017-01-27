@@ -109,8 +109,8 @@ notes:
                         <br>
                         Podobne realizace funkci.
                         <br>
-                        Struktura: trojice [$]\\mathcal{A}=<A,R^A,F^A>[/$] --
-                        doména (univerzum) -- NEPRÁZDNÁ, realizace relací, realizace funkcí.
+                        Struktura: trojice [$]\\mathcal{A}=<A,R^A,F^A>[/$] &mdash;
+                        doména (univerzum) &mdash; NEPRÁZDNÁ, realizace relací, realizace funkcí.
         -
                 uuid: 206817a7-4702-4c97-a587-78cdb5606734
                 topic: Predikátová logika

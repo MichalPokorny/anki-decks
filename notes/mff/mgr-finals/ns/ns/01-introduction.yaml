@@ -47,11 +47,14 @@ notes:
         -
                 uuid: 0f0c90dc-5bf1-489d-836e-af7c5858e50a
                 front: Co je funkce iontových kanálů?
-                back: Řídí propustnost membrány s ohledem na typ iontů -- jsou oddělené kanály na draslíkové, sodíkové ionty
+                back: >
+                        Řídí propustnost membrány s ohledem na typ iontů
+                        &mdash; jsou oddělené kanály na K, Na
+                        ionty
         -
                 uuid: bb2ea72e-dedc-4fba-95ca-261cad4205f3
                 front: Co je funkce iontových pump?
-                back: Trvale přenášejí ionty draslíku a sodíku, tedy polarizují membránu.
+                back: Trvale přenášejí ionty K a Na, tedy polarizují membránu.
         -
                 uuid: 7b90070a-c895-4e86-9c31-8e7660c26769
                 front: Polarizace neuronového povrchu - jaká je vevnitř, venku?

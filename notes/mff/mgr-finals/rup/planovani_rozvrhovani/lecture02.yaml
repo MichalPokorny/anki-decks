@@ -5,13 +5,14 @@ notes:
                 uuid: 95b3a90e-dbc5-4bab-8713-1468756d7622
                 front: Konceptuální model plánování, cíle; zjednodušení světa?
                 back: >
-                        Stavy: množina, akce: množina, události mimo naši kontrolu,
-                        přechodová funkce<br>
+                        Stavy: množina, akce: množina, události mimo naši
+                        kontrolu, přechodová funkce<br>
                         Cíle: cílový stav / splnění dané podmínky v plánu (např.
-                        "vyhni se tomuhle stavu" / optimalizace objektivní funkce<br>
-
-                        Systém je konečný, plně pozorovatelný, deterministický,
-                        statický (žádné události), cíle jsou jenom dosažení
+                        "vyhni se tomuhle stavu" / optimalizace objektivní
+                        funkce<br>
+                        <br>
+                        Systém: konečný, plně pozorovatelný, deterministický,
+                        statický (žádné události), cíle: jenom dosažení
                         nějakého stavu, plány jsou sekvenční, čas je implicitní
                         (akce jsou okamžité), plánujeme offline
         -
@@ -44,14 +45,15 @@ notes:
                 uuid: 2c07c245-ae07-4fc2-9857-952e41e102ea
                 topic: STRIPS plánování
                 front: >
-                        Definice - přechodová funkce
+                        Definice: Přechodová funkce
                 back: >
-                        Přechodová funkce: [$]\\gamma(s,a)=(s-\\mathrm{eff}^{-}(a))\\cup \\mathrm{eff}^+(a)[/$]
+                        [$]\\gamma(s,a)=(s-\\mathrm{eff}^{-}(a))\\cup \\mathrm{eff}^+(a)[/$]
                         je-li [$]a[/$] použitelná akce.
         -
                 uuid: 0b79d1b3-d1c5-403f-ab8b-49b95b4cc411
                 topic: STRIPS plánování
-                front: Definice - Plánovací problém
+                front: >
+                        Definice: Plánovací problém
                 back: >
                         [$]P = (\\Sigma,s_0,g)[/$], kde [$]\\Sigma=(S,A,\\gamma)[/$]
                         je plánovací doména, [$]s_0[/$] je počáteční stav,
@@ -59,18 +61,24 @@ notes:
         -
                 uuid: 73c1b436-401f-4cec-bdb8-4f0bf63da074
                 topic: STRIPS plánování
-                front: Definice - minimální řešení
-                back: Plán jehož výsledek splňuje cílové výroky a je takový nejkratší.
+                front: >
+                        Definice: Minimální řešení
+                back: >
+                        Plán jehož výsledek splňuje cílové výroky a je takový
+                        nejkratší.
         -
                 uuid: 4e46e196-cd01-43e9-9234-a49402354757
                 topic: STRIPS plánování
-                front: Definice - akce je relevantní pro cíl [$]g[/$]
+                front: >
+                        Definice: Akce [$]a[/$] je relevantní pro cíl [$]g[/$]
                 back: >
-                        Když [$]g\\cap \\mathrm{eff}^+(a)\\neq\\emptyset[/$] a [$]g\\cap \\mathrm{eff}^-(a)=\\emptyset[/$].
+                        Když [$]g\\cap \\mathrm{eff}^+(a)\\neq\\emptyset[/$] a
+                        [$]g\\cap \\mathrm{eff}^-(a)=\\emptyset[/$].
         -
                 uuid: da45bb52-8736-4e6d-9754-e7a707678e33
                 topic: STRIPS plánování
-                front: Definice - regresní množiny
+                front: >
+                        Definice: Regresní množiny
                 back: >
                         Pro cíl [$]g[/$] a relevantní akci [$]a[/$]:
                         [$$]\\gamma^{-1}(g,a)=(g-\\mathrm{eff}^{+}(a))\\cup \\mathrm{precond}(a)[/$$]
@@ -134,22 +142,27 @@ notes:
                 uuid: 12412f4d-9dd1-4855-973f-ca777c25f870
                 topic: STRIPS plánování
                 front: Kdy je akce použitelná?
-                back: Když jsou splněny pozitivní preconditiony a žádný z negativních precondition atomů.
+                back: >
+                        Když jsou splněny pozitivní preconditiony a žádný z
+                        negativních precondition atomů.
         -
                 uuid: 596441a3-8174-41a4-9207-af9eedacabf6
                 topic: STRIPS plánování
                 front: Rozšíření klasického plánování
                 back: >
-                        Typované proměnné.<br>
-                        Existenčně kvantifikované cíle.<br>
-                        Podmíněné operátory ("přepni přepínač" vs. "zapni" a "vypni").<br>
-                        Disjunktivní předpoklady (libovolné formule)<br>
-                        Připojené procedury (složitější předpoklady operátorů)<br>
-                        Logické axiomy (třeba "být vedle je ekvivalence")
+                        <ul>
+                        <li> *Typované proměnné*
+                        <li> *Existenčně kvantifikované cíle*
+                        <li> *Podmíněné operátory* ("přepni přepínač" vs. "zapni" a "vypni")
+                        <li> *Disjunktivní předpoklady* (libovolné formule)
+                        <li> *Připojené procedury* (složitější předpoklady operátorů)
+                        <li> *Logické axiomy* ("být vedle je ekvivalence")
+                        </ul>
         -
                 uuid: 3c7255ce-7c7f-46b0-a41d-b6698f01153b
                 topic: STRIPS plánování
                 front: Co se musí udělat, když rozšíříme klasické plánování o logické axiomy?
                 back: >
-                        Musíme rozdělit atomy na primární (jsou v předpokladech i efektech)
-                        a sekundární (jen v předpokladech) -- příklad "holding/empty"
+                        Rozdělit atomy na primární (jsou v předpokladech i
+                        efektech) a sekundární (jen v předpokladech) &mdash;
+                        příklad "holding/empty"

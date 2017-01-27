@@ -131,7 +131,7 @@ notes:
                 topic: POMDP
                 front: Jak se dají reprezentovat neznámé stavy a konceptuálně hledat správné akce?
                 back: >
-                        Neznámý stav aproximujeme jako belief stav -- vektor
+                        Neznámý stav aproximujeme jako belief stav &mdash; vektor
                         pravděpodobností, že jsem v nějakém stavu.
                         Budu hledat optimální policy pro belief staty:
                         [$]\\pi(b)[/$], kde [$]b(s)\\in[0;1][/$].

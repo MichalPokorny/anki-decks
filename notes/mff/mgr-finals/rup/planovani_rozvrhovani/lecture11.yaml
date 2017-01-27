@@ -160,7 +160,7 @@ notes:
                 front: Co můžeme udělat na propagaci když máme jenom relativní uspořádání?
                 back: >
                         Edge-finding a agregované požadavky nic neodvodí.
-                        Ale stejně můžeme něco zjistit o uspořádání --
+                        Ale stejně můžeme něco zjistit o uspořádání &mdash;
                         pomocí optimistických a pesimistických profilů.
         -
                 uuid: 68c19705-fa0e-4e77-9038-5e04482b7bd8
@@ -227,8 +227,8 @@ notes:
                 topic: Rozvrhovací strategie
                 front: Uspořádání větví podle slacku; kolik je bodů volby?
                 back: >
-                        Jako první budu vybírat pořadí aktivit co jsou nejkritičtější
-                        -- [$]\\min slack(\\{A,B\\})[/$].
+                        Jako první budu vybírat pořadí aktivit co jsou
+                        nejkritičtější &mdash; [$]\\min slack(\\{A,B\\})[/$].
                         <br><br>
                         Vyberu pořadí, které maximalizuje [$]slack(A\\gtrless B)[/$].
                         <br><br>

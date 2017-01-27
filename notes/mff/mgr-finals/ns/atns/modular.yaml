@@ -20,7 +20,7 @@ notes:
                         Jsou [$]\\varepsilon[/$]-ekvivalentní, když pro všechny vstupy [$]\\|y_{B_1} - y_{B_2}\\|\\leq\\varepsilon[/$]
         -
                 uuid: 13d67716-cd49-41a6-8b73-a17101a23771
-                front: Robustnostní chybová funkce -- různé varianty, jejich různé následky
+                front: Robustnostní chybová funkce &mdash; různé varianty, jejich různé následky
                 back: >
                         [$]y_{i,-k}[/$]: výstup [$]i[/$] když zruším neuron [$]k[/$]<br>
 

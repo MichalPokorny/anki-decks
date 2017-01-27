@@ -33,12 +33,17 @@ notes:
         -
                 uuid: 8ec9b8f3-ae22-400d-b61d-8a7147749e1c
                 front: Mental model in Wason's selection task
-                back: "\"[A] 4\" -- subjects don't check B or 7, because it's not in their mental model."
+                back: >
+                        "[A] 4" &mdash; subjects don't check B or 7, because
+                        it's not in their mental model.
                 include_reverse: true
         -
                 uuid: 28b7046d-f77a-41a7-8a88-613d901f0df0
                 front: Advantages of if-then rules over logic
-                back: 'Can express heuristics ("wear brown shoes with brown pants"), plans ("if I have bus fare, I can buy a ticket")'
+                back: >
+                        Can express heuristics ("wear brown shoes with brown
+                        pants"), plans ("if I have bus fare, I can buy
+                        a ticket")
         -
                 uuid: cbe7b1cc-cc71-4d0a-8205-65349d96eeea
                 front: IF-then part of if-then rule

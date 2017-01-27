@@ -43,7 +43,8 @@ notes:
                         Postupně sampluj pro každý stav jaké discountované utility jsme viděli.
                         Stane se z toho supervised learning.<br>
 
-                        Neefektivita: Nepoužíváme Bellmanovy rovnice -- prohledávaný prostor
+                        Neefektivita: Nepoužíváme Bellmanovy rovnice &mdash;
+                        prohledávaný prostor
                         obsahuje fůru funkcí co je nesplňují a pomalu konvergujeme.
         -
                 uuid: 56c13553-e810-4ba1-9b36-d0e032c98581
@@ -68,13 +69,14 @@ notes:
                         Když jsem ještě neviděl stav: řekni že initial utility je reward, [$]R[s]=r'[/$] reward signál
                         <br>
                         Jestli jsem přišel z jiného stavu, inkrementuj počet pozorovaných přechodů.
-                        Updatuj tabulku viděných přechodů -- [$]P(t|s,a)\\leftarrow N_{s'|sa}[t,s,a]/N_{sa}[s,a][/$]
+                        Updatuj tabulku viděných přechodů &mdash;
+                        [$]P(t|s,a)\\leftarrow N_{s'|sa}[t,s,a]/N_{sa}[s,a][/$]
                         <br>
                         [$]U[/$] urči přes policy evaluation.
         -
                 uuid: e42e5279-659a-48b2-9f03-831c0e7fc967
                 topic: Reinforcement learning
-                front: (Passive) temporal-difference learning -- update
+                front: (Passive) temporal-difference learning &mdash; update
                 back: >
                         Používám viděné přechody na postupné updatování utilit.<br>
 
@@ -125,7 +127,7 @@ notes:
         -
                 uuid: b7a2ae3f-3106-438d-8cc5-12b6b5879993
                 topic: Reinforcement learning
-                front: Q-learning -- Q-funkce
+                front: Q-learning &mdash; Q-funkce
                 back: >
                         [$]Q(s,a)[/$] je hodnota akce [$]a[/$] ve stavu [$]s[/$].
                         Je model-free.
@@ -138,21 +140,14 @@ notes:
         -
                 uuid: 005c51b9-bad7-4633-b0e8-b09d403a7746
                 topic: Reinforcement learning
-                front: Q-learning -- rovnice která by měla platit postupně
+                front: Q-learning &mdash; rovnice která by měla platit postupně
                 back: >
                         [$$]Q(s,a)=R(s)+\\gamma\\sum_{s'}P(s'|s,a)\\max_{a'}Q(s',a')[/$$]
                         Ale nebudu se na to učit explicitní model.
         -
-                uuid: d4051f59-bde9-44be-b403-95cfd74d6b3e
-                topic: Reinforcement learning
-                front: Q-learning -- rovnice která by měla platit postupně
-                back: >
-                        [$$]Q(s,a)=R(s)+\\gamma\\sum_{s'}P(s'|s,a)\\max_{a'}Q(s',a')[/$$]
-                        Ale nebudu se na to učit explicitní přechodový model.
-        -
                 uuid: 08559802-8f4c-4c41-ae11-6a2072109c0d
                 topic: Reinforcement learning
-                front: Q-learning -- update
+                front: Q-learning &mdash; update
                 back: >
                         Update se provede kdykoliv udělám akci [$]a[/$] a skončím tím ve stavu [$]s'[/$].<br>
                         [$$]Q(s,a)\\leftarrow Q(s,a)+\\alpha(R(s)+\\gamma\\max_{a'}Q(s',a')-Q(s,a))[/$$]
@@ -161,24 +156,25 @@ notes:
         -
                 uuid: 80a8a8f3-3537-4911-8e9d-8b5f38553cfe
                 topic: Reinforcement learning
-                front: SARSA -- zkratka
+                front: SARSA &mdash; zkratka
                 back: State-Action-Reward-State-Action
         -
                 uuid: 6ea21443-2301-44b6-ae1f-55cc2f09725f
                 topic: Reinforcement learning
-                front: SARSA -- update rule, změna z Q-learning
+                front: SARSA &mdash; update rule, změna z Q-learning
                 back: >
-                        SARSA:
+                        <ul>
+                        <li> *SARSA*:
                         [$$]
                         Q(s,a)\\leftarrow Q(s,a)+\\alpha(R(s)+\\gamma Q(s',a')-Q(s,a))
                         [/$$]
                         <br>
                         Provede se při každém [$]s,a,r,s',a'[/$] přechodu.
-                        <br>
-                        Q-learning:
+                        <li> *Q-learning*:
                         [$$]
                         Q(s,a)\\leftarrow Q(s,a)+\\alpha(R(s)+\\gamma \\max_{a'} Q(s',a')-Q(s,a))
                         [/$$]
+                        </ul>
         -
                 uuid: 15ee1ee2-e64d-41f8-98ae-0fbd136a0b53
                 topic: Reinforcement learning

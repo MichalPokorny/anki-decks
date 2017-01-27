@@ -75,12 +75,15 @@ notes:
                 uuid: 03be83bc-1276-432d-945c-16ff4459ba53
                 front: Totální/lineární uspořádaní - co to je?
                 back: >
-                        Relace, co je reflexivní, tranzitivní a antisymetrická -- a navíc dichotomní (buď [$]x\\leq y[/$], nebo [$]y\\leq x[/$])
+                        Relace, co je reflexivní, tranzitivní a antisymetrická
+                        &mdash; a navíc dichotomní
+                        (buď [$]x\\leq y[/$], nebo [$]y\\leq x[/$])
         -
                 uuid: 121e98af-2fa4-4424-89db-a35176fe929b
                 front: Dobré uspořádaní - co to je?
                 back: >
-                        Lineární uspořádání, ve kterém každá neprázdná množina obsahuje nejmenší prvek.
+                        Lineární uspořádání, ve kterém každá neprázdná množina
+                        obsahuje nejmenší prvek.
         -
                 uuid: a70d9d08-6b88-4d9c-b376-3c8af7c41a98
                 front: Husté uspořádaní - co to je?

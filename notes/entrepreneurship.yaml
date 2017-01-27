@@ -7,11 +7,17 @@ notes:
         -
                 uuid: d8b48889-cb60-416b-8d09-cb0ead39eeb5
                 front: CPM
-                back: Cost per 1000 (mille) -- (impressions)
+                back: Cost per 1000 (mille) &mdash; (impressions)
         -
                 uuid: 357ce6d4-a5d6-43e8-b5b3-ce3db0bbc54a
                 front: Dwell time
-                back:  the actual length of time that a visitor spends on a page before returning to the SERPs. In theory, the longer the dwell time the better, as this indicates that the visitor has consumed most (if not all) of the content on a page before either returning to the SERPs or performing another action on the site
+                back: >
+                        Actual length of time that a visitor spends on page
+                        before returning to SERPs. In theory, the longer
+                        the better, as this indicates visitor has consumed most
+                        content on page before returning to the SERPs or
+                        performing another action on the site.
+                include_reverse: true
         -
                 uuid: 0ab26294-c790-4a1f-92e1-037a7fe979b6
                 front: SERP
@@ -19,18 +25,23 @@ notes:
         -
                 uuid: 0f5d3f80-e2c2-466b-a7de-150c8d341e71
                 front: Bounce rate
-                back: the percentage of single-page sessions (i.e. sessions in which the person left your site from the entrance page without interacting with the page)
+                back: >
+                        Percentage of single-page sessions (i.e. sessions
+                        where person left site from entrance page without
+                        interacting with the page)
+                include_reverse: true
         -
                 uuid: eaf86a49-059f-4287-b781-5c7656166be2
                 front: SMART criteria
                 back: >
                         Criteria to guide setting objectives.<br><br>
-
-                        Specific – target a specific area for improvement.<br>
-                        Measurable – quantify or at least suggest an indicator of progress.<br>
-                        Achievable/assignable (to someone)<br>
-                        Relevant/realistic - relevant: bigger picture and vision<br>
-                        Time-bound – specify when the result(s) can be achieved.<br>
+                        <ul>
+                        <li> *Specific*: target specific area for improvement
+                        <li> *Measurable*: quantify or at least suggest indicator of progress
+                        <li> *Achievable/assignable* (to someone)
+                        <li> *Relevant/realistic*: relevant: bigger picture and vision
+                        <li> *Time-bound*: specify when result(s) can be achieved
+                        </ul>
         -
                 uuid: 15043b5b-e8e7-405c-a258-c3a7e7c43072
                 front: CTR

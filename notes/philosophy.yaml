@@ -3,24 +3,31 @@ notes:
         -
                 uuid: 52cfdda7-5ce1-4cd6-bd66-d80ee78ef122
                 front: Hedonism
-                back: Ethical theory that claims good and bad == pleasure and pain
+                back: >
+                        Ethical theory that claims good/bad = pleasure/pain
         -
                 uuid: d3414442-098c-4aad-91b3-edc6e2e99bdf
                 front: Holism
-                back: Theory that parts of a whole are in intimate interconnection, such that they cannot exist independently of the whole
+                back: >
+                        Theory that parts of whole are in intimate
+                        interconnection, such that they cannot exist
+                        independently of the whole
         -
                 uuid: 9c11e872-ea5c-4c12-8c77-18b6e9043ebf
                 front: Bad faith
-                back: A refusal to accept the absurd (existentialism)
+                back: >
+                        Refusal to accept the absurd (existentialism)
         -
                 uuid: 12dea366-9b31-4e3a-bbb4-0663aeffe220
-                front: solipsism
-                back: the view or theory that the self is all that can be known to exist.
+                front: Solipsism
+                back: >
+                        View or theory that the self is all that can be known
+                        to exist.
                 include_reverse: true
         -
                 uuid: 400378e0-9601-42e0-b77a-d0ee215842af
-                front: metaphysics
+                front: Metaphysics
                 back: >
-                        the theory of reality: "What is there?"
+                        Theory of reality: "What is there?"
                 include_reverse: true
 

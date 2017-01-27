@@ -82,7 +82,7 @@ notes:
         -
                 uuid: 5416283c-eafd-42f5-8ebd-b48bf1061db9
                 front: Čím je určena nezávislost akcí?
-                back: Doménou -- nikoli konkrétním problémem
+                back: Doménou &mdash; nikoli konkrétním problémem
         -
                 uuid: 7dd3d00d-d9d9-418c-9232-acf1bfc58283
                 front: Použitelnost, výsledek aplikace množiny nezávislých akcí
@@ -135,12 +135,16 @@ notes:
                         [$]\\mu P_i[/$]
         -
                 uuid: 321aba0e-8fdf-4268-9026-a5a54a16ddb2
-                front: Formálně -- kdy jsou dvě akce [$]a[/$], [$]b[/$] mutex v úrovni [$]A_i[/$]?
+                front: >
+                        Formálně &mdash; kdy jsou akce [$]a[/$], [$]b[/$] mutex
+                        v úrovni [$]A_i[/$]?
                 back: >
                         Když jsou závislé, nebo předpoklad [$]a[/$] je mutex předpokladu [$]b[/$] v předchozí úrovni
         -
                 uuid: 36a1ee65-bb8c-4a9d-b779-c19ffad853ec
-                front: Formálně -- kdy jsou dva atomy (výroky) mutex v úrovni [$]P_i[/$]?
+                front: >
+                        Formálně &mdash; kdy jsou atomy [$]p[/$], [$]q[/$]
+                        mutex v úrovni [$]P_i[/$]?
                 back: >
                         Když každá akce v [$]A_i[/$], která má [$]p[/$] jako pozitivní
                         efekt, je mutex každé akce, co má [$]q[/$] jako pozitivní efekt,

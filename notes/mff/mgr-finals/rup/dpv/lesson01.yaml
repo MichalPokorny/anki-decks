@@ -72,7 +72,8 @@ notes:
                         <li>Přidej nové ohodnocení do modelu.
                         <li>(@) Udělej unit propagaci
                         <li>Jestli unit propagace dopadla špatně,
-                        <li>zanalyzuj konflikt -- najdi backtrack úroveň a vlož novou naučenou konfliktní klauzuli,
+                        <li>zanalyzuj konflikt &mdash; najdi backtrack úroveň,
+                            vlož novou naučenou klauzuli,
                         <li>backtrackuj před konflikt (smaž pozdější přiřazení),
                         <li>jdi na (@)
                         </ul>
@@ -146,8 +147,8 @@ notes:
                         <br>
                         Pro každou proměnnou si pamatuju označené výskyty.
                         Když dosadím třeba [$]x_1=0[/$], zkontroluju jenom
-                        klauzule co sledují [$]x_1[/$] -- potřebuju v nich
-                        najít další proměnnou ke sledování. Jestli neexistuje,
+                        klauzule co sledují [$]x_1[/$] &mdash; v nich
+                        hledám další proměnnou ke sledování. Neexistuje-li,
                         tak z klauzule zbyla jednotková klauzule.
         -
                 uuid: 75e77a4d-deea-4807-86d3-fbeede06e813

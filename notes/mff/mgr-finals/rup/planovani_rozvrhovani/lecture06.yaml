@@ -27,7 +27,7 @@ notes:
         -
                 uuid: 80193da3-fdfe-4d45-abc6-2ce0486fdc70
                 topic: Plánování jako SAT
-                front: Frame axioms -- dva způsoby
+                front: Frame axioms &mdash; dva způsoby
                 back: >
                         <ul>*Klasické*: proměnné co nejsou efekty
                         se nemění [$](p\\not\\in \\mathrm{eff}^+(a))::

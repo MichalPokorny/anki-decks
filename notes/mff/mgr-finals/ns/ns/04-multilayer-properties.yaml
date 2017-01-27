@@ -7,12 +7,12 @@ notes:
                 back: Každá funkce jde aproximovat prahovými jednotkami s libovolně malou chybou. To samé jde i se sigmoidami.
         -
                 uuid: 57831b2e-2ac4-4bc6-b420-38e3dd343898
-                front: Počet oblastí určených [$]m[/$] dělícími nadrovinami dimenze [$]n-1[/$] v [$]n[/$]-rozměrném prostoru -- rekurzivní vzorec
+                front: Počet oblastí určených [$]m[/$] dělícími nadrovinami dimenze [$]n-1[/$] v [$]n[/$]-rozměrném prostoru &mdash; rekurzivní vzorec
                 back: >
                         [$]R(m,n)=R(m-1,n)+R(m-1,n-1)[/$]
         -
                 uuid: 99ccc2b2-92aa-42f0-9324-395f522bd8ad
-                front: Počet oblastí určených [$]m[/$] dělícími nadrovinami dimenze [$]n-1[/$] v [$]n[/$]-rozměrném prostoru -- closed-form vzorec
+                front: Počet oblastí určených [$]m[/$] dělícími nadrovinami dimenze [$]n-1[/$] v [$]n[/$]-rozměrném prostoru &mdash; closed-form vzorec
                 back: >
                         [$]R(m,n)=2 \\sum_{i=0}^{n-1} { {m-1} \\choose {i}}[/$]
         -

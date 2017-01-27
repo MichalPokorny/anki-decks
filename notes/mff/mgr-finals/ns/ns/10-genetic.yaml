@@ -5,38 +5,46 @@ notes:
                 uuid: 8949770d-17e2-4828-9311-0222a69d69b6
                 front: Použití genetických algoritmů v učení NS
                 back: >
-                        Dají se použít normální strategie - crossover a mutace (na malých sítích) -- jako optimalizace spojitých funkcí.<br>
+                        Dají se použít normální strategie - crossover a mutace
+                        (na malých sítích) &mdash; jako optimalizace spojitých
+                        funkcí.<br>
 
                         Algoritmus NEAT.
         -
                 uuid: 00546be9-75f8-49af-b562-ff8f95712268
                 front: Jednoduchý genetický algoritmus
                 back: >
-                        Populace; binární (nebo jiný) genotyp; fitness funkce<br>
+                        Populace; binární (nebo jiný) genotyp; fitness funkce
 
-                        1) Spočítej ohodnocení<br>
-                        2) Selektivní reprodukcí vyber novou populaci<br>
-                        3) Proveď křížení<br>
-                        4) Mutuj chromosomy<br>
+                        <ol type="1">
+                        <li> Spočítej ohodnocení
+                        <li> Selektivní reprodukcí vyber novou populaci
+                        <li> Proveď křížení
+                        <li> Mutuj chromosomy
+                        </ol>
 
                         Reprodukce ruletou.
         -
                 uuid: 89dee31c-00c2-4498-b510-539194330190
                 front: Problémy jednoduché ruletové selekce a řešení
                 back: >
-                        Když mají všichni jedinci stejné ohodnocení, nebo jich pár silně dominuje.
+                        Když mají všichni jedinci stejné ohodnocení, nebo jich
+                        pár silně dominuje.<br><br>
 
-                        Řešení: škálování: zvětšit nebo zmenšit rozdíly; selekce podle pořadí (a jemu úměrná ruletová hmotnost)
+                        Řešení: škálování: zvětšit nebo zmenšit rozdíly;
+                        selekce podle pořadí (a jemu úměrná ruletová hmotnost)
         -
                 uuid: 4506dd19-9727-46f9-b572-e35b1d8a0441
                 front: Selekce s ořezáváním
                 back: >
-                        Jedince uspořádej podle dobrosti, okopíruj nejlepších [$]X[/$] [$]Y[/$]-krát
+                        Jedince uspořádej podle dobrosti, okopíruj nejlepších
+                        [$]X[/$] [$]Y[/$]-krát
         -
                 uuid: c786470f-76d9-4a68-b591-592478196b7c
                 front: Turnajová selekce
                 back: >
-                        Vezmi dva jedince; ten, co vyhraje (podle nějakého parametru) se zkopíruje
+                        Vezmi dva jedince; ten, co vyhraje (podle nějakého
+                        parametru) se zkopíruje
         -
                 uuid: 003d14ee-206b-4c43-aa2c-bf70d981622f
                 front: Elitismus

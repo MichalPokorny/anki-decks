@@ -40,16 +40,24 @@ notes:
         -
                 uuid: acdb9620-ef06-4822-aa73-30b9efc8233a
                 front: Collapse whitespace in output of program into one space
-                back: "`echo $(some program)`"
+                back: >
+                        `echo $(some program)`
                 include_reverse: true
         -
                 uuid: 82d78c9f-8461-442e-b970-34c7fc57f7df
-                front: 'Difference in `source` behavior between `bash` and `sh`'
-                back: "In `sh`, `source` searches in `$PATH`. In `bash`, it also searches in `$CWD`."
+                front: >
+                        Difference in `source` behavior between `bash` and `sh`
+                back: >
+                        <ul>
+                        <li> `sh`: `source` searches in `$PATH`
+                        <li> `bash`: it also searches in `$CWD`
+                        </ul>
         -
                 uuid: 983e1c51-c9f6-4c5c-beee-be968104be7e
                 front: "Use program input/output pipes as file paths"
-                back: "`wc -l <(cat x.txt); ./someprog --output-file >(./process-somehow)`"
+                back: >
+                        `wc -l <(cat x.txt);
+                        ./someprog --output-file >(./process-somehow)`
                 include_reverse: true
         -
                 uuid: b495afb3-6386-4811-a30b-1063eb1a91c6

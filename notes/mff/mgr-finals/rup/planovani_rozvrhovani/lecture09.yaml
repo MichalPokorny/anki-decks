@@ -27,7 +27,7 @@ notes:
                 front: Jak vypadají optimalizační heuristiky? Kdy jsou přípustné?
                 markdown: false
                 back: >
-                        Heuristiky [$]h(u)[/$] odhadují [$]h^*(u)[/$] -- cenu nejlepšího řešení.
+                        Heuristiky [$]h(u)[/$] odhadují [$]h^*(u)[/$] &mdash; cenu nejlepšího řešení.
                         Přípustné heuristiky jsou když [$]h(u)\leq h^*(u)[/$]
                         (pro minimalizaci ceny).
         -
@@ -50,7 +50,7 @@ notes:
                         <li>[$]\\Delta_0(s,g)=\\sum_{p\\in g}\\Delta_0(s,p)[/$]
                         </ul>
 
-                        Toto není přípustná heuristika -- není to dolní odhad vzdálenosti.
+                        Toto není přípustná heuristika &mdash; není to dolní odhad vzdálenosti.
         -
                 uuid: 697e6738-7009-4bc5-9667-ccfa303f402d
                 front: Heuristika [$]\\Delta_1[/$]

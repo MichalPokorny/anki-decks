@@ -70,7 +70,8 @@ notes:
                         nad proměnnými,
                         <li>
                         [$]C[/$] je množina 1. objektových podmínek
-                        (vazby proměnných -- [$]x\\in D,x=y,x\\neq y[/$] --
+                        (vazby proměnných &mdash;
+                        [$]x\\in D,x=y,x\\neq y[/$] &mdash;
                         a vztahy dané neměnnými relacemi) a
                         2. časových podmínek (</=/> nad časovými proměnnými)
                         </ul>
@@ -108,7 +109,8 @@ notes:
                 uuid: 136cb068-5048-4c9e-a35f-b3780169821a
                 front: Jak můžu separovat akce kromě separační podmínky?
                 back: >
-                        Separováním objektových proměnných -- [$]X(a),X(b)\\rightarrow a\\neq b[/$]
+                        Separováním objektových proměnných &mdash;
+                        [$]X(a),X(b)\\rightarrow a\\neq b[/$]
         -
                 uuid: 7d7195eb-5c3e-4eb7-8aa7-c19d580a4de5
                 front: Definice - Kdy je časová osa *konzistentní*?
@@ -149,8 +151,8 @@ notes:
                         pomocníkem [$]\\delta_i[/$] takovým, že [$]\\Phi\\cup\\Psi[/$]
                         je konzistentní kronika ([$]\\Psi=\\bigcup_i \\delta_i[/$]).
                         <br><br>
-                        Definice umožňuje *interferující efekty* -- přidané
-                        výroky se můžou navzájem podporovat.
+                        Definice umožňuje *interferující efekty* &mdash;
+                        přidané výroky se můžou navzájem podporovat.
                         <br><br>
                         [$]\\Psi[/$] je pomocník pro [$]\\varepsilon[/$] (a není jednoznačný)
         -

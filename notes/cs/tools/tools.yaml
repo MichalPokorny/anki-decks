@@ -836,8 +836,8 @@ notes:
                 include_reverse: true
         -
                 uuid: 74329575-4cfe-4e5d-a66e-00db0f0c8e85
-                front: Print a string a lot
-                back: "`cal`"
+                front: Print string a lot
+                back: "`yes`"
                 include_reverse: true
         -
                 uuid: 4da36e14-a810-4961-9d62-435aaab07287
@@ -846,12 +846,17 @@ notes:
         -
                 uuid: 30aca0a0-6dc5-4acd-8f00-3daa7840e676
                 front: Convert between tabs and spaces
-                back: "`expand`/`unexpand`"
+                back: >
+                        `expand`/`unexpand`
         -
                 uuid: 529ee30e-4575-43e3-a84b-29b72cff8a1f
                 front: Create/lock semaphore file
-                back: "`lockfile`"
+                back: >
+                        `lockfile`
         -
                 uuid: 68dc5c50-6240-4cfc-8152-6b3b8ca7d556
-                front: Read all input before writing it -- for reading then writing to the same file
-                back: "`sponge`"
+                front: >
+                        Read all input before writing it &mdash; for reading
+                        then writing to the same file
+                back: >
+                        `sponge`

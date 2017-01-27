@@ -5,37 +5,47 @@ notes:
         -
                 uuid: 7fc778ea-e597-42cc-aa28-b2b8f71f5c90
                 front: Surround with braces
-                # TODO: does this format properly?
-                back: "
-                        ```
-                        = surround \"(\", \")\" do
-                            = link_to \"learn more\", \"#\"
-                        ```
-                "
+                markdown: false
+                include_reverse: true
+                back: >
+                        <pre>
+                        = surround "(", ")" do
+                            = link_to "learn more", "#"
+                        </pre>
         -
                 uuid: d2000fca-d012-41c3-b4f0-5a7cf69a57d3
                 front: Avoid empty (void) tag
-                back: "`%br/`; automatic for img, br, hr, input, ..."
+                back: >
+                        `%br/`; automatic for img, br, hr, input, ...
         -
                 uuid: f0b28bbf-49a3-4a19-a7fc-8e8c52025751
-                front: Building attributes from 1 or more hashes combined with extras
+                front: >
+                        Build attributes from 1 or more hashes combined with
+                        extras
+                markdown: false
                 back: >
-                        ```
+                        <pre>
                         def f1; { ... }; end
                         def f2; { ... }; end
-                        %sandwich{f1, f2, xyzzy: :foo}/ ==> <sandwich ... />
-                        ```
+                        %sandwich{f1, f2, xyzzy: :foo}/
+                        </pre>
+                        &rarr; <sandwich ... />
         -
                 uuid: 83a61a5a-ac13-4271-b86e-094fba0a24da
                 front: Immediately close
-                back: "`%sandwich{xyzzy: :foo}/` ==> `<sandwich xyzzy=\"foo\" />`"
+                back: >
+                        `%sandwich{xyzzy: :foo}/` &rarr;
+                        `<sandwich xyzzy="foo" />`
         -
                 uuid: 52813bf9-2306-49e6-af5b-e2c95a07fae4
                 front: Selected `<input>` tag
-                back: "`%input(selected)`"
+                back: >
+                        `%input(selected)`
         -
                 uuid: ec6567d8-204a-4275-ba1a-b43e8e80535a
-                front: "Combining statically given class `c1` and `c2` with dynamic `c3`"
+                front: >
+                        Combining statically given class `c1` and `c2` with
+                        dynamic `c3`
                 back: "`%div.c1.c2{class: c3}`"
                 include_reverse: true
         -
@@ -45,21 +55,19 @@ notes:
                 include_reverse: true
         -
                 uuid: 18c59d10-b9d1-421a-892c-151e3a580b79
-                front: "Precede tag with `*`"
-                # TODO: does this format properly?
-                back: "
-                        ```
+                markdown: false
+                front: Precede tag with <code>*</code>
+                back: >
+                        <pre>
                         = precede '*' do
                             %span Required
-                        ```
-                "
+                        </pre>
         -
                 uuid: fddd829a-82a6-4eee-bd69-536a958e124a
-                front: "Succeed tag with `*`"
-                # TODO: does this format properly?
-                back: "
-                        ```
+                markdown: false
+                front: Succeed tag with <code>*</code>
+                back: >
+                        <pre>
                         = succeed '*' do
                             %span This is a star:
-                        ```
-                "
+                        </pre>

@@ -44,7 +44,7 @@ notes:
 
                         Když nás zajímá [$]\\mathbf{P}(A|b)[/$],
                         stačí: [$]\\mathbf{P}(A|b)=\\alpha \\mathbf{P}(A,b)[/$]
-                        -- dělitelé jsou stejní, víme že se to má posčítat na 1.
+                        &mdash; dělitelé jsou stejní, víme že se to má posčítat na 1.
         -
                 uuid: 5743e1a2-606e-4383-bc3b-f53fb76ad491
                 topic: Nejistota

@@ -69,7 +69,7 @@ notes:
                         nezruším.
         -
                 uuid: cbc43b9b-fafe-4437-9400-c6b79caf42f7
-                front: Ground-STRIPS algoritmus -- popis
+                front: Ground-STRIPS algoritmus &mdash; popis
                 back: >
                         Začni s prázdným plánem.
 
@@ -87,7 +87,7 @@ notes:
                 back: >
                         Velký větvící faktor a spousta alternativních pořadí akcí.
                         <br>
-                        Řešení: least commitment -- nerozhoduj co nemusíš rozhodnout teď
+                        Řešení: least commitment &mdash; nerozhoduj co nemusíš rozhodnout teď
         -
                 uuid: 336a7bd4-ef38-4070-b831-c06971860289
                 front: Sussmanova anomálie

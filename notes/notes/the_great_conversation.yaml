@@ -3,7 +3,7 @@ notes:
         -
                 uuid: 1878e77c-59db-4b85-a94c-78af30e67e1c
                 front: >
-                        Who said: The unexamined life is not worth living.
+                        Author: "The unexamined life is not worth living."
                 back: Socrates
         -
                 uuid: 3a787a6e-9d59-4b44-9823-84dc239fde0d
@@ -19,7 +19,8 @@ notes:
                 back: 6/5th century BC, Greece
         -
                 uuid: eca0ea94-34ad-4f12-8052-0e9b23fd1780
-                front: Author of Theogony
+                front: >
+                        author: Theogony
                 back: Hésiodos
         -
                 uuid: d9b1ba56-35ae-4409-829f-cbe207b99777
@@ -38,12 +39,21 @@ notes:
                 uuid: aeda7754-bd2b-4ed0-a50c-7eb75a0ac8af
                 topic: Theogony
                 front: Ancestors of Gods
-                back: Earth (Gaia), Heaven (Ouranos)
+                back: Earth, Heaven
+        -
+                uuid: 7c585007-c833-4c93-80fb-4be070d0503d
+                front: Greek for Earth
+                back: Gaia
         -
                 uuid: 028581a6-fdb1-4e9f-b207-80aab11af073
                 topic: Theogony
                 front: First race of gods
-                back: Titans and three Cyclops, and three other sons (each with 100 arms, 50 heads)
+                back: Titans and three Cyclops, and three other sons
+        -
+                uuid: b742c5ae-8582-4770-89d1-a8f0c43611ff
+                topic: Theogony
+                front: Body characteristics of "three horrible sons"
+                back: Each with 100 arms, 50 heads
         -
                 uuid: fa901b9d-ce6d-459d-a6ef-05d73ce762d5
                 topic: Theogony
@@ -55,7 +65,7 @@ notes:
                 front: What did Kronos do?
                 back: >
                         Castrated his father (Heaven) because Earth
-                        hated the three horrible sons (100 arms, 50 heads).
+                        hated the three horrible sons.
         -
                 uuid: 3998a41a-47fe-4227-8035-e3e9f7ad6c95
                 topic: Theogony
@@ -121,19 +131,22 @@ notes:
         -
                 uuid: 8db33bec-1488-455c-9bee-2d8adb55481f
                 topic: Theogony
-                front: What were the names of the "mighty and violent sons"?
+                front: >
+                        names: "Mighty and violent sons"
                 back: >
                         Kottos, Gyes, Briareus
         -
                 uuid: 58dd32eb-a7ac-464b-9479-cf843a6e103e
                 topic: Theogony
-                front: What were the names of the Cyclops?
+                front: >
+                        names: Cyclops
                 back: >
                         Brontes, Arges, Steropes
         -
                 uuid: 31e82dfa-58c6-470b-9d0f-5a149afe4a18
                 topic: Theogony
-                front: How long was the war with Titans?
+                front: >
+                        duration: war with Titans
                 back: 10 years
         -
                 uuid: c92f2f32-307c-4b9d-b347-2744deaab778
@@ -158,7 +171,8 @@ notes:
                         </ul>
         -
                 uuid: d98db150-0921-43f7-826a-57290cc002dc
-                front: Great teacher of all subjects to Greeks
+                front: >
+                        name: Great teacher of all subjects to Greeks
                 back: Homer
         -
                 uuid: 86de09c0-763f-42ed-8435-47faeca801ae
@@ -178,15 +192,17 @@ notes:
                 back: The Iliad, The Odyssey
         -
                 uuid: 1c7915b8-6245-46c8-a2be-5e29f49f28ec
-                front: Topic of The Iliad
+                front: >
+                        topic: The Iliad
                 back: Trojan war
         -
                 uuid: 6d395784-b933-4dc2-be6a-e7ff3e07a3dd
-                front: Length of Trojan war
+                front: >
+                        duration: Trojan war
                 back: 9 years
         -
                 uuid: 69c975a5-68a6-4251-be8c-03f3bdb29868
-                front: What was Homer's handicap?
+                front: Homer's handicap
                 back: Blindness
         -
                 uuid: e4520056-ca92-4006-99b4-b8a7099cc531
@@ -211,7 +227,6 @@ notes:
                 back: Priam, king of Troy
         -
                 uuid: 4baa97e5-b127-4579-b447-c8d6d1f91950
-                topic: Trojská válka
                 front: Co je Achaea?
                 back: Poloostrov v jižním Řecku
         -
@@ -238,7 +253,7 @@ notes:
                 uuid: fa916494-1512-4a8c-a325-2754cc88b9e4
                 topic: Trojská válka
                 front: Kdo poslal mor na Agamemnonovu armádu?
-                back: Apollo, syn Dia
+                back: Apollo
         -
                 uuid: 5f92ce1e-87d5-427f-bb1f-b63e119a3423
                 topic: Trojská válka
@@ -252,8 +267,8 @@ notes:
                         Protože ho Agamemnon urazil.<br>
                         <br>
                         Při nájezdu na spojence Tróje Řekové zajmuli
-                        dívku, dceru Apolova kněžího. Armáda ji dala Agamemnonovi.
-                        Kněz přišel žádat o její návrat za rukojmí, ale
+                        dceru Apolova kněžího. Armáda ji dala Agamemnonovi.
+                        Kněz žádal o její návrat za výkupné,
                         byl hrubě odmítnut. Kněz požádal Apolla o pomoc.
         -
                 uuid: a8803aca-c4f0-419d-b1dd-622ff764a5d3
@@ -270,7 +285,8 @@ notes:
                         Nechtěl se vzdát dívky Apollova kněžího.
                         Vzdal se jí, ale chtěl za ni Achillovu cenu,
                         obzvlášť hezkou dívku.
-                        Pohádali se a Achilles se vrátil do stanu a odmítal dál bojovat.
+                        Pohádali se, Achilles se vrátil do stanu a odmítal dál
+                        bojovat.
         -
                 uuid: 316fdcd9-e421-421f-a6d6-abfdbb89892e
                 topic: Trojská válka
@@ -280,7 +296,8 @@ notes:
         -
                 uuid: a741eb32-9f23-4d00-b29f-b96693c5905a
                 topic: Trojská válka
-                front: Jak se jmenoval Achillův nejlepší přítel?
+                front: >
+                        name: Achilles's best friend
                 back: Patroclus
         -
                 uuid: 07c0e2d0-e670-45a6-9332-7e95657e35d8
@@ -394,7 +411,7 @@ notes:
                 back: Thales of Miletus
         -
                 uuid: c6561815-915a-446b-93df-fa57beed4cd2
-                front: What were Thales's main views?
+                front: Thales's main views
                 back: >
                         <ul>
                         <li> The cause and element of all things is water.
@@ -415,9 +432,10 @@ notes:
                         into this world, not in another.
         -
                 uuid: a44d773e-0a80-4860-96ea-1f42d7ce96cb
-                front: Anaximander - where was he from? When was he born? Who did he probably know?
+                topic: Anaximander
+                front: Year, place of birth? Who did he probably know?
                 back: >
-                        He was from Miletus, born around 612 BC. He may have known Thales.
+                        Miletus, around 612 BC. He may have known Thales.
         -
                 uuid: 3a122a1c-e89f-43c1-a8a4-e2cd7ee7d431
                 front: Anaximander's ideas
@@ -431,23 +449,25 @@ notes:
                         Reinterpreting gods with a wide justification ("the cause of all causes")
         -
                 uuid: b87327f3-b95c-45dd-a433-87f0cc81a294
-                front: Greeks's problem with Thales's idea of "everything is water"
+                front: Greeks's problem with Thales's idea "everything is water"
                 back: >
                         How are there opposites if everything is one?
                         (e.g., how is something dry and something wet?)
         -
                 uuid: 7ccddca0-7edd-4096-a175-47b1ab023f70
-                front: The source of all things according to Anaximander
+                front: Source of all things according to Anaximander
                 back: >
                         The One and the Boundless
                 include_reverse: true
         -
                 uuid: 3c9775c1-81c9-4bdc-817e-ee560a5933a1
-                front: Everything is water - who thought that?
+                front: >
+                        *Everything is water* - who thought that?
                 back: Thales
         -
                 uuid: e3a9566c-2594-4b8c-9426-2357c30d1c3f
-                front: Everything is The One/the Boundless - who thought that?
+                front: >
+                        *Everything is The One/the Boundless* - who thought that?
                 back: Anaximander
         -
                 uuid: 8f0b0cdc-2f4d-4304-88c9-02e955959550
@@ -457,16 +477,18 @@ notes:
                         <br>
                         Take a big pan and put in water, stones, sand, etc.
                         <br>
-                        Swirl the water around.
+                        Swirl it around.
                         <br>
                         Like goes to like: heavy bits to heavy bits, etc.
-                        <br>
-                        How do we know that the Boundless swirls? Sun, moon,
-                        stars, etc. swirl.
+        -
+                uuid: 4fd11448-ab95-4cb7-966c-65c2a7c81f57
+                topic: Anaximander
+                front: How do we know that the Boundless swirls?
+                back: Sun, moon, stars, etc. swirl.
         -
                 uuid: 34c83b80-9776-4e22-b9ad-caaeb5f6df72
                 topic: Anaximander
-                front: What is the order of elements by weight?
+                front: Order of elements by weight
                 back: Fire (lightest and hot), air, water, earth (heaviest and cold)
         -
                 uuid: d4a1f8f6-c733-491f-b2fe-444b8aa80503
@@ -495,10 +517,9 @@ notes:
                 topic: Xenophanes
                 front: Two points of critique of gods
                 back: >
-                        Gods (of Hesiod/Homer) are unworthy of admiration or reverence.
+                        Gods (of Hesiod/Homer) are unworthy of admiration.
                         They decept, steal, sleep with each others' wives, etc.
                         (Later further developed by Plato.)
-                        <br>
         -
                 uuid: 888321eb-43d7-4e3d-a303-73e9e94c7af4
                 topic: Xenophanes
@@ -537,7 +558,7 @@ notes:
         -
                 uuid: 8f3dcd53-cfe0-4728-b11d-59c6983d55c0
                 front: >
-                        Year: Pythagoras born
+                        Year: Birth of Pythagoras
                 back: 570 BC
         -
                 uuid: 52f211fe-738d-4d16-8446-a2598b95b245
@@ -549,23 +570,31 @@ notes:
                 uuid: 93bfa43c-c906-4dd0-85f1-274fd954cfff
                 front: Music of the spheres
                 back: >
-                        Pythagoreans believed sun, moon etc. make a noise as they move (like a piece of wood on a string).
+                        Pythagoreans believed sun, moon etc. make a noise as
+                        they move (like a piece of wood on a string).
                         This is a cosmic harmony.
         -
                 uuid: 9ef544ed-a716-44ac-9f48-053b1d1a8bad
-                front: Pythagoras about the soul
+                topic: Pythagoras
+                front: On the soul
                 back: >
                         It's a distinct immortal entity, "entombed" in a body.
                         Afterwards, it migrates to a different body,maybe to an animal.
-                        Mathematics was a means to purify the soul.
+        -
+                uuid: 223fde7f-2e82-4141-bb8f-35d47d9dd325
+                topic: Pythagoras
+                front: Means to purify the soul
+                back: >
+                        Mathematics
         -
                 uuid: 0c3241cf-c307-42ef-8a37-e9b4de83cd1e
                 front: Why were Pythagoreans vegetarians?
                 back: >
-                        Because they believed in reincarnation.
+                        Belief in reincarnation
         -
                 uuid: 6168337a-4d0f-4470-b1fd-89f279c7235d
-                front: Pythagoras on philosophers
+                topic: Pythagoras
+                front: On philosophers
                 back: >
                         Pythagoras first called himself a philosopher, a lover of wisdom.
                         According to him, noone is wise but god.
@@ -597,9 +626,13 @@ notes:
                 front: Heraclitus' principles
                 back: >
                         <ul>
-                        <li> All things come into being through opposition, and all are in flux, like a river
-                        <li> Upon those who step into the same rivers flow other and yet other waters ("you cannot step into the same river twice")
-                        <li> Things that are opposite are at the same time one ("sea water is very pure - drinkable/healthful for fish - and impure - to men").
+                        <li> All things come into being through opposition, and
+                             all are in flux, like a river
+                        <li> Upon those who step into the same rivers flow other
+                             and yet other waters ("you cannot step into the same river twice")
+                        <li> Things that are opposite are at the same time one
+                             ("sea water is very pure - drinkable/healthful for
+                             fish - and impure - to men").
                              The way up and the way down are the same.
                         <li> Tension/opposition/conflict are necessary
                         </ul>
@@ -607,8 +640,10 @@ notes:
                         Flux: river/fire
         -
                 uuid: 7493b2c1-84d2-44a4-9fd1-8d7a6de6954d
-                front: Where are sun/stars, according to Araximander?
-                back: Outermost ring of fire (luminous aether); gods live there, Olympus is immersed in it
+                front: Where are sun/stars, according to Anaximander?
+                back: >
+                        Outermost ring of fire (luminous aether); gods live
+                        there, Olympus is immersed in it
         -
                 uuid: a522198c-abe7-4584-a381-660e2b8847ae
                 front: Heraclitus' view of strife
@@ -679,17 +714,17 @@ notes:
         -
                 uuid: 2528b597-5fe6-4826-aa7f-eb5c5c2b5295
                 topic: Heraclitus
-                front: How should humans, according to the logos?
+                front: How should humans live, according to the logos?
                 back: >
                         It is not good for men to get all they wish. [because it would destroy the necessary tensions]<br>
                         If happiness were just bodily pleasures,
                         we ought to call oxen happy who find vetch to eat.<br>
                         It is hard to fight against impulse, for what it wants
-                        it buys at the expense of the soul.<br>
+                        it buys at the expense of the soul.
         -
                 uuid: 83f4b944-6368-44de-af58-a582fd6fcb7a
                 topic: Heraclitus
-                front: Greatest virtue?
+                front: Greatest virtue
                 back: Moderation
         -
                 uuid: de747a36-9099-476e-abc8-3ec5bb96148a
@@ -751,24 +786,27 @@ notes:
                         Change is impossible, as is Heracleitan flux.
                         <br>
                         (If I think falsely "the desk is not brown", it's
-                        an unclear way of expressing the real thought -- that
+                        an unclear way of expressing the real thought &mdash; that
                         the desk is grey.)
         -
                 uuid: e5bfe75a-ad4d-413d-9ce8-e541f4cd303a
                 topic: Parmenides
                 front: Departure from Heraclitus
                 back: >
-                        Heraclitus says that to be and not to be is the same (i.e., "to be clean").
-                        Parmenides says those are not the same.
+                        Heraclitus: to be and not to be is the same (i.e., "to be clean").
+                        Parmenides: those are not the same.
         -
                 uuid: 4d8cc91b-7d2b-4ffb-8d70-53aeac9508cf
                 topic: Parmenides
                 front: What to do if arguments conflict with senses?
-                back: Disregard senses, go wherever your arguments take you; this is a departure from naturalist philosophers
+                back: >
+                        Disregard senses, go wherever arguments take you;
+                        this is a departure from naturalist philosophers
         -
                 uuid: 566f2d71-f485-4bfb-a9e0-2b89beacf570
                 front: Position that one should follow where reason takes us
-                back: rationalism
+                back: >
+                        Rationalism
         -
                 uuid: bc3f5420-5a3e-49bc-a754-81e7cce71b40
                 front: First rationalist philosopher
@@ -781,19 +819,25 @@ notes:
                 uuid: 47a6ca37-4d77-4a92-b74d-b29b5e2c45f3
                 topic: Parmenides
                 front: Why is the One unseparable?
-                back: Because only what is not could separate what is from what is, and there is nothing that is not.
+                back: >
+                        Only what is not could separate what is from what is,
+                        and there is nothing that is not.
         -
                 uuid: 00f0ac35-2da3-4123-a56c-30420faf012c
                 topic: Parmenides
-                front: How did Parmenides stumble into the problem of appearance and reality?
+                front: >
+                        How did Parmenides stumble into the problem of
+                        appearance and reality?
                 back: >
-                        It appears that what is changes and that things come to be and come to pass, but that's not really the case.
+                        It appears that what is changes and that things come to
+                        be and come to pass, but that's not really the case.
         -
                 uuid: 9576f237-0c68-4857-b12b-59c7a12bf7c0
                 front: Zeno's connection to Parmenides
                 back: >
                         Parmenides holds that the One is unchanging, etc.;
-                        Zeno supports it by showing that common sense (e.g., motion) is inconsistent.
+                        Zeno supports it by showing that common sense
+                        (e.g., motion) is inconsistent.
                         Zeno was Parmenides's pupil.
         -
                 uuid: e14510e4-cc13-4ebf-99e2-5538da0b7535
@@ -918,12 +962,12 @@ notes:
                 back: Many city-states (polis)
         -
                 uuid: b17671f8-8ab0-4a52-8784-9f1ad7d91388
-                front: Some prominent Greek city-states
+                front: 5 prominent Greek city-states
                 back: >
                         Thebes, Corinth, Argos, Sparta, Athens
         -
                 uuid: 392e8fea-1533-42a1-bc6c-7d1bf91a5187
-                front: Which 2 factors contributes to rise of Athens?
+                front: 2 factors contributing to rise of Athens
                 back: >
                         Persian wars, rise of democracy
         -
@@ -963,7 +1007,8 @@ notes:
         -
                 uuid: 6f7dc6f7-7ef8-4621-b943-336826fafaaf
                 topic: Persian wars
-                front: What happened in 499 BC?
+                front: >
+                        Events: 499 BC
                 back: >
                         Greek colonies in Asia Minor rebelled against paying
                         taxes to Persians.
@@ -982,9 +1027,16 @@ notes:
         -
                 uuid: fa7db7ce-392d-4532-b953-eb03ae004623
                 topic: Persian wars
-                front: What happened after the 499 BC rebellion?
+                front: >
+                        Events: after the 499 BC rebellion
                 back: >
                         In 490 BC, Persians landed at Marathon.
+        -
+                uuid: 7e64a84f-149c-4e09-9c35-8e0577d13fe7
+                topic: Persian wars
+                front: >
+                        Year: Persians land at Marathon
+                back: 490 BC
         -
                 uuid: 3dc3b14c-24d3-4ed6-89df-8b17bd3c50b5
                 topic: Persian wars
@@ -1005,7 +1057,8 @@ notes:
         -
                 uuid: b338ace7-ba01-40f2-a666-1db471c80550
                 topic: Persian wars
-                front: Who was the father of Xerxes?
+                front: >
+                        Name: father of Xerxes
                 back: Darius, king of Persians
         -
                 uuid: 4029ec56-fcef-494b-9564-c13df464009f
@@ -1025,7 +1078,8 @@ notes:
         -
                 uuid: f03bb94c-4ce2-4f01-80b3-e98f099c063a
                 topic: Persian wars
-                front: What happened in 480 BC?
+                front: >
+                        Events: 480 BC
                 back: >
                         Xerxes lashed together ships to build a bridge and led
                         an army of 200,000 to Hellenspont (which separates Asia
@@ -1033,6 +1087,12 @@ notes:
                         <br>
                         Took Thrace into submission and began to advance
                         on Athens.
+        -
+                uuid: a435d99b-a637-475e-afde-694ab39ac825
+                topic: Persian wars
+                front: >
+                        Year: Xerxes leads Persians to Hellensport
+                back: 480 BC
         -
                 uuid: d47f6dac-de72-4d3f-90b4-8940e8d5b595
                 topic: Persian wars
@@ -1076,7 +1136,8 @@ notes:
         -
                 uuid: 6c9a961e-7096-4f7f-b844-8e631c8d28d0
                 topic: Persian wars
-                front: What happened after battle of Thermopylae?
+                front: >
+                        Events: after battle of Thermopylae
                 back: >
                         Persians took Athens, overwhelmed defenders
                         of Acropolis and burned temples.
@@ -1095,7 +1156,8 @@ notes:
         -
                 uuid: 8282bc4b-46e1-4b07-8850-0ea0151180da
                 topic: Persian wars
-                front: What happened after Greeks drove out Persians from Athens?
+                front: >
+                        Events: after Greeks drove out Persians from Athens
                 back: >
                         Next spring (479 BC), they came back.
         -
@@ -1107,7 +1169,7 @@ notes:
         -
                 uuid: 2317a841-7abc-47f8-bd4b-26be31cf7bd9
                 topic: Persian wars
-                front: What was the consequence of Persian wars for Athens?
+                front: Consequence of Persian wars for Athens
                 back: >
                         Preeminence, other states paid tribute for protection.
                         Became very wealthy, great sea power, center
@@ -1115,7 +1177,7 @@ notes:
         -
                 uuid: 0977f767-d662-4a52-a4f9-0e282613f0bc
                 front: >
-                        Name: Most influential leader of Athens in middle of 5th sentury BC?
+                        Name: Most influential leader of Athens in middle of 5th sentury BC
                 back: Pericles
         -
                 uuid: c632e1e6-5cec-40c9-ab32-39037c22e71f
@@ -1139,7 +1201,7 @@ notes:
                         traditional virtues was no longer adequate.
         -
                 uuid: d116ad26-6b51-447f-849c-f8517e7f968b
-                front: Standard of education in Athens?
+                front: Standard of education in Athens
                 back: >
                         Most citizens had elementary education and were literate.
         -
@@ -1192,7 +1254,7 @@ notes:
                 back: Only rhetoric
         -
                 uuid: 843becd1-b328-40e3-a7f6-c10450b7df7d
-                front: What is the interesting new thing about teaching rhetoric?
+                front: The interesting new thing about teaching rhetoric
                 back: >
                         Supposedly, it can be used to prove any side of any issue.
                         Students can construct arguments both for and against.
@@ -1302,17 +1364,18 @@ notes:
                         of road to drive on
         -
                 uuid: aeb4e8bd-6b65-4103-a226-1f1f8dfb3ec9
-                front: Difference between laws of nomos and physis?
+                front: Difference between laws of nomos and physis
                 back: >
                         It's possible to go against laws of *nomos*
                         (normative laws).
         -
                 uuid: 7d9b6b53-7353-4264-9e54-abcc8b853fc9
-                front: Who wrote the play *Antigone*?
+                front: >
+                        Author: The play *Antigone*
                 back: Sophocles
         -
                 uuid: 087b9a2f-23ce-48c2-8605-de7d4e6be264
-                front: What was natural law according to Antiphon?
+                front: Natural law according to Antiphone
                 back: >
                         Self-preservation. Its punishment is death.<br>
                         Unlike conventional laws, this punishment
@@ -1327,11 +1390,11 @@ notes:
                 topic: Sophists
                 front: Callicles's idea of conventional justice
                 back: >
-                        Conventional justice is made by weak majority.
+                        Conventional justice made by weak majority.
                         A strong individual can overcome it, and it is
                         naturally just.
-                        The weak try to fetter the strong by imposing
-                        on them a guilty conscience.
+                        Weak try to fetter the strong by imposing
+                        a guilty conscience.
                         <br>
                         This dramatically contrasts with traditional
                         Greek ethics, e.g. Heraclitus ("moderation
@@ -1352,7 +1415,7 @@ notes:
                         Isthmus of Corinth
         -
                 uuid: fd3a35d9-7769-4800-a015-ca01c902c1bd
-                front: Dominant power on Peloponnesus penisula in 5th century BC?
+                front: Dominant power on Peloponnesus penisula in 5th century BC
                 back: >
                         Sparta
         -
@@ -1371,7 +1434,7 @@ notes:
                         Sparta and Athens
         -
                 uuid: 0aace6ff-5b72-4480-bcb5-78b43e9168cc
-                front: Consequence of tPeloponnesian war?
+                front: Consequences of Peloponnesian war
                 back: >
                         Defeat of Athens, weakening of Greece in general.
                         Beginning of the end of Golden Age of Greece.
@@ -1404,7 +1467,7 @@ notes:
                 topic: Peloponnesian war
                 front: Story of the island of Melos
                 back: >
-                        It was a neutral island.
+                        Neutral island.
                         Athenians conquered it after it
                         refused to ally itself with them, arguing with
                         self-interest and laws of natural power.
@@ -1416,7 +1479,7 @@ notes:
                         Who could persuade the Assembly.<br>
                         Demagogues: *agoge* (lead) the *demos* (people).<br>
                         Policy was inconsistent and sometimes reversed,
-                        depending on the favorite speaker of the day.
+                        depending on favorite speaker of the day.
                         Dissatisfaction with democracy grew.
         -
                 uuid: 432ccfa6-63d3-4a01-b78b-b63685aea1fd
@@ -1437,10 +1500,10 @@ notes:
                 topic: Peloponnesian war
                 front: What did the Thirty do in Athens?
                 back: >
-                        Thirty purged "wrong-doers" supported by Spartan
+                        Purged "wrong-doers" supported by Spartan
                         men-at-arms.
                         <br>
-                        They involved as many Athenians in the purge as
+                        Involved as many Athenians in the purge as
                         they could, to prevent them from making accusations
                         later.
                         <br>
@@ -1453,13 +1516,15 @@ notes:
         -
                 uuid: bee610dc-8701-47ea-a998-d7b29aa48c74
                 topic: Peloponnesian war
-                front: How long did rule of Thirty in Athens last?
+                front: >
+                        Duration: Rule of the Thirty in Athens
                 back: >
                         1 year
         -
                 uuid: 22075e24-dce3-4246-acde-aec632122048
                 topic: Peloponnesian war
-                front: Who led the Thirty?
+                front: >
+                        Name: Leader of the Thirty
                 back: Critias
         -
                 uuid: 486ed9c4-c46a-4712-8a1d-1a8427653308
@@ -1472,7 +1537,8 @@ notes:
                 back: Sophocles, Aeschylus, Euripides
         -
                 uuid: b416fa82-63df-40d3-afdf-0f915eef1924
-                front: Who was Aristophanes?
+                front: >
+                        Occupation: Aristophanes
                 back: A writer of comedies
         # chapter 4 - socrates
         -
@@ -1484,13 +1550,14 @@ notes:
                         fables into verse
         -
                 uuid: c9955b6a-dc9b-4a63-b178-3bc8a5128e94
-                front: How do we know about Socrates, if he didn't write anything?
+                front: How do we know about Socrates, if he didn't write?
                 back: >
-                        From references by others, and by Plato, his pupil.
+                        References by others.
                         <br><br>
-                        Plato left a large number of dialogues written after
-                        his death.
-                        He may have been putting his thought into Socrates's mouth.
+                        His pupil Plato left a large number of dialogues
+                        written after his death.
+                        He may have been putting his thought into Socrates's
+                        mouth.
         -
                 uuid: 92bf441d-dd84-40a5-abc4-032cecd9cdfa
                 front: Three periods of dialogues with Socrates
@@ -1513,11 +1580,11 @@ notes:
                         </ul>
         -
                 uuid: 0daddb92-0d62-4434-9b31-7413a633b919
-                front: Three early dialogues with Socrates
+                front: 3 early dialogues with Socrates
                 back: Euthyphro, Crito, Apology
         -
                 uuid: 2f2b0fa3-34e6-4878-8765-419b29f61035
-                front: Four middle dialogues with Socrates
+                front: 4 middle dialogues with Socrates
                 back: Meno, Phaedo, Symposium, Republic
         -
                 uuid: 852ec224-17b6-462f-90ee-835cd901dafd
@@ -1528,32 +1595,32 @@ notes:
         -
                 uuid: 7b65f061-1626-4fd2-a50c-3975e5cdd3e6
                 topic: Socrates
-                front: Who was his wife?
+                front: >
+                        Name: Socrates's wife
                 back: Xanthippe
         -
                 uuid: 2f2fa25b-caad-445c-9638-c49ffa3fdd84
-                front: What was Xanthippe's reputation?
+                front: Xanthippe's reputation
                 back: Shrewishness
         -
                 uuid: b1800856-79b3-407f-bd65-309e5c7c10d1
                 front: How did Socrates relate to his mother's job?
                 back: >
-                        His mother was a midwife. Midwives determined
-                        if children were basterds (by was of resemblance
-                        to purported father). He can help deliver
-                        ideas to others and determine their truth by
-                        examining them.
+                        She was a midwife. Midwives determined
+                        if children were basterds (by resemblance
+                        to purported father). He helps deliver
+                        ideas and determine their truth by examining them.
         -
                 uuid: 3d354bd6-8c5a-42b2-88a4-6e15d910c392
                 front: How did Socrates walk?
                 back: Barefoot
         -
                 uuid: aad0e9a4-e834-4045-9f88-916ecd30309d
-                front: How did Socrates look?
+                front: Socrates's look
                 back: Extraordinarily ugly (through, interestingly so)
         -
                 uuid: 75d2e7ca-b878-4ecd-ae2f-e412f2955688
-                front: What was Socrates' humor like?
+                front: Socrates' humor
                 back: Self-directed, also sharp and biting
         -
                 uuid: 8cd7f2cd-8a93-450a-b7d6-c4ea4dbba303
@@ -1580,7 +1647,7 @@ notes:
                         the "beloved" more virtuous, self-controlled and just.
         -
                 uuid: de328608-3f46-453a-a5af-21c9f818e429
-                front: What was Socrates's subject matter?
+                front: Socrates's subject matter
                 back: Arete
         -
                 uuid: 0963d743-fc08-486f-865b-8e8628f80334
@@ -1626,7 +1693,7 @@ notes:
                 back: >
                         One who must be as happy to be shown wrong
                         as to show someone else to be wrong.
-                        Or - even happier -- because false opinions are evils.
+                        Or - even happier &mdash; because false opinions are evils.
         -
                 uuid: ea23f086-5093-4611-93c1-5ff95935ba86
                 front: >
@@ -1657,7 +1724,7 @@ notes:
                 front: What kind of knowledge does Socrates mean to be human excellence?
                 back: >
                         Knowledge of *what* to do and *how* to do it
-                        *Techne* -- a kind of applied knowledge (competent
+                        *Techne* &mdash; a kind of applied knowledge (competent
                         doctors, horse trainers, ... have it);
                         mastering the "craft" of living
         -
@@ -1766,7 +1833,7 @@ notes:
         -
                 uuid: 6cb14f50-1eea-4893-bd76-aa60bfe376af
                 topic: Socrates
-                front: How many children did he have?
+                front: His children
                 back: 3 sons
         -
                 uuid: 21e70f32-f883-410c-8cfb-e70ec12265c5
@@ -1781,12 +1848,12 @@ notes:
         -
                 uuid: 331660bb-e6e9-4968-a7ad-7ae9311bd066
                 topic: Socrates
-                front: What did Socrates tell those who convicted him to death before parting?
-                back: That more young ones asking questions will come after him and that killing him won't help anything.
+                front: Socrates's message to those who convicted him to death before parting
+                back: More young ones asking questions will come after him, killing him won't help anything.
         -
                 uuid: 34c7d762-d264-42cf-bf5b-b6a3336778bf
                 topic: Socrates
-                front: Difference between wisdom of humans and gods?
+                front: Difference between wisdom of humans and gods
                 back: >
                         Gods know what makes for virtue and a good life, people don't.
                         <br>
@@ -1799,19 +1866,20 @@ notes:
                         That's why the unexamined life is not worth living.
         -
                 uuid: cc3eead1-c880-4c3c-92ab-1a1bc94dcf5b
-                front: What's the name of two sides of a dilemma?
+                front: >
+                        Term: two sides of a dilemma
                 back: >
-                        "Horns"
+                        Horns
         -
                 uuid: 02528898-78dc-492f-b718-2cdd50db7dac
                 topic: Socrates
-                front: What kind of connection to the divine did Socrates have?
+                front: Socrates's connection to the divine
                 back: >
                         His "divine sign" stopping him from doing wrong.
         -
                 uuid: 57e62d28-bd10-4e57-a5a3-7a6594ac600f
                 topic: Socrates
-                front: What was his connection with Critias, leader of the Thirty?
+                front: His connection with Critias, leader of the Thirty
                 back: Critias was closely associated with him
         -
                 uuid: cd2b8a16-fddd-4678-9df8-2ceb4a3a6dd0
@@ -1861,13 +1929,14 @@ notes:
         -
                 uuid: ccee71c6-9bc1-415e-8c50-fda9e10b2551
                 topic: Plato
-                front: Ag on Socrates's death
+                front: Age on Socrates's death
                 back: >
                         30 years old
         -
                 uuid: a67b2d1b-8865-433b-9bfe-5b5916f80039
                 topic: Plato
-                front: His most famous pupil?
+                front: >
+                        Name: Plato's most famous pupil
                 back: Aristotle
         -
                 uuid: 38c10379-2cb1-4173-9e47-190a9878892d
@@ -1934,7 +2003,7 @@ notes:
                 topic: Plato
                 front: What turns beliefs into knowledge?
                 back: >
-                        An "account of the reason why" --
+                        An "account of the reason why" &mdash;
                         "tying them down", so they don't "escape from a man's mind".
         -
                 uuid: ef7a848b-2d25-48b6-9c0a-e2292d0cb0a2
@@ -2053,7 +2122,7 @@ notes:
                 topic: Plato
                 front: What things are *opinable*?
                 back: >
-                        The world of experience -- the Heraclitan flux
+                        The world of experience &mdash; the Heraclitan flux
         -
                 uuid: 188f5caa-46bc-4762-ac11-2d9cdc619063
                 topic: Plato
@@ -2063,7 +2132,7 @@ notes:
         -
                 uuid: 41a9b75a-9045-494d-a691-e8226be03771
                 topic: Plato
-                front: How are the Forms and the world of experience related?
+                front: Relation between the Forms and the world of experience
                 back: >
                         The Divided Line:
                         <br><br>
@@ -2073,7 +2142,8 @@ notes:
                         is subdivided into images (shadows, reflections in water, etc.)
                         and originals (animals, plants, ...).
                         <br><br>
-                        Relationship is the same between originals and shadows in the world; and the world of Forms and the world
+                        Relationship is the same between originals and shadows
+                        in the world; and the world of Forms and the world
         -
                 uuid: d9e5fd71-fa41-45c9-8c74-aa390746890e
                 topic: Plato
@@ -2102,7 +2172,7 @@ notes:
                         <br> <br>
                         At the end of the explanation chains, there
                         must be some basic point where we can't use this
-                        pattern of explanation any more -- where we won't appeal
+                        pattern of explanation any more &mdash; where we won't appeal
                         to something more basic. But it must be intelligible
                         in itself, and self-evident.
         -
@@ -2116,7 +2186,7 @@ notes:
                 topic: Plato
                 front: What is dialectic?
                 back: >
-                        Moving from Form to Form until we reach the First Principle --
+                        Moving from Form to Form until we reach the First Principle &mdash;
                         the highest Form.
         -
                 uuid: 4abc32fa-1d8b-40be-a958-474ae93cda0e
@@ -2149,7 +2219,7 @@ notes:
         -
                 uuid: 980fe85d-d889-423b-a56c-23fbbdedc128
                 topic: Plato
-                front: What is the cause of reality?
+                front: The cause of reality
                 back: The Form of the Good
         -
                 uuid: cbb7e65d-5c46-4a17-a76e-f40f2144ac2a
@@ -2178,7 +2248,7 @@ notes:
                         to Forms.
                         <br><br>
                         The Sun there is the Form of the Good. At first, it
-                        cannot be seen directly -- only through lower
+                        cannot be seen directly &mdash; only through lower
                         forms illuminated by it, reflections of the Good.
                         <br><br>
                         The prisoner returning to the cave and being killed
@@ -2194,7 +2264,7 @@ notes:
         -
                 uuid: b63907b4-24be-4ab1-82a5-77cc47317058
                 topic: Plato
-                front: What is the topic of the Socratic dialogue Symposium?
+                front: Topic of the Socratic dialogue Symposium
                 back: Love (in particular, eros)
         -
                 uuid: 90797d18-87ed-4213-bd43-a8551e8ed915
@@ -2225,8 +2295,8 @@ notes:
                 topic: Plato
                 front: Why is the soul immortal?
                 back: >
-                        Life is the very essence of the soul.
-                        It is immortal, because "it cannot abadon its own nature" - it cannot die.
+                        Life is its very essence.
+                        "It cannot abadon its own nature" - it cannot die.
         -
                 uuid: 48ee0dc8-250a-4b78-a778-3ec98fe85539
                 topic: Plato
@@ -2281,23 +2351,23 @@ notes:
                 topic: Plato
                 front: What does it mean to adopt the Self-interest Theory of Rationality?
                 back: >
-                        Which life is the most *worthwhile*, or the most
-                        advantageous, or provides the greatest happiness?
                         An action can be rational only if it is in your
                         long-term interest.
         -
                 uuid: e2f3f0b7-7920-4e14-a84e-0c19db27cddf
                 topic: Plato
                 front: Why should we be just?
-                back: Because it is in our long-term self-interest (as the only way to be happy), and valuable for itself.
+                back: >
+                        It's in our long-term self-interest (as the
+                        only way to be happy), and valuable for itself.
         -
                 uuid: 7543a6c3-89a9-4c96-8e01-9586552d2e02
                 topic: Plato
-                front: What is one thing everyone admits is good by nature?
+                front: The one thing everyone admits is good by nature
                 back: Happiness
         -
                 uuid: b69a6f49-10e1-4ab9-8214-b23dd51c9054
-                front: The story of the Ring of Gyres
+                front: Story of the Ring of Gyres
                 back: >
                         He was a shepard in service of the ruler of Lydia.
                         <br><br>
@@ -2316,19 +2386,15 @@ notes:
                         with her help, killed him and took over the kingdom.
         -
                 uuid: e46594ef-ba10-463b-b68a-facbbe6e3a8a
-                front: Plato's argument for just people being happy
+                topic: Plato
+                front: Argument for just people being happy
                 back: >
-                        Imagine a wholly unjust man who is known as just,
-                        an a wholly just man who is known as unjust.
-                        <br><br>
-                        Plato will show that the just man is happier.
-                        <br><br>
-                        Men are happy when their soul is in excellent shape --
+                        Men are happy when their soul is in excellent shape &mdash;
                         all 3 parts function properly.
                         <br>
-                        The source of unhappiness is a lack of harmony in the soul.
-                        Reason makes the decisions, supported by spirit, and
-                        desire is channeled in appropriate directions.
+                        The source of unhappiness is a lack of harmony in
+                        soul. Reason makes the decisions, supported by spirit,
+                        desire is channeled appropriately.
                         <br><br>
                         Justice happens when people are in harmony.
                         The soul is happy when it is in harmony,
@@ -2401,7 +2467,7 @@ notes:
                         they may not be able to follow dialectical reasoning.
                         They should be persuaded to be just.
                         <br><br>
-                        This should be imparted by *education* -- education
+                        This should be imparted by *education* &mdash; education
                         that the best and happiest life is one of moderation,
                         rational self-control and justice.
         -
@@ -2473,7 +2539,7 @@ notes:
                 uuid: f8a7981e-6bd0-44dc-8cc9-1cd8ca4d5b1a
                 topic: Aristotle
                 front: >
-                        Year: death
+                        Year: Death
                 back: 322 BC
         -
                 uuid: 658eccc0-dfd7-4c8b-8341-3a6a068e96f9
@@ -2498,7 +2564,7 @@ notes:
                         has a soul of a certain sort, but it is not a thing;
                         it is simply the "form" of the particular sort of
                         body that a man has. A person is not a "tandem"
-                        composed of "stoker" and "captain" -- we are unified
+                        composed of "stoker" and "captain" &mdash; we are unified
                         creatures.
         -
                 uuid: d8e80bb9-f130-4c07-929f-611b79af40ce
@@ -2520,7 +2586,7 @@ notes:
                 uuid: 126a1fe3-00b7-4369-adb8-05d97a8a9dc9
                 front: >
                         "The fox knows many things, the hedgehog knows one great thing"
-                        -- Plato and Aristotle
+                        &mdash; Plato and Aristotle
                 back: >
                         Plato: one big problem, everything he touches is transformed by the concertn.
                         <br><br>
@@ -2530,7 +2596,7 @@ notes:
                         Aristotle is a fox, Plato is a hedgehog
         -
                 uuid: 01b0a129-8772-4bdb-ba68-a07c701221e7
-                front: What is Aristotle's agreement with Plato on knowledge?
+                front: Aristotle's agreement with Plato on knowledge?
                 back: It must be certain and enduring, so it must be about forms
         -
                 uuid: 906734f7-2198-475f-83b9-0ce919f06e4c
@@ -2558,9 +2624,9 @@ notes:
                         time or posture or state or the doing of something
                         or the undergoing of something.
                         <br><br>
-                        Category Substance -- man, horse.<br>
-                        Category Quantity -- two feet long<br><br>
-                        Category Place -- in the Lyceum<br><br>
+                        Category Substance &mdash; man, horse.<br>
+                        Category Quantity &mdash; two feet long<br><br>
+                        Category Place &mdash; in the Lyceum<br><br>
                         etc etc
                         <br><br>
                         Categories are *ways in which being is manifested*
@@ -2596,7 +2662,7 @@ notes:
                 front: What is *primary substance*?
                 back: >
                         Ultimate subjects of statements.
-                        More fully substances than anything else &emdash; this snail,
+                        More fully substances than anything else &mdash; this snail,
                         Socrates.
                         Most real things there are - not just shadows.
                         All else is real in relation to them.
@@ -2616,6 +2682,13 @@ notes:
                         To say that what is is not, or that what is not is, is false
                         and to say that what is is, or that what is not is not,
                         is true.
+        -
+                uuid: 3d86f80b-6cbe-4426-b9ce-3422d61466d7
+                front: >
+                        author: "To say that what is is not, or that what is
+                        not is, is false and to say that what is is, or that
+                        what is not is not, is true."
+                back: Aristotle
         -
                 uuid: bd8b9c74-a5b4-43e4-a3d3-e1e81ef5bb7b
                 front: Correspondence theory of truth
@@ -2700,7 +2773,7 @@ notes:
         -
                 uuid: 594db68a-4a08-4299-9456-405038c71947
                 topic: Aristotle
-                front: What is the point of giving arguments?
+                front: The point of giving arguments
                 back: Answering "why?"
         -
                 uuid: ce5c9463-34ff-421a-803d-f5eadd1302d7
@@ -2715,7 +2788,7 @@ notes:
                 topic: Aristotle
                 front: What must a good argument satisfy?
                 back: >
-                        The reasons must be true, and the argument must be *valid*.
+                        Reasons must be true, argument must be *valid*.
         -
                 uuid: 214fb17d-ad9f-4d2d-a103-0c16433ce7dc
                 topic: Aristotle
@@ -2729,10 +2802,10 @@ notes:
         -
                 uuid: 3e00a4c9-b11c-421f-b01b-e09bd5dc04a9
                 topic: Aristotle
-                front: What is the starting point for reasoning?
+                front: The starting point for reasoning
                 back: >
                         An immediate premise, which has no premise prior to it
-                        -- *first principles*.
+                        &mdash; *first principles*.
         -
                 uuid: 1ff41a35-5d9c-4796-ad52-c64d070b3329
                 topic: Aristotle
@@ -2787,9 +2860,18 @@ notes:
         -
                 uuid: 46e7f3e0-6dd5-4f90-b9c1-df8ccb1c9fe0
                 topic: Aristotle
-                front: What is the name of our capacity to induce -- grasp what cannot be known by demonstration?
+                front: >
+                        Term: Our capacity to induce &mdash; grasp what cannot be
+                        known by demonstration
                 back: >
-                        *Nous*. Not our reasoning ability (because this has
+                        *Nous*
+        -
+                uuid: 52959358-e3f2-4193-a0f4-cb88a77e5136
+                topic: Aristotle
+                front: >
+                        *Nous*'s relation to reasoning, senses, memory, experience
+                back: >
+                        Not our reasoning ability (because this has
                         nothing to do with proof). It's not senses, memory
                         or experience.
         -
@@ -2800,18 +2882,20 @@ notes:
                 uuid: 48d15d6d-44ab-417a-995a-6c3d1f195954
                 front: What is *nous*?
                 back: >
-                        The ability we have to grasp first principles by abstracting what is essential from many particular instances present to our senses
+                        Our ability to grasp first principles by abstracting
+                        the essential from many particular instances present
+                        to senses
         -
                 uuid: 47edb29e-a6f4-456b-a163-111aeaaf1d50
                 topic: Aristotle
-                front: How does he refer to his predecessors?
+                front: His references to predecessors
                 back: >
-                        Often and in detail. We can learn from them.
+                        Often, in detail. We can learn from them.
                         They go wrong by not *observing* closely enough.
-                        Their explanations are usually either too general
+                        Explanations usually either too general
                         (Thales's water, the Boundless), or conclude that
-                        there is no intelligibility (Parmenides - the world
-                        is mere appearance, Plato - only Forms are intelligible).
+                        there is no intelligibility (Parmenides - world
+                        as mere appearance, Plato - only Forms are intelligible).
         -
                 uuid: 1814ea5f-c368-4639-981d-b84f386dba46
                 topic: Aristotle
@@ -2866,15 +2950,21 @@ notes:
                         There are 4 types of *causation*.
                         <br><br>
                         <ul>
-                        <li> *Material causes*: Why is the statue like that? Because it's from bronze. (Thales) The substrate that doesn't change is real.
+                        <li> *Material causes*: Why is the statue like that?
+                                Because it's from bronze. (Thales)
+                                The substrate that doesn't change is real.
                         <li> *Formal cause*: Citing the form. Elements of
-                                a bone are not a bone, they are at best a *potential bone. There is no statue until it takes the *shape*.
-                                Why a thing is the thing it is: it *satisfies the requirements* for being that sort of thing.
+                                a bone are not a bone, they are at best
+                                a *potential bone. There is no statue until it
+                                takes the *shape*.
+                                Why a thing is the thing it is: it *satisfies
+                                the requirements* for being that sort of thing.
                                 *Form*: a statue, a bone, etc.
-                                Forms are only *theoretically* separable from the object in question.
+                                Forms are only *theoretically* separable from
+                                objects in question.
                                 The form of a thing is not an *independent* object.
-                        <li> *Efficient cause*: What was the immediate thing
-                                that acted or was acted upon. For Aristotle,
+                        <li> *Efficient cause*: Immediate thing that acted or
+                                was acted upon. For Aristotle,
                                 these causes are always substances ("man generates man").
                         <li> *Final cause*: Why are there houses?
                                 What *purpose* do houses serve?
@@ -2885,7 +2975,8 @@ notes:
                 topic: Aristotle
                 front: Aristotle's forms vs. Plato's Forms
                 back: >
-                        Plato's Forms are real, Aristotle's forms don't have a separate existence from what they describe.
+                        Plato's Forms are real, Aristotle's forms don't exist
+                        separately from what they describe.
         -
                 uuid: 748218d3-cd2c-4642-88a7-547240efe387
                 topic: Aristotle
@@ -2991,23 +3082,35 @@ notes:
                 back: >
                         Third Man Problem.
                         <ul>
-                        <li> Things are supposed to derive reality from "participation" in Forms, but Plato never defines what this amounts to. This is just a "poetic metaphor".
-                        <li> We try to explain the real world by postulating Forms, which are even more multiplied.
-                             We are just multiplying the entities in need of explanation
-                        <li> The requirements of *being the thing that individuals of the same kind have in common* and *being individual realities* are in conflict.
-                             If Forms are individual substances, it makes no sense to think of them as shared among substances.
-                             If they are universal (non-individual), there is no sense in thinking of them as things existing separately from particulars.
-                             Being-a-man is (according to Aristotle) not realized in a Form, but only in *each individual man*.
+                        <li> *Participation*: Things are supposed to derive
+                              reality from "participation" in Forms, but Plato
+                              never defines what this amounts to. This is just a "poetic metaphor".
+                        <li> *Multiplication*: Trying explain the real world
+                             by postulating Forms is multiplying entities
+                             needing explanation.
+                        <li> *Conflict*: Requirements of *being the thing that
+                             individuals of the same kind have in common* and
+                             *being individual realities* are in conflict.
+                             If Forms are individual substances, it makes no
+                             sense to think of them as shared among substances.
+                             If they are universal (non-individual), there is
+                             no sense in thinking of them as things existing
+                             separately from particulars.
+                             Being-a-man is (according to Aristotle) not
+                             realized in a Form, but only in *each individual man*.
                              Forms just add "self" to sensible terms.
-                        <li> There is no way how eternally unchanging Forms can account for changes.
+                        <li> *Change*: No way to account for it through eternally
+                              unchanging Forms.
                         </ul>
         -
                 uuid: bb924064-4e20-4fd0-ac4b-b2d6b9c33a70
                 topic: Aristotle
                 front: What criteria for *being* don't Plato's Forms satisfy?
                 back: >
-                        The fundamental things that exist are *individual* and exist *independently* of other things.
-                        Forms don't have independent being - they depend on individual substances.
+                        Fundamental things that exist are *individual* and
+                        exist *independently* of other things.
+                        <br><br>
+                        Forms depend on individual substances.
                         If anything beyond individual entities (beavers, people, etc.)
                         exists, it will also be substantial, individual and capable of independent existence.
                         It will not be a "common feature" of individual things.
@@ -3033,13 +3136,17 @@ notes:
                 topic: Aristotle
                 front: What makes an object a substance?
                 back: >
-                        Not matter - the object would not be itself if we stripped away all form.<br><br>
-                        This must be "prime matter" and it can't be anything at all on its own;
-                        it doesn't have inependent existence and exists only as *formed*.
-                        The thing that makes a portion of being into a substance
-                        is a *form* (Aristotle shows by a long and complex argument),
-                        and the form responsible for the substantiality of substances
-                        is the **essence** of the thing.
+                        **Essence** &mdash; the *form* responsible for the
+                        substantiality of substances that that makes a portion of
+                        being into a substance.
+                        <br><br>
+                        Not matter - the object would not be itself if we
+                        stripped away all form.
+                        This must be "prime matter" and it can't be anything at
+                        all on its own;
+                        it doesn't have inependent existence and exists only as
+                        *formed*.
+                        Why a *form*: Aristotle shows by long complex argument.
         -
                 uuid: aabfa891-79b2-4781-8a40-dc03591bb3ca
                 topic: Aristotle
@@ -3057,7 +3164,7 @@ notes:
         -
                 uuid: 110dc44b-720f-48a0-be3e-eb552ba2f994
                 topic: Aristotle
-                front: What is the very substance of substance?
+                front: The very substance of substance
                 back: "*Essence*, a form"
         -
                 uuid: 3c9ad82e-b205-4584-8df5-b76daa9adbcd
@@ -3087,33 +3194,39 @@ notes:
                 topic: Aristotle
                 front: Properties of God
                 back: >
-                        *Ultimate mover* -- all others are intermediate (*unmoved mover*).<br><br>
-                        *Ultimate cause*.<br><br>
-                        *Eternal*, because it accounts for the movement of celestial bodies.<br><br>
-                        A *substance*, for it cannot be less basic than other substances that depend on it.<br><br>
-                        Must be *fully actual*, or it would need and explanation.
-                        <br><br><br><br>
-                        It is the "object of desire and thought", and functions as a final cause - it is what they all "love".
+                        <ul>
+                        <li> *Ultimate mover* &mdash; all others are intermediate (*unmoved mover*)
+                        <li> *Ultimate cause*
+                        <li> *Eternal*, because it accounts for the movement of celestial bodies.
+                        <li> A *substance*, for it cannot be less basic than other substances that depend on it.
+                        <li> Must be *fully actual*, or it would need and explanation.
+                        </ul>
+                        The "object of desire and thought", and functions as
+                        a final cause - God is what they all "love".
         -
                 uuid: f769605b-9db5-4c93-8162-0f2f63b602cf
                 topic: Aristotle
                 front: Why is God a final cause?
                 back: >
                         The ultimate mover:
-                        Not material: it's purely formal.
-                        Not efficient: doesn't need a temporal trigger.
-                        Not formal: it contains no matter.
-                        It can only be a *final cause*.
+                        <ul>
+                        <li> Not material: it's purely formal.
+                        <li> Not efficient: doesn't need a temporal trigger.
+                        <li> Not formal: it contains no matter.
+                        <li> It can only be a *final cause*.
+                        </ul>
         -
                 uuid: b6e47215-3c0c-4c25-b628-74e7b2500725
                 topic: Aristotle
                 front: Why is God good?
                 back: >
-                        It exists of necessity, so its existence must be good (as it's an object of love and desire), and so it must be the first principle.
+                        It exists of necessity, so its existence must be good
+                        (as it's an object of love and desire), and so it must
+                        be the first principle.
         -
                 uuid: 27096e26-2b71-43a1-af7b-52746268fcbd
                 topic: Aristotle
-                front: What kind of life does God live?
+                front: Life of God
                 back: >
                         Its life is like the best that we can enjoy, but only for a short time.
                         <br>
@@ -3129,7 +3242,7 @@ notes:
                         Of itself, and its thought is thought about thought.
                         <br><br>
                         (About what is most divine, valuable and plainly
-                        it does not change &emdash; change would be for
+                        it does not change &mdash; change would be for
                         the worse. So, the mind must think of itself, and its
                         thought will be thought about thought.)
         -
@@ -3149,7 +3262,7 @@ notes:
         -
                 uuid: b46628d3-896f-4467-a07f-6460c53a25c0
                 topic: Aristotle
-                front: What objection does Aristotle raise on Plato's view on the soul?
+                front: Objection to Plato's view on the soul
                 back: >
                         Too narrow, doesn't include souls of animals.
         -
@@ -3160,7 +3273,7 @@ notes:
         -
                 uuid: 046d2bd5-5c29-4d0f-be8e-b8b1985ee867
                 topic: Aristotle
-                front: What are the three levels of souls?
+                front: Three levels of souls
                 back: >
                         Of plants (nutritive), of beasts (sensitive),
                         of humans (rational)
@@ -3192,7 +3305,7 @@ notes:
         -
                 uuid: 55188f1c-0ded-4184-bca9-d9146deca61f
                 topic: Aristotle
-                front: What is the uniquely human level of soul?
+                front: The uniquely human level of soul
                 back: Rational soul
         -
                 uuid: e558bd64-59be-4a6e-9a55-94a680d507a5
@@ -3251,7 +3364,7 @@ notes:
         -
                 uuid: 9222fd62-914a-4ac8-a399-55c679fa9f58
                 topic: Aristotle
-                front: What is Aristotle's physical evidence for the *nous* being nonphysical?
+                front: Aristotle's physical evidence for *nous* being nonphysical
                 back: >
                         Didn't know of any organ for it.
         -
@@ -3270,7 +3383,7 @@ notes:
                 front: Why don't we know that *nous* is immortal and eternal?
                 back: >
                         We don't remember what *nous* knew before it was born
-                        -- there is nothing there to remember.
+                        &mdash; there is nothing there to remember.
                         Because the *other mind* which is capable of being
                         acted upon is perishable, but nothing in the mind
                         thinks without it.
@@ -3297,7 +3410,8 @@ notes:
                         in ethics.
         -
                 uuid: 297546da-91e1-42b2-95b3-c3385e771be5
-                front: Which pre-Socratic hinted at evolution?
+                front: >
+                        Name: Pre-Socratic who hinted at evolution
                 back: Empedocles
         -
                 uuid: 987ca41e-1306-4278-a537-a74a30410072
@@ -3307,7 +3421,7 @@ notes:
         -
                 uuid: a2f0583f-07c1-4693-8408-8cdb2303166a
                 topic: Aristotle
-                front: What is his main treatise on ethics?
+                front: His main treatise on ethics
                 back: Nicomachean Ethics
         -
                 uuid: 486c5200-2f06-4360-abd8-339e53d61498
@@ -3317,7 +3431,7 @@ notes:
         -
                 uuid: 67ff8610-8911-44ea-8fd4-5221c3982a84
                 topic: Aristotle
-                front: What is the greatest good, and its Greek name (of Aristotle)?
+                front: Greatest good (of Aristotle), and its Greek name
                 back: >
                         Happiness; *eudaimonia* (well-being/flourishing)
                         <br>
@@ -3350,7 +3464,7 @@ notes:
         -
                  uuid: 040073f1-4805-4765-b822-f4929a74b724
                  topic: Aristotle
-                 front: What is the function of human beings?
+                 front: The function of human beings
                  back: >
                          Activity of soul in accordance with reason, or at least not contrary to it.
         -
@@ -3367,7 +3481,7 @@ notes:
         -
                  uuid: a439ea6c-8d31-4684-9ca4-74499193cb82
                  topic: Aristotle
-                 front: What is the relation between externalities (pleasure, good fortune, ...) and happiness?
+                 front: Relation between externalities (pleasure, good fortune, ...) and happiness
                  back: >
                          Some amount of good fortune is a prerequisite for happiness.
                          Happiness is not entirely in our control.
@@ -3401,7 +3515,7 @@ notes:
         -
                 uuid: 425ecc81-73f4-44e9-96f3-cd01e6d8156f
                 topic: Aristotle
-                front: What is the role in reason to the development of virtues?
+                front: Role in reason to the development of virtues
                 back: >
                         With reason, you ensure you don't develop just
                         one virtue with the exclusion of others.
@@ -3448,7 +3562,7 @@ notes:
         -
                 uuid: d9115f77-6ca6-4982-8690-7e615e775e9f
                 topic: Aristotle
-                front: What is the standard on where the mean lies?
+                front: The standard on where the mean lies
                 back: >
                        What a good person would do.
                        <br><br>
@@ -3464,7 +3578,7 @@ notes:
         -
                 uuid: 45a2e1e7-9068-4a84-b588-5b9cb0f048e0
                 topic: Aristotle
-                front: Which two excusing conditions did he identify?
+                front: 2 identified excusing conditions
                 back: Ignorance and compulsion
         -
                 uuid: 133dc696-115e-4324-b28b-de763244b143
@@ -3479,17 +3593,754 @@ notes:
         -
                 uuid: 606e97c2-5d3c-4d9e-bd78-60ba7624e1c6
                 topic: Aristotle
-                front: What is the mark of ignorance being an excusing condition?
+                front: Mark of ignorance being an excusing condition
                 back: Regret
         -
                 uuid: e69c4bd7-0835-493d-a404-551cf6e659b1
                 topic: Aristotle
-                front: What is the best activity of soul?
+                front: Best activity of soul
                 back: >
-                        Activity of the *nous* - it is the highest good and greatest happiness.
+                        Activity of *nous* - highest good and greatest happiness.
                         Contemplation (throught NOT meditation in today's sense).
                         This life is most pleasant and most self-sufficent.
                         (Also, an immitation of God.)
         # chapter 8 - epicureans, stoics and skeptics
+        -
+                uuid: fb10e7cf-12b4-45d8-bae8-89cf34263d96
+                front: Altered landscape after Peloponesian war
+                back: >
+                        Long series of struggles for dominance (Thebes, Macedonia managed for some time).
+                        Dissatisfaction with living in cities.
+                        Alexander the Great.
+                        Rome established dominance over the Mediterranean basin.
+                        World seemed hostile and society brutal.
+        -
+                uuid: c80b39c4-8d37-44ee-8f18-16b08944dd35
+                front: Altered landscape after Peloponesian war - religion
+                back: >
+                        Loss of faith in gods of cities.
+                        Rome imported Greek gods.
+                        Newfound flourishing of old gods (fertility, ecstasy, ancestor worship, etc.).
+                        Flood of new cults and ideas from the East.
+                        Many new mystic systems, secret societies, etc.
+                        Fortune, Chance worshipped and feared.
+        -
+                uuid: d0336690-7614-4758-89e3-460854a9543d
+                front: Altered landscape after Peloponesian war - astrology
+                back: >
+                        Started appearing, stars thought to be gods.
+                        Never before a force in the Golden Age of Greece.
+        -
+                uuid: f8236fa2-20c8-409f-b09b-4011f42595a5
+                front: Alexander the Great - religion
+                back: He was proclaimed a god
+        -
+                uuid: 47960286-e589-4f2b-bee4-93576df79c8d
+                front: >
+                        Name: Roman equivalent of Athena
+                back: Minerva
+        -
+                uuid: 9199c754-081a-42ba-a2f6-9d48b1b844e1
+                front: >
+                        Name: Patron of Athens
+                back: Athena
+        -
+                uuid: f5877bb0-f495-4d26-93f4-69952000caf0
+                front: Roman contributions in philosophy
+                back: Few
+        -
+                uuid: 619340d1-9b8c-41f6-a280-98ad1793d2ce
+                front: >
+                        Name: Father of Alexander the Great
+                back: >
+                        Philip of Macedon
+        -
+                uuid: 639f74f2-87c0-48e7-9567-1e3923d97267
+                front: Which school sought happiness as members of a smaller voluntary community?
+                back: >
+                        Epicureans
+        -
+                uuid: ba84442a-0192-45f6-adbf-e4a1851863cb
+                front: >
+                        author: "It is not possible for one to rid himself
+                        of his fears about the most important things if he does
+                        not understand the nature o the universe but dreads
+                        some of the things he has learned in the myths.
+                        Therefore, it is not possible to gain unmixed happiness
+                        without natural science."
+                back: Epicurus
+        -
+                uuid: e54aa13d-6f35-49a4-9fdb-0a83e5210f4e
+                front: >
+                        Year: Birth of Epicurus
+                back: 341 BC
+                include_reverse: true
+        -
+                uuid: 35a4d8e3-49b4-4347-a184-6f1a2d1522ad
+                front: >
+                        Year: Death of Epicurus
+                back: 270 BC
+                include_reverse: true
+        -
+                uuid: 1a915dcc-ec4a-4fb8-95a5-eb31799228c4
+                topic: Epicurus
+                front: The aim of life
+                back: Happiness
+        -
+                uuid: 9db4fce0-55c2-4fae-8f07-649abd0ec659
+                topic: Epicurus
+                front: The first and natural good
+                back: Pleasure
+        -
+                uuid: ad619618-6ff9-4e76-9a13-0a2449ac8e09
+                front: Greek translation of pleasure
+                back: Hedone
+        -
+                uuid: a6c69f8a-8915-4151-a280-f5f7b4c32e92
+                front: Meaning of *hedone*
+                back: Pleasure
+        -
+                uuid: f33c1515-59b1-4b78-b25c-2c80f20e257d
+                front: First Hedonist
+                back: Epicurus
+        -
+                uuid: 4945a335-b490-45f3-876a-9ffb39556bf2
+                topic: Epicurus
+                front: Task of philosophy
+                back: Study of what makes for happiness
+        -
+                uuid: 791fd72b-48e8-436e-8ea6-0603ab1384f6
+                topic: Epicurus
+                front: Value of knowing about the divine
+                back: None beyond peace of mind and confidence
+        -
+                uuid: 619487fd-1f4d-4e82-92da-b13c5df07cdb
+                topic: Epicurus
+                front: Two origins of pain
+                back: >
+                        *Natural*: disease, separation from loved ones by
+                        death
+                        <br><br>
+                        *Due to beliefs*
+        -
+                uuid: 35f93055-9e0c-445f-ab14-b5e481d10242
+                front: >
+                        Name: Poet who wrote poem popularizing Epicurus's views
+                back: Lucretius
+        -
+                uuid: 21c79cb8-8cad-4587-a884-a7f1a0d5a0a1
+                topic: Epicurus
+                front: Two particularly distressing kinds of beliefs
+                back: About gods, aout death
+        -
+                uuid: 843deb4b-15ee-4b08-a70d-0ec4cb7bf211
+                topic: Epicurus
+                front: How are beliefs about gods distressing
+                back: They can strike at any time for any reason, we need to mollify them continuously and anxiously
+        -
+                uuid: aa62e237-a31c-443a-87ea-610705890a3a
+                topic: Epicurus
+                front: Earlier philosophy used as terror dispeller
+                back: Atomism
+        -
+                uuid: 37e10585-ea22-4355-bf31-fd1f809bb977
+                topic: Epicurus
+                front: Atomism modification
+                back: >
+                        Adds possibility of free will.
+                        Atoms don't interact entirely mechanistically and
+                        deterministically.
+        -
+                uuid: 3e3c5d7f-935e-4dc6-82e6-eddea226d185
+                topic: Epicurus
+                front: His beliefs about gods
+                back: >
+                        They exists, and like everything else, are from atoms
+                        and the void.
+                        Nonetheless, they are immortal and blessed.
+                        Therefore, they aren't concerned with our affairs.
+        -
+                uuid: ac812a90-bd83-48ee-b8bc-de226fc65ce4
+                front: >
+                        Author: "That which is blessed and immortal is not
+                        troubled itself, nor does it cause trouble to another.
+                        As a result, it is not affected by anger or favor,
+                        for these belong to weakness."
+                back: Epicurus
+        -
+                uuid: 7515d1a7-bcfe-42bc-bafd-7bafb858cdf2
+                topic: Epicurus
+                front: On worlds
+                back: >
+                        There are many.
+                        Space is infinite, and our world is clearly limited.
+        -
+                uuid: 3fdc7f9e-c949-40c0-82f6-79a6651f1566
+                front: >
+                        Author: "Accustom yourself to the belief that death
+                        is of no concern to us, since all good and evil
+                        lie in sensation and sensation ends with death. ...
+                        Death, the most dreaded of evils, is therefore of
+                        no concern to us; for while we exist death is not
+                        present, and when death is present we no longer exist.
+                        It is therefore nothing either to the living or to
+                        the dead since it is not present to the living, and
+                        the dead no longer are."
+                back: Epicurus
+        -
+                uuid: d7803c3b-0c8d-4203-8037-ad4a5c7bdbf2
+                topic: Epicurus
+                front: On death
+                back: >
+                        Death doesn't concern us. Good and evil is here.
+                        While we exist death is not present, and when death is
+                        present we no longer exist.
+        -
+                uuid: 8e1c834a-23ae-4268-bc8f-3dd7d98c1dff
+                topic: Epicurus
+                front: What is pleasure?
+                back: >
+                        Not physical enjoyment, but body free of pain
+                        and mind from anxiety.
+                        Not continual drinking, dancing and sex.
+                        It's produced by sober reason.
+        -
+                uuid: d4b93caa-bba1-4005-8a52-d397192f7e69
+                topic: Epicurus
+                front: Classification of desires
+                back: >
+                        <ul>
+                        <li> *Vain*: luxuries, being thin, keep up with the Joneses
+                        <li> *Natural*
+                        <ul>
+                        <li> *Merely natural*: sexual desire (natural but not necessary)
+                          <li> *Necessary*
+                          <ul>
+                            <li> *For life*: food, drink, shelter
+                            <li> *For ease of the body*: a bed
+                            <li> *For happiness*: frienship
+                          </ul>
+                        </ul>
+                        </ul>
+        -
+                uuid: 6a782f9d-3f66-48e5-a18b-f48d16580c99
+                topic: Epicurus
+                front: What is the classification of desires good for?
+                back: >
+                        Going after some of them is not worth it (e.g., luxuries,
+                        following every sexual passion) and causes unhappiness.
+                        We should control and limit our desires and live
+                        a simple life.
+        -
+                uuid: fe7bdc75-90bb-4942-a910-0bd760222a71
+                front: >
+                        Author: "To be accustomed to simple and plain living
+                        is conductive to health and makes a man ready for the
+                        necessary tasks of life. It also makes us more ready
+                        for the enjoyment of luxury if at intervals we chance
+                        to meet with it, and it renders us fearless against
+                        fortune."
+                back: Epicurus
+        -
+                uuid: 5f6dcfcd-57c6-4bb4-963f-843a8048a17c
+                topic: Epicurus
+                front: On justice
+                back: >
+                        It's just nomos, a practical contract that pays
+                        in increased pleasure.
+        -
+                uuid: 33b209bc-159e-46d8-9a08-3adad0134365
+                topic: Epicurus
+                front: Highest virtue
+                back: Friendship
+        -
+                uuid: 719c9ddc-11b9-49e1-b74e-ea4c4537fe32
+                front: School famous for their esteem of friendship
+                back: Epicureans
+        -
+                uuid: 96d91267-fc4f-4687-bd84-b9f6f477c46a
+                front: Epicurean's base
+                back: A "Garden" in Athens and similar communities
+        -
+                uuid: 34af1831-9bff-4e3c-aacc-0e399702b7f9
+                front: Contributions of Stoics
+                back: >
+                        To logic, set theory, detailed theory of knowledge,
+                        lots of effort on theories of nature and the universe
+        -
+                uuid: 615ef2be-9f4e-4af9-9c80-25397d945018
+                front: Common point between Stoics and Epicureans
+                back: >
+                        Philosophy serves the aim of living the best and
+                        happiest life possible
+        -
+                uuid: 0d745318-abfb-45c5-bae1-bec7eed4a00f
+                front: Founder of Stoicism
+                back: Zeno, the Stoic
+        -
+                uuid: 47a2fc78-9402-4776-aabc-b65ab4f98e9c
+                topic: Zeno, the Stoic
+                front: City of birth, its location
+                back: Citium, Cyprus
+        -
+                uuid: 6d259f9e-2323-44a2-82ab-a719846ab0a2
+                topic: Zeno, the Stoic
+                front: When did he come to Athens?
+                back: ~320 BC
+        -
+                uuid: 66ea41f6-6861-4178-9a72-6c4c55671df7
+                topic: Zeno, the Stoic
+                front: >
+                        Year: Death
+                back: ~260 BC
+        -
+                uuid: bee3d573-8a4b-4745-9075-364600b46c28
+                topic: Stoicism
+                front: Cosmopolitanianism
+                back: >
+                        They are cosmopolitan; Socrates was a citizen
+                        of Athens, they are citizens of the world;
+                        their goals are universal.
+        -
+                uuid: 5e17b2d6-e3a8-4e9f-aec3-514d916b935a
+                topic: Stoicism
+                front: Major Stoic - escaped slave
+                back: Epictetus
+        -
+                uuid: 5e789a0b-2285-437f-b13f-8321d773dbe9
+                front: >
+                        Year: Birth of Epictetus
+                back: ~AD 51
+        -
+                uuid: fd4e5948-188a-4fad-b379-bc1123a7ab51
+                front: >
+                        Year: Death of Epictetus
+                back: ~AD 135
+        -
+                uuid: b9f4f827-4857-44bb-9271-91fd4dc6fc68
+                front: >
+                        Year: Birth of Marcus Aurelius
+                back: AD 121
+        -
+                uuid: b2af881b-add3-4463-91b3-1366167541b1
+                front: >
+                        Year: Death of Marcus Aurelius
+                back: AD 180
+        -
+                uuid: 1e6ff3e9-4a34-4000-87b5-1a45cf205b9e
+                topic: Stoicism
+                front: Major Stoic - emperor
+                back: Marcus Aurelius
+        -
+                uuid: 8d1d152c-5ac1-42bb-9525-2dcceb0ec0c1
+                topic: Stoicism
+                front: Ideal of happiness
+                back: >
+                        Undisturbable ("nothing can harm the good person")
+        -
+                uuid: 76788e87-3acf-4b0a-bbec-d127bda3b269
+                front: >
+                        Author: "What upsets people is not things themselves
+                        but their judgements about things. For example, death
+                        is nothing dreadful (or else it would have appeared
+                        dreadful to Socrates), but instead the judgement
+                        about death that it is dreadful - *that* is what
+                        is dreadful. So when we are upset or distressed,
+                        let us never blame someone else but rather ourselves,
+                        that is, our own judgements."
+                back: Epictetus
+        -
+                uuid: 422b115d-7939-4d55-a74f-bb43bf4080d6
+                front: >
+                        Author: "A person's master is someone who has power
+                        over what he wants or does not want, either to obtain
+                        it or take it away. Whoever wants to be free,
+                        therefore, let him not want or avoid anything that is
+                        up to others. Otherwise he will necessarily be a slave."
+                back: Epictetus
+        -
+                uuid: 538bf09b-a1a6-47b8-91aa-4317a33e970d
+                front: >
+                        School of thought: Epictetus
+                back: Stoicism
+        -
+                uuid: f9e0c0ea-baa7-428e-87d8-b54f844f3f4a
+                topic: Stoicism
+                front: >
+                        What exists?
+                back: >
+                        Only material or corporeal things.
+        -
+                uuid: b4c53cc3-d729-491a-be79-4394e45ac665
+                topic: Stoicism
+                front: >
+                        Is the world ordered rationally?
+                back: >
+                        Yes (like Heraclitus said)
+        -
+                uuid: fbb124cd-5191-49e8-8d8e-555836009d86
+                topic: Stoicism
+                front: The Stoic god
+                back: >
+                        *Not Epicurean god*: not unconcerned with the world
+                        <br><br>
+                        *Not Aristotle's god*: not an unmoved mover,
+                        related to the world only as an ideal
+                        <br><br>
+                        He can be known to the senses, **immanent** in the world.
+                        Everything has a divine element (*pantheism*).
+        -
+                uuid: 7f1012d6-ecf3-434b-9618-989b1fd6eeb5
+                topic: Stoicism
+                front: On Destiny and Fate
+                back: >
+                        What will happen, will happen by necessity.
+                        This is not cause for despair: Destiny is
+                        indistinguishable from Divine Providence.
+                        "Just as a target is not set up to be missed,
+                        in the same way nothing bad by nature happens
+                        in the world."
+        -
+                uuid: 3e030d9e-0e6d-4296-918b-00ac7f0ad45d
+                front: >
+                        Author: "Do not seek to have events happen as you
+                        want them to, but instead want them to happen as they
+                        do happen, and your life will go well."
+                back: Epictetus
 
-
+        -
+                uuid: 3bc642a8-0733-4b0b-86ac-ec19cae01bd2
+                topic: Stoicism
+                front: Stoics' term for the soul
+                back: Microcosm
+        -
+                uuid: 7bf03ef0-f586-4a65-aac8-662018f97ad6
+                topic: Stoicism
+                front: How to use reason?
+                back: >
+                        Put the microcosm (the soul) in balance with the macrocosm,
+                        so that it follows its ordering; God is not only
+                        in the macrocosm, but also in each of us
+        -
+                uuid: 1ea92487-5354-4d3a-a5a4-e28cb26875f7
+                topic: Stoicism
+                front: >
+                        If we shouldn't care if we get our preferences frustrated,
+                        why shouldn't we just lay down and not eat when hungry?
+                back: >
+                        It's okay and natural to eat when hungry, it's our
+                        nature (see: pantheism). Same with seeking wisdom,
+                        wealth, etc.; the error is in attributing
+                        *absolute value* to these things.
+        -
+                uuid: b0283ed2-43f0-4c6d-8911-e5904822fa5c
+                topic: Stoicism
+                front: What is the *only* good?
+                back: >
+                        Virtue: life in harmony with nature, reason and God
+        -
+                uuid: 35e14021-85e7-4338-8b71-82312950ce5d
+                topic: Stoicism
+                front: Conflict with Epicureans
+                back: >
+                        Epicureans: pleasure is the highest good,
+                        Stoics: it's not even an appropriate end, *virtue* is
+                        highest (life in harmony)
+                        <br><br>
+                        Epicureans: we want food to get pleasure.
+                        Stoics: the pleasure from eating is an accompaniment,
+                        we actually want the food to stay alive.
+                        Making the pleasant life our object would lead
+                        us to miss virtue *and* the pleasure that accompanies
+                        it.
+        -
+                uuid: a693e598-f8e6-4037-83d2-152db4604264
+                topic: Stoicism
+                front: Corollary to "virtue is good" - on judging people
+                back: >
+                        Because virtue is good, we must judge intention in
+                        actions, not outcomes. Outcomes are not under
+                        the agent's control.
+        -
+                uuid: 6bd78009-b902-4530-af51-426d668f9abd
+                topic: Stoicism
+                front: Corollary to "virtue is good" - on duty
+                back: >
+                        The important thing to do is your duty.
+                        Our first duty is to harmonize our lives with the law of We must nature.
+                        This leads to an universal philosophy, for all men.
+        -
+                uuid: ae566eb7-6201-45ff-a3fc-0a1b50159e3d
+                front: School of thought that developed *natural law*
+                back: Stoics
+        -
+                uuid: c709d2b9-7f5d-4402-9da6-467f9e697708
+                topic: Stoicism
+                front: Stoics on popular polytheism
+                back: >
+                        They tolerate it, same with astrology and divination.
+                        Through there is one God, everything partakes in it;
+                        gods of popular religion are symbols of sacredness
+                        of one aspect of nature or another.
+                        <br><br>
+                        Development of allegorical interpretation of traditional religion,
+                        as truths that can be supported in a more scientific way.
+        -
+                uuid: a986102c-bbea-43d1-8086-9f5b02bd03f4
+                topic: Skepticism
+                front: Main school
+                back: Pyrrhonists
+        -
+                uuid: 3b247dfb-58b4-409f-82c7-ea2942f7369a
+                topic: Skepticism
+                front: Century of Pyrrho
+                back: 4th
+        -
+                uuid: 2084ec2a-ee77-4648-bf20-e048743e6889
+                topic: Skepticism
+                front: How much is known about Pyrrho?
+                back: Little
+        -
+                uuid: f05ae016-b624-45fa-be47-0ccbac954d36
+                topic: Skepticism
+                front: Pyrrho's pupil
+                back: Timon
+        -
+                uuid: bbe9d681-2bc1-47ac-9c8f-bd03e4372fd5
+                topic: Skepticism
+                front: Core insight
+                back: Things are often not how they appear
+        -
+                uuid: 61ca64e6-031e-4ed8-b3b1-8143b9dd1c43
+                front: >
+                        Occupation: Sextus Empiricus
+                back: Physician
+        -
+                uuid: a5e4ba41-c7d1-4dfb-aacb-f0ad014aebea
+                front: >
+                        Century: Sextus Empiricus
+                back: 2nd century AD
+        -
+                uuid: 3c7a089d-0d82-4fda-907b-8a423cc84465
+                topic: Skepticism
+                front: Skeptical arguments
+                back: >
+                        <ul>
+                        <li> *Sensory organs differ between animals*. We
+                             can talk about how things appear to us, but not
+                             about their essential nature.
+                        <li> *Differences between human beings*, especially
+                             with respect to preferences.
+                        </ul>
+        -
+                uuid: 4c3ebc40-0547-4ea8-a452-6fca8fa23854
+                front: First philosopher to note difference between appearances and reality
+                back: Parmenides
+        -
+                uuid: be57ae8d-a4e5-4638-a589-6f2df9fffb16
+                topic: Skepticism
+                front: What do Skeptics call *dogmatism*?
+                back: >
+                        Claims for which you have no evidence.
+                        Including previous philosophy.
+        -
+                uuid: b356a59d-4f0a-437b-9637-1fc8ceb2eda5
+                topic: Skepticism
+                front: Two ways other philosophies are dogmatic
+                back: Circular reasoning, infinite regress
+        -
+                uuid: dedc6aad-1c78-4af2-acd7-c06ef8fd4a48
+                front: The problem of the *criterion*
+                back: >
+                        The problem of deciding between claims to knowledge
+                        and truth
+        -
+                uuid: 6fe81acd-14bd-422d-91f7-d54e8b19b9b3
+                topic: Skepticism
+                front: On the problem of the criterion
+                back: >
+                        *No* satisfactory criterion can be found.<br><br>
+                        Asking for what the proper criterion is leads
+                        either to circular reasoning, or infinite regress.
+        -
+                uuid: a3ce3e97-bb3c-41cf-bea3-40972f14c7db
+                topic: Skepticism
+                front: How are we to live if there is no certain knowledge?
+                back: >
+                        By a practical criterion, which is *appearance*.
+        -
+                uuid: 56942019-e0d0-4895-be2f-d4e6c109cc85
+                topic: Sextus Empiricus
+                front: Application of Skepticism in his work
+                back: >
+                        School of medicine that didn't speculate on real
+                        reasons for diseases, but saw what symptoms responded
+                        to which treatments.
+        -
+                uuid: ecf04531-bd39-44ac-9cce-050c1eae8d4e
+                topic: Skepticism
+                front: Skeptics and action
+                back: They are not great revolutionaries.
+        -
+                uuid: bbc92c63-4457-4b37-990a-342370b22d59
+                topic: Skepticism
+                front: Two grounds on which they base their claims
+                back: >
+                        <ul>
+                        <li> Argument that there's no alternative (e.g., problem of the criterion)
+                        <li> While we seek certainty about the true nature things, we will be in doubt, perturbed and unhappy
+                        </ul>
+        -
+                uuid: 948e1dd3-b8de-4e78-8abe-7bce5f59d4a4
+                topic: Skepticism
+                front: The way to happiness
+                back: Stop trying to find certainty
+        # chapter 9: the christians - sin, salvation, and love
+        -
+                uuid: 569e73c4-a6f3-4df4-8e2d-7cc30eab7d38
+                topic: Bible
+                front: Genesis 1:1
+                back: >
+                        In the beginning God created the heavens and the earth.
+        -
+                uuid: e14de285-fa9e-4d66-9215-9c0b4a95457a
+                topic: Bible
+                front: Original name of Abraham
+                back: Abram
+        -
+                uuid: b67dbe86-f219-486d-9a97-6e9721d80ec0
+                topic: Bible
+                front: The founder of the Hebrew people
+                back: Abraham
+        -
+                uuid: 39f5c176-c3f9-4313-bc3b-1186efff6757
+                topic: Bible
+                front: Role of the Hebrew people
+                back: >
+                        Agents for reestablishment of God's kingdom on earth.
+                        Entered into a covenant with God.
+                        Terms: reverence and honor him, establish justice
+                        among themselves, be a blessing to the rest of corrupt
+                        mankind.
+        -
+                uuid: cd327281-abd0-4906-b039-8a76f261784a
+                topic: Bible
+                front: Why did children of Abraham move from Palestine to Egypt?
+                back: Because of a famine
+        -
+                uuid: 724eadd9-393e-422c-8a15-fd3c8c7e4834
+                topic: Bible
+                front: How long were Hebrews enslaved in Egypt?
+                back: 4 centuries
+        -
+                uuid: 83b05844-ab86-4fa9-b5b4-50ec9f27eade
+                topic: Bible
+                front: Who led Hebrews from Egypt?
+                back: Moses
+        -
+                uuid: 68627a5e-39cd-412f-ae7f-1336e6a49219
+                front: Meaning of *Torah*
+                back: Law
+        -
+                uuid: 2c3d8e2a-67de-4144-9a52-13382f92db18
+                front: Rough correspondence in time to apex of prosperous rule of David and Solomon over Hebrew people
+                back: Trojan war
+        -
+                uuid: b7eeab53-f413-48e5-9aca-47a644a7a2c1
+                front: Meaning of *gospel*
+                back: Good news
+        -
+                uuid: aafee4f7-0ba5-4180-afae-66ba1c58b2d2
+                front: 4 accounts of the life of Jesus
+                back: Matthew, Mark, Luke, John
+        -
+                uuid: c35b3740-59b7-4446-bc6d-220e20df5a8f
+                front: What kind of love is the key to the kingdom of God?
+                back: >
+                        *Agape* - undivided and absolute devotion
+        -
+                uuid: 442607f5-ed84-4bf2-a705-ac8944dedabe
+                topic: Bible
+                front: Parable of the Samaritan
+                back: >
+                        Lawyer asks "Who is my neighbour?"
+                        <br><br>
+                        A man was going down from Jerusalem to Jericho,
+                        and he fell among robbers, who stripped him and beat
+                        him, and departed, leaving him half dead.
+                        Now by chance a priest was going down that road;
+                        and when he saw him he passed by on the other side.
+                        So likewise a Levite, when he came to the place
+                        and saw him, passed by on the other side.
+                        But a Samaritan, as he journeyed, came to where he
+                        was; and when he saw him, he had compassion,
+                        and went to him and bound up his wounds, pouring on
+                        oil and wine; then he set him on his own beast
+                        and brought him to an inn, and took care of him.
+                        And the next day he took out two denarii and gave
+                        them to the innkeeper, saying: "Take care of him;
+                        and whatever more you spend, I will repay you
+                        when I come back". Which of these three, do you think,
+                        proved neighbor to the man who fell among the robbers?
+                        <br><br>
+                        He said: "The one who showed mercy on him."
+                        <br><br>
+                        And Jesus said to him, "Go and do likewise."
+        -
+                uuid: 4417ed77-8629-4070-90fb-8e6c04d9470f
+                front: Who is a Levite?
+                back: Lay assistant to a priest
+        -
+                uuid: 044724ed-01ce-4f4e-9d12-d87d6ca1abb6
+                front: Relation of Samaritans to Hebrews
+                back: They were foreigners, despised by the Jews
+        -
+                uuid: 9c7a4ab6-f1d9-4477-a217-12cc3aa23fc2
+                topic: Christianity
+                front: Jesus versus traditional Greek philosophers on passions
+                back: >
+                        Unlike tradition, he recommends *extending* it to
+                        universal compassion in the kingdom of God
+        -
+                uuid: 9ab9d150-c847-40fc-b62f-24beae1bd17c
+                topic: Christianity
+                front: New Christian virtue lacking from Greeks
+                back: >
+                        Humility.<br><br>
+                        Opposite of pride, pride is the very root of sin.
+                        Particularly pride in one's righteousness or goodness.
+        -
+                uuid: 3bfa23e5-5297-494e-a256-351f77e58795
+                front: Pharisees claimed ...
+                back: ... that they observed all the details of the Law
+        -
+                uuid: ad7fae59-ab9f-4fe8-970b-b7b1feea4a50
+                front: Why did Jewish leaders need Roman permission to execute Jesus?
+                back: They couldn't execute him themselves
+        -
+                uuid: 8609f912-9044-44bd-8492-b9c8ef814631
+                front: After how many days from his death was Jesus's tomb found empty?
+                back: 3
+        -
+                uuid: 469f4ea1-0dc2-450f-91f7-52b390985679
+                front: First sentence of the Gospel of John
+                back: In the beginning was the Word, and the Word was with God, and the Word was God.
+                include_reverse: true
+        -
+                uuid: 14d3d7cd-dd01-449c-9ba0-596a31690cd7
+                front: Who does John identify with the *logos*?
+                back: Jesus
+        -
+                uuid: 9b70a952-4135-4b62-a917-d5fb9e158539
+                front: "John 3:16-17"
+                back: >
+                        For God so loved the world that he gave his only Son,
+                        that whoever believes in him should not perish but have
+                        eternal life. For God sent the Son into the world, not
+                        to condemn the world, but that the world might be
+                        saved through him.
+        -
+                uuid: 81df1568-799e-48a9-ad01-e774f643ebc1
+                front: Greatest early missionary
+                back: Paul
+        # chapter 10: augustine - God and the Soul

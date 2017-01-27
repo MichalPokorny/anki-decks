@@ -119,7 +119,7 @@ notes:
                 back: Snižuje oscilaci, tedy urychluje učení
         -
                 uuid: 3bd20133-9998-45b8-84e0-7f980f6435b4
-                front: Adaptivní parametr učení -- obecně
+                front: Adaptivní parametr učení &mdash; obecně
                 back: Pro každou váhu samostatný parametr [$]\\alpha_{ij}[/$]
         -
                 uuid: 486172e7-653f-443b-81bf-3aef15ba9cff
@@ -200,7 +200,7 @@ notes:
                         Pro 1 výstup: [$]g_i = \\partial E/\\partial w_i = 2(y-d)\\frac{\\partial y}{\\partial w_i}[/$]<br>
 
                         [$$]\\partial^2 E/\\partial w_i \\partial w_j = 2[\\frac{\\partial y}{\\partial w_i}\\frac{\\partial y}{\\partial w_j} + (y-d)\\frac{\\partial^2 y}{\\partial w_i \\partial w_j}][/$$]<br>
-                        Druhý člen -- ten s [$] (y-d)[/$] -- se zanedbá.<br>
+                        Druhý člen &mdash; ten s [$] (y-d)[/$] &mdash; se zanedbá.
         -
                 uuid: 4e8953f3-7b3e-4d23-8c89-b618df5773a6
                 front: Relaxační metody - perturbace vah

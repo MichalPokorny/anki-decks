@@ -3,7 +3,9 @@ notes:
         # AI lecture03eng
         -
                 uuid: 8342b4dc-4a9c-4c8c-b57f-94b53653afed
-                front: Prohledávání stavového prostoru jako stromu -- velmi obecně
+                front: >
+                        Prohledávání stavového prostoru jako stromu &mdash;
+                        velmi obecně
                 back: >
                         Začni v rootu. Zkontroluj jestli jsem v goalu.
                         Expanduj cíl, pomocí prohledávací strategie vyber další stav.
@@ -47,7 +49,7 @@ notes:
                 uuid: 3a7a6840-ec4b-448f-98d4-1394cbc76b37
                 front: Prohledávání stavového prostoru - BFS, kompletnost, optimalita
                 back: >
-                        Expanduj všechno v dané hloubce -- FIFO.
+                        Expanduj všechno v dané hloubce &mdash; FIFO.
                         Je kompletní.<br>
 
                         Optimalita: Nejmělčí cílový stav není nutně optimální!<br>

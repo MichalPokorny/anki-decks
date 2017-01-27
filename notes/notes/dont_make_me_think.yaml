@@ -107,7 +107,7 @@ notes:
         -
                 uuid: 5b24226c-e703-4873-a913-edd839b523ad
                 front: Ideal number of users for a round of testing
-                back: 3-4 -- they will find all the most important problems
+                back: 3-4 &mdash; they will find all the most important problems
         -
                 uuid: 550dc695-405b-4074-ac97-b0b734ebf3c0
                 front: Cubicle test

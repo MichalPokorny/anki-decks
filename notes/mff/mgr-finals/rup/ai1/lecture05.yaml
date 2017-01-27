@@ -10,23 +10,22 @@ notes:
                 uuid: 744461b9-f721-4f1b-9578-cbd991934665
                 front: Problémy hill climbingu
                 back: >
-                        Lokální optimum: všichni sousedi jsou horší, nejde utéct.<br>
-
-                        Ridge -- sekvence lokálních optim<br>
-
-                        Plató -- může se zacyklit
+                        <ul>
+                        <li> *Lokální optimum*: všichni sousedi jsou horší, nejde utéct.
+                        <li> *Ridge*: sekvence lokálních optim
+                        <li> *Plató*: může cyklit
+                        </ul>
         -
                 uuid: cf2b97e4-16a5-44db-aabc-f8629b04b4ba
                 front: Varianty hill-climbingu
                 back: >
-                        Stochastický: vyber si náhodně mezi zlepšujícími kroky;
+                        <ul>
+                        <li> *Stochastický*: vyber náhodně mezi zlepšujícími kroky;
                         pravděpodobnost může záležet na velikosti zlepšení.
-                        <br>
-                        First-choice: jdi do prvního lepšího successora
+                        <li> *First-choice*: jdi do prvního lepšího successora
                         co najdeš.
-                        <br>
-                        Random-restart: dělej náhodné hill-climbingy z náhodných stavů.
-                        Když má hill climbing šanci [$]p[/$] na úspěch,
+                        <li> *Random-restart*: hill-climbingy z náhodných stavů.
+                        Když má jeden šanci [$]p[/$] na úspěch,
                         očekávaný počet restartů je [$]1/p[/$].
                         <br>
                         (Velmi dobré na N-queens.)
@@ -35,7 +34,7 @@ notes:
                 front: Simulované žíhání (AI1)
                 back: >
                         Snižuje teplotu.
-
+                        <br><br>
                         Stav se přijme, když je to zlepšení. Když to není
                         zlepšení, tak když mu to dovolí cooling schema ([$]p\\sim \\exp(\\Delta E/T)[/$]).
         -
@@ -44,14 +43,17 @@ notes:
                 back: >
                         Držím si [$]k[/$] stavů místo jednoho.
                         V jednom kroku vygeneruju všechny jejich successory
-                        a vyberu z nich do dalšího kroku [$]k[/$] nejlepších.<br>
+                        a vyberu z nich do dalšího kroku [$]k[/$] nejlepších.<br><br>
 
                         Diverzita se dá zlepšit stochastikou - vyber s pravděpodobností
                         úměrnou tomu, jak jsou dobré.
         -
                 uuid: f505034a-5d26-4974-b7be-827333cd326d
                 front: Online vs. offline search
-                back: V online vyhledání prolínám pohyb a vyhledávání -- prostředí je dynamické. Hodí se taky pro nedeterministické, neznámé prostředí.
+                back: >
+                        V online vyhledání prolínám pohyb a vyhledávání &mdash;
+                        prostředí je dynamické. Hodí se taky pro
+                        nedeterministické, neznámé prostředí.
         -
                 uuid: 85031dd6-cfcd-4704-b6b3-8bd414ae7494
                 front: Co umí agenti v on-line search?
@@ -70,8 +72,11 @@ notes:
                         Adversary argument: prostředí může být smrtelné.
                         Předpokládáme, že ze všech stavů se dá dosáhnout cíle.<br>
 
-                        Protože můžu arbitrárně prodloužit libovolnou cestu (adversary argument),
-                        porovnáváme úspěšnost online search vzhledem k velikosti celého stavového prostoru -- ne vzhledem k hloubce nejnižšího cíle.
+                        Protože můžu arbitrárně prodloužit libovolnou cestu
+                        (adversary argument),
+                        porovnáváme úspěšnost online search vzhledem k
+                        velikosti celého stavového prostoru &mdash; ne vzhledem
+                        k hloubce nejnižšího cíle.
         -
                 uuid: f2f0aca9-d7da-4063-975d-95ba7925b73e
                 front: Online DFS
@@ -90,7 +95,8 @@ notes:
                 back: >
                         Kombinace HC a náhodné procházky. Nakonec najde cíl nebo
                         dokončí exploraci (v konečném stavovém prostoru), ale
-                        může to být hodně dlouhé (např., exponenciální -- žebřík).
+                        může to být hodně dlouhé (např., exponenciální &mdash;
+                        žebřík).
         -
                 uuid: 5f8be220-b3d0-4070-a47c-a3da07f0829f
                 front: Jak můžu při online vyhledávání použít paměť?
@@ -106,4 +112,4 @@ notes:
 
                         Mezi akcemi vyber tu, co minimalizuje LRTA-cost, která je založená
                         i na podpoře explorace. (Když nevíme, co akce dělá, předpokládáme,
-                        že vede hned do cíle -- [$]h(s)[/$].)
+                        že vede hned do cíle &mdash; [$]h(s)[/$].)
