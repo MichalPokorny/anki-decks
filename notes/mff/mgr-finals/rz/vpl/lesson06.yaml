@@ -6,18 +6,21 @@ notes:
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky
                 back: >
-                        Spočetně mnoho proměnných ([$]Var[/$])<br>
-                        Funkční symboly včetně konstantních symbolů<br>
-                        Relační symboly, potenciálně rovnost (speciální relační symbol) (nulární relační symboly můžou být výrokové proměnné)<br>
-                        Kvantifikátory pro každou proměnnou<br>
-                        Logické spojky<br>
-                        Závorky
+                        <ul>
+                        <li> Spočetně mnoho proměnných ([$]\\mathrm{Var}[/$])
+                        <li> Funkční symboly včetně konstantních symbolů
+                        <li> Relační symboly, potenciálně [$]=[/$] (speciální relační symbol)
+                             (nulární relační symboly: výrokové proměnné)
+                        <li> Kvantifikátory pro každou proměnnou
+                        <li> Logické spojky
+                        <li> Závorky
+                        </ul>
         -
                 uuid: 975ca80f-6978-450c-9d7c-34aef9c01d61
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky - logické symboly
                 back: >
-                        Proměnné, kvantifikátory, logické spojky, závorky
+                        Proměnné, kvantifikátory, spojky, závorky
         -
                 uuid: 3c41be43-70a0-4de3-a64f-ed2fbb2fbf33
                 topic: Predikátová logika
@@ -29,37 +32,42 @@ notes:
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky - signatura
                 back: >
-                        Dvojice disjunktních množin relačních, funkčních symbolů. Určuje všechny mimologické symboly.
+                        Dvojice disjunktních množin relačních,
+                        funkčních symbolů. Určuje všechny mimologické symboly.
                         Určuje jazyk, s uvedením jestli má rovnost.
         -
                 uuid: 23b26383-4ffc-4304-aa1f-134a3f7b9ef8
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky - term
                 back: >
-                        Proměnná nebo konstantní symbol; aplikace funkce; konečně rekurzivně.<br>
+                        Proměnná nebo konstantní symbol; aplikace funkce;
+                        konečně rekurzivně.<br>
 
                         Konstantní term: bez proměnných<br>
 
-                        [$]Term_L[/$]<br>
+                        [$]\\mathrm{Term}_L[/$]<br>
         -
                 uuid: fd065fa4-4615-4f4d-936b-ba6d9b69ae85
                 topic: Predikátová logika
                 front: Značení - atomická formule
                 back: >
-                        [$]AFm_L[/$]` aplikace relačního symbolu na termy.
+                        [$]\\mathrm{AFm}_L[/$]
+                        <br>
+                        Aplikace relačního symbolu na termy.
         -
                 uuid: ff8a816b-b627-4c3b-985b-da2c4f9915e5
                 topic: Predikátová logika
                 front: Definice - formule
                 back: >
                         Atomická formule, pak indukce nad spojkami,
-                        přidání kvantifikátorů; [$]Fm_L[/$]
+                        přidání kvantifikátorů; [$]\\mathrm{Fm}_L[/$]
         -
                 uuid: 2f29cdd6-054d-419c-bbf7-a3f898096b66
                 topic: Predikátová logika
                 front: Vázaný, volný výskyt proměnné
                 back: >
-                        Je součást podformule co začíná [$] (\a x)[/$] nebo [$] (\e x)[/$].<br>
+                        Je součást podformule co začíná [$] (\a x)[/$] nebo
+                        [$] (\e x)[/$].<br>
                         Volný výskyt je ten co není vázaný.
                         Proměnná může být volná i vázaná.
         -

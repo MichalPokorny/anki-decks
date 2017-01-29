@@ -10,28 +10,35 @@ notes:
                 uuid: df7f4e1b-522b-4c2d-b68b-bec670ae686f
                 front: Kdy může být dobré zároveň plánovat a rozvrhovat?
                 back: >
-                        Když existuje hodně plánů, ale jenom pár z nich má
+                        Když existuje hodně plánů a jenom pár má
                         přípustný rozvrh.
         -
                 uuid: 320d26c9-1172-4497-b9b5-34bb14d3ffed
-                front: Jak se jmenuje notace pro popis rozvrhovacích problémů?
+                front: >
+                        Název: Notace pro popis rozvrhovacích problémů
                 back: >
                         Grahamova notace
         -
                 uuid: 563ea376-f369-4174-b7c5-9cfb6163dbbe
-                front: Jak vypadá Grahamova notace; příklady?
+                front: Jak vypadá Grahamova notace
                 back: >
                         [$$]\\alpha\\mid\\beta\\mid\\gamma[/$$]
                         <br><br>
-                        [$]\\alpha[/$]: charakteristika zdrojů.
+                        [$]\\alpha[/$]: zdroje,
+                        [$]\\beta[/$]: úlohy,
+                        [$]\\gamma[/$]: kritérium optimalizace
+        -
+                uuid: cd99bc5c-2ac1-48cd-9d6c-59cda349642c
+                front: Grahamova notace - příklady zdrojů ([$]\\alpha[/$])
+                back: >
                         Jednoznačný zdroj; identické/uniformní/různé zdroje;
                         multi-operační model: job-shop/open-shop/flow-shop
-                        <br><br>
-                        [$]\\beta[/$]: charakteristika úloh.
-                        Povolena preempce? Precedenční vztahy?
+        -
+                uuid: a4c478a3-f239-46bb-93c8-5a4978179769
+                front: Grahamova notace - příklady úloh ([$]\\beta[/$])
+                back: >
+                        Preempce? Precedenční vztahy?
                         Čas spuštění, uzávěrka, použití dávek?
-                        <br><br>
-                        [$]\\gamma[/$]: kritérium optimalizace
         -
                 uuid: cb4c55c9-8361-4041-8460-7792a6163866
                 topic: Notace rozvrhování
@@ -69,7 +76,7 @@ notes:
                 topic: Notace rozvrhování
                 front: Doba trvání úlohy
                 back: >
-                        [$$]p(a)[/$$]
+                        [$]p(a)[/$]
         -
                 uuid: ead342d7-edfe-4d8e-8bbb-2232b9d8f897
                 front: Co to znamená, že zdroj je unární (nebo disjunktivní)?
@@ -85,7 +92,7 @@ notes:
                 front: Makespan
                 back: >
                         Značka [$]C[/$]<br><br>
-                        [$$]\\max\\{e(a): a\\in A\\}[/$$]
+                        [$]\\max\\{e(a): a\\in A\\}[/$]
                 include_reverse: true
         -
                 uuid: 35e81183-9838-472d-b9f4-e9153951a213
@@ -93,7 +100,7 @@ notes:
                 front: Lateness
                 back: >
                         Značka [$]L[/$]<br><br>
-                        [$$]e(a)-\\delta(a)[/$$]
+                        [$]e(a)-\\delta(a)[/$]
                 include_reverse: true
         -
                 uuid: ad26ebd5-6e85-485c-9eaa-705e416205ef
@@ -101,7 +108,7 @@ notes:
                 front: Earliness
                 back: >
                         Značka [$]E[/$]<br><br>
-                        [$$]\\max(0,\\delta(a)-e(a))[/$$]
+                        [$]\\max(0,\\delta(a)-e(a))[/$]
                 include_reverse: true
         -
                 uuid: f6051b78-7d91-40a2-ba5c-45ae6ddfa811
@@ -109,7 +116,7 @@ notes:
                 front: Tardiness
                 back: >
                         Značka [$]\\tau[/$]<br><br>
-                        [$$]\\max(0,e(a)-\\delta(a))[/$$]
+                        [$]\\max(0,e(a)-\\delta(a))[/$]
                 include_reverse: true
         -
                 uuid: b4b0882b-bcf4-4579-9d38-4a4a4d95304d
@@ -117,7 +124,7 @@ notes:
                 front: Absolutní odchylka
                 back: >
                         Značka [$]D[/$]<br><br>
-                        [$$]|e(a)-\\delta(a)|[/$$]
+                        [$]|e(a)-\\delta(a)|[/$]
                 include_reverse: true
         -
                 uuid: bdbf837f-1dce-4053-b227-9eea866a2594
@@ -125,7 +132,7 @@ notes:
                 front: Čtvercová odchylka
                 back: >
                         Značka [$]S[/$]<br><br>
-                        [$$] (e(a)-\\delta(a))^2[/$$]
+                        [$] (e(a)-\\delta(a))^2[/$]
                 include_reverse: true
         -
                 uuid: 24723a3a-3e49-4b75-b507-8915876e1014
@@ -150,40 +157,41 @@ notes:
                 uuid: 68c778d3-de92-4d2c-89ed-96ca089227a6
                 markdown: false
                 topic: >
-                        [$$]1\mid r_{j}\mid L_{\max}[/$$]
+                        [$]1\mid r_{j}\mid L_{\max}[/$]
                 front: Specifikace
                 back: Plánování na jednom zdroji, úlohy mají release date a due date, minimalizuji maximální překročení termínu (lateness)
         -
                 uuid: 2c73eb11-b3b1-44d4-86c0-efda3b7c68a6
                 topic: >
-                        [$$]1\mid r_j\mid L_{\max}[/$$]
+                        [$]1\mid r_j\mid L_{\max}[/$]
                 front: Složitost
                 back: Obecně NP-hard
         -
                 uuid: 7e92448d-8e99-42c0-85b4-0da65c91db5e
                 topic: >
-                        [$$]1\mid r_j\mid L_{\max}[/$$]
+                        [$]1\mid r_j\mid L_{\max}[/$]
                 front: Polynomiálně řešitelné relaxace
                 back: >
-                        Identický release date / due date / povolená preempce
+                        Identický release date/due date; povolená preempce
         -
                 uuid: 0b02d88e-dfd7-42b2-8293-a400790d1614
                 topic: >
-                        [$$]1\mid r_j\mid L_{\max}[/$$]
+                        [$]1\mid r_j\mid L_{\max}[/$]
                 front: Jak řešit, když mají všechny úlohy stejný release date?
                 back: >
                         Uspořádám podle *earliest due date*.
         -
                 uuid: db84d7e2-65f8-44a1-a6b4-708df8424efe
                 topic: >
-                        [$$]1\mid r_j\mid L_{\max}[/$$]
+                        [$]1\mid r_j\mid L_{\max}[/$]
                 front: Jak řešit, když úlohy mají všechny stejný due date?
                 back: >
-                        Uspořádám v neklesajícím pořadí podle termínu dostupnosti
+                        Uspořádám v neklesajícím pořadí podle
+                        termínu dostupnosti
         -
                 uuid: 068ababf-3226-4a3f-9bb8-cd84eca90b04
                 topic: >
-                        [$$]1\mid r_j\mid L_{\max}[/$$]
+                        [$]1\mid r_j\mid L_{\max}[/$]
                 front: Jak řešit, když povolím preempci?
                 back: >
                         Optimální rozvrh konstruuj podle pravidla EDD.
@@ -191,13 +199,18 @@ notes:
                         dokončím úlohu, změním task, na kterém dělám, na úlohu,
                         která má teď nejmenší due date.
         -
+                uuid: 49a6113c-83db-41a2-85cc-7cad16a7c1c6
+                topic: >
+                        [$]1\mid r_j\mid L_{\max}[/$]
+                front: Složitost obecného nerelaxovaného problému
+                back: >
+                        NP-těžký
+        -
                 uuid: f7a4aaa9-3cf2-42d5-96b7-0a5847ce371b
                 topic: >
-                        [$$]1\mid r_j\mid L_{\max}[/$$]
+                        [$]1\mid r_j\mid L_{\max}[/$]
                 front: Jak se řeší obecný nerelaxovaný problém?
                 back: >
-                        Je NP-těžký.
-                        <br><br>
                         Větvením vybírám, kterou úlohu budu teď plánovat.
                         Používám branch and bound.
                         <br><br>
@@ -212,7 +225,7 @@ notes:
                         rozvrh neexistuje).
         -
                 uuid: ed3545e3-d9f1-42f3-98af-a09e20340245
-                front: Typy paralelních zdrojů
+                front: Typy paralelních zdrojů podle zpracování úloh
                 back: >
                         *Identické*: úlohy se zpracovávají stejnou dobu
                         <br><br>
@@ -315,60 +328,65 @@ notes:
                 front: Věta o flow-shop a zdrojích, důkaz
                 markdown: false
                 back: >
-                        Při minimalizaci makespanu u flow-shop problému
-                        existuje optimální rozvrh, kde je pořadí úloh na prvních
-                        (posledních) dvou zdrojích totožné.
+                        Při [$]\\min C_{\\max}[/$] u flow-shop problému
+                        existuje optimální rozvrh, kde je pořadí úloh na
+                        prvních dvou zdrojích totožné.
                         <br><br>
-                        Ať je [$]k[/$] počet úloh, co mají operace na začátku
-                        uspořádané identicky na obou zdrojích.
+                        [$]k\\leftarrow[/$] počet úloh, co mají operace na
+                        začátku uspořádané identicky na obou zdrojích.
                         <br>
                         Vezmu optimální rozvrh, co má největší [$]k[/$].
-                        Jestli je [$]k[/$] jiné než počet úloh,
-                        nastává tohle:<br>
+                        Jestli [$]k\\neq n[/$], tak:
+                        <br>
                         <code>
                         ..A..|..C..| ... ... |..D..|..B..|     <br>
                                              |..A..|     |..B..
                         </code>
                         <br>
-                        Potom ale můžu přesunout B těsně za A, a to neprodlouží
+                        Potom můžu přesunout B těsně za A, to neprodlouží
                         makespan:<br>
                         <code>
                         ..A..|..B..|..C..| ... ... |..D..     <br>
                                              |..A..|..B..
                         </code>
                         <br>
-                        Takže jsme dostali jiný rozvrh, co je optimální a má
+                        Dostali jsme jiný rozvrh, co je optimální a má
                         větší [$]k[/$].
         -
                 uuid: 2a926e97-7d7f-4de2-8556-c8f06fb57d0d
                 topic: >
-                        [$$]F2\mid\mid C_{\max}[/$$]
+                        [$]F2\mid\mid C_{\max}[/$]
                 front: Úloha
                 back: >
-                        Flow-shop problém na dvou zdrojích s minimalizací makespanu
+                        Flow-shop problém na dvou zdrojích s minimalizací
+                        makespanu
                         <br><br>
-                        Každá úloha se skládá ze dvou operací, každá operace
+                        Každá úloha má 2 operace, každá operace
                         na jednom stroji.
         -
                 uuid: 9dc0540b-f373-4e33-a19b-8e586a2e201b
                 topic: >
-                        [$$]F2\mid\mid C_{\max}[/$$]
+                        [$]F2\mid\mid C_{\max}[/$]
                 front: Řešení
                 back: >
-                        Víme, že stačí jenom určit pořadí, a na obou
-                        strojích může být stejné.
+                        Stačí jenom určit pořadí, na obou strojích může být
+                        stejné.
                         <br><br>
-                        Úlohy rozdělíme do [$]U[/$]: ty co mají operaci
-                        na zdroji 1 kratší než na zdroji 2, [$]V[/$]:
-                        ty co mají operaci na zdroji 1 delší než na zdroji 2.
+                        Úlohy rozdělíme na:
+                        <ul>
+                        <li> [$]U[/$]: mají operaci na zdroji 1 kratší než
+                             na zdroji 2
+                        <li> [$]V[/$]: mají operaci na zdroji 1 delší než
+                             na zdroji 2.
+                        </ul>
                         <br><br>
-                        Správné pořadí je:<br>
-                        [$]U[/$] uspořádané vzestupně
-                        podle [$]p_{1j}[/$], pak [$]V[/$] sestupně
-                        podle [$]p_{2j}[/$].
-                        <br>
-                        Každou operaci rozvrhneme
-                        do co nejmenšího možného startovního času.
+                        Správné pořadí:
+                        <ol type="1">
+                        <li> [$]U[/$] vzestupně podle [$]p_{1j}[/$]
+                        <li> pak [$]V[/$] sestupně podle [$]p_{2j}[/$]
+                        </ul>
+                        Každou operaci rozvrhneme do nejmenšího možného
+                        startovního času.
         -
                 uuid: cc118a32-453c-4936-960a-b38335bbf6f7
                 topic: Job-shop
@@ -377,10 +395,9 @@ notes:
                         Množinou [$]m[/$] zdrojů, [$]n[/$] úloh,
                         objektivní funkcí.
                         <br><br>
-                        Každá úloha je posloupnost operací co jsou různé
-                        pro různé úlohy. Zdroj se může při zpracování úlohy
-                        navštívit i vícekrát. Zdroj a čas zpracování je
-                        pro každou operaci pevný.
+                        Každá úloha: posloupnost operací, různé
+                        mezi úlohami. Zdroj se může navštívit vícekrát.
+                        Zdroj a čas zpracování je pro každou operaci pevný.
         -
                 uuid: 2b5ee856-6615-47c3-a164-a43fa751e4d9
                 topic: Job-shop
@@ -390,111 +407,118 @@ notes:
         -
                 uuid: b71fa382-8d15-4e0d-8e9d-e26343652422
                 topic: >
-                        [$$]J2\mid n_i\leq 2\mid C_{\max}[/$$]
+                        [$]J2\mid n_i\leq 2\mid C_{\max}[/$]
                 front: Úloha
                 back: >
-                        Job-shop, dva zdroje, maximálně 2 operace na úlohu,
+                        Job-shop, 2 zdroje, maximálně 2 operace na úlohu,
                         minimalizace makespanu.
         -
                 uuid: e7e9b5d7-7c4f-449d-9fe1-afad27a2d38c
                 topic: >
-                        [$$]J2\mid n_i\leq 2\mid C_{\max}[/$$]
+                        [$]J2\mid n_i\leq 2\mid C_{\max}[/$]
                 front: Řešení
                 back: >
                         Úlohy rozdělíme na 4 množiny:
-                        [$]I_1[/$] běží jen na prvním zdroji, [$]I_2[/$]
-                        na druhém, [$]I_{1,2}[/$] nejdřív na prvním,
-                        [$]I_{2,1}[/$] nejdřív na druhém.
+                        <ul>
+                        <li> [$]I_1[/$] běží jen na prvním zdroji
+                        <li> [$]I_2[/$] na druhém
+                        <li> [$]I_{1,2}[/$] nejdřív na prvním
+                        <li> [$]I_{2,1}[/$] nejdřív na druhém
+                        </ul>
                         <br><br>
                         Najdu optimální posloupnosti úloh [$]R_{1,2}, R_{2,1}[/$]
-                        pro flow-shop problémy nad [$]I_{1,2}[/$] a [$]I_{2,1}[/$].
+                        pro flow-shop problémy nad [$]I_{1,2}, I_{2,1}[/$].
                         <br><br>
                         Finální rozvrh:<br><br>
-                        Na [$]M_1[/$] nejdřív úlohy
-                        [$]I_{1,2}[/$] podle řešení [$]R_{1,2}[/$], pak
-                        [$]I_1[/$] v libovolném pořadí, pak [$]I_{2,1}[/$]
-                        podle řešení [$]R_{2,1}[/$].<br><br>
-                        Na [$]M_2[/$] nejdřív úlohy
-                        [$]I_{2,1}[/$] podle řešení [$]R_{2,1}[/$], pak
-                        [$]I_2[/$] v libovolném pořadí, pak [$]I_{1,2}[/$]
-                        podle řešení [$]R_{1,2}[/$].<br>
-                        <br>
-                        Je to optimální rozvrh, protože aspoň jeden ze zdrojů
-                        pracuje bez přerušení a [$]R_{1,2}[/$], [$]R_{2,1}[/$]
+                        Na [$]M_1[/$]:
+                        <ol type="1">
+                        <li> Nejdřív [$]I_{1,2}[/$] podle [$]R_{1,2}[/$]
+                        <li> [$]I_1[/$] v libovolném pořadí
+                        <li> [$]I_{2,1}[/$] podle [$]R_{2,1}[/$]
+                        </ol>
+                        Na [$]M_2[/$]:
+                        <ol type="2">
+                        <li> Nejdřív [$]I_{2,1}[/$] podle [$]R_{2,1}[/$]
+                        <li> [$]I_2[/$] v libovolném pořadí
+                        <li> [$]I_{1,2}[/$] podle [$]R_{1,2}[/$]
+                        </ol>
+                        Je to optimální rozvrh: aspoň 1 ze zdrojů
+                        pracuje bez přerušení a [$]R_{1,2}, R_{2,1}[/$]
                         jsou optimální rozvrhy.
         -
                 uuid: 4ea5dd08-eeaf-40f1-928a-93d8e4a7594e
                 topic: >
-                        [$$]Jm \mid \mid C_{\max}[/$$]
-                front: Co to je disjunktivní graf?
+                        [$]Jm \mid \mid C_{\max}[/$]
+                front: Co je disjunktivní graf?
                 back: >
-                        Uzly jsou operace, každý uzel má váhu rovnou délce operace.
-                        Dodatečně: [$]S[/$], [$]T[/$] s vahou 0
+                        Uzly: operace, každý má váhu rovnou délce.
+                        Přidej: [$]S[/$], [$]T[/$] s vahou 0
                         <br><br>
-                        Orientované hrany. Konjunktivní: precedence mezi operacemi,
-                        plus z [$]S[/$] do operací bez předka a z operací bez
+                        Orientované hrany. Konjunktivní: precedence operací,
+                        z [$]S[/$] do operací bez předka, z operací bez
                         potomka do [$]T[/$].
                         <br>
-                        Disjunktní: spojují operace různých úloh prováděných
-                        na stejném zdroji; tvoří kliky.
+                        Disjunktní: spojují operace různých úloh na stejném
+                        zdroji; tvoří kliky.
                         <br><br>
-                        Disjunktivním grafem se bude kódovat problém i rozvrh.
+                        Disjunktivním grafem kódujeme problém i rozvrh.
         -
                 uuid: 52241070-d4e8-4d53-8b65-814d18871451
                 topic: >
-                        [$$]Jm \mid \mid C_{\max}[/$$]
-                front: Jak vyčteme z grafu korektní rozvrh? Kde bude makespan?
+                        [$]Jm \mid \mid C_{\max}[/$]
+                front: Jak vyčteme z grafu korektní rozvrh? Kde je makespan?
                 back: >
-                        V korektním rozvrhu se z disjunktních hran vybere jedna,
-                        aby ve vzniklém grafu nebyly cykly. Makespan potom
-                        bude délka nejdelší cesty z [$]S[/$] do [$]T[/$].
+                        Korektní rozvrh: z disjunktních hran vyber
+                        jednu, aby v grafu nebyly cykly.
+                        <br>
+                        Makespan: délka nejdelší cesty [$]S\\rightarrow T[/$].
         -
                 uuid: a6480cf5-d581-42e4-a608-933f3b1927d7
                 topic: >
-                        [$$]Jm \mid \mid C_{\max}[/$$]
-                front: Jak těžký to je problém?
+                        [$]Jm \mid \mid C_{\max}[/$]
+                front: Složitost
                 back: >
                         NP-úplný
         -
                 uuid: 9ac47d5d-37f5-438b-af18-6028eb82e8eb
                 topic: >
-                        [$$]Jm \mid \mid C_{\max}[/$$]
+                        [$]Jm \mid \mid C_{\max}[/$]
                 front: Jak budeme budovat heuristický algoritmus?
                 back: >
-                        Zafixujeme všechny proměnné a podle zbylé proměnné
-                        optimalizujeme, opakujeme na všech proměnných.
-                        (Tohle děláme se zdroji: samostatně budeme optimalizovat každý zdroj.)
+                        Zafixujeme všechny proměnné a podle jedné proměnné
+                        optimalizujeme, opakujeme na všech.
+                        (Tohle se zdroji: samostatně optimalizuj každý zdroj.)
                         <br><br>
-                        Pro zvýšení šancí na nalezení dobrého řešení: bereme
+                        Pro zvýšení šancí na dobré řešení:
                         proměnné/zdroje podle klesající důležitosti
         -
                 uuid: 7cce7305-3364-47d2-8572-5b2f9651257e
                 topic: >
-                        [$$]Jm \mid \mid C_{\max}[/$$]
-                front: Jak budeme rozvrhovat jeden zdroj?
+                        [$]Jm \mid \mid C_{\max}[/$]
+                front: Jak rozvrhovat jeden zdroj?
                 back: >
                         Začneme s částečným řešením.<br><br>
-                        Vyřešíme pro zdroj, který ještě není rozvrženný,
-                        problém [$]1\\mid r_j\\mid L_{\\max}[/$], kde trvání
-                        operací [$]p_i[/$] je dané původním problémem,
-                        [$]r_i[/$] je délka nejdelší cesty ze startu do úlohy,
-                        termín dokončení je [$]\\delta_i = \\text{nejdelsi cesta}(S,T)
-                        -\\text{nejdelsi cesta}(i,T)+p_i[/$].
+                        Vyřešíme pro něj [$]1\\mid r_j\\mid L_{\\max}[/$].
+                        <br>
+                        [$]p_i[/$] z původního problému,
+                        [$]r_i\\equiv\\text{nejdelsi cesta(S\\rightarrow i)[/$],
+                        [$]\\delta_i = \\text{nejdelsi cesta}(S\\rightarrow T)
+                        -\\text{nejdelsi cesta}(i\\rightarrow T)+p_i[/$].
                         <br><br>
-                        Zdroj, který dá největší zpoždění [$]L_{\\max}[/$],
-                        nazvu úzkým hrdlem (bottleneck) a jeho rozvrh přidám
-                        do řešení.
+                        Zdroj, co dá největší zpoždění [$]L_{\\max}[/$],
+                        je bottleneck a jeho rozvrh přidám do řešení.
         -
                 uuid: b9d3974b-7397-4b44-9312-0b3b419405d3
                 topic: >
-                        [$$]Jm \mid \mid C_{\max}[/$$]
-                front: Jak můžeme zlepšit hotové řešení?
+                        [$]Jm \mid \mid C_{\max}[/$]
+                front: Jak zlepšit hotové řešení
                 back: >
-                        Podívám se na zdroj, jeho hrany vytrhám z grafu
-                        a znova vyřeším jeho problém [$]1\\mid r_j\\mid L_{\\max}[/$].
+                        Vezmi zdroj, vytrhej jeho hrany z grafu,
+                        znova vyřeš jeho [$]1\\mid r_j\\mid L_{\\max}[/$]
         -
                 uuid: c82e804d-2e2f-43b2-ae13-3db2586cf142
                 topic: >
-                        [$$]Jm \mid \mid C_{\max}[/$$]
-                front: Jak se heuristický algoritmus jmenuje?
+                        [$]Jm \mid \mid C_{\max}[/$]
+                front: >
+                        Název: Heuristický algoritmus
                 back: Shifting Bottleneck

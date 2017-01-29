@@ -7,19 +7,21 @@ notes:
                 front: Jak můžeme zlepšit efektivitu plánovacích algoritmů?
                 back: >
                         <ul>
-                        <li>*Heuristiky*: problémově závislí průvodci
-                        <li>*Řídící pravidla*: problémově závislé prořezávání stavů
-                        <li>*Heuristické plánování*: problémově závislé návody na řešení úloh
+                        <li><i>Heuristiky</i>: problémově závislí průvodci
+                        <li><i>Řídící pravidla</i>: problémově závislé
+                            prořezávání stavů
+                        <li><i>Heuristické plánování</i>: problémově závislé
+                            návody na řešení úloh
                         </ul>
         -
                 uuid: 46ae6501-69e7-4fa1-81b1-fb5625a2deb4
-                front: Co chceme po heuristikách?
+                front: Co po nich chceme?
                 back: >
                         Aby vybraly uzel co nejblíž orákulu (které by problém
                         řešilo deterministicky) a efektivně se počítaly.
         -
                 uuid: c7e7c30e-6fb2-45eb-a397-6e09d38bc968
-                front: Jak se dají heuristiky stavět?
+                front: Jak se dají stavět?
                 back: >
                         Relaxací problému
         -
@@ -27,104 +29,116 @@ notes:
                 front: Jak vypadají optimalizační heuristiky? Kdy jsou přípustné?
                 markdown: false
                 back: >
-                        Heuristiky [$]h(u)[/$] odhadují [$]h^*(u)[/$] &mdash; cenu nejlepšího řešení.
-                        Přípustné heuristiky jsou když [$]h(u)\leq h^*(u)[/$]
+                        [$]h(u)[/$] odhaduje [$]h^*(u)[/$] (cenu nejlepšího
+                        řešení).
+                        Přípustné heuristiky: když [$]h(u)\leq h^*(u)[/$]
                         (pro minimalizaci ceny).
         -
                 uuid: 2ca2e18f-7d25-406e-9f7b-14e8c5e3f942
-                front: Jak můžeme konstruovat heuristiky pro plánování se stavy?
+                front: Jak konstruovat heuristiky pro plánování se stavy?
                 back: >
-                        Odhaduje počet akcí z daného atomu stavu do cíle.
+                        Odhadují počet akcí z daného stavu do cíle.
                         <br><br>
-                        Vyřešíme relaxovaný problém: uvažujeme jenom pozitivní efekty,
-                        předpokládáme že různé atomy se dosahují nezávisle na sobě.
+                        Vyřešíme relaxovaný problém: uvažujeme jenom pozitivní
+                        efekty, předpokládáme že různé atomy se dosahují
+                        nezávisle na sobě.
         -
                 uuid: 70b80436-5f0f-477e-a31c-09d6821a4eb7
                 front: Heuristika [$]\\Delta_0[/$]
                 back: >
                         <ul>
-                        <li>[$]\\Delta_0(s,p)=0[/$] když [$]p\\in S[/$]
-                        <li>[$]\\Delta_0(s,g)=0[/$] když [$]g\\subseteq S[/$]
-                        <li>[$]\\Delta_0(s,p)=\\infty[/$] když [$]p\\notin s[/$] a [$]\\a a\\in A: p\\notin \\mathrm{eff}^+(a)[/$]
-                        <li>[$]\\Delta_0(s,p)=\\min_a \\{1+\\Delta_0(s, precond(s)) : p\\in\\mathrm{eff}^+(a)\\}[/$]
-                        <li>[$]\\Delta_0(s,g)=\\sum_{p\\in g}\\Delta_0(s,p)[/$]
+                        <li>[$]p\\in S\\longrightarrow \\Delta_0(S,p)=0[/$]
+                        <li>[$]g\\subseteq S\\longrightarrow \\Delta_0(S,g)=0[/$]
+                        <li>[$](p\\notin S, \\nexists a\\in A: p\\in \\mathrm{eff}^+(a))
+                               \\longrightarrow \\Delta_0(S,p)=\\infty[/$]
+                        <li>[$]\\Delta_0(S,p)=\\min_a
+                               \\{1+\\Delta_0(S, \\mathrm{pre}(a)) :
+                                       p\\in\\mathrm{eff}^+(a)\\}[/$]
+                        <li>[$]\\Delta_0(S,g)=\\sum_{p\\in g}\\Delta_0(S,p)[/$]
                         </ul>
 
-                        Toto není přípustná heuristika &mdash; není to dolní odhad vzdálenosti.
+                        Není přípustná &mdash; není dolní odhad délky plánu.
         -
                 uuid: 697e6738-7009-4bc5-9667-ccfa303f402d
                 front: Heuristika [$]\\Delta_1[/$]
                 back: >
-                        [$$]\\Delta_1(s,g)=\\max\\{\\Delta_0(s,p) : p\\in g\\}[/$$]
+                        [$]\\Delta_1(S,g)=\\max\\{\\Delta_0(S,p) : p\\in g\\}[/$]
                         <br><br>
-                        Když je hodnota heuristiky větší než dosud nejlepší
+                        Když je [$]\\Delta_1[/$] větší než nejlepší
                         známé řešení, můžeme bezpečně uříznout větev.
-                        Je ale méně informovaná než [$]\\Delta_0[/$].
+                        Ale méně informovaná než [$]\\Delta_0[/$].
         -
                 uuid: e5ab2222-291a-4f40-aa6f-f1cac29c79c3
                 front: Heuristika [$]\\Delta_2[/$]
                 back: >
-                        Budeme zjišťovat dosažitelnost dvojice atomů najednou:
-                        <br><br>
+                        Dosažitelnost dvojice atomů najednou:
                         <ul>
                         <li>
-                        [$$]\\Delta_2(s,p)=\\min_a \\{1+\\Delta_2(s, \\mathrm{precond}(a)) : p\\in\\mathrm{eff}^+(a)\\}[/$$]
+                        [$$]\\Delta_2(S,p)=\\min_a \\{1+\\Delta_2(S, \\mathrm{pre}(a)) : p\\in\\mathrm{eff}^+(a)\\}[/$$]
                         <li>
-                        [$$]\\Delta_2(s,\\{p,q\\})=1 + \\min\\{
-                                \\min_a \\{\\Delta_2(s, \\mathrm{precond}(a)) : \\{p,q\\}\\subseteq \\mathrm{eff}^+(a)\\},
-                                \\min_a \\{\\Delta_2(s, \\{q\\}\\cup\\mathrm{precond}(a)) : p\\in\\mathrm{eff}^+(a)\\},
-                                \\min_a \\{\\Delta_2(s, \\{p\\}\\cup\\mathrm{precond}(a)) : q\\in\\mathrm{eff}^+(a)\\}
-                                \\}[/$$]
+                        [$$]
+                        \\Delta_2(S,\\{p,q\\})= & 1 + \\min_a \\left{
+                          \\begin{cases}
+                            \\Delta_2(S, \\mathrm{pre}(a))             & \\{p,q\\}\\subseteq \\mathrm{eff}^+(a) \\
+                            \\Delta_2(S, \\{q\\}\\cup\\mathrm{pre}(a)) & p\\in\\mathrm{eff}^+(a) \\
+                            \\Delta_2(S, \\{p\\}\\cup\\mathrm{pre}(a)) & q\\in\\mathrm{eff}^+(a) \\
+                            \\infty & \\text{otherwise}
+                          \\end{cases}
+                        \\right}
+                        [/$$]
                         </ul>
-                        <br><br>
-                        Jde zobecnit pro větší [$]k[/$], ale pro [$]k>2[/$]
-                        je složitost moc velká.
+                        Jde zobecnit, ale pro [$]k>2[/$] je složitost moc
+                        velká.
         -
                 uuid: c47c09c2-9fb0-4eaf-81d9-a86626aa0f07
-                front: Jak souvisí [$]\\Delta_2[/$] s Graphplan?
+                front: Souvislost [$]\\Delta_2[/$] s Graphplan
                 back: >
-                        Graphplan má navíc mutexy.
+                        Graphplan: navíc mutexy.
                         Můžu ji přizpůsobit víc tím, že když vyrobím dvojici
                         atomů přes dvě nezávislé akce, budu to považovat
                         za jeden krok.
         -
-                uuid: 239fa1b7-7038-452b-a8e9-4def27baba4e
-                front: Použití heuristik při dopředném a zpětném plánování
+                uuid: b2980445-1b00-4847-98e0-532679589b34
+                front: Heuristiky při dopředném plánování
                 back: >
-                        Dopředné: vyber akci, jejiž heuristická vzdálenost
-                        do cíle je nejmenší.
-                        <br>
-                        Zpětné: na úvod vypočtu heuristické vzdálenosti
-                        z počátku [$]s_0[/$] do všech atomů: [$]\\Delta(s_0,p)[/$].
-                        (To můžu inkrementálně upravovat.)
+                        Vyber akci, co minimalizuje heuristickou vzdálenost
+                        do cíle.
+        -
+                uuid: 239fa1b7-7038-452b-a8e9-4def27baba4e
+                front: Heuristiky při zpětném plánování
+                back: >
+                        Na úvod vypočtu heuristické vzdálenosti
+                        z [$]s_0[/$] do všech atomů: [$]\\Delta(s_0,p)[/$].
+                        (Můžu inkrementálně upravovat.)
                         Preferuju akce, jejichž předpoklady jsou heuristicky
                         blíž počátku.
         -
                 uuid: 79e6a08d-3d5c-4cdc-b745-30aebf4f2376
-                front: Jak heuristicky volit kaz k opravě v plánování s plány?
+                front: Heuristika volby kazu k opravě v plánování s plány
                 back: >
-                        FAF - fewest alternatives first. Jako první oprav
-                        ten kaz, co má nejmíň různých způsobů opravy.
+                        **FAF** - fewest alternatives first. První oprav
+                        kaz, co má nejmíň způsobů opravy.
         -
                 uuid: 4a5562d3-d9f0-4743-aa76-6b23a26bce7b
-                front: Jak heuristicky zvolit způsob opravy kazu v plánování s plány?
+                front: >
+                        Heuristika výběru způsobu opravy kazu v plánování
+                        s plány
                 back: >
                         Podívej se na různé opravy kazu.
-                        <br><br>
-                        Pokus 1: preferuj plán co má míň otevřených cílů.
+                        <ul>
+                        <li> 1: preferuj plán co má míň otevřených cílů.
                         To ale není korelované se složitostí, jak jich dosáhnout...
                         [$]\\eta_0(\\pi)=|g_\\pi|[/$]
-                        <br><br>
-                        Pokus 2: Vygenerujeme AND-OR graf pro [$]\\pi[/$]
+                        <li> 2: Vygenerujeme AND-OR graf pro [$]\\pi[/$]
                         do dané hloubky a spočítáme počet nových akcí v grafu
                         a počet otevřených cílů, co nejsou v [$]s_0[/$]:
-                        [$]\\eta_k(\\pi)[/$]. To je ale hodně výpočetně náročné.
-                        <br><br>
-                        Pokus 3: Uděláme (stačí jednou) plánovací graf pro
+                        [$]\\eta_k(\\pi)[/$]. Hodně výpočetně náročné.
+                        <li> 3: Uděláme (stačí jednou) plánovací graf pro
                         původní cíl. Najdeme otevřený cíl [$]p[/$] v [$]\\pi[/$],
-                        který se přidal do grafu jako poslední, a na cestě
+                        co se přidal do grafu jako poslední, a na cestě
                         [$]s_0\\rightarrow p[/$] spočítáme počet akcí,
                         co nejsou v [$]\\pi[/$]: [$]\\eta(\\pi)[/$]
+                        </ul>
         -
                 uuid: 3a7b6d4c-d3fb-48c4-b2e6-22eae5ac12de
                 topic: Simple temporal logic

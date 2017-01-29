@@ -54,14 +54,19 @@ notes:
         -
                 uuid: c4f970b6-0348-48a8-8fc3-961866eb81c6
                 topic: A*
-                front: Jaká heuristika je admisibilní? Co to znamená pro [$]f(n)[/$]?
+                front: >
+                        Jaká heuristika je admisibilní?
+                        Co to znamená pro [$]f(n)[/$]?
                 back: >
-                        [$$]h(n)\\leq\\text{cena nejlevnější cesty z}\\ n\\ \\text{do cíle}[/$$]
-                        Tedy optimistický pohled, [$]f(n)[/$] je pak dolní odhad na délku cesty do cíle skrz [$]n[/$].
+                        $$]h(n)\\leq\\text{cena nejlevnější cesty z}\\ n\\ \\text{do cíle}[/$]
+                        <br>
+                        Tedy optimistický pohled, [$]f(n)[/$] je dolní odhad
+                        na délku cesty do cíle skrz [$]n[/$].
         -
                 uuid: fe78b7a8-0b18-43ad-a775-3957c9e60bca
                 topic: A*
-                front: Jaká heuristika je monotónní/konzistentní?
+                front: >
+                        Jaká heuristika je monotónní/konzistentní?
                 back: >
                         Ať je [$]n'[/$] následník [$]n[/$] skrz akci [$]a[/$].
                         Pak:
@@ -120,16 +125,20 @@ notes:
         -
                 uuid: 3f87c2c1-0080-4ac1-9588-bf2b840124e4
                 topic: A*
-                front: Kdy je A-star optimální v Graph-Search? Důkaz. Jak se to dá řešit jinak?
+                front: >
+                        Kdy je A* optimální v Graph-Search? Důkaz.
+                        Jak se to dá řešit jinak?
                 back: >
                         Když je heuristika monotónní.<br>
 
-                        Můžu taky (zřejmě) vybrat z obou cest co vedou do uzavírané cesty tu lepší, ale to chce extra bookkeeping.<br>
+                        Můžu taky (zřejmě) vybrat z obou cest co vedou do
+                        uzavírané cesty tu lepší, ale to chce extra
+                        bookkeeping.<br>
 
                         Protože hodnoty [$]f(n)[/$] na žádné cestě neklesají
                         a expanduju vrchol co má [$]f(n)[/$] nejmenší,
-                        tak mezi "otevřenými" cestami do [$]n[/$] nemůže existovat
-                        žádná kratší než ta, co už znám.
+                        tak mezi "otevřenými" cestami do [$]n[/$] nemůže
+                        existovat žádná kratší než ta, co už znám.
                         Proto první uzavřený goal node je optimální.
         -
                 uuid: d916f074-cb0c-4bc5-b805-13959d9ae4b5
@@ -138,13 +147,18 @@ notes:
                         A-star a kontury a cesta do cíle.
                         Co jsou nody, které algoritmus za svůj běh expanduje?
                 back: >
-                        Pro neklesající [$]f(n)[/$] jdou nakreslit podle hodnot [$]f(n)[/$].
-                        Čím mám přesnější [$]h(n)[/$], tím jsou užší kolem cesty do cíle<br>
+                        Pro neklesající [$]f(n)[/$] jdou nakreslit podle hodnot
+                        [$]f(n)[/$].
+                        Čím mám přesnější [$]h(n)[/$], tím jsou užší kolem
+                        cesty do cíle<br>
 
-                        Nody na kontuře co mají [$]f(n)<C^{ * }[/$] se expandují, některé nody
-                        s [$]f(n)=C^{ * }[/$] se můžou expandovat, [$]f(n)>C^{ * }[/$] se neexpandují.<br>
+                        Nody na kontuře co mají [$]f(n)<C^{ * }[/$] se
+                        expandují, některé nody
+                        s [$]f(n)=C^{ * }[/$] se můžou expandovat,
+                        [$]f(n)>C^{ * }[/$] se neexpandují.<br>
 
-                        A-star je optimálně efektivní pro libovolnou konzistentní heuristiku.
+                        A* je optimálně efektivní pro libovolnou
+                        konzistentní heuristiku.
         -
                 uuid: c3d6269c-f870-4d63-a63d-0e62d52953eb
                 topic: A*
@@ -154,7 +168,8 @@ notes:
         -
                 uuid: aad7eae5-bf63-421b-831c-0ef427453977
                 topic: A*
-                front: Jak můžu zabezpečit aby se neexpandoval exponenciální počet nodů?
+                front: >
+                        Jak můžu neexpandovat exponenciální počet nodů?
                 back: >
                         Když [$]|h(n)-h^{ * }(n)|\\leq \\O(\\log h^{ * }(n))[/$],
                         kde [$]h^{ * }[/$] je délka optimální cesty.
@@ -163,21 +178,25 @@ notes:
                 topic: A*
                 front: Paměťová složitost
                 back: >
-                        Držím v paměti všechny expandované nody, je jich až exponenciálně.
+                        Držím v paměti všechny expandované nody, je jich až
+                        exponenciálně.
         -
                 uuid: baefb97c-b818-4b65-8c69-6eef61c6293f
                 topic: A*
-                front: Co je bottleneck?
+                front: Bottleneck
                 back: >
-                        Paměť. Spotřebuje se jí stejně jako času a obvykle dojde první.
+                        Paměť. Spotřebuje se jí stejně jako času a obvykle
+                        dojde první.
         -
                 uuid: 53caeae2-0b87-4fff-97d3-7b3ef7c14106
-                front: IDA* &mdash; Co znamená zkratka?
+                topic: IDA*
+                front: Zkratka
                 back: >
                         Iterative deepening A-star.
         -
                 uuid: 2989ad27-c59d-4cdb-98a2-7cafed518160
-                front: IDA* &mdash; algoritmus
+                topic: IDA*
+                front: Algoritmus
                 back: >
                         Začnu s malým limitem na [$]f(n)[/$] (konkrétně
                         [$]f(\\text{kořen})[/$]. Pomocí DFS prohledám všechny

@@ -5,7 +5,7 @@ notes:
         -
                 uuid: 234dbb3b-bfa6-4e47-88e8-1c160d33b3af
                 front: Increment/decrement current number
-                back: C-a, C-x
+                back: "`C-a`, `C-x`"
                 include_reverse: true
         -
                 uuid: 3511ce47-af75-41bd-9bde-97ca608b5952

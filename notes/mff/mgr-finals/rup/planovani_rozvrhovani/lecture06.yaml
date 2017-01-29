@@ -14,16 +14,19 @@ notes:
                 front: >
                         Kódování plánování jako SAT
                 back: >
-                        Atomy kódujeme jako výrokovou proměnnou s jejich časem (fluenty).
-                        <br>
-                        Nezapomeneme zahrnout negaci věcí, co neplatí.
-                        <br>
-                        Zakódujeme přechody a přidáme ke každému novou proměnnou,
-                        která říká, jaká akce udělala přechod.
-                        <br>
-                        Vyloučíme dělat dvě akce zároveň.
-                        <br>
+                        <ul>
+                        <li>
+                        Atomy: výroková proměnná s jejich časem (fluenty).
+                        <li>
+                        Zahrnu negaci věcí, co neplatí.
+                        <li>
+                        Zakódujeme přechody; přidáme každému proměnnou,
+                        která říká, jaká akce ho udělala.
+                        <li>
+                        Vyloučíme dvě akce zároveň.
+                        <li>
                         Frame axioms.
+                        </ul>
         -
                 uuid: 80193da3-fdfe-4d45-abc6-2ce0486fdc70
                 topic: Plánování jako SAT
@@ -47,10 +50,14 @@ notes:
         -
                 uuid: 6fb7a79a-87f7-47b6-a9b5-9902749c9ba4
                 topic: Plánování jako SAT
-                front: Jak zmenšit počet proměnných pro reprezentaci akcí jako SAT?
+                front: >
+                        Jak zmenšit počet proměnných pro reprezentaci akcí
+                        jako SAT?
                 back: >
-                        Z three-place akční proměnné (posuň robota [$]r[/$] z [$]loc_1[/$] do [$]loc_2[/$])
-                        udělej tři one-place akční proměnné (posuň [$]r[/$], z [$]loc_1[/$], do [$]loc_2[/$]).
+                        Z three-place akční proměnné (posuň robota
+                        [$]r[/$] z [$]loc_1[/$] do [$]loc_2[/$])
+                        udělej tři one-place akční proměnné (posuň
+                        [$]r[/$], z [$]loc_1[/$], do [$]loc_2[/$]).
                         Různé akce teď sdílejí proměnné, a jde to i mezi
                         akcemi různého typu (třeba move/fly).
         -
@@ -85,7 +92,9 @@ notes:
         -
                 uuid: 0eaf5364-c57f-4d4a-b6c8-35653a897312
                 topic: Graphplan jako CSP
-                front: Kódování do CSP - role proměnných, domén, omezujících podmínek
+                front: >
+                        Kódování do CSP - role proměnných, domén,
+                        omezujících podmínek
                 back: >
                         Proměnné: výroky ve stavových vrstvách.
                         <br>
@@ -97,28 +106,30 @@ notes:
         -
                 uuid: 7373e1b3-4933-4c33-b38c-623723445edd
                 topic: Graphplan jako CSP
-                front: Kódování do CSP - přesné podmínky
+                front: >
+                        Kódování do CSP - přesné podmínky
                 back: >
                         <ul>
                         <li>
-                        *Splnění podmínek*:
+                        <i>Splnění podmínek</i>:
                         [$]p_{4,m}=a \\longrightarrow p_{1,m-1}\\neq\\perp\\wedge
                         p_{2,m-1}\\neq\\perp[/$]:
-                        akce má předpoklady [$]p_1[/$], [$]p_2[/$] a pozitivní
-                        efekt [$]p_4[/$]; přidám podmínku pro každý pozitivní efekt.
+                        [$]\\mathrm{precond}^{+}(a)=\\{p_1, p_2\\}[/$],
+                        [$]p_4\\in\\mathrm{eff}^{+}(a)[/$];
+                        přidám podmínku pro každý pozitivní efekt.
                         <li>
-                        *Mutex mezi atomy*: [$]p_{i,m}=\\perp\\vee p_{j,m}=\\perp[/$]
+                        <i>Mutex mezi atomy</i>: [$]p_{i,m}=\\perp\\vee p_{j,m}=\\perp[/$]
                         <li>
-                        *Akce jsou mutex*, provaž jejich pozitivní efekty:
+                        <i>Mutex mezi akcemi</i>:
+                        provaž pozitivní efekty:
                         [$]p_{i,m}\\neq a\\vee p_{j,m}\\neq b[/$]
                         <li>
-                        *Cíl*: [$]p_{i,k}\\neq\\perp[/$] ([$]k[/$] je
+                        <i>Cíl</i>: [$]p_{i,k}\\neq\\perp[/$] ([$]k[/$]
                         poslední vrstva).
                         <li>
-                        V jedné vrstvě je přiřazena proměnným maximálně jedna
-                        akce jiná než no-op (tj., žádné paralelní akce).
-                        Minimálně jedna akce jiná než no-op na vrstvu (žádné
-                        prázdné vrstvy).
+                        <i>Právě 1 akce na vrstvu</i>
+                        proměnným ve vstvě přiřazena maximálně a minimálně 1
+                        ne-noop akce
                         </ul>
         -
                 uuid: d30a0b9f-3881-4c10-8aeb-d2f86a0125d5
@@ -137,30 +148,38 @@ notes:
                 topic: Graphplan jako BCSP
                 front: BCSP podmínky
                 back: >
-                        Pro předpoklady akce: [$]A_{i,m}\\rightarrow P_{j,m-1}[/$]<br>
-                        Podmínky pro následující stav:
+                        <ul>
+                        <li>
+                        <i>Předpoklady</i>: [$]A_{i,m}\\rightarrow P_{j,m-1}[/$]
+                        <li>
+                        <i>Následující stav</i>:
                         [$$]p_{i,m}\\leftrightarrow (\\bigvee_{p_i\\in\\mathrm{eff}^+(a_j)} A_{j,m})
                         \\vee (p_{i,m-1} \\wedge (\\bigvee_{p_i\\in\\mathrm{eff}^-(a_j)} \\neg A_{j,m}))[/$$]
                         <br>
-                        (Stav je aktivní, byl-li přidán a nebyl-li smazán.)
-                        (Nepoužívám no-opy.)
-                        Podmínky pro mutex jsou potřeba, abych nedovolil zároveň smazat a přidat.<br>
-                        Mutex: [$]\\neg A_{i,m} \\vee \\neg A_{j,m}[/$],
+                        (Stav je aktivní, byl-li přidán a nebyl-li smazán;
+                        nejsou no-opy.)
+                        <li>
+                        <i>Mutex</i> (abych nedovolil zároveň smazat a přidat):
+                        [$]\\neg A_{i,m} \\vee \\neg A_{j,m}[/$],
                         [$]\\neg P_{i,n} \\vee \\neg P_{j,n}[/$]
-                        <br>
-                        Nastavení počátečních a koncových atomů.
-                        <br>
+                        <li>
+                        <i>Počáteční a koncové atomy</i>
+                        <li>
                         Žádné paralelní akce a žádné prázdné vrstvy.
+                        </ul>
         -
                 uuid: 6df84a72-3b04-4892-96a5-793fbd68bb2a
-                front: Porovnání kódování Graphplan jako CSP a SAT
+                front: Porovnání Graphplan jako CSP a SAT
                 back: >
-                        CSP kódování je kompaktnější. Nepotřebuje axiomy vyloučení akcí (protože na to je proměnná).<br>
+                        CSP je kompaktnější. Nepotřebuje axiomy vyloučení akcí
+                        (protože na to je proměnná).
         -
                 uuid: 1e7ecb60-bcd1-409f-8dbe-d10d7e058d42
-                front: CSP, SAT jsou NP-c, ale plánování je PSPACE- nebo NEXPTIME-c. Jak to?
+                front: >
+                        CSP, SAT jsou NP-c, ale plánování je PSPACE- nebo
+                        NEXPTIME-c. Jak to?
                 back: >
-                        Převod plánování na SAT/CSP exponenciálně zvětší problém.
-                        V SATu se exponenciálně zvětší počet proměnných,
-                        v CSP je proměnných sice lineárně hodně, ale narůstají
+                        Převod na SAT/CSP exponenciálně zvětší problém.
+                        SAT: exponenciálně mnoho proměnných,
+                        CSP: proměnných sice lineárně, ale narůstají
                         domény.

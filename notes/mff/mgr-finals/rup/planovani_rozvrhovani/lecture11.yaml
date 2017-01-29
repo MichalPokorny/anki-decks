@@ -8,8 +8,10 @@ notes:
                 back: >
                         Pozice aktivity [$]A[/$] v čase a prostoru:
                         <br>
-                        Alokace času: [$]\\mathrm{start}(A), [\\mathrm{p}(A), \\mathrm{end}(A)][/$]<br>
-                        Alokace zdrojů: [$]\\mathrm{resource}(A)[/$]
+                        Alokace času:
+                        [$]\\mathrm{start}(A), [\\mathrm{p}(A), \\mathrm{end}(A)][/$]<br>
+                        Alokace zdrojů:
+                        [$]\\mathrm{resource}(A)[/$]
         -
                 uuid: e448ab91-b4b9-4781-b0c0-b0cb3609e777
                 front: Domény obecně
@@ -21,11 +23,11 @@ notes:
                 front: Podmínky obecně a jejich znění
                 back: >
                         Uspořádání aktivit a omezené kapacity zdrojů:
+                        <br> <br>
+                        [$]\\mathrm{start}(A)+\\mathrm{p}(A)=\\mathrm{end}(A)[/$]
                         <br>
-                        <br>
-                        [$$]\\mathrm{start}(A)+\\mathrm{p}(A)=\\mathrm{end}(A)[/$$]
-                        <br>
-                        Uspořádání: [$]B\\ll A\\longrightarrow \\mathrm{end}(B)\\leq \\mathrm{start}(A)[/$]
+                        Uspořádání:
+                        [$]B\\ll A\\longrightarrow \\mathrm{end}(B)\\leq \\mathrm{start}(A)[/$]
                         <br>
                         Omezení kapacity:
                         [$]A\\ll B \\vee B\\ll A[/$] když běží na jednom unárním zdroji
@@ -33,39 +35,42 @@ notes:
                 uuid: 94cae0b9-a992-420b-9513-16bcbf48aebc
                 front: Rozdílný význam slova "zdroj" v plánování a rozvrhování
                 back: >
-                        V rozvrhování je "zdroj" stroj/prostor na zpracování aktivity.
+                        V rozvrhování: stroj/prostor na zpracování aktivity.
                         <br>
-                        V plánování je to materiál konzumovaný/produkovaný danou aktivitou ("ruka je volná" - binární proměnné pro unární zdroje).
+                        V plánování: materiál konzumovaný/produkovaný
+                        aktivitou ("ruka je volná" - binární proměnné
+                        pro unární zdroje).
         -
                 uuid: 76e10668-a862-49c8-96e6-afaa99a997ce
                 front: Typy zdrojů
                 back: >
-                        *Unární*: jenom jedna aktivita najednou
-                        <br>
-                        *Kumulativní*: několik aktivit najednou, pod kapacitu zdroje
-                        <br>
-                        *Produkovatelné/spotřebovatelné*:
+                        <ul>
+                        <li> *Unární*: jenom jedna aktivita najednou
+                        <li> *Kumulativní*: několik aktivit najednou,
+                        pod kapacitu zdroje
+                        <li> *Produkovatelné/spotřebovatelné*:
                         na zdroji musí zbýt aspoň minimální volná kapacita
                         a nesmí se překročit maximální; aktivity konzumují/produkují
+                        </ul>
         -
                 uuid: 04a4d494-5890-421d-a73e-8f028f9a7649
                 front: Jednoduché podmínky pro unární zdroj
                 back: >
-                        [$]A\\ll B \\vee B\\ll A[/$]: [$]\\mathrm{end}(A)\\leq\\mathrm{start}(B)\\vee\\mathrm{end}(B)\\leq\\mathrm{start}(A)[/$]
+                        [$]A\\ll B \\vee B\\ll A[/$]:
+                        [$]\\mathrm{end}(A)\\leq\\mathrm{start}(B)\\vee\\mathrm{end}(B)\\leq\\mathrm{start}(A)[/$]
                         <br><br>
-                        Pro se jim taky říká *disjunktivní zdroje*.
+                        Proto *disjunktivní zdroje*.
         -
                 uuid: 6ae83133-e30d-4683-a98c-58170caa7086
                 front: Edge finding, složitost
                 back: >
                         "Co se stane, když nebude aktivita první?"
-                        <br>
-                        Pravidla:<br>
-                        [$$][\\min(start(\\Omega))+p(\\Omega)+p(A) > \\max(end(\\Omega\\cup\\{A\\}))] \\Rightarrow A \\ll \\Omega[/$$]
-                        [$$]A\\ll\\Omega \\Rightarrow [end(A)\\leq\\min\\{\\max(end(\\Omega')) - p(\\Omega') : \\Omega'\\subseteq \\Omega\\}][/$$]
+                        <br><br>
+                        [$][\\min(start(\\Omega))+p(\\Omega)+p(A) > \\max(end(\\Omega\\cup\\{A\\}))] \\Rightarrow A \\ll \\Omega[/$]
+                        [$]A\\ll\\Omega \\Rightarrow [end(A)\\leq\\min\\{\\max(end(\\Omega')) - p(\\Omega') : \\Omega'\\subseteq \\Omega\\}][/$]
                         <br><br>
                         V praxi se místo [$]\\Omega[/$] použijí intervaly úloh
-                        [$][A;B][/$]: [$$]\\{C : \\min(start(A))\\leq \\min(start(C)) \\wedge \\max(end(C))\\leq\\max(end(B))\\}[/$$]
+                        [$][A;B][/$]: [$]\\{C : \\min(start(A))\\leq \\min(start(C)) \\wedge \\max(end(C))\\leq\\max(end(B))\\}[/$]
                         <br><br>
                         Časová složitost [$]\\O(n^3)[/$], ale může být
                         až [$]\\O(n\\log n)[/$].
@@ -73,14 +78,13 @@ notes:
                 uuid: d1fff34e-f56a-4537-98bc-ff9059b882db
                 front: Not-first/not-last, složitost
                 back: >
-                        Not-first pravidlo:<br>
-                        [$$][\\min(start(A))+p(A)+p(\\Omega) > \\max(end(\\Omega))] \\Rightarrow \\neg (A \\ll \\Omega)[/$$]
+                        [$][\\min(start(A))+p(A)+p(\\Omega) > \\max(end(\\Omega))] \\Rightarrow \\neg (A \\ll \\Omega)[/$]
                         <br>
-                        [$$]\\neg (A\\ll \\Omega) \\Rightarrow [start(A)\\geq\\min\\{end(B):B\\in\\Omega\\}][/$$]
+                        [$]\\neg (A\\ll \\Omega) \\Rightarrow [start(A)\\geq\\min\\{end(B):B\\in\\Omega\\}][/$]
                         <br><br>
                         Not-last pravidlo:<br>
-                        [$$][\\min(start(\\Omega))+p(\\Omega)+p(A)>\\max(end(A))]\\Rightarrow\\neg(\\Omega\\ll A)[/$$]<br>
-                        [$$]\\neg(\\Omega\\ll A)\\Rightarrow end(A)\\leq\\max\\{start(B): B\\in\\Omega\\}[/$$]
+                        [$][\\min(start(\\Omega))+p(\\Omega)+p(A)>\\max(end(A))]\\Rightarrow\\neg(\\Omega\\ll A)[/$]<br>
+                        [$]\\neg(\\Omega\\ll A)\\Rightarrow end(A)\\leq\\max\\{start(B): B\\in\\Omega\\}[/$]
                         <br><br>
                         V praxi se opět použijí jenom intervaly jako [$]\\Omega[/$].
                         Časová složitost [$]\\O(n^2)[/$].
@@ -90,15 +94,15 @@ notes:
                 markdown: false
                 back: >
                         Diskrétní čas.
+                        <br>
+                        Tabulka pro [$]A[/$]: Booleovské proměnné [$]X(A,t)[/$]
+                        (běží v čase?)
                         <br><br>
                         Nepřekročení kapacity:
                         [$$]\a t \sum_{start(A_i)\leq t\leq end(A_i)} cap(A_i)\leq MaxCap[/$$]
                         <br><br>
-                        Tabulka pro aktivitu: množina Booleovských proměnných [$]X(A,t)[/$]
-                        co říkají, jestli akce běží v čase:
-                        <br>
                         [$$]\a t \sum_{A_i} X(A_i,t)\cdot cap(A_i)\leq MaxCap[/$$]
-                        [$$]\a t, i start(A_i)\leq t\leq end(A_i)\leftrightarrow X(A_i,t)[/$$]
+                        [$$]\a t, i: start(A_i)\leq t\leq end(A_i)\leftrightarrow X(A_i,t)[/$$]
         -
                 uuid: 09449efe-ce0a-4597-9dc0-4c98003a1837
                 front: Co znamená [$]ect[/$]?
@@ -118,73 +122,85 @@ notes:
         -
                 uuid: 7d479ae4-3515-4056-809f-740b49ac4eb1
                 markdown: false
-                front: Tabulkové podmínky - jak filtrovat přes [$]\a t,i start(A_i)\leq t < end(A_i)\leftrightarrow X(A_i,t)[/$] a co je za problém?
+                front: >
+                        Tabulkové podmínky - jak filtrovat přes
+                        [$]\a t,i: start(A_i)\leq t < end(A_i)\leftrightarrow X(A_i,t)[/$]
+                        a co je za problém?
                 back: >
                         Problém: [$]t[/$] je index i proměnná.
-                        <br><br>
-                        [$$]start(A)\geq\min\{t: ub(X(A,t))=1\}[/$$]
-                        [$$]end(A)\leq 1+\max\{t : ub(X(A,t))=1\}[/$$]
-                        [$$][X(A,t)=0 \wedge t<ect(A)] \rightarrow start(A)>t[/$$]
-                        [$$][X(A,t)=0 \wedge lst(A)\leq t] \rightarrow end(A)\leq t[/$$]
-                        [$$](lst(A)\leq t\wedge t<ect(A) \rightarrow X(A,t)=1)[/$$]
+                        <ul>
+                        <li> [$]start(A)\geq\min\{t: ub(X(A,t))=1\}[/$]
+                        <li> [$]end(A)\leq 1+\max\{t : ub(X(A,t))=1\}[/$]
+                        <li>
+                        [$][X(A,t)=0 \wedge t<ect(A)] \rightarrow start(A)>t[/$]
+                        <li>
+                        [$][X(A,t)=0 \wedge lst(A)\leq t] \rightarrow end(A)\leq t[/$]
+                        <li>
+                        [$](lst(A)\leq t\wedge t<ect(A) \rightarrow X(A,t)=1)[/$]
+                        </ul>
         -
                 uuid: e1c46ddc-b10c-443b-814d-f11a710c8e89
                 front: Jak budeme modelovat použití alternativních zdrojů pro danou aktivitu?
                 back: >
-                        Pro každý zdroj uděláme duplikát, který se účastní podmínek, ale neomezuje
-                        další aktivity na zdroji.
+                        Pro zdroj uděláme duplikát, co se účastní
+                        podmínek, ale neomezuje další aktivity na zdroji.
                         <br>
                         <br>
-                        Když duplikát "neuspěje", odeber zdroj z res(A).
-                        Když smažu zdroj z domény res(A), taky smažu opovídající
-                        duplikát.
+                        Když duplikát "neuspěje", odeber zdroj z [$]res(A)[/$].
+                        Když smažu zdroj z domény [$]res(A)[/$], smažu
+                        opovídající duplikát.
                         <br><br>
-                        Omezení časů u duplikátu se propaguje do originálu
-                        a naopak. Původní aktivita se účastní precedenčních podmínek.
+                        Omezení časů duplikátu se propaguje do originálu
+                        a naopak. Původní aktivita se účastní precedenčních
+                        podmínek.
         -
                 uuid: 401c4dfd-1c3e-490a-a300-c6b9c700fbed
                 front: Formálně - aktivity na alternativních zdrojích
                 back: >
-                        [$]A_u[/$] je duplikát aktivity na zdroji.
+                        [$]A_u[/$] je duplikát na [$]u[/$].
                         <br><br>
-                        [$$]u\\in res(A)\\rightarrow start(A)\\leq start(A_u)[/$$]
-                        [$$]u\\in res(A)\\rightarrow end(A_u)\\leq end(A)[/$$]
-                        [$$]start(A)\\geq\\min\\{start(A_u):u\\in res(A)\\}[/$$]
-                        [$$]end(A)\\leq\\max\\{end(A_u):u\\in res(A)\\}[/$$]
-                        [$$]\\text{prazdne okno pro}\\ A_u\\rightarrow res(A) \\setminus\\{u\\}[/$$]
+                        [$]u\\in res(A)\\rightarrow start(A)\\leq start(A_u)[/$]
+                        [$]u\\in res(A)\\rightarrow end(A_u)\\leq end(A)[/$]
+                        [$]start(A)\\geq\\min\\{start(A_u):u\\in res(A)\\}[/$]
+                        [$]end(A)\\leq\\max\\{end(A_u):u\\in res(A)\\}[/$]
+                        [$]\\text{prazdne okno}\\ A_u\\rightarrow res(A) \\setminus\\{u\\}[/$]
                         <br><br>
-                        Je to ve skutečnosti realizace konstruktivní
-                        disjunkce mezi alternativními zdroji.
+                        Realizace konstruktivní disjunkce mezi zdroji.
         -
                 uuid: 3d2d9a4e-f827-4931-bcd1-b386f59b5896
-                front: Co můžeme udělat na propagaci když máme jenom relativní uspořádání?
+                front: >
+                        Co můžeme udělat na propagaci když máme jenom
+                        relativní uspořádání?
                 back: >
-                        Edge-finding a agregované požadavky nic neodvodí.
-                        Ale stejně můžeme něco zjistit o uspořádání &mdash;
-                        pomocí optimistických a pesimistických profilů.
+                        Edge-finding, agregované požadavky nic neodvodí.
+                        Můžeme něco zjistit o uspořádání
+                        pomocí *optimistických a pesimistických profilů*.
         -
                 uuid: 68c19705-fa0e-4e77-9038-5e04482b7bd8
                 topic: Optimistické a pesimistické profily
-                front: Značení - produkovaná kladná nebo záporná kvantita
+                front: >
+                        Značení: Produkovaná kladná/záporná kvantita
                 back: >
                         [$]prod(A)[/$]
         -
                 uuid: 8392b215-a2bb-4f8c-89ab-6eff6fe915cc
                 topic: Optimistické a pesimistické profily
-                front: Definice optimistického profilu (orp)
+                front: >
+                        Definice: Optimistický profil (orp)
                 back: >
-                        Maximální možná úroveň zdroje když se [$]A[/$] začne zpracovávat.<br><br>
-                        Aktivity, co *musí* být před [$]A[/$] se vezmou dohromady
+                        Maximální úroveň zdroje když začne [$]A[/$].<br><br>
+                        Aktivity, co *musí* být před [$]A[/$] se vezmou
                         s produkčními aktivitami, co *můžou* být před [$]A[/$].
                         <br><br>
                         [$$]orp(A)=InitLevel + prod(A) + \\sum_{B\\ll A} prod(B) + \\sum_{B \\gtrless A \\wedge prod(B)>0} prod(B)[/$$]
         -
                 uuid: b374f576-e3c0-44d6-81f2-f269fc014742
                 topic: Optimistické a pesimistické profily
-                front: Definice pesimistického profilu (prp)
+                front: >
+                        Definice: Pesimistický profil (prp)
                 back: >
-                        Minimální možná úroveň zdroje v čase, když se [$]A[/$] začne zpracovávat.<br><br>
-                        Aktivity, které *musí* být před [$]A[/$] se vezmou dohromady
+                        Minimální úroveň zdroje když začně [$]A[/$].<br><br>
+                        Aktivity, co *musí* být před [$]A[/$] se vezmou
                         s konzumačními aktivitami, co *můžou* být před [$]A[/$].
                         <br><br>
                         [$$]prp(A)=InitLevel + prod(A) + \\sum_{B \\ll A}prod(B) + \\sum_{B \\gtrless A \\wedge prod(B)<0} prod(B)[/$$]
@@ -206,13 +222,15 @@ notes:
                 topic: Rozvrhovací strategie
                 front: Jak budu postupovat obecně?
                 back: >
-                        Jako první udělám kritická rozhodnutí - first-fail, vyřeším bottlenecky.
+                        Jako první kritická rozhodnutí:
+                        first-fail, vyřeším bottlenecky.
                         <br>
                         Preferuj alternativy s větší flexibilitou.
         -
                 uuid: 99dc6e1a-c86d-4efa-8d6b-fc7d7182ec1a
                 topic: Rozvrhovací strategie
-                front: Definice - Co je to *slack*?
+                front: >
+                        Definice: *Slack*
                 back: >
                         Slack pro aktivity [$]A\\ll B[/$]:
                         [$$]slack(A\\ll B)=\\max(end(B)) - \\min(start(A)) - p(\\{A,B\\})[/$$]
@@ -230,7 +248,7 @@ notes:
                         Jako první budu vybírat pořadí aktivit co jsou
                         nejkritičtější &mdash; [$]\\min slack(\\{A,B\\})[/$].
                         <br><br>
-                        Vyberu pořadí, které maximalizuje [$]slack(A\\gtrless B)[/$].
+                        Vyberu pořadí dle [$]\\max slack(A\\gtrless B)[/$].
                         <br><br>
                         Bodů volby je [$]\\O(n^2)[/$].
         -
@@ -239,23 +257,24 @@ notes:
                 front: Větvení první/poslední; kolik je bodů volby?
                 back: >
                         Mám hledat první, nebo poslední aktivitu?
-                        Rozhodnu se podle toho, jestli je méně kandidátů na první,
-                        nebo na poslední aktivitu.
+                        Rozhodnu se podle toho, na co je méně kandidátů.
                         <br><br>
-                        Když hledám první aktivitu, preferuju tu, co má
-                        nejmenší [$]\\min(start(A))[/$]. Když hledám poslední, preferuju tu,
+                        Když hledám první, preferuju tu, co má
+                        nejmenší [$]\\min(start(A))[/$].
+                        Když hledám poslední, preferuju tu,
                         co má maximální [$]\\max(end(A))[/$].
                         <br><br>
                         Bodů volby je [$]\\O(n)[/$].
         -
                 uuid: 5e04364e-8173-4065-8383-917dfc597500
                 topic: Rozvrhovací strategie
-                front: Co to je *zdrojový slack* a jak se použije?
+                front: >
+                        Co to je *zdrojový slack* a jak se použije?
                 back: >
                         Slack množiny aktivit zpracovávaných zdrojem.<br><br>
                         Volíme zdroj, na kterém budu jako prvním uspořádávat
                         aktivitu: ten co má nejmenší slack.
                         <br><br>
-                        Volíme zdroj, na který alokuju aktivitu: ten s maximálním
-                        slackem.
+                        Volíme zdroj, na který alokuju aktivitu: ten
+                        s maximálním slackem.
 

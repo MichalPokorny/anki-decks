@@ -61,9 +61,9 @@ notes:
                 front: Primitivní vztahy mezi intervaly
                 back: >
                         <ul>
-                        <li> x **b**efore y ([$]x^+<y^_[/$])
-                        <li> x **m**eets y ([$]x^+=y^-[/$]
-                        <li> x **o**verlaps y ([$]x^- < y^- < x^+[/$] a [$]x^+ < y^+[/$])
+                        <li> x **b**efore y ([$]x^{+}<y^{-}[/$])
+                        <li> x **m**eets y ([$]x^{+}=y^{-}[/$]
+                        <li> x **o**verlaps y ([$]x^{-} < y^{-} < x^{+}[/$] a [$]x^{+} < y^{+}[/$])
                         <li> x **d**uring y (celé [$]x[/$] je v [$]y[/$])
                         <li> x **s**tarts / **f**inishes y (x je menší než y a je to první/poslední věc v y)
                         <li> x **e**quals y
@@ -109,15 +109,17 @@ notes:
                         Unární: [$]a \\leq t_i \\leq b[/$],
                         binární: [$]a \\leq t_i - t_j \\leq b[/$];
                         <br><br>
-                        Binární podmínka mezi [$]t_i,t_j[/$] se píše [$]a,b[/$].
+                        Binární podmínka mezi [$]t_i,t_j[/$] se píše [$][a_{ij},b_{ij}][/$].
                         Můžeme pracovat s disjunkcemi jednoduchých časových podmínek.
         -
                 uuid: 40e930a0-668b-4a1e-8f34-0b369506a4a4
                 topic: Simple Temporal Network
                 front: Povolené podmínky, operace
                 back: >
-                        Jenom jednoduché časové podmínky (žádné skládání): [$]r_{ij}=[a_{ij},b_{ij}][/$].<br>
-                        Operace: skládání: [$]r_{ij}\\cdot r_{jk}=[a_{ij}+a_{jk},b_{ij}+b_{jk}][/$],
+                        Jenom jednoduché časové podmínky (žádné skládání):
+                        [$]r_{ij}=[a_{ij},b_{ij}][/$].<br>
+                        Operace:
+                        skládání: [$]r_{ij}\\cdot r_{jk}=[a_{ij}+a_{jk},b_{ij}+b_{jk}][/$],
                         průnik: [$]r_{ij}\\cap r'_{ij}=[\\max(a_{ij},a'_{ij}),\\min(b_{ij},b'_{ij})][/$]
         -
                 uuid: 412dbc27-b0ef-4508-b39b-956e6c16df9b
@@ -181,7 +183,8 @@ notes:
                 uuid: 02bcb167-8d9d-4c6b-8ae2-0b78556a13d5
                 front: Na jakých grafech je TNA výběr uzlů polynomiálně řešitelný?
                 back: >
-                        Zahnízděné grafy (vzniknou postupnou aplikací dekompoziční operace).
+                        Zahnízděné grafy (vzniknou postupnou aplikací
+                        dekompoziční operace).
                         <br>
                         Operace:
                         <br>
@@ -191,10 +194,13 @@ notes:
                         na nových vrcholech [$]x_1,\\ldots x_n[/$].
         -
                 uuid: b6117756-0abb-4623-a34a-e0614b641c80
-                front: (Zahnizdene) temporalni site s alternativami
+                front: (Zahnizdene) temporalni site s alternativami - hrany
                 back: >
-                        Hrana v DAGu je jednoducha temporaln podminka [$]a\\leq Y-X\\leq b[/$].
+                        Hrana v DAGu je jednoduchá temporalní podminka
+                        [$]a\\leq Y-X\\leq b[/$].
         -
                 uuid: 490b8409-236b-4d49-b9b6-e92a8e9b0892
-                front: Složitost globální konzistence temporálních podmínek v zahnízděných sítích
+                front: >
+                        Složitost globální konzistence temporálních podmínek
+                        v zahnízděných sítích
                 back: NP-úplná (subset sum)

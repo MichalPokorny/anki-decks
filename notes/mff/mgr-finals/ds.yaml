@@ -3,12 +3,21 @@ notes:
         -
                 uuid: ae5a81b0-dec8-4bd1-bd6b-5f1c8f7fb3eb
                 front: Základní vlasnost binárních vyhledávacích stromů
-                back: V pořadí zleva doprava v DFS jsou klíče uspořádané od nejmenšího po největší.
+                back: >
+                        V pořadí zleva doprava v DFS jsou klíče uspořádané
+                        od nejmenšího po největší.
         -
                 uuid: caf785f4-dcf0-400e-9c72-dd0f8b5b5ba5
-                front: Na jaké vlastnosti záleží doba vyhledávání ve vyhl. stromu? Jak se to optimalizuje?
+                front: >
+                        Na jaké vlastnosti záleží doba vyhledávání ve
+                        vyhl. stromu? Jak se to optimalizuje?
                 back: >
-                        Na hloubce vrcholů. Systematické vyvažování: AVL/red-black/...; (a,b)-stromy; "dynamicky": splay stromy
+                        Na hloubce vrcholů.
+                        <ul>
+                        <li> Systematické vyvažování: AVL/red-black/...
+                        <li> [$] (a,b)[/$]-stromy
+                        <li> "Dynamicky": splay stromy
+                        </ul>
         -
                 uuid: 017590ba-1c6b-43b3-9454-5641a154476d
                 front: >
@@ -25,7 +34,8 @@ notes:
                 uuid: eebfb938-29c8-4db5-aedb-9b62c93a96b5
                 front: Kolik listů má [$] (a,b) [/$]-strom dané hloubky? Jakou má hloubku, podle množství listů?
                 back: >
-                        Mezi [$]a^{d-1}[/$] a [$]b^d[/$]. Hloubka: [$]\\log_b n \\leq d \\leq 1 + \\log_a n[/$].
+                        Mezi [$]a^{d-1}[/$] a [$]b^d[/$].
+                        Hloubka: [$]\\log_b n \\leq d \\leq 1 + \\log_a n[/$].
         -
                 uuid: abb7a7f3-7173-492b-b118-3e7b6f7ea15b
                 front: >
@@ -118,19 +128,23 @@ notes:
                 front: Red-black trees &mdash; axiomy
                 back: >
                         <ul>
-                        <li> Každý uzel je červený nebo černý.
+                        <li> Uzel je červený nebo černý.
                         <li> Červené mohou být syny pouze černých (nemůže být
                         červený pod červeným).
-                        <li> Na každé cestě do listu je stejně černých vrcholů.
-                        <li> Hodnoty jsou ve vnitřních vrcholech.
+                        <li> Každá cesta do listu má stejně černých vrcholů.
+                        <li> Hodnoty ve vnitřních vrcholech.
                         </ul>
         -
                 uuid: 121e2648-cfe6-4f4a-8ad3-642a376baae5
                 front: Red-black trees &mdash; ekvivalence s [$] (a,b) [/$]
                 back: >
-                        Ekvivalentní [$] (2,3) [/$]-stromům. Jsou tři možnosti:
-                        vrchol je červený a má dva černé syny; je černý a má
-                        dva červené syny; je černý a má jednoho červeného syna.
+                        Ekvivalentní [$] (2,4) [/$]-stromům.
+                        Jsou tři možnosti:
+                        <ul>
+                        <li> Vrchol je červený a má dva černé syny
+                        <li> Černý a má dva červené syny
+                        <li> Černý a má jednoho červeného syna.
+                        </ul>
                         To jsou gadgety na 4, 2, 3 syny.
         -
                 uuid: b2e3d4a9-a888-45cc-b1ab-182fc1390bc1
@@ -144,17 +158,13 @@ notes:
                 front: Vlastnosti splay stromu - maximální, amortizovaná cena vkládání
                 back: >
                         Na operaci: až [$]\\O(n)[/$]
-
+                        <br><br>
                         Cena za [$]m[/$] operací, [$]n[/$] vložených prvků: [$]\\O(m\\log n+n\\log n)[/$]
         -
                 uuid: f0795afe-ab1d-4293-a1ad-e6f88a9c80f5
                 topic: Splay stromy
-                front: Operace Splay &mdash; případy
+                front: Operace Splay &mdash; případy pro [$]Splay(x)[/$]
                 back: >
-                        [$]Splay(x)[/$]
-
-                        Případy:
-
                         A:
                         <pre>
                                z              x
@@ -190,16 +200,18 @@ notes:
                 topic: Splay stromy
                 front: Insert
                 back: >
-                        Vysplayuj nahoru poslední vrchol na cestě k chybějícímu [$]x[/$].
-
-                        Podrozděl levou nebo pravou hranu z vysplayovaného kořene novým vrcholem [$]x[/$].
+                        Vysplayuj nahoru poslední vrchol na cestě k chybějícímu
+                        [$]x[/$].
+                        <br><br>
+                        Podrozděl levou/pravou hranu z vysplayovaného kořene
+                        novým vrcholem [$]x[/$].
         -
                 uuid: a95b34fc-04cd-4672-aaa9-ed11305aea42
                 topic: Splay stromy
                 front: Delete
                 back: >
                         Vysplayuj nahoru vrchol co chci odebrat.
-                        Odeber ho, nahraď ho nejmenším/největším z
+                        Odeber ho, nahraď nejmenším/největším
                         pravého/levého podstromu.
         -
                 uuid: 5071f3a5-9735-46ce-90d8-e13d3e9d9eea
@@ -261,14 +273,14 @@ notes:
                 uuid: 8d4b7b9b-26fa-4fb5-aca4-3f8af1d65cf3
                 topic: Splay stromy
                 front: >
-                        K čemu bude omezení na amortizovaný čas na dvourotační
+                        K čemu je omezení na amortizovaný čas na dvourotační
                         kroky?
                 back: >
-                        Na krok je čas [$]\\leq 3(r'(x)-r(x))[/$], plus 1
+                        Na krok je čas [$]\\leq 3(r'(x)-r(x))[/$], [$]+1[/$]
                         za rotaci u kořene.<br>
-                        To se postupným splayováním vyteleskopuje na
+                        Postupným splayováním vyteleskopuje na
                         [$]1+3(r(v)-r(x))[/$], kde [$]v[/$] je kořen.<br>
-                        To je nejvýš [$]\\Theta(\\log N)[/$].
+                        To je [$]\\Theta(\\log N)[/$].
         -
                 uuid: 041041da-2e5b-4696-95c9-94c1e7f4855b
                 topic: Splay stromy
@@ -319,11 +331,11 @@ notes:
                         Amortizovaný čas na Splay &mdash; na případ
                         [$]x\\rightarrow y[/$] v kořeni
                 back: >
-                        [$$]t\\leq 1+r'(x)-r(x)+r'(y)-r(y)[/$$]
-
-                        Poz.: [$]r'(y)<r(y)[/$], [$]r'(x)-r(x)>0[/$]
-
-                        [$$]t \\leq 1+r'(x)-r(x) \\leq 1+3(r'(x)-r(x))[/$$]
+                        [$]t\\leq 1+r'(x)-r(x)+r'(y)-r(y)[/$]
+                        <br><br>
+                        Pozorování: [$]r'(y)<r(y)[/$], [$]r'(x)-r(x)>0[/$]
+                        <br><br>
+                        [$]t \\leq 1+r'(x)-r(x) \\leq 1+3(r'(x)-r(x))[/$]
         -
                 uuid: 7738e830-27af-432c-9f98-4266eae390e8
                 front: Haldy &mdash; obecný interface
@@ -332,80 +344,102 @@ notes:
         -
                 uuid: 98f1108a-eb48-4c63-ba19-aef0d126a539
                 topic: Regulární halda
-                front: Invariant, uložení do pole
+                front: Invariant
                 back: >
-                        Invariant: Prvek je menší než všechny pod ním.
+                        Prvek je menší než všechny pod ním.
+        -
+                uuid: 79c747fc-7190-4226-93ec-8c220238b772
+                topic: Regulární halda
+                front: Uložení do pole
+                back: >
                         Pod [$]i[/$] jsou prvky [$]2i[/$], [$]2i+1[/$].
         -
                 uuid: d77b8f43-105e-4074-8728-893e94fc4584
                 topic: Regulární halda
                 front: Algoritmus Insert
                 back: >
-                        Přidej prvek na konec pole. Bublej ho směrem ke kořeni,
+                        Přidej na konec pole. Bublej směrem ke kořeni,
                         dokud je porušena podmínka, že otec je menší než syn.
         -
                 uuid: 8a30657b-6486-43b4-b69c-4acb6d6c7777
-                front: Regulární halda &mdash; Delete
+                topic: Regulární halda
+                front: Algoritmus Delete
                 back: >
-                        Poslední prvek přesuň do prvního, bublej s menším ze
+                        Poslední přesuň do prvního, bublej s menším ze
                         synů směrem dolů dokud je otec větší než syn.
         -
                 uuid: 53dbd39b-fe32-406d-9da8-b7d3f206bd0b
-                front: Regulární halda &mdash; časy
+                topic: Regulární halda
+                front: Časy
                 back: >
                         Insert, DeleteMin: [$]\\O(\\log n)[/$], Min: [$]\\O(1)[/$]
         -
                 uuid: a117f9b8-e1b0-4e51-8ed8-e67f2c8572d0
-                front: Binomiální halda &mdash; struktura
+                topic: Binomiální halda
+                front: Struktura
                 back: >
                         Soubor haldově uspořádaných stromů velikostí [$]2^k[/$].
-                        Pamatujeme si, který obsahuje minimální prvek.
-
-                        Zbrklá varianta: nejvýše jeden strom dané varianty.
-
-                        Líná varianta: bez omezení na počet stromů stejné velikosti.
-
-                        Jeden binomiální strom obsahuje kořen a hned pod ním menší binomiální stromy všech menších velikostí.
+                        Pointer na strom s minimem.
+                        <br><br>
+                        *Zbrklá*: nejvýše jeden strom dané varianty.
+                        <br><br>
+                        *Líná*: bez omezení na počet stromů stejné velikosti.
+                        <br><br>
+                        Jeden binomiální strom obsahuje kořen a hned pod ním
+                        menší binomiální stromy všech menších velikostí.
         -
                 uuid: f4b71aef-78b4-46b1-a788-42d1dc6620fc
-                front: Eager binomiální halda &mdash; Insert
+                topic: Eager binomiální halda
+                front: Algoritmus Insert
                 back: >
-                        Přidej nový haldový strom velikosti 1,
-                        postupně slívej dokud existují dva stromy stejné velikosti.
-                        Aktualizuj ukazatel na strom s minimálním prvkem.
+                        Přidej nový strom velikosti 1,
+                        postupně slívej dokud existují dva stromy stejné
+                        velikosti.
+                        Aktualizuj ukazatel na strom s minimem.
         -
                 uuid: f90fa989-ff96-41b1-8a27-0eeaaa17cc8d
-                front: Eager binomiální halda &mdash; DeleteMin
+                topic: Eager binomiální halda
+                front: Algoritmus DeleteMin
                 back: >
-                        Odřízneme kořen stromu s minimálním prvkem.
+                        Odřízneme kořen stromu s minimem.
                         Rozpadne se na [$]i[/$] stromů velikosti [$]2^0, 2^1,
                         \\ldots 2^{i-1}[/$].
                         Postupně slívej jako při Insertu.
         -
                 uuid: f60d57a1-990f-4c50-8992-f9a82e172a74
-                front: Eager binomiální halda &mdash; složitosti
+                topic: Eager binomiální halda
+                front: Složitosti
                 back: >
-                        Insert [$]\\O(\\log n)[/$], Min [$]\\O(1)[/$], DeleteMin [$]\\O(\\log n)[/$].
+                        Insert [$]\\O(\\log n)[/$], Min [$]\\O(1)[/$],
+                        DeleteMin [$]\\O(\\log n)[/$].
                         <br><br>
-                        Ale [$]n[/$] insertů trvá jenom [$]\\O(n)[/$] (amortizací přes inkrement).
-                        (Amortizovaně [$]\\O(1)[/$] na Insert dokud se neprovede DeleteMin.)
+                        Ale [$]n[/$] insertů trvá jenom [$]\\O(n)[/$]
+                        (amortizací přes inkrement).
+                        <br><br>
+                        (Amortizovaně [$]\\O(1)[/$] na Insert dokud se
+                        neprovede DeleteMin.)
         -
                 uuid: 3badd3b1-40d5-4e0c-925a-3126f13208cf
                 topic: Líná binomiální halda
-                front: Algoritmus pro Insert
-                back: Vytvoř nový strom velikosti 1 a aktualizuj odkaz na minimum.
+                front: Algoritmus Insert
+                back: >
+                        Vytvoř nový strom velikosti 1,
+                        aktualizuj odkaz na minimum.
         -
                 uuid: baad0a81-0faa-4a86-8dd4-552e0aa815d6
                 topic: Líná binomiální halda
-                front: Algoritmus pro DeleteMin
+                front: Algoritmus DeleteMin
                 back: >
-                        Odřízni kořen stromu s minimálním prvkem. Slévej stromy stejné velikosti dokud to jde.
+                        Odřízni kořen stromu s minimem.
+                        Slévej stromy stejné velikosti dokud to jde.
         -
                 uuid: 00bd62d4-b7b8-461d-a215-3ac8f38335b2
                 topic: Líná binomiální halda
                 front: Složitosti, důkazy
                 back: >
-                        Insert [$]\\O(1)[/$], Min [$]\\O(1)[/$], DeleteMin [$]\\O(n)[/$], ale amortizovaně [$]\\O(\\log n)[/$]<br>
+                        Insert [$]\\O(1)[/$], Min [$]\\O(1)[/$],
+                        DeleteMin [$]\\O(n)[/$],
+                        ale amortizovaně [$]\\O(\\log n)[/$]<br><br>
 
                         Potenciál: [$]\\Phi(T) = C \\cdot [/$] počet stromů v haldě<br>
 
@@ -435,12 +469,14 @@ notes:
                         [$]M/B[/$]: počet bloků v paměti
         -
                 uuid: fc258cff-8cef-495b-a6ca-69afbc5252f9
-                front: Model externí paměti &mdash; složitost sekvenčního čtení
+                topic: Model externí paměti
+                front: Složitost sekvenčního čtení
                 back: >
                         [$]\\lceil N/B \\rceil + 1[/$]
         -
                 uuid: c9501f8e-cfb7-4cda-b76c-997165ec1cdb
-                front: Model externí paměti &mdash; složitost binárního vyhledávání
+                topic: Model externí paměti
+                front: Složitost binárního vyhledávání
                 back: >
                         [$]\\log N - \\log B[/$]
         -
@@ -460,19 +496,29 @@ notes:
                         Analyzujeme s tím, že to jsou neznámé.
         -
                 uuid: 02c3fb00-23d9-4011-869f-9287b94fb132
-                front: Transpozice matice cache-obliviously. Jaký má předpoklad? Jakou má složitost?
+                front: >
+                        Transpozice matice cache-obliviously.
+                        Jaký má předpoklad? Jakou má složitost?
                 back: >
-                        Rekurzivně po čtvrtinách. Předpoklad: [$]M\\geq B^2[/$] (tall cache assumption)
-
-                        Jakmile se dostanu na velikost [$]B\\times B[/$], tak jedna transpozice trvá [$]B[/$] přenosů. Takových matic je [$]N^2/B^2[/$]. [$]\\O(N^2/B^2 \\cdot B)=\\O(N^2/B)[/$] I/O operací.
+                        Rekurzivně po čtvrtinách.
+                        Předpoklad: [$]M\\geq B^2[/$] (tall cache assumption)
+                        <br><br>
+                        Jakmile se dostanu na velikost [$]B\\times B[/$],
+                        tak jedna transpozice trvá [$]B[/$] přenosů.
+                        Takových matic je [$]N^2/B^2[/$].
+                        [$]\\O(N^2/B^2 \\cdot B)=\\O(N^2/B)[/$] I/O operací.
         -
                 uuid: f7be2627-47a5-4c5e-bf80-bceaf95803dc
-                front: van Emde-Boasovo uspořádání
+                front: Van Emde-Boasovo uspořádání
                 back: >
-                        Useknu strom v půlce výšky. Nahoře je [$]\\sqrt{N}[/$] prvků, dole je [$]\\sqrt{N}[/$] stromů, každý velký [$]\\sqrt{N}[/$]. Uložím je za sebe.
+                        Useknu strom v půlce výšky.
+                        Nahoře je [$]\\sqrt{N}[/$] prvků,
+                        dole je [$]\\sqrt{N}[/$] stromů, každý velký
+                        [$]\\sqrt{N}[/$]. Uložím je za sebe.
                         Počet I/O operací: [$]\\frac{\\log n}{\\log \\sqrt{B}}=2\\log_B N[/$]
-
-                        To je zlepšení proti binárnímu vyhledávání ([$]\\log N - \\log B[/$]).
+                        <br><br>
+                        Zlepšení proti binárnímu vyhledávání
+                        ([$]\\log N - \\log B[/$]).
         -
                 uuid: f71b5948-d157-4aec-b0b5-4aa6544b839f
                 front: Třídení &mdash; optimální cache-oblivious složitosti
@@ -484,26 +530,40 @@ notes:
                 uuid: cae253c8-de58-49f7-b3dc-a110268de71f
                 front: Ideální vs. skutečná cache
                 back: >
-                        Skutečné cache: asociativita (nejsou plně asociativní),
-                        nevidí budoucnost (mají LRU).
+                        Skutečná: asociativita (není plně asociativní),
+                        nevidí budoucnost (má LRU).
         -
                 uuid: bc29fdf5-d98c-4503-8c47-97882feef63d
                 front: Sleator-Tarjanova věta o LRU/OPT strategii
                 markdown: false
                 back: >
-                        Ať je posloupnost přístupů [$]s_1, \ldots s_N[/$], LRU ať má [$]n_{\mathrm{LRU}}[/$] stránek, OPT ať má [$]n_{\mathrm{OPT}}[/$] stránek.<br>
+                        Posloupnost přístupů [$]s_1, \ldots s_N[/$],
+                        LRU má [$]n_{\mathrm{LRU}}[/$] stránek,
+                        OPT má [$]n_{\mathrm{OPT}}[/$] stránek.<br>
 
-                        Tvrzení: [$]f_{\mathrm{LRU}} \leq \frac{n_{LRU}}{n_{LRU}-n_{OPT}}\cdot f_{\mathrm{OPT}}+n_{\mathrm{LRU}}[/$]<br><br>
+                        Tvrzení:
+                        [$]f_{\mathrm{LRU}} \leq
+                        \frac{n_{LRU}}{n_{LRU}-n_{OPT}}\cdot
+                        f_{\mathrm{OPT}}+n_{\mathrm{LRU}}[/$]<br><br>
 
                         Pozorování:
-                        Když má LRU výpadek v čase [$]t_1, t_2[/$] na stejné stránce ([$]s_{t_1}=s_{t_2}[/$]),
-                        tak mezi [$]t_1[/$] a [$]t_2[/$] přistupuje k [$]n_{\mathrm{LRU}}[/$] různým stránkám.<br>
+                        Když má LRU výpadek v čase [$]t_1, t_2[/$] na stejné
+                        stránce ([$]s_{t_1}=s_{t_2}[/$]),
+                        tak mezi [$]t_1[/$] a [$]t_2[/$] přistupuje
+                        k [$]n_{\mathrm{LRU}}[/$] různým stránkám.<br>
 
-                        Rozsekejme [$]s_{\*}[/$] na kusy, v nichž v každém je v LRU [$]n_{\mathrm{LRU}}[/$] výpadků (až na poslední).
-                        V každém se přistupuje k aspoň [$]n_{\mathrm{LRU}}[/$] různým stránkám.
-                        OPT musí mít v daném úseku aspoň [$]n_{\mathrm{LRU}}-n_{\mathrm{OPT}}[/$] výpadků, protože na začátku má OPT v sobě nejvýš [$]n_{\mathrm{OPT}}[/$] stránek.<br>
+                        Rozsekejme [$]s_{\*}[/$] na kusy, v nichž v každém je
+                        v LRU [$]n_{\mathrm{LRU}}[/$] výpadků (až na poslední).
+                        V každém se přistupuje k aspoň [$]n_{\mathrm{LRU}}[/$]
+                        různým stránkám.
+                        OPT musí mít v daném úseku aspoň
+                        [$]n_{\mathrm{LRU}}-n_{\mathrm{OPT}}[/$] výpadků,
+                        protože na začátku má OPT v sobě nejvýš
+                        [$]n_{\mathrm{OPT}}[/$] stránek.<br>
 
-                        Tedy: [$]f_{\mathrm{LRU}}/n_{\mathrm{LRU}} \leq \lceil f_{\mathrm{OPT}} / (n_{\mathrm{LRU}}-n_{\mathrm{OPT}}) \rceil[/$]<br>
+                        Tedy: [$]f_{\mathrm{LRU}}/n_{\mathrm{LRU}} \leq \lceil
+                        f_{\mathrm{OPT}} / (n_{\mathrm{LRU}}-n_{\mathrm{OPT}})
+                        \rceil[/$]<br>
 
                         Když zvolím 2x větší LRU, bude konstanta nejvýš 2.
         -
@@ -511,12 +571,13 @@ notes:
                 topic: Hashování
                 front: Jaký problém řeší, a obecně jak?
                 back: >
-                        Máme velké univerzum [$]U[/$], chceme reprezentovat [$]S\\subseteq U[/$], [$]|S|=n[/$],
+                        Velké univerzum [$]U[/$], reprezentuju
+                        [$]S\\subseteq U[/$], [$]|S|=n[/$],
                         operace Find, Insert, (Delete).
                         <br>
-                        Triviálně bychom mohli použít pole velikosti [$]|U|[/$].
+                        Triviálně: použít pole velikosti [$]|U|[/$].
                         <br>
-                        Vybereme funkci [$]h:U\\imp\\{1\\ldots m\\}[/$],
+                        Vybereme [$]h:U\\imp\\{1\\ldots m\\}[/$],
                         kde [$]m \\ll |U|[/$].
         -
                 uuid: c71f666f-87cf-4e3a-9a82-fdd34870f868
@@ -535,17 +596,17 @@ notes:
                 topic: Hashování
                 front: Řešení kolizí přes separované řetězce
                 back: >
-                        V každém kyblíku je vyhledávací strom
+                        V každém kyblíku vyhledávací strom
                 include_reverse: true
         -
                 uuid: 375fb09c-1fd8-4f9c-9fd4-e2af45d3c60a
                 topic: Hashování
                 front: Srůstající řetězce (a dva podzpůsoby)
                 back: >
-                        Každý kyblík obsahuje jeden prvek a
-                        volitelně jeden ukazatel, který tvoří jednosměrný
+                        Každý kyblík má jeden prvek a
+                        volitelně ukazatel, který tvoří jednosměrný
                         spojový seznam.
-                        Když přidám nový ukazatel, přidám ho buď na konec
+                        Když přidám nový prvek, přidám buď na konec
                         seznamu (LICH), nebo za první prvek seznamu (EICH).
                 include_reverse: true
         -
@@ -553,9 +614,11 @@ notes:
                 topic: Hashování
                 front: S pomocným polem
                 back: >
-                        V kyblíku je místo na prvek a ukazatel.
-                        Ukazatele ukazují do pomocného pole, které může ukazovat dál.
-                        Jakmile dojde pomocné pole, začnu ukládat přetékající prvky
+                        V kyblíku místo na prvek a ukazatel.
+                        Ukazatele ukazují do pomocného pole, které může
+                        ukazovat dál.
+                        Jakmile dojde pomocné pole, začnu ukládat přetékající
+                        prvky
                         do hlavního pole.
         -
                 uuid: 3d2bb991-29ac-4946-ae79-9ac263d37cde
@@ -583,9 +646,9 @@ notes:
                 front: Jak se dělá Delete?
                 back: >
                         Je problematický.<br>
-                        Jako trik můžu označit smazané prvky a při Insert je
-                        znovu použít. Pokud jich bude příliš mnoho označených,
-                        udělám přehashování.
+                        Trik: označit smazané prvky a při Insert
+                        recyklovat. Pokud bude příliš mnoho označených,
+                        přehashuju.
         -
                 uuid: ac827d29-d92c-464a-af33-fb9c17cfedd1
                 topic: Hashování
@@ -593,20 +656,22 @@ notes:
                 back: >
                         [$]n[/$] košů a [$]n[/$] míčků, které házím náhodně.
                         <br>
-                        [$$]P[\\text{kos je prazdny}]=\\left(1-\\frac{1}{n}\\right)^n\\rightarrow_{n\\rightarrow\\infty} \\frac{1}{e}[/$$]
+                        [$$]P[\\text{kos je prazdny}]=
+                        \\left(1-\\frac{1}{n}\\right)^n\\rightarrow_{n\\rightarrow\\infty} \\frac{1}{e}[/$$]
         -
                 uuid: 468efc83-6992-449e-a0a1-b17b35267089
                 topic: Hashování
                 front: Balls & bins - pravděpodobnost, že koš obsahuje [$]k[/$] míčků
                 back: >
                         [$$]P[\\text{kos ma}\\ n\\ \\text{micku}]=
-                                {n\\choose k} \\frac{1}{n^k} \\left(1-\\frac{1}{n}\\right)^{n-k} \\approx_{k\\ll n} \\frac{n^k}{k!} \\cdot \\frac{1}{n^k} \\cdot \\frac{1}{e} = \\frac{1}{e \\cdot k!}[/$$]
+                        {n\\choose k} \\frac{1}{n^k} \\left(1-\\frac{1}{n}\\right)^{n-k} \\approx_{k\\ll n} \\frac{n^k}{k!} \\cdot \\frac{1}{n^k} \\cdot \\frac{1}{e} = \\frac{1}{e \\cdot k!}[/$$]
         -
                 uuid: ac807671-0264-404e-b631-1cb43628151d
                 topic: Hashování
                 front: Balls & bins - jaké je maximum v libovolném košíku?
                 back: >
-                        S velkou pravděpodobností [$]\\Theta(\\log n/\\log \\log n)[/$].
+                        S velkou pravděpodobností
+                        [$]\\Theta(\\log n/\\log \\log n)[/$].
                         <br>
                         [$]n! < n^n[/$]. Vezmi [$]x=\\log n/\\log\\log n[/$].
                         [$]x^x < n[/$], pokud [$]x \\log x < \\log n[/$].<br>
@@ -616,23 +681,26 @@ notes:
                         pravděpodobnost, že v jednom koši je [$]\\geq k[/$], je [$]\\Theta(\\frac{1}{k!})[/$].
                         <br>
                         Pravděpodobnost, že v žádném koši není [$]\\geq k[/$], je [$]\\geq n/k![/$],
-                        takže z toho vyjde že pro [$]k=\\Theta(\\log n/\\log\\log n)[/$] je to konstantní pravděpodobnost.
+                        takže pro [$]k=\\Theta(\\log n/\\log\\log n)[/$] je to
+                        konstantní pravděpodobnost.
         -
                 uuid: 3cb51b71-608b-49d3-96b9-ee2e796bfac9
                 topic: Hashování
                 front: Proč nás zajímá balls & bins?
                 back: >
-                        Protože to říká že při náhodně zvolené hashovací funkci 
-                        bude maximální velikost kyblíku [$]\\Theta(\\log n/\\log\\log n)[/$].
+                        Protože to říká že při náhodné hashovací funkci
+                        bude maximální velikost kyblíku
+                        [$]\\Theta(\\log n/\\log\\log n)[/$].
         -
                 uuid: 935989fe-baee-45f7-a1c1-e4aefdf82607
                 topic: Hashování
                 front: Analýza lineárního přidávání
                 markdown: false
                 back: >
-                        Předpokládám, že [$]h[/$] přiděluje prvky zcela náhodně.
+                        Ať [$]h[/$] přiděluje prvky náhodně.
                         <br>
-                        [$]p_{k,s}[/$]: pravděpodobnost, že nejbližší volná pozice je po [$]k[/$] prvcích
+                        [$]p_{k,s}[/$]: pravděpodobnost, že nejbližší volná
+                        pozice je po [$]k[/$] prvcích
                         a před [$]h(x)[/$] je dalších [$]s[/$] prvků.
                         <br>
                         [latex]
@@ -653,27 +721,33 @@ notes:
         -
                 uuid: 0339b66e-85a4-4d31-b828-4675c05308b1
                 topic: Hashování
-                front: Očekávání maximální zaplnění koše při balls & bins, když zvolím náhodně dva koše a hodím do toho prázdnějšího
+                front: >
+                        Očekávané maximální zaplnění koše při balls & bins,
+                        když zvolím náhodně dva koše a přidám do
+                        prázdnějšího
                 back: >
-                        [$$]\\mathcal{O}(\\log\\log n)[/$$]
+                        [$]\\mathcal{O}(\\log\\log n)[/$]
         -
                 uuid: a07d81f9-50a8-40f3-979f-2af29909f06a
                 topic: Kukaččí hashování
                 front: Jak funguje?
                 back: >
-                        Mám dvě hashovací funkce, [$]x[/$] je buď v [$]h_1(x)[/$], nebo [$]h_2(x)[/$].
+                        Mám 2 hashovací funkce,
+                        [$]x[/$] je buď v [$]h_1(x)[/$], nebo [$]h_2(x)[/$].
                         <br>
                         Insert:
                         [$]pos\\leftarrow h_1(x)[/$].
-                        Opakuj n-krát: pokud je kyblík [$]pos[/$] zaplněný,
-                        vyměň [$]x[/$] a [$]T[pos][/$], vyber [$]x[/$] jako druhý hash.
+                        Opakuj [$]n[/$]-krát: pokud je kyblík [$]pos[/$]
+                        zaplněný, vyměň [$]x[/$] a [$]T[pos][/$],
+                        vyber [$]x[/$] jako druhý hash.
                         Jestli to doběhne a furt držíš prvek, přehashuj.
         -
                 uuid: c74711df-85a0-43a9-a527-3f63dab19f6e
                 topic: Kukaččí hashování
                 front: Pro jaké [$]m[/$] funguje dobře?
                 back: >
-                        [$]m\\approx 2.3n[/$], ale analýzu ukážu pro [$]m=6n[/$].
+                        [$]m\\approx 2.3n[/$],
+                        ale analýzu ukážu pro [$]m=6n[/$].
         -
                 uuid: 427e6fb9-f7ad-4c90-8142-2fcbf25c0a8f
                 topic: Kukaččí hashování
@@ -684,8 +758,9 @@ notes:
                         Tvrzení: Pravděpodobnost, že pro náhodné [$]h_1,h_2[/$]
                         má kukačkový graf cyklus, je [$]\leq 1/2[/$].
                         <br>
-                        Lemma: Pravděpodobnost, že pro náhodné [$]h_1,h_2[/$] jsou pozice
-                        [$]i,j[/$] spojeny cestou délky [$]\ell[/$] je
+                        Lemma: Pravděpodobnost, že pro náhodné [$]h_1,h_2[/$]
+                        jsou pozice [$]i,j[/$] spojeny cestou délky [$]\ell[/$]
+                        je
                         [$]\leq (2n/m)^\ell \cdot \frac{1}{m} \leq \frac{1}{3^\ell}\cdot\frac{1}{m}[/$].
                         <br>
                         Důkaz lemmatu:<br>
@@ -704,7 +779,8 @@ notes:
                         [$$]P[i\text{ je v cyklu}]\leq\sum_{\ell\geq 1}\frac{1}{3^\ell}\cdot\frac{1}{m}\leq\frac{1}{2m}[/$$]<br>
                         [$$]P[\text{existuje cyklus}]\leq\frac{1}{2}[/$$]
                         <br>
-                        Očekávaný počet přehashování je tedy [$]\leq 1[/$] na [$]n[/$] insertů.
+                        Očekávaný počet přehashování je tedy [$]\leq 1[/$] na
+                        [$]n[/$] insertů.
         -
                 uuid: 049eba81-3ab3-41dd-ad0a-5b4ede0ba8c0
                 topic: Kukaččí hashování
@@ -732,21 +808,23 @@ notes:
                         fungovala dobře.
         -
                 uuid: c1ffa339-6cfd-4dcb-8a54-f5b394d260d8
-                front: Proč prostě nevybereme náhodnou hashovací funkci?
+                front: Proč nevybereme náhodnou hashovací funkci?
                 back: >
-                        Protože by potřebovala [$]|U|\\cdot\\log m[/$]
-                        bitů na popis, to je moc.
+                        Moc dlouhý popis ([$]|U|\\cdot\\log m[/$])
         -
                 uuid: 7d120cf9-d36a-4458-acb0-d3112c9f85fe
                 front: Co je to univerzální hashovací systém?
                 back: >
-                        Pro každé pevné [$]x,y[/$]: [$]P_{h\in H}[h(x)=h(y)]=\frac{1}{m}[/$]
+                        Pro každé pevné [$]x,y[/$]:
+                        [$]P_{h\in H}[h(x)=h(y)]=\frac{1}{m}[/$]
                         <br>
                         Neboli: pravděpodobnost kolize dvou prvků je stejná
-                        jako u zcela náhodné funkce.
+                        jako u náhodné funkce.
         -
                 uuid: 52cb81e7-a118-4769-b2ef-e509bbaa8ad5
-                front: Co je to [$]k[/$]-univerzální hashovací systém (resp., po [$]k[/$] nezávislá hashovací funkce)?
+                front: >
+                        Definice: [$]k[/$]-univerzální hashovací systém
+                        (po [$]k[/$] nezávislá hashovací funkce)
                 back: >
                         Pro libovolná [$]x_1,\\ldots x_k\\in U, a_1,\\ldots a_k\\in [m][/$]:
                         [$]P_{h\\in H}[h(x_1)=a_1\\wedge\\ldots\\wedge h(x_k)=a_k]=1/m^k[/$]
@@ -779,7 +857,7 @@ notes:
                         [$]h_{A,b}(x)=Ax+b[/$], kde maticové násobení je nad [$]GF(2)[/$],
                         popis potřebuje [$]k\\cdot W+k[/$] bitů
                         <br>
-                        Maticové násobení je nepraktické. Je 2-univerzální.
+                        Nepraktické. 2-univerzální.
         -
                 uuid: debfbd21-8f66-48f2-a8e9-f69f99762618
                 front: Hashování konvolucí a vlastnosti
@@ -789,7 +867,7 @@ notes:
                         [$]H=\{h_{a,b}:a\in\{0,1\}^{w+k-1},b\in\{0,1\}^b\}[/$].
                         [$] (h_{a,b}(x))_j=b_j+\sum_{i=1}^w a_{i+j-1} x_i[/$]
                         <br>
-                        Konvoluce je nepraktická. Je 2-univerzální.
+                        Nepraktické. 2-univerzální.
         -
                 uuid: 54210963-0024-487a-a312-3fd5eee08e62
                 front: Hashování multiply-shift a vlastnosti
@@ -802,7 +880,8 @@ notes:
                         (+,* nad celými čísly)
                         <br>
                         <br>
-                        Je rychlé, nepotřebuje dělení, stačí jedno násobení. Je 2-univerzální.
+                        Rychlé, nepotřebuje dělení, stačí jedno násobení.
+                        2-univerzální.
                         <br>
                         Zobecnění: [$][ax+b]_{w'-k+1,\ldots w'}[/$]
         -
@@ -862,7 +941,7 @@ notes:
                         výstup je [$]T_0[x_0]\\oplus \\ldots T_{d-1}(x_{d-1})[/$]
                         (XOR po bitech).
                         <br>
-                        Je 2-univerzální.
+                        2-univerzální.
         -
                 uuid: a35d77b3-acf6-4133-8d01-69c2005d42a8
                 front: 5-univerzální tabulkové hashování
@@ -876,24 +955,27 @@ notes:
                 front: Konstrukce [$]k[/$]-univerzálního hashování
                 back: >
                         [$]p\\in P, x\\in \\Z_p,
-                        a_0,\\ldots a_{k-1}\\in \\Z_p náhodně<br>
+                        a_0,\\ldots a_{k-1}\\in \\Z_p[/$] náhodně<br>
                         <br>
-                        [$$]h_{a_0,\\ldots a_{k-1}}(x)=\\sum_{i=0}^{k-1} a_i x^i \\bmod p[/$$]
+                        [$]h_{a_0,\\ldots a_{k-1}}(x)=\\sum_{i=0}^{k-1} a_i x^i \\bmod p[/$]
                         <br>
-                        Je [$]k[/$]-univerzální.
+                        [$]k[/$]-univerzální.
         -
                 uuid: c2b4ae9f-c490-459c-84e9-314ca20ad298
-                front: K čemu jsou užitečná Mersennova prvočísla?
+                front: Užitečnost Mersennových prvočísel
                 back: >
-                        Dá se jimi rychle modulit: [$]y=(y \\& p) + (y \\gg a)(\\bmod p)[/$]
+                        Dá se jimi rychle modulit:
+                        [$]y=(y \\& p) + (y \\gg a)(\\bmod p)[/$]
         -
                 uuid: ee03f9d3-2e24-4b87-b30d-e1db4c34f915
                 front: Perfektní hashování
                 back: >
-                        Vezmu 2-univerzální hashovací systém.
+                        Vem 2-univerzální hashovací systém.
                         [$]P_{h\\in H}[h(x_1)=h(x_2)]=1/m[/$].
                         <br><br>
-                        Očekávaný počet rolí, co kolidují: [$]\\leq n^2\\cdot\\frac{1}{m}[/$]
+                        Očekávaný počet kolidujících dvojic:
+                        [$]\\leq n^2\\cdot\\frac{1}{m}[/$]
                         <br><br>
-                        Když [$]m\\geq 2n^2[/$], pak [$]P[h\\ \\text{je perfektní pro}\\ S]\\geq\\frac{1}{2}[/$].
+                        Když [$]m\\geq 2n^2[/$], pak
+                        [$]P[h\\ \\text{perfektní na}\\ S]\\geq\\frac{1}{2}[/$].
 

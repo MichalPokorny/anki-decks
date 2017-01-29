@@ -1298,14 +1298,14 @@ notes:
                 uuid: a0a7de55-93f8-4c67-a729-4128b33e5f6e
                 front: Propitiate
                 back: >
-                        Win or regain the favour of (a god, spirit, or person)
+                        Win or regain the favour of (god, spirit, or person)
                         by doing something that pleases them
                 include_reverse: true
         -
                 uuid: 74c8513d-3240-40f6-a2b3-acca2812ac04
                 front: Profligate
                 back: >
-                        Adjective: ecklessly extravagant or wasteful in use of
+                        Adjective: recklessly extravagant or wasteful in use of
                         resources; licentious; dissolute
                         <br><br>
                         Noun: a licentious, dissolute person
@@ -1332,3 +1332,20 @@ notes:
                         (Formal) agree to a demand, request, or treaty;
                         assume an office or position
                 include_reverse: true
+        -
+                uuid: 28eb9264-ef5b-4af4-9000-2d0f0c4e45f8
+                front: Privation
+                back: >
+                        State in which food and other essentials for well-being
+                        are lacking; (formal) loss or absence of a quality
+                        or attribute normally present
+                include_reverse: true
+        -
+                uuid: 8f037361-8773-43b8-8b33-33f6702837d8
+                front: Syncretism
+                back: >
+                        Amalgamation or attempted amalgamation of different
+                        religions, cultures, or schools of thought;
+                        (linguistics) merging of different inflectional
+                        varieties of a word during development of
+                        a language

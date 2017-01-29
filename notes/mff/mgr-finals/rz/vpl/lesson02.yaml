@@ -3,33 +3,54 @@ notes:
         # VPL01
         -
                 uuid: b28d8d3b-9f0d-47d8-b456-edce8cc4f7fd
+                topic: Výroková logika
                 front: Jazyk výrokové logiky
                 back: >
-                        Neprázdná množina prvovýroků, nejvýše spočetná: [$]P[/$]
-
-                        Symboly: výrokové proměnné, spojky [$]\\neg \\vee \\wedge \\ekv \\rightarrow[/$], závorky
-
-                        Logické proměnné a závorky: logické symboly, výrokové proměnné: mimologické problémy
-
-                        Zkratky: [$]T:=(p\\vee\\neg p), \\perp:=(p\\wedge\\neg p)[/$] kde [$]p\\in P[/$] je pevný prvovýrok
+                        <ul>
+                        <li> [$]P[/$]: prvovýroky, neprázdná množina, nejvýš
+                             spočetná
+                        <li> Symboly: výrokové proměnné, spojky
+                             [$]\\neg \\vee \\wedge \\ekv \\rightarrow[/$],
+                             závorky
+                        </ul>
+        -
+                uuid: 7210bea6-f80f-4389-95c2-9fed54e6c705
+                topic: Výroková logika
+                front: Jazyk výrokové logiky - Logické symboly
+                back: Závorky, spojky
+        -
+                uuid: 828f93c4-dbf2-407d-b3c8-df775109c10d
+                topic: Výroková logika
+                front: Jazyk výrokové logiky - Mimologické symboly
+                back: Výrokové proměnné (prvovýroky)
+        -
+                uuid: a9b03591-7c85-4624-87ee-20fefa80fe94
+                topic: Výroková logika
+                front: Jazyk výrokové logiky - zkratky
+                back: >
+                        [$]\\top\\equiv(p\\vee\\neg p),
+                        \\perp\\equiv(p\\wedge\\neg p)[/$]
+                        ([$]p\\in P[/$] je pevný prvovýrok)
         -
                 uuid: dde0c382-a21c-4b8f-aef9-f8003cd6ddbc
                 topic: Výroková logika
-                front: Definice výrokové formule (výroku)
+                front: >
+                        Definice: Výroková formule (výrok)
                 back: Konečnou indukcí ze spojek, prvovýroků
         -
                 uuid: b6688c17-2ecb-4a2a-a7a3-f9cd341f9ade
                 topic: Výroková logika
-                front: Notace - množina výrokových formulí nad množinou prvovýroků
+                front: >
+                        Notace: Výrokové formule nad množinou prvovýroků
                 back: >
-                        [$]VF_P[/$]
+                        [$]\\mathrm{VF}_P[/$]
         -
                 uuid: 36e19f36-84bc-4e96-b5d0-b2d41c85cb8b
                 topic: Výroková logika
                 front: >
-                        Notace - výrokové proměnné ve formuli [$]\\varphi[/$]
+                        Notace: Výrokové proměnné ve formuli [$]\\varphi[/$]
                 back: >
-                        [$]var(\\varphi)[/$]
+                        [$]\\mathrm{var}(\\varphi)[/$]
         -
                 uuid: 211f7d08-34ae-48b5-afad-ec3d461d0e2a
                 topic: Výroková logika
@@ -112,13 +133,17 @@ notes:
                 topic: Výroková logika
                 front: Postup pro převod obecné formule na CNF/DNF
                 back: >
-                        1. [$] (\\varphi\\imp\\psi)\\sim(\\neg\\varphi\\vee\\psi), (\\varphi\\ekv\\psi)\\sim((\\neg\\varphi\\vee\\psi)\\wedge(\\neg\\psi\\vee\\varphi)[/$]
-
-                        2. [$]\\neg\\neg\\varphi\\sim\\varphi[/$], [$]\\neg(\\varphi\\wedge\\psi)\\sim(\\neg\\varphi\\vee\\neg\\psi)[/$], [$]\\neg(\\varphi\\vee\\psi)\\sim(\\neg\\varphi\\wedge\\neg\\phi)[/$]
-
-                        3. [$] (\\varphi\\vee(\\psi\\wedge\\chi))\\sim((\\phi\\wedge\\chi)\\vee\\varphi)\\sim((\\varphi\\vee\\psi)\\wedge(\\varphi\\vee\\chi)) [/$]
-
-                        3'. [$] (\\varphi\\wedge(\\psi\\vee\\chi))\\sim((\\phi\\vee\\chi)\\wedge\\varphi)\\sim((\\varphi\\wedge\\psi)\\vee(\\varphi\\wedge\\chi)) [/$]
+                        <ol type="1">
+                        <li>
+                        [$] (\\varphi\\imp\\psi)\\sim(\\neg\\varphi\\vee\\psi), (\\varphi\\ekv\\psi)\\sim((\\neg\\varphi\\vee\\psi)\\wedge(\\neg\\psi\\vee\\varphi)[/$]
+                        <li>
+                        [$]\\neg\\neg\\varphi\\sim\\varphi[/$], [$]\\neg(\\varphi\\wedge\\psi)\\sim(\\neg\\varphi\\vee\\neg\\psi)[/$], [$]\\neg(\\varphi\\vee\\psi)\\sim(\\neg\\varphi\\wedge\\neg\\phi)[/$]
+                        <li>
+                        [$] (\\varphi\\vee(\\psi\\wedge\\chi))\\sim((\\phi\\wedge\\chi)\\vee\\varphi)\\sim((\\varphi\\vee\\psi)\\wedge(\\varphi\\vee\\chi)) [/$]
+                        <br><br>
+                        Nebo:
+                        [$] (\\varphi\\wedge(\\psi\\vee\\chi))\\sim((\\phi\\vee\\chi)\\wedge\\varphi)\\sim((\\varphi\\wedge\\psi)\\vee(\\varphi\\wedge\\chi)) [/$]
+                        </ul>
         -
                 uuid: 550a4ee9-619d-4af7-bcf1-054e26bdb484
                 topic: Výroková logika
@@ -142,11 +167,19 @@ notes:
                 uuid: ae7be4b1-3e29-4b48-aa2b-881d2376b360
                 front: Horn-SAT algoritmus ve VL
                 back: >
-                        Pokud obsahuje výrok dvojici jednotkových klauzulí co jsou obrácené literály, není splnitelný.
-
-                        Odeber jednotkovou klauzuli, nastav ji na 1, odeber [$]\\overline{l}[/$] ze všech klauzulí a ostraň klauzule co obsahují literál [$]l[/$] (jednotková propagace).
-
-                        Neobsahuje-li jednotkovou klauzuli, je splnitelný nastavením všeho ostatního na 0.
+                        <ul>
+                        <li>
+                        Pokud výrok má 2 jednotkové klauzule co jsou obrácené
+                        literály, není splnitelný.
+                        <li>
+                        Odeber jednotkovou klauzuli, nastav ji na 1, odeber
+                        [$]\\overline{l}[/$] ze všech klauzulí a ostraň
+                        klauzule co obsahují literál [$]l[/$] (jednotková
+                        propagace).
+                        <li>
+                        Neobsahuje-li jednotkovou klauzuli, splnitelný &mdash;
+                        nastav vše na 0.
+                        </ul>
         -
                 uuid: 6dc7d6e7-6b0e-4c75-9d76-aacbc074a8cc
                 topic: Výroková logika

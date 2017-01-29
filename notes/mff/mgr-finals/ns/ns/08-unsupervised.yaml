@@ -15,7 +15,9 @@ notes:
                         Vítěz se posune o [$]\\alpha[/$] směrem k vstupu.
         -
                 uuid: 38bba9b3-1dc3-4b0c-8dc1-609cebc0f004
-                front: Síť na kompetiční učení bez učitele - vhodná inicializace vah
+                front: >
+                        Síť na kompetiční učení bez učitele &mdash;
+                        vhodná inicializace vah
                 back: >
                         Váhy budou náhodné vzory z datasetu.
         -
@@ -26,11 +28,13 @@ notes:
         -
                 uuid: 1fdba122-da33-484b-aca0-bec67d03b8c1
                 markdown: false
-                front: Energetická funkce sítě na kompetiční učení bez učitele s jedním neuronem. Kde je optimum? Jak se to dokáže?
+                front: >
+                        Energetická funkce sítě na kompetiční učení bez učitele
+                        s jedním neuronem. Kde je optimum? Jak se to dokáže?
                 back: >
                         [$$]E_X(w)=\sum_{i=1}^m \|x_i-w\|^2[/$$]<br>
 
-                        Dá se ukázat, že optimum je v těžišti:<br>
+                        Optimum je v těžišti:<br>
 
                         [latex]
                         \begin{align*}
@@ -57,36 +61,44 @@ notes:
                 back: Vstupní vektory se znormují
         -
                 uuid: c92483e6-602a-45a3-865a-9784a175cbb3
-                front: Různá pravidla učení pro sítě na kompetiční učení bez učitele
+                front: >
+                        Různá pravidla učení pro sítě na kompetiční učení
+                        bez učitele
                 back: >
-                        Aktualizace pomocí parametru učení: [$]\\Delta w = \\eta x_j[/$]<br>
-
-                        Diferenční: [$]\\Delta w = \\eta (x_j - w)[/$]<br>
-
-                        Dávková aktualizace
+                        <ul>
+                        <li> Aktualizace pomocí parametru učení:
+                             [$]\\Delta w = \\eta x_j[/$]
+                        <li> Diferenční:
+                             [$]\\Delta w = \\eta (x_j - w)[/$]<br>
+                        <li> Dávková aktualizace
+                        </ul>
         -
                 uuid: 6e149cef-86c7-4d3a-8eef-7244d308200a
                 front: Stabilní rovnovážný stav v kompetičním učení - jaká je postačující podmínka?
                 back: >
                         Chceme jasně ohraničené shluky, co se nepřekrývají a nejsou moc rozsáhlé.<br>
 
-                        Svazek := [$]\\{x = \\alpha_1 p_1 + \\ldots \\alpha_m p_m : \\alpha_1 \\in \\R^+\\}[/$]<br>
+                        Svazek [$]\\equiv\\{x = \\alpha_1 p_1 + \\ldots \\alpha_m p_m : \\alpha_1 \\in \\R^+\\}[/$]<br>
 
                         Průměr svazku: [$]\\varphi = \\sup\\{\\arccos (a\\cdot b)|\\|a\\|=\\|b\\|=1, a,b\\in S\\}[/$]<br>
 
-                        Postačující podmínka pro stabilitu: úhlový průměr svazků je menší než jejich vzájemná vzdálenost (jakmile se střed shluku dostane do svazku, už tam dostane)
+                        Postačující podmínka pro stabilitu: úhlový průměr
+                        svazků je menší než vzájemná vzdálenost (jakmile se
+                        střed shluku dostane do svazku, už tam zůstane)
+        -
+                uuid: 375cac24-070f-4936-841e-5c94e66581a5
+                topic: PCA
+                front: Zkratka
+                back: Principal component analysis
         -
                 uuid: f3d9f7e9-bc7c-43a1-b5c5-a652ebd0776d
                 topic: PCA
                 front: Co to je? Co dělá?
                 back: >
-                        Principal component analysis.<br>
-
                         Hlavní komponenta je ta, co vysvětluje (ve vystředěných a normalizovaných datech)
                         nejvíce rozptylu.<br>
 
                         Ostatní jsou na ni ortogonální.
-
         -
                 uuid: 24d127c4-e258-4169-b08c-297848fc76cb
                 topic: PCA
@@ -97,8 +109,8 @@ notes:
         -
                 uuid: a7bde697-35ba-408c-aacd-ee4db75e8e9a
                 topic: Ojův algoritmus
-                front: Co je jeho cíl?
-                back: Hledá hlavní komponentu v matici pro PCA.
+                front: Cíl
+                back: Hledá hlavní komponentu v matici pro PCA
         -
                 uuid: 81f631a0-b983-43e7-b63c-facf062cfed2
                 topic: Ojův algoritmus
@@ -109,7 +121,8 @@ notes:
                 topic: Ojův algoritmus
                 front: Jak probíhá?
                 back: >
-                        Náhodně inicializuje vektor [$]w[/$], zvolí parametr učení [$]\\gamma\\in(0;1][/$]<br>
+                        Náhodně inicializuje vektor [$]w[/$], zvolí parametr
+                        učení [$]\\gamma\\in(0;1][/$]<br>
 
                         Náhodně vyber [$]x[/$], spočítej [$]\\Phi=x\\cdot w[/$],
                         nový váhový vektor je [$]w+\\gamma\\Phi(x-\\Phi w)[/$].

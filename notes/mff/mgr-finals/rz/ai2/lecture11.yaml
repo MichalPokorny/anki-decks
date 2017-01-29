@@ -117,26 +117,25 @@ notes:
                         [$$]
                         U^+(s)\\leftarrow R(s)+\\gamma\\max_a f(\\sum_{s'} P(s'|s,a) U^+(s'), N(s,a))
                         [/$$]
-                        <br>
-                        [$]N(s,a)[/$]: kolikrát jsme viděli [$]s\\rightarrow_a[/$],
-                        <br>
-                        [$]U^+[/$] optimistický odhad utility,
-                        <br>
-                        [$]f(u,n)[/$] stoupá v [$]u[/$], klesá v [$]n[/$]
+                          <ul>
+                          <li> [$]N(s,a)[/$]: kolikrát jsme viděli [$]s\\rightarrow_a[/$],
+                          <li> [$]U^+[/$] optimistický odhad utility,
+                          <li> [$]f(u,n)[/$] stoupá v [$]u[/$], klesá v [$]n[/$]
+                          </ul>
                         </ul>
         -
                 uuid: b7a2ae3f-3106-438d-8cc5-12b6b5879993
                 topic: Reinforcement learning
                 front: Q-learning &mdash; Q-funkce
                 back: >
-                        [$]Q(s,a)[/$] je hodnota akce [$]a[/$] ve stavu [$]s[/$].
-                        Je model-free.
+                        [$]Q(s,a)[/$]: hodnota akce [$]a[/$] ve stavu [$]s[/$].
+                        Model-free.
         -
                 uuid: 6363b605-6198-495b-ac6e-5f3f94607617
                 topic: Reinforcement learning
                 front: Vztah mezi Q funkcí a utilitou
                 back: >
-                        [$$]U(s)=\\max_a Q(s,a)[/$$]
+                        [$]U(s)=\\max_a Q(s,a)[/$]
         -
                 uuid: 005c51b9-bad7-4633-b0e8-b09d403a7746
                 topic: Reinforcement learning
@@ -182,19 +181,20 @@ notes:
                 back: >
                         Když agent je greedy, jsou identické.
                         <br>
-                        Když exploruje, je tam drobný rozdíl. Q-learning
-                        vůbec nezajímá, jaká policy se doopravdy následuje.
-                        Dokáže se naučit i když má adversarial nebo náhodnou
+                        Když exploruje, drobný rozdíl. Q-learning
+                        nezajímá, jaká policy se doopravdy následuje.
+                        Dokáže se naučit i když má adversarial/náhodnou
                         exploration policy.
                         <br>
-                        SARSA je realističtější. Funguje i když ostatní agenti
-                        částečně ovládají policy.
+                        SARSA se učí utilitu agenta, kterého řídí.
+                        Funguje i když ostatní agenti částečně ovládají policy.
         -
                 uuid: 38101815-5bf6-4285-b98f-1001cf9f9e0b
                 topic: Reinforcement learning
                 front: Rozdíly mezi Q-learningem a SARSOU vs. ADP
                 back: >
-                        Q-learning, SARSA se učí action-utility funkci bez modelu.
+                        Q-learning, SARSA se učí action-utility funkci
+                        bez modelu.
                         Lokální updaty neenforcují konzistenci Q-hodnot.<br>
                         Intuice: čím složitější je prostředí, tím
                         užitečnější je dobrá reprezentace (ADP)

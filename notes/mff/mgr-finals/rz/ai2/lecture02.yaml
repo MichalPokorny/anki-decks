@@ -11,13 +11,15 @@ notes:
                 uuid: 8a052ca5-55e4-40f6-b727-ccff6d31d155
                 front: Vzorec pro jak z podmíněných distribucí v Bayesovské síti dostat pravděpodobnost jednoho světa
                 back: >
-                        [$$]P(x_1,\\ldots x_n) = \\prod_i P(x_i | \\text{parents}(X_i))[/$$]
+                        [$$]P(x_1,\\ldots x_n)=
+                        \\prod_i P(x_i | \\text{parents}(X_i))[/$$]
         -
                 uuid: e3f59843-753e-4dbd-bb66-8d1e4da31d8a
-                front: Podmíněné nezávislosti proměnných v Bayesovské síti?
+                front: Podmíněné nezávislosti proměnných v Bayesovské síti
                 back: >
-                        Proměnná je podmíněně nezávislá na proměnných, které
-                        nejsou její potomci, pokud známe její rodiče.
+                        [$]X[/$] je podmíněně nezávislá na proměnných, které
+                        nejsou její potomci, pokud známe
+                        [$]\\mathrm{parents}(X)[/$].
                         <br>
                         Proměnná je podmíněně nezávislá na všech ostatních
                         proměnných, pokud známe rodiče, potomky a rodiče potomků
@@ -54,22 +56,28 @@ notes:
         -
                 uuid: d216a6ba-dff4-4174-88e6-72c1bd245542
                 topic: Bayesovské sítě
-                front: Inferenční algoritmus Eliminace proměnných, jeho složitost. Jak vypadá sum-out?
+                front: Inferenční algoritmus Eliminace proměnných, jeho složitost.
                 back: >
                         Vstup: query proměnná, evidence, belief net.<br>
 
-                        Faktory: [], proměnné: síť topologicky od příčin k důsledkům<br>
+                        Faktory: [], proměnné: síť topologicky od příčin
+                        k důsledkům<br>
 
                         Pro každou proměnnou:
-                        přidej na začátek faktorů [$]\\mathrm{Make-Factor}(var,e)[/$].
+                        přidej na začátek faktorů
+                        [$]\\mathrm{Make-Factor}(var,e)[/$].
                         <br>
-                        Jestli je proměnná skrytá, tak ji z faktorů vysčítej (vymarginalizuj).
+                        Jestli je proměnná skrytá, tak ji z faktorů vysčítej
+                        (vymarginalizuj).
                         <br>
                         Vrať: normalizovaný pointwise produkt všech faktorů.
                         <br>
                         Složitost: velikost největšího faktoru
-                        <br><br>
-                        Sum-out:
+        -
+                uuid: 5e6288aa-e7be-4ca6-bebc-2f59daf22197
+                topic: Bayesovské sítě
+                front: Variable Elimination &mdash; jak vypadá operace sum-out?
+                back: >
                         Sesumíruje dohromady všechny faktory, které obsahují
                         skrytou proměnnou &mdash; do jednoho velkého faktoru.
         -
@@ -94,12 +102,14 @@ notes:
                         Vyber tu, co povede na vyrobení nejmenšího faktoru.
         -
                 uuid: 8a4e1e23-0a38-4bf8-8112-edabc065adcd
-                front: Jak složitá je inference v Bayesovské síti co je les?
+                front: >
+                        Složitost: Inference v Bayesovské síti co je les
                 back: >
                         [$]\\O(n\\cdot d^k)[/$] čas i prostor (tj. stejně jako součet velikosti všech tabulek)
         -
                 uuid: 587e5c4f-9b08-4071-b4e0-d4f5d0d90f4c
-                front: Jak složitá je inference v Bayesovské síti?
+                front: >
+                        Složitost: Inference v Bayesovské síti
                 back: >
                         Obecně NP-těžká, resp. Sharp-P těžká (převodem z 3-SATu)
         -
@@ -111,22 +121,24 @@ notes:
         -
                 uuid: c4d80bf8-75ec-4751-84fc-1248445f9384
                 front: >
-                        Přímé vzorkování v Bayesovských sítích, rejection sampling
+                        Přímé vzorkování v Bayesovských sítích,
+                        rejection sampling
                 back: >
                         Vezmu proměnné v topologickém pořadí, postupně
-                        si házím korunami podle pravděpodobností daných rodiči.
+                        házej korunami podle pravděpodobností daných rodiči.
                         <br>
-                        Rejection sampling: vygeneruju vzorek, mrknu jestli sedí
-                        na pozorování, jinak ho zahodím. Když sedí, tak
-                        s jeho pomocí stavím [$]\\mathbf{P}(X|e)\\approx \\mathbf{N}(X,e)/N(e)[/$].
+                        Rejection sampling: vygeneruju vzorek, mrknu jestli
+                        sedí na pozorování. Když ne, zahodím ho. Jinak
+                        stavím
+                        [$]\\mathbf{P}(X|e)\\approx \\mathbf{N}(X,e)/N(e)[/$].
         -
                 uuid: 080a09bb-4d88-4031-b6db-cfc663d1f4fc
                 front: Likelihood weighting
                 back: >
-                        Nechci zahazovat vzorky jako v rejetction samplingu.
+                        Nechci zahazovat vzorky jako v rejection samplingu.
                         <br>
-                        Zafixuju evidence variables, sampluju jenom non-evidence
-                        variables.
+                        Zafixuju evidence variables, sampluju jenom
+                        non-evidence variables.
                         <br>
                         [$$]\\mathbf{P}(X|e)=\\alpha \\mathbf{N}(X,e) w(X,e)[/$$]
                         <br>

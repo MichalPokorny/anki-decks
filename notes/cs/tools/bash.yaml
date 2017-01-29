@@ -124,9 +124,12 @@ notes:
                 include_reverse: true
         -
                 uuid: 387f7eac-dbef-4425-940c-560f98e1ce13
-                front: Prevent partially downloaded scripts from executing (due to syntax error)
+                front: >
+                        Prevent partially downloaded scripts from executing
+                        (due to syntax error)
+                markdown: false
                 back: >
-                        `{<br>code code code ...<br>}`
+                        <code>{<br>code code code ...<br>}</code>
         -
                 uuid: 4ac246ee-7074-4f95-a1f0-3e307f433484
                 front: "Redirect both stdout and stderr to `file`"

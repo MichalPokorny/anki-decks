@@ -387,21 +387,21 @@ notes:
         -
                 uuid: ca633d33-1fbf-4486-a971-8bcbfdfce8a5
                 front: >
-                        Macro: `\\pi`
+                        Macro: [$]\\pi[/$]
                 back: >
                         `M_PI`
                 include_reverse: true
         -
                 uuid: 17123a8d-b028-4de9-875c-a9270f8417b6
                 front: >
-                        Macro: `\\pi/2`
+                        Macro: [$]\\pi/2[/$]
                 back: >
                         `M_PI_2`
                 include_reverse: true
         -
                 uuid: eb6233e0-cc8f-4d68-90f4-08a494064b13
                 front: >
-                        Macro: `2\\pi`
+                        Macro: [$]2\\pi[/$]
                 back: >
                         `M_2_PI`
                 include_reverse: true
