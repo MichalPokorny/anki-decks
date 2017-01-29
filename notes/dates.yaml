@@ -1,0 +1,7 @@
+deck: All::Constants::Dates
+notes:
+        -
+                uuid: a9b4d79c-d994-4167-ad11-4a0697710fb5
+                front: Valentine's Day
+                back: February 14
+                include_reverse: true

@@ -118,7 +118,12 @@ notes:
                 back: >
                         Ohodnocení proměnných v množině [$]A[/$]: [$]e:Var\\rightarrow A[/$].<br>
                         Hodnota termu: rekurzivně definovaná [$]t^A[e][/$].<br>
-                        Hodnota termu záleží jenom na ohodnocení proměnných.
+        -
+                uuid: aa301249-af8d-483e-aca4-401f4d2b7cc0
+                topic: Predikátová logika
+                front: Na čem záleží hodnota termu?
+                back: >
+                        Jenom na ohodnocení proměnných
         -
                 uuid: f5ae98b3-d8c7-4b34-ab70-85b8ef73b6e1
                 topic: Predikátová logika

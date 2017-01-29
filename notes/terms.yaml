@@ -820,12 +820,11 @@ notes:
                 uuid: 6eb63ff2-76b9-4fdd-a4e1-b3bdef3cf488
                 front: Collusion
                 back: >
-                        Agreement between two or more parties, sometimes
-                        illegal and therefore secretive, to limit open
-                        competition by deceiving, misleading, or defrauding
-                        others of their legal rights, or to obtain an objective
-                        forbidden by law typically by defrauding or gaining
-                        unfair market advantage
+                        Agreement, sometimes illegal and secretive, to limit
+                        open competition by deceiving, misleading, or
+                        defrauding others of their legal rights, or to obtain
+                        objectives forbidden by law typically by defrauding or
+                        gaining unfair market advantage
                 include_reverse: true
         -
                 uuid: db9b9696-9959-4849-83fa-65605ee9ca7f
@@ -838,8 +837,8 @@ notes:
                 uuid: ca37cc33-8d90-40e5-b3eb-99cbf5ebf5e9
                 front: Eve
                 back: >
-                        Day or period of time immediately before event or
-                        occasion; evening or day before a religious festival;
+                        Day or period immediately before event or
+                        occasion; evening or day before religious festival;
                         (literary) evening
                 include_reverse: true
         -

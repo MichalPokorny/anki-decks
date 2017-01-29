@@ -53,7 +53,7 @@ notes:
                 uuid: b742c5ae-8582-4770-89d1-a8f0c43611ff
                 topic: Theogony
                 front: Body characteristics of "three horrible sons"
-                back: Each with 100 arms, 50 heads
+                back: 100 arms, 50 heads
         -
                 uuid: fa901b9d-ce6d-459d-a6ef-05d73ce762d5
                 topic: Theogony
@@ -398,13 +398,15 @@ notes:
         -
                 uuid: 966b8a06-c355-4561-90a6-27073991266a
                 front: >
-                        Year of birth: Thales of Miletus
+                        Year: Birth of Thales of Miletus
                 back: 625 BC
+                include_reverse: true
         -
                 uuid: 54d77bf5-b7dd-48b1-a150-bccbcd204bc2
                 front: >
-                        Year of death: Thales of Miletus
+                        Year: Death of Thales of Miletus
                 back: 547 BC
+                include_reverse: true
         -
                 uuid: 430b97e3-42f6-4666-8cc7-6ab6705b79da
                 front: Who did Aristotle call the founder of philosophy?
@@ -560,6 +562,7 @@ notes:
                 front: >
                         Year: Birth of Pythagoras
                 back: 570 BC
+                include_reverse: true
         -
                 uuid: 52f211fe-738d-4d16-8446-a2598b95b245
                 front: Pythagoreans' belief
@@ -1033,10 +1036,10 @@ notes:
                         In 490 BC, Persians landed at Marathon.
         -
                 uuid: 7e64a84f-149c-4e09-9c35-8e0577d13fe7
-                topic: Persian wars
                 front: >
                         Year: Persians land at Marathon
                 back: 490 BC
+                include_reverse: true
         -
                 uuid: 3dc3b14c-24d3-4ed6-89df-8b17bd3c50b5
                 topic: Persian wars
@@ -1089,10 +1092,10 @@ notes:
                         on Athens.
         -
                 uuid: a435d99b-a637-475e-afde-694ab39ac825
-                topic: Persian wars
                 front: >
                         Year: Xerxes leads Persians to Hellensport
                 back: 480 BC
+                include_reverse: true
         -
                 uuid: d47f6dac-de72-4d3f-90b4-8940e8d5b595
                 topic: Persian wars
@@ -1443,6 +1446,7 @@ notes:
                 front: >
                         Year: Peloponnesian war starts
                 back: 431 BC
+                include_reverse: true
         -
                 uuid: a16a7f24-f450-4ac8-851c-58f17865ce58
                 front: When did Peloponnesian war start and end?
@@ -1483,10 +1487,10 @@ notes:
                         Dissatisfaction with democracy grew.
         -
                 uuid: 432ccfa6-63d3-4a01-b78b-b63685aea1fd
-                topic: Peloponnesian war
                 front: >
                         Year: Athens defeated
                 back: 404 BC
+                include_reverse: true
         -
                 uuid: edf80877-df8f-4e70-b4e0-1c37091b95ee
                 topic: Peloponnesian war
@@ -1967,6 +1971,7 @@ notes:
                 front: >
                         Year: Plato returns to Athens
                 back: 387 BC
+                include_reverse: true
         -
                 uuid: 317b6823-c9f9-4ba5-a1fc-65ae1d115560
                 front: Plato's main goal
@@ -2237,21 +2242,21 @@ notes:
                 front: Allegory of the cave
                 back: >
                         Prisoners fettered in cave only see images of reality
-                        (Homer/Hesiod, or in our day, media, soaps, television news, ...).
+                        (Homer/Hesiod, or in our day, soaps, television news, ...).
                         <br><br>
                         Who clims up the wall are like those who can look
                         directly on things in the visible world.
                         <br><br>
-                        The fire casting the shadows represents the Sun.
+                        Fire casting the shadows represents the Sun.
                         <br><br>
                         Climbing out of the cave is the transition from things
                         to Forms.
                         <br><br>
-                        The Sun there is the Form of the Good. At first, it
+                        Sun there is the Form of the Good. At first,
                         cannot be seen directly &mdash; only through lower
                         forms illuminated by it, reflections of the Good.
                         <br><br>
-                        The prisoner returning to the cave and being killed
+                        Prisoner returning to cave and being killed
                         and ridiculed is analogous to Socrates.
                         <br><br>
                         To love wisdom is to be motivated to leave the cave.
@@ -2454,7 +2459,7 @@ notes:
                         They think navigation is not teachable,
                         and nothing can enable one to steer the ship better.
                         <br><br>
-                        The true captain would be called a babbler and a
+                        True captain would be called a babbler and
                         good-for-nothing in ships governed that way.
         -
                 uuid: 9a46bf5b-c3e8-4ac8-8d0b-08a89da2f0f4
@@ -2493,9 +2498,10 @@ notes:
         # chapter 7 - aristotle
         -
                 uuid: b1a0a2b0-22c5-473a-802e-b1749681b2c3
-                topic: Aristotle
-                front: Year of birth
+                front: >
+                        Year: Birth of Aristotle
                 back: 384 BC
+                include_reverse: true
         -
                 uuid: c9f33c05-b1e6-4913-a2a1-49743cb85147
                 topic: Aristotle
@@ -2520,11 +2526,11 @@ notes:
                         Alexander the Great.
         -
                 uuid: 409297ca-5743-4a76-bb66-ae1b824bca33
-                topic: Aristotle
                 front: >
                         Year: Aristotle return to Athens
                 back: >
                         335 BC
+                include_reverse: true
         -
                 uuid: f37f2d6f-4f3c-44fa-988e-f51871c8ddca
                 topic: Aristotle
@@ -2535,12 +2541,13 @@ notes:
                 front: >
                         Year: Aristotle forced to flee from Athens
                 back: 323 BC
+                include_reverse: true
         -
                 uuid: f8a7981e-6bd0-44dc-8cc9-1cd8ca4d5b1a
-                topic: Aristotle
                 front: >
-                        Year: Death
+                        Year: Death of Aristotle
                 back: 322 BC
+                include_reverse: true
         -
                 uuid: 658eccc0-dfd7-4c8b-8341-3a6a068e96f9
                 topic: Aristotle
@@ -2780,9 +2787,9 @@ notes:
                 topic: Aristotle
                 front: What constitutes an argument's *validity*?
                 back: >
-                        The relation between premises and conclusion
-                        must be such that if the premises are true,
-                        the conclusion can't be false.
+                        Relation between premises and conclusion
+                        such that if premises are true, conclusion can't be
+                        false.
         -
                 uuid: c26b26df-ac88-4f6d-9331-d15d86d34bbe
                 topic: Aristotle
@@ -3282,7 +3289,7 @@ notes:
                 topic: Aristotle
                 front: What is the *nutritive soul*?
                 back: >
-                        The capacity to take in nourishment and convert it to life.
+                        Capacity to take nourishment and convert it to life.
                         Plants and above have it.
         -
                 uuid: 3c5d9ee0-9fd3-4c30-a058-8b4f6a815a6c
@@ -3884,15 +3891,16 @@ notes:
                 back: Citium, Cyprus
         -
                 uuid: 6d259f9e-2323-44a2-82ab-a719846ab0a2
-                topic: Zeno, the Stoic
-                front: When did he come to Athens?
+                front: >
+                        Year: Zeno, the Stoic comes to Athens
                 back: ~320 BC
+                include_reverse: true
         -
                 uuid: 66ea41f6-6861-4178-9a72-6c4c55671df7
-                topic: Zeno, the Stoic
                 front: >
-                        Year: Death
+                        Year: Death of Zeno, the Stoic
                 back: ~260 BC
+                include_reverse: true
         -
                 uuid: bee3d573-8a4b-4745-9075-364600b46c28
                 topic: Stoicism
@@ -3911,21 +3919,25 @@ notes:
                 front: >
                         Year: Birth of Epictetus
                 back: ~AD 51
+                include_reverse: true
         -
                 uuid: fd4e5948-188a-4fad-b379-bc1123a7ab51
                 front: >
                         Year: Death of Epictetus
                 back: ~AD 135
+                include_reverse: true
         -
                 uuid: b9f4f827-4857-44bb-9271-91fd4dc6fc68
                 front: >
                         Year: Birth of Marcus Aurelius
                 back: AD 121
+                include_reverse: true
         -
                 uuid: b2af881b-add3-4463-91b3-1366167541b1
                 front: >
                         Year: Death of Marcus Aurelius
                 back: AD 180
+                include_reverse: true
         -
                 uuid: 1e6ff3e9-4a34-4000-87b5-1a45cf205b9e
                 topic: Stoicism

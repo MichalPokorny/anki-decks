@@ -14,7 +14,7 @@ notes:
                 front: >
                         Change `stdin` to point to `soubor.in`
                 back: >
-                        `freopen("soubor.in:", "r", stdin);`
+                        `freopen("soubor.in", "r", stdin);`
         -
                 uuid: 9571b5f1-8784-4da8-b045-87f075a06e80
                 front: "`erf`"
@@ -43,7 +43,7 @@ notes:
                 uuid: be5643b2-4dc9-4a78-a704-0247a081f646
                 front: No-return header
                 back: >
-                        `#include <stdnoreturn.h>`;
+                        `stdnoreturn.h`;
                         provides `noreturn` macro.
         -
                 uuid: fcfdf4e1-4df9-4f1e-ab04-dc01f5f68626
@@ -228,7 +228,7 @@ notes:
                 front: >
                         Header file: `pread`/`pwrite`
                 back: >
-                        `#include <unistd.h>`
+                        `unistd.h`
         -
                 uuid: c1a580b9-96b2-4eff-be6b-3c6ccbda0895
                 front: Syscalls to read/write to/from fd at a given offset.
@@ -253,4 +253,192 @@ notes:
                 front: >
                         Header file: `strtoul`/`strtoull`
                 back: >
-                        `#include <stdlib.h>`
+                        `stdlib.h`
+        -
+                uuid: 04dc7855-80e5-494f-a124-f025b1f7fb3c
+                front: >
+                        Function: Aligned allocation
+                back: >
+                        `aligned_alloc`
+        -
+                uuid: baa7e79c-a298-4560-8057-08a04a6b838d
+                front: >
+                        Prototype: `aligned_alloc`
+                back: >
+                        `void* aligned_alloc(size_t alignment, size_t size);`
+        -
+                uuid: da0e1898-3a2a-47f0-8dd7-1367a9e6d8de
+                front: >
+                        Function: Abnormal program termination
+                back: >
+                        `abort`
+        -
+                uuid: 26548f2b-153f-412d-b643-48f5269e8a85
+                front: >
+                        `abort` vs. `exit`
+                back: >
+                        `abort` does not execute cleanup registered
+                        with `atexit`/`on_exit`
+        -
+                uuid: c2b5e44b-ded0-4516-8357-30a984312ca9
+                front: >
+                        Prototype: `abort`
+                back: >
+                        `void abort(void);`
+        -
+                uuid: 5313d46c-bfd6-4df6-b5cb-a09c6719291e
+                front: >
+                        Prototype: `on_exit`
+                back: >
+                        `int on_exit(void (*func)(int status, void* arg), void* arg);`
+        -
+                uuid: 8a844549-6d50-4298-a0c9-7fe9dcb324b1
+                front: >
+                        Return value: `on_exit`
+                back: >
+                        0 if successful; otherwise a non-zero value
+        -
+                uuid: 4e115dd0-9127-4aa3-9c5a-a0b11f926cd0
+                front: >
+                        Prototype: `exit`
+                back: >
+                        `void exit(int status);`
+        -
+                uuid: b31f5f9e-13af-49ce-9f5c-dc232b24968f
+                front: >
+                        Header file: `aligned_alloc`
+                back: >
+                        `stdlib.h`
+        -
+                uuid: cb1bc220-5300-401c-b1dd-7b1670a8f134
+                front: >
+                        Prototype: `getenv`
+                back: >
+                        `char* getenv(const char* name);`
+        -
+                uuid: 9c551eeb-8d9f-4361-8f38-cf7ba9040770
+                front: >
+                        Header file: `getenv`
+                back: >
+                        `stdlib.h`
+        -
+                uuid: 2a2fe7fa-951c-4a4c-a9c5-779dd6b32d97
+                front: >
+                        Difference between `getenv` and `secure_getenv`
+                back: >
+                        `secure_getenv` returns `NULL` if program is running
+                        SUID or SGID enabled
+        # TODO: mktemp
+        -
+                uuid: 19fce40a-e6a6-48f6-8d29-7ac5d9034176
+                front: >
+                        Header file: `system`
+                back: >
+                        `stdlib.h`
+        -
+                uuid: e4aff9e2-3483-426f-acfa-1b40fd99082b
+                front: >
+                        Prototype: `bsearch`
+                back: >
+                        `void* bsearch(const void* key, const void* base, size_t nmemb, size_t size, compar_fn_t compar);`
+        -
+                uuid: 8c5e694c-3aee-493b-8cf1-422782623e40
+                front: >
+                        Header file: `bsearch`
+                back: >
+                        `stdlib.h`
+        -
+                uuid: 0b36c8f7-3cc5-452b-b8d6-3f49de005f2e
+                front: >
+                        Header file: `qsort`
+                back: >
+                        `stdlib.h`
+        -
+                uuid: d2c0ce67-81a7-4e99-9b8a-b82116859dc7
+                front: >
+                        Header file: `qsort_r`
+                back: >
+                        `stdlib.h`
+        -
+                uuid: b814bd2a-dd44-40f1-9869-517a4ea16780
+                front: >
+                        Prototype: `qsort`
+                back: >
+                        `void qsort(void* base, size_t nmemb, size_t size, compar_fn_t compar);`
+        -
+                uuid: 16212c66-3796-4567-90b2-1e06366c5d4f
+                front: >
+                        Header file: `abs`
+                back: >
+                        `stdlib.h`
+        -
+                uuid: 405e13c2-106c-4714-b459-1922f6c8229a
+                front: >
+                        Function: `abs` for `long`s
+                back: >
+                        `labs`
+        -
+                uuid: 4ffbdbe2-3961-4c51-842d-30e1847d4c9a
+                front: >
+                        Macro: `e`
+                back: >
+                        `M_E`
+                include_reverse: true
+        -
+                uuid: ca633d33-1fbf-4486-a971-8bcbfdfce8a5
+                front: >
+                        Macro: `\\pi`
+                back: >
+                        `M_PI`
+                include_reverse: true
+        -
+                uuid: 17123a8d-b028-4de9-875c-a9270f8417b6
+                front: >
+                        Macro: `\\pi/2`
+                back: >
+                        `M_PI_2`
+                include_reverse: true
+        -
+                uuid: eb6233e0-cc8f-4d68-90f4-08a494064b13
+                front: >
+                        Macro: `2\\pi`
+                back: >
+                        `M_2_PI`
+                include_reverse: true
+        -
+                uuid: 945aa340-dc80-4dca-bedb-079a84b6145c
+                front: >
+                        Macro: `\\sqrt{2}`
+                back: >
+                        `M_SQRT2`
+                include_reverse: true
+        -
+                uuid: 7374eb62-365f-4bc8-90d4-5c27363fcf5d
+                front: >
+                        Prototype: `putc`
+                back: >
+                        `int putc(int c, FILE* stream);`
+        -
+                uuid: c289b7c2-79e2-4590-8571-94815122e0eb
+                front: >
+                        Prototype: `putchar`
+                back: >
+                        `int putchar(int c);`
+        -
+                uuid: 1d60e466-5f80-4650-8994-68840af0b286
+                front: >
+                        Prototype: `ftell`
+                back: >
+                        `long int ftell(FILE* stream);`
+        -
+                uuid: 31c19965-7d7b-4ba9-b95b-b139e61cbc45
+                front: >
+                        Return value: `ftell`
+                back: >
+                        Return the current position in `stream`
+        -
+                uuid: 6bdee85c-8dff-4c31-86e1-3da7a5d16c73
+                front: >
+                        Function: Get file descriptor for `FILE*`
+                back: >
+                        `fileno`

@@ -11,10 +11,20 @@ notes:
                 back: 20%
         -
                 uuid: eefd2455-aacd-411d-bb27-89596841f601
-                front: What was Switzerland like in the middle of 20th century? Contrast with today?
+                front: >
+                        What was Switzerland like in the middle of 20th
+                        century? Contrast with today?
                 back: >
-                        A poor, obscure country with inhospitable terrain and few exports.
-                        Today: lowest inflation and unemployment rate of all industrialized countries, highest income per capita, second lowest interest rate, lowest crime rate in the world.
+                        Poor, obscure, inhospitable terrain, few exports.
+                        <br>
+                        Today:
+                        <ul>
+                        <li> Lowest inflation and unemployment rate of
+                             industrialized countries
+                        <li> Highest income per capita
+                        <li> Second lowest interest rate
+                        <li> Lowest crime rate
+                        </ul>
         -
                 uuid: c33adc9f-e123-490c-b16b-0f398621d1b6
                 front: What's the population age like?
@@ -580,7 +590,9 @@ notes:
         -
                 uuid: 9ad2b0ef-6260-4dd1-83ab-e4f73c5e0823
                 front: Taboo topics
-                back: Swiss neutrality, Switzerland's role during both world wars, women's rights
+                back: >
+                        Swiss neutrality, role during both world wars,
+                        women's rights
                 include_reverse: true
         -
                 uuid: 65cf0571-2320-41a8-9254-2e85d7d0043a
@@ -605,17 +617,22 @@ notes:
         -
                 uuid: da309401-3a20-46d3-9bc2-9bbc2cc662ab
                 front: Decision style
-                back: Concensus (referendums, debates, detailed exchanges); affected people are always consulted beforehand; decisions made are not changed
+                back: >
+                        Concensus (referendums, debates, detailed exchanges);
+                        affected people always consulted beforehand;
+                        decisions made are not changed
         -
                 uuid: 02a0848e-4fd0-4792-9c06-b7cea2e47a1e
                 front: Length of compulsory military service
                 back: >
-                        90 days initially, 19 days every 2 years until the age of 42
+                        90 days initially, 19 days every 2 years until the age
+                        of 42
         -
                 uuid: 9e9ccad2-4442-4d55-a837-7001c937bf87
                 front: Delivering feedback
                 back: >
-                        Allow the other person to save face while spelling out the facts.
+                        Allow the other person to save face while spelling out
+                        the facts.
                         Give it one-on-one.
         -
                 uuid: 60a2fc68-9e11-43cc-817b-2bc2f30911b0
@@ -628,7 +645,9 @@ notes:
         -
                 uuid: d176a9fa-2ed7-43bc-bdea-fa45dd36f67d
                 front: In negotiations, the Swiss have a reputation for ... without ...
-                back: getting the best deal out of opponents without appearing aggressive or demanding
+                back: >
+                        getting the best deal out of opponents without
+                        appearing aggressive or demanding
         -
                 uuid: 574dda9d-c6b6-40c8-94b3-0636c6462e9b
                 front: Which city is the capital?
@@ -641,11 +660,16 @@ notes:
                 uuid: c7c2441b-6515-466a-874a-d853ae45e22e
                 front: In negotiations, you should avoid ...; instead, emphasize ... and stay ...
                 back: >
-                        avoid pressurizing them in negotiations. Instead emphasize the quality of your offer and stay calm and consistent.
+                        avoid pressurizing them in negotiations. Instead
+                        emphasize the quality of your offer and stay calm and
+                        consistent.
         -
                 uuid: 8152bb3f-e01d-4423-bd71-3e7572bb44e0
                 front: Allow your Swiss counterparts to ... - who ..., who ...
-                back: Allow your Swiss counterparts to put you in context - who you've worked with in the past, who you know in Switzerland.
+                back: >
+                        Allow your Swiss counterparts to put you in context -
+                        who you've worked with in the past, who you know in
+                        Switzerland.
         -
                 uuid: 5f7c339b-f38c-4f23-9580-cbf87283699a
                 front: Be very respectful of Swiss adherence ...
@@ -654,7 +678,8 @@ notes:
                 uuid: 54795e30-dad9-40d7-938b-dfab565bf9c6
                 front: ... and ... are important virtues and ... is equated with ...
                 back: >
-                        Modesty and humility are important virtues and clarity is equated with sincerity.
+                        Modesty and humility are important virtues and clarity
+                        is equated with sincerity.
         -
                 uuid: c3b8f524-7ff5-41d0-8b24-09cf91199c44
                 front: The Swiss strive hard to avoid ... and ...

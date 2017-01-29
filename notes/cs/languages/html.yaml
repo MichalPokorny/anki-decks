@@ -179,25 +179,29 @@ notes:
         -
                 uuid: a34c68dd-7e94-4ce7-bdb8-2d806c1df8f1
                 front: Ordered list - 1, 2, 3, ...
+                markdown: false
                 back: >
-                        `&lt;ol type="1"&gt;`
+                        <code>&lt;ol type="1"&gt;</code>
                 include_reverse: true
         -
                 uuid: b4cee5b4-6e99-4c56-a677-281beab79dd9
                 front: Ordered list - A, B, C, ...
+                markdown: false
                 back: >
-                        `&lt;ol type="A"&gt;`
+                        <code>&lt;ol type="A"&gt;</code>
                 include_reverse: true
         -
                 uuid: 715cce03-adb1-4e7e-8a74-d3bf2104dc1a
                 front: Ordered list - a, b, c, ...
+                markdown: false
                 back: >
-                        `&lt;ol type="a"&gt;`
+                        <code>&lt;ol type="a"&gt;</code>
                 include_reverse: true
         -
                 uuid: bff3c1ec-630f-4f30-89ad-d2b0feceb1b6
                 front: Ordered list - I, II, III, IV, ...
+                markdown: false
                 back: >
-                        `&lt;ol type="I"&gt;`
+                        <code>&lt;ol type="I"&gt;</code>
                 include_reverse: true
 

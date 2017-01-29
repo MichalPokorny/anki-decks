@@ -49,3 +49,10 @@ notes:
                 back: >
                         `is:due`
                 include_reverse: true
+        -
+                uuid: 67ea7c97-56ac-43a1-b04a-1ec3ebed2d1a
+                front: >
+                        Shortcut: Create filtered deck
+                back: >
+                        `F`
+                include_reverse: true
