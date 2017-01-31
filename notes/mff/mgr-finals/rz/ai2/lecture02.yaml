@@ -153,8 +153,7 @@ notes:
         -
                 uuid: eddcc300-85af-4c39-a7f8-3bf8419eced6
                 topic: MCMC
-                front: >
-                        Co to je za zkratku?
+                front: Zkratka
                 back: Monte Carlo Markov chain
         -
                 uuid: 06ab77e1-96f2-462e-aa74-974836db5668

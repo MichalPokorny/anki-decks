@@ -69,24 +69,29 @@ notes:
                         [$]X/R[/$]
         -
                 uuid: cc67c5d5-eaf9-4bd5-8808-98555ba65f16
-                front: Částečné uspořádaní - co to je?
-                back: Relace, co je reflexivní, tranzitivní a antisymetrická.
+                front: >
+                        Definice: Částečné uspořádaní
+                back: >
+                        Relace, co je reflexivní, tranzitivní a antisymetrická.
         -
                 uuid: 03be83bc-1276-432d-945c-16ff4459ba53
-                front: Totální/lineární uspořádaní - co to je?
+                front: >
+                        Definice: Totální (lineární) uspořádaní
                 back: >
                         Relace, co je reflexivní, tranzitivní a antisymetrická
                         &mdash; a navíc dichotomní
                         (buď [$]x\\leq y[/$], nebo [$]y\\leq x[/$])
         -
                 uuid: 121e98af-2fa4-4424-89db-a35176fe929b
-                front: Dobré uspořádaní - co to je?
+                front: >
+                        Definice: Dobré uspořádaní
                 back: >
-                        Lineární uspořádání, ve kterém každá neprázdná množina
+                        Lineární uspořádání, kde každá neprázdná množina
                         obsahuje nejmenší prvek.
         -
                 uuid: a70d9d08-6b88-4d9c-b376-3c8af7c41a98
-                front: Husté uspořádaní - co to je?
+                front: >
+                        Definice: Husté uspořádaní
                 back: >
                         [$]x<y\\rightarrow\\e z(x<z\\wedge z<y)[/$]
         -

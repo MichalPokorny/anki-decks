@@ -451,7 +451,9 @@ notes:
         -
                 uuid: 07b23d8b-363c-4bb8-9ee4-56345d2ee50e
                 front: Arbitrage
-                back: Taking advantage of different prices between markets for the same products.
+                back: >
+                        Taking advantage of different prices between markets
+                        for same products.
                 include_reverse: true
         -
                 uuid: 51d38d8f-bc6f-4e1b-88a9-f50c8c0876fe
@@ -493,7 +495,7 @@ notes:
                         If you get an extreme result (in a normal distribution)
                         once, additional results are likely to be closer to the
                         average selection. If one trial suggests that health
-                        supplement x is amazingly better than all the others,
+                        supplement x is amazingly better than all others,
                         you shouldn’t put all your faith in that result.
                 include_reverse: true
         -
@@ -542,9 +544,9 @@ notes:
                         Predicting how happy you will be in the future
                         contingent upon some event or change is hard. We
                         normally guess the effect will be larger than it
-                        actually is, because 1) we’ve just been asked to think
-                        about that event, which makes it seem more important
-                        than it actually is in everyday happiness, and 2)
+                        actually is, because 1) we’ve been asked to think
+                        about the event, which makes it seem more important
+                        than it really is in everyday happiness, and 2)
                         we underestimate our ability to adapt.
                 include_reverse: true
         -

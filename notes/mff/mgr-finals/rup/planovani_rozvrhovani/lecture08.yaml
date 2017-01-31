@@ -3,7 +3,7 @@ topic: Plánování s časem
 notes:
         -
                 uuid: df26a753-d4a3-4d24-bed1-8c1fd0314a4f
-                front: Tři přístupy k plánování s časem
+                front: 3 přístupy k plánování s časem
                 back: >
                         <ul>
                         <li><i>Časové operátory</i>:
@@ -41,7 +41,7 @@ notes:
                 uuid: d53e77b1-bf38-44dc-9241-0815396b4b4b
                 front: Co přidá čas ke stavovým proměnným?
                 back: >
-                        Nyní závislá na čase:
+                        Závislost na čase:
                         [$]\\mathrm{rloc}:\\mathrm{robot}\\times\\mathrm{time}
                         \\rightarrow\\mathrm{locations}[/$]
         -
@@ -72,7 +72,7 @@ notes:
                         Pro množinu stavových proměnných:
                         [$]\\Phi=(F,C)[/$], kde:
                         <ul>
-                        <li> [$]F[/$]: stavové výroky nad proměnnými,
+                        <li> [$]F[/$]: časové výroky nad proměnnými,
                         <li> [$]C[/$]:
                           <ul>
                           <li> Objektové podmínky (vazby proměnných &mdash;
@@ -82,6 +82,22 @@ notes:
                                  (</=/> nad časovými proměnnými)
                           </ul>
                         </ul>
+        -
+                uuid: 7b62e3b1-c5ab-4273-9835-cf52cc70e4ae
+                topic: Kroniky
+                front: >
+                        Značení: Časové výroky nad proměnnými v kronice
+                back: >
+                        [$]F[/$]
+                include_reverse: true
+        -
+                uuid: 3eb95add-9fb9-45cb-9048-3f214df7716f
+                topic: Kroniky
+                front: >
+                        Značení: Objektové a časové podmínky v kronice
+                back: >
+                        [$]C[/$]
+                include_reverse: true
         -
                 uuid: cefd49fa-91b3-4ad4-bcd9-70a398ac4d9c
                 front: Co je to *časová osa*?
@@ -110,7 +126,7 @@ notes:
         -
                 uuid: adba8893-01fd-4a9c-8873-2166fa200900
                 front: >
-                        Možné separační podmínky pro
+                        Separační podmínky pro
                         [$]x@[t_1,t_2):v_1[/$], [$]x@[t_3,t_4):v_2[/$]
                 back: >
                         <ol type="a">
@@ -121,24 +137,24 @@ notes:
         -
                 uuid: 34106dcd-95f1-4d21-9e67-d112c17cb0ae
                 front: >
-                        Možné separační podmínky pro
+                        Separační podmínky pro
                         [$]x@t:(v_1,v_2)[/$] a [$]x@[t_1,t_2):v[/$]
                 back: >
                         <ol type="a">
                         <li> [$]t<t_1[/$]
                         <li> [$]t_2<t[/$]
-                        <li> [$](t_1=t\wedge v=v_2)[/$]
-                        <li> [$](t_2=t\wedge v=v_1)[/$]
+                        <li> [$]t_1=t, v=v_2[/$]
+                        <li> [$]t_2=t, v=v_1[/$]
                         </ol>
         -
                 uuid: 65182af5-5d51-4e62-9094-82445ce4a661
                 front: >
-                        Možné separační podmínky pro
+                        Separační podmínky pro
                         [$]x@t:(v_1,v_2)[/$], [$]x@t':(v_1',v_2')[/$]
                 back: >
                         <ol type="a">
                         <li> [$]t\neq t'[/$]
-                        <li> [$](v_1=v_1' \wedge v_2=v_2')[/$]
+                        <li> [$]v_1=v_1', v_2=v_2'[/$]
                         </ol>
         -
                 uuid: 136cb068-5048-4c9e-a35f-b3780169821a
@@ -149,7 +165,7 @@ notes:
         -
                 uuid: 7d7195eb-5c3e-4eb7-8aa7-c19d580a4de5
                 front: >
-                        Definice: *konzistentní* časová osa
+                        Definice: *Konzistentní* časová osa
                 back: >
                         [$]\\Phi=(F,C)[/$] pro proměnnou [$]x[/$]:
                         konzistentní když [$]C[/$] je konzistentní
@@ -162,34 +178,36 @@ notes:
                         důsledkem!
         -
                 uuid: 81856920-2ef7-4d5f-8d3b-ffa7d2e0606f
+                markdown: false
                 front: >
                         Definice: kronika podporuje časový výrok,
-                        *podpora*, *pomocník*?
+                        <i>podpora</i>, <i>pomocník</i>
                 back: >
-                        *Konzistentní* kronika [$]\\Phi=(F,C)[/$]
-                        podporuje výrok [$]\\alpha \\equiv x@t:(v,v')[/$]
-                        nebo [$]x@[t,t'):v[/$] právě když je v [$]F[/$]
-                        výrok [$]\\beta[/$] nastavující hodnotu [$]v[/$] pro
-                        [$]\\alpha[/$].
+                        <i>Konzistentní</i> kronika [$]\Phi=(F,C)[/$]
+                        podporuje výrok [$]\alpha\equiv x@t:(v,v')[/$]
+                        nebo [$]x@[t,t'):v[/$] právě když:
                         <br><br>
-                        [$]\\beta[/$] je buď tvaru [$]x@\\tau':(w',w)[/$] nebo
-                        [$]x@[\\tau',\\tau):w[/$] a existují separační podmínky
-                        [$]c[/$] takové, že
-                        [$]\\Phi \\cup (\\{\\alpha, x@[\\tau,t):v\\}, \\{w=v, \\tau<t\\}\\cup c)[/$]
-                        je konzistentní kronika.
+                        Existuje [$]\beta\in F[/$] nastavující
+                        hodnotu [$]v[/$] pro [$]\alpha[/$].
+                        Taková [$]\beta[/$] je buď [$]x@\tau:(w',w)[/$], nebo
+                        [$]x@[\tau',\tau):w[/$].
+                        A existují separační podmínky [$]c[/$], že:
+                        když [$]\delta\equiv(\{\alpha, x@[\tau,t):v\},
+                                             \{w=v, \tau < t\}\cup c)[/$],
+                        tak [$]\Phi\cup\delta[/$] je konzistentní kronika.
                         <br><br>
-                        [$]\\beta[/$] je *podpora* pro [$]\\alpha[/$].
-                        <br><br>
-                        [$]\\delta=(\\{\\alpha, x@[\\tau,t):v\\}, \\{w=v, \\tau<t\\}\\cup c)[/$]
-                        je *pomocník* (*enabler*) pro [$]\\alpha[/$] v [$]\\Phi[/$].
+                        [$]\beta[/$]: <i>podpora</i> pro [$]\alpha[/$]
+                        <br>
+                        [$]\delta[/$]: <i>pomocník</i> (<i>enabler</i>) pro
+                        [$]\alpha[/$]
         -
                 uuid: 077f2748-7181-4d2c-b200-77042078487d
                 front: >
                         Definice: Kronika podporuje množinu časových výroků
-                        [$]\\varepsilon[/$]?
+                        [$]\\varepsilon[/$], pomocník pro [$]\\varepsilon[/$]
                 back: >
-                        Když je každý výrok podporován kronikou
-                        [$](F\\cup \\varepsilon-\\{\\alpha_i\\},C)[/$]
+                        Každý výrok [$]\\alpha_i[/$] je podporován kronikou
+                        [$] (F\\cup \\varepsilon-\\{\\alpha_i\\},C)[/$]
                         pomocníkem [$]\\delta_i[/$] takovým, že
                         [$]\\Phi\\cup\\Psi[/$]
                         je konzistentní kronika
@@ -198,15 +216,15 @@ notes:
                         Definice umožňuje *interferující efekty* &mdash;
                         přidané výroky se můžou navzájem podporovat.
                         <br><br>
-                        [$]\\Psi[/$] je pomocník pro [$]\\varepsilon[/$] (a není jednoznačný)
+                        [$]\\Psi[/$] je pomocník pro [$]\\varepsilon[/$]
+                        (není jednoznačný)
         -
                 uuid: b38cc4d1-e6ee-4c16-acbb-1266a03ef0ac
                 front: >
                         Definice: Kronika podporuje jinou kroniku
                 back: >
                         Ať je [$]\\Phi'=(F',C')[/$] kronika taková, že
-                        [$]\\Phi[/$] podporuje [$]F'[/$],
-                        a [$]\\theta(\\Phi'/\\Phi)=\\{\\varphi \\cup (\\varnothing, C') : \\varphi \\text{je pomocnik pro} F'\\}[/$].
+                        [$]\\Phi[/$] podporuje [$]F'[/$].
                         <br><br>
                         Potom konzistentní kronika [$]\\Phi=(F,C)[/$]
                         *podporuje* kroniku [$]\\Phi'[/$]
@@ -215,13 +233,23 @@ notes:
                         takový, že [$]\\Phi\\cup\\varphi[/$] je konzistentní
                         kronika.
         -
+                uuid: 755cc706-e587-4d11-aa4e-6f7374c0aadc
+                front: >
+                        Definice: [$]\\theta(\\Phi'/\\Phi)[/$}
+                back: >
+                        [$]\\theta=\\{\\varphi\\cup(\\varnothing,C'):
+                        \\varphi\\ \\text{je pomocnik pro}\\ F'\\}[/$]
+                        <br><br>
+                        ([$]\\Phi'=(F',C')[/$])
+        -
                 uuid: f727b71a-f1c9-480f-b2cc-5d8364341626
                 front: >
-                        Definice: Kronika je důsledek jiné
+                        Definice:
+                        Kronika [$]\\Phi'[/$] je důsledek kroniky [$]\\Phi[/$]
                 back: >
-                        [$]\\Phi'[/$] je *důsledek* [$]\\Phi[/$] právě když
-                        [$]\\Phi[/$] podporuje [$]\\Phi'[/$] a existuje
-                        pomocník [$]\\varphi\\in\\theta(\\Phi'/\\Phi)/$]
+                        Právě když [$]\\Phi[/$] podporuje [$]\\Phi'[/$] a
+                        existuje pomocník
+                        [$]\\varphi\\in\\theta(\\Phi'/\\Phi)[/$]
                         takový, že [$]\\varphi\\subseteq\\Phi[/$].
         -
                 uuid: ac248691-2945-41cb-855f-fbd3779d9a8d
@@ -252,7 +280,7 @@ notes:
                 front: Výsledek aplikace akce
                 back: >
                         Množina kronik [$]\\gamma(\\Phi,a)=\\{\\Phi\\cup\\varphi
-                        : \\varphi\\in\\delta(a/\\Phi)\\}[/$]
+                        : \\varphi\\in\\theta(a/\\Phi)\\}[/$]
         -
                 uuid: f1fd46ef-39ab-4777-8f2d-0818c985e074
                 front: >
@@ -260,11 +288,12 @@ notes:
                 markdown: false
                 back: >
                         [$]\pi=\{a_1,\ldots a_n\}[/$] je aplikovatelná na [$]\Phi[/$],
-                        když [$]\Phi[/$] poporuje kroniku [$]\Phi_\pi=\bigcup_i (F(a_i),C(a_i))[/$]
+                        když [$]\Phi[/$] podporuje kroniku
+                        [$]\Phi_\pi=\bigcup_i (F(a_i),C(a_i))[/$]
                         <br><br>
                         Výsledek aplikace:
                         [$]\gamma(\Phi,\pi)=
-                        \{\Phi\cup\varphi:\varphi\in\delta(\Phi_\pi/\Phi)\}[/$]
+                        \{\Phi\cup\varphi:\varphi\in\theta(\Phi_\pi/\Phi)\}[/$]
         -
                 uuid: f3b7aad7-aab0-4f25-b177-cd7a89e38d14
                 front: Co je plánovací problém?
@@ -277,14 +306,14 @@ notes:
                 uuid: 671f4230-9131-4f1a-8d0b-7e2085040d50
                 front: Co je řešící plán?
                 back: >
-                        Akcí [$]\\pi[/$], že [$]\\Phi_g[/$]
+                        Posloupnost akcí [$]\\pi[/$], že [$]\\Phi_g[/$]
                         je důsledek nějaké kroniky z
                         [$]\\gamma(\\Phi_0,\\pi)[/$].
         -
                 uuid: 4253c990-3a2c-4de6-babc-1b835cd5098b
-                front: Jak se plánuje s kronikami?
+                front: Jak plánovat s kronikami
                 back: >
-                        Jako plánování v prostoru plánů.
+                        Jako v prostoru plánů.
                         Otevřené cíle: na začátku cíle v [$]\\Phi_g[/$].
                         <br><br>
                         Jestli mám otevřený cíl:
@@ -352,7 +381,7 @@ notes:
         -
                 uuid: 0414efc0-70bb-4f8e-9041-c60774fc0d73
                 topic: Plánování se zdroji
-                front: Kdy je kronika konzistentní?
+                front: Kdy je kronika konzistentní při plánování se zdroji?
                 back: >
                         Když jsou všechny časové výroky nad stavovými proměnnými
                         konzistentní a žádná množina časových výroků
@@ -391,18 +420,19 @@ notes:
                         # TODO: detaily
         -
                 uuid: 5b5d3c1b-3597-4637-a41e-76329e22836e
-                front: Jak se dají opravit konflikty?
+                topic: Plánování se zdroji
+                front: Jak opravit konflikty?
                 back: >
                         Vezmu minimální kritickou množinu a vyberu
-                        opravu, která jeden z intervalů posune mimo průnik.
+                        opravu, co jeden z intervalů posune mimo průnik.
                         <br><br>
-                        Je dobré z oprav použít ty, co jsou minimálně silné
-                        (protože některé opravy implikují jiné opravy).
+                        Je dobré použít opravy, co jsou minimálně silné
+                        (protože některé opravy implikují jiné).
                         <br><br>
-                        Bacha abych tím nevyrobil konflikt.
+                        Bacha abych nevyrobil konflikt.
         -
                 uuid: bfa05834-a813-4413-ba8b-dff31e0ba93b
-                front: Jak se bude plánovat se zdroji?
+                front: Jak plánovat se zdroji
                 back: >
                         K plánování s kronikami přidáme práci s minimálními
                         konfliktními množinami a odstraňování zdrojových

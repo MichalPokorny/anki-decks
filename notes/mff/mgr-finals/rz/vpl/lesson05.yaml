@@ -4,15 +4,22 @@ notes:
         -
                 uuid: 9cd8aea3-f680-40ed-afe2-cceb82ac2e07
                 topic: Výroková logika
-                front: Hilbertovy axiomy a odv. pravidla
+                front: Hilbertovy axiomy
+                markdown: false
                 back: >
-                        1. [$]\\varphi\\rightarrow(\\psi\\rightarrow\\varphi)[/$]
-
-                        2. [$] (\\alpha\\rightarrow(\\beta\\rightarrow\\gamma))\\rightarrow((\\alpha\\rightarrow\\beta)\\rightarrow(\\alpha\\rightarrow\\gamma))[/$]
-
-                        3. [$] (\\neg\\alpha\\rightarrow\\neg\\beta)\\rightarrow(\\beta\\rightarrow\\alpha)[/$]
-
-                        Odvozovací pravidlo: modus ponens ([$]\\alpha, \\alpha\\rightarrow\\beta[/$] ==> [$]\\beta[/$])
+                        <ol type="1">
+                        <li> [$]\varphi\rightarrow(\psi\rightarrow\varphi)[/$]
+                        <li> [$] (\alpha\rightarrow(\beta\rightarrow\gamma))\rightarrow((\alpha\rightarrow\beta)\rightarrow(\alpha\rightarrow\gamma))[/$]
+                        <li> [$] (\neg\alpha\rightarrow\neg\beta)\rightarrow(\beta\rightarrow\alpha)[/$]
+                        </ol>
+        -
+                uuid: 31f9c98c-0044-4781-b89b-637f478c7e72
+                topic: Výroková logika
+                front: Odvozovací pravidlo v Hilbertově systému
+                back: >
+                        Modus ponens:
+                        [$]\\alpha, \\alpha\\rightarrow\\beta \\Longrightarrow
+                           \\beta[/$]
         -
                 uuid: 14ccef71-7564-494a-84a2-13e59c0d9f66
                 topic: Výroková logika
@@ -85,6 +92,8 @@ notes:
                 topic: Výroková logika
                 front: Lineární důkaz
                 back: >
-                        Konečná posloupnost dvojic: jedna je boční klauzule (buď něco už dokázaného, nebo axiom).
+                        Konečná posloupnost dvojic:
+                        jedna je boční klauzule (buď něco už dokázaného,
+                        nebo axiom).
                         Je to úplné a korektní.
                         Obzvlášť pro Hornovy klauzule. (Linear-input reslution)

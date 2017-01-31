@@ -11,25 +11,24 @@ notes:
         -
                 uuid: 1136669b-f0ad-4b35-80ec-ff85de0e11f1
                 front: >
-                        Podle jakých heuristik budeme vybírat proměnnou k dosazení?
+                        Podle jakých heuristik budeme vybírat proměnnou
+                        k dosazení?
                         Příklady?
                 back: >
-                        Tu, jejíž dosazení do nejdříve selže (fail-first).
-                        Tedy:<br>
-
-                        dom heuristika: proměnná s nejmenší doménou<br>
-
-                        deg heuristika: proměnná co má nejvíc podmínek<br>
-
-                        dom+deg heuristika: mezi proměnnými s nejmenší doménou
-                        vyber tu co má nejvíc podmínek
+                        Fail-first.
+                        <ul>
+                        <li>*dom heuristika*: proměnná s nejmenší doménou
+                        <li>*deg heuristika*: proměnná co má nejvíc podmínek
+                        <li>*dom+deg heuristika*: mezi proměnnými s nejmenší
+                            doménou vyber tu co má nejvíc podmínek
+                        </ul>
         -
                 uuid: 97caa973-7b9c-4385-9a39-c21d00f284a7
                 front: >
                         Podle jakých heuristik budeme vybírat pořadí hodnot k dosazení?
                         Příklady?
                 back: >
-                        Succeed-first: Tedy:<br>
+                        Succeed-first.<br>
 
                         Taková proměnná co nejméně omezí ostatní proměnné.<br>
 
@@ -47,8 +46,8 @@ notes:
                 uuid: 0ab920fd-72d2-44e7-8c34-e1fc95d662eb
                 front: Arc consistency
                 back: >
-                        Každá hrana má podporu, tedy každá hodnota v každé doméně
-                        má podporu na druhé straně podmínek.
+                        Každá hrana má podporu &mdash; každá hodnota v každé
+                        doméně má podporu na druhé straně podmínek.
                         Při každé změně uděláme další filtrování.
         -
                 uuid: 9dd1edf2-6c4f-41f7-a611-a4a54845be01
@@ -63,7 +62,7 @@ notes:
                         Pokud jsem něco odebral, přidám všechny hrany
                         ze změněné domény do queue.<br>
 
-                        Tedy celkem složitost: [$]\\O(ed^3)[/$], kde [$]e[/$] je
+                        Složitost: [$]\\O(ed^3)[/$], kde [$]e[/$] je
                         počet podmínek.
         -
                 uuid: e8cbd3a0-6013-4c57-9279-d6ae60d6f8c7
@@ -92,5 +91,5 @@ notes:
                         obaluje párování v bipartitním grafu
         -
                 uuid: 41c999c5-02dd-4903-9fae-97bbdbd1ee53
-                front: Jak se v CSP řeší optimalizace?
+                front: Jak optimalizovat v CSP?
                 back: Branch and bound

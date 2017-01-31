@@ -270,7 +270,7 @@ notes:
         -
                 uuid: b6102852-76e0-4dd2-aee4-bda6541dd1e1
                 front: "Get average of vector"
-                back: "`avg(a);`"
+                back: "`mean(a);`"
                 include_reverse: true
         -
                 uuid: 2990320e-6345-4ea2-ac79-112959beadca

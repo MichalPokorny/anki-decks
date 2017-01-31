@@ -56,3 +56,10 @@ notes:
                 back: >
                         `F`
                 include_reverse: true
+        -
+                uuid: 9dab579f-3d98-4f0a-b9f0-4e95f9373064
+                front: >
+                        Search: Marked cards
+                back: >
+                        `tag:marked`
+                include_reverse: true

@@ -13,22 +13,27 @@ notes:
         -
                 uuid: c8c2673e-7960-41d8-8ea8-7a751bfd5c23
                 front: Modus ponens
-                back: p->q, p ==> therefore q
+                markdown: false
+                back: >
+                        [$]p\rightarrow q, p \Longrightarrow q[/$]
                 include_reverse: true
         -
                 uuid: b37586bb-085a-4cc4-903b-5e37d793742f
                 front: Modus tollens
-                back: p->q, not p ==> therefore not q
+                markdown: false
+                back: >
+                        [$]p\rightarrow q, \neg p \Longrightarrow \neg q[/$]
                 include_reverse: true
         -
                 uuid: 91f774ef-700e-4417-8c15-72ee9cae02d8
-                front: Forming a hypothesis in order to generate an explanation
+                front: Forming hypothesis in order to generate an explanation
                 back: Abduction
                 include_reverse: true
         -
                 uuid: 9afa331e-c7d2-4a33-b62f-8fb643822c62
                 front: Wason's selection task
-                back: "Test of 'only people above 18 are allowed to drink beer'"
+                back: >
+                        Test of 'only people above 18 are allowed to drink beer'
                 include_reverse: true
         -
                 uuid: 8ec9b8f3-ae22-400d-b61d-8a7147749e1c

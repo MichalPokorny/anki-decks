@@ -25,10 +25,12 @@ notes:
                         Databázi časových údajů; Update; IsConsistent?
         -
                 uuid: 74aec57b-3cb4-477d-93c2-4e236e22b534
-                front: Jaké jsou dva způsoby práce s časem v plánování?
+                front: Jaké jsou 2 způsoby práce s časem v plánování?
                 back: >
-                        S časem pracujeme kvalitativně (tj. relativní vztahy),
-                        nebo kvantitativně (tj. zajímají nás absolutní hodnoty).
+                        <ul>
+                        <li> Kvalitativně (relativní vztahy)
+                        <li> Kvantitativně (absolutní hodnoty)
+                        </ul>
         -
                 uuid: 26354eb1-17e7-4c6e-b273-7d675a3b6626
                 front: Co nás zajímá v kvalitativním přístupu k času?
@@ -115,18 +117,21 @@ notes:
                 uuid: 40e930a0-668b-4a1e-8f34-0b369506a4a4
                 topic: Simple Temporal Network
                 front: Povolené podmínky, operace
+                markdown: false
                 back: >
                         Jenom jednoduché časové podmínky (žádné skládání):
                         [$]r_{ij}=[a_{ij},b_{ij}][/$].<br>
                         Operace:
-                        skládání: [$]r_{ij}\\cdot r_{jk}=[a_{ij}+a_{jk},b_{ij}+b_{jk}][/$],
-                        průnik: [$]r_{ij}\\cap r'_{ij}=[\\max(a_{ij},a'_{ij}),\\min(b_{ij},b'_{ij})][/$]
+                        skládání:
+                        [$]r_{ij}\cdot r_{jk}=[a_{ij}+a_{jk},b_{ij}+b_{jk}][/$],
+                        průnik:
+                        [$]r_{ij}\cap r'_{ij}=[\max(a_{ij},a'_{ij}),\min(b_{ij},b'_{ij})][/$]
         -
                 uuid: 412dbc27-b0ef-4508-b39b-956e6c16df9b
                 topic: Simple Temporal Network
                 front: Algoritmy na konzistenci
                 back: >
-                        Stačí konzistence po cestě, nebo Floyd-Warshall
+                        Stačí konzistence po cestě nebo Floyd-Warshall
                         (na hledání minimální vzdálenosti mezi každou dvojicí).
         -
                 uuid: 607a74ca-69e8-4883-a13e-7c16e0aa11f3
@@ -154,7 +159,7 @@ notes:
                         [$]d(i,j)\\leftarrow \\min\\{d(i,j),d(i,k)+d(k,j)\\}[/$]
         -
                 uuid: c07cfb1b-5bb9-4a38-b5a6-6a0166690ea3
-                front: TCSP. Jak se dá řešit?
+                front: TCSP. Jak to řešit?
                 back: >
                         Povolíme disjunkce jednoduchých časových podmínek,
                         [$]\\cdot[/$] a [$]\\cap[/$] se musí provádět s množinami intervalů.
@@ -181,17 +186,21 @@ notes:
                         Neboli TNA síť. NP-úplný (3-SAT).
         -
                 uuid: 02bcb167-8d9d-4c6b-8ae2-0b78556a13d5
-                front: Na jakých grafech je TNA výběr uzlů polynomiálně řešitelný?
+                front: >
+                        Na jakých grafech je TNA výběr uzlů polynomiálně
+                        řešitelný?
+                markdown: false
                 back: >
                         Zahnízděné grafy (vzniknou postupnou aplikací
                         dekompoziční operace).
                         <br>
                         Operace:
                         <br>
-                        (Hrana [$](a \\rightarrow b)[$], [$]n\\in\\N[/$]) ==>
-                        hrany [$](a\\rightarrow x_1 \\rightarrow b), \\ldots
-                        (a\\rightarrow x_n \\rightarrow b)[/$]
-                        na nových vrcholech [$]x_1,\\ldots x_n[/$].
+                        (Hrana [$](a \rightarrow b)[/$], [$]n\in\N[/$])
+                        &rarr;
+                        hrany [$](a\rightarrow x_1 \rightarrow b), \ldots
+                        (a\rightarrow x_n \rightarrow b)[/$]
+                        na nových vrcholech [$]x_1,\ldots x_n[/$].
         -
                 uuid: b6117756-0abb-4623-a34a-e0614b641c80
                 front: (Zahnizdene) temporalni site s alternativami - hrany

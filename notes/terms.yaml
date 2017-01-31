@@ -34,7 +34,8 @@ notes:
         -
                 uuid: 09802a2a-4905-445d-8e3c-8177f2daf4b3
                 front: Foregone conclusion
-                back: Result that can be predicted with certainty
+                back: >
+                        Result that can be predicted with certainty
                 include_reverse: true
         -
                 uuid: 834a6c70-0399-4ea5-bf3b-0873bc26f8c1
@@ -1034,7 +1035,7 @@ notes:
                 front: Patsy
                 back: >
                         (North American, informal)
-                        Person who is easily taken advantage of, especially by
+                        Person easily taken advantage of, especially by
                         being cheated or blamed for something
                 include_reverse: true
         -
@@ -1059,8 +1060,10 @@ notes:
                 front: To coopt
                 back: >
                         <ul>
-                        <li> to elect into a body by votes of the existing members
-                        <li> to assimilate, take, or win over into a larger or established group
+                        <li> to elect into a body by votes of the existing
+                             members
+                        <li> to assimilate, take, or win over into larger or
+                             established group
                         <li> to appropriate as one's own; preempt
                         </ul>
                 include_reverse: true
@@ -1259,7 +1262,7 @@ notes:
                 uuid: f6f7affe-cdcc-4fca-916a-252898c31008
                 front: Reveller
                 back: >
-                        Person who is enjoying themselves in a lively and
+                        Person enjoying themselves in a lively and
                         noisy way
         -
                 uuid: a455cc5f-6cb0-4b0c-994a-9205bf53db11
@@ -1329,8 +1332,8 @@ notes:
                 uuid: c629e06a-e6dc-40dd-8ea9-11e2ec71742a
                 front: Accede
                 back: >
-                        (Formal) agree to a demand, request, or treaty;
-                        assume an office or position
+                        (Formal) agree to demand, request, or treaty;
+                        assume office or position
                 include_reverse: true
         -
                 uuid: 28eb9264-ef5b-4af4-9000-2d0f0c4e45f8
@@ -1345,7 +1348,24 @@ notes:
                 front: Syncretism
                 back: >
                         Amalgamation or attempted amalgamation of different
-                        religions, cultures, or schools of thought;
+                        religions, cultures, schools of thought;
                         (linguistics) merging of different inflectional
                         varieties of a word during development of
                         a language
+        -
+                uuid: 6dd83292-6581-4fab-af9a-d20aa2374883
+                front: Neophyte
+                back: >
+                        Person new to subject or activity;
+                        new convert to a religion.
+                include_reverse: true
+        -
+                uuid: bb568c41-d1a9-4cd0-a31f-3623156d2cf5
+                front: by dint of ...
+                back: by means of ...
+        -
+                uuid: d4812dc3-823e-4afe-a697-b351b6fa4e5d
+                front: imprimatur
+                back: >
+                        Latin: "let it be printed"
+                include_reverse: true

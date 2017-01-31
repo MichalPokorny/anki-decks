@@ -22,22 +22,25 @@ notes:
                 uuid: 041852a7-775d-448d-92ff-20ad7f8dc26f
                 front: Podmínky obecně a jejich znění
                 back: >
-                        Uspořádání aktivit a omezené kapacity zdrojů:
-                        <br> <br>
+                        <ul>
+                        <li>
+                        *Start a konec*:
                         [$]\\mathrm{start}(A)+\\mathrm{p}(A)=\\mathrm{end}(A)[/$]
-                        <br>
-                        Uspořádání:
+                        <li>
+                        *Uspořádání*:
                         [$]B\\ll A\\longrightarrow \\mathrm{end}(B)\\leq \\mathrm{start}(A)[/$]
-                        <br>
-                        Omezení kapacity:
-                        [$]A\\ll B \\vee B\\ll A[/$] když běží na jednom unárním zdroji
+                        <li>
+                        *Unární kapacity*:
+                        [$]A\\ll B \\vee B\\ll A[/$] když běží na stejném
+                        unárním zdroji
+                        </ul>
         -
                 uuid: 94cae0b9-a992-420b-9513-16bcbf48aebc
                 front: Rozdílný význam slova "zdroj" v plánování a rozvrhování
                 back: >
-                        V rozvrhování: stroj/prostor na zpracování aktivity.
+                        Rozvrhování: stroj/prostor na zpracování aktivity.
                         <br>
-                        V plánování: materiál konzumovaný/produkovaný
+                        Plánování: materiál konzumovaný/produkovaný
                         aktivitou ("ruka je volná" - binární proměnné
                         pro unární zdroje).
         -
@@ -45,12 +48,13 @@ notes:
                 front: Typy zdrojů
                 back: >
                         <ul>
-                        <li> *Unární*: jenom jedna aktivita najednou
+                        <li> *Unární*: jedna aktivita najednou
                         <li> *Kumulativní*: několik aktivit najednou,
                         pod kapacitu zdroje
                         <li> *Produkovatelné/spotřebovatelné*:
-                        na zdroji musí zbýt aspoň minimální volná kapacita
-                        a nesmí se překročit maximální; aktivity konzumují/produkují
+                        na zdroji musí zbýt minimální volná kapacita
+                        a nesmí se překročit maximální; aktivity
+                        konzumují/produkují
                         </ul>
         -
                 uuid: 04a4d494-5890-421d-a73e-8f028f9a7649
@@ -132,45 +136,51 @@ notes:
                         <li> [$]start(A)\geq\min\{t: ub(X(A,t))=1\}[/$]
                         <li> [$]end(A)\leq 1+\max\{t : ub(X(A,t))=1\}[/$]
                         <li>
-                        [$][X(A,t)=0 \wedge t<ect(A)] \rightarrow start(A)>t[/$]
+                        [$][X(A,t)=0 \wedge t < ect(A)] \rightarrow start(A) > t[/$]
                         <li>
                         [$][X(A,t)=0 \wedge lst(A)\leq t] \rightarrow end(A)\leq t[/$]
                         <li>
-                        [$](lst(A)\leq t\wedge t<ect(A) \rightarrow X(A,t)=1)[/$]
+                        [$](lst(A)\leq t\wedge t < ect(A) \rightarrow X(A,t)=1)[/$]
                         </ul>
         -
                 uuid: e1c46ddc-b10c-443b-814d-f11a710c8e89
-                front: Jak budeme modelovat použití alternativních zdrojů pro danou aktivitu?
+                front: >
+                        Jak modelovat použití alternativních zdrojů
+                        pro aktivitu?
                 back: >
                         Pro zdroj uděláme duplikát, co se účastní
                         podmínek, ale neomezuje další aktivity na zdroji.
-                        <br>
-                        <br>
+                        <br><br>
                         Když duplikát "neuspěje", odeber zdroj z [$]res(A)[/$].
                         Když smažu zdroj z domény [$]res(A)[/$], smažu
                         opovídající duplikát.
                         <br><br>
-                        Omezení časů duplikátu se propaguje do originálu
+                        Omezení časů duplikátu propaguj do originálu
                         a naopak. Původní aktivita se účastní precedenčních
                         podmínek.
         -
                 uuid: 401c4dfd-1c3e-490a-a300-c6b9c700fbed
                 front: Formálně - aktivity na alternativních zdrojích
+                markdown: false
                 back: >
                         [$]A_u[/$] je duplikát na [$]u[/$].
-                        <br><br>
-                        [$]u\\in res(A)\\rightarrow start(A)\\leq start(A_u)[/$]
-                        [$]u\\in res(A)\\rightarrow end(A_u)\\leq end(A)[/$]
-                        [$]start(A)\\geq\\min\\{start(A_u):u\\in res(A)\\}[/$]
-                        [$]end(A)\\leq\\max\\{end(A_u):u\\in res(A)\\}[/$]
-                        [$]\\text{prazdne okno}\\ A_u\\rightarrow res(A) \\setminus\\{u\\}[/$]
-                        <br><br>
+                        <ul>
+                        <li>
+                        [$]u\in res(A)\rightarrow start(A)\leq start(A_u)[/$]
+                        <li>
+                        [$]u\in res(A)\rightarrow end(A_u)\leq end(A)[/$]
+                        <li>
+                        [$]start(A)\geq\min\{start(A_u):u\in res(A)\}[/$]
+                        <li>
+                        [$]end(A)\leq\max\{end(A_u):u\in res(A)\}[/$]
+                        <li>
+                        [$]\text{prazdne okno}\ A_u\rightarrow res(A) \setminus\{u\}[/$]
+                        </ul>
                         Realizace konstruktivní disjunkce mezi zdroji.
         -
                 uuid: 3d2d9a4e-f827-4931-bcd1-b386f59b5896
                 front: >
-                        Co můžeme udělat na propagaci když máme jenom
-                        relativní uspořádání?
+                        Jak propagovat když máme jenom relativní uspořádání?
                 back: >
                         Edge-finding, agregované požadavky nic neodvodí.
                         Můžeme něco zjistit o uspořádání
@@ -181,100 +191,120 @@ notes:
                 front: >
                         Značení: Produkovaná kladná/záporná kvantita
                 back: >
-                        [$]prod(A)[/$]
+                        [$]\\mathrm{prod}(A)[/$]
         -
                 uuid: 8392b215-a2bb-4f8c-89ab-6eff6fe915cc
                 topic: Optimistické a pesimistické profily
                 front: >
                         Definice: Optimistický profil (orp)
                 back: >
-                        Maximální úroveň zdroje když začne [$]A[/$].<br><br>
-                        Aktivity, co *musí* být před [$]A[/$] se vezmou
-                        s produkčními aktivitami, co *můžou* být před [$]A[/$].
+                        Maximální úroveň zdroje po [$]A[/$].<br><br>
+                        Co *musí* být před [$]A[/$] se vezme
+                        s produkcí, co *může* být před [$]A[/$].
                         <br><br>
-                        [$$]orp(A)=InitLevel + prod(A) + \\sum_{B\\ll A} prod(B) + \\sum_{B \\gtrless A \\wedge prod(B)>0} prod(B)[/$$]
+                        [$$]\\mathrm{orp}(A)=\\mathrm{Init}+\\mathrm{prod}(A)+
+                        \\sum_{B\\ll A}\\mathrm{prod}(B)+
+                        \\sum_{B\\gtrless A, \\mathrm{prod}(B)>0} \\mathrm{prod}(B)[/$$]
         -
                 uuid: b374f576-e3c0-44d6-81f2-f269fc014742
                 topic: Optimistické a pesimistické profily
                 front: >
                         Definice: Pesimistický profil (prp)
                 back: >
-                        Minimální úroveň zdroje když začně [$]A[/$].<br><br>
-                        Aktivity, co *musí* být před [$]A[/$] se vezmou
-                        s konzumačními aktivitami, co *můžou* být před [$]A[/$].
+                        Minimální úroveň zdroje po [$]A[/$].<br><br>
+                        Co *musí* být před [$]A[/$] se vezme
+                        s konzumací, co *může* být před [$]A[/$].
                         <br><br>
-                        [$$]prp(A)=InitLevel + prod(A) + \\sum_{B \\ll A}prod(B) + \\sum_{B \\gtrless A \\wedge prod(B)<0} prod(B)[/$$]
+                        [$$]\\mathrm{prp}(A)=\\mathrm{Init}+\\mathrm{prod}(A)+
+                        \\sum_{B\\ll A}\\mathrm{prod}(B)+
+                        \\sum_{B\\gtrless A, \\mathrm{prod}(B)<0} \\mathrm{prod}(B)[/$$]
         -
                 uuid: 7969cc34-8c81-4bd1-bdae-1e729f861d3c
                 topic: Optimistické a pesimistické profily
-                front: ORP a PRP filtrace
+                front: ORP, PRP filtrace
+                markdown: false
                 back: >
-                        [$$]orp(A)<MinLevel\\Rightarrow fail[/$$]
-                        <br><br>
-                        Pro libovolné [$]B[/$], že [$]B \\gtrless A[/$] a [$]prod(B)>0[/$]:
-                        [$$]orp(A) - prod(B) - \\sum_{B\\ll C \\wedge C \\gtrless A \\wedge prod(C)>0} prod(C) < MinLevel \\Rightarrow B \\ll A[/$$]
-                        Interpretace: "Když bych při naplánování B za A
-                        neměl před A minimální úroveň, tak musí být B před A".
-                        <br><br>
-                        PRP analogická.
+                        <ul>
+                        <li>
+                        [$]\mathrm{orp}(A) < \mathrm{MinLevel}\Rightarrow
+                        \mathrm{fail}[/$]
+                        <li>
+                        Pro libovolné [$]B[/$], že [$]B \gtrless A[/$] a
+                        [$]\mathrm{prod}(B)>0[/$]:
+                        [$$]\mathrm{orp}(A)-\mathrm{prod}(B)-
+                        \sum_{B\ll C, C \gtrless A, \mathrm{prod}(C)>0}
+                        \mathrm{prod}(C) < \mathrm{MinLevel} \Rightarrow B \ll A[/$$]
+                        <br>
+                        Interpretace: "Když by naplánování [$]B\gg A[/$]
+                        nenechalo před [$]A[/$] minimální úroveň, musí být
+                        [$]B\ll A[/$]".
+                        </ul>
+                        PRP analogicky.
         -
                 uuid: bc34db6d-232d-4e3b-b18f-5eecf3bd72a1
                 topic: Rozvrhovací strategie
                 front: Jak budu postupovat obecně?
                 back: >
-                        Jako první kritická rozhodnutí:
-                        first-fail, vyřeším bottlenecky.
+                        Jako první kritická rozhodnutí: first-fail, vyřeš
+                        bottlenecky.
                         <br>
                         Preferuj alternativy s větší flexibilitou.
         -
                 uuid: 99dc6e1a-c86d-4efa-8d6b-fc7d7182ec1a
                 topic: Rozvrhovací strategie
                 front: >
-                        Definice: *Slack*
+                        Definice: <i>Slack</i>
+                markdown: false
                 back: >
-                        Slack pro aktivity [$]A\\ll B[/$]:
-                        [$$]slack(A\\ll B)=\\max(end(B)) - \\min(start(A)) - p(\\{A,B\\})[/$$]
+                        Pro [$]A\ll B[/$]:
+                        [$]\mathrm{slack}(A\ll B)=\max(end(B))-\min(start(A))-p(\{A,B\})[/$]
                         <br><br>
-                        Slack pro aktivity bez určení pořadí:
-                        [$$]slack(\\{A,B\\})=\\max\\{slack(A\\ll B), slack(B\\ll A)\\}[/$$]
+                        Pro aktivity bez pořadí:
+                        [$]\mathrm{slack}(\{A,B\})=\max\{\mathrm{slack}(A\ll B),\mathrm{slack}(B\ll A)\}[/$]
                         <br><br>
-                        Slack pro skupinu aktivit:
-                        [$$]slack(\\Omega)=\\max(end(\\Omega)) - \\min(start(\\Omega)) + p(\\Omega)[/$$]
+                        Pro skupinu aktivit:
+                        [$]\mathrm{slack}(\Omega)=\max(end(\Omega))-\min(start(\Omega))-p(\Omega)[/$]
         -
                 uuid: db100727-2394-4d0b-9d6d-d3823acc79ec
                 topic: Rozvrhovací strategie
                 front: Uspořádání větví podle slacku; kolik je bodů volby?
+                markdown: false
                 back: >
-                        Jako první budu vybírat pořadí aktivit co jsou
-                        nejkritičtější &mdash; [$]\\min slack(\\{A,B\\})[/$].
+                        První plánuj pár aktivit co je
+                        nejkritičtější &mdash; [$]\min \mathrm{slack}(\{A,B\})[/$].
                         <br><br>
-                        Vyberu pořadí dle [$]\\max slack(A\\gtrless B)[/$].
+                        Zkus pořadí dle [$]\max \mathrm{slack}(A\gtrless B)[/$].
                         <br><br>
-                        Bodů volby je [$]\\O(n^2)[/$].
+                        Bodů volby: [$]\O(n^2)[/$].
         -
                 uuid: b59ddcf8-a6c9-40fa-ba71-9c23aafadc23
                 topic: Rozvrhovací strategie
                 front: Větvení první/poslední; kolik je bodů volby?
                 back: >
-                        Mám hledat první, nebo poslední aktivitu?
-                        Rozhodnu se podle toho, na co je méně kandidátů.
-                        <br><br>
-                        Když hledám první, preferuju tu, co má
-                        nejmenší [$]\\min(start(A))[/$].
-                        Když hledám poslední, preferuju tu,
-                        co má maximální [$]\\max(end(A))[/$].
-                        <br><br>
-                        Bodů volby je [$]\\O(n)[/$].
+                        Hledat první, nebo poslední aktivitu?
+                        Rozhodnu podle toho, co má míň kandidátů.
+                        <ul>
+                        <li>
+                        Hledáš první? Preferuj nejmenší
+                        [$]\\min(start(A))[/$].
+                        <li>
+                        Hledáš poslední? Preferuj nejvyšší
+                        [$]\\max(end(A))[/$].
+                        </ul>
+                        Bodů volby: [$]\\O(n)[/$].
         -
                 uuid: 5e04364e-8173-4065-8383-917dfc597500
                 topic: Rozvrhovací strategie
                 front: >
-                        Co to je *zdrojový slack* a jak se použije?
+                        Co je <i>zdrojový slack</i>, jak se použije?
                 back: >
-                        Slack množiny aktivit zpracovávaných zdrojem.<br><br>
-                        Volíme zdroj, na kterém budu jako prvním uspořádávat
-                        aktivitu: ten co má nejmenší slack.
-                        <br><br>
-                        Volíme zdroj, na který alokuju aktivitu: ten
-                        s maximálním slackem.
+                        Slack množiny aktivit zpracovávaných zdrojem.
+                        <ul>
+                        <li>
+                        Vybírám zdroj, který rozvrhovat první:
+                        [$]\\min \\mathrm{slack}[/$]
+                        <li>
+                        Vybírám zdroj, na který dát aktivitu:
+                        [$]\\max \\mathrm{slack}[/$]
+                        </ul>
 

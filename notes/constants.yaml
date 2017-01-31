@@ -168,7 +168,7 @@ notes:
         -
                 uuid: 905de71d-23bf-4b41-8cfe-7922b67bf556
                 topic: Latency Numbers Every Programmer Should Know
-                front: Send packet CA->Netherlands->CA
+                front: Send packet CA &rarr; Netherlands &rarr; CA
                 back: 150 ms
         -
                 uuid: 1e7abb11-fed9-4935-bd50-dcfa96216acb

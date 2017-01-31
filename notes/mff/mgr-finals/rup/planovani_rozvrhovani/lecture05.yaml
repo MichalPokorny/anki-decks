@@ -88,8 +88,8 @@ notes:
                 front: Použitelnost, výsledek aplikace množiny nezávislých akcí
                 back: >
                         *Použitelnost*: všechny předpoklady jsou splněny<br>
-                        *Výsledek aplikace*: odeberu negativní efekty a přidám pozitivní.
-                        Na permutaci nesejde.
+                        *Výsledek aplikace*: odeberu negativní efekty a přidám
+                        pozitivní. Na permutaci nesejde.
         -
                 uuid: f099651f-f287-4222-9343-0b0e83a8a095
                 front: Jak budeme plánovat s plánovacím grafem?
@@ -102,11 +102,11 @@ notes:
                         Přidáme no-op akce.
         -
                 uuid: 61cbf4d3-7e8e-4621-84dd-d0ff37be22d6
-                front: K čemu jsou no-op akce?
+                front: Účel no-op akcí
                 back: >
                         No-op akce: [$]\\alpha_p[/$] pro atom [$]p[/$].<br>
-                        Aby každý atom v každé stavové vrstvě byl důsledkem nějaké
-                        akce z předchozí úrovně.
+                        Aby každý atom v každé stavové vrstvě byl důsledkem
+                        nějaké akce předchozí úrovně.
         -
                 uuid: 28f854a0-fbdc-4e51-90d6-3076eda605df
                 front: Jaké věci tvoří mutexy?
@@ -117,7 +117,7 @@ notes:
                         stavové vrstvě (když jich nejde dosáhnout bez
                         závislosti).<br>
                         Jako speciální případ podmínky pro no-opy [$]\\alpha_p[/$]:
-                        Dva atomy nesmí být společně v jedné vrstvě, jestli
+                        2 atomy nesmí být společně v jedné vrstvě, jestli
                         jsou pozitivní předpoklad a negativní efekt téže akce.
                         <br>
                         Dvě akce jsou nekompatibilní, pokud jsou jejich
@@ -139,7 +139,8 @@ notes:
                         Formálně &mdash; kdy jsou akce [$]a[/$], [$]b[/$] mutex
                         v úrovni [$]A_i[/$]?
                 back: >
-                        Když jsou závislé, nebo předpoklad [$]a[/$] je mutex předpokladu [$]b[/$] v předchozí úrovni
+                        Když jsou závislé, nebo předpoklad [$]a[/$] je mutex
+                        předpokladu [$]b[/$] v předchozí úrovni
         -
                 uuid: 36a1ee65-bb8c-4a9d-b779-c19ffad853ec
                 front: >
@@ -151,16 +152,18 @@ notes:
                         a zároveň žádná akce nemá [$]p[/$] i [$]q[/$] jako pozitivní efekt.
         -
                 uuid: 976eed74-747c-46dd-8348-649cdfa8f1e6
-                front: Vlastnosti relace mutex a důkaz; důsledky pro akce a výroky ve vrstvách
+                front: >
+                        Vlastnosti relace mutex a důkaz;
+                        důsledky pro akce a výroky ve vrstvách
                 back: >
                         Je symetrická.<br>
                         Množiny mutexů v grafu monotónně klesají:
                         když [$]p,q\\in P_{i-1}[/$] a [$] (p,q)\\not\\in\\mu P_{i-1}[/$],
                         tak [$] (p,q)\\not\\in\\mu P_i[/$] a podobně s akcemi.<br>
-                        Důkaz: Když dva výroky nejsou mutex, tak jejich no-op
-                        akce taky nejsou mutex a proto je přesunou dál.
-                        Když dvě akce nejsou mutex, jsou nezávislé a jejich
-                        předpoklady nejsou mutex, takže můžu přes no-opy
+                        Důkaz: Když 2 výroky nejsou mutex, jejich no-opy
+                        taky nejsou mutex a posunou je dál.
+                        Když dvě akce nejsou mutex, jsou nezávislé a
+                        předpoklady nejsou mutex, takže můžu no-opy
                         přemístit předpoklady dál a pustit akce později.
                         <br>
                         Důsledek: množiny akcí a výroků monotónně rostou
@@ -172,25 +175,26 @@ notes:
                 uuid: 8fd62631-d71c-4bf8-832a-1d47bd68c37f
                 front: Algoritmus Graphplan
                 back: >
-                        Střídám fáze expanze grafu a extrakce plánu.
+                        Střídám fázi expanze grafu a extrakce plánu.
                         <br>
                         Expanze: expanduj plánovací graf dokud nemáš všechny
-                        cílové atomy kde žádná dvojice není mutex (nutná podmínka).
-                        Pokud fáze extrakce neuspěje, přidej další vrstvu.
-                        (Případně se zastav když je splněna nějaká podmínka,
+                        cílové atomy kde žádná dvojice není mutex (nutná
+                        podmínka).
+                        Pokud extrakce neuspěje, přidej další vrstvu.
+                        (Případně skonči když se splní nějaká podmínka,
                         třeba max. počet kroků.)
                         <br>
                         Extrakce: pokus se vybrat z grafu plán co vede co cíle.
         -
                 uuid: 9a9985e8-f156-48f6-9e36-fce5d1dcc1be
-                front: Jak poznám pevný bod plánovacího grafu a k čemu je?
+                front: Jak poznám pevný bod plánovacího grafu, k čemu je?
                 back: >
-                        Od pevného bodu nemusíme dál expandovat, stačí kopírovat.
+                        Od pevného bodu nemusíš dál expandovat, stačí kopírovat.
                         V pevném bodě přestanou růst dostupné atomy/akce, resp.
                         klesat mutexy atomů/akcí.
         -
                 uuid: c4f9f83a-0482-4812-8ce8-0789a7981bcc
-                front: Jak se provádí extrakce plánu? Instance čeho to je?
+                front: Jak provést extrakci plánu? Instance čeho to je?
                 back: >
                         Zpětně od poslední úrovně.
                         <br>
@@ -206,23 +210,23 @@ notes:
                 uuid: a8f24dea-4bcf-4916-a3a2-97571c18abfe
                 front: Co je a k čemu je nogood množina?
                 back: >
-                        Nogood množina: množina výroků co je jako celek nekompatibilní.
-                        Pro každou vrstvu si můžu pamatovat tabulku nesplnitelných
-                        cílů pro tuhle množinu.
+                        Nogood množina: množina výroků co je jako celek
+                        nekompatibilní. Pro každou vrstvu si pamatuj
+                        tabulku nesplnitelných cílů.
                         <br>
                         Zrychluje a zajišťuje konečnost.
         -
                 uuid: 345e41f0-c974-4196-ae28-d93db92bba03
-                front: Jak můžu zjistit, že neexistuje plán?
+                front: Jak zjistit, že neexistuje plán?
                 back: >
-                        Když jsem za fixpointem, přidám vrstvu, a v nové
-                        vrstvě bude po pokusu o extraci plánu stejně velká
-                        množina nogoodů.
+                        Když jsi za fixpointem, přidáš vrstvu a v nové
+                        vrstvě je po pokusu o extraci plánu stejně
+                        nogoodů.
         -
                 uuid: d4500262-276a-4827-be18-1cda09c4b05d
                 front: Trik na lepší správu paměti
                 back: >
-                        Nebudovat explicitně budovat vrstvy, jen pro každý
+                        Nebudovat explicitně vrstvy, jen pro každý
                         atom a akci uložit, kde byla poprvé (kvůli monotonii).
         -
                 uuid: 1524608d-e166-4a82-b431-6ef322242a6c
@@ -230,12 +234,12 @@ notes:
                 back: >
                         <ul>
                         <li>
-                        Nejdřív řeš atomy co mají menší počet "podpůrných akcí",
-                        nebo co se objevily nejpozději.
+                        První řeš atomy co mají málo "podpůrných akcí",
+                        nebo se objevily později.
                         <li>
                         Preferuj no-opy nebo akce, co se objevily nejdřív.
                         <li>
-                        Po výběru akce pro zbývající atomy kontrolujeme,
+                        Po výběru akce pro zbylé atomy kontroluj,
                         jestli pořád mají podporující akce
                         (kontrola dopředu).
                         </ul>

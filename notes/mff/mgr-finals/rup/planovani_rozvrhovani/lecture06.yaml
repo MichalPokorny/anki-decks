@@ -4,7 +4,8 @@ notes:
         -
                 uuid: bfc4332e-5d35-4f43-bda3-bd05086a909d
                 topic: Plánování jako SAT
-                front: Co je problém při kódování plánování do SAT/CSP? Jak se to vyřeší?
+                front: >
+                        Problém při kódování plánování do SAT/CSP, jeho řešení
                 back: >
                         SAT/CSP jsou statické. Budeme hledat jenom plány
                         do nějaké maximální délky.
@@ -30,7 +31,7 @@ notes:
         -
                 uuid: 80193da3-fdfe-4d45-abc6-2ce0486fdc70
                 topic: Plánování jako SAT
-                front: Frame axioms &mdash; dva způsoby
+                front: Frame axioms &mdash; 2 způsoby
                 back: >
                         <ul>*Klasické*: proměnné co nejsou efekty
                         se nemění [$](p\\not\\in \\mathrm{eff}^+(a))::
@@ -108,27 +109,28 @@ notes:
                 topic: Graphplan jako CSP
                 front: >
                         Kódování do CSP - přesné podmínky
+                markdown: false
                 back: >
                         <ul>
                         <li>
                         <i>Splnění podmínek</i>:
-                        [$]p_{4,m}=a \\longrightarrow p_{1,m-1}\\neq\\perp\\wedge
-                        p_{2,m-1}\\neq\\perp[/$]:
-                        [$]\\mathrm{precond}^{+}(a)=\\{p_1, p_2\\}[/$],
-                        [$]p_4\\in\\mathrm{eff}^{+}(a)[/$];
+                        [$]p_{4,m}=a \longrightarrow p_{1,m-1}\neq\perp\wedge
+                        p_{2,m-1}\neq\perp[/$]:
+                        [$]\mathrm{precond}^{+}(a)=\{p_1, p_2\}[/$],
+                        [$]p_4\in\mathrm{eff}^{+}(a)[/$];
                         přidám podmínku pro každý pozitivní efekt.
                         <li>
-                        <i>Mutex mezi atomy</i>: [$]p_{i,m}=\\perp\\vee p_{j,m}=\\perp[/$]
+                        <i>Mutex mezi atomy</i>: [$]p_{i,m}=\perp\vee p_{j,m}=\perp[/$]
                         <li>
                         <i>Mutex mezi akcemi</i>:
                         provaž pozitivní efekty:
-                        [$]p_{i,m}\\neq a\\vee p_{j,m}\\neq b[/$]
+                        [$]p_{i,m}\neq a\vee p_{j,m}\neq b[/$]
                         <li>
-                        <i>Cíl</i>: [$]p_{i,k}\\neq\\perp[/$] ([$]k[/$]
+                        <i>Cíl</i>: [$]p_{i,k}\neq\perp[/$] ([$]k[/$]
                         poslední vrstva).
                         <li>
-                        <i>Právě 1 akce na vrstvu</i>
-                        proměnným ve vstvě přiřazena maximálně a minimálně 1
+                        <i>Právě 1 akce na vrstvu</i>:
+                        v proměnných ve vstvě maximálně a minimálně 1
                         ne-noop akce
                         </ul>
         -

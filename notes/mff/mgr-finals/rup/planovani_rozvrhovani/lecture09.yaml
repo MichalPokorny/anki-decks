@@ -4,7 +4,7 @@ notes:
         # planovani lecture09
         -
                 uuid: 843cd56a-47ff-4481-8592-88550799a8fb
-                front: Jak můžeme zlepšit efektivitu plánovacích algoritmů?
+                front: Jak zlepšit efektivitu plánovacích algoritmů?
                 back: >
                         <ul>
                         <li><i>Heuristiky</i>: problémově závislí průvodci
@@ -21,12 +21,14 @@ notes:
                         řešilo deterministicky) a efektivně se počítaly.
         -
                 uuid: c7e7c30e-6fb2-45eb-a397-6e09d38bc968
-                front: Jak se dají stavět?
+                front: Jak je stavět?
                 back: >
                         Relaxací problému
         -
                 uuid: c45fe171-7df7-45f3-af3c-48905fb8ec39
-                front: Jak vypadají optimalizační heuristiky? Kdy jsou přípustné?
+                front: >
+                        Jak vypadají optimalizační heuristiky?
+                        Kdy jsou přípustné?
                 markdown: false
                 back: >
                         [$]h(u)[/$] odhaduje [$]h^*(u)[/$] (cenu nejlepšího
@@ -44,19 +46,19 @@ notes:
                         nezávisle na sobě.
         -
                 uuid: 70b80436-5f0f-477e-a31c-09d6821a4eb7
-                front: Heuristika [$]\\Delta_0[/$]
+                markdown: false
+                front: Heuristika [$]\Delta_0[/$]
                 back: >
                         <ul>
-                        <li>[$]p\\in S\\longrightarrow \\Delta_0(S,p)=0[/$]
-                        <li>[$]g\\subseteq S\\longrightarrow \\Delta_0(S,g)=0[/$]
-                        <li>[$](p\\notin S, \\nexists a\\in A: p\\in \\mathrm{eff}^+(a))
-                               \\longrightarrow \\Delta_0(S,p)=\\infty[/$]
-                        <li>[$]\\Delta_0(S,p)=\\min_a
-                               \\{1+\\Delta_0(S, \\mathrm{pre}(a)) :
-                                       p\\in\\mathrm{eff}^+(a)\\}[/$]
-                        <li>[$]\\Delta_0(S,g)=\\sum_{p\\in g}\\Delta_0(S,p)[/$]
+                        <li>[$]p\in S\longrightarrow \Delta_0(S,p)=0[/$]
+                        <li>[$]g\subseteq S\longrightarrow \Delta_0(S,g)=0[/$]
+                        <li>[$](p\notin S, \nexists a\in A: p\in \mathrm{eff}^+(a))
+                               \longrightarrow \Delta_0(S,p)=\infty[/$]
+                        <li>[$]\Delta_0(S,p)=\min_a
+                               \{1+\Delta_0(S, \mathrm{pre}(a)) :
+                                       p\in\mathrm{eff}^+(a)\}[/$]
+                        <li>[$]\Delta_0(S,g)=\sum_{p\in g}\Delta_0(S,p)[/$]
                         </ul>
-
                         Není přípustná &mdash; není dolní odhad délky plánu.
         -
                 uuid: 697e6738-7009-4bc5-9667-ccfa303f402d
@@ -69,22 +71,23 @@ notes:
                         Ale méně informovaná než [$]\\Delta_0[/$].
         -
                 uuid: e5ab2222-291a-4f40-aa6f-f1cac29c79c3
-                front: Heuristika [$]\\Delta_2[/$]
+                front: Heuristika [$]\Delta_2[/$]
+                markdown: false
                 back: >
                         Dosažitelnost dvojice atomů najednou:
                         <ul>
                         <li>
-                        [$$]\\Delta_2(S,p)=\\min_a \\{1+\\Delta_2(S, \\mathrm{pre}(a)) : p\\in\\mathrm{eff}^+(a)\\}[/$$]
+                        [$$]\Delta_2(S,p)=\min_a \{1+\Delta_2(S, \mathrm{pre}(a)) : p\in\mathrm{eff}^+(a)\}[/$$]
                         <li>
                         [$$]
-                        \\Delta_2(S,\\{p,q\\})= & 1 + \\min_a \\left{
-                          \\begin{cases}
-                            \\Delta_2(S, \\mathrm{pre}(a))             & \\{p,q\\}\\subseteq \\mathrm{eff}^+(a) \\
-                            \\Delta_2(S, \\{q\\}\\cup\\mathrm{pre}(a)) & p\\in\\mathrm{eff}^+(a) \\
-                            \\Delta_2(S, \\{p\\}\\cup\\mathrm{pre}(a)) & q\\in\\mathrm{eff}^+(a) \\
-                            \\infty & \\text{otherwise}
-                          \\end{cases}
-                        \\right}
+                        \Delta_2(S,\{p,q\})= 1 + \min_a \left\{
+                          \begin{cases}
+                            \Delta_2(S, \mathrm{pre}(a))          & \{p,q\}\subseteq \mathrm{eff}^+(a) \\
+                            \Delta_2(S, \{q\}\cup\mathrm{pre}(a)) & p\in\mathrm{eff}^+(a) \
+                            \Delta_2(S, \{p\}\cup\mathrm{pre}(a)) & q\in\mathrm{eff}^+(a) \
+                            \infty & \text{otherwise}
+                          \end{cases}
+                        \right\}
                         [/$$]
                         </ul>
                         Jde zobecnit, ale pro [$]k>2[/$] je složitost moc
@@ -121,21 +124,21 @@ notes:
         -
                 uuid: 4a5562d3-d9f0-4743-aa76-6b23a26bce7b
                 front: >
-                        Heuristika výběru způsobu opravy kazu v plánování
+                        Heuristika způsobu opravy kazu v plánování
                         s plány
                 back: >
-                        Podívej se na různé opravy kazu.
-                        <ul>
-                        <li> 1: preferuj plán co má míň otevřených cílů.
+                        Podívej se na opravy.
+                        <ol type="1">
+                        <li> Preferuj plán co má míň otevřených cílů.
                         To ale není korelované se složitostí, jak jich dosáhnout...
                         [$]\\eta_0(\\pi)=|g_\\pi|[/$]
-                        <li> 2: Vygenerujeme AND-OR graf pro [$]\\pi[/$]
+                        <li> Vygenerujeme AND-OR graf pro [$]\\pi[/$]
                         do dané hloubky a spočítáme počet nových akcí v grafu
                         a počet otevřených cílů, co nejsou v [$]s_0[/$]:
                         [$]\\eta_k(\\pi)[/$]. Hodně výpočetně náročné.
-                        <li> 3: Uděláme (stačí jednou) plánovací graf pro
+                        <li> Uděláme (stačí jednou) plánovací graf pro
                         původní cíl. Najdeme otevřený cíl [$]p[/$] v [$]\\pi[/$],
-                        co se přidal do grafu jako poslední, a na cestě
+                        co se přidal do grafu jako poslední, na cestě
                         [$]s_0\\rightarrow p[/$] spočítáme počet akcí,
                         co nejsou v [$]\\pi[/$]: [$]\\eta(\\pi)[/$]
                         </ul>
@@ -143,17 +146,17 @@ notes:
                 uuid: 3a7b6d4c-d3fb-48c4-b2e6-22eae5ac12de
                 topic: Simple temporal logic
                 front: >
-                        [$$]\\Phi_1\\cup \\Phi_2[/$$]
+                        [$]\\Phi_1\\cup \\Phi_2[/$]
                 back: >
                         <h3>Až do</h3>
                         [$]\\Phi_2[/$] platí teď nebo v některém příštím stavu,
-                        [$]\\Phi_1[/$] platí až do té doby
+                        [$]\\Phi_1[/$] platí do té doby
                 include_reverse: true
         -
                 uuid: 9ff0278d-caa7-444a-9ea1-7dbc84cffe26
                 topic: Simple temporal logic
                 front: >
-                        [$$]\\square\\Phi[/$]
+                        [$]\\square\\Phi[/$]
                 back: >
                         [$]\\Phi[/$] platí teď a v každém z příštích stavů
                 include_reverse: true
@@ -161,7 +164,7 @@ notes:
                 uuid: 890ed346-46f5-480a-819e-f8a5ac9d2398
                 topic: Simple temporal logic
                 front: >
-                        [$$]\\diamond\\Phi[/$]
+                        [$]\\diamond\\Phi[/$]
                 back: >
                         [$]\\Phi[/$] platí teď nebo v některém z příštích stavů
                 include_reverse: true
@@ -169,7 +172,7 @@ notes:
                 uuid: 14d626e6-0f0a-44dd-b618-5649552b0be5
                 topic: Simple temporal logic
                 front: >
-                        [$$]\\circ\\Phi[/$$]
+                        [$]\\circ\\Phi[/$]
                 back: >
                         [$]\\Phi[/$] platí v následujícím stavu
                 include_reverse: true
@@ -177,7 +180,7 @@ notes:
                 uuid: 1b8d424f-ae8b-4bb8-9e59-8ec97517930f
                 topic: Simple temporal logic
                 front: >
-                        [$$]\\mathrm{GOAL}(\\Phi)[/$$]
+                        [$]\\mathrm{GOAL}(\\Phi)[/$]
                 back: >
                         [$]\\Phi[/$] (která nesmí mít modální operátory) platí v cílovém stavu
                 include_reverse: true
@@ -186,14 +189,15 @@ notes:
                 topic: Simple temporal logic
                 front: Jak interpretujeme formule?
                 back: >
-                        [$](S,s_i,g)[/$]: [$]S[/$] je nekonečná posloupnost
-                        stavů, [$]s_i\\in S[/$] je aktuální stav,
+                        [$] (S,s_i,g)[/$]: [$]S[/$] nekonečná posloupnost
+                        stavů, [$]s_i\\in S[/$] aktuální stav,
                         [$]g[/$] je cílová formule.
                         <br><br>
-                        [$](S,s_i,g)\\models\\varphi[/$] definujeme rekurzivně.
+                        [$] (S,s_i,g)\\models\\varphi[/$] definujeme
+                        rekurzivně.
         -
                 uuid: af06ce6a-5276-4437-ba27-90778adf38d1
-                front: Jak můžu postavit řídící pravidlo pro svět kostek
+                front: Jak postavit řídící pravidlo pro svět kostek
                 back: >
                         [$]goodtower[/$] pro kostku, když pod ní všechno
                         je tak, jak má být podle zadání,
@@ -207,13 +211,13 @@ notes:
                 topic: Simple temporal logic
                 front: Jak uděláme progress o jeden stav dál?
                 back: >
-                        Rekurzivně; díky closed world assumption
-                        progresi [$]\a, \e[/$] děláme vyjmenováním do spojek.
-                        Vyjmenujeme, jak se dělají progrese modálních operátorů.
+                        Rekurzivně; progrese [$]\a, \e[/$]:
+                        vyjmenování (closed world assumption).
+                        Vyjmenujeme, jak progresovat modální operátory.
         -
                 uuid: 3aeeaaed-0078-431b-84f5-ba5a4c72c0e7
-                front: Ŕízené plánování
+                front: Řízené plánování
                 back: >
-                        Postupně přes progress upravujeme řídící formuli
-                        pro další stavy. Dokud hlásí neúspěch, víme,
-                        že neexistuje tím směrem plán, co by splnil pravidlo.
+                        Postupně progressem upravuj řídící formuli
+                        pro další stavy. Pokud hlásí neúspěch,
+                        neexistuje tam plán, co by splnil pravidlo.

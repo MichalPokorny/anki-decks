@@ -2,51 +2,66 @@ deck: All::Magisterské státnice::Neuronové sítě::Přednáška 7 (BAM a Hopf
 notes:
         # 07-bam-hopfield
         -
-                uuid: 65863075-3e56-41dc-a24b-1a1d2e7492ba
-                front: >
-                        BAM: Co to je? Jak to vypadá?
+                uuid: 260041fa-a8c7-4bb6-afc2-6c9d028cdb89
+                topic: BAM
+                front: Zkratka
                 back: >
-                        Bidirectional associative memory.<br>
+                        Bidirectional associative memory
+        -
+                uuid: 65863075-3e56-41dc-a24b-1a1d2e7492ba
+                topic: BAM
+                front: >
+                        Co to je? Jak to vypadá?
+                back: >
                         Synchronní asociativní model, synapse jsou obousměrné.<br>
-                        Je to typ rekurentní asociativní paměti.<br>
+                        Rekurentní asociativní paměť.<br>
                         Snaží se dosáhnout stabilního stavu.<br>
                         Aktivační funkce [$]\\sgn[/$], bipolární kódování.
         -
                 uuid: 957d2bad-5577-4979-b1a3-cf31aac81c16
+                topic: BAM
                 front: >
-                        BAM: jak se dá rovnicemi vyjádřit stabilní stav?
+                        Jak rovnicemi vyjádřit stabilní stav?
                 back: >
-                        [$]y=\\sgn(xW) \\wedge x=\\sgn(Wy)[/$], snaží se najít po konečném množství iterací
+                        [$]y=\\sgn(xW) \\wedge x=\\sgn(Wy)[/$],
+                        snaží se najít po konečném množství iterací
         -
                 uuid: dc4ecdf7-3448-4d47-8ffb-248a0df135d4
-                front: Jak se učí BAMy? Co to znamená na jednom vzoru?
+                topic: BAM
+                front: Jak se učí? Co to znamená na jednom vzoru?
                 back: >
                         Hebbovským učením.
 
-                        Pro jeden vzor: [$]W_{(i)}=y_{(i)} x_{(i)}^T[/$], takže [$]y_{(i)}=\\sgn(Wx_{(i)})=\\sgn(y_{(i)} x_{(i)}^T x_{(i)}) = \\sgn(\\|x_{(i)}\\|^2 y_{(i)})=y_{(i)}[/$],
+                        Pro jeden vzor:
+                        [$]W_{(i)}=y_{(i)} x_{(i)}^T[/$], takže [$]y_{(i)}=\\sgn(Wx_{(i)})=\\sgn(y_{(i)} x_{(i)}^T x_{(i)}) = \\sgn(\\|x_{(i)}\\|^2 y_{(i)})=y_{(i)}[/$],
                         to samé pro [$]x_{(i)}[/$].
         -
                 uuid: 82cf4129-ca2e-4a32-888c-3e5743f707ef
-                front: Jak vypadá energetická funkce BAM bez prahů?
+                topic: BAM
+                front: Energetická funkce bez prahů
                 back: >
-                        [$$]E:=-x_0 W y_0^T[/$$]
+                        [$]E\\equiv -x_0 W y_0^T[/$]
         -
                 uuid: be56641a-04d0-4f75-b00e-7a343e9a79dd
-                front: Kdy by [$] (x_0,y_0)[/$] byl stabilní stav BAM? Jak se z toho odvodí energetická funkce BAMu?
+                topic: BAM
+                front: >
+                        Kdy by byl stav [$] (x_0,y_0)[/$] stabilní?
+                        Jak z toho odvodit energetickou funkci?
                 back: >
                         [$$]e^T:=W\cdot y_0[/$$]<br>
 
                         [$] (x_0,y_0)[/$] je stabilni stav, kdyz [$]\\sgn(e)=x_0[/$]
                         (skalarni soucin [$]x_0 \\cdot e^T[/$] by mel byt vetsi nez skalarni soucin jinych excitacnich vektoru a [$]x_0[/$])<br>
 
-                        Energeticka funkce BAM: [$]E:=-x_0 W y_0^T[/$].<br>
+                        Energeticka funkce: [$]E:=-x_0 W y_0^T[/$].<br>
                         Když [$]Wy_0[/$] je blíž k [$]x_0[/$], tak tenhle krok ji zmenší.<br>
                         Lokální minima odpovídají stabilním stavům.
         -
                 uuid: f1216920-8f6e-4dc5-a34e-1e0911a9a5fb
-                front: Zobecnění energetické funkce BAM pro neurony, kde přidáme práh
+                topic: BAM
+                front: Zobecnění energetické funkce, když přidáme práh
                 back: >
-                        Vektory [$]x[/$] transformujeme tak že přidáme jedničku na konec.
+                        Vektory [$]x[/$] transformujeme: přidáme 1 na konec.
                         Jako bychom přidali do obou vrstev neuron s výstupem 1.
 
                         [$]E(x_i,y_i) = -\\frac{1}{2}x_i W y_i^T + \\frac{1}{2}\\theta_r y_i^T + \\frac{1}{2}x_i \\theta_l^T[/$]
@@ -64,14 +79,16 @@ notes:
                 uuid: 29887485-c696-4ff1-a7f6-990fa86294c5
                 front: Hopfieldova síť
                 back: >
-                        Bipolární neurony se skokovou přenosovou funkcí, propojené všechny se všemi.
-                        Používá se na učení bez učitele a optimalizaci. Neodděluje vstupní a výstupní neurony.
+                        Bipolární neurony se skokovou přenosovou funkcí,
+                        propojené všechny se všemi.
+                        Na učení bez učitele, optimalizaci.
+                        Neodděluje vstupní a výstupní neurony.
         -
                 uuid: 85cd9e4d-f569-4759-8632-3d89d8709ccb
                 front: Učení Hopfieldových sítí
                 back: >
-                        [$$]w_{ij} = \\sum_{s=1}^m x_{i}^{(s)} x_j^{(s)}
-                        [/$$]
+                        [$]w_{ij} = \\sum_{s=1}^m x_{i}^{(s)} x_j^{(s)}
+                        [/$]
                         Když [$]i=j[/$], tak je to 0.
         -
                 uuid: 2fe35573-4e3d-491a-94ae-91aef75a21cc
@@ -165,13 +182,15 @@ notes:
         -
                 uuid: cef46a63-90a4-493f-8e4b-6528d633f564
                 topic: Zespojitěné Hopfieldovy sítě
-                front: Jak se počítá aktivace neuronu z excitace?
+                front: >
+                        Vzorec: Aktivace neuronu podle excitace
                 back: >
                         [$]x_i = \\sigma(u_i)[/$]
         -
                 uuid: cbd26dea-0d20-44b5-9a73-4983d8a7c9dd
                 topic: Zespojitěné Hopfielovy sítě
-                front: Jak se značí excitace?
+                front: >
+                        Značení: Excitace
                 back: >
                         [$]u_i[/$]
         -
@@ -192,7 +211,7 @@ notes:
                 topic: Zespojitěné Hopfielovy sítě
                 front: Energetická funkce spojitého modelu Hopfieldovy sítě
                 back: >
-                        [$$]E = -\\frac{1}{2}\\sum_{i=1}^n \\sum_{j=1}^n w_{ij} x_i x_j + \\sum_{i=1}^n \\int_{0}^{x_i} s^{-1}(x) dx[/$$]
+                        [$]E = -\\frac{1}{2}\\sum_{i=1}^n \\sum_{j=1}^n w_{ij} x_i x_j + \\sum_{i=1}^n \\int_{0}^{x_i} s^{-1}(x) dx[/$]
         -
                 uuid: d7e6e3cc-da15-4d8f-8c0b-f362e006f319
                 topic: Zespojitěné Hopfielovy sítě
@@ -217,7 +236,9 @@ notes:
                 front: Simulované žíhání
                 back: >
                         Pokud změna sníží energii, proveď ji.
-                        Pokud ji zvýší o [$]\\Delta E[/$], přijmi s [$]p=\\frac{1}{1+\\exp(\\Delta E/T)}[/$] kde [$]T[/$] je teplotni konstanta.
+                        Pokud ji zvýší o [$]\\Delta E[/$], přijmi s
+                        [$]p=\\frac{1}{1+\\exp(\\Delta E/T)}[/$] kde [$]T[/$]
+                        je teplotni konstanta.
                         Pro velké [$]T[/$] je [$]p\\approx 1/2[/$].
         -
                 uuid: a1609cff-c797-49be-b60e-c4ad967dd11d

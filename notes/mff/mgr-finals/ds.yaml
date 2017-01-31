@@ -10,7 +10,7 @@ notes:
                 uuid: caf785f4-dcf0-400e-9c72-dd0f8b5b5ba5
                 front: >
                         Na jaké vlastnosti záleží doba vyhledávání ve
-                        vyhl. stromu? Jak se to optimalizuje?
+                        vyhl. stromu? Jak to optimalizujeme?
                 back: >
                         Na hloubce vrcholů.
                         <ul>
@@ -44,7 +44,7 @@ notes:
                         <ol type="1">
                         <li> Najdi vrchol *v*, pod který patří nový list.
                         <li> Má-li *v* míň než [$]b[/$] synů, přidej pod něj.
-                        <li> Má-li *v* [$]b[/$] synů, rozštěp ho na dva, co má
+                        <li> Má-li *v* [$]b[/$] synů, rozštěp ho na 2, co má
                         každý [$] (b+1)/2 [/$] synů. Rekurzivně vlož do otce.
                         </ol>
         -
@@ -85,9 +85,9 @@ notes:
                 front: >
                         [$] (a,b)[/$]-strom &mdash; Split
                 back: >
-                        Rozdělí strom na dva, jeden s klíči [$]<k[/$], druhý [$]\\geq k[/$].<br>
+                        Rozdělí strom na 2, jeden s klíči [$]<k[/$], druhý [$]\\geq k[/$].<br>
 
-                        Máme dva zásobníky: jeden pro levé stromy, druhý pro
+                        Máme 2 zásobníky: jeden pro levé stromy, druhý pro
                         pravé.<br>
                         Postupuj jako při Find, rozděluj přitom na [$]T_L[/$],
                         [$]T_k[/$], [$]T_P[/$].<br>
@@ -139,11 +139,11 @@ notes:
                 front: Red-black trees &mdash; ekvivalence s [$] (a,b) [/$]
                 back: >
                         Ekvivalentní [$] (2,4) [/$]-stromům.
-                        Jsou tři možnosti:
+                        3 možnosti:
                         <ul>
-                        <li> Vrchol je červený a má dva černé syny
-                        <li> Černý a má dva červené syny
-                        <li> Černý a má jednoho červeného syna.
+                        <li> Vrchol je červený, má 2 černé syny
+                        <li> Černý, má 2 červené syny
+                        <li> Černý, má 1 červeného syna.
                         </ul>
                         To jsou gadgety na 4, 2, 3 syny.
         -
@@ -393,7 +393,7 @@ notes:
                 front: Algoritmus Insert
                 back: >
                         Přidej nový strom velikosti 1,
-                        postupně slívej dokud existují dva stromy stejné
+                        postupně slívej dokud existují 2 stromy stejné
                         velikosti.
                         Aktualizuj ukazatel na strom s minimem.
         -
@@ -601,7 +601,7 @@ notes:
         -
                 uuid: 375fb09c-1fd8-4f9c-9fd4-e2af45d3c60a
                 topic: Hashování
-                front: Srůstající řetězce (a dva podzpůsoby)
+                front: Srůstající řetězce (a 2 podzpůsoby)
                 back: >
                         Každý kyblík má jeden prvek a
                         volitelně ukazatel, který tvoří jednosměrný
@@ -643,7 +643,7 @@ notes:
         -
                 uuid: 5fefc52d-1b67-4396-8cdf-5789671300b5
                 topic: Hashování
-                front: Jak se dělá Delete?
+                front: Jak dělat Delete?
                 back: >
                         Je problematický.<br>
                         Trik: označit smazané prvky a při Insert
@@ -723,7 +723,7 @@ notes:
                 topic: Hashování
                 front: >
                         Očekávané maximální zaplnění koše při balls & bins,
-                        když zvolím náhodně dva koše a přidám do
+                        když zvolím náhodně 2 koše a přidám do
                         prázdnějšího
                 back: >
                         [$]\\mathcal{O}(\\log\\log n)[/$]
@@ -732,7 +732,7 @@ notes:
                 topic: Kukaččí hashování
                 front: Jak funguje?
                 back: >
-                        Mám 2 hashovací funkce,
+                        2 hashovací funkce,
                         [$]x[/$] je buď v [$]h_1(x)[/$], nebo [$]h_2(x)[/$].
                         <br>
                         Insert:
@@ -922,7 +922,7 @@ notes:
                         Věta: když [$]\\overline{x}\\neq\\overline{y}[/$] stejné délky,
                         tak [$]P_a[h_a(\\overline{x})=h_a(\\overline{y})]\\leq d/p[/$].
                         <br>
-                        Důkaz: dva různé polynomy stupně [$]\\leq d-1[/$] se mohou shodovat
+                        Důkaz: 2 různé polynomy stupně [$]\\leq d-1[/$] se mohou shodovat
                         nejvýše v [$]d[/$] bodech.
         -
                 uuid: c9a1a95c-fc5b-400d-ba9b-0a6295cda04c

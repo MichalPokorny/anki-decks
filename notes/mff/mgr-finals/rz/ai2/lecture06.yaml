@@ -129,7 +129,7 @@ notes:
         -
                 uuid: e9c2ac0d-8329-479f-a6a4-e4a094544786
                 topic: POMDP
-                front: Jak se dají reprezentovat neznámé stavy a konceptuálně hledat správné akce?
+                front: Jak reprezentovat neznámé stavy a konceptuálně hledat správné akce?
                 back: >
                         Neznámý stav aproximujeme jako belief stav &mdash; vektor
                         pravděpodobností, že jsem v nějakém stavu.
@@ -184,7 +184,7 @@ notes:
                         techniky.
         -
                 uuid: bda74237-4b43-4525-92c3-169fb6270876
-                front: Jak se podobá řešení POMDP hraní her?
+                front: Podobnost řešení POMDP a hraní her
                 back: >
                         Nejistota je jako protihráč. Můžeme použít
                         něco jako EXPECTEDMINIMAX.

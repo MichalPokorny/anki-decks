@@ -63,18 +63,18 @@ notes:
         -
                 uuid: bd7b1a12-8410-49f3-9f1b-b9c21917059b
                 topic: Plánování v prostoru plánů
-                front: Hrozba - co to je, jak ji vyřešit
+                front: Hrozba - definice, řešení
                 back: >
-                        Hrozba je akce, co může porušit kauzální vazbu:
-                        [$]a_i\\rightarrow^p a_j[/$] je vazba
-                        a akce [$]b[/$] je unifikovatelná s negací [$]p[/$]
+                        Akce, co může porušit kauzální vazbu:
+                        [$]a_i\\rightarrow^p a_j[/$] je vazba,
+                        akce [$]b[/$] je unifikovatelná s negací [$]p[/$]
                         a může být v [$]<[/$] mezi [$]a_i[/$] a [$]a_j[/$].
                         <br>
-                        Tři možné způsoby:
+                        Řešení:
                         <ul>
                         <li>[$]b<a_i[/$]
                         <li>[$]b>a_j[/$]
-                        <li>Navázání proměnných v [$]b[/$], aby nerušily platnost [$]p[/$]
+                        <li>Navázání proměnných [$]b[/$], aby nerušily [$]p[/$]
                         </ul>
         -
                 uuid: cbd24fa0-e675-4896-aeba-602d3c411f84

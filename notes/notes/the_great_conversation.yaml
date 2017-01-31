@@ -192,7 +192,7 @@ notes:
                 back: 4th century BC
         -
                 uuid: f6389149-0c51-4a24-97d5-b010dc8004a3
-                front: Homer's two great poems
+                front: Homer's 2 great poems
                 back: The Iliad, The Odyssey
         -
                 uuid: 1c7915b8-6245-46c8-a2be-5e29f49f28ec
@@ -301,15 +301,17 @@ notes:
                 uuid: a741eb32-9f23-4d00-b29f-b96693c5905a
                 topic: Trojská válka
                 front: >
-                        name: Achilles's best friend
+                        Name: Achilles's best friend
                 back: Patroclus
         -
                 uuid: 07c0e2d0-e670-45a6-9332-7e95657e35d8
                 topic: Trojská válka
-                front: Co udělal Achilles, když Patroclus po něm žádal, aby šel dál bojovat?
+                front: >
+                        Co udělal Achilles, když Patroclus po něm žádal,
+                        aby šel dál bojovat?
                 back: >
-                        Dovolil, aby Patroclus vzal na sebe jeho brnění a bojoval
-                        za něj.
+                        Dovolil, aby Patroclus vzal na sebe jeho brnění
+                        a bojoval za něj.
         -
                 uuid: 4b3beca8-a5e1-45c7-87a2-4778d6ac4480
                 topic: Trojská válka
@@ -334,7 +336,9 @@ notes:
         -
                 uuid: f1515bf9-0de3-47f0-8f35-e28e402b2158
                 topic: Trojská válka
-                front: Co se stalo potom co Achilles přitáhl Hektorovu mrtvolu do tábora?
+                front: >
+                        Co se stalo když Achilles přitáhl Hektorovu mrtvolu
+                        do tábora?
                 back: >
                         V noci přišel král Priam aby žádal Achilla o tělo.
                         S Achillem si pobrečeli za Hektora a Patrokla
@@ -371,7 +375,10 @@ notes:
         -
                 uuid: 34c1f2fa-7df8-48e0-8208-71387b442a88
                 front: Hefaistos
-                back: god of blacksmiths, craftsmen, artisans, sculptors, metals, metallurgy, fire and volcanoes
+                back: >
+                        God of blacksmiths, craftsmen, artisans, sculptors,
+                        metals, metallurgy, fire and volcanoes
+                include_reverse: true
         -
                 uuid: f3600e65-4404-4aeb-8ea5-d584620d321a
                 front: Heaven in Greek
@@ -381,9 +388,11 @@ notes:
         -
                 uuid: 0434b35c-f0bd-4619-a820-328baf2c0b4f
                 front: >
-                        Pre-socratics: what characterized them? Do we have their writing?
+                        Pre-socratics: what characterized them?
+                        Do we have their writing?
                 back: >
-                        Nature philosopher/protoscientists; they wrote books, but they're mostly lost
+                        Nature philosopher/protoscientists; they wrote books,
+                        but they're mostly lost
         -
                 uuid: daabc90d-fe5a-4421-bdff-efbada955607
                 topic: Anaximenes
@@ -446,13 +455,17 @@ notes:
                 uuid: 3a122a1c-e89f-43c1-a8a4-e2cd7ee7d431
                 front: Anaximander's ideas
                 back: >
-                        The One as the Boundless. The cause of everything
-                        (since everything has to have a cause). The "divine"/infinite.
+                        The One as the Boundless. Cause of everything
+                        (since everything has to have a cause).
+                        The "divine"/infinite.
         -
                 uuid: 9db3267d-0bf0-4f51-a65e-9ad844dbf01d
-                front: What kind of religious thinking does Anaximander represent?
+                front: >
+                        What kind of religious thinking does
+                        Anaximander represent?
                 back: >
-                        Reinterpreting gods with a wide justification ("the cause of all causes")
+                        Reinterpreting gods with wide justification
+                        ("cause of all causes")
         -
                 uuid: b87327f3-b95c-45dd-a433-87f0cc81a294
                 front: Greeks's problem with Thales's idea "everything is water"
@@ -461,7 +474,8 @@ notes:
                         (e.g., how is something dry and something wet?)
         -
                 uuid: 7ccddca0-7edd-4096-a175-47b1ab023f70
-                front: Source of all things according to Anaximander
+                topic: Anaximander
+                front: Source of all things
                 back: >
                         The One and the Boundless
                 include_reverse: true
@@ -473,15 +487,17 @@ notes:
         -
                 uuid: e3a9566c-2594-4b8c-9426-2357c30d1c3f
                 front: >
-                        *Everything is The One/the Boundless* - who thought that?
+                        *Everything is The One/the Boundless* -
+                        who thought that?
                 back: Anaximander
         -
                 uuid: 8f0b0cdc-2f4d-4304-88c9-02e955959550
-                front: Anaximander's explanation of differentiation of the One
+                topic: Anaximander
+                front: Explanation of differentiation of the One
                 back: >
                         The One is undifferentiated, chaotic.
                         <br>
-                        Take a big pan and put in water, stones, sand, etc.
+                        Take a big pan, put in water, stones, sand, etc.
                         <br>
                         Swirl it around.
                         <br>
@@ -495,15 +511,19 @@ notes:
                 uuid: 34c83b80-9776-4e22-b9ad-caaeb5f6df72
                 topic: Anaximander
                 front: Order of elements by weight
-                back: Fire (lightest and hot), air, water, earth (heaviest and cold)
+                back: >
+                        Fire (lightest and hot), air, water,
+                        earth (heaviest and cold)
         -
                 uuid: d4a1f8f6-c733-491f-b2fe-444b8aa80503
                 topic: Anaximander
                 front: >
-                        Explain: existing things make reparation to one another for their injustice according to the ordinance of time
+                        Explain:
+                        existing things make reparation to one another for
+                        their injustice according to the ordinance of time
                 back: >
-                        Anaximander předpokládá balanci, která musí být navrácena,
-                        ať převážil kterýkoli element.
+                        Anaximander předpokládá balanci, která musí být
+                        navrácena, ať převážil kterýkoli element.
                         Je to extenze Homerova vidění (který vykresloval balanci
                         emocí - hněv, pýcha vedou k boží odplatě).
                         Tento princip podle Anaximandra platí i všude ve světě,
@@ -516,12 +536,13 @@ notes:
                 topic: Xenophanes
                 front: Main difference from Anaximander
                 back: >
-                        Xenophanes explicitly noticed that his results are at
-                        odds with tradition. (Anaximander didn't point this out.)
+                        Explicitly noticed his results are at
+                        odds with tradition.
+                        (Anaximander didn't point it out.)
         -
                 uuid: e27d61fa-2dc4-4c20-8ef6-27b202d07526
                 topic: Xenophanes
-                front: Two points of critique of gods
+                front: 2 points of critique of gods
                 back: >
                         Gods (of Hesiod/Homer) are unworthy of admiration.
                         They decept, steal, sleep with each others' wives, etc.
@@ -1735,7 +1756,7 @@ notes:
         -
                 uuid: 14c153c2-953d-4267-934d-3c7fae087646
                 topic: Socrates
-                front: What kind of knowledge does Socrates mean to be human excellence?
+                front: The kind of knowledge that is human excellence
                 back: >
                         Knowledge of *what* to do and *how* to do it
                         *Techne* &mdash; a kind of applied knowledge (competent
@@ -1814,7 +1835,7 @@ notes:
         -
                 uuid: 3a906409-6b91-4cab-a4e3-a481cf4bf6cb
                 topic: Socrates
-                front: Why, in Socrates's mind, is nobody wiser than him?
+                front: Why is nobody wiser than him?
                 back: >
                         He tried to find someone wiser than him.
                         People think they are wise, but are not.
@@ -2217,7 +2238,7 @@ notes:
         -
                 uuid: 1a96fc22-7c22-48fb-9b69-9369498cec99
                 topic: Plato
-                front: Why should the form of the Good be the highest Principle?
+                front: Why is the form of the Good the highest Principle?
                 back: >
                         Satisfying explanations should mention "good" somehow.
                         <br><br>
@@ -2373,14 +2394,17 @@ notes:
         -
                 uuid: d097a444-a003-4e0d-87d1-296197681d7b
                 topic: Plato
-                front: What does it mean to adopt the Self-interest Theory of Rationality?
+                front: >
+                        What does it mean to adopt the Self-interest Theory
+                        of Rationality?
                 back: >
                         An action can be rational only if it is in your
                         long-term interest.
         -
                 uuid: e2f3f0b7-7920-4e14-a84e-0c19db27cddf
                 topic: Plato
-                front: Why should we be just?
+                front: >
+                        Why should we be just?
                 back: >
                         It's in our long-term self-interest (as the
                         only way to be happy), and valuable for itself.
@@ -2456,7 +2480,8 @@ notes:
         -
                 uuid: 28b14087-7b31-40c2-9f48-7d19d1a3391f
                 topic: Plato
-                front: Who should govern in Plato's ideal state?
+                front: >
+                        Who governs in the ideal state?
                 back: >
                         Philosophers should rule as kings.
                         Political power should coincide with philosophy.
@@ -2482,7 +2507,9 @@ notes:
         -
                 uuid: 9a46bf5b-c3e8-4ac8-8d0b-08a89da2f0f4
                 topic: Plato
-                front: What should the ideal state do with the many who can't know?
+                front: >
+                        What should the ideal state do with the many who
+                        can't know?
                 back: >
                         Good beliefs are as good (in practice) as knowledge.
                         <br><br>
@@ -2533,7 +2560,8 @@ notes:
         -
                 uuid: 48d471bb-a54a-4bbd-8c66-96ccd272db3d
                 topic: Aristotle
-                front: How long did Aristotle stay in Athens?
+                front: >
+                        Duration: Aristotle stays in Athens
                 back: 20 years
         -
                 uuid: 772b0ef8-e35b-4a87-a0ae-fa935eb808b3
@@ -2593,7 +2621,8 @@ notes:
                         creatures.
         -
                 uuid: d8e80bb9-f130-4c07-929f-611b79af40ce
-                front: What did Plato blame for killing Socrates?
+                topic: Plato
+                front: What did he blame for killing Socrates?
                 back: >
                         Relativism and skepticism
         -
@@ -2621,11 +2650,13 @@ notes:
                         Aristotle is a fox, Plato is a hedgehog
         -
                 uuid: 01b0a129-8772-4bdb-ba68-a07c701221e7
-                front: Aristotle's agreement with Plato on knowledge?
+                topic: Aristotle
+                front: Agreement with Plato on knowledge
                 back: Must be certain and enduring, so about forms
         -
                 uuid: 906734f7-2198-475f-83b9-0ce919f06e4c
-                front: Which comedist made fun of Sophists and Socrates?
+                front: >
+                        Name: Comedist parodying Sophists, Socrates
                 back: Aristophanes
         -
                 uuid: 36a3fe13-b836-420f-a8e9-3aab8830d295
@@ -2718,18 +2749,23 @@ notes:
                 uuid: bd8b9c74-a5b4-43e4-a3d3-e1e81ef5bb7b
                 front: Correspondence theory of truth
                 back: >
-                        A statement is true just when it "corresponds" to the reality it is about.
+                        A statement is true just when it "corresponds" to the
+                        reality it is about.
                         (Also: classical view of truth.)
                         Claimed by Aristotle.
         -
                 uuid: ea476556-7c9f-4c70-a4c6-10b9d11fc311
                 topic: Aristotle
-                front: What do we call good reasons that support a claim of someone wise?
+                front: >
+                        What do we call good reasons that support a claim of
+                        someone wise?
                 back: Giving a reason is giving an *argument*
         -
                 uuid: b908d03d-02f9-4d86-9ebc-5bac014d2435
                 topic: Aristotle
-                front: Why do we need a formal theory of logic to determine the veracity of arguments?
+                front: >
+                        Why do we need a formal theory of logic to determine
+                        veracity of arguments?
                 back: Persuasiveness is not enough, as Sophists have shown
         -
                 uuid: db50e90e-5e7b-432c-ad51-af674bab0feb
@@ -2782,7 +2818,9 @@ notes:
         -
                 uuid: 017ce1f1-8308-496a-a1f7-28f473b44d65
                 topic: Aristotle
-                front: Which term in the syllogism is the *middle one*? (by Aristotle's nomenclature)
+                front: >
+                        Which term in the syllogism is the *middle one*?
+                        (by Aristotle's nomenclature)
                 back: >
                         The last one (the derived one)
         -
@@ -2822,7 +2860,7 @@ notes:
         -
                 uuid: d94138e2-bf93-4f71-a982-95356e46d130
                 topic: Aristotle
-                front: Which kind of reasoning doesn't Aristotle handle?
+                front: Kind of reasoning Aristotle doesn't handle
                 back: Induction, and others
         -
                 uuid: 3e00a4c9-b11c-421f-b01b-e09bd5dc04a9
@@ -2857,7 +2895,8 @@ notes:
         -
                 uuid: 8db3fdf9-43e7-42d5-819e-28463cfd9827
                 topic: Aristotle
-                front: How does experience come about? What comes from it?
+                front: >
+                        How does experience come about? What comes from it?
                 back: >
                         From traces of what animals/people perceive in numerous
                         encounters with environment. From experience
@@ -2907,7 +2946,8 @@ notes:
                 back: Mind (too broad), intuition (too vague)
         -
                 uuid: 48d15d6d-44ab-417a-995a-6c3d1f195954
-                front: What is *nous*?
+                front: >
+                        What is *nous*?
                 back: >
                         Our ability to grasp first principles by abstracting
                         the essential from many particular instances present
@@ -2926,7 +2966,9 @@ notes:
         -
                 uuid: 1814ea5f-c368-4639-981d-b84f386dba46
                 topic: Aristotle
-                front: Where is intelligibility? How does it relate to the world?
+                front: >
+                        Where is intelligibility?
+                        How does it relate to the world?
                 back: >
                         Within things that make up our world. The world is not
                         a chaotic flux from which we must flee to find knowledge.
@@ -2937,7 +2979,9 @@ notes:
         -
                 uuid: f78f4a9f-7077-4562-a833-30a5896be873
                 topic: Aristotle
-                front: What does he mean by "nature"? How is it distinguished from "non-nature"?
+                front: >
+                        What does he mean by "nature"?
+                        How is it distinguished from "non-nature"?
                 back: >
                         Things that exist by nature - animals, plants,
                         earth, fire, water, ...
@@ -2952,18 +2996,23 @@ notes:
         -
                 uuid: d5a020ba-7159-41a6-8d8e-036aac86a30a
                 topic: Aristotle
-                front: What is the locus of change?
+                front: Locus of change
                 back: Nature
         -
                 uuid: ef7298ca-ceb5-4232-812f-da7cd7738900
                 topic: Aristotle
-                front: What are subjects of change?
+                front: Subjects of change
                 back: Primary substances in nature
         -
                 uuid: a4e548e0-5eef-49f0-a4dc-8943c047a2e4
                 topic: Aristotle
                 front: What kinds of changes do primary substances undergo?
-                back: (1) Come to being and pass away, (2) while in existence, vary in quality, quantity, place etc.
+                back: >
+                        <ol type="1">
+                        <li> Come to being and pass away
+                        <li> while in existence, vary in quality, quantity,
+                             place etc.
+                        </ol>
         -
                 uuid: fba625ec-e21d-4f79-a913-7d1698691ecc
                 topic: Aristotle
@@ -3041,13 +3090,13 @@ notes:
         -
                 uuid: 510e8dd5-d4b4-433d-af45-d4e8564b7caa
                 front: >
-                        What does *telos* mean?
+                        Meaning: *telos*
                 back: End or goal.
         -
                 uuid: 330bda63-f6be-44bc-95ba-800a3d2b10d0
                 topic: Aristotle
                 front: >
-                        What does *entelechy* mean?
+                        Meaning: *entelechy*
                 back: >
                         Indwelling of an object's goal.
                         A toad's egg has the goal of becoming a toad in it.
@@ -3064,7 +3113,9 @@ notes:
         -
                 uuid: 8bbf8ac1-436e-4210-83b5-95a7776127c3
                 topic: Aristotle
-                front: Which new concepts did Aristotle introduce to explain forms guiding the natural world?
+                front: >
+                        New concepts Aristotle introduced to explain forms
+                        guiding the natural world
                 back: >
                         The four causes, actuality and potentiality.
         -
@@ -3132,7 +3183,7 @@ notes:
         -
                 uuid: bb924064-4e20-4fd0-ac4b-b2d6b9c33a70
                 topic: Aristotle
-                front: What criteria for *being* don't Plato's Forms satisfy?
+                front: Criteria for *being* that Plato's Forms don't satisfy
                 back: >
                         Fundamental things that exist are *individual* and
                         exist *independently* of other things.
@@ -3197,7 +3248,9 @@ notes:
         -
                 uuid: 3c9ad82e-b205-4584-8df5-b76daa9adbcd
                 topic: Aristotle
-                front: What would be the interesting substance/form possibility, the most divine knowledge?
+                front: >
+                        The interesting substance/form possibility,
+                        the most divine knowledge
                 back: >
                         Substances that are *pure forms*, not compounds of form
                         and matter. Most divine knowledge would be knowledge of
@@ -3224,7 +3277,7 @@ notes:
         -
                 uuid: 410e0fc6-d84c-4dc9-bc77-1836e9e11226
                 topic: Aristotle
-                front: Which natural substances are closest to ideals?
+                front: Natural substances closest to ideals
                 back: Celestial bodies (moving eternally in great circles)
         -
                 uuid: 6f3dacc7-0a30-4d50-a50f-77c647b6b173
@@ -3422,12 +3475,12 @@ notes:
         -
                 uuid: 01cb240d-20eb-4514-b5a8-f7dc372a5f06
                 topic: Aristotle
-                front: What is the heart for?
+                front: Purpose of heart
                 back: Perceiving emotions and sensations
         -
                 uuid: 80171836-fcfd-4f9e-9072-44aaefb3d88e
                 topic: Aristotle
-                front: What is the brain for?
+                front: Purpose of brain
                 back: Cooling the body
         -
                 uuid: 57ad442a-1481-48ec-9d86-877bc1e74538
@@ -3478,7 +3531,7 @@ notes:
         -
                 uuid: 486c5200-2f06-4360-abd8-339e53d61498
                 topic: Aristotle
-                front: Our end in everything?
+                front: Our end in everything
                 back: Some good; no one strives for what he considers bad
         -
                 uuid: 67ff8610-8911-44ea-8fd4-5221c3982a84
@@ -3491,7 +3544,8 @@ notes:
         -
                 uuid: 6ddfb93d-779d-47c7-9849-ef36e50aa3c1
                 topic: Aristotle
-                front: Why can't happiness be just pleasure?
+                front: >
+                        Why happiness &ne; pleasure?
                 back: >
                         It couldn't be right that good life for humans
                         was same as life lived by cattle.
@@ -3500,7 +3554,8 @@ notes:
         -
                 uuid: 3389aec3-9198-43d7-be20-955b6083b49b
                 topic: Aristotle
-                front: Why isn't happiness just honor?
+                front: >
+                        Why happiness &ne; honor?
                 back: >
                         More superficial than what we are looking for.
                         Rests on man giving honor.
@@ -3509,7 +3564,7 @@ notes:
         -
                  uuid: f398479d-0b3c-4744-8b86-593b30ddc041
                  topic: Aristotle
-                 front: How could we discover what happiness is?
+                 front: How to discover what happiness is?
                  back: >
                          Look for function characteristic of humans.
                          Not just in virtue of being cobblers, flute players,
@@ -3524,13 +3579,16 @@ notes:
         -
                  uuid: b079afe1-e218-4834-b3db-0e224dc3b0c2
                  topic: Aristotle
-                 front: Why is activity of the soul the function of human beings?
+                 front: >
+                         Why is activity of the soul the function of human
+                         beings?
                  back: >
                          Rationality is characteristic of the human soul.
         -
                  uuid: 05ce7132-71c3-42ad-ae10-bef0a41cfd00
                  topic: Aristotle
-                 front: What are *moral virtues*?
+                 front: >
+                         What are *moral virtues*?
                  back: >
                          Our excellences in social and physical aspects of our
                          lives
@@ -3558,15 +3616,15 @@ notes:
                  front: Observations on arete
                  back: >
                          <ul>
-                         <li> *Not an emotion*: (1) we are blamed not
+                         <li> <i>Not an emotion</i>: (1) we are blamed not
                          for being angry but for giving in to it,
                          (2) we feel fear and anger without choice,
                          but virtues are a kind of choice (or aren't possible
                          without choice). We can't be good *naturally*.
-                         <li> *Not innate*, through we have a capacity
+                         <li> <i>Not innate</i>: through we have a capacity
                          for them, but learned by practicing
                          until they become habitual. *Can be taught.*
-                         <li> *Many virtues* (contrast Plato, Socrates);
+                         <li> <i>Many virtues</i> (contrast Plato, Socrates);
                          they are possibly independent. Often,
                          brave men are not moderate. In perfection, you
                          can't have one virtue without having all.
@@ -3585,14 +3643,16 @@ notes:
         -
                 uuid: 66bcf566-83bb-4ca3-888d-1ee0b67e58e5
                 topic: Aristotle
-                front: What are virtues? What does it mean to have them?
+                front: >
+                        What are virtues? What does it mean to have them?
                 back: >
                          **Dispositions or habits**.
                          To have one is to behave according to it.
         -
                 uuid: c764bccc-f5d7-4e6c-9855-f688e9bafc4f
                 topic: Aristotle
-                front: Why teach our children virtues?
+                front: >
+                        Why teach children virtues?
                 back: >
                         If they find pleasure in excellent exercise
                         of human nature, they will be happier people,
@@ -3635,7 +3695,8 @@ notes:
         -
                 uuid: 9035acbc-7579-47a2-aad3-3dfd7a6a01aa
                 topic: Aristotle
-                front: What are *excusing conditions*?
+                front: >
+                        Define: *Excusing conditions*
                 back: >
                         Conditions which make praise/blame for good/bad things
                         inappropriate.
@@ -3647,14 +3708,15 @@ notes:
         -
                 uuid: 133dc696-115e-4324-b28b-de763244b143
                 topic: Aristotle
-                front: What kind of ignorance is an excusing condition?
+                front: >
+                        What kind of ignorance is an excusing condition?
                 back: >
+                        Ignorance of particular circumstances is.
+                        <br><br>
                         Not knowing what is right is **not**. Those people are
                         not ignorant, but *wicked*.
                         <br><br>
                         Ignorance of what everyone should know is **not**.
-                        <br><br>
-                        Ignorance of particular circumstances is.
         -
                 uuid: 606e97c2-5d3c-4d9e-bd78-60ba7624e1c6
                 topic: Aristotle
@@ -3725,7 +3787,9 @@ notes:
                         Philip of Macedon
         -
                 uuid: 639f74f2-87c0-48e7-9567-1e3923d97267
-                front: Which school sought happiness as members of a smaller voluntary community?
+                front: >
+                        School: Members sought happiness in smaller voluntary
+                        community
                 back: >
                         Epicureans
         -
@@ -3894,7 +3958,7 @@ notes:
         -
                 uuid: 6a782f9d-3f66-48e5-a18b-f48d16580c99
                 topic: Epicurus
-                front: What is the classification of desires good for?
+                front: Use of classification of desires
                 back: >
                         Going after some is not worth it and causes
                         unhappiness (e.g., luxuries,
@@ -4091,17 +4155,19 @@ notes:
         -
                 uuid: 7bf03ef0-f586-4a65-aac8-662018f97ad6
                 topic: Stoicism
-                front: How to use reason?
+                front: Proper use of reason
                 back: >
-                        Put the microcosm (the soul) in balance with the macrocosm,
+                        Put the microcosm (the soul) in balance with
+                        macrocosm,
                         so that it follows its ordering; God is not only
                         in the macrocosm, but also in each of us
         -
                 uuid: 1ea92487-5354-4d3a-a5a4-e28cb26875f7
                 topic: Stoicism
                 front: >
-                        If we shouldn't care if we get our preferences frustrated,
-                        why shouldn't we just lay down and not eat when hungry?
+                        If we shouldn't care if we get our preferences
+                        frustrated,
+                        why not lay down and not eat when hungry?
                 back: >
                         It's okay and natural to eat when hungry, it's our
                         nature (see: pantheism). Same with seeking wisdom,
@@ -4110,7 +4176,7 @@ notes:
         -
                 uuid: b0283ed2-43f0-4c6d-8911-e5904822fa5c
                 topic: Stoicism
-                front: What is the *only* good?
+                front: The *only* good
                 back: >
                         Virtue: life in harmony with nature, reason and God
         -
@@ -4241,9 +4307,9 @@ notes:
         -
                 uuid: a3ce3e97-bb3c-41cf-bea3-40972f14c7db
                 topic: Skepticism
-                front: How are we to live if there is no certain knowledge?
+                front: How to live if there is no certain knowledge?
                 back: >
-                        By a practical criterion, which is *appearance*.
+                        By practical criterion, which is *appearance*.
         -
                 uuid: 56942019-e0d0-4895-be2f-d4e6c109cc85
                 topic: Sextus Empiricus
@@ -4308,12 +4374,14 @@ notes:
         -
                 uuid: 724eadd9-393e-422c-8a15-fd3c8c7e4834
                 topic: Bible
-                front: How long were Hebrews enslaved in Egypt?
+                front: >
+                        Duration: Hebrews enslaved in Egypt
                 back: 4 centuries
         -
                 uuid: 83b05844-ab86-4fa9-b5b4-50ec9f27eade
                 topic: Bible
-                front: Who led Hebrews from Egypt?
+                front: >
+                        Person: Led Hebrews from Egypt
                 back: Moses
         -
                 uuid: 68627a5e-39cd-412f-ae7f-1336e6a49219
@@ -4335,7 +4403,7 @@ notes:
                 back: Matthew, Mark, Luke, John
         -
                 uuid: c35b3740-59b7-4446-bc6d-220e20df5a8f
-                front: What kind of love is the key to the kingdom of God?
+                front: Kind of love that is the key to kingdom of God
                 back: >
                         *Agape* - undivided and absolute devotion
         -
@@ -4526,7 +4594,7 @@ notes:
         -
                 uuid: a3bc8b60-be8c-4a9b-9b8d-fda577dfb807
                 topic: Augustine
-                front: When and how was he pushed to philosophy?
+                front: When, how was he pushed to philosophy?
                 back: >
                         At 19, read a (now lost) work by Cicero,
                         carried to love wisdom.
@@ -4556,7 +4624,8 @@ notes:
         -
                 uuid: 1bea6e65-5641-4980-b72a-5561449ea9c1
                 topic: Augustine
-                front: What was his standing with the Manichees?
+                front: >
+                        His standing with Manichees
                 back: >
                         "Hearer" &mdash; more than outsider, less than
                         full member.
@@ -4655,7 +4724,8 @@ notes:
         -
                 uuid: eb93b41d-6604-4747-a240-53fde929aaf4
                 topic: Augustine
-                front: Where did Augustine go after leaving Manicheanism?
+                front: >
+                        Destination after leaving Manicheanism
                 back: >
                         Rome
         -
@@ -4673,21 +4743,30 @@ notes:
         -
                 uuid: d8ff5931-fb04-40cf-bbcd-9f0eacea257b
                 topic: Augustine
-                front: Who joined him in Milan?
+                front: >
+                        Who joined him in Milan?
                 back: His widowed mother
         -
                 uuid: 11e6049c-fee8-4b72-869c-b85829d77059
                 topic: Augustine
-                front: Who did he meet in Milan and how?
+                front: >
+                        Who did he meet in Milan and how?
                 back: >
                         Ambrose, Bishop of Milan. Attended his
-                        services with mother. He was learned
-                        in tradition of Greek church fathers and philosophy
-                        and an accomplished orator.
+                        services with mother.
+        -
+                uuid: 54ab1206-81ac-47ee-acaf-251357ad8afa
+                topic: Augustine
+                front: >
+                        Ambrose's education
+                back: >
+                        In tradition of Greek church fathers, philosophy,
+                        was an accomplished orator.
         -
                 uuid: 3fcb8993-c155-45e5-9b0d-f513f0141c81
                 topic: Augustine
-                front: Which aspects of Ambrose's approach to Christianity appealed to him?
+                front: >
+                        Appealing aspects of Ambrose's approach to Christianity
                 back: >
                         <ul>
                         <li> Idea of soul and God as <i>immaterial</i>
@@ -4743,7 +4822,8 @@ notes:
         -
                 uuid: 1c704530-1807-4139-804c-f835795694b4
                 topic: Augustine
-                front: When was Augustine baptized by Ambrose?
+                front: >
+                        Date: Augustine baptized by Ambrose
                 back: >
                         Easter Day, 387
         -
@@ -4756,7 +4836,8 @@ notes:
         -
                 uuid: c0bf913c-9db7-4bc1-8c05-de42782df664
                 topic: Augustine
-                front: Where is Hippo?
+                front: >
+                        Location: Hippo
                 back: Mediterranean coast of Africa
         -
                 uuid: 8d5b31ae-d64e-469f-bb70-d8a628c5b716
@@ -4769,8 +4850,10 @@ notes:
                 topic: Augustine
                 front: Relation between will and intellect
                 back: >
-                        Will is more fundamental than intellect.
+                        Will: more fundamental than intellect.
+                        <br>
                         First believe, then clarify.
+                        <br>
                         Belief precedes understanding.
         -
                 uuid: 1c45b519-997b-4978-8bef-c76c137c503d
@@ -4790,13 +4873,13 @@ notes:
                 topic: Augustine
                 front: Augustine and nature philosophy
                 back: >
-                        Never very interested in it, evetually turned away.
-                        It's unessential, distracting, just satisfaction
+                        Never very interested in it, eventually turned away.
+                        Unessential, distracting, just satisfaction
                         of curiosity. Can't make one happy.
         -
                 uuid: 4a6afb76-9459-4da0-9219-8c75f85e4f44
                 topic: Augustine
-                front: The only proper object of desire
+                front: Only proper object of desire
                 back: God
         -
                 uuid: d95bb2f9-d145-4e75-8fb0-e373b0f0aec9
@@ -4811,26 +4894,27 @@ notes:
                 back: >
                         Happiness, so it wants to be wise to know
                         what does it want.
-                        Epicureans think it's pleasure, Stoics think it's
-                        virtue, skeptics think we can just suspend judgement.
+                        <br>
+                        Epicureans: pleasure, Stoics: virtue,
+                        skeptics: we can suspend judgement.
         -
                 uuid: 0eba8500-0935-4e90-93d9-d6f94c460de4
                 topic: Augustine
-                front:
+                front: How to be happy
                 back: >
-                        You can't be happy unless you have what you desire.
+                        Not unless we have what we desire.
                         <br><br>
-                        Having what you desire does not guarantee happiness.
-                        You must desire the right things. Some things, if
+                        Having it does not guarantee happiness.
+                        We must desire right things. Some things, if
                         attained, produce misery (as Augustine knows).
                         <br><br>
                         Appropriate objects of desire must be things
-                        we cannot lose without desiring to, and they
+                        we cannot lose without desiring to, and
                         must be enduring.
         -
                 uuid: ecb143d7-0012-4540-8aa2-fd994ff4f099
                 topic: Augustine
-                front: How does he respond to skeptical objections?
+                front: Response to skeptical objections
                 back: >
                         We can be deceived by senses and make intellectual
                         mistakes.
@@ -4857,8 +4941,8 @@ notes:
                 front: Nature of truth
                 back: >
                         Eternal, shared among us.<br><br>
-                        We don't make judgement *about* truths, but
-                        *according* to truths.
+                        We don't judge *about* truths, but *according* to
+                        truths.
                         We can say "the pear should be more ripe".
                         When we say "3+5=8", we don't say "it ought to be so".
                         Truth is uncorrupted and doesn't lose anything
@@ -4870,14 +4954,23 @@ notes:
         -
                 uuid: a06813c0-8e66-479f-ad0f-097dff054481
                 topic: Augustine
-                front: Candidate for the highest good
+                front: Candidate for highest good
                 back: >
                         Truth.
-                        <br><br>
-                        It's eternal, available to all, superior to ourselves,
-                        cannot be taken form us.
-                        <br><br>
-                        He **equals truth with God**: he has the same attributes.
+        -
+                uuid: ce379917-f23d-4f83-9845-5f5b86b04cb6
+                topic: Augustine
+                front: Why is truth a candidate highest good
+                back: >
+                        Eternal, available to all, superior to ourselves,
+                        cannot be taken from us
+        -
+                uuid: a91369a0-1228-4550-b729-7276c996b656
+                topic: Augustine
+                front: What does he equal with truth?
+                back: >
+                        **God**: he has same attributes (eternal, available
+                        to all, superior, cannot be taken from us).
                         <br><br>
                         Living is better than existing, so plants are better
                         than stones. Rationality is better than existing, so
@@ -4895,7 +4988,7 @@ notes:
                              and exists.
                         <li> If there is something superior to truth, then God
                              is that and exists.
-                        <li> So God exists
+                        <li> God exists
                         </ol>
         -
                 uuid: 84d46662-4206-444b-82a4-b4eb6a80ef1f
@@ -4904,8 +4997,8 @@ notes:
                 back: >
                         From Plato, Heraclitus, etc.: Logos, truth as light,
                         being and intelligibility (Form of the Good).
-                        Saint Paul said that the Word is one with God and it
-                        enlightens everyone, so nobody is lacking the truth
+                        Saint Paul said that Word is one with God and
+                        enlightens everyone, so nobody lacks truth
                         entirely.
         -
                 uuid: b2e71899-c319-49d6-b00f-baa53242e59f
@@ -4921,9 +5014,9 @@ notes:
                 topic: Augustine
                 front: What did Plato etc. miss?
                 back: >
-                        The conception of sin, grace of Christ.
-                        Their knowledge is the result of pride and stimulus
-                        for more pride. They can't reach blessedness.
+                        Conception of sin, grace of Christ.
+                        Their knowledge results from pride and is stimulus
+                        for more pride. Can't reach blessedness.
         -
                 uuid: 66ea61ec-9b87-4751-b5e4-acddf59598ba
                 topic: Augustine
@@ -4990,48 +5083,56 @@ notes:
         -
                 uuid: b138b58b-aa34-47b7-be01-2f40efe8b64f
                 topic: Plotinus
-                front: What does the One produce?
+                front: First creations of the One
                 back: >
-                        First, the Intelligence - an image of the One that
+                        <ol type="1">
+                        <li> *The Intelligence* - an image of the One that
                         knows it.
-                        <br><br>
-                        Second, the Soul - the principle of life.
-                        <br><br>
-                        Augustine reads this as the Trinity. Father: the One,
+                        <li> *The Soul* - principle of life.
+                        </ol>
+        -
+                uuid: b1b3f342-d110-4a8f-a28f-d1a53c66b0df
+                topic: Augustine
+                front: Reading of Plotinus's first creations of the One
+                back: >
+                        The Trinity. Father: the One,
                         word: the Intelligence, spirit: the Soul.
         -
                 uuid: cdfa7c81-d3f3-4d8f-85e1-8e6d7ff563e6
                 topic: Augustine
                 front: Disagreement with Plotinus
                 back: >
-                        Christians: the world was created, which is an act
-                        of discontinuity, entirely different from
-                        the *emanation*. For Christians, there is discontinuity,
-                        the world is of a different substance from the creator.
-                        <br><br>
-                        Agreement: the world is not a self-sufficient reality.
-                        <br><br>
-                        Disagreement: for Christians, God created the world
+                        For Christians, God created the world
                         *ex nihilo*.
+                        <br><br>
+                        Christians: world was created, which is
+                        a of discontinuity, entirely different from
+                        *emanation*. World is of different substance than God.
+        -
+                uuid: ca7befe2-88e9-468d-be54-5da204ca0e0c
+                topic: Augustine
+                front: Agreement with Plotinus
+                back: >
+                        World is not a self-sufficient reality.
         -
                 uuid: f08dad2c-79bd-4622-92de-53018d72eeba
                 topic: Augustine
                 front: Goodness and the Great Chain of Being
                 back: >
                         The more something exists, the better it is.
-                        Rocks < dogs < humans < angels < (GAP) < God.
-                        There is an absolute distinction between nothing
+                        Rock < dog < human < angel < (GAP) < God.
+                        There is absolute distinction between nothing
                         and something, and relative degrees of being.
         -
                 uuid: 4f64a593-84ee-4aa9-848c-32bc0fe9511e
                 topic: Augustine
-                front: Solution to the problem of evil
+                front: Solution to problem of evil
                 back: >
                         Two parts: *natural* evil and *moral* evil
                         <br><br>
-                        *Natural evil*: It does not exist.
+                        *Natural evil*: Does not exist.
                         We experience things as evil, but they actually aren't.
-                        Being is goodness. Evil is the *privation of good*.
+                        Being is goodness. Evil is *privation of good*.
                         <br><br>
                         *Moral evil* depends on free choices of rational
                         agents.
@@ -5044,8 +5145,10 @@ notes:
                         Since Parmenides, what *is not* does not exist.
                         The good things are reality.
                         <br><br>
-                        Because things lack some qualities doesn't make them evil.
-                        By necessity, not everything can be perfect (like God is).
+                        Because things lack some qualities doesn't make them
+                        evil.
+                        By necessity, not everything can be perfect
+                        (like God is).
                         <br><br>
                         Evil can exist only where there is good. Nothing
                         is evil per se.
@@ -5092,54 +5195,55 @@ notes:
         -
                 uuid: 06f606d6-6244-4628-8c0f-5a09999ad0a1
                 topic: Augustine
-                front: What two directions is he pulled between with regards to human nature?
+                front: 2 directions pulling him regarding human nature
                 back: >
-                        Platonists: we are immaterial eternal souls<br>
-                        Bible: we are material (maybe: breath of life from God?)
+                        *Platonists*: immaterial eternal souls<br>
+                        *Bible*: we are material
+                        (maybe: breath of life from God?)
         -
                 uuid: 030e53bd-dd0e-4c1a-b875-dfe1d52fdc6c
                 topic: Augustine
                 front: On human nature
                 back: >
-                        Man is one being created by God, composed of both
+                        One being created by God, composed of both
                         mind and body, each a distinct created being.
                         <br><br>
-                        Soul: a special substance endowed with reason,
-                        adapted to rule the body.
+                        Soul: special substance endowed with reason,
+                        adapted to rule body.
                         <br><br>
                         Man was created by God and so is by nature something
                         good.
         -
                 uuid: eebcd190-631f-4f75-a849-e70738f471b8
                 topic: Augustine
-                front: Why is man miserable, unjust?
+                front: >
+                        Why is man, created for happiness and in
+                        God's justice, miserable, unjust?
                 back: >
-                        He was created for happiness, but is miserable.
-                        He was created in God's justice, but is unjust.
-                        Why?<br><br>
                         Because he sinned.<br><br>
-                        Adam and Eve were created good, disobeyed the commandments
-                        of God, tempted by the serpent. We inherited their
-                        status. We are born into original sin.
+                        Adam and Eve were created good, disobeyed commandments
+                        of God, tempted by serpent. We inherited their
+                        status and are born into original sin.
                         Its characteristic is **ignorance**
                         and "*concupiscence*", wrong desire.
         -
-                uuid: 401a7cf7-55f2-4b60-80cd-0f1fb9f4ade7
+                uuid: b0a085b2-732b-47f2-b6cb-61f822b58c07
                 topic: Augustine
-                front: What is the essence of sin?
+                front: What is sin?
                 back: >
+                        Disordered love.
+                        <br><br>
                         Jealousy, desires, "will to do harm"; not outward
                         action.
-                        Our loves should be, ideally, ordered same as the
+                        <br><br>
+                        Our loves should be ordered same as
                         Great Chain of Being (which is also an ordering of
                         value).
                         <br><br>
-                        Sin is disordered love.
-                        <br><br>
-                        Sin is not just not being aware of the true ordering
-                        of value in the world. Sin is not *simple* ignorance.
-                        If we are ignorant, we are *willingly* ignorant.
-                        We don't *want* to see the truth and we obscure it
+                        Not just not being aware of true ordering
+                        of value. Not *simple* ignorance.
+                        If we are ignorant, we are *willingly* so.
+                        We don't *want* to see truth and we obscure it
                         and complain it's too obscure. Education is not enough:
                         one needs *conversion*.
                         <br><br>
@@ -5158,34 +5262,37 @@ notes:
                 topic: Augustine
                 front: Basic emotions and will
                 back: >
-                        Desire: not just tendency to acquire, but also *consent*
-                        to that tendency. To be afraid is to *disagree* - an act of will.
-                        Joy and grief: also acts of will.
+                        Desire: not just tendency to acquire, but also
+                        *consent* to that tendency. To be afraid is to
+                        *disagree* - an act of will.
+                        Similar with joy and grief.
                         <br><br>
-                        The will is **free**.
-                        In sin, the soul consents to be the body's slave.
+                        Will is **free**.
+                        In sin, soul consents to be body's slave.
+        -
+                uuid: 35437174-6180-447e-8dff-e48d349e0ce5
+                topic: Augustine
+                front: 3 classes of goods
+                back: >
+                        *Great goods*: justice<br>
+                        *Lesser goods*: wealth, physical beauty
+                        (through good, not essential to highest goods
+                        of happiness, virtuous life)<br>
+                        *Intermediate goods*: posession does not guarantee
+                        virtue or happiness, but without them nobody
+                        can be happy or virtuous.
         -
                 uuid: 92340790-2d4d-4746-a290-6bf0cb4587c0
                 topic: Augustine
                 front: How can sin happen in a world created by a good God?
                 back: >
-                        Will is itself a good thing. (All created things are good;
-                        also, without will, no one can live rightly.)
+                        Will is itself a good thing. (All created things are
+                        good; also, without will, no one can live rightly.)
                         <br><br>
-                        Three classes of goods.
-                        <br><br>
-                        *Great goods*: justice<br>
-                        *Lesser goods*: wealth, physical beauty
-                        (through good, not essential to the highest goods
-                        of happiness and a virtuous life)<br>
-                        *Intermediate goods*: posession does not guarantee
-                        virtue or happiness, but without them nobody
-                        can be happy or virtuous.
-                        <br><br>
-                        Free will is an *intermediate good*. Whether it
+                        Free will: an *intermediate good*. Whether it
                         leads to happiness is up to us.
                         <br><br>
-                        The will commits sin when it turns away from
+                        Will commits sin when it turns away from
                         immutable and common goods towards its private good.
                         Thus man becomes proud, meddlesome and lustful.
         -
@@ -5223,9 +5330,9 @@ notes:
                 topic: Augustine
                 front: Result of sin
                 back: >
-                        Diminuition of the being of human beings;
+                        Diminuition of being of humans;
                         divided will; with one part, we continue to
-                        acknowledge the truth of Go and righteousness of law,
+                        acknowledge the truth of God and righteousness of law,
                         with another we love something lesser.
                         <br><br>
                         By the evil use of free choice man has destroyed
@@ -5258,66 +5365,83 @@ notes:
         -
                 uuid: 6c49a92f-febc-4ab3-a1b9-de8153c91261
                 topic: Augustine
-                front: Things that are *used* and *enjoyed*
+                front: >
+                        Difference: *using* and *enjoying*
                 back: >
-                        Enjoy: cling to it with love for its own sake.<br><br>
-                        Use: employ it in obtaining what you love (if it's
+                        *Enjoy*: cling with love for its own sake.<br><br>
+                        *Use*: employ in obtaining what you love (if it's
                         worthy of love -- otherwise, it's abuse)
         -
                 uuid: 78ea9b46-548d-44ae-a821-fba264a01cf3
                 topic: Augustine
                 front: What is appropriately loved for its own sake?
-                back: Only God; God is to be enjoyed; faith is not like a trading skill (*Euthyphro*)
+                back: >
+                        Only God; God is to be enjoyed; faith is not like
+                        a trading skill (*Euthyphro*)
         -
                 uuid: ba017b99-5f02-42f7-9d3b-b0ff6c231597
                 topic: Augustine
-                front: What good comes from faith?
+                front: Point of piety
                 back: >
-                        Transformation of our desire-structure
-                        so that our ordered loves enjoy and use each thing
-                        appropriately. The point of piety is to allow
-                        God to change us so we don't want the same things
-                        anymore.
+                        Transformation of desire-structure
+                        so that our ordered loves enjoy and use things
+                        appropriately. Allow God to change us so we don't
+                        want the same things anymore.
         -
                 uuid: 04f2a025-d0cd-4eee-8074-b5dc74df6770
                 topic: Augustine
-                front: Two types of love
+                front: >
+                        Names: 2 types of love
                 back: >
-                        Charity: motion of soul towards God, enjoyment
-                        of one's self and neighbors for the sake of God
+                        Charity, cupidity
+        -
+                uuid: ea5d9efd-a96e-46d2-987d-363e2f0bcf46
+                topic: Augustine
+                front: What is *charity*, *cupidity*?
+                back: >
+                        <i>Charity</i>: motion of soul to God, enjoyment
+                        of self and neighbors for sake of God
                         <br><br>
-                        Cupidity: motion of soul towards enjoyment
-                        of one's self and neighbor or any corporeal thing
-                        for the sake of something other than God.
+                        <i>Cupidity</i>: motion of soul to enjoyment
+                        of self and neighbor or any corporeal thing
+                        for sake of something other than God.
                         From cupidity comes *vice* and *crime*.
         -
                 uuid: 16bf964c-34e6-46e3-9543-7bb76d5078b7
                 topic: Augustine
-                front: What is the source of all virtues?
+                front: Source of all virtues
                 back: >
-                        Charity. You can do anything, provided your motivation
+                        Charity
+        -
+                uuid: f7afa488-8a0b-4367-bbc6-70e776decf6e
+                topic: Augustine
+                front: What can I do and when?
+                back: >
+                        You can do anything, provided your motivation
                         is charity.
         -
                 uuid: eb91a902-45b2-4f81-8758-65fdcb2e1c3f
                 topic: Augustine
-                front: What is the measure, standard of all things?
+                front: Measure of all things
                 back: >
-                        Not *man*: his valuations are a set of disordered loves.
+                        Not *man*: his valuations are disordered loves.
                         <br><br>
-                        There are indeed differences in custom between
-                        cultures. Also, *circumstances* and *motivations*
-                        have to be taken into account when judging goodness/badness
-                        of an act. This is why old prophets practicing
+                        There are differences in custom between
+                        cultures. *Circumstances* and *motivations*
+                        also must be taken into account when judging
+                        goodness/badness of an act. Old prophets practicing
                         polygamy are not blamed.
         -
                 uuid: 901679d3-3b85-4980-ab68-a85e8efe3395
                 topic: Augustine
                 front: What saves him from relativism?
                 back: >
-                        (1) Neoplatonism - reality is ordered by value<br><br>
-                        (2) Thesis about motivation. E.g., Jesus's command
+                        <ol type="1">
+                        <li> <i>Neoplatonism</i> - reality is ordered by value
+                        <li> <i>Motivation thesis</i> - E.g., Jesus's command
                         to love god and our neighbors as ourselves is
                         *absolute*.
+                        </ol>
         -
                 uuid: 989f27ef-0976-4284-b602-f6c29e5258eb
                 front: >

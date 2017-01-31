@@ -43,8 +43,8 @@ notes:
                 uuid: c786470f-76d9-4a68-b591-592478196b7c
                 front: Turnajová selekce
                 back: >
-                        Vezmi dva jedince; ten, co vyhraje (podle nějakého
-                        parametru) se zkopíruje
+                        Vezmi 2 jedince; zkopíruj toho, co vyhraje (podle nějakého
+                        parametru)
         -
                 uuid: 003d14ee-206b-4c43-aa2c-bf70d981622f
                 front: Elitismus
@@ -166,8 +166,6 @@ notes:
                 topic: Algoritmus ESP
                 front: Jak funguje?
                 back: >
-                        Enforced Sub-Populations<br>
-
                         Vyvijeji se jednotlive neurony, aby spolupracovaly.
                         Dopredu se stanovi pocet druhu, vyvoj probiha v ramci jednoho druhu.<br>
 

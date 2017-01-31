@@ -22,10 +22,14 @@ notes:
         -
                 uuid: 697dc7f9-4284-4e95-b215-b129470542a3
                 front: Liftovaný modus ponens a substituce
+                markdown: false
                 back: >
-                        [$]p_1,\\ldots,p_2, q_1\\wedge q_2\\wedge\\ldots\\wedge q_n\\rightarrow q[/$] ==> [$]Subst(\\Theta,q)[/$],
-                        kde [$]\\Theta[/$] je substituce ze [$]Subst(\\Theta,p_i)=Subst(\\Theta,q_i)[/$]<br>
-
+                        [$]p_1,\ldots,p_2,
+                           q_1\wedge q_2\wedge\ldots\wedge q_n\rightarrow q
+                           \Longrightarrow \mathrm{subst}(\Theta,q)[/$],
+                        kde [$]\Theta[/$] je substituce že
+                        [$]\mathrm{subst}(\Theta,p_i)=\mathrm{Subst}(\Theta,q_i)[/$]
+                        <br>
                         Funguje na Hornovské klauzule.
         -
                 uuid: 23ca99f1-2d6a-4686-bbe1-5444e9fe03a1

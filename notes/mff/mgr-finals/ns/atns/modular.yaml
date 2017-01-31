@@ -3,7 +3,7 @@ notes:
         # ATNS modular
         -
                 uuid: c5fa0a87-3c18-47f1-ba41-4bc20bebc629
-                front: Dva druhy robustnosti NS a jak se jich dosahuje
+                front: 2 druhy robustnosti NS a jak se jich dosahuje
                 back: >
                         Vzhledem ke ztrátě neuronu: přidám robustnostní člen
                         do chybové funkce; prořezání a duplikace: zdvojení těch

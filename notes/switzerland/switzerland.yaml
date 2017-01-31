@@ -3,11 +3,13 @@ topic: Switzerland
 notes:
         -
                 uuid: d62ecb00-62f9-4e00-99db-e1ca07d41660
-                front: How many languages does Switzerland have?
+                front: >
+                        Number: Languages
                 back: Four
         -
                 uuid: c197d838-1609-478f-9ef1-9a03bde6544d
-                front: How large is the foreign population?
+                front: >
+                        %: foreign population
                 back: 20%
         -
                 uuid: eefd2455-aacd-411d-bb27-89596841f601
@@ -37,15 +39,18 @@ notes:
                         High; 100 years ago, Switzerland was mostly rural
         -
                 uuid: 7b45b010-9746-4194-b0c0-a1290f68d12e
-                front: How can we divide communities by language?
+                front: >
+                        Division of communities by language
                 back: German, French, Italian
         -
                 uuid: 7c6fbebc-d1ab-418b-be50-f831a246d82e
-                front: Number of cantons
+                front: >
+                        Number: Cantons
                 back: 26
         -
                 uuid: fd41fe4c-eef4-4052-b31d-3b037ec847c3
-                front: What percentage of population speaks Romansch?
+                front: >
+                        % Romansch speakers
                 back: 1%
         -
                 uuid: 170f0f57-5290-436a-a5b8-b2f26b88d06c
@@ -53,7 +58,8 @@ notes:
                 back: Romansch
         -
                 uuid: fd67333d-1fd0-4564-8f94-0cd2a29fa6e1
-                front: How can we divide cantons by religion?
+                front: >
+                        Division of cantons by religion
                 back: >
                         Protestant/Catholic majority
         -
@@ -64,7 +70,7 @@ notes:
                 uuid: 6ae2e5a6-b52c-470e-a881-e95d44f937b5
                 front: How did the proportion of people employed in the service sector move in the 20th century?
                 back: >
-                        39% => 73%
+                        39% &rarr; 73%
         -
                 uuid: 2d2c41c7-4e93-4adb-a1e3-bf477ce22d26
                 front: Combined life expectancy
@@ -74,15 +80,13 @@ notes:
                 front: Is Switzerland part of EU?
                 back: "No"
         -
-                uuid: 09874a0d-15d1-4caf-af92-7e0b35438d4f
-                front: When were women granted suffrage?
-                back: 1971
-        -
                 uuid: fba6a9a7-63bb-4d29-bcf3-0957fba1b79e
                 front: Significant religious historical event? Results?
                 back: >
-                        Centre of Protestant Reformation, with years of warfare between Catholics and Protestants.
-                        So, religion is considered a private concern and is rarely discussed in public.
+                        Centre of Protestant Reformation, years of warfare
+                        between Catholics and Protestants.
+                        Religion is a private concern, rarely discussed
+                        in public.
         -
                 uuid: 43719fef-c92d-4b5f-b626-143b8906467a
                 front: >
@@ -132,16 +136,13 @@ notes:
                         Everything not explicitly handled by the federation
                         is handled by cantons.
         -
-                uuid: 7c337a8d-4c7a-4b80-8718-3587d1ad0ed3
-                front: When was Canton Jura founded?
-                back: 1979
-        -
                 uuid: 295ba686-5822-4212-aa34-458cf114e366
                 front: Since when does Switzerland have 23 cantons?
                 back: 1979
         -
                 uuid: 65033991-9f08-4819-baa2-7f9a973b5a81
-                front: Which cantons are divided into half-cantons?
+                front: >
+                        List: Cantons divided into half-cantons
                 back: >
                         Unterwalden, Appenzell, Basel
         -
@@ -152,15 +153,18 @@ notes:
                         parliament, government and courts.
         -
                 uuid: d7304f7e-60d2-4bad-8f08-724906cf538b
-                front: How many members do cantonal parliaments have?
+                front: >
+                        Number: Members of cantonal parliaments
                 back: 58 - 200
         -
                 uuid: a84d4899-7c12-4084-be7f-3f66b65fc883
-                front: How many members do cantonal governments have?
+                front: >
+                        Number: Members of cantonal governments
                 back: 5, 7, or 9
         -
                 uuid: 909ccb0b-bbf5-4c16-a1b2-e6727ae59700
-                front: How many of 26 cantons are French-speaking?
+                front: >
+                        Number: French-speaking cantons
                 back: 6
         -
                 uuid: 7138cc44-2adb-421c-9089-a7b0d68e99ce
@@ -194,11 +198,13 @@ notes:
                 back: The Federal Council
         -
                 uuid: 69585afe-8c3d-47dc-882d-79d88d672c20
-                front: How many Federal Councillors are there?
+                front: >
+                        Number: Federal Councillors
                 back: 7
         -
                 uuid: c0870498-0c0a-4f0c-81c2-1d788fb9bca0
-                front: How often are Federal Councillors elected?
+                front: >
+                        Interval: election of Federal Councillors
                 back: Every 4 years
         -
                 uuid: a97dd147-defc-4071-9b18-5c8e614a59be
@@ -214,7 +220,8 @@ notes:
                 uuid: 447bbe52-d20e-4220-bd92-dbdc76af3306
                 front: How is the Chairmanship picked?
                 back: >
-                        Rotated every year, the holder is the President of the Confederation
+                        Rotated every year, holder is President of
+                        the Confederation
         -
                 uuid: 3a907fc4-1ee6-4e69-a177-ba4d3271151e
                 front: Swiss president, when does the term end
@@ -236,11 +243,13 @@ notes:
                 back: Germany, then France, Italy and UK
         -
                 uuid: deb50b74-3581-4c7d-86f0-d74d8756def2
-                front: What percentage of exports went to EU countries in 2000?
+                front: >
+                        % of exports to EU countries (2000)
                 back: 38%
         -
                 uuid: a41c857b-7d50-4b7c-be85-c50defcf9675
-                front: What percentage of imports went from EU countries in 2000?
+                front: >
+                        % of imports from EU countries (2000)
                 back: 51%
         -
                 uuid: 4ac152e8-1b75-45ca-8074-816ab2e5594d
@@ -270,7 +279,9 @@ notes:
         -
                 uuid: a0235c3c-cbb1-41a6-b0e2-c3e861a3a292
                 front: Population density
-                back: 200 people/sq kilometre (dense)
+                markdown: true
+                back: >
+                        [$]200\ \mathrm{people}/\mathrm{km}^2[/$] (dense)
         -
                 uuid: 88e4e8bd-af16-4ce4-b286-a3d0ddef0be5
                 front: Capital city
@@ -289,23 +300,27 @@ notes:
                 back: Catholics (these areas were poor ~50 years ago).
         -
                 uuid: 1adad615-c508-449c-aa18-d5677f0ca98b
-                front: Which percentage of people speak German?
+                front: >
+                        % German speakers
                 back: 63.5%
         -
                 uuid: 021c43c0-87d9-4a45-af75-eb926d79350c
-                front: Which percentage of people speak French?
+                front: >
+                        % French speakers
                 back: 22.5%
         -
                 uuid: 4270c637-077a-4922-a225-97b67c571517
-                front: Which percentage of people speak Italian?
+                front: >
+                        % Italian speakers
                 back: 8.1%
         -
                 uuid: ad741b47-f3d8-4649-bddc-a3c4a3e16d5a
-                front: Which percentage of people speak English?
+                front: >
+                        % English speakers
                 back: 4.4%
         -
                 uuid: 4703b86a-c980-44eb-b919-96042aecff9d
-                front: What's the language of the two major business centres and which are they?
+                front: Language of the two major business centres, which are they?
                 back: Zürich and Basel; German
         -
                 uuid: 48b940c0-9ad1-4fe7-ba5b-bdf9e0584320
@@ -501,12 +516,14 @@ notes:
                 back: Il vino
         -
                 uuid: 0b1ee78e-8e4d-48bc-9a5f-79e386ec7834
-                front: How long is the longest rail tunnel in the world?
+                front: >
+                        Length: Longest rail tunnel in the world
                 back: 57 km
         -
                 uuid: d2ff5790-0cd3-4776-a58d-3bb8f0b47b03
-                front: How many years did the construction of the longest rail tunnel take?
-                back: 17
+                front: >
+                        Duration: Construction of the longest rail tunnel
+                back: 17 years
         -
                 uuid: b3c23592-bd31-4ffe-b4be-8d9641c8d6d4
                 front: What does the longest rail tunnel link? What's its name?
@@ -516,7 +533,7 @@ notes:
         -
                 uuid: a09756c7-c6a2-4f42-b8c6-0c63db929fdf
                 front: What does the CH in CHF stand for?
-                back: atin name of the country - Confederation Helvetica
+                back: Latin name of the country - Confederation Helvetica
         -
                 uuid: 84b9a250-6651-4770-808a-d4682364a686
                 front: Division of frank
@@ -650,11 +667,11 @@ notes:
                         appearing aggressive or demanding
         -
                 uuid: 574dda9d-c6b6-40c8-94b3-0636c6462e9b
-                front: Which city is the capital?
+                front: Capital
                 back: Bern
         -
                 uuid: ed248881-5d0d-4474-8bd2-93d7792d98d3
-                front: GDP per capita?
+                front: GDP per capita
                 back: $59 540
         -
                 uuid: c7c2441b-6515-466a-874a-d853ae45e22e

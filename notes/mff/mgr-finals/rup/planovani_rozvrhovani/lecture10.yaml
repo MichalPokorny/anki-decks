@@ -22,7 +22,7 @@ notes:
                 uuid: 563ea376-f369-4174-b7c5-9cfb6163dbbe
                 front: Jak vypadá Grahamova notace
                 back: >
-                        [$$]\\alpha\\mid\\beta\\mid\\gamma[/$$]
+                        [$]\\alpha\\mid\\beta\\mid\\gamma[/$]
                         <br><br>
                         [$]\\alpha[/$]: zdroje,
                         [$]\\beta[/$]: úlohy,
@@ -209,7 +209,7 @@ notes:
                 uuid: f7a4aaa9-3cf2-42d5-96b7-0a5847ce371b
                 topic: >
                         [$]1\mid r_j\mid L_{\max}[/$]
-                front: Jak se řeší obecný nerelaxovaný problém?
+                front: Řešení obecného nerelaxovaného problému
                 back: >
                         Větvením vybírám, kterou úlohu budu teď plánovat.
                         Používám branch and bound.
@@ -369,23 +369,23 @@ notes:
                         [$]F2\mid\mid C_{\max}[/$]
                 front: Řešení
                 back: >
-                        Stačí jenom určit pořadí, na obou strojích může být
+                        Stačí určit pořadí, na obou strojích může být
                         stejné.
                         <br><br>
-                        Úlohy rozdělíme na:
+                        Úlohy rozdělíme:
                         <ul>
-                        <li> [$]U[/$]: mají operaci na zdroji 1 kratší než
-                             na zdroji 2
-                        <li> [$]V[/$]: mají operaci na zdroji 1 delší než
-                             na zdroji 2.
+                        <li> [$]U[/$]: jsou na [$]z_1[/$] méně dlouho než
+                             na [$]z_2[/$]
+                        <li> [$]V[/$]: jsou na [$]z_1[/$] déle než
+                             na [$]z_2[/$]
                         </ul>
                         <br><br>
                         Správné pořadí:
                         <ol type="1">
-                        <li> [$]U[/$] vzestupně podle [$]p_{1j}[/$]
-                        <li> pak [$]V[/$] sestupně podle [$]p_{2j}[/$]
+                        <li> [$]U[/$] vzestupně dle [$]p_{1j}[/$]
+                        <li> [$]V[/$] sestupně dle [$]p_{2j}[/$]
                         </ul>
-                        Každou operaci rozvrhneme do nejmenšího možného
+                        Každou operaci rozvrhni do nejmenšího možného
                         startovního času.
         -
                 uuid: cc118a32-453c-4936-960a-b38335bbf6f7
@@ -396,7 +396,7 @@ notes:
                         objektivní funkcí.
                         <br><br>
                         Každá úloha: posloupnost operací, různé
-                        mezi úlohami. Zdroj se může navštívit vícekrát.
+                        mezi úlohami. Zdroj může navštívit vícekrát.
                         Zdroj a čas zpracování je pro každou operaci pevný.
         -
                 uuid: 2b5ee856-6615-47c3-a164-a43fa751e4d9
@@ -418,32 +418,32 @@ notes:
                         [$]J2\mid n_i\leq 2\mid C_{\max}[/$]
                 front: Řešení
                 back: >
-                        Úlohy rozdělíme na 4 množiny:
+                        Úlohy rozdělíme:
                         <ul>
-                        <li> [$]I_1[/$] běží jen na prvním zdroji
-                        <li> [$]I_2[/$] na druhém
-                        <li> [$]I_{1,2}[/$] nejdřív na prvním
-                        <li> [$]I_{2,1}[/$] nejdřív na druhém
+                        <li> [$]I_1[/$] jen na [$]z_1[/$]
+                        <li> [$]I_2[/$] jen na [$]z_2[/$]
+                        <li> [$]I_{1,2}[/$] nejdřív na [$]z_1[/$]
+                        <li> [$]I_{2,1}[/$] nejdřív na [$]z_2[/$]
                         </ul>
-                        <br><br>
-                        Najdu optimální posloupnosti úloh [$]R_{1,2}, R_{2,1}[/$]
-                        pro flow-shop problémy nad [$]I_{1,2}, I_{2,1}[/$].
+                        <br>
+                        Najdi optimální řešení [$]R_{1,2}, R_{2,1}[/$]
+                        pro flow-shop problémy [$]I_{1,2}, I_{2,1}[/$].
                         <br><br>
                         Finální rozvrh:<br><br>
-                        Na [$]M_1[/$]:
+                        Na [$]z_1[/$]:
                         <ol type="1">
-                        <li> Nejdřív [$]I_{1,2}[/$] podle [$]R_{1,2}[/$]
+                        <li> [$]I_{1,2}[/$] podle [$]R_{1,2}[/$]
                         <li> [$]I_1[/$] v libovolném pořadí
                         <li> [$]I_{2,1}[/$] podle [$]R_{2,1}[/$]
                         </ol>
-                        Na [$]M_2[/$]:
+                        Na [$]z_2[/$]:
                         <ol type="2">
-                        <li> Nejdřív [$]I_{2,1}[/$] podle [$]R_{2,1}[/$]
+                        <li> [$]I_{2,1}[/$] podle [$]R_{2,1}[/$]
                         <li> [$]I_2[/$] v libovolném pořadí
                         <li> [$]I_{1,2}[/$] podle [$]R_{1,2}[/$]
                         </ol>
                         Je to optimální rozvrh: aspoň 1 ze zdrojů
-                        pracuje bez přerušení a [$]R_{1,2}, R_{2,1}[/$]
+                        pracuje bez přerušení, [$]R_{1,2}, R_{2,1}[/$]
                         jsou optimální rozvrhy.
         -
                 uuid: 4ea5dd08-eeaf-40f1-928a-93d8e4a7594e
@@ -495,7 +495,7 @@ notes:
                 uuid: 7cce7305-3364-47d2-8572-5b2f9651257e
                 topic: >
                         [$]Jm \mid \mid C_{\max}[/$]
-                front: Jak rozvrhovat jeden zdroj?
+                front: Rozvrhnutí jednoho zdroje
                 back: >
                         Začneme s částečným řešením.<br><br>
                         Vyřešíme pro něj [$]1\\mid r_j\\mid L_{\\max}[/$].
@@ -511,7 +511,7 @@ notes:
                 uuid: b9d3974b-7397-4b44-9312-0b3b419405d3
                 topic: >
                         [$]Jm \mid \mid C_{\max}[/$]
-                front: Jak zlepšit hotové řešení
+                front: Zlepšení hotového řešení
                 back: >
                         Vezmi zdroj, vytrhej jeho hrany z grafu,
                         znova vyřeš jeho [$]1\\mid r_j\\mid L_{\\max}[/$]

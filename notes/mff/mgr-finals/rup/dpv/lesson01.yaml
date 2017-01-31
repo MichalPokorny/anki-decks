@@ -12,11 +12,11 @@ notes:
                 uuid: 0f9b799d-839b-4e9e-8ae1-2314bae8f593
                 topic: Řešení SAT
                 front: >
-                        Převod do CNF v lineárním čase: Jak se jmenuje? Jak se dělá?
+                        Převod do CNF v lineárním čase: Jméno, jak se dělá
                 back: >
                         Tseitinovo kódování.<br>
-                        Vyrobím si pro formuli generující strom.<br>
-                        Pro vnitřní vrcholy stromu si vyrobím nové proměnné.
+                        Vyrobím pro formuli generující strom,
+                        pro vnitřní vrcholy vyrobím nové proměnné.
         -
                 uuid: dd575466-88ed-4d73-8c3b-a3166cc6bcc0
                 topic: Řešení SAT
@@ -47,7 +47,9 @@ notes:
         -
                 uuid: d819b91f-b306-437a-9aed-189891951eb5
                 topic: Řešení SAT
-                front: Jak se z implikačního grafu vykouká nová konfliktní klauzule?
+                front: >
+                        Jak z implikačního grafu vykoukám novou
+                        konfliktní klauzule?
                 back: >
                         Řez v grafu mezi rozhodnutími a K.
         -
@@ -55,7 +57,7 @@ notes:
                 topic: Řešení SAT
                 front: K čemu jsou v implikačním grafu řezy?
                 back: >
-                        Řez v grafu mezi rozhodnutími a K je konfliktní
+                        Řez mezi rozhodnutími a K je konfliktní
                         klauzule implikovaná rozhodnutími.
         -
                 uuid: f2529af7-25ca-42a2-a230-ec5edf03cb03
@@ -113,7 +115,8 @@ notes:
         -
                 uuid: cea23069-42ba-472c-b0f0-f875e55b8cf7
                 topic: Řešení SAT
-                front: Heuristiky pro výběr proměnných k dosazení - jak se jmenují?
+                front: >
+                        Jména: Heuristiky pro výběr proměnných k dosazení
                 back: >
                         VSIDS (Variable State Independent Decaying Sum),
                         Berkmin
@@ -143,13 +146,14 @@ notes:
                 topic: Řešení SAT
                 front: Sledování dvou literálů
                 back: >
-                        V každé nevyřešené klauzuli si označím dva nedosazené literály.
+                        V každé nevyřešené klauzuli označ 2 nedosazené
+                        literály.
                         <br>
-                        Pro každou proměnnou si pamatuju označené výskyty.
-                        Když dosadím třeba [$]x_1=0[/$], zkontroluju jenom
+                        Pro každou proměnnou udržuj označené výskyty.
+                        Když dosadíš třeba [$]x_1=0[/$], zkontroluj jenom
                         klauzule co sledují [$]x_1[/$] &mdash; v nich
-                        hledám další proměnnou ke sledování. Neexistuje-li,
-                        tak z klauzule zbyla jednotková klauzule.
+                        hledej další proměnnou ke sledování. Neexistuje-li,
+                        klauzule je jednotková.
         -
                 uuid: 75e77a4d-deea-4807-86d3-fbeede06e813
                 front: Co udělá sledování dvou literálů při backtracku?

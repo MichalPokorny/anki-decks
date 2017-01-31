@@ -54,10 +54,11 @@ notes:
                 front: >
                         [$]k[/$]-means algoritmus
                 back: >
-                        Update: nastav středy jako těžiště jejich shluků; Přenastav příslušnosti ke shlukům
+                        Update: nastav středy jako těžiště jejich shluků;
+                        Přenastav příslušnosti ke shlukům
         -
                 uuid: c16c1976-bf8b-40a8-a51e-d9dae9a8f694
-                front: Jak se pro kompetiční učení bez učitele předzpracuje vstup?
+                front: Jak pro kompetiční učení bez učitele předzpracovat vstup?
                 back: Vstupní vektory se znormují
         -
                 uuid: c92483e6-602a-45a3-865a-9784a175cbb3
@@ -73,15 +74,25 @@ notes:
                         <li> Dávková aktualizace
                         </ul>
         -
+                uuid: 20d1fa81-bc88-4336-b687-9a46b50cc1bd
+                topic: Stabilní rovnovážný stav v kompetičním učení
+                front: >
+                        Definice: Svazek
+                back: >
+                        [$]\\{x = \\alpha_1 p_1 + \\ldots \\alpha_m p_m : \\alpha_1 \\in \\R^+\\}[/$]
+        -
+                uuid: 8b6b0dc0-7835-423b-99c0-b34e8f3c7d30
+                topic: Stabilní rovnovážný stav v kompetičním učení
+                front: >
+                        Definice: Průměr svazku
+                back: >
+                        [$]\\varphi(S) = \\sup\\{\\arccos (a\\cdot b)|\\|a\\|=\\|b\\|=1, a,b\\in S\\}[/$]
+        -
                 uuid: 6e149cef-86c7-4d3a-8eef-7244d308200a
                 front: Stabilní rovnovážný stav v kompetičním učení - jaká je postačující podmínka?
                 back: >
-                        Chceme jasně ohraničené shluky, co se nepřekrývají a nejsou moc rozsáhlé.<br>
-
-                        Svazek [$]\\equiv\\{x = \\alpha_1 p_1 + \\ldots \\alpha_m p_m : \\alpha_1 \\in \\R^+\\}[/$]<br>
-
-                        Průměr svazku: [$]\\varphi = \\sup\\{\\arccos (a\\cdot b)|\\|a\\|=\\|b\\|=1, a,b\\in S\\}[/$]<br>
-
+                        Chceme jasně ohraničené shluky, co se nepřekrývají a
+                        nejsou moc rozsáhlé.<br>
                         Postačující podmínka pro stabilitu: úhlový průměr
                         svazků je menší než vzájemná vzdálenost (jakmile se
                         střed shluku dostane do svazku, už tam zůstane)
@@ -95,7 +106,8 @@ notes:
                 topic: PCA
                 front: Co to je? Co dělá?
                 back: >
-                        Hlavní komponenta je ta, co vysvětluje (ve vystředěných a normalizovaných datech)
+                        Hlavní komponenta je ta, co vysvětluje (ve vystředěných
+                        a normalizovaných datech)
                         nejvíce rozptylu.<br>
 
                         Ostatní jsou na ni ortogonální.

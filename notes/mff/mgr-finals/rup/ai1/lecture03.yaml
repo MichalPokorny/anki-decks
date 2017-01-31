@@ -81,13 +81,14 @@ notes:
                 topic: DFS
                 front: Algoritmus
                 back: >
-                        Vždy expanduj nejhlubší node, pomocí LIFO jako frontieru.
+                        Vždy expanduj nejhlubší node, pomocí LIFO jako
+                        frontieru.
         -
                 uuid: e955eb0b-d8fe-4da2-8790-b876684bc353
                 topic: DFS
                 front: Kompletnost a optimalita
                 back: >
-                        Není kompletní (může se zacyklit), nemusí najít optimum.<br>
+                        Není kompletní (může cyklit), nemusí najít optimum.<br>
         -
                 uuid: 29559321-2468-4d59-aa8f-9887be830531
                 topic: DFS
@@ -105,13 +106,15 @@ notes:
                 uuid: 66403ffa-1ab6-4d9e-a8c6-0d54fa2050f2
                 front: Jaké vychytávky umí zlepšit paměťovou složitost DFS?
                 back: >
-                        Jestli dělám backtracking a generuju jenom jednoho successora: [$]\\O(m)[/$].<br>
-                        Modifikuj jenom tenhle stav: [$]\\O(m)[/$] akcí, [$]\\O(1)[/$] stavů
+                        Jestli dělám backtracking a generuju jenom jednoho
+                        successora: [$]\\O(m)[/$].<br>
+                        Modifikuj jenom tenhle stav:
+                        [$]\\O(m)[/$] akcí, [$]\\O(1)[/$] stavů
         -
                 uuid: 0fa8e941-36e3-4319-af1f-63cb7479629f
-                front: Jak můžu určit depth limit pro DFS?
+                front: Jak určit depth limit pro DFS?
                 back: >
-                        Můžu to vykoukat z problému (například, počet měst,
+                        Vykoukat z problému (například, počet měst,
                         průměr grafu). Čím větší hloubku dovolím DFS, tím déle
                         bude trvat.
         -
@@ -134,23 +137,25 @@ notes:
                 topic: Iterative deepening
                 front: Spotřeba paměti
                 back: >
-                        [$$]\\O(bd)[/$$]
+                        [$]\\O(bd)[/$]
         -
                 uuid: 6aaa099b-9a98-481f-a8f5-a504e2b01002
                 topic: Iterative deepening
                 front: Časová složitost
                 back: >
-                        [$$]\\O(b^d)[/$$] (BFS prozkoumá totiž ještě jeden level?)
+                        [$]\\O(b^d)[/$] (BFS prozkoumá totiž ještě jeden level?)
         -
                 uuid: eed965d2-4aa4-4a40-ad8b-86deaf7d65d0
-                front: Jakou metodu uninformed search použít když je velký stavový prostor a neznám hloubku řešení?
+                front: >
+                        Jakou metodu uninformed search použít když je velký
+                        stavový prostor a neznám hloubku řešení?
                 back: Iterative deepening
         -
                 uuid: ed0b5358-68fd-4cdb-b0a8-12a8af3a5829
                 front: Bidirectional search
                 back: >
-                        Dva searche zároveň: forward a backward.
-                        [$]b^{d/2}+b^{d/2}<<b^d[/$].
+                        2 searche zároveň: forward a backward.
+                        [$]b^{d/2}+b^{d/2} \\ll b^d[/$].
                         <br>
                         Než expanduju node, prověřím že není ve druhém frontieru.
                         Jeden musím nechat v paměti (tedy [$]\\O(b^{d/2})[/$] na paměť).
