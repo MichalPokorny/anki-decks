@@ -7,7 +7,9 @@ notes:
                 include_reverse: true
         -
                 uuid: 8f8748e9-10a5-432d-9bcd-6e55e7437f59
-                front: International avoirdupois ounce in grams ([$]\\approx[/$])
+                front: >
+                        International avoirdupois ounce in grams
+                        ([$]\\approx[/$])
                 back: >
                         28.35 g
                 include_reverse: true
@@ -27,11 +29,6 @@ notes:
                 uuid: 6c37a60f-cb1b-4bf3-bacb-238540b08f91
                 front: Imperial fluid ounce in ml ([$]\\approx[/$])
                 back: 28.4 ml
-                include_reverse: true
-        -
-                uuid: 101fe130-e4b2-481e-8575-c73937c232f1
-                front: US fluid ounce in ml ([$]\\approx[/$])
-                back: 29.6 ml
                 include_reverse: true
         -
                 uuid: 3af49b62-154f-438e-85f8-0d2bfadaa292
@@ -269,3 +266,4 @@ notes:
                 uuid: 23e57893-3f6e-41c0-b559-c671eb674a39
                 front: 29.573 ml
                 back: 1 US fluid ounce
+

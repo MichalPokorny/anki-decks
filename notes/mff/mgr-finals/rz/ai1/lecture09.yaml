@@ -33,12 +33,12 @@ notes:
                         Funguje na Hornovské klauzule.
         -
                 uuid: 23ca99f1-2d6a-4686-bbe1-5444e9fe03a1
-                front: Hledání MGU (most general unifier), algoritmus
+                front: Hledání MGU (most general unifier), přibližný algoritmus
                 back: >
                         Existuje právě jedna (až na přejmenování proměnných).<br><br>
 
                         Vstupy: x, y a zatím vybudovaná substituce.
-                        x i y jsou proměnná, konstanta, seznam nebo term.<br><br>
+                        x i y: proměnná/konstanta/seznam/term.<br><br>
 
                         Jestli jsou x=y, vrať.<br>
                         Jsou-li jedno z toho proměnné, udělej unifikaci proměnných.<br>
@@ -48,7 +48,8 @@ notes:
                         Unifikace proměnné: jestli je do proměnné něco dosazené, dosaď to.
                         Zkontroluj, že dosazení můžu udělat (například ne třeba [$]x[/$] a [$]f(x)[/$]).<br>
 
-                        Standartně z kontrolování proměnných vyjde kvadratická složitost. Ale jde to i lineárně?
+                        Standartně z kontrolování proměnných vyjde kvadratická
+                        složitost. Ale jde to i lineárně?
         -
                 uuid: e2b57811-bb9b-433a-8290-01fa63da49fd
                 front: Forward-chaining algoritmus v FOL s Horn-klauzulemi, nevýhody
@@ -97,11 +98,12 @@ notes:
                         Query: seznam konjunkci co hledame v KB.
                         Substituce: nejdriv prazdna.<br>
 
-                        Jestli nemám goaly: vrať nalezenou substituci.<br>
-
-                        Aplikuj substituci na prvni cil [$]g_1[/$], a rozsir ji.<br>
-                        Najdi nejake pravidlo, jehoz hlava jde zunifikovat s [$]g_1[/$].<br>
-                        Přídej mezi cíle jeho tělo, zkomponuj substituce, rekurze.
+                        <ul>
+                        <li>Nemám goaly &rarr; vrať nalezenou substituci.
+                        <li>Aplikuj substituci na první cil [$]g_1[/$], a rozšiř ji.
+                        <li>Najdi pravidlo, jehož hlava jde zunifikovat s [$]g_1[/$].
+                        <li>Přídej mezi cíle jeho tělo, zkomponuj substituce, rekurze.
+                        </ul>
         -
                 uuid: ee3bd8a2-816b-4cc6-9fba-1f60c563d9f0
                 front: Prostorová složitost FOL-BackwardChain-ASK, kompletnost

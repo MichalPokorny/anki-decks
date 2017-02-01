@@ -5,14 +5,17 @@ notes:
                 uuid: 458503cb-d268-44b8-99ce-1b26c29b5bb5
                 front: Struktura Bayesovské sítě
                 back: >
-                        Acyklický graf, hrana když existuje závislost, ve vrcholech
-                        jsou podmíněné pravděpodobnostní distribuce.
+                        Acyklický graf, hrana když existuje závislost,
+                        ve vrcholech jsou podmíněné pravděpodobnostní
+                        distribuce.
         -
                 uuid: 8a052ca5-55e4-40f6-b727-ccff6d31d155
-                front: Vzorec pro jak z podmíněných distribucí v Bayesovské síti dostat pravděpodobnost jednoho světa
+                front: >
+                        Vzorec: Podmíněné distribuce Bayesovské sítě
+                        &rarr; pravděpodobnost jednoho světa
                 back: >
-                        [$$]P(x_1,\\ldots x_n)=
-                        \\prod_i P(x_i | \\text{parents}(X_i))[/$$]
+                        [$]P(x_1,\\ldots x_n)=
+                        \\prod_i P(x_i | \\text{parents}(X_i))[/$]
         -
                 uuid: e3f59843-753e-4dbd-bb66-8d1e4da31d8a
                 front: Podmíněné nezávislosti proměnných v Bayesovské síti

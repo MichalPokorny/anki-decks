@@ -22,8 +22,10 @@ notes:
                 back: Images and sounds attached to decks
         -
                 uuid: 0a192903-abe5-40db-b3ab-84917f9646e6
-                front: In which order does Anki present new cards for learning by default?
-                back: In the order in which they were added
+                front: >
+                        Default order of presenting new cards for learning
+                back: >
+                        Order in which they were added
         -
                 uuid: d6067156-bf6a-4f2e-b99f-dafbc7608ac4
                 front: What does the `D` shortcut do?
@@ -35,7 +37,7 @@ notes:
                         `D`
         -
                 uuid: 83c6d31f-4dfd-4876-8a9a-bd23a46aefd8
-                front: What's the default limit of cards to answer per day?
+                front: Default limit of cards to answer per day
                 back: 100
         -
                 uuid: 4934cfc5-ae14-4ba8-a35e-0025ae52fb12
@@ -136,7 +138,7 @@ notes:
                 back: ... interference; knowledge of one item makes it hard to remember another item.
         -
                 uuid: b91ec366-7bb1-402f-b07d-197a4abf56a0
-                front: What is the single greatest cause of forgetting?
+                front: Single greatest cause of forgetting
                 back: Interference. Eliminate on sight.
         -
                 uuid: a168fafa-1fcf-4898-b5eb-15e8f54d7743
@@ -164,10 +166,10 @@ notes:
         -
                 uuid: f5e13bea-b365-4829-82dd-fca671d56e4b
                 front: What is date stamping?
-                back: Recording the date of pieces of information that is volatile.
+                back: Recording date of pieces of information that is volatile.
         -
                 uuid: f7179054-47c1-44ba-bd82-4e224d6167b3
-                front: How are decks sorted in the deck list?
+                front: How are decks sorted in deck list?
                 back: Alphabetically
         -
                 uuid: 3930b1d2-51ec-452d-9067-9a26b90c6ff3
@@ -196,13 +198,13 @@ notes:
                         { {FieldName} }
         -
                 uuid: 497e6088-3756-4950-b93e-5920361e85d5
-                front: Special field replaced by the front template
+                front: Special field replaced by front template
                 back: >
                         { {FrontSide} }
                 include_reverse: true
         -
                 uuid: a80c8384-5f3b-44c9-9e19-cfbf07d2a138
-                front: Special field - tags from the note
+                front: Special field - tags from note
                 back: >
                         { {Tags} }
                 include_reverse: true
@@ -238,7 +240,7 @@ notes:
                 uuid: b039f633-a9e6-4c44-9a05-15b515f26331
                 front: What's the meaning of "steps"?
                 back: >
-                        The duration and number of reviews required before
+                        Duration and number of reviews required before
                         moving card from Learning to Review
         -
                 uuid: cbd63cc8-b0b8-403e-8a73-99015aba182a
@@ -252,7 +254,7 @@ notes:
         -
                 uuid: 3e15506c-f02e-483d-9aa6-793cbfe7c389
                 front: What does the *Easy* button do for cards in learning?
-                back: Immediately moves it into the reviewing stage
+                back: Immediately moves it into reviewing stage
         -
                 uuid: c8b9a760-c708-451f-8aa7-e57437ba902d
                 front: How does clicking *Good* increase the interval?
@@ -269,11 +271,11 @@ notes:
                         They are suspended after 8 lapses.
         -
                 uuid: 8ae71b9b-4a8d-436c-a68d-0b506952e571
-                front: What is the default per-deck limit of new cards per day?
+                front: Default per-deck limit of new cards per day
                 back: 20
         -
                 uuid: 8d782b45-cd6c-4f6f-978b-2cb18e52b733
-                front: What is the default per-deck limit of reviews per day?
+                front: Default per-deck limit of reviews per day
                 back: 100
         -
                 uuid: 63c98109-6751-476b-9320-1c036c826bcc
@@ -389,7 +391,8 @@ notes:
                 uuid: bec4f3cb-cd71-4e62-9bd5-3bad7dd28127
                 front: Why may LaTeX not be shown on mobile?
                 back: >
-                        Because the card must first be viewed on desktop to generate the LaTex before
+                        Because the card must first be viewed on desktop to
+                        generate the LaTex before
                         the mobile sees the LaTeX.
         -
                 uuid: 587fc2c8-2b2b-4fc7-bdd0-3835ef05a768

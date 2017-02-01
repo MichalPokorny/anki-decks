@@ -12,7 +12,8 @@ notes:
                 front: Jak vypadá update pro feedforward sítě, obecně?
                 back: >
                         [$$]
-                        w_{ij} -= \\frac{\\partial E}{\\partial w_{ij}} = \\frac{\\partial E}{\\partial y_j}\\frac{\\partial y_j}{\\partial \\xi_j}\\frac{\\partial \\xi_j}{\\partial w_{ij}}
+                        w_{ij} -= \\frac{\\partial E}{\\partial w_{ij}} =
+                        \\frac{\\partial E}{\\partial y_j}\\frac{\\partial y_j}{\\partial \\xi_j}\\frac{\\partial \\xi_j}{\\partial w_{ij}}
                         [/$$]
         -
                 uuid: 78dc62d7-6f8f-4ebc-9bd3-4efafc2ccbc3
@@ -23,40 +24,43 @@ notes:
                         [/$]
         -
                 uuid: cbaf91a5-83a2-43ee-a16d-61a019357318
-                front: Jak vypadá použití [$]\\delta[/$] v updatovacím pravidle?
+                markdown: false
+                front: Jak vypadá použití [$]\delta[/$] v updatovacím pravidle?
                 back: >
                         [$]
-                        w_{ij} += \\delta_j \\frac{\\partial \\xi_j}{\\partial w_{ij}} = \\delta_j y_i
+                        w_{ij}+=\delta_j\frac{\partial\xi_j}{\partial w_{ij}}=\delta_j y_i
                         [/$]
         -
                 uuid: d4a36360-45fe-44e5-ac35-c417012061a9
-                front: Plná forma updatu pro váhy do výstupní vrstvy
+                front: Plná forma updatu - váhy do výstupní vrstvy
                 back: >
                         [$]w_{ij} -= (y_j - d_j) f'(\\xi_j) y_i[/$$]
         -
                 uuid: 111c73aa-eade-4989-bc69-2f4cec56779b
-                front: Plná forma updatu pro váhy do skrytých vrstev
+                front: Plná forma updatu - váhy do skrytých vrstev
                 markdown: false
                 back: >
                         [latex]
-                        \\begin{align*}
+                        \begin{align*}
                         w_{ij} & -= & (\sum_k \frac{\partial E}{\partial \xi_k} w_{jk}) f'(\xi_j) y_i = \\
                                &  = & (\sum_k \delta_k w_{jk}) f'(\xi_j) y_i
-                        \\end{align*}
+                        \end{align*}
                         [/latex]
         -
                 uuid: e40d07d1-565a-40f1-8066-0c313967d318
-                front: Derivace sigmoidy s parametrem [$]\\lambda[/$] vzhledem k její hodnotě
+                front: >
+                        Derivace sigmoidy s parametrem [$]\\lambda[/$] vzhledem
+                        k její hodnotě
                 back: >
-                        [$]f'(x) = \\lambda f(x) (1-f(x))[/$]
+                        [$]\\sigma'(x) = \\lambda \\sigma(x) (1-\\sigma(x))[/$]
         -
                 uuid: 3e6d5447-bf83-456a-aba4-d6bc537ab880
                 front: Aktualizace vah s momentem
                 back: >
-                        [$$]
+                        [$]
                         w_{ij}^{(t+1)} = w_{ij}^{(t)} + \\alpha \\delta_j y_i +
                                 \\alpha_m (w_{ij}^{(t)} - w_{ij}^{(t-1)})
-                        [/$$]
+                        [/$]
         -
                 uuid: 855893e2-9a41-4b34-9a45-c05098fce827
                 front: Velikost momentu učení
@@ -77,8 +81,9 @@ notes:
                 uuid: 2cd4abd6-9386-4cd9-8abb-4049fdfd8ece
                 front: Proč jsou problém příliš velké i příliš malé váhy?
                 back: >
-                        Malé: Šířená chyba je moc malá.<br>
-                        Velké: Chybová funkce se dostane do saturované zóny, je plochá.
+                        Malé: Moc malá šířená chyba.<br>
+                        Velké: Chybová funkce v saturované zóně,
+                        je plochá.
         -
                 uuid: f3485758-c4a8-4f09-b934-0adceccebb6e
                 topic: Chytrá volba vah
@@ -88,7 +93,9 @@ notes:
         -
                 uuid: e7ea5e2f-d109-457c-aadd-4a09155b21ac
                 topic: Chytrá volba vah
-                front: Střední hodnota potenciálu když nainicializujeme váhy náhodně v [$]\\alpha_m[/$] kolem nuly
+                front: >
+                        Střední hodnota potenciálu když nainicializujeme váhy
+                        náhodně v [$]0\\pm\\alpha_m[/$]
                 back: >
                         [$$]
                         E[\\xi_j] =
@@ -103,8 +110,8 @@ notes:
                 back: >
                         [latex]
                         \begin{align*}
-                        \sigma_{\xi_j}^2 & = & E[ (\xi_j)^2] - (E[\xi_j])^2 = E[ (\sum_{i=0}^n w_{ij} x_i)^2] - 0 =
-                                           & = & \sum_{i,k=0}^{n} E[w_{ij} w_{kj} x_i x_k] = \sum_{i=0}^n E[(w_{ij})^2] E[(x_i)^2]
+                        \sigma_{\xi_j}^2 & = & E[ (\xi_j)^2] - (E[\xi_j])^2 = E[ (\sum_{i=0}^n w_{ij} x_i)^2] - 0 = \\
+                                         & = & \sum_{i,k=0}^{n} E[w_{ij} w_{kj} x_i x_k] = \sum_{i=0}^n E[(w_{ij})^2] E[(x_i)^2]
                         \end{align*}
                         [/latex]
         -
@@ -155,7 +162,9 @@ notes:
         -
                 uuid: 7b3c1733-32ae-4cc9-b36b-b0c5ee1c9782
                 topic: Adaptivní parametr učení
-                front: Delta-bar-delta algoritmus, proč je lepší než Silva-Almeida
+                front: >
+                        Delta-bar-delta algoritmus, proč je lepší
+                        než Silva-Almeida
                 back: >
                         Není tak citlivý na exponenciální růst když se moc
                         dlouho zrychluje.
@@ -177,9 +186,9 @@ notes:
                         <ul>
                         <li> Backprop s momentem
                         <li> Začni s rychlostí 1.2
-                        <li> Když se nezměnilo znaménko, vynásob rychlost 1.05
-                        <li> Když se změnilo, undoni poslední změnu, poděl
-                             rychlost 2 a pro účely momentu v dalším updatu se
+                        <li> Znaméno se nezměnilo &rarr; vynásob rychlost 1.05
+                        <li> Změnilo se &rarr; undoni poslední změnu, poděl
+                             rychlost 2, pro účely momentu v dalším updatu se
                              tvař že změna v téhle souřadnici byla 0.
                         </ul>
         -
@@ -192,13 +201,13 @@ notes:
                 uuid: 8606828b-9128-45ff-b000-7e22e0ad5b19
                 front: >
                         Aproximace gradientu druhého řádu.
-                        O co se s ním snažíme?
+                        O co se s tím snažíme?
                 back: >
                         [$]\\nabla E(w+h)^T\\approx\\nabla E(w)^T + h^T \\nabla^2 E(w)[/$]
                         <br>
                         Snažíme se gradient
                         [$]h = -(\\nabla^2 E(w))^{-1} \\nabla E(w)[/$]
-                        mít 0, protože hledáme [$]\\min E[/$].
+                        mít 0 (hledáme [$]\\min E[/$]).
         -
                 uuid: ce22d60a-439f-42ab-8126-003b0d1a71ea
                 front: Newtonovské metody pro druhý řád a problémy
@@ -249,7 +258,7 @@ notes:
                 uuid: f7eda12e-ea8c-4f7b-9241-e381ce03f077
                 front: Levenberg-Marquardtův algoritmus
                 back: >
-                        Je rychlejší a přesnější v oblasti minima erf.
+                        Je rychlejší a přesnější v oblasti minima [$]E[/$].
                         Kombinace gradientní a Newtonovy metody.
                         [$$]w_{\\min}=w_0-(H+\\lambda I)^{-1} \\cdot g[/$$], kde [$]g[/$] je gradient, [$]H[/$] je Hessovská matice<br>
 
@@ -268,9 +277,9 @@ notes:
                 uuid: ee40f752-837d-4d47-9787-f7bdbc09711b
                 front: Alternativní perturbační metoda s rychlejší konvergencí
                 back: >
-                        Zperturbuju výstup neuronu [$]i[/$] ([$]o_i[/$]) o
-                        [$]\\Delta o_i[/$].
-                        Spočítám rozdíl chyb. Jestli se zlepší, tak spočítám,
-                        jak má vypadat potenciál neuronu, aby měl tenhle
+                        Zperturbuju výstup neuronu [$]i[/$] ([$]o_i[/$])
+                        o [$]\\Delta o_i[/$].
+                        Spočítám rozdíl chyb. Jestli se zlepší, spočítám,
+                        jak má vypadat potenciál, aby měl neuron tenhle
                         výstup. Adaptuju váhy proporcionálně k velikosti
                         ([$]w_i'/\\xi' = w_i/\\xi[/$]).

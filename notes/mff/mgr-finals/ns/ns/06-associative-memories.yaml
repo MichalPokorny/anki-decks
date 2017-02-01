@@ -65,19 +65,22 @@ notes:
                 uuid: 104a8bf1-2f98-463f-bfe7-3e465da899e0
                 topic: Hebbovské učení
                 front: >
-                        Proč se v Hebbovském učení používá bipolární kódování,
-                        ne binární?
+                        Proč používá bipolární kódování, ne binární?
                 back: Bipolární vektory mají větší šanci na ortogonalitu.
         -
                 uuid: 62c57f98-ecf3-4202-89da-f2e7a7cbce49
                 topic: Hebbovské učení
-                front: Výstup Hebbovské sítě natrénované na matici pro [$] (x,y)[/$] na nenulovém vektoru [$]x[/$], [$]-x[/$]?
+                front: >
+                        Výstup Hebbovské sítě natrénované na matici pro
+                        [$] (x,y)[/$] na nenulovém vektoru [$]x[/$], [$]-x[/$]?
                 back: >
                         [$]y[/$], [$]-y[/$]
         -
                 uuid: 42fd3ab6-5cbc-488b-b62d-1071d55681a3
                 topic: Hebbovské učení
-                front: Jak vypadá matice sítě pro Hebbovské učení, která má trénovací vzory [$] (x_1,y_1), (x_2,y_2), \\ldots[/$]?
+                front: >
+                        Matice sítě pro Hebbovské učení na trénovacích
+                        vzorech [$] (x_1,y_1), (x_2,y_2), \\ldots[/$]
                 back: >
                         [$]W=W^{(1)} + W^{(2)} + \\ldots + W^{(m)}[/$]
 
@@ -85,21 +88,22 @@ notes:
         -
                 uuid: d0f60e88-2117-4142-b014-77fc0fa4c53a
                 topic: Hebbovské učení
-                front: Rozdělení výstupu sítě na správný výstup a crosstalk?
+                front: Rozdělení výstupu na správný výstup a crosstalk?
+                markdown: false
                 back: >
-                        [$$]
-                        x^{(p)} \\cdot W = x^{(p)} \\cdot (W^{(1)} + \\ldots) = x^{(p)} W^{(p)} + \\sum_{l\\neq p} x^{(p)} \\cdot W^{(l)} =
-
-                        = y^{(p)} \\cdot (x^{(p)} \\cdot x^{(p)}) + \\sum_{l\\neq p} y^{(l)} \\cdot (x^{(l)} \\cdot x^{(p)})
-                        [/$$]
-
-                        Crosstalk je poslední kus: [$]\\sum_{l\\neq p} y^{(l)} \\cdot (x^{(l)} \\cdot x^{(p)})[/$]
+                        [latex]
+                        \begin{align*}
+                        x^{(p)} \cdot W & = & x^{(p)} \cdot (W^{(1)} + \ldots) = \\
+                                        & = & x^{(p)} W^{(p)} + \sum_{l\neq p} x^{(p)} \cdot W^{(l)} = \\
+                                        & = & y^{(p)} \cdot (x^{(p)} \cdot x^{(p)}) +
+                                              \begin{underbrace}{\sum_{l\neq p} y^{(l)}\cdot (x^{(l)} \cdot x^{(p)})}_{\text{crosstalk}}
+                        [/latex]
         -
                 uuid: b4cb093c-66b9-4fad-b9a1-7ad8b27814a0
                 topic: Hebbovské učení
-                front: Jak by měl vypadat crosstalk, aby síť dávala dobré výsledky?
+                front: Jak by měl vypadat crosstalk pro dobré výsledky?
                 back: >
-                        Výstup sítě bude:
+                        Výstup:
                         [$$]
                         \\sgn(x^{(p)}\\cdot W)=\\sgn(y^{(p)} \\cdot (x^{(p)} \\cdot x^{(p)}) + \\sum_{l\\neq p}y^{(l)} \\cdot (x^{(l)} \\cdot x^{(p)}))
                         [/$$]<br>
@@ -109,11 +113,12 @@ notes:
                         \\sgn(x^{(p)} \\cdot W)=\\sgn(y^{(p)} + \\sum_{l\\neq p}y^{(l)} \\cdot \\frac{x^{(l)} \\cdot x^{(p)}}{x^{(p)} \\cdot x^{(p)}})
                         [/$$]
 
-                        Takže chci, aby absolutní hodnota všech složek
+                        Chci, aby absolutní hodnota všech složek
                         [$]\\sum_{l\\neq p}y^{(l)} \\cdot \\frac{x^{(l)} \\cdot x^{(p)}}{x^{(p)} \\cdot x^{(p)}}[/$] byla menší než 1.
         -
                 uuid: 88bd1b9f-4b04-4351-982d-c37c4c467862
-                front: Rekurentní asociativní paměť versus bez zpětné vazby
+                front: >
+                        Rekurentní asociativní paměť vs. bez zpětné vazby
                 back: >
                         Sféry vlivu atraktorů jsou v rekurentní větší.
                         Ale zase rekurentní asociativní paměť má menší kapacitu.
@@ -167,9 +172,10 @@ notes:
                         Použití pseudoinverzní matice pro minimalizaci odchylky
                         v single-layer BP síti
                 back: >
-                        Odchylka: [$]E = \\sum_{p=1}^P \\sum_{j=1}^m (d_{j,p}-y_{j,p})^2[/$]
+                        Odchylka:
+                        [$]E=\\sum_{p=1}^P\\sum_{j=1}^m (d_{j,p}-y_{j,p})^2[/$]
                         <br>
-                        [$$]y_{j,p} = \\sum_{i=1}^n w_{ij} x_{i,p}[/$$]
+                        [$]y_{j,p}=\\sum_{i=1}^n w_{ij}x_{i,p}[/$]
                         <br>
                         Gradient:
                         [$$]\\partial E/\\partial w_{ij} =

@@ -50,7 +50,8 @@ notes:
                 topic: A*
                 front: Podle čeho prioritizuje A*?
                 back: >
-                        Podle [$]f(n)=g(n)+h(n)[/$], kde [$]g(n)[/$] je délka cesty do [$]n[/$] z kořene
+                        Podle [$]f(n)=g(n)+h(n)[/$], kde [$]g(n)[/$] je délka
+                        cesty do [$]n[/$] z kořene
         -
                 uuid: c4f970b6-0348-48a8-8fc3-961866eb81c6
                 topic: A*
@@ -105,28 +106,31 @@ notes:
                 front: >
                         Jaké 2 grafové meta-algoritmy se liší a jak?
                         Co heuristiky?
+                markdown: false
                 back: >
                         <ul>
-                        <li> *Tree-Search*: stačí admisibilní heuristika aby
-                             byl A-star optimální.
-                        <li> *Graph-Search*: musí být monotónní.
+                        <li> <i>Tree-Search</i>: stačí admisibilní heuristika
+                             aby byl A* optimální.
+                        <li> <i>Graph-Search</i>: musí být monotónní.
                         </ul>
                         V Graph-Search jde jednoho vrcholu dosáhnout více
                         cestami, kde druhá může zkrátit první.
         -
                 uuid: 44799b49-ffd1-4c2c-90ef-942bb2b43b82
                 topic: A*
-                front: Kdy je A-star optimální v Tree-Search? Důkaz.
+                markdown: false
+                front: Kdy je A* optimální v Tree-Search? Důkaz.
                 back: >
                         Když je [$]h(n)[/$] admisibilní heuristika.<br>
 
                         Ať je [$]G_2[/$] cíl, který je na fringe a [$]C^{ * }[/$] je optimální cost.<br>
-                        Pak: [$]f(G_2)=\\underbrace{g(G_2)+h(G_2)=g(G_2)}_{h(G_2)=0}>C{ * }[/$]<br>
+                        Pak: [$]f(G_2)=\underbrace{g(G_2)+h(G_2)=g(G_2)}_{h(G_2)=0}>C{ * }[/$]<br>
 
                         Ať [$]n[/$] je node na fringe co leží na optimální cestě.
-                        Pak: [$]f(n)=g(n)+h(n)\\leq C^{ * }[/$], protože [$]h[/$] je admisibilní.<br>
+                        Pak: [$]f(n)=g(n)+h(n)\leq C^{ * }[/$], protože [$]h[/$] je admisibilní.<br>
 
-                        Dohromady: [$]f(n)\\leq C^{ * }>f(G_2)[/$]. Proto algoritmus nejdřív rozbalí [$]n[/$].
+                        Dohromady: [$]f(n)\leq C^{ * }>f(G_2)[/$].
+                        Proto algoritmus nejdřív rozbalí [$]n[/$].
         -
                 uuid: 3f87c2c1-0080-4ac1-9588-bf2b840124e4
                 topic: A*
@@ -148,8 +152,9 @@ notes:
         -
                 uuid: d916f074-cb0c-4bc5-b805-13959d9ae4b5
                 topic: A*
+                markdown: false
                 front: >
-                        A-star a kontury a cesta do cíle.
+                        A* a kontury a cesta do cíle.
                         Co jsou nody, které algoritmus za svůj běh expanduje?
                 back: >
                         Pro neklesající [$]f(n)[/$] jdou nakreslit podle hodnot
@@ -196,8 +201,9 @@ notes:
                 uuid: 53caeae2-0b87-4fff-97d3-7b3ef7c14106
                 topic: IDA*
                 front: Zkratka
+                markdown: false
                 back: >
-                        Iterative deepening A-star.
+                        Iterative deepening A*
         -
                 uuid: 2989ad27-c59d-4cdb-98a2-7cafed518160
                 topic: IDA*
@@ -212,9 +218,10 @@ notes:
         -
                 uuid: 5bac3bf9-057e-412e-82c4-289a1f4c484f
                 topic: IDA*
-                front: Výhoda oproti A-star
+                markdown: false
+                front: Výhoda oproti A*
                 back: >
-                        Má menší spotřebu paměti, protože je depth-first.
+                        Menší spotřeba paměti (je depth-first).
         -
                 uuid: 7276de86-7996-4f66-b737-23afb9bd6259
                 front: Recursive best-first search &mdash; algoritmus
@@ -233,7 +240,8 @@ notes:
                         odhad na délku cesty skrz současný podstrom.
         -
                 uuid: 0776ba77-2a66-4efb-8524-d3de22131639
-                front: Kdy je IDA-star optimální?
+                markdown: false
+                front: Kdy je IDA* optimální?
                 back: >
                         Když používá admisibilní heuristiku.
         -
@@ -252,19 +260,21 @@ notes:
                 uuid: 9f21c5b6-dd18-471a-8bf2-fab06d2ea323
                 topic: SMA*
                 front: Zkratka
+                markdown: false
                 back: >
-                        Simplified memory-bounded A-star.
+                        Simplified memory-bounded A*
 
         -
                 uuid: 21870f9e-b509-4de0-9894-065b9829acb3
                 topic: SMA*
                 front: Algoritmus
+                markdown: false
                 back: >
                         Pro každý vrchol si pamatuj současný nejpřesnější
                         odhad na délku
-                        cesty skrz něj, jako v IDA-star.<br>
+                        cesty skrz něj, jako v IDA*.<br>
 
-                        Jako v A-star expanduj node s nejmenším odhadem na
+                        Jako v A* expanduj node s nejmenším odhadem na
                         délku cesty do cíle skrz něj.<br>
 
                         Když dojde paměť, smaž nejhorší list; je-li jich víc,
@@ -273,9 +283,10 @@ notes:
                 uuid: b094b561-0314-4e8b-a841-b67e6bffb178
                 topic: SMA*
                 front: Optimalita
+                markdown: false
                 back: >
-                        Když je dost paměti na uložení nejlepší cesty (a
-                        heuristika je admisibilní), SMA-star najde v
+                        Když má dost paměti na uložení nejlepší cesty (a
+                        heuristika je admisibilní), SMA* najde v
                         tree-search nejlepší cestu.<br>
                         Když je málo paměti, najde nejlepší co se do paměti
                         vejde.
@@ -290,24 +301,28 @@ notes:
                         </ul>
         -
                 uuid: ab93dba1-29b3-44a0-82b3-d9d888223810
-                front: Poměřování A-star heuristik číselně
+                markdown: false
+                front: Poměřování A* heuristik číselně
                 back: >
                         Ať heuristika rozbalí [$]N[/$] nodů.
                         Porovnáváme [$]b^{ * }[/$], branching faktor
-                        plného stromu co má [$]N+1[/$] nodů ([$]N+1=1+b^{ * }+\\ldots+(b^{ * })^d[/$]).
+                        plného stromu co má [$]N+1[/$] nodů ([$]N+1=1+b^{ * }+\ldots+(b^{ * })^d[/$]).
         -
                 uuid: b7042e65-c900-4aa5-9d5f-f16326927b72
-                front: Definice - dominující heuristika
+                front: >
+                        Definice:
+                        Heuristika [$]h_2[/$] dominuje heuristiku [$]h_1[/$]
+                markdown: false
                 back: >
-                        Heuristika [$]h_2[/$] dominuje heuristiku [$]h_1[/$],
-                        když [$] (\a n) h_2(n)\\geq h_1(n)[/$].
+                        [$] (\a n) h_2(n)\geq h_1(n)[/$]
         -
                 uuid: 2efbf879-7dbb-4cb1-a6d1-643ee9b82937
                 front: >
-                        Jak se liší A-star na dvojici heuristik,
+                        Jak se liší A* na dvojici heuristik,
                         kde jedna dominuje druhou?
+                markdown: false
                 back: >
-                        A-star na dominující heuristice expanduje nejvýše tolik
+                        A* na dominující heuristice expanduje nejvýše tolik
                         nodů jako na dominované.
                         Expanduje totiž nody, kde [$]f(n)<C^{ * }[/$], neboli
                         [$]h(n)<C^{ * }-g(n)[/$].
@@ -317,12 +332,12 @@ notes:
                 uuid: 32c66cbc-4dec-40b6-9b0c-da669133e8c9
                 front: Kdy je lepší dávat dominující heuristiku?
                 back: >
-                        Vždy, když zůstane admisibilní a když netrvá moc dlouho ji počítat.
+                        Vždy, když je admisibilní a nepočítá se moc dlouho.
         -
                 uuid: 540f40fe-43b4-4f0c-8020-efd283bd5117
                 front: Jak zkombinovat heuristiky co se navzájem nedominují?
                 back: >
-                        Vzít z nich maximum, to je všechny dominuje.
+                        Vzít [$]\\max[/$], to je všechny dominuje.
         -
                 uuid: 0ad36a46-3dd1-4d40-93bb-bd4a24b0e34d
                 front: >

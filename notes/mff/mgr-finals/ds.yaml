@@ -938,8 +938,7 @@ notes:
                 back: >
                         Zvolím [$]x_0,\\ldots x_{d-1}\\in [m][/$],
                         náhodné tabulky [$]T_0,\\ldots T_{d-1}: [m]\\rightarrow\\{0,1\\}^\\ell[/$],
-                        výstup je [$]T_0[x_0]\\oplus \\ldots T_{d-1}(x_{d-1})[/$]
-                        (XOR po bitech).
+                        výstup je [$]T_0[x_0]\\oplus \\ldots T_{d-1}[x_{d-1}][/$].
                         <br>
                         2-univerzální.
         -

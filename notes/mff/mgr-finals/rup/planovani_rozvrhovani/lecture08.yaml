@@ -235,10 +235,11 @@ notes:
         -
                 uuid: 755cc706-e587-4d11-aa4e-6f7374c0aadc
                 front: >
-                        Definice: [$]\\theta(\\Phi'/\\Phi)[/$]
+                        Definice: [$]\theta(\Phi'/\Phi)[/$]
+                markdown: false
                 back: >
-                        [$]\\theta=\\{\\varphi\\cup(\\varnothing,C'):
-                        \\varphi\\ \\text{je pomocnik pro}\\ F'\\}[/$]
+                        [$]\theta=\{\varphi\cup(\varnothing,C'):
+                        \varphi\ \text{je pomocnik pro}\ F'\}[/$]
                         <br><br>
                         ([$]\\Phi'=(F',C')[/$])
         -
@@ -398,26 +399,11 @@ notes:
                 topic: Plánování se zdroji
                 front: Jak hledat zdrojové konflikty?
                 back: >
-                        Graf, kde jsou všechny protínající se
-                        časové výroky spojeny hranami.
+                        Graf: protínající se časové výroky spojeny hranami.
                         Hledáme nejmenší kliku, že
                         [$]\\sum_{i\\in U}q_i>Q[/$].
                         Té se říká *minimální kritická množina*
                         (MCS).
-        -
-                uuid: d41015e9-2fbc-4b8e-8a45-ca8d2af58d5d
-                topic: Plánování se zdroji
-                front: Hledání minimální kritické množiny
-                back: >
-                        Vrcholy očíslujeme.
-                        Pro každý vrchol si pomocí DFS zkonstruujeme kliky
-                        obsahující vrcholy s menším indexem.
-                        Kliky, které překročí kapacitu, si zapamatujeme
-                        a dál nerozšiřujeme.
-                        <br><br>
-                        Vstup: nalezená část kliky, na začátku prázdná.
-                        Kandidáti na zařazení do kliky, na začátku všechny vrcholy.
-                        # TODO: detaily
         -
                 uuid: 5b5d3c1b-3597-4637-a41e-76329e22836e
                 topic: Plánování se zdroji

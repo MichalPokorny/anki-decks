@@ -83,8 +83,8 @@ notes:
                         \Delta_2(S,\{p,q\})= 1 + \min_a \left\{
                           \begin{cases}
                             \Delta_2(S, \mathrm{pre}(a))          & \{p,q\}\subseteq \mathrm{eff}^+(a) \\
-                            \Delta_2(S, \{q\}\cup\mathrm{pre}(a)) & p\in\mathrm{eff}^+(a) \
-                            \Delta_2(S, \{p\}\cup\mathrm{pre}(a)) & q\in\mathrm{eff}^+(a) \
+                            \Delta_2(S, \{q\}\cup\mathrm{pre}(a)) & p\in\mathrm{eff}^+(a) \\
+                            \Delta_2(S, \{p\}\cup\mathrm{pre}(a)) & q\in\mathrm{eff}^+(a) \\
                             \infty & \text{otherwise}
                           \end{cases}
                         \right\}

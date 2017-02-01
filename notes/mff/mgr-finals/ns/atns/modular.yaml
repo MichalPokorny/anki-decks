@@ -53,36 +53,10 @@ notes:
 
                         Výsledek jsou robustnější sítě, malá výpočetní složitost, lepší generalizace, omezení problémů s lokálními minimy.
         -
-                uuid: 9cd55fa3-f1ae-4229-8446-246c8b2bd259
-                front: Pointa modularity
-                back: >
-                        Rozdělení úlohy do podúloh.<br>
-
-                        Extrahujeme [$]\\varepsilon[/$]-ekvivalentní moduly BP-sítí.<br>
-                        Eliminujeme přebytečné skryté/výstupní neurony.<br>
-                        Uděláme kompromis mezi přesností extrahovaného modulu a jeho optimální architekturou.
-        -
                 uuid: ad1ba955-bf80-4f15-b4a9-7b2fd5d7d601
                 front: Co je to modul BP-sítě?
                 back: >
                         Stejný počet vrstev, každá skrytá vrstva je podmnožina skryté vrstvy hlavní sítě.
-        -
-                uuid: f7ccbfeb-28b8-4bc1-af0d-5bec78c716e1
-                front: Věta o extrakci modulů a její důkaz
-                back: >
-                        TODO
-                        Nechť [$]S[/$] je konečná množina vstupních vzorů,
-                        [$]B[/$] BP-síť, [$]H_l[/$] neurony poslední skryté vrstvy.
-
-                        Potom pro libovolné [$]\\varepsilon>1[/$] existuje
-                        konstanta [$]K_\\varepsilon>0[/$], že:
-
-                        Pokud existuje v [$]\\ell[/$]-té skryté vrstvě neuron
-                        [$]k[/$] takový, že [$] (\\a x\\in S)(\\a i \\in O) |w_ki z_k| \\leq K_\\varepsilon[/$],
-
-                        <br>
-                        potom je [$]M^k[/$], ve které odeberu neuron [$]k[/$],
-                        [$]\\varepsilon[/$]-ekvivalentní modul [$]B[/$] ([$]M_k\\sim_\\varepsilon^S B[/$]).
         -
                 uuid: e650e8f0-1358-455a-9c08-1483092e9174
                 front: Co chceme od NS s modulární architekturou?
