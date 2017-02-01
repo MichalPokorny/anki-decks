@@ -197,12 +197,12 @@ notes:
         -
                 uuid: 1c7915b8-6245-46c8-a2be-5e29f49f28ec
                 front: >
-                        topic: The Iliad
+                        Topic: The Iliad
                 back: Trojan war
         -
                 uuid: 6d395784-b933-4dc2-be6a-e7ff3e07a3dd
                 front: >
-                        duration: Trojan war
+                        Duration: Trojan war
                 back: 9 years
         -
                 uuid: 69c975a5-68a6-4251-be8c-03f3bdb29868
@@ -798,7 +798,7 @@ notes:
         -
                 uuid: 668424b4-1896-40a1-b922-b5b119499cae
                 topic: Parmenides
-                front: Two parts of his poem
+                front: 2 parts of his poem
                 back: The Way of Truth, The Way of Opinion
         -
                 uuid: 85879a6f-0efb-4934-af5b-bd9c784b87c6
@@ -887,7 +887,7 @@ notes:
         -
                 uuid: 5079a02b-7330-45ab-bbf6-6e16b604e399
                 topic: Atomism
-                front: Two figures preeminent in development of atomist thought
+                front: 2 figures preeminent in development of atomist thought
                 back: Leucippus, Democritus
         -
                 uuid: 65ced142-57f2-43e0-89f4-b2a0cd5836b1
@@ -1456,7 +1456,8 @@ notes:
                         Athens: strong navy, Sparta: land power
         -
                 uuid: 4abb3dc7-75de-485e-837e-466221f649ce
-                front: Name of large Spartan slave population
+                front: >
+                        Name: Large Spartan slave population
                 back: Helots
         -
                 uuid: 033bb6dc-afd9-4683-ab19-d7368f580d70
@@ -1713,7 +1714,7 @@ notes:
         -
                 uuid: 2a49d977-eca9-4996-bb8f-aec1a9b8352c
                 front: >
-                        Name of technique "proposal-question-difficulties-new proposal-questions"
+                        Name: "proposal-question-difficulties-new proposal-questions" technique
                 back: dialectic
         -
                 uuid: 6b623b11-60d9-4f5d-a25b-0581c3653558
@@ -1872,12 +1873,13 @@ notes:
         -
                 uuid: 6cb14f50-1eea-4893-bd76-aa60bfe376af
                 topic: Socrates
-                front: His children
+                front: Children
                 back: 3 sons
         -
                 uuid: 21e70f32-f883-410c-8cfb-e70ec12265c5
                 topic: Socrates
-                front: Name of his main accuser
+                front: >
+                        Name: His main accuser
                 back: Meletus
         -
                 uuid: f97a6552-fbd0-4be5-98f2-8812c7d86adf
@@ -2189,7 +2191,7 @@ notes:
         -
                 uuid: d9e5fd71-fa41-45c9-8c74-aa390746890e
                 topic: Plato
-                front: Two relationships between Forms and appearances
+                front: 2 relationships between Forms and appearances
                 back: >
                         Making Intelligible (makes eagle intelligible), Producing (accounts for eagle's existence as an eagle)
         -
@@ -2634,25 +2636,26 @@ notes:
                 front: Aristotle on ethics and elitism
                 back: >
                         More cautious and less inclined to grandiose
-                        claims (e.g., the cave). The ordinary citizen is able
-                        to make good decisions and live a good life.
+                        claims (e.g., the cave). Ordinary citizens can
+                        make good decisions and live good lives.
         -
                 uuid: 126a1fe3-00b7-4369-adb8-05d97a8a9dc9
                 front: >
                         "The fox knows many things, the hedgehog knows one great thing"
                         &mdash; Plato and Aristotle
                 back: >
-                        Plato: one big problem, everything he touches is transformed by that concern.
+                        Plato: one big problem, everything he touches is
+                        transformed by it.
                         <br><br>
                         Aristotle: many small problems, has a pattern to
-                        their treatment, he is interested in each for its own sake.
+                        their treatment, interested in each for its own sake.
                         <br><br>
-                        Aristotle is a fox, Plato is a hedgehog
+                        Aristotle: fox, Plato: hedgehog
         -
                 uuid: 01b0a129-8772-4bdb-ba68-a07c701221e7
                 topic: Aristotle
                 front: Agreement with Plato on knowledge
-                back: Must be certain and enduring, so about forms
+                back: Certain and enduring, so about forms
         -
                 uuid: 906734f7-2198-475f-83b9-0ce919f06e4c
                 front: >
@@ -2812,8 +2815,8 @@ notes:
                         What is a *syllogism*?
                 back: >
                         Three statements with three terms.<br>
-                        Two terms in each statement.<br>
-                        Two terms serve as reasons for the third.<br>
+                        2 terms in each statement.<br>
+                        2 terms serve as reasons for the third.<br>
                         The first two are premises, the last one is the conclusion.
         -
                 uuid: 017ce1f1-8308-496a-a1f7-28f473b44d65
@@ -3849,7 +3852,7 @@ notes:
         -
                 uuid: 619487fd-1f4d-4e82-92da-b13c5df07cdb
                 topic: Epicurus
-                front: Two origins of pain
+                front: 2 origins of pain
                 back: >
                         *Natural*: disease, separation from loved ones by
                         death
@@ -3863,7 +3866,7 @@ notes:
         -
                 uuid: 21c79cb8-8cad-4587-a884-a7f1a0d5a0a1
                 topic: Epicurus
-                front: Two particularly distressing kinds of beliefs
+                front: 2 particularly distressing kinds of beliefs
                 back: About gods, about death
         -
                 uuid: 843deb4b-15ee-4b08-a70d-0ec4cb7bf211
@@ -3989,18 +3992,19 @@ notes:
                 back: Friendship
         -
                 uuid: 719c9ddc-11b9-49e1-b74e-ea4c4537fe32
-                front: School famous for their esteem of friendship
+                front: School famous for esteem of friendship
                 back: Epicureans
         -
                 uuid: 96d91267-fc4f-4687-bd84-b9f6f477c46a
                 front: Epicurean's base
-                back: A "Garden" in Athens and similar communities
+                back: >
+                        "Garden" in Athens and similar communities
         -
                 uuid: 34af1831-9bff-4e3c-aacc-0e399702b7f9
                 front: Contributions of Stoics
                 back: >
-                        To logic, set theory, detailed theory of knowledge,
-                        lots of effort on theories of nature and the universe
+                        Logic, set theory, detailed theory of knowledge,
+                        effort on theories of nature and the universe
         -
                 uuid: 615ef2be-9f4e-4af9-9c80-25397d945018
                 front: Common point between Stoics and Epicureans
@@ -4039,7 +4043,8 @@ notes:
         -
                 uuid: 5e17b2d6-e3a8-4e9f-aec3-514d916b935a
                 topic: Stoicism
-                front: Major Stoic - escaped slave
+                front: >
+                        Name: Major Stoic - escaped slave
                 back: Epictetus
         -
                 uuid: 5e789a0b-2285-437f-b13f-8321d773dbe9
@@ -4068,7 +4073,8 @@ notes:
         -
                 uuid: 1e6ff3e9-4a34-4000-87b5-1a45cf205b9e
                 topic: Stoicism
-                front: Major Stoic - emperor
+                front: >
+                        Name: Major Stoic - emperor
                 back: Marcus Aurelius
         -
                 uuid: 8d1d152c-5ac1-42bb-9525-2dcceb0ec0c1
@@ -4119,15 +4125,15 @@ notes:
         -
                 uuid: fbb124cd-5191-49e8-8d8e-555836009d86
                 topic: Stoicism
-                front: The Stoic god
+                front: God
                 back: >
-                        *Not Epicurean god*: not unconcerned with the world
-                        <br><br>
-                        *Not Aristotle's god*: not an unmoved mover,
-                        related to the world only as an ideal
-                        <br><br>
-                        He can be known to the senses, **immanent** in the world.
+                        Can be known to the senses, **immanent** in the world.
                         Everything has a divine element (*pantheism*).
+                        <br><br>
+                        *Not Epicurean*: not unconcerned with world
+                        <br><br>
+                        *Not Aristotelian*: not an unmoved mover,
+                        related to the world only as an ideal
         -
                 uuid: 7f1012d6-ecf3-434b-9618-989b1fd6eeb5
                 topic: Stoicism
@@ -4288,7 +4294,7 @@ notes:
         -
                 uuid: b356a59d-4f0a-437b-9637-1fc8ceb2eda5
                 topic: Skepticism
-                front: Two ways other philosophies are dogmatic
+                front: 2 ways other philosophies are dogmatic
                 back: Circular reasoning, infinite regress
         -
                 uuid: dedc6aad-1c78-4af2-acd7-c06ef8fd4a48
@@ -4326,7 +4332,7 @@ notes:
         -
                 uuid: bbc92c63-4457-4b37-990a-342370b22d59
                 topic: Skepticism
-                front: Two grounds on which they base their claims
+                front: 2 grounds on which they base their claims
                 back: >
                         <ul>
                         <li> Argument that there's no alternative (e.g., problem of the criterion)
@@ -4335,7 +4341,7 @@ notes:
         -
                 uuid: 948e1dd3-b8de-4e78-8abe-7bce5f59d4a4
                 topic: Skepticism
-                front: The way to happiness
+                front: Way to happiness
                 back: Stop trying to find certainty
         # chapter 9: the christians - sin, salvation, and love
         -
@@ -4352,7 +4358,7 @@ notes:
         -
                 uuid: b67dbe86-f219-486d-9a97-6e9721d80ec0
                 topic: Bible
-                front: The founder of the Hebrew people
+                front: Founder of the Hebrew people
                 back: Abraham
         -
                 uuid: 39f5c176-c3f9-4313-bc3b-1186efff6757
@@ -4695,7 +4701,7 @@ notes:
                 uuid: 093ab818-b708-455c-ad34-494226ab0858
                 front: Manichean solution to problem of evil
                 back: >
-                        Two equal and opposed powers - good and evil.
+                        2 equal and opposed powers - good and evil.
                         Not just one omni* god.
         -
                 uuid: 28d594be-7640-4ee0-92c5-e3c6ed002506
@@ -4916,25 +4922,25 @@ notes:
                 topic: Augustine
                 front: Response to skeptical objections
                 back: >
-                        We can be deceived by senses and make intellectual
-                        mistakes.
-                        But, we can know some things:
-                        <br><br>
-                        We exist, we know we exist, we know we're glad for it.
-                        <br><br>
-                        We are certain of: existence, life and knowledge
+                        Senses and intellect can deceive, but we know some
+                        things:
+                        <ul>
+                        <li>
+                        We exist, we know we do, we know we're glad for it.
+                        <li>
+                        Certainty: existence, life and knowledge
                         (or, alternatively, existence, knowledge and will).
-                        Truth is available to us, at least a little bit -
+                        <li>
+                        At least a bit of truth is available -
                         about our inner life.
-                        <br><br>
-                        We also know mathematical truths. This knowledge
-                        is common to us all.
-                        <br><br>
-                        Additionally, we have other practical truths we
-                        agree on: "Incorrupt is better than corrupt.
-                        Eternal is better than temporal. Inviolable
+                        <li>
+                        Mathematical truths, common to all.
+                        <li>
+                        Other agreed practical truths : "Incorrupt better than
+                        corrupt. Eternal better than temporal. Inviolable
                         better than violable."
-                        So the highest good must have this.
+                        (The highest good must have those.)
+                        </ul>
         -
                 uuid: 30ff7af7-fe90-467c-8f6f-cae9aa5a7983
                 topic: Augustine
@@ -5057,7 +5063,7 @@ notes:
                 include_reverse: true
         -
                 uuid: 85480605-0c19-4541-b4d8-146a1cdbbb5f
-                front: The Great Chain of Being
+                front: Great Chain of Being
                 back: >
                         Plotinus was familiar with mystical experience.
                         Multiplicity of things disappears.
@@ -5128,7 +5134,7 @@ notes:
                 topic: Augustine
                 front: Solution to problem of evil
                 back: >
-                        Two parts: *natural* evil and *moral* evil
+                        2 parts: *natural* evil and *moral* evil
                         <br><br>
                         *Natural evil*: Does not exist.
                         We experience things as evil, but they actually aren't.

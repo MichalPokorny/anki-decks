@@ -138,9 +138,10 @@ notes:
                 include_reverse: true
         -
                 uuid: c68cbdd1-404a-49bd-8523-ebad279b53b2
-                front: Co je to Mersennovo prvočíslo?
+                front: >
+                        Definice: Mersennovo prvočíslo
                 back: >
-                        [$$]2^n-1[/$$]
+                        [$]2^n-1[/$]
         -
                 uuid: f40d801e-4a21-492d-960a-75fd03dfdf01
                 front: >
@@ -157,7 +158,7 @@ notes:
         -
                 uuid: 92761762-1509-42d0-94ca-be89131f3655
                 topic: Cromwell's rule
-                front: What does it refer to?
+                front: Historical reference
                 back: >
                         Oliver Cromwell, who wrote to the synod of
                         Church of Scotland on 5 August 1650, including:
@@ -188,16 +189,18 @@ notes:
                         Region such that for every pair of points within
                         the region, every point on the line segment connecting
                         those is also within the region.
+                include_reverse: true
         -
                 uuid: a2660b1d-c888-45a5-ba4f-90a19f97fa34
                 front: >
-                        Definition: Compact set
+                        Definition: Compact set [$]X[/$]
                 back: >
-                        [$]X[/$] is compact if every open cover of [$]X[/$]
-                        has a finite subcover
+                        Every open cover of [$]X[/$] has a finite subcover
+                include_reverse: true
         -
                 uuid: d96e7ab6-2224-40ab-a4f7-8ab5e4323e41
                 front: >
                         Definition: Quasiordering
                 back: >
                         Reflexive and transitive relation
+                include_reverse: true

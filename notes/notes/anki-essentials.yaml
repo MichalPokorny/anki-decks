@@ -106,11 +106,18 @@ notes:
         -
                 uuid: 19d1c8ea-f661-4e1f-bef4-98ddacb0502e
                 topic: 20 rules for formulating knowledge
-                front: Use ...
+                front: Use ... (8 techniques)
                 back: >
-                        Cloze Deletion; Imagery; Mnemonic Techniques;
-                        Graphic Deletion; Personalized Examples; Context Cues;
-                        Redundancy; Date Stamping
+                        <ul>
+                        <li> Cloze Deletion
+                        <li> Imagery
+                        <li> Mnemonic Techniques
+                        <li> Graphic Deletion
+                        <li> Personalized Examples
+                        <li> Context Cues
+                        <li> Redundancy
+                        <li> Date Stamping
+                        </ul>
         -
                 uuid: 3ac65894-316d-4d3e-abca-97cd0e4a6b50
                 topic: 20 rules for formulating knowledge
