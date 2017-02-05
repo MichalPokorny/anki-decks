@@ -31,19 +31,19 @@ notes:
                 topic: Plánování v prostoru plánů
                 front: Uzel prostoru plánů
                 back: >
-                        Částečný plán: [$]\\Pi=(A,<,B,L)[/$]
+                        Částečný plán: [$]\\Pi=(A,<_p,B,L)[/$]
                         <br>
-                        kde [$]A[/$] jsou částečně instanciované
+                        [$]A[/$]: částečně instanciované
                         plánovací operátory,
                         <br>
-                        [$]<[/$] je část. usp. na [$]A[/$],
+                        [$]<_p[/$]: část. usp. na [$]A[/$],
                         <br>
-                        [$]B[/$] jsou vazby typu [$]x=y[/$], [$]x\\neq y[/$]
-                        nebo [$]x\\in D_i[/$],
+                        [$]B[/$]: vazby
+                        [$]x=y[/$]/[$]x\\neq y[/$]/[$]x\\in D_i[/$],
                         <br>
-                        [$]L[/$] jsou kauzální vztahy typu [$]a_i \\rightarrow^p a_j[/$]:
-                        [$]a_i < a_j[/$] v částečném uspořádání, [$]p[/$] je efekt
-                        [$]a_i[/$] a předpoklad [$]a_j[/$], v [$]B[/$] jsou
+                        [$]L[/$]: kauzální vztahy typu [$]a_i \\rightarrow^p a_j[/$]:
+                        [$]a_i <_p a_j[/$], [$]p\\in\\mathrm{eff}^+(a_i)[/$],
+                        [$]p\\in\\mathrm{precond}^+(a_j)[/$], [$]B[/$] má
                         vazby mezi proměnnými v [$]p[/$]
         -
                 uuid: dedc413d-63ec-41b1-a1ca-739e3245de10

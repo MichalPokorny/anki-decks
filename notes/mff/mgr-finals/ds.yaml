@@ -533,34 +533,32 @@ notes:
                         Skutečná: asociativita (není plně asociativní),
                         nevidí budoucnost (má LRU).
         -
-                uuid: bc29fdf5-d98c-4503-8c47-97882feef63d
-                front: Sleator-Tarjanova věta o LRU/OPT strategii
+                uuid: 99ce2f16-2bce-422a-8c38-d0e197a75a0b
+                front: Sleator-Tarjanova věta o LRU/OPT strategii - znění
                 markdown: false
                 back: >
-                        Posloupnost přístupů [$]s_1, \ldots s_N[/$],
-                        LRU má [$]n_{\mathrm{LRU}}[/$] stránek,
-                        OPT má [$]n_{\mathrm{OPT}}[/$] stránek.<br>
-
-                        Tvrzení:
                         [$]f_{\mathrm{LRU}} \leq
                         \frac{n_{LRU}}{n_{LRU}-n_{OPT}}\cdot
-                        f_{\mathrm{OPT}}+n_{\mathrm{LRU}}[/$]<br><br>
-
-                        Pozorování:
-                        Když má LRU výpadek v čase [$]t_1, t_2[/$] na stejné
-                        stránce ([$]s_{t_1}=s_{t_2}[/$]),
-                        tak mezi [$]t_1[/$] a [$]t_2[/$] přistupuje
-                        k [$]n_{\mathrm{LRU}}[/$] různým stránkám.<br>
-
-                        Rozsekejme [$]s_{\*}[/$] na kusy, v nichž v každém je
-                        v LRU [$]n_{\mathrm{LRU}}[/$] výpadků (až na poslední).
-                        V každém se přistupuje k aspoň [$]n_{\mathrm{LRU}}[/$]
-                        různým stránkám.
-                        OPT musí mít v daném úseku aspoň
-                        [$]n_{\mathrm{LRU}}-n_{\mathrm{OPT}}[/$] výpadků,
-                        protože na začátku má OPT v sobě nejvýš
-                        [$]n_{\mathrm{OPT}}[/$] stránek.<br>
-
+                        f_{\mathrm{OPT}}+n_{\mathrm{LRU}}[/$]
+                        <br>
+                        Když zvolím 2x větší LRU, bude konstanta nejvýš 2.
+        -
+                uuid: bc29fdf5-d98c-4503-8c47-97882feef63d
+                front: Sleator-Tarjanova věta o LRU/OPT strategii - důkaz
+                markdown: false
+                back: >
+                        LRU má v časech [$]t_1, t_2[/$] výpadek stejné
+                        stránky &rarr; mezi [$]t_1[/$] a [$]t_2[/$] přistupuje
+                        k [$]n_{\mathrm{LRU}}[/$] různým stránkám.
+                        <br><br>
+                        Rozsekej přístupy na kusy, v každém
+                        [$]n_{\mathrm{LRU}}[/$] výpadků v LRU (až na poslední).
+                        V každém se přistupuje k [$]\\geq n_{\mathrm{LRU}}[/$]
+                        různým stránkám. OPT má v úseku
+                        [$]\\geq n_{\mathrm{LRU}}-n_{\mathrm{OPT}}[/$] výpadků,
+                        protože na začátku drží
+                        [$]\\leq n_{\mathrm{OPT}}[/$] stránek.
+                        <br><br>
                         Tedy: [$]f_{\mathrm{LRU}}/n_{\mathrm{LRU}} \leq \lceil
                         f_{\mathrm{OPT}} / (n_{\mathrm{LRU}}-n_{\mathrm{OPT}})
                         \rceil[/$]<br>
@@ -582,7 +580,7 @@ notes:
         -
                 uuid: c71f666f-87cf-4e3a-9a82-fdd34870f868
                 topic: Hashování
-                front: Způsoby řešení kolizí &mdash; jen názvy
+                front: 5 způsobů řešení kolizí &mdash; jen názvy
                 back: >
                         <ul>
                         <li> Separované řetězce
@@ -688,9 +686,8 @@ notes:
                 topic: Hashování
                 front: Proč nás zajímá balls & bins?
                 back: >
-                        Protože to říká že při náhodné hashovací funkci
-                        bude maximální velikost kyblíku
-                        [$]\\Theta(\\log n/\\log\\log n)[/$].
+                        Říká že při náhodné hashovací funkci bude maximální
+                        velikost kyblíku [$]\\Theta(\\log n/\\log\\log n)[/$].
         -
                 uuid: 935989fe-baee-45f7-a1c1-e4aefdf82607
                 topic: Hashování
@@ -830,7 +827,8 @@ notes:
                         [$]P_{h\\in H}[h(x_1)=a_1\\wedge\\ldots\\wedge h(x_k)=a_k]=1/m^k[/$]
         -
                 uuid: aecfe9c1-4f48-4a72-9811-affb44735f47
-                front: Příklady 2-univerzálních hashovacích systémů
+                front: >
+                        5 příkladů: 2-univerzálních hashovací systémy
                 markdown: false
                 back: >
                         <ul>

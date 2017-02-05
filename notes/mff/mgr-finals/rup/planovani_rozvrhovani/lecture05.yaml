@@ -74,7 +74,8 @@ notes:
                 back: >
                         Akce jsou závislé, když jedna maže předpoklad nebo
                         pozitivní efekt druhé.<br>
-                        Nezávislé: [$]\\mathrm{eff}^-(a)\\cap(\\mathrm{precond}(b)\\cup\\mathrm{eff}^+(b))=\\emptyset[/$]
+                        Nezávislé:
+                        [$]\\mathrm{eff}^-(a)\\cap(\\mathrm{precond}(b)\\cup\\mathrm{eff}^+(b))=\\emptyset[/$]
                         a obráceně.<br>
                         Každá vrstva vrstveného plánu se bude skládat z nezávislých
                         akcí (aby šly libovolně uspořádat).
@@ -94,17 +95,23 @@ notes:
                 uuid: f099651f-f287-4222-9343-0b0e83a8a095
                 front: Jak budeme plánovat s plánovacím grafem?
                 back: >
-                        Sestrojíme graf, ve kterém poslední vrstva splňuje cíl.<br>
+                        Sestrojíme graf, ve kterém poslední vrstva splňuje
+                        cíl.<br>
                         Z akčních vrstev vybereme množiny nezávislých akcí,
                         abychom dostali všechny cílové atomy.
                         To uděláme zpětným chodem od poslední úrovně.
                         <br>
                         Přidáme no-op akce.
         -
+                uuid: ba467268-c13f-4d2b-8213-29b8624100bd
+                front: >
+                        Značení: No-op akce
+                back: >
+                        [$]\\alpha_p[/$] pro atom [$]p[/$]
+        -
                 uuid: 61cbf4d3-7e8e-4621-84dd-d0ff37be22d6
                 front: Účel no-op akcí
                 back: >
-                        No-op akce: [$]\\alpha_p[/$] pro atom [$]p[/$].<br>
                         Aby každý atom v každé stavové vrstvě byl důsledkem
                         nějaké akce předchozí úrovně.
         -
@@ -116,7 +123,8 @@ notes:
                         takže jejich pozitivní efekty nemůžou být v první
                         stavové vrstvě (když jich nejde dosáhnout bez
                         závislosti).<br>
-                        Jako speciální případ podmínky pro no-opy [$]\\alpha_p[/$]:
+                        Jako speciální případ podmínky pro no-opy
+                        [$]\\alpha_p[/$]:
                         2 atomy nesmí být společně v jedné vrstvě, jestli
                         jsou pozitivní předpoklad a negativní efekt téže akce.
                         <br>
@@ -125,69 +133,74 @@ notes:
                         jsou mutex, můžeme rovnou vyřadit.
         -
                 uuid: c18d9c2e-d180-4249-8989-81c61eb62d37
-                front: Značení - množina akčních mutexů pro úroveň [$]i[/$]
+                front: >
+                        Značení: Množina akčních mutexů pro úroveň [$]i[/$]
                 back: >
                         [$]\\mu A_i[/$]
         -
                 uuid: 2c9e505f-76a8-48ee-9c88-c6871538d4ce
-                front: Značení - množina výrokových mutexů pro úroveň [$]i[/$]
+                front: >
+                        Značení: Množina výrokových mutexů pro úroveň [$]i[/$]
                 back: >
                         [$]\\mu P_i[/$]
         -
                 uuid: 321aba0e-8fdf-4268-9026-a5a54a16ddb2
                 front: >
-                        Formálně &mdash; kdy jsou akce [$]a[/$], [$]b[/$] mutex
-                        v úrovni [$]A_i[/$]?
+                        Formálně: Kdy platí mutex akcí &mdash;
+                        [$](a, b)\\in\\mu A_i[/$]?
                 back: >
-                        Když jsou závislé, nebo předpoklad [$]a[/$] je mutex
-                        předpokladu [$]b[/$] v předchozí úrovni
+                        [$]a,b[/$] závislé, nebo
+                        [$]\\e p\\in\\mathrm{precond}^+(a),
+                               q\\in\\mathrm{precond}^+(b):
+                           (p,q)\\in\\mu P_{i-1}[/$]
         -
                 uuid: 36a1ee65-bb8c-4a9d-b779-c19ffad853ec
                 front: >
-                        Formálně &mdash; kdy jsou atomy [$]p[/$], [$]q[/$]
-                        mutex v úrovni [$]P_i[/$]?
+                        Formálně: Kdy platí mutex atomů &mdash;
+                        [$](p,q)\\in\\mu P_i[/$]?
                 back: >
-                        Když každá akce v [$]A_i[/$], která má [$]p[/$] jako pozitivní
-                        efekt, je mutex každé akce, co má [$]q[/$] jako pozitivní efekt,
-                        a zároveň žádná akce nemá [$]p[/$] i [$]q[/$] jako pozitivní efekt.
+                        [$]\\a a\\neq b: p\\in\\mathrm{eff}^+(a),
+                                         q\\in\\mathrm{eff}^+(b):
+                           (a,b)\\in\\mu A_{i-1}[/$]
+                        a [$]\\nexists a: p\\in\\mathrm^{eff}^+(a)\\wedge
+                                          q\\in\\mathrm^{eff}^+(a)[/$].
         -
                 uuid: 976eed74-747c-46dd-8348-649cdfa8f1e6
                 front: >
                         Vlastnosti relace mutex a důkaz;
                         důsledky pro akce a výroky ve vrstvách
                 back: >
-                        Je symetrická.<br>
-                        Množiny mutexů v grafu monotónně klesají:
+                        Symetrická.<br>
+                        Mutexy v grafu monotónně klesají:
                         když [$]p,q\\in P_{i-1}[/$] a [$] (p,q)\\not\\in\\mu P_{i-1}[/$],
                         tak [$] (p,q)\\not\\in\\mu P_i[/$] a podobně s akcemi.<br>
-                        Důkaz: Když 2 výroky nejsou mutex, jejich no-opy
-                        taky nejsou mutex a posunou je dál.
-                        Když dvě akce nejsou mutex, jsou nezávislé a
-                        předpoklady nejsou mutex, takže můžu no-opy
+                        Důkaz: 2 výroky nejsou mutex &rarr; jejich no-opy
+                        taky nejsou mutex, posunou je dál.
+                        2 akce nejsou mutex &rarr; jsou nezávislé a
+                        předpoklady nejsou mutex &rarr; můžu no-opy
                         přemístit předpoklady dál a pustit akce později.
                         <br>
                         Důsledek: množiny akcí a výroků monotónně rostou
         -
                 uuid: c794b243-d794-499c-9d55-652dcb61f563
-                front: Technické omezení algoritmu Graphplan
+                front: Technické omezení
                 back: Akce nesmí mít negativní předpoklady
         -
                 uuid: 8fd62631-d71c-4bf8-832a-1d47bd68c37f
-                front: Algoritmus Graphplan
+                front: Algoritmus
                 back: >
-                        Střídám fázi expanze grafu a extrakce plánu.
-                        <br>
-                        Expanze: expanduj plánovací graf dokud nemáš všechny
-                        cílové atomy kde žádná dvojice není mutex (nutná
-                        podmínka).
-                        Pokud extrakce neuspěje, přidej další vrstvu.
-                        (Případně skonči když se splní nějaká podmínka,
-                        třeba max. počet kroků.)
-                        <br>
-                        Extrakce: pokus se vybrat z grafu plán co vede co cíle.
+                        Střídám expanzi grafu a extrakci plánu.
+                        <ul>
+                        <li> *Expanze*: expanduj plánovací graf dokud nemáš
+                        všechny cílové atomy kde žádná dvojice není mutex
+                        (nutná podmínka).
+                        <li> Extrakce neuspěje? Přidej vrstvu.
+                        (Případně: konec když se splní např. max. počet kroků.)
+                        <li> *Extrakce*: zkus vybrat z grafu plán do cíle
+                        </ul>
         -
                 uuid: 9a9985e8-f156-48f6-9e36-fce5d1dcc1be
-                front: Jak poznám pevný bod plánovacího grafu, k čemu je?
+                front: Jak poznám pevný bod, k čemu je?
                 back: >
                         Od pevného bodu nemusíš dál expandovat, stačí kopírovat.
                         V pevném bodě přestanou růst dostupné atomy/akce, resp.

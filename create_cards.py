@@ -3,11 +3,8 @@
 # TODO: Remove notes no longer linked to any UID
 # TODO: Import to specific decks
 
-import uuid
-import fnmatch
-import markdown
-import yaml
-import subprocess
+import cards
+
 import os
 import csv
 import sys
@@ -16,38 +13,7 @@ sys.path.append('/usr/share/anki')
 import anki
 import anki.importing
 
-def get_git_revision():
-    return subprocess.check_output(['git', 'rev-parse', 'HEAD']).strip()
-
 N_FIELDS = 7
-
-class Note(object):
-    def __init__(self, origin_file, uuid, include_reverse,
-                 topic,
-                 front, back,
-                 git_revision,
-                 deck):
-        self.deck = deck
-        self.origin_file = origin_file
-        self.uuid = uuid
-        self.include_reverse = include_reverse
-        self.topic = topic
-        self.front = front
-        self.back = back
-        self.git_revision = git_revision
-
-    def to_fields(self):
-        return [
-            self.uuid,
-            self.topic,
-            self.front, self.back,
-            'true' if self.include_reverse else '',
-            self.origin_file,
-            self.git_revision,
-
-            #'' # TAGS  --  can add those.
-        ]
-
 
 def get_uuids_in_deck(collection, deck_name):
     got_uuids = set()
@@ -62,80 +28,6 @@ def get_uuids_in_deck(collection, deck_name):
     return got_uuids
 
 
-def load_all_notes():
-    git_revision = get_git_revision()
-    print 'git rev:', git_revision
-
-    uuids = set()
-
-    my_notes = []
-
-    yaml_files = []
-    # TODO: follow symlinks
-    for root, dirnames, filenames in os.walk('notes'):
-        for filename in fnmatch.filter(filenames, '*.yaml'):
-            yaml_files.append(os.path.join(root, filename))
-
-    for path in yaml_files:
-        print(path)
-        with open(path) as yf:
-            data = yaml.load(yf)
-
-        # if 'uid_tag' in data:
-        #     uid_tag = data['uid_tag'] + '/'
-        # else:
-        #     uid_tag = ''
-
-        if 'topic' in data:
-            topic = data['topic']
-        else:
-            topic = ''
-
-        deck = data['deck']
-
-        for note_row in data['notes']:
-            note_uuid = note_row['uuid']
-            try:
-                uuid.UUID(note_uuid)
-            except ValueError:
-                print "Bad UUID", note_uuid, "in", path
-                raise
-            origin_file = unicode(path)
-            if note_uuid in uuids:
-                raise Exception("Duplicated UID:" + str(note_uuid))
-            uuids.add(note_uuid)
-            # print (origin_file, note_uuid)
-            # (front) (back) (add-reverse) (origin-file) (note_uuid) (git-revision)
-            if 'include_reverse' in note_row:
-                include_reverse = note_row['include_reverse']
-            else:
-                include_reverse = False
-
-            note_topic = topic
-            if 'topic' in note_row:
-                note_topic = note_row['topic']
-
-            if 'front' not in note_row:
-                raise Exception('No front: ' + note_uuid)
-
-            front = unicode(note_row['front'])
-            back = unicode(note_row['back'])
-
-            if ('markdown' not in note_row) or (note_row['markdown']):
-                front = markdown.markdown(unicode(note_row['front']))
-                back = markdown.markdown(unicode(note_row['back']))
-
-            my_notes.append(Note(
-                origin_file = origin_file,
-                uuid = note_uuid,
-                include_reverse = include_reverse,
-                topic = note_topic,
-                front = front,
-                back = back,
-                git_revision = git_revision,
-                deck = deck
-            ))
-    return my_notes
 
 class MyTextImporter(anki.importing.TextImporter):
     pass
@@ -159,7 +51,7 @@ def main():
 
     model = collection.models.byName("Basic (and reversed card) - synchronized with anki-decks")
 
-    my_notes = load_all_notes()
+    my_notes = cards.load_all_notes()
 
     notes_by_deck = {}
     for note in my_notes:
@@ -213,9 +105,10 @@ def main():
             cards = collection.findCards('anki-decks-uid:"' + note.uuid + '"')
             for card_id in cards:
                 card = collection.getCard(card_id)
-                card.did = deck_id
-                card.flush()
-            print(note.uuid, cards)
+                if card.did != deck_id:
+                    card.did = deck_id
+                    card.flush()
+            print note.uuid, cards
 
     collection.save()
     collection.close()

@@ -317,12 +317,12 @@ notes:
                 uuid: ed3e4f3c-cf58-4356-93b6-81f9173cbcad
                 front: Flow-shop model
                 back: >
-                        Speciální případ job-shop. Všechny úlohy mají stejný počet
-                        a stejné pořadí operací. Příklad: pásová výroba.
+                        Speciální případ job-shop. Všechny úlohy mají stejný
+                        počet a pořadí operací. Příklad: pásová výroba.
         -
                 uuid: 04d7ec87-0a91-4779-948d-63803e4951eb
                 front: Open-shop model
-                back: Jako flow-shop, ale bez uspořádání operací.
+                back: Flow-shop bez uspořádání operací.
         -
                 uuid: 4215e636-7594-41ba-b20a-c04e72f10b23
                 front: Věta o flow-shop a zdrojích, důkaz

@@ -1369,3 +1369,66 @@ notes:
                 back: >
                         Latin: "let it be printed"
                 include_reverse: true
+        -
+                uuid: 706dad9f-6545-4e1b-8563-2a20c5020fbb
+                front: Predilection
+                back: >
+                        Preference or special liking for something; bias in
+                        favour of something
+                include_reverse: true
+        -
+                uuid: 5640e19a-4fb1-4b09-91a0-623097e3fc67
+                front: Recant
+                back: >
+                        Verb: say that one no longer holds an opinion or
+                        belief, especially one considered heretical
+                include_reverse: true
+        -
+                uuid: 0bb87fd6-d781-4e1d-843a-14ca2ded9443
+                front: Impel
+                back: >
+                        Verb: drive, force, or urge (someone) to do something;
+                        drive forward; propel
+                        ("financial difficulties ...ed him to desperate measures")
+                include_reverse: true
+        -
+                uuid: 2977f74d-2568-4ed2-8a1f-ef84a0b54b53
+                front: Fender
+                back: >
+                        Noun:
+                        1. low frame bordering a fireplace to prevent burning coals from falling out
+                        2. plastic cylinder, tyre, piece of old rope or matting, etc., hung over a ship's side to protect it against impact.
+        -
+                uuid: ed2ddb4a-8144-4c68-b14d-3d69851b21fc
+                front: Dropsy
+                back: Old-fashioned or less technical term for edema
+        -
+                uuid: 3a9a2c7a-905d-4102-818e-a032df469830
+                front: Chiliagon
+                back: Polygon with 1000 sides
+                include_reverse: true
+        -
+                uuid: b6b0fd8f-5f1e-4eca-a447-183d9e39242d
+                front: Myriagon
+                back: Polygon with 10,000 sides
+                include_reverse: true
+        -
+                uuid: d69a910f-70d3-401d-ad30-0ceb11194819
+                front: Assent
+                back: >
+                        Noun/verb: express(ion of) approval or agreement
+        -
+                uuid: 19c6ea95-16ed-4478-a8df-75ea040de4f1
+                front: Scourge
+                back: >
+                        Noun: (historical) whip used as an instrument of punishment;
+                        person or thing that causes great trouble or suffering.
+
+                        Verb: cause great suffering to; (historical) whip (someone) as a punishment.
+                include_reverse: true
+        -
+                uuid: c71be6ec-7b6f-4684-b88e-a44dbc00344e
+                front: Purport
+                back: >
+                        Verb: appear to be or do something, especially falsely.
+                include_reverse: true
