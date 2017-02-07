@@ -21,7 +21,9 @@ notes:
                 front: Creative incompetence
                 back: >
                         Against Parkinson's law.
-                        "Create the impression that you have reached your level of incompetence."
+
+                        "Create the impression that you have reached your level
+                        of incompetence."
         -
                 uuid: a8d47460-65a9-4146-8277-5f94e35f2d86
                 front: Principal-agent problem
@@ -89,7 +91,9 @@ notes:
                 # http://www.succeedsocially.com/socialmodes
                 uuid: c005ebb3-e28f-418a-b3f2-4361874280b0
                 front: Shoehorn interactions into logical mode
-                back: For example, trying to talk politics at Friday evening dinner. Problem of overly serious people. Hindering.
+                back: >
+                        For example, trying to talk politics at Friday evening
+                        dinner. Problem of overly serious people. Hindering.
                 include_reverse: true
         -
                 uuid: 645e9c1f-1826-4504-9b77-f68ee013d30a
@@ -363,7 +367,9 @@ notes:
         -
                 uuid: 8984509f-a1ca-4d1e-a2f4-cd973b8cea9d
                 front: Algernon’s law
-                back: IQ is nearly impossible to improve in healthy people without tradeoffs
+                back: >
+                        IQ is nearly impossible to improve in healthy people
+                        without tradeoffs
                 include_reverse: true
         -
                 uuid: 0d760713-6952-41d7-91eb-a6e6733f6f9a
@@ -508,15 +514,15 @@ notes:
                         Noted: [$]R^2[/$]
                         <br>
                         Total sum of squares (proportional to variance):
-                        [$$]SS_{tot} = \\sum_i (y_i-\\overline{i})^2[/$$]
+                        [$]SS_{tot} = \\sum_i (y_i-\\overline{i})^2[/$]
                         <br>
                         Explained (regression) sum of squares:
-                        [$$]SS_{reg} = \\sum_i (f_i-\\overline{i})^2[/$$]
+                        [$]SS_{reg} = \\sum_i (f_i-\\overline{i})^2[/$]
                         <br>
                         Residual sum of squares:
-                        [$$]SS_{res} = \\sum_i (y_i-f_i)^2 = \\sum_i e_i^2[/$$]
+                        [$]SS_{res} = \\sum_i (y_i-f_i)^2 = \\sum_i e_i^2[/$]
                         <br>
-                        [$$]R^2 := 1 - \\frac{SS_{res}}{SS_{tot}}[/$$]
+                        [$]R^2 \\equiv 1 - \\frac{SS_{res}}{SS_{tot}}[/$]
         -
                 uuid: d2c26cd2-f069-4454-b206-f63bb7d5a03f
                 front: Godwin’s Law
@@ -560,7 +566,7 @@ notes:
                 uuid: 07a7b852-0651-4e8b-8c4c-9dea0c3eb14e
                 front: Reversal test
                 back: >
-                        When a proposal to change a parameter is
+                        When proposal to change a parameter is
                         thought to have bad overall consequences, consider a
                         change in the opposite direction. If this is also
                         thought to have bad overall consequences, then the onus
@@ -590,16 +596,22 @@ notes:
                 uuid: ee8281da-b939-419e-b48f-f34c4f53f8b1
                 front: Hanlon's razor
                 back: >
-                        Never attribute to malice that which is adequately
-                        explained by stupidity
+                        Never attribute to malice what is adequately explained
+                        by stupidity
                 include_reverse: true
         -
                 uuid: 2329ca4f-834e-4657-a483-b15487806d98
                 front: Clarke's 3 laws
                 back: >
                         <ol type="1">
-                        <li>When a distinguished but elderly scientist states that something is possible, he is almost certainly right. When he states that something is impossible, he is very probably wrong.
-                        <li>The only way of discovering the limits of the possible is to venture a little way past them into the impossible.
-                        <li>Any sufficiently advanced technology is indistinguishable from magic.
+                        <li>When a distinguished but elderly scientist states
+                        that something is possible, he is almost certainly
+                        right. When he states that something is impossible, he
+                        is very probably wrong.
+                        <li>The only way of discovering the limits of the
+                        possible is to venture a little way past them into
+                        the impossible.
+                        <li>Any sufficiently advanced technology is
+                        indistinguishable from magic.
                         </ol>
                 include_reverse: true

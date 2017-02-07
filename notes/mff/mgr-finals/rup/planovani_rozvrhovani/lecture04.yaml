@@ -88,25 +88,35 @@ notes:
                         a vazby [$]B[/$] a [$]<[/$] jsou glob. konzistentní.
                         Důkaz indukcí.
         -
-                uuid: 0e25a3ad-82ec-4fbe-ba5e-b497e02ad876
+                uuid: ec902dd5-aa3b-440f-8885-ae5b556e0f32
                 topic: Plánování v prostoru plánů
                 front: >
-                        Detaily algoritmu PSP &mdash; časy na hledání hrozeb,
-                        konzistence, agenda
+                        Detaily algoritmu PSP &mdash; časy na hledání hrozeb
                 back: >
-                        *Agenda předpokladů akcí*: když přidám kauzální vazbu pro
-                        něco, odeberu to z agendy.
-                        <br>
-                        *Hrozby*: nalezení po trojicích akcí ([$]\\O(n^3)[/$]),
-                        lépe: po přidání akce zjisti komu hrozí ([$]\\O(n^2)[/$]),
-                        po přidání kauzální vazby ověř její hrozby ([$]\\O(n)[/$]).
-                        <br>
+                        Nalezení po trojicích akcí: [$]\\O(n^3)[/$],
+                        lépe: po přidání akce zjisti komu hrozí: [$]\\O(n^2)[/$],
+                        po přidání kauzální vazby ověř její hrozby: [$]\\O(n)[/$].
+        -
+                uuid: f1e7d976-b50d-4206-b08a-41e39c0cd04e
+                topic: Plánování v prostoru plánů
+                front: >
+                        Detaily algoritmu PSP &mdash; udržování konzistence
+                back: >
                         Používej *jen konzistentní zjemnění plánu*
-                        pro odstrańování kazů.
-                        Udržuj *tranzitivní uzávěr* [$]<[/$] nebo detekuj cykly.
+                        pro odstraňování kazů.
+                        Udržuj *tranzitivní uzávěr* [$]<[/$] nebo detekuj
+                        cykly.
                         <br>
                         *Konzistence vztahů* [$]B[/$]: když nemám negaci, stačí
                         AC. Když mám negaci, je to NP-úplné :/
+        -
+                uuid: 0e25a3ad-82ec-4fbe-ba5e-b497e02ad876
+                topic: Plánování v prostoru plánů
+                front: >
+                        Detaily algoritmu PSP &mdash; agenda
+                back: >
+                        *Agenda předpokladů akcí*: když přidám kauzální vazbu
+                        pro něco, odeberu to z agendy.
         -
                 uuid: 3f1ea7e9-42b0-403f-8fd0-5d7e20c18ac8
                 topic: Plánování v prostoru plánů

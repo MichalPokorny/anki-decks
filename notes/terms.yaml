@@ -1421,10 +1421,12 @@ notes:
                 uuid: 19c6ea95-16ed-4478-a8df-75ea040de4f1
                 front: Scourge
                 back: >
-                        Noun: (historical) whip used as an instrument of punishment;
-                        person or thing that causes great trouble or suffering.
+                        Noun: (historical) whip used as instrument of
+                        punishment; person/thing that causes great trouble or
+                        suffering.
 
-                        Verb: cause great suffering to; (historical) whip (someone) as a punishment.
+                        Verb: cause great suffering to; (historical) whip
+                        (someone) as punishment.
                 include_reverse: true
         -
                 uuid: c71be6ec-7b6f-4684-b88e-a44dbc00344e

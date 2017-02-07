@@ -3468,12 +3468,14 @@ notes:
                         2 answers to whether souls exist independently on
                         bodies
                 back: >
-                        Soul doesn't feel pity, learns or thinks - a man does.
-                        Sometimes those penetrate to soul.
-                        <br>
+                        His account is for *souls in general* and for *rational souls*.
+                        <br><br>
+                        *In general*: soul doesn't feel pity, learn or think -
+                        man does. Sometimes those penetrate to soul.
+                        <br><br>
                         Sensation starts from particular objects;
-                        recollection starts from the soul.
-                        Sensation cannot occur without a body. Recollections
+                        recollection starts from soul.
+                        Sensation cannot occur without body. Recollections
                         have bodily effects (e.g., running to catch a bus).
                         A person is *one being* with *one essence*.
                         <br><br>
@@ -3481,8 +3483,6 @@ notes:
                         a natural body that potentially possesses life.
                         A soul is a form for a *primary substance*.
                         If the eye were an animal, its soul would be sight.
-                        <br><br>
-                        His account is for *souls in general* and for *rational souls*.
         -
                 uuid: 1e86a113-4d3d-428b-9d5f-289243c0ed31
                 topic: Aristotle
@@ -6134,7 +6134,7 @@ notes:
                 back: >
                         Being itself.
                         <br><br>
-                        The shared cause of every existing cause.
+                        Shared cause of every existing cause.
                         Fire: causes objects to be hot, builders: cause houses
                         to be. Both cause something to *be*. God is
                         the common cause.
@@ -6283,8 +6283,8 @@ notes:
                 back: >
                         <ul>
                         <li>Simple apprehension of object - grasp,
-                        more or less, the object's *whatness*
-                        (*quiddity*)
+                        more or less, the object's <i>whatness</i>
+                        (<i>quiddity</i>)
                         <li>Making connections and disconnections --
                         e.g., "Socrates is not stupid"
                         </ul>
@@ -6363,8 +6363,8 @@ notes:
                         Acts of a human vs. human acts
                 back: >
                         Act of a human: e.g., growing a beard.
-                        Shaving it: a *human act* -- it is under the control
-                        of the form that makes me human: my rational nature.
+                        Shaving it: a *human act* &mdash; under control
+                        of form that makes me human: my rational nature.
         -
                 uuid: a69dac21-4cd1-4db2-b28c-28bb5f4d62f1
                 topic: Thomas Aquinas
@@ -6584,7 +6584,7 @@ notes:
                 front: >
                         Message from condemnation of Aristotle of 1270, 1277
                 back: >
-                        Even good thinking can lead us astray - that is,
+                        Even good thinking can lead us astray &mdash;
                         contrary to revelations. "Philosophers beware!"
         -
                 uuid: 5afe11d6-f857-4315-8c34-02fcc53447f6
@@ -6783,7 +6783,7 @@ notes:
                 topic: Divine Comedy
                 front: Who is in Hell's antechamber?
                 back: >
-                        The indifferent - offensive both to God and to Satan
+                        The indifferent - offensive to God and Satan both
         -
                 uuid: edf42a52-febe-4fab-9784-6684c46c5e53
                 topic: Divine Comedy
@@ -7935,17 +7935,17 @@ notes:
                 back: >
                         <ol type="1">
                         <li> I exist.
-                        <li> There must be some cause for my existence.
-                        <li> The cause must be A) myself, B) me always having
-                        existed, C) my parents, D) something else less perfect
+                        <li> My existence must have a cause.
+                        <li> Cause must be A) myself, B) me always having
+                        existed, C) my parents, D) something less perfect
                         than God, E) God.
-                        <li> Not A), or else I would have given myself
-                        perfections I don't have.
-                        <li> Not B), because my existing *now* doesn't follow
-                        from me having existed in the past.
-                        <li> Not C), that leads to infinite regress.
-                        <li> Not D), for this couldn't account for the unity
-                        of the idea of God that I have.
+                        <li> Not A), I would have given myself perfections
+                        I don't have.
+                        <li> Not B), my existing <i>now</i> doesn't follow from me
+                        having existed in the past.
+                        <li> Not C), leads to infinite regress.
+                        <li> Not D), couldn't account for the unity of the idea
+                        of God that I have.
                         <li> So E), God exists.
                         </ol>
         -
@@ -7984,8 +7984,8 @@ notes:
                 front: Imagining something vs. conceiving it
                 back: >
                         <ul>
-                        <li> *Imagining*: having a mental image
-                        <li> *Conceiving*: e.g., a 1000-sided polygon
+                        <li> <i>Imagining</i>: having a mental image
+                        <li> <i>Conceiving</i>: e.g., a 1000-sided polygon
                         </ul>
         -
                 uuid: 4c56c174-d478-473a-ac60-7f379260cece
@@ -8032,11 +8032,12 @@ notes:
                 front: >
                         Descartes's metaphysics
                 back: >
-                        The world is mechanistic, like a clockwork,
-                        built and set in motion by God.
+                        Mechanistic world, built and set in motion by God.
                         The world is a *secular* world.
-                        Dante is now like a fairy-tale, or at best
-                        a moral allegory with no literal truth.
+                        <br><br>
+                        Dante is like a fairy-tale, at best a moral allegory
+                        with no literal truth.
+                        <br><br>
                         Minds are radically free.
         -
                 uuid: 4b052c8e-9ba8-4d87-bdd9-f0704421feda
@@ -8045,25 +8046,23 @@ notes:
                         3 problems with Descartes's views
                 back: >
                         <ul>
-                        <li> *Place of humans in the world of nature*:
-                                Are we just cogs in a machine? Is there
-                                room for purposes in this world? We assume
-                                that we have free will, but is that just
-                                an illusion?
+                        <li> <i>Place of humans in nature</i>:
+                                Are we cogs in a machine? Is there
+                                room for purposes? Do we have free will?
 
-                                Descartes approaches this by radically
-                                splitting mind and body.
+                                Descartes's solution: radically split mind and
+                                body.
 
-                                We aren't automata, because we have language,
-                                and we are more flexible and adaptable
-                                than any machine.
-                        <li> *The Mind and the Body*.
-                                Descartes claims mind and body are separate,
+                                We aren't automata (we have language),
+                                we are more flexible and adaptable than any
+                                machine.
+                        <li> <i>Mind-Body</i>.
+                                Descartes: mind and body are separate,
                                 yet we are a unity. How can we be at the same
                                 time two and one?
-                        <li> *God and the problem of skepticism*.
-                                If God is a deceiver or doesn't exist,
-                                we have a big problem.
+                        <li> <i>God and skepticism</i>.
+                                If God deceives or doesn't exist,
+                                it's a big problem.
                         </ul>
         -
                 uuid: a01f1614-3779-45b4-b3fa-dbd26306002a
@@ -8078,7 +8077,7 @@ notes:
                 front: >
                         What does he defy about Descartes?
                 back: >
-                        Includes our minds (and free will) in causality
+                        Includes minds (and free will) in causality
         -
                 uuid: 86742125-d091-4e8d-8af5-41a721296080
                 front: >
@@ -8101,7 +8100,7 @@ notes:
                 uuid: cfa836af-5d9f-4abc-b4a0-cfc6c4443965
                 topic: Thomas Hobbes
                 front: >
-                        His name for his method (learned from Galileo and
+                        Name for his method (learned from Galileo and
                         William Harvey)
                 back: >
                         Method of resolution and composition
@@ -8128,7 +8127,7 @@ notes:
         -
                 uuid: 588cc06d-8ca6-4b4c-b585-4c4ff8e8cb45
                 topic: Thomas Hobbes
-                front: Origin of all our thoughts
+                front: Origin of all thoughts
                 back: >
                         Sensation (very Aristotelian, opposite of Descartes)
         -
@@ -8150,8 +8149,8 @@ notes:
                 front: Dualism vs monism
                 back: >
                         <ul>
-                        <li> *Dualism*: mind and body distinct (Descartes)
-                        <li> *Monism*: mind and body are same (Hobbes)
+                        <li> <i>Dualism</i>: mind and body distinct (Descartes)
+                        <li> <i>Monism</i>: mind and body are same (Hobbes)
                         </ul>
         -
                 uuid: 8e02a769-a6dc-456a-9924-537b1dbd8e5b
@@ -8176,14 +8175,15 @@ notes:
                 topic: Thomas Hobbes
                 front: 2 classes of thoughts
                 back: >
-                        Regulated, unregulated (daydreaming).
-
-                        Unregulated thought is not *random*.
-                        On close inspection, it follows orers of previous
-                        appearances and sense experiences (*association
+                        <ul>
+                        <li>
+                        *Unregulated* (daydreaming): not *random*.
+                        On close inspection, follows orders of previous
+                        appearances, sense experiences (*association
                         of ideas*).
-
-                        Regulated: searching for *causes* or *effects*
+                        <li>
+                        *Regulated*: searching for *causes* or *effects*
+                        </ul>
         -
                 uuid: 799aa1ed-2939-4a1d-b886-69019dd41c0f
                 front: >
@@ -8211,8 +8211,8 @@ notes:
                 front: 2 classes of motion
                 back: >
                         <ul>
-                        <li> *Vital*: circulation, breath, digestion, etc.
-                        <li> *Voluntary*: origin in imagination.
+                        <li> <i>Vital</i>: circulation, breath, digestion, etc.
+                        <li> <i>Voluntary</i>: origin in imagination.
                         </ul>
         -
                 uuid: aaded66f-9a82-496f-a641-0f1040bd6892
@@ -8236,25 +8236,26 @@ notes:
                 topic: Thomas Hobbes
                 front: What is pleasure and pain?
                 back: >
-                        Pleasure: corroboration of vital motion, a help
-                        thereunto
-
-                        Pain: hindering and troubling of the motion vital
+                        <ul>
+                        <li><i>Pleasure</i>: corroboration of vital motion,
+                        a help thereunto
+                        <li><i>Pain</i>: hindering and troubling of the motion
+                        vital
+                        </ul>
         -
                 uuid: 020eaa4f-d776-40bf-bb07-aea26b64fc93
                 topic: Thomas Hobbes
                 front: Answer to objection that will overrides desire
                 back: >
-                        Will is last-level desire.
-                        Will is just *effective desire*.
-                        It's the desire that *wins*.
+                        Will is last-level desire, *effective desire*,
+                        the desire that *wins*.
         -
                 uuid: 2bec8389-dc89-42f4-ab49-829bd0127e11
                 topic: Thomas Hobbes
                 front: Why are we naturally in competition?
                 back: >
-                        Because we all want power to continually satisfy
-                        our desires. Me being able to satisfy myself more
+                        All want power to continually satisfy
+                        desires. Me being able to satisfy myself more
                         takes your power from you. So we compete.
         -
                 uuid: f63019ed-4cb6-4edb-885e-b1bab390926c
@@ -11667,4 +11668,341 @@ notes:
                         Reality is constituted in the self-consciousness
                         of the Absolute - in God, Reason, the World Spirit.
                         The World Spirit is all of reality.
+        -
+                uuid: 5583eaba-004d-4fe5-991b-06e1cba47124
+                topic: Hegel
+                front: >
+                        What is left for reason to do after it realizes
+                        it encompasses all reality?
+                back: >
+                        Objectivy itself - make itself into what it recognizes
+                        it truly is. Reason must become practical reason
+                        and shape the life of the community of self-conscious
+                        beings; become ethics.
+        -
+                uuid: 65cd1858-d374-4581-a965-8426a0d32657
+                topic: Hegel
+                front: >
+                        What is the realm of *objective spirit*?
+                back: >
+                        Art, religion, custom, morality, family, law, ...
+
+                        Here, spirit can make itself into an actual object
+                        for itself.
+
+                        First stage: *custom*
+        -
+                uuid: ee1ba4c0-7bb2-4c3f-a8b1-888d1dcb7d6a
+                topic: Hegel
+                front: >
+                        Stage of *custom*
+                back: >
+                        People *necessarily* grow up internalizing
+                        the standards of the society in which they live.
+
+                        (1) People identify their own welfare with the
+                        good of the state.
+
+                        (2) They experience themselves as so free they don't
+                        even need to remark on it.
+        -
+                uuid: 45217c2d-a8a1-4840-a24a-9c9b0ff564b5
+                topic: Hegel
+                front: >
+                        What happpens to the stage of custom?
+                back: >
+                        There is an *immediate* entity between individual
+                        and community - so the immediacy will be attempted
+                        to be overcome by introducing a *negative*.
+
+                        (For Hegel: immediacy always simplistic, naive,
+                        abstract)
+
+                        This stage being *for itself*, which is essential for
+                        developed consciousness. It's not a *self-conscious*
+                        harmony and freedom, and an unexamined, not rational
+                        nondecision.
+        -
+                uuid: 9a7266df-c54d-44fe-a28c-19095dba7f34
+                topic: Hegel
+                front: >
+                        Negative moment beyond the stage of custom in
+                        Greek history
+                back: >
+                        Sophists and Socrates.
+
+                        They say that customs aren't of *physis*, but of
+                        *nomos*.
+        -
+                uuid: 52c868fd-a0c1-401f-90b8-1a60e1a1cf6c
+                topic: Hegel
+                front: >
+                        What is the culmination of the negative stage
+                        of increasing individual self-consciousness?
+                back: >
+                        Reformation - criterion of nidividual conscience,
+                        Enlightenment - debunk everything based on tradition
+                        and privilege, French Revolution - reconstruct
+                        society according to reason.
+
+                        This is called the stage of *morality*.
+                        Kant "typifies" this stage.
+        -
+                uuid: a34a25f9-017a-4cd8-994a-166274b27fa2
+                front: >
+                        Author: "I should do my duty for duty's sake, and when
+                        I do my duty it is in a true sense my own objectivity
+                        which I am bringing to realization. In doing my duty,
+                        I am by myself and free. To have emphasized this
+                        meaning of duty has constituted the merit of Kant's
+                        moral philosophy and its loftiness of outlook."
+                back: >
+                        Georg Wilhelm Friedrich Hegel
+        -
+                uuid: 46cc7eda-e483-4629-9ae5-f23240ca701e
+                topic: Hegel
+                front: >
+                        On freedom as freedom when I can do what I want to do
+                back: >
+                        Hegel: this is a very shallow kind of freedom.
+                        These "liberal" theorists identify themselves only with
+                        their nonreflective, rationally uncriticized, given
+                        desires (compare what Stoics and Skeptics did).
+                        It's an *arbitrary will*.
+
+                        If we think we're free when we can do what our
+                        *arbitrary will* says, its own *arbitrariness* implies
+                        that we are not free.
+
+                        To be free, we must be *rational*, and since
+                        rationality is intrinsically *universal*, we must be
+                        *ethical*.
+                        Reason cannot be the slave of the passions - it must
+                        be a determining factor in action.
+
+                        We need to synthesize the Stoic/Skeptical view with
+                        Kant.
+        -
+                uuid: c0bd580c-9d17-49d2-9ac4-ed09c156b37a
+                topic: Hegel
+                front: >
+                        Critique of Kant's ethics
+                back: >
+                        After we accept Kant's categorical imperative, then
+                        what? What do we do now?
+
+                        Promises example &rarr; Make them and intend sincerely
+                        to keep them? Or abolish them altogether?
+                        (Same: stealing &rarr; what to do to private property?)
+
+                        Categorical imperative is purely formal, so it cannot
+                        choose the answer and the right *institution*.
+                        CI cannot choose because it has no *content*.
+        -
+                uuid: e8aa62a2-635f-438d-891e-751e83b754c2
+                topic: Hegel
+                front: >
+                        What showed the inadequacy of the *stage of morality*?
+                back: >
+                        French revolution: attempted to impose abstract universal
+                        principles, force reality to be rational; the fredom
+                        was purely *negative* and resulted in Reign of Terror.
+
+                        This *negative will* only possesses the feeling
+                        of existence when it *destroys something*
+                        (through it thinks it wants some positive state of
+                        affairs, but it's only an abstract idea).
+        -
+                uuid: 488234ff-adde-4f07-a898-a3ee411fd902
+                topic: Hegel
+                front: >
+                        Next stage after *stage of morality*
+                back: >
+                        Stage of *ethics*
+        -
+                uuid: 44b62e64-216a-48fd-9b41-b76068dc073b
+                topic: Hegel
+                front: >
+                        What is the *stage of ethics*?
+                back: >
+                        Spirit wants to recognize itself in cultural
+                        expressions. Recognizing rationality in institutions -
+                        property, contracts, family, the state.
+                        Spirit reappropriates its products after alienating
+                        itself from them, and expesses itself in the
+                        social dimension.
+
+                        Ethics is virtually indistinguishable from social
+                        and political philosophy - it is the *realization*
+                        of philosophy in an actual community.
+        -
+                uuid: 5c2331c5-f94f-48a1-870e-3f38dddf8e30
+                topic: Hegel
+                front: >
+                        Hegel's idea of ideal *stage of ethics* society
+                back: >
+                        The individual must be noted as part of society.
+                        Origin of state as social contract between individuals
+                        is, to Hegel, an undue abstraction.
+                        An individual per se is an *abstraction* from the whole.
+                        The community (the *State*) is the bearer of objective
+                        reality of spirit, "higher" than the individual.
+                        The state is an organism.
+
+                        It must be rational and have impartial and universal
+                        laws, and rational and free individuals can give
+                        their rational and free consent to it. The state
+                        is the correlate of reason.
+
+                        Here he wants to harmonize *custom* and *morality*
+                        stages.
+
+                        Constitutional monarchy, decisions made by discussion
+                        among large-scale interests (e.g., landed class,
+                        corporations).
+        -
+                uuid: 248227ec-4b08-47d7-a7ce-8b54710e4c45
+                front: >
+                        Author: "A single person... is suomething subordinate,
+                        and as such he must dedicate himself to the ethical
+                        whole. Hence if the state claims life, the individual
+                        must surrender it...
+                        The rational end of man is life in the state, and if
+                        there is no state there, reason at once demands that
+                        one be founded... It is false to maintain that
+                        the foundation of the state is something at the
+                        option of all its members. It's nearer to truth to say
+                        that it is absolutely necessary for every individual
+                        to be a citizen."
+                back: >
+                        Georg Wilhelm Friedrich Hegel
+        -
+                uuid: 0602be01-5e84-4fcf-91e7-0015b83f162c
+                front: >
+                        Author: "If men are to act, they must not only intend
+                        the good but must know whether this or that particular
+                        course is good. What special course of action is good
+                        or not, right or wrong, is determined, for the ordinary
+                        circumstances of private life, by the laws and customs
+                        of a state. It is not too difficult to know them. ...
+                        Each individual has his position; he knows,
+                        on the whole, what a lawful and honorable course of
+                        conduct is. To assert in ordinary private relations
+                        that it is difficult to choose the right and good, and
+                        to regard it as a mark of an exalted morality to find
+                        difficulties and raise scurples on that score indicates
+                        an evil and perverse will. It indicates a will that
+                        seeks to evade obvious duties or, at least, a petty
+                        will that gives its mind little to do."
+                back: >
+                        Georg Wilhelm Friedrich Hegel
+        -
+                uuid: 618ad80b-44ca-42ef-b784-bc5d13e6f023
+                topic: Hegel
+                front: >
+                        Moral of French revolution
+                back: >
+                        Reason cannot sweep up the board and start anew.
+                        We should each actualize the norms of our society,
+                        and not go off on individualistic tangents.
+                        We should recognize what is *already rational* and
+                        strengthen that.
+
+                        Eventually, when spirit becomes fully *concrete*,
+                        we will recognize ourselves in our institutions.
+                        All will be in harmony, as in stage of *custom*,
+                        but now in *rational harmony*.
+
+                        Spirit will take care of itself, both in social
+                        settings and in epistemology.
+        -
+                uuid: ef3cb461-bae3-437c-8e3d-09f6bfab4767
+                front: 2 groups of Hegelians
+                back: >
+                        Radical and conservative; both claimed to represent
+                        Hegel (he was ambiguous)
+        -
+                uuid: 494c72bb-6bfc-4fc2-aa79-ffd51bf2d357
+                topic: Hegel
+                front: The goal of history
+                back: Freedom
+        -
+                uuid: 59560ba1-724a-490f-8b97-42349a8fccc8
+                topic: Hegel
+                front: Why is reason *both substance and infinite power*?
+                back: >
+                        Being is a function of reason - *nothing* can have
+                        a nonrational existence.
+                        Reason is power: because it has itself as its own
+                        final purpose and works itself from potentiality
+                        to actuality.
+
+                        Reason seems like another term for Absolute or
+                        World Spirit.
+        -
+                uuid: 3773e2f7-9ec7-4c93-904c-fb7c01d22d5b
+                topic: Hegel
+                front: What is freedom?
+                back: >
+                        Self-contained existence: If I'm dependent, I cannot
+                        exist independently of something external.
+
+                        Spirit is *essentially* free since everything exists
+                        only relative to it, but it's becoming *actually* free
+                        in history.
+        -
+                uuid: 4e382440-5a11-4803-a717-fd8a44ec30b8
+                topic: Hegel
+                front: >
+                        Word: Nothing great in history has been accomplished
+                        without ...
+                back: >
+                        Passion
+        -
+                uuid: 271c34f7-6ece-4574-9bbf-a61811cc7a72
+                topic: Hegel
+                front: >
+                        Word: Other side on passion in history
+                back: >
+                        the Idea (the universal explainer for eveything; the
+                        nature of Spirit (universal reason/self-consciousness)
+                        it that it functions at the Idea)
+        -
+                uuid: a5b638dd-ac27-4cb2-933a-7bcf3a549bd5
+                topic: Hegel
+                front: >
+                        Role of world-historic individuals (Caesar, Alexander,
+                        etc.)
+                back: >
+                        Know the new universal and they put they energy
+                        behind it (unconsciously); unknowingly
+                        serve a larger purpose in their own private aims;
+                        consolidate power
+        -
+                uuid: 9fa69dc8-e601-41f6-99bc-f96298e53297
+                topic: Hegel
+                front: Cunning of Reason
+                back: Sets passions to work for itself
+        -
+                uuid: 50a7e231-3023-4d5a-ae70-32a64a33dd11
+                topic: Hegel
+                front: What governs the world?
+                back: God - as Reason
+        -
+                uuid: 0eb7fd3c-0f88-4a9e-ab6b-451d637fc92c
+                front: >
+                        Author: "One more word about giving instruction as to
+                        what the world ought to be. Philosophy in any case
+                        always comes on the scene too late to give it. As
+                        the thought of the world, it appears only when
+                        actuality is already there cut and dried after its
+                        process of formation has been completed. ...When
+                        philosophy paints its grey in grey, then has a shape
+                        of life grown old. By philosophy's grey in grey it
+                        cannot be rejuvenated but only understood. The owl of
+                        Minerva spreads its wings only with the falling
+                        of the dusk."
+                back: Georg Wilhelm Friedrich Hegel
+
+
 
