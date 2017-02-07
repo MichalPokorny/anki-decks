@@ -49,3 +49,16 @@ notes:
                         involuntary urination, especially by children at night
 
 # TODO: https://en.wikipedia.org/wiki/Mesolimbic_pathway
+        -
+                uuid: 9d3d6899-03b8-495c-ae8b-762891ac5806
+                front: FAST
+                back: >
+                        Stroke symptoms.
+                        <ul>
+                        <li> <i>Face</i>: Smile! Does one side of face droop?
+                        <li> <i>Arms</i>: Raise both arms!
+                                          Does one drift downward?
+                        <li> <i>Speech</i>: Repeat a simple phrase!
+                                            Is speech slurred or strange?
+                        <li> <i><b>Time!</b></i>
+                        </ul>

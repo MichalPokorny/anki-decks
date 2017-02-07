@@ -581,11 +581,14 @@ notes:
                 topic: Xenophanes
                 front: Conception of divine
                 back: >
-                        One god, greatest among gods and men, in no way similar
+                        1 god, greatest among gods and men, in no way similar
                         to mortals in body or mind.
+                        <br><br>
                         Sees, thinks, hears all over. Remains in one place.
+                        <br><br>
                         Without toil, he sets all things in motion by
                         the thought of his mind.
+                        <br><br>
                         (Stresses difference from Homeric tradition.)
         -
                 uuid: 63ecc4e1-ce02-4851-b295-a55cba1da53c
@@ -1928,7 +1931,7 @@ notes:
         -
                 uuid: f97a6552-fbd0-4be5-98f2-8812c7d86adf
                 topic: Socrates
-                front: What did Socrates propose as his punishment?
+                front: What did he propose as his punishment?
                 back: Free meals in magistrates' hall / town hall
         -
                 uuid: 331660bb-e6e9-4968-a7ad-7ae9311bd066
@@ -3872,7 +3875,7 @@ notes:
         -
                 uuid: 1a915dcc-ec4a-4fb8-95a5-eb31799228c4
                 topic: Epicurus
-                front: The aim of life
+                front: Aim of life
                 back: Happiness
         -
                 uuid: 9db4fce0-55c2-4fae-8f07-649abd0ec659
@@ -6220,10 +6223,10 @@ notes:
                 topic: Thomas Aquinas
                 front: How are souls immortal?
                 back: >
-                        Trying to unify 2 hard-to-harmonize strands:
+                        Unifying 2 hard-to-harmonize strands:
                         <ul>
-                        <li>man is one substance and soul is the form,
-                        <li>a human soul, because it can abstract and reason
+                        <li>Man is one substance and soul is the form,
+                        <li>Human soul, because it abstracts and reasons
                         with universals, is an intellectual substance, able
                         to survive after the body is destroyed.
                         (Still no organ for the nous.)
@@ -6448,9 +6451,8 @@ notes:
                 topic: Thomas Aquinas
                 front: On building character
                 back: >
-                        We can build character (virtues, vices) by
-                        practice. Virtue: act according to reason,
-                        vice: contrary habits.
+                        Character can be built by practice (virtues, vices).
+                        Virtue: act according to reason, vice: contrary habits.
         -
                 uuid: b3022df3-0ccd-4667-9b14-287ed5ddd44b
                 topic: Thomas Aquinas
@@ -6463,20 +6465,21 @@ notes:
                 topic: Thomas Aquinas
                 front: 2 classes of desires and emotions, their traditional names
                 back: >
-                        Affective (concupiscible), aggressive (irascible)
-
-                        Affective: straightforward feelings (love, hate,
-                        joy, sadness),
-                        aggressive: when attaining/avoiding requires effort
-                        (boldness, fear, hope) -- remove obstacles
+                        <ul>
+                        <li><i>Affective (concupiscible)</i>: straightforward
+                        feelings (love, hate, joy, sadness)
+                        <li><i>Aggressive (irascible)</i>: when
+                        attaining/avoiding requires effort (boldness, fear,
+                        hope) -- remove obstacles
+                        </ul>
         -
                 uuid: 573c6e8c-99f3-4ab2-930d-3e09dd6bad1d
                 topic: Thomas Aquinas
                 front: What is the virtue of *temperance*?
                 back: >
                         Specific to affective emotions.
-                        Brings the impulse to pursue the pleasant/avoid the
-                        painful under the tutelage of practical reason.
+                        Brings impulse to pursue pleasure/avoid pain
+                        under control of practical reason.
         -
                 uuid: f7229c0c-1c31-45a8-82ef-c1b573a0d573
                 topic: Thomas Aquinas
@@ -6501,11 +6504,11 @@ notes:
                 topic: Thomas Aquinas
                 front: What is the virtue of *prudence*?
                 back: >
-                        Pertains to the intellect.
-                        Prudence: virtuous habits of thought - think again
-                        when you are being hasty, keep in mind the overall
-                        good when deliberating. "Disposition of our reason
-                        to right action."
+                        *Virtuous intellectual habits of thought* - think again
+                        when you are hasty, keep overall good in mind when
+                        deliberating.
+                        <br><br>
+                        "Disposition of our reason to right action."
         -
                 uuid: d2ea4444-52a9-4247-ae9a-e337b2653132
                 topic: Thomas Aquinas
@@ -6537,14 +6540,13 @@ notes:
                 front: Our twofold goal
                 back: >
                         Bliss.
-
-                        Within: Internal perfection which can only come if we
-                        wholeheartedly love God above all else and love
-                        our neighbours as ourselves. (A *created* bliss.)
-
-                        Without:  Unity with God, the
-                        source of all goodness and perfection. (An *uncreated*
-                        bliss.)
+                        <ul>
+                        <li> *Within*, *created*: Internal perfection; can
+                        only come if we wholeheartedly love God above all
+                        and love our neighbours as ourselves.
+                        <li> *Without*, *uncreated*:  Unity with God, source of
+                        all goodness and perfection.
+                        </ul>
         -
                 uuid: c5b359d9-e4a2-47b4-98d4-d3118f542512
                 front: >
@@ -6603,9 +6605,8 @@ notes:
                 front: >
                         Medieval doctrine of God's omnipotence
                 back: >
-                        God can realize any state of affairs that
-                        is not self-contradictory (this protects
-                        the possibility of miracles)
+                        God can realize any non-self-contradictory state of
+                        affairs (protects possibility of miracles)
         -
                 uuid: 2ee14b34-77d3-4de6-a942-52d7eb3ed81c
                 front: >
@@ -6682,10 +6683,9 @@ notes:
                         3 problems uncovered by Descartes
                 back: >
                         <ul>
-                        <li> Assimilating results of modern science
+                        <li> *Assimilating modern science*
                              (e.g., Copernicus, Kepler, Galileo)
-                        <li> Skepticism (fueled by Reformation,
-                             Sextus Empiricus's doubts)
+                        <li> *Skepticism* (fuel: Reformation, Sextus Empiricus)
                         <li> Attention to *epistemology* - can we
                              know anything? Do sciences give us knowledge
                              of reality?
@@ -6762,11 +6762,10 @@ notes:
                 back: >
                         Dante lost his way and couldn't find it again.
                         <br><br>
-                        Pagan poet Virgil appears, offers to lead him
-                        through hell, purgatory and gates of Heaven.
-                        There, Virgil will be supplanted, since he can't
-                        enter paradise. These visions should resolve
-                        Dante's crisis.
+                        Pagan poet Virgil appears, offers to lead him through
+                        hell, purgatory and gates of Heaven. There, Virgil will
+                        be supplanted (he can't enter). These visions should
+                        resolve Dante's crisis.
         -
                 uuid: c794e2b5-e492-4801-8659-c24b7b500b20
                 topic: Divine Comedy
@@ -6895,7 +6894,7 @@ notes:
                         <li> (Other sphere)
                         <li> (Other sphere)
                         <li> Fixed stars
-                        <li> *Primum Mobile*
+                        <li> <i>Primum Mobile</i>
                         <li> Empyrean
                         </ul>
         -
@@ -7042,7 +7041,7 @@ notes:
                 front: >
                         Order: John Wycliffe
                 back: >
-                        The Lollards
+                        Lollards
         -
                 uuid: e1b1d3d5-50f4-46ec-9378-b3e5c7b6bd36
                 front: >
@@ -7156,12 +7155,12 @@ notes:
                 topic: Reformation
                 front: Origin of *indulgences*
                 back: >
-                        Crusades. People reluctant to go fighting
-                        would pay instead.
+                        Crusades. People reluctant to fight would pay instead.
         -
                 uuid: e5cff296-ec6b-4f68-b18a-5d8d9db89600
                 front: >
-                        Day: Luther posts his 95 theses on door of the Castle Church
+                        Day: Luther posts 95 theses on door of the Castle
+                        Church
                 back: >
                         Eve of All Saints' Day, 1517
                 include_reverse: true
@@ -7202,7 +7201,7 @@ notes:
         -
                 uuid: a1adf12d-7b91-4b1f-96ef-8af2af87e223
                 front: >
-                        Year: Luther formally excommunicated from Church
+                        Year: Luther excommunicated
                 back: 1521
         -
                 uuid: ff54afe0-f93b-4df8-a124-d6db8d784e5a
@@ -7210,7 +7209,7 @@ notes:
                 front: >
                         Broader problem that Luther brought out
                 back: >
-                        Problem of the criterion: do we believe
+                        Problem of the criterion: believe
                         tradition and authority (Church) or reason?
                         By which criterion do we tell when we know the truth?
         -
@@ -7220,7 +7219,7 @@ notes:
                         Problem with setting the traditional Church
                         as the criterion
                 back: >
-                        Popes disagree with each other
+                        Popes disagree
         -
                 uuid: 3eefd2a5-4e71-4913-b2ab-94005d690a44
                 topic: Reformation
@@ -7462,7 +7461,7 @@ notes:
                 uuid: 3eaed063-ecb3-4e87-836c-3d8d672699f9
                 topic: Johannes Kepler
                 front: >
-                        Whose data did he use to try to fit the Copernican
+                        Whose data did he use to try to fit into the Copernican
                         circular framework?
                 back: Tycho Brahe
         -
@@ -7592,8 +7591,8 @@ notes:
         -
                 uuid: 9b0331b1-ccc3-44b2-8da6-aa0f54ba5e19
                 front: >
-                        Year: Church prohibits teaching of believing
-                        that earth moves around the sun
+                        Year: Church prohibits teaching that earth moves around
+                        the sun
                 back: >
                         1633
         # chapter 13 - rene descartes - doubting our way to certainty
@@ -7614,12 +7613,11 @@ notes:
                 uuid: afaa6b6e-10d5-499d-83de-963ae4cc8b48
                 topic: Descartes
                 front: >
-                        Problems
+                        Problem he found with philosophy
                 back: >
-                        Trying to find knowledge leads to more and more
-                        recognition of his own ignorance.
-                        Math is nice.
-                        Nothing in philosophy hasn't been left undoubted.
+                        Seeking knowledge leads to more and more
+                        recognition of own ignorance. Math is nice.
+                        Nothing in philosophy hasn't been undoubted.
         -
                 uuid: 7b3da62d-a115-401d-bf43-da15130bcf57
                 topic: Descartes

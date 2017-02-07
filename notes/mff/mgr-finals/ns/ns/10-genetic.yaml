@@ -173,9 +173,14 @@ notes:
                         Vyviji se pevna topologie.
                         Daji se vyvijet i rekurentni site.
         -
-                uuid: 4831c1e3-be4b-4d5a-869c-9924893fd821
-                front: Algoritmus CoSyNE
+                uuid: 8601a676-d646-4dd6-9934-ec907b89317e
+                topic: CoSyNE
+                front: Zkratka
                 back: >
-                        Cooperative Synapse NeuroEvolution<br>
-
+                        Cooperative Synapse NeuroEvolution
+        -
+                uuid: 4831c1e3-be4b-4d5a-869c-9924893fd821
+                topic: CoSyNE
+                front: Princip
+                back: >
                         Vahy pro jednu synapsi jsou v samostatne subpopulaci.

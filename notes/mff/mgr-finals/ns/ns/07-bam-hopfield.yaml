@@ -13,7 +13,8 @@ notes:
                 front: >
                         Co to je? Jak to vypadá?
                 back: >
-                        Synchronní asociativní model, synapse jsou obousměrné.<br>
+                        Synchronní asociativní model, synapse jsou
+                        obousměrné.<br>
                         Rekurentní asociativní paměť.<br>
                         Snaží se dosáhnout stabilního stavu.<br>
                         Aktivační funkce [$]\\sgn[/$], bipolární kódování.
@@ -32,8 +33,10 @@ notes:
                 back: >
                         Hebbovským učením.
 
-                        Pro jeden vzor:
-                        [$]W_{(i)}=y_{(i)} x_{(i)}^T[/$], takže [$]y_{(i)}=\\sgn(Wx_{(i)})=\\sgn(y_{(i)} x_{(i)}^T x_{(i)}) = \\sgn(\\|x_{(i)}\\|^2 y_{(i)})=y_{(i)}[/$],
+                        Pro jeden vzor: [$]W_{(i)}=y_{(i)} x_{(i)}^T[/$],
+                        takže
+                        [$]y_{(i)}=\\sgn(Wx_{(i)})=\\sgn(y_{(i)}x_{(i)}^T x_{(i)})=
+                                   \\sgn(\\|x_{(i)}\\|^2 y_{(i)})=y_{(i)}[/$],
                         to samé pro [$]x_{(i)}[/$].
         -
                 uuid: 82cf4129-ca2e-4a32-888c-3e5743f707ef
@@ -69,10 +72,12 @@ notes:
                 uuid: 7fd399a9-7005-43f1-b5d2-e71db5da2b68
                 front: Asynchronní BAM a konvergence
                 back: >
-                        Vyberu náhodný neuron a opravím jeho výstup podle jeho excitace.
+                        Vyberu náhodný neuron, upravím výstup podle jeho
+                        excitace.
                         Končím když jsem v stabilním stavu.
 
-                        Asynchronní sítě konvergují, protože změna neuronu vždycky sníží energii a je konečně mnoho stavů.
+                        Asynchronní sítě konvergují, protože změna neuronu
+                        vždycky sníží [$]E[/$] a je konečně mnoho stavů.
 
                         To platí i pro sítě se synchronní dynamikou.
         -
@@ -97,7 +102,8 @@ notes:
                 back: >
                         Vyber náhodný neuron k aktualizaci.
                         Opakuj dokud se neustálí.
-                        Výstup je pak vzor, který se nejvíc podobal předloženému vektoru.
+                        Výstup je pak vzor, který se nejvíc podobal
+                        předloženému vektoru.
         -
                 uuid: f1828634-701b-4d8d-84bd-3f624d7aa561
                 topic: Hopfieldovy sítě
@@ -107,42 +113,53 @@ notes:
         -
                 uuid: d4fbf83b-6cc0-46a4-81b5-0ae20bd8f800
                 topic: Hopfieldovy sítě
-                front: Tvar vektoru potenciálů. Jak vypadá perturbační člen? Kdy je stav stabilní?
+                front: >
+                        Tvar vektoru potenciálů. Jak vypadá perturbační člen?
+                        Kdy je stav stabilní?
                 back: >
-                        [$$]\\xi = x_1 \\cdot W = x_1 \\cdot (x_1^T x_1 + \\ldots + x_m^T x_m - mI) =
+                        [latex]
+                        \\begin{align*}
+                        \\xi & = & x_1 \\cdot W = x_1 \\cdot (x_1^T x_1 + \\ldots + x_m^T x_m - mI) = \\\\\\\\
+                             & = & (x_1 x_1^T) x_1 + (x_1 x_2^T) x_2 + \\ldots + (x_1 x_m^T) x_m - m x_1 I
+                        \\end{align*}
+                        [/latex]
 
-                        = (x_1 x_1^T) x_1 + (x_1 x_2^T) x_2 + \\ldots + (x_1 x_m^T) x_m - m x_1 I[/$$]
+                        Přitom: [$]x_1 x_1^T = n[/$], označíme:
+                        [$]x_1 x_2^T =: \\alpha_{12}[/$].
 
-                        Přitom: [$]x_1 x_1^T = n[/$], označíme si [$]x_1 x_2^T =: \\alpha_{12}[/$].
+                        Pak:
+                        [$]\\xi = (n-m)x_1 + \\underbrace{\\sum_{j=2}^m \\alpha_{1j}x_j}_{\\text{perturbace}}[/$]
 
-                        Pak: [$]\\xi = (n-m)x_1 + \\sum_{j=2}^m \\alpha_{1j}x_j[/$]
-
-                        Poslední věci se říká *perturbace*.
-
-                        Stav je stabilní, když [$]m<n[/$] a perturbace je malá, pak [$]\\sgn(\\xi)=\\sgn(x_1)[/$]. Chceme tedy malý počet ortogonálních vzorů.
+                        Stav je stabilní, když [$]m<n[/$] a perturbace je malá,
+                        pak [$]\\sgn(\\xi)=\\sgn(x_1)[/$]. Chceme malý počet
+                        ortogonálních vzorů.
         -
                 uuid: 8757a11c-941d-40bb-95d4-e982a78f62d5
                 topic: Asynchronní BAM sítě
                 front: Synchronní a asynchronní BAM a maticové stabilní stavy
                 back: >
-                        Libovolná reálná matice vah má bidirektivní stabilní bipolární stavy.
+                        Libovolná reálná matice vah má bidirektivní stabilní
+                        bipolární stavy.
         -
                 uuid: e6c91db6-f75c-4dc9-9ca0-78498b24e83e
                 topic: Hopfieldovy sítě
                 front: Nutná podmínka ke stabilnímu řešení
-                back: Symetrická váhová matice s nulovou diagonálou, asynchronní dynamika
+                back: >
+                        Symetrická váhová matice s nulovou diagonálou,
+                        asynchronní dynamika
         -
                 uuid: 7f3b7147-4c97-493b-b828-dfbbd17d20e6
                 topic: Hopfieldovy sítě
-                front: Energetická funkce, s prahovými neurony
+                front: Energetická funkce s prahy
                 back: >
-                        [$$]E(x)=-\\frac{1}{2}x^T Wx[/$$]<br>
-
-                        S prahy: [$] + \\theta^T x[/$]
+                        [$]E(x)=-\\frac{1}{2}x^T Wx+\\theta^T x[/$]
         -
                 uuid: 2c7f716b-6ada-42d0-a6dd-683b2db5f565
-                front: K čemu se hodí perceptronové učení Hopfieldových sítí?
-                back: Někdy nejde Hebbovským učením najít správné váhy, i když existují. Crosstalk může být moc velký.
+                front: >
+                        K čemu je perceptronové učení Hopfieldových sítí?
+                back: >
+                        Někdy nejde Hebbovským učením najít správné váhy, i
+                        když existují. Crosstalk může být moc velký.
         -
                 uuid: 54949644-7a63-4284-a567-4f76a73d9c11
                 front: Vzorečky pro perceptronové učení Hopfieldových sítí
@@ -161,7 +178,9 @@ notes:
                         Každý vzor transformujeme do [$]n[/$] "pomocných" podvzorů, co odpovídají všem rovnicím co máme splnit.
         -
                 uuid: e4208254-d1d3-4403-9d1f-68f711e471f8
-                front: Použití Hopfieldova modelu na řešení optimalizačních úloh - Multiflop
+                front: >
+                        Použití Hopfieldova modelu na řešení optimalizačních
+                        úloh - Multiflop
                 back: >
                         Úloha: chceme mít aktivní právě jeden neuron z binárních<br>
 
@@ -170,12 +189,13 @@ notes:
                         Podobně se dá použít na 8-queens, TSP.
         -
                 uuid: a6919724-8154-4f96-a8ff-83bf8c0c004e
-                front: Stochastické modely Hopfieldových sítí - dvě strategie
+                front: Stochastické modely Hopfieldových sítí - 2 strategie
+                markdown: false
                 back: >
                         <ol type="A">
-                        <li> *Spojitý model*: přenosová funkce [$]\\sigma[/$].
+                        <li> <i>Spojitý model</i>: přenosová funkce [$]\sigma[/$].
                         Zvětší počet cest k řešení co je globální optimum.
-                        <li> *Zašuměná dynamika*: omezení lokálních minim.
+                        <li> <i>Zašuměná dynamika</i>: omezení lokálních minim.
                         Simulované žíhání, Boltzmannův stroj.
                         </ol>
                         Obě brání uváznutí v lokálním minimu.
@@ -198,13 +218,16 @@ notes:
                 topic: Zespojitěné Hopfielovy sítě
                 front: Jak probíhá výpočet?
                 back: >
-                        Pomalá změna excitace v čase, kde [$]\\gamma>0[/$] je adaptační parametr:<br>
-                        [$$]
-                        \\frac{d u_i}{dt} = \\gamma(-u_i+\\sum_{j=1}^n w_{ij}x_j) = \\gamma(-u_i+\\sum_{j=1}^n w_{ij}\\sigma(u_j))
-                        [/$$]<br>
-
-                        Výpočet: diskrétně aproximovat derivaci a přičíst<br>
-
+                        Pomalá změna excitace v čase.
+                        [$]\\gamma>0[/$]: adaptační parametr.
+                        <br>
+                        [$]
+                        \\frac{d u_i}{dt}=\\gamma(-u_i+\\sum_{j=1}^n w_{ij}x_j)
+                                =\\gamma(-u_i+\\sum_{j=1}^n w_{ij}\\sigma(u_j))
+                        [/$]
+                        <br>
+                        Výpočet: diskrétně aproximovat derivaci a přičíst
+                        <br>
                         Asynchronni dynamika vede do rovnovazneho stavu.
         -
                 uuid: 08329897-2aea-417a-b4dd-3b6e5457f557
@@ -219,7 +242,7 @@ notes:
                 back: >
                         [$]dE/dt = -\\sum_{i=1}^n \\sum_{j=1}^n w_{ij} \\frac{dx_i}{dt} x_j + \\sum_{i=1}^n \\sigma^{-1}(x_i) \\frac{dx_i}{dt}[/$]<br>
 
-                        Síť je symetrická a [$]u_i=\\sigma^{-1}(x_i)[/$], tak:
+                        Síť je symetrická a [$]u_i=\\sigma^{-1}(x_i)[/$] &rarr;
                         [$]dE/dt=-\\sum_{i=1}^n \\frac{dx_i}{dt}(\\sum_{j=1}^n w_{ij}x_j - u_i)[/$]<br>
 
                         Přitom [$]du_i/dt = \\gamma(\\sum_{j=1}^n w_{ij}x_j - u_i)[/$], tedy
@@ -254,13 +277,17 @@ notes:
                 topic: Boltzmannův stroj
                 front: Energetická funkce
                 back: >
-                        [$$]E=-\\frac{1}{2}\\sum_{i=1}^n \\sum_{j=1}^n w_{ij}x_i x_j + \\sum_{i=1}^n \\theta_i x_i[/$$]
+                        [$]E=-\\frac{1}{2}\\sum_i\\sum_j w_{ij}x_i x_j
+                             +\\sum_i\\theta_i x_i[/$]
         -
                 uuid: 08d6bd3e-bfe2-4252-8662-919cdacb71e1
-                front: Vztah mezi Boltzmannovým strojem a Hopfieldovou sítí
+                front: Vztah mezi Bolztmannova stroje k Hopfieldově síti
                 back: >
-                        Boltzmannův stroj aproximuje Hopfieldovu síť, najde lokální minimum energetické funkce.
+                        Aproximuje Hopfieldovu síť, najde lokální minimum
+                        energetické funkce.
 
-                        Nezůstane v jediném stavu. Pro velké teploty může projít celý stavový prostor.
+                        Nezůstane v jediném stavu. Pro velké teploty může
+                        projít celý stavový prostor.
 
-                        Pokud budeme správně snižovat teplotu, s [$]p=1[/$] najde globální optimum.
+                        Pokud budeme správně snižovat teplotu, s [$]p=1[/$]
+                        najde globální optimum.

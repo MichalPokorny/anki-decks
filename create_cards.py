@@ -3,7 +3,7 @@
 # TODO: Remove notes no longer linked to any UID
 # TODO: Import to specific decks
 
-import cards
+import cards as mod_cards
 
 import os
 import csv
@@ -51,7 +51,7 @@ def main():
 
     model = collection.models.byName("Basic (and reversed card) - synchronized with anki-decks")
 
-    my_notes = cards.load_all_notes()
+    my_notes = mod_cards.load_all_notes()
 
     notes_by_deck = {}
     for note in my_notes:

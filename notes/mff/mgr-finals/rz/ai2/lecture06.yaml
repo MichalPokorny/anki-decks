@@ -5,20 +5,21 @@ notes:
                 uuid: 9dbae52a-38b4-4a95-bbf8-f66c42d75c1d
                 front: Decision network
                 back: >
+                        Node:
                         <ul>
-                        <li>
-                        *Chance node* (ovál): náhodné proměnné (jako v Bayesovských sítích)
-                        <li>
-                        *Decision node* (obdélník): body kde decision maker dělá rozhodnutí
-                        <li>
-                        *Utility node* (kosočtverec): utilita
+                        <li> *Chance* [$]\\circ[/$]: náhodné proměnné (jako v
+                        Bayesovských sítích)
+                        <li> *Decision* [$]\\square[/$]: kde decision maker
+                        dělá rozhodnutí
+                        <li> *Utility* [$]\\diamond[/$]: utilita
                         </ul>
         -
                 uuid: 4217ab1f-1fc0-4820-a29f-8dcb1d89009b
                 front: Sensitivity analysis
                 back: >
-                        Zjistit, co se stane, když trochu tweaknu hodnoty co jsou
-                        v (Bayesovském) modelu. (Neměl bych mít příliš citlivý model.)
+                        Zjistit, co se stane, když trochu tweaknu hodnoty co
+                        jsou v (Bayesovském) modelu. (Neměl bych mít příliš
+                        citlivý.)
         -
                 uuid: 6c711d32-c727-471f-b07f-66b11984776b
                 front: Markovian state transition model
@@ -41,10 +42,12 @@ notes:
                 uuid: dcda144b-a485-4371-879d-a01924638ea8
                 front: How to deal with utilities over time?
                 back: >
-                        A. Finite horizon; after some time, nothing matters.
-                        B. Infinite horizon: optimal policy is stationary.
-                        <br>
-                        Rewards: additive or discounted. Discounting: exponential.
+                        <ol type="A">
+                        <li> Finite horizon; after some time, nothing matters.
+                        <li> Infinite horizon: optimal policy is stationary.
+                        </ol>
+                        Rewards: additive or discounted.
+                        Discounting: exponential.
         -
                 uuid: 6e18efe6-ac68-41ad-89a1-026ad9d92e42
                 front: Expected utility from policy and reward function
@@ -54,10 +57,10 @@ notes:
                 uuid: a24296e7-25ea-45a3-bd3c-f6366122bf8d
                 front: Definition - true utility of state; how to go from that to best policy
                 back: >
-                        [$$]U(s)=U^{\\pi^{ * }}(s)[/$$]
+                        [$]U(s)=U^{\\pi^{ * }}(s)[/$]
 
                         Optimal policy:
-                        [$$]\\pi^{ * }(s)=\\arg\\max_a \\sum_{s'}P(s'|s,a)U(s')[/$$]
+                        [$]\\pi^{ * }(s)=\\arg\\max_a \\sum_{s'}P(s'|s,a)U(s')[/$]
         -
                 uuid: 82c49ae3-c696-46a2-aa58-c71e0458d26c
                 front: Bellman equation for true utilities
@@ -67,17 +70,17 @@ notes:
                 uuid: 319b02b0-a895-4c26-a5b9-3cefc387fcd1
                 front: Value iteration algorithm, kdy se skončí?
                 back: >
-                        Začnu s náhodnými počátečními hodnotami.
-                        Pak postupně dělám Bellmanovský update:
-                        [$$]
-                        U_{i+1}(s)\\leftarrow R(s)+\\gamma\\max_a \\sum_{s'}P(s'|s,a)U(s')
-                        [/$$]
-                        <br>
-                        Potřebuju mít přechodový model.
-
-                        Jakmile se utilita už mění jenom málo ([$]\\delta < \\varepsilon (1-\\gamma)/\\gamma[/$]), skonči.
-
-                        Kde [$]\\varepsilon[/$] je limit, jak daleko si dovolím být od skutečných utilit.
+                        Vstup: [$]\\epsilon[/$]: jak daleko si dovolím být od
+                        skutečných utilit.
+                        Potřebuju přechodový model.
+                        <br><br>
+                        Začni s náhodnými počátečními hodnotami.
+                        Opakuj Bellmanovský update:
+                        [$]
+                        U_{i+1}(s)\\leftarrow R(s)+\\gamma\\max_a \\sum_{s'}P(s'|s,a)U_i(s')
+                        [/$]
+                        Konči, až se utilita změní jen málo:
+                        [$]\\delta < \\varepsilon (1-\\gamma)/\\gamma[/$].
         # TODO: konvergence value iteration
         -
                 uuid: ff9e93d8-dc40-4cfb-92aa-5894f88f9dd5
@@ -103,17 +106,16 @@ notes:
                 front: Algoritmus
                 back: >
                         Opakuje kroky:
-                        <ul>
-                        <li>
-                        1. Policy evaluation: Počítám utilitu.
-                        (Pro malé stavové prostory se dá přesně spočítat, trvá [$]\\O(n^3)[/$]; znám přechodový model).
+                        <ol type="1">
+                        <li> Policy evaluation: Počítám utilitu.
+                        (Pro malé stavové prostory jde přesně v
+                        [$]\\O(n^3)[/$]; znám přechodový model).
                         <br>
-                        Pro velké prostory: udělám několik kroků value iteration.
-                        <li>
-                        2. Policy improvement: vyberu pro každý stav akci, co
-                        je optimální podle současných utilit.
+                        Pro velké prostory: několik kroků value iteration.
+                        <li> Policy improvement: vyberu pro stavy optimální
+                        akce podle současných utilit.
                         </ul>
-                        Pokud jsem změnil policy, tak opakuju.
+                        Pokud jsem změnil policy, opakuju.
         -
                 uuid: 2fe35ff1-dbb9-4631-87b6-ae4d9bf55958
                 front: Model rozhodování v MDP vs. POMDP - co se přidá?
@@ -129,7 +131,9 @@ notes:
         -
                 uuid: e9c2ac0d-8329-479f-a6a4-e4a094544786
                 topic: POMDP
-                front: Jak reprezentovat neznámé stavy a konceptuálně hledat správné akce?
+                front: >
+                        Jak reprezentovat neznámé stavy a konceptuálně hledat
+                        správné akce?
                 back: >
                         Neznámý stav aproximujeme jako belief stav &mdash; vektor
                         pravděpodobností, že jsem v nějakém stavu.

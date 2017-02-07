@@ -4,42 +4,53 @@ notes:
         -
                 uuid: ceb51e6f-19b0-4b00-82c4-78941568136b
                 front: Kubler-Ross model
-                back: 5-stage grief model. Denial, anger, bargaining, depression, acceptance. What's its name?
+                back: >
+                        5-stage grief model. Denial, anger, bargaining,
+                        depression, acceptance. What's its name?
         -
                 uuid: 44d455e7-0f24-4689-9308-d9355392cd16
-                front: 5-stage grief model. What's its name? What are the stages?
-                back: Kubler-Ross model. Denial, anger, bargaining, depression, acceptance.
+                front: >
+                        5-stage grief model. What's its name?
+                        What are the stages?
+                back: >
+                        Kubler-Ross model. Denial, anger, bargaining,
+                        depression, acceptance.
         -
                 uuid: 5f00e9d2-85f1-49b0-bc5b-4a05282d36f9
                 front: Alexithymia
                 back: >
-                        "No words for emotions". The distinguishing factor was their
-                        inability to elaborate beyond a few limited adjectives such
-                        as "happy" or "unhappy" when describing their feelings.
-                        The core issue is that alexithymics have poorly differentiated
-                        emotions limiting their ability to distinguish and describe
-                        them to others. This contributes to the sense of emotional
-                        detachment from themselves and difficulty connecting with
-                        others, making alexithymia negatively associated with life
-                        satisfaction even when depression and other confounding factors
-                        are controlled for.
+                        "No words for emotions". Inability to elaborate beyond
+                        a few limited adjectives such as "happy" or "unhappy"
+                        when describing feelings. The core issue is that
+                        alexithymics have poorly differentiated emotions
+                        limiting their ability to distinguish and describe
+                        them to others. This contributes to the sense of
+                        emotional detachment from themselves and difficulty
+                        connecting with others, making alexithymia negatively
+                        associated with life satisfaction even when depression
+                        and other confounding factors are controlled for.
         -
                 uuid: 3b03c222-adaf-4cc2-9235-41a357dc54db
                 front: Cluster A personality disorders
-                back: Paranoid ("accusatory"), schizoid ("aloof"), schizotypical ("awkward")
+                back: Paranoid, schizoid, schizotypical
+                include_reverse: true
         -
                 uuid: 8c885142-3b8e-4fd9-b982-f34061750073
                 front: Cluster B personality disorders
-                back: Antisocial, borderline, histrionic, narcissistic personality disorder
+                back: Antisocial, borderline, histrionic, narcissistic
                 include_reverse: true
         -
                 uuid: 6739e1d5-b844-4b9e-aca9-e6a055bdc47a
                 front: Cluster C personality disorders
-                back: Avoidant ("cowardly"), obsessive-compulsive ("compulsive"), dependent ("clingy")
+                back: Avoidant, obsessive-compulsive, dependent
+                include_reverse: true
         -
                 uuid: c1ecc733-112c-4095-beee-e6d7815d11a8
                 front: Egosyntronic
-                back: Behaviors, values and feelings that are in harmony with the needs and goals of the ego, consistent of one's ideal self-image. Many personality disorders are like this.
+                back: >
+                        Behaviors, values and feelings in harmony with needs
+                        and goals of ego, consistent of ideal self-image.
+                        Many personality disorders are like this.
                 include_reverse: true
         -
                 uuid: 783af68e-fe9a-4bf6-a6e0-1079f8edb231
@@ -51,13 +62,52 @@ notes:
                 front: Subject-object interview
                 back: Detects Kegan's stage of social maturity
                 include_reverse: true
+        -
+                uuid: 725c8c02-975a-4a4c-b688-b5455e2ea7e2
+                front: Schizoid personality disorder - characterization
+                back: >
+                        <ul>
+                        <li> Lack of interest in social relationships
+                        <li> Tendency towards solitary/sheltered lifestyle
+                        <li> Secretiveness
+                        <li> Emotional coldness
+                        <li> Apathy
+                        </ul>
+                        Affected individuals may simultaneously demonstrate
+                        a rich, elaborate and exclusively internal fantasy
+                        world.
+        -
+                uuid: 2d63cfcb-32c8-4e20-8806-953687c2dfe5
+                front: Schizotypal personality disorder - characterization
+                back: >
+                        <ul>
+                        <li> Severe social anxiety
+                        <li> Paranoia
+                        <li> Often unconventional beliefs
+                        </ul>
+                        Extreme discomfort with maintaining close
+                        relationships, because they think their peers harbor
+                        negative thoughts towards them.
 
-# TODO: schizoid personality disorder?
-# TODO: schizotypical personality disorder?
+                        Peculiar speech mannerisms, odd modes of dress.
+                        Odd reactions, talking to themselves.
+                        Interpret situations as strange and having unusual
+                        meaning for them; paranormal and superstitious
+                        beliefs.
+        -
+                uuid: 10b11310-680a-44d8-a68f-2df293ebbe3f
+                front: Schizoid vs schizotypal
+                back: >
+                        Schizotypal: avoid social interactions because of
+                        deep-seated fear of people. Schizoid: no desire to form
+                        relationships, no point in sharing time with others.
         -
                uuid: 08403751-64c4-4060-a05d-7e8b1f350e0b
                front: Implicit association test
-               back: Measure to detect association between mental representation of concepts in memory. White/pleasant, or black/suffering?
+               back: >
+                       Measure to detect association between mental
+                       representation of concepts in memory.
+                       White/pleasant, or black/suffering?
                include_reverse: true
         -
                uuid: a18d65b3-9e91-4dd3-8c5d-bab0dab0c6cb
@@ -66,34 +116,54 @@ notes:
         -
                uuid: 6a7ecbc3-fa87-46ea-9b33-9b54a1df5401
                front: Westermarck effect
-               back: AKA reverse sexual imprinting. Hypothetical psychological effect through which people who live in close domestic proximity during the first few years of their lives become desensitized to sexual attraction.
+               back: >
+                       AKA reverse sexual imprinting. Hypothetical
+                       psychological effect through which people who live in
+                       close domestic proximity during first few years of
+                       their lives become desensitized to sexual attraction.
+               include_reverse: true
         -
                uuid: e5425dd7-d2d5-4dcc-ac94-0185880879c8
                front: Sapir-Whorf hypothesis
-               back: The structure of a language determines a native speaker's perception and categorization of experience
+               back: >
+                       Structure of language determines native speaker's
+                       perception and categorization of experience
+               include_reverse: true
         -
                 uuid: f89cb6bd-62f6-4d26-8341-9865ed0daa1c
                 front: Repetition compulsion
                 back: >
-                        Psychological phenomenon in which a person repeats a traumatic event or its circumstances over and over again.
-                        This includes reenacting the event or putting oneself in situations where the event is likely to happen again.
-                        This "re-living" can also take the form of dreams in which memories and feelings of what happened are repeated,
-                        and even hallucination.
+                        Psychological phenomenon in which a person repeats a
+                        traumatic event or its circumstances over and over
+                        again. This includes reenacting the event or putting
+                        oneself in situations where the event is likely to
+                        happen again. This "re-living" can also take the form
+                        of dreams in which memories and feelings of what
+                        happened are repeated, and even hallucination.
 
-                        The term can also be used to cover the repetition of behaviour or life patterns more broadly: a "key component in
+                        The term can also be used to cover the repetition of
+                        behaviour or life patterns more broadly: a "key component in
                         Freud's understanding of mental life, 'XYZZYFOO'...describes the pattern whereby people endlessly repeat patterns
                         of behaviour which were difficult or distressing in earlier life."
         -
                 uuid: 69f6348d-f965-4c82-87b3-f75a0244f6dc
                 front: Dual-process model of thinking
                 back: >
-                        System 1: implicit, automatic, low effort, large capacity, rapid, default process, contextualized, evolutionarily old, nonverbal, modular cognition, parallel
+                        System 1: implicit, automatic, low effort, large
+                        capacity, rapid, default process, contextualized,
+                        evolutionarily old, nonverbal, modular cognition,
+                        parallel
 
-                        System 2: explicit, controlled, high effort, small capacity, slow, inhibitory, abstract, evolutionarily recent, linked to language, fluid intelligence, serial
+                        System 2: explicit, controlled, high effort,
+                        small capacity, slow, inhibitory, abstract,
+                        evolutionarily recent, linked to language,
+                        fluid intelligence, serial
 
                         System 2 ("analytic"/"rational"/"rule-based" system): specific to humans.
         -
                 uuid: ee6e0bdc-c318-4a92-ba60-2fa7b686e0fa
                 front: Baader-Meinhof phenomenon
                 back: >
-                        the syndrome in which a concept or thing you just found out about suddenly seems to crop up everywhere
+                        Syndrome in which a concept or thing you just found out
+                        about suddenly seems to crop up everywhere
+                include_reverse: true

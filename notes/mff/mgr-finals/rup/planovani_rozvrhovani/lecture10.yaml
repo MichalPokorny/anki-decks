@@ -374,17 +374,16 @@ notes:
                         <br><br>
                         Úlohy rozdělíme:
                         <ul>
-                        <li> [$]U[/$]: jsou na [$]z_1[/$] méně dlouho než
-                             na [$]z_2[/$]
-                        <li> [$]V[/$]: jsou na [$]z_1[/$] déle než
-                             na [$]z_2[/$]
+                        <li> [$]U[/$]: na [$]z_1[/$] kratší než na [$]z_2[/$]
+                        <li> [$]V[/$]: na [$]z_1[/$] delší než na [$]z_2[/$]
                         </ul>
-                        <br><br>
+                        <br>
                         Správné pořadí:
                         <ol type="1">
                         <li> [$]U[/$] vzestupně dle [$]p_{1j}[/$]
                         <li> [$]V[/$] sestupně dle [$]p_{2j}[/$]
                         </ul>
+                        <br>
                         Každou operaci rozvrhni do nejmenšího možného
                         startovního času.
         -
