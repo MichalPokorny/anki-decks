@@ -1,8 +1,9 @@
-deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška 4
+deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška
+        4
 notes:
         # planovani a rozvrhovani lecture04
-        -
-                uuid: 7a888339-4772-4f9f-8309-e7bb2b722d96
+        -       uuid: 7a888339-4772-4f9f-8309-e7bb2b722d96
+                guid: yH7w]_)@$m
                 front: Princip plánování v prostoru plánů
                 back: |
                         Začnu v prázdném plánu, co má jenom poč. stav a cíle.
@@ -10,15 +11,15 @@ notes:
                         Přidáváme vazby mezi akcemi.
                         Plánování je opravování kazů, dokud nedostaneme úplný
                         plán.
-        -
-                uuid: 5a6559f3-1763-4fca-9e8a-50793776ed06
+        -       uuid: 5a6559f3-1763-4fca-9e8a-50793776ed06
+                guid: gq.w+e)vZ6
                 topic: Plánování v prostoru plánů
                 front: Kódování startu a cíle
                 back: |
                         Start: akce co nemá předpoklady a je na začátku,
                         cíl: akce co má prázdný efekt a je poslední
-        -
-                uuid: 358e3a64-2588-4ba7-a0bb-1933604dec7e
+        -       uuid: 358e3a64-2588-4ba7-a0bb-1933604dec7e
+                guid: Bwfz@(3gTb
                 topic: Plánování v prostoru plánů
                 front: Jak vypadají kauzální vazby?
                 back: |
@@ -26,8 +27,8 @@ notes:
                         [$]a_i < a_j[/$] v částečném uspořádání, [$]p[/$] je
                         efekt [$]a_i[/$] a předpoklad [$]a_j[/$], v [$]B[/$]
                         jsou vazby mezi proměnnými v [$]p[/$]
-        -
-                uuid: 717a8985-f6f6-4490-ae19-db6ef0fc506b
+        -       uuid: 717a8985-f6f6-4490-ae19-db6ef0fc506b
+                guid: s1(8XHLYF_
                 topic: Plánování v prostoru plánů
                 front: Uzel prostoru plánů
                 back: |
@@ -45,8 +46,8 @@ notes:
                         [$]a_i <_p a_j[/$], [$]p\\in\\mathrm{eff}^+(a_i)[/$],
                         [$]p\\in\\mathrm{precond}^+(a_j)[/$], [$]B[/$] má
                         vazby mezi proměnnými v [$]p[/$]
-        -
-                uuid: dedc413d-63ec-41b1-a1ca-739e3245de10
+        -       uuid: dedc413d-63ec-41b1-a1ca-739e3245de10
+                guid: emZBz|fu$!
                 topic: Plánování v prostoru plánů
                 front: Otevřený cíl a jak se dá řešit
                 back: |
@@ -60,8 +61,8 @@ notes:
                         <li>Svaž proměnné
                         <li>Vytvoř kauzální vazbu
                         </ol>
-        -
-                uuid: bd7b1a12-8410-49f3-9f1b-b9c21917059b
+        -       uuid: bd7b1a12-8410-49f3-9f1b-b9c21917059b
+                guid: tjz:xe{Q6r
                 topic: Plánování v prostoru plánů
                 front: Hrozba - definice, řešení
                 back: |
@@ -76,8 +77,8 @@ notes:
                         <li>[$]b>a_j[/$]
                         <li>Navázání proměnných [$]b[/$], aby nerušily [$]p[/$]
                         </ul>
-        -
-                uuid: cbd24fa0-e675-4896-aeba-602d3c411f84
+        -       uuid: cbd24fa0-e675-4896-aeba-602d3c411f84
+                guid: u,9GWpF``2
                 topic: Plánování v prostoru plánů
                 front: Kdy je částečný plán řešící plán?
                 back: |
@@ -87,8 +88,8 @@ notes:
                         To je ekvivalentní tomu, když nemá kazy (tj. otevř. cíle a hrozby)
                         a vazby [$]B[/$] a [$]<[/$] jsou glob. konzistentní.
                         Důkaz indukcí.
-        -
-                uuid: ec902dd5-aa3b-440f-8885-ae5b556e0f32
+        -       uuid: ec902dd5-aa3b-440f-8885-ae5b556e0f32
+                guid: Aa>t>B|4lM
                 topic: Plánování v prostoru plánů
                 front: |
                         Detaily algoritmu PSP &mdash; časy na hledání hrozeb
@@ -96,8 +97,8 @@ notes:
                         Nalezení po trojicích akcí: [$]\\O(n^3)[/$],
                         lépe: po přidání akce zjisti komu hrozí: [$]\\O(n^2)[/$],
                         po přidání kauzální vazby ověř její hrozby: [$]\\O(n)[/$].
-        -
-                uuid: f1e7d976-b50d-4206-b08a-41e39c0cd04e
+        -       uuid: f1e7d976-b50d-4206-b08a-41e39c0cd04e
+                guid: I!@6MhwFqJ
                 topic: Plánování v prostoru plánů
                 front: |
                         Detaily algoritmu PSP &mdash; udržování konzistence
@@ -109,16 +110,16 @@ notes:
                         <br>
                         *Konzistence vztahů* [$]B[/$]: když nemám negaci, stačí
                         AC. Když mám negaci, je to NP-úplné :/
-        -
-                uuid: 0e25a3ad-82ec-4fbe-ba5e-b497e02ad876
+        -       uuid: 0e25a3ad-82ec-4fbe-ba5e-b497e02ad876
+                guid: LjD8V.2}Z_
                 topic: Plánování v prostoru plánů
                 front: |
                         Detaily algoritmu PSP &mdash; agenda
                 back: |
                         *Agenda předpokladů akcí*: když přidám kauzální vazbu
                         pro něco, odeberu to z agendy.
-        -
-                uuid: 3f1ea7e9-42b0-403f-8fd0-5d7e20c18ac8
+        -       uuid: 3f1ea7e9-42b0-403f-8fd0-5d7e20c18ac8
+                guid: C=PDDd41x{
                 topic: Plánování v prostoru plánů
                 front: Korektnost, úplnost, konečnost
                 back: |

@@ -156,5 +156,4 @@ for path in yaml_files:
 
     with open(path, "w") as yf:
         ruamel.yaml.round_trip_dump(data, stream=yf,
-                                    indent=8,
-                                    block_seq_indent=8)
+                                    indent=8)

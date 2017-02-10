@@ -2,68 +2,68 @@ topic: Readline/Bash
 deck: All::CS::Tools::Readline/Bash
 uid_tag: readline
 notes:
-        -
-                uuid: eaca6cac-1c62-4d61-95a2-87bcb4bf53e0
-                front: Jump forward by 1 word
-                back: "`Meta (Alt)-f`"
-                include_reverse: true
-        -
-                uuid: da639956-59eb-4e99-9aff-2e59dfeb749b
-                front: Jump backward by 1 word
-                back: "`Meta (Alt)-b`"
-                include_reverse: true
-        -
-                uuid: 5efcd573-fbd4-4884-a109-ea0fa77c1642
-                front: Search backward in history
-                back: '`C-r`'
-                include_reverse: true
-        -
-                uuid: 57a73eaa-0fd0-4205-a736-88a38c1f2697
-                front: Search forward in history
-                back: '`C-s`'
-                include_reverse: true
-        -
-                uuid: 5723ded7-bb60-4245-81b7-c281ce5bb63a
-                front: Insert Tab character
-                back: '`Meta (Alt)-Tab`'
-                include_reverse: true
-        -
-                uuid: 75576f1f-6d94-4170-8cc6-7b5a4d7daddd
-                front: Jump forward by 1 character
-                back: "`C-f`"
-                include_reverse: true
-        -
-                uuid: 56d05836-8250-44ca-b0c3-65750f0fd549
-                front: Jump backward by 1 character
-                back: "`C-b`"
-                include_reverse: true
-        -
-                uuid: e7436440-590b-4271-bfac-875bbf946958
-                front: Go to start of line
-                back: "`C-a`"
-                include_reverse: true
-        -
-                uuid: ec4ca6f8-aeb7-4f74-82a2-5fe2fa8cc9ad
-                front: Go to end of line
-                back: "`C-e`"
-                include_reverse: true
-        -
-                uuid: 9d04ca8a-eff3-4acb-8d74-9c55af5d5602
-                front: Backspace-delete until start of line
-                back: "`C-u`"
-                include_reverse: true
-        -
-                uuid: e712dd03-df27-4261-afe4-820c7a879bd5
-                front: Delete until end of line
-                back: "`C-k`"
-                include_reverse: true
-        -
-                uuid: fd97b329-6580-4fc5-858f-674bb1d4819b
-                front: Undo on current line
-                back: "`C-_`"
-                include_reverse: true
-        -
-                uuid: fc62b18b-bde9-4737-81d5-754a4366412d
-                front: Expand glob
-                back: "`Meta-*`"
-                include_reverse: true
+-       uuid: eaca6cac-1c62-4d61-95a2-87bcb4bf53e0
+        guid: hB~3K[Z9Qn
+        front: Jump forward by 1 word
+        back: '`Meta (Alt)-f`'
+        include_reverse: true
+-       uuid: da639956-59eb-4e99-9aff-2e59dfeb749b
+        guid: Q:bp9~GLS.
+        front: Jump backward by 1 word
+        back: '`Meta (Alt)-b`'
+        include_reverse: true
+-       uuid: 5efcd573-fbd4-4884-a109-ea0fa77c1642
+        guid: c$u5+>vd#l
+        front: Search backward in history
+        back: '`C-r`'
+        include_reverse: true
+-       uuid: 57a73eaa-0fd0-4205-a736-88a38c1f2697
+        guid: tE|#45__>+
+        front: Search forward in history
+        back: '`C-s`'
+        include_reverse: true
+-       uuid: 5723ded7-bb60-4245-81b7-c281ce5bb63a
+        guid: LoeBMO5Y.|
+        front: Insert Tab character
+        back: '`Meta (Alt)-Tab`'
+        include_reverse: true
+-       uuid: 75576f1f-6d94-4170-8cc6-7b5a4d7daddd
+        guid: h0[S$=Fpev
+        front: Jump forward by 1 character
+        back: '`C-f`'
+        include_reverse: true
+-       uuid: 56d05836-8250-44ca-b0c3-65750f0fd549
+        guid: LJ_v*A?FRK
+        front: Jump backward by 1 character
+        back: '`C-b`'
+        include_reverse: true
+-       uuid: e7436440-590b-4271-bfac-875bbf946958
+        guid: F+C7F*?J^l
+        front: Go to start of line
+        back: '`C-a`'
+        include_reverse: true
+-       uuid: ec4ca6f8-aeb7-4f74-82a2-5fe2fa8cc9ad
+        guid: P)we.:V25J
+        front: Go to end of line
+        back: '`C-e`'
+        include_reverse: true
+-       uuid: 9d04ca8a-eff3-4acb-8d74-9c55af5d5602
+        guid: GMHY~AyTRv
+        front: Backspace-delete until start of line
+        back: '`C-u`'
+        include_reverse: true
+-       uuid: e712dd03-df27-4261-afe4-820c7a879bd5
+        guid: I5M+rr!|,}
+        front: Delete until end of line
+        back: '`C-k`'
+        include_reverse: true
+-       uuid: fd97b329-6580-4fc5-858f-674bb1d4819b
+        guid: K:zzM:B7K-
+        front: Undo on current line
+        back: '`C-_`'
+        include_reverse: true
+-       uuid: fc62b18b-bde9-4737-81d5-754a4366412d
+        guid: CHR9b;%H}&
+        front: Expand glob
+        back: '`Meta-*`'
+        include_reverse: true

@@ -1,16 +1,17 @@
-deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška 6
+deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška
+        6
 notes:
         # planovani a rozvrhovani lecture06
-        -
-                uuid: bfc4332e-5d35-4f43-bda3-bd05086a909d
+        -       uuid: bfc4332e-5d35-4f43-bda3-bd05086a909d
+                guid: B1f^;aIm&?
                 topic: Plánování jako SAT
                 front: |
                         Problém při kódování plánování do SAT/CSP, jeho řešení
                 back: |
                         SAT/CSP jsou statické. Budeme hledat jenom plány
                         do nějaké maximální délky.
-        -
-                uuid: 6b2504bf-e38e-4c51-8c5d-4c6a3337f777
+        -       uuid: 6b2504bf-e38e-4c51-8c5d-4c6a3337f777
+                guid: K7`pLp8wGo
                 topic: Plánování jako SAT
                 front: |
                         Kódování plánování jako SAT
@@ -28,8 +29,8 @@ notes:
                         <li>
                         Frame axioms.
                         </ul>
-        -
-                uuid: 80193da3-fdfe-4d45-abc6-2ce0486fdc70
+        -       uuid: 80193da3-fdfe-4d45-abc6-2ce0486fdc70
+                guid: OQ)qQg[$]<
                 topic: Plánování jako SAT
                 front: Frame axioms &mdash; 2 způsoby
                 back: |
@@ -44,12 +45,12 @@ notes:
                         <br>
                         Zde stačí axiom *konfliktního vyloučení*:
                         nedělat najednou závislé akce.
-        -
-                uuid: b99d6e34-e2fb-4e2a-8977-e8192f6a2c3e
+        -       uuid: b99d6e34-e2fb-4e2a-8977-e8192f6a2c3e
+                guid: bXr`$ssCK}
                 front: Co se používá víc? Plánování jako SAT, nebo jako CSP?
                 back: Plánování jako CSP
-        -
-                uuid: 6fb7a79a-87f7-47b6-a9b5-9902749c9ba4
+        -       uuid: 6fb7a79a-87f7-47b6-a9b5-9902749c9ba4
+                guid: cHX0}{G(U6
                 topic: Plánování jako SAT
                 front: |
                         Jak zmenšit počet proměnných pro reprezentaci akcí
@@ -61,28 +62,28 @@ notes:
                         [$]r[/$], z [$]loc_1[/$], do [$]loc_2[/$]).
                         Různé akce teď sdílejí proměnné, a jde to i mezi
                         akcemi různého typu (třeba move/fly).
-        -
-                uuid: b851c651-d119-4dd6-ba1d-ad07c36997d6
+        -       uuid: b851c651-d119-4dd6-ba1d-ad07c36997d6
+                guid: nk^xcHZ$.o
                 topic: Plánování jako CSP
                 front: Rozdíl CSP reprezentace od SAT
                 back: |
                         Stavové proměnné: například pozice robota, atd.<br>
                         Neměnné vztahy se popisují relacemi. Operátory
                         dělají změny stavových proměnných.
-        -
-                uuid: fc31ffb0-fa12-4800-beae-500e1f46decd
+        -       uuid: fc31ffb0-fa12-4800-beae-500e1f46decd
+                guid: en8ry=3io1
                 topic: Plánování jako CSP
                 front: Jak v CSP kódujeme akce?
                 back: |
                         Jako podmínky mezi frame axiomy.
-        -
-                uuid: 0fd530e3-8094-40ce-87c4-c055c0707b37
+        -       uuid: 0fd530e3-8094-40ce-87c4-c055c0707b37
+                guid: P~C3bM*3>f
                 topic: Plánování jako SAT/CSP
                 front: Na co nesmíme zapomenout při kódování jako CSP/SAT?
                 back: |
                         Axiomy rámce
-        -
-                uuid: 6271c929-aaf6-4836-b1fe-6cba8cf1aabe
+        -       uuid: 6271c929-aaf6-4836-b1fe-6cba8cf1aabe
+                guid: zbrwhW+vS6
                 topic: Plánování jako CSP
                 front: Kde je dobře použitelné plánování jako CSP?
                 back: |
@@ -90,8 +91,8 @@ notes:
                         (Úplný jde udělat až na úplném plánu.)
                         <br>
                         *S plánovacím grafem*: použijeme CSP na extrakci.
-        -
-                uuid: 0eaf5364-c57f-4d4a-b6c8-35653a897312
+        -       uuid: 0eaf5364-c57f-4d4a-b6c8-35653a897312
+                guid: or@j4}g#7F
                 topic: Graphplan jako CSP
                 front: |
                         Kódování do CSP - role proměnných, domén,
@@ -104,8 +105,8 @@ notes:
                         <br>
                         Omezující podmínky: spojují pozitivní efekty s
                         předpoklady akce; mutexy.
-        -
-                uuid: 7373e1b3-4933-4c33-b38c-623723445edd
+        -       uuid: 7373e1b3-4933-4c33-b38c-623723445edd
+                guid: B*x8~]~GD~
                 topic: Graphplan jako CSP
                 front: |
                         Kódování do CSP - přesné podmínky
@@ -133,8 +134,8 @@ notes:
                         v proměnných ve vstvě maximálně a minimálně 1
                         ne-noop akce
                         </ul>
-        -
-                uuid: d30a0b9f-3881-4c10-8aeb-d2f86a0125d5
+        -       uuid: d30a0b9f-3881-4c10-8aeb-d2f86a0125d5
+                guid: Pu6K3zdPSL
                 topic: Graphplan jako BCSP
                 front: BCSP proměnné, domény, co dělají podmínky
                 back: |
@@ -145,8 +146,8 @@ notes:
                         <br>
                         Podmínky kódují mutexy, spojují akce s předpoklady
                         a pozitivními efekty.
-        -
-                uuid: cd07db05-30ad-44d1-9ecf-912454c1df00
+        -       uuid: cd07db05-30ad-44d1-9ecf-912454c1df00
+                guid: Nrv*aOxS,v
                 topic: Graphplan jako BCSP
                 front: BCSP podmínky
                 back: |
@@ -169,14 +170,14 @@ notes:
                         <li>
                         Žádné paralelní akce a žádné prázdné vrstvy.
                         </ul>
-        -
-                uuid: 6df84a72-3b04-4892-96a5-793fbd68bb2a
+        -       uuid: 6df84a72-3b04-4892-96a5-793fbd68bb2a
+                guid: q_1jI@pvsq
                 front: Porovnání Graphplan jako CSP a SAT
                 back: |
                         CSP je kompaktnější. Nepotřebuje axiomy vyloučení akcí
                         (protože na to je proměnná).
-        -
-                uuid: 1e7ecb60-bcd1-409f-8dbe-d10d7e058d42
+        -       uuid: 1e7ecb60-bcd1-409f-8dbe-d10d7e058d42
+                guid: hG;k}7Qumu
                 front: |
                         CSP, SAT jsou NP-c, ale plánování je PSPACE- nebo
                         NEXPTIME-c. Jak to?

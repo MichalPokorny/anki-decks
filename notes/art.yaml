@@ -1,23 +1,22 @@
 uid_tag: art
 deck: All::Art
 notes:
-        -
-                uuid: 67702765-7cdf-4a86-ab46-0ed28f7f0786
-                front: Gerald Scarfe
-                back: Caricaturist, illustrator; Pink Floyd - The Wall
-        -
-                uuid: 83594d95-b2f3-4e12-a498-d3650d39f786
-                front: The Physical Impossibility of Death in the Mind of Someone Living
-                back: Work of art - shark in formaldehyde
-                include_reverse: true
-        -
-                uuid: 716b90f4-566f-421c-be26-314a239ac12a
-                front: E. C. Escher
-                back:
-                        Self-referential paintings, e.g. hands drawing each
-                        other, man looking into crystal ball and seeing
-                        himself. Used in LessWrong Prague event headers.
-        -
-                uuid: ab71af7f-9682-4060-996b-f8f0ecef51f1
-                front: John Cage
-                back: Minimalist composer and visual artist
+-       uuid: 67702765-7cdf-4a86-ab46-0ed28f7f0786
+        guid: mf&mc-<BNv
+        front: Gerald Scarfe
+        back: Caricaturist, illustrator; Pink Floyd - The Wall
+-       uuid: 83594d95-b2f3-4e12-a498-d3650d39f786
+        guid: mNZEgLc2Sd
+        front: The Physical Impossibility of Death in the Mind of Someone Living
+        back: Work of art - shark in formaldehyde
+        include_reverse: true
+-       uuid: 716b90f4-566f-421c-be26-314a239ac12a
+        guid: im+RD?$=;$
+        front: E. C. Escher
+        back: Self-referential paintings, e.g. hands drawing each other, man looking
+                into crystal ball and seeing himself. Used in LessWrong Prague event
+                headers.
+-       uuid: ab71af7f-9682-4060-996b-f8f0ecef51f1
+        guid: qBp,3c]^in
+        front: John Cage
+        back: Minimalist composer and visual artist

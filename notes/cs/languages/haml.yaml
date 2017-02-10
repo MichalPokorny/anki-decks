@@ -2,72 +2,72 @@ topic: HAML
 deck: All::CS::Languages::HAML
 uid_tag: cs/languages/haml
 notes:
-        -
-                uuid: 7fc778ea-e597-42cc-aa28-b2b8f71f5c90
-                front: Surround with braces
-                markdown: false
-                include_reverse: true
-                back: |
-                        <pre>
-                        = surround "(", ")" do
-                            = link_to "learn more", "#"
-                        </pre>
-        -
-                uuid: d2000fca-d012-41c3-b4f0-5a7cf69a57d3
-                front: Avoid empty (void) tag
-                back: |
-                        `%br/`; automatic for img, br, hr, input, ...
-        -
-                uuid: f0b28bbf-49a3-4a19-a7fc-8e8c52025751
-                front: |
-                        Build attributes from 1 or more hashes combined with
-                        extras
-                markdown: false
-                back: |
-                        <pre>
-                        def f1; { ... }; end
-                        def f2; { ... }; end
-                        %sandwich{f1, f2, xyzzy: :foo}/
-                        </pre>
-                        &rarr; <sandwich ... />
-        -
-                uuid: 83a61a5a-ac13-4271-b86e-094fba0a24da
-                front: Immediately close
-                back: |
-                        `%sandwich{xyzzy: :foo}/` &rarr;
-                        `<sandwich xyzzy="foo" />`
-        -
-                uuid: 52813bf9-2306-49e6-af5b-e2c95a07fae4
-                front: Selected `<input>` tag
-                back: |
-                        `%input(selected)`
-        -
-                uuid: ec6567d8-204a-4275-ba1a-b43e8e80535a
-                front: |
-                        Combining statically given class `c1` and `c2` with
-                        dynamic `c3`
-                back: "`%div.c1.c2{class: c3}`"
-                include_reverse: true
-        -
-                uuid: 2532fde8-3aab-4012-98d8-34c3c49085ff
-                front: "Give classes as array of strings"
-                back: "`%div{class: %w[c1 c2 c3]}`"
-                include_reverse: true
-        -
-                uuid: 18c59d10-b9d1-421a-892c-151e3a580b79
-                markdown: false
-                front: Precede tag with <code>*</code>
-                back: |
-                        <pre>
-                        = precede '*' do
-                            %span Required
-                        </pre>
-        -
-                uuid: fddd829a-82a6-4eee-bd69-536a958e124a
-                markdown: false
-                front: Succeed tag with <code>*</code>
-                back: |
-                        <pre>
-                        = succeed '*' do
-                            %span This is a star:
-                        </pre>
+-       uuid: 7fc778ea-e597-42cc-aa28-b2b8f71f5c90
+        guid: BW-a{`Iopw
+        front: Surround with braces
+        markdown: false
+        include_reverse: true
+        back: |
+                <pre>
+                = surround "(", ")" do
+                    = link_to "learn more", "#"
+                </pre>
+-       uuid: d2000fca-d012-41c3-b4f0-5a7cf69a57d3
+        guid: k==@^$sNeu
+        front: Avoid empty (void) tag
+        back: |
+                `%br/`; automatic for img, br, hr, input, ...
+-       uuid: f0b28bbf-49a3-4a19-a7fc-8e8c52025751
+        guid: G[z@T1}MXp
+        front: |
+                Build attributes from 1 or more hashes combined with
+                extras
+        markdown: false
+        back: |
+                <pre>
+                def f1; { ... }; end
+                def f2; { ... }; end
+                %sandwich{f1, f2, xyzzy: :foo}/
+                </pre>
+                &rarr; <sandwich ... />
+-       uuid: 83a61a5a-ac13-4271-b86e-094fba0a24da
+        guid: wHvN?f/!Ei
+        front: Immediately close
+        back: |
+                `%sandwich{xyzzy: :foo}/` &rarr;
+                `<sandwich xyzzy="foo" />`
+-       uuid: 52813bf9-2306-49e6-af5b-e2c95a07fae4
+        guid: E:GsdnV@rI
+        front: Selected `<input>` tag
+        back: |
+                `%input(selected)`
+-       uuid: ec6567d8-204a-4275-ba1a-b43e8e80535a
+        guid: Hz#nH+h%3L
+        front: |
+                Combining statically given class `c1` and `c2` with
+                dynamic `c3`
+        back: '`%div.c1.c2{class: c3}`'
+        include_reverse: true
+-       uuid: 2532fde8-3aab-4012-98d8-34c3c49085ff
+        guid: oEUF?]J,bm
+        front: Give classes as array of strings
+        back: '`%div{class: %w[c1 c2 c3]}`'
+        include_reverse: true
+-       uuid: 18c59d10-b9d1-421a-892c-151e3a580b79
+        guid: GI8{r@X2PJ
+        markdown: false
+        front: Precede tag with <code>*</code>
+        back: |
+                <pre>
+                = precede '*' do
+                    %span Required
+                </pre>
+-       uuid: fddd829a-82a6-4eee-bd69-536a958e124a
+        guid: l_~g=0wII;
+        markdown: false
+        front: Succeed tag with <code>*</code>
+        back: |
+                <pre>
+                = succeed '*' do
+                    %span This is a star:
+                </pre>

@@ -1,13 +1,15 @@
-deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška 3
+deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška
+        3
 notes:
         # planovani a rozvrhovani lecture03
-        -
-                uuid: 54b4e7a1-9e3e-40ac-83a5-9426c4820552
+        -       uuid: 54b4e7a1-9e3e-40ac-83a5-9426c4820552
+                guid: z7^5HC->@z
                 topic: Plánování
                 front: Co by se stalo kdybychom přidali funkční symboly do reprezentace?
-                back: Z problému existence plánu by se stal částečně rozhodnutelný problém (byl by z toho halting problém).
-        -
-                uuid: 7611f49c-dafa-4762-96ec-0ded99c1201c
+                back: Z problému existence plánu by se stal částečně rozhodnutelný
+                        problém (byl by z toho halting problém).
+        -       uuid: 7611f49c-dafa-4762-96ec-0ded99c1201c
+                guid: lM>%.[bL*S
                 topic: Plánování
                 front: |
                         Složitost - Negativní efekty? Existence plánu?
@@ -18,15 +20,15 @@ notes:
                         <br>
                         # TODO: Divne. Nejsou tady ty tridy obracene?
                         Bez negativních efektů a předpokladů: existence je EXPTIME-c, plán do dané délky je NEXPTIME-c.
-        -
-                uuid: e0e993d1-de4f-40e6-abc7-63183df5f1ca
+        -       uuid: e0e993d1-de4f-40e6-abc7-63183df5f1ca
+                guid: eY{c5Ghg>%
                 topic: Plánování
                 front: |
                         Prostory, které při plánování prohledáváme
                 back: |
                         Stavový prostor, nebo prostor plánů (uzly jsou částečně instanciované plány).
-        -
-                uuid: b55b012e-ac6c-45a8-b6db-916c13d7d99a
+        -       uuid: b55b012e-ac6c-45a8-b6db-916c13d7d99a
+                guid: d3[yCN5Ae]
                 topic: Plánování
                 front: |
                         Zpětné plánování ve stavovém prostoru a jeho neefektivita
@@ -37,8 +39,8 @@ notes:
                         k cíli.
                         <br>
                         Neefektivita: není to liftnuté, zbytečně instanciujeme
-        -
-                uuid: 52bb360d-51fc-4e5f-be01-4896cdda5d12
+        -       uuid: 52bb360d-51fc-4e5f-be01-4896cdda5d12
+                guid: n48xmh>]:=
                 topic: Plánování
                 front: Algoritmus lifted backward search
                 back: |
@@ -48,14 +50,14 @@ notes:
                         Vyber si nedeterministicky a pokračuj.
                         <br>
                         Volné proměnné ztěžují detekci cyklů.
-        -
-                uuid: d1b7402b-bdce-4073-b223-8755d8663c40
+        -       uuid: d1b7402b-bdce-4073-b223-8755d8663c40
+                guid: lu{?P-qjTq
                 topic: STRIPS plánování
                 front: Písmeno označující plánovací doménu
                 back: |
                         [$]\\Sigma[/$]
-        -
-                uuid: 13205a65-48c4-486f-b806-8954fad936a4
+        -       uuid: 13205a65-48c4-486f-b806-8954fad936a4
+                guid: qq3;vp<tbH
                 front: Jak STRIPS algoritmus redukuje prostor zpětného plánování?
                 back: |
                         Z podcíle řeší vždy jen část odpovídající předpokladům
@@ -67,8 +69,8 @@ notes:
                         Pokud aktuální stav splňuje všechny předpoklady operátoru,
                         operátor se použije, a při backtrackingu ten závazek
                         nezruším.
-        -
-                uuid: cbc43b9b-fafe-4437-9400-c6b79caf42f7
+        -       uuid: cbc43b9b-fafe-4437-9400-c6b79caf42f7
+                guid: b2?<WV}P>Q
                 front: Ground-STRIPS algoritmus &mdash; popis
                 back: |
                         Začni s prázdným plánem.
@@ -81,15 +83,16 @@ notes:
                         Až najdeš plán co splňuje tyto podmínky, tak podle něj
                         posuň počáteční stav a udělej tu akci.<br>
                         Splňuj další část cíle.
-        -
-                uuid: e7bd7fec-22e3-4c24-bff7-11c99b16076d
-                front: Problémy plánování ve stavovém prostoru a jak je řeší plánování v prostoru plánů
+        -       uuid: e7bd7fec-22e3-4c24-bff7-11c99b16076d
+                guid: gHK:B-I`1!
+                front: Problémy plánování ve stavovém prostoru a jak je řeší plánování
+                        v prostoru plánů
                 back: |
                         Velký větvící faktor a spousta alternativních pořadí akcí.
                         <br>
                         Řešení: least commitment &mdash; nerozhoduj co nemusíš rozhodnout teď
-        -
-                uuid: 336a7bd4-ef38-4070-b831-c06971860289
+        -       uuid: 336a7bd4-ef38-4070-b831-c06971860289
+                guid: J-tIoVfM|^
                 front: Sussmanova anomálie
                 back: |
                         Svět kostek. Stack 1: (c) nad (a), stack 2: (b).

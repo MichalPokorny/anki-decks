@@ -1,31 +1,33 @@
-deck: All::Magisterské státnice::Řešení úloh a plánování::AI1::Přednáška 4 (informované prohledávání)
+deck: All::Magisterské státnice::Řešení úloh a plánování::AI1::Přednáška 4 (informované
+        prohledávání)
 notes:
         # AI lecture04eng
-        -
-                uuid: a3c06aab-9f5b-4e12-ae4b-70c719757186
+        -       uuid: a3c06aab-9f5b-4e12-ae4b-70c719757186
+                guid: P<3iNaI2DG
                 front: Algoritmy informovaného prohledávání
                 back: B(est)FS, A*, IDA*, RBFS, SMA*
                 markdown: false
-        -
-                uuid: 7b16ee4b-f787-4dac-b73b-cc27f933e29f
+        -       uuid: 7b16ee4b-f787-4dac-b73b-cc27f933e29f
+                guid: GC,!-TI`ZX
                 front: Jak budovat heuristiky pro informované prohledávání?
                 back: Relaxace problému, pattern databases
-        -
-                uuid: e119c8fb-e53c-4804-bcb5-38792d3607f4
+        -       uuid: e119c8fb-e53c-4804-bcb5-38792d3607f4
+                guid: PzukDIDzQx
                 front: Funkce heuristické funkce
                 back: |
                         Odhaduje délku nejkratší/nejlevnější cesty do cílového stavu.
                         Když [$]h(n)=0[/$], tak je to cíl.
-        -
-                uuid: 48d49a75-1ab7-4a3f-9bfd-c62372add5da
+        -       uuid: 48d49a75-1ab7-4a3f-9bfd-c62372add5da
+                guid: pzxyC{={[T
                 front: (Greedy) best-first search, optimalita?
                 back: |
                         Jako první expanduj node, který má nejmenší vzdálenost do cíle.<br>
 
                         Nemusí najít optimální cestu.
-        -
-                uuid: 1ce201f6-2289-41a2-8808-c7d39101043c
-                front: Zkonstruuj příklad, kdy greedy best-first-search nenajde optimální cestu.
+        -       uuid: 1ce201f6-2289-41a2-8808-c7d39101043c
+                guid: P|<PpYu+qx
+                front: Zkonstruuj příklad, kdy greedy best-first-search nenajde optimální
+                        cestu.
                 markdown: false
                 back: |
                         <pre>
@@ -34,26 +36,26 @@ notes:
                            O
                             \___(20)____O____(20)___GOAL
                         </pre>
-        -
-                uuid: 75011b95-88e2-4166-a504-ac5cf5cc9fa2
+        -       uuid: 75011b95-88e2-4166-a504-ac5cf5cc9fa2
+                guid: lXIu/YfM/M
                 front: Časová a paměťová složitost greedy best-first-search
                 back: |
                         [$$]\\O(b^m), \\O(b^m)[/$$]
-        -
-                uuid: 1cf39109-4c9c-49bc-9ba2-4d64cdbbeba6
+        -       uuid: 1cf39109-4c9c-49bc-9ba2-4d64cdbbeba6
+                guid: s0VLf~V!95
                 front: Kompletnost greedy best-first-search
                 back: |
                         Může cyklit. Musíme dělat prevenci cyklů.
-        -
-                uuid: 47a37ccc-2a54-4345-b09a-ef2057be9040
+        -       uuid: 47a37ccc-2a54-4345-b09a-ef2057be9040
+                guid: z[S]zpzTWI
                 markdown: false
                 topic: A*
                 front: Podle čeho prioritizuje A*?
                 back: |
                         Podle [$]f(n)=g(n)+h(n)[/$], kde [$]g(n)[/$] je délka
                         cesty do [$]n[/$] z kořene
-        -
-                uuid: c4f970b6-0348-48a8-8fc3-961866eb81c6
+        -       uuid: c4f970b6-0348-48a8-8fc3-961866eb81c6
+                guid: oY8HI2YTJu
                 topic: A*
                 front: |
                         Jaká heuristika je admisibilní?
@@ -63,8 +65,8 @@ notes:
                         <br>
                         Tedy optimistický pohled, [$]f(n)[/$] je dolní odhad
                         na délku cesty do cíle skrz [$]n[/$].
-        -
-                uuid: fe78b7a8-0b18-43ad-a775-3957c9e60bca
+        -       uuid: fe78b7a8-0b18-43ad-a775-3957c9e60bca
+                guid: mVJM7C6k[R
                 topic: A*
                 front: |
                         Jaká heuristika je monotónní/konzistentní?
@@ -75,14 +77,14 @@ notes:
                         h(n)\\leq c(n,a,n') + h(n')
                         [/$$]
                         Je to forma trojúhelníkové nerovnosti.
-        -
-                uuid: 169cbbbe-f02f-4105-b9db-cd4a6301f30b
+        -       uuid: 169cbbbe-f02f-4105-b9db-cd4a6301f30b
+                guid: P<)1SEbDQ9
                 topic: A*
                 front: Vztah přípustných(admisibilních) a monotónních heuristik
                 back: |
                         Monotónní heuristiky jsou admisibilní.
-        -
-                uuid: 77b21f2b-2751-41a0-a5b6-42090620e351
+        -       uuid: 77b21f2b-2751-41a0-a5b6-42090620e351
+                guid: o,[=wFClvh
                 topic: A*
                 front: Důkaz, že každá monotónní heuristika je admisibilní
                 back: |
@@ -90,8 +92,8 @@ notes:
                         [$]n_1[/$] do cíle [$]n_k[/$].<br>
                         Monotonie: [$]h(n_i)-h(n_{i+1})\\leq c(n_i,a_i,n_{i+1})[/$].<br>
                         Teleskop: [$]h(n_1)\\leq\\sum_{i=1}^{k-1} c(n_i,a_i,n_{i+1})[/$]
-        -
-                uuid: 4415b7e7-88da-4811-b3d3-7d76a308e43f
+        -       uuid: 4415b7e7-88da-4811-b3d3-7d76a308e43f
+                guid: xYWZsJ#P#L
                 topic: A*
                 front: Monotónní heuristiky a hodnoty [$]f(n)[/$]. Důkaz?
                 back: |
@@ -100,8 +102,8 @@ notes:
                         Ať je [$]n'[/$] successor [$]n[/$], tedy [$]g(n')=g(n)+c(n,a,n')[/$].<br>
 
                         Pak: [$]f(n')=g(n')+h(n')=g(n)+c(n,a,n')+h(n')\\geq g(n)+h(n)=f(n)[/$]
-        -
-                uuid: 7bf554b8-2b8d-4310-8302-a8d634a8c265
+        -       uuid: 7bf554b8-2b8d-4310-8302-a8d634a8c265
+                guid: 'Mdxw6M?BA:'
                 topic: A*
                 front: |
                         Jaké 2 grafové meta-algoritmy se liší a jak?
@@ -115,8 +117,8 @@ notes:
                         </ul>
                         V Graph-Search jde jednoho vrcholu dosáhnout více
                         cestami, kde druhá může zkrátit první.
-        -
-                uuid: 44799b49-ffd1-4c2c-90ef-942bb2b43b82
+        -       uuid: 44799b49-ffd1-4c2c-90ef-942bb2b43b82
+                guid: n5P{@K.WA~
                 topic: A*
                 markdown: false
                 front: Kdy je A* optimální v Tree-Search? Důkaz.
@@ -131,8 +133,8 @@ notes:
 
                         Dohromady: [$]f(n)\leq C^{ * }>f(G_2)[/$].
                         Proto algoritmus nejdřív rozbalí [$]n[/$].
-        -
-                uuid: 3f87c2c1-0080-4ac1-9588-bf2b840124e4
+        -       uuid: 3f87c2c1-0080-4ac1-9588-bf2b840124e4
+                guid: PZKZ{vi.T-
                 topic: A*
                 front: |
                         Kdy je A* optimální v Graph-Search? Důkaz.
@@ -149,8 +151,8 @@ notes:
                         tak mezi "otevřenými" cestami do [$]n[/$] nemůže
                         existovat žádná kratší než ta, co už znám.
                         Proto první uzavřený goal node je optimální.
-        -
-                uuid: d916f074-cb0c-4bc5-b805-13959d9ae4b5
+        -       uuid: d916f074-cb0c-4bc5-b805-13959d9ae4b5
+                guid: bb1}HAkzs4
                 topic: A*
                 markdown: false
                 front: |
@@ -169,43 +171,43 @@ notes:
 
                         A* je optimálně efektivní pro libovolnou
                         konzistentní heuristiku.
-        -
-                uuid: c3d6269c-f870-4d63-a63d-0e62d52953eb
+        -       uuid: c3d6269c-f870-4d63-a63d-0e62d52953eb
+                guid: j%]X1RF8&w
                 topic: A*
                 front: Časová složitost a nejvyšší počet expandovaných nodů
                 back: |
                         Až exponenciální
-        -
-                uuid: aad7eae5-bf63-421b-831c-0ef427453977
+        -       uuid: aad7eae5-bf63-421b-831c-0ef427453977
+                guid: mTSIO7|^/
                 topic: A*
                 front: |
                         Jak neexpandovat exponenciální počet nodů?
                 back: |
                         Když [$]|h(n)-h^{ * }(n)|\\leq \\O(\\log h^{ * }(n))[/$],
                         kde [$]h^{ * }[/$] je délka optimální cesty.
-        -
-                uuid: f3d32243-faa9-4ac7-8264-91c8391a6f7b
+        -       uuid: f3d32243-faa9-4ac7-8264-91c8391a6f7b
+                guid: zX`0CYCO%5
                 topic: A*
                 front: Paměťová složitost
                 back: |
                         Držím v paměti všechny expandované nody, je jich až
                         exponenciálně.
-        -
-                uuid: baefb97c-b818-4b65-8c69-6eef61c6293f
+        -       uuid: baefb97c-b818-4b65-8c69-6eef61c6293f
+                guid: JT=6??#VKI
                 topic: A*
                 front: Bottleneck
                 back: |
                         Paměť. Spotřebuje se jí stejně jako času a obvykle
                         dojde první.
-        -
-                uuid: 53caeae2-0b87-4fff-97d3-7b3ef7c14106
+        -       uuid: 53caeae2-0b87-4fff-97d3-7b3ef7c14106
+                guid: G(8:m2;IMs
                 topic: IDA*
                 front: Zkratka
                 markdown: false
                 back: |
                         Iterative deepening A*
-        -
-                uuid: 2989ad27-c59d-4cdb-98a2-7cafed518160
+        -       uuid: 2989ad27-c59d-4cdb-98a2-7cafed518160
+                guid: Q$|Ejvy1H_
                 topic: IDA*
                 front: Algoritmus
                 back: |
@@ -215,15 +217,15 @@ notes:
 
                         Když nenaleznu řešení, tak zvýším limit na
                         nejmenší [$]f(n)[/$], které bylo nad limitem, a opakuju.
-        -
-                uuid: 5bac3bf9-057e-412e-82c4-289a1f4c484f
+        -       uuid: 5bac3bf9-057e-412e-82c4-289a1f4c484f
+                guid: IFt8(}6Xdl
                 topic: IDA*
                 markdown: false
                 front: Výhoda oproti A*
                 back: |
                         Menší spotřeba paměti (je depth-first).
-        -
-                uuid: 7276de86-7996-4f66-b737-23afb9bd6259
+        -       uuid: 7276de86-7996-4f66-b737-23afb9bd6259
+                guid: J|&_=>hlY)
                 front: Recursive best-first search &mdash; algoritmus
                 back: |
                         V každém volání si pamatuju odhady na délky optimálních
@@ -238,34 +240,34 @@ notes:
                         je slibnější podstrom, abortuju a jdu nahoru.
                         Po cestě nahoru probublám přesnější (vyšší)
                         odhad na délku cesty skrz současný podstrom.
-        -
-                uuid: 0776ba77-2a66-4efb-8524-d3de22131639
+        -       uuid: 0776ba77-2a66-4efb-8524-d3de22131639
+                guid: I,=_etOB`(
                 markdown: false
                 front: Kdy je IDA* optimální?
                 back: |
                         Když používá admisibilní heuristiku.
-        -
-                uuid: b69ec95e-fb52-4868-8c51-1437d5509218
+        -       uuid: b69ec95e-fb52-4868-8c51-1437d5509218
+                guid: c2I}YI*LL%
                 topic: Recursive best-first search
                 front: Spotřeba paměti
                 back: |
                         [$]\\O(bd)[/$]
-        -
-                uuid: b2f46ed6-cbb5-428c-a811-44b90e9d1d36
+        -       uuid: b2f46ed6-cbb5-428c-a811-44b90e9d1d36
+                guid: tby.OYZW@<
                 topic: Recursive best-first search
                 front: Spotřeba času
                 back: |
                         Exponenciální (excesivní regenerace)
-        -
-                uuid: 9f21c5b6-dd18-471a-8bf2-fab06d2ea323
+        -       uuid: 9f21c5b6-dd18-471a-8bf2-fab06d2ea323
+                guid: e2e7.p6=At
                 topic: SMA*
                 front: Zkratka
                 markdown: false
                 back: |
                         Simplified memory-bounded A*
 
-        -
-                uuid: 21870f9e-b509-4de0-9894-065b9829acb3
+        -       uuid: 21870f9e-b509-4de0-9894-065b9829acb3
+                guid: M.D-&sd]UP
                 topic: SMA*
                 front: Algoritmus
                 markdown: false
@@ -279,8 +281,8 @@ notes:
 
                         Když dojde paměť, smaž nejhorší list; je-li jich víc,
                         smaž ten nejmíň hluboký. Jeho informace pošli nahoru.
-        -
-                uuid: b094b561-0314-4e8b-a841-b67e6bffb178
+        -       uuid: b094b561-0314-4e8b-a841-b67e6bffb178
+                guid: J0&}k.Xf3~
                 topic: SMA*
                 front: Optimalita
                 markdown: false
@@ -290,8 +292,8 @@ notes:
                         tree-search nejlepší cestu.<br>
                         Když je málo paměti, najde nejlepší co se do paměti
                         vejde.
-        -
-                uuid: e65df462-b1d2-4ef4-b451-8aa670451f94
+        -       uuid: e65df462-b1d2-4ef4-b451-8aa670451f94
+                guid: p8wXp*H.sa
                 front: Příklady heuristik získaných relaxací 8-puzzle
                 back: |
                         <ul>
@@ -299,24 +301,24 @@ notes:
                         <li> Součet vzdáleností tilů od jejich cílů
                              (Manhattan heuristika).
                         </ul>
-        -
-                uuid: ab93dba1-29b3-44a0-82b3-d9d888223810
+        -       uuid: ab93dba1-29b3-44a0-82b3-d9d888223810
+                guid: Lc%zcaTC!*
                 markdown: false
                 front: Poměřování A* heuristik číselně
                 back: |
                         Ať heuristika rozbalí [$]N[/$] nodů.
                         Porovnáváme [$]b^{ * }[/$], branching faktor
                         plného stromu co má [$]N+1[/$] nodů ([$]N+1=1+b^{ * }+\ldots+(b^{ * })^d[/$]).
-        -
-                uuid: b7042e65-c900-4aa5-9d5f-f16326927b72
+        -       uuid: b7042e65-c900-4aa5-9d5f-f16326927b72
+                guid: A>8yjUMTfA
                 front: |
                         Definice:
                         Heuristika [$]h_2[/$] dominuje heuristiku [$]h_1[/$]
                 markdown: false
                 back: |
                         [$] (\a n) h_2(n)\geq h_1(n)[/$]
-        -
-                uuid: 2efbf879-7dbb-4cb1-a6d1-643ee9b82937
+        -       uuid: 2efbf879-7dbb-4cb1-a6d1-643ee9b82937
+                guid: M46nBjbX:?
                 front: |
                         Jak se liší A* na dvojici heuristik,
                         kde jedna dominuje druhou?
@@ -328,18 +330,18 @@ notes:
                         [$]h(n)<C^{ * }-g(n)[/$].
                         Když expanduje node pomocí dominující heuristiky,
                         expanduje ho i při dominované heuristice.
-        -
-                uuid: 32c66cbc-4dec-40b6-9b0c-da669133e8c9
+        -       uuid: 32c66cbc-4dec-40b6-9b0c-da669133e8c9
+                guid: OPj7%R7r0,
                 front: Kdy je lepší dávat dominující heuristiku?
                 back: |
                         Vždy, když je admisibilní a nepočítá se moc dlouho.
-        -
-                uuid: 540f40fe-43b4-4f0c-8020-efd283bd5117
+        -       uuid: 540f40fe-43b4-4f0c-8020-efd283bd5117
+                guid: cH;CEC~i(^
                 front: Jak zkombinovat heuristiky co se navzájem nedominují?
                 back: |
                         Vzít [$]\\max[/$], to je všechny dominuje.
-        -
-                uuid: 0ad36a46-3dd1-4d40-93bb-bd4a24b0e34d
+        -       uuid: 0ad36a46-3dd1-4d40-93bb-bd4a24b0e34d
+                guid: G9xrCM5q&,
                 front: |
                         Jak stavět heuristiky kromě relaxace?
                         Jak to implementovat?

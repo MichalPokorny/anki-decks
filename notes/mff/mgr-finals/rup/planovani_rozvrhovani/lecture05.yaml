@@ -1,18 +1,20 @@
-deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška 5
+deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška
+        5
 topic: Plánování s plánovacím grafem
 notes:
         # planovani a rozvrhovani lecture05
-        -
-                uuid: 96718524-64fb-4d49-a711-1ce1cc991377
-                front: Problémy hledání v prostoru plánů a stavů a jak je vyřeší plánování s grafem
+        -       uuid: 96718524-64fb-4d49-a711-1ce1cc991377
+                guid: DdGqgk<zm0
+                front: Problémy hledání v prostoru plánů a stavů a jak je vyřeší plánování
+                        s grafem
                 back: |
                         Když vyberu špatnou akci, projeví se to pozdě.
                         Máme taky velký větvící faktor.<br>
 
                         Budeme řešit relaxovaný problém (odstraníme např. negativní efekty).
                         Při výběru akce budeme zkoušet jenom akce z řešení relaxace.
-        -
-                uuid: 997a5411-4702-440b-9de1-dc7797639962
+        -       uuid: 997a5411-4702-440b-9de1-dc7797639962
+                guid: nX-%n/TSZD
                 front: Základní myšlenky plánování s grafem
                 back: |
                         <ul>
@@ -27,20 +29,20 @@ notes:
                         disjunkce rozkladů, zachycením interferencí rozkladů
                         formou omezení
                         </ul>
-        -
-                uuid: f1407f01-3c70-451e-9592-2ee55275b59c
+        -       uuid: f1407f01-3c70-451e-9592-2ee55275b59c
+                guid: jG;i%qHY<;
                 front: Graf dosažitelnosti  a jaký je s ním problém
                 back: |
                         Vrchol: stav, hrana: akce.
                         Je neprakticky velký.
-        -
-                uuid: bf128a9c-baf9-413b-a7f4-93908f9f3b93
+        -       uuid: bf128a9c-baf9-413b-a7f4-93908f9f3b93
+                guid: J?eA_DtqG!
                 front: Jakou podmínku na dosažitelnost poskytuje plánovací graf?
                 back: |
                         Nutnou: je-li stav dosažitelný, vyskytuje se v plánovacím grafu.
                         (Ne všechny stavy v plánovacím grafu jsou skutečně dosažitelné.)
-        -
-                uuid: 9f2cdd79-51fd-407b-92e6-b7ab2fa7696a
+        -       uuid: 9f2cdd79-51fd-407b-92e6-b7ab2fa7696a
+                guid: N[kwM</@YW
                 front: Jak plánovací graf aproximuje stavy?
                 back: |
                         Aproximace je sjednocení atomů ve všech stavech dosažitelných
@@ -50,8 +52,8 @@ notes:
                         a ignorujeme negativní efekty. Vyznačíme si, která akce
                         byla odpovědná přidání kterého atomu, a který atom
                         by chtěla smazat.
-        -
-                uuid: c2a7dc3f-2057-4ead-a90b-ad97b16258eb
+        -       uuid: c2a7dc3f-2057-4ead-a90b-ad97b16258eb
+                guid: zS-pivv232
                 front: Vrstvy, úrovně a hrany plánovacího grafu
                 back: |
                         Vrstva: buď instanciované atomy, nebo akce<br>
@@ -60,16 +62,16 @@ notes:
                         Hrany: z atomů do akcí, pro které jsou předpoklady.
                         Z akce do atomů popisujících efekty. (Hrany pro negativní
                         efekty jsou označeny zvlášť, negativní efekty se nemažou ze stavu.)
-        -
-                uuid: fe2f858e-a96f-478a-82f0-0412a359760d
+        -       uuid: fe2f858e-a96f-478a-82f0-0412a359760d
+                guid: H|<%^R$vf9
                 front: Vrstvený plán
                 back: |
                         Z plánovacího grafu vypadne vrstvený plán,
                         co má několik vrstev akcí.
                         Sekvenční plán z toho udělám tak, že libovolně zpermutuju
                         každou vrstvu a pak to spojím.
-        -
-                uuid: a9fc6961-06ce-48a3-9c9c-c82e2f56a590
+        -       uuid: a9fc6961-06ce-48a3-9c9c-c82e2f56a590
+                guid: l!c,V*A?o+
                 front: Nezávislost akcí a proč se bude hodit
                 back: |
                         Akce jsou závislé, když jedna maže předpoklad nebo
@@ -80,19 +82,19 @@ notes:
                         Každá vrstva vrstveného plánu se bude skládat z nezávislých
                         akcí (aby šly libovolně uspořádat).
                         Aplikace množiny nezávislých akcí nezáleží na jejich pořadí.
-        -
-                uuid: 5416283c-eafd-42f5-8ebd-b48bf1061db9
+        -       uuid: 5416283c-eafd-42f5-8ebd-b48bf1061db9
+                guid: Dw`U3j_|jd
                 front: Čím je určena nezávislost akcí?
                 back: Doménou &mdash; nikoli konkrétním problémem
-        -
-                uuid: 7dd3d00d-d9d9-418c-9232-acf1bfc58283
+        -       uuid: 7dd3d00d-d9d9-418c-9232-acf1bfc58283
+                guid: xPB-!k_xT5
                 front: Použitelnost, výsledek aplikace množiny nezávislých akcí
                 back: |
                         *Použitelnost*: všechny předpoklady jsou splněny<br>
                         *Výsledek aplikace*: odeberu negativní efekty a přidám
                         pozitivní. Na permutaci nesejde.
-        -
-                uuid: f099651f-f287-4222-9343-0b0e83a8a095
+        -       uuid: f099651f-f287-4222-9343-0b0e83a8a095
+                guid: zd7b#]!KC_
                 front: Jak budeme plánovat s plánovacím grafem?
                 back: |
                         Sestrojíme graf, ve kterém poslední vrstva splňuje
@@ -102,20 +104,20 @@ notes:
                         To uděláme zpětným chodem od poslední úrovně.
                         <br>
                         Přidáme no-op akce.
-        -
-                uuid: ba467268-c13f-4d2b-8213-29b8624100bd
+        -       uuid: ba467268-c13f-4d2b-8213-29b8624100bd
+                guid: q2:nY=^9E/
                 front: |
                         Značení: No-op akce
                 back: |
                         [$]\\alpha_p[/$] pro atom [$]p[/$]
-        -
-                uuid: 61cbf4d3-7e8e-4621-84dd-d0ff37be22d6
+        -       uuid: 61cbf4d3-7e8e-4621-84dd-d0ff37be22d6
+                guid: M+,O(UJ*jH
                 front: Účel no-op akcí
                 back: |
                         Aby každý atom v každé stavové vrstvě byl důsledkem
                         nějaké akce předchozí úrovně.
-        -
-                uuid: 28f854a0-fbdc-4e51-90d6-3076eda605df
+        -       uuid: 28f854a0-fbdc-4e51-90d6-3076eda605df
+                guid: qOzRd}H|qm
                 front: Jaké věci tvoří mutexy?
                 back: |
                         Nultá vrstva: všechny atomy jsou dohromady.<br>
@@ -131,20 +133,20 @@ notes:
                         Dvě akce jsou nekompatibilní, pokud jsou jejich
                         předpoklady nekompatibilní. Akce, jejichž předpoklady
                         jsou mutex, můžeme rovnou vyřadit.
-        -
-                uuid: c18d9c2e-d180-4249-8989-81c61eb62d37
+        -       uuid: c18d9c2e-d180-4249-8989-81c61eb62d37
+                guid: H&-?K;9^pP
                 front: |
                         Značení: Množina akčních mutexů pro úroveň [$]i[/$]
                 back: |
                         [$]\\mu A_i[/$]
-        -
-                uuid: 2c9e505f-76a8-48ee-9c88-c6871538d4ce
+        -       uuid: 2c9e505f-76a8-48ee-9c88-c6871538d4ce
+                guid: tlZQ]`9?}s
                 front: |
                         Značení: Množina výrokových mutexů pro úroveň [$]i[/$]
                 back: |
                         [$]\\mu P_i[/$]
-        -
-                uuid: 321aba0e-8fdf-4268-9026-a5a54a16ddb2
+        -       uuid: 321aba0e-8fdf-4268-9026-a5a54a16ddb2
+                guid: bb6`@4,d;{
                 front: |
                         Formálně: Kdy platí mutex akcí &mdash;
                         [$](a, b)\\in\\mu A_i[/$]?
@@ -153,8 +155,8 @@ notes:
                         [$]\\e p\\in\\mathrm{precond}^+(a),
                                q\\in\\mathrm{precond}^+(b):
                            (p,q)\\in\\mu P_{i-1}[/$]
-        -
-                uuid: 36a1ee65-bb8c-4a9d-b779-c19ffad853ec
+        -       uuid: 36a1ee65-bb8c-4a9d-b779-c19ffad853ec
+                guid: p*a&UvP=5e
                 front: |
                         Formálně: Kdy platí mutex atomů &mdash;
                         [$](p,q)\\in\\mu P_i[/$]?
@@ -164,8 +166,8 @@ notes:
                            (a,b)\\in\\mu A_{i-1}[/$]
                         a [$]\\nexists a: p\\in\\mathrm^{eff}^+(a)\\wedge
                                           q\\in\\mathrm^{eff}^+(a)[/$].
-        -
-                uuid: 976eed74-747c-46dd-8348-649cdfa8f1e6
+        -       uuid: 976eed74-747c-46dd-8348-649cdfa8f1e6
+                guid: lV*;>JS&r!
                 front: |
                         Vlastnosti relace mutex a důkaz;
                         důsledky pro akce a výroky ve vrstvách
@@ -181,12 +183,12 @@ notes:
                         přemístit předpoklady dál a pustit akce později.
                         <br>
                         Důsledek: množiny akcí a výroků monotónně rostou
-        -
-                uuid: c794b243-d794-499c-9d55-652dcb61f563
+        -       uuid: c794b243-d794-499c-9d55-652dcb61f563
+                guid: zDHK&f)i+R
                 front: Technické omezení
                 back: Akce nesmí mít negativní předpoklady
-        -
-                uuid: 8fd62631-d71c-4bf8-832a-1d47bd68c37f
+        -       uuid: 8fd62631-d71c-4bf8-832a-1d47bd68c37f
+                guid: Lui/Br3}1;
                 front: Algoritmus
                 back: |
                         Střídám expanzi grafu a extrakci plánu.
@@ -198,15 +200,15 @@ notes:
                         (Případně: konec když se splní např. max. počet kroků.)
                         <li> *Extrakce*: zkus vybrat z grafu plán do cíle
                         </ul>
-        -
-                uuid: 9a9985e8-f156-48f6-9e36-fce5d1dcc1be
+        -       uuid: 9a9985e8-f156-48f6-9e36-fce5d1dcc1be
+                guid: x^M%oT8-YE
                 front: Jak poznám pevný bod, k čemu je?
                 back: |
                         Od pevného bodu nemusíš dál expandovat, stačí kopírovat.
                         V pevném bodě přestanou růst dostupné atomy/akce, resp.
                         klesat mutexy atomů/akcí.
-        -
-                uuid: c4f9f83a-0482-4812-8ce8-0789a7981bcc
+        -       uuid: c4f9f83a-0482-4812-8ce8-0789a7981bcc
+                guid: je#qEETqiL
                 front: Jak provést extrakci plánu? Instance čeho to je?
                 back: |
                         Zpětně od poslední úrovně.
@@ -219,8 +221,8 @@ notes:
                         Jestli to nejde, backtrackuju k volbě jiného [$]\\pi_i[/$].
                         <br><br>
                         Je to instance prohledávání AND/OR grafu.
-        -
-                uuid: a8f24dea-4bcf-4916-a3a2-97571c18abfe
+        -       uuid: a8f24dea-4bcf-4916-a3a2-97571c18abfe
+                guid: gvm^x_;*eJ
                 front: Co je a k čemu je nogood množina?
                 back: |
                         Nogood množina: množina výroků co je jako celek
@@ -228,21 +230,21 @@ notes:
                         tabulku nesplnitelných cílů.
                         <br>
                         Zrychluje a zajišťuje konečnost.
-        -
-                uuid: 345e41f0-c974-4196-ae28-d93db92bba03
+        -       uuid: 345e41f0-c974-4196-ae28-d93db92bba03
+                guid: j<N@mGmEeu
                 front: Jak zjistit, že neexistuje plán?
                 back: |
                         Když jsi za fixpointem, přidáš vrstvu a v nové
                         vrstvě je po pokusu o extraci plánu stejně
                         nogoodů.
-        -
-                uuid: d4500262-276a-4827-be18-1cda09c4b05d
+        -       uuid: d4500262-276a-4827-be18-1cda09c4b05d
+                guid: f_*8(9_Mn`
                 front: Trik na lepší správu paměti
                 back: |
                         Nebudovat explicitně vrstvy, jen pro každý
                         atom a akci uložit, kde byla poprvé (kvůli monotonii).
-        -
-                uuid: 1524608d-e166-4a82-b431-6ef322242a6c
+        -       uuid: 1524608d-e166-4a82-b431-6ef322242a6c
+                guid: GPcdqp<XNr
                 front: Jakými heuristikami můžu líp prohledávat?
                 back: |
                         <ul>

@@ -1,8 +1,9 @@
-deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška 2
+deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování a rozvrhování::Přednáška
+        2
 notes:
         # P&R lecture02
-        -
-                uuid: 95b3a90e-dbc5-4bab-8713-1468756d7622
+        -       uuid: 95b3a90e-dbc5-4bab-8713-1468756d7622
+                guid: gB1yye%PX@
                 front: Konceptuální model plánování, cíle; zjednodušení světa?
                 back: |
                         Stavy: množina, akce: množina, události mimo naši
@@ -15,16 +16,16 @@ notes:
                         statický (žádné události), cíle: jenom dosažení
                         nějakého stavu, plány jsou sekvenční, čas je implicitní
                         (akce jsou okamžité), plánujeme offline
-        -
-                uuid: 732febcc-69de-4eac-ae60-dcff6f9ec4e2
+        -       uuid: 732febcc-69de-4eac-ae60-dcff6f9ec4e2
+                guid: Ip^{O+!jB=
                 topic: STRIPS plánování
                 front: |
                         Definice: Stav systému
                 back: |
                         Množina platných výroků z [$]L[/$], akce je přidá nebo
                         smaže
-        -
-                uuid: 034f6a96-233b-405d-b391-38e4f0a1babd
+        -       uuid: 034f6a96-233b-405d-b391-38e4f0a1babd
+                guid: L-~@Ya=vEb
                 topic: STRIPS plánování
                 front: |
                         Definice: Doména
@@ -32,8 +33,8 @@ notes:
                         [$]L[/$] je konečná množina výrokových symbolů.<br>
                         Doména nad výroky [$]L[/$]: [$]\\Sigma=(S,A,\\gamma)[/$],
                         kde [$]S\\subseteq\\mathcal{P}(L)[/$] je množina stavů.
-        -
-                uuid: 121e9e45-d6a2-4170-acf4-143a3e826192
+        -       uuid: 121e9e45-d6a2-4170-acf4-143a3e826192
+                guid: t[)/26FH`$
                 topic: STRIPS plánování
                 front: |
                         Definice - Akce, kdy je použitelná
@@ -42,16 +43,16 @@ notes:
                         [$]a=(\\mathrm{precond}(a),\\mathrm{eff}^{-}(a), \\mathrm{eff}^{+}(a))[/$];
                         ([$]\\mathrm{eff}^- \\cap \\mathrm{eff}^+ = \\emptyset[/$]),
                         použitelná když [$]\\mathrm{precond}(a)\\subseteq s[/$]
-        -
-                uuid: 2c07c245-ae07-4fc2-9857-952e41e102ea
+        -       uuid: 2c07c245-ae07-4fc2-9857-952e41e102ea
+                guid: NBa5FB$)/P
                 topic: STRIPS plánování
                 front: |
                         Definice: Přechodová funkce
                 back: |
                         [$]\\gamma(s,a)=(s-\\mathrm{eff}^{-}(a))\\cup \\mathrm{eff}^+(a)[/$]
                         je-li [$]a[/$] použitelná akce.
-        -
-                uuid: 0b79d1b3-d1c5-403f-ab8b-49b95b4cc411
+        -       uuid: 0b79d1b3-d1c5-403f-ab8b-49b95b4cc411
+                guid: gC,xIL_K$|
                 topic: STRIPS plánování
                 front: |
                         Definice: Plánovací problém
@@ -59,24 +60,24 @@ notes:
                         [$]P = (\\Sigma,s_0,g)[/$], kde [$]\\Sigma=(S,A,\\gamma)[/$]
                         je plánovací doména, [$]s_0[/$] je počáteční stav,
                         [$]g\\subseteq L[/$] jsou cílové výroky.
-        -
-                uuid: 73c1b436-401f-4cec-bdb8-4f0bf63da074
+        -       uuid: 73c1b436-401f-4cec-bdb8-4f0bf63da074
+                guid: JAsmh1682K
                 topic: STRIPS plánování
                 front: |
                         Definice: Minimální řešení
                 back: |
                         Plán jehož výsledek splňuje cílové výroky a je takový
                         nejkratší.
-        -
-                uuid: 4e46e196-cd01-43e9-9234-a49402354757
+        -       uuid: 4e46e196-cd01-43e9-9234-a49402354757
+                guid: wk~R-L+-Za
                 topic: STRIPS plánování
                 front: |
                         Definice: Akce [$]a[/$] je relevantní pro cíl [$]g[/$]
                 back: |
                         Když [$]g\\cap \\mathrm{eff}^+(a)\\neq\\emptyset[/$] a
                         [$]g\\cap \\mathrm{eff}^-(a)=\\emptyset[/$].
-        -
-                uuid: da45bb52-8736-4e6d-9754-e7a707678e33
+        -       uuid: da45bb52-8736-4e6d-9754-e7a707678e33
+                guid: DUTu7OM0JP
                 topic: STRIPS plánování
                 front: |
                         Definice: Regresní množiny pro cíl [$]g[/$]
@@ -85,45 +86,45 @@ notes:
                         [$$]\\gamma^{-1}(g,a)=(g-\\mathrm{eff}^{+}(a))\\cup \\mathrm{precond}(a)[/$$]
                         [$$]\\Gamma^{-1}(g)=\\{\\gamma^{-1}(g,a) : a\\in A, \\text{relevantni pro}\\ g\\}[/$$]
                         [$$]\\Gamma_\\infty^{-1}(g)=\\Gamma^{-1}(g)\\cup\\Gamma^{-2}(g)\\cup\\ldots[/$$]
-        -
-                uuid: 80482898-f547-4b91-8b36-f9362c688e06
+        -       uuid: 80482898-f547-4b91-8b36-f9362c688e06
+                guid: s5nNl#5;t4
                 topic: STRIPS plánování
                 front: Kdy má problém řešení, v řeči regresních množin?
                 back: |
                         Když [$]s_0[/$] je nadmnožina nějakého prvku
                         [$]\\Gamma_\\infty^{-1}(g)[/$].
-        -
-                uuid: 9f3820c7-6ea2-44fc-a98e-b62f77dcaa94
+        -       uuid: 9f3820c7-6ea2-44fc-a98e-b62f77dcaa94
+                guid: G4/WOBDo8&
                 topic: STRIPS plánování
                 front: Klasická reprezentace - jak vypadá jazyk?
                 back: |
                         Máme relační symboly a konstanty, můžeme používat proměnné. Nemáme funkce.
-        -
-                uuid: a5b34232-4fca-492c-8767-20afa831b20d
+        -       uuid: a5b34232-4fca-492c-8767-20afa831b20d
+                guid: B+S|0~6o9_
                 topic: STRIPS plánování
                 front: Klasická reprezentace - co je stav?
                 back: |
                         Množina konečně mnoha instanciovaných atomů
-        -
-                uuid: c364eeda-1c3a-4baf-abf2-df5ef363e1aa
+        -       uuid: c364eeda-1c3a-4baf-abf2-df5ef363e1aa
+                guid: kvQh65v*pE
                 topic: STRIPS plánování
                 front: Klasická reprezentace - jaký je logický předpoklad?
                 back: |
                         Closed world assumption
-        -
-                uuid: c5dbfefc-72ce-4476-9110-6b7ff1555875
+        -       uuid: c5dbfefc-72ce-4476-9110-6b7ff1555875
+                guid: r}64U!#Y^~
                 topic: STRIPS plánování
                 front: Klasická reprezentace - typy atomů podle toho, co dělají
                 back: |
                         Flexibilní (fluent) se mění, neměnné (rigid) jsou
                         výroky co platí pořád.
-        -
-                uuid: 70b0865c-eb0c-477a-b6f0-e6701d4d08fe
+        -       uuid: 70b0865c-eb0c-477a-b6f0-e6701d4d08fe
+                guid: pG(_|=zn24
                 topic: STRIPS plánování
                 front: Jaké preconditions můžou mít operátory?
                 back: Pozitivní a negativní atomy
-        -
-                uuid: ecbf6bce-83b9-4d15-acd6-2c7bd62ea698
+        -       uuid: ecbf6bce-83b9-4d15-acd6-2c7bd62ea698
+                guid: l1.Y@YK6AC
                 topic: STRIPS plánování
                 front: |
                         Definice: Plánovací operátor a akce
@@ -140,22 +141,22 @@ notes:
                         [$]\\mathrm{effects}(o)[/$]: nesmí být neměnné atomy.
                         <br>
                         Akce: plně instanciovaný operátor.
-        -
-                uuid: 980e7651-cdb8-4cb9-b435-0e8e879ed6f4
+        -       uuid: 980e7651-cdb8-4cb9-b435-0e8e879ed6f4
+                guid: gF,J+%?e,C
                 topic: STRIPS plánování
                 front: |
                         Notace: Pozitivní, negativní atomy v [$]S[/$]
                 back: |
                         [$]S^+, S^-[/$]
-        -
-                uuid: 12412f4d-9dd1-4855-973f-ca777c25f870
+        -       uuid: 12412f4d-9dd1-4855-973f-ca777c25f870
+                guid: xd1?{Mhx!9
                 topic: STRIPS plánování
                 front: Kdy je akce použitelná?
                 back: |
                         Když jsou splněny [$]\\mathrm{precond}^+[/$] a žádný z
                         atomů [$]\\mathrm{precond}^-[/$].
-        -
-                uuid: 596441a3-8174-41a4-9207-af9eedacabf6
+        -       uuid: 596441a3-8174-41a4-9207-af9eedacabf6
+                guid: G~.&pT*}s4
                 topic: STRIPS plánování
                 front: 6 rozšíření klasického plánování
                 back: |
@@ -168,8 +169,8 @@ notes:
                         <li> *Připojené procedury* (složitější předpoklady operátorů)
                         <li> *Logické axiomy* ("být vedle je ekvivalence")
                         </ul>
-        -
-                uuid: 3c7255ce-7c7f-46b0-a41d-b6698f01153b
+        -       uuid: 3c7255ce-7c7f-46b0-a41d-b6698f01153b
+                guid: PiEEbNk8&S
                 topic: STRIPS plánování
                 front: |
                         Co se musí udělat, když rozšíříme klasické plánování o

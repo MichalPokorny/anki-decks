@@ -2,441 +2,441 @@ topic: Vim
 deck: All::CS::Tools::Vim
 uid_tag: vim
 notes:
-        -
-                uuid: 234dbb3b-bfa6-4e47-88e8-1c160d33b3af
-                front: Increment/decrement current number
-                back: "`C-a`, `C-x`"
-                include_reverse: true
-        -
-                uuid: 3511ce47-af75-41bd-9bde-97ca608b5952
-                front: Move one paragraph forward/backward
-                back: "`{}`"
-                include_reverse: true
-        -
-                uuid: 714f43dd-a6a7-474e-a675-f0b454b1e7bb
-                front: Move one sentence forward/backward
-                back: "`()`"
-                include_reverse: true
-        -
-                uuid: bbaa3261-44dd-42d1-871b-27198ba94944
-                front: Go to other end of selection in visual mode
-                back: "`o`"
-        -
-                uuid: c9a40478-0e53-44b3-82e3-2309ea4a0dc1
-                front: Insert output of command
-                back: "`:read !ls /home`"
-                include_reverse: true
-        -
-                uuid: 33bd0e53-5c32-4324-a680-b90ab3b0143d
-                front: Create mark
-                back: '`mX` (`X` = mark name)'
-                include_reverse: true
-        -
-                uuid: 3208c345-745b-4497-9145-1ab135d38dd5
-                front: Go to mark
-                back: "`'X` (`X` = mark name)"
-                include_reverse: true
-        -
-                uuid: 97963064-88d3-47a6-ad66-3dbe77c7c0e4
-                front: Start and open a window for each file
-                back: "`vim -o ...`"
-                include_reverse: true
-        -
-                uuid: 6f7d2479-4ff0-4949-80bd-5b87202acde5
-                front: Start and open a window for each file, split vertically
-                back: "`vim -O ...`"
-                include_reverse: true
-        -
-                uuid: 4f97ca60-608a-496d-aa6d-4e68d5061210
-                front: Revive last selection
-                back: "`gv`"
-                include_reverse: true
-        -
-                uuid: 9cae9f68-eb5c-407f-9c38-e913c00d8796
-                front: Run filter command over buffer
-                back: "`:%!command`"
-                include_reverse: true
-        -
-                uuid: 7a9b08e5-c24f-463f-ab2a-598bbb2c7aee
-                front: Insert file content here
-                back: |
-                        `:read (file)` &mdash; aka `:r (file)`
-                include_reverse: true
-        -
-                uuid: 52b1456c-be13-4d83-a9c5-13747a657b81
-                front: Create directory for current buffer
-                back: "`:!mkdir -p %:h`"
-                include_reverse: true
-        -
-                uuid: 832d32a8-2b4f-4645-ad34-7f2fff5529f9
-                front: Open read-only Vim
-                back: "`view`"
-                include_reverse: true
-        -
-                uuid: 6b6f1fe9-0716-4e56-8add-ff31ea347e8d
-                front: "`M` in Normal mode"
-                back: "Go to middle of page"
-                include_reverse: true
-        -
-                uuid: 810f51bb-7533-4def-bbfa-370f37538271
-                front: "`H` in Normal mode"
-                back: "Go to start of page"
-                include_reverse: true
-        -
-                uuid: e04dbb9d-8b8b-40b7-9f6b-ebc9b2544e8a
-                front: "`L` in Normal mode"
-                back: "Go to end of page"
-                include_reverse: true
-        -
-                uuid: ee22c0cc-cfd3-40a2-b4cd-e589a3b854eb
-                front: "`]c`, `[c`"
-                back: "Jump to next, previous change in `vimdiff`"
-                include_reverse: true
-        -
-                uuid: ab14f024-7f23-4a81-8f9b-fe530e9daccc
-                front: "`O`"
-                back: "Insert line above and start writing"
-                include_reverse: true
-        -
-                uuid: 671b3d74-9674-4a8c-ae21-628d6993b5a1
-                front: "`b`"
-                back: "Go back by a word"
-                include_reverse: true
-        -
-                uuid: babee966-4538-48de-a293-a111d2746a09
-                front: "`%`"
-                back: "Jump to matching pair construct (`()`/`[]`/`#if`/...)"
-                include_reverse: true
-        -
-                uuid: 7b4be7c6-5975-4c21-93f1-676dd9ba62dc
-                front: "`g~`"
-                back: "Switch upper/lowercase in selection"
-                include_reverse: true
-        -
-                uuid: 07560444-4fff-4c82-bbe2-d7624cc45b4e
-                front: "`gu`"
-                back: "Switch selection to lowercase"
-                include_reverse: true
-        -
-                uuid: 23b2e89a-d396-4955-bf97-c264a5e04681
-                front: "`gU`"
-                back: "Switch selection to uppercase"
-                include_reverse: true
-        -
-                uuid: 358bd63c-6f53-4abf-9f0a-61a1a0b4061e
-                front: "`~`"
-                back: "Switch upper/lowercase of character"
-                include_reverse: true
-        -
-                uuid: ba51a63e-4f0c-46ca-b8d3-ae654b58428d
-                front: "Write buffer, appending its content to `otherfile.txt`"
-                back: "`:w >>otherfile.txt`"
-                include_reverse: true
-        -
-                uuid: 6fe27c8c-9748-4e13-8070-50530940c780
-                front: "Jump immediately before next occurence of `x` on this line"
-                back: "`tx`"
-                include_reverse: true
-        -
-                uuid: 79881b2a-95a9-4266-b5ec-782a4cabd9d1
-                front: "Search current word, backwards"
-                back: "`#`"
-                include_reverse: true
-        -
-                uuid: c43597d2-8abf-4223-bd3e-b779977c7b06
-                topic: Vim - Insert mode
-                front: "Paste content of register"
-                back: "`C-r (register)`"
-                include_reverse: true
-        -
-                uuid: 3f90fb54-db4f-4dfd-aa47-cd325b00359a
-                front: "Arithmetic register"
-                back: |
-                        `=`
-        -
-                uuid: 21001fd8-5a54-4394-896e-8a90c34b155f
-                topic: Vim - Insert mode
-                front: "Paste 5+15"
-                back: "`C-r =5+15 <Enter>`"
-        -
-                uuid: 808a44df-eb2d-465b-8388-1ed3e72db56f
-                front: "Scroll down without changing focused line"
-                back: |
-                        `C-e`
+-       uuid: 234dbb3b-bfa6-4e47-88e8-1c160d33b3af
+        guid: h&PJt:8*mq
+        front: Increment/decrement current number
+        back: '`C-a`, `C-x`'
+        include_reverse: true
+-       uuid: 3511ce47-af75-41bd-9bde-97ca608b5952
+        guid: C*^^rC1|s5
+        front: Move one paragraph forward/backward
+        back: '`{}`'
+        include_reverse: true
+-       uuid: 714f43dd-a6a7-474e-a675-f0b454b1e7bb
+        guid: u/`Ltcoc7U
+        front: Move one sentence forward/backward
+        back: '`()`'
+        include_reverse: true
+-       uuid: bbaa3261-44dd-42d1-871b-27198ba94944
+        guid: v?28~}&Vaq
+        front: Go to other end of selection in visual mode
+        back: '`o`'
+-       uuid: c9a40478-0e53-44b3-82e3-2309ea4a0dc1
+        guid: Fh#h1rW;%0
+        front: Insert output of command
+        back: '`:read !ls /home`'
+        include_reverse: true
+-       uuid: 33bd0e53-5c32-4324-a680-b90ab3b0143d
+        guid: oFIYDYG`4C
+        front: Create mark
+        back: '`mX` (`X` = mark name)'
+        include_reverse: true
+-       uuid: 3208c345-745b-4497-9145-1ab135d38dd5
+        guid: El0(K[BbXM
+        front: Go to mark
+        back: "`'X` (`X` = mark name)"
+        include_reverse: true
+-       uuid: 97963064-88d3-47a6-ad66-3dbe77c7c0e4
+        guid: OGrWs;Kiy~
+        front: Start and open a window for each file
+        back: '`vim -o ...`'
+        include_reverse: true
+-       uuid: 6f7d2479-4ff0-4949-80bd-5b87202acde5
+        guid: F[|A@=-m4)
+        front: Start and open a window for each file, split vertically
+        back: '`vim -O ...`'
+        include_reverse: true
+-       uuid: 4f97ca60-608a-496d-aa6d-4e68d5061210
+        guid: D:q%kfQ8nC
+        front: Revive last selection
+        back: '`gv`'
+        include_reverse: true
+-       uuid: 9cae9f68-eb5c-407f-9c38-e913c00d8796
+        guid: NIOS&M{A+X
+        front: Run filter command over buffer
+        back: '`:%!command`'
+        include_reverse: true
+-       uuid: 7a9b08e5-c24f-463f-ab2a-598bbb2c7aee
+        guid: ksFHq6.4d]
+        front: Insert file content here
+        back: |
+                `:read (file)` &mdash; aka `:r (file)`
+        include_reverse: true
+-       uuid: 52b1456c-be13-4d83-a9c5-13747a657b81
+        guid: xcELsLw=$a
+        front: Create directory for current buffer
+        back: '`:!mkdir -p %:h`'
+        include_reverse: true
+-       uuid: 832d32a8-2b4f-4645-ad34-7f2fff5529f9
+        guid: :XcyFc=~Y
+        front: Open read-only Vim
+        back: '`view`'
+        include_reverse: true
+-       uuid: 6b6f1fe9-0716-4e56-8add-ff31ea347e8d
+        guid: qktQXgEi+q
+        front: '`M` in Normal mode'
+        back: Go to middle of page
+        include_reverse: true
+-       uuid: 810f51bb-7533-4def-bbfa-370f37538271
+        guid: i{%vh`VX_0
+        front: '`H` in Normal mode'
+        back: Go to start of page
+        include_reverse: true
+-       uuid: e04dbb9d-8b8b-40b7-9f6b-ebc9b2544e8a
+        guid: NG.I=la4e>
+        front: '`L` in Normal mode'
+        back: Go to end of page
+        include_reverse: true
+-       uuid: ee22c0cc-cfd3-40a2-b4cd-e589a3b854eb
+        guid: xvr;}k.^Yf
+        front: '`]c`, `[c`'
+        back: Jump to next, previous change in `vimdiff`
+        include_reverse: true
+-       uuid: ab14f024-7f23-4a81-8f9b-fe530e9daccc
+        guid: JLeYj}Bw$g
+        front: '`O`'
+        back: Insert line above and start writing
+        include_reverse: true
+-       uuid: 671b3d74-9674-4a8c-ae21-628d6993b5a1
+        guid: q)S=v;HH-P
+        front: '`b`'
+        back: Go back by a word
+        include_reverse: true
+-       uuid: babee966-4538-48de-a293-a111d2746a09
+        guid: b<$rvITA<1
+        front: '`%`'
+        back: Jump to matching pair construct (`()`/`[]`/`#if`/...)
+        include_reverse: true
+-       uuid: 7b4be7c6-5975-4c21-93f1-676dd9ba62dc
+        guid: IE{o@Qhf0[
+        front: '`g~`'
+        back: Switch upper/lowercase in selection
+        include_reverse: true
+-       uuid: 07560444-4fff-4c82-bbe2-d7624cc45b4e
+        guid: pHrKI/i+bL
+        front: '`gu`'
+        back: Switch selection to lowercase
+        include_reverse: true
+-       uuid: 23b2e89a-d396-4955-bf97-c264a5e04681
+        guid: IZIp|b20$/
+        front: '`gU`'
+        back: Switch selection to uppercase
+        include_reverse: true
+-       uuid: 358bd63c-6f53-4abf-9f0a-61a1a0b4061e
+        guid: v7L[sa|C*2
+        front: '`~`'
+        back: Switch upper/lowercase of character
+        include_reverse: true
+-       uuid: ba51a63e-4f0c-46ca-b8d3-ae654b58428d
+        guid: K=S2?5oO-H
+        front: Write buffer, appending its content to `otherfile.txt`
+        back: '`:w >>otherfile.txt`'
+        include_reverse: true
+-       uuid: 6fe27c8c-9748-4e13-8070-50530940c780
+        guid: F-ssK~G!JU
+        front: Jump immediately before next occurence of `x` on this line
+        back: '`tx`'
+        include_reverse: true
+-       uuid: 79881b2a-95a9-4266-b5ec-782a4cabd9d1
+        guid: m~A(2Wqgx;
+        front: Search current word, backwards
+        back: '`#`'
+        include_reverse: true
+-       uuid: c43597d2-8abf-4223-bd3e-b779977c7b06
+        guid: MdS`u1)=T
+        topic: Vim - Insert mode
+        front: Paste content of register
+        back: '`C-r (register)`'
+        include_reverse: true
+-       uuid: 3f90fb54-db4f-4dfd-aa47-cd325b00359a
+        guid: bcBvKdyMJu
+        front: Arithmetic register
+        back: |
+                `=`
+-       uuid: 21001fd8-5a54-4394-896e-8a90c34b155f
+        guid: Q0xGo;jFg7
+        topic: Vim - Insert mode
+        front: Paste 5+15
+        back: '`C-r =5+15 <Enter>`'
+-       uuid: 808a44df-eb2d-465b-8388-1ed3e72db56f
+        guid: cwjTf7h*h~
+        front: Scroll down without changing focused line
+        back: |
+                `C-e`
                 # mnemonic: "E-xtra lines"
-                include_reverse: true
-        -
-                uuid: 2cc06e7e-05a7-4dff-bfa2-b63e6c322016
-                front: "Scroll up without changing focused line"
-                back: |
-                        `C-y`
-                include_reverse: true
-        -
-                uuid: 2cb7bd94-3a1c-4ce6-a697-cbc0fcc56f65
-                front: "Find a pattern and add something to occurences"
-                back: "`:%s/pattern/&+something/` => replace `pattern` with `pattern+something`"
-        -
-                uuid: 006ead5b-61e6-4460-8985-6abc34894028
-                front: "Open window with command history"
-                back: "`q:`"
-        -
-                uuid: 1ea2eb93-3bba-46c5-aee9-970bd1531fb6
-                topic: Vim - Insert mode
-                front: "`C-w`"
-                back: "Delete last word"
-                include_reverse: true
-        -
-                uuid: e9e1434f-7db7-41de-9faf-24b8536610d6
-                topic: Vim - Insert mode
-                front: "`C-u`"
-                back: "Backspace until start of line"
-                include_reverse: true
-        -
-                uuid: 6c1b7707-1f07-45ca-9f52-84031a5a237b
-                front: "Replace current line with output of command"
-                back: "`!!` (...)"
-                include_reverse: true
-        -
-                uuid: f4d10a4a-d9a6-474b-afb7-ba15bf9e27da
-                front: "Insert output of command here"
-                back: "`:r!xyz`"
-                include_reverse: true
-        -
-                uuid: 0f8c2e2a-f05d-424f-9d31-e0265e915286
-                front: "Change window height to 35 lines"
-                back: "`35 C-w _`"
-                include_reverse: true
-        -
-                uuid: 8d5e9ea0-626b-4066-b175-0a0e078f8162
-                front: "Change window width to 35 chars"
-                back: "`35 C-w |`"
-                include_reverse: true
-        -
-                uuid: e6495158-3b99-4cba-b546-2bc1cf1be58c
-                front: "Go to previous position in position stack"
-                back: "`C-o`"
-                include_reverse: true
-        -
-                uuid: 253a48e4-8514-41dc-8e7e-ed5f964e3fe2
-                front: "Go to next position in position stack"
-                back: "`C-i`"
-                include_reverse: true
-        -
-                uuid: 864aed40-c3b6-4d6f-9a66-2fd8d804cf81
-                front: "Change entire line"
-                back: "`cc` or `C`"
-                include_reverse: true
-        -
-                uuid: ec7bbcf5-7268-4363-ac43-a390beea09cd
-                front: "Get man page of current word"
-                back: "`K`"
-                include_reverse: true
-        -
-                uuid: 2884123c-8687-4bdd-94a1-aef170989093
-                topic: Vim - Insert mode
-                front: "Insert character at same position in line above"
-                back: "`C-y`"
-                include_reverse: true
-        -
-                uuid: d73df7fb-a5ed-41eb-956a-15707d7ba913
-                front: "Get UTF-8 representation of char"
-                back: "`g8`"
-                include_reverse: true
-        -
-                uuid: ad9d0354-d668-4bfe-ab40-293f6753a109
-                front: "Get ASCII representation of char, including hex"
-                back: "`ga`"
-                include_reverse: true
-        -
-                uuid: 00fb7dd3-0d94-4198-852c-113ff8118848
-                front: "Cursor to column 10"
-                back: "`10|`"
-                include_reverse: true
-        -
-                uuid: 66ba953f-2a69-4e20-b168-e9b46c4fbfe2
-                front: "Go to 40% of file"
-                back: "`40%`"
-                include_reverse: true
-        -
-                uuid: 18bb0924-c2c0-4c61-992c-945ac708dea9
-                front: "Equalize windows"
-                back: "`C-w =`"
-                include_reverse: true
-        -
-                uuid: d5f11805-0f18-4a3b-8713-a010ffcec95a
-                front: "List errors"
-                back: "`:clist`"
-                include_reverse: true
-        -
-                uuid: db2cef8d-afb6-4915-b434-748a661ae628
-                front: "List errors, in new window"
-                back: "`:copen`"
-                include_reverse: true
-        -
-                uuid: 7599b352-1206-4916-b030-5d0dd746a6b7
-                front: "List errors, including whole `makeprg` output"
-                back: "`:clist!`"
-                include_reverse: true
-        -
-                uuid: 1b0f12a7-5c20-4298-a2ab-e201ac97c3ff
-                front: "Goto beginning of previous word"
-                back: "`b`"
-                include_reverse: true
-        -
-                uuid: 2ffc7d7b-4d38-4468-8aa0-2347ec47ce5d
-                front: "Goto next word end"
-                back: "`e`"
-                include_reverse: true
-        -
-                uuid: 96faec0f-8f89-4aab-877a-b1bccaf81194
-                front: "Repeat last executed macro"
-                back: "`@@`"
-                include_reverse: true
-        -
-                uuid: 93cfd3bf-a89d-4efe-8a7a-e974f36c6f49
-                front: "Write buffer to new filename and switch to new filename"
-                back: "`:saveas x`"
-                include_reverse: true
-        -
-                uuid: 3c544dc9-079c-41ef-a446-fbcb83b84d09
-                front: "Open file under cursor"
-                back: "`gf`"
-                include_reverse: true
-        -
-                uuid: 3c723e02-0c15-4f17-8f5b-93871e923092
-                front: "Switch between last 2 files"
-                back: "`C-^`"
-                include_reverse: true
-        -
-                uuid: 2681bfd3-215f-4dce-8451-8e1a2dd7cee0
-                topic: Vim - Insert mode
-                front: "Do one normal mode command"
-                back: "`C-o`"
-                include_reverse: true
-        -
-                uuid: d3784d82-9ae5-4181-8b08-6a7ac1ced857
-                front: "Go to 100th file character"
-                back: "`:goto 100`"
-                include_reverse: true
-        -
-                uuid: fd4d6e64-2aa6-4e26-a364-f4419f23e93d
-                front: "Pipe buffer into the command `foo`"
-                back: "`:w !foo`"
-                include_reverse: true
-        -
-                uuid: 4644234c-3ca1-4ec4-9542-8cf7a1de311e
-                front: "Record macro `c`"
-                back: "`qc ... ... q`"
-                include_reverse: true
-        -
-                uuid: ab6f9cea-5ddb-47b5-b86b-dfcd8ac7e5e8
-                front: "Play macro `c`"
-                back: "`@c`"
-                include_reverse: true
-        -
-                uuid: 757c252f-2222-40ff-a139-c9fd09ffb5ef
-                topic: Vim - Insert mode
-                front: "`C-n`"
-                back: "Next autocomplete"
-                include_reverse: true
-        -
-                uuid: c79e906a-7b09-492a-9ea7-b89db94c4053
-                topic: Vim - Insert mode
-                front: "`C-p`"
-                back: "Previous autocomplete"
-                include_reverse: true
-        -
-                uuid: e76217ca-e0f6-49dd-98fe-58986a5cca6a
-                front: "`:cn`"
-                back: "Go to next error"
-                include_reverse: true
-        -
-                uuid: ba1f83b3-d04d-4ab1-a3d0-90584bd7c5ef
-                front: "`:cc`"
-                back: "Show this error's full error message"
-                include_reverse: true
-        -
-                uuid: 83bb4a81-b0bd-425e-875c-68a4b2e0eb10
-                front: "`;`"
-                back: "Next character search match on this line"
-                include_reverse: true
-        -
-                uuid: 41f6b66d-7dd6-4546-b66e-bc184d75abdd
-                front: "`,`"
-                back: "Previous character search match on this line"
-                include_reverse: true
-        -
-                uuid: 1adc19cb-5f9f-4703-802f-441eec740d28
-                front: "Mark of start of last changed text (e.g., pasted)"
-                back: '<code>\`[</code>'
-                include_reverse: true
-        -
-                uuid: db0ac34a-af2d-4e38-a8cc-d4c6bd7a5f3e
-                front: "Mark of end of last changed text (e.g., pasted)"
-                back: '<code>\`]</code>'
-                include_reverse: true
-        -
-                uuid: beb11e5a-aa12-4849-ad4a-aaa16c5bbd7f
-                front: "Select last changed text (e.g., pasted)"
-                back: '<code>\`[v\`]</code>'
-                include_reverse: true
-        -
-                uuid: 9d88eca5-9bea-4fc1-bb52-032c83d1bbe8
-                front: "Undo all changes on current line"
-                back: "`U`"
-                include_reverse: true
-        -
-                uuid: df60586b-43da-44fd-8ecf-e6b520e19dc0
-                front: "Center current line on screen"
-                back: "`zz`"
-                include_reverse: true
-        -
-                uuid: 20ee57ec-c2ed-4330-8b06-3192eb441e30
-                front: "Rot-13 selection (Visual mode)"
-                back: "`g?`"
-                include_reverse: true
-        -
-                uuid: da9b1bf4-4081-4423-a1fc-269990e3e4b9
-                front: "Go to definition (globally)"
-                back: "`gD`"
-                include_reverse: true
-        -
-                uuid: 69418583-e1ee-4759-819c-6114d2e3be6d
-                front: "Go to definition (only in current function)"
-                back: "`gd`"
-                include_reverse: true
-        -
-                uuid: 75f24356-4ed3-4c05-81f5-2dc8521781df
-                front: "Move to next method in programming language"
-                back: "`]m`"
-                include_reverse: true
-        -
-                uuid: f01825ed-f4ef-471b-b2de-c18edd3036bd
-                front: "Move to previous method in programming language"
-                back: "`[m`"
-                include_reverse: true
-        -
-                uuid: 35d0b068-01ae-4ac9-995e-e2d8c180c3ed
-                front: "Reformat current paragraph"
-                back: "`{gq}`"
-                include_reverse: true
-        -
-                uuid: be75a679-f786-4a75-9f92-0f71d8b53ee4
-                front: "Reformat until `(movement)`"
-                back: "`gq(movement)`"
-                include_reverse: true
-        -
-                uuid: 71fcd542-fd41-466c-8028-0b0243ba95a4
-                front: "List all marks"
-                back: "`:marks`"
-                include_reverse: true
-        -
-                uuid: 759c565c-acf5-43d8-9e13-789d5e5f34a5
-                front: "Open and edit new buffer"
-                back: "`:enew`"
-                include_reverse: true
-        -
-                uuid: 9bd33989-c6b9-4f12-be08-cccd0828b282
-                front: "Split vertically and explore filesystem"
-                back: "`:Sex`"
-                include_reverse: true
+        include_reverse: true
+-       uuid: 2cc06e7e-05a7-4dff-bfa2-b63e6c322016
+        guid: hk>RbXLLl]
+        front: Scroll up without changing focused line
+        back: |
+                `C-y`
+        include_reverse: true
+-       uuid: 2cb7bd94-3a1c-4ce6-a697-cbc0fcc56f65
+        guid: G~`cbdo>zD
+        front: Find a pattern and add something to occurences
+        back: '`:%s/pattern/&+something/` => replace `pattern` with `pattern+something`'
+-       uuid: 006ead5b-61e6-4460-8985-6abc34894028
+        guid: x5`xqFB5Yt
+        front: Open window with command history
+        back: '`q:`'
+-       uuid: 1ea2eb93-3bba-46c5-aee9-970bd1531fb6
+        guid: wO?(5B5XWb
+        topic: Vim - Insert mode
+        front: '`C-w`'
+        back: Delete last word
+        include_reverse: true
+-       uuid: e9e1434f-7db7-41de-9faf-24b8536610d6
+        guid: pf7dXrVOJ9
+        topic: Vim - Insert mode
+        front: '`C-u`'
+        back: Backspace until start of line
+        include_reverse: true
+-       uuid: 6c1b7707-1f07-45ca-9f52-84031a5a237b
+        guid: mwP]4Z|>&j
+        front: Replace current line with output of command
+        back: '`!!` (...)'
+        include_reverse: true
+-       uuid: f4d10a4a-d9a6-474b-afb7-ba15bf9e27da
+        guid: G!ZEkY&cD=
+        front: Insert output of command here
+        back: '`:r!xyz`'
+        include_reverse: true
+-       uuid: 0f8c2e2a-f05d-424f-9d31-e0265e915286
+        guid: r8(jNEs<;X
+        front: Change window height to 35 lines
+        back: '`35 C-w _`'
+        include_reverse: true
+-       uuid: 8d5e9ea0-626b-4066-b175-0a0e078f8162
+        guid: tPUU+%yocV
+        front: Change window width to 35 chars
+        back: '`35 C-w |`'
+        include_reverse: true
+-       uuid: e6495158-3b99-4cba-b546-2bc1cf1be58c
+        guid: HZ?K#TW9]o
+        front: Go to previous position in position stack
+        back: '`C-o`'
+        include_reverse: true
+-       uuid: 253a48e4-8514-41dc-8e7e-ed5f964e3fe2
+        guid: Oo}e:2.$f5
+        front: Go to next position in position stack
+        back: '`C-i`'
+        include_reverse: true
+-       uuid: 864aed40-c3b6-4d6f-9a66-2fd8d804cf81
+        guid: y^qsis-(Y}
+        front: Change entire line
+        back: '`cc` or `C`'
+        include_reverse: true
+-       uuid: ec7bbcf5-7268-4363-ac43-a390beea09cd
+        guid: M.z2_]G:4^
+        front: Get man page of current word
+        back: '`K`'
+        include_reverse: true
+-       uuid: 2884123c-8687-4bdd-94a1-aef170989093
+        guid: fF]jwY3Ro)
+        topic: Vim - Insert mode
+        front: Insert character at same position in line above
+        back: '`C-y`'
+        include_reverse: true
+-       uuid: d73df7fb-a5ed-41eb-956a-15707d7ba913
+        guid: uy1~zu5kp[
+        front: Get UTF-8 representation of char
+        back: '`g8`'
+        include_reverse: true
+-       uuid: ad9d0354-d668-4bfe-ab40-293f6753a109
+        guid: 'FK1;!rOPz:'
+        front: Get ASCII representation of char, including hex
+        back: '`ga`'
+        include_reverse: true
+-       uuid: 00fb7dd3-0d94-4198-852c-113ff8118848
+        guid: L|P7Kz%vqT
+        front: Cursor to column 10
+        back: '`10|`'
+        include_reverse: true
+-       uuid: 66ba953f-2a69-4e20-b168-e9b46c4fbfe2
+        guid: c@%jBHdiQ*
+        front: Go to 40% of file
+        back: '`40%`'
+        include_reverse: true
+-       uuid: 18bb0924-c2c0-4c61-992c-945ac708dea9
+        guid: E?@hE-Rg(k
+        front: Equalize windows
+        back: '`C-w =`'
+        include_reverse: true
+-       uuid: d5f11805-0f18-4a3b-8713-a010ffcec95a
+        guid: vg#M%e62H{
+        front: List errors
+        back: '`:clist`'
+        include_reverse: true
+-       uuid: db2cef8d-afb6-4915-b434-748a661ae628
+        guid: oCUqYkFo)2
+        front: List errors, in new window
+        back: '`:copen`'
+        include_reverse: true
+-       uuid: 7599b352-1206-4916-b030-5d0dd746a6b7
+        guid: hT&;:b0Xnd
+        front: List errors, including whole `makeprg` output
+        back: '`:clist!`'
+        include_reverse: true
+-       uuid: 1b0f12a7-5c20-4298-a2ab-e201ac97c3ff
+        guid: DHYV5gc:WL
+        front: Goto beginning of previous word
+        back: '`b`'
+        include_reverse: true
+-       uuid: 2ffc7d7b-4d38-4468-8aa0-2347ec47ce5d
+        guid: 'BB#PbZ/2M:'
+        front: Goto next word end
+        back: '`e`'
+        include_reverse: true
+-       uuid: 96faec0f-8f89-4aab-877a-b1bccaf81194
+        guid: q)e(>X~5ZD
+        front: Repeat last executed macro
+        back: '`@@`'
+        include_reverse: true
+-       uuid: 93cfd3bf-a89d-4efe-8a7a-e974f36c6f49
+        guid: rSged+zmE-
+        front: Write buffer to new filename and switch to new filename
+        back: '`:saveas x`'
+        include_reverse: true
+-       uuid: 3c544dc9-079c-41ef-a446-fbcb83b84d09
+        guid: OraA+!NXo[
+        front: Open file under cursor
+        back: '`gf`'
+        include_reverse: true
+-       uuid: 3c723e02-0c15-4f17-8f5b-93871e923092
+        guid: ndv34!%OL<
+        front: Switch between last 2 files
+        back: '`C-^`'
+        include_reverse: true
+-       uuid: 2681bfd3-215f-4dce-8451-8e1a2dd7cee0
+        guid: w=O$Osk+l~
+        topic: Vim - Insert mode
+        front: Do one normal mode command
+        back: '`C-o`'
+        include_reverse: true
+-       uuid: d3784d82-9ae5-4181-8b08-6a7ac1ced857
+        guid: bbUm{uyFJW
+        front: Go to 100th file character
+        back: '`:goto 100`'
+        include_reverse: true
+-       uuid: fd4d6e64-2aa6-4e26-a364-f4419f23e93d
+        guid: FRV$Ekdxm-
+        front: Pipe buffer into the command `foo`
+        back: '`:w !foo`'
+        include_reverse: true
+-       uuid: 4644234c-3ca1-4ec4-9542-8cf7a1de311e
+        guid: sggzfRu*Gn
+        front: Record macro `c`
+        back: '`qc ... ... q`'
+        include_reverse: true
+-       uuid: ab6f9cea-5ddb-47b5-b86b-dfcd8ac7e5e8
+        guid: k5?1almf4,
+        front: Play macro `c`
+        back: '`@c`'
+        include_reverse: true
+-       uuid: 757c252f-2222-40ff-a139-c9fd09ffb5ef
+        guid: r.6,@ay^hL
+        topic: Vim - Insert mode
+        front: '`C-n`'
+        back: Next autocomplete
+        include_reverse: true
+-       uuid: c79e906a-7b09-492a-9ea7-b89db94c4053
+        guid: scg*C2tBjR
+        topic: Vim - Insert mode
+        front: '`C-p`'
+        back: Previous autocomplete
+        include_reverse: true
+-       uuid: e76217ca-e0f6-49dd-98fe-58986a5cca6a
+        guid: 'pomyQ0wyv:'
+        front: '`:cn`'
+        back: Go to next error
+        include_reverse: true
+-       uuid: ba1f83b3-d04d-4ab1-a3d0-90584bd7c5ef
+        guid: M/WHj%^&>C
+        front: '`:cc`'
+        back: Show this error's full error message
+        include_reverse: true
+-       uuid: 83bb4a81-b0bd-425e-875c-68a4b2e0eb10
+        guid: oF]s%p0o^Q
+        front: '`;`'
+        back: Next character search match on this line
+        include_reverse: true
+-       uuid: 41f6b66d-7dd6-4546-b66e-bc184d75abdd
+        guid: e;*13cY>B%
+        front: '`,`'
+        back: Previous character search match on this line
+        include_reverse: true
+-       uuid: 1adc19cb-5f9f-4703-802f-441eec740d28
+        guid: c2d-g6C[H*
+        front: Mark of start of last changed text (e.g., pasted)
+        back: <code>\`[</code>
+        include_reverse: true
+-       uuid: db0ac34a-af2d-4e38-a8cc-d4c6bd7a5f3e
+        guid: Ri,A:Xei7D
+        front: Mark of end of last changed text (e.g., pasted)
+        back: <code>\`]</code>
+        include_reverse: true
+-       uuid: beb11e5a-aa12-4849-ad4a-aaa16c5bbd7f
+        guid: hX$BEg!$F0
+        front: Select last changed text (e.g., pasted)
+        back: <code>\`[v\`]</code>
+        include_reverse: true
+-       uuid: 9d88eca5-9bea-4fc1-bb52-032c83d1bbe8
+        guid: xndnJCB2Xw
+        front: Undo all changes on current line
+        back: '`U`'
+        include_reverse: true
+-       uuid: df60586b-43da-44fd-8ecf-e6b520e19dc0
+        guid: qaY,&l7M@y
+        front: Center current line on screen
+        back: '`zz`'
+        include_reverse: true
+-       uuid: 20ee57ec-c2ed-4330-8b06-3192eb441e30
+        guid: f]01BWR#i3
+        front: Rot-13 selection (Visual mode)
+        back: '`g?`'
+        include_reverse: true
+-       uuid: da9b1bf4-4081-4423-a1fc-269990e3e4b9
+        guid: dATc2v}|E9
+        front: Go to definition (globally)
+        back: '`gD`'
+        include_reverse: true
+-       uuid: 69418583-e1ee-4759-819c-6114d2e3be6d
+        guid: B-Npa[T~UY
+        front: Go to definition (only in current function)
+        back: '`gd`'
+        include_reverse: true
+-       uuid: 75f24356-4ed3-4c05-81f5-2dc8521781df
+        guid: caOPIA$OH|
+        front: Move to next method in programming language
+        back: '`]m`'
+        include_reverse: true
+-       uuid: f01825ed-f4ef-471b-b2de-c18edd3036bd
+        guid: h45][w|o))
+        front: Move to previous method in programming language
+        back: '`[m`'
+        include_reverse: true
+-       uuid: 35d0b068-01ae-4ac9-995e-e2d8c180c3ed
+        guid: bVEi,%Cp81
+        front: Reformat current paragraph
+        back: '`{gq}`'
+        include_reverse: true
+-       uuid: be75a679-f786-4a75-9f92-0f71d8b53ee4
+        guid: HzTMS<Nea2
+        front: Reformat until `(movement)`
+        back: '`gq(movement)`'
+        include_reverse: true
+-       uuid: 71fcd542-fd41-466c-8028-0b0243ba95a4
+        guid: sk}Dt{JRNr
+        front: List all marks
+        back: '`:marks`'
+        include_reverse: true
+-       uuid: 759c565c-acf5-43d8-9e13-789d5e5f34a5
+        guid: q9!?V~b_}S
+        front: Open and edit new buffer
+        back: '`:enew`'
+        include_reverse: true
+-       uuid: 9bd33989-c6b9-4f12-be08-cccd0828b282
+        guid: okQnDrnt9d
+        front: Split vertically and explore filesystem
+        back: '`:Sex`'
+        include_reverse: true

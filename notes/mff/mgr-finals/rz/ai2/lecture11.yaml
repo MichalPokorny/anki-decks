@@ -1,42 +1,43 @@
 deck: All::Magisterské státnice::Reprezentace znalostí::AI2::Přednáška 11
 notes:
         # AI2 lecture11
-        -
-                uuid: 6f2dc87d-6cd2-4f0f-af24-41f59c1bd1e7
+        -       uuid: 6f2dc87d-6cd2-4f0f-af24-41f59c1bd1e7
+                guid: B$oyJWw@{o
                 topic: Reinforcement learning
                 front: Odkud přijde reward?
                 back: |
                         Reward je soucast perceptu.
-        -
-                uuid: 27ace965-3b57-42cd-bad0-d408486e7765
+        -       uuid: 27ace965-3b57-42cd-bad0-d408486e7765
+                guid: IWnO9U=*[e
                 topic: Reinforcement learning
                 front: Reflex agent
                 back: |
                         Naučí se policy, která mapuje ze stavů do akcí.
-        -
-                uuid: c9942fb6-b315-4fc1-b894-20c330b2e456
+        -       uuid: c9942fb6-b315-4fc1-b894-20c330b2e456
+                guid: gXdU5HEkQT
                 topic: Reinforcement learning
                 front: Pasivní učení
                 back: Učí se utility stavů, ale policy je zafixovaná.
-        -
-                uuid: fdf84e9e-a1e8-4685-a6e4-bd5023208f91
+        -       uuid: fdf84e9e-a1e8-4685-a6e4-bd5023208f91
+                guid: p)PrmP6|_.
                 topic: Reinforcement learning
                 front: Aktivní učení
                 back: Učí se utility stavů i policy, takže potřebuje i exploration
-        -
-                uuid: 7f9a9722-e639-4a62-a0c5-197829ce21c6
-                front: Utility funkce, kterou se učí pasivní učení; model (jako nekonečná suma)
+        -       uuid: 7f9a9722-e639-4a62-a0c5-197829ce21c6
+                guid: v-QaazI`E2
+                front: Utility funkce, kterou se učí pasivní učení; model (jako nekonečná
+                        suma)
                 back: |
                         [$]U^\\pi(s)=\\mathbb{E}[\\sum_{t=0\\ldots\\infty} \\gamma^t \\cdot R(s_t)] [/$]
-        -
-                uuid: 2fb6e2af-125c-4dd4-8a86-3495a89ee87c
+        -       uuid: 2fb6e2af-125c-4dd4-8a86-3495a89ee87c
+                guid: M<5@r)$Bqc
                 topic: Reinforcement learning
                 front: Co nezná pasivní učení?
                 back: |
                         Agent nezná transition model [$]P(s'|s,a)[/$],
                         reward function [$]R(s)[/$] (postupně se učí z perceptů).
-        -
-                uuid: 105d7079-f317-4368-a9a3-f1541d832c30
+        -       uuid: 105d7079-f317-4368-a9a3-f1541d832c30
+                guid: Hlv.3lBS{*
                 topic: Reinforcement learning
                 front: Direct utility estimation - jak funguje? Proč je neefektivní?
                 back: |
@@ -46,14 +47,14 @@ notes:
                         Neefektivita: Nepoužíváme Bellmanovy rovnice &mdash;
                         prohledávaný prostor
                         obsahuje fůru funkcí co je nesplňují a pomalu konvergujeme.
-        -
-                uuid: 56c13553-e810-4ba1-9b36-d0e032c98581
+        -       uuid: 56c13553-e810-4ba1-9b36-d0e032c98581
+                guid: mncufF&g(x
                 topic: Reinforcement learning
                 front: Bellmanovy rovnice pro zafixovanou policy
                 back: |
                         [$$]U^\\pi(s)=R(s)+\\gamma \\sum_{s'} P(s'|s,\\pi(s)) U^\\pi(s')[/$$]
-        -
-                uuid: 06a2032d-46dd-4da7-925c-711687a73d4e
+        -       uuid: 06a2032d-46dd-4da7-925c-711687a73d4e
+                guid: Eal,]]{LIt
                 topic: Reinforcement learning
                 front: Adaptive dynamic programming - co se učí? K čemu?
                 back: |
@@ -61,8 +62,8 @@ notes:
                         odměny [$]R(s)[/$].<br>
                         Pomocí Bellmanových rovnic (například pomocí modified
                         policy iteration) se učí utilitu stavů.
-        -
-                uuid: 1fdc283e-9b4e-4b5a-8ab2-a1ac6668df78
+        -       uuid: 1fdc283e-9b4e-4b5a-8ab2-a1ac6668df78
+                guid: D/t[;%~Q*Z
                 topic: Reinforcement learning
                 front: Pasivní ADP agent
                 back: |
@@ -73,8 +74,8 @@ notes:
                         [$]P(t|s,a)\\leftarrow N_{s'|sa}[t,s,a]/N_{sa}[s,a][/$]
                         <br>
                         [$]U[/$] urči přes policy evaluation.
-        -
-                uuid: e42e5279-659a-48b2-9f03-831c0e7fc967
+        -       uuid: e42e5279-659a-48b2-9f03-831c0e7fc967
+                guid: F;RCau_[Qs
                 topic: Reinforcement learning
                 front: (Passive) temporal-difference learning &mdash; update
                 back: |
@@ -82,8 +83,8 @@ notes:
 
                         Update:
                         [$$]U^\\pi(s)\\leftarrow U^\\pi(s)+\\alpha\\cdot(R(s) + \\gamma U^\\pi(s') - U^\\pi(s))[/$$]
-        -
-                uuid: 98b6eeca-65b2-4390-b02d-79299e42547d
+        -       uuid: 98b6eeca-65b2-4390-b02d-79299e42547d
+                guid: A{IjqeZFXL
                 topic: Reinforcement learning
                 front: Porovnání ADP a TD
                 back: |
@@ -92,22 +93,24 @@ notes:
                         Adaptive dynamic programming udělá bulk update.
                         Po každé iteraci chce konzistanci, takže když narazí na
                         překvapení, udělá rychlou propagaci.
-        -
-                uuid: 99f3d30a-3855-41b1-9704-ed6765005e04
+        -       uuid: 99f3d30a-3855-41b1-9704-ed6765005e04
+                guid: G!kni]SoX(
                 topic: Reinforcement learning
-                front: Active reinforcement learning - forma Bellmanových rovnic co by mělo splňovat ADP
+                front: Active reinforcement learning - forma Bellmanových rovnic co
+                        by mělo splňovat ADP
                 back: |
                         Vybírám optimální akci.
                         [$$]U^\\pi(s)=R(s)+\\gamma \\max_a \\sum_{s'} P(s'|s,a) U^\\pi(s')[/$$]
-        -
-                uuid: 625edded-3b66-4b4c-9b28-330306392933
+        -       uuid: 625edded-3b66-4b4c-9b28-330306392933
+                guid: jbUu/&HD`^
                 topic: Reinforcement learning
-                front: Problémy s active reinforcement learningem přes maximalizaci Bellmanových rovnic
+                front: Problémy s active reinforcement learningem přes maximalizaci
+                        Bellmanových rovnic
                 back: |
                         Je to greedy agent. Nenaučil se totiž, co všechno prostředí umožňuje.<br>
                         Musím udělat exploration/exploitation trade-off.
-        -
-                uuid: f33a95a2-8be5-4095-a52f-07a3b55d601f
+        -       uuid: f33a95a2-8be5-4095-a52f-07a3b55d601f
+                guid: w$T]ZStdfV
                 topic: Reinforcement learning
                 front: Jak integrovat exploraci?
                 back: |
@@ -123,28 +126,28 @@ notes:
                           <li> [$]f(u,n)[/$] stoupá v [$]u[/$], klesá v [$]n[/$]
                           </ul>
                         </ul>
-        -
-                uuid: b7a2ae3f-3106-438d-8cc5-12b6b5879993
+        -       uuid: b7a2ae3f-3106-438d-8cc5-12b6b5879993
+                guid: B|qyT}a_<Q
                 topic: Reinforcement learning
                 front: Q-learning &mdash; Q-funkce
                 back: |
                         [$]Q(s,a)[/$]: hodnota akce [$]a[/$] ve stavu [$]s[/$].
                         Model-free.
-        -
-                uuid: 6363b605-6198-495b-ac6e-5f3f94607617
+        -       uuid: 6363b605-6198-495b-ac6e-5f3f94607617
+                guid: fj~}#h_wVg
                 topic: Reinforcement learning
                 front: Vztah mezi Q funkcí a utilitou
                 back: |
                         [$]U(s)=\\max_a Q(s,a)[/$]
-        -
-                uuid: 005c51b9-bad7-4633-b0e8-b09d403a7746
+        -       uuid: 005c51b9-bad7-4633-b0e8-b09d403a7746
+                guid: Qzx~[sy6N;
                 topic: Reinforcement learning
                 front: Q-learning &mdash; rovnice která by měla platit postupně
                 back: |
                         [$$]Q(s,a)=R(s)+\\gamma\\sum_{s'}P(s'|s,a)\\max_{a'}Q(s',a')[/$$]
                         Ale nebudu se na to učit explicitní model.
-        -
-                uuid: 08559802-8f4c-4c41-ae11-6a2072109c0d
+        -       uuid: 08559802-8f4c-4c41-ae11-6a2072109c0d
+                guid: s%Zr9jViGZ
                 topic: Reinforcement learning
                 front: Q-learning &mdash; update
                 back: |
@@ -152,13 +155,13 @@ notes:
                         [$$]Q(s,a)\\leftarrow Q(s,a)+\\alpha(R(s)+\\gamma\\max_{a'}Q(s',a')-Q(s,a))[/$$]
                         <br>
                         Policy vyberu tak abych zase nějak podporoval exploraci.
-        -
-                uuid: 80a8a8f3-3537-4911-8e9d-8b5f38553cfe
+        -       uuid: 80a8a8f3-3537-4911-8e9d-8b5f38553cfe
+                guid: Z}6k;rnQ5
                 topic: Reinforcement learning
                 front: SARSA &mdash; zkratka
                 back: State-Action-Reward-State-Action
-        -
-                uuid: 6ea21443-2301-44b6-ae1f-55cc2f09725f
+        -       uuid: 6ea21443-2301-44b6-ae1f-55cc2f09725f
+                guid: m<N4<]HB<8
                 topic: Reinforcement learning
                 front: SARSA &mdash; update rule, změna z Q-learning
                 back: |
@@ -174,8 +177,8 @@ notes:
                         Q(s,a)\\leftarrow Q(s,a)+\\alpha(R(s)+\\gamma \\max_{a'} Q(s',a')-Q(s,a))
                         [/$$]
                         </ul>
-        -
-                uuid: 15ee1ee2-e64d-41f8-98ae-0fbd136a0b53
+        -       uuid: 15ee1ee2-e64d-41f8-98ae-0fbd136a0b53
+                guid: ilW^n</f&A
                 topic: Reinforcement learning
                 front: SARSA vs. Q-learning
                 back: |
@@ -188,8 +191,8 @@ notes:
                         <br>
                         SARSA se učí utilitu agenta, kterého řídí.
                         Funguje i když ostatní agenti částečně ovládají policy.
-        -
-                uuid: 38101815-5bf6-4285-b98f-1001cf9f9e0b
+        -       uuid: 38101815-5bf6-4285-b98f-1001cf9f9e0b
+                guid: x/):uxEGgY
                 topic: Reinforcement learning
                 front: Rozdíly mezi Q-learningem a SARSOU vs. ADP
                 back: |

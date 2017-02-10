@@ -1,74 +1,80 @@
 # Mind - Introduction to Cognitive Science (Paul Thagard)
 deck: All::Notes::Mind - Introduction to Cognitive Science
 notes:
-        -
-                uuid: d9614b3d-f1fa-412e-89fd-5371296334be
-                front: CRUM = ?
-                back: Computational-representational understanding of mind
-        -
-                uuid: 0c7862a4-ef79-46ae-bd6f-4d7349a04cf9
-                front: Syllogism
-                back: Pattern of inference with two premises and a conclusion (Men are mortal, Socrates is a man => Socrates is a mortal)
-                include_reverse: true
-        -
-                uuid: c8c2673e-7960-41d8-8ea8-7a751bfd5c23
-                front: Modus ponens
-                markdown: false
-                back: |
-                        [$]p\rightarrow q, p \Longrightarrow q[/$]
-                include_reverse: true
-        -
-                uuid: b37586bb-085a-4cc4-903b-5e37d793742f
-                front: Modus tollens
-                markdown: false
-                back: |
-                        [$]p\rightarrow q, \neg p \Longrightarrow \neg q[/$]
-                include_reverse: true
-        -
-                uuid: 91f774ef-700e-4417-8c15-72ee9cae02d8
-                front: Forming hypothesis in order to generate an explanation
-                back: Abduction
-                include_reverse: true
-        -
-                uuid: 9afa331e-c7d2-4a33-b62f-8fb643822c62
-                front: Wason's selection task
-                back: |
-                        Test of 'only people above 18 are allowed to drink beer'
-                include_reverse: true
-        -
-                uuid: 8ec9b8f3-ae22-400d-b61d-8a7147749e1c
-                front: Mental model in Wason's selection task
-                back: |
-                        "[A] 4" &mdash; subjects don't check B or 7, because
-                        it's not in their mental model.
-                include_reverse: true
-        -
-                uuid: 28b7046d-f77a-41a7-8a88-613d901f0df0
-                front: Advantages of if-then rules over logic
-                back: |
-                        Can express heuristics ("wear brown shoes with brown
-                        pants"), plans ("if I have bus fare, I can buy
-                        a ticket")
-        -
-                uuid: cbe7b1cc-cc71-4d0a-8205-65349d96eeea
-                front: IF-then part of if-then rule
-                back: Antecedent
-                include_reverse: true
-        -
-                uuid: 3ff26450-4a27-4943-a94a-31f808484f22
-                front: THEN-then part of if-then rule
-                back: Consequent
-                include_reverse: true
-        -
-                uuid: 6b8acafd-2200-47ca-ab72-d4d356c742e9
-                front: Cogsci challenges
-                back: The role of emotion, social environment, the world (Dasein, intentionality), consciousness
+-       uuid: d9614b3d-f1fa-412e-89fd-5371296334be
+        guid: Ej,vw_Iq{i
+        front: CRUM = ?
+        back: Computational-representational understanding of mind
+-       uuid: 0c7862a4-ef79-46ae-bd6f-4d7349a04cf9
+        guid: e*d2/1d)e;
+        front: Syllogism
+        back: Pattern of inference with two premises and a conclusion (Men are mortal,
+                Socrates is a man => Socrates is a mortal)
+        include_reverse: true
+-       uuid: c8c2673e-7960-41d8-8ea8-7a751bfd5c23
+        guid: F3#<iTesw#
+        front: Modus ponens
+        markdown: false
+        back: |
+                [$]p\rightarrow q, p \Longrightarrow q[/$]
+        include_reverse: true
+-       uuid: b37586bb-085a-4cc4-903b-5e37d793742f
+        guid: p1h@g}z)Ce
+        front: Modus tollens
+        markdown: false
+        back: |
+                [$]p\rightarrow q, \neg p \Longrightarrow \neg q[/$]
+        include_reverse: true
+-       uuid: 91f774ef-700e-4417-8c15-72ee9cae02d8
+        guid: q5#q^]yey2
+        front: Forming hypothesis in order to generate an explanation
+        back: Abduction
+        include_reverse: true
+-       uuid: 9afa331e-c7d2-4a33-b62f-8fb643822c62
+        guid: c1huh}Wqpu
+        front: Wason's selection task
+        back: |
+                Test of 'only people above 18 are allowed to drink beer'
+        include_reverse: true
+-       uuid: 8ec9b8f3-ae22-400d-b61d-8a7147749e1c
+        guid: l^*m]%JCch
+        front: Mental model in Wason's selection task
+        back: |
+                "[A] 4" &mdash; subjects don't check B or 7, because
+                it's not in their mental model.
+        include_reverse: true
+-       uuid: 28b7046d-f77a-41a7-8a88-613d901f0df0
+        guid: Lm^c#*s~|u
+        front: Advantages of if-then rules over logic
+        back: |
+                Can express heuristics ("wear brown shoes with brown
+                pants"), plans ("if I have bus fare, I can buy
+                a ticket")
+-       uuid: cbe7b1cc-cc71-4d0a-8205-65349d96eeea
+        guid: w5oS%.V1f)
+        front: IF-then part of if-then rule
+        back: Antecedent
+        include_reverse: true
+-       uuid: 3ff26450-4a27-4943-a94a-31f808484f22
+        guid: N`yj<G90A1
+        front: THEN-then part of if-then rule
+        back: Consequent
+        include_reverse: true
+-       uuid: 6b8acafd-2200-47ca-ab72-d4d356c742e9
+        guid: B;m0|wKkc.
+        front: Cogsci challenges
+        back: The role of emotion, social environment, the world (Dasein, intentionality),
+                consciousness
         # TODO: Explain this one better?
-        -
-                uuid: 7856eb5c-f2ce-41e1-969a-d95ee981eef4
-                front: Dualism, reductive materialism, eliminative materialism, integrative materialism
-                back: "Reductive: understand consciousness as reduction. Eliminative: remove folk-psychology. Integrative: emotions are both psychological/experiential AND computational; CRUM needs to be extended by new representations of emotion AND new computational procedures."
-        -
-                uuid: 42814652-7cbd-40a5-ba1f-7cf56f6b8fcd
-                front: Singular of qualia
-                back: Quale
+-       uuid: 7856eb5c-f2ce-41e1-969a-d95ee981eef4
+        guid: pSKza#B.E/
+        front: Dualism, reductive materialism, eliminative materialism, integrative
+                materialism
+        back: 'Reductive: understand consciousness as reduction. Eliminative: remove
+                folk-psychology. Integrative: emotions are both psychological/experiential
+                AND computational; CRUM needs to be extended by new representations
+                of emotion AND new computational procedures.'
+-       uuid: 42814652-7cbd-40a5-ba1f-7cf56f6b8fcd
+        guid: hSO02D#wS@
+        front: Singular of qualia
+        back: Quale

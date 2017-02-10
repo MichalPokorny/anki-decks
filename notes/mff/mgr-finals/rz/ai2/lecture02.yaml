@@ -1,23 +1,23 @@
 deck: All::Magisterské státnice::Reprezentace znalostí::AI2::Přednáška 2
 notes:
         # ai1 lecture02eng
-        -
-                uuid: 458503cb-d268-44b8-99ce-1b26c29b5bb5
+        -       uuid: 458503cb-d268-44b8-99ce-1b26c29b5bb5
+                guid: IRg=`yi-Y%
                 front: Struktura Bayesovské sítě
                 back: |
                         Acyklický graf, hrana když existuje závislost,
                         ve vrcholech jsou podmíněné pravděpodobnostní
                         distribuce.
-        -
-                uuid: 8a052ca5-55e4-40f6-b727-ccff6d31d155
+        -       uuid: 8a052ca5-55e4-40f6-b727-ccff6d31d155
+                guid: Ar@^=N+>`8
                 front: |
                         Vzorec: Podmíněné distribuce Bayesovské sítě
                         &rarr; pravděpodobnost jednoho světa
                 back: |
                         [$]P(x_1,\\ldots x_n)=
                         \\prod_i P(x_i | \\text{parents}(X_i))[/$]
-        -
-                uuid: e3f59843-753e-4dbd-bb66-8d1e4da31d8a
+        -       uuid: e3f59843-753e-4dbd-bb66-8d1e4da31d8a
+                guid: I4Q|8qC/v<
                 front: Podmíněné nezávislosti proměnných v Bayesovské síti
                 back: |
                         [$]X[/$] je podmíněně nezávislá na proměnných, které
@@ -27,8 +27,8 @@ notes:
                         Proměnná je podmíněně nezávislá na všech ostatních
                         proměnných, pokud známe rodiče, potomky a rodiče potomků
                         (*Markov blanket*).
-        -
-                uuid: 6a0c788e-a08d-4c05-b66f-c458a4a4ef27
+        -       uuid: 6a0c788e-a08d-4c05-b66f-c458a4a4ef27
+                guid: cKNn>g-F;q
                 front: Základní algoritmus pro výpočet v Bayesovské síti
                 back: |
                         Enumeration-Ask: dostane proměnnou a zafixovaná pozorování,
@@ -45,8 +45,8 @@ notes:
                         vrať [$]P(Y=y|\\mathrm{Pa}(Y)) \\times \\mathrm{EnumAll}(\\mathrm{Rest}(vars),e)[/$].
                         <br>
                         Jinak vrať [$]\\sum_y P(Y=y|\\mathrm{Pa}(Y)) \\times \\mathrm{EnumAll}(\\mathrm{Rest}(vars),e+[Y=y])[/$].
-        -
-                uuid: a893942d-0f71-4e5f-b89a-1d569dd69cfd
+        -       uuid: a893942d-0f71-4e5f-b89a-1d569dd69cfd
+                guid: b&LxV0e<)$
                 topic: Bayesovské sítě
                 front: Faktor, operace na faktorech
                 back: |
@@ -56,8 +56,8 @@ notes:
                         Násobení faktorů: spojím, pointwise.
                         <br>
                         Sum out (marginalizace): [$]\\sum_a f(A,B,C)=f(B,C)[/$]
-        -
-                uuid: d216a6ba-dff4-4174-88e6-72c1bd245542
+        -       uuid: d216a6ba-dff4-4174-88e6-72c1bd245542
+                guid: Bg+mqnQmKs
                 topic: Bayesovské sítě
                 front: Inferenční algoritmus Eliminace proměnných, jeho složitost.
                 back: |
@@ -76,53 +76,53 @@ notes:
                         Vrať: normalizovaný pointwise produkt všech faktorů.
                         <br>
                         Složitost: velikost největšího faktoru
-        -
-                uuid: 5e6288aa-e7be-4ca6-bebc-2f59daf22197
+        -       uuid: 5e6288aa-e7be-4ca6-bebc-2f59daf22197
+                guid: nt?![s@DL?
                 topic: Bayesovské sítě
                 front: Variable Elimination &mdash; jak vypadá operace sum-out?
                 back: |
                         Sesumíruje dohromady všechny faktory, které obsahují
                         skrytou proměnnou &mdash; do jednoho velkého faktoru.
-        -
-                uuid: 1126f580-6ff1-4743-8e1d-c15d2c28d02f
+        -       uuid: 1126f580-6ff1-4743-8e1d-c15d2c28d02f
+                guid: EnSVy1S>qi
                 front: Variable Elimination &mdash; co ovlivní složitost?
                 back: |
                         Pořadí eliminace proměnných.
                         Musí jít topologicky, ale kromě toho mám svobodu.
-        -
-                uuid: 7684e87e-ad83-4e87-89ea-13b39a8d8bd0
+        -       uuid: 7684e87e-ad83-4e87-89ea-13b39a8d8bd0
+                guid: cO6Eu6HU]0
                 front: |
                         Variable Elimination &mdash;
                         Složitost nalezení optimálního pořadí eliminace
                 back: |
                         NP-těžké
-        -
-                uuid: d06b451e-76f2-4173-93c6-f3d06eda8631
+        -       uuid: d06b451e-76f2-4173-93c6-f3d06eda8631
+                guid: NlI)a(6U-w
                 front: |
                         Variable Elimination &mdash;
                         Heuristika nalezení další proměnné k eliminaci
                 back: |
                         Vyber tu, co povede na vyrobení nejmenšího faktoru.
-        -
-                uuid: 8a4e1e23-0a38-4bf8-8112-edabc065adcd
+        -       uuid: 8a4e1e23-0a38-4bf8-8112-edabc065adcd
+                guid: D?{V3`}@<d
                 front: |
                         Složitost: Inference v Bayesovské síti co je les
                 back: |
                         [$]\\O(n\\cdot d^k)[/$] čas i prostor (tj. stejně jako součet velikosti všech tabulek)
-        -
-                uuid: 587e5c4f-9b08-4071-b4e0-d4f5d0d90f4c
+        -       uuid: 587e5c4f-9b08-4071-b4e0-d4f5d0d90f4c
+                guid: eD&r+!N#Q[
                 front: |
                         Složitost: Inference v Bayesovské síti
                 back: |
                         Obecně NP-těžká, resp. Sharp-P těžká (převodem z 3-SATu)
-        -
-                uuid: 18d150c2-553e-4350-b57e-a81b9fcda507
+        -       uuid: 18d150c2-553e-4350-b57e-a81b9fcda507
+                guid: H6aMi5eN+T
                 front: |
                         Algoritmy přibližné inference pro Bayesovské sítě
                 back: |
                         Přímé vzorkování, Markov chain sampling
-        -
-                uuid: c4d80bf8-75ec-4751-84fc-1248445f9384
+        -       uuid: c4d80bf8-75ec-4751-84fc-1248445f9384
+                guid: Ep+zE@vQ=d
                 front: |
                         Přímé vzorkování v Bayesovských sítích,
                         rejection sampling
@@ -134,8 +134,8 @@ notes:
                         sedí na pozorování. Když ne, zahodím ho. Jinak
                         stavím
                         [$]\\mathbf{P}(X|e)\\approx \\mathbf{N}(X,e)/N(e)[/$].
-        -
-                uuid: 080a09bb-4d88-4031-b6db-cfc663d1f4fc
+        -       uuid: 080a09bb-4d88-4031-b6db-cfc663d1f4fc
+                guid: l%}C2*mg,W
                 front: Likelihood weighting
                 back: |
                         Nechci zahazovat vzorky jako v rejection samplingu.
@@ -153,21 +153,21 @@ notes:
                         vynásob hmotnost vzorku pravděpodobností, že tuhle
                         hodnotu dostane. Když ji nemá, hoď ji náhodně podle
                         distribuce z jejich rodičů.
-        -
-                uuid: eddcc300-85af-4c39-a7f8-3bf8419eced6
+        -       uuid: eddcc300-85af-4c39-a7f8-3bf8419eced6
+                guid: u*odI#Aj5Q
                 topic: MCMC
                 front: Zkratka
                 back: Monte Carlo Markov chain
-        -
-                uuid: 06ab77e1-96f2-462e-aa74-974836db5668
+        -       uuid: 06ab77e1-96f2-462e-aa74-974836db5668
+                guid: t>ddVP#=Kk
                 topic: MCMC
                 front: Jak funguje?
                 back: |
                         Další vzorek dostanu tak, že vezmu nějakou proměnnou
                         co není v evidence a znova ji nasampluju podle její
                         Markovské obálky.
-        -
-                uuid: 330e605f-c69b-4a48-828f-5bc95fdc83a8
+        -       uuid: 330e605f-c69b-4a48-828f-5bc95fdc83a8
+                guid: gxmJ5l]bAE
                 topic: MCMC
                 front: Proč funguje?
                 back: |

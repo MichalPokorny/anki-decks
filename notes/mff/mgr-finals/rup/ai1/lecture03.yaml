@@ -1,74 +1,75 @@
-deck: All::Magisterské státnice::Řešení úloh a plánování::AI1::Přednáška 3 (prohledávání stavového prostoru)
+deck: All::Magisterské státnice::Řešení úloh a plánování::AI1::Přednáška 3 (prohledávání
+        stavového prostoru)
 notes:
         # AI lecture03eng
-        -
-                uuid: 8342b4dc-4a9c-4c8c-b57f-94b53653afed
+        -       uuid: 8342b4dc-4a9c-4c8c-b57f-94b53653afed
+                guid: z0b1]!Gmzk
                 front: |
                         Prohledávání stavového prostoru jako stromu &mdash;
                         velmi obecně
                 back: |
                         Začni v rootu. Zkontroluj jestli jsem v goalu.
                         Expanduj cíl, pomocí prohledávací strategie vyber další stav.
-        -
-                uuid: e6ef86bf-1eba-4bb5-99c8-9760d4ad3ec9
+        -       uuid: e6ef86bf-1eba-4bb5-99c8-9760d4ad3ec9
+                guid: B%`rUm13Je
                 front: Co obsahuje vrchol v prohledávacím stromu ve stavovém prostoru?
                 back: |
                         Současný stav, pointer do předka, akci která vedla, cenu od kořene, hloubku
-        -
-                uuid: fe251941-8358-4b01-b741-0a8f376d9473
+        -       uuid: fe251941-8358-4b01-b741-0a8f376d9473
+                guid: mv{@qlf?,^
                 front: Prohledávání stavového prostoru - Fringe
                 back: |
                         Ještě neexpandované vrcholy
-        -
-                uuid: be2091b5-6825-446d-80c1-4b77bc72c965
+        -       uuid: be2091b5-6825-446d-80c1-4b77bc72c965
+                guid: Ci<(i;$2XI
                 front: Co nás zajímá na algoritmech na prohledání stavového prostoru?
                 back: |
                         Kompletnost - najde řešení když existuje?<br>
                         Najde optimální řešení?<br>
                         Časová složistost<br>
                         Prostorová složitost
-        -
-                uuid: 6a6ebfa1-3d51-40c4-8c5c-9f93993d4845
+        -       uuid: 6a6ebfa1-3d51-40c4-8c5c-9f93993d4845
+                guid: t7%{oLf!2M
                 front: Jaké faktory určují složitost prohledávání stavového prostoru?
                 back: |
                         Branching faktor: [$]b[/$]<br>
                         Depth: [$]d[/$] (do nejbližšího goalu)<br>
                         Path length: [$]m[/$] (maximální délka cesty)
-        -
-                uuid: c79e7482-5e74-47bd-a372-fb3772d4d8b6
+        -       uuid: c79e7482-5e74-47bd-a372-fb3772d4d8b6
+                guid: g&Dt6y1nxI
                 front: Informované a neinformované hledání
                 back: |
                         Informované hledání: používám heuristiky
-        -
-                uuid: 45d06942-4e82-4602-9c72-124ce192810a
+        -       uuid: 45d06942-4e82-4602-9c72-124ce192810a
+                guid: oh[!4=o$CT
                 topic: BFS
                 front: Časová a prostorová složitost
                 back: |
                         Časová složitost: [$]\\O(b^{d+1})[/$], to samé prostor. Brzo dojde.
-        -
-                uuid: 3a7a6840-ec4b-448f-98d4-1394cbc76b37
+        -       uuid: 3a7a6840-ec4b-448f-98d4-1394cbc76b37
+                guid: IC$!wW6B71
                 front: Prohledávání stavového prostoru - BFS, kompletnost, optimalita
                 back: |
                         Expanduj všechno v dané hloubce &mdash; FIFO.
                         Je kompletní.<br>
 
                         Optimalita: Nejmělčí cílový stav není nutně optimální!<br>
-        -
-                uuid: 4d14c594-7344-4142-b97a-032dcdc99b5e
+        -       uuid: 4d14c594-7344-4142-b97a-032dcdc99b5e
+                guid: I>ns^[_>DI
                 topic: Uniform-cost search
                 front: Kompletnost a optimalita
                 back: |
                         Jestli cena kroku je kladná (nenulová)
-        -
-                uuid: 6cec0e12-30d4-4703-aea4-d8a6fb2c6efb
+        -       uuid: 6cec0e12-30d4-4703-aea4-d8a6fb2c6efb
+                guid: PPHDiTBdnI
                 topic: Uniform-cost search
                 front: Algoritmus
                 back: |
                         Modifikuju BFS abych našel optimální řešení.
                         Expanduju node, který má nejmenší cost [$]g(n)[/$].
                         (Bacha na zero-cost steps!)
-        -
-                uuid: 0b4190bb-97c2-45be-b979-8a27aa7278f9
+        -       uuid: 0b4190bb-97c2-45be-b979-8a27aa7278f9
+                guid: e60NX+&2St
                 topic: Uniform-cost search
                 front: Časová a paměťová složitost
                 back: |
@@ -76,82 +77,82 @@ notes:
                         [$]\\O(b^{1+\\lfloor C^*/\\varepsilon \\rfloor})[/$]<br>
 
                         Může to být mnohem horší než BFS.
-        -
-                uuid: 6f7b2909-b6c3-4bf9-9a5e-e74daaee48b1
+        -       uuid: 6f7b2909-b6c3-4bf9-9a5e-e74daaee48b1
+                guid: m8|ee=PL,(
                 topic: DFS
                 front: Algoritmus
                 back: |
                         Vždy expanduj nejhlubší node, pomocí LIFO jako
                         frontieru.
-        -
-                uuid: e955eb0b-d8fe-4da2-8790-b876684bc353
+        -       uuid: e955eb0b-d8fe-4da2-8790-b876684bc353
+                guid: J9H*D*cI=P
                 topic: DFS
                 front: Kompletnost a optimalita
                 back: |
                         Není kompletní (může cyklit), nemusí najít optimum.<br>
-        -
-                uuid: 29559321-2468-4d59-aa8f-9887be830531
+        -       uuid: 29559321-2468-4d59-aa8f-9887be830531
+                guid: FN*@j@Z=u9
                 topic: DFS
                 front: Prostorová složitost
                 back: |
                         [$$]\\O(bm)[/$$]
-        -
-                uuid: 8814b4a0-9204-4821-9f18-49815e6f81be
+        -       uuid: 8814b4a0-9204-4821-9f18-49815e6f81be
+                guid: N91{M7ho%*
                 topic: DFS
                 front: Časová složitost
                 back: |
                         [$]\\O(b^m)[/$], kde [$]m[/$] je maximální hloubka.
                         (Délka cesty může být [$]d\\ll m[/$]...)
-        -
-                uuid: 66403ffa-1ab6-4d9e-a8c6-0d54fa2050f2
+        -       uuid: 66403ffa-1ab6-4d9e-a8c6-0d54fa2050f2
+                guid: JK1Gsw~LSj
                 front: Jaké vychytávky umí zlepšit paměťovou složitost DFS?
                 back: |
                         Jestli dělám backtracking a generuju jenom jednoho
                         successora: [$]\\O(m)[/$].<br>
                         Modifikuj jenom tenhle stav:
                         [$]\\O(m)[/$] akcí, [$]\\O(1)[/$] stavů
-        -
-                uuid: 0fa8e941-36e3-4319-af1f-63cb7479629f
+        -       uuid: 0fa8e941-36e3-4319-af1f-63cb7479629f
+                guid: e0`>~LE-ef
                 front: Jak určit depth limit pro DFS?
                 back: |
                         Vykoukat z problému (například, počet měst,
                         průměr grafu). Čím větší hloubku dovolím DFS, tím déle
                         bude trvat.
-        -
-                uuid: fd7c9d1d-65c5-4b74-95f3-f141681c5bd0
+        -       uuid: fd7c9d1d-65c5-4b74-95f3-f141681c5bd0
+                guid: gj`|BHA7Ce
                 front: Jak udělat z depth-limited search kompletní algoritmus?
                 back: Iterative deepening
-        -
-                uuid: 9ea6deed-73cd-4de5-85ba-ba861f8557d9
+        -       uuid: 9ea6deed-73cd-4de5-85ba-ba861f8557d9
+                guid: s8:mgpNdFu
                 topic: Iterative deepening
                 front: Kompletnost
                 back: |
                         Ano, když je konečný branching faktor
-        -
-                uuid: 3d71cea4-0380-4b90-adca-597882c92e7b
+        -       uuid: 3d71cea4-0380-4b90-adca-597882c92e7b
+                guid: i^v21}yKgd
                 topic: Iterative deepening
                 front: Optimalita
                 back: Jenom jestli je cena cesty úměrná hloubce
-        -
-                uuid: af59cf1c-d5c3-4142-8f63-fe605f73aa5b
+        -       uuid: af59cf1c-d5c3-4142-8f63-fe605f73aa5b
+                guid: w-7jA-Q)s0
                 topic: Iterative deepening
                 front: Spotřeba paměti
                 back: |
                         [$]\\O(bd)[/$]
-        -
-                uuid: 6aaa099b-9a98-481f-a8f5-a504e2b01002
+        -       uuid: 6aaa099b-9a98-481f-a8f5-a504e2b01002
+                guid: jyIyC`Jr4h
                 topic: Iterative deepening
                 front: Časová složitost
                 back: |
                         [$]\\O(b^d)[/$] (BFS prozkoumá totiž ještě jeden level?)
-        -
-                uuid: eed965d2-4aa4-4a40-ad8b-86deaf7d65d0
+        -       uuid: eed965d2-4aa4-4a40-ad8b-86deaf7d65d0
+                guid: y#2n3n0y#8
                 front: |
                         Jakou metodu uninformed search použít když je velký
                         stavový prostor a neznám hloubku řešení?
                 back: Iterative deepening
-        -
-                uuid: ed0b5358-68fd-4cdb-b0a8-12a8af3a5829
+        -       uuid: ed0b5358-68fd-4cdb-b0a8-12a8af3a5829
+                guid: R5<MTqa||
                 front: Bidirectional search
                 back: |
                         2 searche zároveň: forward a backward.
@@ -161,8 +162,8 @@ notes:
                         Jeden musím nechat v paměti (tedy [$]\\O(b^{d/2})[/$] na paměť).
                         Jestli použiju BFS, dostanu kompletní algoritmus.
                         (Ale první řešení pořád nemusí být optimální.)
-        -
-                uuid: 6283bbe8-7558-41d5-9469-ccd7dacf5476
+        -       uuid: 6283bbe8-7558-41d5-9469-ccd7dacf5476
+                guid: cOB1/f(x5?
                 front: Problém při zpětném prohledávání ve stavovém prostoru
                 back: |
                         Když cíl je nějaká abstraktní funkce (např. 8-queens).

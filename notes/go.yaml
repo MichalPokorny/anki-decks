@@ -1,11 +1,11 @@
 deck: All::Go
 notes:
-        -
-                uuid: ed9a2c55-b80d-49fa-98ae-0261afda90f9
-                front: Which player starts the game?
-                back: Black
-        -
-                uuid: 4f346950-ebfc-4202-968e-967320c2317c
-                front: Ko rule
-                back: No repeating of game positions
-                include_reverse: true
+-       uuid: ed9a2c55-b80d-49fa-98ae-0261afda90f9
+        guid: vtBhs(|y(K
+        front: Which player starts the game?
+        back: Black
+-       uuid: 4f346950-ebfc-4202-968e-967320c2317c
+        guid: J!)4qNVMeK
+        front: Ko rule
+        back: No repeating of game positions
+        include_reverse: true

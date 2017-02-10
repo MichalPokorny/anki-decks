@@ -1,65 +1,66 @@
 deck: All::CS::Tools::Anki
 topic: Anki
 notes:
-        -
-                uuid: 4de7c8e9-434c-4987-a001-0136ee30abe1
-                front: Group of related information that yields cards, e.g. word, translation, page number
-                back: Note
-                include_reverse: true
-        -
-                uuid: ad28df99-355b-430d-b0b6-708acbd37d4e
-                front: Chinese::Hanzl
-                back: Deck Hanzl, subdeck of deck Chinese
-                include_reverse: true
-        -
-                uuid: e3247465-dd02-4e73-82de-9c7a6515ff77
-                front: Piece of information contained in a note (type)
-                back: Field
-                include_reverse: true
-        -
-                uuid: 984eeb79-44bd-4a43-8f92-5604d69d95f1
-                front: Bury vs. suspend
-                back: Bury - buries until next day, suspend - suspends until manually unsuspended
-        -
-                uuid: 5ec29d08-ec9f-446a-a8d5-41ddb68143bb
-                front: Embed some LaTeX, not an equation
-                back: |
-                        [ latex ]Some LaTeX[ /latex ]
-        -
-                uuid: 250111f9-5e8f-4cbe-9551-a96d49f251e5
-                front: Tag for cards that are new
-                back: |
-                        `is:new`
-                include_reverse: true
-        -
-                uuid: b8940b78-aff3-4931-ac97-afa49742989a
-                front: Tag for cards that are in learning
-                back: |
-                        `is:learn`
-                include_reverse: true
-        -
-                uuid: a54f0b8d-58f3-409e-acff-59f297056924
-                front: Tag for cards that are reviews (both due and not due) and lapsed cards
-                back: |
-                        `is:review`
-                include_reverse: true
-        -
-                uuid: 5ade5b71-93cb-4a23-9b60-24480c36cd68
-                front: Tag for cards that are review and learning cards waiting to be studied
-                back: |
-                        `is:due`
-                include_reverse: true
-        -
-                uuid: 67ea7c97-56ac-43a1-b04a-1ec3ebed2d1a
-                front: |
-                        Shortcut: Create filtered deck
-                back: |
-                        `F`
-                include_reverse: true
-        -
-                uuid: 9dab579f-3d98-4f0a-b9f0-4e95f9373064
-                front: |
-                        Search: Marked cards
-                back: |
-                        `tag:marked`
-                include_reverse: true
+-       uuid: 4de7c8e9-434c-4987-a001-0136ee30abe1
+        guid: I>3WOk(q^y
+        front: Group of related information that yields cards, e.g. word, translation,
+                page number
+        back: Note
+        include_reverse: true
+-       uuid: ad28df99-355b-430d-b0b6-708acbd37d4e
+        guid: VR6i*}^0(
+        front: Chinese::Hanzl
+        back: Deck Hanzl, subdeck of deck Chinese
+        include_reverse: true
+-       uuid: e3247465-dd02-4e73-82de-9c7a6515ff77
+        guid: s$qSd`J;/6
+        front: Piece of information contained in a note (type)
+        back: Field
+        include_reverse: true
+-       uuid: 984eeb79-44bd-4a43-8f92-5604d69d95f1
+        guid: n+<aX8vQM-
+        front: Bury vs. suspend
+        back: Bury - buries until next day, suspend - suspends until manually unsuspended
+-       uuid: 5ec29d08-ec9f-446a-a8d5-41ddb68143bb
+        guid: nh|(/mZQ?7
+        front: Embed some LaTeX, not an equation
+        back: |
+                [ latex ]Some LaTeX[ /latex ]
+-       uuid: 250111f9-5e8f-4cbe-9551-a96d49f251e5
+        guid: A4M09Re]rI
+        front: Tag for cards that are new
+        back: |
+                `is:new`
+        include_reverse: true
+-       uuid: b8940b78-aff3-4931-ac97-afa49742989a
+        guid: Q6w%5RhDgL
+        front: Tag for cards that are in learning
+        back: |
+                `is:learn`
+        include_reverse: true
+-       uuid: a54f0b8d-58f3-409e-acff-59f297056924
+        guid: qV%g^)o5-D
+        front: Tag for cards that are reviews (both due and not due) and lapsed cards
+        back: |
+                `is:review`
+        include_reverse: true
+-       uuid: 5ade5b71-93cb-4a23-9b60-24480c36cd68
+        guid: w>5$K.=Mo>
+        front: Tag for cards that are review and learning cards waiting to be studied
+        back: |
+                `is:due`
+        include_reverse: true
+-       uuid: 67ea7c97-56ac-43a1-b04a-1ec3ebed2d1a
+        guid: GS^/c~n]Er
+        front: |
+                Shortcut: Create filtered deck
+        back: |
+                `F`
+        include_reverse: true
+-       uuid: 9dab579f-3d98-4f0a-b9f0-4e95f9373064
+        guid: la+P:SF3*z
+        front: |
+                Search: Marked cards
+        back: |
+                `tag:marked`
+        include_reverse: true

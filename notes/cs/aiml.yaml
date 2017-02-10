@@ -1,17 +1,16 @@
 deck: All::CS::AI & ML
 uid_tag: cs/aiml
 notes:
-        -
-                uuid: 7a3cd423-3669-4010-b934-36d4d230530d
-                front: F-1 score
-                back: 2 * precision * recall / (precision + recall). AKA F-measure.
-        -
-                uuid: fe72a5d2-c8f9-48f1-aed9-adacd223421c
-                front: Generative vs. discriminative models
-                back:
-                        Discriminative model learns conditional probability distribution [$]p(y|x)[/$].
-                        Generative model learns joint probability distribution [$]p(x,y)[/$].
-        -
-                uuid: d602b898-5bf5-4b56-9546-55fef3e7580c
-                front: SGD
-                back: Stochastic Gradient Descent
+-       uuid: 7a3cd423-3669-4010-b934-36d4d230530d
+        guid: eW::=h+Mxb
+        front: F-1 score
+        back: 2 * precision * recall / (precision + recall). AKA F-measure.
+-       uuid: fe72a5d2-c8f9-48f1-aed9-adacd223421c
+        guid: BJws6dCbFz
+        front: Generative vs. discriminative models
+        back: Discriminative model learns conditional probability distribution [$]p(y|x)[/$].
+                Generative model learns joint probability distribution [$]p(x,y)[/$].
+-       uuid: d602b898-5bf5-4b56-9546-55fef3e7580c
+        guid: GLq(RRR/FK
+        front: SGD
+        back: Stochastic Gradient Descent

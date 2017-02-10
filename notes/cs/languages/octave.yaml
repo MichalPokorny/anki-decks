@@ -1,283 +1,284 @@
 topic: Octave/Matlab
 deck: All::CS::Languages::Octave/Matlab
 notes:
-        -
-                uuid: 83a3b8c3-f1e1-463c-8592-213f05f7f5ea
-                front: "Set PS1"
-                back: "`PS1('>> ');`"
-                include_reverse: true
-        -
-                uuid: e7be4728-9c48-45af-86df-ad43f4e20922
-                front: "Don't write out return value of command"
-                back: "Semicolon after command"
-                include_reverse: true
-        -
-                uuid: 8e77f0ca-c4d5-4327-8435-c02d8517990b
-                front: "Comment syntax"
-                back: "`a = 100; % comment`"
-        -
-                uuid: 3d4d37f1-e501-413a-8537-83172720a7a8
-                front: "Matrix of 2 rows, 3 columns, full of 1"
-                back: "`ones(2, 3)`"
-                include_reverse: true
-        -
-                uuid: 772a4b1e-9d9e-4f50-a29b-573f8257cf85
-                front: "Matrix of 3 rows, 2 columns, full of 0"
-                back: "`zeros(3, 2)`"
-                include_reverse: true
-        -
-                uuid: e641a400-e1ed-434f-b682-9d091e7176e9
-                front: "Identity matrix 5x5"
-                back: "`eye(5)`"
-                include_reverse: true
-        -
-                uuid: 907035d1-ee3c-4896-9586-dd3bbe1dd0d2
-                front: "List variables in workspace"
-                back: "`who`"
-                include_reverse: true
-        -
-                uuid: 1eea9bfa-091d-4811-bb16-f99d533b2411
-                front: "Clear out a variable"
-                back: "`clear X`"
-                include_reverse: true
-        -
-                uuid: 61f5dfe0-da23-4d8f-9daa-df7c6684578d
-                front: "Matrix literal syntax?"
-                back: "`A=[1 2; 5 7; 0 1]`"
-        -
-                uuid: 69eafa55-5181-49c7-b587-74e7168f5129
-                front: "Create 2x2 matrix of uniform-distributed numbers [0;1]"
-                back: "`rand(2)`"
-                include_reverse: true
-        -
-                uuid: a08727b9-faef-4fd7-acd7-9d6958f5dcc2
-                front: "Matrix multiplication"
-                back: "`A = ones(2); B = rand(2); C = A * B`"
-                include_reverse: true
-        -
-                uuid: a6eda362-8b15-4ef3-bac6-459d0faea342
-                front: "Create matrix B with 1's where A's element >= 3"
-                back: "`B = (A >= 3)`"
-        -
-                uuid: e7a2a766-cea1-43ad-869b-14f3ffb48b0e
-                front: "Matrix transpose"
-                back: "`A'`"
-        -
-                uuid: 2450d5d8-3b67-431f-bc92-c837ff437c8c
-                front: "Get number of rows in matrix"
-                back: "`A = [1 2; 30 40; 5 6]; size(A, 1)`"
-                include_reverse: true
-        -
-                uuid: 8d42ad60-7dc6-4fc3-b944-a793c1c2d25c
-                front: "Get number of columns in matrix"
-                back: "`A = [1 2; 30 40; 5 6]; size(A, 2)`"
-                include_reverse: true
-        -
-                uuid: 42071c0c-b821-4969-aebf-7cb98d6440bd
-                front: "Get (num rows, num columns) in matrix"
-                back: "`A = [1 2; 30 40; 5 6]; size(A)`"
-                include_reverse: true
-        -
-                uuid: 34da977b-ac99-4c04-af13-7976383fac3b
-                front: "Get help for command `eye`"
-                back: "`help eye`"
-                include_reverse: true
-        -
-                uuid: 699a420f-62e4-4245-9579-06b6595e8480
-                front: "Booleans in Octave"
-                back: "1 = true, 0 = false"
-        -
-                uuid: 206fc4da-ee54-413b-a5ee-ce63aeb46532
-                front: "`a ~= b`"
-                back: "Non-equality operator (!=)"
-                include_reverse: true
-        -
-                uuid: 674a37db-eb33-4ab6-8f78-48b9519f3c6c
-                front: "Element-wise matrix multiplication"
-                back: "`A .* B`"
-                include_reverse: true
-        -
-                uuid: 59f707c3-a4b2-4598-8635-8df21af49a10
-                front: "Element-wise matrix element squaring"
-                back: "`A .^ 2`"
-                include_reverse: true
-        -
-                uuid: 6dd677d7-0828-4a39-a60f-75cd0f5a9ea0
-                front: "Matrix (pseudo)inverse"
-                back: "`pinv(A)`"
-                include_reverse: true
-        -
-                uuid: 12d7f6ac-a696-4eab-b427-42164d6fb8c1
-                front: "Print value of variable"
-                back: "`disp(X);`"
-                include_reverse: true
-        -
-                uuid: 65f04f06-5241-4ea1-8f32-1b158aab0fb2
-                front: "Scalar equality test"
-                back: "x == y"
-                include_reverse: true
-        -
-                uuid: 134fbe0b-07f9-4b10-a7ea-a8fa74e5e11d
-                front: "Logical and, or"
-                back: "x && y; x || y;"
-        -
-                uuid: e91cf6ff-fe29-470e-8862-dc9674f5d915
-                front: "Pi"
-                back: "`pi`"
-        -
-                uuid: 0048c9ad-fd74-4cf7-b9f9-cd35760bc99c
-                front: "Print out formatted string"
-                back: "`disp(sprintf('Hello %.2f', a));`"
-        -
-                uuid: c51f98ce-e615-4d8e-9ab3-ac9874e41b6c
-                front: "Set number of printed digits to a few/a lot"
-                back: "`format short` / `format long;`"
-                include_reverse: true
-        -
-                uuid: 34bf6129-ee7f-48c6-aa7e-f6e94cda90f1
-                front: "`[1.0 1.2 1.4 ... 2.0]`"
-                back: "`1.0:0.2:2.0`"
-                include_reverse: true
-        -
-                uuid: 7929c4fd-4d30-4e3d-aecb-506a5edd2de7
-                front: "Row vector"
-                back: "[1 2 3]"
-                include_reverse: true
-        -
-                uuid: 7be077f9-3100-452b-a44a-75165a22fe67
-                front: "Column vector"
-                back: "[1; 2; 3]"
-                include_reverse: true
-        -
-                uuid: 2560914b-bab8-4a66-bc77-04a2904c703a
-                front: "Number of items in row or column vector"
-                back: "length(x)"
-                include_reverse: true
-        -
-                uuid: 7f5195e3-8a57-4429-a9d7-ec8eeb681fc7
-                front: "Select vector items 2, 3, 4, 5. Works both for row and column vectors."
-                back: "`x(2:5)`"
-                include_reverse: true
-        -
-                uuid: 6dfb9987-01a5-4be1-8eed-baeeab9338a0
-                front: "Append column to matrix"
-                back: "`A = [A, [100; 101; 102]]`"
-                include_reverse: true
-        -
-                uuid: d239981f-6f63-4632-97e5-ee346c0d9fc7
-                front: "Elementwise reciprocal"
-                back: "1 ./ v"
-                include_reverse: true
-        -
-                uuid: 2930f816-019c-4a3c-8447-698e0714eb10
-                front: "Matrix 3x3 full of 3's"
-                back: "ones(3) + 2"
-                include_reverse: true
-        -
-                uuid: 73835cf2-539b-4723-abbb-5ee6f2f33941
-                front: "Get list of indices where vector `x` is greater than 5"
-                back: "`x = [1 10 2 20]; find(x > 5)`"
-                include_reverse: true
-        -
-                uuid: 93f86d82-1d59-434e-9552-e1b8a7f5be77
-                front: "Return list of non-zero indices in vector"
-                back: "`find`"
-                include_reverse: true
-        -
-                uuid: 4d90cb9a-5d0c-4650-93aa-f5301e0816c6
-                front: "Return 5x5 magic square"
-                back: "`magic(5)`"
-                include_reverse: true
-        -
-                uuid: f76eb94c-d26f-4950-ae17-68b62b5acde2
-                front: "Multiply together entire vector"
-                back: "`prod(v)`"
-                include_reverse: true
-        -
-                uuid: c87c0a29-f952-4cc8-a605-8ee26162f88a
-                front: "Vectorize matrix by appending rows together"
-                back: "`A(:)`"
-                include_reverse: true
-        -
-                uuid: 05a011c3-9105-42c4-87dc-42eb6641f9f2
-                front: "Get matrix second column"
-                back: "`A(:,2)`"
-                include_reverse: true
-        -
-                uuid: e1836723-454b-46b5-8d7c-8a43185714d7
-                front: "Get matrix second row"
-                back: "`A(2,:)`"
-                include_reverse: true
-        -
-                uuid: 8ad384c5-db2a-4501-85af-e790e019d982
-                front: "Get floor of value"
-                back: "`B = floor(A)`"
-                include_reverse: true
-        -
-                uuid: 642a992b-6b30-40d2-9b87-2a3ddf39ccfc
-                front: "Get ceiling of value"
-                back: "`ceil(a)`"
-                include_reverse: true
-        -
-                uuid: 885b43dc-73f8-44fc-8bcf-56057c8b86bf
-                front: "Save value in `v` into `.mat` (Octave/Matlab) format"
-                back: "`save hello.mat v`"
-                include_reverse: true
-        -
-                uuid: 3d388c79-db2c-42b3-96df-1b9d8e946e67
-                front: "Clear out entire environment"
-                back: "`clear`"
-                include_reverse: true
-        -
-                uuid: 25d2578f-286e-4e6d-b1dc-276d59c2ac96
-                front: "Show the histogram of `x`"
-                back: "`hist(x)`"
-                include_reverse: true
-        -
-                uuid: 4b0d81e0-6d5b-4987-8ae6-a6921e74ebc6
-                front: "Get random matrix (5 rows, 3 columns), Gaussian-distributed, mean = 0, variance = 1"
-                back: "`randn(5,3)`"
-                include_reverse: true
-        -
-                uuid: 2d33f359-b866-4ef2-b80f-60bfe67821a7
-                front: Save string into variable
-                back: "`b = 'hi';`"
-        -
-                uuid: a66260c1-871e-43b2-b597-fbcbbbd8bb2a
-                front: Get working directory
-                back: "`pwd`"
-                include_reverse: true
-        -
-                uuid: 8f7bb9ea-7dd1-4dd9-8b44-5fdb7058d8d9
-                front: Flip matrix up-down
-                back: "`flipud(X)`"
-                include_reverse: true
-        -
-                uuid: 998dc10f-bbf0-4364-983f-3ec838e826d4
-                front: Variable storing last result
-                back: "`ans`"
-                include_reverse: true
-        -
-                uuid: cba5029c-6619-43fd-a3fa-79af82e3b338
-                front: "Get row of matrix column averages"
-                back: "`mean(X);`"
-                include_reverse: true
-        -
-                uuid: 9bc495e5-75fc-4b2a-a9f1-1d9562777dbd
-                front: Get column of matrix row averages
-                back: "`mean(X')';`"
-                include_reverse: true
-        -
-                uuid: b6102852-76e0-4dd2-aee4-bda6541dd1e1
-                front: "Get average of vector `a`"
-                back: "`mean(a);`"
-        -
-                uuid: 2990320e-6345-4ea2-ac79-112959beadca
-                front: For-cycle syntax
-                markdown: false
-                back: |
-                        <code>
-                        for i = 1:10<br>
-                          disp("Ahoj!");<br>
-                        endfor
-                        </code>
+-       uuid: 83a3b8c3-f1e1-463c-8592-213f05f7f5ea
+        guid: t5Q.ey5@p=
+        front: Set PS1
+        back: "`PS1('>> ');`"
+        include_reverse: true
+-       uuid: e7be4728-9c48-45af-86df-ad43f4e20922
+        guid: CB9(w([3v^
+        front: Don't write out return value of command
+        back: Semicolon after command
+        include_reverse: true
+-       uuid: 8e77f0ca-c4d5-4327-8435-c02d8517990b
+        guid: x05c@MNL{_
+        front: Comment syntax
+        back: '`a = 100; % comment`'
+-       uuid: 3d4d37f1-e501-413a-8537-83172720a7a8
+        guid: pR_zih~(u
+        front: Matrix of 2 rows, 3 columns, full of 1
+        back: '`ones(2, 3)`'
+        include_reverse: true
+-       uuid: 772a4b1e-9d9e-4f50-a29b-573f8257cf85
+        guid: zW81$e:r6G
+        front: Matrix of 3 rows, 2 columns, full of 0
+        back: '`zeros(3, 2)`'
+        include_reverse: true
+-       uuid: e641a400-e1ed-434f-b682-9d091e7176e9
+        guid: ud}KQJ7N:U
+        front: Identity matrix 5x5
+        back: '`eye(5)`'
+        include_reverse: true
+-       uuid: 907035d1-ee3c-4896-9586-dd3bbe1dd0d2
+        guid: Q?%gHch]Ef
+        front: List variables in workspace
+        back: '`who`'
+        include_reverse: true
+-       uuid: 1eea9bfa-091d-4811-bb16-f99d533b2411
+        guid: q:+Xk]C2M,
+        front: Clear out a variable
+        back: '`clear X`'
+        include_reverse: true
+-       uuid: 61f5dfe0-da23-4d8f-9daa-df7c6684578d
+        guid: wVf:!D!*M]
+        front: Matrix literal syntax?
+        back: '`A=[1 2; 5 7; 0 1]`'
+-       uuid: 69eafa55-5181-49c7-b587-74e7168f5129
+        guid: s|]+>,,ybQ
+        front: Create 2x2 matrix of uniform-distributed numbers [0;1]
+        back: '`rand(2)`'
+        include_reverse: true
+-       uuid: a08727b9-faef-4fd7-acd7-9d6958f5dcc2
+        guid: KAA,J6*XdM
+        front: Matrix multiplication
+        back: '`A = ones(2); B = rand(2); C = A * B`'
+        include_reverse: true
+-       uuid: a6eda362-8b15-4ef3-bac6-459d0faea342
+        guid: zBry.4g!&E
+        front: Create matrix B with 1's where A's element >= 3
+        back: '`B = (A >= 3)`'
+-       uuid: e7a2a766-cea1-43ad-869b-14f3ffb48b0e
+        guid: k?U3Mrq]*n
+        front: Matrix transpose
+        back: "`A'`"
+-       uuid: 2450d5d8-3b67-431f-bc92-c837ff437c8c
+        guid: qzb>Bs~1,y
+        front: Get number of rows in matrix
+        back: '`A = [1 2; 30 40; 5 6]; size(A, 1)`'
+        include_reverse: true
+-       uuid: 8d42ad60-7dc6-4fc3-b944-a793c1c2d25c
+        guid: A%6A24(Pux
+        front: Get number of columns in matrix
+        back: '`A = [1 2; 30 40; 5 6]; size(A, 2)`'
+        include_reverse: true
+-       uuid: 42071c0c-b821-4969-aebf-7cb98d6440bd
+        guid: bNo72e!8yu
+        front: Get (num rows, num columns) in matrix
+        back: '`A = [1 2; 30 40; 5 6]; size(A)`'
+        include_reverse: true
+-       uuid: 34da977b-ac99-4c04-af13-7976383fac3b
+        guid: JYFX#aN#5g
+        front: Get help for command `eye`
+        back: '`help eye`'
+        include_reverse: true
+-       uuid: 699a420f-62e4-4245-9579-06b6595e8480
+        guid: c+v2P)tCo^
+        front: Booleans in Octave
+        back: 1 = true, 0 = false
+-       uuid: 206fc4da-ee54-413b-a5ee-ce63aeb46532
+        guid: CU|0<MKa1L
+        front: '`a ~= b`'
+        back: Non-equality operator (!=)
+        include_reverse: true
+-       uuid: 674a37db-eb33-4ab6-8f78-48b9519f3c6c
+        guid: ikD3106(LI
+        front: Element-wise matrix multiplication
+        back: '`A .* B`'
+        include_reverse: true
+-       uuid: 59f707c3-a4b2-4598-8635-8df21af49a10
+        guid: An=OvLKHo;
+        front: Element-wise matrix element squaring
+        back: '`A .^ 2`'
+        include_reverse: true
+-       uuid: 6dd677d7-0828-4a39-a60f-75cd0f5a9ea0
+        guid: mft*)NsBnQ
+        front: Matrix (pseudo)inverse
+        back: '`pinv(A)`'
+        include_reverse: true
+-       uuid: 12d7f6ac-a696-4eab-b427-42164d6fb8c1
+        guid: ou`%Z@zra)
+        front: Print value of variable
+        back: '`disp(X);`'
+        include_reverse: true
+-       uuid: 65f04f06-5241-4ea1-8f32-1b158aab0fb2
+        guid: QT|e>eVk4]
+        front: Scalar equality test
+        back: x == y
+        include_reverse: true
+-       uuid: 134fbe0b-07f9-4b10-a7ea-a8fa74e5e11d
+        guid: otxLfFA|If
+        front: Logical and, or
+        back: x && y; x || y;
+-       uuid: e91cf6ff-fe29-470e-8862-dc9674f5d915
+        guid: s&{K@[90Az
+        front: Pi
+        back: '`pi`'
+-       uuid: 0048c9ad-fd74-4cf7-b9f9-cd35760bc99c
+        guid: Pp._6-[tF#
+        front: Print out formatted string
+        back: "`disp(sprintf('Hello %.2f', a));`"
+-       uuid: c51f98ce-e615-4d8e-9ab3-ac9874e41b6c
+        guid: pA+g<JgB?&
+        front: Set number of printed digits to a few/a lot
+        back: '`format short` / `format long;`'
+        include_reverse: true
+-       uuid: 34bf6129-ee7f-48c6-aa7e-f6e94cda90f1
+        guid: AC1Z`z}.$`
+        front: '`[1.0 1.2 1.4 ... 2.0]`'
+        back: '`1.0:0.2:2.0`'
+        include_reverse: true
+-       uuid: 7929c4fd-4d30-4e3d-aecb-506a5edd2de7
+        guid: c%e,cq~}[`
+        front: Row vector
+        back: '[1 2 3]'
+        include_reverse: true
+-       uuid: 7be077f9-3100-452b-a44a-75165a22fe67
+        guid: b$Ed^7j@#d
+        front: Column vector
+        back: '[1; 2; 3]'
+        include_reverse: true
+-       uuid: 2560914b-bab8-4a66-bc77-04a2904c703a
+        guid: QVxIwJAvIi
+        front: Number of items in row or column vector
+        back: length(x)
+        include_reverse: true
+-       uuid: 7f5195e3-8a57-4429-a9d7-ec8eeb681fc7
+        guid: N~$Qz/tN:*
+        front: Select vector items 2, 3, 4, 5. Works both for row and column vectors.
+        back: '`x(2:5)`'
+        include_reverse: true
+-       uuid: 6dfb9987-01a5-4be1-8eed-baeeab9338a0
+        guid: K>Ct<4VBb1
+        front: Append column to matrix
+        back: '`A = [A, [100; 101; 102]]`'
+        include_reverse: true
+-       uuid: d239981f-6f63-4632-97e5-ee346c0d9fc7
+        guid: DpCe^!5):o
+        front: Elementwise reciprocal
+        back: 1 ./ v
+        include_reverse: true
+-       uuid: 2930f816-019c-4a3c-8447-698e0714eb10
+        guid: l68&M$&new
+        front: Matrix 3x3 full of 3's
+        back: ones(3) + 2
+        include_reverse: true
+-       uuid: 73835cf2-539b-4723-abbb-5ee6f2f33941
+        guid: x)5D57|MJ|
+        front: Get list of indices where vector `x` is greater than 5
+        back: '`x = [1 10 2 20]; find(x > 5)`'
+        include_reverse: true
+-       uuid: 93f86d82-1d59-434e-9552-e1b8a7f5be77
+        guid: QJ>@mMAc_P
+        front: Return list of non-zero indices in vector
+        back: '`find`'
+        include_reverse: true
+-       uuid: 4d90cb9a-5d0c-4650-93aa-f5301e0816c6
+        guid: sM&uDg#f&u
+        front: Return 5x5 magic square
+        back: '`magic(5)`'
+        include_reverse: true
+-       uuid: f76eb94c-d26f-4950-ae17-68b62b5acde2
+        guid: q1shh2Q;hY
+        front: Multiply together entire vector
+        back: '`prod(v)`'
+        include_reverse: true
+-       uuid: c87c0a29-f952-4cc8-a605-8ee26162f88a
+        guid: c1?#uOtvXU
+        front: Vectorize matrix by appending rows together
+        back: '`A(:)`'
+        include_reverse: true
+-       uuid: 05a011c3-9105-42c4-87dc-42eb6641f9f2
+        guid: N$]9^FbY-2
+        front: Get matrix second column
+        back: '`A(:,2)`'
+        include_reverse: true
+-       uuid: e1836723-454b-46b5-8d7c-8a43185714d7
+        guid: ji5z8_LWb!
+        front: Get matrix second row
+        back: '`A(2,:)`'
+        include_reverse: true
+-       uuid: 8ad384c5-db2a-4501-85af-e790e019d982
+        guid: F_$Y(@*}]4
+        front: Get floor of value
+        back: '`B = floor(A)`'
+        include_reverse: true
+-       uuid: 642a992b-6b30-40d2-9b87-2a3ddf39ccfc
+        guid: t)Vy2*T,Y=
+        front: Get ceiling of value
+        back: '`ceil(a)`'
+        include_reverse: true
+-       uuid: 885b43dc-73f8-44fc-8bcf-56057c8b86bf
+        guid: O~vcg;.hJ=
+        front: Save value in `v` into `.mat` (Octave/Matlab) format
+        back: '`save hello.mat v`'
+        include_reverse: true
+-       uuid: 3d388c79-db2c-42b3-96df-1b9d8e946e67
+        guid: wO-.!j%L&8
+        front: Clear out entire environment
+        back: '`clear`'
+        include_reverse: true
+-       uuid: 25d2578f-286e-4e6d-b1dc-276d59c2ac96
+        guid: sh_U2uQ<v2
+        front: Show the histogram of `x`
+        back: '`hist(x)`'
+        include_reverse: true
+-       uuid: 4b0d81e0-6d5b-4987-8ae6-a6921e74ebc6
+        guid: OZy3/G*SyP
+        front: Get random matrix (5 rows, 3 columns), Gaussian-distributed, mean =
+                0, variance = 1
+        back: '`randn(5,3)`'
+        include_reverse: true
+-       uuid: 2d33f359-b866-4ef2-b80f-60bfe67821a7
+        guid: NKwN$_Hxjv
+        front: Save string into variable
+        back: "`b = 'hi';`"
+-       uuid: a66260c1-871e-43b2-b597-fbcbbbd8bb2a
+        guid: FSii?O%x7y
+        front: Get working directory
+        back: '`pwd`'
+        include_reverse: true
+-       uuid: 8f7bb9ea-7dd1-4dd9-8b44-5fdb7058d8d9
+        guid: FNW>vd|c.4
+        front: Flip matrix up-down
+        back: '`flipud(X)`'
+        include_reverse: true
+-       uuid: 998dc10f-bbf0-4364-983f-3ec838e826d4
+        guid: kOsr857UNa
+        front: Variable storing last result
+        back: '`ans`'
+        include_reverse: true
+-       uuid: cba5029c-6619-43fd-a3fa-79af82e3b338
+        guid: lp._wqFLx>
+        front: Get row of matrix column averages
+        back: '`mean(X);`'
+        include_reverse: true
+-       uuid: 9bc495e5-75fc-4b2a-a9f1-1d9562777dbd
+        guid: ln$4Jp]|~$
+        front: Get column of matrix row averages
+        back: "`mean(X')';`"
+        include_reverse: true
+-       uuid: b6102852-76e0-4dd2-aee4-bda6541dd1e1
+        guid: M;a$Ywo$OP
+        front: Get average of vector `a`
+        back: '`mean(a);`'
+-       uuid: 2990320e-6345-4ea2-ac79-112959beadca
+        guid: v9L@j/mf`6
+        front: For-cycle syntax
+        markdown: false
+        back: |
+                <code>
+                for i = 1:10<br>
+                  disp("Ahoj!");<br>
+                endfor
+                </code>

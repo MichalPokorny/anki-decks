@@ -1,224 +1,218 @@
 uid_tag: math
 deck: All::Math
 notes:
-        -
-                uuid: 5c64ac78-bc43-4821-9084-f2bf98e6c320
-                front: Logistic function
-                back: AKA sigmoid. [$]f(x)=(1+e^{-\lambda x})^{-1}[/$]
-        -
-                uuid: 8b422f19-b1a6-4853-ae6c-c373e8daa591
-                front: Wedderburn theorem
-                back: Every finite field is commutative
-        -
-                uuid: ebca1d61-11bf-48b7-a21b-5733e28e5dc9
-                front: BBP-type formula
-                back:
-                        Bailey-Borwein-Plouffe formula. Computes n-th binary
-                        digit of [$]\\pi[/$] using base 16 math.
-                        Can directly calculate some digit of [$]\\pi[/$]
-                        without calculating preceding digits.
-                        Since this discovery, many formulas for other
-                        irrational constants have been discovered of the
-                        general form.
-                        Formulas in this form are known as BBP-type formulas.
-                        [$$]
-                        \pi = \sum_{k = 0}^{\infty}\left[ \frac{1}{16^k} \left( \frac{4}{8k + 1} - \frac{2}{8k + 4} - \frac{1}{8k + 5} - \frac{1}{8k + 6} \right) \right]
-                        [/$$]
-
-                        https://wikimedia.org/api/rest_v1/media/math/render/svg/af6bc360851499dd2ab2a90bee03fbe2040089d5
-        -
-                uuid: 5cb921d7-535c-441f-b074-78cdabe4d336
-                front: Skolem paradox
-                back: ZF set theory has a countable model
-                include_reverse: true
-        -
-                uuid: 6db03c44-0ad5-4d37-b4e0-55ade1ec116f
-                front: Goodstein theorem
-                back: |
-                        "Every Goodstein sequence eventually terminates at 0."
-                        <br><br>
-                        Unprovable in Peano arithmetic, but can be proven in
-                        stronger systems, e.g. second order arithmetic.
-        -
-                uuid: 40ea1145-01bf-4d44-856a-2c36f8bdfd89
-                front: Brouwer theorem
-                back: |
-                        Brouwer fixed-point theorem: any continuous [$]f[/$]
-                        mapping a compact convex set into itself has a fixed
-                        point
+-       uuid: 5c64ac78-bc43-4821-9084-f2bf98e6c320
+        guid: QyE|}7vN:#
+        front: Logistic function
+        back: AKA sigmoid. [$]f(x)=(1+e^{-\lambda x})^{-1}[/$]
+-       uuid: 8b422f19-b1a6-4853-ae6c-c373e8daa591
+        guid: Mg:3U(;55]
+        front: Wedderburn theorem
+        back: Every finite field is commutative
+-       uuid: ebca1d61-11bf-48b7-a21b-5733e28e5dc9
+        guid: GSj$5,j)9L
+        front: BBP-type formula
+        back: "Bailey-Borwein-Plouffe formula. Computes n-th binary digit of [$]\\\
+                \\pi[/$] using base 16 math. Can directly calculate some digit of\
+                \ [$]\\\\pi[/$] without calculating preceding digits. Since this discovery,\
+                \ many formulas for other irrational constants have been discovered\
+                \ of the general form. Formulas in this form are known as BBP-type\
+                \ formulas. [$$] \\pi = \\sum_{k = 0}^{\\infty}\\left[ \\frac{1}{16^k}\
+                \ \\left( \\frac{4}{8k + 1} - \\frac{2}{8k + 4} - \\frac{1}{8k + 5}\
+                \ - \\frac{1}{8k + 6} \\right) \\right] [/$$]\nhttps://wikimedia.org/api/rest_v1/media/math/render/svg/af6bc360851499dd2ab2a90bee03fbe2040089d5"
+-       uuid: 5cb921d7-535c-441f-b074-78cdabe4d336
+        guid: kI)A+g6.DK
+        front: Skolem paradox
+        back: ZF set theory has a countable model
+        include_reverse: true
+-       uuid: 6db03c44-0ad5-4d37-b4e0-55ade1ec116f
+        guid: F$Nkq6Af0#
+        front: Goodstein theorem
+        back: |
+                "Every Goodstein sequence eventually terminates at 0."
+                <br><br>
+                Unprovable in Peano arithmetic, but can be proven in
+                stronger systems, e.g. second order arithmetic.
+-       uuid: 40ea1145-01bf-4d44-856a-2c36f8bdfd89
+        guid: vqk&`FqCp3
+        front: Brouwer theorem
+        back: |
+                Brouwer fixed-point theorem: any continuous [$]f[/$]
+                mapping a compact convex set into itself has a fixed
+                point
 # TODO: Kegan's stages
-        -
-                uuid: eea9aac1-ad18-4f44-83ca-a2336da27940
-                front: Vapnik-Chervonenkis dimension
-                markdown: false
-                back: |
-                        [$]C[/$] je množina funkcí [$]\rightarrow\{0,1\}[/$]
-                        (concept class). Vzory [$]T[/$] jdou rozčlenit pomocí
-                        [$]C[/$], jestli [$]\a[/$] označení z [$]\\ ^{T}2[/$]
-                        [$]\\e f_i\\in C[/$] co mu vyhovuje.
+-       uuid: eea9aac1-ad18-4f44-83ca-a2336da27940
+        guid: b@xwZ-P5;)
+        front: Vapnik-Chervonenkis dimension
+        markdown: false
+        back: |
+                [$]C[/$] je množina funkcí [$]\rightarrow\{0,1\}[/$]
+                (concept class). Vzory [$]T[/$] jdou rozčlenit pomocí
+                [$]C[/$], jestli [$]\a[/$] označení z [$]\\ ^{T}2[/$]
+                [$]\\e f_i\\in C[/$] co mu vyhovuje.
 
-                        VC-dimenze [$]C[/$]: [$]\max m[/$], pro které existuje
-                        [$]m[/$] rozčlenitelných vzorů.
+                VC-dimenze [$]C[/$]: [$]\max m[/$], pro které existuje
+                [$]m[/$] rozčlenitelných vzorů.
 
-                        Když [$]V=\infty[/$], je to nenaučitelné.
+                Když [$]V=\infty[/$], je to nenaučitelné.
 
-                        Neuronová síť může mít hodně parametrů, ale měla by mít
-                        malou VC dimenzi. Velká VC dimenze znamená horší
-                        generalizaci.
+                Neuronová síť může mít hodně parametrů, ale měla by mít
+                malou VC dimenzi. Velká VC dimenze znamená horší
+                generalizaci.
 
-                        Příklad: VC-dimenze lineárních funkcí v
-                        [$]n[/$]-rozměrném prostoru je [$]n+1[/$]
-                        (víc jich rozdělit nejde).
-                        Příklad: VC-dimenze sinusovek s libovolnou periodou je
-                        [$]\infty[/$]
-        -
-                uuid: d8dfb615-f927-4284-a746-c3fa7e21bc46
-                front: Definice pseudoinverzní matice
-                markdown: false
-                back: |
-                        [$]X\tilde{X}X=X,\tilde{X}X\tilde{X}=\tilde{X},\tilde{X}X[/$]
-                        a [$]X\tilde{X}[/$] jsou symetrické.
-                        Vždy existuje a je jednoznačná.
-        -
-                uuid: 2de3f4b6-ac7d-400a-be6d-d08aadf7f53b
-                front: Věta co minimalizuje pseudoinverzní matice, důkaz
-                markdown: false
-                back: |
-                        Ať je [$]X\in\R^{m\times n}, Y\in\R^{m\times k}[/$].
-                        Pak [$]W=\tilde{X} Y[/$] minimalizuje [$]\|XW-Y\|^2[/$].
-                        <br>
+                Příklad: VC-dimenze lineárních funkcí v
+                [$]n[/$]-rozměrném prostoru je [$]n+1[/$]
+                (víc jich rozdělit nejde).
+                Příklad: VC-dimenze sinusovek s libovolnou periodou je
+                [$]\infty[/$]
+-       uuid: d8dfb615-f927-4284-a746-c3fa7e21bc46
+        guid: yM&Ke0%:vi
+        front: Definice pseudoinverzní matice
+        markdown: false
+        back: |
+                [$]X\tilde{X}X=X,\tilde{X}X\tilde{X}=\tilde{X},\tilde{X}X[/$]
+                a [$]X\tilde{X}[/$] jsou symetrické.
+                Vždy existuje a je jednoznačná.
+-       uuid: 2de3f4b6-ac7d-400a-be6d-d08aadf7f53b
+        guid: P;w%m?uGPR
+        front: Věta co minimalizuje pseudoinverzní matice, důkaz
+        markdown: false
+        back: |
+                Ať je [$]X\in\R^{m\times n}, Y\in\R^{m\times k}[/$].
+                Pak [$]W=\tilde{X} Y[/$] minimalizuje [$]\|XW-Y\|^2[/$].
+                <br>
 
-                        Zároveň [$]\tilde{X}[/$] minimalizuje [$]\|X\tilde{X}-I\|^2[/$].<br>
+                Zároveň [$]\tilde{X}[/$] minimalizuje [$]\|X\tilde{X}-I\|^2[/$].<br>
 
-                        [$]\|XW-Y\|^2[/$] dá se vyjádřit jako [$]\mathrm{trace}(S)[/$]:
-                        <br>
+                [$]\|XW-Y\|^2[/$] dá se vyjádřit jako [$]\mathrm{trace}(S)[/$]:
+                <br>
 
-                        [latex]
-                        \begin{align*}
-                        S & = & (XW-Y)^T (XW-Y) = \\
-                          & = & (Y-XW)^T (Y-XW) = \\
-                          & = & (-XW)^T (Y-XW) + Y^T(-XW) + \underbrace{\cancel{Y^T Y}}_{=C} = \\
-                          & = & (-XW)^T (Y-XW) + Y^T(-X\tilde{X}XW) = \\
-                          & = & (-XW)^T (Y-XW) + Y^T X \tilde{X} (Y-XW) - \underbrace{\cancel{Y^TX\tilde{X}Y}}_{=C} = \\
-                          & = & (Y^T X \tilde{X} - XW)^T (Y-XW) = \\
-                          & = & (X \tilde{X} Y-XW)^T (Y-XW) = \\
-                          & = & (\tilde{X}Y-W)^T X^T (Y-XW) = \\
-                          & = & (\tilde{X}Y-W)^T (X^T Y-X^T XW) = \\
-                          & = & (\tilde{X}Y-W)^T ((X\tilde{X}X)^T Y-X^T XW) = \\
-                          & = & (\tilde{X}Y-W)^T (X^T X\tilde{X}Y-X^T XW) = \\
-                          & = & (\tilde{X}Y-W)^T X^T X(\tilde{X}Y-W)
-                        \end{align*}
-                        [/latex]<br>
+                [latex]
+                \begin{align*}
+                S & = & (XW-Y)^T (XW-Y) = \\
+                  & = & (Y-XW)^T (Y-XW) = \\
+                  & = & (-XW)^T (Y-XW) + Y^T(-XW) + \underbrace{\cancel{Y^T Y}}_{=C} = \\
+                  & = & (-XW)^T (Y-XW) + Y^T(-X\tilde{X}XW) = \\
+                  & = & (-XW)^T (Y-XW) + Y^T X \tilde{X} (Y-XW) - \underbrace{\cancel{Y^TX\tilde{X}Y}}_{=C} = \\
+                  & = & (Y^T X \tilde{X} - XW)^T (Y-XW) = \\
+                  & = & (X \tilde{X} Y-XW)^T (Y-XW) = \\
+                  & = & (\tilde{X}Y-W)^T X^T (Y-XW) = \\
+                  & = & (\tilde{X}Y-W)^T (X^T Y-X^T XW) = \\
+                  & = & (\tilde{X}Y-W)^T ((X\tilde{X}X)^T Y-X^T XW) = \\
+                  & = & (\tilde{X}Y-W)^T (X^T X\tilde{X}Y-X^T XW) = \\
+                  & = & (\tilde{X}Y-W)^T X^T X(\tilde{X}Y-W)
+                \end{align*}
+                [/latex]<br>
 
-                        [$]
-                        E=\underbrace{\mathrm{trace}((\tilde{X}Y-W)^T X^T X(\tilde{X}Y-W))}
-                              _{\text{minimum v}\ W=\tilde{X}Y} +
-                          \underbrace{\mathrm{trace}(Y^T(I-X\tilde{X})Y)}
-                              _{\text{konstanta}}
-                        [/$]
-        -
-                uuid: b505e84d-0856-4f05-87ee-4663e16384bf
-                front: Definice a notace Hessovské matice
-                back: |
-                        [$]\\nabla^2 F(x)[/$] nebo [$]\\mathbf{H}(f)[/$]<br>
-                        [$][\\nabla^2 F(x)]_{ij}=
-                           \\frac{\\partial^2 F}{\\partial x_i \\partial x_j}(x)[/$]
-        -
-                uuid: 065842a1-ec10-4639-b219-2bd4015bcf75
-                front: Definice a notace Jacobiho matice
-                back: |
-                        [$]f:\\R^n \\rightarrow \\R^m[/$]<br>
-                        [$][\\mathbf{J}(f)]_{ij}=\\partial f_i/\\partial x_j[/$]
-        -
-                uuid: fad18700-163d-4439-8c3f-bb7e613a54dc
-                markdown: false
-                front: |
-                        [$]\lim_{n\rightarrow\infty}\left(1-\frac{1}{n}\right)^n[/$]
-                back: |
-                        [$]1/e[/$] přes limitu
-                include_reverse: true
-        -
-                uuid: 09762a50-6134-4680-a011-a2f15084c653
-                markdown: false
-                front: |
-                        [$]\lim_{n\rightarrow\infty}\left(1+\frac{1}{n}\right)^n[/$]
-                back: |
-                        [$]e[/$] přes limitu
-                include_reverse: true
-        -
-                uuid: 596c2736-2780-4111-b181-57558a8ba3b2
-                markdown: false
-                front: Stirling's approximation of [$]n![/$]
-                back: |
-                        [$]\sqrt{2\pi n}\left(\frac{n}{e}\right)^n[/$]
-                include_reverse: true
-        -
-                uuid: c68cbdd1-404a-49bd-8523-ebad279b53b2
-                front: |
-                        Definice: Mersennovo prvočíslo
-                back: |
-                        [$]2^n-1[/$]
-        -
-                uuid: f40d801e-4a21-492d-960a-75fd03dfdf01
-                front: |
-                        5 Mersennových prvočísel
-                back: |
-                        [$]2^{31}-1[/$], [$]2^{61}-1[/$], [$]2^{89}-1[/$],
-                        [$]2^{107}-1[/$], [$]2^{127}-1[/$]
-        -
-                uuid: e0eca326-92c8-4818-88ff-94c7aeb069ea
-                topic: Cromwell's rule
-                front: Statement
-                back: |
-                        Use of prior probabilities 0 or 1 should be
-                        avoided except for logically true or false statements.
-        -
-                uuid: 92761762-1509-42d0-94ca-be89131f3655
-                topic: Cromwell's rule
-                front: Historical reference
-                back: |
-                        Oliver Cromwell, who wrote to the synod of
-                        Church of Scotland on 5 August 1650, including:
-                        <br><br>
-                        "I beseech you, in the bowels of Christ, think it
-                        possible that you may be mistaken."
-        -
-                uuid: 4529494d-a081-4f94-8825-e3f87c381974
-                front: Laplace's rule of succession - statement and purpose, interpretation
-                markdown: false
-                back: |
-                        Treats the sunrise problem, respects Cromwell's rule.
-                        <br><br>
-                        Results of an experiment: [$]X_1,\ldots X_{n+1}[/$]
-                        (conditionally independent 0/1 random variables)
-                        and we know nothing more about them.
-                        <br><br>
-                        Then:
-                        <br>
-                        [$]P[X_{n+1}=1|X_1+\ldots+X_n=s] = \frac{s+1}{n+2}[/$]
-                        <br><br>
-                        Interpretation: as if we observed 1 success and
-                        1 failure at first.
-        -
-                uuid: 75b4bcdb-c578-49b9-b5ad-1d65a4e7c880
-                front: |
-                        Definition: Convex set
-                back: |
-                        Region such that for every pair of points within
-                        the region, every point on the line segment connecting
-                        those is also within the region.
-                include_reverse: true
-        -
-                uuid: a2660b1d-c888-45a5-ba4f-90a19f97fa34
-                front: |
-                        Definition: Compact set [$]X[/$]
-                back: |
-                        Every open cover of [$]X[/$] has a finite subcover
-                include_reverse: true
-        -
-                uuid: d96e7ab6-2224-40ab-a4f7-8ab5e4323e41
-                front: |
-                        Definition: Quasiordering
-                back: |
-                        Reflexive and transitive relation
-                include_reverse: true
+                [$]
+                E=\underbrace{\mathrm{trace}((\tilde{X}Y-W)^T X^T X(\tilde{X}Y-W))}
+                      _{\text{minimum v}\ W=\tilde{X}Y} +
+                  \underbrace{\mathrm{trace}(Y^T(I-X\tilde{X})Y)}
+                      _{\text{konstanta}}
+                [/$]
+-       uuid: b505e84d-0856-4f05-87ee-4663e16384bf
+        guid: j=jc+JFzpG
+        front: Definice a notace Hessovské matice
+        back: |
+                [$]\\nabla^2 F(x)[/$] nebo [$]\\mathbf{H}(f)[/$]<br>
+                [$][\\nabla^2 F(x)]_{ij}=
+                   \\frac{\\partial^2 F}{\\partial x_i \\partial x_j}(x)[/$]
+-       uuid: 065842a1-ec10-4639-b219-2bd4015bcf75
+        guid: w-tDN_ky(e
+        front: Definice a notace Jacobiho matice
+        back: |
+                [$]f:\\R^n \\rightarrow \\R^m[/$]<br>
+                [$][\\mathbf{J}(f)]_{ij}=\\partial f_i/\\partial x_j[/$]
+-       uuid: fad18700-163d-4439-8c3f-bb7e613a54dc
+        guid: uy;xvB!`8%
+        markdown: false
+        front: |
+                [$]\lim_{n\rightarrow\infty}\left(1-\frac{1}{n}\right)^n[/$]
+        back: |
+                [$]1/e[/$] přes limitu
+        include_reverse: true
+-       uuid: 09762a50-6134-4680-a011-a2f15084c653
+        guid: m3GuQ,%KKN
+        markdown: false
+        front: |
+                [$]\lim_{n\rightarrow\infty}\left(1+\frac{1}{n}\right)^n[/$]
+        back: |
+                [$]e[/$] přes limitu
+        include_reverse: true
+-       uuid: 596c2736-2780-4111-b181-57558a8ba3b2
+        guid: yQ8t9}0c:o
+        markdown: false
+        front: Stirling's approximation of [$]n![/$]
+        back: |
+                [$]\sqrt{2\pi n}\left(\frac{n}{e}\right)^n[/$]
+        include_reverse: true
+-       uuid: c68cbdd1-404a-49bd-8523-ebad279b53b2
+        guid: G20wV8rA>M
+        front: |
+                Definice: Mersennovo prvočíslo
+        back: |
+                [$]2^n-1[/$]
+-       uuid: f40d801e-4a21-492d-960a-75fd03dfdf01
+        guid: Cr;!L?`2U7
+        front: |
+                5 Mersennových prvočísel
+        back: |
+                [$]2^{31}-1[/$], [$]2^{61}-1[/$], [$]2^{89}-1[/$],
+                [$]2^{107}-1[/$], [$]2^{127}-1[/$]
+-       uuid: e0eca326-92c8-4818-88ff-94c7aeb069ea
+        guid: gfW4nD&38X
+        topic: Cromwell's rule
+        front: Statement
+        back: |
+                Use of prior probabilities 0 or 1 should be
+                avoided except for logically true or false statements.
+-       uuid: 92761762-1509-42d0-94ca-be89131f3655
+        guid: u%K4SCyq_P
+        topic: Cromwell's rule
+        front: Historical reference
+        back: |
+                Oliver Cromwell, who wrote to the synod of
+                Church of Scotland on 5 August 1650, including:
+                <br><br>
+                "I beseech you, in the bowels of Christ, think it
+                possible that you may be mistaken."
+-       uuid: 4529494d-a081-4f94-8825-e3f87c381974
+        guid: d[v{Ta|kZ*
+        front: Laplace's rule of succession - statement and purpose, interpretation
+        markdown: false
+        back: |
+                Treats the sunrise problem, respects Cromwell's rule.
+                <br><br>
+                Results of an experiment: [$]X_1,\ldots X_{n+1}[/$]
+                (conditionally independent 0/1 random variables)
+                and we know nothing more about them.
+                <br><br>
+                Then:
+                <br>
+                [$]P[X_{n+1}=1|X_1+\ldots+X_n=s] = \frac{s+1}{n+2}[/$]
+                <br><br>
+                Interpretation: as if we observed 1 success and
+                1 failure at first.
+-       uuid: 75b4bcdb-c578-49b9-b5ad-1d65a4e7c880
+        guid: MP`4}+[j]P
+        front: |
+                Definition: Convex set
+        back: |
+                Region such that for every pair of points within
+                the region, every point on the line segment connecting
+                those is also within the region.
+        include_reverse: true
+-       uuid: a2660b1d-c888-45a5-ba4f-90a19f97fa34
+        guid: IjtB+$#-pt
+        front: |
+                Definition: Compact set [$]X[/$]
+        back: |
+                Every open cover of [$]X[/$] has a finite subcover
+        include_reverse: true
+-       uuid: d96e7ab6-2224-40ab-a4f7-8ab5e4323e41
+        guid: s$$OZ3DB,o
+        front: |
+                Definition: Quasiordering
+        back: |
+                Reflexive and transitive relation
+        include_reverse: true

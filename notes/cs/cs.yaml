@@ -1,117 +1,115 @@
 uid_tag: cs
 deck: All::CS
 notes:
-        -
-                uuid: 0ec7bd52-d429-4a52-ab45-06d370a9038a
-                front: Spigot algorithm
-                back:
-                        Algorithm for computing value of a constant such as
-                        [$]\\pi[/$] or [$]e[/$] which generates digits left to
-                        right with limited intermediate storage.
-        -
-                uuid: 622013c7-4805-4139-88a7-c33642b62686
-                front: Steiner tree
-                back: |
-                        Similar to planar MST, but I can add new vertices.
-                        NP-complete.
-        -
-                uuid: a08fa5b7-8741-45d5-8a40-f8fea801bf40
-                front: CAP theorem
-                back: |
-                        Cannot have consistency & availability & partition
-                        tolerance
-        -
-                uuid: 76c1620b-5f8c-4f84-9992-ac8c87d50724
-                front: Chicken bits
-                back: CPU fuses for disabling risky features.
-        -
-                uuid: f8ed41c1-4837-47c0-87f1-d10df5d49d8a
-                front: Cyclomatic complexity
-                back: |
-                        In basic block graph:
-                        [$]M = E - N + 2P[/$],
-                        where:
-                        <ul>
-                        <li> [$]E[/$]: number of edges
-                        <li> [$]N[/$]: number of nodes
-                        <li> [$]P[/$]: number of connected components
-                             (1 for any single program of method)
-                        </ul>
+-       uuid: 0ec7bd52-d429-4a52-ab45-06d370a9038a
+        guid: M4ag_{7d;B
+        front: Spigot algorithm
+        back: Algorithm for computing value of a constant such as [$]\\pi[/$] or [$]e[/$]
+                which generates digits left to right with limited intermediate storage.
+-       uuid: 622013c7-4805-4139-88a7-c33642b62686
+        guid: F=e[E^bA:h
+        front: Steiner tree
+        back: |
+                Similar to planar MST, but I can add new vertices.
+                NP-complete.
+-       uuid: a08fa5b7-8741-45d5-8a40-f8fea801bf40
+        guid: M5c3`Ql#PJ
+        front: CAP theorem
+        back: |
+                Cannot have consistency & availability & partition
+                tolerance
+-       uuid: 76c1620b-5f8c-4f84-9992-ac8c87d50724
+        guid: s4iFBmBq8Q
+        front: Chicken bits
+        back: CPU fuses for disabling risky features.
+-       uuid: f8ed41c1-4837-47c0-87f1-d10df5d49d8a
+        guid: u2d}I~H]45
+        front: Cyclomatic complexity
+        back: |
+                In basic block graph:
+                [$]M = E - N + 2P[/$],
+                where:
+                <ul>
+                <li> [$]E[/$]: number of edges
+                <li> [$]N[/$]: number of nodes
+                <li> [$]P[/$]: number of connected components
+                     (1 for any single program of method)
+                </ul>
                 # source: https://en.wikipedia.org/wiki/Cyclomatic_complexity
-        -
-                uuid: bcb5d766-2e63-4254-bfe6-e784d6696ac5
-                front: SMACSS
-                back: Scalable and Modular Architecture for CSS
-        -
-                uuid: 80fde9c1-1b2f-4e62-817a-9905696f7e69
-                front: Sidekiq
-                back: Ruby queue
-        -
-                uuid: d03401a6-2b39-4b70-a810-6f7d4336f360
-                front: '0mq'
-                back: Zero-MQ. Queue for inter-language communication.
-        -
-                uuid: 0400a4e9-c598-4c97-a631-81342e026621
-                front: Bazel
-                back: Google's build tool, open-source Blaze
-                include_reverse: true
-        -
-                uuid: 7e7ae73d-1d6f-4357-a237-e91841d71cdf
-                front: C# string formatting
-                back: |
-                        `$"hello{parameters[0, i]} world"`
-        -
-                uuid: e9f2ca8e-bb3c-4589-9871-840ca975b8c2
-                front: ZooKeeper
-                back: Hadoop's hierarchical key-value store (Chubby)
-                include_reverse: true
-        -
-                uuid: 970768dd-fa5f-4760-8211-5237ddc32ba4
-                front: HBase
-                back: Hadoop BigTable
-                include_reverse: true
-        -
-                uuid: 4484c6de-4e3d-4f52-b634-7414a5e491e7
-                front: HTTP caching and query string
-                back: URLs with a query string are not cached
-        -
-                uuid: fb226a8e-a15d-46ef-8395-ba87ce28623c
-                front: Paamayim Nekudotayim
-                back: |
-                        "Twice colon" in Hebrew. PHP token name for `::`.
-                include_reverse: true
-        -
-                uuid: 560f5618-6ec8-4523-b25f-903891fa2475
-                front: Semantic highlighting
-                back: |
-                        Every variable in a different color
-        -
-                uuid: 27009414-715f-4fe4-b10b-f8b8b5bd5e7b
-                front: Supersampling
-                back: |
-                        Anti-aliasing method: sample several sampling positions
-                        within pixel, average out the colors.
-                include_reverse: true
-        -
-                uuid: 7c80c82b-3ff4-4d8d-8764-faaf3a719898
-                topic: Hadoop
-                front: Get application logs from Yarn
-                back: |
-                        `yarn logs -applicationId <appid>`
-        -
-                uuid: bb7d792b-7894-4217-bb1f-fa6ca28ef702
-                topic: Hadoop
-                front: Kill application
-                back: |
-                        `yarn application -kill <appid>`
-        -
-                uuid: c85cd496-00e4-44f9-9b4f-c05089c1f4df
-                front: |
-                        `char c1, c2; c1 = 'A'; c2 = c1 ^ ' '; putc(c2);`
-                back: |
-                        `a`
-        -
-                uuid: 57e6de4c-1da8-44d4-b95f-2d0a1ee06d84
-                front: Quick operator hack to switch case of a character
-                back: |
-                        `'A' ^ ' ' == 'a'`
+-       uuid: bcb5d766-2e63-4254-bfe6-e784d6696ac5
+        guid: QTvyu<.}cO
+        front: SMACSS
+        back: Scalable and Modular Architecture for CSS
+-       uuid: 80fde9c1-1b2f-4e62-817a-9905696f7e69
+        guid: ek7r]sE|RJ
+        front: Sidekiq
+        back: Ruby queue
+-       uuid: d03401a6-2b39-4b70-a810-6f7d4336f360
+        guid: m.E_/6$[&-
+        front: 0mq
+        back: Zero-MQ. Queue for inter-language communication.
+-       uuid: 0400a4e9-c598-4c97-a631-81342e026621
+        guid: zcq:1zM*kx
+        front: Bazel
+        back: Google's build tool, open-source Blaze
+        include_reverse: true
+-       uuid: 7e7ae73d-1d6f-4357-a237-e91841d71cdf
+        guid: Dilnn&3^Mq
+        front: C# string formatting
+        back: |
+                `$"hello{parameters[0, i]} world"`
+-       uuid: e9f2ca8e-bb3c-4589-9871-840ca975b8c2
+        guid: j.S{)]4)i~
+        front: ZooKeeper
+        back: Hadoop's hierarchical key-value store (Chubby)
+        include_reverse: true
+-       uuid: 970768dd-fa5f-4760-8211-5237ddc32ba4
+        guid: k>+},<:1.=
+        front: HBase
+        back: Hadoop BigTable
+        include_reverse: true
+-       uuid: 4484c6de-4e3d-4f52-b634-7414a5e491e7
+        guid: o?B}*#S=*N
+        front: HTTP caching and query string
+        back: URLs with a query string are not cached
+-       uuid: fb226a8e-a15d-46ef-8395-ba87ce28623c
+        guid: s>7Kj}h`|x
+        front: Paamayim Nekudotayim
+        back: |
+                "Twice colon" in Hebrew. PHP token name for `::`.
+        include_reverse: true
+-       uuid: 560f5618-6ec8-4523-b25f-903891fa2475
+        guid: P4llA:DTt_
+        front: Semantic highlighting
+        back: |
+                Every variable in a different color
+-       uuid: 27009414-715f-4fe4-b10b-f8b8b5bd5e7b
+        guid: jB>6oFQyl;
+        front: Supersampling
+        back: |
+                Anti-aliasing method: sample several sampling positions
+                within pixel, average out the colors.
+        include_reverse: true
+-       uuid: 7c80c82b-3ff4-4d8d-8764-faaf3a719898
+        guid: jI}],%,%0$
+        topic: Hadoop
+        front: Get application logs from Yarn
+        back: |
+                `yarn logs -applicationId <appid>`
+-       uuid: bb7d792b-7894-4217-bb1f-fa6ca28ef702
+        guid: hh2u(s3w]B
+        topic: Hadoop
+        front: Kill application
+        back: |
+                `yarn application -kill <appid>`
+-       uuid: c85cd496-00e4-44f9-9b4f-c05089c1f4df
+        guid: x6-Cv&.ghq
+        front: |
+                `char c1, c2; c1 = 'A'; c2 = c1 ^ ' '; putc(c2);`
+        back: |
+                `a`
+-       uuid: 57e6de4c-1da8-44d4-b95f-2d0a1ee06d84
+        guid: j%HpR3vZH/
+        front: Quick operator hack to switch case of a character
+        back: |
+                `'A' ^ ' ' == 'a'`

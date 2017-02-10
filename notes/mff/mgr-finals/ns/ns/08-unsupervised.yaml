@@ -1,32 +1,32 @@
 deck: All::Magisterské státnice::Neuronové sítě::Přednáška 8 (učení bez učitele)
 notes:
         # 08-unsupervised
-        -
-                uuid: 0d486c65-3912-4a06-af42-148b417569af
+        -       uuid: 0d486c65-3912-4a06-af42-148b417569af
+                guid: ',m^d)rx:J'
                 front: Jaký vztah mezi neurony se používá k učení bez učitele?
                 back: |
                         Inhibice: neurony soutěží o rozpoznání vzoru. "Winner takes all."
-        -
-                uuid: d9e8f239-ce85-41ae-9756-3f8189b2893c
+        -       uuid: d9e8f239-ce85-41ae-9756-3f8189b2893c
+                guid: PJGAQ:(<=~
                 front: Síť na kompetiční učení bez učitele
                 back: |
                         Neurony počítají Euklidovskou vzdálenost.
                         Vyhraje nejbližší, a přes laterální spoje potlačí ostatní.
                         Vítěz se posune o [$]\\alpha[/$] směrem k vstupu.
-        -
-                uuid: 38bba9b3-1dc3-4b0c-8dc1-609cebc0f004
+        -       uuid: 38bba9b3-1dc3-4b0c-8dc1-609cebc0f004
+                guid: k.|x[s4[V8
                 front: |
                         Síť na kompetiční učení bez učitele &mdash;
                         vhodná inicializace vah
                 back: |
                         Váhy budou náhodné vzory z datasetu.
-        -
-                uuid: 521ab663-7660-4b7b-bba7-65f1acce4255
+        -       uuid: 521ab663-7660-4b7b-bba7-65f1acce4255
+                guid: Jpug&5}h(j
                 front: Problémy v síti na kompetiční učení bez učitele
                 back: |
                         Mrtvé neurony: v Kohonenově mapě pomáhá mřížka
-        -
-                uuid: 1fdba122-da33-484b-aca0-bec67d03b8c1
+        -       uuid: 1fdba122-da33-484b-aca0-bec67d03b8c1
+                guid: O$x}Zg`b^A
                 markdown: false
                 front: |
                         Energetická funkce sítě na kompetiční učení bez učitele
@@ -49,19 +49,19 @@ notes:
                         \end{align*}
                         [/latex]
 
-        -
-                uuid: 2072bd8e-458a-45e3-953a-8c2bab6198d2
+        -       uuid: 2072bd8e-458a-45e3-953a-8c2bab6198d2
+                guid: ItH89MV4lO
                 front: |
                         [$]k[/$]-means algoritmus
                 back: |
                         Update: nastav středy jako těžiště jejich shluků;
                         Přenastav příslušnosti ke shlukům
-        -
-                uuid: c16c1976-bf8b-40a8-a51e-d9dae9a8f694
+        -       uuid: c16c1976-bf8b-40a8-a51e-d9dae9a8f694
+                guid: s8>,r)$r,4
                 front: Jak pro kompetiční učení bez učitele předzpracovat vstup?
                 back: Vstupní vektory se znormují
-        -
-                uuid: c92483e6-602a-45a3-865a-9784a175cbb3
+        -       uuid: c92483e6-602a-45a3-865a-9784a175cbb3
+                guid: Agc7GyhfKq
                 front: |
                         Různá pravidla učení pro sítě na kompetiční učení
                         bez učitele
@@ -73,36 +73,37 @@ notes:
                              [$]\\Delta w = \\eta (x_j - w)[/$]<br>
                         <li> Dávková aktualizace
                         </ul>
-        -
-                uuid: 20d1fa81-bc88-4336-b687-9a46b50cc1bd
+        -       uuid: 20d1fa81-bc88-4336-b687-9a46b50cc1bd
+                guid: M}~N<0CzeR
                 topic: Stabilní rovnovážný stav v kompetičním učení
                 front: |
                         Definice: Svazek
                 back: |
                         [$]\\{x = \\alpha_1 p_1 + \\ldots \\alpha_m p_m : \\alpha_1 \\in \\R^+\\}[/$]
-        -
-                uuid: 8b6b0dc0-7835-423b-99c0-b34e8f3c7d30
+        -       uuid: 8b6b0dc0-7835-423b-99c0-b34e8f3c7d30
+                guid: o[qOQC9+mX
                 topic: Stabilní rovnovážný stav v kompetičním učení
                 front: |
                         Definice: Průměr svazku
                 back: |
                         [$]\\varphi(S) = \\sup\\{\\arccos (a\\cdot b)|\\|a\\|=\\|b\\|=1, a,b\\in S\\}[/$]
-        -
-                uuid: 6e149cef-86c7-4d3a-8eef-7244d308200a
-                front: Stabilní rovnovážný stav v kompetičním učení - jaká je postačující podmínka?
+        -       uuid: 6e149cef-86c7-4d3a-8eef-7244d308200a
+                guid: s{R!t--...
+                front: Stabilní rovnovážný stav v kompetičním učení - jaká je postačující
+                        podmínka?
                 back: |
                         Chceme jasně ohraničené shluky, co se nepřekrývají a
                         nejsou moc rozsáhlé.<br>
                         Postačující podmínka pro stabilitu: úhlový průměr
                         svazků je menší než vzájemná vzdálenost (jakmile se
                         střed shluku dostane do svazku, už tam zůstane)
-        -
-                uuid: 375cac24-070f-4936-841e-5c94e66581a5
+        -       uuid: 375cac24-070f-4936-841e-5c94e66581a5
+                guid: l~f.YL-zf{
                 topic: PCA
                 front: Zkratka
                 back: Principal component analysis
-        -
-                uuid: f3d9f7e9-bc7c-43a1-b5c5-a652ebd0776d
+        -       uuid: f3d9f7e9-bc7c-43a1-b5c5-a652ebd0776d
+                guid: s=PlT/OZ-O
                 topic: PCA
                 front: Co to je? Co dělá?
                 back: |
@@ -111,25 +112,25 @@ notes:
                         nejvíce rozptylu.<br>
 
                         Ostatní jsou na ni ortogonální.
-        -
-                uuid: 24d127c4-e258-4169-b08c-297848fc76cb
+        -       uuid: 24d127c4-e258-4169-b08c-297848fc76cb
+                guid: tG$/)IO0IM
                 topic: PCA
                 front: Obecný algoritmus na výpočet
                 back: |
                         Hlavní komponenta: maximalizuje [$]\\frac{1}{m} \\sum_{i=1}^m (w \\cdot x_i)^2[/$]<br>
                         Druhá: odečteme od vektorů jejich projekci na první a pokračujeme
-        -
-                uuid: a7bde697-35ba-408c-aacd-ee4db75e8e9a
+        -       uuid: a7bde697-35ba-408c-aacd-ee4db75e8e9a
+                guid: qb1YQ8*d1=
                 topic: Ojův algoritmus
                 front: Cíl
                 back: Hledá hlavní komponentu v matici pro PCA
-        -
-                uuid: 81f631a0-b983-43e7-b63c-facf062cfed2
+        -       uuid: 81f631a0-b983-43e7-b63c-facf062cfed2
+                guid: pVt3i@Japq
                 topic: Ojův algoritmus
                 front: Co předpokládá?
                 back: Těžiště dat je v počátku
-        -
-                uuid: 11a4da75-7474-41b3-b866-bd1ada9f1198
+        -       uuid: 11a4da75-7474-41b3-b866-bd1ada9f1198
+                guid: Le41JE{*{6
                 topic: Ojův algoritmus
                 front: Jak probíhá?
                 back: |
@@ -141,8 +142,8 @@ notes:
                         Zmenši [$]\\gamma[/$] a opakuj.<br>
 
                         Váhový vektor se "automaticky normalizuje".
-        -
-                uuid: b305d565-9d5b-45ca-a948-b399db50fb5e
+        -       uuid: b305d565-9d5b-45ca-a948-b399db50fb5e
+                guid: w%Qg~g.oZI
                 topic: Ojův algoritmus
                 front: Konvergence a důkaz
                 back: |
@@ -156,8 +157,8 @@ notes:
                         Pokud je délka [$]w[/$] blízko 1, umístí se [$]w[/$] v centru shluku.<br>
 
                         Dále to chce dokázat, že Ojův algoritmus automaticky normuje [$]w[/$].
-        -
-                uuid: 6192e830-b4e3-4865-937b-7b81bca3cc1f
+        -       uuid: 6192e830-b4e3-4865-937b-7b81bca3cc1f
+                guid: K5Og;4w[zA
                 front: Problémy Ojova algoritmu, zobecnění
                 back: |
                         "Řidké" shluky, příliš velké rozdíly v délce vstupních vektorů.

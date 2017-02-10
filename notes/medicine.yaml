@@ -1,64 +1,63 @@
 deck: All::Medicine
 notes:
-        -
-                uuid: 0a5c2295-8dc7-4f4b-8a15-744d54743056
-                front: MAOI
-                back: |
-                        Monoamine oxidase inhibitor; class of antidepressants
-        -
-                uuid: 8eec9b51-5b3c-4afb-aa46-14bf2f49db3f
-                front: monoamine oxidase
-                back: |
-                        Enzyme responsible for deamination
-                        of monoamine neurotransmitters (e.g., dopamine,
-                        noradrenaline, serotonin)
-                        <br><br>
-                        Has 2 types - A, B.
-                include_reverse: true
-        -
-                uuid: c1f99f68-be7b-4845-b266-e70cec3c569e
-                front: Effect of MAO isoenzyme A
-                back: |
-                        Deaminates serotonin, norepinephrine, and dopamine
-                        (to a lesser extent)
-        -
-                uuid: 6bdbd1ca-2d5d-4c5b-81cf-6d1cc29938c2
-                front: Effect of MAO isoenzyme B
-                back: |
-                        Breaks down dopamine, phenylethylamine
-        -
-                uuid: c5e42de1-7b48-4d88-922c-6dd4b26807f9
-                front: Prozac active component
-                back: Fluoxetine
-        -
-                uuid: 8667bada-f930-40c1-bda2-f4386317edcb
-                front: |
-                        "Civilising neurotransmitter"
-                back: Serotonin
-        -
-                uuid: 89123037-c2b3-4644-a3dd-f76115f72c4e
-                front: Germ line
-                back: |
-                        Series of germ cells each descended or developed from
-                        earlier cells in series, regarded as continuing through
-                        successive generations of an organism
-        -
-                uuid: a8c7debe-ab4b-4207-9869-6948a1a78f3a
-                front: Enuresis
-                back: |
-                        involuntary urination, especially by children at night
-
+-       uuid: 0a5c2295-8dc7-4f4b-8a15-744d54743056
+        guid: eQB<JpUD{^
+        front: MAOI
+        back: |
+                Monoamine oxidase inhibitor; class of antidepressants
+-       uuid: 8eec9b51-5b3c-4afb-aa46-14bf2f49db3f
+        guid: p|sIfCD=r
+        front: monoamine oxidase
+        back: |
+                Enzyme responsible for deamination
+                of monoamine neurotransmitters (e.g., dopamine,
+                noradrenaline, serotonin)
+                <br><br>
+                Has 2 types - A, B.
+        include_reverse: true
+-       uuid: c1f99f68-be7b-4845-b266-e70cec3c569e
+        guid: g@2El0:o%Y
+        front: Effect of MAO isoenzyme A
+        back: |
+                Deaminates serotonin, norepinephrine, and dopamine
+                (to a lesser extent)
+-       uuid: 6bdbd1ca-2d5d-4c5b-81cf-6d1cc29938c2
+        guid: z(L=h#B}c-
+        front: Effect of MAO isoenzyme B
+        back: |
+                Breaks down dopamine, phenylethylamine
+-       uuid: c5e42de1-7b48-4d88-922c-6dd4b26807f9
+        guid: Qv}ro7[Hx7
+        front: Prozac active component
+        back: Fluoxetine
+-       uuid: 8667bada-f930-40c1-bda2-f4386317edcb
+        guid: h,*5s(,;R$
+        front: |
+                "Civilising neurotransmitter"
+        back: Serotonin
+-       uuid: 89123037-c2b3-4644-a3dd-f76115f72c4e
+        guid: N~ljK/-sZj
+        front: Germ line
+        back: |
+                Series of germ cells each descended or developed from
+                earlier cells in series, regarded as continuing through
+                successive generations of an organism
+-       uuid: a8c7debe-ab4b-4207-9869-6948a1a78f3a
+        guid: cf,A1<x8Dl
+        front: Enuresis
+        back: |
+                involuntary urination, especially by children at night
 # TODO: https://en.wikipedia.org/wiki/Mesolimbic_pathway
-        -
-                uuid: 9d3d6899-03b8-495c-ae8b-762891ac5806
-                front: FAST
-                back: |
-                        Stroke symptoms.
-                        <ul>
-                        <li> <i>Face</i>: Smile! Does one side of face droop?
-                        <li> <i>Arms</i>: Raise both arms!
-                                          Does one drift downward?
-                        <li> <i>Speech</i>: Repeat a simple phrase!
-                                            Is speech slurred or strange?
-                        <li> <i><b>Time!</b></i>
-                        </ul>
+-       uuid: 9d3d6899-03b8-495c-ae8b-762891ac5806
+        guid: kwD!a($F]o
+        front: FAST
+        back: |
+                Stroke symptoms.
+                <ul>
+                <li> <i>Face</i>: Smile! Does one side of face droop?
+                <li> <i>Arms</i>: Raise both arms!
+                                  Does one drift downward?
+                <li> <i>Speech</i>: Repeat a simple phrase!
+                                    Is speech slurred or strange?
+                <li> <i><b>Time!</b></i>
+                </ul>

@@ -2,111 +2,112 @@ topic: Git
 deck: All::CS::Tools::git
 uid_tag: git
 notes:
-        -
-                uuid: debe7aa2-c154-41cf-863e-63b50ba1a1cf
-                front: Generate fixup commit that can be autosquashed
-                back: '`git commit --fixup=HEAD`'
-                include_reverse: true
-        -
-                uuid: b8d543ba-4704-4e92-857f-dfa4c907289f
-                front: Show content of file at some revision
-                back: '`git show commitish:filename`'
-                include_reverse: true
-        -
-                uuid: d472a335-9fca-4ecc-8058-e6163d02f291
-                front: Store object into object database
-                back: '`echo "hello world" | git hash-object -w --stdin`'
-                include_reverse: true
-        -
-                uuid: 0e91430b-f9b3-45b3-966f-820844aecad3
-                front: Get content of object
-                back: '`git cat-file -p (sha1)`'
-                include_reverse: true
-        -
-                uuid: 887376d3-92a5-4bff-af26-c4e734bbc0a3
-                front: Diff word-by-word
-                back: "`git diff --word-diff`"
-                include_reverse: true
-        -
-                uuid: ca95a87b-82eb-465a-8fb2-9f9b6332f0e4
-                front: Get representation with tag and current commit
-                back: '`git describe` -- "2.0.0-125-gc7d7c65"'
-                include_reverse: false
-        -
-                uuid: ed5ed1c5-b579-4e7f-8167-b215cc810ce2
-                front: Push tags to remote
-                back: "`git push origin --tags`"
-                include_reverse: true
-        -
-                uuid: 16b7da2d-a29c-453b-8c70-6719b38b3f34
-                front: Get branches merged into HEAD
-                back: "`git branch --merged`"
-                include_reverse: true
-        -
-                uuid: 00432758-f124-4326-b3aa-9180e4bf09c7
-                front: Get branches, not including those merged into HEAD
-                back: "`git branch --no-merged`"
-                include_reverse: true
-        -
-                uuid: d8477c07-fbd0-43a9-9d00-d9ea91722596
-                front: Stage hunk-by-hunk
-                back: "`git add -p`"
-                include_reverse: true
-        -
-                uuid: 1265ccce-f372-45cd-bad1-f082acb9b0ff
-                front: Pull and try to rebase atop updated upstream
-                back: "`git pull --rebase`"
-                include_reverse: true
-        -
-                uuid: 71b25e0d-c7f8-432c-86c6-d6d292706b22
-                front: Get working directory
-                back: "`git rev-parse --show-toplevel`"
-                include_reverse: true
-        -
-                uuid: b2349f81-3361-4d87-b90d-f5df5d9bde94
-                front: Automatically squash fixup commits
-                back: '`git rebase --autosquash`'
-                include_reverse: true
-        -
-                uuid: 59172dea-b98c-40a4-ae6a-26f72d76993c
-                front: Pull, but don't create merge commit or rebase.
-                back: '`git pull --ff-only`'
-                include_reverse: true
-        -
-                uuid: fcec5182-0cb0-41f3-82c0-c98303c65e0a
-                front: Forcefully push, but only if remote's branch hasn't moved forward from my snapshot of it.
-                back: "`git push --force-with-lease`"
-                include_reverse: true
-        -
-                uuid: 73e03027-f05f-48ff-9cab-8fd78e3e4e01
-                front: Show diff in index
-                back: "`git diff --staged`"
-                include_reverse: true
-        -
-                uuid: 3a0d545e-9f65-4a21-8aa7-9d2e9253a01a
-                front: List available diff tools
-                back: "`git difftool --tool-help`"
-        -
-                uuid: 2f774758-4285-497e-bad6-4271703906c3
-                front: "`HEAD~1`"
-                back: Previous commit to HEAD
-        -
-                uuid: 641308ac-0a5c-4c5d-95d6-ce82daa1de5d
-                front: 10 commits before HEAD
-                back: "`HEAD~10`"
-                include_reverse: true
-        -
-                uuid: f46aeffd-abae-48a5-a35c-8f3c9af2b2a6
-                front: 'Start showing new, unstaged file in `git diff`'
-                back: "git add --intent-to-add (file)"
-                include_reverse: true
-        -
-                uuid: 6fa73b3e-d261-46f2-bf97-019887ee36fc
-                front: 'Return 0 if index is clean, 1 otherwise'
-                back: "git diff --quiet --exit-code --staged"
-                include_reverse: true
-        -
-                uuid: 07cc4be7-1ff4-4712-b1d2-4faf2e3c410d
-                front: 'Checkout a new branch unrelated to master'
-                back: "git checkout --orphan"
-                include_reverse: true
+-       uuid: debe7aa2-c154-41cf-863e-63b50ba1a1cf
+        guid: j1++^$OaA#
+        front: Generate fixup commit that can be autosquashed
+        back: '`git commit --fixup=HEAD`'
+        include_reverse: true
+-       uuid: b8d543ba-4704-4e92-857f-dfa4c907289f
+        guid: y)+WTE=@Nu
+        front: Show content of file at some revision
+        back: '`git show commitish:filename`'
+        include_reverse: true
+-       uuid: d472a335-9fca-4ecc-8058-e6163d02f291
+        guid: kO?:BtE6qd
+        front: Store object into object database
+        back: '`echo "hello world" | git hash-object -w --stdin`'
+        include_reverse: true
+-       uuid: 0e91430b-f9b3-45b3-966f-820844aecad3
+        guid: h$0U>G>Did
+        front: Get content of object
+        back: '`git cat-file -p (sha1)`'
+        include_reverse: true
+-       uuid: 887376d3-92a5-4bff-af26-c4e734bbc0a3
+        guid: gKtq;nmd#n
+        front: Diff word-by-word
+        back: '`git diff --word-diff`'
+        include_reverse: true
+-       uuid: ca95a87b-82eb-465a-8fb2-9f9b6332f0e4
+        guid: sDOnP$rbQ.
+        front: Get representation with tag and current commit
+        back: '`git describe` -- "2.0.0-125-gc7d7c65"'
+        include_reverse: false
+-       uuid: ed5ed1c5-b579-4e7f-8167-b215cc810ce2
+        guid: A/pkW3kPlX
+        front: Push tags to remote
+        back: '`git push origin --tags`'
+        include_reverse: true
+-       uuid: 16b7da2d-a29c-453b-8c70-6719b38b3f34
+        guid: D>gM+HGHX*
+        front: Get branches merged into HEAD
+        back: '`git branch --merged`'
+        include_reverse: true
+-       uuid: 00432758-f124-4326-b3aa-9180e4bf09c7
+        guid: FoT1[/m(`k
+        front: Get branches, not including those merged into HEAD
+        back: '`git branch --no-merged`'
+        include_reverse: true
+-       uuid: d8477c07-fbd0-43a9-9d00-d9ea91722596
+        guid: G5w`+<+xjp
+        front: Stage hunk-by-hunk
+        back: '`git add -p`'
+        include_reverse: true
+-       uuid: 1265ccce-f372-45cd-bad1-f082acb9b0ff
+        guid: j;G>t*Y!d$
+        front: Pull and try to rebase atop updated upstream
+        back: '`git pull --rebase`'
+        include_reverse: true
+-       uuid: 71b25e0d-c7f8-432c-86c6-d6d292706b22
+        guid: zVnj6SH{co
+        front: Get working directory
+        back: '`git rev-parse --show-toplevel`'
+        include_reverse: true
+-       uuid: b2349f81-3361-4d87-b90d-f5df5d9bde94
+        guid: q[$|sG(2S|
+        front: Automatically squash fixup commits
+        back: '`git rebase --autosquash`'
+        include_reverse: true
+-       uuid: 59172dea-b98c-40a4-ae6a-26f72d76993c
+        guid: iDS~?wGl~D
+        front: Pull, but don't create merge commit or rebase.
+        back: '`git pull --ff-only`'
+        include_reverse: true
+-       uuid: fcec5182-0cb0-41f3-82c0-c98303c65e0a
+        guid: unRiL{XC?O
+        front: Forcefully push, but only if remote's branch hasn't moved forward from
+                my snapshot of it.
+        back: '`git push --force-with-lease`'
+        include_reverse: true
+-       uuid: 73e03027-f05f-48ff-9cab-8fd78e3e4e01
+        guid: CSg>7w38++
+        front: Show diff in index
+        back: '`git diff --staged`'
+        include_reverse: true
+-       uuid: 3a0d545e-9f65-4a21-8aa7-9d2e9253a01a
+        guid: u!=rk<L)}4
+        front: List available diff tools
+        back: '`git difftool --tool-help`'
+-       uuid: 2f774758-4285-497e-bad6-4271703906c3
+        guid: Ox1VyZZ*KA
+        front: '`HEAD~1`'
+        back: Previous commit to HEAD
+-       uuid: 641308ac-0a5c-4c5d-95d6-ce82daa1de5d
+        guid: N/XC[T?=zD
+        front: 10 commits before HEAD
+        back: '`HEAD~10`'
+        include_reverse: true
+-       uuid: f46aeffd-abae-48a5-a35c-8f3c9af2b2a6
+        guid: e?itel/i|D
+        front: Start showing new, unstaged file in `git diff`
+        back: git add --intent-to-add (file)
+        include_reverse: true
+-       uuid: 6fa73b3e-d261-46f2-bf97-019887ee36fc
+        guid: Oe<_cZ]:?g
+        front: Return 0 if index is clean, 1 otherwise
+        back: git diff --quiet --exit-code --staged
+        include_reverse: true
+-       uuid: 07cc4be7-1ff4-4712-b1d2-4faf2e3c410d
+        guid: ucp*d%~USs
+        front: Checkout a new branch unrelated to master
+        back: git checkout --orphan
+        include_reverse: true

@@ -1,30 +1,32 @@
 deck: All::Notes::An Inconvenient Truth
 notes:
-        -
-                uuid: 387a1703-a08d-4a17-a1fb-6b990321ef34
-                front: CO2 concentrations go ... in the summer, ... in the winter.
-                back: Down in the summer, up in the winter.
-        -
-                uuid: e105f9a1-308b-4f12-8368-519c8f36647a
-                front: Why do CO2 concentrations go down in the summer and up in the winter?
-                back:
-                        Majority of Earth's vegetation (and land) is in the northern hemisphere,
-                        which is tilted toward the Sun in the spring and summer; leaves come out and
-                        ingest CO2. Leaves falling in autumn and spring release CO2 back.
-        -
-                uuid: 0e84631b-a087-48d2-b119-179189a143c1
-                front: Major rivers sourced on the Tibetian plateau
-                back: Yangtze, Mekong, Yellow River, Indus, Ganges, Brahmaputra
-                include_reverse: true
-        -
-                uuid: 3b142f9a-2cfb-4244-b334-9e16bbf392db
-                front: Antarctica is actually a ...
-                back: desert (technically)
-        -
-                uuid: 333bb5d7-4494-4337-b7a8-7a1a41695d88
-                front: Antarctida vs. arctic
-                back: "Arctic: north, mass of ice on ocean. Antarctida: south, ice on solid ground."
-        -
-                uuid: 6693c9c9-afd9-4fca-b771-ffe0c1e7998e
-                front: Why is New York cooler than Madrid?
-                back: Europe is heated by Gulf Stream.  Warm water goes east from NY to Spain, then north, then cools and goes south-west towards South America.
+-       uuid: 387a1703-a08d-4a17-a1fb-6b990321ef34
+        guid: j?Ucv>ccW6
+        front: CO2 concentrations go ... in the summer, ... in the winter.
+        back: Down in the summer, up in the winter.
+-       uuid: e105f9a1-308b-4f12-8368-519c8f36647a
+        guid: BVkyv<bA
+        front: Why do CO2 concentrations go down in the summer and up in the winter?
+        back: Majority of Earth's vegetation (and land) is in the northern hemisphere,
+                which is tilted toward the Sun in the spring and summer; leaves come
+                out and ingest CO2. Leaves falling in autumn and spring release CO2
+                back.
+-       uuid: 0e84631b-a087-48d2-b119-179189a143c1
+        guid: Dp;(MM*7Qj
+        front: Major rivers sourced on the Tibetian plateau
+        back: Yangtze, Mekong, Yellow River, Indus, Ganges, Brahmaputra
+        include_reverse: true
+-       uuid: 3b142f9a-2cfb-4244-b334-9e16bbf392db
+        guid: A!sq==)rQx
+        front: Antarctica is actually a ...
+        back: desert (technically)
+-       uuid: 333bb5d7-4494-4337-b7a8-7a1a41695d88
+        guid: ubbU?3GqjE
+        front: Antarctida vs. arctic
+        back: 'Arctic: north, mass of ice on ocean. Antarctida: south, ice on solid
+                ground.'
+-       uuid: 6693c9c9-afd9-4fca-b771-ffe0c1e7998e
+        guid: D#(zY<5o8t
+        front: Why is New York cooler than Madrid?
+        back: Europe is heated by Gulf Stream.  Warm water goes east from NY to Spain,
+                then north, then cools and goes south-west towards South America.

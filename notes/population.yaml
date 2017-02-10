@@ -1,51 +1,51 @@
 deck: All::Constants::Population
 topic: Population
 notes:
-        -
-                uuid: aaac2e69-d775-485f-9dcc-a24fce425e85
-                front: The world
-                back: 7 400 000 000, as of 2016-10-08
-        -
-                uuid: a8ca0959-b334-4d04-a949-f68e3f05ec43
-                front: China
-                back: 1.4 billion
-        -
-                uuid: 8bfeee45-aefa-4275-a5b0-cba8b7a3065a
-                front: India
-                back: 1.3 billion
-        -
-                uuid: 08123265-3822-4544-b330-f54ea7d46e8b
-                front: USA
-                back: 325 million
-        -
-                uuid: b391f04d-9585-40ac-902b-b66f68b5e1ca
-                front: Indonesia
-                back: 261 million
-        -
-                uuid: b0e0d673-612b-4aea-a9db-0e051850f481
-                front: Brazil
-                back: 210 million
-        -
-                uuid: aec8304e-5908-47b7-958b-c46420ee257d
-                front: Russia
-                back: 143 million
-        -
-                uuid: c1be0590-e8ff-456a-b990-e82255ef43ce
-                front: Mexico
-                back: 129 million
-        -
-                uuid: ebb0f4c0-e0ce-40da-9b02-0bc2490be231
-                front: Japan
-                back: 126 million
-        -
-                uuid: c66ec362-b79d-417d-aa36-7fe9848181d0
-                front: Pakistan
-                back: 194 million
-        -
-                uuid: 6ebce40f-b4ac-4671-a4d3-c645dbe39ee0
-                front: Germany
-                back: 81 million
-        -
-                uuid: 636dc2b0-a186-446b-9360-dc8d198f4215
-                front: Switzerland
-                back: 8 million
+-       uuid: aaac2e69-d775-485f-9dcc-a24fce425e85
+        guid: K^)D5fvX6m
+        front: The world
+        back: 7 400 000 000, as of 2016-10-08
+-       uuid: a8ca0959-b334-4d04-a949-f68e3f05ec43
+        guid: A!3${r3ZlU
+        front: China
+        back: 1.4 billion
+-       uuid: 8bfeee45-aefa-4275-a5b0-cba8b7a3065a
+        guid: s(8C>$9(?M
+        front: India
+        back: 1.3 billion
+-       uuid: 08123265-3822-4544-b330-f54ea7d46e8b
+        guid: M[[!qfrK}.
+        front: USA
+        back: 325 million
+-       uuid: b391f04d-9585-40ac-902b-b66f68b5e1ca
+        guid: tgTnGXUuP5
+        front: Indonesia
+        back: 261 million
+-       uuid: b0e0d673-612b-4aea-a9db-0e051850f481
+        guid: d@~ZE0Qb;E
+        front: Brazil
+        back: 210 million
+-       uuid: aec8304e-5908-47b7-958b-c46420ee257d
+        guid: bXsgrU<XaB
+        front: Russia
+        back: 143 million
+-       uuid: c1be0590-e8ff-456a-b990-e82255ef43ce
+        guid: J2QF,7leh}
+        front: Mexico
+        back: 129 million
+-       uuid: ebb0f4c0-e0ce-40da-9b02-0bc2490be231
+        guid: sj+^Ba^w[$
+        front: Japan
+        back: 126 million
+-       uuid: c66ec362-b79d-417d-aa36-7fe9848181d0
+        guid: em+M20F`+<
+        front: Pakistan
+        back: 194 million
+-       uuid: 6ebce40f-b4ac-4671-a4d3-c645dbe39ee0
+        guid: J2(mdWOW~D
+        front: Germany
+        back: 81 million
+-       uuid: 636dc2b0-a186-446b-9360-dc8d198f4215
+        guid: kmv-Q3@~r[
+        front: Switzerland
+        back: 8 million

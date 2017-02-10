@@ -1,187 +1,196 @@
 deck: All::Notes::Don't Make Me Think
 topic: Don't Make Me Think
 notes:
-        -
-                uuid: bc245403-ce57-4642-9aff-19596a547761
-                front: First principle
-                back: Don't make me think
-        -
-                uuid: 06fc974b-a9c6-49bf-9d1b-1edd08b778ee
-                front: Make clickable ...
-                back: ... things obvious.
-        -
-                uuid: 93c7e7cb-0500-4a08-aa28-d0784a986b45
-                front: We don't read web pages...
-                back: ..., we scan them.
-        -
-                uuid: 2adcadbc-3ebf-49fe-acd4-dcbde89b957a
-                front: We don't make optimal choices...
-                back: ..., we satisfice.
-        -
-                uuid: 53259848-0242-40bd-8177-c77d8b0fdcc0
-                front: We don't figure out how things work...
-                back: ..., we muddle through.
-        -
-                uuid: 03fd7c6d-746d-497b-a7b8-ec2daaed5e97
-                front: "Billboard design 101: Create a ... on each ..."
-                back: ... clear visual hierarchy on each page.
-        -
-                uuid: 5df5fe91-356c-4c73-99df-ae15bbc592aa
-                front: "Billboard design 101: Take advantage ..."
-                back: ... of conventions
-        -
-                uuid: f6427f6c-ee61-4cf4-8b0d-6eedd6ace837
-                front: "Billboard design 101: Break pages ..."
-                back: ... up into clearly defined areas.
-        -
-                uuid: 13df5ff8-29a9-4289-ad52-3960c283a6ee
-                front: "Billboard design 101: Make it ... what's ..."
-                back: ... obvious what's clickable
-        -
-                uuid: da24f420-a00c-451c-838d-1066910ee2eb
-                front: "Billboard design 101: Minimize ..."
-                back: ... noise.
-        -
-                uuid: 0f571beb-4579-4b12-85b9-4dffe6040d0a
-                front: "Krug's second law of usability: It doesn't matter how many times I have to click..."
-                back: ..., as long as each click is a mindless, unambiguous choice.
-        -
-                uuid: 225c3dee-c463-44ca-a82b-b20b44c7fcb6
-                front: "Krug's third law of usability: Get rid of ..."
-                back: ... half the words, then of half of what's left.
-        -
-                uuid: 8546a6e9-59c2-406c-9c2c-a54e14e85eaf
-                front: Happy talk
-                back: 'Introductory text to welcome us. If you listen closely while reading it, a tiny voice in your head says "blah blah blah...". Self-congratulatory unspecific promotional text. It must die. E.g.: "The following questionnaire is designed to provide ..."'
-        -
-                uuid: 0cb39a88-f351-448e-885e-daaba7bf8521
-                front: Instructions
-                back: 'They must die. No one is going to read them. Make everything self-explanatory.'
-        -
-                uuid: c6eb2e04-9fda-4ae7-abe8-176f38a8f0c9
-                front: Purposes of navigation
-                back: "Gives us something to hold on to. Tells us what's here. Tells us how to use the site. Gives confidence in people who built it."
-        -
-                uuid: aef3d54a-07d4-4f83-a117-2f136270f242
-                front: Page names and links to page
-                back: "Should match. Click on Lug nuts => get page named 'Lug nuts'. Match as closely as possible"
-        -
-                uuid: cd20ba90-33c9-4077-ba8b-4629be5bd56f
-                front: Subtle cues
-                back: "Designers love them, users are in a hurry and miss them."
-        -
-                uuid: 643caa3f-8c87-4f95-af5d-7b9c0456dab5
-                front: Origin of tab navigation
-                back: "Tabs in actual notebooks. For the metaphor to work correctly, it has to look like the active one is in front."
-        -
-                uuid: da420240-ffae-422d-ab5e-003ab61ac2da
-                front: Trunk test
-                back:
-                        Test of navigation. You were locked in a trunk and landed deep inside your site. What site is it? Where am I? What are the sections? What are my options? How can I search?
-
-                        To perform, print out a page, hold at arms length,
-                        then circle site ID, page name, sections & subsections,
-                        local navigation, ...
-        -
-                uuid: 88d98cff-0f4a-4a84-83e6-5d0b9b86900a
-                front: Stacking underlined text
-                back: Avoid it. It's very hard to read.
-        -
-                uuid: 20c2da49-3a13-479f-b2bb-eb923b936ea7
-                front: Questions a home page needs to answer
-                back: What is this? What can I do here? Why should I be here and not somewhere else?
-        -
-                uuid: a4e70311-6e89-40d6-940e-8b34001a116a
-                front: Focus group vs. usability test
-                back: "
-                        Focus group: 5-8 people around a table react to ideas and designs; group process; participants react to each other. Quickly sample users' opinions and feelings.
-                        Usability test: one user at a time. (a) what is it? (b) try to use it
-
-                        Focus groups are to be used EARLY in the process to learn about audience.
-                        "
-        -
-                uuid: 5805e94f-10bd-4639-8178-4d0be8e5ccce
-                front: Testing early or late? Testing 1 or none?
-                back:
-                        Testing 1 user early is better than testing 50 near the end.
-                        Testing 1 is 100% better than testing none.
-        -
-                uuid: 5b24226c-e703-4873-a913-edd839b523ad
-                front: Ideal number of users for a round of testing
-                back: 3-4 &mdash; they will find all the most important problems
-        -
-                uuid: 550dc695-405b-4074-ac97-b0b734ebf3c0
-                front: Cubicle test
-                back: Particularly for new forms. Print them out and see if the guy in the cubicle next to yours can make sense of it.
-        -
-                uuid: 9e681d4b-2e25-4128-bded-ae0a44cff4e0
-                front: Things to say to test subject
-                back:
-                        Don't worry about hurting my feelings (I didn't design it).<br>
-                        We're testing the site, not you.<br>
-                        Think out loud.<br>
-                        You can ask questions, but I might not always be able to answer, because we want to see how actual people use the site.
-        -
-                uuid: ee79d5a2-c8d3-47e8-b4db-ebac104bfaa8
-                front: Triage guideline - ignore ... problems
-                back: Kayak (user fails, but recovers quickly)
-        -
-                uuid: d0e94bb5-eebd-436c-9349-58e0041e7b8d
-                front: Triage guideline - resist ...
-                back: the impulse to add new things
-        -
-                uuid: 6955113f-7ba8-4fe7-a2d8-7476f6d79424
-                front: Triage guideline - take ... with a grain of salt
-                back: '"new feature" requests'
-        -
-                uuid: bcf2cd52-2e3c-4f62-8117-554842a55edd
-                front: Triage guideline - grab the ... (...; ...)
-                back: low-hanging fruit (head slappers; cheap hits)
-        -
-                uuid: d95a3ca8-2eab-4f73-9376-c50b56b84bb9
-                front: Things that diminish goodwill - Hiding ...
-                back: ... information that I want (phone numbers, prices, ...)
-        -
-                uuid: ed603f28-2898-4f58-9302-fc0b815e8c4f
-                front: Things that diminish goodwill - Punishing ...
-                back: ... me for not doing things your way (formatting data, ...)
-        -
-                uuid: 5314e579-4d50-46e9-9a14-ca2a9ba58cd7
-                front: Things that diminish goodwill - Asking ...
-                back: ... me for information you don't really need
-        -
-                uuid: 4fb65dd7-db11-4afa-9466-f6c9f1d3a6c4
-                front: Things that diminish goodwill - Shucking ...
-                back: ... and jiving me (faux sincerity, disingenuous attempts to convince me that you care about me)
-        -
-                uuid: 66637bce-b3c9-443c-a465-2af30318965c
-                front: Things that diminish goodwill - Putting ...
-                back: ... sizzle in my way (Flash intros, ...)
-        -
-                uuid: 0af11559-368f-409a-8fdb-48663f6cf7f4
-                front: Things that increase goodwill - Know the ...; make them ...
-                back: ... main thing that people want to do on your site; make them obvious and easy
-        -
-                uuid: f59d4ee2-ae92-4eb4-857d-0c9099b5a433
-                front: Things that increase goodwill - Tell me ...
-                back: ... what I want to know (shipping costs, parking fees, ...)
-        -
-                uuid: 36b1ab90-5f49-4ee0-8cea-8fec4bcb0d16
-                front: Things that increase goodwill - Save me ...
-                back: ... steps wherever you can (give the phone number on invoice, put a link in e-mail receipts, ...)
-        -
-                uuid: 88d0f388-61db-47e6-b8fe-2c6f620eb5ea
-                front: Things that increase goodwill - Put ... into it
-                back: ... effort ... (generate information, ensure it's up to date, ...)
-        -
-                uuid: 19e8b5e7-61f1-48a7-9970-2c32815b2f5d
-                front: Things that increase goodwill - Know what ..., and ... them
-                back: questions am I likely to have, and answer them (FAQs are not 'questions you WISH people asked!')
-        -
-                uuid: 2633bd54-590c-486e-a520-43d3e1f9e98f
-                front: Things that increase goodwill - Make it easy to ...
-                back: recover from errors.
-        -
-                uuid: 548d9cd6-3f9a-45ca-a4e4-38e83137dcc3
-                front: Things that increase goodwill - When in doubt, ...
-                back: apologize. (At least let the user know you're inconveniencing them.)
+-       uuid: bc245403-ce57-4642-9aff-19596a547761
+        guid: odkEOK=M8Y
+        front: First principle
+        back: Don't make me think
+-       uuid: 06fc974b-a9c6-49bf-9d1b-1edd08b778ee
+        guid: QzVyqBM[Qw
+        front: Make clickable ...
+        back: '... things obvious.'
+-       uuid: 93c7e7cb-0500-4a08-aa28-d0784a986b45
+        guid: lt.0M#5Jzq
+        front: We don't read web pages...
+        back: '..., we scan them.'
+-       uuid: 2adcadbc-3ebf-49fe-acd4-dcbde89b957a
+        guid: P?l8J9p|kF
+        front: We don't make optimal choices...
+        back: '..., we satisfice.'
+-       uuid: 53259848-0242-40bd-8177-c77d8b0fdcc0
+        guid: wDCjol|hpO
+        front: We don't figure out how things work...
+        back: '..., we muddle through.'
+-       uuid: 03fd7c6d-746d-497b-a7b8-ec2daaed5e97
+        guid: KsuQAAGAb4
+        front: 'Billboard design 101: Create a ... on each ...'
+        back: '... clear visual hierarchy on each page.'
+-       uuid: 5df5fe91-356c-4c73-99df-ae15bbc592aa
+        guid: NVt?=Tel*U
+        front: 'Billboard design 101: Take advantage ...'
+        back: '... of conventions'
+-       uuid: f6427f6c-ee61-4cf4-8b0d-6eedd6ace837
+        guid: K9o@$(pL#F
+        front: 'Billboard design 101: Break pages ...'
+        back: '... up into clearly defined areas.'
+-       uuid: 13df5ff8-29a9-4289-ad52-3960c283a6ee
+        guid: le8-$:]WE;
+        front: "Billboard design 101: Make it ... what's ..."
+        back: "... obvious what's clickable"
+-       uuid: da24f420-a00c-451c-838d-1066910ee2eb
+        guid: oF:3C$3(J3
+        front: 'Billboard design 101: Minimize ...'
+        back: '... noise.'
+-       uuid: 0f571beb-4579-4b12-85b9-4dffe6040d0a
+        guid: NXk(]4x!9{
+        front: "Krug's second law of usability: It doesn't matter how many times I\
+                \ have to click..."
+        back: '..., as long as each click is a mindless, unambiguous choice.'
+-       uuid: 225c3dee-c463-44ca-a82b-b20b44c7fcb6
+        guid: qBvw!dApoo
+        front: "Krug's third law of usability: Get rid of ..."
+        back: "... half the words, then of half of what's left."
+-       uuid: 8546a6e9-59c2-406c-9c2c-a54e14e85eaf
+        guid: u:ISO,/q@S
+        front: Happy talk
+        back: 'Introductory text to welcome us. If you listen closely while reading
+                it, a tiny voice in your head says "blah blah blah...". Self-congratulatory
+                unspecific promotional text. It must die. E.g.: "The following questionnaire
+                is designed to provide ..."'
+-       uuid: 0cb39a88-f351-448e-885e-daaba7bf8521
+        guid: d7Ft!:>9<x
+        front: Instructions
+        back: They must die. No one is going to read them. Make everything self-explanatory.
+-       uuid: c6eb2e04-9fda-4ae7-abe8-176f38a8f0c9
+        guid: Bot6myR2xv
+        front: Purposes of navigation
+        back: Gives us something to hold on to. Tells us what's here. Tells us how
+                to use the site. Gives confidence in people who built it.
+-       uuid: aef3d54a-07d4-4f83-a117-2f136270f242
+        guid: GxM}p,R}FT
+        front: Page names and links to page
+        back: Should match. Click on Lug nuts => get page named 'Lug nuts'. Match
+                as closely as possible
+-       uuid: cd20ba90-33c9-4077-ba8b-4629be5bd56f
+        guid: J3FFXv-)Gn
+        front: Subtle cues
+        back: Designers love them, users are in a hurry and miss them.
+-       uuid: 643caa3f-8c87-4f95-af5d-7b9c0456dab5
+        guid: oMyO3+PQ0V
+        front: Origin of tab navigation
+        back: Tabs in actual notebooks. For the metaphor to work correctly, it has
+                to look like the active one is in front.
+-       uuid: da420240-ffae-422d-ab5e-003ab61ac2da
+        guid: hWsCo9}A:&
+        front: Trunk test
+        back: "Test of navigation. You were locked in a trunk and landed deep inside\
+                \ your site. What site is it? Where am I? What are the sections? What\
+                \ are my options? How can I search?\nTo perform, print out a page,\
+                \ hold at arms length, then circle site ID, page name, sections &\
+                \ subsections, local navigation, ..."
+-       uuid: 88d98cff-0f4a-4a84-83e6-5d0b9b86900a
+        guid: N-d}Zy.(k&
+        front: Stacking underlined text
+        back: Avoid it. It's very hard to read.
+-       uuid: 20c2da49-3a13-479f-b2bb-eb923b936ea7
+        guid: iuTC<c/Lgf
+        front: Questions a home page needs to answer
+        back: What is this? What can I do here? Why should I be here and not somewhere
+                else?
+-       uuid: a4e70311-6e89-40d6-940e-8b34001a116a
+        guid: jZUEuW/?t!
+        front: Focus group vs. usability test
+        back: " Focus group: 5-8 people around a table react to ideas and designs;\
+                \ group process; participants react to each other. Quickly sample\
+                \ users' opinions and feelings. Usability test: one user at a time.\
+                \ (a) what is it? (b) try to use it\nFocus groups are to be used EARLY\
+                \ in the process to learn about audience. "
+-       uuid: 5805e94f-10bd-4639-8178-4d0be8e5ccce
+        guid: o*$WK8Kl3R
+        front: Testing early or late? Testing 1 or none?
+        back: Testing 1 user early is better than testing 50 near the end. Testing
+                1 is 100% better than testing none.
+-       uuid: 5b24226c-e703-4873-a913-edd839b523ad
+        guid: jl3/6ybPi|
+        front: Ideal number of users for a round of testing
+        back: 3-4 &mdash; they will find all the most important problems
+-       uuid: 550dc695-405b-4074-ac97-b0b734ebf3c0
+        guid: CUE=zn-vzv
+        front: Cubicle test
+        back: Particularly for new forms. Print them out and see if the guy in the
+                cubicle next to yours can make sense of it.
+-       uuid: 9e681d4b-2e25-4128-bded-ae0a44cff4e0
+        guid: p=(5h5N%ta
+        front: Things to say to test subject
+        back: Don't worry about hurting my feelings (I didn't design it).<br> We're
+                testing the site, not you.<br> Think out loud.<br> You can ask questions,
+                but I might not always be able to answer, because we want to see how
+                actual people use the site.
+-       uuid: ee79d5a2-c8d3-47e8-b4db-ebac104bfaa8
+        guid: my2/6]aMQO
+        front: Triage guideline - ignore ... problems
+        back: Kayak (user fails, but recovers quickly)
+-       uuid: d0e94bb5-eebd-436c-9349-58e0041e7b8d
+        guid: up*a4N0]_6
+        front: Triage guideline - resist ...
+        back: the impulse to add new things
+-       uuid: 6955113f-7ba8-4fe7-a2d8-7476f6d79424
+        guid: i(qqfIs3_O
+        front: Triage guideline - take ... with a grain of salt
+        back: '"new feature" requests'
+-       uuid: bcf2cd52-2e3c-4f62-8117-554842a55edd
+        guid: fWU4sm06it
+        front: Triage guideline - grab the ... (...; ...)
+        back: low-hanging fruit (head slappers; cheap hits)
+-       uuid: d95a3ca8-2eab-4f73-9376-c50b56b84bb9
+        guid: Kj-,fx<[0]
+        front: Things that diminish goodwill - Hiding ...
+        back: '... information that I want (phone numbers, prices, ...)'
+-       uuid: ed603f28-2898-4f58-9302-fc0b815e8c4f
+        guid: I}kjAnK+PI
+        front: Things that diminish goodwill - Punishing ...
+        back: '... me for not doing things your way (formatting data, ...)'
+-       uuid: 5314e579-4d50-46e9-9a14-ca2a9ba58cd7
+        guid: hM4IeuecUV
+        front: Things that diminish goodwill - Asking ...
+        back: "... me for information you don't really need"
+-       uuid: 4fb65dd7-db11-4afa-9466-f6c9f1d3a6c4
+        guid: q/Bc{Y?.Jy
+        front: Things that diminish goodwill - Shucking ...
+        back: '... and jiving me (faux sincerity, disingenuous attempts to convince
+                me that you care about me)'
+-       uuid: 66637bce-b3c9-443c-a465-2af30318965c
+        guid: yKVyr|7^Tj
+        front: Things that diminish goodwill - Putting ...
+        back: '... sizzle in my way (Flash intros, ...)'
+-       uuid: 0af11559-368f-409a-8fdb-48663f6cf7f4
+        guid: mpvIi5Ou=;
+        front: Things that increase goodwill - Know the ...; make them ...
+        back: '... main thing that people want to do on your site; make them obvious
+                and easy'
+-       uuid: f59d4ee2-ae92-4eb4-857d-0c9099b5a433
+        guid: or.baqf:h@
+        front: Things that increase goodwill - Tell me ...
+        back: '... what I want to know (shipping costs, parking fees, ...)'
+-       uuid: 36b1ab90-5f49-4ee0-8cea-8fec4bcb0d16
+        guid: Q{~zk&Xx76
+        front: Things that increase goodwill - Save me ...
+        back: '... steps wherever you can (give the phone number on invoice, put a
+                link in e-mail receipts, ...)'
+-       uuid: 88d0f388-61db-47e6-b8fe-2c6f620eb5ea
+        guid: f>!?GD:%f+
+        front: Things that increase goodwill - Put ... into it
+        back: "... effort ... (generate information, ensure it's up to date, ...)"
+-       uuid: 19e8b5e7-61f1-48a7-9970-2c32815b2f5d
+        guid: ugeO!hK$W>
+        front: Things that increase goodwill - Know what ..., and ... them
+        back: questions am I likely to have, and answer them (FAQs are not 'questions
+                you WISH people asked!')
+-       uuid: 2633bd54-590c-486e-a520-43d3e1f9e98f
+        guid: hvQFfJ_k@C
+        front: Things that increase goodwill - Make it easy to ...
+        back: recover from errors.
+-       uuid: 548d9cd6-3f9a-45ca-a4e4-38e83137dcc3
+        guid: E*:fR3jE`D
+        front: Things that increase goodwill - When in doubt, ...
+        back: apologize. (At least let the user know you're inconveniencing them.)

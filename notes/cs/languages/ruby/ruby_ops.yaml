@@ -2,98 +2,98 @@ topic: Ruby ops pronounciation
 deck: All::CS::Languages::Ruby::Operator pronounciation
 uid_tag: cs/languages/ruby/ops_pronounciation
 notes:
-        -
-                uuid: b9382783-6d95-47c2-9a16-677fe41dbb39
-                front: =>
-                back: Hashrocket
-                include_reverse: true
-        -
-                uuid: a0269ea8-9693-4b6a-bd56-3142afdd1fdd
-                front: <=>
-                back: Spaceship
-                include_reverse: true
-        -
-                uuid: ad296eab-ec9a-4d7d-9979-9f6c5cc85e48
-                front: Threequals
-                back: ===
-                include_reverse: true
-        -
-                uuid: b4d78453-5dd1-450e-94ba-d5d2cd16332c
-                front: Twiddle-wakka
-                back: ~>
-                include_reverse: true
-        -
-                uuid: 919edd6a-a10e-4c0a-b25a-3e82258d375e
-                front: Stabby lambda
-                back: ->
-                include_reverse: true
-        -
-                uuid: 2c546a9b-18fb-4b3f-b5b4-288c1bb5e517
-                front: Spiral
-                back: "`@`"
-                include_reverse: true
-        -
-                uuid: 6281441b-5d3b-4581-b6ea-e0f09f36dd95
-                front: Splat
-                back: "`*`"
-                include_reverse: true
-        -
-                uuid: aeaec2b8-2525-4b35-a348-1ba3e34c1635
-                front: Octothorpe
-                back: "`#`"
-                include_reverse: true
-        -
-                uuid: 1f010b74-37aa-4908-b345-7da7f7797dcc
-                front: Skull tag
-                back: "`<%=`"
-                include_reverse: true
-        -
-                uuid: a3117e96-2141-4fa4-bdc0-5c5dccccbd91
-                front: Crab claws
-                back: "`#{}`"
-                include_reverse: true
-        -
-                uuid: 4b118b6f-b387-4004-8fa5-250817c2b9d1
-                front: "`?:`"
-                back: Elvis
-                include_reverse: true
-        -
-                uuid: 117acccb-901b-4dc3-98ec-a4e879233dd7
-                front: Shovel
-                back: "`<<`"
-                include_reverse: true
-        -
-                uuid: 0cb526f5-3bdf-4890-b3e6-a43b09eb2c34
-                front: Constellation
-                back: "`**`"
-                include_reverse: true
-        -
-                uuid: 2d39db85-92c1-4ee6-a1db-8ef66903c185
-                front: Equalike
-                back: =~
-                include_reverse: true
-        -
-                uuid: 96a4e8d5-282c-428d-9520-049f49012604
-                front: Hat
-                back: ^
-                include_reverse: true
-        -
-                uuid: 17af80ec-0591-4dee-8a4d-60cb446cdf6c
-                front: Pretzel
-                back: "`&`"
-                include_reverse: true
-        -
-                uuid: 48b0868d-a3e8-484f-96bd-552f9adfe728
-                front: /
-                back: Whack
-                include_reverse: true
-        -
-                uuid: d3e1c5db-8fa1-47bd-80c7-f68765b9a573
-                front:  _
-                back: Blank
-                include_reverse: true
-        -
-                uuid: 52eaf40a-d73a-4e4a-8337-d8eb62ebbd1b
-                front: "`||=`"
-                back: T-square
-                include_reverse: true
+-       uuid: b9382783-6d95-47c2-9a16-677fe41dbb39
+        guid: m|tGw8QKOz
+        front: =>
+        back: Hashrocket
+        include_reverse: true
+-       uuid: a0269ea8-9693-4b6a-bd56-3142afdd1fdd
+        guid: KC(|8R^aD.
+        front: <=>
+        back: Spaceship
+        include_reverse: true
+-       uuid: ad296eab-ec9a-4d7d-9979-9f6c5cc85e48
+        guid: k}MCdxc)]?
+        front: Threequals
+        back: ===
+        include_reverse: true
+-       uuid: b4d78453-5dd1-450e-94ba-d5d2cd16332c
+        guid: e]}[7(Iu^B
+        front: Twiddle-wakka
+        back: ~>
+        include_reverse: true
+-       uuid: 919edd6a-a10e-4c0a-b25a-3e82258d375e
+        guid: q[qQ,Nu82d
+        front: Stabby lambda
+        back: ->
+        include_reverse: true
+-       uuid: 2c546a9b-18fb-4b3f-b5b4-288c1bb5e517
+        guid: v+7P=31:;|
+        front: Spiral
+        back: '`@`'
+        include_reverse: true
+-       uuid: 6281441b-5d3b-4581-b6ea-e0f09f36dd95
+        guid: w;sfIgN?PL
+        front: Splat
+        back: '`*`'
+        include_reverse: true
+-       uuid: aeaec2b8-2525-4b35-a348-1ba3e34c1635
+        guid: D{q2KQ50zh
+        front: Octothorpe
+        back: '`#`'
+        include_reverse: true
+-       uuid: 1f010b74-37aa-4908-b345-7da7f7797dcc
+        guid: KI7F}GlBSb
+        front: Skull tag
+        back: '`<%=`'
+        include_reverse: true
+-       uuid: a3117e96-2141-4fa4-bdc0-5c5dccccbd91
+        guid: N<=IWq6)+!
+        front: Crab claws
+        back: '`#{}`'
+        include_reverse: true
+-       uuid: 4b118b6f-b387-4004-8fa5-250817c2b9d1
+        guid: k!L**h?W}^
+        front: '`?:`'
+        back: Elvis
+        include_reverse: true
+-       uuid: 117acccb-901b-4dc3-98ec-a4e879233dd7
+        guid: jxz;{+s@[A
+        front: Shovel
+        back: '`<<`'
+        include_reverse: true
+-       uuid: 0cb526f5-3bdf-4890-b3e6-a43b09eb2c34
+        guid: yg:%Y{ByDW
+        front: Constellation
+        back: '`**`'
+        include_reverse: true
+-       uuid: 2d39db85-92c1-4ee6-a1db-8ef66903c185
+        guid: Ly0i|QO;}f
+        front: Equalike
+        back: =~
+        include_reverse: true
+-       uuid: 96a4e8d5-282c-428d-9520-049f49012604
+        guid: cU$T!fGTl;
+        front: Hat
+        back: ^
+        include_reverse: true
+-       uuid: 17af80ec-0591-4dee-8a4d-60cb446cdf6c
+        guid: y,iRO,GK=a
+        front: Pretzel
+        back: '`&`'
+        include_reverse: true
+-       uuid: 48b0868d-a3e8-484f-96bd-552f9adfe728
+        guid: bZ8DUa9NRT
+        front: /
+        back: Whack
+        include_reverse: true
+-       uuid: d3e1c5db-8fa1-47bd-80c7-f68765b9a573
+        guid: Hbbp_~##)[
+        front: _
+        back: Blank
+        include_reverse: true
+-       uuid: 52eaf40a-d73a-4e4a-8337-d8eb62ebbd1b
+        guid: I[H3!,feE`
+        front: '`||=`'
+        back: T-square
+        include_reverse: true

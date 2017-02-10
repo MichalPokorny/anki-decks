@@ -2,27 +2,27 @@ topic: JavaScript
 deck: All::CS::Languages::JS
 uid_tag: cs/languages/js
 notes:
-        -
-                uuid: 6bb5f113-aefd-484a-860f-0db21d6ed3b5
-                front: sir-trevor-js
-                back: Block-based editor, used in Represent.com
-                include_reverse: true
-        -
-                uuid: 97ff9290-a4fc-4f19-8d31-5cb5f8ca15f2
-                front: Labella.js
-                back: Places labels without overlapping (https://twitter.github.io/labella.js/)
-        -
-                uuid: 526575fb-d603-4c2d-984f-aef6d5319a7b
-                front: Vegas
-                back: jQuery cool background
-                include_reverse: true
-        -
-                uuid: a8333c84-1a97-42fb-b1a1-737c23dd7ebe
-                front: D3
-                back: Data visualization library
-                include_reverse: true
-        -
-                uuid: f9f37ebc-3c87-47ac-a8c0-2c6a4142b2d7
-                front: Show introductions to interface
-                back: Intro.js
-                include_reverse: true
+-       uuid: 6bb5f113-aefd-484a-860f-0db21d6ed3b5
+        guid: h^P=QU7P;a
+        front: sir-trevor-js
+        back: Block-based editor, used in Represent.com
+        include_reverse: true
+-       uuid: 97ff9290-a4fc-4f19-8d31-5cb5f8ca15f2
+        guid: n7HM0GUARo
+        front: Labella.js
+        back: Places labels without overlapping (https://twitter.github.io/labella.js/)
+-       uuid: 526575fb-d603-4c2d-984f-aef6d5319a7b
+        guid: H{,^],X_P;
+        front: Vegas
+        back: jQuery cool background
+        include_reverse: true
+-       uuid: a8333c84-1a97-42fb-b1a1-737c23dd7ebe
+        guid: qf[]NX,ia0
+        front: D3
+        back: Data visualization library
+        include_reverse: true
+-       uuid: f9f37ebc-3c87-47ac-a8c0-2c6a4142b2d7
+        guid: cK9QZ@[<=>
+        front: Show introductions to interface
+        back: Intro.js
+        include_reverse: true

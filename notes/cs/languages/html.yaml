@@ -1,207 +1,207 @@
 topic: HTML
 deck: All::CS::Languages::HTML
 notes:
-        -
-                uuid: 911f8a7e-2d42-444f-8691-5e33bf43649a
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;larr;</code>
-                back: "&larr;"
-                include_reverse: true
-        -
-                uuid: 1aa49f03-a866-4ea2-bbdd-bfbe1c3ea253
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;rarr;</code>
-                back: "&rarr;"
-                include_reverse: true
-        -
-                uuid: bd43b4ef-99af-4d4e-b3da-d61d99fadf48
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;uarr;</code>
-                back: "&uarr;"
-                include_reverse: true
-        -
-                uuid: 5692c075-bfeb-4db5-a671-faae819d8e90
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;darr;</code>
-                back: "&darr;"
-                include_reverse: true
-        -
-                uuid: acd43fcf-af21-40df-b25f-3d2bcbf43a5d
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;harr;</code>
-                back: "&harr;"
-                include_reverse: true
-        -
-                uuid: 916522fa-cbe9-44bb-a401-314f91a87126
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;check;</code>
-                back: "&check;"
-                include_reverse: true
-        -
-                uuid: 4501d612-92f5-46e0-ad22-304238b81276
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;copy;</code>
-                back: "&copy;"
-                include_reverse: true
-        -
-                uuid: d1bbfbff-780d-42a7-b341-26a91547d23e
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;trade;</code>
-                back: "&trade;"
-                include_reverse: true
-        -
-                uuid: c6d7d04c-80d2-4c97-aa55-c30ee9961279
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;reg;</code>
-                back: "&reg;"
-                include_reverse: true
-        -
-                uuid: 76eff0b4-81f9-4fb7-932f-109b1eb9388b
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;cent;</code>
-                back: "&cent;"
-                include_reverse: true
-        -
-                uuid: 0cf95fe0-704e-4106-a518-773d8f12bd9f
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;pound;</code>
-                back: "&pound;"
-                include_reverse: true
-        -
-                uuid: 4312828c-e428-4287-9444-175477bd0e4c
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;euro;</code>
-                back: "&euro;"
-                include_reverse: true
-        -
-                uuid: de35a0fa-8d6c-4259-ab27-152c8fca338c
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;yen;</code>
-                back: "&yen;"
-                include_reverse: true
-        -
-                uuid: cc76538d-8732-488a-87a7-4f71b0b4a60f
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;mdash;</code>
-                back: "&mdash;"
-                include_reverse: true
-        -
-                uuid: 727b7492-dc59-46b2-80f6-2f132b96d54a
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;lsaquo;</code>
-                back: "&lsaquo;"
-                include_reverse: true
-        -
-                uuid: 316c1eed-b7c8-4591-b7e3-cb85bc26ad8f
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;rsaquo;</code>
-                back: "&rsaquo;"
-                include_reverse: true
-        -
-                uuid: 14740707-57a0-4c67-a461-099e49da8136
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;laquo;</code>
-                back: "&laquo;"
-                include_reverse: true
-        -
-                uuid: fafa1d45-2dc5-45b6-8a30-b84822ef5e5c
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;raquo;</code>
-                back: "&raquo;"
-                include_reverse: true
-        -
-                uuid: dda4f551-071f-493e-a729-e7369ad44608
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;times;</code>
-                back: "&times;"
-                include_reverse: true
-        -
-                uuid: b2129e0c-7c68-4517-bf94-63851e8b9a24
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;divide;</code>
-                back: "&divide;"
-                include_reverse: true
-        -
-                uuid: 4b27c84e-68bf-406a-826d-e68b666d292d
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;ne;</code>
-                back: "&ne;"
-                include_reverse: true
-        -
-                uuid: f31697ca-6010-44a0-bfb1-a7454012df7f
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;swarr;</code>
-                back: "&swarr;"
-                include_reverse: true
-        -
-                uuid: 17af8304-43db-408d-9ffc-8a92b9b61614
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;searr;</code>
-                back: "&searr;"
-                include_reverse: true
-        -
-                uuid: 03cd08cb-3060-4a8d-a177-1a2d8325be3b
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;nwarr;</code>
-                back: "&nwarr;"
-                include_reverse: true
-        -
-                uuid: 34f15716-901f-4ad8-8e27-deaaa413bb69
-                topic: HTML entities
-                markdown: false
-                front: <code>&amp;nearr;</code>
-                back: "&nearr;"
-                include_reverse: true
-        -
-                uuid: a34c68dd-7e94-4ce7-bdb8-2d806c1df8f1
-                front: Ordered list - 1, 2, 3, ...
-                markdown: false
-                back: |
-                        <code>&lt;ol type="1"&gt;</code>
-                include_reverse: true
-        -
-                uuid: b4cee5b4-6e99-4c56-a677-281beab79dd9
-                front: Ordered list - A, B, C, ...
-                markdown: false
-                back: |
-                        <code>&lt;ol type="A"&gt;</code>
-                include_reverse: true
-        -
-                uuid: 715cce03-adb1-4e7e-8a74-d3bf2104dc1a
-                front: Ordered list - a, b, c, ...
-                markdown: false
-                back: |
-                        <code>&lt;ol type="a"&gt;</code>
-                include_reverse: true
-        -
-                uuid: bff3c1ec-630f-4f30-89ad-d2b0feceb1b6
-                front: Ordered list - I, II, III, IV, ...
-                markdown: false
-                back: |
-                        <code>&lt;ol type="I"&gt;</code>
-                include_reverse: true
+-       uuid: 911f8a7e-2d42-444f-8691-5e33bf43649a
+        guid: oo60-pd-q%
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;larr;</code>
+        back: '&larr;'
+        include_reverse: true
+-       uuid: 1aa49f03-a866-4ea2-bbdd-bfbe1c3ea253
+        guid: C0E%kUa&#m
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;rarr;</code>
+        back: '&rarr;'
+        include_reverse: true
+-       uuid: bd43b4ef-99af-4d4e-b3da-d61d99fadf48
+        guid: pADmW?{*]6
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;uarr;</code>
+        back: '&uarr;'
+        include_reverse: true
+-       uuid: 5692c075-bfeb-4db5-a671-faae819d8e90
+        guid: yByuI}q[Mq
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;darr;</code>
+        back: '&darr;'
+        include_reverse: true
+-       uuid: acd43fcf-af21-40df-b25f-3d2bcbf43a5d
+        guid: PfUw^r(lRO
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;harr;</code>
+        back: '&harr;'
+        include_reverse: true
+-       uuid: 916522fa-cbe9-44bb-a401-314f91a87126
+        guid: AOg|%WkiCb
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;check;</code>
+        back: '&check;'
+        include_reverse: true
+-       uuid: 4501d612-92f5-46e0-ad22-304238b81276
+        guid: FJtO%__qJS
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;copy;</code>
+        back: '&copy;'
+        include_reverse: true
+-       uuid: d1bbfbff-780d-42a7-b341-26a91547d23e
+        guid: K:>J-II3&L
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;trade;</code>
+        back: '&trade;'
+        include_reverse: true
+-       uuid: c6d7d04c-80d2-4c97-aa55-c30ee9961279
+        guid: MQ-3Sv*a9o
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;reg;</code>
+        back: '&reg;'
+        include_reverse: true
+-       uuid: 76eff0b4-81f9-4fb7-932f-109b1eb9388b
+        guid: o&M:$x?B7Y
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;cent;</code>
+        back: '&cent;'
+        include_reverse: true
+-       uuid: 0cf95fe0-704e-4106-a518-773d8f12bd9f
+        guid: k4v>,7B93`
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;pound;</code>
+        back: '&pound;'
+        include_reverse: true
+-       uuid: 4312828c-e428-4287-9444-175477bd0e4c
+        guid: t[y*s%~k*V
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;euro;</code>
+        back: '&euro;'
+        include_reverse: true
+-       uuid: de35a0fa-8d6c-4259-ab27-152c8fca338c
+        guid: s&3Y-ku}Xm
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;yen;</code>
+        back: '&yen;'
+        include_reverse: true
+-       uuid: cc76538d-8732-488a-87a7-4f71b0b4a60f
+        guid: xVH|[LXX4~
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;mdash;</code>
+        back: '&mdash;'
+        include_reverse: true
+-       uuid: 727b7492-dc59-46b2-80f6-2f132b96d54a
+        guid: u!XKLk4mMh
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;lsaquo;</code>
+        back: '&lsaquo;'
+        include_reverse: true
+-       uuid: 316c1eed-b7c8-4591-b7e3-cb85bc26ad8f
+        guid: I~vPno+2>_
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;rsaquo;</code>
+        back: '&rsaquo;'
+        include_reverse: true
+-       uuid: 14740707-57a0-4c67-a461-099e49da8136
+        guid: F&sDK}ytD!
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;laquo;</code>
+        back: '&laquo;'
+        include_reverse: true
+-       uuid: fafa1d45-2dc5-45b6-8a30-b84822ef5e5c
+        guid: NP^#EJP7y2
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;raquo;</code>
+        back: '&raquo;'
+        include_reverse: true
+-       uuid: dda4f551-071f-493e-a729-e7369ad44608
+        guid: tz<3=JElkQ
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;times;</code>
+        back: '&times;'
+        include_reverse: true
+-       uuid: b2129e0c-7c68-4517-bf94-63851e8b9a24
+        guid: dVzi5tce`(
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;divide;</code>
+        back: '&divide;'
+        include_reverse: true
+-       uuid: 4b27c84e-68bf-406a-826d-e68b666d292d
+        guid: KOMGq.pl%{
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;ne;</code>
+        back: '&ne;'
+        include_reverse: true
+-       uuid: f31697ca-6010-44a0-bfb1-a7454012df7f
+        guid: f#GO-/v3TU
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;swarr;</code>
+        back: '&swarr;'
+        include_reverse: true
+-       uuid: 17af8304-43db-408d-9ffc-8a92b9b61614
+        guid: baDo?T}^vV
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;searr;</code>
+        back: '&searr;'
+        include_reverse: true
+-       uuid: 03cd08cb-3060-4a8d-a177-1a2d8325be3b
+        guid: Q@7U/In|,O
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;nwarr;</code>
+        back: '&nwarr;'
+        include_reverse: true
+-       uuid: 34f15716-901f-4ad8-8e27-deaaa413bb69
+        guid: J+W2.[op(i
+        topic: HTML entities
+        markdown: false
+        front: <code>&amp;nearr;</code>
+        back: '&nearr;'
+        include_reverse: true
+-       uuid: a34c68dd-7e94-4ce7-bdb8-2d806c1df8f1
+        guid: bJAmXfp[v1
+        front: Ordered list - 1, 2, 3, ...
+        markdown: false
+        back: |
+                <code>&lt;ol type="1"&gt;</code>
+        include_reverse: true
+-       uuid: b4cee5b4-6e99-4c56-a677-281beab79dd9
+        guid: =jj)p>D%.
+        front: Ordered list - A, B, C, ...
+        markdown: false
+        back: |
+                <code>&lt;ol type="A"&gt;</code>
+        include_reverse: true
+-       uuid: 715cce03-adb1-4e7e-8a74-d3bf2104dc1a
+        guid: fu&%XnIX2!
+        front: Ordered list - a, b, c, ...
+        markdown: false
+        back: |
+                <code>&lt;ol type="a"&gt;</code>
+        include_reverse: true
+-       uuid: bff3c1ec-630f-4f30-89ad-d2b0feceb1b6
+        guid: qHD[NJY+BD
+        front: Ordered list - I, II, III, IV, ...
+        markdown: false
+        back: |
+                <code>&lt;ol type="I"&gt;</code>
+        include_reverse: true    
 

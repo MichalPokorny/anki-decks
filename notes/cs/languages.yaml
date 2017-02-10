@@ -2,17 +2,17 @@ topic: Programming languages
 deck: All::CS::Languages
 uid_tag: cs/languages
 notes:
-        -
-                uuid: f2b6290b-b61e-4891-a2e7-37628eef51ba
-                front: "`ruboto`"
-                back: Ruby for Dalvik JVM, using JRuby
-                include_reverse: true
-        -
-                uuid: 14e59d8c-bfcb-4954-9744-f2dbd15eaba3
-                front: Crystal
-                back: Ruby-like language compiling to C
-                include_reverse: true
-        -
-                uuid: c61e049a-28ce-418d-892f-cda373946d85
-                front: Mirah
-                back: Similar to Ruby, compiled into Java
+-       uuid: f2b6290b-b61e-4891-a2e7-37628eef51ba
+        guid: g&2&n9{7Kn
+        front: '`ruboto`'
+        back: Ruby for Dalvik JVM, using JRuby
+        include_reverse: true
+-       uuid: 14e59d8c-bfcb-4954-9744-f2dbd15eaba3
+        guid: Dr/E:8X$4#
+        front: Crystal
+        back: Ruby-like language compiling to C
+        include_reverse: true
+-       uuid: c61e049a-28ce-418d-892f-cda373946d85
+        guid: D:]9$Q~9S/
+        front: Mirah
+        back: Similar to Ruby, compiled into Java

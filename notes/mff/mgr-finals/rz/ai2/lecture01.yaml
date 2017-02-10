@@ -1,8 +1,8 @@
 deck: All::Magisterské státnice::Reprezentace znalostí::AI2::Přednáška 1
 notes:
         # AI2 lecture01eng
-        -
-                uuid: 8c7866c5-262c-4b97-9ad5-3e5619aed06b
+        -       uuid: 8c7866c5-262c-4b97-9ad5-3e5619aed06b
+                guid: p~co/W/_I+
                 front: Nejistota v logických agentech a problémy
                 back: |
                         Musí počítat se všemi, i nepravděpodobnými možnostmi,
@@ -10,8 +10,8 @@ notes:
                         které jsou pak ohromné. Občas musíme jednat
                         i když není žádná akce co nutně logicky vede
                         k úspěchu.
-        -
-                uuid: 13e89e28-588c-4a78-8307-2ad1c00ad69d
+        -       uuid: 13e89e28-588c-4a78-8307-2ad1c00ad69d
+                guid: i{0(-jc2P=
                 topic: Nejistota
                 front: |
                         Definice: [$]P(A|B)[/$]
@@ -19,8 +19,8 @@ notes:
                         [$]P(A\\wedge B) / P(B)[/$]
                         <br>
                         (povinně [$]P(B)>0[/$])
-        -
-                uuid: 7b3a872d-2057-4b5e-9581-6de29cafc492
+        -       uuid: 7b3a872d-2057-4b5e-9581-6de29cafc492
+                guid: j+(xsf<o=W
                 topic: Nejistota
                 front: Axiomy pravděpodobnosti
                 markdown: false
@@ -30,8 +30,8 @@ notes:
                         <li>[$]P(A\vee B)=P(A)+P(B)-P(A\wedge B)[/$]
                         <li>[$]\mathbf{P}(A,B,C,D)=\mathbf{P}(A|B,C,D)\mathbf{P}(B,C,D)=\ldots[/$]
                         </ul>
-        -
-                uuid: e686aa77-2800-490f-a64d-18268bc9b0e1
+        -       uuid: e686aa77-2800-490f-a64d-18268bc9b0e1
+                guid: Fj{z,Nq!E8
                 topic: Nejistota
                 front: |
                         Jak získat posteriory z KB,
@@ -40,8 +40,8 @@ notes:
                         Marginalizace:<br>
                         [$$]P(\\Phi)=\\sum_{\\omega: \\omega\\vDash\\phi} P(\\omega)[/$$]<br>
                         [$$]\\mathbf{P}(\\mathbf{Y})=\\sum_{z\\in\\mathbf{Z}}\\mathbf{P}(\\mathbf{Y},z)[/$$]
-        -
-                uuid: 09c54a08-9e8c-4ef6-b70a-f9bcc58ff9cf
+        -       uuid: 09c54a08-9e8c-4ef6-b70a-f9bcc58ff9cf
+                guid: Q]2j7Jc4z<
                 topic: Nejistota
                 front: K čemu je normalizace?
                 back: |
@@ -51,8 +51,8 @@ notes:
                         Když nás zajímá [$]\\mathbf{P}(A|b)[/$],
                         stačí: [$]\\mathbf{P}(A|b)=\\alpha \\mathbf{P}(A,b)[/$]
                         &mdash; dělitelé jsou stejní, víme že se to má posčítat na 1.
-        -
-                uuid: 5743e1a2-606e-4383-bc3b-f53fb76ad491
+        -       uuid: 5743e1a2-606e-4383-bc3b-f53fb76ad491
+                guid: r3?]}[8.>%
                 topic: Nejistota
                 front: |
                         Problémy s inferencí pomocí enumerace
@@ -61,8 +61,8 @@ notes:
                         Časová složitost [$]\\O(d^n)[/$] ([$]d[/$] je velikost domény).
                         Prostor [$]\\O(d^n)[/$]. Není feasible zjistit všechny
                         pravděpodobnosti všech možných světů.
-        -
-                uuid: 258e0929-9895-47a2-9968-16d21be4be9c
+        -       uuid: 258e0929-9895-47a2-9968-16d21be4be9c
+                guid: QzJuY~,z#@
                 topic: Nejistota
                 front: |
                         2 ekvivalentní definice: Nezávislost proměnných
@@ -74,8 +74,8 @@ notes:
                         <li>
                         [$]\mathbf{P}(X,Y)=\mathbf{P}(X)\cdot\mathbf{P}(Y)[/$]
                         </ul>
-        -
-                uuid: eab2cd2a-b534-4b5d-8f1d-75e81aecf0d2
+        -       uuid: eab2cd2a-b534-4b5d-8f1d-75e81aecf0d2
+                guid: 06n^h3UBA
                 topic: Nejistota
                 front: |
                         3 ekvivalenentní definice - Podmíněná nezávislost
@@ -91,28 +91,28 @@ notes:
                         <li>
                         [$]\mathbf{P}(Z,X|Y)=\mathbf{P}(Z|Y)\cdot\mathbf{P}(X|Y)[/$]
                         </ul>
-        -
-                uuid: 795b5ac9-50f2-4770-8fa5-b414609466ee
+        -       uuid: 795b5ac9-50f2-4770-8fa5-b414609466ee
+                guid: xBq$_oi]>o
                 topic: Nejistota
                 front: Bayesovo pravidlo pro jevy
                 back: |
                         [$]P(a|b)=P(b|a)\\cdot P(a)/P(b)[/$]
-        -
-                uuid: 0fefc9eb-5229-4955-ace8-1185d87e36e0
+        -       uuid: 0fefc9eb-5229-4955-ace8-1185d87e36e0
+                guid: p,g)y.BUeq
                 topic: Nejistota
                 front: Bayesovo pravidlo, pro proměnné
                 back: |
                         [$$]\\mathbf{P}(Y|X)=\\mathbf{P}(X|Y)\\mathbf{P}(Y)/\\mathbf{P}(X)=\\alpha \\mathbf{P}(X|Y)\\mathbf{P}(Y)[/$$]
-        -
-                uuid: e0b75cca-9f94-447e-a4c9-c068029e0a4b
+        -       uuid: e0b75cca-9f94-447e-a4c9-c068029e0a4b
+                guid: De9/<5:zsP
                 topic: Nejistota
                 front: Kauzální vs. diagnostický směr
                 back: |
                         Kauzální:
                         [$]P(\\text{effect}|\\text{cause})[/$]
                         diagnostický: [$]P(\\text{cause}|\\text{effect})[/$]
-        -
-                uuid: 6ee8d234-650e-4232-9f72-c12f0ccfd311
+        -       uuid: 6ee8d234-650e-4232-9f72-c12f0ccfd311
+                guid: A4mz|Whio(
                 front: Naivní Bayesovský klasifikátor
                 back: |
                         Když jsou všechny efekty nezávislé při pevné příčině,
