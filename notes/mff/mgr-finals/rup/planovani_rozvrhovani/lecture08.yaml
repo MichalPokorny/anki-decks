@@ -2,8 +2,7 @@ deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování 
         8
 topic: Plánování s časem
 notes:
--       uuid: df26a753-d4a3-4d24-bed1-8c1fd0314a4f
-        guid: sV27D#4~@n
+-       guid: sV27D#4~@n
         front: 3 přístupy k plánování s časem
         back: |
                 <ul>
@@ -17,8 +16,7 @@ notes:
                 (start, střed, konec), stavové vrstvy mají dobu
                 trvání
                 </ul>
--       uuid: 0c77b71d-c9dd-48f7-ae60-51d61b7e8114
-        guid: N!GQ$(_3Y4
+-       guid: N!GQ$(_3Y4
         front: |
                 Co se přidá k akcím, když čas hraje v plánování
                 důležitou roli?
@@ -38,22 +36,19 @@ notes:
                 <li>
                 Cíle a známé stavy rozprostřené v čase.
                 </ul>
--       uuid: d53e77b1-bf38-44dc-9241-0815396b4b4b
-        guid: O2/,9Rst%Y
+-       guid: O2/,9Rst%Y
         front: Co přidá čas ke stavovým proměnným?
         back: |
                 Závislost na čase:
                 [$]\\mathrm{rloc}:\\mathrm{robot}\\times\\mathrm{time}
                 \\rightarrow\\mathrm{locations}[/$]
--       uuid: b8cd1015-3c45-4cf9-baee-3becf783e3a6
-        guid: e.C|^^q+gf
+-       guid: e.C|^^q+gf
         front: Události a trvající okolnosti na stavových proměnných
         back: |
                 V průběhu postupně zpřesňujeme funkci stavové proměnné
                 (podle času). Začneme s dírami. Je to po částech
                 konstantní funkce.
--       uuid: 077b1a46-bee0-452a-a4bf-7a45d134ab04
-        guid: KLpC2:PJ>7
+-       guid: KLpC2:PJ>7
         front: Popis změn na čase závislé stavové proměnné
         markdown: false
         back: |
@@ -66,8 +61,7 @@ notes:
                 [$]x@[t_1,t_2):u[/$]: setrvává v [$][t_1,t_2)[/$] na
                 [$]u[/$]
                 </ul>
--       uuid: bdd03319-1c76-408e-9f08-7f74fde750bc
-        guid: b`f7I$bx69
+-       guid: b`f7I$bx69
         front: Co je to *kronika*?
         back: |
                 Pro množinu stavových proměnných:
@@ -83,40 +77,34 @@ notes:
                          (< / = / > nad časovými proměnnými)
                   </ul>
                 </ul>
--       uuid: 7b62e3b1-c5ab-4273-9835-cf52cc70e4ae
-        guid: ny:H~e%`/Z
+-       guid: ny:H~e%`/Z
         topic: Kroniky
         front: |
                 Značení: Časové výroky nad proměnnými v kronice
         back: |
                 [$]F[/$]
         include_reverse: true
--       uuid: 3eb95add-9fb9-45cb-9048-3f214df7716f
-        guid: thjAN_q`:A
+-       guid: thjAN_q`:A
         topic: Kroniky
         front: |
                 Značení: Objektové a časové podmínky v kronice
         back: |
                 [$]C[/$]
         include_reverse: true
--       uuid: cefd49fa-91b3-4ad4-bcd9-70a398ac4d9c
-        guid: L=0n:j:x0{
+-       guid: L=0n:j:x0{
         front: Co je to *časová osa*?
         back: Kronika pro jednu stavovou proměnnou
--       uuid: 9c30e3fb-d596-4eb4-b2ca-333a17198682
-        guid: lk$>^XvQ:z
+-       guid: lk$>^XvQ:z
         front: |
                 Co musí platit, aby časová osa specifikovala aspoň
                 jednu funkci?
         back: Nesmí obsahovat dvojici konfliktních časových výroků
--       uuid: 1b40779e-60b1-45c4-8df6-39ea5df415f0
-        guid: wWT&o@dYiA
+-       guid: wWT&o@dYiA
         front: Jak zajistíme, aby časová osa neobsahovala konflikty?
         back: |
                 Pro každé 2 časové výroky zajistíme, že bude
                 existovat separační podmínka
--       uuid: 360cdb0f-2c8e-4b58-b371-283f23310535
-        guid: '|RtTE9j5/'
+-       guid: '|RtTE9j5/'
         front: 3 situace pro separační podmínky
         back: |
                 <ul>
@@ -124,8 +112,7 @@ notes:
                 <li>[$]x@t:(v_1,v_2)[/$], [$]x@[t_1,t_2):v[/$]
                 <li>[$]x@t:(v_1,v_2)[/$], [$]x@t':(v_1',v_2')[/$]
                 </ul>
--       uuid: adba8893-01fd-4a9c-8873-2166fa200900
-        guid: OqTnzsVN-|
+-       guid: OqTnzsVN-|
         front: |
                 Separační podmínky pro
                 [$]x@[t_1,t_2):v_1[/$], [$]x@[t_3,t_4):v_2[/$]
@@ -135,8 +122,7 @@ notes:
                 <li> [$]t_4\leq t_1[/$]
                 <li> [$]v_1=v_2[/$]
                 </ol>
--       uuid: 34106dcd-95f1-4d21-9e67-d112c17cb0ae
-        guid: Hp>LeMYE.0
+-       guid: Hp>LeMYE.0
         front: |
                 Separační podmínky pro
                 [$]x@t:(v_1,v_2)[/$] a [$]x@[t_1,t_2):v[/$]
@@ -147,8 +133,7 @@ notes:
                 <li> [$]t_1=t, v=v_2[/$]
                 <li> [$]t_2=t, v=v_1[/$]
                 </ol>
--       uuid: 65182af5-5d51-4e62-9094-82445ce4a661
-        guid: vUD%cA3RIh
+-       guid: vUD%cA3RIh
         front: |
                 Separační podmínky pro
                 [$]x@t:(v_1,v_2)[/$], [$]x@t':(v_1',v_2')[/$]
@@ -157,14 +142,12 @@ notes:
                 <li> [$]t\neq t'[/$]
                 <li> [$]v_1=v_1', v_2=v_2'[/$]
                 </ol>
--       uuid: 136cb068-5048-4c9e-a35f-b3780169821a
-        guid: J21ed<,n)i
+-       guid: J21ed<,n)i
         front: Jak separovat akce kromě separační podmínky?
         back: |
                 Separováním objektových proměnných &mdash;
                 [$]X(a),X(b)\\rightarrow a\\neq b[/$]
--       uuid: 7d7195eb-5c3e-4eb7-8aa7-c19d580a4de5
-        guid: nyLe^lnOQ4
+-       guid: nyLe^lnOQ4
         front: |
                 Definice: *Konzistentní* časová osa
         back: |
@@ -177,8 +160,7 @@ notes:
                 *Poznámka*: NESTAČÍ, aby separační podmínky
                 šly přidat do [$]C[/$] bez konfliktů. Musí být přímo
                 důsledkem!
--       uuid: 81856920-2ef7-4d5f-8d3b-ffa7d2e0606f
-        guid: BM<[CB?$P+
+-       guid: BM<[CB?$P+
         markdown: false
         front: |
                 Definice: kronika podporuje časový výrok,
@@ -201,8 +183,7 @@ notes:
                 <br>
                 [$]\delta[/$]: <i>pomocník</i> (<i>enabler</i>) pro
                 [$]\alpha[/$]
--       uuid: 077f2748-7181-4d2c-b200-77042078487d
-        guid: iFWaR-0<_8
+-       guid: iFWaR-0<_8
         front: |
                 Definice: Kronika podporuje množinu časových výroků
                 [$]\\varepsilon[/$], pomocník pro [$]\\varepsilon[/$]
@@ -219,8 +200,7 @@ notes:
                 <br><br>
                 [$]\\Psi[/$] je pomocník pro [$]\\varepsilon[/$]
                 (není jednoznačný)
--       uuid: b38cc4d1-e6ee-4c16-acbb-1266a03ef0ac
-        guid: IX)9sBk}b?
+-       guid: IX)9sBk}b?
         front: |
                 Definice: Kronika podporuje jinou kroniku
         back: |
@@ -233,8 +213,7 @@ notes:
                 pomocník [$]\\varphi\\in\\theta(\\Phi'/\\Phi)[/$]
                 takový, že [$]\\Phi\\cup\\varphi[/$] je konzistentní
                 kronika.
--       uuid: 755cc706-e587-4d11-aa4e-6f7374c0aadc
-        guid: Icl3yC:S9%
+-       guid: Icl3yC:S9%
         front: |
                 Definice: [$]\theta(\Phi'/\Phi)[/$]
         markdown: false
@@ -243,8 +222,7 @@ notes:
                 \varphi\ \text{je pomocnik pro}\ F'\}[/$]
                 <br><br>
                 ([$]\\Phi'=(F',C')[/$])
--       uuid: f727b71a-f1c9-480f-b2cc-5d8364341626
-        guid: c,.<)Sq1{?
+-       guid: c,.<)Sq1{?
         front: |
                 Definice:
                 Kronika [$]\\Phi'[/$] je důsledek kroniky [$]\\Phi[/$]
@@ -253,8 +231,7 @@ notes:
                 existuje pomocník
                 [$]\\varphi\\in\\theta(\\Phi'/\\Phi)[/$]
                 takový, že [$]\\varphi\\subseteq\\Phi[/$].
--       uuid: ac248691-2945-41cb-855f-fbd3779d9a8d
-        guid: bz;5xtGh4H
+-       guid: bz;5xtGh4H
         front: |
                 Jak vypadají plánovací operátory s časem?
                 Rozdíly od klasické reprezentace?
@@ -266,25 +243,21 @@ notes:
                 Rozdíly: nejsou odlišeny předpoklady a efekty,
                 operátor se neaplikuje na stav ale na kroniku,
                 výsledek aplikace není jednoznačný
--       uuid: 68d5b374-70d3-4aa5-8fde-1d025fe38075
-        guid: Da9}.JR@&P
+-       guid: Da9}.JR@&P
         front: Co je to akce?
         back: Částečně instanciovaný operátor
--       uuid: 71619576-3987-4247-9d8d-364ac273f367
-        guid: zC4>SLtk(P
+-       guid: zC4>SLtk(P
         front: |
                 Definice: Aplikovatelnost akce
         back: |
                 [$]a=(F(a),C(a))[/$] aplikovatelná na kroniku
                 [$]\\Phi[/$], když ji [$]\\Phi[/$] podporuje.
--       uuid: 6f00dc18-349f-4255-a710-da9adab772ee
-        guid: t!/_BzQvVx
+-       guid: t!/_BzQvVx
         front: Výsledek aplikace akce
         back: |
                 Množina kronik [$]\\gamma(\\Phi,a)=\\{\\Phi\\cup\\varphi
                 : \\varphi\\in\\theta(a/\\Phi)\\}[/$]
--       uuid: f1fd46ef-39ab-4777-8f2d-0818c985e074
-        guid: CmL|Qq:Ppd
+-       guid: CmL|Qq:Ppd
         front: |
                 Definice: množina akcí aplikovatelná, výsledek aplikace
         markdown: false
@@ -296,23 +269,20 @@ notes:
                 Výsledek aplikace:
                 [$]\gamma(\Phi,\pi)=
                 \{\Phi\cup\varphi:\varphi\in\theta(\Phi_\pi/\Phi)\}[/$]
--       uuid: f3b7aad7-aab0-4f25-b177-cd7a89e38d14
-        guid: d]=;rLmec`
+-       guid: d]=;rLmec`
         front: Co je plánovací problém?
         back: |
                 [$]P=(O,\\Phi_0,\\Phi_g)[/$].
                 [$]O[/$]: operátory, [$]\\Phi_0[/$]: neměnné relace a
                 očekávaný vývoj nezávislý na plánu,
                 [$]\\Phi_g[/$]: cíle (konzistentní kronika)
--       uuid: 671f4230-9131-4f1a-8d0b-7e2085040d50
-        guid: IFC05I&=3r
+-       guid: IFC05I&=3r
         front: Co je řešící plán?
         back: |
                 Posloupnost akcí [$]\\pi[/$], že [$]\\Phi_g[/$]
                 je důsledek nějaké kroniky z
                 [$]\\gamma(\\Phi_0,\\pi)[/$].
--       uuid: 4253c990-3a2c-4de6-babc-1b835cd5098b
-        guid: Cm:*:]oQZ1
+-       guid: Cm:*:]oQZ1
         front: Jak plánovat s kronikami
         back: |
                 Jako v prostoru plánů.
@@ -327,8 +297,7 @@ notes:
                 Hrozby: dosud nevyřízené množiny pomocníků.
                 Vybereme jednoho, který je konzistentní s plánem,
                 a přidáme ho.
--       uuid: 0033da7a-d22d-408e-b268-7a97a7a31ffd
-        guid: jrgW`9AvY3
+-       guid: jrgW`9AvY3
         topic: Plánování se zdroji
         front: |
                 Když plánujeme se zdroji, co uděláme se stavovými
@@ -338,37 +307,32 @@ notes:
                 jeřábů. Zmenšuje to množství stejných
                 jeřábů. Zdroje se půjčují a vrací, takže se proměnná
                 mění relativně.
--       uuid: 1cbe743e-970d-4362-8801-241d9b417ae7
-        guid: u+~*@[Urpd
+-       guid: u+~*@[Urpd
         topic: Plánování se zdroji
         front: Co je *kapacitní proměnná*?
         back: |
                 Profil zdroje (změna kapacity) v čase; obor
                 je numerický, změny jsou absolutní (a okamžité)
--       uuid: 8c9ea298-61ed-41a3-a46f-984f671da1dc
-        guid: Q|oPqOzkxy
+-       guid: Q|oPqOzkxy
         topic: Plánování se zdroji
         front: |
                 Definice: Časové výroky pro zdroje
         back: |
                 Pokled, navýšení a půjčení kapacity: [$]z@t:-q[/$],
                 [$]z@t:+q[/$], [$]z@[t,t'):q[/$]
--       uuid: 59babd96-54a5-4b47-a878-8366d920633e
-        guid: rhrP-1L1N
+-       guid: rhrP-1L1N
         topic: Plánování se zdroji
         front: |
                 Jakou informaci musíme přidat do domény,
                 když máme možnost přidávat a snižovat kapacitu?
         back: |
                 Maximální kapacitu každého zdroje
--       uuid: c504788d-ed42-4160-8aee-ae219d27cc51
-        guid: z/_cuD12@_
+-       guid: z/_cuD12@_
         topic: Plánování se zdroji
         front: Co je plánovací operátor?
         back: |
                 Kronika, kronika jsou časové výroky a podmínky
--       uuid: 19f189ba-1739-47a9-b3a9-ead87da97509
-        guid: e4&,[#$sx&
+-       guid: e4&,[#$sx&
         topic: Plánování se zdroji
         front: |
                 Kdy je množina časových výroků [$]R_z[/$] pro zdroj
@@ -380,23 +344,20 @@ notes:
                 výroky se výroky se mohou překrývat
                 (tj., je možné přiřadit časy tak, že
                 [$]\\bigcap_{i\\in I} [t_i,t_i')\\neq\\varnothing[/$]).
--       uuid: 0414efc0-70bb-4f8e-9041-c60774fc0d73
-        guid: FhQ#DSwxPq
+-       guid: FhQ#DSwxPq
         topic: Plánování se zdroji
         front: Kdy je kronika konzistentní při plánování se zdroji?
         back: |
                 Když jsou všechny časové výroky nad stavovými proměnnými
                 konzistentní a žádná množina časových výroků
                 nad kapacitními proměnnými není konfliktní.
--       uuid: cb730f03-b238-4112-a485-e1cd7c0c023d
-        guid: JhC*9qvXO9
+-       guid: JhC*9qvXO9
         front: |
                 Když mám intervaly [$]\\{I_i\\}[/$], kdy je
                 [$]\\bigcap_i I_i\\neq\\varnothing[/$]?
         back: |
                 Právě se každá dvojice intervalů protíná.
--       uuid: 5634d76a-ec35-4098-9863-7cee1d8d6f9f
-        guid: E)|^[Y`Mh
+-       guid: E)|^[Y`Mh
         topic: Plánování se zdroji
         front: Jak hledat zdrojové konflikty?
         back: |
@@ -405,8 +366,7 @@ notes:
                 [$]\\sum_{i\\in U}q_i>Q[/$].
                 Té se říká *minimální kritická množina*
                 (MCS).
--       uuid: 5b5d3c1b-3597-4637-a41e-76329e22836e
-        guid: jls_v|nv8P
+-       guid: jls_v|nv8P
         topic: Plánování se zdroji
         front: Jak opravit konflikty?
         back: |
@@ -417,8 +377,7 @@ notes:
                 (protože některé opravy implikují jiné).
                 <br><br>
                 Bacha abych nevyrobil konflikt.
--       uuid: bfa05834-a813-4413-ba8b-dff31e0ba93b
-        guid: t7~<<KG(JC
+-       guid: t7~<<KG(JC
         front: Jak plánovat se zdroji
         back: |
                 K plánování s kronikami přidáme práci s minimálními

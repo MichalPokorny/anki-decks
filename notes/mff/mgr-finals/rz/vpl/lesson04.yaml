@@ -2,8 +2,7 @@ deck: All::Magisterské státnice::Reprezentace znalostí::Výroková a prediká
         3
 notes:
         # VPL01
-        -       uuid: 5938cb30-73ed-41cb-b42f-396a3dc80441
-                guid: n)#>n{`$1`
+        -       guid: n)#>n{`$1`
                 topic: Výroková logika
                 front: Systematická konstrukce tabla
                 back: |
@@ -16,8 +15,7 @@ notes:
 
                         Ke každé bezesporné větvi přidej první [$]T\\varphi_n[/$]
                         atomické tablo pro výroky z teorie.
-        -       uuid: 94b787d4-4675-4b84-9fcd-c5fcaf06c5cc
-                guid: b44=Lug4KG
+        -       guid: b44=Lug4KG
                 topic: Výroková logika
                 front: Konečnost tablo důkazů
                 back: |
@@ -26,8 +24,7 @@ notes:
                         sporné. Použijeme Konigovo lemma nad vrcholy stromu
                         [$]\\tau[/$] co nemají nad sebou spory.<br>
                         Proto jsou tablo důkazy konečné.
-        -       uuid: 5dd4f32d-c67d-4ec9-9be4-aa7228c5ba12
-                guid: t~z`G^&l=x
+        -       guid: t~z`G^&l=x
                 topic: Výroková logika
                 front: Korektnost tablo důkazů
                 back: |
@@ -35,8 +32,7 @@ notes:
                         nějaká větev co se s ním shoduje. Postupuju indukcí.
                         <br>
                         [$]T\\vdash\\varphi \\Rightarrow T\\vDash\\varphi[/$]
-        -       uuid: aa9a0811-5102-4951-8fbf-3dd4d5da2f6a
-                guid: m$C!3QD(N5
+        -       guid: m$C!3QD(N5
                 topic: Výroková logika
                 front: Úplnost tablo metody
                 back: |
@@ -47,26 +43,22 @@ notes:
                         [$]T\\vDash\\varphi\\Rightarrow T\\vdash\\varphi[/$]
                         Libovolné dokončené tablo co začne s [$]F\\varphi[/$] je sporné.
                         (Jinak z něho vykoukáme protipříkladový model.)
-        -       uuid: eccffdeb-c2aa-48b3-a849-08e4978c6f6a
-                guid: iN4dm8J8t+
+        -       guid: iN4dm8J8t+
                 topic: Výroková logika
                 front: Značení - Množina vět teorie
                 back: |
                         [$]Thm^P(T)=\\{\\varphi\\in VF_P | T\\vdash\\varphi\\}[/$]
-        -       uuid: 5b415825-02e5-41f0-9f43-b2b4a120a6ac
-                guid: ulV2@C?JVR
+        -       guid: ulV2@C?JVR
                 topic: Výroková logika
                 front: Kdy je teorie sporná, v řeči důkazů?
                 back: |
                         Když je v ní dokazatelný [$]\\perp[/$], jinak bezesporná
-        -       uuid: 62e6a8ed-08d2-45ed-851b-05d68fc93dd6
-                guid: s!:lWQ<[fE
+        -       guid: s!:lWQ<[fE
                 topic: Výroková logika
                 front: Kdy je teorie kompletní, v řeči důkazů?
                 back: |
                         Když není sporná a pro každou formuli je dokazatelná nebo její opak.
-        -       uuid: 49196989-9bcb-4014-a61b-739b5a695834
-                guid: s-*}Fq&GS%
+        -       guid: s-*}Fq&GS%
                 topic: Výroková logika
                 front: Kdy je [$]T[/$] nad [$]P[/$] extenze teorie [$]T'[/$] nad [$]P'[/$]
                         v řeči důkazů? Kdy je konzervativní?
@@ -74,8 +66,7 @@ notes:
                         Když [$]P'\\subseteq P[/$] a [$]\\mathrm{Thm}^{P'}(T')\\subseteq \\mathrm{Thm}^P(T)[/$].
                         <br><br>
                         Konzervativní: [$]\\mathrm{Thm}^{P'}(T')=\\mathrm{Thm}^P(T)\\cap VF_{P'}[/$]
-        -       uuid: 2b7d1685-6255-415d-b748-8fa56cf28d64
-                guid: bvphP|h#ud
+        -       guid: bvphP|h#ud
                 topic: Výroková logika
                 front: Věta o kompaktnosti
                 back: |

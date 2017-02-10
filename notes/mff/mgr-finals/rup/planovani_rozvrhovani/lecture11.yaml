@@ -3,8 +3,7 @@ deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování 
 topic: Rozvrhování jako CSP
 notes:
         # planovani lecture11
-        -       uuid: b9a2dae1-c932-4820-92b3-179e55999d27
-                guid: nw:B4!3nS6
+        -       guid: nw:B4!3nS6
                 front: Proměnné obecně
                 back: |
                         Pozice aktivity [$]A[/$] v čase a prostoru:
@@ -13,14 +12,12 @@ notes:
                         [$]\\mathrm{start}(A), [\\mathrm{p}(A), \\mathrm{end}(A)][/$]<br>
                         Alokace zdrojů:
                         [$]\\mathrm{resource}(A)[/$]
-        -       uuid: e448ab91-b4b9-4781-b0c0-b0cb3609e777
-                guid: OQHIB^C$=P
+        -       guid: OQHIB^C$=P
                 front: Domény obecně
                 back: |
                         Termín dostupnosti a uzávěrka pro časové proměnné.
                         Pro zdrojové proměnné alternativní zdroje.
-        -       uuid: 041852a7-775d-448d-92ff-20ad7f8dc26f
-                guid: NI?jVQbY]3
+        -       guid: NI?jVQbY]3
                 front: Podmínky obecně a jejich znění
                 back: |
                         <ul>
@@ -35,8 +32,7 @@ notes:
                         [$]A\\ll B \\vee B\\ll A[/$] když běží na stejném
                         unárním zdroji
                         </ul>
-        -       uuid: 94cae0b9-a992-420b-9513-16bcbf48aebc
-                guid: rTko%<Dd~|
+        -       guid: rTko%<Dd~|
                 front: Rozdílný význam slova "zdroj" v plánování a rozvrhování
                 back: |
                         Rozvrhování: stroj/prostor na zpracování aktivity.
@@ -44,8 +40,7 @@ notes:
                         Plánování: materiál konzumovaný/produkovaný
                         aktivitou ("ruka je volná" - binární proměnné
                         pro unární zdroje).
-        -       uuid: 76e10668-a862-49c8-96e6-afaa99a997ce
-                guid: f-dPI$$I?v
+        -       guid: f-dPI$$I?v
                 front: Typy zdrojů
                 back: |
                         <ul>
@@ -57,16 +52,14 @@ notes:
                         a nesmí se překročit maximální; aktivity
                         konzumují/produkují
                         </ul>
-        -       uuid: 04a4d494-5890-421d-a73e-8f028f9a7649
-                guid: di])gZN5^2
+        -       guid: di])gZN5^2
                 front: Jednoduché podmínky pro unární zdroj
                 back: |
                         [$]A\\ll B \\vee B\\ll A[/$]:
                         [$]\\mathrm{end}(A)\\leq\\mathrm{start}(B)\\vee\\mathrm{end}(B)\\leq\\mathrm{start}(A)[/$]
                         <br><br>
                         Proto *disjunktivní zdroje*.
-        -       uuid: 6ae83133-e30d-4683-a98c-58170caa7086
-                guid: C)U&IO[B&g
+        -       guid: C)U&IO[B&g
                 front: Edge finding, složitost
                 back: |
                         "Co se stane, když nebude aktivita první?"
@@ -79,8 +72,7 @@ notes:
                         <br><br>
                         Časová složitost [$]\\O(n^3)[/$], ale může být
                         až [$]\\O(n\\log n)[/$].
-        -       uuid: d1fff34e-f56a-4537-98bc-ff9059b882db
-                guid: k;VSI++,7h
+        -       guid: k;VSI++,7h
                 front: Not-first/not-last, složitost
                 back: |
                         [$][\\min(start(A))+p(A)+p(\\Omega) > \\max(end(\\Omega))] \\Rightarrow \\neg (A \\ll \\Omega)[/$]
@@ -93,8 +85,7 @@ notes:
                         <br><br>
                         V praxi se opět použijí jenom intervaly jako [$]\\Omega[/$].
                         Časová složitost [$]\\O(n^2)[/$].
-        -       uuid: 102943b9-fb2b-441a-ba9b-f1486b84f262
-                guid: Mf-2CQdrp#
+        -       guid: Mf-2CQdrp#
                 front: Tabulkové podmínky pro kumulativní zdroje
                 markdown: false
                 back: |
@@ -108,24 +99,19 @@ notes:
                         <br><br>
                         [$$]\a t \sum_{A_i} X(A_i,t)\cdot cap(A_i)\leq MaxCap[/$$]
                         [$$]\a t, i: start(A_i)\leq t\leq end(A_i)\leftrightarrow X(A_i,t)[/$$]
-        -       uuid: 09449efe-ce0a-4597-9dc0-4c98003a1837
-                guid: E`Fv,S~6p<
+        -       guid: E`Fv,S~6p<
                 front: Co znamená [$]ect[/$]?
                 back: Earliest completion time
-        -       uuid: 1835cbfe-0bc5-448f-a1b1-ea4f828097e9
-                guid: u}u-jllC>o
+        -       guid: u}u-jllC>o
                 front: Co znamená [$]est[/$]?
                 back: Earliest start time
-        -       uuid: c0b3e359-def9-4001-8999-e3e6f163bcf9
-                guid: M~7U[g/K9~
+        -       guid: M~7U[g/K9~
                 front: Co znamená [$]lct[/$]?
                 back: Latest completion time
-        -       uuid: 6342fde4-c47d-4b12-9a25-c09f5c83b27b
-                guid: tDwn?Ad]Bq
+        -       guid: tDwn?Ad]Bq
                 front: Co znamená [$]lst[/$]?
                 back: Latest start time
-        -       uuid: 7d479ae4-3515-4056-809f-740b49ac4eb1
-                guid: x&A|}Zll9(
+        -       guid: x&A|}Zll9(
                 markdown: false
                 front: |
                         Tabulkové podmínky - jak filtrovat přes
@@ -143,8 +129,7 @@ notes:
                         <li>
                         [$](lst(A)\leq t\wedge t < ect(A) \rightarrow X(A,t)=1)[/$]
                         </ul>
-        -       uuid: e1c46ddc-b10c-443b-814d-f11a710c8e89
-                guid: muIBHT/-aT
+        -       guid: muIBHT/-aT
                 front: |
                         Jak modelovat použití alternativních zdrojů
                         pro aktivitu?
@@ -159,8 +144,7 @@ notes:
                         Omezení časů duplikátu propaguj do originálu
                         a naopak. Původní aktivita se účastní precedenčních
                         podmínek.
-        -       uuid: 401c4dfd-1c3e-490a-a300-c6b9c700fbed
-                guid: fjf:E7,zq/
+        -       guid: fjf:E7,zq/
                 front: Formálně - aktivity na alternativních zdrojích
                 markdown: false
                 back: |
@@ -178,23 +162,20 @@ notes:
                         [$]\text{prazdne okno}\ A_u\rightarrow res(A) \setminus\{u\}[/$]
                         </ul>
                         Realizace konstruktivní disjunkce mezi zdroji.
-        -       uuid: 3d2d9a4e-f827-4931-bcd1-b386f59b5896
-                guid: O,k7@$nOey
+        -       guid: O,k7@$nOey
                 front: |
                         Jak propagovat když máme jenom relativní uspořádání?
                 back: |
                         Edge-finding, agregované požadavky nic neodvodí.
                         Můžeme něco zjistit o uspořádání
                         pomocí *optimistických a pesimistických profilů*.
-        -       uuid: 68c19705-fa0e-4e77-9038-5e04482b7bd8
-                guid: tZ:?L-5Zmh
+        -       guid: tZ:?L-5Zmh
                 topic: Optimistické a pesimistické profily
                 front: |
                         Značení: Produkovaná kladná/záporná kvantita
                 back: |
                         [$]\\mathrm{prod}(A)[/$]
-        -       uuid: 8392b215-a2bb-4f8c-89ab-6eff6fe915cc
-                guid: jjTqWh!+vV
+        -       guid: jjTqWh!+vV
                 topic: Optimistické a pesimistické profily
                 front: |
                         Definice: Optimistický profil (orp)
@@ -206,8 +187,7 @@ notes:
                         [$$]\\mathrm{orp}(A)=\\mathrm{Init}+\\mathrm{prod}(A)+
                         \\sum_{B\\ll A}\\mathrm{prod}(B)+
                         \\sum_{B\\gtrless A, \\mathrm{prod}(B)>0} \\mathrm{prod}(B)[/$$]
-        -       uuid: b374f576-e3c0-44d6-81f2-f269fc014742
-                guid: q-~l%:KsrF
+        -       guid: q-~l%:KsrF
                 topic: Optimistické a pesimistické profily
                 front: |
                         Definice: Pesimistický profil (prp)
@@ -219,8 +199,7 @@ notes:
                         [$$]\\mathrm{prp}(A)=\\mathrm{Init}+\\mathrm{prod}(A)+
                         \\sum_{B\\ll A}\\mathrm{prod}(B)+
                         \\sum_{B\\gtrless A, \\mathrm{prod}(B)<0} \\mathrm{prod}(B)[/$$]
-        -       uuid: 7969cc34-8c81-4bd1-bdae-1e729f861d3c
-                guid: F(zrVG_@wk
+        -       guid: F(zrVG_@wk
                 topic: Optimistické a pesimistické profily
                 front: ORP, PRP filtrace
                 markdown: false
@@ -241,8 +220,7 @@ notes:
                         [$]B\ll A[/$]".
                         </ul>
                         PRP analogicky.
-        -       uuid: bc34db6d-232d-4e3b-b18f-5eecf3bd72a1
-                guid: CqU2hie]*]
+        -       guid: CqU2hie]*]
                 topic: Rozvrhovací strategie
                 front: Jak budu postupovat obecně?
                 back: |
@@ -250,8 +228,7 @@ notes:
                         bottlenecky.
                         <br>
                         Preferuj alternativy s větší flexibilitou.
-        -       uuid: 99dc6e1a-c86d-4efa-8d6b-fc7d7182ec1a
-                guid: x(t|-^][r1
+        -       guid: x(t|-^][r1
                 topic: Rozvrhovací strategie
                 front: |
                         Definice: <i>Slack</i>
@@ -265,8 +242,7 @@ notes:
                         <br><br>
                         Pro skupinu aktivit:
                         [$]\mathrm{slack}(\Omega)=\max(end(\Omega))-\min(start(\Omega))-p(\Omega)[/$]
-        -       uuid: db100727-2394-4d0b-9d6d-d3823acc79ec
-                guid: t~ZWstVb}y
+        -       guid: t~ZWstVb}y
                 topic: Rozvrhovací strategie
                 front: Uspořádání větví podle slacku; kolik je bodů volby?
                 markdown: false
@@ -277,8 +253,7 @@ notes:
                         Zkus pořadí dle [$]\max \mathrm{slack}(A\gtrless B)[/$].
                         <br><br>
                         Bodů volby: [$]\O(n^2)[/$].
-        -       uuid: b59ddcf8-a6c9-40fa-ba71-9c23aafadc23
-                guid: N)3NzLcnkL
+        -       guid: N)3NzLcnkL
                 topic: Rozvrhovací strategie
                 front: Větvení první/poslední; kolik je bodů volby?
                 back: |
@@ -293,8 +268,7 @@ notes:
                         [$]\\max(end(A))[/$].
                         </ul>
                         Bodů volby: [$]\\O(n)[/$].
-        -       uuid: 5e04364e-8173-4065-8383-917dfc597500
-                guid: P8z/flvD]z
+        -       guid: P8z/flvD]z
                 topic: Rozvrhovací strategie
                 front: |
                         Co je <i>zdrojový slack</i>, jak se použije?

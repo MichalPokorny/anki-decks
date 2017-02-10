@@ -2,8 +2,7 @@ deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování 
         1
 notes:
         # planovani lecture01
-        -       uuid: c2d9d34f-5d36-4601-b17a-5cbec59f321d
-                guid: rs@$vdvTLH
+        -       guid: rs@$vdvTLH
                 front: Plánování vs. rozvrhování
                 back: |
                         Plánování: počáteční a požadovaný stav světa,
@@ -14,8 +13,7 @@ notes:
                         a dostupné zdroje, výstup je alokace. Čas a zdroje
                         jsou omezené, aktivity známé předem.
                         Téma operačního výzkumu, typicky NP-c.
-        -       uuid: 763130f5-f272-4555-9a37-207bd980c1ad
-                guid: ES+TwKK.U)
+        -       guid: ES+TwKK.U)
                 front: |
                         Značení - počáteční stav, cílová podmínka, operátory
                         měnící stav (v plánování obecně)

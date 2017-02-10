@@ -2,60 +2,48 @@ topic: Python
 deck: All::CS::Languages::Python
 uid_tag: cs/languages/python
 notes:
--       uuid: a1e179ac-fc29-41fd-ba81-e61b7d436604
-        guid: kjzbEg$~$/
+-       guid: kjzbEg$~$/
         front: What is falsey?
         back: '`False`, `None`, `[]`, `{}`, `()`, `""`, `0`'
--       uuid: 94c196a9-e9c1-49f4-8ac4-a5a3f25e7d73
-        guid: r=]B^&[NX{
+-       guid: r=]B^&[NX{
         front: Mapping over multiple sequences
         back: '`map(fn, seq1, seq2, ...)` - works like `zip`'
--       uuid: 8e6cb786-3554-488d-8973-567d01c23954
-        guid: bEPQ]Y@n||
+-       guid: bEPQ]Y@n||
         front: '`assert`'
         back: Does not omit instructions when optimized into bytecode (as in C)
--       uuid: 1a5945da-e19f-485b-a062-a2292e74a702
-        guid: G,..7]tn7J
+-       guid: G,..7]tn7J
         front: List all methods of module
         back: '`import zlib; dir(zlib)`'
         include_reverse: true
--       uuid: 0ce29921-7c4a-48a4-bb85-67b7d104a028
-        guid: s{!Yq{cv_m
+-       guid: s{!Yq{cv_m
         front: Magic method implementing `in`
         back: '`__contains__`'
         include_reverse: true
--       uuid: 793785e4-8951-413b-a153-795201225a6a
-        guid: j1UbSw6UvJ
+-       guid: j1UbSw6UvJ
         front: Chaining comparison
         back: '`a < b < c`'
         include_reverse: true
--       uuid: 688595ae-76cb-4548-931f-6250798e26f4
-        guid: uhG(!7:Ux@
+-       guid: uhG(!7:Ux@
         front: Easter egg to show Zen of Python
         back: '`import this`'
         include_reverse: true
--       uuid: 13d49123-b87e-4205-a592-d804fa85f390
-        guid: tV?os>h8vi
+-       guid: tV?os>h8vi
         front: Packages Python into single ZIP
         back: PEX
         include_reverse: true
--       uuid: 6f31897f-8cfd-488b-8a94-837f349048ef
-        guid: cV7VIxZJGg
+-       guid: cV7VIxZJGg
         front: '`bytes` to `str`'
         back: x.decode('utf-8')
         include_reverse: true
--       uuid: a38606af-352e-4b69-8c9d-df18c9f40f38
-        guid: o_~SF8g#E}
+-       guid: o_~SF8g#E}
         front: '`str` to `bytes`'
         back: x.encode('utf-8')
         include_reverse: true
--       uuid: 73e010d5-f4ff-473b-bf0d-bd7b80cb0213
-        guid: O6eo_S~]+f
+-       guid: O6eo_S~]+f
         front: Get executable Python representation of object
         back: '`repr`'
         include_reverse: true
--       uuid: ecbe3c4d-580f-4bf7-b379-a121a6c04fe2
-        guid: NUeK<Kb[EA
+-       guid: NUeK<Kb[EA
         front: Open XKCD about Python being awesome
         back: '`import antigravity`'
         include_reverse: true

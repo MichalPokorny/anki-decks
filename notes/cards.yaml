@@ -1,59 +1,48 @@
 deck: All::Various
 notes:
--       uuid: 06028ad9-916e-4d85-a0f9-53b1392bd215
-        guid: lS}wG{IZH.
+-       guid: lS}wG{IZH.
         front: Paradox of hedonism
         back: |
                 AKA pleasure paradox. Pleasure cannot be acquired
                 directly. Constant pleasure-seeking may not yield
                 most actual long-term pleasure/happiness - consciously
                 pursuing pleasure interferes with experiencing it.
--       uuid: c0330886-fec9-4142-9b97-b0bab86d5db0
-        guid: rfk>Z!?|x&
+-       guid: rfk>Z!?|x&
         front: PE ratio
         back: Price/earnings
--       uuid: e09572ed-5ce5-42a9-a1bb-7de6791a96cb
-        guid: cORAK+Ye7
+-       guid: cORAK+Ye7
         front: APR
         back: |
                 [$]\\text{Annual percentage rate} = \\text{daily rate}
                 \\times 365[/$]. [$]\\text{Effective
                 APR} = \\text{daily rate}^365[/$].
--       uuid: e252195b-34d7-4912-b50b-2b4350c36f06
-        guid: k80WZ@B}C~
+-       guid: k80WZ@B}C~
         front: NAV
         back: Net asset value
--       uuid: 0022a3bd-846d-47bf-acb3-3565ec4d8fa8
-        guid: o|kXQsNLAC
+-       guid: o|kXQsNLAC
         front: Integrated circuit die
         back: DIP; invented in 1964
--       uuid: 0354a6d6-4a41-4ac4-a4b1-1fa4476f53ea
-        guid: i5.SHe+#3r
+-       guid: i5.SHe+#3r
         front: |
                 Author: Omega point, noosphere
         back: Pierre Teilhard de Chardin; jesuit
--       uuid: 971ff0a7-ea32-471e-9a53-6ffe5248d117
-        guid: g0Z5BtFtPE
+-       guid: g0Z5BtFtPE
         front: US work visa
         back: H-1b (NOT H1-B)
--       uuid: 9c64e22c-5623-4d3b-b617-cc021a798c51
-        guid: yukEsli~s5
+-       guid: yukEsli~s5
         front: |
                 Shortcut: Mute in Google Inbox
         back: Alt-M; press & hold Done on mobile
--       uuid: 6d53c521-6914-4be2-9458-bb3c40b19e55
-        guid: LYK_$26v#o
+-       guid: LYK_$26v#o
         front: |
                 Meaning: RISUG
         back: |
                 Reversible Inhibition of Sperm Under Guidance;
                 male contraception
--       uuid: 430b9054-b2b8-4d8b-abe2-eb3ddb4f6530
-        guid: eQy.crEg8A
+-       guid: eQy.crEg8A
         front: Summamed chemical
         back: Azithromycin
--       uuid: 164601ef-dcc2-4fe8-b646-86dc7219a5ef
-        guid: P-!~#-&Jhs
+-       guid: P-!~#-&Jhs
         front: Starfish Prime
         back: |
                 US nuclear test; largest man-made explosion in outer
@@ -61,60 +50,48 @@ notes:
                 - drove instrumentation off scale. Knocked out 300
                 streetlights in Hawaii (1445 km away), set off
                 burglar alarms.
--       uuid: 813a19ad-963b-4419-9f45-093549cfa6e9
-        guid: hbA>AA*!3<
+-       guid: hbA>AA*!3<
         front: Vandenberg AFB
         back: Space shuttle base; location in Deus Ex
--       uuid: 4c0d4f23-49c7-45d8-a4b0-288d5f164245
-        guid: Db%kBzR1$0
+-       guid: Db%kBzR1$0
         front: E-prime
         back: English without any form of "to be"
--       uuid: ba1d7a7a-d46d-4648-8854-59220ec47509
-        guid: MA.fE.i^n!
+-       guid: MA.fE.i^n!
         front: Predict app
         back: Calibration training app for Android
--       uuid: d8741d30-b3b2-4f51-946d-2628e64b8eef
-        guid: tFyAbaKZ%k
+-       guid: tFyAbaKZ%k
         front: Hutter prize
         back: |
                 Compress 100MB chunk of Wikipedia ("good compressor has
                 world knowledge")
--       uuid: 30b72885-2872-4103-991c-f805afa73145
-        guid: e^9.w07VY0
+-       guid: e^9.w07VY0
         front: Plumbing and porcelain
         back: |
                 Plumbing: backend. Analogy with house plumbing.
--       uuid: 414855d2-95cf-499e-86e0-260cc9353fb3
-        guid: BmvsI`N^tN
+-       guid: BmvsI`N^tN
         front: Miracleberry
         back: Switches sour to sweet for ~20 minutes.
--       uuid: 4cfcbdb7-7265-4b50-baaa-63adfc1c79d0
-        guid: NdNmf3UEOj
+-       guid: NdNmf3UEOj
         front: When eating sushi...
         back: "... soy sauce should't go on rice."
--       uuid: eb96681e-3080-4d58-963b-8fe1c40d110c
-        guid: EIbb`7X1fk
+-       guid: EIbb`7X1fk
         front: GOOG vs. GOOGL
         back: |
                 *GOOG*: class C, no voting rights.
                 *GOOGL*: class A, has voting rights.
--       uuid: e14c7fb9-1e05-4f97-b9d1-ede03f4868d0
-        guid: B8pW6-Q,;v
+-       guid: B8pW6-Q,;v
         front: Apache Cordova
         back: Wrapper of HTML/JavaScript apps into a native container
--       uuid: 62bd59c3-cc0a-409d-a389-730f2bad67c8
-        guid: efBf/cCF*9
+-       guid: efBf/cCF*9
         front: When sitting down in a suit jacket...
         back: '...always unfasten your jacket buttons.'
--       uuid: b4f47892-8eab-4b6c-972d-90da0b4ae550
-        guid: Kki|j-D(c^
+-       guid: Kki|j-D(c^
         front: Pomodoro technique & length
         back: |
                 Break down work into 25 minute intervals, separated by
                 short breaks (to improve mental agility)
         include_reverse: true
--       uuid: 55a63443-f110-4ef3-b06d-d5cdc89a44a4
-        guid: evwN)xh@P}
+-       guid: evwN)xh@P}
         front: Section 508 ...
         back: |
                 ... of the 1988 Amendments to the Rehabilitation Act
@@ -122,20 +99,17 @@ notes:
                 be met by any vendor that wants to do business with
                 the US government (accessibility)
         include_reverse: true
--       uuid: 8e30f106-1408-4ace-a15a-86b2a4be4a34
-        guid: ACN&Zg3^4B
+-       guid: ACN&Zg3^4B
         front: WCAG meaning?
         back: |
                 Web Content Accessibility Guidelines; there are
                 validators
--       uuid: 3d8ea1d2-a7cf-4790-aaa1-2f3ec969f3d5
-        guid: bkUI0%}ld5
+-       guid: bkUI0%}ld5
         front: Barney Rubble
         back: |
                 Bernard "Barney" Rubble is a cartoon character who
                 appears in The Flintstones.
--       uuid: 0ff77a08-364d-4d29-aeea-d12bcadede88
-        guid: E.ET]aG,[~
+-       guid: E.ET]aG,[~
         front: |
                 Robert Cialdini's 6 principles of persuasion applied
                 to EA
@@ -165,20 +139,17 @@ notes:
                 *Scarcity* - more likely to want something you
                 perceive as scarce (GiveWell recommends just 4 or 5)
                 </ul>
--       uuid: 5fc1c016-5e8c-497e-a1e2-0b0b3f951793
-        guid: kw$g~dj&vj
+-       guid: kw$g~dj&vj
         front: Free will determinism
         back: |
                 All behavior is fully determined by background causes,
                 and free will is incompatible with that
--       uuid: 8cd5ff76-0444-4092-96e4-62dadf3bbb5f
-        guid: gM%>?8cQBg
+-       guid: gM%>?8cQBg
         front: Free will libertarianism
         back: |
                 Human agency rises above physical causation; free will
                 would be incompatible with a fully-physical universe
--       uuid: d22c0902-fa76-4abb-9e35-084b7de39b6c
-        guid: J$Ui0>9.E]
+-       guid: J$Ui0>9.E]
         front: Free will compatibilism
         back: |
                 Free will is compatible with determinism. You are free
@@ -186,8 +157,7 @@ notes:
                 you from acting on actual desires and intentions. (We
                 don't have to be the *conscious source* of our thoughts
                 to be free.)
--       uuid: 10e70c4d-4718-4048-8015-c92852a76d08
-        guid: EBrrqdD:T0
+-       guid: EBrrqdD:T0
         front: Maitreya
         back: |
                 Bodhisattva who will appear on Earth in future, achieve
@@ -195,29 +165,25 @@ notes:
                 scriptures, ... will be a successor to the present
                 Buddha, Gautama Buddha (also known as Śākyamuni Buddha).
         include_reverse: true
--       uuid: 210e557d-78dc-4c70-b0d1-3a29eececdef
-        guid: q+`(RQMG[-
+-       guid: q+`(RQMG[-
         front: Explanatory gap
         back: |
                 Difficulty that physicalist theories of mind have in
                 explaining how physical properties give rise to way
                 things feel when they are experienced
         include_reverse: true
--       uuid: 69125085-8841-46f4-94ee-4248bf8deceb
-        guid: w+~x>ibY#M
+-       guid: w+~x>ibY#M
         front: Herbal tea from dried coffee cherries (name)
         back: Cascara
         include_reverse: true
--       uuid: d7cc02d3-3d61-4db3-82ce-970109618b64
-        guid: ODYRM4B;fY
+-       guid: ODYRM4B;fY
         front: 2 types of pu-erh and the difference
         back: |
                 *Sheng*: raw, non-fermented. Harvested and stored
                 naturally
                 <br><br>
                 *Shu*: fermented, leaves are reddish-brown
--       uuid: c5d1a678-7633-4f37-98cc-db6ab0e2b9dc
-        guid: Jh#,iIi5!(
+-       guid: Jh#,iIi5!(
         front: Mahayana
         back: |
                 One of two major traditions of Buddhism, now
@@ -225,8 +191,7 @@ notes:
                 Emerged around the 1st century AD and
                 typically concerned with personal spiritual practice
                 and ideal of the bodhisattva.
--       uuid: e6291fa1-8e8f-4a13-a200-d6fbba1852db
-        guid: YA+GS.o#_
+-       guid: YA+GS.o#_
         front: Hinayana
         back: |
                 Name given by the followers of Mahayana Buddhism to
@@ -234,16 +199,13 @@ notes:
                 Tradition died out in India, but survived in Ceylon
                 (Sri Lanka) as the Theravada school and was taken from
                 there to other regions of SE Asia.
--       uuid: cc3157e9-618e-4201-a922-f8242c91042d
-        guid: nENvL70+<>
+-       guid: nENvL70+<>
         front: Other name for Sri Lanka
         back: Ceylon
--       uuid: ab73d8ac-a5f7-4a74-bb3a-7e178afe694f
-        guid: A,.L~nqU%8
+-       guid: A,.L~nqU%8
         front: Other name for Ceylon
         back: Sri Lanka
--       uuid: e93c5c3a-41df-4247-8a33-e6e6cc1ebf19
-        guid: P`A|U2WUea
+-       guid: P`A|U2WUea
         front: Difference between Mahayana/Hinayana buddhism
         back: |
                 *Hinayana*: "modest/lesser vehicle",<br>
@@ -251,8 +213,7 @@ notes:
                 <br>
                 <br>
                 Mahayana: don't enter Nirvana until everyone does
--       uuid: 2ebc2251-b21b-4530-a8b9-0deadb0e5947
-        guid: e`6;WB|[50
+-       guid: e`6;WB|[50
         front: Da Hong Pao
         back: |
                 According to legend, mother of a Ming dynasty

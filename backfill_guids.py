@@ -1,6 +1,5 @@
 #!/usr/bin/python2
 
-import uuid
 import subprocess
 import fnmatch
 import os
@@ -24,14 +23,14 @@ git_revision = get_git_revision()
 print 'git rev:', git_revision
 
 class Note(object):
-    def __init__(self, origin_file, uuid, include_reverse,
+    def __init__(self, origin_file, guid, include_reverse,
                  topic,
                  front, back,
                  git_revision,
                  deck):
         self.deck = deck
         self.origin_file = origin_file
-        self.uuid = uuid
+        self.guid = guid
         self.include_reverse = include_reverse
         self.topic = topic
         self.front = front
@@ -40,7 +39,6 @@ class Note(object):
 
     def to_fields(self):
         return [
-            self.uuid,
             self.topic,
             self.front, self.back,
             'true' if self.include_reverse else '',
@@ -50,12 +48,10 @@ class Note(object):
             #'' # TAGS  --  can add those.
         ]
 
-collection_path = '/home/prvak/dropbox/anki/User 1/collection.anki2'
+#collection_path = '/home/prvak/dropbox/anki/User 1/collection.anki2'
 cwd = os.getcwd()
-collection = anki.Collection(collection_path)
+#collection = anki.Collection(collection_path)
 os.chdir(cwd)
-
-uuids = set()
 
 my_notes = []
 
@@ -88,27 +84,13 @@ for path in yaml_files:
             print(path)
             print("no note")
             sys.exit(1)
-        if 'uuid' not in note_row:
-            print(note_row)
-            print('No UUID')
-            sys.exit(1)
         if 'front' not in note_row or 'back' not in note_row:
             print(note_row)
             print('Missing front or back')
             sys.exit(1)
 
-        note_uuid = note_row['uuid']
-        try:
-            uuid.UUID(note_uuid)
-        except ValueError:
-            print "Bad UUID", note_uuid, "in", path
-            raise
+        note_guid = note_row['guid']
         origin_file = unicode(path)
-        if note_uuid in uuids:
-            raise Exception("Duplicated UID:" + str(note_uuid))
-        uuids.add(note_uuid)
-        # print (origin_file, note_uuid)
-        # (front) (back) (add-reverse) (origin-file) (note_uuid) (git-revision)
         if 'include_reverse' in note_row:
             include_reverse = note_row['include_reverse']
         else:
@@ -119,7 +101,7 @@ for path in yaml_files:
             note_topic = note_row['topic']
 
         if 'front' not in note_row:
-            raise Exception('No front: ' + note_uuid)
+            raise Exception('No front: ' + note_guid)
 
         front = unicode(note_row['front'])
         back = unicode(note_row['back'])
@@ -130,7 +112,7 @@ for path in yaml_files:
 
         note = Note(
             origin_file = origin_file,
-            uuid = note_uuid,
+            guid = note_guid,
             include_reverse = include_reverse,
             topic = note_topic,
             front = front,
@@ -140,19 +122,20 @@ for path in yaml_files:
         )
         # my_notes.append()
 
-        notes = collection.findNotes('anki-decks-uid:"' + note.uuid + '"')
-        print(note.uuid, len(notes))
-        assert len(notes) == 1
+        ##notes = collection.findNotes('anki-decks-uid:"' + note.uuid + '"')
+        ##print(note.uuid, len(notes))
+        ##assert len(notes) == 1
 
-        anki_note = notes[0]
-        print(anki_note)
-        n = anki.notes.Note(collection, id=anki_note)
-        print(n.guid)
+        ##anki_note = notes[0]
+        ##print(anki_note)
+        ##n = anki.notes.Note(collection, id=anki_note)
+        ##print(n.guid)
 
-        print("new:", anki.utils.guid64())
+        #print("new:", anki.utils.guid64())
 
         #note_row['guid'] = str(n.guid)
-        note_row.insert(1, 'guid', n.guid)
+        #note_row.insert(1, 'guid', n.guid)
+        del note_row['uuid']
 
     with open(path, "w") as yf:
         ruamel.yaml.round_trip_dump(data, stream=yf,

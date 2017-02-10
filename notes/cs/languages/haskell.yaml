@@ -1,6 +1,5 @@
 deck: All::CS::Languages::Haskell
 notes:
--       uuid: 6cde5b12-6ba3-46fa-ab77-5fcdfded4309
-        guid: mlq(kfC}bd
+-       guid: mlq(kfC}bd
         front: Scotty
         back: Web framework

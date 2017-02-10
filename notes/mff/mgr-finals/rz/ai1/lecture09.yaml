@@ -1,27 +1,23 @@
 deck: All::Magisterské státnice::Reprezentace znalostí::AI1::Přednáška 9
 notes:
         # AI1 lecture09eng
-        -       uuid: 7e46b252-cedb-4f04-9aa8-9bea1746fd6c
-                guid: C6J4YU(:,u
+        -       guid: C6J4YU(:,u
                 front: Co udělám s kvantifikátory když budeme dělat inferenci nad
                         predikátovou logikou?
                 back: Skolemizace (přidám funkční symboly)
-        -       uuid: c01a8c64-7ceb-457c-92b8-d14c3a1d9761
-                guid: r?uYe^csh3
+        -       guid: r?uYe^csh3
                 front: Redukce predikátové logiky do výrokové logiky
                 back: |
                         Vyrobím instance všech termů.
                         Z atomických sentencí udělám výrokové proměnné.
                         Z existenčních kvantifikátorů udělám novou konstantu.
                         Pro univerzální kvantifikátor substituuji všechny termy.
-        -       uuid: 777d9f11-a154-4c9d-b54b-e906343b4dcd
-                guid: cM>dSSv^J(
+        -       guid: cM>dSSv^J(
                 front: Herbrandtova věta (krátce z AI1)
                 back: |
                         Jestli se něco dá dokázat v predikátové logice,
                         jde to dokázat z konečné podmnožiny výrokové konverze.
-        -       uuid: 697dc7f9-4284-4e95-b215-b129470542a3
-                guid: P>,9AUgw%E
+        -       guid: P>,9AUgw%E
                 front: Liftovaný modus ponens a substituce
                 markdown: false
                 back: |
@@ -32,8 +28,7 @@ notes:
                         [$]\mathrm{subst}(\Theta,p_i)=\mathrm{Subst}(\Theta,q_i)[/$]
                         <br>
                         Funguje na Hornovské klauzule.
-        -       uuid: 23ca99f1-2d6a-4686-bbe1-5444e9fe03a1
-                guid: L-~k`yk.l)
+        -       guid: L-~k`yk.l)
                 front: Hledání MGU (most general unifier), přibližný algoritmus
                 back: |
                         Existuje právě jedna (až na přejmenování proměnných).<br><br>
@@ -51,8 +46,7 @@ notes:
 
                         Standartně z kontrolování proměnných vyjde kvadratická
                         složitost. Ale jde to i lineárně?
-        -       uuid: e2b57811-bb9b-433a-8290-01fa63da49fd
-                guid: sbjGp[e3P)
+        -       guid: sbjGp[e3P)
                 front: Forward-chaining algoritmus v FOL s Horn-klauzulemi, nevýhody
                 back: |
                         Pro každou klauzuli v KB, ve které přejmenuju proměnné aby byly různé od mých:
@@ -60,15 +54,13 @@ notes:
                         přidej to do KB. jestli odvodím hledanou věc, vrať že to jde přidat.<br>
 
                         Problém: [$]R(x) \\longrightarrow R(S(x))[/$] odvodí nekonečně mnoho faktů
-        -       uuid: 2580fca8-2aa3-4d3b-82c6-7bf1a7a18d14
-                guid: cp_MapU.-c
+        -       guid: cp_MapU.-c
                 front: Složitost pattern-matchingu při hledání, jestli je splněné
                         tělo klauzule
                 back: |
                         NP-kompletní. Dá se na to převést barvení grafu
                         ([$]\\mathrm{diff}(\\mathrm{red},\\mathrm{green}), \\ldots, \\mathrm{diff}(\\mathrm{Wa},\\mathrm{Nt}) \\wedge \\mathrm{diff}(\\mathrm{Nt},\\mathrm{Sf}) \\wedge \\ldots \\Rightarrow \\mathrm{Colorable}[/$])
-        -       uuid: d7c74937-dfcd-45fa-9034-16a6c8710d78
-                guid: J`4Y/Z90:}
+        -       guid: J`4Y/Z90:}
                 front: Heuristiky k pattern-matchingu v FOL
                 back: |
                         <ul>
@@ -81,20 +73,17 @@ notes:
                         posledního použití našel nový fakt* unifikovatelný
                         s něčím v těle.
                         </ul>
-        -       uuid: d64e682c-d2d1-48c8-890f-c6b55000394b
-                guid: Ed78^K{|uu
+        -       guid: Ed78^K{|uu
                 topic: Rete algoritmus
                 front: Na jaké formy KB se používá?
                 back: Horn-SAT v FOL
-        -       uuid: 0527ffb0-7f61-454a-922e-e17fe12edaf1
-                guid: G*K:^?l-en
+        -       guid: G*K:^?l-en
                 topic: Rete algoritmus
                 front: Co dělá?
                 back: |
                         Preprocesuj pravidla tak, abys rychleji uměl vyhledat,
                         které pravidlo znova odpálit až odvodíš nový fakt.
-        -       uuid: 353e6652-6f25-4f9d-9fde-dbb90b762d78
-                guid: oD7-[[bN3p
+        -       guid: oD7-[[bN3p
                 front: Backward chaining v first-order Horn-SAT - algoritmus
                 back: |
                         Query: seznam konjunkci co hledame v KB.
@@ -106,15 +95,13 @@ notes:
                         <li>Najdi pravidlo, jehož hlava jde zunifikovat s [$]g_1[/$].
                         <li>Přídej mezi cíle jeho tělo, zkomponuj substituce, rekurze.
                         </ul>
-        -       uuid: ee3bd8a2-816b-4cc6-9fba-1f60c563d9f0
-                guid: p1oJ$XP)t$
+        -       guid: p1oJ$XP)t$
                 front: Prostorová složitost FOL-BackwardChain-ASK, kompletnost
                 back: |
                         Použij DFS na vyhledání všech řešení.
                         Lineární prostor vzhledem k délce důkazu.
                         Algoritmus není úplný.
-        -       uuid: 91172c55-d558-484d-87d7-f0fdd67a7e19
-                guid: cE_UFs)18P
+        -       guid: cE_UFs)18P
                 front: Co je potřeba přidat do first-order logické rezoluce aby byla
                         kompletní?
                 back: |
@@ -124,8 +111,7 @@ notes:
                         <li> *Faktorizování* (na odebrání redundantních literálů - tj. těch co se dají zunifikovat).
                         </ul>
                         Je to pak sound & complete.
-        -       uuid: f9fb23bd-7d34-405d-954f-de5bfe06cd59
-                guid: u^N1*DgpQZ
+        -       guid: u^N1*DgpQZ
                 front: Strategie pro rezoluci v FOL
                 back: |
                         <ul>

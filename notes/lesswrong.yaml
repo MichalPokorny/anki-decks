@@ -2,8 +2,7 @@ topic: LessWrong
 deck: All::LessWrong
 uid_prefix: lesswrong
 notes:
--       uuid: 73b7e219-8255-4290-9258-d21e1a335311
-        guid: jeO%b;{Sb]
+-       guid: jeO%b;{Sb]
         front: Basilisk counterarguments
         back: |
                 *Ignoring acausal blackmail* - basilisk is about the
@@ -20,33 +19,28 @@ notes:
                 Omega to fuck off and anyone simulating you will come
                 to the same conclusion, making it not
                 instrumentally useful to blackmail you.
--       uuid: de9be0eb-9e89-463b-a7f0-212c5866f061
-        guid: Lzrm_&!V[r
+-       guid: Lzrm_&!V[r
         front: Geriatrics vs. gerontology
         back: |
                 <ul>
                 <li> *Geriatrics*: medical care of old people
                 <li> *Gerontology*: study of the process of aging
                 </ul>
--       uuid: dce63b0e-ae6b-4e25-b1ee-cf77d7da90a0
-        guid: bQg4E?I#va
+-       guid: bQg4E?I#va
         front: Avoiding biases on important decisions
         back: |
                 Try to make important decisions in a neutral
                 environment; clear your mind
--       uuid: c850aa26-0f2c-494c-b4c1-70777591aaba
-        guid: r>a9/DquQs
+-       guid: r>a9/DquQs
         front: Having hard time making a decision
         back: Simulate the outcomes
--       uuid: 0857921c-b083-4c4c-ab68-13093915c7dd
-        guid: jSFF|$nNbE
+-       guid: jSFF|$nNbE
         front: |
                 Dedicating 5 minutes of attention by the clock to a
                 problem
         back: Focused grit
         include_reverse: true
--       uuid: 31a8b9d0-6c4b-48cb-84dd-7b3061e17402
-        guid: GqSF6_N|>j
+-       guid: GqSF6_N|>j
         front: Motivated reasoning/cognition
         back: |
                 Emotion-biased decision-making phenomenon &mdash;

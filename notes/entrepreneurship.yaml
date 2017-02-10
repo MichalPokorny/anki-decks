@@ -1,15 +1,12 @@
 deck: All::Entrepreneurship
 notes:
--       uuid: b334db5a-7e15-4a70-a04e-3db2ba38a668
-        guid: H$o{gXocFu
+-       guid: H$o{gXocFu
         front: RPM
         back: Revenue per 1000 pageviews
--       uuid: d8b48889-cb60-416b-8d09-cb0ead39eeb5
-        guid: Qg0j*jVWjl
+-       guid: Qg0j*jVWjl
         front: CPM
         back: Cost per 1000 (mille) &mdash; (impressions)
--       uuid: 357ce6d4-a5d6-43e8-b5b3-ce3db0bbc54a
-        guid: P2<[oby@B5
+-       guid: P2<[oby@B5
         front: Dwell time
         back: |
                 Actual length of time that a visitor spends on page
@@ -18,20 +15,17 @@ notes:
                 content on page before returning to the SERPs or
                 performing another action on the site.
         include_reverse: true
--       uuid: 0ab26294-c790-4a1f-92e1-037a7fe979b6
-        guid: MpzZ+p;q]M
+-       guid: MpzZ+p;q]M
         front: SERP
         back: Search engine results page
--       uuid: 0f5d3f80-e2c2-466b-a7de-150c8d341e71
-        guid: q.Hys>vNzp
+-       guid: q.Hys>vNzp
         front: Bounce rate
         back: |
                 Percentage of single-page sessions (i.e. sessions
                 where person left site from entrance page without
                 interacting with the page)
         include_reverse: true
--       uuid: eaf86a49-059f-4287-b781-5c7656166be2
-        guid: y6(uhpPOS8
+-       guid: y6(uhpPOS8
         front: SMART criteria
         back: |
                 Criteria to guide setting objectives.<br><br>
@@ -42,7 +36,6 @@ notes:
                 <li> *Relevant/realistic*: relevant: bigger picture and vision
                 <li> *Time-bound*: specify when result(s) can be achieved
                 </ul>
--       uuid: 15043b5b-e8e7-405c-a258-c3a7e7c43072
-        guid: A}0m$w$=Ft
+-       guid: A}0m$w$=Ft
         front: CTR
         back: Click-through rate

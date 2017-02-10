@@ -1,184 +1,145 @@
 deck: All::Constants
 uid_tag: constants
 notes:
--       uuid: b644187e-b8e7-433a-8e10-7ed8722dd682
-        guid: IJ/uUHyW.0
+-       guid: IJ/uUHyW.0
         front: A4 paper size
         back: 210 x 297 mm
--       uuid: 718d9ebc-98a4-45b9-9ea5-4208fe49e944
-        guid: d23I5f}v]f
+-       guid: d23I5f}v]f
         front: A0 paper area and aspect ratio
         back: 1 m<sup>2</sup>, aspect ratio [$]\sqrt{2}[/$]
--       uuid: f2dd397a-8fc4-4634-af4d-dccae7ed37ad
-        guid: i5^G]{:G^M
+-       guid: i5^G]{:G^M
         front: Number of hours in 1 year
         back: 8760
--       uuid: e041169d-2512-46b5-811b-fe78b7ee43bc
-        guid: vR~4y6,]@7
+-       guid: vR~4y6,]@7
         front: 2^32
         back: 4 294 967 296 (~4 billion)
--       uuid: ebcc3274-db0d-49d0-bb92-7a76a20aa341
-        guid: zg<0+0>/Ht
+-       guid: zg<0+0>/Ht
         front: Minimum wage in Czech Republic
         back: 9900 Kč/month, as of 2016-01-01 (before taxes)
--       uuid: 3ebd083c-9c8f-4eff-93c4-90e8fe3d047e
-        guid: L1O`y~F*A/
+-       guid: L1O`y~F*A/
         front: Average wage in Czech Republic
         back: 27 297 Kč/month, as of 2016-10-08 (before taxes)
--       uuid: 03d467a3-ff41-4fba-bf62-1ccd33a097c8
-        guid: zDKrRaragh
+-       guid: zDKrRaragh
         front: Number of deaths per day
         back: 153 000, as of 2016-10-08
--       uuid: 7f669eb2-24b7-4532-b356-931a6a805b31
-        guid: jQ<Cs:,#6B
+-       guid: jQ<Cs:,#6B
         front: Number of births per day
         back: 353 000, as of 2016-10-08
--       uuid: b5bb1a6a-609e-4121-b076-ccd6cd0af033
-        guid: dyxuIb>[g^
+-       guid: dyxuIb>[g^
         front: Cost to save a life through AMF
         back: $3500 (as of 2015)
                 # Source: http://www.givewell.org/giving101/Your-dollar-goes-further-overseas
--       uuid: cfe03d2d-0a20-470a-920c-1bc08225e14a
-        guid: IgDN6NJOmv
+-       guid: IgDN6NJOmv
         front: Blood pressure with no further benefit from lowering
         back: 110/70
                 # TODO: Research, where is that figure from?
--       uuid: 1761d695-8506-4868-9965-9d0680fa8bae
-        guid: K?I4yfH]cX
+-       guid: K?I4yfH]cX
         front: BMI definition
         back: weight in kg / (height in meters squared)
--       uuid: f2d01dd3-9f62-4cb2-9864-4532e6920946
-        guid: 'gJ9q-zes}:'
+-       guid: 'gJ9q-zes}:'
         front: Underweight BMI
         back: BMI < 18.5
--       uuid: 1bf8e928-c676-486e-8663-9b86bbd6aebc
-        guid: vvtS)DLzL6
+-       guid: vvtS)DLzL6
         front: Normal weight BMI
         back: BMI 18.5 - 25
         include_reverse: true
--       uuid: 00e6575c-7579-43d8-a76b-09cec3b9172e
-        guid: C-sP3EJ2`Q
+-       guid: C-sP3EJ2`Q
         front: Overweight BMI
         back: BMI 25 - 30
         include_reverse: true
--       uuid: 86cadf85-1b74-4e66-ad05-0e5940f4b8f5
-        guid: hN{Id)4cCe
+-       guid: hN{Id)4cCe
         front: Obese BMI
         back: BMI 30+
--       uuid: 098cb216-d1c6-45a9-95c6-6cf64ab48410
-        guid: lUbFyfJV1L
+-       guid: lUbFyfJV1L
         front: USA gross domestic product
         back: $17 trillion == 17 x 10^12 (2013)
--       uuid: 69d997dd-cfec-40f8-a133-7107ba0d8f3e
-        guid: K&U^)xfbO7
+-       guid: K&U^)xfbO7
         front: India gross domestic product per capita
         back: $1500 (2013)
--       uuid: d20ac924-6512-4001-992b-40e6783c2e36
-        guid: F:0A-ns|wQ
+-       guid: F:0A-ns|wQ
         front: USA gross domestic product per capita
         back: $53 000 (2013)
--       uuid: 8a1d7ef7-886c-4a95-886c-d16323fcf80e
-        guid: p;Bg}GCm7D
+-       guid: p;Bg}GCm7D
         front: Population of Europe
         back: 743 million
--       uuid: fa173c62-73e4-425e-ae56-6cee7623bfbb
-        guid: Dt]houyTAe
+-       guid: Dt]houyTAe
         front: Population of Asia
         back: 4.4 billion
--       uuid: e172cdf5-7ca2-44ea-bac8-c66ce5c319c9
-        guid: MF=IcA]#dV
+-       guid: MF=IcA]#dV
         front: Population of Oceania, including Australia
         back: 38 million
--       uuid: 4011aaa7-6f4c-4661-bc74-901a5b9c6c51
-        guid: CfvSnP2O%d
+-       guid: CfvSnP2O%d
         front: Population of North America
         back: 579 million
--       uuid: f3294abd-420d-4ee0-8fe2-3ced17fc1836
-        guid: N5Z{Asnd=Y
+-       guid: N5Z{Asnd=Y
         front: Population of South America
         back: 423 million
--       uuid: aacac98f-d6df-4f72-8f94-0fc502efeb84
-        guid: kZK{0H$Sqp
+-       guid: kZK{0H$Sqp
         topic: Latency Numbers Every Programmer Should Know
         front: L1 cache reference
         back: 1 ns
         include_reverse: true
--       uuid: bbbeac25-492f-46b2-802f-cb04e7cfea73
-        guid: EOwi4=x#fg
+-       guid: EOwi4=x#fg
         topic: Latency Numbers Every Programmer Should Know
         front: Branch mispredict
         back: 3 ns
         include_reverse: true
--       uuid: f306fb30-cb04-4b08-9be2-680852b49c80
-        guid: uGOcv3iX12
+-       guid: uGOcv3iX12
         topic: Latency Numbers Every Programmer Should Know
         front: L2 cache reference
         back: 4 ns
         include_reverse: true
--       uuid: 9f58f568-a0ba-466c-80ea-17d4ba13ae92
-        guid: n,QcdXLKB/
+-       guid: n,QcdXLKB/
         topic: Latency Numbers Every Programmer Should Know
         front: Mutex lock/unlock
         back: 17 ns
--       uuid: 93fb0034-cde0-42ce-9a58-5ffe80313e75
-        guid: N^*qubktUR
+-       guid: N^*qubktUR
         topic: Latency Numbers Every Programmer Should Know
         front: Main memory reference
         back: 100 ns
--       uuid: 340b061b-107e-4c49-ba49-271d77e1f766
-        guid: fo-Ns*,+ct
+-       guid: fo-Ns*,+ct
         topic: Latency Numbers Every Programmer Should Know
         front: Compress 1K bytes with Zippy
         back: 2 [$]\\mu s[/$]
--       uuid: 0f59c1ed-35fb-41e5-9f98-7e933140c15a
-        guid: eXSKu!,:^M
+-       guid: eXSKu!,:^M
         topic: Latency Numbers Every Programmer Should Know
         front: Send 2K bytes over commodity network
         back: 177 ns
--       uuid: 510d4e2b-be59-450a-946e-d36d81adebcb
-        guid: rtT92i[S^l
+-       guid: rtT92i[S^l
         topic: Latency Numbers Every Programmer Should Know
         front: Read 1 MB sequentially from memory
         back: 7 [$]\\mu s[/$]
--       uuid: a848776f-c846-4263-963c-e0381ab2eaae
-        guid: M>hBZvO&X9
+-       guid: M>hBZvO&X9
         topic: Latency Numbers Every Programmer Should Know
         front: SSD random read
         back: 16 [$]\\mu s[/$]
--       uuid: dcf91ee8-e127-4d87-8bf3-684a2e7d92c4
-        guid: crM49T!eJT
+-       guid: crM49T!eJT
         topic: Latency Numbers Every Programmer Should Know
         front: Round trip within same datacenter
         back: 500 [$]\\mu s[/$]
--       uuid: 834f0b30-a6d6-494b-ac17-5d2c60324670
-        guid: yO%Bu{]ya~
+-       guid: yO%Bu{]ya~
         topic: Latency Numbers Every Programmer Should Know
         front: Read 1 MB sequentially from disk
         back: 1 ms
--       uuid: 68d87b64-5dc2-42cb-ad40-f9c8ac4575c7
-        guid: x`*:3)(@u7
+-       guid: x`*:3)(@u7
         topic: Latency Numbers Every Programmer Should Know
         front: Disk seek
         back: 3 ms
--       uuid: c70f3e7e-4f5f-411d-80de-c4fc53ff5fe3
-        guid: O&=/[/}/a>
+-       guid: O&=/[/}/a>
         topic: Latency Numbers Every Programmer Should Know
         front: Read 1 MB sequentially from SSD
         back: 123 [$]\\mu s[/$]
--       uuid: 905de71d-23bf-4b41-8cfe-7922b67bf556
-        guid: KjwXNrOrC*
+-       guid: KjwXNrOrC*
         topic: Latency Numbers Every Programmer Should Know
         front: Send packet CA &rarr; Netherlands &rarr; CA
         back: 150 ms
--       uuid: 1e7abb11-fed9-4935-bd50-dcfa96216acb
-        guid: zHT*^@_tZI
+-       guid: zHT*^@_tZI
         front: 1 AU in km
         back: |
                 1 AU = [$]149.6 \\cdot 10^6 km[/$]
 
                 Průměrná vzdálenost ze středu Země do středu Slunce.
--       uuid: 41627fc8-cbff-4df7-b767-3a66199a3905
-        guid: l5/D31S}=-
+-       guid: l5/D31S}=-
         front: Speed of light
         back: |
                 [$]\\approx 300 000 km/s[/$]

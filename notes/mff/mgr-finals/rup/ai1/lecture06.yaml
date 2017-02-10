@@ -2,14 +2,12 @@ deck: All::Magisterské státnice::Řešení úloh a plánování::AI1::Předná
 topic: CSP
 notes:
         # AI1 lecture06eng (CSP)
-        -       uuid: 088f9f53-2262-4422-9b13-b5cfe69f4538
-                guid: PZ$=.U]?5U
+        -       guid: PZ$=.U]?5U
                 front: |
                         Základní termíny
                 back: |
                         Domény, proměnné, podmínky (různé arity), (filtrování).
-        -       uuid: 1136669b-f0ad-4b35-80ec-ff85de0e11f1
-                guid: Ly1=ZY;&&5
+        -       guid: Ly1=ZY;&&5
                 front: |
                         Podle jakých heuristik budeme vybírat proměnnou
                         k dosazení?
@@ -22,8 +20,7 @@ notes:
                         <li>*dom+deg heuristika*: mezi proměnnými s nejmenší
                             doménou vyber tu co má nejvíc podmínek
                         </ul>
-        -       uuid: 97caa973-7b9c-4385-9a39-c21d00f284a7
-                guid: b:E*p%BF9}
+        -       guid: b:E*p%BF9}
                 front: |
                         Podle jakých heuristik budeme vybírat pořadí hodnot k dosazení?
                         Příklady?
@@ -36,21 +33,18 @@ notes:
                         a z něj vzít hodnotu.<br>
 
                         Problem-dependent heuristics.
-        -       uuid: 335f20af-07e8-405a-8331-f23057d628df
-                guid: e{X*+`nD^e
+        -       guid: e{X*+`nD^e
                 front: Forward checking
                 back: |
                         Po přiřazení zkontroluj constrainy mezi právě přiřazenou
                         proměnnou a budoucími proměnnými.
-        -       uuid: 0ab920fd-72d2-44e7-8c34-e1fc95d662eb
-                guid: l,}-Mg{}1^
+        -       guid: l,}-Mg{}1^
                 front: Arc consistency
                 back: |
                         Každá hrana má podporu &mdash; každá hodnota v každé
                         doméně má podporu na druhé straně podmínek.
                         Při každé změně uděláme další filtrování.
-        -       uuid: 9dd1edf2-6c4f-41f7-a611-a4a54845be01
-                guid: vAU_o<~v|=
+        -       guid: vAU_o<~v|=
                 front: AC-3 algoritmus a časová složitost
                 back: |
                         Měj queue všech hran.
@@ -64,32 +58,27 @@ notes:
 
                         Složitost: [$]\\O(ed^3)[/$], kde [$]e[/$] je
                         počet podmínek.
-        -       uuid: e8cbd3a0-6013-4c57-9279-d6ae60d6f8c7
-                guid: e,Xku4yC@u
+        -       guid: e,Xku4yC@u
                 front: |
                         [$]k[/$]-konzistence - definice
                 back: |
                         Když pro každé konzistentní přiřazení [$] (k-1)[/$]
                         proměnných ho umíme rozšířit o další proměnnou
-        -       uuid: ee762038-22a3-4ef8-b129-786aa4bbc750
-                guid: Hqz_RA!bx[
+        -       guid: Hqz_RA!bx[
                 front: |
                         [$]k[/$]-konzistence a řešení bez backtracků
                 back: |
                         Jestli je problém [$]k[/$]-konzistentní pro [$]k\\in\\{1,\\ldots n\\}[/$],
                         jde vyřešit bez backtracků.
-        -       uuid: caa2d40c-363e-4b69-8ecd-5cf307824bdf
-                guid: 'e}J0{-^k#:'
+        -       guid: 'e}J0{-^k#:'
                 front: Časová složitost [$]k[/$]-konzistence
                 back: |
                         Exponenciální v [$]k[/$]
-        -       uuid: 6f35387f-61d2-4b92-afbc-65eb98efc6f4
-                guid: p*R1CmFf}$
+        -       guid: p*R1CmFf}$
                 front: Globální podmínky a příklad
                 back: |
                         Obalují podproblém - například <code>all_different</code>
                         obaluje párování v bipartitním grafu
-        -       uuid: 41c999c5-02dd-4903-9fae-97bbdbd1ee53
-                guid: h>OTZS[O%j
+        -       guid: h>OTZS[O%j
                 front: Jak optimalizovat v CSP?
                 back: Branch and bound

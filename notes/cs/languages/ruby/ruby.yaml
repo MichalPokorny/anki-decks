@@ -2,69 +2,55 @@ topic: Ruby
 deck: All::CS::Languages::Ruby
 uid_tag: cs/languages/ruby/ruby
 notes:
--       uuid: 2f31f035-5cda-40cf-a77e-db10b300fb50
-        guid: u=/@D8<5j6
+-       guid: u=/@D8<5j6
         front: Quick and dirty HTTP server
         back: '`ruby -run -e httpd .`'
         include_reverse: true
--       uuid: 379bbd27-934a-460d-bec7-324e0ceb631f
-        guid: C8)J3RgF=b
+-       guid: C8)J3RgF=b
         front: Overloading unary operators
         back: '`def +@`, `-@`, `~@`, `!@`'
         include_reverse: true
--       uuid: 8e30bcff-2042-4b8e-9492-23fecdc4b3f8
-        guid: FzxHKSG4qs
+-       guid: FzxHKSG4qs
         front: Single character string syntax
         back: '`?x`'
         include_reverse: true
--       uuid: 1b156569-eb87-4d8f-b39a-12b86bc93d32
-        guid: lgoF.#NI,^
+-       guid: lgoF.#NI,^
         front: '`31337.to_s(2)`'
         back: Convert number to binary string
--       uuid: 98f03325-f447-4687-a1f5-0109ccc9c6c4
-        guid: Iq<Eq+fmsd
+-       guid: Iq<Eq+fmsd
         front: '`"%b" % 123`'
         back: Convert number to binary string
--       uuid: 0311c13f-c0da-490b-8db7-f408e144c766
-        guid: otdu^qu%49
+-       guid: otdu^qu%49
         front: Convert number to binary string
         back: '`31337.to_s(2)` or `"%b" % 31337`'
--       uuid: 55552bfe-7d0c-4cb4-a788-e1c7ba1ecaeb
-        guid: hjd`WfYiCM
+-       guid: hjd`WfYiCM
         front: Convert number to hexadecimal string
         back: '`31337.to_s(16)`'
         include_reverse: true
--       uuid: c2f1dfae-bbfd-4b49-a574-3204884deccf
-        guid: xR~FJ/wL]y
+-       guid: xR~FJ/wL]y
         front: Regex to check for URI validity
         back: '`URI.regexp`'
         include_reverse: true
--       uuid: ecd86ce1-b530-48aa-bd77-d7b213ceb9d2
-        guid: wtihH%m~0i
+-       guid: wtihH%m~0i
         front: Run RSpec tests from just one spec file
         back: '`rspec /path/x.rb`'
         include_reverse: true
--       uuid: 89d64532-12c4-4d7d-b461-c969260bda32
-        guid: PUIf4)w/Wd
+-       guid: PUIf4)w/Wd
         front: Lambda `#call` syntax sugar
         back: '`x = lambda { |a, b| a + b }; x.(1,2)  # 3`'
--       uuid: c6add35f-bea4-4885-b062-abc3cea0ba37
-        guid: E(:=F$G-Mq
+-       guid: E(:=F$G-Mq
         front: Run `map` and join output arrays
         back: '`Enumerable#flat_map`'
         include_reverse: true
--       uuid: 05d58bb4-fbb6-4bc1-a6a1-acd8ef92d0e8
-        guid: G@heHvaO[c
+-       guid: G@heHvaO[c
         front: Exit from block, possibly with return value
         back: '`next`'
         include_reverse: true
--       uuid: cd449502-9d33-4619-aba1-15da5c940c4b
-        guid: B]1O<6t*8w
+-       guid: B]1O<6t*8w
         front: Inspect object
         back: '`Object#inspect`'
         include_reverse: true
--       uuid: 8bb2579e-a26f-497c-b13f-f8edbef8f63a
-        guid: O,eE$;92]V
+-       guid: O,eE$;92]V
         front: Symbol array syntax
         back: '`%i[hello world foo bar]`'
         include_reverse: true

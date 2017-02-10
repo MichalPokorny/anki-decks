@@ -2,8 +2,7 @@ deck: All::Magisterské státnice::Neuronové sítě::Přednáška 9 (Kohonenovy
         sítě)
 notes:
         # 09-kohonen-hybrid
-        -       uuid: adc2c3cf-9d46-4ac2-aff4-e616686aee7c
-                guid: mK^ZpD(v_0
+        -       guid: mK^ZpD(v_0
                 topic: Kononenova mapa
                 front: |
                         Účel, parametry
@@ -14,15 +13,13 @@ notes:
                         Funkce laterální interakce: [$]\\Phi(i,k)[/$],
                         například "funkce mexického klobouku"<br>
                         Vigilační koeficient [$]\\alpha\\in(0;1)[/$] určuje plasticitu, klesá v čase.
-        -       uuid: 964a216b-1159-4e20-840a-e79d82a64e67
-                guid: d>79`11:kd
+        -       guid: d>79`11:kd
                 topic: Kononenova mapa
                 front: Co by mělo platit pro vigilační koeficient?
                 markdown: false
                 back: |
                         [$]\sum_{t=1}^\infty \alpha(t)=\infty, \sum_{t=1}^\infty \alpha^2(t) < \infty[/$]
-        -       uuid: 6d368fb6-973e-465d-8a2d-30bea1c20260
-                guid: QX^{xtHj=U
+        -       guid: QX^{xtHj=U
                 topic: Kononenova mapa
                 front: |
                         Kostra důkazu: Jeden neuron Kohonenovy mapy na intervalu
@@ -37,8 +34,7 @@ notes:
 
                         [$$]\\mathbb{E}[dx/dt]=\\eta(\\mathbb{E}[x]-\\mathbb{E}[w])=
                         \\eta((a+b)/2 - \\mathbb{E}[x]) = 0 \\longrightarrow \\mathbb{E}[w]=(a+b)/2[/$$]
-        -       uuid: 69a572dd-fa8e-40b6-9367-29d8a18c7d99
-                guid: f&VzJhJPQ[
+        -       guid: f&VzJhJPQ[
                 topic: Kononenova mapa
                 front: Varianty učících algoritmů pro učení s učitelem pro Kohonenovy
                         mapy
@@ -64,14 +60,12 @@ notes:
                         stejne tridy, tak je prisun
                         o [$]\\varepsilon \\alpha(t)[x(t)-w_{i/j}(t)][/$], kde [$]0.1\\leq\\varepsilon\\leq 0.5[/$]
                         </ul>
-        -       uuid: 45896e39-ff1f-4efc-a55e-309f100f71ff
-                guid: uu;gP=ReQO
+        -       guid: uu;gP=ReQO
                 front: |
                         Jméno: Vrstva nad Kohonenovskou
                         v counterpropagation sítích
                 back: Grossbergovská
-        -       uuid: 56e732ce-9373-44b0-9d81-7c6cb3d4561a
-                guid: M5`^nui/<y
+        -       guid: M5`^nui/<y
                 front: Sítě se vstřícným šířením (counterpropagation) - architektura,
                         učení
                 back: |
@@ -91,23 +85,20 @@ notes:
                              Kde [$]\\beta>0, \\gamma>0, z_c[/$] je aktivita
                              viteze z Kohonenovske vrstvy
                         </ol>
-        -       uuid: e8b48098-6b46-4500-8fc9-d7e816888ce9
-                guid: ANg[8pi(z*
+        -       guid: ANg[8pi(z*
                 topic: RBF sítě
                 front: Definice RBF funkce a co ta zkratka znamená
                 back: |
                         Radial Basis Functions.<br>
                         [$$]RBF(x,w,\\sigma) := \\exp\\{-\\frac{(x-w)^2}{2\\sigma^2}\\}[/$$]
-        -       uuid: fa514eee-0607-4206-af82-7df4be2c1dd3
-                guid: e1;G#[k])1
+        -       guid: e1;G#[k])1
                 topic: RBF sítě
                 front: Jakou mají architekturu?
                 back: |
                         Vstup &rarr; Kohonenovská vrstva s Gaussovskou
                         přenosovou funkcí &rarr; lineární asociátor &rarr;
                         skalární výstup
-        -       uuid: b59d1818-0ec4-4305-8bb3-f8a90582d92a
-                guid: EGy`up1IDl
+        -       guid: EGy`up1IDl
                 topic: RBF sítě
                 front: Jak počítá?
                 back: |
@@ -118,8 +109,7 @@ notes:
 
                         Z RBF vrstvy vedou váhy [$]z_1\\ldots z_m[/$].<br>
                         Ty jdou nastavit třeba zpětným šířením.
-        -       uuid: af99f342-72d2-4801-a35a-bbfb0fdde854
-                guid: o_xi!X!vl4
+        -       guid: o_xi!X!vl4
                 topic: RBF sítě
                 front: |
                         Jak nastavit váhy [$]z_i[/$] z Kohonenovských neuronů
@@ -133,8 +123,7 @@ notes:
                         \\Delta z_i \\approx -\\partial E/\\partial z_i =
                         \\gamma g_i(x) (d - \\sum_{j=1}^n g_j(x) z_j)
                         [/$]
-        -       uuid: a4eb55d5-10de-44d4-8d2f-5b91d7f334cd
-                guid: vG)m(6Lxap
+        -       guid: vG)m(6Lxap
                 topic: ART
                 front: Architektura, jaké je kódování
                 back: |
@@ -148,47 +137,40 @@ notes:
 
                         Má mechanismus pro vypnutí výstupního neuronu
                         s maximální odezvou.
-        -       uuid: 64ce36aa-9f82-4884-a441-bf3e30442ce0
-                guid: sH:*w{Kntx
+        -       guid: sH:*w{Kntx
                 topic: ART
                 front: Účel laterálních spojů mezi výstupními neurony
                 back: |
                         Určení výstupního neuronu s maximální odezvou.
-        -       uuid: 71e5a70b-2b14-4bc5-9d49-2ab94e9d5b24
-                guid: O3zl2LcJ]!
+        -       guid: O3zl2LcJ]!
                 topic: ART
                 front: Účel zpětných vazbeb z výstupů ke vstupům
                 back: |
                         Porovnání skutečné podobnosti s rozpoznaným vzorem.
-        -       uuid: 9a6ebf84-2811-4df0-b661-578119600968
-                guid: iHRTo?w_)%
+        -       guid: iHRTo?w_)%
                 topic: ART
                 front: Problém
                 back: |
                         I při troše šumu začne ukládat moc vzorů
-        -       uuid: 5cdea2dc-a1af-4f23-abc5-f5b50fae5643
-                guid: Q6&X_G@[*y
+        -       guid: Q6&X_G@[*y
                 topic: ART
                 front: Značení - váhy ze vstupu [$]i[/$] do výstupu [$]j[/$]
                 back: |
                         [$]b_{ij}[/$]
                 include_reverse: true
-        -       uuid: bf9305e1-c32f-4861-876b-4702cf317e59
-                guid: sG*@FzF<Ve
+        -       guid: sG*@FzF<Ve
                 topic: ART &mdash; Značení
                 front: Váhy z výstupu [$]j[/$] do vstupu [$]i[/$]
                 back: |
                         [$]t_{ij}[/$]
                 include_reverse: true
-        -       uuid: 17908552-6d39-43de-8c7c-4bba1fb61b9d
-                guid: FKv,&dt)0O
+        -       guid: FKv,&dt)0O
                 topic: ART &mdash; Značení
                 front: Výstupy výstupních neuronů
                 back: |
                         [$]\\mu_j[/$]
                 include_reverse: true
-        -       uuid: 179f5bf7-0dd8-42d5-b161-c607274db0de
-                guid: I2=2o.GvXd
+        -       guid: I2=2o.GvXd
                 topic: ART
                 front: Značení vah a parametrů, jejich inicializace
                 back: |
@@ -204,15 +186,13 @@ notes:
                         <li>
                         Výstupy výstupních neuronů: [$]\\mu_j[/$]
                         </ul>
-        -       uuid: 5dde3276-aa9f-48f6-bc31-ee7b4c40eb7a
-                guid: g-#?rD)ZYT
+        -       guid: g-#?rD)ZYT
                 topic: ART &mdash; Značení
                 front: Konstanta bdělosti
                 back: |
                         [$$]\\rho\\in[0;1][/$$]
                 include_reverse: true
-        -       uuid: ae99b9ea-f197-41ae-a9ca-e08804981b66
-                guid: cU$P=wEFXO
+        -       guid: cU$P=wEFXO
                 topic: ART
                 front: Učící algoritmus
                 back: |
@@ -238,8 +218,7 @@ notes:
                              [/$]
                         <li> Odmraž a opakuj.
                         </ul>
-        -       uuid: bfffc115-79e0-4ac9-afe0-4c70be3876b1
-                guid: zJ#{leEhwF
+        -       guid: zJ#{leEhwF
                 front: Kaskádová korelace, algoritmus učení
                 markdown: true
                 back: |

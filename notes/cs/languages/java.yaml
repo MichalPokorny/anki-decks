@@ -1,50 +1,40 @@
 topic: Java
 deck: All::CS::Languages::Java
 notes:
--       uuid: 2fc0dd24-e54c-44a6-8977-664f7ab19689
-        guid: kk_5@4|g=v
+-       guid: kk_5@4|g=v
         front: Join `List<String>` by `", "`
         back: '`list.stream().collect(Collectors.joining(", "))`'
         include_reverse: true
--       uuid: 8c37d746-1c07-4cfa-b9c9-14755ebad4c7
-        guid: d9}7+=qg$Q
+-       guid: d9}7+=qg$Q
         front: Call map function on `List<String>` to convert to integers, then sum
                 up results
         back: '`list.stream().mapToLong(fn).sum()`'
         include_reverse: true
--       uuid: 6b9be4dc-6e46-46d0-af6c-53b8b9a0ac47
-        guid: h2<Mn2s%r#
+-       guid: h2<Mn2s%r#
         front: Group `List<X>` by result of `fn`, yielding `Map<X, List<Y>>`
         back: '`list.stream().collect(Collectors.groupingBy(fn))`'
         include_reverse: true
--       uuid: 265249d1-4e19-4179-a7ac-5d7ee2867724
-        guid: saVLnAY?#c
+-       guid: saVLnAY?#c
         front: Convert from `List<X>` to `List<Y>` through `fn`
         back: '`list.stream().map(fn).collect(Collectors.toList())`'
         include_reverse: true
--       uuid: 03204f7b-1349-47b1-acb5-16df12473405
-        guid: P>,uf)-i6^
+-       guid: P>,uf)-i6^
         front: Class of pair / map entry
         back: '`Map.Entry<K, V>`'
         include_reverse: true
--       uuid: e675da1d-7e79-4e4a-a1de-90df8795ff9f
-        guid: DI9*R)^%=)
+-       guid: DI9*R)^%=)
         front: Get list sublist of items [5;10)
         back: '`list.subList(5, 10);`'
         include_reverse: true
--       uuid: 3036df31-5a38-4640-a8ea-008dc66a6f5e
-        guid: FSVp>NM@V+
+-       guid: FSVp>NM@V+
         front: Write stack trace of exception to stdout
         back: '`exception.printStackTrace();`'
--       uuid: eb4f1c47-9dde-474a-9fdf-66af8365b389
-        guid: ok+ca-t46?
+-       guid: ok+ca-t46?
         front: Set `Set<T> s1` to the intersection of `s1` and `s2`
         back: '`s1.retainAll(s2);`'
--       uuid: 7fe94df0-718d-4208-a861-f5363e130b34
-        guid: t:/UWrVbsZ
+-       guid: t:/UWrVbsZ
         front: Set `Set<T> s1` to the `s1` set-minus `s2`
         back: '`s1.removeAll(s2);`'
--       uuid: c487c222-f2f3-4ecd-80b8-981d410197d0
-        guid: Li4}))Ri7J
+-       guid: Li4}))Ri7J
         front: Convert list to set using stream
         back: '`list.stream().collect(Collectors.toSet())`'

@@ -1,45 +1,38 @@
 deck: All::Persons
 notes:
--       uuid: 46d58bf1-d509-4b94-aeab-2a1fff779864
-        guid: t`:p2#?d9l
+-       guid: t`:p2#?d9l
         front: Holden Karnofsky
         back: |
                 Executive Director of Open Philanthropy Project.
                 Previously one of MIRI's critics.
         include_reverse: true
--       uuid: 2f4aa445-c7fe-447e-90b3-32d68835c0ee
-        guid: p`t?XKCNk&
+-       guid: p`t?XKCNk&
         front: Will MacAskill
         back: |
                 Effective Altruism, 80k Hours founder.
                 Formerly Will Crutch.
--       uuid: c6d30a76-baf0-4289-92fc-35308710655b
-        guid: M!$]a=/9.j
+-       guid: M!$]a=/9.j
         front: Hugh Everett
         back: Father of many-worlds interpretation
         include_reverse: true
--       uuid: fbe29e44-eb98-4b0d-aaea-602007dc9f1a
-        guid: OS$8*]d95&
+-       guid: OS$8*]d95&
         front: David Chalmers
         back: |
                 Philosopher of mind, long-haired.
                 Formulated hard problem of consciousness.
         include_reverse: true
--       uuid: 88810ca8-fd88-4906-97e9-7f767d078f5a
-        guid: w?@`@MZXN~
+-       guid: w?@`@MZXN~
         front: Ben Goertzel
         back: |
                 Chairman of OpenCog Foundation; previously Director
                 of Research of MIRI.
         include_reverse: true
--       uuid: c125b04d-a7a3-4671-8232-12b12e8409e1
-        guid: G>Uv)@O(.+
+-       guid: G>Uv)@O(.+
         front: George Washington
         back: |
                 First President of the United States
         include_reverse: true
--       uuid: 0646fc65-4b73-441d-a155-770c54065d5e
-        guid: P^EyRiMlZU
+-       guid: P^EyRiMlZU
         front: Daniel Dennett
         back: |
                 Atheist and secularist, one of "Four Horsemen of New
@@ -49,13 +42,11 @@ notes:
                 particularly as those relate to evolutionary biology
                 and cognitive science
         include_reverse: true
--       uuid: 91745e70-65fc-47b5-aa8e-1444f9958ead
-        guid: O7sC2MD/W[
+-       guid: O7sC2MD/W[
         front: |
                 Year: Birth of Pierre Teilhard de Chardin
         back: 1881
--       uuid: 716a9d45-d0ba-4260-bb69-df67461e76dc
-        guid: Bk|:@[Z]+7
+-       guid: Bk|:@[Z]+7
         front: |
                 Year: Death of Pierre Teilhard de Chardin
         back: 1995

@@ -1,14 +1,12 @@
 deck: All::Magisterské státnice::Neuronové sítě::Přednáška 6 (asociativní paměti)
 notes:
         # 06-associative-memories
-        -       uuid: 9f846394-8002-4e78-b804-13657d3b1969
-                guid: n49K;VjOO!
+        -       guid: n49K;VjOO!
                 front: Cíl asociativních sítí versus BP sítí
                 back: |
                         Zobrazit zašuměné okolí vzoru přesně na správný výstup.
                         BP sítě: okolí vstupu se zobrazuje na okolí správného výstupu.
-        -       uuid: ef5f7835-c422-4ff2-bb21-af8881f3c286
-                guid: ppoT~!QaGx
+        -       guid: ppoT~!QaGx
                 front: 3 typy asociativních sítí
                 back: |
                         <ul>
@@ -18,38 +16,33 @@ notes:
                         <li> <i>Autoasociativní</i>: "oprava zašuměných vzorů"
                         <li> <i>Pattern recognition síť</i>: přiřadí skalár
                         </ul>
-        -       uuid: f88de9b7-ef95-4ead-ae75-cc1160ad4e89
-                guid: wNMjAD=yJ;
+        -       guid: wNMjAD=yJ;
                 front: Jednovrstevnatá heteroasociativní síť bez zpětné vazby
                 back: |
                         [$]y = x \cdot W[/$], kde [$]y[/$] ma [$]k[/$] slozek, [$]x[/$] jich ma [$]n[/$].<br>
                         Hledáme matici [$]W[/$] takovou, aby [$]X \cdot W = Y[/$].
-        -       uuid: c3a5e6b1-be02-4e1b-bff2-430ee6c2d1ef
-                guid: l8/#Q|r{28
+        -       guid: l8/#Q|r{28
                 front: |
                         Jednovrstevnatá heteroasociativní síť bez zpětné vazby
                         - co když je [$]m=n[/$]?
                 back: |
                         [$]X[/$] je čtvercová. Má-li inverzi,
                         tak [$]W=X^{-1}\cdot Y[/$].
-        -       uuid: f762504c-ad36-4db0-b964-877035c03a31
-                guid: ~87f[fEL=
+        -       guid: ~87f[fEL=
                 front: |
                         Rekurentní autoasociativní síť bez step function -
                         vlastní vektory
                 back: |
                         Existuje-li pevný bod [$]\\xi \cdot W = \\xi[/$],
                         tak to je vlastní vektor s [$]\\lambda=1[/$].
-        -       uuid: 55c0f857-affd-4e65-8f0b-d18c047b00ac
-                guid: k!L5{|XsX8
+        -       guid: k!L5{|XsX8
                 front: |
                         Co se stane, když matici s různými [$]\\lambda[/$] budu
                         neustále násobit jedním vektorem?
                 back: |
                         Dostanu z toho největší vlastní číslo.
                         Jeho eigenvektor je atraktor.
-        -       uuid: f429ddf1-63a8-4764-9875-f6ebca02b5fc
-                guid: b(`[)^-nuK
+        -       guid: b(`[)^-nuK
                 front: Hebbovské učení
                 back: |
                         Síť má přenosovou funkci [$]\\sgn[/$], je jednovrstvá.
@@ -61,22 +54,19 @@ notes:
 
                         Váhová matice:
                         [$]W^{(1)}_{ij} = x^{(1)}_i \\cdot y^{(1)}_j[/$]
-        -       uuid: 104a8bf1-2f98-463f-bfe7-3e465da899e0
-                guid: L@hjZ:-p;h
+        -       guid: L@hjZ:-p;h
                 topic: Hebbovské učení
                 front: |
                         Proč používá bipolární kódování, ne binární?
                 back: Bipolární vektory mají větší šanci na ortogonalitu.
-        -       uuid: 62c57f98-ecf3-4202-89da-f2e7a7cbce49
-                guid: BY(O=qCp}y
+        -       guid: BY(O=qCp}y
                 topic: Hebbovské učení
                 front: |
                         Výstup Hebbovské sítě natrénované na matici pro
                         [$] (x,y)[/$] na nenulovém vektoru [$]x[/$], [$]-x[/$]?
                 back: |
                         [$]y[/$], [$]-y[/$]
-        -       uuid: 42fd3ab6-5cbc-488b-b62d-1071d55681a3
-                guid: g0|SD{)qJm
+        -       guid: g0|SD{)qJm
                 topic: Hebbovské učení
                 front: |
                         Matice sítě pro Hebbovské učení na trénovacích
@@ -85,8 +75,7 @@ notes:
                         [$]W=W^{(1)} + W^{(2)} + \\ldots + W^{(m)}[/$]
 
                         [$]W^{(1)}_{ij}=x^{(1)}_i y^{(1)}_j[/$]
-        -       uuid: d0f60e88-2117-4142-b014-77fc0fa4c53a
-                guid: pPRh:f9Rw/
+        -       guid: pPRh:f9Rw/
                 topic: Hebbovské učení
                 front: Rozdělení výstupu na správný výstup a crosstalk?
                 markdown: false
@@ -98,8 +87,7 @@ notes:
                                         & = & y^{(p)} \cdot (x^{(p)} \cdot x^{(p)}) +
                                               \begin{underbrace}{\sum_{l\neq p} y^{(l)}\cdot (x^{(l)} \cdot x^{(p)})}_{\text{crosstalk}}
                         [/latex]
-        -       uuid: b4cb093c-66b9-4fad-b9a1-7ad8b27814a0
-                guid: r&<<OpB/-!
+        -       guid: r&<<OpB/-!
                 topic: Hebbovské učení
                 front: Jak by měl vypadat crosstalk pro dobré výsledky?
                 back: |
@@ -115,23 +103,20 @@ notes:
 
                         Chci, aby absolutní hodnota všech složek
                         [$]\\sum_{l\\neq p}y^{(l)} \\cdot \\frac{x^{(l)} \\cdot x^{(p)}}{x^{(p)} \\cdot x^{(p)}}[/$] byla menší než 1.
-        -       uuid: 88bd1b9f-4b04-4351-982d-c37c4c467862
-                guid: LX0E/IjP}2
+        -       guid: LX0E/IjP}2
                 front: |
                         Rekurentní asociativní paměť vs. bez zpětné vazby
                 back: |
                         Sféry vlivu atraktorů jsou v rekurentní větší.
                         Ale zase rekurentní asociativní paměť má menší kapacitu.
-        -       uuid: bfd153d4-6451-41a1-80d9-8ba16a67a76f
-                guid: F<%IIby-Rb
+        -       guid: F<%IIby-Rb
                 front: |
                         Maximální kapacita autoasociativní Hebbovské sítě podle
                         dimenze vstupního vektoru
                 back: |
                         [$]m\\sim 0.18n[/$], kde [$]n[/$] je dimenze vstupu, [$]m[/$] je počet uložených vzorů.
                         Předpokládáme nekorelované vzory.
-        -       uuid: 3c69131b-45db-4fbb-8a83-e4f11a7eb932
-                guid: xW3^0Msq6x
+        -       guid: xW3^0Msq6x
                 front: |
                         Maximální kapacita autoasociativní Hebbovské sítě podle
                         dimenze vstupního vektoru &mdash; je to [$]m=0.18n[/$],
@@ -150,24 +135,21 @@ notes:
                         vyjde uvnitř [$]\\pm 1[/$]. Strčíme do toho, že chceme
                         pravděpodobnost chyby [$]0.01[/$].
                         Dostaneme [$]m\\sim 0.18n[/$].
-        -       uuid: 7e9cb342-4b25-42d6-b8c5-1783fb56fc8d
-                guid: ywud0]p5Yn
+        -       guid: ywud0]p5Yn
                 front: |
                         Proč můžeme chtít použít pseudoinverzní matici místo
                         Hebbovského učení?
                 back: |
                         Protože vzory můžou být korelované, takže nevhodné pro
                         přímé Hebbovské učení s korelační maticí.
-        -       uuid: 0fd9a24f-e224-49fe-bb34-367ca7cc0625
-                guid: B}M/s|$Zwl
+        -       guid: B}M/s|$Zwl
                 front: K čemu je pseudoinverzní matice?
                 back: |
                         Hledáme váhovou matici pro asociační paměť že [$]XW=Y[/$].
                         Ale k [$]X[/$] nemusí existovat inverze, tak hledáme
                         matici co minimalizuje [$]\\|XW-Y\\|^2[/$], to
                         minimalizuje [$]W=\\tilde{X}Y[/$]
-        -       uuid: 2d2d66de-68ad-4ced-bc71-877cf5c8949e
-                guid: d=:E82jWtJ
+        -       guid: d=:E82jWtJ
                 front: |
                         Použití pseudoinverzní matice pro minimalizaci odchylky
                         v single-layer BP síti
@@ -199,8 +181,7 @@ notes:
 
                         Limitně pro [$]\\lambda\\rightarrow 0[/$]: [$]W = D\\tilde{X}[/$].
                         Když je více řešení, tak tohle minimalizuje součet čtverců vah.
-        -       uuid: e2f01b17-6c02-4037-a66c-d326c5c33e74
-                guid: jn*LEs=JXy
+        -       guid: jn*LEs=JXy
                 front: |
                         Výpočet pseudoinverzní matice přes vrstevnaté neuronové
                         sítě. K čemu se hodí?

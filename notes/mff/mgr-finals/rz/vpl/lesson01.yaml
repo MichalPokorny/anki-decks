@@ -2,170 +2,139 @@ deck: All::Magisterské státnice::Reprezentace znalostí::Výroková a prediká
         1
 notes:
         # VPL01
-        -       uuid: dbb93f47-fe5c-4246-b2a8-fa5e09d2641e
-                guid: bT6U++G&vQ
+        -       guid: bT6U++G&vQ
                 front: De Morganovy zákony
                 back: |
                         [$]\\neg (p\\vee q)\\ekv \\neg p \\wedge \\neg q[/$]<br>
                         [$]\\neg (p\\wedge q)\\ekv \\neg p \\vee \\neg q[/$]
-        -       uuid: a0e05572-826d-48dc-a83c-eee6c47f1da0
-                guid: C<K;tA-v-/
+        -       guid: C<K;tA-v-/
                 front: |
                         Definice: Korektnost dokazovacího systému
                 back: |
                         Každé dokazatelné tvrzení je pravdivé.
-        -       uuid: f30ff920-05b4-4398-a1ac-be85830b70ff
-                guid: OIQsq/:XE}
+        -       guid: OIQsq/:XE}
                 front: |
                         Definice: Úplnost dokazovacího systému
                 back: |
                         Každé pravdivé tvrzení je dokazatelé.
-        -       uuid: 15be3bd4-cd02-4e59-a111-af17faab4d7b
-                guid: lhW3*A@@u/
+        -       guid: lhW3*A@@u/
                 front: Úplné a korektní dokazovací systémy - kde existuji?
                 back: |
                         Existují pro predikátovou logiku 1. řádu. Pro vyšší řády to neplatí.
-        -       uuid: d76da0c4-15d6-44e4-9432-a6e77dd763fd
-                guid: wG#mg_u_r
+        -       guid: wG#mg_u_r
                 front: Jazyk 2. řádu přidává...
                 back: proměné pro množiny individuí, i relace a funkce
-        -       uuid: f392c07a-37bd-4f9e-a895-1dc8227a15b7
-                guid: v{/6{@6-!e
+        -       guid: v{/6{@6-!e
                 front: Berryho paradox
                 back: Nejmenší přirozené číslo, které nelze definovat méně než 40
                         slovy.
                 include_reverse: true
-        -       uuid: fc297794-9a0b-49ba-b1d4-93fda7465e2a
-                guid: IpPBO`o3rB
+        -       guid: IpPBO`o3rB
                 front: Vlastní třída
                 back: |
                         Třída, která není množina (např. [$]\\{x | x = x\\}[/$])
-        -       uuid: 07d6859d-a95b-4598-8d91-a597fd855f10
-                guid: PX3<{HA^:_
+        -       guid: PX3<{HA^:_
                 front: Uspořádaná dvojice a n-tice pomocí temna
                 back: |
                         [$] (x,y)=\\{x,\\{x,y\\}\\}[/$], [$] (x,y,...,a,b)=( (x,y,...,a),b)[/$]
-        -       uuid: 142e01db-324e-4c11-80d5-455b0ffa5db6
-                guid: i;k(W>t?Fs
+        -       guid: i;k(W>t?Fs
                 front: Extenze prvku v relaci
                 back: |
                         [$]R[x] := \\{y | (x,y)\\in R\\}[/$]
-        -       uuid: 7201551b-4689-4d4c-9a5f-105f8d1ef0e1
-                guid: EH][o8X:L]
+        -       guid: EH][o8X:L]
                 front: Restrikce relace na množinu
                 back: |
                         [$]R \\uparrow z := \\{(x,y)\\in R | x\\in z\\}[/$]
-        -       uuid: fba2d766-3d01-4c2d-bcfc-235380c87129
-                guid: mA!o6LJ2D?
+        -       guid: mA!o6LJ2D?
                 front: Složení relací
                 back: |
                         [$]R \\circ S := \\{(x,z) | \\e y: (x,y)\\in R \\wedge (y,z)\\in S\\}[/$]
-        -       uuid: 87b2a8d7-7d7a-414d-9c5d-6d9f3f8e76aa
-                guid: Q.>lg3h{;Q
+        -       guid: Q.>lg3h{;Q
                 front: Co je to ekvivalence?
                 back: Relace, co je reflexivní, tranzitivní a symetrická.
-        -       uuid: 841205f1-80ed-42bb-a828-65022a2be1ab
-                guid: =2d[h8exG
+        -       guid: =2d[h8exG
                 front: Značení - faktorizace množiny podle ekvivalence
                 back: |
                         [$]X/R[/$]
-        -       uuid: cc67c5d5-eaf9-4bd5-8808-98555ba65f16
-                guid: n&AWO}h8V7
+        -       guid: n&AWO}h8V7
                 front: |
                         Definice: Částečné uspořádaní
                 back: |
                         Relace, co je reflexivní, tranzitivní a antisymetrická.
-        -       uuid: 03be83bc-1276-432d-945c-16ff4459ba53
-                guid: eH^(n*2nl]
+        -       guid: eH^(n*2nl]
                 front: |
                         Definice: Totální (lineární) uspořádaní
                 back: |
                         Relace, co je reflexivní, tranzitivní a antisymetrická
                         &mdash; a navíc dichotomní
                         (buď [$]x\\leq y[/$], nebo [$]y\\leq x[/$])
-        -       uuid: 121e98af-2fa4-4424-89db-a35176fe929b
-                guid: r$T4y41C$C
+        -       guid: r$T4y41C$C
                 front: |
                         Definice: Dobré uspořádaní
                 back: |
                         Lineární uspořádání, kde každá neprázdná množina
                         obsahuje nejmenší prvek.
-        -       uuid: a70d9d08-6b88-4d9c-b376-3c8af7c41a98
-                guid: Q)4F@I0Jyy
+        -       guid: Q)4F@I0Jyy
                 front: |
                         Definice: Husté uspořádaní
                 back: |
                         [$]x<y\\rightarrow\\e z(x<z\\wedge z<y)[/$]
-        -       uuid: dc27025f-a9b3-4b08-8c5e-0c9aa33a8409
-                guid: o)ZH.4;zj/
+        -       guid: o)ZH.4;zj/
                 front: Surjektivní funkce (na [$]Y[/$])
                 back: |
                         [$]\\mathrm{rng}(f)=Y[/$]
 
-        -       uuid: 2c22092b-1786-4976-b848-c6ec6d669c5a
-                guid: FY9MMKddfe
+        -       guid: FY9MMKddfe
                 front: Injektivní funkce (prostá)
                 back: |
                         Různé prvky mají různé obrazy
-        -       uuid: 2461213c-5a4d-46f8-9718-360ffcc300cc
-                guid: McZ<>dS?+5
+        -       guid: McZ<>dS?+5
                 front: Definice - bijekce [$]X[/$] a [$]Y[/$]
                 back: |
                         Prostá, definovaná na [$]X[/$], a na [$]Y[/$]
-        -       uuid: f44a1ee7-9fd9-4e13-a3e7-aa0d51b83684
-                guid: b,A*7C~hDt
+        -       guid: b,A*7C~hDt
                 front: Notace - obraz množiny přes funkci
                 back: |
                         [$]f[A][/$]
-        -       uuid: 3558d4ff-4be4-4135-9230-9c6f0b0d5ca6
-                guid: KK[+o5FYAv
+        -       guid: KK[+o5FYAv
                 front: Složení funkcí
                 back: |
                         [$] (f\\circ g)(x)=g(f(x)) [/$]
-        -       uuid: 5387df4e-9ea2-44e8-9e46-78893d356209
-                guid: tGLyz,n1Q4
+        -       guid: tGLyz,n1Q4
                 front: Notace - všechny funkce z [$]X[/$] do [$]Y[/$]
                 back: |
                         [$]\\_^X Y[/$]
-        -       uuid: 6191b09b-5e12-46b2-afa5-a8f60ab1ea8b
-                guid: z%LrcHc!r*
+        -       guid: z%LrcHc!r*
                 front: Temno - přirozená čísla
                 back: |
                         [$]0 = \\emptyset, 1 = \\{\\emptyset\\}, 2 = \\{0,1\\}, 3 = \\{0,1,2\\}, \\ldots[/$]
                         Nejmenší množina obsahující [$]\\emptyset[/$] a uzavřená na [$]S(x):=x\\cup\\{x\\}[/$]
-        -       uuid: 64a22917-7908-4fd9-a69a-c32e48aefd6c
-                guid: kBU6]fmzOq
+        -       guid: kBU6]fmzOq
                 front: Temno - celá čísla
                 back: |
                         [$] (\\N\\times\\N)/\\sim, (a,b)\\sim(c,d) := (a+d)=(b+c)[/$]
-        -       uuid: 99cd93eb-8c5b-47c5-b80d-792c2228814a
-                guid: Baj^4<&hbu
+        -       guid: Baj^4<&hbu
                 front: Temno - racionální čísla
                 back: |
                         [$]\\mathbb{Q}=(\\Z\\times(\\Z\\setminus\\{0\\}))/\\sim; \\sim:=(a,b)\\sim(c,d) :=: a\\cdot d = b\\cdot c[/$]
-        -       uuid: 7da62bd3-8a22-4aac-a45e-afd2fa97e1ef
-                guid: IHiw*(3!<6
+        -       guid: IHiw*(3!<6
                 front: Temno - reálná čísla
                 back: |
                         Množina řezů [$]\\mathbb{Q}[/$] (netriviální,
                         dolů uzavřené podmnožiny [$]Q[/$] bez největšího prvku).
-        -       uuid: 699fbc2b-de26-41d5-8413-738f99de1ef1
-                guid: EUpTeIe=G+
+        -       guid: EUpTeIe=G+
                 front: Temno - konstrukce reálných čísel přes řezy, co je uzavřenost
                         dolů?
                 back: |
                         [$]y<x\\in A\\rightarrow y\\in A[/$]
-        -       uuid: 8aa0f5d0-d6ab-4766-a4e1-4f3e32054ad0
-                guid: Jg6|m%)Kv1
+        -       guid: Jg6|m%)Kv1
                 front: Temno - subvalence/stejná nebo menší velikost
                 back: |
                         [$]x \\prec y[/$], když existuje prostá funkce z [$]x[/$] do [$]y[/$]
-        -       uuid: 371d6d55-64fa-43dd-9b59-92f75469f0bc
-                guid: CO6LQZn>Ua
+        -       guid: CO6LQZn>Ua
                 front: Temno - stejná velikost
                 back: Když existuje prostá funkce
-        -       uuid: 2a82ebde-66ca-4e93-8362-e3102d5460ec
-                guid: z%0;rn_)rS
+        -       guid: z%0;rn_)rS
                 front: Cantorova věta a důkaz
                 back: |
                         [$]x \\prec P(x)[/$] pro každou množinu [$]x[/$]
@@ -175,17 +144,14 @@ notes:
                         Ať pro spor je [$]g:P(x)\\rightarrow x[/$] prostá.
                         Definuj [$]y=\\{g(z) : z\\subseteq x \\wedge g(z)\\notin z\\}[/$].
                         Potom [$]g(y)\\in y\\ekv g(y)\\notin y[/$], spor.
-        -       uuid: c5a75596-b062-4fac-a1cc-7b7e914eccbc
-                guid: m^oRy@A%4L
+        -       guid: m^oRy@A%4L
                 front: Funkce nulárních funkcí
                 back: Ztotožněné s konstantami
-        -       uuid: cbf4ae9d-325d-4469-b4d5-08dd71a9d1b7
-                guid: in54%D2LqQ
+        -       guid: in54%D2LqQ
                 front: Temno - strom, větev
                 back: |
                         Množina s částečným uspořádáním, co má jediný nejmenší prvek (kořen) a množina předků libovolného prvku je dobře uspořádaná. Větev: maximální lineárně uspořádaná podmnožina.
-        -       uuid: 9857fa6b-b11e-4a04-907a-c5190219a9f6
-                guid: H1Y7;+WX{s
+        -       guid: H1Y7;+WX{s
                 front: Königovo lemma a důkaz
                 back: |
                         Každý nekonečný, konečně se větvící strom obsahuje nekonečnou větev.

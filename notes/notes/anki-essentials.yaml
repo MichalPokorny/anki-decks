@@ -2,58 +2,47 @@
 deck: All::Notes::Anki Essentials
 topic: Anki Essentials
 notes:
--       uuid: 0f9c2230-bec3-4cc1-a4ad-2ce809c97042
-        guid: A%:,yFyp^5
+-       guid: A%:,yFyp^5
         front: |
                 What does `anki/collection.anki2` contain?
         back: All notes, cards, decks and templates; not media
--       uuid: af3a110c-0028-4dc1-91b3-bfd9d37eb575
-        guid: K3|3M}P[YN
+-       guid: K3|3M}P[YN
         front: Where are notes, cards, templates stored?
         back: '`anki/collection.anki2`'
--       uuid: 27b09dab-c482-46e5-ae4f-f9d853441be0
-        guid: Mkhha3,Hf=
+-       guid: Mkhha3,Hf=
         front: Where are media files (images and sounds) stored?
         back: '`anki/collection.media`'
--       uuid: 835ed0a7-12f0-4e6f-afdb-3b933533ba92
-        guid: ri^[db%?^,
+-       guid: ri^[db%?^,
         front: |
                 What does `anki/collection.media` contain?
         back: Images and sounds attached to decks
--       uuid: 0a192903-abe5-40db-b3ab-84917f9646e6
-        guid: l8)^SU,2Eo
+-       guid: l8)^SU,2Eo
         front: |
                 Default order of presenting new cards for learning
         back: |
                 Order in which they were added
--       uuid: d6067156-bf6a-4f2e-b99f-dafbc7608ac4
-        guid: tBB/Z]Vr^A
+-       guid: tBB/Z]Vr^A
         front: What does the `D` shortcut do?
         back: Return to Decks window
--       uuid: f2e07328-1719-4d84-9f64-7f51204ddae7
-        guid: B_.WPTK<d+
+-       guid: B_.WPTK<d+
         front: Shortcut to return to Decks window
         back: |
                 `D`
--       uuid: 83c6d31f-4dfd-4876-8a9a-bd23a46aefd8
-        guid: l{P4aTi8a`
+-       guid: l{P4aTi8a`
         front: Default limit of cards to answer per day
         back: 100
--       uuid: 4934cfc5-ae14-4ba8-a35e-0025ae52fb12
-        guid: dyq;^iiRgc
+-       guid: dyq;^iiRgc
         front: Shortcut to sync with AnkiWeb
         back: '`Y`'
         include_reverse: true
--       uuid: ab5db302-e1fd-42ba-bbb0-7bfab8ef6710
-        guid: zPb82#m|d.
+-       guid: zPb82#m|d.
         front: How to use the Cloze note type
         markdown: false
         back: |
                 *Text*: The Two Stooges are { {c1::Moe} } and { {c2::Larry} }.
                 <br>
                 *Extra*: Any extra text to show on the back of the card.
--       uuid: 9af3cf5d-08e5-4fd5-9239-4e1fbaeccf11
-        guid: BxZ]QFcNNx
+-       guid: BxZ]QFcNNx
         front: Lifecycle of an Anki card
         back: |
                 New (card is created from note and card layout)
@@ -61,35 +50,30 @@ notes:
                 Learning (card is studied for the first time)
                 [$]\\leftrightarrows[/$]
                 Review (card is learned and scheduled for review)
--       uuid: dcc78350-a42d-4f9c-97d6-dc333a756d56
-        guid: D7^yjEew8~
+-       guid: D7^yjEew8~
         front: How long does a card stay in the Learning stage?
         back: |
                 Until Anki believes I have learned it.
                 By default, this is until it's answered correctly
                 at least twice.
--       uuid: 02f8a831-890d-4e52-890b-f3fb1c417667
-        guid: p_,%hk[U4^
+-       guid: p_,%hk[U4^
         front: What happens in the Review stage?
         back: |
                 Anki puts in longer and longer gaps.
                 <br>
                 Any time I get it wrong, Anki puts it in Learning again.
--       uuid: ae70e74b-587a-4a1c-b51d-a6e57b3ea34a
-        guid: Fbn}rk5>K_
+-       guid: Fbn}rk5>K_
         topic: 20 rules for formulating knowledge
         front: First ...
         back: '... Understand; time spent blind learning is wasted.'
--       uuid: 2c2a46d2-df45-4898-8e86-c709a6423af1
-        guid: J;dlq%m57u
+-       guid: J;dlq%m57u
         topic: 20 rules for formulating knowledge
         front: Start with ...
         back: |
                 ... the Big Picture; build a picture of the whole
                 before breaking it down into simple items - memorizing
                 loosely related facts is difficult
--       uuid: 35b28ac3-31b6-4379-8bc9-f002fe77c74a
-        guid: BDe<A}c/In
+-       guid: BDe<A}c/In
         topic: 20 rules for formulating knowledge
         front: Build on ...
         back: |
@@ -97,16 +81,14 @@ notes:
                 difficult, complex ideas. Memorizing obvious things
                 is not a waste of time. Forgetting the basics is very
                 costly.
--       uuid: ae5e2851-4bbe-4016-8a92-0a33f548866f
-        guid: vU~8U.o+|b
+-       guid: vU~8U.o+|b
         topic: 20 rules for formulating knowledge
         front: Simplify
         back: |
                 Simpler models are easier to create, learn, memorize.
                 The longer it takes to remember an idea, the simpler
                 it needs to be. Answers should be short.
--       uuid: 19d1c8ea-f661-4e1f-bef4-98ddacb0502e
-        guid: kB$^0DQOaH
+-       guid: kB$^0DQOaH
         topic: 20 rules for formulating knowledge
         front: Use ... (8 techniques)
         back: |
@@ -120,322 +102,252 @@ notes:
                 <li> Redundancy
                 <li> Date Stamping
                 </ul>
--       uuid: 3ac65894-316d-4d3e-abca-97cd0e4a6b50
-        guid: L[+HAlUpXa
+-       guid: L[+HAlUpXa
         topic: 20 rules for formulating knowledge
         front: Avoid ...
         back: |
                 Sets, enumeration
--       uuid: 4035b7ce-86fa-4c78-a97f-de4825a724ff
-        guid: f!q5JwEcR[
+-       guid: f!q5JwEcR[
         topic: 20 rules for formulating knowledge
         front: If you must use enumerations, ...
         back: '... then use overlapping cloze deletion when possible.'
--       uuid: 6c7136d5-9e02-4845-9bb2-5008c4411717
-        guid: ev}p$eGz_b
+-       guid: ev}p$eGz_b
         topic: 20 rules for formulating knowledge
         front: Combat ...
         back: '... interference; knowledge of one item makes it hard to remember another
                 item.'
--       uuid: b91ec366-7bb1-402f-b07d-197a4abf56a0
-        guid: x7QFWZU/l!
+-       guid: x7QFWZU/l!
         front: Single greatest cause of forgetting
         back: Interference. Eliminate on sight.
--       uuid: a168fafa-1fcf-4898-b5eb-15e8f54d7743
-        guid: et6e<]^p9R
+-       guid: et6e<]^p9R
         front: Optimize ...
         back: wording. Use as few words as necessary, conveying information as clearly
                 as possible.
--       uuid: 9d92099f-6110-4bd8-94cd-806957882fe2
-        guid: D5XQ1(5|5a
+-       guid: D5XQ1(5|5a
         front: Refer to ...
         back: other memories.
--       uuid: f490a829-9cfd-478e-b265-06705284c792
-        guid: ow~>(h/?FS
+-       guid: ow~>(h/?FS
         front: Rely on ...
         back: emotional states; vivid and shocking examples are easy to remember.
--       uuid: 77450826-27a1-4902-9472-60696a502fbf
-        guid: OB)l5x,uzr
+-       guid: OB)l5x,uzr
         front: What are *context cues*?
         back: |
                 Simplified wording putting an idea within a category.
                 Example: "author: Getting Things Done" instead of "Who
                 wrote the book Getting Things Done?".
--       uuid: 9200d9a1-fbeb-43e8-99ce-28998fa7a766
-        guid: x!u8%fZhlk
+-       guid: x!u8%fZhlk
         front: Provide ...
         back: sources. Record who you got the information from.
--       uuid: f5e13bea-b365-4829-82dd-fca671d56e4b
-        guid: BLK*D,*D(I
+-       guid: BLK*D,*D(I
         front: What is date stamping?
         back: Recording date of pieces of information that is volatile.
--       uuid: f7179054-47c1-44ba-bd82-4e224d6167b3
-        guid: pWHYURH:C/
+-       guid: pWHYURH:C/
         front: How are decks sorted in deck list?
         back: Alphabetically
--       uuid: 3930b1d2-51ec-452d-9067-9a26b90c6ff3
-        guid: z{is;wEpIK
+-       guid: z{is;wEpIK
         front: How to put a deck on top?
         back: Put "@" before it (they're sorted alphabetically)
--       uuid: c4132f00-e817-4de3-8617-42ad7a7c0865
-        guid: Mf[4*JUi[w
+-       guid: Mf[4*JUi[w
         front: How to put a deck on bottom?
         back: Put "-" before it (they're sorted alphabetically)
--       uuid: c9508a36-e00c-4e26-b649-9a4c2654c3b4
-        guid: Ril+/jZBVV
+-       guid: Ril+/jZBVV
         front: Cloze syntax with hints
         back: "{ {cl1::Moe::someone's name} }"
--       uuid: 25c77722-e1ab-484a-859f-064f4379fe3e
-        guid: r[TA]Lfbfv
+-       guid: r[TA]Lfbfv
         front: What about overlapping clozes?
         back: They won't work.
--       uuid: c754d130-445c-4528-9f08-4917afcf0dbb
-        guid: xuWc#:aagT
+-       guid: xuWc#:aagT
         front: How are tags separated?
         back: By spaces
--       uuid: 9322eb33-67e2-4add-a019-4e7bb2bae8a2
-        guid: D7ZX5A.#(&
+-       guid: D7ZX5A.#(&
         front: How to insert a field into a note template?
         back: |
                 { {FieldName} }
--       uuid: 497e6088-3756-4950-b93e-5920361e85d5
-        guid: l[L!%zdgtp
+-       guid: l[L!%zdgtp
         front: Special field replaced by front template
         back: |
                 { {FrontSide} }
         include_reverse: true
--       uuid: a80c8384-5f3b-44c9-9e19-cfbf07d2a138
-        guid: P|y)?*FX#V
+-       guid: P|y)?*FX#V
         front: Special field - tags from note
         back: |
                 { {Tags} }
         include_reverse: true
--       uuid: ae41186a-ccf7-4613-b8ab-bda21f24fe6d
-        guid: hzFjE22(E9
+-       guid: hzFjE22(E9
         front: Special field - note type the card was created from
         back: |
                 { {Type} }
         include_reverse: true
--       uuid: 9e3c5f2b-c2a8-433d-99c6-d3a0d44051a2
-        guid: K]=KUdaYq>
+-       guid: K]=KUdaYq>
         front: Special field - deck the card belongs to
         back: |
                 { {Deck} }
         include_reverse: true
--       uuid: 50904ff0-c457-4396-bd62-ce899204f89c
-        guid: Ju:~N3uqlf
+-       guid: Ju:~N3uqlf
         front: Special field - name of this card type
         back: |
                 { {Card} }
         include_reverse: true
--       uuid: 3d7c535b-c2d5-4804-8867-bc208719e942
-        guid: O]teJ7Rh~1
+-       guid: O]teJ7Rh~1
         front: Special field - cloze text, with either blank, or filled out
         back: |
                 { {cloze:Text} }
--       uuid: 5b815e40-90b4-48c0-bffb-003dc7e6fe85
-        guid: Gq%F~~t<BQ
+-       guid: Gq%F~~t<BQ
         front: How to display images that are larger than the screen?
         back: |
                 `img { max-width: none; max-height: none; }`
--       uuid: b039f633-a9e6-4c44-9a05-15b515f26331
-        guid: T*+j1ygL@
+-       guid: T*+j1ygL@
         front: What's the meaning of "steps"?
         back: |
                 Duration and number of reviews required before
                 moving card from Learning to Review
--       uuid: cbd63cc8-b0b8-403e-8a73-99015aba182a
-        guid: CDv5m5u7~*
+-       guid: CDv5m5u7~*
         front: Where are "steps" set?
         back: Per deck
--       uuid: afcdf3dd-0ef8-4691-96af-051007959e79
-        guid: tvf`oV<)c1
+-       guid: tvf`oV<)c1
         front: What are default *steps*?
         back: |
                 1 minute, 10 minutes
--       uuid: 3e15506c-f02e-483d-9aa6-793cbfe7c389
-        guid: J;HNH6y>z^
+-       guid: J;HNH6y>z^
         front: What does the *Easy* button do for cards in learning?
         back: Immediately moves it into reviewing stage
--       uuid: c8b9a760-c708-451f-8aa7-e57437ba902d
-        guid: nZ]Js2:+gw
+-       guid: nZ]Js2:+gw
         front: How does clicking *Good* increase the interval?
         back: By default, [$]2.5\\times[/$]
--       uuid: dde02acb-f0f0-4a9d-af0e-dab2e9527383
-        guid: H<@8v9(f]g
+-       guid: H<@8v9(f]g
         front: What is a *lapse*?
         back: Forgetting a card that is already learned
--       uuid: c63aa8d6-b866-402b-a8bd-8f95d921b39c
-        guid: ql,vUD2gfM
+-       guid: ql,vUD2gfM
         front: What are *leeches*? When are they marked?
         back: |
                 Leeches are cards you keep learning and forgetting.
                 They are suspended after 8 lapses.
--       uuid: 8ae71b9b-4a8d-436c-a68d-0b506952e571
-        guid: IQ]a9g)1D9
+-       guid: IQ]a9g)1D9
         front: Default per-deck limit of new cards per day
         back: 20
--       uuid: 8d782b45-cd6c-4f6f-978b-2cb18e52b733
-        guid: DnPsH>C!99
+-       guid: DnPsH>C!99
         front: Default per-deck limit of reviews per day
         back: 100
--       uuid: 63c98109-6751-476b-9320-1c036c826bcc
-        guid: G)i4J-QhGc
+-       guid: G)i4J-QhGc
         front: Shortcut - `*`
         back: Mark this note
--       uuid: 3af44fc8-1e94-4857-89f5-fb482ef11280
-        guid: nt)r~`[~hT
+-       guid: nt)r~`[~hT
         front: Shortcut - mark this note
         back: '`*`'
--       uuid: d61fd6df-b46c-490c-bd81-2732f37448e5
-        guid: JAC18mC3>j
+-       guid: JAC18mC3>j
         front: Shortcut - bury note
         back: '`-`'
--       uuid: 3748c87f-d8b8-47fc-a441-63169945bf3f
-        guid: JWoZw[]z#F
+-       guid: JWoZw[]z#F
         front: Shortcut - `-`
         back: Bury note
--       uuid: 207b9338-86d2-41c4-8cd8-aeb4fc707f89
-        guid: ml2hX-{{NW
+-       guid: ml2hX-{{NW
         front: Shortcut - `@`
         back: Suspend card
--       uuid: 0e306db5-c3de-461d-9341-4c0b9b9df201
-        guid: y(<Gp.>]`U
+-       guid: y(<Gp.>]`U
         front: Shortcut - suspend card
         back: '`@`'
--       uuid: 1057de63-b0ef-4629-a9c2-3fb267300ed3
-        guid: h`/[Gy%M!{
+-       guid: h`/[Gy%M!{
         front: Shortcut - suspend note
         back: '`!`'
--       uuid: 9d03fbdb-84c4-450d-b5a0-4e2b48fa2e30
-        guid: rwO:;xo^PS
+-       guid: rwO:;xo^PS
         front: Shortcut - `!`
         back: Suspend note
--       uuid: 6dc56d5c-991d-4726-a42f-c5bdb25173dd
-        guid: Gb(`)$[JE<
+-       guid: Gb(`)$[JE<
         front: Shortcut - `Delete`
         back: Delete current note
--       uuid: a2db1ced-5846-4344-bd63-f88f980265d1
-        guid: xiTDw;ePGS
+-       guid: xiTDw;ePGS
         front: Shortcut - delete current note
         back: '`Delete`'
--       uuid: c4bb68c9-f2c2-473c-856c-0d8837b7f5b5
-        guid: d2h>1wN)iT
+-       guid: d2h>1wN)iT
         front: Shortcut - replay audio
         back: '`R`'
--       uuid: 79662aca-4df7-4a6c-a0e9-5a0e234b12d2
-        guid: DFy++6k*{+
+-       guid: DFy++6k*{+
         front: Shortcut - `R`
         back: Replay audio
--       uuid: 6ff0721b-f865-49a2-a4f8-8d64bc1ef2a5
-        guid: fW0ck;zXGv
+-       guid: fW0ck;zXGv
         front: Shortcut - `Shift-V`
         back: Record own voice
--       uuid: 144d4965-78ab-4017-8d62-0080da30e1f4
-        guid: CqeOYHo>Y*
+-       guid: CqeOYHo>Y*
         front: Shortcut - record own voice
         back: '`Shift-V`'
--       uuid: c6a44975-5efc-4d53-bce3-3cb2c1c2a05c
-        guid: d[[ehp0)7_
+-       guid: d[[ehp0)7_
         front: Shortcut - replay own voice
         back: '`v`'
--       uuid: 82260b5a-b051-4fe1-9bbf-4aecc82dc9d7
-        guid: LI94%S*0as
+-       guid: LI94%S*0as
         front: Shortcut - `v`
         back: Replay own voice
--       uuid: 681d86fa-bf3d-4f8d-b344-2999dacee9d0
-        guid: nWX.AX5EMg
+-       guid: nWX.AX5EMg
         front: Search query for all cards
         back: '`*`'
--       uuid: 6be4a176-a7f3-466d-93c8-211675b42f01
-        guid: JSAR50ZoFf
+-       guid: JSAR50ZoFf
         front: Shortcut - show statistics
         back: '`Shift-S`'
--       uuid: 95a4da09-e919-4fbc-b71d-e8bdeb28b00f
-        guid: oD_Z81&mO6
+-       guid: oD_Z81&mO6
         front: Shortcut - `Shift-S`
         back: Show statistics
--       uuid: 9d5049a4-954b-4f5a-8923-b1bcce8ce5e5
-        guid: Lg1y&b@(cZ
+-       guid: Lg1y&b@(cZ
         front: Shortcut - `b`
         back: Open card browser
--       uuid: 377efb83-ae3a-4921-9303-8f58ec9fdef1
-        guid: be4BH5XuUG
+-       guid: be4BH5XuUG
         front: Shortcut - open card browser
         back: '`b`'
--       uuid: ac9155cd-8c41-4d5d-a634-4170946f5c7b
-        guid: IjEXY#UspV
+-       guid: IjEXY#UspV
         front: Search query - search in deck "My Deck"
         back: "`'deck: My Deck'`"
--       uuid: 6c84470e-30ba-4b35-840d-694e6561beed
-        guid: k4G>-PZidO
+-       guid: k4G>-PZidO
         front: How to easily add images within the note editor?
         back: Drag-and-drop them there
--       uuid: 491eeaf0-adbd-4b63-aa38-881a75cf44f6
-        guid: gO!QjeQH[+
+-       guid: gO!QjeQH[+
         front: Difference between equation mode and math environment mode
         back: Equation mode gives smaller images
--       uuid: d02bd981-5465-419d-9df1-421964f7438d
-        guid: Cl^m^=YUd9
+-       guid: Cl^m^=YUd9
         front: Cloze and LaTeX
         back: |
                 We can totally use clozes within LaTeX
--       uuid: da73b69e-6482-49d6-b412-ffe9f0c292bd
-        guid: k)cM#oe;qr
+-       guid: k)cM#oe;qr
         front: Where are LaTeX headers and footers stored?
         back: In note types
--       uuid: 404ed4ce-ea65-48e2-a545-3d2c636c2bb6
-        guid: O*Y4>0C#d9
+-       guid: O*Y4>0C#d9
         front: What to do if I want to put double curlies in note fields?
         back: |
                 Add a space in between them
--       uuid: bec4f3cb-cd71-4e62-9bd5-3bad7dd28127
-        guid: C;D*?!z]*t
+-       guid: C;D*?!z]*t
         front: Why may LaTeX not be shown on mobile?
         back: |
                 Because the card must first be viewed on desktop to
                 generate the LaTex before
                 the mobile sees the LaTeX.
--       uuid: 587fc2c8-2b2b-4fc7-bdd0-3835ef05a768
-        guid: Q#t#B2W[dg
+-       guid: Q#t#B2W[dg
         front: What workaround forces regeneration of all LaTeX?
         back: |
                 Tools > Maintenance > Unused Media
--       uuid: 6224352b-b925-492d-ae8d-e7a563d44258
-        guid: M6eW,iYIH/
+-       guid: M6eW,iYIH/
         front: In TXT import, what happens to columns not mapped to note field?
         back: |
                 They are added as tags
--       uuid: ab70a26f-67ed-4994-be95-215e28dcdf30
-        guid: w~7IPR_@4M
+-       guid: w~7IPR_@4M
         front: In TXT import, how can we add tags?
         back: |
                 As columns not mapped to any note fields
--       uuid: 868bfb16-e348-40d1-aca3-1e35406f8921
-        guid: gWR`<a,Jwb
+-       guid: gWR`<a,Jwb
         front: In TXT import, how to add some tags to every added note?
         back: |
                 Add first line saying `tags:tag1 tag2 tag3`
--       uuid: 6f0535ec-b365-4b5d-ab4d-4837fd004afb
-        guid: zI@@zG7OPJ
+-       guid: zI@@zG7OPJ
         front: In TXT import, how to comment?
         back: |
                 `# comment`
--       uuid: 33b671e2-8d8d-4bbb-bdcb-9fbb147275cd
-        guid: ni_T1mJMMU
+-       guid: ni_T1mJMMU
         front: Shortcut - open note editor for this card
         back: |
                 `e`
--       uuid: 2cda577c-732d-44e5-8471-323a5552584e
-        guid: sl&+S6V7}*
+-       guid: sl&+S6V7}*
         front: Shortcut - `e`
         back: |
                 Open note editor for this card
--       uuid: b454d180-7c14-4cb2-92c5-4c9d0bce181b
-        guid: t]/cTe_%gH
+-       guid: t]/cTe_%gH
         front: Shortcut - start adding notes in deck list
         back: '`a`'
--       uuid: 33c159d7-24b6-4eed-a58c-187469a98b4e
-        guid: J,0ta1w_pF
+-       guid: J,0ta1w_pF
         front: Shortcut - `a`
         back: Start adding notes in deck list

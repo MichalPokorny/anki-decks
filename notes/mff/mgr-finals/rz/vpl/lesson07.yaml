@@ -2,25 +2,21 @@ deck: All::Magisterské státnice::Reprezentace znalostí::Výroková a prediká
         7
 notes:
         # VPL07
-        -       uuid: 57180c0e-17da-4b23-bc7c-d4276feb2528
-                guid: FXShS{5c;R
+        -       guid: FXShS{5c;R
                 topic: Predikátová logika
                 front: Kdy jsou dvě struktury pro jazyk elementárně ekvivalentní?
                 back: |
                         Když v nich platí stejné formule.
-        -       uuid: 7026775f-598b-4f44-a40f-bafe3377d3e3
-                guid: u1[_yBn#,
+        -       guid: u1[_yBn#,
                 topic: Predikátová logika
                 front: Kdy je teorie predikátové logiky kompletní?
                 back: Když má až na elementární ekvivalenci jeden model.
-        -       uuid: f1ae363a-3beb-43be-9298-96d4462df6cc
-                guid: r@/c7o9MJh
+        -       guid: r@/c7o9MJh
                 topic: Predikátová logika
                 front: Sentence platí a modely její teorie
                 back: |
                         [$]T,\\neg\\varphi[/$] nemá model právě když [$]T\\vDash\\varphi[/$]
-        -       uuid: 0ac76171-c4fc-4472-b630-a7cd346f8ac0
-                guid: oFFU9bL@4*
+        -       guid: oFFU9bL@4*
                 topic: Predikátová logika
                 front: Definice - podstruktura
                 back: |
@@ -31,42 +27,35 @@ notes:
                         <br>
                         [$]R^B=R^A\\cap B^{ar(R)}[/$],
                         [$]f^B=f^A\\cap B^{ar(f) + 1}[/$]
-        -       uuid: 3efd2fef-a40d-411c-a84f-bbe71ea136b7
-                guid: F|yu1ZNhLa
+        -       guid: F|yu1ZNhLa
                 front: Definice - Doména podstruktury [$]\\mathcal{A}[/$], parcializace/restrikce
                         struktury
                 back: |
                         [$]C\\subseteq A[/$] je doména podstruktury [$]\\mathcal{A}[/$],
                         když je [$]C[/$] uzavřená na funkce struktury.
                         Tahle podstruktura je [$]\\mathcal{A}\\upharpoonright C[/$].
-        -       uuid: 2d37d192-8f2d-46d4-bd4b-51a708a8fd07
-                guid: dv!&;r}=<)
+        -       guid: dv!&;r}=<)
                 front: Platnost otevřené formule a podstruktury
                 back: Otevřená formule platí právě když platí ve všech podstrukturách
-        -       uuid: 6a88b8d7-febe-4035-98ef-c054a9bd9d38
-                guid: A^-<!wTL@j
+        -       guid: A^-<!wTL@j
                 front: Podstruktury modelů otevřených teorií...
                 back: '...jsou taky modely T.'
-        -       uuid: 77f28e2a-8e8e-4947-861f-c764b65b1438
-                guid: h,/b}#odk5
+        -       guid: h,/b}#odk5
                 front: Generovaná podstruktura
                 back: |
                         Když je [$]B[/$] nejmenší podmnožina nosné množiny
                         co je uzavřená na všechny funkce, pak [$]\\mathcal{A}\\upharpoonright B[/$]
                         se značí taky [$]\\mathcal{A}< X >[/$] &mdash; generovaná množinou X.
-        -       uuid: 653333bb-a0e5-484c-bcbb-c25d0fd6d2d4
-                guid: e*wxp^b<.Y
+        -       guid: e*wxp^b<.Y
                 front: Redukty a expanze struktury
                 back: Přidání nebo odebrání realizací
-        -       uuid: 0cc7f4cc-f083-47a1-8ebc-1cdba375bdae
-                guid: p/E;,BXiK[
+        -       guid: p/E;,BXiK[
                 front: Věta o konstantách
                 back: |
                         Když vemu formuli a nahradím volné proměnné novými
                         konstantami, je původní formule platná právě když
                         nahrazená.
-        -       uuid: c697f0ee-b254-4e54-8ab4-c6f631a9dd7c
-                guid: fxKW<J9fPL
+        -       guid: fxKW<J9fPL
                 front: Teorie Booleových algeber
                 back: |
                         [$]L=<-,\\wedge,\\vee,0,1>[/$] s rovností<br>
@@ -79,8 +68,7 @@ notes:
                         [$]0\\neq1[/$].
 
                         Až na isomorfismus jsou to právě [$]{}^n 2[/$].
-        -       uuid: 41c75c64-10f8-4496-86c0-2ee584532ba9
-                guid: cYLQrmTYIl
+        -       guid: cYLQrmTYIl
                 front: Tablo metoda v PL
                 back: |
                         Formule v položkách jsou uzavřené formule (bez volných proměnných).
@@ -88,8 +76,7 @@ notes:
                         Přidám spočetně mnoho "svědků" (pomocné konstantní symboly).
                         V dokončené větvi budou instance všech dosazení všech konstantních termů.
                         Jazyk musí být nejvýše spočetný.
-        -       uuid: e220d595-7e21-48b9-aafa-93603166311e
-                guid: G*}Ex_M9sS
+        -       guid: G*}Ex_M9sS
                 front: Tablo metoda v PL - nová atomická tabla
                 back: |
                         [$]T(\\a x)\\varphi(x)[/$]: dosaď konstantní term<br>

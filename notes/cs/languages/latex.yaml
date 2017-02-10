@@ -2,24 +2,19 @@ topic: LaTeX
 deck: All::CS::Languages::LaTeX
 uid_tag: cs/languages/latex
 notes:
--       uuid: 5916f44c-facc-4fc7-80e9-b8be66cafd6a
-        guid: Q^v/mpvIe>
+-       guid: Q^v/mpvIe>
         front: TODO notes
         back: '`\usepackage{todonotes}`, then `\todo{Oprav to!}`'
--       uuid: 826ad2ea-68ed-4249-890a-ecef4a6ece42
-        guid: zXZoqF>`>A
+-       guid: zXZoqF>`>A
         front: Add text to math; package
         back: '`$\text{Hello}\ \sqrt{x}$`; [$]\text{Hello}\ \sqrt{x}[/$]; `amsmath`'
--       uuid: 67cf4b34-996e-421a-8790-ef07639a4d76
-        guid: d}$EQ.Wzvx
+-       guid: d}$EQ.Wzvx
         front: Import package
         back: '`\usepackage{amsmath}`'
--       uuid: 6bac8891-a8b6-434c-86a0-31ae79eace81
-        guid: ku{QL.c|do
+-       guid: ku{QL.c|do
         front: Define new unary math operation
         back: '`\DeclareMathOperator\mycos{cos}`'
--       uuid: 0e7b2430-cd3d-4289-935a-24c822b819ad
-        guid: B$y4?;jb6H
+-       guid: B$y4?;jb6H
         front: ' [$$] f(x)=\begin{cases} \sin x & \text{if }x\geq 0,\\\\ \cos x &
                 \text{otherwise} \end{cases} [/$$] '
         back: |
@@ -30,8 +25,7 @@ notes:
                 \end{cases}
                 `
         include_reverse: true
--       uuid: bcd27fd1-6c5d-4e2b-b91d-4fd543a03b9d
-        guid: KighfAPN*f
+-       guid: KighfAPN*f
         markdown: false
         front: ' [$$] f(x) = \underbrace{(x+2)^3}_\text{Hello} + \overbrace{(x-3)}^\text{World}
                 [/$$] '
@@ -40,8 +34,7 @@ notes:
                 f(x) = \underbrace{(x+2)^3}_\text{Hello} + \overbrace{(x-3)}^\text{World}
                 </code>
         include_reverse: true
--       uuid: 2eb8b0c2-e4ce-41d4-a6cb-af006661b707
-        guid: k;?uIr=lhC
+-       guid: k;?uIr=lhC
         markdown: false
         front: |
                 [latex]
@@ -58,8 +51,7 @@ notes:
                 \end{align*}
                 </code>
         include_reverse: true
--       uuid: 2e75abf3-9be4-4f5e-824b-83ce37e2d906
-        guid: uO%r[j4Zbz
+-       guid: uO%r[j4Zbz
         markdown: false
         front: |
                 [$$]\textcolor{red}{x^2} + \textcolor{green}{y^2} = \textcolor{blue}{z^2}[/$$]
@@ -70,16 +62,14 @@ notes:
                 <br>
                 Package <code>xcolor</code>
         include_reverse: true
--       uuid: 68a95f69-7e4a-450c-bb83-ffe489a230a1
-        guid: u7N7PU>IQk
+-       guid: u7N7PU>IQk
         markdown: false
         front: |
                 [$$]\bot[/$$]
         back: |
                 <code>\bot</code> (respectively <code>\perp</code>)
         include_reverse: true
--       uuid: 5b6cf268-f95c-4a58-8926-7d716fa76f12
-        guid: LL*{OoXNbt
+-       guid: LL*{OoXNbt
         markdown: false
         front: |
                 [$$]\diamondsuit[/$$]
@@ -89,8 +79,7 @@ notes:
                 (or <code>\lozenge</code>,
                 package <code>amssymb</code>)
         include_reverse: true
--       uuid: b01d6fcc-9834-4ce9-8f97-d064ec51c087
-        guid: mkrST8PBat
+-       guid: mkrST8PBat
         markdown: false
         front: |
                 [$$]\mathunderscore[/$$] (math mode)
@@ -99,8 +88,7 @@ notes:
                 \mathunderscore
                 </code>
         include_reverse: true
--       uuid: bfc946fb-d1ed-48d7-ab33-236abd13e84f
-        guid: Jd~5o;SZ}>
+-       guid: Jd~5o;SZ}>
         markdown: false
         front: |
                 [$$]\mid[/$$] (math mode)
@@ -109,16 +97,14 @@ notes:
                 \mid
                 </code>
         include_reverse: true
--       uuid: d5205344-d45e-43a2-9d29-ab19df903679
-        guid: gK]M(DChZs
+-       guid: gK]M(DChZs
         markdown: false
         front: |
                 [$$]\perp[/$$]
         back: |
                 <code>\perp</code> (respectively <code>\bot</code>)
         include_reverse: true
--       uuid: ee075869-2169-42dd-b094-e1484a671a6b
-        guid: gHs(=lNw;A
+-       guid: gHs(=lNw;A
         markdown: false
         front: |
                 [latex]\textparagraph[/latex] (textmode)
@@ -127,8 +113,7 @@ notes:
                 \textparagraph
                 </code>
         include_reverse: true
--       uuid: 9ee92b16-4293-4657-b4da-03f7d7456565
-        guid: c|Z~iRDr1,
+-       guid: c|Z~iRDr1,
         markdown: false
         front: |
                 [latex]\textquotedblleft[/latex] (textmode)
@@ -137,8 +122,7 @@ notes:
                 \textquotedblleft
                 </code>
         include_reverse: true
--       uuid: 0518b686-0d2f-4bf1-a72b-17bd21e82e34
-        guid: NWH=]q3Ho1
+-       guid: NWH=]q3Ho1
         markdown: false
         front: |
                 [latex]\textquotedblright[/latex] (textmode)
@@ -147,8 +131,7 @@ notes:
                 \textquotedblright
                 </code>
         include_reverse: true
--       uuid: ffb8600f-10b5-4cf9-ab07-6234dd2852c5
-        guid: Mp$#Ss=<jz
+-       guid: Mp$#Ss=<jz
         markdown: false
         front: |
                 [latex]\textquoteright[/latex] (textmode)
@@ -157,8 +140,7 @@ notes:
                 \textquoteright
                 </code>
         include_reverse: true
--       uuid: 11d3301b-ab70-4051-8b50-3bbb72fac006
-        guid: NE[jR4/WX$
+-       guid: NE[jR4/WX$
         markdown: false
         front: |
                 [latex]\textquoteleft[/latex] (textmode)
@@ -167,8 +149,7 @@ notes:
                 \textquoteleft
                 </code>
         include_reverse: true
--       uuid: fcf53256-b511-435f-998d-fd776aa4355c
-        guid: F|KK$M#(f#
+-       guid: F|KK$M#(f#
         markdown: false
         front: |
                 [latex]\textregistered[/latex] (textmode)
@@ -177,8 +158,7 @@ notes:
                 \textregistered
                 </code>
         include_reverse: true
--       uuid: 61c9f9bd-d877-4323-85c8-d574d4c2d725
-        guid: tm+K^wH-N?
+-       guid: tm+K^wH-N?
         markdown: false
         front: |
                 [latex]\textsection[/latex] (textmode)
@@ -187,8 +167,7 @@ notes:
                 \textsection
                 </code>
         include_reverse: true
--       uuid: 6ea306c8-92d5-4803-81d9-dfe5a1869846
-        guid: J#|8yvS>Za
+-       guid: J#|8yvS>Za
         markdown: false
         front: |
                 [latex]\textunderscore[/latex] (textmode)
@@ -197,8 +176,7 @@ notes:
                 \textunderscore
                 </code>
         include_reverse: true
--       uuid: a255f014-d25f-4a10-af6c-86f39c3aeccc
-        guid: ga[lqyInLM
+-       guid: ga[lqyInLM
         markdown: false
         front: |
                 [$$]\top[/$$] (math mode)

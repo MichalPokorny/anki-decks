@@ -2,49 +2,40 @@ topic: Bash
 deck: All::CS::Tools::Bash
 uid_tag: bash
 notes:
--       uuid: 11fc9fb8-4da4-4590-bd88-d991b79045d0
-        guid: AQ|OgY$Xq~
+-       guid: AQ|OgY$Xq~
         front: Redo last command
         back: '`!!`'
         include_reverse: true
--       uuid: 1571d5ac-9424-4b85-8f0b-4f174424d885
-        guid: o*JH:+=mjy
+-       guid: o*JH:+=mjy
         front: Redo second-to-last command
         back: '`!2`'
         include_reverse: true
--       uuid: aede762c-fb55-4ad1-8e17-bfa09b8dc1f0
-        guid: m8#0z]Wc>`
+-       guid: m8#0z]Wc>`
         front: Last argument of last command
         back: '`!$`'
         include_reverse: true
--       uuid: 22ef9fe5-d2e7-47c1-86f0-ad1119310a8d
-        guid: HG.9vG6#0F
+-       guid: HG.9vG6#0F
         front: Redo last command as root
         back: '`sudo !!`'
         include_reverse: true
--       uuid: ced4ea3a-5b84-4945-8db0-8ca483f013dc
-        guid: Bu}54gSjy_
+-       guid: Bu}54gSjy_
         front: Edit last command's argument in `vim`
         back: '`vim !!:1`'
         include_reverse: true
--       uuid: 8d4531bc-59b1-43e8-976e-967236dc3779
-        guid: uvS{6)WAm@
+-       guid: uvS{6)WAm@
         front: Send job to background
         back: C-z
         include_reverse: true
--       uuid: cac0295e-16d5-4af6-97ec-b6de90cf49b6
-        guid: vEAt[aT#|H
+-       guid: vEAt[aT#|H
         front: Bring back backgrounded job
         back: '`fg`'
         include_reverse: true
--       uuid: acdb9620-ef06-4822-aa73-30b9efc8233a
-        guid: o&iccR@:SB
+-       guid: o&iccR@:SB
         front: Collapse whitespace in output of program into one space
         back: |
                 `echo $(some program)`
         include_reverse: true
--       uuid: 82d78c9f-8461-442e-b970-34c7fc57f7df
-        guid: o/O&T!+NNO
+-       guid: o/O&T!+NNO
         front: |
                 Difference in `source` behavior between `bash` and `sh`
         back: |
@@ -52,91 +43,75 @@ notes:
                 <li> `sh`: `source` searches in `$PATH`
                 <li> `bash`: it also searches in `$CWD`
                 </ul>
--       uuid: 983e1c51-c9f6-4c5c-beee-be968104be7e
-        guid: ksJ8-~TpUT
+-       guid: ksJ8-~TpUT
         front: Use program input/output pipes as file paths
         back: |
                 `wc -l <(cat x.txt);
                 ./someprog --output-file >(./process-somehow)`
         include_reverse: true
--       uuid: b495afb3-6386-4811-a30b-1063eb1a91c6
-        guid: oE&HDDqZvS
+-       guid: oE&HDDqZvS
         front: Print out every executed command
         back: '`set -x`'
         include_reverse: true
--       uuid: eb94ea6a-a468-445a-bd1d-2cc3674ebc92
-        guid: y]G=QyVQBV
+-       guid: y]G=QyVQBV
         front: Figure which type of command something is
         back: '`type something`'
         include_reverse: true
--       uuid: 34b394c4-09e6-468d-a6b5-00c4bea3f822
-        guid: MDi]=roB|>
+-       guid: MDi]=roB|>
         front: How to iterate on files containing whitespace in a for loop?
         back: |
                 `IFS=$'\n'`
--       uuid: 8e4eed22-224d-4cf0-8b3a-c065ddd95af5
-        guid: Lv_Hg(ziG0
+-       guid: Lv_Hg(ziG0
         front: Detect unset variable usages
         back: '`set -u`'
         include_reverse: true
--       uuid: 6999d50e-6fa4-4157-b6c8-f26f99833261
-        guid: gZ)k.rR)JS
+-       guid: gZ)k.rR)JS
         front: Usage of `trap` to echo when script fails with error
         back: |
                 `trap "echo 'Script failed'" ERR`
--       uuid: fcbfa3ec-03fc-441a-8684-e9a159599eac
-        guid: lXF}B#FM3H
+-       guid: lXF}B#FM3H
         front: Separate subshell, isolating current directory
         back: |
                 `(cd /some/dir && other-command)`
         include_reverse: true
--       uuid: 5776faa6-ad9d-4823-8e60-90eb117d1771
-        guid: vG~9ajR,ZW
+-       guid: vG~9ajR,ZW
         front: Get value of variable, or error out with 'something' if it's empty
         back: '`${name:?something}`'
         include_reverse: true
--       uuid: 4c27039c-93f1-479c-830d-5fb6d2142f8c
-        guid: q[e8hC$S4Z
+-       guid: q[e8hC$S4Z
         include_reverse: true
         front: Get value of variable, or use a default value of 'something'
         back: '`${name:-something}`'
--       uuid: 18670d9e-0f9c-41a6-8b06-1bd731d3334e
-        guid: H$]GdF#woF
+-       guid: H$]GdF#woF
         front: Arithmetic variable expansion
         include_reverse: true
         back: '`$(( (i + 1) % 5 ))`'
--       uuid: fcae5b81-b952-48e0-bb72-411aeb870676
-        guid: hff~md88[X
+-       guid: hff~md88[X
         include_reverse: true
         front: Trim suffix of `something` from `$var`
         back: |
                 `${name%something}`
--       uuid: f545df66-78eb-425f-8927-33c930b83520
-        guid: zR1Uh(]OZP
+-       guid: zR1Uh(]OZP
         front: Trim prefix of `something` from `$var`
         include_reverse: true
         back: |
                 `${name#something}`
--       uuid: 03792b08-8c8c-47a0-9f45-7cfd5bdebe9f
-        guid: sDm?v/(NNp
+-       guid: sDm?v/(NNp
         front: Sequence `1` to `100`, without `seq`
         back: '`{1..100}`'
         include_reverse: true
--       uuid: 387f7eac-dbef-4425-940c-560f98e1ce13
-        guid: PBCSPC$/bL
+-       guid: PBCSPC$/bL
         front: |
                 Prevent partially downloaded scripts from executing
                 (due to syntax error)
         markdown: false
         back: |
                 <code>{<br>code code code ...<br>}</code>
--       uuid: 4ac246ee-7074-4f95-a1f0-3e307f433484
-        guid: emm5x1~=vc
+-       guid: emm5x1~=vc
         front: Redirect both stdout and stderr to `file`
         back: |
                 "`command >file 2>&1` or `command &>file`"
--       uuid: eaa44164-69d1-4fb0-a2ee-e4f63ac120e8
-        guid: cOE9nf~mIX
+-       guid: cOE9nf~mIX
         front: Literal tab
         markdown: false
         back: |

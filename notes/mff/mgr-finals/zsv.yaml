@@ -1,35 +1,30 @@
 deck: All::Magisterské státnice::Základy složitosti a vyčíslitelnosti
 notes:
--       uuid: 98519f43-e9a2-4139-bc9e-20693a348ddb
-        guid: Ojr)Ek))!O
+-       guid: Ojr)Ek))!O
         front: Kdy je problém A převoditelný na B?
         back: |
                 Když jde instance A převést na instanci B
                 <i>se stejnou odpovědí ano/ne</i>.
--       uuid: fad230bb-5c99-4b0e-bc65-971d2b99c25a
-        guid: w)<ig0OG+o
+-       guid: w)<ig0OG+o
         front: Church-Turingova teze
         back: |
                 Ke každému algoritmu v intuitivním smyslu (konečná
                 posloupnost jednoduchých instrukcí vedoucí k řešení
                 úlohy) existuje ekvivalentní Turingův stroj.
--       uuid: 78534147-beaa-405a-a522-bebc16a15989
-        guid: hl+Ol?S>YY
+-       guid: hl+Ol?S>YY
         topic: Turingův stroj
         front: |
                 Definice: Displej
         back: |
                 [$] (q,a) [/$]: stav a symbol pod hlavou.
--       uuid: 843fc7e1-f042-47b6-bcc7-4df55ef11732
-        guid: vV_Jw>Kgy-
+-       guid: vV_Jw>Kgy-
         topic: Turingův stroj
         front: |
                 Definice: Konfigurace
         back: |
                 Stav řídící jednotky, slovo na pásce (neprázdné),
                 pozice hlavy
--       uuid: 5ee82dde-5b11-46db-a2fa-430ac5a99026
-        guid: yx8(mN=^2j
+-       guid: yx8(mN=^2j
         front: |
                 Definice Turingova stroje, dále: Jaká je páska?
                 Jak se hýbe hlava? Co hlava umí?
@@ -43,111 +38,93 @@ notes:
                 Řídící jednotka, páska (potenciálně nekonečná v obou
                 směrech), hlava (pro čtení a zápis) pohybující se oběma
                 směry.
--       uuid: 05d670a1-dc4d-4d8b-a465-134994a887b1
-        guid: BzPQE=2Y};
+-       guid: BzPQE=2Y};
         topic: Turingův stroj
         front: Signatura přechodové funkce
         back: |
                 [$]\\delta:Q\\times\\Sigma\\rightarrow Q\\times\\Sigma\\times\\{R, N, L\\} \\cup \\{\\perp\\}[/$]
--       uuid: 47e06129-1d02-4c3f-8188-81602e3dc58f
-        guid: K[[3613QJi
+-       guid: K[[3613QJi
         front: Počáteční konfigurace TS
         back: |
                 Vstupní slovo na pásce;
                 vstupní slovo neobsahuje [$]\\lambda[/$];
                 hlava nad prvním symbolem
--       uuid: cfd738fd-e453-4691-b685-ef7c59df8231
-        guid: tQVm9O19O!
+-       guid: tQVm9O19O!
         front: Kdy končí výpočet TS?
         back: Při přechodu [$]\\delta(q,a)=\\perp[/$]
--       uuid: 0c64b857-17ba-4aca-a2e1-51068f895910
-        guid: j8XpXT5RMH
+-       guid: j8XpXT5RMH
         front: Typová signatura přechodové funkce [$]k[/$]-páskového TS
         back: |
                 [$]\\delta:Q\\times\\Sigma^k \\rightarrow Q\\times\\Sigma^k\\times\\{R,N,L\\}^k\\cup\\{\\perp\\}[/$]
--       uuid: 89023cc1-1554-4a94-b11a-1564f2c50738
-        guid: bRoh]4Psgn
+-       guid: bRoh]4Psgn
         front: Značení všech slov nad abecedou [$]\\Sigma[/$]
         back: |
                 [$]\\Sigma^{ * }[/$]
--       uuid: 543cd1cc-3c57-4507-81bb-025ce4efd0e6
-        guid: Bwld?n,rHd
+-       guid: Bwld?n,rHd
         front: Značení doplňku jazyka
         back: |
                 [$]\\overline{L}[/$]
--       uuid: c8caae0f-f433-4d1a-9c74-531e4efc6c16
-        guid: l_tWk}*3a<
+-       guid: l_tWk}*3a<
         front: Kdy TS přijímá slovo [$]w[/$]?
         back: |
                 Když výpočet skončí v přijímacím stavu (tj. přechod do
                 [$]\\perp[/$])
--       uuid: 2effd07d-cf1d-41e6-8590-b138457f038a
-        guid: Qj[ar)n5Rn
+-       guid: Qj[ar)n5Rn
         front: Kdy TS odmítá slovo [$]w[/$]?
         back: |
                 Když výpočet **skončí** ve stavu co není přijímací
                 (tj. přechod do [$]\\perp[/$])
--       uuid: 5ad2b58b-f70a-4824-b803-2d518b2f356a
-        guid: r`clH%+3dA
+-       guid: r`clH%+3dA
         front: |
                 Výpočet TS [$]M[/$] skončí nad [$]w[/$] - značení a
                 pojmenování
         back: |
                 [$]M(w)\\downarrow[/$]; [$]M[/$] nad [$]w[/$] konverguje
--       uuid: 1b1fcbbd-359d-4219-a31b-c5b92fe0a3bf
-        guid: K!h`2mQm:^
+-       guid: K!h`2mQm:^
         front: |
                 Výpočet TS [$]M[/$] neskončí nad [$]w[/$] - značení a
                 pojmenování
         back: |
                 [$]M(w)\\uparrow[/$]; [$]M[/$] nad [$]w[/$] diverguje
--       uuid: 4ad58e04-e3cf-42da-8685-87e987b2c413
-        guid: N{(Bb=99S@
+-       guid: N{(Bb=99S@
         front: |
                 Značení: Jazyk slov přijímaných TS [$]M[/$]
         back: |
                 [$]L(M)[/$]
--       uuid: 995603f3-6e10-49c8-a249-bad8783f8ae2
-        guid: t3%R2|yHF(
+-       guid: t3%R2|yHF(
         front: |
                 Definice: Částečné rozhodnutelný, resp. rekurzivně
                 spočetný jazyk
         back: |
                 Existuje [$]M[/$], že [$]L = L(M)[/$]
--       uuid: 69517f5e-52e1-4926-afb3-26fdf34cc07a
-        guid: ob[ChPQ[D0
+-       guid: ob[ChPQ[D0
         front: |
                 Definice: Rozhodnutelný, resp. rekurzivní jazyk
         back: |
                 Existuje [$]M[/$], co se vždy zastaví a [$]L = L(M)[/$]
--       uuid: 5d3c7ba1-6e25-459e-b67d-a2308a284475
-        guid: rE*a?CBD3w
+-       guid: rE*a?CBD3w
         front: Rekurzivní a rekurzivně spočetné jazyky
         back: |
                 Rekurzivní: rozhodnutelné, rekurzivně spočetné: částečně rozhodnutelné (přijímané)
--       uuid: 4377009b-8166-4015-8dc2-7c58fd895e2b
-        guid: k_B6*VXEJl
+-       guid: k_B6*VXEJl
         front: Postova věta
         back: |
                 [$]L[/$] je rozhodnutelný právě když jsou [$]L[/$] i
                 [$]\\overline{L}[/$] částečně rozhodnutelné
--       uuid: f4474703-6da8-45bf-ad66-3cddba0eb4ea
-        guid: D-Nz]SP/JA
+-       guid: D-Nz]SP/JA
         front: Turingovy stroje a částečné funkce
         back: |
                 [$]M[/$] nad abecedou [$]\\Sigma[/$] počítá částečnou
                 funkci [$]f:\\Sigma^\* \\rightarrow \\Sigma^\*[/$], co
                 vede na slovo po skončení výpočtu, jinak značíme
                 [$]f_M(w)\\uparrow[/$].
--       uuid: a9707bec-b494-4377-9508-534f1d5f62fd
-        guid: z`y$.4|3K}
+-       guid: z`y$.4|3K}
         front: |
                 Kódování vstupu pro TS co počítají funkci [$]n[/$]
                 parametrů
         back: |
                 [$] (x_1)_B \\# (x_2)_B \\# (x_3)_B \ldots[/$]
--       uuid: e33e9780-8f70-47ce-b708-bd1aca81678a
-        guid: O*1^usaL|4
+-       guid: O*1^usaL|4
         front: Gödelovo číslo TS
         back: |
                 Jen TS co mají 1 přijímací stav a binární vstupní abecedu.
@@ -159,8 +136,7 @@ notes:
                 jedničku, to je binární číslo. (Dostanu vzájemně
                 jednoznačné zobrazení do kladných přirozených čísel.
                 Plus konvence: 0 odpovídá [$]\\varepsilon[/$].)
--       uuid: 337cb21f-8702-4853-89eb-23b3f36b7814
-        guid: tjOYRLgA&t
+-       guid: tjOYRLgA&t
         front: |
                 Značení: TS s Gödelovým číslem [$]e[/$], jím přijímaný
                 jazyk. Co když [$]e[/$] není syntakticky validní
@@ -169,21 +145,18 @@ notes:
                 [$]M_e[/$], [$]L_e[/$].
                 Když [$]e[/$] není validní, [$]M_e[/$] je prázdný stroj
                 co vše odmítne, [$]L_e=\\emptyset[/$]
--       uuid: 73d06ee4-04b4-4183-bed8-06dc7ccdcac7
-        guid: I]DR)Y$Mug
+-       guid: I]DR)Y$Mug
         front: |
                 Definice: Spočetná množina [$]A[/$]
         back: |
                 Existuje prostá funkce [$]f:A\\rightarrow\\N[/$]
--       uuid: 5c6cf7a4-017d-4858-98bb-a77ba89f9e97
-        guid: Gtn+9?>-q<
+-       guid: Gtn+9?>-q<
         front: Diagonalizační jazyk a jaký je?
         back: |
                 [$]L_{\\mathrm{DIAG}}=\\{w_i\\in\\{0,1\\}^{ * }: w_i\\not\\in L(M_i)\\}[/$]<br>
                 Není částečně rozhodnutelný. Jeho doplněk je částečně
                 rozhodnutelný, není rozhodnutelný.
--       uuid: fae12c3e-b261-4f67-ba8c-f7838a29b2b0
-        guid: l$Wvuj~Xri
+-       guid: l$Wvuj~Xri
         front: Univerzální TS a jeho jazyk. Jaký je univerzální jazyk?
         back: |
                 Univerzální TS: třípáskový - vstup
@@ -192,8 +165,7 @@ notes:
                 <br>
                 Univerzální jazyk: jazyk univerzálního stroje.
                 Částečně rozhodnutelný, není rozhodnutelný
--       uuid: 529ad0d4-4cef-4d36-a43e-66c2bc775639
-        guid: h2]{ie!VZv
+-       guid: h2]{ie!VZv
         front: Model RAM
         back: |
                 Registry: [$]r_i, i\\in\\N[/$]
@@ -207,24 +179,20 @@ notes:
                 [$]JNZ(r_i, I_z)[/$] jump if not zero,
                 [$]READ(r_i)[/$],
                 [$]PRINT(r_i)[/$]
--       uuid: 9b6f842e-aece-4def-9a94-1074ccb25358
-        guid: G:f:_6`YJG
+-       guid: G:f:_6`YJG
         front: I/O v modelu RAM
         back: |
                 Konec slova: READ načte 0
--       uuid: cef99335-a153-408f-b581-fd65d71a2fa2
-        guid: rGa/-xr$4>
+-       guid: rGa/-xr$4>
         front: Přijímání a odmítání RAM
         back: |
                 Přijímání: [$]R(w)\\downarrow[/$] a první vypsané číslo
                 je 1. Odmítání: [$]R(w)\\downarrow[/$] a nevypíše nic
                 nebo první číslo je jiné než 1.
--       uuid: 89c785e6-81e2-47b5-a6f5-ddae148ef80d
-        guid: d+X`{sxXdy
+-       guid: d+X`{sxXdy
         front: Simulace TS na RAM
         back: Dvě pole na pásku
--       uuid: b074ffcf-48e5-4acc-bab3-4b71c4154dab
-        guid: O?<!^tU6gR
+-       guid: O?<!^tU6gR
         front: Simulace RAM na TS
         back: |
                 Mám na pásce reprezentační řetězec pro využité registry
@@ -236,8 +204,7 @@ notes:
 #                back: |
 #                        Obecně rekurzivní funkce: totální vyčíslitelná funkce<br>
 #                        Částecná rekurzivní funkce: vyčíslitelná funkce
--       uuid: 7fc4be5d-62db-4562-866a-72adfbae02ff
-        guid: wo{AZ2qxD(
+-       guid: wo{AZ2qxD(
         front: |
                 Značení a definice: doména, obor hodnot funkce, podmíněná rovnost
         back: |
@@ -252,21 +219,18 @@ notes:
                 [$$]
                 f\\approx g\\Leftrightarrow[dom f = dom g \\wedge (\\a x\\in dom f)[f(x)=g(x)]]
                 [/$$]
--       uuid: 21f375d5-ecc2-4ce6-84b7-f2e60bac1a01
-        guid: LC**b:zgD1
+-       guid: LC**b:zgD1
         front: |
                 Značení: funkce počítaná [$]M_e[/$], funkce [$]n[/$]
                 parametrů ([$]< x_1,\\ldots x_n >=< x_1\\#x_2\\#\\ldots x_n >\\in\\sigma_b^{ * }[/$]) počítaná [$]M_e[/$]
         back: |
                 [$]\varphi_e[/$]; [$]\varphi_e^{(n)}[/$]
--       uuid: 68de3654-8557-4b2f-92dd-bb1800e65132
-        guid: m.Ad/T(;v[
+-       guid: m.Ad/T(;v[
         front: |
                 Univerzální funkce pro [$]n[/$]
         back: |
                 [$]\\Psi_n(e,x_1,\\ldots x_n)\\approx \\varphi_e^{(n)}(x_1,\\ldots x_n)[/$]
--       uuid: 0c0f25fb-2f98-4961-88c2-f4560dfeaab4
-        guid: h]J0iz26s,
+-       guid: h]J0iz26s,
         front: |
                 3 ekvivalence pro částečně rozhodnutelné jazyky
         back: |
@@ -276,29 +240,25 @@ notes:
                 <li> Existuje rozhodnutelný jazyk [$]B[/$], že
                      [$]L=\\{x\\in\\Sigma_b^\\*|(\\e y\\in\\Sigma_b^{ * })[< x,y >\\in B]\\}[/$]
                 </ul>
--       uuid: 355cfdb8-e5f1-44a5-af7d-fa959ade824e
-        guid: tey2G-+Wy?
+-       guid: tey2G-+Wy?
         front: Rozhodnutelnost jazyka a jeho charakteristická funkce
         back: |
                 Jazyk je rozhodnutelný právě má algoritmicky
                 vyčíslitelnou char. funkci.
--       uuid: 1535e360-e2a3-4a9f-86d0-4ccf7bdf4af1
-        guid: l5%,4F<!Ep
+-       guid: l5%,4F<!Ep
         front: |
                 Definice: Enumerátor pro [$]L[/$]
         back: |
                 Turingův stroj co postupně vypisuje slova jazyka
                 [$]L[/$] a každé někdy vypíše
         include_reverse: true
--       uuid: 6ef60a79-cc73-4c5b-b7e1-5e4a9de47b40
-        guid: AeU+($R%hj
+-       guid: AeU+($R%hj
         front: Enumerátory a (částečně) rozhodnutelné jazyky
         back: |
                 Částečně rozhodnutelný jazyk: existuje enumerátor
                 Rozhodnutelný: existuje enumerátor co vypisuje slova
                 v pořadí dle očíslování bin. řetězců
--       uuid: 29577fa1-31d0-4973-a9ce-b62b2c814d3a
-        guid: P/hTEv,GHn
+-       guid: P/hTEv,GHn
         front: |
                 Definice m-převoditelnosti, m-úplnosti,
                 1-převoditelnosti, 1-úplnosti
@@ -308,15 +268,13 @@ notes:
                 [$] (\\a x\\in\\Sigma_b^{ * })[x\\in A\\ekv f(x)\\in B][/$]<br>
 
                 1-převoditelnost a úplnost: [$]f[/$] má být navíc prostá
--       uuid: 652080c9-a76b-4b52-ab52-040344b3dc0b
-        guid: ottcRpw]YO
+-       guid: ottcRpw]YO
         front: |
                 Definice: [$]m[/$]-úplný jazyk
         back: |
                 Jazyk, co je částečně rozhodnutelný a každý částečně
                 rozhodnutelný jazyk je na něj [$]m[/$]-převoditelný.
--       uuid: 6daa9bc4-803b-45b7-a8d4-86064d4def8a
-        guid: AJ-Qd?v_5/
+-       guid: AJ-Qd?v_5/
         front: |
                 [$]m[/$]-převoditelnost: vlastnosti a rozhodnutelnost
         back: |
@@ -329,30 +287,26 @@ notes:
                 Když je [$]B[/$] částečně rozhodnutelný a [$]A[/$]
                 m-úplný, tak [$]B[/$] je taky m-úplný.
                 </ul>
--       uuid: 52567f0e-8619-443a-b5b2-66a3a8f2ac12
-        guid: r__D&$GHYw
+-       guid: r__D&$GHYw
         front: |
                 [$]m[/$]-úplný jazyk [$]K_0[/$]. Jaký je?
         back: |
                 [$]K_0=\\{< w_i,x > | M_i(x)\\downarrow \\}[/$].
                 Částečně rozhodnutelný, nikoli rozhodnutelný.
--       uuid: a77116ea-55e8-4341-b122-d3760503a58d
-        guid: z45D9:kAV]
+-       guid: z45D9:kAV]
         front: |
                 [$]m[/$]-úplný jazyk [$]K[/$]. Jaký je?
         back: |
                 [$]K=\\{w_i | M_i(w_i)\\downarrow \\}[/$].
                 Částečně rozhodnutelný, nikoli rozhodnutelný.
--       uuid: a8ac3a43-e12f-4cc8-9cc3-3f0373c1b1cc
-        guid: mM$p{XUkE!
+-       guid: mM$p{XUkE!
         front: Riceova věta
         back: |
                 Ať [$]C[/$] je třída vyčíslitelných funkcí, položme
                 [$]A_C=\\{e | \\varphi_e\\in C\\}[/$]. Potom
                 [$]A_C[/$] je rozhodnutelná, právě když je [$]C[/$]
                 buď prázdná nebo obsahuje všechny vyčíslitelné funkce.
--       uuid: 59b466a9-4d50-467a-a626-fa0ff7fbbc18
-        guid: JlFYwU((Xl
+-       guid: JlFYwU((Xl
         front: s-m-n věta
         back: |
                 [$]\\a m,n\\geq 1[/$] existuje prostá totální
@@ -361,21 +315,18 @@ notes:
                 [$]x,y_1,\\ldots y_m,z_1,\\ldots z_n\\in\\Sigma_b^{ * }[/$]
                 platí:
                 [$$]\\varphi^{(n)}_{s_n^m(x,y_1,\\ldots,y_m)}(z_1,\\ldots z_n)\\approx \\varphi_x^{(m+n)}(y_1,\\ldots y_m,z_1,\\ldots z_n)[/$$]
--       uuid: 0fbdef69-824c-445e-8d35-36c9ee3c35c1
-        guid: oVt?Ho?bT6
+-       guid: oVt?Ho?bT6
         front: Postův korespondenční problém
         back: |
                 Vstup: kostky [$]P=\\{[a_1, b_1], [a_2, b_2], \\ldots [a_k, b_k]\\}[/$].
                 Výstup: existuje párovací posloupnost?
                 Nerozhodnutelný.
--       uuid: 65bfa5a6-7a32-4ade-9e7d-2c9d804754a1
-        guid: Qv@)0TCHZq
+-       guid: Qv@)0TCHZq
         front: Formalizace úlohy
         back: |
                 Výstup: pro [$]x[/$] nějaké [$]y[/$] co splňuje nějaké
                 podmínky, nebo že to nejde.
--       uuid: 763ce358-2b76-4e73-bd5a-625b3af19567
-        guid: KFR-`JYI$,
+-       guid: KFR-`JYI$,
         topic: Turingův stroj
         front: |
                 Definice: Časová a prostorová složitost
@@ -383,58 +334,50 @@ notes:
                 Pracuje v čase [$]f(n)[/$] když na vstupu délky
                 [$]|x|=n[/$] skončí po nejvýše [$]f(n)[/$] krocích.
                 Obdobně prostor a použité popsané buňky.
--       uuid: 393fc381-78fa-453e-898f-c2ec55a384e3
-        guid: Kz>aQ3mKqg
+-       guid: Kz>aQ3mKqg
         front: |
                 Definice: [$]\\mathrm{TIME}(f(n))[/$]
         back: |
                 Jazyky přijímané TS co pracují v čase [$]O(f(n))[/$].
         include_reverse: true
--       uuid: c57b5b0f-d226-40aa-bfd4-b6a828e68be2
-        guid: m)2^*,smna
+-       guid: m)2^*,smna
         front: |
                 Definice: [$]\\mathrm{SPACE}(f(n))[/$]
         include_reverse: true
         back: |
                 Jazyky přijímané TS co pracují v prostoru
                 [$]O(f(n))[/$].
--       uuid: 0b3960ff-41f0-459f-b5ca-e38f1a0cbd91
-        guid: x~Estoe,m$
+-       guid: x~Estoe,m$
         front: |
                 Vztah [$]\\mathrm{TIME}(f(n))[/$] a
                 [$]\\mathrm{SPACE}(f(n))[/$]
         back: |
                 [$]\\mathrm{TIME}(f(n))\\subseteq\\mathrm{SPACE}(f(n))[/$]
                 pro každou funkci [$]f[/$].
--       uuid: d659deb4-dc71-4d30-b1de-3513f8f826bb
-        guid: c;69]))UGV
+-       guid: c;69]))UGV
         front: |
                 Definice: [$]\\mathrm{P}[/$]
         back: |
                 [$]\\bigcup_{k\\in\\N} \\mathrm{TIME}(n^k)[/$]
         include_reverse: true
--       uuid: 5805f05a-b5cc-40d2-941a-8e2e4fafcbb4
-        guid: H;8,lVXA=h
+-       guid: H;8,lVXA=h
         front: |
                 Definice: [$]\\mathrm{PSPACE}[/$]
         back: |
                 [$]\\bigcup_{k\\in\\N} \\mathrm{SPACE}(n^k)[/$]
         include_reverse: true
--       uuid: 6e2f4f56-206f-444b-aea6-0706a6de9e2a
-        guid: Dd2q#G)*mj
+-       guid: Dd2q#G)*mj
         front: |
                 Definice: [$]\\mathrm{EXPTIME}[/$]
         back: |
                 [$]\\bigcup_{k\\in\\N} \\mathrm{TIME}(2^{n^k})[/$]
         include_reverse: true
--       uuid: a3da5e25-49ea-44d9-a3e6-7ea04b98fa97
-        guid: Chp^NrE,O$
+-       guid: Chp^NrE,O$
         front: Silnější Church-Turingova teze pro polynomy
         back: |
                 Reálné výpočetní modely jde simulovat na TS s
                 polynomiálním zpomalením/nárůstem prostoru.
--       uuid: 0c026be6-6a0a-4614-9ca4-751d6a748329
-        guid: N!%-ttnCf!
+-       guid: N!%-ttnCf!
         front: Verifikátory a certifikáty
         back: |
                 Verifikátor pro jazyk [$]A[/$]:
@@ -442,20 +385,17 @@ notes:
                 [$]A=\\{x: (\\e y)[V \\text{prijme} < x,y >]\\}[/$]
                 [$]y[/$]: certifikát pro [$]x[/$].
                 Časová složitost verifikátoru se měří dle [$]|x|[/$].
--       uuid: 811a8a4f-db5f-4737-97d1-55f0adecb58c
-        guid: NM=qZq&=<z
+-       guid: NM=qZq&=<z
         front: |
                 Definice: *polynomiální* verifikátor, certifikát
         back: |
                 Polynomiální čas, tedy i délka certifikátu.
--       uuid: 5ea2f65e-b70b-4d4f-8346-f729851a4155
-        guid: HU@U7;T>%*
+-       guid: HU@U7;T>%*
         front: |
                 Definice: [$]\\mathrm{NP}[/$] z verifikátorů
         back: Třída jazyků, co mají polynomiální verifikátory
         include_reverse: true
--       uuid: 7657a65c-dace-4272-a3b8-9b1965183999
-        guid: Ez);3&8$3e
+-       guid: Ez);3&8$3e
         front: Nedeterministický Turingáč a jeho výpočet a přijímání
         back: |
                 Stejný jako deterministický, ale:
@@ -463,63 +403,54 @@ notes:
                 Výpočet: validní posloupnost konfigurací.
                 Přijímací výpočet: končí v přijímacím stavu.
                 NTS přijímá, když existuje přijímací výpočet.
--       uuid: 88616d36-0832-410c-838c-cdf36c140cd3
-        guid: gzf)+qYVNM
+-       guid: gzf)+qYVNM
         front: |
                 Definice: [$]\\mathrm{NTIME}(f(n))[/$]
         back: |
                 Jazyky přijímané nedeterministickými TS co pracují
                 v čase [$]O(f(n))[/$]
         include_reverse: true
--       uuid: 43571b5d-7947-405e-9dd1-d553b06a0d72
-        guid: mHzB$O(czz
+-       guid: mHzB$O(czz
         front: |
                 Definice: [$]\\mathrm{NSPACE}(f(n))[/$]
         back: |
                 Jazyky přijímané nedeterministickými TS co pracují
                 v prostoru [$]O(f(n))[/$]
         include_reverse: true
--       uuid: e71fca6e-3759-4259-8a61-ccc45d7c7492
-        guid: B*Z&E){gHB
+-       guid: B*Z&E){gHB
         front: |
                 Vztah [$]\\mathrm{SPACE}(f(n)), \\mathrm{TIME}(f(n)),
                 \\mathrm{NSPACE}(f(n)), \\mathrm{NTIME}(f(n))[/$]
         back: |
                 [$]\\mathrm{TIME}(f(n))\\subseteq \\mathrm{NTIME}(f(n))\\subseteq
                 \\mathrm{SPACE}(f(n))\\subseteq \\mathrm{NSPACE}(f(n))[/$]
--       uuid: 5da5a595-57a1-4545-b19f-9a82b2c3a6f8
-        guid: rPnzB(/FP{
+-       guid: rPnzB(/FP{
         front: Definice NP přes nedeterministické TS
         back: |
                 [$]\\bigcup_{k\\in\\N} \\mathrm{NTIME}(n^k)[/$]
         include_reverse: true
--       uuid: 70b7db3b-de10-46ad-9fc7-f8c1f2dd4def
-        guid: I.5f(!;md<
+-       guid: I.5f(!;md<
         front: Model TS s sublineárním prostorem
         back: |
                 Vstupní páska jen pro čtení, pracovní pro čtení
                 a zápis, výstupní jen pro zápis a hýbe se jen vpravo.
                 Do prostoru se počítají jen pracovní pásky.
--       uuid: c8a14621-ce88-4418-bd87-1ab2c84b8d09
-        guid: b/.3DJ*IG)
+-       guid: b/.3DJ*IG)
         front: |
                 Definice: [$]\\mathrm{L}[/$]
         back: |
                 [$]\\mathrm{SPACE}(\\log_2 n)[/$]
--       uuid: 2151bb0f-df3a-42e1-8bf7-6bde8c9fb003
-        guid: 'm^[$o!<v!:'
+-       guid: 'm^[$o!<v!:'
         front: |
                 Definice: [$]\\mathrm{NL}[/$]
         back: |
                 [$]\\mathrm{NSPACE}(\\log_2 n)[/$]
--       uuid: 3d409a07-ca27-4e80-b52d-883f50f00ed7
-        guid: t@mz-DqVzD
+-       guid: t@mz-DqVzD
         front: |
                 Definice: [$]\\mathrm{NPSPACE}[/$]
         back: |
                 [$]\\bigcup_{k\\in\\N}\\mathrm{NSPACE}(n^k)[/$]
--       uuid: dcae06a4-33c2-4df2-9fb3-dbb4c45ba3f9
-        guid: qb:in@+DES
+-       guid: qb:in@+DES
         front: |
                 Věta [$]\\mathrm{NSPACE}(f(n))[/$] a
                 [$]\\mathrm{TIME}(2^{c_L f(n)})[/$]
@@ -528,14 +459,12 @@ notes:
                 Pak pro každý [$]L\\in \\mathrm{NSPACE}(f(n))[/$] platí
                 [$]L\\in \\mathrm{TIME}(2^{c_L f(n)})[/$], kde
                 [$]c_L[/$] je konstanta závislá na jazyku [$]L[/$].
--       uuid: 0c0ba73a-68d5-43e5-917c-b70fa45f345c
-        guid: t[=kNIFFh`
+-       guid: t[=kNIFFh`
         front: Ať je [$]L\\in\\mathrm{NSPACE}(f(n))[/$]. Co víme o čase?
         back: |
                 [$$]L\\in\\mathrm{TIME}(2^{c_L f(n)})[/$$]
                 (pro nějakou konstantu [$]c_L[/$] závislou na [$]L[/$])
--       uuid: b4b43824-cbd5-4aad-81a0-bf5c3df8b35b
-        guid: A_fKA>EJeI
+-       guid: A_fKA>EJeI
         front: |
                 Inkluze [$]\\mathrm{L}, \\mathrm{P}, \\mathrm{EXPTIME},
                 \\mathrm{NL}, \\mathrm{NP}, \\mathrm{NPSPACE},
@@ -545,37 +474,32 @@ notes:
                 \\mathrm{P}\\subseteq \\mathrm{NP}\\subseteq
                 \\mathrm{PSPACE}\\subseteq \\mathrm{NPSPACE}\\subseteq
                 \\mathrm{EXPTIME}[/$$]
--       uuid: c77f1c6a-338b-428d-a132-a0f0a7b3e4af
-        guid: c7SAaP;h(@
+-       guid: c7SAaP;h(@
         front: Savičova věta
         back: |
                 Pro každou [$]f(n)\\geq\\log_2 n[/$] platí že
                 [$]\\mathrm{NSPACE}(f(n))\\subseteq \\mathrm{SPACE}(f^2(n))[/$].
--       uuid: f7d5891b-43cb-4b1c-a185-7da5b612801a
-        guid: krh^gt^rq
+-       guid: krh^gt^rq
         front: |
                 Vztah [$]\\mathrm{PSPACE}[/$]/[$]\\mathrm{NPSPACE}[/$],
                 proč
         back: |
                 [$]\\mathrm{PSPACE}=\\mathrm{NPSPACE}[/$],
                 kvůli Savičově větě.
--       uuid: 25318cf5-00a0-4e58-9c80-10e173e326b1
-        guid: gxSycO#{fF
+-       guid: gxSycO#{fF
         front: |
                 Definice: Prostorově konstruovatelná funkce [$]f[/$]
         back: |
                 [$]f:\\N\\rightarrow\\N[/$], [$]f(n)\\geq\\log n[/$],
                 funkce zobrazující [$]1^n[/$] na binární reprezentaci
                 [$]f(n)[/$] je vyčíslitelná v prostoru [$]O(f(n))[/$]
--       uuid: 90cfc959-8db4-45a9-b10f-2a7ee1fde167
-        guid: L,K3v%koQ8
+-       guid: L,K3v%koQ8
         front: Věta o deterministické prostorové hierarchii
         back: |
                 Pro prostorově konstruovatelnou [$]f[/$] existuje
                 jazyk rozhodnutelný v prostoru [$]O(f(n))[/$], ale ne
                 [$]o(f(n))[/$].
--       uuid: 23ebec62-49ea-43f6-8fea-aa1170729614
-        guid: z^Nk(+pjtl
+-       guid: z^Nk(+pjtl
         front: |
                 [$]\\mathrm{NL}[/$] a [$]\\mathrm{PSPACE}[/$],
                 [$]\\mathrm{PSPACE}[/$] a [$]\\mathrm{EXPSPACE}[/$],
@@ -584,31 +508,27 @@ notes:
                 [$]\\mathrm{NL}\\subsetneq\\mathrm{PSPACE}\\subsetneq
                 \\mathrm{EXPSPACE}[/$], protože věta o deterministické
                 prostorové hierarchii
--       uuid: 60d64151-8ee1-462e-9b79-9804d94a94f2
-        guid: OEJ_y=b=Uh
+-       guid: OEJ_y=b=Uh
         front: |
                 Definice: Časově konstruovatelné funkce [$]f[/$]
         back: |
                 [$]f:\\N\\rightarrow\\N[/$], [$]f(n)\geq n[/$],
                 funkce zobrazující [$]1^n[/$] na binární reprezentaci
                 [$]f(n)[/$] je vyčíslitelná v čase [$]O(f(n))[/$].
--       uuid: 21be0cf6-4398-494e-8ec6-5f7f4520bacc
-        guid: HzfL<toyb.
+-       guid: HzfL<toyb.
         front: Věta o deterministické časové hierarchii
         back: |
                 Pro časově konstruovatelnou funkci [$]f[/$]
                 existuje jazyk [$]A[/$] rozhodnutelný v čase
                 [$]O(f(n))[/$], ale ne v čase
                 [$]o(f(n) / \\log f(n))[/$].
--       uuid: a0d4cf5d-ffc0-4fb8-83b9-f556c387a96e
-        guid: r}xh!j>v#{
+-       guid: r}xh!j>v#{
         front: |
                 [$]\\mathrm{P}[/$] a [$]\\mathrm{EXPTIME}[/$], proč
         back: |
                 [$]\\mathrm{P}\\subsetneq \\mathrm{EXPTIME}[/$], protože
                 věta o deterministické časové hierarchii
--       uuid: 73d93eaf-7076-4438-b11b-8bf67e38c6dd
-        guid: Aw`@@kn-xj
+-       guid: Aw`@@kn-xj
         front: Polynomiální převoditelnost jazyků - definice
         back: |
                 [$]A[/$] je převoditelný na [$]B[/$] v polynomiálním
@@ -616,8 +536,7 @@ notes:
                 [$]f:\\Sigma^{ * }\\rightarrow\\Sigma^{ * }[/$]
                 vyčíslitelná v polynomiálním čase, pro kterou platí
                 [$] (\\a w\\in\\Sigma^{ * })[w\\in A\\ekv f(w)\\in B][/$].
--       uuid: fd140e5b-ec7b-4715-b4ec-285ee23ea004
-        guid: C|mWoL<8ed
+-       guid: C|mWoL<8ed
         front: |
                 Vlastnosti relace polynomiální převoditelnosti,
                 [$]\\mathrm{P}[/$] a [$]\\mathrm{NP}[/$] třídy
@@ -625,51 +544,42 @@ notes:
                 Je to kvaziuspořádání (tranzitivní a reflexivní). Když
                 [$]A\\leq_m^P B[/$] a [$]B\\in \\mathrm{P}[/$], pak
                 [$]A\\in \\mathrm{P}[/$]. Stejně [$]\\mathrm{NP}[/$].
--       uuid: a468c4b4-e340-4f44-bfa7-ab25e9ee98ab
-        guid: P)BnJYudD1
+-       guid: P)BnJYudD1
         front: Definice NP-těžkosti
         back: |
                 [$]B[/$] je NP-těžký jazyk když na něj je polypřevoditelný
                 libovolný jazyk [$]A\\in \\mathrm{NP}[/$].
--       uuid: 0ce7e067-d55d-4a95-8958-a82a143c3e75
-        guid: qkh&4Y7pw,
+-       guid: qkh&4Y7pw,
         front: Definice NP-úplnosti
         back: |
                 [$]B[/$] je NP-úplný je-li NP-těžký a v NP.
--       uuid: e575bc80-ce3e-4b8b-9a90-66c10a06afe2
-        guid: kr@(k*T~~y
+-       guid: kr@(k*T~~y
         front: Kachlíkování
         back: |
                 Barvy, mřížka [$]s\\times s[/$] s obarvenými kraji.
                 Výstup: jde bez otáčení okachličkovat? NP-úplný.
--       uuid: acaf9ef3-84c7-414d-9252-1881f335622a
-        guid: i{|IHOXql0
+-       guid: i{|IHOXql0
         front: Cook-Levinova věta
         back: SAT v CNF je NP-úplný.
--       uuid: 4238be6c-1196-4b96-8da9-1884fb94cad8
-        guid: m#A(%Iq5cV
+-       guid: m#A(%Iq5cV
         front: 3-SAT vs. 2-SAT v kontextu slozitosti
         back: 3-SAT je NP-complete, 2-SAT je polynomialne resitelny
--       uuid: 91445305-4bde-4218-a924-7e8a5224e417
-        guid: Awf)4>mYYs
+-       guid: Awf)4>mYYs
         front: Vertex cover problém
         back: |
                 Existuje množina vrcholů velikosti nejvýš [$]k[/$] co
                 se dotýká každé hrany? NP-úplný.
--       uuid: 6e728496-891f-44db-8cd3-6c9269017c38
-        guid: 'r32gFUD_p:'
+-       guid: 'r32gFUD_p:'
         front: Hamiltonovská kružnice
         back: Obsahuje graf cyklus přes všechny vrcholy? Je NP-c.
--       uuid: e004fbba-b802-49a8-a854-70b303d5c7cc
-        guid: f/8yV7=6Bk
+-       guid: f/8yV7=6Bk
         front: 3D-matching
         back: |
                 Mám množinu trojic
                 [$]M\\subseteq W\\times X\\times Y[/$].
                 Existuje množina velikosti [$]q[/$] co má jenom trojice
                 co se nikde neshodují? NP-c.
--       uuid: 43d726be-5716-4bbb-8ea4-6623de7ab012
-        guid: X@@i(p3k}
+-       guid: X@@i(p3k}
         front: |
                 Definice: Aproximační algoritmus a poměr
         back: |
@@ -682,20 +592,17 @@ notes:
                 <br>
                 Když minimalizuju, tak [$]\\varepsilon \\geq 1[/$],
                 [$]\\mu_A(I,R(I))\\leq \\varepsilon\\cdot \\mathrm{opt}(I)[/$].
--       uuid: 49474cd2-9e98-41f3-be43-ca11ff1e7743
-        guid: ou[v0l#hM|
+-       guid: ou[v0l#hM|
         front: Bin-packing a first-fit aproximacni faktor
         back: |
                 FF vytvori nejvyse [$]2 \cdot \mathrm{opt}(I)[/$] kosu.
                 Pro kazde [$]m[/$] existuje instance [$]I[/$] kde [$]\mathrm{opt}(I)\geq m[/$] a [$]FF[/$] vytvori aspon [$]5/3 \mathrm{opt}(I)[/$] kosu.
--       uuid: a4723772-5d5a-420c-9d8b-4e11889f60de
-        guid: bQ2BFiiak-
+-       guid: bQ2BFiiak-
         front: Aproximace TSP a P vs. NP
         back: |
                 Pokud [$]P\\neq NP[/$], tak neexistuje aproximacni
                 algoritmus pro TSP s konstantním poměrem.
--       uuid: 51e11847-8c9c-4dcb-96e9-7436a42f315d
-        guid: dnS|8m7]sx
+-       guid: dnS|8m7]sx
         front: Pseudopolynomiální algoritmus na batoh, složitost
         back: |
                 Vstup: velikost batohu, pole cen a hmotností předmětů.
@@ -706,8 +613,7 @@ notes:
 
                 Složitost: [$]\\Theta(nV)[/$], kde [$]V[/$] je součet cen.<br>
                 Velikost vstupu je [$]O(n\\log_2 (B+V))[/$], takže je pseudopolynomiální.
--       uuid: 3970c764-03cb-4435-8c87-3a6e8c799bdd
-        guid: F>XD.p&Kzj
+-       guid: F>XD.p&Kzj
         front: |
                 Definice: Číselný rozhodovací problém
         back: |
@@ -719,74 +625,63 @@ notes:
                 Batoh, Loupežníci jsou číselné.<br>
 
                 Splnitelnost, Kachlíkování nejsou.
--       uuid: eb633e57-b96a-4939-a4cf-0e0382b17f16
-        guid: bjHMJu;2)J
+-       guid: bjHMJu;2)J
         front: Definice pseudopolynomiálního algoritmu
         back: |
                 Složitost omezena
                 [$]\\mathrm{poly}(\\mathrm{len}(I), \\mathrm{max}(I))[/$]
--       uuid: 3cdba4a8-ede4-47c1-a6e0-b1346b3bf4f7
-        guid: ORsd);hm[/
+-       guid: ORsd);hm[/
         front: Definice silné NP-úplnosti
         back: |
                 [$]A[/$] je rozhodovací problém, [$]p[/$] polynom.<br>
                 [$]A(p)[/$]: restrikce na instance, kde [$]\\mathrm{max}(I) \\leq p(\\mathrm{len}(I))[/$].<br>
                 [$]A[/$] je silně NP-úplný, když nějaká jeho polynomiální
                 restrikce je NP-úplná.
--       uuid: 1edd0126-bfa7-4d98-831b-b04ddf3c9c77
-        guid: OXP9~$:0!H
+-       guid: OXP9~$:0!H
         front: Silná NP-úplnost a číselné problémy
         back: |
                 Každý nečíselný NP-úplný problém je silně NP-úplný.<br>
                 Jinými slovy: NP-úplný i při unárním kódování.
--       uuid: c497d3df-677c-4206-9325-b5989b8d8fd8
-        guid: vSW}=8Qt_p
+-       guid: vSW}=8Qt_p
         front: |
                 Co kdyby existoval silně NP-úplný problém co jde vyřešit
                 pseudopolynomiálním algoritmem?
         back: |
                 [$]P=NP[/$]
--       uuid: 0337d32b-a15d-40cc-b709-88e67a7b54e6
-        guid: Dc=f|&l$&#
+-       guid: Dc=f|&l$&#
         front: TSP a silná NP-c
         back: TSP je silně NP-c
--       uuid: c3e9c8b3-7644-484f-8b98-3615ae5960a7
-        guid: 'bc(C3H@u>:'
+-       guid: 'bc(C3H@u>:'
         front: Úplně polynomiální aproximační schema pro Batoh
         back: |
                 Vstup: velikost batohu, velikosti předmětů a cen, předpokládám že všechny předměty se jednotlivě vejdou do batohu, racionální číslo [$]\\varepsilon > 0[/$]
                 Když [$]\\varepsilon[/$] je větší než [$]n-1[/$], vrať nejdražší předmět.
                 Jinak usekni bity z cen (resp. poděl). Pak použij pseudopolynomiální algoritmus.
--       uuid: bd5a8921-00d9-4479-8094-8fa418bad34f
-        guid: Lpkh|TSu^;
+-       guid: Lpkh|TSu^;
         front: Aproximační schema pro Batoh - složitost a aproximační poměr
         back: |
                 [$]\\mathrm{opt}(I)\\leq
                 (1+\\varepsilon)\\cdot\\mathrm{bapx}(I,\\varepsilon)[/$],
                 čas [$]O(n^3/\\varepsilon)[/$]
--       uuid: 99b1151e-7725-4bbf-9a3d-2cd4447be606
-        guid: '*jJ:w3T*5'
+-       guid: '*jJ:w3T*5'
         front: |
                 Definice: Aproximační schema
         back: |
                 Algoritmus co na instanci a [$]\\varepsilon>0[/$] vydá
                 řešení s apx. poměrem [$]1+\\varepsilon[/$].
--       uuid: bb62e0eb-f496-46b1-a623-c26432fd3b2c
-        guid: OKMry%4_a,
+-       guid: OKMry%4_a,
         front: |
                 Definice: Polynomiální aproximační schema
         back: |
                 Aproximační schema co pracuje v
                 [$]O(\\mathrm{poly}(\\mathrm{len}(I)))[/$]
--       uuid: f6a37dbc-71dc-4cdc-a42d-9686bf28fea7
-        guid: m{w,cKpY@C
+-       guid: m{w,cKpY@C
         front: |
                 Definice: Úplně polynomiální aproximační schema
         back: |
                 Aproximační schema co pracuje v
                 [$]O(\\mathrm{poly}(\\mathrm{len}(I),\\frac{1}{\\varepsilon}))[/$]
--       uuid: 78a6ff60-b26d-47eb-8e56-001c8bb2d1ea
-        guid: DxaBoYcJha
+-       guid: DxaBoYcJha
         front: Aproximační schemata a silná NP-úplnost. Důsledek?
         back: |
                 Ať je [$]A[/$] optimalizační úloha a existuje polynom [$]q[/$],
@@ -797,38 +692,32 @@ notes:
                 <br>
                 (Tedy: pokud [$]P\\neq NP[/$], neexistuje ÚPAS pro
                 žádnou silně NP-úplnou úlohu co splňuje požadavky věty)
--       uuid: fc1a3d8c-ed49-4d9e-9f83-0bac1f831006
-        guid: jEXIwjnjYZ
+-       guid: jEXIwjnjYZ
         front: Definice co-NP jazyků (proti NP jazykům)
         back: Jazyky, jejichž doplněk patří do NP
--       uuid: 572141c6-b0be-42b6-97cb-928b80eab0c2
-        guid: t,0>8cau77
+-       guid: t,0>8cau77
         front: co-NP a verifikátory
         back: |
                 [$]L[/$] patří do co-NP právě když existuje polynom
                 [$]p[/$] a polynomiální verifikátor, že [$]L=\\{x | (\\a y) [|y|\\leq p(|x|) \\Rightarrow V(x,y) prijme]\\}[/$].
                 (Viz: [$]\\a[/$], ne [$]\\e[/$])
--       uuid: 1fceb52f-228d-412e-ab24-ddacb23e3f01
-        guid: HX5WA,_+%_
+-       guid: HX5WA,_+%_
         front: P a NP a co-NP
         back: |
                 [$]P\\subseteq NP\\cap co-NP[/$]
--       uuid: 27583c76-6880-4491-a41f-1df9ae175757
-        guid: d/>x5J&A>f
+-       guid: d/>x5J&A>f
         front: NP-úplnost a co-NP-úplnost
         back: |
                 [$]A[/$] je co-NP-complete právě když [$]\\overline{A}[/$]
                 je NP-complete. Kdyby byl nějaký jazyk NP-úplný a v
                 co-NP, tak by bylo co-NP=NP.
--       uuid: ef01a082-06c9-499e-be1f-482577aa6095
-        guid: tqn@1pL-Y]
+-       guid: tqn@1pL-Y]
         front: |
                 Definice: [$]\\mathrm{2-EXPTIME}[/$]
         back: |
                 [$]\\bigcup_{k\\in\\N} \\mathrm{TIME}(2^{2^{n^k}})[/$]
         include_reverse: true
--       uuid: b37ecf53-14dc-488c-a19a-46303f2ee6ed
-        guid: p8vR:n7t){
+-       guid: p8vR:n7t){
         front: |
                 Definice: [$]\\mathrm{ELEMENTARY}[/$]
         back: |
@@ -837,11 +726,9 @@ notes:
                 \\cup \\mathrm{TIME}(2^{2^n}) \\cup \\mathrm{TIME}(2^{2^{2^n}})
                 \\cup \\ldots[/$]
         include_reverse: true
--       uuid: 25325877-2a15-4525-bfaa-afce84718c3b
-        guid: pM&#6F2WWE
+-       guid: pM&#6F2WWE
         front: Co kdyby byl nějaký NP-úplný problém v co-NP?
         back: NP=co-NP
--       uuid: a80d25f9-95ca-4c34-9f77-850a97b6ee2c
-        guid: Fdl!L{cS|u
+-       guid: Fdl!L{cS|u
         front: Co kdyby byl nějaký co-NP-úplný problém v NP?
         back: NP=co-NP

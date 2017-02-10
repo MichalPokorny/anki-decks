@@ -2,908 +2,730 @@ topic: Tools
 deck: All::CS::Tools
 uid_tag: tools
 notes:
--       uuid: 0a283dbf-a7ba-40e4-9811-7a1dd7701a89
-        guid: naY8F:A&9Y
+-       guid: naY8F:A&9Y
         front: GUI hex editor
         back: '`bless`'
         include_reverse: true
--       uuid: df69d00c-8158-481f-9cd2-6a149a2a2659
-        guid: tSv/Dy1J0O
+-       guid: tSv/Dy1J0O
         topic: Valgrind
         front: Attach debugger on first error
         back: '`valgrind --db-attach=yes` ...'
         include_reverse: true
--       uuid: 6ad7a641-f416-49c1-8f8b-3cb6860ae469
-        guid: lNGMj![#Qv
+-       guid: lNGMj![#Qv
         topic: Valgrind
         front: Save log of errors
         back: '`valgrind --log-file=xyzzy.log` ...'
         include_reverse: true
--       uuid: 6e27637f-16e3-4200-8c4b-e3b1c8018ddb
-        guid: x!mkd0p=et
+-       guid: x!mkd0p=et
         front: Output file with line numbers
         back: '`nl`'
         include_reverse: true
--       uuid: 67afaaa3-a061-4ece-9368-ec0f909d5f4f
-        guid: wjp>#@.ue9
+-       guid: wjp>#@.ue9
         front: List directory, showing file types
         back: '`ls -F`'
         include_reverse: true
--       uuid: e92c02d9-92f0-4643-bad2-1682c951c555
-        guid: F`Llt!~e4~
+-       guid: F`Llt!~e4~
         front: PIC microchip simulator
         back: '`gpsim`'
         include_reverse: true
--       uuid: 5ba25172-5bbb-4a50-becf-6c249c7d6019
-        guid: Bif)OFR}CM
+-       guid: Bif)OFR}CM
         front: PIC microchip utilities
         back: '`gputils`'
         include_reverse: true
--       uuid: 7b375c52-b014-41a1-8091-9c2c7b29b9ab
-        guid: rI.lak60[6
+-       guid: rI.lak60[6
         front: YouTube downloader
         back: '`youtube-dl`'
         include_reverse: true
--       uuid: d97e5e05-975a-474b-9ae7-60560dae301d
-        guid: h/>x0Ff]Sr
+-       guid: h/>x0Ff]Sr
         front: '`youtube-dl` - combine best video with best audio'
         back: '`youtube-dl -f bestvideo+bestaudio/best ...`'
--       uuid: 3860f642-a093-4772-8b4d-980b2fd2f28c
-        guid: gl%e-Oyox6
+-       guid: gl%e-Oyox6
         front: Disk usage visualizer
         back: '`baobab`'
         include_reverse: true
--       uuid: 1a5e809c-5ff6-46eb-ab6a-82a0d8bfacd8
-        guid: DX!%/s*KjC
+-       guid: DX!%/s*KjC
         front: Paint program
         back: '`mypaint`'
         include_reverse: true
--       uuid: 153080ab-b224-45a9-9f03-54f912ee4215
-        guid: imdF{[8?+_
+-       guid: imdF{[8?+_
         front: Print Linux kernel log in human-readable format
         back: '`dmesg --human`'
         include_reverse: true
--       uuid: 4e877fe4-c300-43fd-933f-cc1da988684f
-        guid: B@Q8{Q!_=e
+-       guid: B@Q8{Q!_=e
         front: Print Linux kernel log and print incoming messages
         back: '`dmesg --follow`'
         include_reverse: true
--       uuid: 8a1d9119-00a8-4525-b9e7-fcc19d9b1af2
-        guid: x5&L~7ILC-
+-       guid: x5&L~7ILC-
         front: Flash cards program
         back: '`anki`'
         include_reverse: true
--       uuid: 0544f8eb-46eb-457e-8d69-cf023648db64
-        guid: y@C6QQrW2p
+-       guid: y@C6QQrW2p
         front: Change screen temperature according to time of day
         back: '`redshift`'
         include_reverse: true
--       uuid: a25a8bbb-3617-4890-b9dc-318a866ca5a8
-        guid: m`e=&4~[2M
+-       guid: m`e=&4~[2M
         front: Time tracker
         back: '`hamster`'
         include_reverse: true
--       uuid: 7955cfd7-7d76-4603-b49b-89d59251c6be
-        guid: onw)[=S)%@
+-       guid: onw)[=S)%@
         front: JSON pretty-printer
         back: '`jshon`'
         include_reverse: true
--       uuid: 6d48fdb7-7f4e-4e7f-a6db-e2c0ac0ad469
-        guid: w7J65hG~?6
+-       guid: w7J65hG~?6
         front: Quick and dirty Python HTTP server
         back: '`python -m http.server`'
         include_reverse: true
--       uuid: 9a499667-bd50-4410-86ca-418f8d1b3cac
-        guid: vQbR9Dr!Br
+-       guid: vQbR9Dr!Br
         front: Network monitor by process
         back: '`nethogs -i enp0s25`'
         include_reverse: true
--       uuid: dc9f6e2d-165f-4be6-a833-1ce12266bce4
-        guid: Are()oVeKh
+-       guid: Are()oVeKh
         front: Monitor the progress of data through a pipe
         back: '`pv`'
         include_reverse: true
--       uuid: 1df83c08-703e-4aa3-9d2d-a15ce47bf8e9
-        guid: kVc_fNJRS7
+-       guid: kVc_fNJRS7
         front: Trace syscalls of running process
         back: '`strace -p 12345`'
         include_reverse: true
--       uuid: 2da5b917-9f07-416b-a7db-4f52ed460b38
-        guid: i_B=o5~44Y
+-       guid: i_B=o5~44Y
         front: Make ASCII-art banner
         back: '`banner`'
         include_reverse: true
--       uuid: 804e6b8a-5a0d-428a-8f37-78f50de16457
-        guid: ju8.rwys`z
+-       guid: ju8.rwys`z
         front: Convert Windows newlines to Unix
         back: '`dos2unix`'
         include_reverse: true
--       uuid: edb463b4-0a98-41e4-aafd-db031779509e
-        guid: A_c@~gA%yh
+-       guid: A_c@~gA%yh
         front: Follow streamed file in new pager
         back: '`less -F`'
         include_reverse: true
--       uuid: ae49a687-22b7-4b38-8fe9-dcf2340bc87c
-        guid: ABBD1XT^Gh
+-       guid: ABBD1XT^Gh
         front: Text formatter to wrap to constant width
         back: '`fmt`'
         include_reverse: true
--       uuid: 66ba52e2-0ff2-4450-948c-885b5dc45662
-        guid: ngcP=q?BHK
+-       guid: ngcP=q?BHK
         front: Show ASCII table
         back: '`man ascii`'
         include_reverse: true
--       uuid: 46c49bce-49cb-401a-91f7-188cd03cc34a
-        guid: QGw%:<j/]e
+-       guid: QGw%:<j/]e
         front: Run Matrix effect in console
         back: '`cmatrix`'
         include_reverse: true
--       uuid: 8d6c6663-ab23-4aef-8f40-be4f9efefa6a
-        guid: Co-&X{Ddkk
+-       guid: Co-&X{Ddkk
         front: Encode content as QR code
         back: '`qrencode`'
         include_reverse: true
--       uuid: ebe8171e-21e7-4081-aa99-8a51faa3c624
-        guid: CI5:DUYEw~
+-       guid: CI5:DUYEw~
         front: Curses Git GUI
         back: '`tig`'
         include_reverse: true
--       uuid: aa37f76d-9d64-44bb-88ad-50b2031b980c
-        guid: L;OVeX!F*0
+-       guid: L;OVeX!F*0
         front: GNU parser generator
         back: '`yacc`'
         include_reverse: true
--       uuid: f12111e2-6520-4689-9d47-825ca6efc6a4
-        guid: It]_fy=B95
+-       guid: It]_fy=B95
         topic: Pacman
         front: List explicitly installed packages (not as dependencies)
         back: '`pacman -Qe`'
         include_reverse: true
--       uuid: 35dbad9a-21ad-4287-86a2-6e516448c36c
-        guid: uY!EDBZY<j
+-       guid: uY!EDBZY<j
         front: '`systemd` - plot startup graph'
         back: '`systemd-analyze plot`'
         include_reverse: true
--       uuid: ec778376-7ac4-4a17-9362-5c6969f866ea
-        guid: m?(uPu(dQd
+-       guid: m?(uPu(dQd
         front: Count occurrences of a string in file
         back: '`grep -c`'
         include_reverse: true
--       uuid: 037ae95b-fdf5-4bac-8ba3-a2950ca1732d
-        guid: B<!|eRb<J%
+-       guid: B<!|eRb<J%
         topic: '`grep`'
         front: Search only within files meeting a glob
         back: '`grep --include="*.rb" ...`'
--       uuid: 0661c3db-3903-4e75-ac30-82fc31611e50
-        guid: u$Vl,buaj(
+-       guid: u$Vl,buaj(
         front: Screen - attach, including already attached sessions
         back: '`screen -x (session)`'
         include_reverse: true
--       uuid: bb231898-cb17-4f46-8770-24a86c36df2c
-        guid: fA9mXSsa=k
+-       guid: fA9mXSsa=k
         front: Screen - attach to non-attached session
         back: '`screen -r (session)`'
         include_reverse: true
--       uuid: ed27be40-be97-4efd-b713-8a765a8db4fd
-        guid: Bg/:=jAqrq
+-       guid: Bg/:=jAqrq
         front: Screen - detach
         back: C-a d
--       uuid: a479ae33-6970-46a9-8f51-fa11be8f849b
-        guid: H9O{VsL3JM
+-       guid: H9O{VsL3JM
         front: Creating a symbolic link using `cp`
         back: '`cp -s (link-target) (link)`'
--       uuid: cf65f36d-74c9-456a-8ab2-ec9564a364ea
-        guid: m,`,taCu2G
+-       guid: m,`,taCu2G
         front: '`cp -s x y`'
         back: Creates symbolic link at `y`, pointing to `x`
--       uuid: 9c5adea1-186d-4fa7-87dc-11fa359249d5
-        guid: by%2p<*@FB
+-       guid: by%2p<*@FB
         front: Display diff output in two columns
         back: '`diff -y`'
         include_reverse: true
--       uuid: b6977d03-a44d-4e4e-8b5f-7e32d0183d28
-        guid: lydlq]@A~.
+-       guid: lydlq]@A~.
         front: mplayer - cycle between alternate audio tracks
         back: \#
--       uuid: d05a58a8-865d-4399-84e7-a4fa2a75c5cb
-        guid: mF+s%gZE?;
+-       guid: mF+s%gZE?;
         front: Midnight Commander - launch tab completion
         back: \<Esc\>-\<Tab\>
--       uuid: e37246bb-95bc-43fd-b1ad-00725946b86c
-        guid: cn+5BqKRnf
+-       guid: cn+5BqKRnf
         front: C++ code deduplicator
         back: '`simian`'
         include_reverse: true
--       uuid: a7916680-3788-4922-a38c-38ab4d95ad5c
-        guid: 'O>o&lqht%:'
+-       guid: 'O>o&lqht%:'
         front: TUI disk usage visualizer
         back: '`ncdu`'
         include_reverse: true
--       uuid: ef421f30-02d2-411e-8ece-c4e4c53ebe5a
-        guid: sTf(%Z,7YY
+-       guid: sTf(%Z,7YY
         front: '`patoline`'
         back: Typesetting system
--       uuid: f4318a5b-d750-47cc-b934-64fdc0efac88
-        guid: rguy<YfV#[
+-       guid: rguy<YfV#[
         topic: Pacman
         front: Mark package as installed as dependency
         back: '`pacman -D --asdeps <pkgs>`'
         include_reverse: true
--       uuid: 9f5aacbe-0412-4fd1-960b-471e89e62edb
-        guid: y}{4t=|F(/
+-       guid: y}{4t=|F(/
         front: Count lines of code
         back: '`cloc`'
         include_reverse: true
--       uuid: 0e6f1b92-8973-450e-8c08-f704b7bfc8a3
-        guid: IAB9#82$93
+-       guid: IAB9#82$93
         front: Limit CPU usage of process
         back: '`cpulimit`'
         include_reverse: true
--       uuid: 809e0252-68ac-4deb-ac28-2eb212005693
-        guid: sZf85~=p`L
+-       guid: sZf85~=p`L
         front: Mount FTP as filesystem
         back: '`curlftpfs`'
         include_reverse: true
--       uuid: a6bbccaa-64fc-4f2a-a4c0-c2d0b3cacf9e
-        guid: FPG`Nh0nNt
+-       guid: FPG`Nh0nNt
         back: Guitar tuner
         front: '`fmit`'
-        include_reverse: true    
+        include_reverse: true
 
--       uuid: 6575036b-fc4c-471d-98db-a9db63cbaa8e
-        guid: D.H#f{,9o^
+-       guid: D.H#f{,9o^
         front: Limit bandwidth usage
         back: '`wondershaper`'
         include_reverse: true
--       uuid: 3740e177-b467-49b4-a17e-f6ce0623b649
-        guid: 'z7)tRlNlp:'
+-       guid: 'z7)tRlNlp:'
         front: Open-source Prolog implementation
         back: '`swipl` (SWI Prolog)'
--       uuid: 606afaec-c0a6-4a61-b54c-9956ab7661fb
-        guid: pl{/7}!4cZ
+-       guid: pl{/7}!4cZ
         front: '`scons`'
         back: Build system
--       uuid: 7b383c07-7eaa-457c-a976-5fe3fdaac8e4
-        guid: P#gJxb$AZ!
+-       guid: P#gJxb$AZ!
         front: Dotfiles management system
         back: '`rcm`'
         include_reverse: true
--       uuid: 5747f5c1-c0f9-48ea-97ed-b37033366167
-        guid: t(.NWlNa8q
+-       guid: t(.NWlNa8q
         front: GNU replacement for Matlab
         back: '`octave`'
         include_reverse: true
--       uuid: 22018ef4-0a83-4908-b47c-d6d540aa6cb2
-        guid: g|89+_//bE
+-       guid: g|89+_//bE
         front: JavaScript linter
         back: '`jslint`'
--       uuid: 3687d3ec-f046-4974-90f1-8206fae752a9
-        guid: lx]Q^g$H:>
+-       guid: lx]Q^g$H:>
         front: Color picker
         back: '`gcolor2`'
--       uuid: 7675f4e2-9ad8-4c55-adf3-159cf7a2eb66
-        guid: b@%F,j|^o>
+-       guid: b@%F,j|^o>
         front: '`uzbl`'
         back: Web browser
--       uuid: 45078b6a-1117-49e1-a78a-1c063766f94d
-        guid: K<vV&J^~B8
+-       guid: K<vV&J^~B8
         front: '`cgdb`'
         back: gdb CLI GUI
--       uuid: 84e8770d-cb64-4a75-ad00-45881e4e25eb
-        guid: f[y^Y.1<M|
+-       guid: f[y^Y.1<M|
         front: '`lftp`'
         back: Command-line FTP client
--       uuid: 7e9be7ad-67d4-4be0-a00d-e4bb2ff796fa
-        guid: bx8aU.Lz0v
+-       guid: bx8aU.Lz0v
         front: '`tmux`'
         back: Console multiplexer, similar to GNU Screen
--       uuid: 8a593382-eeb0-4edb-b707-33049de02286
-        guid: z0e5Qp^=Ry
+-       guid: z0e5Qp^=Ry
         front: Jekyll
         back: Ruby static page generator
--       uuid: 543fdea0-20e1-4429-be6b-5c3907fe3da8
-        guid: qwcFBk?cAW
+-       guid: qwcFBk?cAW
         front: Start SMART tests and read results
         back: '`smartctl -c /dev/sda (-t short|long|conveyance)`'
--       uuid: 24e09e05-6d30-4dc2-a6d5-53b66abd8b4e
-        guid: M8qOs~Z3me
+-       guid: M8qOs~Z3me
         front: Silverlight for Firefox & Linux
         back: Pipelight
         include_reverse: true
--       uuid: d0dd9af1-35b6-4366-9ed9-5b0101500bce
-        guid: Fp{K^e(##_
+-       guid: Fp{K^e(##_
         front: Privacy Badger
         back: Privacy browser plug-in from EFF
         include_reverse: true
--       uuid: 295b7a9b-8cce-4ed7-83da-b5d2d8d9f5db
-        guid: F|z:wzhM4Q
+-       guid: F|z:wzhM4Q
         front: HTTPS Everywhere
         back: Plug-in from EFF that automatically switches to HTTPS
         include_reverse: true
--       uuid: eb31c6c9-3331-4380-ac69-dd05ceda735b
-        guid: eano78s>R;
+-       guid: eano78s>R;
         front: '`gopherjs`'
         back: Go to JavaScript compiler
         include_reverse: true
--       uuid: aa74bcfa-3e5e-4952-8636-175de541ef47
-        guid: v?O3`Npe<~
+-       guid: v?O3`Npe<~
         front: Keybase
         back: Identity proof/key sharing site. Keybase.io
--       uuid: 4c34d929-09b9-4b82-9904-fd2b949a63cd
-        guid: uMD3v?YneR
+-       guid: uMD3v?YneR
         front: OpenShift
         back: Red Hat's web app hosting platform. Includes Go support.
--       uuid: 11ba1433-070a-4766-a7b4-a298221c72c2
-        guid: w*9SwIM1Z6
+-       guid: w*9SwIM1Z6
         front: Wikidata
         back: Wikipedia formalization in RDF form, with statements and quantifiers
                 (sources)
         include_reverse: true
--       uuid: 27d7031e-6ad3-429b-8912-5f8a6223fa3e
-        guid: MBsnlAh&Z`
+-       guid: MBsnlAh&Z`
         front: Regex - Zero-width look-ahead assertion
         back: '`(?=regex...)`'
--       uuid: 3c5817e0-8c5d-41f5-8f57-8fff308c3a62
-        guid: m0-5BXD!>=
+-       guid: m0-5BXD!>=
         front: Whiteout in PowerPoint
         back: '`w`'
--       uuid: f6e28468-b92d-44e1-b082-25f2cc7837d5
-        guid: Oj0irhEwh=
+-       guid: Oj0irhEwh=
         front: Blackout in PowerPoint
         back: '`b`'
--       uuid: 7fc48588-1173-454a-a81b-047336aef1d7
-        guid: h[lP,lozj?
+-       guid: h[lP,lozj?
         front: Git backup tool
         back: '`git annex`'
         include_reverse: true
--       uuid: aa8deb39-8708-42d8-8404-a23093400360
-        guid: vVD5M-z:Vo
+-       guid: vVD5M-z:Vo
         front: Search all man pages and short descriptions for mentions of "printf"
         back: '`man -k printf`'
         include_reverse: true
--       uuid: e2060f58-0eaa-439b-8fcd-5c16a351b4d4
-        guid: H&hd,FejDl
+-       guid: H&hd,FejDl
         front: Look up all man pages named "printf"
         back: '`man -f printf`'
         include_reverse: true
--       uuid: e8a63dbe-341d-4202-ad51-1e3a76c57bfd
-        guid: o}ON>[D%pt
+-       guid: o}ON>[D%pt
         topic: man sections
         front: '1'
         back: Executable programs or shell commands
         include_reverse: true
--       uuid: 1132f133-e257-46fa-a1eb-57b8cb2bfb62
-        guid: m&TPq6#!t+
+-       guid: m&TPq6#!t+
         topic: man sections
         front: '2'
         back: System calls (functions provided by the kernel)
         include_reverse: true
--       uuid: 09d7381e-e7bd-41bf-8c4b-0bcd0a2cab79
-        guid: s,LV+y2M([
+-       guid: s,LV+y2M([
         topic: man sections
         front: '3'
         back: Library calls (functions within program libraries)
         include_reverse: true
--       uuid: 68992887-41d7-48df-9892-9946e5fc6806
-        guid: v@bv/.!~es
+-       guid: v@bv/.!~es
         topic: man sections
         front: '4'
         back: Special files (usually found in /dev)
         include_reverse: true
--       uuid: ec71edfd-047d-4c65-bc14-50bce3f5e723
-        guid: sY?xYx[sY#
+-       guid: sY?xYx[sY#
         topic: man sections
         front: '5'
         back: File formats and conventions, e.g. /etc/passwd
         include_reverse: true
--       uuid: f9de7c2c-c146-4e88-bd54-95f3209c0402
-        guid: b%fJ>,&d@@
+-       guid: b%fJ>,&d@@
         topic: man sections
         front: '6'
         back: Games
         include_reverse: true
--       uuid: e73c0672-eb37-422a-852d-1d4367e757cf
-        guid: lRDAzOsK{)
+-       guid: lRDAzOsK{)
         topic: man sections
         front: '7'
         back: Miscellaneous (including macro packages and conventions), e.g. `man`,
                 `groff`
         include_reverse: true
--       uuid: 31cd0e21-961a-45ec-8068-1fa3e0fe134e
-        guid: 'dPidnakTy:'
+-       guid: 'dPidnakTy:'
         topic: man sections
         front: '8'
         back: System administration commands (usually only for root)
         include_reverse: true
--       uuid: 588b3103-a7a8-47be-aa07-3b9f6393b3f4
-        guid: E$|ZabV97n
+-       guid: E$|ZabV97n
         topic: '`ssh`'
         front: Connect to server without pubkey auth
         back: '`ssh rny.cz -o PubkeyAuthentication=no`'
         include_reverse: true
--       uuid: 36b1e5ca-8bd5-47f7-9452-07c7251dd67b
-        guid: Qq^pE59.LB
+-       guid: Qq^pE59.LB
         topic: '`ssh`'
         front: Enable compression on command-line
         back: '`ssh -C ...`'
         include_reverse: true
--       uuid: c442269e-24e8-43d7-8d6b-cb73d3898293
-        guid: C*8fDGF{p2
+-       guid: C*8fDGF{p2
         topic: '`ssh`'
         front: Enable compression in configuration file
         back: '`Compression yes`'
--       uuid: f766e966-7532-4b7b-a41b-7ca60d2edcbd
-        guid: cyLG;{]V?*
+-       guid: cyLG;{]V?*
         topic: '`ssh`'
         front: '`~.` on beginning of line'
         back: Disconnect forcefully (`~` is `ssh` escape character)
--       uuid: b4885e60-92b9-465f-986f-432010620615
-        guid: mlfW-2?~mC
+-       guid: mlfW-2?~mC
         topic: '`ssh`'
         front: Disconnect forcefully
         back: '`~.`, on beginning of line (`~` is `ssh` escape character)'
--       uuid: 74fe99ef-4838-4473-a509-140f01cd5a0c
-        guid: J(>8)P_o-l
+-       guid: J(>8)P_o-l
         topic: '`ssh`'
         front: '`~~`'
         back: Send escape character
         include_reverse: true
--       uuid: 3ad773ca-d27e-4d0a-a820-5c35e06d6ddf
-        guid: ehQ-`9s=z(
+-       guid: ehQ-`9s=z(
         topic: '`ssh`'
         front: Enable X forwarding
         back: '`ssh -X ...`'
 # TODO: whiteout, blackout in Google Docs
--       uuid: 4ceab1d5-2924-4bf7-bba9-64d9ee6e0879
-        guid: OJOe_plv(q
+-       guid: OJOe_plv(q
         front: Randomly permute input lines
         back: '`shuf`'
         include_reverse: true
--       uuid: 518a2d40-73d7-45b8-8c68-2b2330329e17
-        guid: yevdz`2W`p
+-       guid: yevdz`2W`p
         front: Show ASCII-art process tree
         back: '`pstree`'
         include_reverse: true
--       uuid: a280e3c8-cb40-4c5f-8ef6-6c5193a7b992
-        guid: mN}nN+EY4y
+-       guid: mN}nN+EY4y
         front: Check, correct and pretty-print HTML files
         back: '`tidy`'
         include_reverse: true
--       uuid: 0690643b-c3fa-4d0f-be12-fe11f3d97632
-        guid: czUh{$?I{)
+-       guid: czUh{$?I{)
         front: Tgz up a directory
         back: tar cvzf foo.tar.gz cps100
                 # TODO: Which flags do which?
--       uuid: 8bd5ef59-fd3b-4297-833a-a51f6c59e194
-        guid: t:G_pWC<lF
+-       guid: t:G_pWC<lF
         topic: Firefox addons
         front: Custom styling by URL
         back: Stylish
         include_reverse: true
--       uuid: fd778dd8-35cd-4390-b369-144256137903
-        guid: IHV.!:]$eA
+-       guid: IHV.!:]$eA
         front: Haskell replacement for Xournal
         back: Hoodle
         include_reverse: true
--       uuid: 21e2cb0f-b573-4ef9-bef6-907133dbbae1
-        guid: Q(tBhn-kWK
+-       guid: Q(tBhn-kWK
         front: Haskell replacement for Xournal
         back: Hoodle
         include_reverse: true
--       uuid: 5064f3fb-6d4c-43f4-8d11-4476be548597
-        guid: wIXONQJ2%P
+-       guid: wIXONQJ2%P
         front: Jam
         back: Build tool used by Boost
         include_reverse: true
--       uuid: 5aca0194-e13f-420d-8af3-03106b509054
-        guid: lj~K/D[sWJ
+-       guid: lj~K/D[sWJ
         front: pacgraph
         back: Pacman package dependency graph creator
         include_reverse: true
--       uuid: 0dac8da9-89a2-40d1-8425-0377c71f27a1
-        guid: n)BFzW}aZU
+-       guid: n)BFzW}aZU
         front: Leksah
         back: Haskell IDE
--       uuid: c45e42f3-d6d5-4a81-969d-68d7f1a36f98
-        guid: Ji=S9AU6:k
+-       guid: Ji=S9AU6:k
         front: Pencil
         back: Wireframing tool for Linux
         include_reverse: true
--       uuid: bca0cdcb-1b8d-42ca-875f-dbdca5718818
-        guid: A4T`,CeKcv
+-       guid: A4T`,CeKcv
         front: Zathura
         back: Vim-like PDF browser
--       uuid: d11079e1-67b4-4a73-a10e-0b9c73d04929
-        guid: m@x!!M-~$;
+-       guid: m@x!!M-~$;
         front: Selenium
         back: Browser automation server
--       uuid: ccd11342-2194-469c-98dc-bcad589ba558
-        guid: Gju3#]/9fu
+-       guid: Gju3#]/9fu
         front: Hydrogen
         back: Linux drum machine
--       uuid: a01b2370-9568-41c4-ac84-5ba271ecec91
-        guid: ',byS20CvT'
+-       guid: ',byS20CvT'
         front: Shamir's secret sharing scheme tool
         back: '`ssss`'
                 # TODO: ssss-combine, ssss-split
         include_reverse: true
--       uuid: a37e2e7b-dccd-4830-b666-b9c62f110400
-        guid: Fv8n7*ZFjI
+-       guid: Fv8n7*ZFjI
         front: '`pocketsphinx`'
         back: TTS
--       uuid: 9f7470a4-0aac-400d-8d41-6fbdf4efa867
-        guid: r6y}`]NvJn
+-       guid: r6y}`]NvJn
         front: '`nmtui`'
         back: TUI for NetworkManager
         include_reverse: true
--       uuid: cfa2e128-7379-476c-8970-11cbb42ab660
-        guid: lG90g`[fet
+-       guid: lG90g`[fet
         front: '`fail2ban`'
         back: Banning daemon from logs; supports httpd, vsftpd, sshd, etc.
         include_reverse: true
--       uuid: 81802f26-c538-4778-b9b8-77090ad668fb
-        guid: goO|#U7g:T
+-       guid: goO|#U7g:T
         front: Drop disk cache
         back: '`sync && echo 3 > /proc/sys/vm/drop_caches`'
         include_reverse: true
--       uuid: 0aaf0db0-7e91-4c39-8871-cb8c717727df
-        guid: BXUIoeKXe#
+-       guid: BXUIoeKXe#
         front: Extract sound from video into MP3
         back: ffmpeg -i in.flv -vn -f mp3 out.mp3
         include_reverse: true
--       uuid: f3e496bb-a283-4168-aebc-97915874a483
-        guid: GnpMt#N=&&
+-       guid: GnpMt#N=&&
         topic: '`ffmpeg` flags'
         front: Disable recording video
         back: '`-vn`'
         include_reverse: true
--       uuid: a861d48a-b511-46c6-9927-b53ce1e5e717
-        guid: 9hkw!&Qi0
+-       guid: 9hkw!&Qi0
         topic: '`ffmpeg` flags'
         front: Explicitly set format
         back: '`-f (...)`'
         include_reverse: true
--       uuid: a253f826-a37d-4910-9a98-216a9e82c06b
-        guid: bH0a+yXriJ
+-       guid: bH0a+yXriJ
         front: Convert whitespace-separated input to ASCII table
         back: '`column -t`'
         include_reverse: true
--       uuid: be62ffbc-42a2-45ef-afec-fc8d9ca20670
-        guid: N<kU)GN+:c
+-       guid: N<kU)GN+:c
         front: Executable file compressor
         back: UPX
         include_reverse: true
--       uuid: de501d85-74fc-4196-80db-a1ac0b90c6df
-        guid: N{,^>pk!RY
+-       guid: N{,^>pk!RY
         front: X-ARF
         back: eXtended Abuse Report Format; mail for reporting abuse
--       uuid: e9db0a02-58be-468f-ae6f-887da9103db2
-        guid: l-}dF+m*~l
+-       guid: l-}dF+m*~l
         front: Microsoft's theorem prover
         back: Z3
         include_reverse: true
--       uuid: 7e2c5888-3867-4239-b1b9-7bca59015622
-        guid: AzH/L^&|&d
+-       guid: AzH/L^&|&d
         topic: Less
         front: Start following file's tail
         back: '`F`'
         include_reverse: true
--       uuid: e53abb54-b816-4477-bb65-de96d0801ed4
-        guid: FM{TSUz5C[
+-       guid: FM{TSUz5C[
         front: '`dialog`'
         back: Display dialog boxes from shell scripts
         include_reverse: true
--       uuid: e15df95f-8b04-4610-a4d8-561d3b26bdf7
-        guid: zuevB9Z^3p
+-       guid: zuevB9Z^3p
         front: '`zenity`'
         back: Display GTK+ dialog boxes from shell scripts
         include_reverse: true
--       uuid: 50cfa69c-d22d-453a-9a94-12d312ceba21
-        guid: D~WAy@H*Lm
+-       guid: D~WAy@H*Lm
         front: '`vanitygen`'
         back: Bitcoin vanity address generator
         include_reverse: true
--       uuid: bffbdd83-494d-4ef0-bc69-d43880a0bec2
-        guid: h]z6rxI)#J
+-       guid: h]z6rxI)#J
         front: '`fc`'
         back: Open editor, edit last command-line, then run it
         include_reverse: true
--       uuid: 2b5e7cf7-0f15-47b9-82d2-4106ca7f7a5e
-        guid: P0=o9z_R[]
+-       guid: P0=o9z_R[]
         front: Apache Mahout
         back: Distributed or otherwise scalable ML algorithms, mainly collaborative
                 filtering, clustering and classification
--       uuid: ac4c98ff-f261-4673-b377-618b7d94458d
-        guid: dD(tYA`CU^
+-       guid: dD(tYA`CU^
         front: '`gnugo`'
         back: Play Go
--       uuid: 8c272a9d-4822-41d2-a0af-55308f12786b
-        guid: G+9kGDxM;u
+-       guid: G+9kGDxM;u
         front: '`cppcheck`'
         back: Static analysis tool for C/C++ code
--       uuid: fd60c521-b715-45b8-bba3-bc5ea4f9ca4d
-        guid: D:Hm^^UHnY
+-       guid: D:Hm^^UHnY
         front: '`rrdtool`'
         back: Data logging and graphing system for time series data
         include_reverse: true
--       uuid: 2c9b90da-4bab-4fc0-b02f-54a91cb4fcf8
-        guid: hYqF:?StR6
+-       guid: hYqF:?StR6
         front: gRPC
         back: Proto3 + Stubby over HTTP/2
         include_reverse: true
--       uuid: db705ec2-2014-4197-a80e-bef533846075
-        guid: q]>7B5&ZC@
+-       guid: q]>7B5&ZC@
         front: '`hopper`'
         back: Linux decompiler
--       uuid: f4dfd0f5-f1b6-41fe-ae68-aa6312214365
-        guid: zu)&rB%x_M
+-       guid: zu)&rB%x_M
         front: '`meld`'
         back: Visual diff and merge tool
--       uuid: 585d22fa-052f-43fd-b93e-2e39e23cde5d
-        guid: g0Gb#9z*!u
+-       guid: g0Gb#9z*!u
         front: '`dwb`'
         back: Browser
--       uuid: 3d45b9e6-300f-495f-b05b-b2b34207fdfb
-        guid: v.ZVA?D0h4
+-       guid: v.ZVA?D0h4
         front: '`ddrescue`'
         back: Data recovery tool, try to rescue good parts first, automatically, without
                 need to restart.
         include_reverse: true
--       uuid: 8926a70d-2725-4879-b9b9-0563e19bd7d2
-        guid: lCW$0;*gQL
+-       guid: lCW$0;*gQL
         front: '`ntp`'
         back: Time synchronization protocol over network
         include_reverse: true
--       uuid: 24c506fb-1c10-4d9a-92d6-23fbb8e42fd5
-        guid: ~k^YS<e-,
+-       guid: ~k^YS<e-,
         front: '`gparted`'
         back: GTK partition editor
--       uuid: 3c371a91-a742-4efb-a6f2-4d691651ca0e
-        guid: N/d96Ji{N7
+-       guid: N/d96Ji{N7
         front: '`fake-hwclock`'
         back: Fake missing hardware clock by loading/saving date/time
         include_reverse: true
--       uuid: 354d1d5b-9077-428a-b026-7b6f3c9d5f01
-        guid: jl,`2yrqJX
+-       guid: jl,`2yrqJX
         front: CircleCI
         back: CI
--       uuid: f4701dc4-9aec-4c7a-b949-3dd3a9db38c5
-        guid: F;lRy+-bhh
+-       guid: F;lRy+-bhh
         front: Papertrail
         back: Log collection service we used in Represent
         include_reverse: true
--       uuid: 159141f2-4abe-47b0-aaa5-c4354a228e89
-        guid: yN$}(A~h^/
+-       guid: yN$}(A~h^/
         front: Pivotal Tracker
         back: Agile project management tool we used in Represent
         include_reverse: true
--       uuid: bbeb98bb-92d3-4094-9cd0-730e035e7c11
-        guid: uq(]P&j{6N
+-       guid: uq(]P&j{6N
         front: Virtual keyboar from X project
         back: '`xvkbd`'
         include_reverse: true
--       uuid: 054586c6-b47c-4312-b972-1f8e12fcea69
-        guid: JksK}6#G^K
+-       guid: JksK}6#G^K
         front: Jenkins
         back: CI tool
--       uuid: 871b3411-643e-4f25-a6b1-f112739f15c3
-        guid: mA$De>^YH+
+-       guid: mA$De>^YH+
         front: Online time-tracking service
         back: Toggl
         include_reverse: true
--       uuid: 09256768-b85b-4770-9fac-94218407979e
-        guid: N{V3fA$4$d
+-       guid: N{V3fA$4$d
         front: Audio CD ripping tool
         back: '`abcde`'
         include_reverse: true
--       uuid: 159b75a2-4c6e-442c-b34c-b2d66ef4324f
-        guid: pakhWJ3%7U
+-       guid: pakhWJ3%7U
         front: Print out random quote
         back: '`fortune`'
         include_reverse: true
--       uuid: 29bfadf0-82ef-4141-b05b-b8d8676783ca
-        guid: E!OJ@n=((w
+-       guid: E!OJ@n=((w
         front: '`irqbalance`'
         back: Daemon to help balance the CPU load generated by interrupts across all
                 of a system's CPUs. Isolates highest volume interrupt sources and
                 isolates them to a single CPU, hence minimizing cache miss rates for
                 IRQ handlers.
         include_reverse: true
--       uuid: 0effa20a-449f-4b2b-8b74-7fb67d446b65
-        guid: l?zfaKh-9n
+-       guid: l?zfaKh-9n
         front: '`haveged`'
         back: Unpredictable random number generator based on HAVEGE algorithm. Increses
                 entropy for low-entropy systems.
         include_reverse: true
--       uuid: 0d44d8b8-abe4-443b-a332-af5e0ab82755
-        guid: i)u}!Q8x8r
+-       guid: i)u}!Q8x8r
         front: '`systemctl --failed`'
         back: Check for failed services in systemd
         include_reverse: true
--       uuid: 307b787e-34dc-4c1a-9c44-ab67a55af5f4
-        guid: fQT)#6G{#?
+-       guid: fQT)#6G{#?
         front: '`pacman -Scc`'
         back: Pacman - clean all files from Pacman cache and remove unused repositories
         include_reverse: true
--       uuid: 2eda4100-320b-4db0-83df-3b21f81247bd
-        guid: lxiQO8M$J?
+-       guid: lxiQO8M$J?
         front: '`pacman -Qdtq`'
         back: Pacman - get orphans
         include_reverse: true
--       uuid: aabe2ca0-f4a0-4f81-8e5c-675001627d93
-        guid: bUZ0NYml@K
+-       guid: bUZ0NYml@K
         topic: Pacman - Query flags
         front: '`-d / --deps`'
         back: Restrict to packages in stalled as dependencies
         include_reverse: true
--       uuid: 6b4779c4-d411-4e82-a5e9-1274c54ca43f
-        guid: QQ5^L;tF^,
+-       guid: QQ5^L;tF^,
         topic: Pacman - Query flags
         front: '`-t / --unrequired`'
         back: Restrict to packages not required or optionally required by any installed
                 package
         include_reverse: true
--       uuid: d7dbd661-e000-4b36-8112-8617a75cdede
-        guid: hTbtSe.pZf
+-       guid: hTbtSe.pZf
         front: Easily display biggest subfolders
         back: '`du -Sa | sort -n`'
         include_reverse: true
--       uuid: cdfeb972-8803-457b-9b53-162508861e56
-        guid: u*+KpHoN~d
+-       guid: u*+KpHoN~d
         topic: Slack
         front: Set a reminder
         back: '`/remind me I rock! at 9 am every Friday`; or `/remind #general Hello!
                 November 19` or `in 15 minutes`.'
         include_reverse: true
--       uuid: 8271e1e9-00d0-4139-bd3e-df43e77ce4a0
-        guid: E@Cuyfx4TO
+-       guid: E@Cuyfx4TO
         topic: Slack
         front: Add ¯\\_(ツ)_/¯ to message
         back: '`/shrug`'
         include_reverse: true
--       uuid: 5698d8b5-1b69-453d-9255-32e7cca4efd1
-        guid: u-~4[91`.[
+-       guid: u-~4[91`.[
         front: Numeric sort in shell
         back: '`sort -n`'
         include_reverse: true
--       uuid: 4671f56e-9032-4664-9ccf-7458954c8d01
-        guid: sl:XPh:&?%
+-       guid: sl:XPh:&?%
         front: Include children in `strace`
         back: '`strace -f (...)`'
         include_reverse: true
--       uuid: 25266ee6-1d81-47bd-b94a-dd7a5614d0cb
-        guid: PwSoD1l,U_
+-       guid: PwSoD1l,U_
         topic: GNU Screen
         front: Rename currently open session
         back: '`C-a :sessionname (name) <Enter>`'
         include_reverse: true
--       uuid: 2e52a057-3443-44f1-ab40-6768509aa43a
-        guid: Ez4,Gs5WJ6
+-       guid: Ez4,Gs5WJ6
         front: Detach background job from running bash and stop sending the job SIGHUPs
                 when SIGHUP is sent to shell
         back: '`disown -h (jobspec)`'
         include_reverse: true
--       uuid: a2ab421d-b1ea-48e7-aa53-027fff5a13ad
-        guid: pqzD.N%e%_
+-       guid: pqzD.N%e%_
         topic: Hadoop MapReduce
         front: Get job status from CLI, incl. counters
         back: '`mapred job -status job_1477124670116_0034`'
         include_reverse: true
--       uuid: 4b29bbd5-b15a-4d13-84ad-f9349b2d9b7e
-        guid: M6)GWs/.p
+-       guid: M6)GWs/.p
         front: Remove EXIF tags from image
         back: '`exiftool -all= x.jpg`'
         include_reverse: true
--       uuid: 2c77a3f1-9cee-4f2e-acf2-909f65e587b3
-        guid: OP7?/thvFR
+-       guid: OP7?/thvFR
         front: Start `less` to immediately follow
         back: '`less +F`'
         include_reverse: true
--       uuid: ba4d8a08-9dd4-4438-a09b-ff9a4b924c3d
-        guid: LMo_7WH|v%
+-       guid: LMo_7WH|v%
         front: List all available block devices
         back: '`lsblk`'
         include_reverse: true
--       uuid: 08926c6b-9fe3-4475-abc6-bc3e33092572
-        guid: MaF}v0Pi#j
+-       guid: MaF}v0Pi#j
         front: Netstat - which processes are listening?
         back: |
                 "`netstat -lntp` (for TCP; add `-u` for UDP)"
--       uuid: 68417b60-a364-4687-99a1-b3540d3c3130
-        guid: 'HFmBctCK:'
+-       guid: 'HFmBctCK:'
         front: Convert HTML to text
         back: '`lynx -dump -stdin`'
         include_reverse: true
--       uuid: fd48c6e4-0193-4c61-a875-f5cb2dcd54f0
-        guid: H0g.]9_)+2
+-       guid: H0g.]9_)+2
         topic: Awk
         front: Sum up all numbers in the 3rd column
         back: |
                 `awk '{ x += $3 } END { print x }'`
--       uuid: c23157e4-3a39-4618-abba-72448ac036cf
-        guid: V~<Q!IudM
+-       guid: V~<Q!IudM
         front: Diff two directories recursively
         back: '`diff -r abc def`'
         include_reverse: true
--       uuid: 47e5b40a-8c12-4542-b034-b0612f25fd3d
-        guid: QO;RrEy5?p
+-       guid: QO;RrEy5?p
         front: Select bits of text from binaries
         back: '`strings`'
         include_reverse: true
--       uuid: 5de2df88-2a9b-4dd5-ba4f-e0edf7a5d186
-        guid: GxN)HJ4I5)
+-       guid: GxN)HJ4I5)
         front: Give file immutable flag
         back: '`sudo chattr +i /dir/file`'
         include_reverse: true
--       uuid: bd62416f-be22-4d8a-bf43-e2c48401d238
-        guid: mjD)dMd@|r
+-       guid: mjD)dMd@|r
         front: Library and system call tracer
         back: '`ltrace`'
         include_reverse: true
--       uuid: 3a87f295-ba23-4293-97ce-0cc23c250506
-        guid: dW[-C1]q-8
+-       guid: dW[-C1]q-8
         front: Command-line XML manipulation tool
         back: '`xmlstarlet`'
         include_reverse: true
--       uuid: 74329575-4cfe-4e5d-a66e-00db0f0c8e85
-        guid: p+X4Tf)=}F
+-       guid: p+X4Tf)=}F
         front: Print string a lot
         back: '`yes`'
         include_reverse: true
--       uuid: 4da36e14-a810-4961-9d62-435aaab07287
-        guid: zts?7uGb)c
+-       guid: zts?7uGb)c
         front: A command that runs a command, useful in hashbangs
         back: '`env`'
         include_reverse: true
--       uuid: 30aca0a0-6dc5-4acd-8f00-3daa7840e676
-        guid: o?D().cuME
+-       guid: o?D().cuME
         front: Convert between tabs and spaces
         back: |
                 `expand`/`unexpand`
         include_reverse: true
--       uuid: 529ee30e-4575-43e3-a84b-29b72cff8a1f
-        guid: NR.GMECP`T
+-       guid: NR.GMECP`T
         front: Create/lock semaphore file
         back: |
                 `lockfile`
         include_reverse: true
--       uuid: 68dc5c50-6240-4cfc-8152-6b3b8ca7d556
-        guid: dur}b3x|$^
+-       guid: dur}b3x|$^
         front: |
                 Read all input before writing it &mdash; for reading
                 then writing to the same file
         back: |
                 `sponge`
--       uuid: fd1865be-187d-4e69-9b4f-d4af73dd91cb
-        guid: uR^T``=x8`
+-       guid: uR^T``=x8`
         front: |
                 Get PIDs of all running `bash` processes
         back: |
                 `pgrep bash`
         include_reverse: true
--       uuid: eeffde68-6897-4f65-a22d-9f66da46f3be
-        guid: vS>0X`KK$D
+-       guid: vS>0X`KK$D
         front: |
                 Get PIDs of all processes running as the `root` user
         back: |
                 `pgrep -u root`
         include_reverse: true
--       uuid: 6aba7198-c03a-459a-a261-8ebc3ca8feb0
-        guid: PY>=DhH_zV
+-       guid: PY>=DhH_zV
         front: |
                 Get PIDs of all `bash` processes running as `root` user
         back: |
                 `pgrep -u root bash`
         include_reverse: true
--       uuid: 8452ab6c-2548-46d7-b538-de0de405279d
-        guid: y@PMp_)*;h
+-       guid: y@PMp_)*;h
         front: |
                 Get PIDs and names of processes containing the string `sh`
         back: |
                 `pgrep -l sh`
         include_reverse: true
--       uuid: be37a54c-3e33-4afc-9e23-f689ad51374f
-        guid: pfvRIvkQdH
+-       guid: pfvRIvkQdH
         front: |
                 Send SIGHUP to all `httpd` processes
         back: |

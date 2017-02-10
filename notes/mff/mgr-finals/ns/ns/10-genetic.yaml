@@ -1,8 +1,7 @@
 deck: All::Magisterské státnice::Neuronové sítě
 notes:
         # 10-genetic
-        -       uuid: 8949770d-17e2-4828-9311-0222a69d69b6
-                guid: sH^QH%xGP]
+        -       guid: sH^QH%xGP]
                 front: Použití genetických algoritmů v učení NS
                 back: |
                         Dají se použít normální strategie - crossover a mutace
@@ -10,8 +9,7 @@ notes:
                         funkcí.<br>
 
                         Algoritmus NEAT.
-        -       uuid: 00546be9-75f8-49af-b562-ff8f95712268
-                guid: cu1Mcph,c2
+        -       guid: cu1Mcph,c2
                 front: Jednoduchý genetický algoritmus
                 back: |
                         Populace; binární (nebo jiný) genotyp; fitness funkce
@@ -24,8 +22,7 @@ notes:
                         </ol>
 
                         Reprodukce ruletou.
-        -       uuid: 89dee31c-00c2-4498-b510-539194330190
-                guid: BH)$3Py2/v
+        -       guid: BH)$3Py2/v
                 front: Problémy jednoduché ruletové selekce a řešení
                 back: |
                         Když mají všichni jedinci stejné ohodnocení, nebo jich
@@ -33,74 +30,62 @@ notes:
 
                         Řešení: škálování: zvětšit nebo zmenšit rozdíly;
                         selekce podle pořadí (a jemu úměrná ruletová hmotnost)
-        -       uuid: 4506dd19-9727-46f9-b572-e35b1d8a0441
-                guid: tV+Pf9D-:$
+        -       guid: tV+Pf9D-:$
                 front: Selekce s ořezáváním
                 back: |
                         Jedince uspořádej podle dobrosti, okopíruj nejlepších
                         [$]X[/$] [$]Y[/$]-krát
-        -       uuid: c786470f-76d9-4a68-b591-592478196b7c
-                guid: tLP!aM]M0i
+        -       guid: tLP!aM]M0i
                 front: Turnajová selekce
                 back: |
                         Vezmi 2 jedince; zkopíruj toho, co vyhraje (podle nějakého
                         parametru)
-        -       uuid: 003d14ee-206b-4c43-aa2c-bf70d981622f
-                guid: gQqQN4ZIqu
+        -       guid: gQqQN4ZIqu
                 front: Elitismus
                 back: |
                         Zajisti že několik nejlepších jedinců se vždy zkopíruje
-        -       uuid: 9b287a54-9712-4d0f-bbd5-fbec603f18b0
-                guid: kf2T]gDa.b
+        -       guid: kf2T]gDa.b
                 front: Typy křížení sekvence
                 back: |
                         Jednobodová, vícebodová, uniformní
-        -       uuid: 82506d9b-4246-4b07-9138-8567d2cf5068
-                guid: M.xEe4_0>I
+        -       guid: M.xEe4_0>I
                 front: Schema - kolik jich je pro délku? Kolik je genomů?
                 back: |
                         Schema: genom, kde jsou 0/1/?; schemat je [$]3^l[/$].
                         Genomů je [$]2^l[/$].
                         Schemata se považují za základní blok evoluce.
-        -       uuid: 1e6c2269-d808-4569-a3b7-5583055ef63f
-                guid: l-8id<Ub:w
+        -       guid: l-8id<Ub:w
                 front: Holland 1975 - implicitní paralelismus GA
                 back: |
                         GA zpracuje v jednom kroku až [$]N^3[/$] schemat, když používá [$]N[/$] řetězců.
-        -       uuid: ec60fcee-7214-47f9-ad64-5737c20f9c0d
-                guid: kY]uC,RPV*
+        -       guid: kY]uC,RPV*
                 front: Definice - řád schematu
                 back: |
                         Počet pevných pozic
-        -       uuid: 3ac069af-1e34-404b-95be-06ae9e9349e8
-                guid: JUqlirL!x_
+        -       guid: JUqlirL!x_
                 front: Definice - délka schematu
                 back: |
                         Vzdálenost prvního a posledního zafixovaného písmena
-        -       uuid: 2d1db3f4-8c86-491b-8559-7bb4148d35ad
-                guid: CfxwzTa2!q
+        -       guid: CfxwzTa2!q
                 topic: Schemata - značení
                 front: Počet řetězců v populaci odpovídajících schematu [$]H[/$] v
                         čase [$]t[/$]
                 back: |
                         [$$]m(H,t)[/$$]
                 include_reverse: true
-        -       uuid: eaa15ec8-d103-45a9-8e37-9742037f76ce
-                guid: PyCBJU,&R<
+        -       guid: PyCBJU,&R<
                 topic: Schemata - značení
                 front: Průměrná fitness jedinců odpovídajících schematu [$]H[/$]
                 back: |
                         [$$]f(H)[/$$]
                 include_reverse: true
-        -       uuid: 8bfa536d-073f-4020-8494-12ede06ad918
-                guid: m7u4qH3jTV
+        -       guid: m7u4qH3jTV
                 topic: Schemata - značení
                 front: Řád schematu [$]H[/$]
                 back: |
                         [$$]o(H)[/$$]
                 include_reverse: true
-        -       uuid: a8406dd6-e66f-4bfd-b52a-31eb0f81eebf
-                guid: eTd8:F=|JN
+        -       guid: eTd8:F=|JN
                 front: Věta o schematech
                 back: |
                         [$$]m(H, t+1) \\geq m(H, t) \\cdot \\frac{f(H)}{\\overline{f}} \\cdot [1 - p_e \\frac{\\delta(H)}{\\ell - 1} - o(H) \\cdot p_m][/$$]
@@ -109,17 +94,14 @@ notes:
                         [$]p_m[/$]: pravděpodobnost mutace na jedné pozici<br>
 
                         Pro malé [$]p_m[/$]: [$] (1-p(m))^{o(H)} \\approx 1-o(H) \\cdot p_m[/$]
-        -       uuid: d0369892-a5b7-4b6f-b54f-be61f6d28fed
-                guid: 'uu_oi9=#E:'
+        -       guid: 'uu_oi9=#E:'
                 front: Kdy může být lepší použít GA než backprop?
                 back: Například když nemám explicitní derivovatelnou chybovou funkci,
                         ale mám jenom fitness.
-        -       uuid: 8f05be18-ce4b-45ab-bbaa-927900806cb2
-                guid: gEF1irwiB.
+        -       guid: gEF1irwiB.
                 front: Algoritmus NEAT - co znamená zkratka?
                 back: Neuroevolution of Augmenting Topologies
-        -       uuid: 31b5482b-5f69-43ac-876a-921d5e89723d
-                guid: O=GmcJ^FdC
+        -       guid: O=GmcJ^FdC
                 front: Algoritmus NEAT - přibližně
                 back: |
                         Síť: seznam hran, každá hrana má informace o vrcholech,
@@ -137,19 +119,16 @@ notes:
 
                         Mutace: přidání spoje, přidání neuronu.
                         Když jsou jedinci moc daleko, jsou v různých druzích.
-        -       uuid: 0f735c39-2b8a-4a1c-9db6-4c3d532834dc
-                guid: K<qnX;s8aN
+        -       guid: K<qnX;s8aN
                 front: Evoluce architektury
                 back: |
                         Genotyp: kodovani prepisovacich pravidel; jejich vystup je binarni matice spoju mezi neurony, vahy se douci BP
-        -       uuid: 81a122e2-de5a-4899-8744-be89a41ba9b7
-                guid: g=9$^L@-Qk
+        -       guid: g=9$^L@-Qk
                 topic: Algoritmus SANE
                 front: Co ta zkratka znamená?
                 back: |
                         Symbiotic Adaptive Neuro-Evolution
-        -       uuid: 33a61f5b-ffdd-4e9b-a83f-38fb18a94d25
-                guid: db#5XY!0w4
+        -       guid: db#5XY!0w4
                 topic: Algoritmus SANE
                 front: Jak funguje?
                 back: |
@@ -158,13 +137,11 @@ notes:
                         Fitness neuronů je fitness všech testů, kde byl použit.<br>
                         Každý neuron použijeme aspoň 10x.<br>
                         Vítězi jsou nejužitečnější neurony.
-        -       uuid: 8e0ee1e3-c808-4618-86bb-3b109ce86950
-                guid: bX[C6FVh-B
+        -       guid: bX[C6FVh-B
                 topic: Algoritmus ESP
                 front: Co ta zkratka znamená?
                 back: Enforced Sub-Populations
-        -       uuid: efdd20d0-8450-450b-b812-bfe059c7fc3e
-                guid: MC9=}47|%j
+        -       guid: MC9=}47|%j
                 topic: Algoritmus ESP
                 front: Jak funguje?
                 back: |
@@ -174,14 +151,12 @@ notes:
                         Jeden (skryty) neuron = jedna sub-populace.
                         Vyviji se pevna topologie.
                         Daji se vyvijet i rekurentni site.
-        -       uuid: 8601a676-d646-4dd6-9934-ec907b89317e
-                guid: yqU.;*`Zd=
+        -       guid: yqU.;*`Zd=
                 topic: CoSyNE
                 front: Zkratka
                 back: |
                         Cooperative Synapse NeuroEvolution
-        -       uuid: 4831c1e3-be4b-4d5a-869c-9924893fd821
-                guid: H?w2@zTa>H
+        -       guid: H?w2@zTa>H
                 topic: CoSyNE
                 front: Princip
                 back: |

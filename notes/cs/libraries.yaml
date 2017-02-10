@@ -2,71 +2,56 @@ uid_tag: cs/libraries
 deck: All::CS::Libraries
 topic: Libraries
 notes:
--       uuid: ebb48f9d-871c-4c9d-9643-a3bdeed59ac8
-        guid: q3P.-a9$-I
+-       guid: q3P.-a9$-I
         front: Google SparseHash
         back: Highly optimized hash library
--       uuid: cec5f480-46b8-4536-a19e-8b02530dd58d
-        guid: rUE.q25j57
+-       guid: rUE.q25j57
         front: OpenCV
         back: Open computer vision library
--       uuid: d1413cac-7e58-4da6-930c-0143ee59f479
-        guid: u{zzb@+_on
+-       guid: u{zzb@+_on
         front: assimp
         back: Open Asset Import Library (for 3D models)
--       uuid: 6d7685bf-0de1-427e-b871-11cd2f8849d3
-        guid: CpE4%ph1+,
+-       guid: CpE4%ph1+,
         front: gecode
         back: CSP solver
--       uuid: 8105aa93-407a-49f5-8122-821702ceb443
-        guid: Jwj:ASarE7
+-       guid: Jwj:ASarE7
         front: aalib
         back: ASCII art library
--       uuid: e57927b8-cf48-4dff-9ac0-f5ae33487ed9
-        guid: OfFY:V:WCd
+-       guid: OfFY:V:WCd
         front: PCL
         back: Point Cloud Library
--       uuid: 039acdb3-1552-4599-a46a-a7d2bd40cd31
-        guid: P+rj(nreK)
+-       guid: P+rj(nreK)
         front: Open-source XNA replacement
         back: MonoGame
         include_reverse: true
--       uuid: 8169cea6-de2d-4ddb-9fcc-df15033db0a6
-        guid: N]R~C)(ST?
+-       guid: N]R~C)(ST?
         front: .NET Ant translation
         back: NAnt
         include_reverse: true
--       uuid: c5f67fe6-f1fc-4aa4-a66d-51344ef77b52
-        guid: vo-C~uk;nz
+-       guid: vo-C~uk;nz
         front: .NET JUnit unit implementation
         back: NUnit
         include_reverse: true
--       uuid: bc6fa6db-5579-4909-9fc8-3229386c9fa7
-        guid: yFs1o(aN~;
+-       guid: yFs1o(aN~;
         front: Xamarin
         back: C#/.NET bridge for Android and iOS
         include_reverse: true
--       uuid: 4044934e-f0d5-4223-bef9-d7e100702e63
-        guid: N.)Yl%I2hm
+-       guid: N.)Yl%I2hm
         front: Yesod
         back: Haskell web framework
--       uuid: f2e81cf7-faa0-4996-8288-79825493c3f7
-        guid: A:f+ugypjr
+-       guid: A:f+ugypjr
         front: Recast
         back: 3D navigation library
--       uuid: 0a591c7b-592e-4762-a170-2e82ecc384bf
-        guid: koHAeFQ-+|
+-       guid: koHAeFQ-+|
         front: '`libnotify`'
         back: Send desktop notifications to GNOME notification daemon
         include_reverse: true
--       uuid: 0bed282b-d05c-4068-8f77-dd02814fa761
-        guid: pz0A,Xp~N5
+-       guid: pz0A,Xp~N5
         front: '`libcanberra`'
         back: Simple interface for playing event sounds, implements XDG specs (e.g.
                 GNOME desktops)
         include_reverse: true
--       uuid: 4a29316c-d5e6-49e7-b95c-5070b38a1262
-        guid: c=9&vKA6Oy
+-       guid: c=9&vKA6Oy
         front: Google Guava
         back: "Google's core libraries: collections, caching, primitives, etc."
         include_reverse: true

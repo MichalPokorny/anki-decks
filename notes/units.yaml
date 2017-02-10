@@ -1,269 +1,206 @@
 deck: All::Units
 notes:
--       uuid: 0e7bb365-12ba-4f32-a7c6-65b6bceeb450
-        guid: li7ROz]ycb
+-       guid: li7ROz]ycb
         front: International troy ounce in grams ([$]\\approx[/$])
         back: 31.1 g
         include_reverse: true
--       uuid: 8f8748e9-10a5-432d-9bcd-6e55e7437f59
-        guid: PbOl(oxXSN
+-       guid: PbOl(oxXSN
         front: |
                 International avoirdupois ounce in grams
                 ([$]\\approx[/$])
         back: |
                 28.35 g
         include_reverse: true
--       uuid: 25d08fe1-b67b-4407-9c7f-c99bf042fda9
-        guid: FB0pV?&Od8
+-       guid: FB0pV?&Od8
         front: Where is the avoirdupois ounce used?
         back: US customary, British imperial systems
--       uuid: 1ac0ecc5-ee29-4fcf-a623-2b159f566978
-        guid: ER@UF[.M9G
+-       guid: ER@UF[.M9G
         front: Which ounce is used in US customary and British imperial systems?
         back: Avoirdupois ounce
--       uuid: 916c2169-efb0-47f8-b26b-d04ddcd4cc25
-        guid: hqZ$cY])_J
+-       guid: hqZ$cY])_J
         front: Where is the troy ounce used?
         back: To weigh precious metals (e.g., Au, Ag)
--       uuid: 6c37a60f-cb1b-4bf3-bacb-238540b08f91
-        guid: Oy`M=[y]*R
+-       guid: Oy`M=[y]*R
         front: Imperial fluid ounce in ml ([$]\\approx[/$])
         back: 28.4 ml
         include_reverse: true
--       uuid: 3af49b62-154f-438e-85f8-0d2bfadaa292
-        guid: HP-V-fW+00
+-       guid: HP-V-fW+00
         front: ℥
         back: Apothecary symbol for ounce
         include_reverse: true
--       uuid: 3814f564-a113-4663-86ba-9e7f2c047560
-        guid: o.rPkA?4HO
+-       guid: o.rPkA?4HO
         front: Abbreviation for ounce
         back: oz
         include_reverse: true
--       uuid: ab16f439-1995-4b0c-b86d-f5133d3968c5
-        guid: ztDmk#9NOx
+-       guid: ztDmk#9NOx
         front: 1 mi in ft
         back: 5 280 ft
--       uuid: 27964955-f515-46e0-a0b5-5c0e6356df07
-        guid: c]Tcy][+>(
+-       guid: c]Tcy][+>(
         front: 5 280 ft
         back: 1 mi
--       uuid: 8f1352b5-006b-4cc1-8aaf-2107afc2bd12
-        guid: c:XE.>*z}a
+-       guid: c:XE.>*z}a
         front: 1 760 yd
         back: 1 mi
--       uuid: 0d7e628d-abbf-4fc2-b6da-df80d19b77ec
-        guid: jn)`${?$gj
+-       guid: jn)`${?$gj
         front: 1 inch in mm
         back: 25.4 mm
--       uuid: 115bfbae-e637-4581-8d0b-6bd1230d79dc
-        guid: QhQaReyS3<
+-       guid: QhQaReyS3<
         front: 25.4 mm
         back: 1 inch
--       uuid: 236f8901-38fd-402e-9f24-05e0a650fea5
-        guid: :#8m~2ph(
+-       guid: :#8m~2ph(
         front: 1 foot in inches
         back: 12 in
--       uuid: 52f32e35-58b0-47e2-9da6-20855d0a0470
-        guid: f|WRd#mglW
+-       guid: f|WRd#mglW
         front: 12 in
         back: 1 foot
--       uuid: e2d64f7e-1677-448d-ae7c-c3eb57251c2b
-        guid: yO}Bg.mL&~
+-       guid: yO}Bg.mL&~
         front: 3 ft
         back: 1 yd
--       uuid: dfe2c11f-17e1-4d84-a238-bed1f66a9968
-        guid: de`f|Zog@a
+-       guid: de`f|Zog@a
         front: 1 yd in m
         back: 0.9144 m
--       uuid: e12830bf-43cf-42c1-b8de-0716ed7725bd
-        guid: iPwE+vVee#
+-       guid: iPwE+vVee#
         front: 0.9144 m
         back: 1 yd
--       uuid: a8d0c7d3-cdd0-4c10-b5a4-c096e59fb64d
-        guid: JY!Y|4$[f7
+-       guid: JY!Y|4$[f7
         front: 1 ft in m
         back: 0.305 m ([$]\\approx[/$])
--       uuid: 8c7651aa-810e-4d3f-93e0-b0a8bc092bee
-        guid: f$h[:r6KuL
+-       guid: f$h[:r6KuL
         front: 0.305 m ([$]\\approx[/$])
         back: 1 ft
--       uuid: 7bf1b4ed-6a95-4159-a51f-f9955ab70f8d
-        guid: xaZvj|AfXT
+-       guid: xaZvj|AfXT
         front: 1.61 km ([$]\\approx[/$])
         back: 1 mi
--       uuid: 3b2f0577-609d-47ce-83ff-59f7959c09e9
-        guid: rP0Q@K8?9a
+-       guid: rP0Q@K8?9a
         front: 1 mi in km ([$]\\approx[/$])
         back: 1.61 km
--       uuid: 08b01bfe-d960-4f06-bd0e-b38378f810a0
-        guid: x1D6k<!ba^
+-       guid: x1D6k<!ba^
         front: 1 pica in points
         back: 12 points
--       uuid: 32817330-4f99-4098-833c-fae79d29d8c3
-        guid: 'cZ@)+BTG$:'
+-       guid: 'cZ@)+BTG$:'
         front: 12 points
         back: 1 pica
--       uuid: abec5180-e7fc-4cb7-99b6-4e85a4c30e0f
-        guid: NVY5J4l+[4
+-       guid: NVY5J4l+[4
         front: 1 in in picas
         back: 6 p
--       uuid: 0c9ee07c-c299-40db-af74-784584eef248
-        guid: CzVDzM,9<*
+-       guid: CzVDzM,9<*
         front: 6 picas
         back: 1 inch
--       uuid: 7b7eb900-8d68-42e9-b822-ece8e1120b12
-        guid: yN^lpJ@5(W
+-       guid: yN^lpJ@5(W
         front: 1 point in m ([$]\\approx[/$])
         back: |
                 [$]352.78\\ \\mu m[/$]
--       uuid: 8f465f5e-6f11-4781-bb76-efd08d8e0ed0
-        guid: f8ZTpxtP2[
+-       guid: f8ZTpxtP2[
         front: |
                 [$]352.78\\ \\mu m[/$]
         back: 1 point
--       uuid: 6dedb591-6eed-4963-b7d2-efa67acbaac0
-        guid: wk3JwTd[K0
+-       guid: wk3JwTd[K0
         front: 1 chain (ch) in ft
         back: 66 ft
--       uuid: b00b8155-870b-47c6-990a-523d3905fb13
-        guid: fC^L@0GUh1
+-       guid: fC^L@0GUh1
         front: 66 ft
         back: 1 chain
--       uuid: fbb385bf-3e3b-4ce4-9da4-65d4d2057c96
-        guid: m5.>&4i^3~
+-       guid: m5.>&4i^3~
         front: 1 furlong (fur) in chains
         back: 10 ch
--       uuid: 93d4b3a9-eb2c-4dae-b16e-7537de809e94
-        guid: EzOEe=<Dz#
+-       guid: EzOEe=<Dz#
         front: 10 chains
         back: 1 furlong
--       uuid: 4f55da3c-76c1-4be4-8dea-bcb5d6d1d8c9
-        guid: tm!8$^JDx[
+-       guid: tm!8$^JDx[
         front: 1 furlong in m ([$]\\approx[/$])
         back: 201 m
--       uuid: 85a453b6-95fb-40e0-9cad-eb00a6619f3a
-        guid: m7h&Mc`cv]
+-       guid: m7h&Mc`cv]
         front: 1 league in miles
         back: 3 miles
--       uuid: 40d50717-cb43-4702-a1f8-f751217dd0f9
-        guid: Aogs6B{d-(
+-       guid: Aogs6B{d-(
         front: 3 miles
         back: 1 league
--       uuid: e3815f22-d3b4-4cdb-95ce-17d31acee310
-        guid: Pn+c7=YaZ{
+-       guid: Pn+c7=YaZ{
         front: 1 nautical mile in kilometers
         back: 1.852 km
--       uuid: e20646d8-c5d2-4b1c-a51e-aa6cb1f01d98
-        guid: KC7Y4@3%w-
+-       guid: KC7Y4@3%w-
         front: 1.852 km
         back: 1 nautical mile
--       uuid: 21e7b2df-b9de-4695-9702-011e32286eef
-        guid: g.)cm;XIG#
+-       guid: g.)cm;XIG#
         front: 1 acre in [$]m^2[/$]
         back: |
                 [$]4046.873\\ m^2[/$]
--       uuid: 6ffd1fdb-4202-4e71-b04f-bb10d3ac8a17
-        guid: zy#>CYNsxi
+-       guid: zy#>CYNsxi
         front: |
                 [$]4046.873\\ m^2[/$]
         back: 1 acre
--       uuid: 9be20fc9-be82-4dde-965d-042ceef45080
-        guid: EF;(5-b6#$
+-       guid: EF;(5-b6#$
         front: 1 lb in oz
         back: 16 oz
--       uuid: 02651f74-66f8-41b7-b34a-4dc3a0ad2fc1
-        guid: =^-ev-zkG
+-       guid: =^-ev-zkG
         front: 16 oz
         back: 1 lb
--       uuid: 3bd2eb13-1b9f-4d21-8749-fe9927bd10c3
-        guid: B:K=e2KQUQ
+-       guid: B:K=e2KQUQ
         front: 1 lb in kg ([$]\\approx[/$])
         back: 0.454 kg
--       uuid: 550ce7b4-f419-4095-b63d-0d06b35deb78
-        guid: iMahlapS$H
+-       guid: iMahlapS$H
         front: 1 grain in lb
         back: 1/7000 lb
--       uuid: 88048326-cb5d-4fb9-b2a0-d86a83724159
-        guid: sZ(sF(Oyo3
+-       guid: sZ(sF(Oyo3
         front: 7000 grains
         back: 1 lb
--       uuid: 9514ea4a-9929-4acc-b84d-8baf5a639d53
-        guid: lf?uR963/t
+-       guid: lf?uR963/t
         front: Celsius to Fahrenheit
         back: |
                 [$]F=\\frac{9}{5}C + 32[/$]
--       uuid: 1ea037a4-51e1-43c2-ac96-15654b6fd894
-        guid: hW3oPRtF{`
+-       guid: hW3oPRtF{`
         front: Fahrenheit to Celsius
         back: |
                 [$]C = \\frac{5}{9}(F-32)[/$]
--       uuid: a16f32b6-79ba-4342-9b35-90b7f28419c5
-        guid: 'GOD,K,-vB:'
+-       guid: 'GOD,K,-vB:'
         front: 1 calorie in joules
         back: 4.184 J
--       uuid: a0842b89-5192-4aa7-ba6e-ec82692b0491
-        guid: KXnin8!AbB
+-       guid: KXnin8!AbB
         front: 4.184 J
         back: 1 calorie
--       uuid: 7cdae955-5e97-4ab3-8bf1-493b3eb839e0
-        guid: N]/+Iv#>Fc
+-       guid: N]/+Iv#>Fc
         front: 4.184 kJ
         back: 1 kilocalorie
--       uuid: 83010da6-0d75-473f-968d-548456048adb
-        guid: HAsm3>ml>r
+-       guid: HAsm3>ml>r
         front: 1 kilocalorie in J
         back: 4.184 kJ
--       uuid: f712c471-7c54-4826-96fe-7263aca58305
-        guid: bX:|7HTwf6
+-       guid: bX:|7HTwf6
         front: 1 horsepower in watts
         back: 745.7 W
--       uuid: 28a77ca0-3555-4bdc-93d7-58ffff77b281
-        guid: hq9-KrNaK^
+-       guid: hq9-KrNaK^
         front: 745.7 W
         back: 1 horsepower
--       uuid: 8c4ffbd1-23d5-45b1-924b-8c1740f9c485
-        guid: y8f/iPqP$p
+-       guid: y8f/iPqP$p
         front: Meaning of "psi" unit
         back: Pound per square inch
--       uuid: 52d03610-0a25-4551-8aec-87d3272a3d79
-        guid: OFWt/Q0A<r
+-       guid: OFWt/Q0A<r
         front: 1 US quart in litres ([$]\\approx[/$])
         back: 0.946 l
--       uuid: af94c339-1039-4880-b135-244eb690482e
-        guid: E;Lo?veRh9
+-       guid: E;Lo?veRh9
         front: 0.946 l
         back: 1 US quart
--       uuid: 3f52a76f-a4f0-4b43-a32d-a213271579fb
-        guid: ddNK|mg]D+
+-       guid: ddNK|mg]D+
         front: 1 US gallon in quarts
         back: 4 qt
--       uuid: c5608cac-f58a-4833-8c5c-ad40e5a87837
-        guid: wf-Wer(vN
+-       guid: wf-Wer(vN
         front: 4 qt
         back: 1 US gallon
--       uuid: 8c9c4e03-2f75-44e4-ab81-88ecb6b619a1
-        guid: o({}c=(6oF
+-       guid: o({}c=(6oF
         front: 1 barrel in gallons
         back: 31.5 gal
--       uuid: b3b054d4-fbd3-494b-9219-0c805b554401
-        guid: l;X+27fCH}
+-       guid: l;X+27fCH}
         front: 31.5 gal
         back: 1 barrel
--       uuid: 5d3b4e0f-e0bf-413e-8728-5e1942a99e1f
-        guid: m-u#wOzi;D
+-       guid: m-u#wOzi;D
         front: 1 barrel in litres ([$]\\approx[/$])
         back: 119.24 l
--       uuid: d735f31e-0c8c-4dbe-bab1-20506f917055
-        guid: MT..{8M[E}
+-       guid: MT..{8M[E}
         front: 119.24 l
         back: 1 barrel
--       uuid: b7fc5647-2811-4efa-a563-b6502f3263ac
-        guid: kXC]WNjc.P
+-       guid: kXC]WNjc.P
         front: 1 US fluid ounce in ml ([$]\\approx[/$])
         back: 29.573 ml
--       uuid: 23e57893-3f6e-41c0-b559-c671eb674a39
-        guid: lc+14fcD.+
+-       guid: lc+14fcD.+
         front: 29.573 ml
         back: 1 US fluid ounce
 

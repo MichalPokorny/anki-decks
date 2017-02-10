@@ -2,8 +2,7 @@ deck: All::Magisterské státnice::Řešení úloh a plánování::AI1::Předná
         prohledávání)
 notes:
         # ai1 lecture05eng
-        -       uuid: 8350e13e-3fc2-4d61-af47-3c5970ec635c
-                guid: PC`Vt}(cyL
+        -       guid: PC`Vt}(cyL
                 front: Algoritmy pro lokální vyhledávání
                 back: |
                         <ul>
@@ -12,8 +11,7 @@ notes:
                         <li> Local beam search
                         <li> Generické algoritmy
                         </ul>
-        -       uuid: 744461b9-f721-4f1b-9578-cbd991934665
-                guid: dDf3[U)uzd
+        -       guid: dDf3[U)uzd
                 front: Problémy hill climbingu
                 back: |
                         <ul>
@@ -22,8 +20,7 @@ notes:
                         <li> *Ridge*: sekvence lokálních optim
                         <li> *Plató*: může cyklit
                         </ul>
-        -       uuid: cf2b97e4-16a5-44db-aabc-f8629b04b4ba
-                guid: H*LRbiIoMb
+        -       guid: H*LRbiIoMb
                 front: Varianty hill-climbingu
                 back: |
                         <ul>
@@ -38,8 +35,7 @@ notes:
                         <br>
                         (Velmi dobré na N-queens.)
                         </ul>
-        -       uuid: 9569e3b1-061e-42b1-8669-0f2cf4752bf1
-                guid: cIVGF~0o9?
+        -       guid: cIVGF~0o9?
                 front: Simulované žíhání (AI1)
                 back: |
                         Snižuje teplotu.
@@ -47,30 +43,26 @@ notes:
                         Stav se přijme, když je zlepšení.
                         Když to není zlepšení, tak když to dovolí cooling
                         schema ([$]p\\sim \\exp(\\Delta E/T)[/$]).
-        -       uuid: 5ff7f53f-a6d2-4e13-82a8-31d3ca4c2412
-                guid: mp!rOJ42mT
+        -       guid: mp!rOJ42mT
                 topic: Local beam search
                 front: Algoritmus
                 back: |
                         Držím [$]k[/$] stavů místo jednoho.
                         V jednom kroku vygeneruju všechny jejich successory,
                         vyberu z nich do dalšího kroku [$]k[/$] nejlepších.
-        -       uuid: 105c77d4-d896-4d4f-9ebf-f766d61f0374
-                guid: kgF{J^#q8%
+        -       guid: kgF{J^#q8%
                 topic: Local beam search
                 front: Jak zvětšit diverzitu
                 back: |
                         Stochastikou - vyber s pravděpodobností
                         úměrnou tomu, jak jsou successoři dobří.
-        -       uuid: f505034a-5d26-4974-b7be-827333cd326d
-                guid: r?2|$|UK})
+        -       guid: r?2|$|UK})
                 front: Online vs. offline search
                 back: |
                         V online vyhledání prolínám pohyb a vyhledávání &mdash;
                         prostředí je dynamické. Hodí se taky pro
                         nedeterministické, neznámé prostředí.
-        -       uuid: 85031dd6-cfcd-4704-b6b3-8bd414ae7494
-                guid: hnq<=$#^,W
+        -       guid: hnq<=$#^,W
                 front: Co umí agenti v on-line search?
                 back: |
                         Ve stavu znají dovolené akce, znají cost akcí když znají
@@ -78,8 +70,7 @@ notes:
                         Umí si budovat mapu (poznat kde byl).<br>
                         Akce jsou deterministické.<br>
                         Agent má admisibilní heuristiku.
-        -       uuid: 1b52e972-a1cf-4c26-95ea-c98c40760087
-                guid: B|MlB=(`>k
+        -       guid: B|MlB=(`>k
                 front: |
                         Jak se porovnávají online vyhledávací algoritmy?
                         Jak nejhůř to může dopadnout?
@@ -94,8 +85,7 @@ notes:
                         porovnáváme úspěšnost online search vzhledem k
                         velikosti celého stavového prostoru &mdash; ne vzhledem
                         k hloubce nejnižšího cíle.
-        -       uuid: f2f0aca9-d7da-4063-975d-95ba7925b73e
-                guid: Ge7_2-2(&<
+        -       guid: Ge7_2-2(&<
                 front: Online DFS
                 back: |
                         Pro každý stav udržuj ještě nevyzkoušené akce<br>
@@ -108,8 +98,7 @@ notes:
                         Funguje jenom když jsou všechny akce reverzibilní.
                         Kompetitivní poměr může být libovolně špatný.
                         Přinejhorším projde každou hranu 2&times;.
-        -       uuid: 9ac90ede-b46a-40ac-83d3-9f276c799e49
-                guid: yXAuOdN;Hu
+        -       guid: yXAuOdN;Hu
                 front: |
                         Lokální online vyhledávání - triviální řešení,
                         jeho vlastnosti
@@ -118,15 +107,13 @@ notes:
                         dokončí exploraci (v konečném stavovém prostoru), ale
                         může být hodně dlouhé (např., exponenciální &mdash;
                         žebřík).
-        -       uuid: 5f8be220-b3d0-4070-a47c-a3da07f0829f
-                guid: k_{U2/ziAM
+        -       guid: k_{U2/ziAM
                 front: Jak při online vyhledávání použít paměť?
                 back: |
                         Pro stavy si pamatuj nejlepší odhady na délku
                         cesty z nich do cíle. Začni s heuristikou,
                         zpřesňuj při návratech.
-        -       uuid: 64893b54-cf13-4f19-8ff3-97f4c15ae5b0
-                guid: c%KUPP`H+r
+        -       guid: c%KUPP`H+r
                 front: LRTA* algoritmus
                 back: |
                         Dělá lokální kroky, učí se důsledy akcí a lepší odhad

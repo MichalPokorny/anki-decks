@@ -3,8 +3,7 @@ deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování 
 topic: Plánovací heuristiky
 notes:
         # planovani lecture09
-        -       uuid: 843cd56a-47ff-4481-8592-88550799a8fb
-                guid: pujuXK=e/5
+        -       guid: pujuXK=e/5
                 front: Jak zlepšit efektivitu plánovacích algoritmů?
                 back: |
                         <ul>
@@ -14,19 +13,16 @@ notes:
                         <li><i>Heuristické plánování</i>: problémově závislé
                             návody na řešení úloh
                         </ul>
-        -       uuid: 46ae6501-69e7-4fa1-81b1-fb5625a2deb4
-                guid: g<UpWeh|v;
+        -       guid: g<UpWeh|v;
                 front: Co po nich chceme?
                 back: |
                         Aby vybraly uzel co nejblíž orákulu (které by problém
                         řešilo deterministicky) a efektivně se počítaly.
-        -       uuid: c7e7c30e-6fb2-45eb-a397-6e09d38bc968
-                guid: y9g6@XaprQ
+        -       guid: y9g6@XaprQ
                 front: Jak je stavět?
                 back: |
                         Relaxací problému
-        -       uuid: c45fe171-7df7-45f3-af3c-48905fb8ec39
-                guid: MY:pRsnY@.
+        -       guid: MY:pRsnY@.
                 front: |
                         Jak vypadají optimalizační heuristiky?
                         Kdy jsou přípustné?
@@ -36,8 +32,7 @@ notes:
                         řešení).
                         Přípustné heuristiky: když [$]h(u)\leq h^*(u)[/$]
                         (pro minimalizaci ceny).
-        -       uuid: 2ca2e18f-7d25-406e-9f7b-14e8c5e3f942
-                guid: uT,,P[EQuy
+        -       guid: uT,,P[EQuy
                 front: Jak konstruovat heuristiky pro plánování se stavy?
                 back: |
                         Odhadují počet akcí z daného stavu do cíle.
@@ -45,8 +40,7 @@ notes:
                         Vyřešíme relaxovaný problém: uvažujeme jenom pozitivní
                         efekty, předpokládáme že různé atomy se dosahují
                         nezávisle na sobě.
-        -       uuid: 70b80436-5f0f-477e-a31c-09d6821a4eb7
-                guid: rv3i4:4K[?
+        -       guid: rv3i4:4K[?
                 markdown: false
                 front: Heuristika [$]\Delta_0[/$]
                 back: |
@@ -61,8 +55,7 @@ notes:
                         <li>[$]\Delta_0(S,g)=\sum_{p\in g}\Delta_0(S,p)[/$]
                         </ul>
                         Není přípustná &mdash; není dolní odhad délky plánu.
-        -       uuid: 697e6738-7009-4bc5-9667-ccfa303f402d
-                guid: wMBHaiL-zO
+        -       guid: wMBHaiL-zO
                 front: Heuristika [$]\\Delta_1[/$]
                 back: |
                         [$]\\Delta_1(S,g)=\\max\\{\\Delta_0(S,p) : p\\in g\\}[/$]
@@ -70,8 +63,7 @@ notes:
                         Když je [$]\\Delta_1[/$] větší než nejlepší
                         známé řešení, můžeme bezpečně uříznout větev.
                         Ale méně informovaná než [$]\\Delta_0[/$].
-        -       uuid: e5ab2222-291a-4f40-aa6f-f1cac29c79c3
-                guid: A-N*mM0SVS
+        -       guid: A-N*mM0SVS
                 front: Heuristika [$]\Delta_2[/$]
                 markdown: false
                 back: |
@@ -93,22 +85,19 @@ notes:
                         </ul>
                         Jde zobecnit, ale pro [$]k>2[/$] je složitost moc
                         velká.
-        -       uuid: c47c09c2-9fb0-4eaf-81d9-a86626aa0f07
-                guid: kWGN6c#!a+
+        -       guid: kWGN6c#!a+
                 front: Souvislost [$]\\Delta_2[/$] s Graphplan
                 back: |
                         Graphplan: navíc mutexy.
                         Můžu ji přizpůsobit víc tím, že když vyrobím dvojici
                         atomů přes dvě nezávislé akce, budu to považovat
                         za jeden krok.
-        -       uuid: b2980445-1b00-4847-98e0-532679589b34
-                guid: kgV?[NY#@x
+        -       guid: kgV?[NY#@x
                 front: Heuristiky při dopředném plánování
                 back: |
                         Vyber akci, co minimalizuje heuristickou vzdálenost
                         do cíle.
-        -       uuid: 239fa1b7-7038-452b-a8e9-4def27baba4e
-                guid: xAoGGV.,i&
+        -       guid: xAoGGV.,i&
                 front: Heuristiky při zpětném plánování
                 back: |
                         Na úvod vypočtu heuristické vzdálenosti
@@ -116,14 +105,12 @@ notes:
                         (Můžu inkrementálně upravovat.)
                         Preferuju akce, jejichž předpoklady jsou heuristicky
                         blíž počátku.
-        -       uuid: 79e6a08d-3d5c-4cdc-b745-30aebf4f2376
-                guid: x~lULC`X5a
+        -       guid: x~lULC`X5a
                 front: Heuristika volby kazu k opravě v plánování s plány
                 back: |
                         **FAF** - fewest alternatives first. První oprav
                         kaz, co má nejmíň způsobů opravy.
-        -       uuid: 4a5562d3-d9f0-4743-aa76-6b23a26bce7b
-                guid: 'fsqUATw?{:'
+        -       guid: 'fsqUATw?{:'
                 front: |
                         Heuristika způsobu opravy kazu v plánování
                         s plány
@@ -143,8 +130,7 @@ notes:
                         [$]s_0\\rightarrow p[/$] spočítáme počet akcí,
                         co nejsou v [$]\\pi[/$]: [$]\\eta(\\pi)[/$]
                         </ul>
-        -       uuid: 3a7b6d4c-d3fb-48c4-b2e6-22eae5ac12de
-                guid: HbfZP@zUn_
+        -       guid: HbfZP@zUn_
                 topic: Simple temporal logic
                 front: |
                         [$]\\Phi_1\\cup \\Phi_2[/$]
@@ -153,40 +139,35 @@ notes:
                         [$]\\Phi_2[/$] platí teď nebo v některém příštím stavu,
                         [$]\\Phi_1[/$] platí do té doby
                 include_reverse: true
-        -       uuid: 9ff0278d-caa7-444a-9ea1-7dbc84cffe26
-                guid: dB*KgEyO|9
+        -       guid: dB*KgEyO|9
                 topic: Simple temporal logic
                 front: |
                         [$]\\square\\Phi[/$]
                 back: |
                         [$]\\Phi[/$] platí teď a v každém z příštích stavů
                 include_reverse: true
-        -       uuid: 890ed346-46f5-480a-819e-f8a5ac9d2398
-                guid: jh?8F;q[V?
+        -       guid: jh?8F;q[V?
                 topic: Simple temporal logic
                 front: |
                         [$]\\diamond\\Phi[/$]
                 back: |
                         [$]\\Phi[/$] platí teď nebo v některém z příštích stavů
                 include_reverse: true
-        -       uuid: 14d626e6-0f0a-44dd-b618-5649552b0be5
-                guid: lkeW},Au{i
+        -       guid: lkeW},Au{i
                 topic: Simple temporal logic
                 front: |
                         [$]\\circ\\Phi[/$]
                 back: |
                         [$]\\Phi[/$] platí v následujícím stavu
                 include_reverse: true
-        -       uuid: 1b8d424f-ae8b-4bb8-9e59-8ec97517930f
-                guid: gfJ{#j@^L~
+        -       guid: gfJ{#j@^L~
                 topic: Simple temporal logic
                 front: |
                         [$]\\mathrm{GOAL}(\\Phi)[/$]
                 back: |
                         [$]\\Phi[/$] (která nesmí mít modální operátory) platí v cílovém stavu
                 include_reverse: true
-        -       uuid: 5fdaa21c-b61c-40a8-9462-eb25d8f9eb4d
-                guid: N_ikn%u1!U
+        -       guid: N_ikn%u1!U
                 topic: Simple temporal logic
                 front: Jak interpretujeme formule?
                 back: |
@@ -196,8 +177,7 @@ notes:
                         <br><br>
                         [$] (S,s_i,g)\\models\\varphi[/$] definujeme
                         rekurzivně.
-        -       uuid: af06ce6a-5276-4437-ba27-90778adf38d1
-                guid: bA8[BY0/L.
+        -       guid: bA8[BY0/L.
                 front: Jak postavit řídící pravidlo pro svět kostek
                 back: |
                         [$]goodtower[/$] pro kostku, když pod ní všechno
@@ -207,16 +187,14 @@ notes:
                         Řídící pravidlo: pomocí [$]\\circ[/$]: nedávej nic
                         na bad towers; nerozbíjej goodtowery; neber kostky
                         ze stolu když nejdou dát na goodtower
-        -       uuid: 71676587-fb79-4092-b518-6ab141791160
-                guid: kUu39s!}`s
+        -       guid: kUu39s!}`s
                 topic: Simple temporal logic
                 front: Jak uděláme progress o jeden stav dál?
                 back: |
                         Rekurzivně; progrese [$]\a, \e[/$]:
                         vyjmenování (closed world assumption).
                         Vyjmenujeme, jak progresovat modální operátory.
-        -       uuid: 3aeeaaed-0078-431b-84f5-ba5a4c72c0e7
-                guid: Q~GCwiFHUF
+        -       guid: Q~GCwiFHUF
                 front: Řízené plánování
                 back: |
                         Postupně progressem upravuj řídící formuli

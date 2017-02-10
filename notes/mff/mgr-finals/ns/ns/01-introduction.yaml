@@ -1,89 +1,71 @@
 deck: All::Magisterské státnice::Neuronové sítě::Přednáška 1 (fyziologie a úvod)
 notes:
--       uuid: fd1046a3-c791-47a7-bc0b-61af423e6ab1
-        guid: G8UdYJK)~d
+-       guid: G8UdYJK)~d
         front: Sigmoida s parametrem
         back: |
                 [$$]\\sigma(t)=(1+\\exp(-\\lambda t))^{-1}[/$$]
         # 01-introduction
--       uuid: 9750b835-3a32-4395-9cca-cd9e09bf5fe6
-        guid: QJ95X.d`ta
+-       guid: QJ95X.d`ta
         front: Části neuronu jako buňky
         back: tělo (soma), dendrity, axonová vlákna, synapse
--       uuid: 668d4ed1-632f-48df-a543-0198a6732319
-        guid: r*{<+}SmqI
+-       guid: r*{<+}SmqI
         front: Velikost somy neuronu
         back: Několik jednotek až desítek mikrometrů
--       uuid: a3030c28-d62f-4c8a-b279-36e89f787626
-        guid: D1kzW]B:(*
+-       guid: D1kzW]B:(*
         front: Délka dendritů
         back: Kolem 2-3 mm
--       uuid: 7a033fae-6632-4497-8d99-d2e6a9b8a282
-        guid: z#L{SPGn|Q
+-       guid: z#L{SPGn|Q
         front: Axony, délka, větvení
         back: Jediné výstupy neuronu, bohatě větvené na konci. Délka až 1 m.
--       uuid: 5168249c-6b4e-47fb-80f8-9eb5300f2f7b
-        guid: eZTS]Xj)/H
+-       guid: eZTS]Xj)/H
         front: Počet synapsí na neuron
         back: Až [$]10^6[/$]
--       uuid: 457b2357-c57f-4629-ac19-5d94d0c1dea9
-        guid: OsE4g)0R|j
+-       guid: OsE4g)0R|j
         front: Hustota neuronů v lidském mozku
         back: |
                 [$]7-8\\cdot 10^4/mm^3[/$]
--       uuid: 789e094f-ac4e-45a2-b541-319663b98dba
-        guid: kV)-!f8E<T
+-       guid: kV)-!f8E<T
         front: Rychlost odumírání neuronů
         back: |
                 [$]\\sim 10^4[/$] denně. Synapse se ale vytvářejí celý život.
--       uuid: d8623246-ee29-491e-8de4-ac15ebb3f88e
-        guid: xI5aGWg^uW
+-       guid: xI5aGWg^uW
         front: Kolik vrstev má povrch neuronu?
         back: Dvě; jsou z lipidů
--       uuid: d5292ecb-f9f6-456f-84f6-054ac7bbef39
-        guid: vP&OzitW8>
+-       guid: vP&OzitW8>
         front: Co je mezi vrstvami povrchu (membrány) neuronu?
         back: Vnitromembránové proteiny, co tvoří iontové pumpy a kanály
--       uuid: 0f0c90dc-5bf1-489d-836e-af7c5858e50a
-        guid: A&<-2LS|:}
+-       guid: A&<-2LS|:}
         front: Co je funkce iontových kanálů?
         back: |
                 Řídí propustnost membrány s ohledem na typ iontů
                 &mdash; jsou oddělené kanály na K, Na
                 ionty
--       uuid: bb2ea72e-dedc-4fba-95ca-261cad4205f3
-        guid: Cje&>t5@uB
+-       guid: Cje&>t5@uB
         front: Co je funkce iontových pump?
         back: Trvale přenášejí ionty K a Na, tedy polarizují membránu.
--       uuid: 7b90070a-c895-4e86-9c31-8e7660c26769
-        guid: sfn[5NxGL5
+-       guid: sfn[5NxGL5
         front: Polarizace neuronového povrchu - jaká je vevnitř, venku?
         back: Venku kladná, vevnitř záporná
--       uuid: 4fa5ac9c-ef80-4c9c-b683-7ac6f4cdb537
-        guid: xAvm8iHGAj
+-       guid: xAvm8iHGAj
         front: Rozdíl potenciálů po stranách neuronové membrány
         back: Kolem -70 mV
--       uuid: 9e37fe36-e0fd-4464-8967-a9c10809dc60
-        guid: PN!qN=B.(a
+-       guid: PN!qN=B.(a
         front: 2 typy neuronových membrán
         back: |
                 Vodivá (myelinový povlak), transmisní<br>
 
                 Vodivá: má v sobě Ranvierovy zářezy (zrychlují přenos asi 50x a snižují zkreslení)<br>
                 Transmisní: navíc má v sobě receptorové proteiny, co zavírají/otevírají iontové kanály
--       uuid: 10df7441-510e-405b-b79a-ce9eff9c001b
-        guid: uWs9#%z~x0
+-       guid: uWs9#%z~x0
         front: Krátkodobý paměťový mechanismus
         back: |
                 Založený na cyklickém oběhu vzruchů v NS.
                 Když proběhne asi 300x, zafixuje se ve střednědobé paměti. To trvá asi 30 s.
--       uuid: 208fccf6-d030-4dcd-b260-79a125792929
-        guid: JyvT{SVJzU
+-       guid: JyvT{SVJzU
         front: Střednědobý paměťový mechanismus
         back: Založený na "změnách vah". Uchovává se několik hodin až dnů. Ve spánku
                 se přenáší do dlouhodobé paměti.
--       uuid: a42eb832-b4a5-40ab-b046-6952f70d0d43
-        guid: =@S#mB?;g
+-       guid: =@S#mB?;g
         front: Dlouhodobý paměťový mechanismus
         back: Kopíruje střednědobou paměť do bílkovin v neuronech, hlavně v jádrech.
                 Někdy zůstanou až celý život.

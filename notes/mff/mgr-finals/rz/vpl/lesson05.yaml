@@ -2,8 +2,7 @@ deck: All::Magisterské státnice::Reprezentace znalostí::Výroková a prediká
         5
 notes:
         # VPL05
-        -       uuid: 9cd8aea3-f680-40ed-afe2-cceb82ac2e07
-                guid: fz>[n^k95(
+        -       guid: fz>[n^k95(
                 topic: Výroková logika
                 front: Hilbertovy axiomy
                 markdown: false
@@ -13,32 +12,28 @@ notes:
                         <li> [$] (\alpha\rightarrow(\beta\rightarrow\gamma))\rightarrow((\alpha\rightarrow\beta)\rightarrow(\alpha\rightarrow\gamma))[/$]
                         <li> [$] (\neg\alpha\rightarrow\neg\beta)\rightarrow(\beta\rightarrow\alpha)[/$]
                         </ol>
-        -       uuid: 31f9c98c-0044-4781-b89b-637f478c7e72
-                guid: g0uCpASR+9
+        -       guid: g0uCpASR+9
                 topic: Výroková logika
                 front: Odvozovací pravidlo v Hilbertově systému
                 back: |
                         Modus ponens:
                         [$]\\alpha, \\alpha\\rightarrow\\beta \\Longrightarrow
                            \\beta[/$]
-        -       uuid: 14ccef71-7564-494a-84a2-13e59c0d9f66
-                guid: r1,PKn:n%Y
+        -       guid: r1,PKn:n%Y
                 topic: Výroková logika
                 front: Hilbertovy systémy - vlastnosti
                 back: |
                         [$]T\\vdash_H \\varphi \\Rightarrow T\\vDash \\varphi[/$]
 
                         Taky je úplný. (Ale bez důkazu.)
-        -       uuid: 10560f57-6949-4cdb-9700-ed78c8c25908
-                guid: GywkefmU|$
+        -       guid: GywkefmU|$
                 topic: Výroková logika
                 front: Rezoluční metoda - množinová reprezentace
                 back: |
                         Klauzule je konečná množina kladných nebo záporných literálů.
                         Formula je (i nekonečná) množina klauzulí.
                         (Částečné) hodnocení je libovolná konzistentní množina literálů.
-        -       uuid: 2e3c9cf5-50be-4bae-97e2-b50dc295c058
-                guid: mtR/6vT6Ue
+        -       guid: mtR/6vT6Ue
                 topic: Výroková logika
                 front: Rezoluční pravidlo
                 back: |
@@ -49,8 +44,7 @@ notes:
                         [$$]C=(C_1\\setminus\\{l\\}) \\vee (C_2\\setminus\\{\\overline{l}\\})[/$$]<br>
 
                         Je korektní.
-        -       uuid: 09391262-d1b6-42c1-bb9d-3cd9e055173b
-                guid: ntMB83>e>m
+        -       guid: ntMB83>e>m
                 topic: Výroková logika
                 front: Rezoluční důkaz, rezoluční strom, uzávěr
                 back: |
@@ -59,14 +53,12 @@ notes:
                         Jestli je věta rezolucí zamítnutelná, je nesplnitelná.<br>
                         Rezoluční strom: posloupnost rezolucí<br>
                         Uzávěr: všechno co jde resolvovat.
-        -       uuid: af0107b9-d3e9-4058-9b01-65bb2e900422
-                guid: Np|n;z>L7d
+        -       guid: Np|n;z>L7d
                 topic: Výroková logika
                 front: Rezoluce - splnitelnost formule a dosazení literálu
                 back: |
                         [$]S[/$] je splnitelná právě když je splnitelná [$]S^{\\ell}[/$] nebo [$]S^{\\overline{\\ell} }[/$] (dosazení s unit propagation)
-        -       uuid: 00085e32-d2c3-4bc9-8e44-2e369dcc75db
-                guid: o)4:smak<n
+        -       guid: o)4:smak<n
                 topic: Výroková logika
                 front: Úplnost rezoluce na konečné teorii
                 back: |
@@ -82,14 +74,12 @@ notes:
                         co není z [$]S[/$] přidám [$]\\ell[/$], tím získám strom [$]S\\longrightarrow\\ell[/$].
                         <br>
                         Rezolucí kořenů ([$]\\{\\ell\\}[/$] a [$]\\{\\overline{\\ell}\\}[/$]) získáme spor.
-        -       uuid: c47a99a2-b41f-4ee3-9082-eedcab02fef0
-                guid: kGQ)]{Pr]=
+        -       guid: kGQ)]{Pr]=
                 topic: Výroková logika
                 front: Úplnost rezoluce na nekonečné teorii
                 back: |
                         Úplnost na nekonečné teorii plus věta o kompaktnosti
-        -       uuid: 38974d87-11b0-4dfb-a831-28dc2ad9671f
-                guid: LOh@UdD/v<
+        -       guid: LOh@UdD/v<
                 topic: Výroková logika
                 front: Lineární důkaz
                 back: |

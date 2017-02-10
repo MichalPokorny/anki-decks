@@ -1,8 +1,7 @@
 deck: All::Magisterské státnice::Reprezentace znalostí::AI2::Přednáška 6
 notes:
         # AI2 lecture06eng
-        -       uuid: 9dbae52a-38b4-4a95-bbf8-f66c42d75c1d
-                guid: v,iq*b!)_&
+        -       guid: v,iq*b!)_&
                 front: Decision network
                 back: |
                         Node:
@@ -13,33 +12,28 @@ notes:
                         dělá rozhodnutí
                         <li> *Utility* [$]\\diamond[/$]: utilita
                         </ul>
-        -       uuid: 4217ab1f-1fc0-4820-a29f-8dcb1d89009b
-                guid: AP5ZA6p(;-
+        -       guid: AP5ZA6p(;-
                 front: Sensitivity analysis
                 back: |
                         Zjistit, co se stane, když trochu tweaknu hodnoty co
                         jsou v (Bayesovském) modelu. (Neměl bych mít příliš
                         citlivý.)
-        -       uuid: 6c711d32-c727-471f-b07f-66b11984776b
-                guid: chvC12RT!v
+        -       guid: chvC12RT!v
                 front: Markovian state transition model
                 back: |
                         Pevné pravděpodobnosti [$]P(s'|s,a)[/$].
-        -       uuid: 2369ac01-bbe0-4a4f-a410-1fa83ebb4a99
-                guid: AX]6_ksGmi
+        -       guid: AX]6_ksGmi
                 front: Markov decision process
                 back: |
                         Sequential decision problem for a fully observable,
                         stochastic environment with a Markovian transition
                         model and additive rewards.
-        -       uuid: 7471ca66-e741-414b-ae98-e5498bf8bf41
-                guid: rANTBi8YJU
+        -       guid: rANTBi8YJU
                 front: What's the solution to a MDP?
                 back: |
                         A policy ([$]\\pi(s)[/$]).
                         Optimal policy: highest expected utility.
-        -       uuid: dcda144b-a485-4371-879d-a01924638ea8
-                guid: P;&gC^<o26
+        -       guid: P;&gC^<o26
                 front: How to deal with utilities over time?
                 back: |
                         <ol type="A">
@@ -48,13 +42,11 @@ notes:
                         </ol>
                         Rewards: additive or discounted.
                         Discounting: exponential.
-        -       uuid: 6e18efe6-ac68-41ad-89a1-026ad9d92e42
-                guid: JlO+*-ce/z
+        -       guid: JlO+*-ce/z
                 front: Expected utility from policy and reward function
                 back: |
                         [$$]U^\\pi(s)=E[\\sum_{i=0\\ldots\\infty} \\gamma^i R(S_i)][/$$]
-        -       uuid: a24296e7-25ea-45a3-bd3c-f6366122bf8d
-                guid: fiJLPl1}}c
+        -       guid: fiJLPl1}}c
                 front: Definition - true utility of state; how to go from that to
                         best policy
                 back: |
@@ -62,13 +54,11 @@ notes:
 
                         Optimal policy:
                         [$]\\pi^{ * }(s)=\\arg\\max_a \\sum_{s'}P(s'|s,a)U(s')[/$]
-        -       uuid: 82c49ae3-c696-46a2-aa58-c71e0458d26c
-                guid: JDhbUz-{ub
+        -       guid: JDhbUz-{ub
                 front: Bellman equation for true utilities
                 back: |
                         [$$]U(s)=R(s)+\\gamma\\max_{a}\\sum_{s'}P(s'|s,a)U(s')[/$$]
-        -       uuid: 319b02b0-a895-4c26-a5b9-3cefc387fcd1
-                guid: P2{)H?IEFP
+        -       guid: P2{)H?IEFP
                 front: Value iteration algorithm, kdy se skončí?
                 back: |
                         Vstup: [$]\\epsilon[/$]: jak daleko si dovolím být od
@@ -83,26 +73,22 @@ notes:
                         Konči, až se utilita změní jen málo:
                         [$]\\delta < \\varepsilon (1-\\gamma)/\\gamma[/$].
         # TODO: konvergence value iteration
-        -       uuid: ff9e93d8-dc40-4cfb-92aa-5894f88f9dd5
-                guid: HDq2l^<4os
+        -       guid: HDq2l^<4os
                 front: Definice - policy loss
                 back: |
                         [$$]|U^{\\pi} - U|_{\\max}[/$$]
-        -       uuid: 063da015-a6aa-4b18-b322-35ca98b48265
-                guid: bIWtpt7`;.
+        -       guid: bIWtpt7`;.
                 front: Maximální policy loss po [$]i[/$] krocích value iteration
                 back: |
                         [$$]|U_i-U| < \\varepsilon \\rightarrow |U^{\\pi_i}-U| < 2\\varepsilon\\gamma(1-\\gamma)[/$$]
-        -       uuid: 871ebfb8-4596-44e2-bfcd-a7ff6418b879
-                guid: o>|10B`j},
+        -       guid: o>|10B`j},
                 topic: Policy iteration
                 front: Motivace proti value iteration
                 back: |
                         Value iteration policy často zkonverguje daleko dřív než
                         zkonvergují utility. Nezáleží na přesném rozdílu když
                         je jedna akce jasně optimální.
-        -       uuid: c8b26eb3-5279-4e9a-886a-1390a3614ce7
-                guid: m09L)2g[gf
+        -       guid: m09L)2g[gf
                 topic: Policy iteration
                 front: Algoritmus
                 back: |
@@ -117,20 +103,17 @@ notes:
                         akce podle současných utilit.
                         </ul>
                         Pokud jsem změnil policy, opakuju.
-        -       uuid: 2fe35ff1-dbb9-4631-87b6-ae4d9bf55958
-                guid: L.V%w/Dog<
+        -       guid: L.V%w/Dog<
                 front: Model rozhodování v MDP vs. POMDP - co se přidá?
                 back: Prostředí je jenom částečně pozorovatelné
-        -       uuid: 8f95a529-05b8-4a07-aa0e-9747159a2df2
-                guid: P=juSG!!)w
+        -       guid: P=juSG!!)w
                 front: Model POMDP
                 back: |
                         Máme [$]P(s'|s,a)[/$], reward function [$]R(s)[/$],
                         sensor model [$]P(e|s)[/$].
                         <br>
                         Neznáme náš stav.
-        -       uuid: e9c2ac0d-8329-479f-a6a4-e4a094544786
-                guid: r4Gk]M=<r[
+        -       guid: r4Gk]M=<r[
                 topic: POMDP
                 front: |
                         Jak reprezentovat neznámé stavy a konceptuálně hledat
@@ -140,15 +123,13 @@ notes:
                         pravděpodobností, že jsem v nějakém stavu.
                         Budu hledat optimální policy pro belief staty:
                         [$]\\pi(b)[/$], kde [$]b(s)\\in[0;1][/$].
-        -       uuid: aa4a4e70-ca6d-4c67-9b8c-831969406c80
-                guid: h0*]%8|d`*
+        -       guid: h0*]%8|d`*
                 topic: POMDP
                 front: Jak spočítat další belief, když máme pozorování?
                 back: |
                         [$]b'(s')=\\alpha P(e|s') \\sum_s P(s'|s,a) b(s)[/$];
                         to je to samé jako operace FORWARD
-        -       uuid: 394f4b6a-efe7-4cfe-a002-e30d94591327
-                guid: wgexjt6PFl
+        -       guid: wgexjt6PFl
                 topic: POMDP
                 front: Jak spočítat další belief, když nemáme pozorování?
                 back: |
@@ -160,22 +141,19 @@ notes:
                         [$$]P(b'|b,a)=\\sum_e P(b'|a,b,e) P(e|a,b) = \\sum_e P(b'|a,b,e) \\sum_{s'} P(e|s') \\sum_{s} P(s'|a,s) b(s)[/$$]
                         <br>
                         Kde: [$]P(b'|a,b,e)=1[/$] když [$]b=FORWARD(b,a,e)[/$]
-        -       uuid: a184be69-a2f3-4934-8b55-f26f37a88f75
-                guid: JeCjgqawZJ
+        -       guid: JeCjgqawZJ
                 topic: POMDP
                 front: Zobecnění reward function pro POMDP belief state
                 back: |
                         [$$]r(b)=\\sum_s b(s) R(s)[/$$]
-        -       uuid: bb1bd1e2-a7b9-4179-aec1-b6a44ad14347
-                guid: E^aN>;j.x+
+        -       guid: E^aN>;j.x+
                 topic: POMDP
                 front: Redukce POMDP na MDP
                 back: |
                         [$]P(b'|b,a)[/$] a [$]r(b)[/$] (na belief statech)
                         jsou pozorovatelný MDP. Akorát že z toho dostanu
                         spojitý MDP...
-        -       uuid: d3a32672-736d-43f5-b721-7af54ce23990
-                guid: K`|168E,3z
+        -       guid: K`|168E,3z
                 topic: POMDP
                 front: Architektura online agentů pro POMDP
                 back: |
@@ -187,8 +165,7 @@ notes:
                         <br>
                         Použijeme dynamické Bayesovské sítě a look-ahead
                         techniky.
-        -       uuid: bda74237-4b43-4525-92c3-169fb6270876
-                guid: H9$A^QH,z(
+        -       guid: H9$A^QH,z(
                 front: Podobnost řešení POMDP a hraní her
                 back: |
                         Nejistota je jako protihráč. Můžeme použít

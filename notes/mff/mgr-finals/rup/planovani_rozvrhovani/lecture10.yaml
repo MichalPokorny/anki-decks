@@ -3,24 +3,20 @@ deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování 
 topic: Rozvrhování
 notes:
         # planovani lecture01
-        -       uuid: 1cb9a676-012f-4eb4-9271-11fd741dfdad
-                guid: xI~pe<o?z>
+        -       guid: xI~pe<o?z>
                 front: Čím se zabývá rozvrhování?
                 back: Alokací naplánovaných akcí v čase a prostoru
-        -       uuid: df7f4e1b-522b-4c2d-b68b-bec670ae686f
-                guid: DwG2>z=Qi.
+        -       guid: DwG2>z=Qi.
                 front: Kdy může být dobré zároveň plánovat a rozvrhovat?
                 back: |
                         Když existuje hodně plánů a jenom pár má
                         přípustný rozvrh.
-        -       uuid: 320d26c9-1172-4497-b9b5-34bb14d3ffed
-                guid: vCb9jdsD*J
+        -       guid: vCb9jdsD*J
                 front: |
                         Název: Notace pro popis rozvrhovacích problémů
                 back: |
                         Grahamova notace
-        -       uuid: 563ea376-f369-4174-b7c5-9cfb6163dbbe
-                guid: ci#gO@Ni{t
+        -       guid: ci#gO@Ni{t
                 front: Jak vypadá Grahamova notace
                 back: |
                         [$]\\alpha\\mid\\beta\\mid\\gamma[/$]
@@ -28,115 +24,98 @@ notes:
                         [$]\\alpha[/$]: zdroje,
                         [$]\\beta[/$]: úlohy,
                         [$]\\gamma[/$]: kritérium optimalizace
-        -       uuid: cd99bc5c-2ac1-48cd-9d6c-59cda349642c
-                guid: c~6<A@Y)s{
+        -       guid: c~6<A@Y)s{
                 front: Grahamova notace - příklady zdrojů ([$]\\alpha[/$])
                 back: |
                         Jednoznačný zdroj; identické/uniformní/různé zdroje;
                         multi-operační model: job-shop/open-shop/flow-shop
-        -       uuid: a4c478a3-f239-46bb-93c8-5a4978179769
-                guid: o$1Po3|Q3*
+        -       guid: o$1Po3|Q3*
                 front: Grahamova notace - příklady úloh ([$]\\beta[/$])
                 back: |
                         Preempce? Precedenční vztahy?
                         Čas spuštění, uzávěrka, použití dávek?
-        -       uuid: cb4c55c9-8361-4041-8460-7792a6163866
-                guid: GKQ>MiW:TT
+        -       guid: GKQ>MiW:TT
                 topic: Notace rozvrhování
                 front: Start úlohy
                 back: |
                         [$]s(a)[/$]
                 include_reverse: true
-        -       uuid: dd82d712-223e-4f5c-8c13-43e2e730665f
-                guid: n}M{[W(>Fa
+        -       guid: n}M{[W(>Fa
                 topic: Nomenklatura rozvrhování
                 front: Release date
                 back: Minimální čas startu
                 include_reverse: true
-        -       uuid: fc3a699d-1d66-463e-9629-6ac354d73572
-                guid: xhK]Dowf?h
+        -       guid: xhK]Dowf?h
                 topic: Notace rozvrhování
                 front: Konec úlohy
                 back: |
                         [$]e(a)[/$]
                 include_reverse: true
-        -       uuid: fcd85efd-a94a-4738-a565-31df70b43929
-                guid: Fo-Q*CB$1}
+        -       guid: Fo-Q*CB$1}
                 topic: Nomenklatura rozvrhování
                 front: Deadline
                 back: Uzávěrka - kdy musí úloha být hotová
                 include_reverse: true
-        -       uuid: a40a3487-eb56-4afc-9477-c9cd670a2f5f
-                guid: kuji:Q.[Cc
+        -       guid: kuji:Q.[Cc
                 topic: Nomenklatura rozvrhování
                 front: Due date; značení
                 back: Termín dokončení [$]\\delta(a)[/$]
                 include_reverse: true
-        -       uuid: 81f2766c-8a68-4839-81e4-e41a256fa110
-                guid: lnyOxY:Z>6
+        -       guid: lnyOxY:Z>6
                 topic: Notace rozvrhování
                 front: Doba trvání úlohy
                 back: |
                         [$]p(a)[/$]
-        -       uuid: ead342d7-edfe-4d8e-8bbb-2232b9d8f897
-                guid: wS/&_;wf$i
+        -       guid: wS/&_;wf$i
                 front: Co to znamená, že zdroj je unární (nebo disjunktivní)?
                 back: Běží na něm jenom jedna úloha najednou
-        -       uuid: 0da2e2af-15f2-4a80-a99b-a8e590e39491
-                guid: QVUiJrCXOM
+        -       guid: QVUiJrCXOM
                 front: Co jsou preemptivní a nepreemptivní úlohy?
                 back: |
                         Preemptivní úlohu jde přerušit jinou úlohou
-        -       uuid: a50dee94-bc78-4d9d-9c57-797e65e1c53e
-                guid: M,`?Ih2[x#
+        -       guid: M,`?Ih2[x#
                 topic: Metriky rozvrhování
                 front: Makespan
                 back: |
                         Značka [$]C[/$]<br><br>
                         [$]\\max\\{e(a): a\\in A\\}[/$]
                 include_reverse: true
-        -       uuid: 35e81183-9838-472d-b9f4-e9153951a213
-                guid: Ir`PR0Xr[o
+        -       guid: Ir`PR0Xr[o
                 topic: Metriky rozvrhování
                 front: Lateness
                 back: |
                         Značka [$]L[/$]<br><br>
                         [$]e(a)-\\delta(a)[/$]
                 include_reverse: true
-        -       uuid: ad26ebd5-6e85-485c-9eaa-705e416205ef
-                guid: J~hTfYxwy+
+        -       guid: J~hTfYxwy+
                 topic: Metriky rozvrhování
                 front: Earliness
                 back: |
                         Značka [$]E[/$]<br><br>
                         [$]\\max(0,\\delta(a)-e(a))[/$]
                 include_reverse: true
-        -       uuid: f6051b78-7d91-40a2-ba5c-45ae6ddfa811
-                guid: PL.V^RPR_<
+        -       guid: PL.V^RPR_<
                 topic: Metriky rozvrhování
                 front: Tardiness
                 back: |
                         Značka [$]\\tau[/$]<br><br>
                         [$]\\max(0,e(a)-\\delta(a))[/$]
                 include_reverse: true
-        -       uuid: b4b0882b-bcf4-4579-9d38-4a4a4d95304d
-                guid: zt,5tSd#]H
+        -       guid: zt,5tSd#]H
                 topic: Metriky rozvrhování
                 front: Absolutní odchylka
                 back: |
                         Značka [$]D[/$]<br><br>
                         [$]|e(a)-\\delta(a)|[/$]
                 include_reverse: true
-        -       uuid: bdbf837f-1dce-4053-b227-9eea866a2594
-                guid: tL/]3,L(qL
+        -       guid: tL/]3,L(qL
                 topic: Metriky rozvrhování
                 front: Čtvercová odchylka
                 back: |
                         Značka [$]S[/$]<br><br>
                         [$] (e(a)-\\delta(a))^2[/$]
                 include_reverse: true
-        -       uuid: 24723a3a-3e49-4b75-b507-8915876e1014
-                guid: HSQOd[{+vL
+        -       guid: HSQOd[{+vL
                 topic: Metriky rozvrhování
                 front: Zpožděná úloha
                 back: |
@@ -147,46 +126,39 @@ notes:
                         \\end{cases}
                         [/$$]
                 include_reverse: true
-        -       uuid: 066bdaa3-529a-4b06-8d8b-4d016d3aa307
-                guid: P7CvU,y={$
+        -       guid: P7CvU,y={$
                 topic: Metriky rozvrhování
                 front: Metriky kolem zdrojů?
                 back: |
                         Minimalizace rekonfigurace, počtu strojů,
                         maximálního zatížení
-        -       uuid: 68c778d3-de92-4d2c-89ed-96ca089227a6
-                guid: w7>s[M+,cP
+        -       guid: w7>s[M+,cP
                 markdown: false
                 topic: "[$]1\\mid r_{j}\\mid L_{\\max}[/$]\n"
                 front: Specifikace
                 back: Plánování na jednom zdroji, úlohy mají release date a due date,
                         minimalizuji maximální překročení termínu (lateness)
-        -       uuid: 2c73eb11-b3b1-44d4-86c0-efda3b7c68a6
-                guid: y?5j^6mhct
+        -       guid: y?5j^6mhct
                 topic: "[$]1\\mid r_j\\mid L_{\\max}[/$]\n"
                 front: Složitost
                 back: Obecně NP-hard
-        -       uuid: 7e92448d-8e99-42c0-85b4-0da65c91db5e
-                guid: IEWxH8>Y(&
+        -       guid: IEWxH8>Y(&
                 topic: "[$]1\\mid r_j\\mid L_{\\max}[/$]\n"
                 front: Polynomiálně řešitelné relaxace
                 back: |
                         Identický release date/due date; povolená preempce
-        -       uuid: 0b02d88e-dfd7-42b2-8293-a400790d1614
-                guid: ArpE](vIbP
+        -       guid: ArpE](vIbP
                 topic: "[$]1\\mid r_j\\mid L_{\\max}[/$]\n"
                 front: Jak řešit, když mají všechny úlohy stejný release date?
                 back: |
                         Uspořádám podle *earliest due date*.
-        -       uuid: db84d7e2-65f8-44a1-a6b4-708df8424efe
-                guid: ym#e^1Twyz
+        -       guid: ym#e^1Twyz
                 topic: "[$]1\\mid r_j\\mid L_{\\max}[/$]\n"
                 front: Jak řešit, když úlohy mají všechny stejný due date?
                 back: |
                         Uspořádám v neklesajícím pořadí podle
                         termínu dostupnosti
-        -       uuid: 068ababf-3226-4a3f-9bb8-cd84eca90b04
-                guid: FQD3,?+`|v
+        -       guid: FQD3,?+`|v
                 topic: "[$]1\\mid r_j\\mid L_{\\max}[/$]\n"
                 front: Jak řešit, když povolím preempci?
                 back: |
@@ -194,14 +166,12 @@ notes:
                         Jakmile narazím na další termín dostupnosti nebo
                         dokončím úlohu, změním task, na kterém dělám, na úlohu,
                         která má teď nejmenší due date.
-        -       uuid: 49a6113c-83db-41a2-85cc-7cad16a7c1c6
-                guid: vC>g7Y!;nx
+        -       guid: vC>g7Y!;nx
                 topic: "[$]1\\mid r_j\\mid L_{\\max}[/$]\n"
                 front: Složitost obecného nerelaxovaného problému
                 back: |
                         NP-těžký
-        -       uuid: f7a4aaa9-3cf2-42d5-96b7-0a5847ce371b
-                guid: h8:cnZEU<[
+        -       guid: h8:cnZEU<[
                 topic: "[$]1\\mid r_j\\mid L_{\\max}[/$]\n"
                 front: Řešení obecného nerelaxovaného problému
                 back: |
@@ -217,8 +187,7 @@ notes:
                         Pokud mám nepreemptivní rozvrh stejně dobrý jako
                         preemptivní řešení, nemusím hledat dál (lepší
                         rozvrh neexistuje).
-        -       uuid: ed3545e3-d9f1-42f3-98af-a09e20340245
-                guid: zc7x^3}szw
+        -       guid: zc7x^3}szw
                 front: Typy paralelních zdrojů podle zpracování úloh
                 back: |
                         *Identické*: úlohy se zpracovávají stejnou dobu
@@ -228,27 +197,23 @@ notes:
                         <br><br>
                         *Různé*: doba zpracování může být ve zdrojích úplně
                         různá
-        -       uuid: 0f69ddf9-4dd1-4ee8-a25d-f7b8737e6141
-                guid: gw^{%2oU6H
+        -       guid: gw^{%2oU6H
                 front: Co když mám alternativní zdroje na řešení preemptivní úlohy?
                 back: |
                         Úlohu můžu posouvat na různé zdroje, ale nesmí běžet
                         na různých zdrojích najednou.
-        -       uuid: 84479092-9ca9-494e-a04a-435961917e7c
-                guid: s|#K[j832.
+        -       guid: s|#K[j832.
                 topic: "[$$]p_m\\mid\\mathrm{preempt}\\mid C_{\\max}[/$$]\n"
                 front: Zadání?
                 back: |
                         Minimalizuji makespan, úlohy jsou preemptivní, mám
                         [$]m[/$] identických alternativních zdrojů
-        -       uuid: 8ec891ec-6424-4856-bcb1-a67d3d4f44b0
-                guid: kwH@1%B*wR
+        -       guid: kwH@1%B*wR
                 topic: "[$$]p_m\\mid\\mathrm{preempt}\\mid C_{\\max}[/$$]\n"
                 front: Dolní odhad makespanu
                 back: |
                         [$$]LB = \\max\\{ \\max_i p_i, (\\sum_i p_i)/m \\}[/$$]
-        -       uuid: 681b86e1-d6e7-403d-9a7b-998ec3f7cb89
-                guid: vjVYJ^yTGD
+        -       guid: vjVYJ^yTGD
                 topic: "[$$]p_m\\mid\\mathrm{preempt}\\mid C_{\\max}[/$$]\n"
                 front: Jak lze sestavit rozvrh s optimálním makespanem, a jak rychle?
                 back: |
@@ -258,24 +223,21 @@ notes:
                         [$]LB[/$], úlohu rozdělíme a pokračujeme v jejím
                         schedulování na dalším stroji. Protože [$]p_i\\leq LB[/$],
                         tak se úlohy nikdy nebudou samy se sebou překrývat.
-        -       uuid: ff5553c5-c506-4b6c-9e1c-751d105384f0
-                guid: bp:hUhS_vD
+        -       guid: bp:hUhS_vD
                 topic: "[$$]p_m\\mid\\mathrm{prec}\\mid C_{\\max}[/$$]\n"
                 front: Zadání
                 back: |
                         Minimalizace makespanu, úlohy jsou nepreemptivní,
                         máme [$]m[/$] identických alternativních zdrojů,
                         mezi úlohami jsou precedenční vztahy.
-        -       uuid: 71db15a1-e558-4a97-aad3-1efc3fc8742e
-                guid: iW6h@Hvqh]
+        -       guid: iW6h@Hvqh]
                 topic: "[$$]p_m\\mid\\mathrm{prec}\\mid C_{\\max}[/$$]\n"
                 front: Složitost a řešení
                 back: |
                         Když [$]n\\leq m[/$], použiju metodu kritické cesty.
                         <br><br>
                         Když [$]2\\leq m<n[/$], je to NP-úplný problém.
-        -       uuid: a6da1795-8604-4be2-879b-6e4d50b874a1
-                guid: C}EhP}3i_j
+        -       guid: C}EhP}3i_j
                 topic: "[$$]p_m\\mid\\mathrm{prec}\\mid C_{\\max}[/$$]\n"
                 front: Metoda kritické cesty; které úlohy jsou kritické?
                 back: |
@@ -287,32 +249,27 @@ notes:
                         <br><br>
                         Kritické úlohy jsou ty, co mají stejný minimální
                         a maximální čas začátku.
-        -       uuid: 9ccbaa41-9573-4ce3-bc11-36f9609cec82
-                guid: zauJ=*},_O
+        -       guid: zauJ=*},_O
                 front: Co je to multi-operační, resp. shop model?
                 back: |
                         Úloha (job) je rozdělená do menších operací.
                         Mezi operacemi můžou být různé precedenční vztahy.
                         Zdroje pro operace jsou jednoznačně určeny.
-        -       uuid: 0385e492-f510-4d32-80ef-bf28de9aedc5
-                guid: sfeLPYxy>J
+        -       guid: sfeLPYxy>J
                 front: Job-shop model
                 back: |
                         Operace v rámci úlohy jsou lineárně uspořádány.<br><br>
                         Různé úlohy můžou mít různé pořadí a počet operací.<br><br>
                         Zpravidla je každý zdroj jednou úlohou navštíven jenom jednou.
-        -       uuid: ed3e4f3c-cf58-4356-93b6-81f9173cbcad
-                guid: AIX`v@>HXv
+        -       guid: AIX`v@>HXv
                 front: Flow-shop model
                 back: |
                         Speciální případ job-shop. Všechny úlohy mají stejný
                         počet a pořadí operací. Příklad: pásová výroba.
-        -       uuid: 04d7ec87-0a91-4779-948d-63803e4951eb
-                guid: ns-t%STobs
+        -       guid: ns-t%STobs
                 front: Open-shop model
                 back: Flow-shop bez uspořádání operací.
-        -       uuid: 4215e636-7594-41ba-b20a-c04e72f10b23
-                guid: n8J<XNx(#O
+        -       guid: n8J<XNx(#O
                 front: Věta o flow-shop a zdrojích, důkaz
                 markdown: false
                 back: |
@@ -340,8 +297,7 @@ notes:
                         <br>
                         Dostali jsme jiný rozvrh, co je optimální a má
                         větší [$]k[/$].
-        -       uuid: 2a926e97-7d7f-4de2-8556-c8f06fb57d0d
-                guid: yhe^#?>ceJ
+        -       guid: yhe^#?>ceJ
                 topic: "[$]F2\\mid\\mid C_{\\max}[/$]\n"
                 front: Úloha
                 back: |
@@ -350,8 +306,7 @@ notes:
                         <br><br>
                         Každá úloha má 2 operace, každá operace
                         na jednom stroji.
-        -       uuid: 9dc0540b-f373-4e33-a19b-8e586a2e201b
-                guid: p%)/.<KTR)
+        -       guid: p%)/.<KTR)
                 topic: "[$]F2\\mid\\mid C_{\\max}[/$]\n"
                 front: Řešení
                 back: |
@@ -372,8 +327,7 @@ notes:
                         <br>
                         Každou operaci rozvrhni do nejmenšího možného
                         startovního času.
-        -       uuid: cc118a32-453c-4936-960a-b38335bbf6f7
-                guid: FlNkhXS+d.
+        -       guid: FlNkhXS+d.
                 topic: Job-shop
                 front: Čím je job-shop problém specifikován?
                 back: |
@@ -383,21 +337,18 @@ notes:
                         Každá úloha: posloupnost operací, různé
                         mezi úlohami. Zdroj může navštívit vícekrát.
                         Zdroj a čas zpracování je pro každou operaci pevný.
-        -       uuid: 2b5ee856-6615-47c3-a164-a43fa751e4d9
-                guid: 'gKf^fYK1[:'
+        -       guid: 'gKf^fYK1[:'
                 topic: Job-shop
                 front: Jak těžké problémy job-shop typu jsou?
                 back: |
                         Převážně NP-úplné
-        -       uuid: b71fa382-8d15-4e0d-8e9d-e26343652422
-                guid: PRz#nx1|;1
+        -       guid: PRz#nx1|;1
                 topic: "[$]J2\\mid n_i\\leq 2\\mid C_{\\max}[/$]\n"
                 front: Úloha
                 back: |
                         Job-shop, 2 zdroje, maximálně 2 operace na úlohu,
                         minimalizace makespanu.
-        -       uuid: e7e9b5d7-7c4f-449d-9fe1-afad27a2d38c
-                guid: K<Ujj*M4]q
+        -       guid: K<Ujj*M4]q
                 topic: "[$]J2\\mid n_i\\leq 2\\mid C_{\\max}[/$]\n"
                 front: Řešení
                 back: |
@@ -428,8 +379,7 @@ notes:
                         Je to optimální rozvrh: aspoň 1 ze zdrojů
                         pracuje bez přerušení, [$]R_{1,2}, R_{2,1}[/$]
                         jsou optimální rozvrhy.
-        -       uuid: 4ea5dd08-eeaf-40f1-928a-93d8e4a7594e
-                guid: Bm8/:vN)rH
+        -       guid: Bm8/:vN)rH
                 topic: "[$]Jm \\mid \\mid C_{\\max}[/$]\n"
                 front: Co je disjunktivní graf?
                 back: |
@@ -444,8 +394,7 @@ notes:
                         zdroji; tvoří kliky.
                         <br><br>
                         Disjunktivním grafem kódujeme problém i rozvrh.
-        -       uuid: 52241070-d4e8-4d53-8b65-814d18871451
-                guid: C:k%*d72Z%
+        -       guid: C:k%*d72Z%
                 topic: "[$]Jm \\mid \\mid C_{\\max}[/$]\n"
                 front: Jak vyčteme z grafu korektní rozvrh? Kde je makespan?
                 back: |
@@ -453,14 +402,12 @@ notes:
                         jednu, aby v grafu nebyly cykly.
                         <br>
                         Makespan: délka nejdelší cesty [$]S\\rightarrow T[/$].
-        -       uuid: a6480cf5-d581-42e4-a608-933f3b1927d7
-                guid: rr+LOZAV2S
+        -       guid: rr+LOZAV2S
                 topic: "[$]Jm \\mid \\mid C_{\\max}[/$]\n"
                 front: Složitost
                 back: |
                         NP-úplný
-        -       uuid: 9ac47d5d-37f5-438b-af18-6028eb82e8eb
-                guid: O+4vzxt0OR
+        -       guid: O+4vzxt0OR
                 topic: "[$]Jm \\mid \\mid C_{\\max}[/$]\n"
                 front: Jak budeme budovat heuristický algoritmus?
                 back: |
@@ -470,8 +417,7 @@ notes:
                         <br><br>
                         Pro zvýšení šancí na dobré řešení:
                         proměnné/zdroje podle klesající důležitosti
-        -       uuid: 7cce7305-3364-47d2-8572-5b2f9651257e
-                guid: iY2p=]&SX=
+        -       guid: iY2p=]&SX=
                 topic: "[$]Jm \\mid \\mid C_{\\max}[/$]\n"
                 front: Rozvrhnutí jednoho zdroje
                 back: |
@@ -485,15 +431,13 @@ notes:
                         <br><br>
                         Zdroj, co dá největší zpoždění [$]L_{\\max}[/$],
                         je bottleneck a jeho rozvrh přidám do řešení.
-        -       uuid: b9d3974b-7397-4b44-9312-0b3b419405d3
-                guid: MBb}aI7e[=
+        -       guid: MBb}aI7e[=
                 topic: "[$]Jm \\mid \\mid C_{\\max}[/$]\n"
                 front: Zlepšení hotového řešení
                 back: |
                         Vezmi zdroj, vytrhej jeho hrany z grafu,
                         znova vyřeš jeho [$]1\\mid r_j\\mid L_{\\max}[/$]
-        -       uuid: c82e804d-2e2f-43b2-ae13-3db2586cf142
-                guid: HI[Lv}=]Ts
+        -       guid: HI[Lv}=]Ts
                 topic: "[$]Jm \\mid \\mid C_{\\max}[/$]\n"
                 front: |
                         Název: Heuristický algoritmus

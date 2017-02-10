@@ -2,86 +2,73 @@ topic: C
 deck: All::CS::Languages::C
 uid_tag: cs/languages/c
 notes:
--       uuid: 3e3edb38-49f4-4985-9c86-a4196a661302
-        guid: '{vl$7<M,i'
+-       guid: '{vl$7<M,i'
         front: |
                 Change `stdin` to point to `soubor.in`
         back: |
                 `freopen("soubor.in", "r", stdin);`
--       uuid: 9571b5f1-8784-4da8-b045-87f075a06e80
-        guid: Lq-hKrh]/6
+-       guid: Lq-hKrh]/6
         front: '`erf`'
         back: Gauss distribution error function
         include_reverse: true
--       uuid: 5c75c7e5-136d-400f-b46b-0c28ced1ef5f
-        guid: hY^Tonr*w#
+-       guid: hY^Tonr*w#
         front: |
                 `free` behavior on `NULL`
         back: |
                 OK. If `ptr` is `NULL`, no operation is performed.
--       uuid: f14bead7-c952-46f7-a719-081fc576adea
-        guid: zD}ku}K>f=
+-       guid: zD}ku}K>f=
         front: |
                 GCC - destroy some identifier(s) forever
         back: |
                 `#pragma GCC poison (identifiers)`
         include_reverse: true
--       uuid: 96c6d7a7-28dd-4ca4-8beb-33b064697729
-        guid: u0ejY`XP>W
+-       guid: u0ejY`XP>W
         front: GCC - warn on misleading indentation
         back: |
                 `gcc -Wmisleading-intentation`
         include_reverse: true
--       uuid: be5643b2-4dc9-4a78-a704-0247a081f646
-        guid: Cr5w1*{Pp7
+-       guid: Cr5w1*{Pp7
         front: No-return header
         back: |
                 `stdnoreturn.h`;
                 provides `noreturn` macro.
--       uuid: fcfdf4e1-4df9-4f1e-ab04-dc01f5f68626
-        guid: I&]ZQ?PH3X
+-       guid: I&]ZQ?PH3X
         front: Shortest crashing C program
         back: |
                 `main;` (from `int main = 0;` &rarr; `main=0;` &rarr;
                 `main;`)
--       uuid: fa5c375e-e697-4511-bb80-8ef3c5cc2072
-        guid: C#f]8^yH4W
+-       guid: C#f]8^yH4W
         topic: C - `printf`
         front: Align to left (print '42  ')
         back: '`printf("%-4d\n", 42);`'
         include_reverse: true
--       uuid: cf13970d-e91a-4902-9749-aa3150d3c09b
-        guid: h^Q=W]UEk_
+-       guid: h^Q=W]UEk_
         topic: C - `printf`
         front: Print number with sign, + or - (print '+42')
         back: '`printf("%+d\n", 42);`'
         include_reverse: true
--       uuid: cec698e8-7ad2-4403-8483-732eeedff415
-        guid: M_b90&}A@3
+-       guid: M_b90&}A@3
         topic: C - `printf`
         front: |
                 Print number with `-`, or `' '` for positives
                 (print ' 42')
         back: '`printf("% d\n", 42);'
         include_reverse: true
--       uuid: 045dfdd5-d388-49be-9c1d-d9c273fb855d
-        guid: i&|fvO+$[q
+-       guid: i&|fvO+$[q
         topic: C - `printf`
         front: |
                 Print float in hexadecimal form (`0x1.91eb86p+1`)
         back: |
                 `printf("pi=%a\n", 3.14);`
         include_reverse: true
--       uuid: 5f76b470-81f4-4583-9885-4a9c70a34c7b
-        guid: s{yg=kJzA=
+-       guid: s{yg=kJzA=
         topic: C - `printf`
         front: |
                 Print out `0x1a`, without `0x` in format string
         back: |
                 `printf("%#X\n", 26);`
         include_reverse: true
--       uuid: d38c2530-3182-42dc-bde9-40b3b2b06549
-        guid: b_!_58Mkdt
+-       guid: b_!_58Mkdt
         topic: C - `printf`
         front: |
                 Print out `013` as octal representation of 11, without
@@ -89,251 +76,212 @@ notes:
         back: |
                 `printf("%#o\n", 11);`
         include_reverse: true
--       uuid: 78a17c8f-f85c-4259-9984-db789c5226ec
-        guid: Hw$WSt7UKK
+-       guid: Hw$WSt7UKK
         front: |
                 `calloc`
         back: |
                 `void *calloc(size_t nmemb, size_t size);`; allocates
                 memory, like `malloc`
--       uuid: a4889ec5-e7da-426d-b30d-6fa603ca9369
-        guid: su;)P>,HJU
+-       guid: su;)P>,HJU
         front: |
                 Dynamically allocate heap memory for an array
         back: |
                 `void *calloc(size_t nmemb, size_t size);`;
                 allocates memory, like `malloc`
--       uuid: dbbf9846-47ad-41ed-be45-5d80d95d152c
-        guid: z^EHXq2b/+
+-       guid: z^EHXq2b/+
         front: |
                 `realloc`
         back: |
                 `void *realloc(void *ptr, size_t size);`, `ptr` may be
                 `NULL`
--       uuid: c0adc25a-a57e-4b51-93f9-54a398bc8e65
-        guid: PerDpN#?<L
+-       guid: PerDpN#?<L
         front: |
                 Return value: `realloc`
         back: |
                 Reallocated pointer or `NULL` on failure
--       uuid: 5cdd8d57-3c25-4ed5-bf3c-657765c1d978
-        guid: k;EE85)K7f
+-       guid: k;EE85)K7f
         front: |
                 What does `puts("hello");` do?
         back: |
                 Writes `hello` and a newline to `stdout`.
--       uuid: a55e3141-8c90-4818-9fe0-60e3291fb678
-        guid: H!,qzxfo6@
+-       guid: H!,qzxfo6@
         front: |
                 What to do with continuation markers in multi-line
                 macro bodies?
         back: |
                 Right-align them
--       uuid: 6c110fe4-7a9a-4224-b339-c00e6d861323
-        guid: Ne{wDnn6kn
+-       guid: Ne{wDnn6kn
         front: |
                 Why to use `reallocarray`
         back: |
                 Because `num * size` in `malloc`/`realloc` call
                 might lead to overflow
--       uuid: aa38673f-d63e-4502-8bb4-2dd32641f85c
-        guid: q{-cbZ=02f
+-       guid: q{-cbZ=02f
         front: |
                 Prototype: `reallocarray`
         back: |
                 `void* reallocarray(void *ptr, size_t nmemb,
                 size_t size);`
--       uuid: ef449a86-449d-4792-bccc-4a632666b326
-        guid: FD}7<3..LM
+-       guid: FD}7<3..LM
         front: |
                 Function: Zero out memory without allowing
                 de-optimizing it away (e.g., passwords)"
         back: |
                 `explicit_bzero`
--       uuid: d32ea83d-9075-4db1-aedb-3401655af5d6
-        guid: dMIUbdCx5O
+-       guid: dMIUbdCx5O
         front: |
                 Purpose: `explicit_bzero`
         back: |
                 Zero out memory without allowing de-optimizing it away
                 (e.g., passwords).
--       uuid: 67eef6ce-f5cc-44d3-b8a0-56e9218d9762
-        guid: b}q`?HL00_
+-       guid: b}q`?HL00_
         front: |
                 Prototype: `explicit_bzero`
         back: |
                 `void explicit_bzero(void *buf, size_t len);`
--       uuid: c1a580b9-96b2-4eff-be6b-3c6ccbda0895
-        guid: iDkm-p.n;>
+-       guid: iDkm-p.n;>
         front: Syscalls to read/write to/from fd at a given offset.
         back: |
                 `pread`/`pwrite`
--       uuid: 04dc7855-80e5-494f-a124-f025b1f7fb3c
-        guid: GY4V*]:7,|
+-       guid: GY4V*]:7,|
         front: |
                 Function: Aligned allocation
         back: |
                 `aligned_alloc`
--       uuid: baa7e79c-a298-4560-8057-08a04a6b838d
-        guid: LpjU{Y9wBy
+-       guid: LpjU{Y9wBy
         front: |
                 Prototype: `aligned_alloc`
         back: |
                 `void* aligned_alloc(size_t alignment, size_t size);`
--       uuid: da0e1898-3a2a-47f0-8dd7-1367a9e6d8de
-        guid: HOe$T%X+K^
+-       guid: HOe$T%X+K^
         front: |
                 Function: Abnormal program termination
         back: |
                 `abort`
--       uuid: 26548f2b-153f-412d-b643-48f5269e8a85
-        guid: c-6G.a*P_e
+-       guid: c-6G.a*P_e
         front: |
                 `abort` vs. `exit`
         back: |
                 `abort` does not execute cleanup registered
                 with `atexit`/`on_exit`
--       uuid: c2b5e44b-ded0-4516-8357-30a984312ca9
-        guid: xT@?dJVRG}
+-       guid: xT@?dJVRG}
         front: |
                 Prototype: `abort`
         back: |
                 `void abort(void);`
--       uuid: 5313d46c-bfd6-4df6-b5cb-a09c6719291e
-        guid: bfs,j(MMt5
+-       guid: bfs,j(MMt5
         front: |
                 Prototype: `on_exit`
         back: |
                 `int on_exit(void (*func)(int status, void* arg), void* arg);`
--       uuid: 8a844549-6d50-4298-a0c9-7fe9dcb324b1
-        guid: 'Gyb}Rvz=0:'
+-       guid: 'Gyb}Rvz=0:'
         front: |
                 Return value: `on_exit`
         back: |
                 0 if successful; otherwise a non-zero value
--       uuid: 4e115dd0-9127-4aa3-9c5a-a0b11f926cd0
-        guid: B78).Vi0_P
+-       guid: B78).Vi0_P
         front: |
                 Prototype: `exit`
         back: |
                 `void exit(int status);`
--       uuid: b31f5f9e-13af-49ce-9f5c-dc232b24968f
-        guid: Pl>y@oMtET
+-       guid: Pl>y@oMtET
         front: |
                 Header file: `aligned_alloc`
         back: |
                 `stdlib.h`
--       uuid: cb1bc220-5300-401c-b1dd-7b1670a8f134
-        guid: s[VSv0f0t2
+-       guid: s[VSv0f0t2
         front: |
                 Prototype: `getenv`
         back: |
                 `char* getenv(const char* name);`
--       uuid: 9c551eeb-8d9f-4361-8f38-cf7ba9040770
-        guid: jjedosB3x*
+-       guid: jjedosB3x*
         front: |
                 Header file: `getenv`
         back: |
                 `stdlib.h`
--       uuid: 2a2fe7fa-951c-4a4c-a9c5-779dd6b32d97
-        guid: LDpr;tiZ8Z
+-       guid: LDpr;tiZ8Z
         front: |
                 Difference between `getenv` and `secure_getenv`
         back: |
                 `secure_getenv` returns `NULL` if program is running
                 SUID or SGID enabled
         # TODO: mktemp
--       uuid: 19fce40a-e6a6-48f6-8d29-7ac5d9034176
-        guid: q;yq%In+_8
+-       guid: q;yq%In+_8
         front: |
                 Header file: `system`
         back: |
                 `stdlib.h`
--       uuid: e4aff9e2-3483-426f-acfa-1b40fd99082b
-        guid: k#_M?0p%p[
+-       guid: k#_M?0p%p[
         front: |
                 Prototype: `bsearch`
         back: |
                 `void* bsearch(const void* key, const void* base, size_t nmemb, size_t size, compar_fn_t compar);`
--       uuid: 8c5e694c-3aee-493b-8cf1-422782623e40
-        guid: sJq2GdLM.x
+-       guid: sJq2GdLM.x
         front: |
                 Header file: `bsearch`
         back: |
                 `stdlib.h`
--       uuid: 0b36c8f7-3cc5-452b-b8d6-3f49de005f2e
-        guid: EeBHTN2v<|
+-       guid: EeBHTN2v<|
         front: |
                 Header file: `qsort`
         back: |
                 `stdlib.h`
--       uuid: d2c0ce67-81a7-4e99-9b8a-b82116859dc7
-        guid: ESm7d0m+kV
+-       guid: ESm7d0m+kV
         front: |
                 Header file: `qsort_r`
         back: |
                 `stdlib.h`
--       uuid: b814bd2a-dd44-40f1-9869-517a4ea16780
-        guid: lc{V@;bjF]
+-       guid: lc{V@;bjF]
         front: |
                 Prototype: `qsort`
         back: |
                 `void qsort(void* base, size_t nmemb, size_t size, compar_fn_t compar);`
--       uuid: 16212c66-3796-4567-90b2-1e06366c5d4f
-        guid: l8,yLWKU(6
+-       guid: l8,yLWKU(6
         front: |
                 Header file: `abs`
         back: |
                 `stdlib.h`
--       uuid: 405e13c2-106c-4714-b459-1922f6c8229a
-        guid: DULLl?0wno
+-       guid: DULLl?0wno
         front: |
                 Function: `abs` for `long`s
         back: |
                 `labs`
--       uuid: 4ffbdbe2-3961-4c51-842d-30e1847d4c9a
-        guid: hMT+u1BljP
+-       guid: hMT+u1BljP
         front: |
                 Macro: `e`
         back: |
                 `M_E`
         include_reverse: true
--       uuid: ca633d33-1fbf-4486-a971-8bcbfdfce8a5
-        guid: mC0vAJ,&/|
+-       guid: mC0vAJ,&/|
         front: |
                 Macro: [$]\\pi[/$]
         back: |
                 `M_PI`
         include_reverse: true
--       uuid: 17123a8d-b028-4de9-875c-a9270f8417b6
-        guid: E>!_MJ{D$(
+-       guid: E>!_MJ{D$(
         front: |
                 Macro: [$]\\pi/2[/$]
         back: |
                 `M_PI_2`
         include_reverse: true
--       uuid: eb6233e0-cc8f-4d68-90f4-08a494064b13
-        guid: G!~lK>$)GH
+-       guid: G!~lK>$)GH
         front: |
                 Macro: [$]2\\pi[/$]
         back: |
                 `M_2_PI`
         include_reverse: true
--       uuid: 945aa340-dc80-4dca-bedb-079a84b6145c
-        guid: v3msi%Q0h6
+-       guid: v3msi%Q0h6
         front: |
                 Macro: `\\sqrt{2}`
         back: |
                 `M_SQRT2`
         include_reverse: true
--       uuid: 7374eb62-365f-4bc8-90d4-5c27363fcf5d
-        guid: k}XT>!a--&
+-       guid: k}XT>!a--&
         front: |
                 Prototype: `putc`
         back: |
                 `int putc(int c, FILE* stream);`
--       uuid: 6bdee85c-8dff-4c31-86e1-3da7a5d16c73
-        guid: O%:3_[O1l-
+-       guid: O%:3_[O1l-
         front: |
                 Function: Get file descriptor for `FILE*`
         back: |

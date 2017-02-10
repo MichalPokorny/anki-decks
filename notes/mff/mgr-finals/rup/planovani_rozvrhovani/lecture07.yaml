@@ -3,8 +3,7 @@ deck: All::Magisterské státnice::Řešení úloh a plánování::Plánování 
 topic: Čas v plánování
 notes:
         # planovani a rozvrhovani lecture07
-        -       uuid: a6f376c3-a402-44d3-a8c2-5425114ff455
-                guid: b.te@T0Y,`
+        -       guid: b.te@T0Y,`
                 front: Co nám přidává čas do plánování?
                 back: |
                         Akce zabírají nějaký čas.<br>
@@ -13,34 +12,29 @@ notes:
                         Efekty mohou začít platit před koncem akce, být omezeny trváním, opožděné.<br>
                         Efekty se můžou sdružovat.<br>
                         Můžu mít průběžné cíle.
-        -       uuid: b30faf34-e2b9-4588-854e-0d6a72d7da47
-                guid: ts!qzp@Me+
+        -       guid: ts!qzp@Me+
                 front: Co je to formálně *čas*, v modelu plánování?
                 back: |
                         Spojitá nebo diskrétní množina s tranzitivním a
                         asymetrickým uspořádáním.
-        -       uuid: 488918b1-5ba7-4a62-bd7b-a57ab03a5945
-                guid: OxK;J?F,dc
+        -       guid: OxK;J?F,dc
                 front: Jaké rozhraní k času budeme při plánování používat?
                 back: |
                         Databázi časových údajů; Update; IsConsistent?
-        -       uuid: 74aec57b-3cb4-477d-93c2-4e236e22b534
-                guid: Gr5#yz(}_;
+        -       guid: Gr5#yz(}_;
                 front: Jaké jsou 2 způsoby práce s časem v plánování?
                 back: |
                         <ul>
                         <li> Kvalitativně (relativní vztahy)
                         <li> Kvantitativně (absolutní hodnoty)
                         </ul>
-        -       uuid: 26354eb1-17e7-4c6e-b273-7d675a3b6626
-                guid: vVu`+/Yavk
+        -       guid: vVu`+/Yavk
                 front: Co nás zajímá v kvalitativním přístupu k času?
                 back: |
                         Časové reference: body změny stavových proměnných (okamžiky),
                         časové periody během kterých platí nějaké tvrzení,
                         uspořádání časových referencí
-        -       uuid: bf4e6ce3-7c09-4aac-b56b-a3c49fdaa766
-                guid: Qh@g2THi-2
+        -       guid: Qh@g2THi-2
                 topic: Algebra okamžiků - kvalitativní čas
                 front: Svázání primitivními vztahy, složitější vztahy, operace nad
                         vztahy
@@ -52,15 +46,13 @@ notes:
                         Nad [$]R[/$] jsou definované operace [$]\\cup, \\cap[/$],
                         a [$]\\cdot[/$] pro tranzitivitu:
                         [$][a r_1 b][/$] a [$][b r_2 c][/$] dá [$][a (r_1 \\cdot r_2) c][/$].
-        -       uuid: 49125107-f190-44bf-bfdd-e768f7c7a4ce
-                guid: HOPPrQPwWm
+        -       guid: HOPPrQPwWm
                 topic: Algebra okamžiků - kvalitativní čas
                 front: Kombinace existujících a z tranzitivity odvozených vztahů
                 back: |
                         Když [$][t_1 r t_2], [t_1 q t_3], [t_3 s t_2][/$],
                         tak [$][t_1 r\\cap(q\\cdot s) t_2][/$].
-        -       uuid: f147ef21-99f7-46fc-8719-d4b861c1933d
-                guid: fek,m@~,^,
+        -       guid: fek,m@~,^,
                 topic: Algebra intervalů - kvalitativní čas
                 front: Primitivní vztahy mezi intervaly
                 back: |
@@ -73,40 +65,34 @@ notes:
                         <li> x **e**quals y
                         <li> symetrické vztahy **b'**, **m'**, **o'**, **d'**, **s'**, **f'**
                         </ul>
-        -       uuid: 3c9fe5e9-c686-46bb-b0ae-4b5fb0864837
-                guid: Fd6~Z!7z<~
+        -       guid: Fd6~Z!7z<~
                 topic: Algebra intervalů - kvalitativní čas
                 front: Složitější vztahy mezi intervaly
                 back: |
                         Složitější vztah je množina možných platných primitivních vztahů.
                         Množinové operace [$]\\cap,\\cup[/$], tranzitivní operace
                         [$]\\cdot[/$].
-        -       uuid: d10ac2d2-a7cc-4953-bcdd-64ca025ca18c
-                guid: y2Oavgv%ce
+        -       guid: y2Oavgv%ce
                 topic: Algebra intervalů - kvalitativní čas
                 front: Kdy je síť podmínek konzistentní? (okamžiky)
                 back: |
                         Když jdou přiřadit reálná čísla začátkům a koncům, že všechny vztahy jsou splněny.
-        -       uuid: 2a2d8173-2524-4690-91d1-d5e2c73c15cb
-                guid: G-2t&;]hJC
+        -       guid: G-2t&;]hJC
                 topic: Algebra intervalů - kvalitativní čas
                 front: Kdy je síť podmínek konzistentní? (podmínky)
                 back: |
                         Právě když jde přiřadit dvojicím intervalů množinu
                         primitivních vztahů takových,
                         že pro libovolnou trojici platí [$]p_{i,j}\\in p_{i,k}\\cdot p_{k,j}[/$].
-        -       uuid: ff1df585-d008-4449-803c-a51e14609814
-                guid: mGwEp.[t.0
+        -       guid: mGwEp.[t.0
                 topic: Algebra intervalů - kvalitativní čas
                 front: Jakou sílu má PC při řešení konzistence sítě podmínek?
                 back: Není to úplná konzistenční technika.
-        -       uuid: 712dae99-02da-485b-b92d-9176d3c25c2a
-                guid: H!/q/7.%:z
+        -       guid: H!/q/7.%:z
                 topic: Algebra intervalů - kvalitativní čas
                 front: Jak těžké je zjišťování konzistence sítě podmínek?
                 back: NP-úplné.
-        -       uuid: 6e9ba3d8-cedc-4938-b43f-cbe5ed538e79
-                guid: Gp~_NZSyx^
+        -       guid: Gp~_NZSyx^
                 front: Kvantitativní přístup k času - podmínky na okamžiky
                 back: |
                         Pro okamžiky [$]t_i,t_j[/$]:<br>
@@ -115,8 +101,7 @@ notes:
                         <br><br>
                         Binární podmínka mezi [$]t_i,t_j[/$] se píše [$][a_{ij},b_{ij}][/$].
                         Můžeme pracovat s disjunkcemi jednoduchých časových podmínek.
-        -       uuid: 40e930a0-668b-4a1e-8f34-0b369506a4a4
-                guid: Gvy4iQYOa&
+        -       guid: Gvy4iQYOa&
                 topic: Simple Temporal Network
                 front: Povolené podmínky, operace
                 markdown: false
@@ -128,15 +113,13 @@ notes:
                         [$]r_{ij}\cdot r_{jk}=[a_{ij}+a_{jk},b_{ij}+b_{jk}][/$],
                         průnik:
                         [$]r_{ij}\cap r'_{ij}=[\max(a_{ij},a'_{ij}),\min(b_{ij},b'_{ij})][/$]
-        -       uuid: 412dbc27-b0ef-4508-b39b-956e6c16df9b
-                guid: NW+{HhF`6f
+        -       guid: NW+{HhF`6f
                 topic: Simple Temporal Network
                 front: Algoritmy na konzistenci
                 back: |
                         Stačí konzistence po cestě nebo Floyd-Warshall
                         (na hledání minimální vzdálenosti mezi každou dvojicí).
-        -       uuid: 607a74ca-69e8-4883-a13e-7c16e0aa11f3
-                guid: j;rLudt0;i
+        -       guid: j;rLudt0;i
                 topic: Simple Temporal Network
                 front: Path consistency algoritmus
                 back: |
@@ -147,8 +130,7 @@ notes:
                         Pro každý další pár [$]i,j[/$]:<br>
                         [$]r_{ij}\\leftarrow r_{ij}\\cap[r_{ik}\\cdot r_{kj}][/$].
                         Když [$]r_{ij}=\\emptyset[/$], fail.
-        -       uuid: e118b2fb-3f24-4d96-8a21-82b9e780fe48
-                guid: zF7C0(Ph^A
+        -       guid: zF7C0(Ph^A
                 topic: Simple Temporal Network
                 front: Floyd-Warshall
                 back: |
@@ -159,8 +141,7 @@ notes:
                         <br><br>
                         Pro každé [$]i,j,k[/$]:
                         [$]d(i,j)\\leftarrow \\min\\{d(i,j),d(i,k)+d(k,j)\\}[/$]
-        -       uuid: c07cfb1b-5bb9-4a38-b5a6-6a0166690ea3
-                guid: RhCAp[DWIP
+        -       guid: RhCAp[DWIP
                 front: TCSP. Jak to řešit?
                 back: |
                         Povolíme disjunkce jednoduchých časových podmínek,
@@ -170,8 +151,7 @@ notes:
                         <br>
                         Síť podmínek rozložím na několik STN, jednu pro každou
                         disjunkci. Výsledek je sjednocení řešení těch STN.
-        -       uuid: 860dc614-1dcf-4a07-a16e-14c58b029b77
-                guid: CW=5ij1Ar,
+        -       guid: CW=5ij1Ar,
                 front: TNA síť - struktura a problém
                 back: |
                         DAG co má větvící relace - paralelní větve (AND),
@@ -181,13 +161,11 @@ notes:
                         <br>
                         Problém: najít podgraf, co má vybrané uzly (např., konec)
                         a splňuje podmínky větvení.
-        -       uuid: d30cf5f5-e78c-4d81-b151-6ccd5653e3d4
-                guid: E},By,cAWj
+        -       guid: E},By,cAWj
                 front: Složiost rozhodnutí o validitě/nevaliditě v P/A grafu
                 back: |
                         Neboli TNA síť. NP-úplný (3-SAT).
-        -       uuid: 02bcb167-8d9d-4c6b-8ae2-0b78556a13d5
-                guid: bsaR%(p@ik
+        -       guid: bsaR%(p@ik
                 front: |
                         Na jakých grafech je TNA výběr uzlů polynomiálně
                         řešitelný?
@@ -203,14 +181,12 @@ notes:
                         hrany [$](a\rightarrow x_1 \rightarrow b), \ldots
                         (a\rightarrow x_n \rightarrow b)[/$]
                         na nových vrcholech [$]x_1,\ldots x_n[/$].
-        -       uuid: b6117756-0abb-4623-a34a-e0614b641c80
-                guid: FnJR(@>/|{
+        -       guid: FnJR(@>/|{
                 front: (Zahnizdene) temporalni site s alternativami - hrany
                 back: |
                         Hrana v DAGu je jednoduchá temporalní podminka
                         [$]a\\leq Y-X\\leq b[/$].
-        -       uuid: 490b8409-236b-4d49-b9b6-e92a8e9b0892
-                guid: EJbxT`62dY
+        -       guid: EJbxT`62dY
                 front: |
                         Složitost globální konzistence temporálních podmínek
                         v zahnízděných sítích

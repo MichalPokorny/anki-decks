@@ -1,13 +1,11 @@
 deck: All::Magisterské státnice::Datové struktury
 notes:
--       uuid: ae5a81b0-dec8-4bd1-bd6b-5f1c8f7fb3eb
-        guid: IH7%zHfWMm
+-       guid: IH7%zHfWMm
         front: Základní vlasnost binárních vyhledávacích stromů
         back: |
                 V pořadí zleva doprava v DFS jsou klíče uspořádané
                 od nejmenšího po největší.
--       uuid: caf785f4-dcf0-400e-9c72-dd0f8b5b5ba5
-        guid: wSStw0e&LZ
+-       guid: wSStw0e&LZ
         front: |
                 Na jaké vlastnosti záleží doba vyhledávání ve
                 vyhl. stromu? Jak to optimalizujeme?
@@ -18,8 +16,7 @@ notes:
                 <li> [$] (a,b)[/$]-stromy
                 <li> "Dynamicky": splay stromy
                 </ul>
--       uuid: 017590ba-1c6b-43b3-9454-5641a154476d
-        guid: A1}hT()wR$
+-       guid: A1}hT()wR$
         front: |
                 [$] (a,b)[/$]-stromy: význam [$]a[/$], [$]b[/$], invariant
                 <br>
@@ -30,15 +27,13 @@ notes:
                 Každý vrchol má aspoň [$]a[/$] a nejvýš [$]b[/$] synů ([$]\\in[a;b][/$])
                 <br>
                 Hodnoty jsou v listech. Vnitřní uzly obsahují maxima svých podstromů.
--       uuid: eebfb938-29c8-4db5-aedb-9b62c93a96b5
-        guid: KW:0YbdH{
+-       guid: KW:0YbdH{
         front: Kolik listů má [$] (a,b) [/$]-strom dané hloubky? Jakou má hloubku,
                 podle množství listů?
         back: |
                 Mezi [$]a^{d-1}[/$] a [$]b^d[/$].
                 Hloubka: [$]\\log_b n \\leq d \\leq 1 + \\log_a n[/$].
--       uuid: abb7a7f3-7173-492b-b118-3e7b6f7ea15b
-        guid: c?Rd?xl=Bt
+-       guid: c?Rd?xl=Bt
         front: |
                 [$] (a,b)[/$]-strom &mdash; Insert
         back: |
@@ -48,8 +43,7 @@ notes:
                 <li> Má-li *v* [$]b[/$] synů, rozštěp ho na 2, co má
                 každý [$] (b+1)/2 [/$] synů. Rekurzivně vlož do otce.
                 </ol>
--       uuid: 163b97da-16f0-493e-a772-66e7b80956b9
-        guid: z2W):t/azI
+-       guid: z2W):t/azI
         front: |
                 [$] (a,b)[/$]-strom &mdash; Delete
         back: |
@@ -62,8 +56,7 @@ notes:
                 <li> Jinak otce a strýce sluč a rekurzivně pokračuj
                      nahoru.
                 </ol>
--       uuid: e6660a05-296f-4e06-84bc-2f8c520aff01
-        guid: rug61fbvh2
+-       guid: rug61fbvh2
         front: |
                 [$] (a,b)[/$]-strom &mdash; Join &mdash; Postup
         back: |
@@ -75,14 +68,12 @@ notes:
                 posledního vrcholu na hladině [$]r[/$] ve stromě
                 [$]T_1[/$].
                 Pokud bude mít moc synů, rozštěp ho jako při Insertu.
--       uuid: 2c276a26-9c90-467c-9483-dbdd12ef8527
-        guid: h0nUH4=nh#
+-       guid: h0nUH4=nh#
         front: |
                 [$] (a,b)[/$]-strom &mdash; Join &mdash; Složitost
         back: |
                 [$]\\O(d(T_1) - d(T_2))[/$]
--       uuid: 97fefc3c-d1b3-4bc2-a7ab-5acb6e67718f
-        guid: Mn1Nx_UTlb
+-       guid: Mn1Nx_UTlb
         front: |
                 [$] (a,b)[/$]-strom &mdash; Split
         back: |
@@ -95,8 +86,7 @@ notes:
                 Postupně plň zásobníky.
                 Pak postupně pojoinuj stromy v zásobnících,
                 takže Split bude trvat [$]\\O(\\log n)[/$].
--       uuid: b56212a0-6576-40e6-b4ea-850ff2d6561e
-        guid: O]TYMi?dnk
+-       guid: O]TYMi?dnk
         front: |
                 [$] (a,b)[/$]-strom &mdash; amortizovaný počet štěpení
                 a splučování v sekvenci Insertů a Deletů; jaký je
@@ -107,8 +97,7 @@ notes:
                 splitů/insertů za operaci<br>
 
                 Předpoklad: [$]b\\geq 2a[/$]
--       uuid: 34d286ac-489f-42df-89f4-be0f7ec168ab
-        guid: eC?Uo6Cz1!
+-       guid: eC?Uo6Cz1!
         front: A-sort a jeho složitost
         back: |
                 Postupně vkládej do [$] (a,b)[/$]-stromu, pak je vypiš během DFS.<br>
@@ -124,8 +113,7 @@ notes:
                 [$]F[/$]: počet "inverzí"<br>
 
                 Alternativně: hledání od nejpravějšího listu [$]\\rightarrow \\leq 1 + \\log_a |\\{j < i+1, x_j > x_i\\}|[/$]
--       uuid: cede43cf-fed3-463f-abe4-646bd6fc51aa
-        guid: LqID?6_`&;
+-       guid: LqID?6_`&;
         front: Red-black trees &mdash; axiomy
         back: |
                 <ul>
@@ -135,8 +123,7 @@ notes:
                 <li> Každá cesta do listu má stejně černých vrcholů.
                 <li> Hodnoty ve vnitřních vrcholech.
                 </ul>
--       uuid: 121e2648-cfe6-4f4a-8ad3-642a376baae5
-        guid: e[+p(?u9?;
+-       guid: e[+p(?u9?;
         front: Red-black trees &mdash; ekvivalence s [$] (a,b) [/$]
         back: |
                 Ekvivalentní [$] (2,4) [/$]-stromům.
@@ -147,22 +134,19 @@ notes:
                 <li> Černý, má 1 červeného syna.
                 </ul>
                 To jsou gadgety na 4, 2, 3 syny.
--       uuid: b2e3d4a9-a888-45cc-b1ab-182fc1390bc1
-        guid: ApA1!WhMzH
+-       guid: ApA1!WhMzH
         front: Preventativní půjčování a štěpení
         back: |
                 Při insertu preventativně štěp všechno co má [$]b[/$] synů.
                 Při deletu při hledání od kořene uprav každý vrchol s [$]a[/$]
                 syny buď přidáním syna ze sourozence nebo slitím se sourozencem.
--       uuid: 781d7242-25bd-4b2a-8862-f80a6ebc397e
-        guid: bEAlOW-sAc
+-       guid: bEAlOW-sAc
         front: Vlastnosti splay stromu - maximální, amortizovaná cena vkládání
         back: |
                 Na operaci: až [$]\\O(n)[/$]
                 <br><br>
                 Cena za [$]m[/$] operací, [$]n[/$] vložených prvků: [$]\\O(m\\log n+n\\log n)[/$]
--       uuid: f0795afe-ab1d-4293-a1ad-e6f88a9c80f5
-        guid: q*59tD<1}C
+-       guid: q*59tD<1}C
         topic: Splay stromy
         front: Operace Splay &mdash; případy pro [$]Splay(x)[/$]
         back: |
@@ -196,8 +180,7 @@ notes:
                   / \                       / \
                  .   .                     .   .
                 </pre>
--       uuid: dc66b323-9313-4e90-9de3-e00034c2cf8e
-        guid: u2N4#zgEOJ
+-       guid: u2N4#zgEOJ
         topic: Splay stromy
         front: Insert
         back: |
@@ -206,48 +189,41 @@ notes:
                 <br><br>
                 Podrozděl levou/pravou hranu z vysplayovaného kořene
                 novým vrcholem [$]x[/$].
--       uuid: a95b34fc-04cd-4672-aaa9-ed11305aea42
-        guid: O6X@Hlzyd]
+-       guid: O6X@Hlzyd]
         topic: Splay stromy
         front: Delete
         back: |
                 Vysplayuj nahoru vrchol co chci odebrat.
                 Odeber ho, nahraď nejmenším/největším
                 pravého/levého podstromu.
--       uuid: 5071f3a5-9735-46ce-90d8-e13d3e9d9eea
-        guid: O@Q+74Fmjq
+-       guid: O@Q+74Fmjq
         topic: Splay stromy
         front: |
                 Amortizovaný čas na Splay &mdash; definice - skutečný
                 čas a potenciál před a po operaci
         back: |
                 [$]t = a + \\Phi(T') - \\Phi(T)[/$]
--       uuid: 7ce88bb9-71d3-4146-8c81-5235e2ce29f0
-        guid: eDf5v}}NmP
+-       guid: eDf5v}}NmP
         front: Značení - Potenciál
         back: |
                 [$]\\Phi[/$]
--       uuid: c73f56a0-7c03-49fe-9ff8-674e0c3fb60c
-        guid: rps~jm$(MZ
+-       guid: rps~jm$(MZ
         front: |
                 Značení: Amortizovaný čas
         back: |
                 [$]t[/$]
--       uuid: 0c846d2d-0dac-46ba-9b6c-4c0ca7f34149
-        guid: s&VVe!_&xs
+-       guid: s&VVe!_&xs
         front: |
                 Značení: Skutečný čas
         back: |
                 [$]a[/$]
--       uuid: 3e6385c5-e3b9-400c-9bc1-f6cf01561dfc
-        guid: P9MxD(rZ>`
+-       guid: P9MxD(rZ>`
         topic: Splay stromy
         front: Definice potenciálu
         back: |
                 [$$]\\Phi(t) \\equiv \\sum_{x\\in T}r(x); r(x) \\equiv
                 \\log_2(\\text{počet vrcholů pod}\\ x)[/$$]
--       uuid: 45db7dff-0f55-44f9-964d-65a5a69dd29a
-        guid: qG<;0:)E8y
+-       guid: qG<;0:)E8y
         topic: Splay stromy
         front: |
                 Teleskopická suma porovnávající amortizovaný a skutečný
@@ -258,8 +234,7 @@ notes:
 
                 Pro skutečný čas:
                 [$$]\\sum_{i=1}^m a_i = \\sum_{i=1}^m t_i + \\Phi(T_0) - \\Phi(T_m) \\leq \\sum_{i=1}^m t_i + \\Phi(T_0)[/$$]
--       uuid: 5af4b439-60f4-4a7a-a103-ac9ad8cd2b02
-        guid: u|g_$+cpM=
+-       guid: u|g_$+cpM=
         topic: Splay stromy
         front: Co chci dokázat o času na jeden dvourotační krok?
         back: |
@@ -270,8 +245,7 @@ notes:
                 [$]x\\leftarrow y\\rightarrow z[/$]):
                 [$]t\\leq 3(r'(x)-r(x))[/$].
                 Pro rotaci u kořene: [$]t\\leq 3(r'(x)-r(x)) + 1[/$].
--       uuid: 8d4b7b9b-26fa-4fb5-aca4-3f8af1d65cf3
-        guid: rj>3)Gf_It
+-       guid: rj>3)Gf_It
         topic: Splay stromy
         front: |
                 K čemu je omezení na amortizovaný čas na dvourotační
@@ -282,8 +256,7 @@ notes:
                 Postupným splayováním vyteleskopuje na
                 [$]1+3(r(v)-r(x))[/$], kde [$]v[/$] je kořen.<br>
                 To je [$]\\Theta(\\log N)[/$].
--       uuid: 041041da-2e5b-4696-95c9-94c1e7f4855b
-        guid: lydVM0+BZl
+-       guid: lydVM0+BZl
         topic: Splay stromy
         markdown: false
         front: |
@@ -303,8 +276,7 @@ notes:
                 <br>
                 Pozorování: [$]2 \leq 2r'(x) - r(x) - r'(z)[/$]<br>
                 Tedy: [$$]t\leq 2+r'(x)-2r(x)+r'(z) \leq 3r'(x)-3r(x)[/$$]
--       uuid: 065f235b-8a51-475a-a1b1-2a56296b940e
-        guid: B=hm8=l4+k
+-       guid: B=hm8=l4+k
         topic: Splay stromy
         markdown: false
         front: |
@@ -325,8 +297,7 @@ notes:
                 Pozorování: [$]2\\leq 2r'(x)-r'(y)-r'(z)[/$]<br>
 
                 Tedy: [$$]t \\leq 2r'(x)-2r(x)=2(r'(x)-r(x))\\leq 3(r'(x)-r(x))[/$$]
--       uuid: cd420f77-33c2-4660-8c81-eefc5cc04e1b
-        guid: HJ;abX.u!|
+-       guid: HJ;abX.u!|
         topic: Splay stromy
         front: |
                 Amortizovaný čas na Splay &mdash; na případ
@@ -337,45 +308,38 @@ notes:
                 Pozorování: [$]r'(y)<r(y)[/$], [$]r'(x)-r(x)>0[/$]
                 <br><br>
                 [$]t \\leq 1+r'(x)-r(x) \\leq 1+3(r'(x)-r(x))[/$]
--       uuid: 7738e830-27af-432c-9f98-4266eae390e8
-        guid: s0C.zqQ3CE
+-       guid: s0C.zqQ3CE
         front: Haldy &mdash; obecný interface
         back: |
                 Insert, Min, DeleteMin
--       uuid: 98f1108a-eb48-4c63-ba19-aef0d126a539
-        guid: izk?Fj~j(c
+-       guid: izk?Fj~j(c
         topic: Regulární halda
         front: Invariant
         back: |
                 Prvek je menší než všechny pod ním.
--       uuid: 79c747fc-7190-4226-93ec-8c220238b772
-        guid: ON4_m/hNf/
+-       guid: ON4_m/hNf/
         topic: Regulární halda
         front: Uložení do pole
         back: |
                 Pod [$]i[/$] jsou prvky [$]2i[/$], [$]2i+1[/$].
--       uuid: d77b8f43-105e-4074-8728-893e94fc4584
-        guid: xexLSVJ/pS
+-       guid: xexLSVJ/pS
         topic: Regulární halda
         front: Algoritmus Insert
         back: |
                 Přidej na konec pole. Bublej směrem ke kořeni,
                 dokud je porušena podmínka, že otec je menší než syn.
--       uuid: 8a30657b-6486-43b4-b69c-4acb6d6c7777
-        guid: AjqH(hqpho
+-       guid: AjqH(hqpho
         topic: Regulární halda
         front: Algoritmus Delete
         back: |
                 Poslední přesuň do prvního, bublej s menším ze
                 synů směrem dolů dokud je otec větší než syn.
--       uuid: 53dbd39b-fe32-406d-9da8-b7d3f206bd0b
-        guid: 'j|t?JR~]Z:'
+-       guid: 'j|t?JR~]Z:'
         topic: Regulární halda
         front: Časy
         back: |
                 Insert, DeleteMin: [$]\\O(\\log n)[/$], Min: [$]\\O(1)[/$]
--       uuid: a117f9b8-e1b0-4e51-8ed8-e67f2c8572d0
-        guid: yqZuC2m1ER
+-       guid: yqZuC2m1ER
         topic: Binomiální halda
         front: Struktura
         back: |
@@ -388,8 +352,7 @@ notes:
                 <br><br>
                 Jeden binomiální strom obsahuje kořen a hned pod ním
                 menší binomiální stromy všech menších velikostí.
--       uuid: f4b71aef-78b4-46b1-a788-42d1dc6620fc
-        guid: BFq)2ucQiA
+-       guid: BFq)2ucQiA
         topic: Eager binomiální halda
         front: Algoritmus Insert
         back: |
@@ -397,8 +360,7 @@ notes:
                 postupně slívej dokud existují 2 stromy stejné
                 velikosti.
                 Aktualizuj ukazatel na strom s minimem.
--       uuid: f90fa989-ff96-41b1-8a27-0eeaaa17cc8d
-        guid: EU3RZ%3}D*
+-       guid: EU3RZ%3}D*
         topic: Eager binomiální halda
         front: Algoritmus DeleteMin
         back: |
@@ -406,8 +368,7 @@ notes:
                 Rozpadne se na [$]i[/$] stromů velikosti [$]2^0, 2^1,
                 \\ldots 2^{i-1}[/$].
                 Postupně slívej jako při Insertu.
--       uuid: f60d57a1-990f-4c50-8992-f9a82e172a74
-        guid: j[z$~|$_%;
+-       guid: j[z$~|$_%;
         topic: Eager binomiální halda
         front: Složitosti
         back: |
@@ -419,22 +380,19 @@ notes:
                 <br><br>
                 (Amortizovaně [$]\\O(1)[/$] na Insert dokud se
                 neprovede DeleteMin.)
--       uuid: 3badd3b1-40d5-4e0c-925a-3126f13208cf
-        guid: .arg,<)A_
+-       guid: .arg,<)A_
         topic: Líná binomiální halda
         front: Algoritmus Insert
         back: |
                 Vytvoř nový strom velikosti 1,
                 aktualizuj odkaz na minimum.
--       uuid: baad0a81-0faa-4a86-8dd4-552e0aa815d6
-        guid: B{9>rH1V/@
+-       guid: B{9>rH1V/@
         topic: Líná binomiální halda
         front: Algoritmus DeleteMin
         back: |
                 Odřízni kořen stromu s minimem.
                 Slévej stromy stejné velikosti dokud to jde.
--       uuid: 00bd62d4-b7b8-461d-a215-3ac8f38335b2
-        guid: xHQpWWLl6h
+-       guid: xHQpWWLl6h
         topic: Líná binomiální halda
         front: Složitosti, důkazy
         back: |
@@ -447,20 +405,17 @@ notes:
                 Insert: [$]\\leq C + \\Phi(T')-\\Phi(T) = C[/$]<br>
 
                 DeleteMin: [$]\\leq C \\cdot [/$] počet stromů [$]+\\Phi(T')-\\Phi(T)\\leq C\\cdot\\log n = \\O(\\log n)[/$]
--       uuid: 3e6eacd7-efda-49e5-890b-3700abfd1224
-        guid: 'iTW:Ey!a@:'
+-       guid: 'iTW:Ey!a@:'
         front: |
                 Značení: velikost cache v modelu externí paměti
         back: |
                 [$]M[/$]
--       uuid: 562e10b4-da02-4877-85bc-8d6d197e4483
-        guid: AH##M0,Bfl
+-       guid: AH##M0,Bfl
         front: |
                 Značení: velikost bloku v modelu externí paměti
         back: |
                 [$]B[/$]
--       uuid: aa2bd2dc-0887-4116-b0fd-7920f52db5b5
-        guid: NqFwS-t7PO
+-       guid: NqFwS-t7PO
         front: Model externí paměti &mdash; notace
         back: |
                 [$]M[/$]: velikost paměti<br>
@@ -468,20 +423,17 @@ notes:
                 [$]B[/$]: velikost přenášených bloků<br>
 
                 [$]M/B[/$]: počet bloků v paměti
--       uuid: fc258cff-8cef-495b-a6ca-69afbc5252f9
-        guid: vuX_-37r0V
+-       guid: vuX_-37r0V
         topic: Model externí paměti
         front: Složitost sekvenčního čtení
         back: |
                 [$]\\lceil N/B \\rceil + 1[/$]
--       uuid: c9501f8e-cfb7-4cda-b76c-997165ec1cdb
-        guid: H[pzlvps}f
+-       guid: H[pzlvps}f
         topic: Model externí paměti
         front: Složitost binárního vyhledávání
         back: |
                 [$]\\log N - \\log B[/$]
--       uuid: 421b4c33-4f9e-4ceb-8ae5-55590e3be666
-        guid: z{@tQ+]R>y
+-       guid: z{@tQ+]R>y
         front: |
                 Model externí paměti &mdash; transpozice matice, za
                 jaké podmínky to funguje. Co naivní algoritmus?
@@ -489,14 +441,12 @@ notes:
                 Když [$]M>B^2[/$], jde udělat algoritmus s [$]N^2/B[/$] přenosy (optimální).
                 Transponuj po podmaticích velikosti [$]B\\times B[/$].<br>
                 Naivní algoritmus chce [$]N^2[/$] přenosů (pokud [$]\\frac{M}{B}<N[/$]).
--       uuid: b0008716-72b5-43cb-a275-0cc8975b732e
-        guid: kY7MpPVOCF
+-       guid: kY7MpPVOCF
         front: Cache-oblivious algoritmy
         back: |
                 Algoritmus je navržený bez známého [$]M[/$], [$]B[/$].
                 Analyzujeme s tím, že to jsou neznámé.
--       uuid: 02c3fb00-23d9-4011-869f-9287b94fb132
-        guid: kJ=W{F3A5*
+-       guid: kJ=W{F3A5*
         front: |
                 Transpozice matice cache-obliviously.
                 Jaký má předpoklad? Jakou má složitost?
@@ -508,8 +458,7 @@ notes:
                 tak jedna transpozice trvá [$]B[/$] přenosů.
                 Takových matic je [$]N^2/B^2[/$].
                 [$]\\O(N^2/B^2 \\cdot B)=\\O(N^2/B)[/$] I/O operací.
--       uuid: f7be2627-47a5-4c5e-bf80-bceaf95803dc
-        guid: Hj<]lx*KAq
+-       guid: Hj<]lx*KAq
         front: Van Emde-Boasovo uspořádání
         back: |
                 Useknu strom v půlce výšky.
@@ -520,21 +469,18 @@ notes:
                 <br><br>
                 Zlepšení proti binárnímu vyhledávání
                 ([$]\\log N - \\log B[/$]).
--       uuid: f71b5948-d157-4aec-b0b5-4aa6544b839f
-        guid: b2G,6ZCI%5
+-       guid: b2G,6ZCI%5
         front: Třídení &mdash; optimální cache-oblivious složitosti
         back: |
                 Za předpokladu [$]M\\geq B^2[/$] jde
                 [$]\\O(n\\log n)[/$] operací,
                 [$]\\O(N/B \\log_{M/B}[N/B])[/$] I/O
--       uuid: cae253c8-de58-49f7-b3dc-a110268de71f
-        guid: zM(9)Lyud
+-       guid: zM(9)Lyud
         front: Ideální vs. skutečná cache
         back: |
                 Skutečná: asociativita (není plně asociativní),
                 nevidí budoucnost (má LRU).
--       uuid: 99ce2f16-2bce-422a-8c38-d0e197a75a0b
-        guid: lxV=G`FM<w
+-       guid: lxV=G`FM<w
         front: Sleator-Tarjanova věta o LRU/OPT strategii - znění
         markdown: false
         back: |
@@ -543,8 +489,7 @@ notes:
                 f_{\mathrm{OPT}}+n_{\mathrm{LRU}}[/$]
                 <br>
                 Když zvolím 2x větší LRU, bude konstanta nejvýš 2.
--       uuid: bc29fdf5-d98c-4503-8c47-97882feef63d
-        guid: z[syrn+Hsf
+-       guid: z[syrn+Hsf
         front: Sleator-Tarjanova věta o LRU/OPT strategii - důkaz
         markdown: false
         back: |
@@ -565,8 +510,7 @@ notes:
                 \rceil[/$]<br>
 
                 Když zvolím 2x větší LRU, bude konstanta nejvýš 2.
--       uuid: 521fe3ca-0fe0-4e1f-ad8b-f7a2868fbd1c
-        guid: b%M<QTX}T&
+-       guid: b%M<QTX}T&
         topic: Hashování
         front: Jaký problém řeší, a obecně jak?
         back: |
@@ -578,8 +522,7 @@ notes:
                 <br>
                 Vybereme [$]h:U\\imp\\{1\\ldots m\\}[/$],
                 kde [$]m \\ll |U|[/$].
--       uuid: c71f666f-87cf-4e3a-9a82-fdd34870f868
-        guid: yt1:@GiU}K
+-       guid: yt1:@GiU}K
         topic: Hashování
         front: 5 způsobů řešení kolizí &mdash; jen názvy
         back: |
@@ -590,15 +533,13 @@ notes:
                 <li> Lineární přidávání
                 <li> Dvojité hashování
                 </ul>
--       uuid: e09b4e0b-73ad-4c1a-9fb5-b4fc5b5be227
-        guid: LZeS4a}:-e
+-       guid: LZeS4a}:-e
         topic: Hashování
         front: Řešení kolizí přes separované řetězce
         back: |
                 V každém kyblíku vyhledávací strom
         include_reverse: true
--       uuid: 375fb09c-1fd8-4f9c-9fd4-e2af45d3c60a
-        guid: kj,~:f7z0^
+-       guid: kj,~:f7z0^
         topic: Hashování
         front: Srůstající řetězce (a 2 podzpůsoby)
         back: |
@@ -608,8 +549,7 @@ notes:
                 Když přidám nový prvek, přidám buď na konec
                 seznamu (LICH), nebo za první prvek seznamu (EICH).
         include_reverse: true
--       uuid: cc8b7849-4bef-452a-831c-4fa1840cf780
-        guid: E%NSI@16[>
+-       guid: E%NSI@16[>
         topic: Hashování
         front: S pomocným polem
         back: |
@@ -619,19 +559,16 @@ notes:
                 Jakmile dojde pomocné pole, začnu ukládat přetékající
                 prvky
                 do hlavního pole.
--       uuid: 3d2bb991-29ac-4946-ae79-9ac263d37cde
-        guid: dqfSP,@~Ah
+-       guid: dqfSP,@~Ah
         topic: Hashování
         front: Jak funguje lineární přidávání
         back: Prvek vkládám na nejbližší volnou pozici za jeho kyblík.
         include_reverse: true
--       uuid: e0960c1a-6420-4b43-8f99-dad5a9dcae79
-        guid: h?O|6J!HTo
+-       guid: h?O|6J!HTo
         topic: Hashování
         front: Dvojité hashování
         back: Zkouším postupně pozice [$]h_1(x)+i\\cdot h_2(x)[/$]
--       uuid: b287950b-c81e-4ddd-b13e-6c8b7b2d79fa
-        guid: g1E1C4A$5P
+-       guid: g1E1C4A$5P
         topic: Hashování
         front: Co vyžaduje dvojité hashování?
         back: |
@@ -639,8 +576,7 @@ notes:
                 [$]h_1(x)+i\\cdot h_2(x)[/$], je potřeba aby [$]h_2(x)[/$]
                 bylo nesoudělné s [$]m[/$] (to platí např. když
                 [$]m\\in P[/$] a [$]h_2(x)\\in\\{1,\\ldots m-1\\}[/$].
--       uuid: 5fefc52d-1b67-4396-8cdf-5789671300b5
-        guid: p8~)Nu_zan
+-       guid: p8~)Nu_zan
         topic: Hashování
         front: Jak dělat Delete?
         back: |
@@ -648,8 +584,7 @@ notes:
                 Trik: označit smazané prvky a při Insert
                 recyklovat. Pokud bude příliš mnoho označených,
                 přehashuju.
--       uuid: ac827d29-d92c-464a-af33-fb9c17cfedd1
-        guid: t_y2G?.9?*
+-       guid: t_y2G?.9?*
         topic: Hashování
         front: Balls & bins - pravděpodobnost, že koš je prázdný
         back: |
@@ -657,15 +592,13 @@ notes:
                 <br>
                 [$$]P[\\text{kos je prazdny}]=
                 \\left(1-\\frac{1}{n}\\right)^n\\rightarrow_{n\\rightarrow\\infty} \\frac{1}{e}[/$$]
--       uuid: 468efc83-6992-449e-a0a1-b17b35267089
-        guid: '}<!Vi>n{N'
+-       guid: '}<!Vi>n{N'
         topic: Hashování
         front: Balls & bins - pravděpodobnost, že koš obsahuje [$]k[/$] míčků
         back: |
                 [$$]P[\\text{kos ma}\\ n\\ \\text{micku}]=
                 {n\\choose k} \\frac{1}{n^k} \\left(1-\\frac{1}{n}\\right)^{n-k} \\approx_{k\\ll n} \\frac{n^k}{k!} \\cdot \\frac{1}{n^k} \\cdot \\frac{1}{e} = \\frac{1}{e \\cdot k!}[/$$]
--       uuid: ac807671-0264-404e-b631-1cb43628151d
-        guid: H9RFA{,aYE
+-       guid: H9RFA{,aYE
         topic: Hashování
         front: Balls & bins - jaké je maximum v libovolném košíku?
         back: |
@@ -682,15 +615,13 @@ notes:
                 Pravděpodobnost, že v žádném koši není [$]\\geq k[/$], je [$]\\geq n/k![/$],
                 takže pro [$]k=\\Theta(\\log n/\\log\\log n)[/$] je to
                 konstantní pravděpodobnost.
--       uuid: 3cb51b71-608b-49d3-96b9-ee2e796bfac9
-        guid: <YzAdPh[R
+-       guid: <YzAdPh[R
         topic: Hashování
         front: Proč nás zajímá balls & bins?
         back: |
                 Říká že při náhodné hashovací funkci bude maximální
                 velikost kyblíku [$]\\Theta(\\log n/\\log\\log n)[/$].
--       uuid: 935989fe-baee-45f7-a1c1-e4aefdf82607
-        guid: D(V{5VZjfK
+-       guid: D(V{5VZjfK
         topic: Hashování
         front: Analýza lineárního přidávání
         markdown: false
@@ -716,8 +647,7 @@ notes:
                 <br>
                 Očekávaná doba vkládání:
                 [$$]\leq \sum_{k\geq 1}k\cdot Pr[\text{hledani potrva cas}\ k]\leq\sum_{k\geq 1} k\cdot\underbrace{\sum_{s\geq 0} (e/3)^{k+s} \cdot \frac{1}{\sqrt{(k+s)2\pi}}}_{\leq \mathcal{O}((e/3)^k)} = \mathcal{O}(1)[/$$]
--       uuid: 0339b66e-85a4-4d31-b828-4675c05308b1
-        guid: u_^FSXc4-o
+-       guid: u_^FSXc4-o
         topic: Hashování
         front: |
                 Očekávané maximální zaplnění koše při balls & bins,
@@ -725,8 +655,7 @@ notes:
                 prázdnějšího
         back: |
                 [$]\\mathcal{O}(\\log\\log n)[/$]
--       uuid: a07d81f9-50a8-40f3-979f-2af29909f06a
-        guid: tL{JDd<cBk
+-       guid: tL{JDd<cBk
         topic: Kukaččí hashování
         front: Jak funguje?
         back: |
@@ -739,15 +668,13 @@ notes:
                 zaplněný, vyměň [$]x[/$] a [$]T[pos][/$],
                 vyber [$]x[/$] jako druhý hash.
                 Jestli to doběhne a furt držíš prvek, přehashuj.
--       uuid: c74711df-85a0-43a9-a527-3f63dab19f6e
-        guid: Qyj(+CBUKt
+-       guid: Qyj(+CBUKt
         topic: Kukaččí hashování
         front: Pro jaké [$]m[/$] funguje dobře?
         back: |
                 [$]m\\approx 2.3n[/$],
                 ale analýzu ukážu pro [$]m=6n[/$].
--       uuid: 427e6fb9-f7ad-4c90-8142-2fcbf25c0a8f
-        guid: =nH8cW(q)
+-       guid: =nH8cW(q)
         topic: Kukaččí hashování
         front: Důkaz očekávaného počtu přehašování za Inserty
         back: |
@@ -779,8 +706,7 @@ notes:
                 <br>
                 Očekávaný počet přehashování je tedy [$]\leq 1[/$] na
                 [$]n[/$] insertů.
--       uuid: 049eba81-3ab3-41dd-ad0a-5b4ede0ba8c0
-        guid: QJ!!_;T[T<
+-       guid: QJ!!_;T[T<
         topic: Kukaččí hashování
         front: Důkaz konstantního času na Insert
         markdown: false
@@ -789,28 +715,24 @@ notes:
                 <br>
                 Očekávaná doba:
                 [$$]\leq \sum_{\ell\geq 1}\ell\cdot P[\text{z}\ i\ \text{vede cesta delky}\ell]\leq\sum_{\ell\geq 1}\ell\cdot(\frac{1}{3^\ell}\cdot\frac{1}{m})\cdot m\leq O(1)[/$$]
--       uuid: 46f606f8-0e32-430e-a048-f1fae5219434
-        guid: s!bjR`_:`]
+-       guid: s!bjR`_:`]
         topic: Kukaččí hashování
         front: Rychlejší zaříznutí Insertu
         back: |
                 Jakmile mám třeba [$]2\\log n[/$] kroků, začnu už
                 přehashovávat (tak dlouhá cesta je nepravděpodobná).
--       uuid: d52ea10a-0954-4378-9970-11cbc6f11e83
-        guid: yw=,/k,~|_
+-       guid: yw=,/k,~|_
         front: Proč chceme vybírat hashovací funkci netriviálně?
         back: |
                 Protože data nejsou většinou uniformní a nezávislá.
                 Kdyby byly distribuovány uniformně nezávisle, libovolná
                 funkce co by mapovala do stejně velkých bucketů by
                 fungovala dobře.
--       uuid: c1ffa339-6cfd-4dcb-8a54-f5b394d260d8
-        guid: c$~{8~=ZNQ
+-       guid: c$~{8~=ZNQ
         front: Proč nevybereme náhodnou hashovací funkci?
         back: |
                 Moc dlouhý popis ([$]|U|\\cdot\\log m[/$])
--       uuid: 7d120cf9-d36a-4458-acb0-d3112c9f85fe
-        guid: i&/Q+OPI$l
+-       guid: i&/Q+OPI$l
         front: Co je to univerzální hashovací systém?
         back: |
                 Pro každé pevné [$]x,y[/$]:
@@ -818,16 +740,14 @@ notes:
                 <br>
                 Neboli: pravděpodobnost kolize dvou prvků je stejná
                 jako u náhodné funkce.
--       uuid: 52cb81e7-a118-4769-b2ef-e509bbaa8ad5
-        guid: f4s8D3J*ZJ
+-       guid: f4s8D3J*ZJ
         front: |
                 Definice: [$]k[/$]-univerzální hashovací systém
                 (po [$]k[/$] nezávislá hashovací funkce)
         back: |
                 Pro libovolná [$]x_1,\\ldots x_k\\in U, a_1,\\ldots a_k\\in [m][/$]:
                 [$]P_{h\\in H}[h(x_1)=a_1\\wedge\\ldots\\wedge h(x_k)=a_k]=1/m^k[/$]
--       uuid: aecfe9c1-4f48-4a72-9811-affb44735f47
-        guid: M)MHHi/%6`
+-       guid: M)MHHi/%6`
         front: |
                 5 příkladů: 2-univerzálních hashovací systémy
         markdown: false
@@ -840,15 +760,13 @@ notes:
                 <li> Vektory.
                 </ul>
 
--       uuid: 142132d5-e801-478c-ad31-62242ad61c7b
-        guid: e}wl5so5HN
+-       guid: e}wl5so5HN
         front: Hashování [$] (ax+b)\\bmod m[/$] a vlastnosti
         back: |
                 [$]m[/$] prvočíslo, [$]H=\\{h_{a,b}:a,b\in [m]\\}[/$],
                 [$]h_{a,b}(x)=(ax+b) \\bmod m[/$]<br>
                 Potřebuje dělení. Je 2-univerzální.
--       uuid: f41af809-04ef-4d51-8e33-64159e4001b7
-        guid: r!$uiPb%GN
+-       guid: r!$uiPb%GN
         front: Hashování násobením matic a vlastnosti
         back: |
                 [$]h:\\{0,1\\}^w\\rightarrow\\{0,1\\}^k[/$],
@@ -857,8 +775,7 @@ notes:
                 popis potřebuje [$]k\\cdot W+k[/$] bitů
                 <br>
                 Nepraktické. 2-univerzální.
--       uuid: debfbd21-8f66-48f2-a8e9-f69f99762618
-        guid: hlmi_il[sp
+-       guid: hlmi_il[sp
         front: Hashování konvolucí a vlastnosti
         markdown: false
         back: |
@@ -867,8 +784,7 @@ notes:
                 [$] (h_{a,b}(x))_j=b_j+\sum_{i=1}^w a_{i+j-1} x_i[/$]
                 <br>
                 Nepraktické. 2-univerzální.
--       uuid: 54210963-0024-487a-a312-3fd5eee08e62
-        guid: u.7{2(Y|k_
+-       guid: u.7{2(Y|k_
         front: Hashování multiply-shift a vlastnosti
         markdown: false
         back: |
@@ -883,8 +799,7 @@ notes:
                 2-univerzální.
                 <br>
                 Zobecnění: [$][ax+b]_{w'-k+1,\ldots w'}[/$]
--       uuid: 849ad267-6f90-4c38-b71c-d3f7fc9e3c97
-        guid: raEA_1d9Lc
+-       guid: raEA_1d9Lc
         front: Hashování vektory
         markdown: false
         back: |
@@ -894,8 +809,7 @@ notes:
                 <br>
                 [$$]h(x_0,\ldots x_{d-1})=[(\sum a_i x_i) + b]_{w-k+1,\ldots w'}[/$$]
                 (výběr bitů)
--       uuid: f93cafa0-b68c-40b8-bac5-b0e103d37916
-        guid: jYPj7-N_;J
+-       guid: jYPj7-N_;J
         front: Hashování vektory - vychytávky
         markdown: false
         back: |
@@ -904,16 +818,14 @@ notes:
                 <br>
                 Pokud chci hashovat vektory proměnné délky [$]d'<d[/$], kde [$]d'[/$] je sudé:
                 [$$]h(x_0,\ldots x_{d'-1})=[(\sum_{i\in\{0,\ldots d'/2-1\}} (a_{2i}+x_{2i+1})(a_{2i+1}+x_{2i})) + a_{d'}]_{w'-k+1,\ldots w'}[/$$]
--       uuid: c317b366-ac24-4ebb-9b43-2cd34dd2fe4f
-        guid: yj`2,[@g~C
+-       guid: yj`2,[@g~C
         front: Hashování řetězců - parametry
         back: |
                 [$]p\\in P (p\\geq |U|)[/$],
                 [$]a\\in\\{0,\\ldots p-1\\}[/$].
                 <br>
                 Vstup: [$]x_0,\\ldots x_{d-1}\\in U[/$].
--       uuid: 5896cca5-4819-470d-95d0-50f221d780a7
-        guid: GD)4:Gprdp
+-       guid: GD)4:Gprdp
         front: Hashování řetězců - pravděpodobnost kolize a důkaz
         back: |
                 [$$]h_a(x_0,\\ldots x_{d-1})=\\sum_{i=0}^{d-1}x_i\\cdot a^i \\bmod p[/$$]
@@ -923,16 +835,14 @@ notes:
                 <br>
                 Důkaz: 2 různé polynomy stupně [$]\\leq d-1[/$] se mohou shodovat
                 nejvýše v [$]d[/$] bodech.
--       uuid: c9a1a95c-fc5b-400d-ba9b-0a6295cda04c
-        guid: oPRO~&NLYw
+-       guid: oPRO~&NLYw
         front: Hashování řetězců - spojení co dá malou pravděpodobnost kolize
         back: |
                 [$]h_a[/$] jde složit s hašovací funkcí [$]\\{0,\\ldots p-1\\}\\rightarrow\\{0,\\ldots m-1\\}[/$]:
                 [$$]h_{a,b,c\\in\\{0,\\ldots p-1\\}} = ((a(\\sum_{i=0}^{d-1} x_i c^i)+b)\\bmod p)\\bmod m[/$$]
                 <br>
                 Pokud [$]d<p/m[/$], tak je pst. kolize [$]\\leq 2/m[/$].
--       uuid: 0b8ea909-fb00-43df-836c-4ed075aa9f69
-        guid: tYu!}ULqT,
+-       guid: tYu!}ULqT,
         front: Tabulkové hashování a jeho vlastnosti
         back: |
                 Zvolím [$]x_0,\\ldots x_{d-1}\\in [m][/$],
@@ -940,16 +850,14 @@ notes:
                 výstup je [$]T_0[x_0]\\oplus \\ldots T_{d-1}[x_{d-1}][/$].
                 <br>
                 2-univerzální.
--       uuid: a35d77b3-acf6-4133-8d01-69c2005d42a8
-        guid: lAJYeQ,UXg
+-       guid: lAJYeQ,UXg
         front: 5-univerzální tabulkové hashování
         back: |
                 [$]x_0,x_1\\in [m][/$],
                 náhodné tabulky [$]T_0,T_1: [m]\\rightarrow\\{0,1\\}^\\ell[/$],
                 [$]T_2:[2m]\\rightarrow\\{0,1\\}^\\ell[/$].<br>
                 Výsledek: [$]T_0[x_0]\\oplus T_1[x_1]\\oplus T_2[x_0 || x_1][/$]
--       uuid: 50650fe5-887f-4b2c-a138-d651bcdb725d
-        guid: GB!@#{zA==
+-       guid: GB!@#{zA==
         front: Konstrukce [$]k[/$]-univerzálního hashování
         back: |
                 [$]p\\in P, x\\in \\Z_p,
@@ -958,14 +866,12 @@ notes:
                 [$]h_{a_0,\\ldots a_{k-1}}(x)=\\sum_{i=0}^{k-1} a_i x^i \\bmod p[/$]
                 <br>
                 [$]k[/$]-univerzální.
--       uuid: c2b4ae9f-c490-459c-84e9-314ca20ad298
-        guid: lpSCQXCKWB
+-       guid: lpSCQXCKWB
         front: Užitečnost Mersennových prvočísel
         back: |
                 Dá se jimi rychle modulit:
                 [$]y=(y \\& p) + (y \\gg a)(\\bmod p)[/$]
--       uuid: ee03f9d3-2e24-4b87-b30d-e1db4c34f915
-        guid: uqrpzi^&/=
+-       guid: uqrpzi^&/=
         front: Perfektní hashování
         back: |
                 Vem 2-univerzální hashovací systém.

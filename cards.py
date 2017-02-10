@@ -1,4 +1,3 @@
-import uuid
 import subprocess
 import fnmatch
 import os
@@ -9,14 +8,16 @@ def get_git_revision():
     return subprocess.check_output(['git', 'rev-parse', 'HEAD']).strip()
 
 class Note(object):
-    def __init__(self, origin_file, uuid, include_reverse,
+    def __init__(self, origin_file,
+                 include_reverse,
                  topic,
                  front, back,
                  git_revision,
-                 deck):
+                 deck,
+                 guid):
         self.deck = deck
         self.origin_file = origin_file
-        self.uuid = uuid
+        self.guid = guid
         self.include_reverse = include_reverse
         self.topic = topic
         self.front = front
@@ -25,7 +26,6 @@ class Note(object):
 
     def to_fields(self):
         return [
-            self.uuid,
             self.topic,
             self.front, self.back,
             'true' if self.include_reverse else '',
@@ -39,7 +39,7 @@ def load_all_notes():
     git_revision = get_git_revision()
     print 'git rev:', git_revision
 
-    uuids = set()
+    guids = set()
 
     my_notes = []
 
@@ -71,27 +71,20 @@ def load_all_notes():
                 print(path)
                 print("no note")
                 sys.exit(1)
-            if 'uuid' not in note_row:
+            if 'guid' not in note_row:
                 print(note_row)
-                print('No UUID')
+                print('No GUID')
                 sys.exit(1)
             if 'front' not in note_row or 'back' not in note_row:
                 print(note_row)
                 print('Missing front or back')
                 sys.exit(1)
 
-            note_uuid = note_row['uuid']
-            try:
-                uuid.UUID(note_uuid)
-            except ValueError:
-                print "Bad UUID", note_uuid, "in", path
-                raise
+            note_guid = note_row['guid']
             origin_file = unicode(path)
-            if note_uuid in uuids:
-                raise Exception("Duplicated UID:" + str(note_uuid))
-            uuids.add(note_uuid)
-            # print (origin_file, note_uuid)
-            # (front) (back) (add-reverse) (origin-file) (note_uuid) (git-revision)
+            if note_guid in guids:
+                raise Exception("Duplicated UID:" + str(note_guid))
+            guids.add(note_guid)
             if 'include_reverse' in note_row:
                 include_reverse = note_row['include_reverse']
             else:
@@ -102,10 +95,11 @@ def load_all_notes():
                 note_topic = note_row['topic']
 
             if 'front' not in note_row:
-                raise Exception('No front: ' + note_uuid)
+                raise Exception('No front: ' + note_guid)
 
             front = unicode(note_row['front'])
             back = unicode(note_row['back'])
+            guid = note_row['guid']
 
             if ('markdown' not in note_row) or (note_row['markdown']):
                 front = markdown.markdown(unicode(note_row['front']))
@@ -113,7 +107,7 @@ def load_all_notes():
 
             my_notes.append(Note(
                 origin_file = origin_file,
-                uuid = note_uuid,
+                guid = note_guid,
                 include_reverse = include_reverse,
                 topic = note_topic,
                 front = front,

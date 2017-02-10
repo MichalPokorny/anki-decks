@@ -2,76 +2,61 @@ topic: Ruby gems
 deck: All::CS::Languages::Ruby::Gems
 uid_tag: cs/languages/ruby/gems
 notes:
--       uuid: 8cca1a5f-2cca-4780-8893-51fc4f1bfd42
-        guid: km@+Hn){<@
+-       guid: km@+Hn){<@
         front: Code duplication detector
         back: '`flay`'
         include_reverse: true
--       uuid: d679de6e-d843-4a77-ad14-7995d40af3e9
-        guid: Eg)z7~0xGA
+-       guid: Eg)z7~0xGA
         front: Fuzz tester
         back: '`heckle`'
         include_reverse: true
--       uuid: a2a940d3-2599-4a6c-87f0-aea0fd6d7c2c
-        guid: s}t&4v:7^!
+-       guid: s}t&4v:7^!
         front: Code complexity estimator
         back: '`flog`'
--       uuid: f613302b-0f8f-46bd-ba74-605cd2502ce2
-        guid: y-TWR_An9o
+-       guid: y-TWR_An9o
         front: English stemmer
         back: '`fast-stemmer`'
--       uuid: ccd58834-8054-4bb3-b9c3-b83f9b5f6e5f
-        guid: s6WA7IgC;~
+-       guid: s6WA7IgC;~
         back: Web automation
         front: '`mechanize`'
         include_reverse: true
--       uuid: f5ebb7a0-8375-4c08-ac28-e17b0850bf4c
-        guid: y5@l/l*]9r
+-       guid: y5@l/l*]9r
         front: '`capybara`'
         back: Web integration/acceptance tester
         include_reverse: true
--       uuid: 47ab2974-b46e-4c9d-964a-57043424c9ea
-        guid: f]y?s@*v%5
+-       guid: f]y?s@*v%5
         front: '`highline`'
         back: CLI interface builder
         include_reverse: true
--       uuid: 46dc8cbb-5390-4646-b36f-89d29bca1a40
-        guid: K-}SXzibjS
+-       guid: K-}SXzibjS
         front: Pretty-printer gems
         back: '`pp`, `ap`'
         include_reverse: true
--       uuid: 5a031d14-0c09-40f1-b888-ba65561ef6b0
-        guid: IRFMU%p7YP
+-       guid: IRFMU%p7YP
         front: '`grit`'
         back: Git library
         include_reverse: true
--       uuid: 5e9eb8b2-680f-41e4-858a-6f38c628d8cb
-        guid: P0lS0tC7y@
+-       guid: P0lS0tC7y@
         front: '`ribbit`'
         back: libgit2 bindings library
         include_reverse: true
--       uuid: 969336d7-201f-455e-a278-5cf3134cc37e
-        guid: zDx4d68V`8
+-       guid: zDx4d68V`8
         front: '`rspec`'
         back: Spec-driven testing
         include_reverse: true
--       uuid: 6eb74385-2d5e-441d-8591-994194033363
-        guid: A2`FC/[OSB
+-       guid: A2`FC/[OSB
         front: '`better_errors`'
         back: Better error screens for Rails
         include_reverse: true
--       uuid: f2a00d5d-68f7-4c19-8678-a730d16e8116
-        guid: M*LUrD)Pn,
+-       guid: M*LUrD)Pn,
         front: '`conductor`'
         back: Web console for Rails
         include_reverse: true
--       uuid: c3f80d5d-eb97-4473-a1ec-034e01235446
-        guid: g*}h/b+yF_
+-       guid: g*}h/b+yF_
         front: '`bullet`'
         back: (N+1)-query killer
         include_reverse: true
--       uuid: 27727456-7392-42cb-a127-a637dbe88bd4
-        guid: J;_38)NK^i
+-       guid: J;_38)NK^i
         front: '`faker`'
         back: Fake test data generator
         include_reverse: true

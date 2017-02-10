@@ -1,18 +1,15 @@
 deck: All::Switzerland
 topic: Switzerland
 notes:
--       uuid: d62ecb00-62f9-4e00-99db-e1ca07d41660
-        guid: wR&<a;l<$D
+-       guid: wR&<a;l<$D
         front: |
                 Number: Languages
         back: Four
--       uuid: c197d838-1609-478f-9ef1-9a03bde6544d
-        guid: qH5);z=4|X
+-       guid: qH5);z=4|X
         front: |
                 %: foreign population
         back: 20%
--       uuid: eefd2455-aacd-411d-bb27-89596841f601
-        guid: hA|$0o`MgX
+-       guid: hA|$0o`MgX
         front: |
                 What was Switzerland like in the middle of 20th
                 century? Contrast with today?
@@ -27,166 +24,133 @@ notes:
                 <li> Second lowest interest rate
                 <li> Lowest crime rate
                 </ul>
--       uuid: c33adc9f-e123-490c-b16b-0f398621d1b6
-        guid: F2bKw5YkuL
+-       guid: F2bKw5YkuL
         front: What's the population age like?
         back: |
                 Low birth rate, ageing population
--       uuid: 0eb022ca-988d-4ffa-a029-7f38e3376d72
-        guid: m%LTMZ>y`I
+-       guid: m%LTMZ>y`I
         front: What is the proportion of people in cities like, and what was it like
                 in the past?
         back: |
                 High; 100 years ago, Switzerland was mostly rural
--       uuid: 7b45b010-9746-4194-b0c0-a1290f68d12e
-        guid: y_9%e~rF7&
+-       guid: y_9%e~rF7&
         front: |
                 Division of communities by language
         back: German, French, Italian
--       uuid: 7c6fbebc-d1ab-418b-be50-f831a246d82e
-        guid: P02V}iJH`H
+-       guid: P02V}iJH`H
         front: |
                 Number: Cantons
         back: 26
--       uuid: fd41fe4c-eef4-4052-b31d-3b037ec847c3
-        guid: D5Q%sU6VGM
+-       guid: D5Q%sU6VGM
         front: |
                 % Romansch speakers
         back: 1%
--       uuid: 170f0f57-5290-436a-a5b8-b2f26b88d06c
-        guid: E7C`_dYGO|
+-       guid: E7C`_dYGO|
         front: What's the small language of Switzerland?
         back: Romansch
--       uuid: fd67333d-1fd0-4564-8f94-0cd2a29fa6e1
-        guid: hBf|Wm*H]L
+-       guid: hBf|Wm*H]L
         front: |
                 Division of cantons by religion
         back: |
                 Protestant/Catholic majority
--       uuid: 3d38ba92-6fe8-4c5e-92f7-974ff0654a1d
-        guid: PhNRgHT85P
+-       guid: PhNRgHT85P
         front: Do most people rent, or own their homes?
         back: Rent
--       uuid: 6ae2e5a6-b52c-470e-a881-e95d44f937b5
-        guid: lKn=dKpx4|
+-       guid: lKn=dKpx4|
         front: How did the proportion of people employed in the service sector move
                 in the 20th century?
         back: |
                 39% &rarr; 73%
--       uuid: 2d2c41c7-4e93-4adb-a1e3-bf477ce22d26
-        guid: nam/lmjyRH
+-       guid: nam/lmjyRH
         front: Combined life expectancy
         back: 82 years
--       uuid: cf9f240b-2bdc-4a49-b111-e245c9bacfb5
-        guid: HBWQ+ydL?Y
+-       guid: HBWQ+ydL?Y
         front: Is Switzerland part of EU?
         back: No
--       uuid: fba6a9a7-63bb-4d29-bcf3-0957fba1b79e
-        guid: yc2I+_Yw[y
+-       guid: yc2I+_Yw[y
         front: Significant religious historical event? Results?
         back: |
                 Centre of Protestant Reformation, years of warfare
                 between Catholics and Protestants.
                 Religion is a private concern, rarely discussed
                 in public.
--       uuid: 43719fef-c92d-4b5f-b626-143b8906467a
-        guid: t>P}f@EF-x
+-       guid: t>P}f@EF-x
         front: |
                 Meaning of abbreviation: SA
         back: Société anonyme (corporation)
--       uuid: 556ad91f-410b-4b16-bcb4-05799d805986
-        guid: A1{r{T%F{<
+-       guid: A1{r{T%F{<
         front: |
                 Meaning of abbreviation: AG
         back: Aktiengesselschaft (corporation)
--       uuid: 30e606be-bfd8-430e-9174-9d7b80864bf6
-        guid: nE2r0Dg}NP
+-       guid: nE2r0Dg}NP
         front: |
                 Meaning of abbreviation: SARL
         back: Société a responsabilité limitée (limited liability company)
--       uuid: 71cbc5c2-2e5d-4d3f-affa-45cacc8f09ef
-        guid: B@iKsJrSO`
+-       guid: B@iKsJrSO`
         front: |
                 Meaning of abbreviation: GmbH
         back: Gesellschaft mit beschränkter Haftung (limited liability company)
--       uuid: ac5b4f42-f485-447e-a279-d9c4cc2987fa
-        guid: yk:+(9Nofe
+-       guid: yk:+(9Nofe
         front: Maximum paid-in capital of GmbH/SARL
         back: 2m CHF
--       uuid: e0a9d147-a4b4-4c55-83f7-3023d5d19c99
-        guid: w<7b,-s[Gg
+-       guid: w<7b,-s[Gg
         front: Percentage of Roman Catholics
         back: 38.2%
--       uuid: 92d2be3d-d26a-49d4-85d9-05ee93afd844
-        guid: N#muk_[cV=
+-       guid: N#muk_[cV=
         front: Percentage of Protestants
         back: 26.9%
--       uuid: 1a0111d0-c2a0-41d7-ba42-7442f78d5ca2
-        guid: e*P*p75%:;
+-       guid: e*P*p75%:;
         front: Percentage of atheists
         back: 21.4%
--       uuid: 6b5b5e11-c912-40ad-b65d-3e8878b44615
-        guid: AI(Wb0S]CI
+-       guid: AI(Wb0S]CI
         front: What is the legal foundation of the Confederation?
         back: The Federal Constitution
--       uuid: f50427ae-06f0-40b7-86e0-b088a2bbddb4
-        guid: iivg}>yo|<
+-       guid: iivg}>yo|<
         front: Where does the Federation have authority?
         back: |
                 Foreign and security policy,
                 country-wide legislation.
                 Everything not explicitly handled by the federation
                 is handled by cantons.
--       uuid: 295ba686-5822-4212-aa34-458cf114e366
-        guid: Qa%#h}skVK
+-       guid: Qa%#h}skVK
         front: Since when does Switzerland have 23 cantons?
         back: 1979
--       uuid: 65033991-9f08-4819-baa2-7f9a973b5a81
-        guid: O!dNzi(`RH
+-       guid: O!dNzi(`RH
         front: |
                 List: Cantons divided into half-cantons
         back: |
                 Unterwalden, Appenzell, Basel
--       uuid: 728410b8-4d11-4978-ac54-6a878dd89b96
-        guid: F;@X^?z$-}
+-       guid: F;@X^?z$-}
         front: Government structure of Cantons
         back: |
                 Each canton and half-canton has its own constitution,
                 parliament, government and courts.
--       uuid: d7304f7e-60d2-4bad-8f08-724906cf538b
-        guid: w,]kq<avl(
+-       guid: w,]kq<avl(
         front: |
                 Number: Members of cantonal parliaments
         back: 58 - 200
--       uuid: a84d4899-7c12-4084-be7f-3f66b65fc883
-        guid: m~CB<?:M@O
+-       guid: m~CB<?:M@O
         front: |
                 Number: Members of cantonal governments
         back: 5, 7, or 9
--       uuid: 909ccb0b-bbf5-4c16-a1b2-e6727ae59700
-        guid: smuB}5my|q
+-       guid: smuB}5my|q
         front: |
                 Number: French-speaking cantons
         back: 6
--       uuid: 7138cc44-2adb-421c-9089-a7b0d68e99ce
-        guid: E3MYj}6W5y
+-       guid: E3MYj}6W5y
         front: How many cantons are Italian-speaking? Which ones?
         back: Just one - Ticino
--       uuid: b201cfb6-ae19-4d3c-a01c-9cc61ab36a72
-        guid: ol0a8PK5?S
+-       guid: ol0a8PK5?S
         front: Which canton has a Romansch-speaking community?
         back: |
                 Graubünden (or Grisons), in the south east
--       uuid: 3b25a6e8-4bb5-4be7-b97c-92ddd168d2b1
-        guid: s`@{jn=QP*
+-       guid: s`@{jn=QP*
         front: How many chambers does the Federal Assembly have?
         back: 2
--       uuid: 3b828b68-9136-49cd-bb57-643c67bc9a17
-        guid: IfYkeFA*@>
+-       guid: IfYkeFA*@>
         front: How many communes does Switzerland have?
         back: Over 3,000
--       uuid: a9493559-85d8-4302-938a-f8595ad92760
-        guid: KD]55TjX*C
+-       guid: KD]55TjX*C
         front: The 26 cantons
         back: |
                 Aargau, Appenzell Ausser-Rhoden, Appenzell Inner-Rhoden,
@@ -194,43 +158,35 @@ notes:
                 Glarus, Graubunden, Jura, Luzern, Neuchatel, Nidwalden,
                 Obwalden, Sankt Gallen, Schaffhausen, Schwyz, Solothurn,
                 Thurgau, Ticino, Uri, Valais, Vaud, Zug, Zurich
--       uuid: 4a5f433a-a987-40b3-824e-aeee92bc123b
-        guid: jd@+|y,/;S
+-       guid: jd@+|y,/;S
         front: Which body is the executive branch of the federation?
         back: The Federal Council
--       uuid: 69585afe-8c3d-47dc-882d-79d88d672c20
-        guid: P9|PeGRzrt
+-       guid: P9|PeGRzrt
         front: |
                 Number: Federal Councillors
         back: 7
--       uuid: c0870498-0c0a-4f0c-81c2-1d788fb9bca0
-        guid: rTy`$2]CCF
+-       guid: rTy`$2]CCF
         front: |
                 Interval: election of Federal Councillors
         back: Every 4 years
--       uuid: a97dd147-defc-4071-9b18-5c8e614a59be
-        guid: H1R}>G$~9D
+-       guid: H1R}>G$~9D
         front: How do Federal Councillors share responsibility?
         back: |
                 They aren't MPs. They share collegiate responsibility.
--       uuid: 69712b00-423a-4e8e-9bfa-00b77f438106
-        guid: xt7hq[_448
+-       guid: xt7hq[_448
         front: Which senior civil servants have ministerial responsibilities?
         back: |
                 'State Secretaries'
--       uuid: 447bbe52-d20e-4220-bd92-dbdc76af3306
-        guid: QZ(#<|a/4@
+-       guid: QZ(#<|a/4@
         front: How is the Chairmanship picked?
         back: |
                 Rotated every year, holder is President of
                 the Confederation
--       uuid: 3a907fc4-1ee6-4e69-a177-ba4d3271151e
-        guid: F3=VZLmsP)
+-       guid: F3=VZLmsP)
         front: Swiss president, when does the term end
         back: |
                 Doris Leuthard; Jan 1 2018
--       uuid: f6d047f4-ef58-4a6e-bdab-03668ef3eca1
-        guid: FFCg7m4laP
+-       guid: FFCg7m4laP
         front: Swiss export revenues
         back: |
                 Over 1/2: mechanical/electrical engineering, chemicals
@@ -239,328 +195,266 @@ notes:
                 paper/printing machinery, blanking tools for metalworking,
                 elevators and escalators, packaging equipment,
                 rack-and-pinion railways; consultancy, insurance, tourism
--       uuid: ffb69589-1e11-43d3-9fba-d443c4140166
-        guid: b]P^KvWxwT
+-       guid: b]P^KvWxwT
         front: Biggest trading partners
         back: Germany, then France, Italy and UK
--       uuid: deb50b74-3581-4c7d-86f0-d74d8756def2
-        guid: eE)5&LbMO9
+-       guid: eE)5&LbMO9
         front: |
                 % of exports to EU countries (2000)
         back: 38%
--       uuid: a41c857b-7d50-4b7c-be85-c50defcf9675
-        guid: o(kP?Zq)~S
+-       guid: o(kP?Zq)~S
         front: |
                 % of imports from EU countries (2000)
         back: 51%
--       uuid: 4ac152e8-1b75-45ca-8074-816ab2e5594d
-        guid: DkYfFD+fa5
+-       guid: DkYfFD+fa5
         front: Swiss GDP (2015)
         back: $482.3 billion
--       uuid: f2d19a76-6a62-4a7c-9bc4-6ed9958b278b
-        guid: MO]|@r@Z=p
+-       guid: MO]|@r@Z=p
         front: GDP real growth rate (2015)
         back: 0.9%
--       uuid: 72085b94-875d-4ac0-9ad6-c8f9d07c71f2
-        guid: H+Ug1iG%96
+-       guid: H+Ug1iG%96
         front: Unemployment rate (2015)
         back: 3.3%
--       uuid: 7b5c4b0d-3840-4e13-a45e-918319b20206
-        guid: P{`$2qLzB_
+-       guid: P{`$2qLzB_
         front: Division of courts
         back: Civil, criminal, administrative
--       uuid: 80ef632e-e48b-43f3-b720-4d52ef92c043
-        guid: AL*ph{=U=]
+-       guid: AL*ph{=U=]
         front: Court of last resort
         back: |
                 Swiss Federal Supreme Court in Lausanne
--       uuid: e3fc3c8a-7c8c-4df8-b1c4-7503a111cb14
-        guid: gtA9Z&:;j|
+-       guid: gtA9Z&:;j|
         front: Are there lower federal courts than the Supreme one?
         back: No
--       uuid: a0235c3c-cbb1-41a6-b0e2-c3e861a3a292
-        guid: cpGr/fn36H
+-       guid: cpGr/fn36H
         front: Population density
         markdown: true
         back: |
                 [$]200\ \mathrm{people}/\mathrm{km}^2[/$] (dense)
--       uuid: 88e4e8bd-af16-4ce4-b286-a3d0ddef0be5
-        guid: j+zfEk1B$I
+-       guid: j+zfEk1B$I
         front: Capital city
         back: Bern
--       uuid: e9a7a7e1-3ba4-4bbc-b947-ccc3eb1d539f
-        guid: pE:5!^#zTi
+-       guid: pE:5!^#zTi
         front: Total land area
         back: 41,290 sq km
--       uuid: eb9e17e5-b1d8-4078-bd9c-c9cfecdf41d0
-        guid: PjR|/-PilY
+-       guid: PjR|/-PilY
         front: Bordering countries
         back: Austria, France, Italy, Liechtenstein, Germany
--       uuid: 9ff6eebd-d020-4b77-a8ac-6dad86b09134
-        guid: o7eL2XQZ(m
+-       guid: o7eL2XQZ(m
         front: Which display wealth more readily - catholics or protestants?
         back: Catholics (these areas were poor ~50 years ago).
--       uuid: 1adad615-c508-449c-aa18-d5677f0ca98b
-        guid: fX;A%/?@r-
+-       guid: fX;A%/?@r-
         front: |
                 % German speakers
         back: 63.5%
--       uuid: 021c43c0-87d9-4a45-af75-eb926d79350c
-        guid: s|$_t:!wrX
+-       guid: s|$_t:!wrX
         front: |
                 % French speakers
         back: 22.5%
--       uuid: 4270c637-077a-4922-a225-97b67c571517
-        guid: uRzioNOptZ
+-       guid: uRzioNOptZ
         front: |
                 % Italian speakers
         back: 8.1%
--       uuid: ad741b47-f3d8-4649-bddc-a3c4a3e16d5a
-        guid: LNrB4U%2>u
+-       guid: LNrB4U%2>u
         front: |
                 % English speakers
         back: 4.4%
--       uuid: 4703b86a-c980-44eb-b919-96042aecff9d
-        guid: 'rcA>/UPJf:'
+-       guid: 'rcA>/UPJf:'
         front: Language of the two major business centres, which are they?
         back: Zürich and Basel; German
--       uuid: 48b940c0-9ad1-4fe7-ba5b-bdf9e0584320
-        guid: An_qJ/-vZ,
+-       guid: An_qJ/-vZ,
         front: German for "Swiss German"
         back: Schwyzerdütsch
--       uuid: af10d46a-8c4c-4170-a173-35e53a66219b
-        guid: bPEe|Iq|l2
+-       guid: bPEe|Iq|l2
         front: German for "standard German"
         back: Hochdeutsch
--       uuid: 45efd497-ec67-4399-9367-c0551efd3b81
-        guid: d6ykhI05|.
+-       guid: d6ykhI05|.
         front: How close is Romansch to Latin?
         back: It's the closest living offspring
--       uuid: 879ca75b-58ec-4104-9582-9d499f1beef3
-        guid: do*r_=&z^L
+-       guid: do*r_=&z^L
         topic: Phrases - German
         front: Switzerland
         back: Schweiz
         include_reverse: true
--       uuid: 47587a59-6887-44a2-bb44-1eff483af99e
-        guid: c]ofV,b[{Y
+-       guid: c]ofV,b[{Y
         topic: Phrases - German
         front: Hi
         back: Grüezi
         include_reverse: true
--       uuid: ed96a98f-19cf-4d67-a462-47e029d1144f
-        guid: CA[^W[c?=O
+-       guid: CA[^W[c?=O
         topic: Phrases - German
         front: Good morning
         back: Guten morgen
         include_reverse: true
--       uuid: 7e279c70-055d-4ce9-be74-50cd4bbcc0cc
-        guid: NC.3s0<-0C
+-       guid: NC.3s0<-0C
         topic: Phrases - German
         include_reverse: true
         front: Good evening
         back: Guten abend
--       uuid: 4bd14389-a281-4458-99f4-3d626972ab71
-        guid: vl?lp0c9U6
+-       guid: vl?lp0c9U6
         topic: Phrases - German
         include_reverse: true
         front: Good night
         back: Gute nacht
--       uuid: da6f9420-aca6-46ed-86af-f978534a6040
-        guid: A(v|sSS0r]
+-       guid: A(v|sSS0r]
         topic: Phrases - German
         include_reverse: true
         front: Good bye
         back: Auf wiedersehen / Tschüss
--       uuid: 6f9fb370-05d4-42cc-90ec-35494dacd1e9
-        guid: yrmvM{mL6M
+-       guid: yrmvM{mL6M
         topic: Phrases - German
         include_reverse: true
         front: Thanks
         back: Danke
--       uuid: c1b91dfe-e6ef-498e-8946-a8a2aacbbfcb
-        guid: Oo4Ge1+3#u
+-       guid: Oo4Ge1+3#u
         topic: Phrases - German
         include_reverse: true
         front: What's your name?
         back: Wie ist ihr name? / Wie heissen Sie?
--       uuid: f96a02a6-7dfb-4ab8-921d-daecf044c9f7
-        guid: 'K5[,Fhg5+:'
+-       guid: 'K5[,Fhg5+:'
         topic: Phrases - German
         include_reverse: true
         front: My name is ...
         back: Mein name ist... / Ich heisse ...
--       uuid: cb4eefac-abe7-4504-9d75-2d1f93e808f4
-        guid: zN=^PCueME
+-       guid: zN=^PCueME
         topic: Phrases - German
         include_reverse: true
         front: Wine
         back: der Wein
--       uuid: 33898ee8-704e-45bd-9a4a-e0b21f93ffe5
-        guid: o,]o1nqTCQ
+-       guid: o,]o1nqTCQ
         topic: Phrases - French
         include_reverse: true
         front: Switzerland
         back: Suisse
--       uuid: ac54bd20-3f3a-4621-bea5-04c5dc8fe517
-        guid: dBx]3>OzCR
+-       guid: dBx]3>OzCR
         topic: Phrases - French
         include_reverse: true
         front: Hi
         back: Salut
--       uuid: 4fd17066-d0c8-4b16-9640-c2716aa0d3af
-        guid: w/hLKT~.o*
+-       guid: w/hLKT~.o*
         topic: Phrases - French
         include_reverse: true
         front: Good morning
         back: Bonjour
--       uuid: c0bf61a0-878a-4ed3-9459-71e338599c01
-        guid: ioNTe3KS1t
+-       guid: ioNTe3KS1t
         topic: Phrases - French
         include_reverse: true
         front: Good evening
         back: Bonsoir
--       uuid: df045aef-c689-4dc0-806e-fbf036c09711
-        guid: cpNl;oe&Fq
+-       guid: cpNl;oe&Fq
         include_reverse: true
         topic: Phrases - French
         front: Good night
         back: Bon nuit
--       uuid: 4cf495cd-a136-47c9-b906-5f5ceed124c5
-        guid: sIyvlY$111
+-       guid: sIyvlY$111
         topic: Phrases - French
         include_reverse: true
         front: Good bye
         back: Au revoir
--       uuid: 66ac0814-9baa-45d3-938f-cdd3723c2c18
-        guid: QILdSj+VQ5
+-       guid: QILdSj+VQ5
         topic: Phrases - French
         include_reverse: true
         front: Thanks
         back: Merci
--       uuid: 7fd50b92-2d58-4f24-9458-3e99d026a54d
-        guid: wOVHZg9Tpx
+-       guid: wOVHZg9Tpx
         topic: Phrases - French
         include_reverse: true
         front: What's your name?
         back: Quel est votre nom? / Comment vous appelez-vous?
--       uuid: 583732fb-52e3-4d0e-a202-f809f32151f7
-        guid: bLyf=0Jl_j
+-       guid: bLyf=0Jl_j
         topic: Phrases - French
         include_reverse: true
         front: My name is...
         back: Mon nom est ... / Je m'appelle ...
--       uuid: c4b461cb-6d21-4701-a599-e7b75a3a502a
-        guid: D0PT%FI/|g
+-       guid: D0PT%FI/|g
         topic: Phrases - French
         include_reverse: true
         front: Wine
         back: Le vin
--       uuid: 7302edc8-6112-4816-a742-76bf77f06166
-        guid: o;(j~U=`Km
+-       guid: o;(j~U=`Km
         topic: Phrases - Italian
         include_reverse: true
         front: Switzerland
         back: Svizzera
--       uuid: fbf74ab8-233f-4233-9899-13e3f0edfc8c
-        guid: ghCxm=4(&9
+-       guid: ghCxm=4(&9
         topic: Phrases - Italian
         include_reverse: true
         front: Hi
         back: Ciao
--       uuid: 58dce206-0ee6-4ad5-ae06-7d8912598257
-        guid: hF:g^fclJ#
+-       guid: hF:g^fclJ#
         topic: Phrases - Italian
         include_reverse: true
         front: Good morning
         back: Buongiorno
--       uuid: 8cb24888-c465-4b77-9cf9-425c7c20b42c
-        guid: GRfen.g_BR
+-       guid: GRfen.g_BR
         topic: Phrases - Italian
         include_reverse: true
         front: Good evening
         back: Buona sera
--       uuid: 3de1ef6f-ee05-4f3a-94fa-0f23dd996c3a
-        guid: O}1fGj(SWn
+-       guid: O}1fGj(SWn
         topic: Phrases - Italian
         include_reverse: true
         front: Good night
         back: Buona notte
--       uuid: 08a1ea17-fccb-4a16-83d0-7d5007e74cd4
-        guid: Ot%.Y:W~aL
+-       guid: Ot%.Y:W~aL
         topic: Phrases - Italian
         include_reverse: true
         front: Good bye
         back: Arrivederci
--       uuid: 86deee7a-1059-4180-9d11-e79f74de9c14
-        guid: x.-)geOVY8
+-       guid: x.-)geOVY8
         topic: Phrases - Italian
         include_reverse: true
         front: Thanks
         back: Grazie
--       uuid: e4fd920a-57d6-46b2-9250-5e02f924a517
-        guid: y5;H>_qx5b
+-       guid: y5;H>_qx5b
         topic: Phrases - Italian
         include_reverse: true
         front: What's your name?
         back: Come si chiama?
--       uuid: d2c40713-161e-413b-8886-a634284d32be
-        guid: J*Zph3ieam
+-       guid: J*Zph3ieam
         topic: Phrases - Italian
         include_reverse: true
         front: My name is...
         back: Mi chiamo ...
--       uuid: 9500ea76-ed1a-4b04-b4a6-3244433e0384
-        guid: xtV<gGA|+F
+-       guid: xtV<gGA|+F
         topic: Phrases - Italian
         include_reverse: true
         front: Wine
         back: Il vino
--       uuid: 0b1ee78e-8e4d-48bc-9a5f-79e386ec7834
-        guid: ko<;_8z9J,
+-       guid: ko<;_8z9J,
         front: |
                 Length: Longest rail tunnel in the world
         back: 57 km
--       uuid: d2ff5790-0cd3-4776-a58d-3bb8f0b47b03
-        guid: QuFyBHKzz.
+-       guid: QuFyBHKzz.
         front: |
                 Duration: Construction of the longest rail tunnel
         back: 17 years
--       uuid: b3c23592-bd31-4ffe-b4be-8d9641c8d6d4
-        guid: giA)2=:AOS
+-       guid: giA)2=:AOS
         front: What does the longest rail tunnel link? What's its name?
         back: |
                 Northern and southern Europe,.under the Swiss Alps<br><br>
                 Gotthard Base Tunnel
--       uuid: a09756c7-c6a2-4f42-b8c6-0c63db929fdf
-        guid: e3XTZIa,e,
+-       guid: e3XTZIa,e,
         front: What does the CH in CHF stand for?
         back: Latin name of the country - Confederation Helvetica
--       uuid: 84b9a250-6651-4770-808a-d4682364a686
-        guid: h5E>{1lhp@
+-       guid: h5E>{1lhp@
         front: Division of frank
         back: |
                 100 centimes
--       uuid: bee20e91-01e8-4217-a675-69af453861a1
-        guid: lz>Txs=y2)
+-       guid: lz>Txs=y2)
         front: Note denominations
         back: |
                 10, 20, 50, 100, 200, 500, 1000 CHF
--       uuid: bd6fe8ce-afde-4006-a55b-6042240a422d
-        guid: BK_4~1Ktyq
+-       guid: BK_4~1Ktyq
         front: Coin denominations
         back: |
                 50 centimes, 1, 2, 5 CHF
--       uuid: 3133dab8-878b-4fd1-9023-e167a3285261
-        guid: NtI`!wyS$0
+-       guid: NtI`!wyS$0
         front: Tipping policy
         back: Only if you had outstanding service
--       uuid: 589a9416-e27b-4603-948f-6bee9ec59e4d
-        guid: r}2xjK%9gr
+-       guid: r}2xjK%9gr
         front: Customary tip amount
         back: 10% for meals
--       uuid: af04fbbe-824a-40d1-8cb1-df842f5cb8be
-        guid: KD#{Q@RfQ2
+-       guid: KD#{Q@RfQ2
         front: How to make a good impression?
         back: |
                 Be honest, straightforward, serious, logical.
@@ -568,139 +462,111 @@ notes:
                 Show up on time.
                 Show respect for the formal way Swiss address one another
                 (Mr., Dr., etc. until invited to use first names)
--       uuid: 6a6b0917-cb29-4076-b3ac-11e6693f90ff
-        guid: Lr%TMde[EF
+-       guid: Lr%TMde[EF
         front: Social norm on personal questions
         back: |
                 Age, income, family circumstances etc. are taboo.
                 Don't ask too many personal questions.
--       uuid: 56a54203-4ca0-4dcc-a7cc-a2e7de99c7bf
-        guid: iEn{t9/VK6
+-       guid: iEn{t9/VK6
         front: General office hours
         back: 7:30 AM - 5:30 PM, Monday to Friday, with break between noon and 2 PM
--       uuid: 5a3775ba-e3eb-41ce-b5be-3d47fbeb6afc
-        guid: zt:X6RTdq?
+-       guid: zt:X6RTdq?
         front: Common time for annual vacation
         back: July and August
--       uuid: f194e605-a610-4018-9369-5b45ce501fd3
-        guid: OC4MVZ5m.i
+-       guid: OC4MVZ5m.i
         front: Forms of address
         back: Mr. / Dr. / Frau / Madame
--       uuid: cffcda70-5408-4c83-95ef-1facdfff11be
-        guid: zlsQq}i+xf
+-       guid: zlsQq}i+xf
         front: Swiss German colloquial hello
         back: Grüetzi
--       uuid: 78a4319c-f0ae-4c88-8601-ae8bd228b58f
-        guid: CXE;(/%1{M
+-       guid: CXE;(/%1{M
         front: Kissing in French part of Switzerland
         back: 3-4 times on the cheek
--       uuid: c2b3cfdb-100d-4ac9-b695-3158458b4875
-        guid: s{D7_7>N7e
+-       guid: s{D7_7>N7e
         front: Meaning of 'aktuell'
         back: Current
--       uuid: 8490c32c-1cdc-4af1-b3f8-313f09c1f01e
-        guid: k9PP!E=ufp
+-       guid: k9PP!E=ufp
         front: Meaning of 'eventuell'
         back: Possibly
--       uuid: f832232b-4af7-4e4c-97eb-16dabf8c0653
-        guid: vl~;6b1P&E
+-       guid: vl~;6b1P&E
         front: Meaning of 'seriös'
         back: Reputable
--       uuid: 9ad2b0ef-6260-4dd1-83ab-e4f73c5e0823
-        guid: t8K@C!HQjF
+-       guid: t8K@C!HQjF
         front: Taboo topics
         back: |
                 Swiss neutrality, role during both world wars,
                 women's rights
         include_reverse: true
--       uuid: 65cf0571-2320-41a8-9254-2e85d7d0043a
-        guid: rd}sd%@8Ru
+-       guid: rd}sd%@8Ru
         front: Swiss wine
         back: Not exported
--       uuid: 93ba154f-694c-471b-9ff0-93a7d0f42406
-        guid: z~Uc}=}vAJ
+-       guid: z~Uc}=}vAJ
         front: German toast
         back: Prost
--       uuid: 4b7740a9-f826-4987-aa89-10297886a45c
-        guid: i.oOsIs?@t
+-       guid: i.oOsIs?@t
         front: French toast
         back: A votre sante
--       uuid: cf8faaf9-e04f-4b6b-bc89-fa974b7dd5b0
-        guid: Gu-WE&uW4s
+-       guid: Gu-WE&uW4s
         front: Main ingredients of Swiss cuisine
         back: Meat, fish (around Geneva and Zurich), cheese
--       uuid: dba7ec28-e45f-4241-9ebd-ba29708e4465
-        guid: jNo}IWG[=$
+-       guid: jNo}IWG[=$
         front: Fondue etiquette
         back: Don't eat straight off your fondue fork
--       uuid: da309401-3a20-46d3-9bc2-9bbc2cc662ab
-        guid: LtZNnoLmbs
+-       guid: LtZNnoLmbs
         front: Decision style
         back: |
                 Concensus (referendums, debates, detailed exchanges);
                 affected people always consulted beforehand;
                 decisions made are not changed
--       uuid: 02a0848e-4fd0-4792-9c06-b7cea2e47a1e
-        guid: e>bxzC*+6z
+-       guid: e>bxzC*+6z
         front: Length of compulsory military service
         back: |
                 90 days initially, 19 days every 2 years until the age
                 of 42
--       uuid: 9e9ccad2-4442-4d55-a837-7001c937bf87
-        guid: Q=K(cFOjO)
+-       guid: Q=K(cFOjO)
         front: Delivering feedback
         back: |
                 Allow the other person to save face while spelling out
                 the facts.
                 Give it one-on-one.
--       uuid: 60a2fc68-9e11-43cc-817b-2bc2f30911b0
-        guid: AyQ@rSJ%!t
+-       guid: AyQ@rSJ%!t
         front: Minimum wage
         back: There is no statutory minimum wage
--       uuid: cdcfd5ea-4993-4064-a993-cf2c015378f5
-        guid: x*AX:|3JJb
+-       guid: x*AX:|3JJb
         front: Percentage of full-time workers in unions
         back: ~25%
--       uuid: d176a9fa-2ed7-43bc-bdea-fa45dd36f67d
-        guid: j=?(tDefi/
+-       guid: j=?(tDefi/
         front: In negotiations, the Swiss have a reputation for ... without ...
         back: |
                 getting the best deal out of opponents without
                 appearing aggressive or demanding
--       uuid: 574dda9d-c6b6-40c8-94b3-0636c6462e9b
-        guid: o3v<M?ZnM8
+-       guid: o3v<M?ZnM8
         front: Capital
         back: Bern
--       uuid: ed248881-5d0d-4474-8bd2-93d7792d98d3
-        guid: j,{_52)-Z$
+-       guid: j,{_52)-Z$
         front: GDP per capita
         back: $59 540
--       uuid: c7c2441b-6515-466a-874a-d853ae45e22e
-        guid: i%}Y;#uwJ~
+-       guid: i%}Y;#uwJ~
         front: In negotiations, you should avoid ...; instead, emphasize ... and stay
                 ...
         back: |
                 avoid pressurizing them in negotiations. Instead
                 emphasize the quality of your offer and stay calm and
                 consistent.
--       uuid: 8152bb3f-e01d-4423-bd71-3e7572bb44e0
-        guid: n}%_*WDSP@
+-       guid: n}%_*WDSP@
         front: Allow your Swiss counterparts to ... - who ..., who ...
         back: |
                 Allow your Swiss counterparts to put you in context -
                 who you've worked with in the past, who you know in
                 Switzerland.
--       uuid: 5f7c339b-f38c-4f23-9580-cbf87283699a
-        guid: QPGH),Re#>
+-       guid: QPGH),Re#>
         front: Be very respectful of Swiss adherence ...
         back: '... to rules and regulations. Never attempt to circumvent them.'
--       uuid: 54795e30-dad9-40d7-938b-dfab565bf9c6
-        guid: EJkmw>]0dA
+-       guid: EJkmw>]0dA
         front: '... and ... are important virtues and ... is equated with ...'
         back: |
                 Modesty and humility are important virtues and clarity
                 is equated with sincerity.
--       uuid: c3b8f524-7ff5-41d0-8b24-09cf91199c44
-        guid: L_b`p#hb~y
+-       guid: L_b`p#hb~y
         front: The Swiss strive hard to avoid ... and ...
         back: open disagreements and conflict

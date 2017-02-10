@@ -2,40 +2,34 @@ deck: All::Magisterské státnice::Reprezentace znalostí::Výroková a prediká
         3
 notes:
         # VPL03
-        -       uuid: 55dd42d4-a5aa-4115-9ef2-c9b02cd48f5a
-                guid: J],yun5Kcx
+        -       guid: J],yun5Kcx
                 topic: Výroková logika
                 front: Důsledek výrokové teorie - značení, definice
                 back: |
                         [$]\\Theta^{\\mathbb{P}}(T)[/$] je množina pravdivých výroků:
                         <br>
                         [$$]\\{\\varphi\\in VF_{\\mathbb{P} } | T\\vDash \\varphi\\}[/$$]
-        -       uuid: ee08dd5a-636f-438c-9493-4fdad59f4e94
-                guid: s8wM]Dq&9M
+        -       guid: s8wM]Dq&9M
                 topic: Výroková logika
                 front: Výrokové teorie a uzavřenost
                 back: |
                         [$]T\\subseteq \\Theta^{\\mathbb{P} }(T) = \\Theta^{\\mathbb{P} }(\\Theta^{\\mathbb{P} }(T))[/$]<br>
 
                         Když [$]T\\subseteq T'[/$], tak [$]\\Theta^{\\mathbb{P} }(T)\\subseteq \\Theta^{\\mathbb{P} }(T')[/$]
-        -       uuid: eb3e8359-a566-418d-b318-9978b71660cb
-                guid: kH2J&WB;=t
+        -       guid: kH2J&WB;=t
                 front: Kdy je [$]\\varphi\\in\\Theta^{\\mathbb{P} }(\\{\\varphi_1,\\varphi_2,\\ldots\\})[/$]?
                 back: |
                         Právě když
                         [$]\\vDash(\\varphi_1\\wedge\\ldots\\wedge\\varphi_n)\\rightarrow\\varphi[/$]
-        -       uuid: 2e159e6a-d88a-4fd5-bb91-672b58bf1316
-                guid: 's^/S[OFzO:'
+        -       guid: 's^/S[OFzO:'
                 topic: Výroková logika
                 front: Kdy je teorie sporná, bezesporná?
                 back: Když v ní platí [$]\\perp[/$], jinak splnitelná/bezesporná.
-        -       uuid: 1fefd1f4-381f-4be6-8d7e-987d6047d26d
-                guid: Ozu,xe,-Fx
+        -       guid: Ozu,xe,-Fx
                 topic: Výroková logika
                 front: Kdy je teorie kompletní, v závislosti na výrocích?
                 back: Když v ní není žádný nezávislý výrok.
-        -       uuid: 538cee1e-0347-4653-866a-61e1e8c05890
-                guid: k,cWzkPxMi
+        -       guid: k,cWzkPxMi
                 topic: Výroková logika
                 front: Kdy je [$]T[/$] nad [$]P[/$] extenze teorie [$]T'[/$] nad [$]P'[/$]?
                         Jednoduchá extenze? Konzervativní? (V řeči důsledků teorie.)
@@ -45,21 +39,18 @@ notes:
                         Jednoduchá: [$]P=P'[/$]
 
                         Konzervativní: [$]\\Theta^{P'}(T')=\\Theta^{P}(T)\\cap VF_{P'}[/$]
-        -       uuid: c770a38b-29a2-4a92-a90d-abb595d0e825
-                guid: c]g1M6z:uJ
+        -       guid: c]g1M6z:uJ
                 front: Ekvivalentnost teorií a extenze
                 back: |
                         Teorie jsou ekvivalentní, právě když jsou navzájem extenze.
-        -       uuid: 36857dca-668a-422b-aa0d-cb852bf6c26d
-                guid: F`Q]:tn2,$
+        -       guid: F`Q]:tn2,$
                 front: Bezespornost, kompletnost, extenze, ekvivalentnost a modely
                 back: |
                         Bezespornost: má model<br>
                         Kompletnost: má jediný model<br>
                         Extenze [$]T'[/$]: [$]M^{P}(T)\\subseteq M^P(T')[/$]<br>
                         Ekvivalentní: stejné modely
-        -       uuid: d8d5d31a-a11b-45e8-8b38-3219cf2696da
-                guid: mf/&8oN3-^
+        -       guid: mf/&8oN3-^
                 front: Algebra výroků, jaký typ algebry to je
                 back: |
                         [$]AV^P(T)=<VF_P/\\sim_T, \\neg, \\wedge, \\vee, \\perp, T>[/$]:
@@ -69,73 +60,62 @@ notes:
                         Zadefinováno podle reprezentantů.<br>
 
                         Je to Booleova algebra izomorfní potenční algebře [$]P(M(T))[/$].
-        -       uuid: 6f4868a0-2045-4e90-9ccb-e237f82bd3f2
-                guid: Qx|)8I(9m@
+        -       guid: Qx|)8I(9m@
                 front: |
                         Počet:
                         Neekvivalentní výroky nad [$]P[/$]
                 back: |
                         [$]2^{2^n}[/$], kde [$]n=|P|[/$]
-        -       uuid: 03f49979-0d87-498a-967f-d563eb83f167
-                guid: z]kirpGG2Z
+        -       guid: z]kirpGG2Z
                 front: |
                         Počet:
                         Neekvivalentní výroky nad [$]P[/$] pravdivé(lživé) v teorii [$]T[/$]
                 back: |
                         [$]2^{2^n - m}[/$], kde [$]n=|P|[/$], [$]m=|M^{P}(T)|[/$]
-        -       uuid: cd79a445-2b3f-46c5-af20-f688d39f5a76
-                guid: u>),:P[_6x
+        -       guid: u>),:P[_6x
                 front: |
                         Počet:
                         Neekvivalentní výroky nad [$]P[/$] nezávislých na teorii [$]T[/$]
                 back: |
                         [$]2^{2^n} - 2 \\cdot 2^{2^n-m}[/$]
-        -       uuid: c138f10e-9922-4786-a668-e7affab36529
-                guid: jT]4S+X>nh
+        -       guid: jT]4S+X>nh
                 front: |
                         Počet:
                         Neekvivalentní jednoduché extenzí teorie [$]T[/$]
                 back: |
                         [$]2^m[/$], kde [$]m=|M^P(T)|[/$]
-        -       uuid: c55141d4-8b57-42fa-80e5-8da3bdcd3f81
-                guid: NfQ~3X<?IL
+        -       guid: NfQ~3X<?IL
                 front: |
                         Počet: Neekvivalentní kompletní jednoduché extenzí teorie [$]T[/$]
                 back: |
                         [$]m[/$], kde [$]m=|M^P(T)|[/$]
-        -       uuid: 847e2756-23c3-4000-b718-466407a716f9
-                guid: b?7c(g9{~|
+        -       guid: b?7c(g9{~|
                 front: |
                         Počet: [$]T[/$]-neekvivalentní výroky nad [$]P[/$]
                 back: |
                         [$]2^m[/$], kde [$]m=|M^P(T)|[/$]
-        -       uuid: 8bd25630-4c07-4715-b3d6-ddbbe6646c8d
-                guid: CreDL@+0pw
+        -       guid: CreDL@+0pw
                 topic: Výroková logika
                 front: |
                         Počet: [$]T[/$]-neekvivalentní výroky co jsou v [$]T[/$] pravdivé(lživé)
                 back: 1
-        -       uuid: 17ac32d5-2a7d-47a2-8813-be73dd86c2fe
-                guid: d4i;6Q~OrR
+        -       guid: d4i;6Q~OrR
                 topic: Výroková logika
                 front: |
                         Počet: [$]T[/$]-neekvivalentní výroky nad [$]P[/$] nezávislé v [$]T[/$]
                 back: |
                         [$]2^m-2[/$], kde [$]m[/$] je počet modelů [$]T[/$]
-        -       uuid: a83fa4e0-d8d8-4610-ac30-43f61b16fe0e
-                guid: sVCdgt7ZbK
+        -       guid: sVCdgt7ZbK
                 front: |
                         Značení: [$]\\varphi[/$] je dokazatelná z [$]T[/$]?
                 back: |
                         [$]T\\vdash\\varphi[/$]
-        -       uuid: 4d36b776-53d6-4de6-9296-8a8b2d7796c8
-                guid: q17Gf={hgD
+        -       guid: q17Gf={hgD
                 topic: Výroková logika
                 front: Tablo metoda - předpoklady
                 back: |
                         Jazyk je pevný a nejvýše spočetný, tedy taky nejvýše spočetné teorie.
-        -       uuid: 59196e8c-7002-43d3-b792-8d03c3b10945
-                guid: l3Wd5|O9a*
+        -       guid: l3Wd5|O9a*
                 topic: Výroková logika
                 front: Tablo metody - neformálně, co to je tablo, jak vypadá důkaz,
                         jak bude vypadat protipříklad
@@ -145,22 +125,19 @@ notes:
                         Formule má důkaz, pokud každá větev tabla selže, v tom případě bude (systematické) tablo konečné.
                         <br>
                         Pokud existuje protipříklad, bude v tablu větev co ho poskytne; možná nekonečná.
-        -       uuid: db2135ef-5703-46a3-8800-a8f8e2766fdc
-                guid: Rd/mKC_0;#
+        -       guid: Rd/mKC_0;#
                 topic: Výroková logika
                 front: Atomická tabla, konečná tabla.
                 back: |
                         Rozvine nějakou formuli, co je true/false, na možnosti, jak může být true/false.<br>
 
                         Konečné tablo vznikne připojením atomického tabla na konec větve jiného tabla.
-        -       uuid: b99f938e-5c93-4cfe-b6fe-b8dbe413fd04
-                guid: b*;)I^T@9/
+        -       guid: b*;)I^T@9/
                 topic: Výroková logika
                 front: Co je to, formálně, *tablo*?
                 back: Tablo je posloupnost konečných tabel, co vznikají postupným
                         přidáváním atomických tabel z předchozího.
-        -       uuid: 929f4e0e-d098-466b-91f1-0c30f427ad65
-                guid: yd]uQXe(;Z
+        -       guid: yd]uQXe(;Z
                 topic: Výroková logika
                 front: Systematická tabla, tablo důkaz, vyvrácení
                 back: |
@@ -175,8 +152,7 @@ notes:
                         Tablo důkaz: sporné tablo s kořenem [$]F\\varphi[/$], potom [$]\\vdash\\varphi[/$].<br>
 
                         Vyvrácení: sporné s kořenem [$]T\\varphi[/$], potom [$]\\vdash\\neg\\varphi[/$]
-        -       uuid: 2dbbe3d0-a408-4de5-b2a6-b263ea1c3fe9
-                guid: Ctj`6YN>SL
+        -       guid: Ctj`6YN>SL
                 topic: Výroková logika
                 front: Tablo z teorie
                 back: |

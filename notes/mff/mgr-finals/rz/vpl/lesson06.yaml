@@ -2,8 +2,7 @@ deck: All::Magisterské státnice::Reprezentace znalostí::Výroková a prediká
         6
 notes:
         # VPL06
-        -       uuid: 69795a03-adcf-4807-a029-1e44b541f3aa
-                guid: A!VfM1(hu4
+        -       guid: A!VfM1(hu4
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky
                 back: |
@@ -16,28 +15,24 @@ notes:
                         <li> Logické spojky
                         <li> Závorky
                         </ul>
-        -       uuid: 975ca80f-6978-450c-9d7c-34aef9c01d61
-                guid: kYuG_}~<Xx
+        -       guid: kYuG_}~<Xx
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky - logické symboly
                 back: |
                         Proměnné, kvantifikátory, spojky, závorky
-        -       uuid: 3c41be43-70a0-4de3-a64f-ed2fbb2fbf33
-                guid: bvJCo|k7Y<
+        -       guid: bvJCo|k7Y<
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky - mimologické symboly
                 back: |
                         Funkční a relační symboly (mimo rovnosti)
-        -       uuid: c9fc1b59-1345-492d-a0a5-062d717c2b49
-                guid: j/x&@p.aXZ
+        -       guid: j/x&@p.aXZ
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky - signatura
                 back: |
                         Dvojice disjunktních množin relačních,
                         funkčních symbolů. Určuje všechny mimologické symboly.
                         Určuje jazyk, s uvedením jestli má rovnost.
-        -       uuid: 23b26383-4ffc-4304-aa1f-134a3f7b9ef8
-                guid: OWzy.Zgito
+        -       guid: OWzy.Zgito
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky - term
                 back: |
@@ -47,23 +42,20 @@ notes:
                         Konstantní term: bez proměnných<br>
 
                         [$]\\mathrm{Term}_L[/$]<br>
-        -       uuid: fd065fa4-4615-4f4d-936b-ba6d9b69ae85
-                guid: NKC?IO&{R@
+        -       guid: NKC?IO&{R@
                 topic: Predikátová logika
                 front: Značení - atomická formule
                 back: |
                         [$]\\mathrm{AFm}_L[/$]
                         <br>
                         Aplikace relačního symbolu na termy.
-        -       uuid: ff8a816b-b627-4c3b-985b-da2c4f9915e5
-                guid: h.:ngDHhW-
+        -       guid: h.:ngDHhW-
                 topic: Predikátová logika
                 front: Definice - formule
                 back: |
                         Atomická formule, pak indukce nad spojkami,
                         přidání kvantifikátorů; [$]\\mathrm{Fm}_L[/$]
-        -       uuid: 2f29cdd6-054d-419c-bbf7-a3f898096b66
-                guid: Ns|dGrTT13
+        -       guid: Ns|dGrTT13
                 topic: Predikátová logika
                 front: Vázaný, volný výskyt proměnné
                 back: |
@@ -71,24 +63,20 @@ notes:
                         [$] (\e x)[/$].<br>
                         Volný výskyt je ten co není vázaný.
                         Proměnná může být volná i vázaná.
-        -       uuid: c15d88b8-3355-4d23-8863-10609edf0914
-                guid: m:^05t~uJ>
+        -       guid: m:^05t~uJ>
                 topic: Predikátová logika
                 front: Predikátová logika - otevřená formule
                 back: Neobsahuje žádný kvantifikátor
-        -       uuid: 35fed406-e6dd-43f6-a992-498882898efe
-                guid: mKHJoAU4!_
+        -       guid: mKHJoAU4!_
                 topic: Predikátová logika
                 front: Predikátová logika - uzavřená formule (sentence)
                 back: Všechny výskyty jsou vázané
-        -       uuid: f40b899d-6a4f-43db-b48c-add74adb0ba1
-                guid: J;ne5DO?Ur
+        -       guid: J;ne5DO?Ur
                 topic: Predikátová logika
                 front: Jaká formule je zároveň uzavřená a otevřená?
                 back: |
                         Když má všechny termy konstantní.
-        -       uuid: c710c373-4324-456c-a932-1cf0c9ca586c
-                guid: ujZtI%et<
+        -       guid: ujZtI%et<
                 topic: Predikátová logika
                 front: Instance formule [$]\\varphi(x/t)[/$]
                 back: |
@@ -96,8 +84,7 @@ notes:
                         Term je substituovatelný za [$]x[/$], když
                         po současném nahrazení všech výskytů nevznikne
                         žádný vázaný výskyt žádné proměnné z [$]t[/$].
-        -       uuid: ccdfaa76-d9a5-4990-8376-c7420ddd5a10
-                guid: M{ay0F/#*}
+        -       guid: M{ay0F/#*}
                 topic: Predikátová logika
                 front: Varianta formule
                 back: |
@@ -107,8 +94,7 @@ notes:
                         Nahrazeni podformule [$] (Qx)\\phi[/$] za [$] (Qy)\\phi(x/y)[/$]
                         vznikne varianta formule [$]\\varphi[/$] v podformuli [$] (Qx)\\psi[/$].<br>
                         Postupnou aplikaci variant vznikne varianta.
-        -       uuid: 900d9315-ebb7-4d42-be1e-78a99547a9f7
-                guid: dvglYfbF?^
+        -       guid: dvglYfbF?^
                 topic: Predikátová logika
                 front: Struktura pro jazyk
                 back: |
@@ -120,55 +106,47 @@ notes:
                         <br>
                         Struktura: trojice [$]\\mathcal{A}=<A,R^A,F^A>[/$] &mdash;
                         doména (univerzum) &mdash; NEPRÁZDNÁ, realizace relací, realizace funkcí.
-        -       uuid: 206817a7-4702-4c97-a587-78cdb5606734
-                guid: gKMJ2fT,|P
+        -       guid: gKMJ2fT,|P
                 topic: Predikátová logika
                 front: Hodnota termu, značení
                 back: |
                         Ohodnocení proměnných v množině [$]A[/$]: [$]e:Var\\rightarrow A[/$].<br>
                         Hodnota termu: rekurzivně definovaná [$]t^A[e][/$].<br>
-        -       uuid: aa301249-af8d-483e-aca4-401f4d2b7cc0
-                guid: C!wUArA!hX
+        -       guid: C!wUArA!hX
                 topic: Predikátová logika
                 front: Na čem záleží hodnota termu?
                 back: |
                         Jenom na ohodnocení proměnných
-        -       uuid: f5ae98b3-d8c7-4b34-ab70-85b8ef73b6e1
-                guid: djy&NBso:L
+        -       guid: djy&NBso:L
                 topic: Predikátová logika
                 front: Hodnota atomické formule
                 back: |
                         Hodnota [$]H_{at}^{A}(\\varphi)[e][/$]: pro atomickou formuli ([$]=^A[/$] je [$]Id_A[/$]).
                         Když je [$]\\varphi[/$] sentence, hodnota nezáleží na ohodnocení.
-        -       uuid: 9c307f26-043d-4bb3-9ce3-32df21c68bc8
-                guid: owS2!sh&D_
+        -       guid: owS2!sh&D_
                 topic: Predikátová logika
                 front: Hodnota neatomické formule
                 back: |
                         Použiju Booleovské funkce definované tabulkami.<br>
                         Nad strukturou: [$]H^A((\a x)\\varphi)[e] = \\min_{a\\in A}(H^A(\\varphi)[e(x/a)])[/$]
                         Záleží jenom na volných proměnných.
-        -       uuid: 6fe2dbb2-5bfe-4f33-9d2c-35a37d176f8b
-                guid: we<^>U&kJ#
+        -       guid: we<^>U&kJ#
                 topic: Predikátová logika
                 front: Značení - hodnota formule při ohodnocení ve struktuře
                 back: |
                         [$$]H^A(\\varphi)[e]\\in\\{0,1\\}[/$$]
-        -       uuid: 559e0291-255d-448a-ae25-dbab2c2e58e2
-                guid: OgzX[@59<Z
+        -       guid: OgzX[@59<Z
                 topic: Predikátová logika
                 front: Značení - formule platí při ohodnocení ve struktuře
                 back: |
                         [$]\\mathcal{A}\\vDash\\varphi[e][/$] (když [$]H^A(\\varphi)[e]=1[/$]).
-        -       uuid: 99164312-4f7a-4410-a65e-02616a49d4ad
-                guid: s/>;$m!!+#
+        -       guid: s/>;$m!!+#
                 front: Platnost ve struktuře
                 topic: Predikátová logika
                 back: |
                         [$]\\mathcal{A}\\vDash\\varphi[/$] když platí pro každé ohodnocení.
                         Podobně lživá.
-        -       uuid: 74221bc3-313b-4e52-b416-41e7f436047e
-                guid: dVklIQ@/PE
+        -       guid: dVklIQ@/PE
                 topic: Predikátová logika
                 front: Teorie v predikátové logice
                 back: |
