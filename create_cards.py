@@ -8,12 +8,10 @@ import cards as mod_cards
 import os
 import csv
 import sys
-sys.path.append('/usr/share/anki')
 
+sys.path.append('/usr/share/anki')
 import anki
 import anki.importing
-
-N_FIELDS = 7
 
 def get_uuids_in_deck(collection, deck_name):
     got_uuids = set()
@@ -26,21 +24,6 @@ def get_uuids_in_deck(collection, deck_name):
         got_uuids.add((origin_file, uuid))
     print 'Already got UIDs:', got_uuids
     return got_uuids
-
-
-
-class MyTextImporter(anki.importing.TextImporter):
-    pass
-    #def noteFromFields(self, fields):
-    #    note = super(MyTextImporter, self).noteFromFields(fields)
-    #    # TODO: add some tags, too?
-
-    #    #assert len(fields) == N_FIELDS + 1
-    #    # [fields...] [comma,divided,tags]
-    #    #note.fields = fields[:N_FIELDS]
-    #    # note.tags = self.tagsToAdd # [] # TODO
-    #    #print(note.fields)
-    #    return note
 
 def main():
     collection_path = '/home/prvak/dropbox/anki/User 1/collection.anki2'
@@ -93,7 +76,7 @@ def main():
         if imported > 0:
             print 'Importing...'
 
-            importer = MyTextImporter(collection, csv_file)
+            importer = anki.importing.TextImporter(collection, csv_file)
             importer.allowHTML = True
             importer.delimiter = '\t'
             importer.initMapping()
