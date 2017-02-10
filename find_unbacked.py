@@ -29,9 +29,8 @@ def main():
     existing_uids = set()
     for note_id in note_ids:
         n = collection.getNote(note_id)
-        if n['anki-decks-uid'] not in got_guids:
-            print(n['anki-decks-uid'])
-            print(n.fields)
+        if n.guid not in got_guids:
+            print n.guid, n.fields
 
     collection.close()
 

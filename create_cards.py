@@ -1,7 +1,6 @@
 #!/usr/bin/python2
 
 # TODO: Remove notes no longer linked to any UID
-# TODO: Import to specific decks
 
 import cards as mod_cards
 
@@ -11,7 +10,6 @@ import sys
 
 sys.path.append('/usr/share/anki')
 import anki
-import anki.importing
 
 def main():
     collection_path = '/home/prvak/dropbox/anki/User 1/collection.anki2'
@@ -39,9 +37,6 @@ def main():
         collection.decks.select(deck_id)
 
         deck = collection.decks.get(deck_id)
-
-        csv_file = 'import_dump.csv'
-        imported = 0
 
         for note in deck_notes:
             found_notes = collection.db.list(
