@@ -2,13 +2,6 @@ topic: C
 deck: All::CS::Languages::C
 uid_tag: cs/languages/c
 notes:
--       uuid: 225318ea-ab7c-40a0-9ef8-cfdb6f12d963
-        guid: Fof@0j&vG7
-        front: |
-                Prototype: `freopen`
-        back: |
-                `FILE* freopen(const char *path, const char *mode,
-                FILE *stream);`
 -       uuid: 3e3edb38-49f4-4985-9c86-a4196a661302
         guid: '{vl$7<M,i'
         front: |
@@ -123,33 +116,6 @@ notes:
                 Return value: `realloc`
         back: |
                 Reallocated pointer or `NULL` on failure
--       uuid: 8043cfc6-53c9-4e64-b218-190972f45b35
-        guid: Dw2iP?nS`D
-        front: |
-                Purpose: `asprintf`
-        back: |
-                Allocate large enough string and sprintf into it.
-                `*strp` should be `free`'d.
--       uuid: 497474dd-48e8-4192-91ed-1b95c5bb8ad4
-        guid: q$p9T!b~2V
-        front: |
-                Prototype: `asprintf`
-        back: |
-                `int asprintf(char **strp, const char *fmt, ...);`;
-                `*strp` should be `free`'d.
--       uuid: eeea08a7-7634-4bd1-a2a5-5bd5559d704f
-        guid: I3DvX`TC|4
-        front: |
-                Return value: `asprintf`
-        back: |
-                Number of bytes printed, -1 on error.
--       uuid: 2a95993b-127a-43f2-85f8-d2e4db5c6031
-        guid: v-!MHk0X-{
-        front: |
-                Function: Allocate large enough string and `sprintf`
-                into it
-        back: |
-                `asprintf`
 -       uuid: 5cdd8d57-3c25-4ed5-bf3c-657765c1d978
         guid: k;EE85)K7f
         front: |
@@ -197,63 +163,11 @@ notes:
                 Prototype: `explicit_bzero`
         back: |
                 `void explicit_bzero(void *buf, size_t len);`
--       uuid: 59810d5e-9dc4-41d7-adc9-3e6d660d03bc
-        guid: d?&PU|g=@q
-        front: |
-                Purpose: `pread`/`pwrite`"
-        back: |
-                Syscall. Read from or write to file descriptor at offset.
--       uuid: 022b7d1f-28f1-4a2e-8952-000810c95de2
-        guid: wVT0T&s/~Q
-        front: |
-                Prototype: `pread`
-        back: |
-                `ssize_t pread(int fd, void *buf, size_t count,
-                off_t offset);`
--       uuid: c4f994e8-6a33-457c-99d1-8e352159a0b9
-        guid: G0Z&wDp`+_
-        front: |
-                Prototype: `pwrite`
-        back: |
-                `ssize_t pwrite(int fd, const void *buf, size_t count,
-                off_t offset);`
--       uuid: 7891141a-ffca-44d5-897f-4aa7949699c2
-        guid: j1|X(hgg(M
-        front: |
-                Return value: `pread`/`pwrite`
-        back: |
-                Number of bytes read/written, -1 and `errno` on error
--       uuid: 86211708-d20a-408f-8bdc-c6491b5f95bd
-        guid: G`f>din}E_
-        front: |
-                Header file: `pread`/`pwrite`
-        back: |
-                `unistd.h`
 -       uuid: c1a580b9-96b2-4eff-be6b-3c6ccbda0895
         guid: iDkm-p.n;>
         front: Syscalls to read/write to/from fd at a given offset.
         back: |
                 `pread`/`pwrite`
--       uuid: 7902232c-9ff9-452d-b6e7-d9b98e47694c
-        guid: tQI6Txd:Uo
-        front: |
-                Prototype: `strtoul`
-        back: |
-                `unsigned long strtoul(const char *nptr,
-                char **endptr, int base);`
--       uuid: 3c90726c-d18b-48e8-9900-95a98cd144d9
-        guid: Q6Phf?vh.4
-        front: |
-                Prototype: `strtoull`
-        back: |
-                `unsigned long long strtoull(const char *nptr,
-                char **endptr, int base);`
--       uuid: 755ac515-caf8-4540-83dc-0a7e0592dcb7
-        guid: Q6R`iiLL#4
-        front: |
-                Header file: `strtoul`/`strtoull`
-        back: |
-                `stdlib.h`
 -       uuid: 04dc7855-80e5-494f-a124-f025b1f7fb3c
         guid: GY4V*]:7,|
         front: |
@@ -418,24 +332,6 @@ notes:
                 Prototype: `putc`
         back: |
                 `int putc(int c, FILE* stream);`
--       uuid: c289b7c2-79e2-4590-8571-94815122e0eb
-        guid: po:c$<gR}-
-        front: |
-                Prototype: `putchar`
-        back: |
-                `int putchar(int c);`
--       uuid: 1d60e466-5f80-4650-8994-68840af0b286
-        guid: cFNko-0|)Y
-        front: |
-                Prototype: `ftell`
-        back: |
-                `long int ftell(FILE* stream);`
--       uuid: 31c19965-7d7b-4ba9-b95b-b139e61cbc45
-        guid: kJu{=]~9vu
-        front: |
-                Return value: `ftell`
-        back: |
-                Return the current position in `stream`
 -       uuid: 6bdee85c-8dff-4c31-86e1-3da7a5d16c73
         guid: O%:3_[O1l-
         front: |
