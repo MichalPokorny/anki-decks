@@ -12003,6 +12003,571 @@ notes:
                         Minerva spreads its wings only with the falling
                         of the dusk."
                 back: Georg Wilhelm Friedrich Hegel
+        -
+                uuid: f9a17f25-acd5-4b5c-b035-18c80f47353a
+                front: Intellectual predecessor of existentialism
+                back: Hegel
+        -
+                uuid: 8f7a0cb3-4140-4ebd-a16e-9cf7cb8db0d9
+                front: Intellectual predecessor of Marxism
+                back: Hegel
+        -
+                uuid: df6d04b1-2ae5-49d6-bc9b-58898a6f907d
+                front: >
+                        Year: Birth of Søren Kierkegaard
+                back: 1813
+                include_reverse: true
+        -
+                uuid: 158abb4d-68d6-45e5-b7f8-20a51df312d5
+                front: >
+                        Year: Death of Søren Kierkegaard
+                back: 1855
+                include_reverse: true
+        -
+                uuid: 8b5a35ba-0e84-4e8f-87ef-cc309fdfef7f
+                topic: Søren Kierkegaard
+                front: >
+                        His authorship
+                back: >
+                        About 1/2 of it is pseudonymous.
+                        Romantic young man A; Judge Milliam (a local magistrate);
+                        Johannes de silentio (John the silent), the Seducer
+                        (writing a famous diary), Victor Eremita (the Hermit),
+                        Johannes Climacus (the Climber), ... -- different
+                        views.
+        -
+                uuid: e4d044b0-3608-4ca3-8053-6b629ee9e57e
+                topic: Søren Kierkegaard
+                front: >
+                        The human problem
+                back: >
+                        Cannot be solved in the abstract by thinking, through
+                        cannot be solved without thinking; solution is
+                        actually making some choices in life
+        -
+                uuid: c165908f-38f7-4929-a8e0-c2d02a405ba4
+                topic: Søren Kierkegaard
+                front: >
+                        His literary technique and reason for using it
+                back: >
+                        This technique is called "indirect communication".
+
+                        Most of us live in various degrees of self-deception.
+                        We are not honest with ourselves about categories
+                        that actually structure our lives.
+
+                        His characters are for identifying with and then revealing
+                        what living like that means.
+        -
+                uuid: d678e071-3502-4d9d-a2c8-4b5393197d55
+                topic: Søren Kierkegaard
+                front: >
+                        Particular "illusion" of his time and place (Denmark,
+                        19th century)
+                back: >
+                        "Being Christian"
+
+                        It differs from being automatically baptized and from
+                        illusion of intellectual speculation (Hegel).
+        -
+                uuid: 47af6b68-27e1-4afa-8fcb-44aff7dc2d93
+                topic: Søren Kierkegaard
+                front: >
+                        3 options sketched out
+                back: Aesthetic, ethical, religious
+        -
+                uuid: 4c5287ec-c973-4a34-9c65-e5d69d6a7476
+                topic: Søren Kierkegaard
+                front: >
+                        Book - Aesthetic archetype
+                back: >
+                        1st part of 2 books - Either/Or
+        -
+                uuid: 748a145e-6190-4def-ad2c-8829ba8fc5ce
+                topic: Søren Kierkegaard
+                front: >
+                        Actor - Aesthetic archetype
+                back: >
+                        "A"
+        -
+                uuid: 11d97ca5-7da1-4198-88c4-a2b8ae2bf3b3
+                topic: Søren Kierkegaard
+                front: >
+                        Character - A
+                back: >
+                        Just wants to *be something*. "You are the music while
+                        the music lasts." Wants complete absorption in
+                        pleasurable moments. Wants to evade reflection,
+                        self-consciousness, thought, choice, having
+                        to *become* something. Wants to enjoy *immediacy*
+                        (Hegel criticizes it as foundation for knowledge).
+
+                        Realizes it's not possible, immediacy doesn't exist
+                        if sought.
+
+                        A reflects on Don Juan. He is undifferentiated,
+                        unreflective desire. A: Sensuality is not human
+                        reality, but an aspect of it - an abstraction
+                        (Hegel's critique of immediacy, Epicureanism).
+
+                        He tries to make his life into a work of art, for
+                        aesthetic appreciation. He doesn't want it to be
+                        *boring* - that would be a terrible review of
+                        a movie.
+
+                        His basic evaluation of everything is a pair of
+                        concepts: *interesting/boring*.
+                        *Rotation of Crops*: how to keep things interesting.
+                        Recommends:
+                        <ul>
+                        <li> *Variety*. Varying surroundings and circumstances
+                        is "vulgar and unartistic". Instead, *vary yourself*.
+                        The key is remembering and forgetting artistically,
+                        not randomly.
+                        <li> *Beware entanglements, avoid commitments*.
+                        To have absolute freedom to break away from anything.
+                        No friendships (but many acquaintances), no marriage,
+                        no business.
+                        <li> *Stay in control*. Don't necessarily get what's
+                        best for you, but what you ask for.
+                        </ul>
+
+        -
+                uuid: 9503cb41-7da8-4b38-83e3-2da41f027f2f
+                topic: Søren Kierkegaard
+                front: Apex of A's work on living interestingly
+                back: >
+                        "The Seducer's Diary"
+
+                        Origin in levels of possibilities - accentuates
+                        "this is not your life".
+
+                        Johaness, diarisst, is fascinated by young girl, Cordelia.
+
+                        Insinuates himself into her family, pays much attention
+                        to Cordelia's aunt, makes himself
+                        look interesting. Promotes Edward, a conventional and
+                        boring young man in love with Cordelia, as a match for
+                        Cordelia. Slowly, he brings Cordelia to see Edward -
+                        compared to him - as boring. He manipulates an engagement
+                        with himself, subtly influences her to believe marriage
+                        is an impediment to *true love*. *She* breaks the
+                        engagement. Passionate night together, then he leaves her.
+
+                        The seducer is an opposite of Don Juan. The seducer
+                        lives completely in reflection, only occasionally
+                        touches reality. Schemes, plts, etc.
+                        He enjoys building the drama.
+                        Keeps distance from everything, including himself.
+                        He claims to love Cordelia -- in the esthetic sense.
+                        And to be benefiting her - by *making her life more
+                        interesting* - he will leave her a sophisticated
+                        woman. He taught her the terrors of the possible.
+        -
+                uuid: b7991fb8-df19-4f90-b899-4d6341fb5e5f
+                front: >
+                        Author: "The biggest danger, that of losing oneself,
+                        can pass off in the world as quietly as if it were
+                        nothing; every other loss, an arm, a leg, five dollars,
+                        a wife, etc. is bound to be noticed."
+                back: Søren Kierkegaard
+        -
+                uuid: 9e952352-92a0-4afc-9533-4c38c0488615
+                topic: Søren Kierkegaard
+                front: >
+                        The Ethical option - where is it? Who's the character?
+                        Topic?
+                back: >
+                        Second part of Either/Or. Long letters from lower
+                        courts magistrate, Judge Wiliam, addressed to A.
+
+                        Main topic: love, large issue: what it means to be
+                        a *self*
+        -
+                uuid: f14c1b15-08e1-4ea3-89a0-7cf6fd4984d1
+                topic: Søren Kierkegaard
+                front: >
+                        Ethical option - A's problem that Judge William
+                        remedies
+                back: >
+                        A is splintered into many semi-selves.
+
+                        Judge William: "mark" of romantic love is *immediacy*.
+                        Falling in love is something that *happens*.
+
+                        Lovers are deeply convinced their relationship is
+                        something whole that can't be really changed.
+                        This conviction is false, since it's something that
+                        *just happens*.
+
+                        Cynism about love leads to (1) resigning on lasting
+                        love, having a series of affairs, (2) marriage
+                        of convenience without love.
+                        Judge William deplores both.
+                        A is right in valuing romantic love, but promise of
+                        eternity requires not "going with the flow", but
+                        choice - determination of will.
+        -
+                uuid: 7c240a85-ae17-4e4c-857e-12fa5a980079
+                topic: Søren Kierkegaard
+                front: What kind of love does Judge William defend?
+                back: >
+                        *Conjugal love* - mark of that is engagement of the
+                        will, making promises. It can provide continuity
+                        and permanence, and is not death of romantic love -
+                        it's its aid.
+
+                        It's not fit for art, but married people have fought
+                        with something worse than dragons - time.
+                        Marriage is *aesthetic*.
+
+                        Ethical life requires development of the *self*.
+        -
+                uuid: 90cab09f-70b6-4e5d-a404-d5511fa44e05
+                topic: Søren Kierkegaard
+                front: Crucial difference between aesthetic and ethical
+                back: >
+                        Choice. A's life is full of choice, but none of them
+                        are *significant* - he'snot commited.
+
+                        A's manner of saying "either/or" means loss of self.
+
+                        If we drift and fail to decisively take control of
+                        our life, we will lose our selves.
+
+                        When one chooses seriously, *engaging oneself*, one
+                        chooses *ethically*. The judge isn't urging A
+                        to choose *good* - just urging him to *choose*.
+
+                        The judge's either/or is about categories of
+                        evaluation. We will lead a radically different life
+                        if we decide according to "good/evil" (ethical), versus
+                        "interesting/boring" (esthetic).
+
+                        Do you choose with *ironic detachment*, or
+                        a *seriousness and passion of will*?
+                        The ethical person stops trying to *be* something,
+                        and starts a project of *becoming* something - a self.
+        -
+                uuid: 78abf0c9-ff54-41de-af84-3df3f634c2ca
+                front: >
+                        Author: "Imagine a captain of a ship the moment a shift
+                        of direction must be made; then he may be able to say:
+                        I can do either this or that. But if he is not a
+                        mediocre captain he will also be aware that during all
+                        this the ship is ploughing ahead with its ordinary
+                        velocity, and thus there is but a single moment when
+                        it is inconsequential whether he does this or does
+                        that. So also with a person ... there eventually comes
+                        a moment where it is no longer a matter of Either/Or,
+                        not because he has chosen, but because he has
+                        refrained from it, which also can be expressed
+                        by saying: Because others have chosen for him - or
+                        because he has lost himself."
+                back: Søren Kierkegaard
+        -
+                uuid: 030b9e38-d844-4581-a90a-8248ece7a444
+                topic: Søren Kierkegaard
+                front: Ethical vs. esthetic life on openness
+                back: >
+                        Esthetic needs secrecy (remember the seducer).
+                        Ethical needs openness.
+        -
+                uuid: 338e9f53-8dc0-40bf-9a2b-e1a8b526803c
+                topic: Søren Kierkegaard
+                front: Two poles of existence
+                back: >
+                        Collection of accidental facts about us,vs.
+                        our awareness and attitude and need to do something
+                        about them.
+
+                        Etical: The task of the individual is to bring
+                        the two poles together.
+
+                        Unfortunately, the poles have a tendency to drift
+                        apart. We have a tendency to identify with just
+                        one, it's too anxiety-inducing to hold them together.
+                        We are not *willing to be ourselves* - we always
+                        want to approach God or be an unthinking brute.
+
+                        Recognizing this tension is beyond the ethical.
+                        We're trying to lift ourselves up by our bootstraps.
+        -
+                uuid: 8319f691-9876-4bb3-b745-5c643d043342
+                topic: Søren Kierkegaard
+                front: The third option
+                back: >
+                        Religious.
+
+                        Pastor says: Discovering ourselves to be in tension
+                        and undermining ourselves in the ethical life,
+                        we can console ourselves, saying "I do what I can".
+                        This sets in a new anxiety. Calm it by deliberating
+                        on *the upbuilding that lies in the thought that
+                        in relation to God we are always in the wrong*.
+        -
+                uuid: 1edd2b91-7ddb-4809-b322-bd25302a7455
+                topic: Søren Kierkegaard
+                front: View on religion
+                back: >
+                        Two-level: basic religious consciousness (pagan figures
+                        - Socrates, Old Testament patriarchs - Abraham)
+                        ("Religion A");
+                        more intense level distinctive of Christianity
+                        ("Religion B").
+        -
+                uuid: 9c5ea1f3-0552-44af-8bed-a65cf74cdd2f
+                topic: Søren Kierkegaard
+                front: Author of *Fear and Trembling*
+                back: Johannes de silention (John the silent)
+        -
+                uuid: 263182f8-89c6-4cee-944a-fe7e9b199b5b
+                topic: Søren Kierkegaard
+                front: Question of *Fear and Trembling*
+                back: >
+                        Is there anything beyond the ethical?
+
+                        Johannes meditates on the story of Abraham and Isaac.
+
+                        Johannes cannot understand or explain Abraham.
+                        Before Abraham, he is "silent"; Abraham does
+                        two contradictory things at once: a) gives up on
+                        him, takes him to Moriah; b) still clearly loves
+                        Isaac (he received Isaac with joy after not having
+                        to kill him).
+
+                        This absurdity is the secret life of faith.
+        -
+                uuid: 4ba2f2d9-e7ee-494d-a464-83752ea6c24a
+                topic: Søren Kierkegaard
+                front: >
+                        *Fear and Trembling* - the two knights
+                back: >
+                        Knight of Infinite Resignation: Stoic, no claims,
+                        asks for nothing worldly, identifies with his
+                        infinite, reflective side.
+                        This movement is very hard.
+
+                        Knight of Faith: resigns everything, sets himself
+                        adrift, takes refuge in his eternal side, but as he's
+                        infinitely resignating, he comes back into the world.
+                        Johannes can't understand where he finds the strength.
+
+                        Faith is something to be lived. And it's not something
+                        particularly otherworldly or ascetic.
+
+                        It's not easy to recognize a knight of faith.
+                        It's not about what they do and how, but why.
+
+                        Faith is hard. It's a passion.
+
+                        Faith cannot be learned in a formula from someone else.
+                        To aspire to go beyond faith (like some Hegelians)
+                        is to not understand the life of knights of faith.
+
+        -
+                uuid: 9f4036f2-f919-4df5-8619-5d9334924818
+                topic: Søren Kierkegaard
+                front: >
+                        On passion
+                back: >
+                        Passion is when we are in two places at once: where
+                        we are and where we want to be. The further we are,
+                        the biger the passion (fear, anxiety, desperation,
+                        panic).
+
+                        Esthetic life has some passion, ethical has more
+                        (bigger distance between where he is and wants to be),
+                        Johaness *de silentio* says faith is the highest
+                        of the passions.
+
+                        The biggest distance is between us as individuals
+                        who exist in time, and what is eternally true.
+                        Faith manifests as a lifelong search.
+        -
+                uuid: 04a27bd6-d767-4d85-8ea9-9b4d7eda7723
+                topic: Søren Kierkegaard
+                front: Pseudonym - the philosopher
+                back: Johannes Climacus
+        -
+                uuid: 53ce3b0e-bbe7-4dc6-a253-68272939f911
+                topic: Søren Kierkegaard
+                front: How Christianity gives us more passion (according to Climacus)
+                back: >
+                        Presents the option that we are continually deceiving
+                        ourselves, pretending to be other than we are, and
+                        that we are further from truth than Socrates thinks.
+                        This distinguishes Christianity from paganistic
+                        religions.
+
+                        Christianity B says "we are sinners" - not just rule
+                        breakers. Sin is a condition of the self - despair.
+                        Despair is not willing to be oneself.
+        -
+                uuid: 261bc975-8b4e-4c89-a41c-7d2e8a066799
+                topic: Søren Kierkegaard
+                front: On despair
+                back: >
+                        Anti-Climacus ("super-christian" - Climacus is not
+                        a christian) writes *The Sickness unto Death* - exploring
+                        varieties of despair. Despair is our advantage over
+                        other animals, being in despair is the greatest misery.
+
+                        Despair is sickness in the self, and leads to death
+                        of the self unless cured.
+
+                        Someone in despair despairs over *something* - so it
+                        seems *only for a moment*. In despairing over *something*,
+                        we really despair over *ourselves* and want to ***be
+                        rid of ourselves***.
+
+                        We are a synthesis of what we (1) immediately,
+                        factually are, (2) the possibility of reflection and
+                        doing something about it.
+                        Being a self means, in addition, *relating these
+                        factors to each other*, bringing them into balance
+                        and harmony.
+
+                        Being a self is a task we can fail at. Failure to be
+                        a self is despair: an imbalance in the factors of
+                        synthesis that manifests in our unwillingness to
+                        be ourselves.
+
+                        Infinitude's despair is finitude. Becoming fantastic.
+                        Loving all humanity, yet hating one's neighbor; etc.
+
+                        Finititude's despair lacks infinitude. Self without
+                        infinitude has no sharp edges, assumes the only
+                        possibilities are "how things are done". This allows
+                        the self to be cheated of itself by "the others".
+                        Dares not to believe in oneself; gains all that is
+                        required for a flawless performance in everyday life.
+                        They are ground smooth as a pebble.
+                        Worldliness consists of people who pawn themselves
+                        to the world. Such people are perhaps mentioned in
+                        history, but they are not themselves.
+
+                        Another form: being willing (in despair) to be oneself:
+                        despair of defiance. They don't want to don their
+                        own self, do not want to see their task in their
+                        given selves, but wants to construct it himself.
+                        The self wants to be its own god.
+
+        -
+                uuid: 7cc6641f-0f6e-4162-98f5-066c34c2b8f8
+                topic: Søren Kierkegaard
+                front: Active form of despair of defiance
+                back: >
+                        Active form: experimenting with self. There is nothing
+                        firm in this form. The self is not increasingly itself
+                        - it is increasingly obvious that it's hypothetically
+                        itself. The self is its own master, and this is the
+                        despair, or can be regarded as its pleasure and joy.
+                        Yet this absolute ruler rules over nothing. The self
+                        is subject to the dialectic that rebellion is
+                        legitimate at any moment.
+                        The despairing self is always building castles on air.
+        -
+                uuid: 780ac72f-f43e-4abc-8d1c-334287dd81b3
+                topic: Søren Kierkegaard
+                front: Passive form of despair of defiance
+                back: >
+                        Finds something objectionable about itself: flaw,
+                        deficiency, disability. The offended one uses it
+                        to take offense at all existence. Wants to be himself
+                        despite it. Thinks he himself is evidence against the
+                        goodness of existence.
+
+                        This is also despair - unwilling to be oneself.
+        -
+                uuid: cf2dff3f-c7ed-485d-bbc9-12c3f079695a
+                topic: Søren Kierkegaard
+                front: >
+                        What is it like for the self without despair?
+                        How does defiance go against it?
+                back: >
+                        In relating to itself and in wanting to be itself,
+                        the self is grounded transparently in the power that
+                        established it.
+
+                        Defiant self tries to establish itself, so it is
+                        unwilling to be what it really is - grounded in
+                        the power that established it.
+
+                        Anti-Climacus: this power is God.
+        -
+                uuid: 745ea6a0-3c28-4ee4-8958-5f3e21107601
+                topic: Søren Kierkegaard
+                front: What is the opposite of despair?
+                back: Faith
+        -
+                uuid: 20baa398-0a1a-4929-b292-f9817f97b788
+                topic: Søren Kierkegaard
+                front: What shouldn't we confuse faith with?
+                back: >
+                        Knowledge.
+                        Faith isn't about accepting certain propositions.
+                        It's about living a certain way.
+
+                        Kierkegaard can't answer whether Christianity
+                        presents us with a truth about ourselves.
+        -
+                uuid: 837fbc33-ea43-4f56-8377-681b6fab579b
+                topic: Søren Kierkegaard
+                front: How does he differ from Hegelian evolution?
+                back: >
+                        Each of his characters is a *possibility*.
+                        Each is on the same level.
+
+                        The aesthete, the ethicist, the Christian.
+
+                        We must choose without knowing which choice is right
+                        or best. If one moves from one kind of life to another,
+                        it is a *leap*. Like a conversion.
+
+                        There is no absolute vantage point from which to look
+                        on with absolute knowledge (as Hegel thought).
+
+                        A logical system is possible. An *existential* one
+                        is not.
+
+                        Geometry: OK.
+                        All theorems are implicit in the premises.
+                        In this sense, systems are "final".
+                        Nothing that has relation to existence can be
+                        incorporated into logical systems.
+                        Existence is the opposite of finality.
+        -
+                uuid: 98f46980-c213-4e9d-9b67-aff495154a04
+                topic: Søren Kierkegaard
+                front: >
+                        Word: We can't find a criterion. We live by a ...
+                back: Leap
+        -
+                uuid: 4ef173e8-b5d7-48a5-9544-caeff589b500
+                topic: Søren Kierkegaard
+                front: >
+                        2 questions about individual's relation to truth
+                back: >
+                        (1) Is it indeed the truth to which I'm related?
+                        (*objective* question)
+                        - about *what* is believed; cannot be settled by an
+                        existing individual
+
+                        (2) Is the mode of the relationship a true one?
+                        (*subjective* question)
+                        - about *how* it's said or believed
+                        ; this is accentuated because (1) can't be settled.
+                        Quality of life depends on intensity, passion,
+                        decisiveness with which this relation is maintained.
+
+                        An objective uncertainty held fast in
+                        an appropriation-process of the most passionate
+                        inwardness is the truth, *the highest truth*
+                        available for an existing individual.
+
+
+
 
 
 

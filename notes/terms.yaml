@@ -1434,3 +1434,22 @@ notes:
                 back: >
                         Verb: appear to be or do something, especially falsely.
                 include_reverse: true
+        -
+                uuid: 21e9f387-dee4-4ff2-b2cb-0f9da8c35a01
+                front: Corroboration
+                back: >
+                        Evidence which confirms or supports a statement,
+                        theory, or finding; confirmation
+                include_reverse: true
+        -
+                uuid: 2875c2fc-19c9-4184-bf10-02d895ac8f19
+                front: Fideism
+                back: >
+                        Doctrine that knowledge depends on faith or revelation
+                include_reverse: true
+        -
+                uuid: ebf523f7-3d8f-40a6-a57c-0a0f824e79ab
+                front: Ecclesiastical
+                back: >
+                        Relating to the Christian Church or its clergy
+                include_reverse: true
