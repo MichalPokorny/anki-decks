@@ -4,7 +4,7 @@ notes:
         -
                 uuid: bc424437-cb79-4278-acce-3893f428a98e
                 front: Kondenzovaná vnitřní reprezentace, binární; jak se učí?
-                back: >
+                back: |
                         Interpretace skrytých neuronů: [$]0/1/\\frac{1}{2}[/$]<br>
 
                         Binární: jen 0/1<br>
@@ -18,7 +18,7 @@ notes:
         -
                 uuid: adf31f57-65b6-40e5-9cae-d759e46052bf
                 front: Jednoznačná vnitřní reprezentace; jak se naučí?
-                back: >
+                back: |
                         Intuice: pro hodně různé výstupy chci hodně jiné vnitřní reprezentace<br>
 
                         [$$]

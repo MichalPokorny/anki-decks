@@ -5,7 +5,7 @@ notes:
         -
                 uuid: 96718524-64fb-4d49-a711-1ce1cc991377
                 front: Problémy hledání v prostoru plánů a stavů a jak je vyřeší plánování s grafem
-                back: >
+                back: |
                         Když vyberu špatnou akci, projeví se to pozdě.
                         Máme taky velký větvící faktor.<br>
 
@@ -14,7 +14,7 @@ notes:
         -
                 uuid: 997a5411-4702-440b-9de1-dc7797639962
                 front: Základní myšlenky plánování s grafem
-                back: >
+                back: |
                         <ul>
                         <li>
                         *Strategie silných závazků*: akce jsou plně instanciovány
@@ -30,19 +30,19 @@ notes:
         -
                 uuid: f1407f01-3c70-451e-9592-2ee55275b59c
                 front: Graf dosažitelnosti  a jaký je s ním problém
-                back: >
+                back: |
                         Vrchol: stav, hrana: akce.
                         Je neprakticky velký.
         -
                 uuid: bf128a9c-baf9-413b-a7f4-93908f9f3b93
                 front: Jakou podmínku na dosažitelnost poskytuje plánovací graf?
-                back: >
+                back: |
                         Nutnou: je-li stav dosažitelný, vyskytuje se v plánovacím grafu.
                         (Ne všechny stavy v plánovacím grafu jsou skutečně dosažitelné.)
         -
                 uuid: 9f2cdd79-51fd-407b-92e6-b7ab2fa7696a
                 front: Jak plánovací graf aproximuje stavy?
-                back: >
+                back: |
                         Aproximace je sjednocení atomů ve všech stavech dosažitelných
                         na dané úrovni.
                         <br>
@@ -53,7 +53,7 @@ notes:
         -
                 uuid: c2a7dc3f-2057-4ead-a90b-ad97b16258eb
                 front: Vrstvy, úrovně a hrany plánovacího grafu
-                back: >
+                back: |
                         Vrstva: buď instanciované atomy, nebo akce<br>
                         Nultá vrstva: počáteční stav; poslední vrstva je stavová.<br>
                         Akční vrstva a další stavová vrstva: *úroveň*<br>
@@ -63,7 +63,7 @@ notes:
         -
                 uuid: fe2f858e-a96f-478a-82f0-0412a359760d
                 front: Vrstvený plán
-                back: >
+                back: |
                         Z plánovacího grafu vypadne vrstvený plán,
                         co má několik vrstev akcí.
                         Sekvenční plán z toho udělám tak, že libovolně zpermutuju
@@ -71,7 +71,7 @@ notes:
         -
                 uuid: a9fc6961-06ce-48a3-9c9c-c82e2f56a590
                 front: Nezávislost akcí a proč se bude hodit
-                back: >
+                back: |
                         Akce jsou závislé, když jedna maže předpoklad nebo
                         pozitivní efekt druhé.<br>
                         Nezávislé:
@@ -87,14 +87,14 @@ notes:
         -
                 uuid: 7dd3d00d-d9d9-418c-9232-acf1bfc58283
                 front: Použitelnost, výsledek aplikace množiny nezávislých akcí
-                back: >
+                back: |
                         *Použitelnost*: všechny předpoklady jsou splněny<br>
                         *Výsledek aplikace*: odeberu negativní efekty a přidám
                         pozitivní. Na permutaci nesejde.
         -
                 uuid: f099651f-f287-4222-9343-0b0e83a8a095
                 front: Jak budeme plánovat s plánovacím grafem?
-                back: >
+                back: |
                         Sestrojíme graf, ve kterém poslední vrstva splňuje
                         cíl.<br>
                         Z akčních vrstev vybereme množiny nezávislých akcí,
@@ -104,20 +104,20 @@ notes:
                         Přidáme no-op akce.
         -
                 uuid: ba467268-c13f-4d2b-8213-29b8624100bd
-                front: >
+                front: |
                         Značení: No-op akce
-                back: >
+                back: |
                         [$]\\alpha_p[/$] pro atom [$]p[/$]
         -
                 uuid: 61cbf4d3-7e8e-4621-84dd-d0ff37be22d6
                 front: Účel no-op akcí
-                back: >
+                back: |
                         Aby každý atom v každé stavové vrstvě byl důsledkem
                         nějaké akce předchozí úrovně.
         -
                 uuid: 28f854a0-fbdc-4e51-90d6-3076eda605df
                 front: Jaké věci tvoří mutexy?
-                back: >
+                back: |
                         Nultá vrstva: všechny atomy jsou dohromady.<br>
                         První akční vrstva nesmí obsahovat dvě závislé akce,
                         takže jejich pozitivní efekty nemůžou být v první
@@ -133,32 +133,32 @@ notes:
                         jsou mutex, můžeme rovnou vyřadit.
         -
                 uuid: c18d9c2e-d180-4249-8989-81c61eb62d37
-                front: >
+                front: |
                         Značení: Množina akčních mutexů pro úroveň [$]i[/$]
-                back: >
+                back: |
                         [$]\\mu A_i[/$]
         -
                 uuid: 2c9e505f-76a8-48ee-9c88-c6871538d4ce
-                front: >
+                front: |
                         Značení: Množina výrokových mutexů pro úroveň [$]i[/$]
-                back: >
+                back: |
                         [$]\\mu P_i[/$]
         -
                 uuid: 321aba0e-8fdf-4268-9026-a5a54a16ddb2
-                front: >
+                front: |
                         Formálně: Kdy platí mutex akcí &mdash;
                         [$](a, b)\\in\\mu A_i[/$]?
-                back: >
+                back: |
                         [$]a,b[/$] závislé, nebo
                         [$]\\e p\\in\\mathrm{precond}^+(a),
                                q\\in\\mathrm{precond}^+(b):
                            (p,q)\\in\\mu P_{i-1}[/$]
         -
                 uuid: 36a1ee65-bb8c-4a9d-b779-c19ffad853ec
-                front: >
+                front: |
                         Formálně: Kdy platí mutex atomů &mdash;
                         [$](p,q)\\in\\mu P_i[/$]?
-                back: >
+                back: |
                         [$]\\a a\\neq b: p\\in\\mathrm{eff}^+(a),
                                          q\\in\\mathrm{eff}^+(b):
                            (a,b)\\in\\mu A_{i-1}[/$]
@@ -166,10 +166,10 @@ notes:
                                           q\\in\\mathrm^{eff}^+(a)[/$].
         -
                 uuid: 976eed74-747c-46dd-8348-649cdfa8f1e6
-                front: >
+                front: |
                         Vlastnosti relace mutex a důkaz;
                         důsledky pro akce a výroky ve vrstvách
-                back: >
+                back: |
                         Symetrická.<br>
                         Mutexy v grafu monotónně klesají:
                         když [$]p,q\\in P_{i-1}[/$] a [$] (p,q)\\not\\in\\mu P_{i-1}[/$],
@@ -188,7 +188,7 @@ notes:
         -
                 uuid: 8fd62631-d71c-4bf8-832a-1d47bd68c37f
                 front: Algoritmus
-                back: >
+                back: |
                         Střídám expanzi grafu a extrakci plánu.
                         <ul>
                         <li> *Expanze*: expanduj plánovací graf dokud nemáš
@@ -201,14 +201,14 @@ notes:
         -
                 uuid: 9a9985e8-f156-48f6-9e36-fce5d1dcc1be
                 front: Jak poznám pevný bod, k čemu je?
-                back: >
+                back: |
                         Od pevného bodu nemusíš dál expandovat, stačí kopírovat.
                         V pevném bodě přestanou růst dostupné atomy/akce, resp.
                         klesat mutexy atomů/akcí.
         -
                 uuid: c4f9f83a-0482-4812-8ce8-0789a7981bcc
                 front: Jak provést extrakci plánu? Instance čeho to je?
-                back: >
+                back: |
                         Zpětně od poslední úrovně.
                         <br>
                         Nejdřív najdu množinu akcí [$]\\pi_i\\subseteq A_i[/$] co
@@ -222,7 +222,7 @@ notes:
         -
                 uuid: a8f24dea-4bcf-4916-a3a2-97571c18abfe
                 front: Co je a k čemu je nogood množina?
-                back: >
+                back: |
                         Nogood množina: množina výroků co je jako celek
                         nekompatibilní. Pro každou vrstvu si pamatuj
                         tabulku nesplnitelných cílů.
@@ -231,20 +231,20 @@ notes:
         -
                 uuid: 345e41f0-c974-4196-ae28-d93db92bba03
                 front: Jak zjistit, že neexistuje plán?
-                back: >
+                back: |
                         Když jsi za fixpointem, přidáš vrstvu a v nové
                         vrstvě je po pokusu o extraci plánu stejně
                         nogoodů.
         -
                 uuid: d4500262-276a-4827-be18-1cda09c4b05d
                 front: Trik na lepší správu paměti
-                back: >
+                back: |
                         Nebudovat explicitně vrstvy, jen pro každý
                         atom a akci uložit, kde byla poprvé (kvůli monotonii).
         -
                 uuid: 1524608d-e166-4a82-b431-6ef322242a6c
                 front: Jakými heuristikami můžu líp prohledávat?
-                back: >
+                back: |
                         <ul>
                         <li>
                         První řeš atomy co mají málo "podpůrných akcí",

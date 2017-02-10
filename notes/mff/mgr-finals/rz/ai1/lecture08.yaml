@@ -4,7 +4,7 @@ notes:
         -
                 uuid: 5a69d98e-5c28-4ab7-bd1b-f42a409e6d38
                 front: Knowledge-based agents
-                back: >
+                back: |
                         Form representations of a complex world. Use inference.
                         Use information and current observation to uncover
                         hidden aspects of the world, use them for action
@@ -12,7 +12,7 @@ notes:
         -
                 uuid: aa2b3bf4-bb7b-4f1f-ad3c-e8f0c6e9745a
                 front: Wumpus world
-                back: >
+                back: |
                         Stench: next to wumpus<br>
                         Breeze: adjacent to pit<br>
                         On gold: glitter<br>
@@ -28,7 +28,7 @@ notes:
         -
                 uuid: fa8c6a5d-7fd7-4a88-aca2-96ad891314d2
                 front: World parameters
-                back: >
+                back: |
                         Observable fully or partially?<br>
                         Deterministic? (action results are deterministic)<br>
                         Episodic? (is the ordering of actions important?)<br>
@@ -38,20 +38,20 @@ notes:
         -
                 uuid: f22d1e32-4575-4f82-924d-002c086ccfa0
                 front: Syntax and semantics
-                back: >
+                back: |
                         Syntax: allowable sentences. <br>
                         Semantics: rules for determining truth in some model.
         -
                 uuid: a40431e9-ff7c-4ef9-b332-bd03a09f473b
                 front: Entailment, soundness, completeness
-                back: >
+                back: |
                         [$]KB \\vdash \\alpha[/$].
                         Sound, if [$]\\vdash\\rightarrow\\vDash[/$].
                         Complete, if [$]\\vdash\\leftarrow\\vDash[/$].
         -
                 uuid: 7d7eb23d-528e-4207-a492-cd6c2745e950
                 front: Model checking vs. inference rules
-                back: >
+                back: |
                         Model checking: enumerating a truth table (DPLL, local search)<br>
                         Inference rules: theorem proving by applying inference; resolution
         -
@@ -61,7 +61,7 @@ notes:
         -
                 uuid: 3349db11-6a76-43ce-9713-b60fa007d4d2
                 front: DPLL - algoritmus
-                back: >
+                back: |
                         Postupně buduj model.
 
                         Pokud všechny klauzule platí v modelu, vrať true.
@@ -77,7 +77,7 @@ notes:
         -
                 uuid: 5c833a52-d98e-43d4-a6f7-28c02467087c
                 front: WalkSAT - algoritmus, vlastnosti
-                back: >
+                back: |
                         Hill climbing s random walk.
 
                         Minimalizuju počet konfliktních klauzulí.
@@ -95,7 +95,7 @@ notes:
                 uuid: af330fd7-d530-4274-888f-a68c88dfc60d
                 topic: Algoritmy pro KB-Ask
                 front: Rezoluční algoritmus, pro formuli
-                back: >
+                back: |
                         Vyrob množinu odvozených klauzulí, dej tam negaci formule a KB.
                         <br>
                         Vyber všechny dvojice klauzulí a zkus rezoluci.
@@ -104,12 +104,12 @@ notes:
         -
                 uuid: efd03dde-5859-4cdd-97df-ee4ba989c438
                 front: Jakou formu mají ve výrokové logice Hornovské klauzule?
-                back: >
+                back: |
                         Nejvýše jeden pozitivní literál v klauzuli.
         -
                 uuid: ee26feb0-37d9-45a0-96a2-b2b1044f8084
                 front: Forward-chaining ve výrokové logice - algoritmus, časová složitost
-                back: >
+                back: |
                         Funguje na Hornovské klauzule.
                         Ze známých faktů odvodíme všechno, co můžeme.<br>
 

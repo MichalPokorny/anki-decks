@@ -40,14 +40,14 @@ notes:
         -
                 uuid: acdb9620-ef06-4822-aa73-30b9efc8233a
                 front: Collapse whitespace in output of program into one space
-                back: >
+                back: |
                         `echo $(some program)`
                 include_reverse: true
         -
                 uuid: 82d78c9f-8461-442e-b970-34c7fc57f7df
-                front: >
+                front: |
                         Difference in `source` behavior between `bash` and `sh`
-                back: >
+                back: |
                         <ul>
                         <li> `sh`: `source` searches in `$PATH`
                         <li> `bash`: it also searches in `$CWD`
@@ -55,7 +55,7 @@ notes:
         -
                 uuid: 983e1c51-c9f6-4c5c-beee-be968104be7e
                 front: "Use program input/output pipes as file paths"
-                back: >
+                back: |
                         `wc -l <(cat x.txt);
                         ./someprog --output-file >(./process-somehow)`
                 include_reverse: true
@@ -72,7 +72,7 @@ notes:
         -
                 uuid: 34b394c4-09e6-468d-a6b5-00c4bea3f822
                 front: How to iterate on files containing whitespace in a for loop?
-                back: >
+                back: |
                         `IFS=$'\n'`
         -
                 uuid: 8e4eed22-224d-4cf0-8b3a-c065ddd95af5
@@ -82,12 +82,12 @@ notes:
         -
                 uuid: 6999d50e-6fa4-4157-b6c8-f26f99833261
                 front: "Usage of `trap` to echo when script fails with error"
-                back: >
+                back: |
                         `trap "echo 'Script failed'" ERR`
         -
                 uuid: fcbfa3ec-03fc-441a-8684-e9a159599eac
                 front: Separate subshell, isolating current directory
-                back: >
+                back: |
                         `(cd /some/dir && other-command)`
                 include_reverse: true
         -
@@ -109,13 +109,13 @@ notes:
                 uuid: fcae5b81-b952-48e0-bb72-411aeb870676
                 include_reverse: true
                 front: "Trim suffix of `something` from `$var`"
-                back: >
+                back: |
                         `${name%something}`
         -
                 uuid: f545df66-78eb-425f-8927-33c930b83520
                 front: "Trim prefix of `something` from `$var`"
                 include_reverse: true
-                back: >
+                back: |
                         `${name#something}`
         -
                 uuid: 03792b08-8c8c-47a0-9f45-7cfd5bdebe9f
@@ -124,20 +124,20 @@ notes:
                 include_reverse: true
         -
                 uuid: 387f7eac-dbef-4425-940c-560f98e1ce13
-                front: >
+                front: |
                         Prevent partially downloaded scripts from executing
                         (due to syntax error)
                 markdown: false
-                back: >
+                back: |
                         <code>{<br>code code code ...<br>}</code>
         -
                 uuid: 4ac246ee-7074-4f95-a1f0-3e307f433484
                 front: "Redirect both stdout and stderr to `file`"
-                back: >
+                back: |
                         "`command >file 2>&1` or `command &>file`"
         -
                 uuid: eaa44164-69d1-4fb0-a2ee-e4f63ac120e8
                 front: Literal tab
                 markdown: false
-                back: >
+                back: |
                         <code>$'\t'</code>

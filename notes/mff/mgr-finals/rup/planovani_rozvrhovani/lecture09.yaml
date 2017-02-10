@@ -5,7 +5,7 @@ notes:
         -
                 uuid: 843cd56a-47ff-4481-8592-88550799a8fb
                 front: Jak zlepšit efektivitu plánovacích algoritmů?
-                back: >
+                back: |
                         <ul>
                         <li><i>Heuristiky</i>: problémově závislí průvodci
                         <li><i>Řídící pravidla</i>: problémově závislé
@@ -16,21 +16,21 @@ notes:
         -
                 uuid: 46ae6501-69e7-4fa1-81b1-fb5625a2deb4
                 front: Co po nich chceme?
-                back: >
+                back: |
                         Aby vybraly uzel co nejblíž orákulu (které by problém
                         řešilo deterministicky) a efektivně se počítaly.
         -
                 uuid: c7e7c30e-6fb2-45eb-a397-6e09d38bc968
                 front: Jak je stavět?
-                back: >
+                back: |
                         Relaxací problému
         -
                 uuid: c45fe171-7df7-45f3-af3c-48905fb8ec39
-                front: >
+                front: |
                         Jak vypadají optimalizační heuristiky?
                         Kdy jsou přípustné?
                 markdown: false
-                back: >
+                back: |
                         [$]h(u)[/$] odhaduje [$]h^*(u)[/$] (cenu nejlepšího
                         řešení).
                         Přípustné heuristiky: když [$]h(u)\leq h^*(u)[/$]
@@ -38,7 +38,7 @@ notes:
         -
                 uuid: 2ca2e18f-7d25-406e-9f7b-14e8c5e3f942
                 front: Jak konstruovat heuristiky pro plánování se stavy?
-                back: >
+                back: |
                         Odhadují počet akcí z daného stavu do cíle.
                         <br><br>
                         Vyřešíme relaxovaný problém: uvažujeme jenom pozitivní
@@ -48,7 +48,7 @@ notes:
                 uuid: 70b80436-5f0f-477e-a31c-09d6821a4eb7
                 markdown: false
                 front: Heuristika [$]\Delta_0[/$]
-                back: >
+                back: |
                         <ul>
                         <li>[$]p\in S\longrightarrow \Delta_0(S,p)=0[/$]
                         <li>[$]g\subseteq S\longrightarrow \Delta_0(S,g)=0[/$]
@@ -63,7 +63,7 @@ notes:
         -
                 uuid: 697e6738-7009-4bc5-9667-ccfa303f402d
                 front: Heuristika [$]\\Delta_1[/$]
-                back: >
+                back: |
                         [$]\\Delta_1(S,g)=\\max\\{\\Delta_0(S,p) : p\\in g\\}[/$]
                         <br><br>
                         Když je [$]\\Delta_1[/$] větší než nejlepší
@@ -73,7 +73,7 @@ notes:
                 uuid: e5ab2222-291a-4f40-aa6f-f1cac29c79c3
                 front: Heuristika [$]\Delta_2[/$]
                 markdown: false
-                back: >
+                back: |
                         Dosažitelnost dvojice atomů najednou:
                         <ul>
                         <li>
@@ -95,7 +95,7 @@ notes:
         -
                 uuid: c47c09c2-9fb0-4eaf-81d9-a86626aa0f07
                 front: Souvislost [$]\\Delta_2[/$] s Graphplan
-                back: >
+                back: |
                         Graphplan: navíc mutexy.
                         Můžu ji přizpůsobit víc tím, že když vyrobím dvojici
                         atomů přes dvě nezávislé akce, budu to považovat
@@ -103,13 +103,13 @@ notes:
         -
                 uuid: b2980445-1b00-4847-98e0-532679589b34
                 front: Heuristiky při dopředném plánování
-                back: >
+                back: |
                         Vyber akci, co minimalizuje heuristickou vzdálenost
                         do cíle.
         -
                 uuid: 239fa1b7-7038-452b-a8e9-4def27baba4e
                 front: Heuristiky při zpětném plánování
-                back: >
+                back: |
                         Na úvod vypočtu heuristické vzdálenosti
                         z [$]s_0[/$] do všech atomů: [$]\\Delta(s_0,p)[/$].
                         (Můžu inkrementálně upravovat.)
@@ -118,15 +118,15 @@ notes:
         -
                 uuid: 79e6a08d-3d5c-4cdc-b745-30aebf4f2376
                 front: Heuristika volby kazu k opravě v plánování s plány
-                back: >
+                back: |
                         **FAF** - fewest alternatives first. První oprav
                         kaz, co má nejmíň způsobů opravy.
         -
                 uuid: 4a5562d3-d9f0-4743-aa76-6b23a26bce7b
-                front: >
+                front: |
                         Heuristika způsobu opravy kazu v plánování
                         s plány
-                back: >
+                back: |
                         Podívej se na opravy.
                         <ol type="1">
                         <li> Preferuj plán co má míň otevřených cílů.
@@ -145,9 +145,9 @@ notes:
         -
                 uuid: 3a7b6d4c-d3fb-48c4-b2e6-22eae5ac12de
                 topic: Simple temporal logic
-                front: >
+                front: |
                         [$]\\Phi_1\\cup \\Phi_2[/$]
-                back: >
+                back: |
                         <h3>Až do</h3>
                         [$]\\Phi_2[/$] platí teď nebo v některém příštím stavu,
                         [$]\\Phi_1[/$] platí do té doby
@@ -155,40 +155,40 @@ notes:
         -
                 uuid: 9ff0278d-caa7-444a-9ea1-7dbc84cffe26
                 topic: Simple temporal logic
-                front: >
+                front: |
                         [$]\\square\\Phi[/$]
-                back: >
+                back: |
                         [$]\\Phi[/$] platí teď a v každém z příštích stavů
                 include_reverse: true
         -
                 uuid: 890ed346-46f5-480a-819e-f8a5ac9d2398
                 topic: Simple temporal logic
-                front: >
+                front: |
                         [$]\\diamond\\Phi[/$]
-                back: >
+                back: |
                         [$]\\Phi[/$] platí teď nebo v některém z příštích stavů
                 include_reverse: true
         -
                 uuid: 14d626e6-0f0a-44dd-b618-5649552b0be5
                 topic: Simple temporal logic
-                front: >
+                front: |
                         [$]\\circ\\Phi[/$]
-                back: >
+                back: |
                         [$]\\Phi[/$] platí v následujícím stavu
                 include_reverse: true
         -
                 uuid: 1b8d424f-ae8b-4bb8-9e59-8ec97517930f
                 topic: Simple temporal logic
-                front: >
+                front: |
                         [$]\\mathrm{GOAL}(\\Phi)[/$]
-                back: >
+                back: |
                         [$]\\Phi[/$] (která nesmí mít modální operátory) platí v cílovém stavu
                 include_reverse: true
         -
                 uuid: 5fdaa21c-b61c-40a8-9462-eb25d8f9eb4d
                 topic: Simple temporal logic
                 front: Jak interpretujeme formule?
-                back: >
+                back: |
                         [$] (S,s_i,g)[/$]: [$]S[/$] nekonečná posloupnost
                         stavů, [$]s_i\\in S[/$] aktuální stav,
                         [$]g[/$] je cílová formule.
@@ -198,7 +198,7 @@ notes:
         -
                 uuid: af06ce6a-5276-4437-ba27-90778adf38d1
                 front: Jak postavit řídící pravidlo pro svět kostek
-                back: >
+                back: |
                         [$]goodtower[/$] pro kostku, když pod ní všechno
                         je tak, jak má být podle zadání,
                         postaveno logikou prvního řádu
@@ -210,14 +210,14 @@ notes:
                 uuid: 71676587-fb79-4092-b518-6ab141791160
                 topic: Simple temporal logic
                 front: Jak uděláme progress o jeden stav dál?
-                back: >
+                back: |
                         Rekurzivně; progrese [$]\a, \e[/$]:
                         vyjmenování (closed world assumption).
                         Vyjmenujeme, jak progresovat modální operátory.
         -
                 uuid: 3aeeaaed-0078-431b-84f5-ba5a4c72c0e7
                 front: Řízené plánování
-                back: >
+                back: |
                         Postupně progressem upravuj řídící formuli
                         pro další stavy. Pokud hlásí neúspěch,
                         neexistuje tam plán, co by splnil pravidlo.

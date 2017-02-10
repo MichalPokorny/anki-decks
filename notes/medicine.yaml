@@ -3,12 +3,12 @@ notes:
         -
                 uuid: 0a5c2295-8dc7-4f4b-8a15-744d54743056
                 front: MAOI
-                back: >
+                back: |
                         Monoamine oxidase inhibitor; class of antidepressants
         -
                 uuid: 8eec9b51-5b3c-4afb-aa46-14bf2f49db3f
                 front: monoamine oxidase
-                back: >
+                back: |
                         Enzyme responsible for deamination
                         of monoamine neurotransmitters (e.g., dopamine,
                         noradrenaline, serotonin)
@@ -18,13 +18,13 @@ notes:
         -
                 uuid: c1f99f68-be7b-4845-b266-e70cec3c569e
                 front: Effect of MAO isoenzyme A
-                back: >
+                back: |
                         Deaminates serotonin, norepinephrine, and dopamine
                         (to a lesser extent)
         -
                 uuid: 6bdbd1ca-2d5d-4c5b-81cf-6d1cc29938c2
                 front: Effect of MAO isoenzyme B
-                back: >
+                back: |
                         Breaks down dopamine, phenylethylamine
         -
                 uuid: c5e42de1-7b48-4d88-922c-6dd4b26807f9
@@ -32,27 +32,27 @@ notes:
                 back: Fluoxetine
         -
                 uuid: 8667bada-f930-40c1-bda2-f4386317edcb
-                front: >
+                front: |
                         "Civilising neurotransmitter"
                 back: Serotonin
         -
                 uuid: 89123037-c2b3-4644-a3dd-f76115f72c4e
                 front: Germ line
-                back: >
+                back: |
                         Series of germ cells each descended or developed from
                         earlier cells in series, regarded as continuing through
                         successive generations of an organism
         -
                 uuid: a8c7debe-ab4b-4207-9869-6948a1a78f3a
                 front: Enuresis
-                back: >
+                back: |
                         involuntary urination, especially by children at night
 
 # TODO: https://en.wikipedia.org/wiki/Mesolimbic_pathway
         -
                 uuid: 9d3d6899-03b8-495c-ae8b-762891ac5806
                 front: FAST
-                back: >
+                back: |
                         Stroke symptoms.
                         <ul>
                         <li> <i>Face</i>: Smile! Does one side of face droop?

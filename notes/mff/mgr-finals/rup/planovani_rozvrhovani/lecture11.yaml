@@ -5,7 +5,7 @@ notes:
         -
                 uuid: b9a2dae1-c932-4820-92b3-179e55999d27
                 front: Proměnné obecně
-                back: >
+                back: |
                         Pozice aktivity [$]A[/$] v čase a prostoru:
                         <br>
                         Alokace času:
@@ -15,13 +15,13 @@ notes:
         -
                 uuid: e448ab91-b4b9-4781-b0c0-b0cb3609e777
                 front: Domény obecně
-                back: >
+                back: |
                         Termín dostupnosti a uzávěrka pro časové proměnné.
                         Pro zdrojové proměnné alternativní zdroje.
         -
                 uuid: 041852a7-775d-448d-92ff-20ad7f8dc26f
                 front: Podmínky obecně a jejich znění
-                back: >
+                back: |
                         <ul>
                         <li>
                         *Start a konec*:
@@ -37,7 +37,7 @@ notes:
         -
                 uuid: 94cae0b9-a992-420b-9513-16bcbf48aebc
                 front: Rozdílný význam slova "zdroj" v plánování a rozvrhování
-                back: >
+                back: |
                         Rozvrhování: stroj/prostor na zpracování aktivity.
                         <br>
                         Plánování: materiál konzumovaný/produkovaný
@@ -46,7 +46,7 @@ notes:
         -
                 uuid: 76e10668-a862-49c8-96e6-afaa99a997ce
                 front: Typy zdrojů
-                back: >
+                back: |
                         <ul>
                         <li> *Unární*: jedna aktivita najednou
                         <li> *Kumulativní*: několik aktivit najednou,
@@ -59,7 +59,7 @@ notes:
         -
                 uuid: 04a4d494-5890-421d-a73e-8f028f9a7649
                 front: Jednoduché podmínky pro unární zdroj
-                back: >
+                back: |
                         [$]A\\ll B \\vee B\\ll A[/$]:
                         [$]\\mathrm{end}(A)\\leq\\mathrm{start}(B)\\vee\\mathrm{end}(B)\\leq\\mathrm{start}(A)[/$]
                         <br><br>
@@ -67,7 +67,7 @@ notes:
         -
                 uuid: 6ae83133-e30d-4683-a98c-58170caa7086
                 front: Edge finding, složitost
-                back: >
+                back: |
                         "Co se stane, když nebude aktivita první?"
                         <br><br>
                         [$][\\min(start(\\Omega))+p(\\Omega)+p(A) > \\max(end(\\Omega\\cup\\{A\\}))] \\Rightarrow A \\ll \\Omega[/$]
@@ -81,7 +81,7 @@ notes:
         -
                 uuid: d1fff34e-f56a-4537-98bc-ff9059b882db
                 front: Not-first/not-last, složitost
-                back: >
+                back: |
                         [$][\\min(start(A))+p(A)+p(\\Omega) > \\max(end(\\Omega))] \\Rightarrow \\neg (A \\ll \\Omega)[/$]
                         <br>
                         [$]\\neg (A\\ll \\Omega) \\Rightarrow [start(A)\\geq\\min\\{end(B):B\\in\\Omega\\}][/$]
@@ -96,7 +96,7 @@ notes:
                 uuid: 102943b9-fb2b-441a-ba9b-f1486b84f262
                 front: Tabulkové podmínky pro kumulativní zdroje
                 markdown: false
-                back: >
+                back: |
                         Diskrétní čas.
                         <br>
                         Tabulka pro [$]A[/$]: Booleovské proměnné [$]X(A,t)[/$]
@@ -126,11 +126,11 @@ notes:
         -
                 uuid: 7d479ae4-3515-4056-809f-740b49ac4eb1
                 markdown: false
-                front: >
+                front: |
                         Tabulkové podmínky - jak filtrovat přes
                         [$]\a t,i: start(A_i)\leq t < end(A_i)\leftrightarrow X(A_i,t)[/$]
                         a co je za problém?
-                back: >
+                back: |
                         Problém: [$]t[/$] je index i proměnná.
                         <ul>
                         <li> [$]start(A)\geq\min\{t: ub(X(A,t))=1\}[/$]
@@ -144,10 +144,10 @@ notes:
                         </ul>
         -
                 uuid: e1c46ddc-b10c-443b-814d-f11a710c8e89
-                front: >
+                front: |
                         Jak modelovat použití alternativních zdrojů
                         pro aktivitu?
-                back: >
+                back: |
                         Pro zdroj uděláme duplikát, co se účastní
                         podmínek, ale neomezuje další aktivity na zdroji.
                         <br><br>
@@ -162,7 +162,7 @@ notes:
                 uuid: 401c4dfd-1c3e-490a-a300-c6b9c700fbed
                 front: Formálně - aktivity na alternativních zdrojích
                 markdown: false
-                back: >
+                back: |
                         [$]A_u[/$] je duplikát na [$]u[/$].
                         <ul>
                         <li>
@@ -179,25 +179,25 @@ notes:
                         Realizace konstruktivní disjunkce mezi zdroji.
         -
                 uuid: 3d2d9a4e-f827-4931-bcd1-b386f59b5896
-                front: >
+                front: |
                         Jak propagovat když máme jenom relativní uspořádání?
-                back: >
+                back: |
                         Edge-finding, agregované požadavky nic neodvodí.
                         Můžeme něco zjistit o uspořádání
                         pomocí *optimistických a pesimistických profilů*.
         -
                 uuid: 68c19705-fa0e-4e77-9038-5e04482b7bd8
                 topic: Optimistické a pesimistické profily
-                front: >
+                front: |
                         Značení: Produkovaná kladná/záporná kvantita
-                back: >
+                back: |
                         [$]\\mathrm{prod}(A)[/$]
         -
                 uuid: 8392b215-a2bb-4f8c-89ab-6eff6fe915cc
                 topic: Optimistické a pesimistické profily
-                front: >
+                front: |
                         Definice: Optimistický profil (orp)
-                back: >
+                back: |
                         Maximální úroveň zdroje po [$]A[/$].<br><br>
                         Co *musí* být před [$]A[/$] se vezme
                         s produkcí, co *může* být před [$]A[/$].
@@ -208,9 +208,9 @@ notes:
         -
                 uuid: b374f576-e3c0-44d6-81f2-f269fc014742
                 topic: Optimistické a pesimistické profily
-                front: >
+                front: |
                         Definice: Pesimistický profil (prp)
-                back: >
+                back: |
                         Minimální úroveň zdroje po [$]A[/$].<br><br>
                         Co *musí* být před [$]A[/$] se vezme
                         s konzumací, co *může* být před [$]A[/$].
@@ -223,7 +223,7 @@ notes:
                 topic: Optimistické a pesimistické profily
                 front: ORP, PRP filtrace
                 markdown: false
-                back: >
+                back: |
                         <ul>
                         <li>
                         [$]\mathrm{orp}(A) < \mathrm{MinLevel}\Rightarrow
@@ -244,7 +244,7 @@ notes:
                 uuid: bc34db6d-232d-4e3b-b18f-5eecf3bd72a1
                 topic: Rozvrhovací strategie
                 front: Jak budu postupovat obecně?
-                back: >
+                back: |
                         Jako první kritická rozhodnutí: first-fail, vyřeš
                         bottlenecky.
                         <br>
@@ -252,10 +252,10 @@ notes:
         -
                 uuid: 99dc6e1a-c86d-4efa-8d6b-fc7d7182ec1a
                 topic: Rozvrhovací strategie
-                front: >
+                front: |
                         Definice: <i>Slack</i>
                 markdown: false
-                back: >
+                back: |
                         Pro [$]A\ll B[/$]:
                         [$]\mathrm{slack}(A\ll B)=\max(end(B))-\min(start(A))-p(\{A,B\})[/$]
                         <br><br>
@@ -269,7 +269,7 @@ notes:
                 topic: Rozvrhovací strategie
                 front: Uspořádání větví podle slacku; kolik je bodů volby?
                 markdown: false
-                back: >
+                back: |
                         První plánuj pár aktivit co je
                         nejkritičtější &mdash; [$]\min \mathrm{slack}(\{A,B\})[/$].
                         <br><br>
@@ -280,7 +280,7 @@ notes:
                 uuid: b59ddcf8-a6c9-40fa-ba71-9c23aafadc23
                 topic: Rozvrhovací strategie
                 front: Větvení první/poslední; kolik je bodů volby?
-                back: >
+                back: |
                         Hledat první, nebo poslední aktivitu?
                         Rozhodnu podle toho, co má míň kandidátů.
                         <ul>
@@ -295,9 +295,9 @@ notes:
         -
                 uuid: 5e04364e-8173-4065-8383-917dfc597500
                 topic: Rozvrhovací strategie
-                front: >
+                front: |
                         Co je <i>zdrojový slack</i>, jak se použije?
-                back: >
+                back: |
                         Slack množiny aktivit zpracovávaných zdrojem.
                         <ul>
                         <li>

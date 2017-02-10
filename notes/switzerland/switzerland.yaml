@@ -3,20 +3,20 @@ topic: Switzerland
 notes:
         -
                 uuid: d62ecb00-62f9-4e00-99db-e1ca07d41660
-                front: >
+                front: |
                         Number: Languages
                 back: Four
         -
                 uuid: c197d838-1609-478f-9ef1-9a03bde6544d
-                front: >
+                front: |
                         %: foreign population
                 back: 20%
         -
                 uuid: eefd2455-aacd-411d-bb27-89596841f601
-                front: >
+                front: |
                         What was Switzerland like in the middle of 20th
                         century? Contrast with today?
-                back: >
+                back: |
                         Poor, obscure, inhospitable terrain, few exports.
                         <br>
                         Today:
@@ -30,26 +30,26 @@ notes:
         -
                 uuid: c33adc9f-e123-490c-b16b-0f398621d1b6
                 front: What's the population age like?
-                back: >
+                back: |
                         Low birth rate, ageing population
         -
                 uuid: 0eb022ca-988d-4ffa-a029-7f38e3376d72
                 front: What is the proportion of people in cities like, and what was it like in the past?
-                back: >
+                back: |
                         High; 100 years ago, Switzerland was mostly rural
         -
                 uuid: 7b45b010-9746-4194-b0c0-a1290f68d12e
-                front: >
+                front: |
                         Division of communities by language
                 back: German, French, Italian
         -
                 uuid: 7c6fbebc-d1ab-418b-be50-f831a246d82e
-                front: >
+                front: |
                         Number: Cantons
                 back: 26
         -
                 uuid: fd41fe4c-eef4-4052-b31d-3b037ec847c3
-                front: >
+                front: |
                         % Romansch speakers
                 back: 1%
         -
@@ -58,9 +58,9 @@ notes:
                 back: Romansch
         -
                 uuid: fd67333d-1fd0-4564-8f94-0cd2a29fa6e1
-                front: >
+                front: |
                         Division of cantons by religion
-                back: >
+                back: |
                         Protestant/Catholic majority
         -
                 uuid: 3d38ba92-6fe8-4c5e-92f7-974ff0654a1d
@@ -69,7 +69,7 @@ notes:
         -
                 uuid: 6ae2e5a6-b52c-470e-a881-e95d44f937b5
                 front: How did the proportion of people employed in the service sector move in the 20th century?
-                back: >
+                back: |
                         39% &rarr; 73%
         -
                 uuid: 2d2c41c7-4e93-4adb-a1e3-bf477ce22d26
@@ -82,29 +82,29 @@ notes:
         -
                 uuid: fba6a9a7-63bb-4d29-bcf3-0957fba1b79e
                 front: Significant religious historical event? Results?
-                back: >
+                back: |
                         Centre of Protestant Reformation, years of warfare
                         between Catholics and Protestants.
                         Religion is a private concern, rarely discussed
                         in public.
         -
                 uuid: 43719fef-c92d-4b5f-b626-143b8906467a
-                front: >
+                front: |
                         Meaning of abbreviation: SA
                 back: Société anonyme (corporation)
         -
                 uuid: 556ad91f-410b-4b16-bcb4-05799d805986
-                front: >
+                front: |
                         Meaning of abbreviation: AG
                 back: Aktiengesselschaft (corporation)
         -
                 uuid: 30e606be-bfd8-430e-9174-9d7b80864bf6
-                front: >
+                front: |
                         Meaning of abbreviation: SARL
                 back: Société a responsabilité limitée (limited liability company)
         -
                 uuid: 71cbc5c2-2e5d-4d3f-affa-45cacc8f09ef
-                front: >
+                front: |
                         Meaning of abbreviation: GmbH
                 back: Gesellschaft mit beschränkter Haftung (limited liability company)
         -
@@ -130,7 +130,7 @@ notes:
         -
                 uuid: f50427ae-06f0-40b7-86e0-b088a2bbddb4
                 front: Where does the Federation have authority?
-                back: >
+                back: |
                         Foreign and security policy,
                         country-wide legislation.
                         Everything not explicitly handled by the federation
@@ -141,29 +141,29 @@ notes:
                 back: 1979
         -
                 uuid: 65033991-9f08-4819-baa2-7f9a973b5a81
-                front: >
+                front: |
                         List: Cantons divided into half-cantons
-                back: >
+                back: |
                         Unterwalden, Appenzell, Basel
         -
                 uuid: 728410b8-4d11-4978-ac54-6a878dd89b96
                 front: Government structure of Cantons
-                back: >
+                back: |
                         Each canton and half-canton has its own constitution,
                         parliament, government and courts.
         -
                 uuid: d7304f7e-60d2-4bad-8f08-724906cf538b
-                front: >
+                front: |
                         Number: Members of cantonal parliaments
                 back: 58 - 200
         -
                 uuid: a84d4899-7c12-4084-be7f-3f66b65fc883
-                front: >
+                front: |
                         Number: Members of cantonal governments
                 back: 5, 7, or 9
         -
                 uuid: 909ccb0b-bbf5-4c16-a1b2-e6727ae59700
-                front: >
+                front: |
                         Number: French-speaking cantons
                 back: 6
         -
@@ -173,7 +173,7 @@ notes:
         -
                 uuid: b201cfb6-ae19-4d3c-a01c-9cc61ab36a72
                 front: Which canton has a Romansch-speaking community?
-                back: >
+                back: |
                         Graubünden (or Grisons), in the south east
         -
                 uuid: 3b25a6e8-4bb5-4be7-b97c-92ddd168d2b1
@@ -186,7 +186,7 @@ notes:
         -
                 uuid: a9493559-85d8-4302-938a-f8595ad92760
                 front: The 26 cantons
-                back: >
+                back: |
                         Aargau, Appenzell Ausser-Rhoden, Appenzell Inner-Rhoden,
                         Basel-Landschaft, Basel-Stadt, Bern, Fribourg, Geneve,
                         Glarus, Graubunden, Jura, Luzern, Neuchatel, Nidwalden,
@@ -198,39 +198,39 @@ notes:
                 back: The Federal Council
         -
                 uuid: 69585afe-8c3d-47dc-882d-79d88d672c20
-                front: >
+                front: |
                         Number: Federal Councillors
                 back: 7
         -
                 uuid: c0870498-0c0a-4f0c-81c2-1d788fb9bca0
-                front: >
+                front: |
                         Interval: election of Federal Councillors
                 back: Every 4 years
         -
                 uuid: a97dd147-defc-4071-9b18-5c8e614a59be
                 front: How do Federal Councillors share responsibility?
-                back: >
+                back: |
                         They aren't MPs. They share collegiate responsibility.
         -
                 uuid: 69712b00-423a-4e8e-9bfa-00b77f438106
                 front: Which senior civil servants have ministerial responsibilities?
-                back: >
+                back: |
                         'State Secretaries'
         -
                 uuid: 447bbe52-d20e-4220-bd92-dbdc76af3306
                 front: How is the Chairmanship picked?
-                back: >
+                back: |
                         Rotated every year, holder is President of
                         the Confederation
         -
                 uuid: 3a907fc4-1ee6-4e69-a177-ba4d3271151e
                 front: Swiss president, when does the term end
-                back: >
+                back: |
                         Doris Leuthard; Jan 1 2018
         -
                 uuid: f6d047f4-ef58-4a6e-bdab-03668ef3eca1
                 front: Swiss export revenues
-                back: >
+                back: |
                         Over 1/2: mechanical/electrical engineering, chemicals
                         <br><br>
                         Example industries:
@@ -243,12 +243,12 @@ notes:
                 back: Germany, then France, Italy and UK
         -
                 uuid: deb50b74-3581-4c7d-86f0-d74d8756def2
-                front: >
+                front: |
                         % of exports to EU countries (2000)
                 back: 38%
         -
                 uuid: a41c857b-7d50-4b7c-be85-c50defcf9675
-                front: >
+                front: |
                         % of imports from EU countries (2000)
                 back: 51%
         -
@@ -270,7 +270,7 @@ notes:
         -
                 uuid: 80ef632e-e48b-43f3-b720-4d52ef92c043
                 front: Court of last resort
-                back: >
+                back: |
                         Swiss Federal Supreme Court in Lausanne
         -
                 uuid: e3fc3c8a-7c8c-4df8-b1c4-7503a111cb14
@@ -280,7 +280,7 @@ notes:
                 uuid: a0235c3c-cbb1-41a6-b0e2-c3e861a3a292
                 front: Population density
                 markdown: true
-                back: >
+                back: |
                         [$]200\ \mathrm{people}/\mathrm{km}^2[/$] (dense)
         -
                 uuid: 88e4e8bd-af16-4ce4-b286-a3d0ddef0be5
@@ -300,22 +300,22 @@ notes:
                 back: Catholics (these areas were poor ~50 years ago).
         -
                 uuid: 1adad615-c508-449c-aa18-d5677f0ca98b
-                front: >
+                front: |
                         % German speakers
                 back: 63.5%
         -
                 uuid: 021c43c0-87d9-4a45-af75-eb926d79350c
-                front: >
+                front: |
                         % French speakers
                 back: 22.5%
         -
                 uuid: 4270c637-077a-4922-a225-97b67c571517
-                front: >
+                front: |
                         % Italian speakers
                 back: 8.1%
         -
                 uuid: ad741b47-f3d8-4649-bddc-a3c4a3e16d5a
-                front: >
+                front: |
                         % English speakers
                 back: 4.4%
         -
@@ -516,18 +516,18 @@ notes:
                 back: Il vino
         -
                 uuid: 0b1ee78e-8e4d-48bc-9a5f-79e386ec7834
-                front: >
+                front: |
                         Length: Longest rail tunnel in the world
                 back: 57 km
         -
                 uuid: d2ff5790-0cd3-4776-a58d-3bb8f0b47b03
-                front: >
+                front: |
                         Duration: Construction of the longest rail tunnel
                 back: 17 years
         -
                 uuid: b3c23592-bd31-4ffe-b4be-8d9641c8d6d4
                 front: What does the longest rail tunnel link? What's its name?
-                back: >
+                back: |
                         Northern and southern Europe,.under the Swiss Alps<br><br>
                         Gotthard Base Tunnel
         -
@@ -537,17 +537,17 @@ notes:
         -
                 uuid: 84b9a250-6651-4770-808a-d4682364a686
                 front: Division of frank
-                back: >
+                back: |
                         100 centimes
         -
                 uuid: bee20e91-01e8-4217-a675-69af453861a1
                 front: Note denominations
-                back: >
+                back: |
                         10, 20, 50, 100, 200, 500, 1000 CHF
         -
                 uuid: bd6fe8ce-afde-4006-a55b-6042240a422d
                 front: Coin denominations
-                back: >
+                back: |
                         50 centimes, 1, 2, 5 CHF
         -
                 uuid: 3133dab8-878b-4fd1-9023-e167a3285261
@@ -560,7 +560,7 @@ notes:
         -
                 uuid: af04fbbe-824a-40d1-8cb1-df842f5cb8be
                 front: How to make a good impression?
-                back: >
+                back: |
                         Be honest, straightforward, serious, logical.
                         Dress conservatively, with clean shoes.
                         Show up on time.
@@ -569,7 +569,7 @@ notes:
         -
                 uuid: 6a6b0917-cb29-4076-b3ac-11e6693f90ff
                 front: Social norm on personal questions
-                back: >
+                back: |
                         Age, income, family circumstances etc. are taboo.
                         Don't ask too many personal questions.
         -
@@ -607,7 +607,7 @@ notes:
         -
                 uuid: 9ad2b0ef-6260-4dd1-83ab-e4f73c5e0823
                 front: Taboo topics
-                back: >
+                back: |
                         Swiss neutrality, role during both world wars,
                         women's rights
                 include_reverse: true
@@ -634,20 +634,20 @@ notes:
         -
                 uuid: da309401-3a20-46d3-9bc2-9bbc2cc662ab
                 front: Decision style
-                back: >
+                back: |
                         Concensus (referendums, debates, detailed exchanges);
                         affected people always consulted beforehand;
                         decisions made are not changed
         -
                 uuid: 02a0848e-4fd0-4792-9c06-b7cea2e47a1e
                 front: Length of compulsory military service
-                back: >
+                back: |
                         90 days initially, 19 days every 2 years until the age
                         of 42
         -
                 uuid: 9e9ccad2-4442-4d55-a837-7001c937bf87
                 front: Delivering feedback
-                back: >
+                back: |
                         Allow the other person to save face while spelling out
                         the facts.
                         Give it one-on-one.
@@ -662,7 +662,7 @@ notes:
         -
                 uuid: d176a9fa-2ed7-43bc-bdea-fa45dd36f67d
                 front: In negotiations, the Swiss have a reputation for ... without ...
-                back: >
+                back: |
                         getting the best deal out of opponents without
                         appearing aggressive or demanding
         -
@@ -676,14 +676,14 @@ notes:
         -
                 uuid: c7c2441b-6515-466a-874a-d853ae45e22e
                 front: In negotiations, you should avoid ...; instead, emphasize ... and stay ...
-                back: >
+                back: |
                         avoid pressurizing them in negotiations. Instead
                         emphasize the quality of your offer and stay calm and
                         consistent.
         -
                 uuid: 8152bb3f-e01d-4423-bd71-3e7572bb44e0
                 front: Allow your Swiss counterparts to ... - who ..., who ...
-                back: >
+                back: |
                         Allow your Swiss counterparts to put you in context -
                         who you've worked with in the past, who you know in
                         Switzerland.
@@ -694,7 +694,7 @@ notes:
         -
                 uuid: 54795e30-dad9-40d7-938b-dfab565bf9c6
                 front: ... and ... are important virtues and ... is equated with ...
-                back: >
+                back: |
                         Modesty and humility are important virtues and clarity
                         is equated with sincerity.
         -

@@ -4,16 +4,16 @@ uid_tag: cs/languages/c
 notes:
         -
                 uuid: 225318ea-ab7c-40a0-9ef8-cfdb6f12d963
-                front: >
+                front: |
                         Prototype: `freopen`
-                back: >
+                back: |
                         `FILE* freopen(const char *path, const char *mode,
                         FILE *stream);`
         -
                 uuid: 3e3edb38-49f4-4985-9c86-a4196a661302
-                front: >
+                front: |
                         Change `stdin` to point to `soubor.in`
-                back: >
+                back: |
                         `freopen("soubor.in", "r", stdin);`
         -
                 uuid: 9571b5f1-8784-4da8-b045-87f075a06e80
@@ -22,33 +22,33 @@ notes:
                 include_reverse: true
         -
                 uuid: 5c75c7e5-136d-400f-b46b-0c28ced1ef5f
-                front: >
+                front: |
                         `free` behavior on `NULL`
-                back: >
+                back: |
                         OK. If `ptr` is `NULL`, no operation is performed.
         -
                 uuid: f14bead7-c952-46f7-a719-081fc576adea
-                front: >
+                front: |
                         GCC - destroy some identifier(s) forever
-                back: >
+                back: |
                         `#pragma GCC poison (identifiers)`
                 include_reverse: true
         -
                 uuid: 96c6d7a7-28dd-4ca4-8beb-33b064697729
                 front: GCC - warn on misleading indentation
-                back: >
+                back: |
                         `gcc -Wmisleading-intentation`
                 include_reverse: true
         -
                 uuid: be5643b2-4dc9-4a78-a704-0247a081f646
                 front: No-return header
-                back: >
+                back: |
                         `stdnoreturn.h`;
                         provides `noreturn` macro.
         -
                 uuid: fcfdf4e1-4df9-4f1e-ab04-dc01f5f68626
                 front: Shortest crashing C program
-                back: >
+                back: |
                         `main;` (from `int main = 0;` &rarr; `main=0;` &rarr;
                         `main;`)
         -
@@ -66,7 +66,7 @@ notes:
         -
                 uuid: cec698e8-7ad2-4403-8483-732eeedff415
                 topic: "C - `printf`"
-                front: >
+                front: |
                         Print number with `-`, or `' '` for positives
                         (print ' 42')
                 back: '`printf("% d\n", 42);'
@@ -74,371 +74,371 @@ notes:
         -
                 uuid: 045dfdd5-d388-49be-9c1d-d9c273fb855d
                 topic: "C - `printf`"
-                front: >
+                front: |
                         Print float in hexadecimal form (`0x1.91eb86p+1`)
-                back: >
+                back: |
                         `printf("pi=%a\n", 3.14);`
                 include_reverse: true
         -
                 uuid: 5f76b470-81f4-4583-9885-4a9c70a34c7b
                 topic: "C - `printf`"
-                front: >
+                front: |
                         Print out `0x1a`, without `0x` in format string
-                back: >
+                back: |
                         `printf("%#X\n", 26);`
                 include_reverse: true
         -
                 uuid: d38c2530-3182-42dc-bde9-40b3b2b06549
                 topic: "C - `printf`"
-                front: >
+                front: |
                         Print out `013` as octal representation of 11, without
                         `0` in format string
-                back: >
+                back: |
                         `printf("%#o\n", 11);`
                 include_reverse: true
         -
                 uuid: 78a17c8f-f85c-4259-9984-db789c5226ec
-                front: >
+                front: |
                         `calloc`
-                back: >
+                back: |
                         `void *calloc(size_t nmemb, size_t size);`; allocates
                         memory, like `malloc`
         -
                 uuid: a4889ec5-e7da-426d-b30d-6fa603ca9369
-                front: >
+                front: |
                         Dynamically allocate heap memory for an array
-                back: >
+                back: |
                         `void *calloc(size_t nmemb, size_t size);`;
                         allocates memory, like `malloc`
         -
                 uuid: dbbf9846-47ad-41ed-be45-5d80d95d152c
-                front: >
+                front: |
                         `realloc`
-                back: >
+                back: |
                         `void *realloc(void *ptr, size_t size);`, `ptr` may be
                         `NULL`
         -
                 uuid: c0adc25a-a57e-4b51-93f9-54a398bc8e65
-                front: >
+                front: |
                         Return value: `realloc`
-                back: >
+                back: |
                         Reallocated pointer or `NULL` on failure
         -
                 uuid: 8043cfc6-53c9-4e64-b218-190972f45b35
-                front: >
+                front: |
                         Purpose: `asprintf`
-                back: >
+                back: |
                         Allocate large enough string and sprintf into it.
                         `*strp` should be `free`'d.
         -
                 uuid: 497474dd-48e8-4192-91ed-1b95c5bb8ad4
-                front: >
+                front: |
                         Prototype: `asprintf`
-                back: >
+                back: |
                         `int asprintf(char **strp, const char *fmt, ...);`;
                         `*strp` should be `free`'d.
         -
                 uuid: eeea08a7-7634-4bd1-a2a5-5bd5559d704f
-                front: >
+                front: |
                         Return value: `asprintf`
-                back: >
+                back: |
                         Number of bytes printed, -1 on error.
         -
                 uuid: 2a95993b-127a-43f2-85f8-d2e4db5c6031
-                front: >
+                front: |
                         Function: Allocate large enough string and `sprintf`
                         into it
-                back: >
+                back: |
                         `asprintf`
         -
                 uuid: 5cdd8d57-3c25-4ed5-bf3c-657765c1d978
-                front: >
+                front: |
                         What does `puts("hello");` do?
-                back: >
+                back: |
                         Writes `hello` and a newline to `stdout`.
         -
                 uuid: a55e3141-8c90-4818-9fe0-60e3291fb678
-                front: >
+                front: |
                         What to do with continuation markers in multi-line
                         macro bodies?
-                back: >
+                back: |
                         Right-align them
         -
                 uuid: 6c110fe4-7a9a-4224-b339-c00e6d861323
-                front: >
+                front: |
                         Why to use `reallocarray`
-                back: >
+                back: |
                         Because `num * size` in `malloc`/`realloc` call
                         might lead to overflow
         -
                 uuid: aa38673f-d63e-4502-8bb4-2dd32641f85c
-                front: >
+                front: |
                         Prototype: `reallocarray`
-                back: >
+                back: |
                         `void* reallocarray(void *ptr, size_t nmemb,
                         size_t size);`
         -
                 uuid: ef449a86-449d-4792-bccc-4a632666b326
-                front: >
+                front: |
                         Function: Zero out memory without allowing
                         de-optimizing it away (e.g., passwords)"
-                back: >
+                back: |
                         `explicit_bzero`
         -
                 uuid: d32ea83d-9075-4db1-aedb-3401655af5d6
-                front: >
+                front: |
                         Purpose: `explicit_bzero`
-                back: >
+                back: |
                         Zero out memory without allowing de-optimizing it away
                         (e.g., passwords).
         -
                 uuid: 67eef6ce-f5cc-44d3-b8a0-56e9218d9762
-                front: >
+                front: |
                         Prototype: `explicit_bzero`
-                back: >
+                back: |
                         `void explicit_bzero(void *buf, size_t len);`
         -
                 uuid: 59810d5e-9dc4-41d7-adc9-3e6d660d03bc
-                front: >
+                front: |
                         Purpose: `pread`/`pwrite`"
-                back: >
+                back: |
                         Syscall. Read from or write to file descriptor at offset.
         -
                 uuid: 022b7d1f-28f1-4a2e-8952-000810c95de2
-                front: >
+                front: |
                         Prototype: `pread`
-                back: >
+                back: |
                         `ssize_t pread(int fd, void *buf, size_t count,
                         off_t offset);`
         -
                 uuid: c4f994e8-6a33-457c-99d1-8e352159a0b9
-                front: >
+                front: |
                         Prototype: `pwrite`
-                back: >
+                back: |
                         `ssize_t pwrite(int fd, const void *buf, size_t count,
                         off_t offset);`
         -
                 uuid: 7891141a-ffca-44d5-897f-4aa7949699c2
-                front: >
+                front: |
                         Return value: `pread`/`pwrite`
-                back: >
+                back: |
                         Number of bytes read/written, -1 and `errno` on error
         -
                 uuid: 86211708-d20a-408f-8bdc-c6491b5f95bd
-                front: >
+                front: |
                         Header file: `pread`/`pwrite`
-                back: >
+                back: |
                         `unistd.h`
         -
                 uuid: c1a580b9-96b2-4eff-be6b-3c6ccbda0895
                 front: Syscalls to read/write to/from fd at a given offset.
-                back: >
+                back: |
                         `pread`/`pwrite`
         -
                 uuid: 7902232c-9ff9-452d-b6e7-d9b98e47694c
-                front: >
+                front: |
                         Prototype: `strtoul`
-                back: >
+                back: |
                         `unsigned long strtoul(const char *nptr,
                         char **endptr, int base);`
         -
                 uuid: 3c90726c-d18b-48e8-9900-95a98cd144d9
-                front: >
+                front: |
                         Prototype: `strtoull`
-                back: >
+                back: |
                         `unsigned long long strtoull(const char *nptr,
                         char **endptr, int base);`
         -
                 uuid: 755ac515-caf8-4540-83dc-0a7e0592dcb7
-                front: >
+                front: |
                         Header file: `strtoul`/`strtoull`
-                back: >
+                back: |
                         `stdlib.h`
         -
                 uuid: 04dc7855-80e5-494f-a124-f025b1f7fb3c
-                front: >
+                front: |
                         Function: Aligned allocation
-                back: >
+                back: |
                         `aligned_alloc`
         -
                 uuid: baa7e79c-a298-4560-8057-08a04a6b838d
-                front: >
+                front: |
                         Prototype: `aligned_alloc`
-                back: >
+                back: |
                         `void* aligned_alloc(size_t alignment, size_t size);`
         -
                 uuid: da0e1898-3a2a-47f0-8dd7-1367a9e6d8de
-                front: >
+                front: |
                         Function: Abnormal program termination
-                back: >
+                back: |
                         `abort`
         -
                 uuid: 26548f2b-153f-412d-b643-48f5269e8a85
-                front: >
+                front: |
                         `abort` vs. `exit`
-                back: >
+                back: |
                         `abort` does not execute cleanup registered
                         with `atexit`/`on_exit`
         -
                 uuid: c2b5e44b-ded0-4516-8357-30a984312ca9
-                front: >
+                front: |
                         Prototype: `abort`
-                back: >
+                back: |
                         `void abort(void);`
         -
                 uuid: 5313d46c-bfd6-4df6-b5cb-a09c6719291e
-                front: >
+                front: |
                         Prototype: `on_exit`
-                back: >
+                back: |
                         `int on_exit(void (*func)(int status, void* arg), void* arg);`
         -
                 uuid: 8a844549-6d50-4298-a0c9-7fe9dcb324b1
-                front: >
+                front: |
                         Return value: `on_exit`
-                back: >
+                back: |
                         0 if successful; otherwise a non-zero value
         -
                 uuid: 4e115dd0-9127-4aa3-9c5a-a0b11f926cd0
-                front: >
+                front: |
                         Prototype: `exit`
-                back: >
+                back: |
                         `void exit(int status);`
         -
                 uuid: b31f5f9e-13af-49ce-9f5c-dc232b24968f
-                front: >
+                front: |
                         Header file: `aligned_alloc`
-                back: >
+                back: |
                         `stdlib.h`
         -
                 uuid: cb1bc220-5300-401c-b1dd-7b1670a8f134
-                front: >
+                front: |
                         Prototype: `getenv`
-                back: >
+                back: |
                         `char* getenv(const char* name);`
         -
                 uuid: 9c551eeb-8d9f-4361-8f38-cf7ba9040770
-                front: >
+                front: |
                         Header file: `getenv`
-                back: >
+                back: |
                         `stdlib.h`
         -
                 uuid: 2a2fe7fa-951c-4a4c-a9c5-779dd6b32d97
-                front: >
+                front: |
                         Difference between `getenv` and `secure_getenv`
-                back: >
+                back: |
                         `secure_getenv` returns `NULL` if program is running
                         SUID or SGID enabled
         # TODO: mktemp
         -
                 uuid: 19fce40a-e6a6-48f6-8d29-7ac5d9034176
-                front: >
+                front: |
                         Header file: `system`
-                back: >
+                back: |
                         `stdlib.h`
         -
                 uuid: e4aff9e2-3483-426f-acfa-1b40fd99082b
-                front: >
+                front: |
                         Prototype: `bsearch`
-                back: >
+                back: |
                         `void* bsearch(const void* key, const void* base, size_t nmemb, size_t size, compar_fn_t compar);`
         -
                 uuid: 8c5e694c-3aee-493b-8cf1-422782623e40
-                front: >
+                front: |
                         Header file: `bsearch`
-                back: >
+                back: |
                         `stdlib.h`
         -
                 uuid: 0b36c8f7-3cc5-452b-b8d6-3f49de005f2e
-                front: >
+                front: |
                         Header file: `qsort`
-                back: >
+                back: |
                         `stdlib.h`
         -
                 uuid: d2c0ce67-81a7-4e99-9b8a-b82116859dc7
-                front: >
+                front: |
                         Header file: `qsort_r`
-                back: >
+                back: |
                         `stdlib.h`
         -
                 uuid: b814bd2a-dd44-40f1-9869-517a4ea16780
-                front: >
+                front: |
                         Prototype: `qsort`
-                back: >
+                back: |
                         `void qsort(void* base, size_t nmemb, size_t size, compar_fn_t compar);`
         -
                 uuid: 16212c66-3796-4567-90b2-1e06366c5d4f
-                front: >
+                front: |
                         Header file: `abs`
-                back: >
+                back: |
                         `stdlib.h`
         -
                 uuid: 405e13c2-106c-4714-b459-1922f6c8229a
-                front: >
+                front: |
                         Function: `abs` for `long`s
-                back: >
+                back: |
                         `labs`
         -
                 uuid: 4ffbdbe2-3961-4c51-842d-30e1847d4c9a
-                front: >
+                front: |
                         Macro: `e`
-                back: >
+                back: |
                         `M_E`
                 include_reverse: true
         -
                 uuid: ca633d33-1fbf-4486-a971-8bcbfdfce8a5
-                front: >
+                front: |
                         Macro: [$]\\pi[/$]
-                back: >
+                back: |
                         `M_PI`
                 include_reverse: true
         -
                 uuid: 17123a8d-b028-4de9-875c-a9270f8417b6
-                front: >
+                front: |
                         Macro: [$]\\pi/2[/$]
-                back: >
+                back: |
                         `M_PI_2`
                 include_reverse: true
         -
                 uuid: eb6233e0-cc8f-4d68-90f4-08a494064b13
-                front: >
+                front: |
                         Macro: [$]2\\pi[/$]
-                back: >
+                back: |
                         `M_2_PI`
                 include_reverse: true
         -
                 uuid: 945aa340-dc80-4dca-bedb-079a84b6145c
-                front: >
+                front: |
                         Macro: `\\sqrt{2}`
-                back: >
+                back: |
                         `M_SQRT2`
                 include_reverse: true
         -
                 uuid: 7374eb62-365f-4bc8-90d4-5c27363fcf5d
-                front: >
+                front: |
                         Prototype: `putc`
-                back: >
+                back: |
                         `int putc(int c, FILE* stream);`
         -
                 uuid: c289b7c2-79e2-4590-8571-94815122e0eb
-                front: >
+                front: |
                         Prototype: `putchar`
-                back: >
+                back: |
                         `int putchar(int c);`
         -
                 uuid: 1d60e466-5f80-4650-8994-68840af0b286
-                front: >
+                front: |
                         Prototype: `ftell`
-                back: >
+                back: |
                         `long int ftell(FILE* stream);`
         -
                 uuid: 31c19965-7d7b-4ba9-b95b-b139e61cbc45
-                front: >
+                front: |
                         Return value: `ftell`
-                back: >
+                back: |
                         Return the current position in `stream`
         -
                 uuid: 6bdee85c-8dff-4c31-86e1-3da7a5d16c73
-                front: >
+                front: |
                         Function: Get file descriptor for `FILE*`
-                back: >
+                back: |
                         `fileno`

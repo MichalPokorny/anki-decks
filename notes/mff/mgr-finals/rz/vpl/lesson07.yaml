@@ -5,7 +5,7 @@ notes:
                 uuid: 57180c0e-17da-4b23-bc7c-d4276feb2528
                 topic: Predikátová logika
                 front: Kdy jsou dvě struktury pro jazyk elementárně ekvivalentní?
-                back: >
+                back: |
                         Když v nich platí stejné formule.
         -
                 uuid: 7026775f-598b-4f44-a40f-bafe3377d3e3
@@ -16,13 +16,13 @@ notes:
                 uuid: f1ae363a-3beb-43be-9298-96d4462df6cc
                 topic: Predikátová logika
                 front: Sentence platí a modely její teorie
-                back: >
+                back: |
                         [$]T,\\neg\\varphi[/$] nemá model právě když [$]T\\vDash\\varphi[/$]
         -
                 uuid: 0ac76171-c4fc-4472-b630-a7cd346f8ac0
                 topic: Predikátová logika
                 front: Definice - podstruktura
-                back: >
+                back: |
                         [$]\\mathcal{B}\\subseteq \\mathcal{A}[/$],
                         když:
                         <br>
@@ -33,7 +33,7 @@ notes:
         -
                 uuid: 3efd2fef-a40d-411c-a84f-bbe71ea136b7
                 front: Definice - Doména podstruktury [$]\\mathcal{A}[/$], parcializace/restrikce struktury
-                back: >
+                back: |
                         [$]C\\subseteq A[/$] je doména podstruktury [$]\\mathcal{A}[/$],
                         když je [$]C[/$] uzavřená na funkce struktury.
                         Tahle podstruktura je [$]\\mathcal{A}\\upharpoonright C[/$].
@@ -48,7 +48,7 @@ notes:
         -
                 uuid: 77f28e2a-8e8e-4947-861f-c764b65b1438
                 front: Generovaná podstruktura
-                back: >
+                back: |
                         Když je [$]B[/$] nejmenší podmnožina nosné množiny
                         co je uzavřená na všechny funkce, pak [$]\\mathcal{A}\\upharpoonright B[/$]
                         se značí taky [$]\\mathcal{A}< X >[/$] &mdash; generovaná množinou X.
@@ -59,14 +59,14 @@ notes:
         -
                 uuid: 0cc7f4cc-f083-47a1-8ebc-1cdba375bdae
                 front: Věta o konstantách
-                back: >
+                back: |
                         Když vemu formuli a nahradím volné proměnné novými
                         konstantami, je původní formule platná právě když
                         nahrazená.
         -
                 uuid: c697f0ee-b254-4e54-8ab4-c6f631a9dd7c
                 front: Teorie Booleových algeber
-                back: >
+                back: |
                         [$]L=<-,\\wedge,\\vee,0,1>[/$] s rovností<br>
 
                         asociativita obou operátorů,
@@ -80,7 +80,7 @@ notes:
         -
                 uuid: 41c75c64-10f8-4496-86c0-2ee584532ba9
                 front: Tablo metoda v PL
-                back: >
+                back: |
                         Formule v položkách jsou uzavřené formule (bez volných proměnných).
                         Přidám atomická tabla pro kvantifikátory, za které přidávám konstantní termy.
                         Přidám spočetně mnoho "svědků" (pomocné konstantní symboly).
@@ -89,7 +89,7 @@ notes:
         -
                 uuid: e220d595-7e21-48b9-aafa-93603166311e
                 front: Tablo metoda v PL - nová atomická tabla
-                back: >
+                back: |
                         [$]T(\\a x)\\varphi(x)[/$]: dosaď konstantní term<br>
 
                         [$]F(\\a x)\\varphi(x)[/$]: dosaď NOVOU konstantu [$]F\\varphi(x/c)[/$]<br>

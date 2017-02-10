@@ -4,7 +4,7 @@ notes:
         -
                 uuid: c2d9d34f-5d36-4601-b17a-5cbec59f321d
                 front: Plánování vs. rozvrhování
-                back: >
+                back: |
                         Plánování: počáteční a požadovaný stav světa,
                         popis akcí, výstup je plán. Nezajímá nás čas, zdroje.
                         Téma AI, složitost často horší než NP-c.
@@ -15,8 +15,8 @@ notes:
                         Téma operačního výzkumu, typicky NP-c.
         -
                 uuid: 763130f5-f272-4555-9a37-207bd980c1ad
-                front: >
+                front: |
                         Značení - počáteční stav, cílová podmínka, operátory
                         měnící stav (v plánování obecně)
-                back: >
+                back: |
                         [$] (s_0,g,O)[/$]

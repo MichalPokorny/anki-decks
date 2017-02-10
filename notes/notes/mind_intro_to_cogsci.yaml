@@ -14,14 +14,14 @@ notes:
                 uuid: c8c2673e-7960-41d8-8ea8-7a751bfd5c23
                 front: Modus ponens
                 markdown: false
-                back: >
+                back: |
                         [$]p\rightarrow q, p \Longrightarrow q[/$]
                 include_reverse: true
         -
                 uuid: b37586bb-085a-4cc4-903b-5e37d793742f
                 front: Modus tollens
                 markdown: false
-                back: >
+                back: |
                         [$]p\rightarrow q, \neg p \Longrightarrow \neg q[/$]
                 include_reverse: true
         -
@@ -32,20 +32,20 @@ notes:
         -
                 uuid: 9afa331e-c7d2-4a33-b62f-8fb643822c62
                 front: Wason's selection task
-                back: >
+                back: |
                         Test of 'only people above 18 are allowed to drink beer'
                 include_reverse: true
         -
                 uuid: 8ec9b8f3-ae22-400d-b61d-8a7147749e1c
                 front: Mental model in Wason's selection task
-                back: >
+                back: |
                         "[A] 4" &mdash; subjects don't check B or 7, because
                         it's not in their mental model.
                 include_reverse: true
         -
                 uuid: 28b7046d-f77a-41a7-8a88-613d901f0df0
                 front: Advantages of if-then rules over logic
-                back: >
+                back: |
                         Can express heuristics ("wear brown shoes with brown
                         pants"), plans ("if I have bus fare, I can buy
                         a ticket")

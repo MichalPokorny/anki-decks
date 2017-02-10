@@ -4,25 +4,25 @@ notes:
         -
                 uuid: dbb93f47-fe5c-4246-b2a8-fa5e09d2641e
                 front: De Morganovy zákony
-                back: >
+                back: |
                         [$]\\neg (p\\vee q)\\ekv \\neg p \\wedge \\neg q[/$]<br>
                         [$]\\neg (p\\wedge q)\\ekv \\neg p \\vee \\neg q[/$]
         -
                 uuid: a0e05572-826d-48dc-a83c-eee6c47f1da0
-                front: >
+                front: |
                         Definice: Korektnost dokazovacího systému
-                back: >
+                back: |
                         Každé dokazatelné tvrzení je pravdivé.
         -
                 uuid: f30ff920-05b4-4398-a1ac-be85830b70ff
-                front: >
+                front: |
                         Definice: Úplnost dokazovacího systému
-                back: >
+                back: |
                         Každé pravdivé tvrzení je dokazatelé.
         -
                 uuid: 15be3bd4-cd02-4e59-a111-af17faab4d7b
                 front: Úplné a korektní dokazovací systémy - kde existuji?
-                back: >
+                back: |
                         Existují pro predikátovou logiku 1. řádu. Pro vyšší řády to neplatí.
         -
                 uuid: d76da0c4-15d6-44e4-9432-a6e77dd763fd
@@ -36,27 +36,27 @@ notes:
         -
                 uuid: fc297794-9a0b-49ba-b1d4-93fda7465e2a
                 front: Vlastní třída
-                back: >
+                back: |
                         Třída, která není množina (např. [$]\\{x | x = x\\}[/$])
         -
                 uuid: 07d6859d-a95b-4598-8d91-a597fd855f10
                 front: Uspořádaná dvojice a n-tice pomocí temna
-                back: >
+                back: |
                         [$] (x,y)=\\{x,\\{x,y\\}\\}[/$], [$] (x,y,...,a,b)=( (x,y,...,a),b)[/$]
         -
                 uuid: 142e01db-324e-4c11-80d5-455b0ffa5db6
                 front: Extenze prvku v relaci
-                back: >
+                back: |
                         [$]R[x] := \\{y | (x,y)\\in R\\}[/$]
         -
                 uuid: 7201551b-4689-4d4c-9a5f-105f8d1ef0e1
                 front: Restrikce relace na množinu
-                back: >
+                back: |
                         [$]R \\uparrow z := \\{(x,y)\\in R | x\\in z\\}[/$]
         -
                 uuid: fba2d766-3d01-4c2d-bcfc-235380c87129
                 front: Složení relací
-                back: >
+                back: |
                         [$]R \\circ S := \\{(x,z) | \\e y: (x,y)\\in R \\wedge (y,z)\\in S\\}[/$]
         -
                 uuid: 87b2a8d7-7d7a-414d-9c5d-6d9f3f8e76aa
@@ -65,97 +65,97 @@ notes:
         -
                 uuid: 841205f1-80ed-42bb-a828-65022a2be1ab
                 front: Značení - faktorizace množiny podle ekvivalence
-                back: >
+                back: |
                         [$]X/R[/$]
         -
                 uuid: cc67c5d5-eaf9-4bd5-8808-98555ba65f16
-                front: >
+                front: |
                         Definice: Částečné uspořádaní
-                back: >
+                back: |
                         Relace, co je reflexivní, tranzitivní a antisymetrická.
         -
                 uuid: 03be83bc-1276-432d-945c-16ff4459ba53
-                front: >
+                front: |
                         Definice: Totální (lineární) uspořádaní
-                back: >
+                back: |
                         Relace, co je reflexivní, tranzitivní a antisymetrická
                         &mdash; a navíc dichotomní
                         (buď [$]x\\leq y[/$], nebo [$]y\\leq x[/$])
         -
                 uuid: 121e98af-2fa4-4424-89db-a35176fe929b
-                front: >
+                front: |
                         Definice: Dobré uspořádaní
-                back: >
+                back: |
                         Lineární uspořádání, kde každá neprázdná množina
                         obsahuje nejmenší prvek.
         -
                 uuid: a70d9d08-6b88-4d9c-b376-3c8af7c41a98
-                front: >
+                front: |
                         Definice: Husté uspořádaní
-                back: >
+                back: |
                         [$]x<y\\rightarrow\\e z(x<z\\wedge z<y)[/$]
         -
                 uuid: dc27025f-a9b3-4b08-8c5e-0c9aa33a8409
                 front: Surjektivní funkce (na [$]Y[/$])
-                back: >
+                back: |
                         [$]\\mathrm{rng}(f)=Y[/$]
 
         -
                 uuid: 2c22092b-1786-4976-b848-c6ec6d669c5a
                 front: Injektivní funkce (prostá)
-                back: >
+                back: |
                         Různé prvky mají různé obrazy
         -
                 uuid: 2461213c-5a4d-46f8-9718-360ffcc300cc
                 front: Definice - bijekce [$]X[/$] a [$]Y[/$]
-                back: >
+                back: |
                         Prostá, definovaná na [$]X[/$], a na [$]Y[/$]
         -
                 uuid: f44a1ee7-9fd9-4e13-a3e7-aa0d51b83684
                 front: Notace - obraz množiny přes funkci
-                back: >
+                back: |
                         [$]f[A][/$]
         -
                 uuid: 3558d4ff-4be4-4135-9230-9c6f0b0d5ca6
                 front: Složení funkcí
-                back: >
+                back: |
                         [$] (f\\circ g)(x)=g(f(x)) [/$]
         -
                 uuid: 5387df4e-9ea2-44e8-9e46-78893d356209
                 front: Notace - všechny funkce z [$]X[/$] do [$]Y[/$]
-                back: >
+                back: |
                         [$]\\_^X Y[/$]
         -
                 uuid: 6191b09b-5e12-46b2-afa5-a8f60ab1ea8b
                 front: Temno - přirozená čísla
-                back: >
+                back: |
                         [$]0 = \\emptyset, 1 = \\{\\emptyset\\}, 2 = \\{0,1\\}, 3 = \\{0,1,2\\}, \\ldots[/$]
                         Nejmenší množina obsahující [$]\\emptyset[/$] a uzavřená na [$]S(x):=x\\cup\\{x\\}[/$]
         -
                 uuid: 64a22917-7908-4fd9-a69a-c32e48aefd6c
                 front: Temno - celá čísla
-                back: >
+                back: |
                         [$] (\\N\\times\\N)/\\sim, (a,b)\\sim(c,d) := (a+d)=(b+c)[/$]
         -
                 uuid: 99cd93eb-8c5b-47c5-b80d-792c2228814a
                 front: Temno - racionální čísla
-                back: >
+                back: |
                         [$]\\mathbb{Q}=(\\Z\\times(\\Z\\setminus\\{0\\}))/\\sim; \\sim:=(a,b)\\sim(c,d) :=: a\\cdot d = b\\cdot c[/$]
         -
                 uuid: 7da62bd3-8a22-4aac-a45e-afd2fa97e1ef
                 front: Temno - reálná čísla
-                back: >
+                back: |
                         Množina řezů [$]\\mathbb{Q}[/$] (netriviální,
                         dolů uzavřené podmnožiny [$]Q[/$] bez největšího prvku).
         -
                 uuid: 699fbc2b-de26-41d5-8413-738f99de1ef1
                 front: Temno - konstrukce reálných čísel přes řezy, co je uzavřenost dolů?
-                back: >
+                back: |
                         [$]y<x\\in A\\rightarrow y\\in A[/$]
         -
                 uuid: 8aa0f5d0-d6ab-4766-a4e1-4f3e32054ad0
                 front: Temno - subvalence/stejná nebo menší velikost
-                back: >
+                back: |
                         [$]x \\prec y[/$], když existuje prostá funkce z [$]x[/$] do [$]y[/$]
         -
                 uuid: 371d6d55-64fa-43dd-9b59-92f75469f0bc
@@ -164,7 +164,7 @@ notes:
         -
                 uuid: 2a82ebde-66ca-4e93-8362-e3102d5460ec
                 front: Cantorova věta a důkaz
-                back: >
+                back: |
                         [$]x \\prec P(x)[/$] pro každou množinu [$]x[/$]
 
                         Důkaz: [$]f(y)=\\{y\\}[/$], je prostá funkce [$]f:x\\rightarrow P(x)[/$], tedy [$]x\\preceq P(x)[/$].
@@ -179,12 +179,12 @@ notes:
         -
                 uuid: cbf4ae9d-325d-4469-b4d5-08dd71a9d1b7
                 front: Temno - strom, větev
-                back: >
+                back: |
                         Množina s částečným uspořádáním, co má jediný nejmenší prvek (kořen) a množina předků libovolného prvku je dobře uspořádaná. Větev: maximální lineárně uspořádaná podmnožina.
         -
                 uuid: 9857fa6b-b11e-4a04-907a-c5190219a9f6
                 front: Königovo lemma a důkaz
-                back: >
+                back: |
                         Každý nekonečný, konečně se větvící strom obsahuje nekonečnou větev.
 
                         Důkaz: Postupně vybírej potomky s nekonečným podstromem.

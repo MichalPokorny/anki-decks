@@ -4,21 +4,21 @@ notes:
         -
                 uuid: ceb51e6f-19b0-4b00-82c4-78941568136b
                 front: Kubler-Ross model
-                back: >
+                back: |
                         5-stage grief model. Denial, anger, bargaining,
                         depression, acceptance. What's its name?
         -
                 uuid: 44d455e7-0f24-4689-9308-d9355392cd16
-                front: >
+                front: |
                         5-stage grief model. What's its name?
                         What are the stages?
-                back: >
+                back: |
                         Kubler-Ross model. Denial, anger, bargaining,
                         depression, acceptance.
         -
                 uuid: 5f00e9d2-85f1-49b0-bc5b-4a05282d36f9
                 front: Alexithymia
-                back: >
+                back: |
                         "No words for emotions". Inability to elaborate beyond
                         a few limited adjectives such as "happy" or "unhappy"
                         when describing feelings. The core issue is that
@@ -47,7 +47,7 @@ notes:
         -
                 uuid: c1ecc733-112c-4095-beee-e6d7815d11a8
                 front: Egosyntronic
-                back: >
+                back: |
                         Behaviors, values and feelings in harmony with needs
                         and goals of ego, consistent of ideal self-image.
                         Many personality disorders are like this.
@@ -65,7 +65,7 @@ notes:
         -
                 uuid: 725c8c02-975a-4a4c-b688-b5455e2ea7e2
                 front: Schizoid personality disorder - characterization
-                back: >
+                back: |
                         <ul>
                         <li> Lack of interest in social relationships
                         <li> Tendency towards solitary/sheltered lifestyle
@@ -79,7 +79,7 @@ notes:
         -
                 uuid: 2d63cfcb-32c8-4e20-8806-953687c2dfe5
                 front: Schizotypal personality disorder - characterization
-                back: >
+                back: |
                         <ul>
                         <li> Severe social anxiety
                         <li> Paranoia
@@ -97,14 +97,14 @@ notes:
         -
                 uuid: 10b11310-680a-44d8-a68f-2df293ebbe3f
                 front: Schizoid vs schizotypal
-                back: >
+                back: |
                         Schizotypal: avoid social interactions because of
                         deep-seated fear of people. Schizoid: no desire to form
                         relationships, no point in sharing time with others.
         -
                uuid: 08403751-64c4-4060-a05d-7e8b1f350e0b
                front: Implicit association test
-               back: >
+               back: |
                        Measure to detect association between mental
                        representation of concepts in memory.
                        White/pleasant, or black/suffering?
@@ -116,7 +116,7 @@ notes:
         -
                uuid: 6a7ecbc3-fa87-46ea-9b33-9b54a1df5401
                front: Westermarck effect
-               back: >
+               back: |
                        AKA reverse sexual imprinting. Hypothetical
                        psychological effect through which people who live in
                        close domestic proximity during first few years of
@@ -125,14 +125,14 @@ notes:
         -
                uuid: e5425dd7-d2d5-4dcc-ac94-0185880879c8
                front: Sapir-Whorf hypothesis
-               back: >
+               back: |
                        Structure of language determines native speaker's
                        perception and categorization of experience
                include_reverse: true
         -
                 uuid: f89cb6bd-62f6-4d26-8341-9865ed0daa1c
                 front: Repetition compulsion
-                back: >
+                back: |
                         Psychological phenomenon in which a person repeats a
                         traumatic event or its circumstances over and over
                         again. This includes reenacting the event or putting
@@ -148,7 +148,7 @@ notes:
         -
                 uuid: 69f6348d-f965-4c82-87b3-f75a0244f6dc
                 front: Dual-process model of thinking
-                back: >
+                back: |
                         System 1: implicit, automatic, low effort, large
                         capacity, rapid, default process, contextualized,
                         evolutionarily old, nonverbal, modular cognition,
@@ -163,7 +163,7 @@ notes:
         -
                 uuid: ee6e0bdc-c318-4a92-ba60-2fa7b686e0fa
                 front: Baader-Meinhof phenomenon
-                back: >
+                back: |
                         Syndrome in which a concept or thing you just found out
                         about suddenly seems to crop up everywhere
                 include_reverse: true

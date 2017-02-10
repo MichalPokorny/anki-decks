@@ -5,14 +5,14 @@ notes:
                 uuid: 260041fa-a8c7-4bb6-afc2-6c9d028cdb89
                 topic: BAM
                 front: Zkratka
-                back: >
+                back: |
                         Bidirectional associative memory
         -
                 uuid: 65863075-3e56-41dc-a24b-1a1d2e7492ba
                 topic: BAM
-                front: >
+                front: |
                         Co to je? Jak to vypadá?
-                back: >
+                back: |
                         Synchronní asociativní model, synapse jsou
                         obousměrné.<br>
                         Rekurentní asociativní paměť.<br>
@@ -21,16 +21,16 @@ notes:
         -
                 uuid: 957d2bad-5577-4979-b1a3-cf31aac81c16
                 topic: BAM
-                front: >
+                front: |
                         Jak rovnicemi vyjádřit stabilní stav?
-                back: >
+                back: |
                         [$]y=\\sgn(xW) \\wedge x=\\sgn(Wy)[/$],
                         snaží se najít po konečném množství iterací
         -
                 uuid: dc4ecdf7-3448-4d47-8ffb-248a0df135d4
                 topic: BAM
                 front: Jak se učí? Co to znamená na jednom vzoru?
-                back: >
+                back: |
                         Hebbovským učením.
 
                         Pro jeden vzor: [$]W_{(i)}=y_{(i)} x_{(i)}^T[/$],
@@ -42,15 +42,15 @@ notes:
                 uuid: 82cf4129-ca2e-4a32-888c-3e5743f707ef
                 topic: BAM
                 front: Energetická funkce bez prahů
-                back: >
+                back: |
                         [$]E\\equiv -x_0 W y_0^T[/$]
         -
                 uuid: be56641a-04d0-4f75-b00e-7a343e9a79dd
                 topic: BAM
-                front: >
+                front: |
                         Kdy by byl stav [$] (x_0,y_0)[/$] stabilní?
                         Jak z toho odvodit energetickou funkci?
-                back: >
+                back: |
                         [$$]e^T:=W\cdot y_0[/$$]<br>
 
                         [$] (x_0,y_0)[/$] je stabilni stav, kdyz [$]\\sgn(e)=x_0[/$]
@@ -63,7 +63,7 @@ notes:
                 uuid: f1216920-8f6e-4dc5-a34e-1e0911a9a5fb
                 topic: BAM
                 front: Zobecnění energetické funkce, když přidáme práh
-                back: >
+                back: |
                         Vektory [$]x[/$] transformujeme: přidáme 1 na konec.
                         Jako bychom přidali do obou vrstev neuron s výstupem 1.
 
@@ -71,7 +71,7 @@ notes:
         -
                 uuid: 7fd399a9-7005-43f1-b5d2-e71db5da2b68
                 front: Asynchronní BAM a konvergence
-                back: >
+                back: |
                         Vyberu náhodný neuron, upravím výstup podle jeho
                         excitace.
                         Končím když jsem v stabilním stavu.
@@ -83,7 +83,7 @@ notes:
         -
                 uuid: 29887485-c696-4ff1-a7f6-990fa86294c5
                 front: Hopfieldova síť
-                back: >
+                back: |
                         Bipolární neurony se skokovou přenosovou funkcí,
                         propojené všechny se všemi.
                         Na učení bez učitele, optimalizaci.
@@ -91,7 +91,7 @@ notes:
         -
                 uuid: 85cd9e4d-f569-4759-8632-3d89d8709ccb
                 front: Učení Hopfieldových sítí
-                back: >
+                back: |
                         [$]w_{ij} = \\sum_{s=1}^m x_{i}^{(s)} x_j^{(s)}
                         [/$]
                         Když [$]i=j[/$], tak je to 0.
@@ -99,7 +99,7 @@ notes:
                 uuid: 2fe35573-4e3d-491a-94ae-91aef75a21cc
                 topic: Hopfieldovy sítě
                 front: Průběh výpočtu Hopfieldovy sítě
-                back: >
+                back: |
                         Vyber náhodný neuron k aktualizaci.
                         Opakuj dokud se neustálí.
                         Výstup je pak vzor, který se nejvíc podobal
@@ -108,15 +108,15 @@ notes:
                 uuid: f1828634-701b-4d8d-84bd-3f624d7aa561
                 topic: Hopfieldovy sítě
                 front: Přibližná kapacita na vzory
-                back: >
+                back: |
                         [$]m<0.15n[/$], kde [$]n[/$] je počet neuronů
         -
                 uuid: d4fbf83b-6cc0-46a4-81b5-0ae20bd8f800
                 topic: Hopfieldovy sítě
-                front: >
+                front: |
                         Tvar vektoru potenciálů. Jak vypadá perturbační člen?
                         Kdy je stav stabilní?
-                back: >
+                back: |
                         [latex]
                         \\begin{align*}
                         \\xi & = & x_1 \\cdot W = x_1 \\cdot (x_1^T x_1 + \\ldots + x_m^T x_m - mI) = \\\\\\\\
@@ -137,33 +137,33 @@ notes:
                 uuid: 8757a11c-941d-40bb-95d4-e982a78f62d5
                 topic: Asynchronní BAM sítě
                 front: Synchronní a asynchronní BAM a maticové stabilní stavy
-                back: >
+                back: |
                         Libovolná reálná matice vah má bidirektivní stabilní
                         bipolární stavy.
         -
                 uuid: e6c91db6-f75c-4dc9-9ca0-78498b24e83e
                 topic: Hopfieldovy sítě
                 front: Nutná podmínka ke stabilnímu řešení
-                back: >
+                back: |
                         Symetrická váhová matice s nulovou diagonálou,
                         asynchronní dynamika
         -
                 uuid: 7f3b7147-4c97-493b-b828-dfbbd17d20e6
                 topic: Hopfieldovy sítě
                 front: Energetická funkce s prahy
-                back: >
+                back: |
                         [$]E(x)=-\\frac{1}{2}x^T Wx+\\theta^T x[/$]
         -
                 uuid: 2c7f716b-6ada-42d0-a6dd-683b2db5f565
-                front: >
+                front: |
                         K čemu je perceptronové učení Hopfieldových sítí?
-                back: >
+                back: |
                         Někdy nejde Hebbovským učením najít správné váhy, i
                         když existují. Crosstalk může být moc velký.
         -
                 uuid: 54949644-7a63-4284-a567-4f76a73d9c11
                 front: Vzorečky pro perceptronové učení Hopfieldových sítí
-                back: >
+                back: |
                         Máme mít stabilní stavy. Tedy:
 
                         Neuron 1: [$]\\sgn(x_1) (0+x_2 w_{12} + \\ldots + x_n w_{1n}-\\theta_1) > 0[/$],
@@ -178,10 +178,10 @@ notes:
                         Každý vzor transformujeme do [$]n[/$] "pomocných" podvzorů, co odpovídají všem rovnicím co máme splnit.
         -
                 uuid: e4208254-d1d3-4403-9d1f-68f711e471f8
-                front: >
+                front: |
                         Použití Hopfieldova modelu na řešení optimalizačních
                         úloh - Multiflop
-                back: >
+                back: |
                         Úloha: chceme mít aktivní právě jeden neuron z binárních<br>
 
                         Cíl: [$]E(x_1,\\ldots x_n)=(\\sum x_i - 1)^2[/$]<br>
@@ -191,7 +191,7 @@ notes:
                 uuid: a6919724-8154-4f96-a8ff-83bf8c0c004e
                 front: Stochastické modely Hopfieldových sítí - 2 strategie
                 markdown: false
-                back: >
+                back: |
                         <ol type="A">
                         <li> <i>Spojitý model</i>: přenosová funkce [$]\sigma[/$].
                         Zvětší počet cest k řešení co je globální optimum.
@@ -202,22 +202,22 @@ notes:
         -
                 uuid: cef46a63-90a4-493f-8e4b-6528d633f564
                 topic: Zespojitěné Hopfieldovy sítě
-                front: >
+                front: |
                         Vzorec: Aktivace neuronu podle excitace
-                back: >
+                back: |
                         [$]x_i = \\sigma(u_i)[/$]
         -
                 uuid: cbd26dea-0d20-44b5-9a73-4983d8a7c9dd
                 topic: Zespojitěné Hopfielovy sítě
-                front: >
+                front: |
                         Značení: Excitace
-                back: >
+                back: |
                         [$]u_i[/$]
         -
                 uuid: 01621990-3bab-490a-be42-3f7833caf3a1
                 topic: Zespojitěné Hopfielovy sítě
                 front: Jak probíhá výpočet?
-                back: >
+                back: |
                         Pomalá změna excitace v čase.
                         [$]\\gamma>0[/$]: adaptační parametr.
                         <br>
@@ -233,13 +233,13 @@ notes:
                 uuid: 08329897-2aea-417a-b4dd-3b6e5457f557
                 topic: Zespojitěné Hopfielovy sítě
                 front: Energetická funkce spojitého modelu Hopfieldovy sítě
-                back: >
+                back: |
                         [$]E = -\\frac{1}{2}\\sum_{i=1}^n \\sum_{j=1}^n w_{ij} x_i x_j + \\sum_{i=1}^n \\int_{0}^{x_i} s^{-1}(x) dx[/$]
         -
                 uuid: d7e6e3cc-da15-4d8f-8c0b-f362e006f319
                 topic: Zespojitěné Hopfielovy sítě
                 front: Proč konverguje do lokálního optima?
-                back: >
+                back: |
                         [$]dE/dt = -\\sum_{i=1}^n \\sum_{j=1}^n w_{ij} \\frac{dx_i}{dt} x_j + \\sum_{i=1}^n \\sigma^{-1}(x_i) \\frac{dx_i}{dt}[/$]<br>
 
                         Síť je symetrická a [$]u_i=\\sigma^{-1}(x_i)[/$] &rarr;
@@ -257,7 +257,7 @@ notes:
         -
                 uuid: aeb40e17-72bf-40d6-bd22-1b8eef1daa9d
                 front: Simulované žíhání
-                back: >
+                back: |
                         Pokud změna sníží energii, proveď ji.
                         Pokud ji zvýší o [$]\\Delta E[/$], přijmi s
                         [$]p=\\frac{1}{1+\\exp(\\Delta E/T)}[/$] kde [$]T[/$]
@@ -267,7 +267,7 @@ notes:
                 uuid: a1609cff-c797-49be-b60e-c4ad967dd11d
                 topic: Boltzmannův stroj
                 front: Architektura, pravděpodobnost aktualizace
-                back: >
+                back: |
                         Jako Hopfieldova síť, ale neurony jsou binární<br>
                         [$]x_i\\leftarrow 1[/$]: pravděpodobnost [$]p_i[/$], jinak [$]\\leftarrow 0[/$]<br>
 
@@ -276,13 +276,13 @@ notes:
                 uuid: 2626be18-48e4-4d6e-9167-678859a66e4e
                 topic: Boltzmannův stroj
                 front: Energetická funkce
-                back: >
+                back: |
                         [$]E=-\\frac{1}{2}\\sum_i\\sum_j w_{ij}x_i x_j
                              +\\sum_i\\theta_i x_i[/$]
         -
                 uuid: 08d6bd3e-bfe2-4252-8662-919cdacb71e1
                 front: Vztah mezi Bolztmannova stroje k Hopfieldově síti
-                back: >
+                back: |
                         Aproximuje Hopfieldovu síť, najde lokální minimum
                         energetické funkce.
 

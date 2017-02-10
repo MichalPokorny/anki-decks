@@ -5,7 +5,7 @@ notes:
                 uuid: b28d8d3b-9f0d-47d8-b456-edce8cc4f7fd
                 topic: Výroková logika
                 front: Jazyk výrokové logiky
-                back: >
+                back: |
                         <ul>
                         <li> [$]P[/$]: prvovýroky, neprázdná množina, nejvýš
                              spočetná
@@ -27,29 +27,29 @@ notes:
                 uuid: a9b03591-7c85-4624-87ee-20fefa80fe94
                 topic: Výroková logika
                 front: Jazyk výrokové logiky - zkratky
-                back: >
+                back: |
                         [$]\\top\\equiv(p\\vee\\neg p),
                         \\perp\\equiv(p\\wedge\\neg p)[/$]
                         ([$]p\\in P[/$] je pevný prvovýrok)
         -
                 uuid: dde0c382-a21c-4b8f-aef9-f8003cd6ddbc
                 topic: Výroková logika
-                front: >
+                front: |
                         Definice: Výroková formule (výrok)
                 back: Konečnou indukcí ze spojek, prvovýroků
         -
                 uuid: b6688c17-2ecb-4a2a-a7a3-f9cd341f9ade
                 topic: Výroková logika
-                front: >
+                front: |
                         Notace: Výrokové formule nad množinou prvovýroků
-                back: >
+                back: |
                         [$]\\mathrm{VF}_P[/$]
         -
                 uuid: 36e19f36-84bc-4e96-b5d0-b2d41c85cb8b
                 topic: Výroková logika
-                front: >
+                front: |
                         Notace: Výrokové proměnné ve formuli [$]\\varphi[/$]
-                back: >
+                back: |
                         [$]\\mathrm{var}(\\varphi)[/$]
         -
                 uuid: 211f7d08-34ae-48b5-afad-ec3d461d0e2a
@@ -60,34 +60,34 @@ notes:
                 uuid: a95aa0a7-b43b-4c31-bdd4-541ffb2fbedc
                 topic: Výroková logika
                 front: Notace a definice - hodnota výroku při ohodnocení
-                back: >
+                back: |
                         [$]\\overline{v}(\\varphi)[/$] při ohodnocení [$]v:P\\rightarrow\\{0,1\\}[/$] dána induktivně po spojkách.
                         Hodnota výroku záleží jenom na ohodnocení jeho proměnných (indukcí).
         -
                 uuid: f8ecda2e-b187-4d77-94f4-d080c80bd066
                 topic: Výroková logika
                 front: Notace a definice - výrok platí při ohodnocení
-                back: >
+                back: |
                         [$]v\\vDash \\varphi[/$], to když [$]\\overline{v}(\\varphi)=1[/$]
         -
                 uuid: 78f1427c-c059-49ae-953d-71446b03a327
                 topic: Výroková logika
                 front: Notace a definice - výrok (logicky) platí, je tautologie
-                back: >
+                back: |
                         [$]\\vDash \\varphi[/$], to když [$]\\a v: \\overline{v}(\\varphi)=1[/$];
                         obdobně lživý (sporný), nezávislý, splnitelný
         -
                 uuid: 330383ff-d803-4471-804d-29a1308db645
                 topic: Výroková logika
                 front: Notace a definice - výroky jsou (logicky) ekvivalentní
-                back: >
+                back: |
                         [$]\\varphi\\sim\\psi[/$]: [$]\\a v: \\overline{v}(\\varphi)=\\overline{v}(\\psi)[/$],
                         tj. [$]\\varphi\\ekv\\psi[/$] je pravdivý výrok
         -
                 uuid: 1cae8dc0-b567-4bf7-92a0-099cb5477b4b
                 topic: Výroková logika
                 front: Notace a definice - modely
-                back: >
+                back: |
                         Model: ohodnocení z [$]{}^P 2[/$].<br>
                         Třída modelů: [$]M(P)={}^P 2[/$]
         -
@@ -126,13 +126,13 @@ notes:
                 uuid: 578417e1-fd32-482f-bd3c-47c6ff9e8927
                 topic: Výroková logika
                 front: Reprezentace množiny modelů pomocí DNF, CNF
-                back: >
+                back: |
                         [$]M_P(\\bigvee_{v\\in K}\\bigwedge_{p\\in P}p^{v(p)})=K=M^P(\\bigwedge_{v\\in\\overline{K}}\\bigvee_{p\\in P}\\overline{p^{v(p)}})[/$]
         -
                 uuid: 969de64f-db8b-4b61-9401-b4bfa3d07211
                 topic: Výroková logika
                 front: Postup pro převod obecné formule na CNF/DNF
-                back: >
+                back: |
                         <ol type="1">
                         <li>
                         [$] (\\varphi\\imp\\psi)\\sim(\\neg\\varphi\\vee\\psi), (\\varphi\\ekv\\psi)\\sim((\\neg\\varphi\\vee\\psi)\\wedge(\\neg\\psi\\vee\\varphi)[/$]
@@ -148,25 +148,25 @@ notes:
                 uuid: 550a4ee9-619d-4af7-bcf1-054e26bdb484
                 topic: Výroková logika
                 front: Co udělá ve výroku znegování literálů a náhrada [$]\\wedge\\ekv\\vee[/$]?
-                back: >
+                back: |
                         [$]\\neg\\varphi\\sim\\varphi^{\\*}[/$]
         -
                 uuid: d57f2e4c-405d-4c6d-8f6d-15de403f964b
                 front: Jak řešit 2-SAT?
-                back: >
+                back: |
                         Rozklad na silně souvislé komponenty (DFS),
                         od konce naplňuj implikační graf jedničkami
         -
                 uuid: f4a4fe05-e63c-4178-8fd1-ffeaa8cd30bf
                 topic: Výroková logika
                 front: Hornova klauzule v VL
-                back: >
+                back: |
                         Klauzule: [$] (\\neg a \\vee \\neg b \\vee \\ldots \\vee q) \\sim (a \\wedge b \\wedge \\ldots)\\rightarrow q[/$]
                         Obsahuje nejvýše jeden pozitivní literál
         -
                 uuid: ae7be4b1-3e29-4b48-aa2b-881d2376b360
                 front: Horn-SAT algoritmus ve VL
-                back: >
+                back: |
                         <ul>
                         <li>
                         Pokud výrok má 2 jednotkové klauzule co jsou obrácené
@@ -184,7 +184,7 @@ notes:
                 uuid: 6dc7d6e7-6b0e-4c75-9d76-aacbc074a8cc
                 topic: Výroková logika
                 front: Teorie, model teorie
-                back: >
+                back: |
                         Množina výroků, kterým říkáme axiomy. Model teorie je
                         ohodnocení ve kterém teorie platí. Konečná teorie jde
                         nahradit konjunkcí axiomů.

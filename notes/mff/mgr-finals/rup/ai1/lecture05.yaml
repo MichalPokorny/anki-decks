@@ -4,7 +4,7 @@ notes:
         -
                 uuid: 8350e13e-3fc2-4d61-af47-3c5970ec635c
                 front: Algoritmy pro lokální vyhledávání
-                back: >
+                back: |
                         <ul>
                         <li> Hill climbing
                         <li> Simulated annealing
@@ -14,7 +14,7 @@ notes:
         -
                 uuid: 744461b9-f721-4f1b-9578-cbd991934665
                 front: Problémy hill climbingu
-                back: >
+                back: |
                         <ul>
                         <li> *Lokální optimum*: všichni sousedi jsou horší,
                         nejde utéct.
@@ -24,7 +24,7 @@ notes:
         -
                 uuid: cf2b97e4-16a5-44db-aabc-f8629b04b4ba
                 front: Varianty hill-climbingu
-                back: >
+                back: |
                         <ul>
                         <li> *Stochastický*: vyber náhodně mezi zlepšujícími
                         kroky; pravděpodobnost může záležet na velikosti
@@ -40,7 +40,7 @@ notes:
         -
                 uuid: 9569e3b1-061e-42b1-8669-0f2cf4752bf1
                 front: Simulované žíhání (AI1)
-                back: >
+                back: |
                         Snižuje teplotu.
                         <br><br>
                         Stav se přijme, když je zlepšení.
@@ -50,7 +50,7 @@ notes:
                 uuid: 5ff7f53f-a6d2-4e13-82a8-31d3ca4c2412
                 topic: Local beam search
                 front: Algoritmus
-                back: >
+                back: |
                         Držím [$]k[/$] stavů místo jednoho.
                         V jednom kroku vygeneruju všechny jejich successory,
                         vyberu z nich do dalšího kroku [$]k[/$] nejlepších.
@@ -58,20 +58,20 @@ notes:
                 uuid: 105c77d4-d896-4d4f-9ebf-f766d61f0374
                 topic: Local beam search
                 front: Jak zvětšit diverzitu
-                back: >
+                back: |
                         Stochastikou - vyber s pravděpodobností
                         úměrnou tomu, jak jsou successoři dobří.
         -
                 uuid: f505034a-5d26-4974-b7be-827333cd326d
                 front: Online vs. offline search
-                back: >
+                back: |
                         V online vyhledání prolínám pohyb a vyhledávání &mdash;
                         prostředí je dynamické. Hodí se taky pro
                         nedeterministické, neznámé prostředí.
         -
                 uuid: 85031dd6-cfcd-4704-b6b3-8bd414ae7494
                 front: Co umí agenti v on-line search?
-                back: >
+                back: |
                         Ve stavu znají dovolené akce, znají cost akcí když znají
                         stav ze kterého se jde, umí identifikovat cílový stav.<br>
                         Umí si budovat mapu (poznat kde byl).<br>
@@ -79,10 +79,10 @@ notes:
                         Agent má admisibilní heuristiku.
         -
                 uuid: 1b52e972-a1cf-4c26-95ea-c98c40760087
-                front: >
+                front: |
                         Jak se porovnávají online vyhledávací algoritmy?
                         Jak nejhůř to může dopadnout?
-                back: >
+                back: |
                         Podle poměru kvality proti offline vyhledávání.<br>
 
                         Adversary argument: prostředí může být smrtelné.
@@ -96,7 +96,7 @@ notes:
         -
                 uuid: f2f0aca9-d7da-4063-975d-95ba7925b73e
                 front: Online DFS
-                back: >
+                back: |
                         Pro každý stav udržuj ještě nevyzkoušené akce<br>
 
                         Pamatuj si pro každý stav, jaké backtracky jsme v něm
@@ -109,10 +109,10 @@ notes:
                         Přinejhorším projde každou hranu 2&times;.
         -
                 uuid: 9ac90ede-b46a-40ac-83d3-9f276c799e49
-                front: >
+                front: |
                         Lokální online vyhledávání - triviální řešení,
                         jeho vlastnosti
-                back: >
+                back: |
                         Kombinace HC a náhodné procházky. Nakonec najde cíl nebo
                         dokončí exploraci (v konečném stavovém prostoru), ale
                         může být hodně dlouhé (např., exponenciální &mdash;
@@ -120,14 +120,14 @@ notes:
         -
                 uuid: 5f8be220-b3d0-4070-a47c-a3da07f0829f
                 front: Jak při online vyhledávání použít paměť?
-                back: >
+                back: |
                         Pro stavy si pamatuj nejlepší odhady na délku
                         cesty z nich do cíle. Začni s heuristikou,
                         zpřesňuj při návratech.
         -
                 uuid: 64893b54-cf13-4f19-8ff3-97f4c15ae5b0
                 front: LRTA* algoritmus
-                back: >
+                back: |
                         Dělá lokální kroky, učí se důsledy akcí a lepší odhad
                         délky do cíle ([$]h[/$]).<br>
                         Vyber akci minimalizující LRTA-cost.

@@ -3,7 +3,7 @@ notes:
         -
                 uuid: 06028ad9-916e-4d85-a0f9-53b1392bd215
                 front: Paradox of hedonism
-                back: >
+                back: |
                         AKA pleasure paradox. Pleasure cannot be acquired
                         directly. Constant pleasure-seeking may not yield
                         most actual long-term pleasure/happiness - consciously
@@ -15,7 +15,7 @@ notes:
         -
                 uuid: e09572ed-5ce5-42a9-a1bb-7de6791a96cb
                 front: APR
-                back: >
+                back: |
                         [$]\\text{Annual percentage rate} = \\text{daily rate}
                         \\times 365[/$]. [$]\\text{Effective
                         APR} = \\text{daily rate}^365[/$].
@@ -29,7 +29,7 @@ notes:
                 back: DIP; invented in 1964
         -
                 uuid: 0354a6d6-4a41-4ac4-a4b1-1fa4476f53ea
-                front: >
+                front: |
                         Author: Omega point, noosphere
                 back: Pierre Teilhard de Chardin; jesuit
         -
@@ -38,14 +38,14 @@ notes:
                 back: H-1b (NOT H1-B)
         -
                 uuid: 9c64e22c-5623-4d3b-b617-cc021a798c51
-                front: >
+                front: |
                         Shortcut: Mute in Google Inbox
                 back: Alt-M; press & hold Done on mobile
         -
                 uuid: 6d53c521-6914-4be2-9458-bb3c40b19e55
-                front: >
+                front: |
                         Meaning: RISUG
-                back: >
+                back: |
                         Reversible Inhibition of Sperm Under Guidance;
                         male contraception
         -
@@ -55,7 +55,7 @@ notes:
         -
                 uuid: 164601ef-dcc2-4fe8-b646-86dc7219a5ef
                 front: Starfish Prime
-                back: >
+                back: |
                         US nuclear test; largest man-made explosion in outer
                         space (1.4 MT TNT). Caused far larger EMP than expected
                         - drove instrumentation off scale. Knocked out 300
@@ -76,13 +76,13 @@ notes:
         -
                 uuid: d8741d30-b3b2-4f51-946d-2628e64b8eef
                 front: Hutter prize
-                back: >
+                back: |
                         Compress 100MB chunk of Wikipedia ("good compressor has
                         world knowledge")
         -
                 uuid: 30b72885-2872-4103-991c-f805afa73145
                 front: Plumbing and porcelain
-                back: >
+                back: |
                         Plumbing: backend. Analogy with house plumbing.
         -
                 uuid: 414855d2-95cf-499e-86e0-260cc9353fb3
@@ -95,7 +95,7 @@ notes:
         -
                 uuid: eb96681e-3080-4d58-963b-8fe1c40d110c
                 front: GOOG vs. GOOGL
-                back: >
+                back: |
                         *GOOG*: class C, no voting rights.
                         *GOOGL*: class A, has voting rights.
         -
@@ -109,14 +109,14 @@ notes:
         -
                 uuid: b4f47892-8eab-4b6c-972d-90da0b4ae550
                 front: Pomodoro technique & length
-                back: >
+                back: |
                         Break down work into 25 minute intervals, separated by
                         short breaks (to improve mental agility)
                 include_reverse: true
         -
                 uuid: 55a63443-f110-4ef3-b06d-d5cdc89a44a4
                 front: Section 508 ...
-                back: >
+                back: |
                         ... of the 1988 Amendments to the Rehabilitation Act
                         &mdash; standards for information technology that must
                         be met by any vendor that wants to do business with
@@ -125,21 +125,21 @@ notes:
         -
                 uuid: 8e30f106-1408-4ace-a15a-86b2a4be4a34
                 front: WCAG meaning?
-                back: >
+                back: |
                         Web Content Accessibility Guidelines; there are
                         validators
         -
                 uuid: 3d8ea1d2-a7cf-4790-aaa1-2f3ec969f3d5
                 front: Barney Rubble
-                back: >
+                back: |
                         Bernard "Barney" Rubble is a cartoon character who
                         appears in The Flintstones.
         -
                 uuid: 0ff77a08-364d-4d29-aeea-d12bcadede88
-                front: >
+                front: |
                         Robert Cialdini's 6 principles of persuasion applied
                         to EA
-                back: >
+                back: |
                         <ul>
                         <li>
                         *Reciprocation* - you feel indebted to those who do
@@ -168,19 +168,19 @@ notes:
         -
                 uuid: 5fc1c016-5e8c-497e-a1e2-0b0b3f951793
                 front: Free will determinism
-                back: >
+                back: |
                         All behavior is fully determined by background causes,
                         and free will is incompatible with that
         -
                 uuid: 8cd5ff76-0444-4092-96e4-62dadf3bbb5f
                 front: Free will libertarianism
-                back: >
+                back: |
                         Human agency rises above physical causation; free will
                         would be incompatible with a fully-physical universe
         -
                 uuid: d22c0902-fa76-4abb-9e35-084b7de39b6c
                 front: Free will compatibilism
-                back: >
+                back: |
                         Free will is compatible with determinism. You are free
                         as long as you have no inner/outer compulsions prevent
                         you from acting on actual desires and intentions. (We
@@ -189,7 +189,7 @@ notes:
         -
                 uuid: 10e70c4d-4718-4048-8015-c92852a76d08
                 front: Maitreya
-                back: >
+                back: |
                         Bodhisattva who will appear on Earth in future, achieve
                         complete enlightenment, teach pure dharma. According to
                         scriptures, ... will be a successor to the present
@@ -198,7 +198,7 @@ notes:
         -
                 uuid: 210e557d-78dc-4c70-b0d1-3a29eececdef
                 front: Explanatory gap
-                back: >
+                back: |
                         Difficulty that physicalist theories of mind have in
                         explaining how physical properties give rise to way
                         things feel when they are experienced
@@ -211,7 +211,7 @@ notes:
         -
                 uuid: d7cc02d3-3d61-4db3-82ce-970109618b64
                 front: 2 types of pu-erh and the difference
-                back: >
+                back: |
                         *Sheng*: raw, non-fermented. Harvested and stored
                         naturally
                         <br><br>
@@ -219,7 +219,7 @@ notes:
         -
                 uuid: c5d1a678-7633-4f37-98cc-db6ab0e2b9dc
                 front: Mahayana
-                back: >
+                back: |
                         One of two major traditions of Buddhism, now
                         practised in China, Tibet, Japan, and Korea.
                         Emerged around the 1st century AD and
@@ -228,7 +228,7 @@ notes:
         -
                 uuid: e6291fa1-8e8f-4a13-a200-d6fbba1852db
                 front: Hinayana
-                back: >
+                back: |
                         Name given by the followers of Mahayana Buddhism to
                         more orthodox schools of early Buddhism.
                         Tradition died out in India, but survived in Ceylon
@@ -245,7 +245,7 @@ notes:
         -
                 uuid: e93c5c3a-41df-4247-8a33-e6e6cc1ebf19
                 front: Difference between Mahayana/Hinayana buddhism
-                back: >
+                back: |
                         *Hinayana*: "modest/lesser vehicle",<br>
                         *Mahayana*: "greater/vast vehicle".
                         <br>
@@ -254,7 +254,7 @@ notes:
         -
                 uuid: 2ebc2251-b21b-4530-a8b9-0deadb0e5947
                 front: Da Hong Pao
-                back: >
+                back: |
                         According to legend, mother of a Ming dynasty
                         emperor was cured of illness by a certain tea, and
                         that emperor sent great red robes to clothe the four

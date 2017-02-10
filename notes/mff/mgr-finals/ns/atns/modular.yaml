@@ -4,7 +4,7 @@ notes:
         -
                 uuid: c5fa0a87-3c18-47f1-ba41-4bc20bebc629
                 front: 2 druhy robustnosti NS a jak se jich dosahuje
-                back: >
+                back: |
                         Vzhledem ke ztrátě neuronu: přidám robustnostní člen
                         do chybové funkce; prořezání a duplikace: zdvojení těch
                         neuronů, jejichž ztráta způsobí největší odchylku na
@@ -14,14 +14,14 @@ notes:
                         [$]\\varepsilon[/$]-ekvivalentní síť co je robustnější
         -
                 uuid: 6302a3ec-2753-4bd5-a9a2-10401f2fc5b9
-                front: >
+                front: |
                         [$]\\varepsilon[/$]-ekvivalence neuronových sítí
-                back: >
+                back: |
                         Jsou [$]\\varepsilon[/$]-ekvivalentní, když pro všechny vstupy [$]\\|y_{B_1} - y_{B_2}\\|\\leq\\varepsilon[/$]
         -
                 uuid: 13d67716-cd49-41a6-8b73-a17101a23771
                 front: Robustnostní chybová funkce &mdash; různé varianty, jejich různé následky
-                back: >
+                back: |
                         [$]y_{i,-k}[/$]: výstup [$]i[/$] když zruším neuron [$]k[/$]<br>
 
                         [$]\\varepsilon = E_{d_m} - E_1 =
@@ -36,7 +36,7 @@ notes:
                 uuid: aed8cb4d-e1b2-4fb3-ba9d-e2eded605006
                 markdown: false
                 front: Trik při minimalizaci robustnostního členu [$]E_{y_m}[/$]
-                back: >
+                back: |
                         Minimalizuj místo toho
                         [$]E_{y'_m}=\frac{1}{N_h}\sum_p\sum_i\sum_k(\xi_i-\xi_{i,-k})^2=
                         \frac{1}{2N_h}\sum_p\sum_i\sum_j(x_j w_{ij})^2[/$]
@@ -44,7 +44,7 @@ notes:
         -
                 uuid: 69dbe90a-05a4-4d94-a7c5-99897c231ad0
                 front: Prořezávání a duplikace
-                back: >
+                back: |
                         Adaptuj síť přes backprop.
                         Identifikuj neuron, jehož ztráta by způsobila největší změnu robustnosti.
                         "Zdvoj" ho.
@@ -55,12 +55,12 @@ notes:
         -
                 uuid: ad1ba955-bf80-4f15-b4a9-7b2fd5d7d601
                 front: Co je to modul BP-sítě?
-                back: >
+                back: |
                         Stejný počet vrstev, každá skrytá vrstva je podmnožina skryté vrstvy hlavní sítě.
         -
                 uuid: e650e8f0-1358-455a-9c08-1483092e9174
                 front: Co chceme od NS s modulární architekturou?
-                back: >
+                back: |
                         Rychlost a konvergenci učení.<br>
                         Optimalizaci architektury.<br>
                         Robustnost a generalizaci.<br>
@@ -69,7 +69,7 @@ notes:
                 uuid: b2c2aa65-8c5d-46a5-952a-780776e99436
                 topic: Adaptivní směsi lokálních neuronových sítí
                 front: Architektura
-                back: >
+                back: |
                         Soustava lokálních sítí s řídící sítí.<br>
                         Lokální jsou BP. Všechny mají stejnou topologii.<br>
                         Řídící síť má výstupy [$]P_j[/$], stejné vstupy jako lokální sítě.<br>
@@ -78,13 +78,13 @@ notes:
                 uuid: 4166fe03-4498-4ba3-98d7-323484d30059
                 topic: Adaptivní směsi lokálních neuronových sítí
                 front: Co by mělo platit pro koeficienty [$]p_i[/$]?
-                back: >
+                back: |
                         [$$]p_i=\\frac{y_i^{(g)}}{\\sum_{j=1}^t y_j^{(g)}}, i=1\\ldots t, p_i\\in(0;1), \\sum_i^t p_i = 1[/$$]
         -
                 uuid: 2ba0a009-b724-44ee-ad28-ae103ea96678
                 topic: Adaptivní směsi lokálních neuronových sítí
                 front: Chybová funkce
-                back: >
+                back: |
                         Pro jeden vzor [$]p[/$]:
                         [$$]E_p=\\frac{1}{2}\\sum_{i=1}^t (p_i\\|y^{(i)}-d\\|)^2[/$$]<br>
 
@@ -100,7 +100,7 @@ notes:
         -
                 uuid: 770144db-51f5-4b29-a6ce-7b90ddd960b9
                 front: Síť na inverzní kinematiku robota
-                back: >
+                back: |
                         Kontextová síť: na základě kontextového vstupu určuje váhy pro funkční síť.<br>
                         Převedení: zobrazení [$]n\\rightarrow n^2[/$] na [$]n^2[/$] funkcí [$]n\\rightarrow 1[/$]
 

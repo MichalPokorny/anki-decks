@@ -9,19 +9,19 @@ notes:
         -
                 uuid: df7f4e1b-522b-4c2d-b68b-bec670ae686f
                 front: Kdy může být dobré zároveň plánovat a rozvrhovat?
-                back: >
+                back: |
                         Když existuje hodně plánů a jenom pár má
                         přípustný rozvrh.
         -
                 uuid: 320d26c9-1172-4497-b9b5-34bb14d3ffed
-                front: >
+                front: |
                         Název: Notace pro popis rozvrhovacích problémů
-                back: >
+                back: |
                         Grahamova notace
         -
                 uuid: 563ea376-f369-4174-b7c5-9cfb6163dbbe
                 front: Jak vypadá Grahamova notace
-                back: >
+                back: |
                         [$]\\alpha\\mid\\beta\\mid\\gamma[/$]
                         <br><br>
                         [$]\\alpha[/$]: zdroje,
@@ -30,20 +30,20 @@ notes:
         -
                 uuid: cd99bc5c-2ac1-48cd-9d6c-59cda349642c
                 front: Grahamova notace - příklady zdrojů ([$]\\alpha[/$])
-                back: >
+                back: |
                         Jednoznačný zdroj; identické/uniformní/různé zdroje;
                         multi-operační model: job-shop/open-shop/flow-shop
         -
                 uuid: a4c478a3-f239-46bb-93c8-5a4978179769
                 front: Grahamova notace - příklady úloh ([$]\\beta[/$])
-                back: >
+                back: |
                         Preempce? Precedenční vztahy?
                         Čas spuštění, uzávěrka, použití dávek?
         -
                 uuid: cb4c55c9-8361-4041-8460-7792a6163866
                 topic: Notace rozvrhování
                 front: Start úlohy
-                back: >
+                back: |
                         [$]s(a)[/$]
                 include_reverse: true
         -
@@ -56,7 +56,7 @@ notes:
                 uuid: fc3a699d-1d66-463e-9629-6ac354d73572
                 topic: Notace rozvrhování
                 front: Konec úlohy
-                back: >
+                back: |
                         [$]e(a)[/$]
                 include_reverse: true
         -
@@ -75,7 +75,7 @@ notes:
                 uuid: 81f2766c-8a68-4839-81e4-e41a256fa110
                 topic: Notace rozvrhování
                 front: Doba trvání úlohy
-                back: >
+                back: |
                         [$]p(a)[/$]
         -
                 uuid: ead342d7-edfe-4d8e-8bbb-2232b9d8f897
@@ -84,13 +84,13 @@ notes:
         -
                 uuid: 0da2e2af-15f2-4a80-a99b-a8e590e39491
                 front: Co jsou preemptivní a nepreemptivní úlohy?
-                back: >
+                back: |
                         Preemptivní úlohu jde přerušit jinou úlohou
         -
                 uuid: a50dee94-bc78-4d9d-9c57-797e65e1c53e
                 topic: Metriky rozvrhování
                 front: Makespan
-                back: >
+                back: |
                         Značka [$]C[/$]<br><br>
                         [$]\\max\\{e(a): a\\in A\\}[/$]
                 include_reverse: true
@@ -98,7 +98,7 @@ notes:
                 uuid: 35e81183-9838-472d-b9f4-e9153951a213
                 topic: Metriky rozvrhování
                 front: Lateness
-                back: >
+                back: |
                         Značka [$]L[/$]<br><br>
                         [$]e(a)-\\delta(a)[/$]
                 include_reverse: true
@@ -106,7 +106,7 @@ notes:
                 uuid: ad26ebd5-6e85-485c-9eaa-705e416205ef
                 topic: Metriky rozvrhování
                 front: Earliness
-                back: >
+                back: |
                         Značka [$]E[/$]<br><br>
                         [$]\\max(0,\\delta(a)-e(a))[/$]
                 include_reverse: true
@@ -114,7 +114,7 @@ notes:
                 uuid: f6051b78-7d91-40a2-ba5c-45ae6ddfa811
                 topic: Metriky rozvrhování
                 front: Tardiness
-                back: >
+                back: |
                         Značka [$]\\tau[/$]<br><br>
                         [$]\\max(0,e(a)-\\delta(a))[/$]
                 include_reverse: true
@@ -122,7 +122,7 @@ notes:
                 uuid: b4b0882b-bcf4-4579-9d38-4a4a4d95304d
                 topic: Metriky rozvrhování
                 front: Absolutní odchylka
-                back: >
+                back: |
                         Značka [$]D[/$]<br><br>
                         [$]|e(a)-\\delta(a)|[/$]
                 include_reverse: true
@@ -130,7 +130,7 @@ notes:
                 uuid: bdbf837f-1dce-4053-b227-9eea866a2594
                 topic: Metriky rozvrhování
                 front: Čtvercová odchylka
-                back: >
+                back: |
                         Značka [$]S[/$]<br><br>
                         [$] (e(a)-\\delta(a))^2[/$]
                 include_reverse: true
@@ -138,7 +138,7 @@ notes:
                 uuid: 24723a3a-3e49-4b75-b507-8915876e1014
                 topic: Metriky rozvrhování
                 front: Zpožděná úloha
-                back: >
+                back: |
                         [$$]
                         \\begin{cases}
                         0 & e(a)\\leq\\delta(a) \\\\\\\\
@@ -150,7 +150,7 @@ notes:
                 uuid: 066bdaa3-529a-4b06-8d8b-4d016d3aa307
                 topic: Metriky rozvrhování
                 front: Metriky kolem zdrojů?
-                back: >
+                back: |
                         Minimalizace rekonfigurace, počtu strojů,
                         maximálního zatížení
         -
@@ -171,21 +171,21 @@ notes:
                 topic: >
                         [$]1\mid r_j\mid L_{\max}[/$]
                 front: Polynomiálně řešitelné relaxace
-                back: >
+                back: |
                         Identický release date/due date; povolená preempce
         -
                 uuid: 0b02d88e-dfd7-42b2-8293-a400790d1614
                 topic: >
                         [$]1\mid r_j\mid L_{\max}[/$]
                 front: Jak řešit, když mají všechny úlohy stejný release date?
-                back: >
+                back: |
                         Uspořádám podle *earliest due date*.
         -
                 uuid: db84d7e2-65f8-44a1-a6b4-708df8424efe
                 topic: >
                         [$]1\mid r_j\mid L_{\max}[/$]
                 front: Jak řešit, když úlohy mají všechny stejný due date?
-                back: >
+                back: |
                         Uspořádám v neklesajícím pořadí podle
                         termínu dostupnosti
         -
@@ -193,7 +193,7 @@ notes:
                 topic: >
                         [$]1\mid r_j\mid L_{\max}[/$]
                 front: Jak řešit, když povolím preempci?
-                back: >
+                back: |
                         Optimální rozvrh konstruuj podle pravidla EDD.
                         Jakmile narazím na další termín dostupnosti nebo
                         dokončím úlohu, změním task, na kterém dělám, na úlohu,
@@ -203,14 +203,14 @@ notes:
                 topic: >
                         [$]1\mid r_j\mid L_{\max}[/$]
                 front: Složitost obecného nerelaxovaného problému
-                back: >
+                back: |
                         NP-těžký
         -
                 uuid: f7a4aaa9-3cf2-42d5-96b7-0a5847ce371b
                 topic: >
                         [$]1\mid r_j\mid L_{\max}[/$]
                 front: Řešení obecného nerelaxovaného problému
-                back: >
+                back: |
                         Větvením vybírám, kterou úlohu budu teď plánovat.
                         Používám branch and bound.
                         <br><br>
@@ -226,7 +226,7 @@ notes:
         -
                 uuid: ed3545e3-d9f1-42f3-98af-a09e20340245
                 front: Typy paralelních zdrojů podle zpracování úloh
-                back: >
+                back: |
                         *Identické*: úlohy se zpracovávají stejnou dobu
                         <br><br>
                         *Uniformní*: každý zdroj má koeficient rychlosti
@@ -237,7 +237,7 @@ notes:
         -
                 uuid: 0f69ddf9-4dd1-4ee8-a25d-f7b8737e6141
                 front: Co když mám alternativní zdroje na řešení preemptivní úlohy?
-                back: >
+                back: |
                         Úlohu můžu posouvat na různé zdroje, ale nesmí běžet
                         na různých zdrojích najednou.
         -
@@ -245,7 +245,7 @@ notes:
                 topic: >
                         [$$]p_m\mid\mathrm{preempt}\mid C_{\max}[/$$]
                 front: Zadání?
-                back: >
+                back: |
                         Minimalizuji makespan, úlohy jsou preemptivní, mám
                         [$]m[/$] identických alternativních zdrojů
         -
@@ -253,14 +253,14 @@ notes:
                 topic: >
                         [$$]p_m\mid\mathrm{preempt}\mid C_{\max}[/$$]
                 front: Dolní odhad makespanu
-                back: >
+                back: |
                         [$$]LB = \\max\\{ \\max_i p_i, (\\sum_i p_i)/m \\}[/$$]
         -
                 uuid: 681b86e1-d6e7-403d-9a7b-998ec3f7cb89
                 topic: >
                         [$$]p_m\mid\mathrm{preempt}\mid C_{\max}[/$$]
                 front: Jak lze sestavit rozvrh s optimálním makespanem, a jak rychle?
-                back: >
+                back: |
                         Jde to za [$]\\O(n)[/$].
                         <br><br>
                         Úlohy řadíme v libovolném pořadí. Jakmile dosáhneme
@@ -272,7 +272,7 @@ notes:
                 topic: >
                         [$$]p_m\mid\mathrm{prec}\mid C_{\max}[/$$]
                 front: Zadání
-                back: >
+                back: |
                         Minimalizace makespanu, úlohy jsou nepreemptivní,
                         máme [$]m[/$] identických alternativních zdrojů,
                         mezi úlohami jsou precedenční vztahy.
@@ -281,7 +281,7 @@ notes:
                 topic: >
                         [$$]p_m\mid\mathrm{prec}\mid C_{\max}[/$$]
                 front: Složitost a řešení
-                back: >
+                back: |
                         Když [$]n\\leq m[/$], použiju metodu kritické cesty.
                         <br><br>
                         Když [$]2\\leq m<n[/$], je to NP-úplný problém.
@@ -290,7 +290,7 @@ notes:
                 topic: >
                         [$$]p_m\mid\mathrm{prec}\mid C_{\max}[/$$]
                 front: Metoda kritické cesty; které úlohy jsou kritické?
-                back: >
+                back: |
                         Dopředná fáze: najdu minimální startovní a koncové časy,
                         začnu od úloh co nemají předchůdce.
                         <br><br>
@@ -302,21 +302,21 @@ notes:
         -
                 uuid: 9ccbaa41-9573-4ce3-bc11-36f9609cec82
                 front: Co je to multi-operační, resp. shop model?
-                back: >
+                back: |
                         Úloha (job) je rozdělená do menších operací.
                         Mezi operacemi můžou být různé precedenční vztahy.
                         Zdroje pro operace jsou jednoznačně určeny.
         -
                 uuid: 0385e492-f510-4d32-80ef-bf28de9aedc5
                 front: Job-shop model
-                back: >
+                back: |
                         Operace v rámci úlohy jsou lineárně uspořádány.<br><br>
                         Různé úlohy můžou mít různé pořadí a počet operací.<br><br>
                         Zpravidla je každý zdroj jednou úlohou navštíven jenom jednou.
         -
                 uuid: ed3e4f3c-cf58-4356-93b6-81f9173cbcad
                 front: Flow-shop model
-                back: >
+                back: |
                         Speciální případ job-shop. Všechny úlohy mají stejný
                         počet a pořadí operací. Příklad: pásová výroba.
         -
@@ -327,7 +327,7 @@ notes:
                 uuid: 4215e636-7594-41ba-b20a-c04e72f10b23
                 front: Věta o flow-shop a zdrojích, důkaz
                 markdown: false
-                back: >
+                back: |
                         Při [$]\\min C_{\\max}[/$] u flow-shop problému
                         existuje optimální rozvrh, kde je pořadí úloh na
                         prvních dvou zdrojích totožné.
@@ -357,7 +357,7 @@ notes:
                 topic: >
                         [$]F2\mid\mid C_{\max}[/$]
                 front: Úloha
-                back: >
+                back: |
                         Flow-shop problém na dvou zdrojích s minimalizací
                         makespanu
                         <br><br>
@@ -368,7 +368,7 @@ notes:
                 topic: >
                         [$]F2\mid\mid C_{\max}[/$]
                 front: Řešení
-                back: >
+                back: |
                         Stačí určit pořadí, na obou strojích může být
                         stejné.
                         <br><br>
@@ -390,7 +390,7 @@ notes:
                 uuid: cc118a32-453c-4936-960a-b38335bbf6f7
                 topic: Job-shop
                 front: Čím je job-shop problém specifikován?
-                back: >
+                back: |
                         Množinou [$]m[/$] zdrojů, [$]n[/$] úloh,
                         objektivní funkcí.
                         <br><br>
@@ -401,14 +401,14 @@ notes:
                 uuid: 2b5ee856-6615-47c3-a164-a43fa751e4d9
                 topic: Job-shop
                 front: Jak těžké problémy job-shop typu jsou?
-                back: >
+                back: |
                         Převážně NP-úplné
         -
                 uuid: b71fa382-8d15-4e0d-8e9d-e26343652422
                 topic: >
                         [$]J2\mid n_i\leq 2\mid C_{\max}[/$]
                 front: Úloha
-                back: >
+                back: |
                         Job-shop, 2 zdroje, maximálně 2 operace na úlohu,
                         minimalizace makespanu.
         -
@@ -416,7 +416,7 @@ notes:
                 topic: >
                         [$]J2\mid n_i\leq 2\mid C_{\max}[/$]
                 front: Řešení
-                back: >
+                back: |
                         Úlohy rozdělíme:
                         <ul>
                         <li> [$]I_1[/$] jen na [$]z_1[/$]
@@ -449,7 +449,7 @@ notes:
                 topic: >
                         [$]Jm \mid \mid C_{\max}[/$]
                 front: Co je disjunktivní graf?
-                back: >
+                back: |
                         Uzly: operace, každý má váhu rovnou délce.
                         Přidej: [$]S[/$], [$]T[/$] s vahou 0
                         <br><br>
@@ -466,7 +466,7 @@ notes:
                 topic: >
                         [$]Jm \mid \mid C_{\max}[/$]
                 front: Jak vyčteme z grafu korektní rozvrh? Kde je makespan?
-                back: >
+                back: |
                         Korektní rozvrh: z disjunktních hran vyber
                         jednu, aby v grafu nebyly cykly.
                         <br>
@@ -476,14 +476,14 @@ notes:
                 topic: >
                         [$]Jm \mid \mid C_{\max}[/$]
                 front: Složitost
-                back: >
+                back: |
                         NP-úplný
         -
                 uuid: 9ac47d5d-37f5-438b-af18-6028eb82e8eb
                 topic: >
                         [$]Jm \mid \mid C_{\max}[/$]
                 front: Jak budeme budovat heuristický algoritmus?
-                back: >
+                back: |
                         Zafixujeme všechny proměnné a podle jedné proměnné
                         optimalizujeme, opakujeme na všech.
                         (Tohle se zdroji: samostatně optimalizuj každý zdroj.)
@@ -495,7 +495,7 @@ notes:
                 topic: >
                         [$]Jm \mid \mid C_{\max}[/$]
                 front: Rozvrhnutí jednoho zdroje
-                back: >
+                back: |
                         Začneme s částečným řešením.<br><br>
                         Vyřešíme pro něj [$]1\\mid r_j\\mid L_{\\max}[/$].
                         <br>
@@ -511,13 +511,13 @@ notes:
                 topic: >
                         [$]Jm \mid \mid C_{\max}[/$]
                 front: Zlepšení hotového řešení
-                back: >
+                back: |
                         Vezmi zdroj, vytrhej jeho hrany z grafu,
                         znova vyřeš jeho [$]1\\mid r_j\\mid L_{\\max}[/$]
         -
                 uuid: c82e804d-2e2f-43b2-ae13-3db2586cf142
                 topic: >
                         [$]Jm \mid \mid C_{\max}[/$]
-                front: >
+                front: |
                         Název: Heuristický algoritmus
                 back: Shifting Bottleneck

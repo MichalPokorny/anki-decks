@@ -4,13 +4,13 @@ notes:
         -
                 uuid: 5b2844e9-94ba-40a5-af9f-47a7153c9440
                 front: Chybová funkce pro feedforward sítě
-                back: >
+                back: |
                         [$]E=\\frac{1}{2}\\sum_{p} \\sum_{j} (y_{j,p}-d_{j,p})^2[/$],
                         kde [$]j[/$] je index ve výstupním vektoru, [$]p[/$] je vzor
         -
                 uuid: b922cbf1-635a-456b-90b2-14e5f04a6352
                 front: Jak vypadá update pro feedforward sítě, obecně?
-                back: >
+                back: |
                         [$$]
                         w_{ij} -= \\frac{\\partial E}{\\partial w_{ij}} =
                         \\frac{\\partial E}{\\partial y_j}\\frac{\\partial y_j}{\\partial \\xi_j}\\frac{\\partial \\xi_j}{\\partial w_{ij}}
@@ -18,7 +18,7 @@ notes:
         -
                 uuid: 78dc62d7-6f8f-4ebc-9bd3-4efafc2ccbc3
                 front: Co je v updatu pro feedforward sítě [$]\\delta[/$]?
-                back: >
+                back: |
                         [$]
                         \\delta_j\\equiv-\\frac{\\partial E}{\\partial \\xi_j}
                         [/$]
@@ -26,20 +26,20 @@ notes:
                 uuid: cbaf91a5-83a2-43ee-a16d-61a019357318
                 markdown: false
                 front: Jak vypadá použití [$]\delta[/$] v updatovacím pravidle?
-                back: >
+                back: |
                         [$]
                         w_{ij}+=\delta_j\frac{\partial\xi_j}{\partial w_{ij}}=\delta_j y_i
                         [/$]
         -
                 uuid: d4a36360-45fe-44e5-ac35-c417012061a9
                 front: Plná forma updatu - váhy do výstupní vrstvy
-                back: >
+                back: |
                         [$]w_{ij} -= (y_j - d_j) f'(\\xi_j) y_i[/$$]
         -
                 uuid: 111c73aa-eade-4989-bc69-2f4cec56779b
                 front: Plná forma updatu - váhy do skrytých vrstev
                 markdown: false
-                back: >
+                back: |
                         [latex]
                         \begin{align*}
                         w_{ij} & -= & (\sum_k \frac{\partial E}{\partial \xi_k} w_{jk}) f'(\xi_j) y_i = \\
@@ -48,15 +48,15 @@ notes:
                         [/latex]
         -
                 uuid: e40d07d1-565a-40f1-8066-0c313967d318
-                front: >
+                front: |
                         Derivace sigmoidy s parametrem [$]\\lambda[/$] vzhledem
                         k její hodnotě
-                back: >
+                back: |
                         [$]\\sigma'(x) = \\lambda \\sigma(x) (1-\\sigma(x))[/$]
         -
                 uuid: 3e6d5447-bf83-456a-aba4-d6bc537ab880
                 front: Aktualizace vah s momentem
-                back: >
+                back: |
                         [$]
                         w_{ij}^{(t+1)} = w_{ij}^{(t)} + \\alpha \\delta_j y_i +
                                 \\alpha_m (w_{ij}^{(t)} - w_{ij}^{(t-1)})
@@ -64,7 +64,7 @@ notes:
         -
                 uuid: 855893e2-9a41-4b34-9a45-c05098fce827
                 front: Velikost momentu učení
-                back: >
+                back: |
                         [$]\\alpha_m \\in [0;1)[/$]
         -
                 uuid: d07c9791-5d35-47e5-a396-4e0c984c81a9
@@ -73,14 +73,14 @@ notes:
         -
                 uuid: c545814c-390b-4ff6-86c0-d2bd755436ef
                 front: Chytrá volba počátečních vah - proč nulově vycentrované?
-                back: >
+                back: |
                         Budou v intervalu [$][-\\alpha_m;\\alpha_m][/$].
                         Protože přenosová funkce má v 0 maximální derivaci.
                         Šířená chyba je pak větší.
         -
                 uuid: 2cd4abd6-9386-4cd9-8abb-4049fdfd8ece
                 front: Proč jsou problém příliš velké i příliš malé váhy?
-                back: >
+                back: |
                         Malé: Moc malá šířená chyba.<br>
                         Velké: Chybová funkce v saturované zóně,
                         je plochá.
@@ -88,15 +88,15 @@ notes:
                 uuid: f3485758-c4a8-4f09-b934-0adceccebb6e
                 topic: Chytrá volba vah
                 front: Normalizace vstupů
-                back: >
+                back: |
                         Do [$][0;1][/$].
         -
                 uuid: e7ea5e2f-d109-457c-aadd-4a09155b21ac
                 topic: Chytrá volba vah
-                front: >
+                front: |
                         Střední hodnota potenciálu když nainicializujeme váhy
                         náhodně v [$]0\\pm\\alpha_m[/$]
-                back: >
+                back: |
                         [$$]
                         E[\\xi_j] =
                         E[\\sum_{i=0}^n w_{ij} x_i]=
@@ -107,7 +107,7 @@ notes:
                 topic: Chytrá volba vah
                 front: Odvození rozptylu potenciálu
                 markdown: false
-                back: >
+                back: |
                         [latex]
                         \begin{align*}
                         \sigma_{\xi_j}^2 & = & E[ (\xi_j)^2] - (E[\xi_j])^2 = E[ (\sum_{i=0}^n w_{ij} x_i)^2] - 0 = \\
@@ -117,28 +117,28 @@ notes:
         -
                 uuid: 27dde7d4-ec20-4d03-a645-c191998c0b62
                 topic: Chytrá volba vah
-                front: >
+                front: |
                         [$] \\mathbb{E}[(x_i)^2][/$] když je [$]x[/$]
                         rovnoměrně v [$][0;1][/$]?
-                back: >
+                back: |
                         [$]1/3[/$]
         -
                 uuid: 01f20ae2-2fc3-4490-aec4-d1da73e92863
                 topic: Chytrá volba vah
-                front: >
+                front: |
                         [$] \\mathbb{E}[(w_{ij})^2][/$] když je [$]w_{ij}[/$]
                         rovnoměrně v [$][-a;a][/$]?
-                back: >
+                back: |
                         [$]a^2/3[/$]
         -
                 uuid: 3e982b3e-298b-4aab-9eb9-a3f564d0cfcd
                 topic: Chytrá volba vah
-                front: >
+                front: |
                         Když chci aby měl [$]\\xi[/$] směrodatnou odchylku
                         [$]A=\\sigma_{\\xi}[/$], jak zvolit interval
                         [$][-a;a][/$] pro vstupní váhy?
                         Jaká je chytrá volba [$]A[/$]?
-                back: >
+                back: |
                         [$]a = 3A/\\sqrt{N}[/$]
                         ([$]A=\\sigma_\\xi = a/3 \\sqrt{N}[/$]).
                         Chytrá volba: [$]A=1[/$] (rychlé učení, velký gradient)
@@ -155,17 +155,17 @@ notes:
                 uuid: 486172e7-653f-443b-81bf-3aef15ba9cff
                 topic: Adaptivní parametr učení
                 front: Silva-Almeida heuristika
-                back: >
+                back: |
                         Jestli se nezměnilo znaménko parciální derivace,
                         urychluj ([$]\\cdot \\uparrow[/$]).
                         Když se změnilo, zpomaluj ([$]\\cdot\\downarrow[/$]).
         -
                 uuid: 7b3c1733-32ae-4cc9-b36b-b0c5ee1c9782
                 topic: Adaptivní parametr učení
-                front: >
+                front: |
                         Delta-bar-delta algoritmus, proč je lepší
                         než Silva-Almeida
-                back: >
+                back: |
                         Není tak citlivý na exponenciální růst když se moc
                         dlouho zrychluje.
                         <br><br>
@@ -182,7 +182,7 @@ notes:
                 uuid: 337f8612-aa5f-4688-a6b3-2cf6b499bf65
                 topic: Adaptivní parametr učení
                 front: Super-SAB algoritmus
-                back: >
+                back: |
                         <ul>
                         <li> Backprop s momentem
                         <li> Začni s rychlostí 1.2
@@ -194,15 +194,15 @@ notes:
         -
                 uuid: 69dfb87b-0ab7-4953-a173-722046c8167f
                 front: Taylorova řada pro aproximaci E druhého řádu
-                back: >
+                back: |
                         [$]E(w+h)\\approx
                         E(w)+\\nabla E(w)^T\\cdot h+\\frac{1}{2}h^T \\nabla^2 E(w) h[/$]
         -
                 uuid: 8606828b-9128-45ff-b000-7e22e0ad5b19
-                front: >
+                front: |
                         Aproximace gradientu druhého řádu.
                         O co se s tím snažíme?
-                back: >
+                back: |
                         [$]\\nabla E(w+h)^T\\approx\\nabla E(w)^T + h^T \\nabla^2 E(w)[/$]
                         <br>
                         Snažíme se gradient
@@ -211,7 +211,7 @@ notes:
         -
                 uuid: ce22d60a-439f-42ab-8126-003b0d1a71ea
                 front: Newtonovské metody pro druhý řád a problémy
-                back: >
+                back: |
                         Aktualizace vah:
                         [$]w_{ij} -= (\\nabla^2 E(w))^{-1} \\nabla E(w)[/$]
                         <br>
@@ -219,31 +219,31 @@ notes:
         -
                 uuid: db9136b3-4c7d-439e-9089-a472eddbca40
                 topic: Pseudonewtonovské metody
-                front: >
+                front: |
                         Jak zjednodušují newtonovské metody
-                back: >
+                back: |
                         Berou v úvahu jenom diagonálu Hessovské matice.
         -
                 uuid: 18d0c462-2ff2-4646-a114-29a232b0891a
                 topic: Pseudonewtonovské metody
-                front: >
+                front: |
                         Adaptační vzoreček
-                back: >
+                back: |
                         [$]
                         w_{ij} -= \\frac{\\nabla_{ij} E(w)}{\\frac{\\partial^2 E(w)}{\\partial w_{ij}^2}}
                         [/$]
         -
                 uuid: 8612604e-1c3e-45c2-a8e1-6859a16467bb
                 topic: Pseudonewtonovské metody
-                front: >
+                front: |
                         Kdy dobře fungují
-                back: >
+                back: |
                         "Kvadratický tvar" chybové funkce
         -
                 uuid: a70f0d15-a2d4-46da-8214-3f342c831577
                 topic: Algoritmus QuickProp
                 front: Alternativní způsob psaní aktualizace. Čemu odpovídá jmenovatel?
-                back: >
+                back: |
                         [$]w_{ij} += \\Delta^{(k)} w_i[/$]<br>
 
                         [$$]\\Delta^{(k)} w_i = \\Delta^{(k-1)} w_i \\cdot \\frac{\\nabla_i E^{(k)}}{\\nabla_i E^{(k-1)} - \\nabla_i E^{(k)}}[/$$]<br>
@@ -257,7 +257,7 @@ notes:
         -
                 uuid: f7eda12e-ea8c-4f7b-9241-e381ce03f077
                 front: Levenberg-Marquardtův algoritmus
-                back: >
+                back: |
                         Je rychlejší a přesnější v oblasti minima [$]E[/$].
                         Kombinace gradientní a Newtonovy metody.
                         [$$]w_{\\min}=w_0-(H+\\lambda I)^{-1} \\cdot g[/$$], kde [$]g[/$] je gradient, [$]H[/$] je Hessovská matice<br>
@@ -269,14 +269,14 @@ notes:
         -
                 uuid: 4e8953f3-7b3e-4d23-8c89-b618df5773a6
                 front: Relaxační metody - perturbace vah
-                back: >
+                back: |
                         Pro náhodně zvolenou váhu spočítám chybovou funkci když
                         ji trochu posunu, podle toho spočítám diskrétní
                         aproximaci gradientu a aktualizuju.
         -
                 uuid: ee40f752-837d-4d47-9787-f7bdbc09711b
                 front: Alternativní perturbační metoda s rychlejší konvergencí
-                back: >
+                back: |
                         Zperturbuju výstup neuronu [$]i[/$] ([$]o_i[/$])
                         o [$]\\Delta o_i[/$].
                         Spočítám rozdíl chyb. Jestli se zlepší, spočítám,

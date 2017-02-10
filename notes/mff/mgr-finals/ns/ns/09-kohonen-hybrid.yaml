@@ -4,9 +4,9 @@ notes:
         -
                 uuid: adc2c3cf-9d46-4ac2-aff4-e616686aee7c
                 topic: Kononenova mapa
-                front: >
+                front: |
                         Účel, parametry
-                back: >
+                back: |
                         Učení bez učitele.<br>
                         Najdi topologické okolí nejbližšího neuronu a taky ho
                         uprav.<br>
@@ -18,15 +18,15 @@ notes:
                 topic: Kononenova mapa
                 front: Co by mělo platit pro vigilační koeficient?
                 markdown: false
-                back: >
+                back: |
                         [$]\sum_{t=1}^\infty \alpha(t)=\infty, \sum_{t=1}^\infty \alpha^2(t) < \infty[/$]
         -
                 uuid: 6d368fb6-973e-465d-8a2d-30bea1c20260
                 topic: Kononenova mapa
-                front: >
+                front: |
                         Kostra důkazu: Jeden neuron Kohonenovy mapy na intervalu
                         [$][a;b][/$] se ustálí ve středu
-                back: >
+                back: |
                         Adaptační pravidlo: [$]w_n\\leftarrow w_{n-1}+\\eta(x-w_{n-1})[/$],
                         kde [$]x[/$] je náhodně zvolené z [$][a,b][/$].
                         Pro [$]\\eta\\in(0;1)[/$] nemůže [$]w[/$] opustit [$][a,b][/$]<br>
@@ -40,7 +40,7 @@ notes:
                 uuid: 69a572dd-fa8e-40b6-9367-29d8a18c7d99
                 topic: Kononenova mapa
                 front: Varianty učících algoritmů pro učení s učitelem pro Kohonenovy mapy
-                back: >
+                back: |
                         <ul>
                         <li>
                         LVQ1: [$]x[/$] by mělo patřit ke stejné třídě jako
@@ -64,14 +64,14 @@ notes:
                         </ul>
         -
                 uuid: 45896e39-ff1f-4efc-a55e-309f100f71ff
-                front: >
+                front: |
                         Jméno: Vrstva nad Kohonenovskou
                         v counterpropagation sítích
                 back: Grossbergovská
         -
                 uuid: 56e732ce-9373-44b0-9d81-7c6cb3d4561a
                 front: Sítě se vstřícným šířením (counterpropagation) - architektura, učení
-                back: >
+                back: |
                         2 vrstvy: Kohonenovská, Grossbergovská (adaptuje váhy
                         jen pro vítěze z Kohonenovy vrstvy).
                         Použití: heteroasociativní paměť.<br>
@@ -92,14 +92,14 @@ notes:
                 uuid: e8b48098-6b46-4500-8fc9-d7e816888ce9
                 topic: RBF sítě
                 front: Definice RBF funkce a co ta zkratka znamená
-                back: >
+                back: |
                         Radial Basis Functions.<br>
                         [$$]RBF(x,w,\\sigma) := \\exp\\{-\\frac{(x-w)^2}{2\\sigma^2}\\}[/$$]
         -
                 uuid: fa514eee-0607-4206-af82-7df4be2c1dd3
                 topic: RBF sítě
                 front: Jakou mají architekturu?
-                back: >
+                back: |
                         Vstup &rarr; Kohonenovská vrstva s Gaussovskou
                         přenosovou funkcí &rarr; lineární asociátor &rarr;
                         skalární výstup
@@ -107,7 +107,7 @@ notes:
                 uuid: b59d1818-0ec4-4305-8bb3-f8a90582d92a
                 topic: RBF sítě
                 front: Jak počítá?
-                back: >
+                back: |
                         Neuron [$]j[/$] počítá výstup
                         [$]g_j(x)=RBF(x, w_j, \\sigma_j) / \\sum_k RBF(x, w_k, \\sigma_k)[/$].<br>
 
@@ -118,10 +118,10 @@ notes:
         -
                 uuid: af99f342-72d2-4801-a35a-bbfb0fdde854
                 topic: RBF sítě
-                front: >
+                front: |
                         Jak nastavit váhy [$]z_i[/$] z Kohonenovských neuronů
                         k lineárnímu asociátoru?
-                back: >
+                back: |
                         [$]
                         E=\\frac{1}{2}\\sum_p (\\sum_{i=1}^n g_i(x_p)z_i - d_p)^2
                         [/$]<br>
@@ -134,7 +134,7 @@ notes:
                 uuid: a4eb55d5-10de-44d4-8d2f-5b91d7f334cd
                 topic: ART
                 front: Architektura, jaké je kódování
-                back: >
+                back: |
                         2 vrstvy: vstupní, výstupní.<br>
 
                         Vstupy: binární. Učí se bez učitele.<br>
@@ -149,46 +149,46 @@ notes:
                 uuid: 64ce36aa-9f82-4884-a441-bf3e30442ce0
                 topic: ART
                 front: Účel laterálních spojů mezi výstupními neurony
-                back: >
+                back: |
                         Určení výstupního neuronu s maximální odezvou.
         -
                 uuid: 71e5a70b-2b14-4bc5-9d49-2ab94e9d5b24
                 topic: ART
                 front: Účel zpětných vazbeb z výstupů ke vstupům
-                back: >
+                back: |
                         Porovnání skutečné podobnosti s rozpoznaným vzorem.
         -
                 uuid: 9a6ebf84-2811-4df0-b661-578119600968
                 topic: ART
                 front: Problém
-                back: >
+                back: |
                         I při troše šumu začne ukládat moc vzorů
         -
                 uuid: 5cdea2dc-a1af-4f23-abc5-f5b50fae5643
                 topic: ART
                 front: Značení - váhy ze vstupu [$]i[/$] do výstupu [$]j[/$]
-                back: >
+                back: |
                         [$]b_{ij}[/$]
                 include_reverse: true
         -
                 uuid: bf9305e1-c32f-4861-876b-4702cf317e59
                 topic: ART &mdash; Značení
                 front: Váhy z výstupu [$]j[/$] do vstupu [$]i[/$]
-                back: >
+                back: |
                         [$]t_{ij}[/$]
                 include_reverse: true
         -
                 uuid: 17908552-6d39-43de-8c7c-4bba1fb61b9d
                 topic: ART &mdash; Značení
                 front: Výstupy výstupních neuronů
-                back: >
+                back: |
                         [$]\\mu_j[/$]
                 include_reverse: true
         -
                 uuid: 179f5bf7-0dd8-42d5-b161-c607274db0de
                 topic: ART
                 front: Značení vah a parametrů, jejich inicializace
-                back: >
+                back: |
                         <ul>
                         <li>
                         [$]t_{ij}(0) = 1[/$] (váhy z výstupu do vstupu &mdash;
@@ -205,14 +205,14 @@ notes:
                 uuid: 5dde3276-aa9f-48f6-bc31-ee7b4c40eb7a
                 topic: ART &mdash; Značení
                 front: Konstanta bdělosti
-                back: >
+                back: |
                         [$$]\\rho\\in[0;1][/$$]
                 include_reverse: true
         -
                 uuid: ae99b9ea-f197-41ae-a9ca-e08804981b66
                 topic: ART
                 front: Učící algoritmus
-                back: >
+                back: |
                         <ul>
                         <li> Předlož nový vstup [$]x[/$].
                         <li> Spočítej výstupy:
@@ -239,7 +239,7 @@ notes:
                 uuid: bfffc115-79e0-4ac9-afe0-4c70be3876b1
                 front: Kaskádová korelace, algoritmus učení
                 markdown: true
-                back: >
+                back: |
                         Začnu s přímým propojením vstupů na výstup.<br>
                         Přidávám skryté neurony.<br>
                         Vstupy nového jsou propojeny se všemi

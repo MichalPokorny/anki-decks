@@ -4,7 +4,7 @@ notes:
         -
                 uuid: 7a888339-4772-4f9f-8309-e7bb2b722d96
                 front: Princip plánování v prostoru plánů
-                back: >
+                back: |
                         Začnu v prázdném plánu, co má jenom poč. stav a cíle.
                         Přidáváme akce, co plní otevřené cíle.
                         Přidáváme vazby mezi akcemi.
@@ -14,14 +14,14 @@ notes:
                 uuid: 5a6559f3-1763-4fca-9e8a-50793776ed06
                 topic: Plánování v prostoru plánů
                 front: Kódování startu a cíle
-                back: >
+                back: |
                         Start: akce co nemá předpoklady a je na začátku,
                         cíl: akce co má prázdný efekt a je poslední
         -
                 uuid: 358e3a64-2588-4ba7-a0bb-1933604dec7e
                 topic: Plánování v prostoru plánů
                 front: Jak vypadají kauzální vazby?
-                back: >
+                back: |
                         [$]a_i \\rightarrow^p a_j[/$]:
                         [$]a_i < a_j[/$] v částečném uspořádání, [$]p[/$] je
                         efekt [$]a_i[/$] a předpoklad [$]a_j[/$], v [$]B[/$]
@@ -30,7 +30,7 @@ notes:
                 uuid: 717a8985-f6f6-4490-ae19-db6ef0fc506b
                 topic: Plánování v prostoru plánů
                 front: Uzel prostoru plánů
-                back: >
+                back: |
                         Částečný plán: [$]\\Pi=(A,<_p,B,L)[/$]
                         <br>
                         [$]A[/$]: částečně instanciované
@@ -49,7 +49,7 @@ notes:
                 uuid: dedc413d-63ec-41b1-a1ca-739e3245de10
                 topic: Plánování v prostoru plánů
                 front: Otevřený cíl a jak se dá řešit
-                back: >
+                back: |
                         Je to předpoklad [$]p[/$] operátoru [$]b[/$],
                         na který ještě neexistuje kauzální vazba.<br>
                         Odstranění:
@@ -64,7 +64,7 @@ notes:
                 uuid: bd7b1a12-8410-49f3-9f1b-b9c21917059b
                 topic: Plánování v prostoru plánů
                 front: Hrozba - definice, řešení
-                back: >
+                back: |
                         Akce, co může porušit kauzální vazbu:
                         [$]a_i\\rightarrow^p a_j[/$] je vazba,
                         akce [$]b[/$] je unifikovatelná s negací [$]p[/$]
@@ -80,7 +80,7 @@ notes:
                 uuid: cbd24fa0-e675-4896-aeba-602d3c411f84
                 topic: Plánování v prostoru plánů
                 front: Kdy je částečný plán řešící plán?
-                back: >
+                back: |
                         Když má globálně konzistentní vazby [$]a=b/a\\neq b/a\\in D_i[/$],
                         konzistentní uspořádání [$]<[/$].
                         <br>
@@ -90,18 +90,18 @@ notes:
         -
                 uuid: ec902dd5-aa3b-440f-8885-ae5b556e0f32
                 topic: Plánování v prostoru plánů
-                front: >
+                front: |
                         Detaily algoritmu PSP &mdash; časy na hledání hrozeb
-                back: >
+                back: |
                         Nalezení po trojicích akcí: [$]\\O(n^3)[/$],
                         lépe: po přidání akce zjisti komu hrozí: [$]\\O(n^2)[/$],
                         po přidání kauzální vazby ověř její hrozby: [$]\\O(n)[/$].
         -
                 uuid: f1e7d976-b50d-4206-b08a-41e39c0cd04e
                 topic: Plánování v prostoru plánů
-                front: >
+                front: |
                         Detaily algoritmu PSP &mdash; udržování konzistence
-                back: >
+                back: |
                         Používej *jen konzistentní zjemnění plánu*
                         pro odstraňování kazů.
                         Udržuj *tranzitivní uzávěr* [$]<[/$] nebo detekuj
@@ -112,16 +112,16 @@ notes:
         -
                 uuid: 0e25a3ad-82ec-4fbe-ba5e-b497e02ad876
                 topic: Plánování v prostoru plánů
-                front: >
+                front: |
                         Detaily algoritmu PSP &mdash; agenda
-                back: >
+                back: |
                         *Agenda předpokladů akcí*: když přidám kauzální vazbu
                         pro něco, odeberu to z agendy.
         -
                 uuid: 3f1ea7e9-42b0-403f-8fd0-5d7e20c18ac8
                 topic: Plánování v prostoru plánů
                 front: Korektnost, úplnost, konečnost
-                back: >
+                back: |
                         Korektnost: pokud skončí, tak vydá dobrý plán.<br>
                         Pokud existuje plán, vrátí ho.<br>
                         Pozor: prostor plánů není konečný! Je potřeba např.

@@ -3,85 +3,85 @@ deck: All::CS::Tools
 notes:
         -
                 uuid: 6e9b8244-98e2-4775-85a0-d5b82740fa44
-                front: >
+                front: |
                         Show logs from daemon `xyzzy`
-                back: >
+                back: |
                         `journalctl --unit=xyzzy`
                 include_reverse: true
         -
                 uuid: 31bd003d-229f-46e0-91bb-f3586b59eed4
-                front: >
+                front: |
                         Display timestamps in UTC
-                back: >
+                back: |
                         `journalctl --utc`
                 include_reverse: true
         -
                 uuid: 48e3582f-9e95-4737-aae1-b76a1838be3c
-                front: >
+                front: |
                         Show just entries since most recent reboot
-                back: >
+                back: |
                         `journalctl -b`
                 include_reverse: true
         -
                 uuid: 91e7d5e9-1f3e-4c7e-95a4-d1a7202ca334
-                front: >
+                front: |
                         Show just entries from previous boot
-                back: >
+                back: |
                         `journalctl -b -1`
                 include_reverse: true
         -
                 uuid: d64cca38-2b9d-45f1-b3d4-7d4ce13270d1
-                front: >
+                front: |
                         Show just entries from today
-                back: >
+                back: |
                         `journalctl --since=today`
                 include_reverse: true
         -
                 uuid: 91755dc8-20e5-47b6-96ee-708e105f2955
-                front: >
+                front: |
                         Show just entries before January 2, 2012, 12:00:00
-                back: >
+                back: |
                         `journalctl --until "2012-01-02 12:00:00"`
                 include_reverse: true
         -
                 uuid: 8855e17e-8a25-41a7-bd8f-85666f2c0779
-                front: >
+                front: |
                         Show only entries of current user's services
-                back: >
+                back: |
                         `journalctl --user`
                 include_reverse: true
         -
                 uuid: 4f954455-96dd-404f-82f3-36a3fcfaf7d4
-                front: >
+                front: |
                         Show logs between 9:00 and 2 hours ago
-                back: >
+                back: |
                         `journalctl --since 9:00 --until "2 hours ago"`
                 include_reverse: true
         -
                 uuid: 2f242494-8a2b-4d0e-8282-23271ce9c20b
-                front: >
+                front: |
                         Display only kernel messages
-                back: >
+                back: |
                         `journalctl --dmesg` (or `-k`)
                 include_reverse: true
         -
                 uuid: 69875f8f-a1e4-4291-8746-754017f5348e
-                front: >
+                front: |
                         Show only errors and above
-                back: >
+                back: |
                         `journalctl -p err`
                 include_reverse: true
         -
                 uuid: b21a6a32-076b-4bc5-945a-bfce732e3086
-                front: >
+                front: |
                         Display only most recent 30 entries
-                back: >
+                back: |
                         `journalctl -n 30`
                 include_reverse: true
         -
                 uuid: 6b9f4e5d-4919-4a9f-8b8f-68980c756292
-                front: >
+                front: |
                         Follow
-                back: >
+                back: |
                         `journalctl -f`
                 include_reverse: true

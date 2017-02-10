@@ -4,22 +4,22 @@ notes:
         -
                 uuid: 458503cb-d268-44b8-99ce-1b26c29b5bb5
                 front: Struktura Bayesovské sítě
-                back: >
+                back: |
                         Acyklický graf, hrana když existuje závislost,
                         ve vrcholech jsou podmíněné pravděpodobnostní
                         distribuce.
         -
                 uuid: 8a052ca5-55e4-40f6-b727-ccff6d31d155
-                front: >
+                front: |
                         Vzorec: Podmíněné distribuce Bayesovské sítě
                         &rarr; pravděpodobnost jednoho světa
-                back: >
+                back: |
                         [$]P(x_1,\\ldots x_n)=
                         \\prod_i P(x_i | \\text{parents}(X_i))[/$]
         -
                 uuid: e3f59843-753e-4dbd-bb66-8d1e4da31d8a
                 front: Podmíněné nezávislosti proměnných v Bayesovské síti
-                back: >
+                back: |
                         [$]X[/$] je podmíněně nezávislá na proměnných, které
                         nejsou její potomci, pokud známe
                         [$]\\mathrm{parents}(X)[/$].
@@ -30,7 +30,7 @@ notes:
         -
                 uuid: 6a0c788e-a08d-4c05-b66f-c458a4a4ef27
                 front: Základní algoritmus pro výpočet v Bayesovské síti
-                back: >
+                back: |
                         Enumeration-Ask: dostane proměnnou a zafixovaná pozorování,
                         vrátí její distribuci.
                         Postupně vyzkouší všechny hodnoty a zavolá na nich Enumerate-All,
@@ -49,7 +49,7 @@ notes:
                 uuid: a893942d-0f71-4e5f-b89a-1d569dd69cfd
                 topic: Bayesovské sítě
                 front: Faktor, operace na faktorech
-                back: >
+                back: |
                         Faktor: tabulka s proměnnými, hodnotami a pravděpodobnostmi.
                         Taky se jim říká "potenciály".
                         <br>
@@ -60,7 +60,7 @@ notes:
                 uuid: d216a6ba-dff4-4174-88e6-72c1bd245542
                 topic: Bayesovské sítě
                 front: Inferenční algoritmus Eliminace proměnných, jeho složitost.
-                back: >
+                back: |
                         Vstup: query proměnná, evidence, belief net.<br>
 
                         Faktory: [], proměnné: síť topologicky od příčin
@@ -80,53 +80,53 @@ notes:
                 uuid: 5e6288aa-e7be-4ca6-bebc-2f59daf22197
                 topic: Bayesovské sítě
                 front: Variable Elimination &mdash; jak vypadá operace sum-out?
-                back: >
+                back: |
                         Sesumíruje dohromady všechny faktory, které obsahují
                         skrytou proměnnou &mdash; do jednoho velkého faktoru.
         -
                 uuid: 1126f580-6ff1-4743-8e1d-c15d2c28d02f
                 front: Variable Elimination &mdash; co ovlivní složitost?
-                back: >
+                back: |
                         Pořadí eliminace proměnných.
                         Musí jít topologicky, ale kromě toho mám svobodu.
         -
                 uuid: 7684e87e-ad83-4e87-89ea-13b39a8d8bd0
-                front: >
+                front: |
                         Variable Elimination &mdash;
                         Složitost nalezení optimálního pořadí eliminace
-                back: >
+                back: |
                         NP-těžké
         -
                 uuid: d06b451e-76f2-4173-93c6-f3d06eda8631
-                front: >
+                front: |
                         Variable Elimination &mdash;
                         Heuristika nalezení další proměnné k eliminaci
-                back: >
+                back: |
                         Vyber tu, co povede na vyrobení nejmenšího faktoru.
         -
                 uuid: 8a4e1e23-0a38-4bf8-8112-edabc065adcd
-                front: >
+                front: |
                         Složitost: Inference v Bayesovské síti co je les
-                back: >
+                back: |
                         [$]\\O(n\\cdot d^k)[/$] čas i prostor (tj. stejně jako součet velikosti všech tabulek)
         -
                 uuid: 587e5c4f-9b08-4071-b4e0-d4f5d0d90f4c
-                front: >
+                front: |
                         Složitost: Inference v Bayesovské síti
-                back: >
+                back: |
                         Obecně NP-těžká, resp. Sharp-P těžká (převodem z 3-SATu)
         -
                 uuid: 18d150c2-553e-4350-b57e-a81b9fcda507
-                front: >
+                front: |
                         Algoritmy přibližné inference pro Bayesovské sítě
-                back: >
+                back: |
                         Přímé vzorkování, Markov chain sampling
         -
                 uuid: c4d80bf8-75ec-4751-84fc-1248445f9384
-                front: >
+                front: |
                         Přímé vzorkování v Bayesovských sítích,
                         rejection sampling
-                back: >
+                back: |
                         Vezmu proměnné v topologickém pořadí, postupně
                         házej korunami podle pravděpodobností daných rodiči.
                         <br>
@@ -137,7 +137,7 @@ notes:
         -
                 uuid: 080a09bb-4d88-4031-b6db-cfc663d1f4fc
                 front: Likelihood weighting
-                back: >
+                back: |
                         Nechci zahazovat vzorky jako v rejection samplingu.
                         <br>
                         Zafixuju evidence variables, sampluju jenom
@@ -162,7 +162,7 @@ notes:
                 uuid: 06ab77e1-96f2-462e-aa74-974836db5668
                 topic: MCMC
                 front: Jak funguje?
-                back: >
+                back: |
                         Další vzorek dostanu tak, že vezmu nějakou proměnnou
                         co není v evidence a znova ji nasampluju podle její
                         Markovské obálky.
@@ -170,7 +170,7 @@ notes:
                 uuid: 330e605f-c69b-4a48-828f-5bc95fdc83a8
                 topic: MCMC
                 front: Proč funguje?
-                back: >
+                back: |
                         Samplovací proces se ustálí v dynamickém ekvilibriu,
                         ve kterém dlouhodobě bude trávit ve stavech
                         poměr odpovídající jejich pravděpodobnosti.

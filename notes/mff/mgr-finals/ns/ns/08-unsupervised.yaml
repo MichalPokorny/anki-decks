@@ -4,34 +4,34 @@ notes:
         -
                 uuid: 0d486c65-3912-4a06-af42-148b417569af
                 front: Jaký vztah mezi neurony se používá k učení bez učitele?
-                back: >
+                back: |
                         Inhibice: neurony soutěží o rozpoznání vzoru. "Winner takes all."
         -
                 uuid: d9e8f239-ce85-41ae-9756-3f8189b2893c
                 front: Síť na kompetiční učení bez učitele
-                back: >
+                back: |
                         Neurony počítají Euklidovskou vzdálenost.
                         Vyhraje nejbližší, a přes laterální spoje potlačí ostatní.
                         Vítěz se posune o [$]\\alpha[/$] směrem k vstupu.
         -
                 uuid: 38bba9b3-1dc3-4b0c-8dc1-609cebc0f004
-                front: >
+                front: |
                         Síť na kompetiční učení bez učitele &mdash;
                         vhodná inicializace vah
-                back: >
+                back: |
                         Váhy budou náhodné vzory z datasetu.
         -
                 uuid: 521ab663-7660-4b7b-bba7-65f1acce4255
                 front: Problémy v síti na kompetiční učení bez učitele
-                back: >
+                back: |
                         Mrtvé neurony: v Kohonenově mapě pomáhá mřížka
         -
                 uuid: 1fdba122-da33-484b-aca0-bec67d03b8c1
                 markdown: false
-                front: >
+                front: |
                         Energetická funkce sítě na kompetiční učení bez učitele
                         s jedním neuronem. Kde je optimum? Jak se to dokáže?
-                back: >
+                back: |
                         [$$]E_X(w)=\sum_{i=1}^m \|x_i-w\|^2[/$$]<br>
 
                         Optimum je v těžišti:<br>
@@ -51,9 +51,9 @@ notes:
 
         -
                 uuid: 2072bd8e-458a-45e3-953a-8c2bab6198d2
-                front: >
+                front: |
                         [$]k[/$]-means algoritmus
-                back: >
+                back: |
                         Update: nastav středy jako těžiště jejich shluků;
                         Přenastav příslušnosti ke shlukům
         -
@@ -62,10 +62,10 @@ notes:
                 back: Vstupní vektory se znormují
         -
                 uuid: c92483e6-602a-45a3-865a-9784a175cbb3
-                front: >
+                front: |
                         Různá pravidla učení pro sítě na kompetiční učení
                         bez učitele
-                back: >
+                back: |
                         <ul>
                         <li> Aktualizace pomocí parametru učení:
                              [$]\\Delta w = \\eta x_j[/$]
@@ -76,21 +76,21 @@ notes:
         -
                 uuid: 20d1fa81-bc88-4336-b687-9a46b50cc1bd
                 topic: Stabilní rovnovážný stav v kompetičním učení
-                front: >
+                front: |
                         Definice: Svazek
-                back: >
+                back: |
                         [$]\\{x = \\alpha_1 p_1 + \\ldots \\alpha_m p_m : \\alpha_1 \\in \\R^+\\}[/$]
         -
                 uuid: 8b6b0dc0-7835-423b-99c0-b34e8f3c7d30
                 topic: Stabilní rovnovážný stav v kompetičním učení
-                front: >
+                front: |
                         Definice: Průměr svazku
-                back: >
+                back: |
                         [$]\\varphi(S) = \\sup\\{\\arccos (a\\cdot b)|\\|a\\|=\\|b\\|=1, a,b\\in S\\}[/$]
         -
                 uuid: 6e149cef-86c7-4d3a-8eef-7244d308200a
                 front: Stabilní rovnovážný stav v kompetičním učení - jaká je postačující podmínka?
-                back: >
+                back: |
                         Chceme jasně ohraničené shluky, co se nepřekrývají a
                         nejsou moc rozsáhlé.<br>
                         Postačující podmínka pro stabilitu: úhlový průměr
@@ -105,7 +105,7 @@ notes:
                 uuid: f3d9f7e9-bc7c-43a1-b5c5-a652ebd0776d
                 topic: PCA
                 front: Co to je? Co dělá?
-                back: >
+                back: |
                         Hlavní komponenta je ta, co vysvětluje (ve vystředěných
                         a normalizovaných datech)
                         nejvíce rozptylu.<br>
@@ -115,7 +115,7 @@ notes:
                 uuid: 24d127c4-e258-4169-b08c-297848fc76cb
                 topic: PCA
                 front: Obecný algoritmus na výpočet
-                back: >
+                back: |
                         Hlavní komponenta: maximalizuje [$]\\frac{1}{m} \\sum_{i=1}^m (w \\cdot x_i)^2[/$]<br>
                         Druhá: odečteme od vektorů jejich projekci na první a pokračujeme
         -
@@ -132,7 +132,7 @@ notes:
                 uuid: 11a4da75-7474-41b3-b866-bd1ada9f1198
                 topic: Ojův algoritmus
                 front: Jak probíhá?
-                back: >
+                back: |
                         Náhodně inicializuje vektor [$]w[/$], zvolí parametr
                         učení [$]\\gamma\\in(0;1][/$]<br>
 
@@ -145,7 +145,7 @@ notes:
                 uuid: b305d565-9d5b-45ca-a948-b399db50fb5e
                 topic: Ojův algoritmus
                 front: Konvergence a důkaz
-                back: >
+                back: |
                         Idea: začne-li Ojův algoritmus ve svazku, bude v něm oscilovat, ale neopustí ho.<br>
                         Pro [$]\\|w\\|=1[/$] je [$]\\Phi=x\\cdot w[/$] délka projekce [$]x[/$] na [$]w[/$]<br>
 
@@ -159,6 +159,6 @@ notes:
         -
                 uuid: 6192e830-b4e3-4865-937b-7b81bca3cc1f
                 front: Problémy Ojova algoritmu, zobecnění
-                back: >
+                back: |
                         "Řidké" shluky, příliš velké rozdíly v délce vstupních vektorů.
                         Dá se zobecnit, aby najednou počítal více nejdůležitějších příznaků.

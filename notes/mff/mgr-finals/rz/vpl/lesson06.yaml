@@ -5,7 +5,7 @@ notes:
                 uuid: 69795a03-adcf-4807-a029-1e44b541f3aa
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky
-                back: >
+                back: |
                         <ul>
                         <li> Spočetně mnoho proměnných ([$]\\mathrm{Var}[/$])
                         <li> Funkční symboly včetně konstantních symbolů
@@ -19,19 +19,19 @@ notes:
                 uuid: 975ca80f-6978-450c-9d7c-34aef9c01d61
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky - logické symboly
-                back: >
+                back: |
                         Proměnné, kvantifikátory, spojky, závorky
         -
                 uuid: 3c41be43-70a0-4de3-a64f-ed2fbb2fbf33
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky - mimologické symboly
-                back: >
+                back: |
                         Funkční a relační symboly (mimo rovnosti)
         -
                 uuid: c9fc1b59-1345-492d-a0a5-062d717c2b49
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky - signatura
-                back: >
+                back: |
                         Dvojice disjunktních množin relačních,
                         funkčních symbolů. Určuje všechny mimologické symboly.
                         Určuje jazyk, s uvedením jestli má rovnost.
@@ -39,7 +39,7 @@ notes:
                 uuid: 23b26383-4ffc-4304-aa1f-134a3f7b9ef8
                 topic: Predikátová logika
                 front: Jazyk predikátové logiky - term
-                back: >
+                back: |
                         Proměnná nebo konstantní symbol; aplikace funkce;
                         konečně rekurzivně.<br>
 
@@ -50,7 +50,7 @@ notes:
                 uuid: fd065fa4-4615-4f4d-936b-ba6d9b69ae85
                 topic: Predikátová logika
                 front: Značení - atomická formule
-                back: >
+                back: |
                         [$]\\mathrm{AFm}_L[/$]
                         <br>
                         Aplikace relačního symbolu na termy.
@@ -58,14 +58,14 @@ notes:
                 uuid: ff8a816b-b627-4c3b-985b-da2c4f9915e5
                 topic: Predikátová logika
                 front: Definice - formule
-                back: >
+                back: |
                         Atomická formule, pak indukce nad spojkami,
                         přidání kvantifikátorů; [$]\\mathrm{Fm}_L[/$]
         -
                 uuid: 2f29cdd6-054d-419c-bbf7-a3f898096b66
                 topic: Predikátová logika
                 front: Vázaný, volný výskyt proměnné
-                back: >
+                back: |
                         Je součást podformule co začíná [$] (\a x)[/$] nebo
                         [$] (\e x)[/$].<br>
                         Volný výskyt je ten co není vázaný.
@@ -84,13 +84,13 @@ notes:
                 uuid: f40b899d-6a4f-43db-b48c-add74adb0ba1
                 topic: Predikátová logika
                 front: Jaká formule je zároveň uzavřená a otevřená?
-                back: >
+                back: |
                         Když má všechny termy konstantní.
         -
                 uuid: c710c373-4324-456c-a932-1cf0c9ca586c
                 topic: Predikátová logika
                 front: Instance formule [$]\\varphi(x/t)[/$]
-                back: >
+                back: |
                         Substituuji term [$]t[/$] za proměnnou [$]x[/$].
                         Term je substituovatelný za [$]x[/$], když
                         po současném nahrazení všech výskytů nevznikne
@@ -99,7 +99,7 @@ notes:
                 uuid: ccdfaa76-d9a5-4990-8376-c7420ddd5a10
                 topic: Predikátová logika
                 front: Varianta formule
-                back: >
+                back: |
                         At je [$] (Qx)\\psi[/$] podformule v [$]\\varphi[/$]
                         a [$]y[/$] je promenna, co je substituoatelna za [$]x[/$] do
                         [$]\\psi[/$] a [$]y[/$] nema volny vyskyt v [$]\\psi[/$].<br>
@@ -110,7 +110,7 @@ notes:
                 uuid: 900d9315-ebb7-4d42-be1e-78a99547a9f7
                 topic: Predikátová logika
                 front: Struktura pro jazyk
-                back: >
+                back: |
                         [$]L=<R,F>[/$] at je jazyk, [$]A[/$] neprazdna mnozina.
                         <br>
                         Realizace relacniho symbolu: relace. Realizace rovnosti: identita.
@@ -123,27 +123,27 @@ notes:
                 uuid: 206817a7-4702-4c97-a587-78cdb5606734
                 topic: Predikátová logika
                 front: Hodnota termu, značení
-                back: >
+                back: |
                         Ohodnocení proměnných v množině [$]A[/$]: [$]e:Var\\rightarrow A[/$].<br>
                         Hodnota termu: rekurzivně definovaná [$]t^A[e][/$].<br>
         -
                 uuid: aa301249-af8d-483e-aca4-401f4d2b7cc0
                 topic: Predikátová logika
                 front: Na čem záleží hodnota termu?
-                back: >
+                back: |
                         Jenom na ohodnocení proměnných
         -
                 uuid: f5ae98b3-d8c7-4b34-ab70-85b8ef73b6e1
                 topic: Predikátová logika
                 front: Hodnota atomické formule
-                back: >
+                back: |
                         Hodnota [$]H_{at}^{A}(\\varphi)[e][/$]: pro atomickou formuli ([$]=^A[/$] je [$]Id_A[/$]).
                         Když je [$]\\varphi[/$] sentence, hodnota nezáleží na ohodnocení.
         -
                 uuid: 9c307f26-043d-4bb3-9ce3-32df21c68bc8
                 topic: Predikátová logika
                 front: Hodnota neatomické formule
-                back: >
+                back: |
                         Použiju Booleovské funkce definované tabulkami.<br>
                         Nad strukturou: [$]H^A((\a x)\\varphi)[e] = \\min_{a\\in A}(H^A(\\varphi)[e(x/a)])[/$]
                         Záleží jenom na volných proměnných.
@@ -151,26 +151,26 @@ notes:
                 uuid: 6fe2dbb2-5bfe-4f33-9d2c-35a37d176f8b
                 topic: Predikátová logika
                 front: Značení - hodnota formule při ohodnocení ve struktuře
-                back: >
+                back: |
                         [$$]H^A(\\varphi)[e]\\in\\{0,1\\}[/$$]
         -
                 uuid: 559e0291-255d-448a-ae25-dbab2c2e58e2
                 topic: Predikátová logika
                 front: Značení - formule platí při ohodnocení ve struktuře
-                back: >
+                back: |
                         [$]\\mathcal{A}\\vDash\\varphi[e][/$] (když [$]H^A(\\varphi)[e]=1[/$]).
         -
                 uuid: 99164312-4f7a-4410-a65e-02616a49d4ad
                 front: Platnost ve struktuře
                 topic: Predikátová logika
-                back: >
+                back: |
                         [$]\\mathcal{A}\\vDash\\varphi[/$] když platí pro každé ohodnocení.
                         Podobně lživá.
         -
                 uuid: 74221bc3-313b-4e52-b416-41e7f436047e
                 topic: Predikátová logika
                 front: Teorie v predikátové logice
-                back: >
+                back: |
                         Teorie je libovolná množina formulí (axiomů).<br>
                         Model je L-struktura ve které platí axiomy teorie.<br>
                         Třída modelů [$]M(T)[/$].

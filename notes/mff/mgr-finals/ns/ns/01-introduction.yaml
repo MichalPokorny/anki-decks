@@ -3,7 +3,7 @@ notes:
         -
                 uuid: fd1046a3-c791-47a7-bc0b-61af423e6ab1
                 front: Sigmoida s parametrem
-                back: >
+                back: |
                         [$$]\\sigma(t)=(1+\\exp(-\\lambda t))^{-1}[/$$]
         # 01-introduction
         -
@@ -29,12 +29,12 @@ notes:
         -
                 uuid: 457b2357-c57f-4629-ac19-5d94d0c1dea9
                 front: Hustota neuronů v lidském mozku
-                back: >
+                back: |
                         [$]7-8\\cdot 10^4/mm^3[/$]
         -
                 uuid: 789e094f-ac4e-45a2-b541-319663b98dba
                 front: Rychlost odumírání neuronů
-                back: >
+                back: |
                         [$]\\sim 10^4[/$] denně. Synapse se ale vytvářejí celý život.
         -
                 uuid: d8623246-ee29-491e-8de4-ac15ebb3f88e
@@ -47,7 +47,7 @@ notes:
         -
                 uuid: 0f0c90dc-5bf1-489d-836e-af7c5858e50a
                 front: Co je funkce iontových kanálů?
-                back: >
+                back: |
                         Řídí propustnost membrány s ohledem na typ iontů
                         &mdash; jsou oddělené kanály na K, Na
                         ionty
@@ -66,7 +66,7 @@ notes:
         -
                 uuid: 9e37fe36-e0fd-4464-8967-a9c10809dc60
                 front: 2 typy neuronových membrán
-                back: >
+                back: |
                         Vodivá (myelinový povlak), transmisní<br>
 
                         Vodivá: má v sobě Ranvierovy zářezy (zrychlují přenos asi 50x a snižují zkreslení)<br>
@@ -74,7 +74,7 @@ notes:
         -
                 uuid: 10df7441-510e-405b-b79a-ce9eff9c001b
                 front: Krátkodobý paměťový mechanismus
-                back: >
+                back: |
                         Založený na cyklickém oběhu vzruchů v NS.
                         Když proběhne asi 300x, zafixuje se ve střednědobé paměti. To trvá asi 30 s.
         -

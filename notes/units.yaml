@@ -7,10 +7,10 @@ notes:
                 include_reverse: true
         -
                 uuid: 8f8748e9-10a5-432d-9bcd-6e55e7437f59
-                front: >
+                front: |
                         International avoirdupois ounce in grams
                         ([$]\\approx[/$])
-                back: >
+                back: |
                         28.35 g
                 include_reverse: true
         -
@@ -115,11 +115,11 @@ notes:
         -
                 uuid: 7b7eb900-8d68-42e9-b822-ece8e1120b12
                 front: 1 point in m ([$]\\approx[/$])
-                back: >
+                back: |
                         [$]352.78\\ \\mu m[/$]
         -
                 uuid: 8f465f5e-6f11-4781-bb76-efd08d8e0ed0
-                front: >
+                front: |
                         [$]352.78\\ \\mu m[/$]
                 back: 1 point
         -
@@ -161,11 +161,11 @@ notes:
         -
                 uuid: 21e7b2df-b9de-4695-9702-011e32286eef
                 front: 1 acre in [$]m^2[/$]
-                back: >
+                back: |
                         [$]4046.873\\ m^2[/$]
         -
                 uuid: 6ffd1fdb-4202-4e71-b04f-bb10d3ac8a17
-                front: >
+                front: |
                         [$]4046.873\\ m^2[/$]
                 back: 1 acre
         -
@@ -191,12 +191,12 @@ notes:
         -
                 uuid: 9514ea4a-9929-4acc-b84d-8baf5a639d53
                 front: Celsius to Fahrenheit
-                back: >
+                back: |
                         [$]F=\\frac{9}{5}C + 32[/$]
         -
                 uuid: 1ea037a4-51e1-43c2-ac96-15654b6fd894
                 front: Fahrenheit to Celsius
-                back: >
+                back: |
                         [$]C = \\frac{5}{9}(F-32)[/$]
         -
                 uuid: a16f32b6-79ba-4342-9b35-90b7f28419c5

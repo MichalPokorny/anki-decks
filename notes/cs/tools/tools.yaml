@@ -796,7 +796,7 @@ notes:
         -
                 uuid: 08926c6b-9fe3-4475-abc6-bc3e33092572
                 front: "Netstat - which processes are listening?"
-                back: >
+                back: |
                         "`netstat -lntp` (for TCP; add `-u` for UDP)"
         -
                 uuid: 68417b60-a364-4687-99a1-b3540d3c3130
@@ -807,7 +807,7 @@ notes:
                 uuid: fd48c6e4-0193-4c61-a875-f5cb2dcd54f0
                 topic: Awk
                 front: Sum up all numbers in the 3rd column
-                back: >
+                back: |
                         `awk '{ x += $3 } END { print x }'`
         -
                 uuid: c23157e4-3a39-4618-abba-72448ac036cf
@@ -847,53 +847,53 @@ notes:
         -
                 uuid: 30aca0a0-6dc5-4acd-8f00-3daa7840e676
                 front: Convert between tabs and spaces
-                back: >
+                back: |
                         `expand`/`unexpand`
                 include_reverse: true
         -
                 uuid: 529ee30e-4575-43e3-a84b-29b72cff8a1f
                 front: Create/lock semaphore file
-                back: >
+                back: |
                         `lockfile`
                 include_reverse: true
         -
                 uuid: 68dc5c50-6240-4cfc-8152-6b3b8ca7d556
-                front: >
+                front: |
                         Read all input before writing it &mdash; for reading
                         then writing to the same file
-                back: >
+                back: |
                         `sponge`
         -
                 uuid: fd1865be-187d-4e69-9b4f-d4af73dd91cb
-                front: >
+                front: |
                         Get PIDs of all running `bash` processes
-                back: >
+                back: |
                         `pgrep bash`
                 include_reverse: true
         -
                 uuid: eeffde68-6897-4f65-a22d-9f66da46f3be
-                front: >
+                front: |
                         Get PIDs of all processes running as the `root` user
-                back: >
+                back: |
                         `pgrep -u root`
                 include_reverse: true
         -
                 uuid: 6aba7198-c03a-459a-a261-8ebc3ca8feb0
-                front: >
+                front: |
                         Get PIDs of all `bash` processes running as `root` user
-                back: >
+                back: |
                         `pgrep -u root bash`
                 include_reverse: true
         -
                 uuid: 8452ab6c-2548-46d7-b538-de0de405279d
-                front: >
+                front: |
                         Get PIDs and names of processes containing the string `sh`
-                back: >
+                back: |
                         `pgrep -l sh`
                 include_reverse: true
         -
                 uuid: be37a54c-3e33-4afc-9e23-f689ad51374f
-                front: >
+                front: |
                         Send SIGHUP to all `httpd` processes
-                back: >
+                back: |
                         `pkill -HUP httpd`

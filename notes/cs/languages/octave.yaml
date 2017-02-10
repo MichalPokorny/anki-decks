@@ -264,19 +264,18 @@ notes:
                 include_reverse: true
         -
                 uuid: 9bc495e5-75fc-4b2a-a9f1-1d9562777dbd
-                front: "Get column of matrix row averages"
+                front: Get column of matrix row averages
                 back: "`mean(X')';`"
                 include_reverse: true
         -
                 uuid: b6102852-76e0-4dd2-aee4-bda6541dd1e1
-                front: "Get average of vector"
+                front: "Get average of vector `a`"
                 back: "`mean(a);`"
-                include_reverse: true
         -
                 uuid: 2990320e-6345-4ea2-ac79-112959beadca
-                front: "For-cycle syntax"
+                front: For-cycle syntax
                 markdown: false
-                back: >
+                back: |
                         <code>
                         for i = 1:10<br>
                           disp("Ahoj!");<br>

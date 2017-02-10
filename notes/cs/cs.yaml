@@ -11,13 +11,13 @@ notes:
         -
                 uuid: 622013c7-4805-4139-88a7-c33642b62686
                 front: Steiner tree
-                back: >
+                back: |
                         Similar to planar MST, but I can add new vertices.
                         NP-complete.
         -
                 uuid: a08fa5b7-8741-45d5-8a40-f8fea801bf40
                 front: CAP theorem
-                back: >
+                back: |
                         Cannot have consistency & availability & partition
                         tolerance
         -
@@ -27,7 +27,7 @@ notes:
         -
                 uuid: f8ed41c1-4837-47c0-87f1-d10df5d49d8a
                 front: Cyclomatic complexity
-                back: >
+                back: |
                         In basic block graph:
                         [$]M = E - N + 2P[/$],
                         where:
@@ -58,7 +58,7 @@ notes:
         -
                 uuid: 7e7ae73d-1d6f-4357-a237-e91841d71cdf
                 front: C# string formatting
-                back: >
+                back: |
                         `$"hello{parameters[0, i]} world"`
         -
                 uuid: e9f2ca8e-bb3c-4589-9871-840ca975b8c2
@@ -77,18 +77,18 @@ notes:
         -
                 uuid: fb226a8e-a15d-46ef-8395-ba87ce28623c
                 front: Paamayim Nekudotayim
-                back: >
+                back: |
                         "Twice colon" in Hebrew. PHP token name for `::`.
                 include_reverse: true
         -
                 uuid: 560f5618-6ec8-4523-b25f-903891fa2475
                 front: Semantic highlighting
-                back: >
+                back: |
                         Every variable in a different color
         -
                 uuid: 27009414-715f-4fe4-b10b-f8b8b5bd5e7b
                 front: Supersampling
-                back: >
+                back: |
                         Anti-aliasing method: sample several sampling positions
                         within pixel, average out the colors.
                 include_reverse: true
@@ -96,22 +96,22 @@ notes:
                 uuid: 7c80c82b-3ff4-4d8d-8764-faaf3a719898
                 topic: Hadoop
                 front: Get application logs from Yarn
-                back: >
+                back: |
                         `yarn logs -applicationId <appid>`
         -
                 uuid: bb7d792b-7894-4217-bb1f-fa6ca28ef702
                 topic: Hadoop
                 front: Kill application
-                back: >
+                back: |
                         `yarn application -kill <appid>`
         -
                 uuid: c85cd496-00e4-44f9-9b4f-c05089c1f4df
-                front: >
+                front: |
                         `char c1, c2; c1 = 'A'; c2 = c1 ^ ' '; putc(c2);`
-                back: >
+                back: |
                         `a`
         -
                 uuid: 57e6de4c-1da8-44d4-b95f-2d0a1ee06d84
                 front: Quick operator hack to switch case of a character
-                back: >
+                back: |
                         `'A' ^ ' ' == 'a'`

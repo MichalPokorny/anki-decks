@@ -4,7 +4,7 @@ topic: Anki Essentials
 notes:
         -
                 uuid: 0f9c2230-bec3-4cc1-a4ad-2ce809c97042
-                front: >
+                front: |
                         What does `anki/collection.anki2` contain?
                 back: All notes, cards, decks and templates; not media
         -
@@ -17,14 +17,14 @@ notes:
                 back: "`anki/collection.media`"
         -
                 uuid: 835ed0a7-12f0-4e6f-afdb-3b933533ba92
-                front: >
+                front: |
                         What does `anki/collection.media` contain?
                 back: Images and sounds attached to decks
         -
                 uuid: 0a192903-abe5-40db-b3ab-84917f9646e6
-                front: >
+                front: |
                         Default order of presenting new cards for learning
-                back: >
+                back: |
                         Order in which they were added
         -
                 uuid: d6067156-bf6a-4f2e-b99f-dafbc7608ac4
@@ -33,7 +33,7 @@ notes:
         -
                 uuid: f2e07328-1719-4d84-9f64-7f51204ddae7
                 front: Shortcut to return to Decks window
-                back: >
+                back: |
                         `D`
         -
                 uuid: 83c6d31f-4dfd-4876-8a9a-bd23a46aefd8
@@ -48,14 +48,14 @@ notes:
                 uuid: ab5db302-e1fd-42ba-bbb0-7bfab8ef6710
                 front: How to use the Cloze note type
                 markdown: false
-                back: >
+                back: |
                         *Text*: The Two Stooges are { {c1::Moe} } and { {c2::Larry} }.
                         <br>
                         *Extra*: Any extra text to show on the back of the card.
         -
                 uuid: 9af3cf5d-08e5-4fd5-9239-4e1fbaeccf11
                 front: Lifecycle of an Anki card
-                back: >
+                back: |
                         New (card is created from note and card layout)
                         [$]\\Rightarrow[/$]
                         Learning (card is studied for the first time)
@@ -64,14 +64,14 @@ notes:
         -
                 uuid: dcc78350-a42d-4f9c-97d6-dc333a756d56
                 front: How long does a card stay in the Learning stage?
-                back: >
+                back: |
                         Until Anki believes I have learned it.
                         By default, this is until it's answered correctly
                         at least twice.
         -
                 uuid: 02f8a831-890d-4e52-890b-f3fb1c417667
                 front: What happens in the Review stage?
-                back: >
+                back: |
                         Anki puts in longer and longer gaps.
                         <br>
                         Any time I get it wrong, Anki puts it in Learning again.
@@ -84,7 +84,7 @@ notes:
                 uuid: 2c2a46d2-df45-4898-8e86-c709a6423af1
                 topic: 20 rules for formulating knowledge
                 front: Start with ...
-                back: >
+                back: |
                         ... the Big Picture; build a picture of the whole
                         before breaking it down into simple items - memorizing
                         loosely related facts is difficult
@@ -92,7 +92,7 @@ notes:
                 uuid: 35b28ac3-31b6-4379-8bc9-f002fe77c74a
                 topic: 20 rules for formulating knowledge
                 front: Build on ...
-                back: >
+                back: |
                         ... the Basics; don't begin by memorizing advanced,
                         difficult, complex ideas. Memorizing obvious things
                         is not a waste of time. Forgetting the basics is very
@@ -101,7 +101,7 @@ notes:
                 uuid: ae5e2851-4bbe-4016-8a92-0a33f548866f
                 topic: 20 rules for formulating knowledge
                 front: Simplify
-                back: >
+                back: |
                         Simpler models are easier to create, learn, memorize.
                         The longer it takes to remember an idea, the simpler
                         it needs to be. Answers should be short.
@@ -109,7 +109,7 @@ notes:
                 uuid: 19d1c8ea-f661-4e1f-bef4-98ddacb0502e
                 topic: 20 rules for formulating knowledge
                 front: Use ... (8 techniques)
-                back: >
+                back: |
                         <ul>
                         <li> Cloze Deletion
                         <li> Imagery
@@ -124,7 +124,7 @@ notes:
                 uuid: 3ac65894-316d-4d3e-abca-97cd0e4a6b50
                 topic: 20 rules for formulating knowledge
                 front: Avoid ...
-                back: >
+                back: |
                         Sets, enumeration
         -
                 uuid: 4035b7ce-86fa-4c78-a97f-de4825a724ff
@@ -155,7 +155,7 @@ notes:
         -
                 uuid: 77450826-27a1-4902-9472-60696a502fbf
                 front: What are *context cues*?
-                back: >
+                back: |
                         Simplified wording putting an idea within a category.
                         Example: "author: Getting Things Done" instead of "Who
                         wrote the book Getting Things Done?".
@@ -194,52 +194,52 @@ notes:
         -
                 uuid: 9322eb33-67e2-4add-a019-4e7bb2bae8a2
                 front: How to insert a field into a note template?
-                back: >
+                back: |
                         { {FieldName} }
         -
                 uuid: 497e6088-3756-4950-b93e-5920361e85d5
                 front: Special field replaced by front template
-                back: >
+                back: |
                         { {FrontSide} }
                 include_reverse: true
         -
                 uuid: a80c8384-5f3b-44c9-9e19-cfbf07d2a138
                 front: Special field - tags from note
-                back: >
+                back: |
                         { {Tags} }
                 include_reverse: true
         -
                 uuid: ae41186a-ccf7-4613-b8ab-bda21f24fe6d
                 front: Special field - note type the card was created from
-                back: >
+                back: |
                         { {Type} }
                 include_reverse: true
         -
                 uuid: 9e3c5f2b-c2a8-433d-99c6-d3a0d44051a2
                 front: Special field - deck the card belongs to
-                back: >
+                back: |
                         { {Deck} }
                 include_reverse: true
         -
                 uuid: 50904ff0-c457-4396-bd62-ce899204f89c
                 front: Special field - name of this card type
-                back: >
+                back: |
                         { {Card} }
                 include_reverse: true
         -
                 uuid: 3d7c535b-c2d5-4804-8867-bc208719e942
                 front: Special field - cloze text, with either blank, or filled out
-                back: >
+                back: |
                         { {cloze:Text} }
         -
                 uuid: 5b815e40-90b4-48c0-bffb-003dc7e6fe85
                 front: How to display images that are larger than the screen?
-                back: >
+                back: |
                         `img { max-width: none; max-height: none; }`
         -
                 uuid: b039f633-a9e6-4c44-9a05-15b515f26331
                 front: What's the meaning of "steps"?
-                back: >
+                back: |
                         Duration and number of reviews required before
                         moving card from Learning to Review
         -
@@ -249,7 +249,7 @@ notes:
         -
                 uuid: afcdf3dd-0ef8-4691-96af-051007959e79
                 front: What are default *steps*?
-                back: >
+                back: |
                         1 minute, 10 minutes
         -
                 uuid: 3e15506c-f02e-483d-9aa6-793cbfe7c389
@@ -266,7 +266,7 @@ notes:
         -
                 uuid: c63aa8d6-b866-402b-a8bd-8f95d921b39c
                 front: What are *leeches*? When are they marked?
-                back: >
+                back: |
                         Leeches are cards you keep learning and forgetting.
                         They are suspended after 8 lapses.
         -
@@ -376,7 +376,7 @@ notes:
         -
                 uuid: d02bd981-5465-419d-9df1-421964f7438d
                 front: Cloze and LaTeX
-                back: >
+                back: |
                         We can totally use clozes within LaTeX
         -
                 uuid: da73b69e-6482-49d6-b412-ffe9f0c292bd
@@ -385,49 +385,49 @@ notes:
         -
                 uuid: 404ed4ce-ea65-48e2-a545-3d2c636c2bb6
                 front: What to do if I want to put double curlies in note fields?
-                back: >
+                back: |
                         Add a space in between them
         -
                 uuid: bec4f3cb-cd71-4e62-9bd5-3bad7dd28127
                 front: Why may LaTeX not be shown on mobile?
-                back: >
+                back: |
                         Because the card must first be viewed on desktop to
                         generate the LaTex before
                         the mobile sees the LaTeX.
         -
                 uuid: 587fc2c8-2b2b-4fc7-bdd0-3835ef05a768
                 front: What workaround forces regeneration of all LaTeX?
-                back: >
+                back: |
                         Tools > Maintenance > Unused Media
         -
                 uuid: 6224352b-b925-492d-ae8d-e7a563d44258
                 front: In TXT import, what happens to columns not mapped to note field?
-                back: >
+                back: |
                         They are added as tags
         -
                 uuid: ab70a26f-67ed-4994-be95-215e28dcdf30
                 front: In TXT import, how can we add tags?
-                back: >
+                back: |
                         As columns not mapped to any note fields
         -
                 uuid: 868bfb16-e348-40d1-aca3-1e35406f8921
                 front: In TXT import, how to add some tags to every added note?
-                back: >
+                back: |
                         Add first line saying `tags:tag1 tag2 tag3`
         -
                 uuid: 6f0535ec-b365-4b5d-ab4d-4837fd004afb
                 front: In TXT import, how to comment?
-                back: >
+                back: |
                         `# comment`
         -
                 uuid: 33b671e2-8d8d-4bbb-bdcb-9fbb147275cd
                 front: Shortcut - open note editor for this card
-                back: >
+                back: |
                         `e`
         -
                 uuid: 2cda577c-732d-44e5-8471-323a5552584e
                 front: "Shortcut - `e`"
-                back: >
+                back: |
                         Open note editor for this card
         -
                 uuid: b454d180-7c14-4cb2-92c5-4c9d0bce181b

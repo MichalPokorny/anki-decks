@@ -5,13 +5,13 @@ notes:
                 uuid: 6f2dc87d-6cd2-4f0f-af24-41f59c1bd1e7
                 topic: Reinforcement learning
                 front: Odkud přijde reward?
-                back: >
+                back: |
                         Reward je soucast perceptu.
         -
                 uuid: 27ace965-3b57-42cd-bad0-d408486e7765
                 topic: Reinforcement learning
                 front: Reflex agent
-                back: >
+                back: |
                         Naučí se policy, která mapuje ze stavů do akcí.
         -
                 uuid: c9942fb6-b315-4fc1-b894-20c330b2e456
@@ -26,20 +26,20 @@ notes:
         -
                 uuid: 7f9a9722-e639-4a62-a0c5-197829ce21c6
                 front: Utility funkce, kterou se učí pasivní učení; model (jako nekonečná suma)
-                back: >
+                back: |
                         [$]U^\\pi(s)=\\mathbb{E}[\\sum_{t=0\\ldots\\infty} \\gamma^t \\cdot R(s_t)] [/$]
         -
                 uuid: 2fb6e2af-125c-4dd4-8a86-3495a89ee87c
                 topic: Reinforcement learning
                 front: Co nezná pasivní učení?
-                back: >
+                back: |
                         Agent nezná transition model [$]P(s'|s,a)[/$],
                         reward function [$]R(s)[/$] (postupně se učí z perceptů).
         -
                 uuid: 105d7079-f317-4368-a9a3-f1541d832c30
                 topic: Reinforcement learning
                 front: Direct utility estimation - jak funguje? Proč je neefektivní?
-                back: >
+                back: |
                         Postupně sampluj pro každý stav jaké discountované utility jsme viděli.
                         Stane se z toho supervised learning.<br>
 
@@ -50,13 +50,13 @@ notes:
                 uuid: 56c13553-e810-4ba1-9b36-d0e032c98581
                 topic: Reinforcement learning
                 front: Bellmanovy rovnice pro zafixovanou policy
-                back: >
+                back: |
                         [$$]U^\\pi(s)=R(s)+\\gamma \\sum_{s'} P(s'|s,\\pi(s)) U^\\pi(s')[/$$]
         -
                 uuid: 06a2032d-46dd-4da7-925c-711687a73d4e
                 topic: Reinforcement learning
                 front: Adaptive dynamic programming - co se učí? K čemu?
-                back: >
+                back: |
                         Učí se transition model [$]P(s'|s,\\pi(s))[/$],
                         odměny [$]R(s)[/$].<br>
                         Pomocí Bellmanových rovnic (například pomocí modified
@@ -65,7 +65,7 @@ notes:
                 uuid: 1fdc283e-9b4e-4b5a-8ab2-a1ac6668df78
                 topic: Reinforcement learning
                 front: Pasivní ADP agent
-                back: >
+                back: |
                         Když jsem ještě neviděl stav: řekni že initial utility je reward, [$]R[s]=r'[/$] reward signál
                         <br>
                         Jestli jsem přišel z jiného stavu, inkrementuj počet pozorovaných přechodů.
@@ -77,7 +77,7 @@ notes:
                 uuid: e42e5279-659a-48b2-9f03-831c0e7fc967
                 topic: Reinforcement learning
                 front: (Passive) temporal-difference learning &mdash; update
-                back: >
+                back: |
                         Používám viděné přechody na postupné updatování utilit.<br>
 
                         Update:
@@ -86,7 +86,7 @@ notes:
                 uuid: 98b6eeca-65b2-4390-b02d-79299e42547d
                 topic: Reinforcement learning
                 front: Porovnání ADP a TD
-                back: >
+                back: |
                         Temporal difference learning nepotřebuje transition model.
                         Na jeden observed transition udělá jeden update.<br>
                         Adaptive dynamic programming udělá bulk update.
@@ -96,21 +96,21 @@ notes:
                 uuid: 99f3d30a-3855-41b1-9704-ed6765005e04
                 topic: Reinforcement learning
                 front: Active reinforcement learning - forma Bellmanových rovnic co by mělo splňovat ADP
-                back: >
+                back: |
                         Vybírám optimální akci.
                         [$$]U^\\pi(s)=R(s)+\\gamma \\max_a \\sum_{s'} P(s'|s,a) U^\\pi(s')[/$$]
         -
                 uuid: 625edded-3b66-4b4c-9b28-330306392933
                 topic: Reinforcement learning
                 front: Problémy s active reinforcement learningem přes maximalizaci Bellmanových rovnic
-                back: >
+                back: |
                         Je to greedy agent. Nenaučil se totiž, co všechno prostředí umožňuje.<br>
                         Musím udělat exploration/exploitation trade-off.
         -
                 uuid: f33a95a2-8be5-4095-a52f-07a3b55d601f
                 topic: Reinforcement learning
                 front: Jak integrovat exploraci?
-                back: >
+                back: |
                         <ul>
                         <li> *Občas náhodná akce*: extrémně pomalé.
                         <li> *Exploraci v odhadu utility*:
@@ -127,27 +127,27 @@ notes:
                 uuid: b7a2ae3f-3106-438d-8cc5-12b6b5879993
                 topic: Reinforcement learning
                 front: Q-learning &mdash; Q-funkce
-                back: >
+                back: |
                         [$]Q(s,a)[/$]: hodnota akce [$]a[/$] ve stavu [$]s[/$].
                         Model-free.
         -
                 uuid: 6363b605-6198-495b-ac6e-5f3f94607617
                 topic: Reinforcement learning
                 front: Vztah mezi Q funkcí a utilitou
-                back: >
+                back: |
                         [$]U(s)=\\max_a Q(s,a)[/$]
         -
                 uuid: 005c51b9-bad7-4633-b0e8-b09d403a7746
                 topic: Reinforcement learning
                 front: Q-learning &mdash; rovnice která by měla platit postupně
-                back: >
+                back: |
                         [$$]Q(s,a)=R(s)+\\gamma\\sum_{s'}P(s'|s,a)\\max_{a'}Q(s',a')[/$$]
                         Ale nebudu se na to učit explicitní model.
         -
                 uuid: 08559802-8f4c-4c41-ae11-6a2072109c0d
                 topic: Reinforcement learning
                 front: Q-learning &mdash; update
-                back: >
+                back: |
                         Update se provede kdykoliv udělám akci [$]a[/$] a skončím tím ve stavu [$]s'[/$].<br>
                         [$$]Q(s,a)\\leftarrow Q(s,a)+\\alpha(R(s)+\\gamma\\max_{a'}Q(s',a')-Q(s,a))[/$$]
                         <br>
@@ -161,7 +161,7 @@ notes:
                 uuid: 6ea21443-2301-44b6-ae1f-55cc2f09725f
                 topic: Reinforcement learning
                 front: SARSA &mdash; update rule, změna z Q-learning
-                back: >
+                back: |
                         <ul>
                         <li> *SARSA*:
                         [$$]
@@ -178,7 +178,7 @@ notes:
                 uuid: 15ee1ee2-e64d-41f8-98ae-0fbd136a0b53
                 topic: Reinforcement learning
                 front: SARSA vs. Q-learning
-                back: >
+                back: |
                         Když agent je greedy, jsou identické.
                         <br>
                         Když exploruje, drobný rozdíl. Q-learning
@@ -192,7 +192,7 @@ notes:
                 uuid: 38101815-5bf6-4285-b98f-1001cf9f9e0b
                 topic: Reinforcement learning
                 front: Rozdíly mezi Q-learningem a SARSOU vs. ADP
-                back: >
+                back: |
                         Q-learning, SARSA se učí action-utility funkci
                         bez modelu.
                         Lokální updaty neenforcují konzistenci Q-hodnot.<br>

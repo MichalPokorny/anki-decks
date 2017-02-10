@@ -29,28 +29,28 @@ notes:
         -
                 uuid: bba35562-ed38-4a38-b646-f170a16945ce
                 front: 1033
-                back: >
+                back: |
                         Year:
                         Region united under Holy Roman Empire
                 include_reverse: true
         -
                 uuid: b35e7359-11af-4b8c-88a8-45af638071e9
                 front: 13th century
-                back: >
+                back: |
                         Expanding feudal houses, notably Zähringen and Kyburg,
                         supplanted by Hapsburgs and Savoys
                 include_reverse: true
         -
                 uuid: db09811a-9198-4269-97c4-7b2ee3229526
                 front: 1291
-                back: >
+                back: |
                         Year:
                         Uri, Schwyz, Unterwalden form defensive alliance.
                 include_reverse: true
         -
                 uuid: 3c8c5b01-8635-41ad-9d52-e5265d8e773d
                 front: 1332 - 1353
-                back: >
+                back: |
                         Years:
                         Luzern, Zurich, Glarus and Zug, Bern join.
                         <br>
@@ -58,34 +58,34 @@ notes:
                 include_reverse: true
         -
                 uuid: ebd7aafa-a70a-4535-9dcc-af64594caa06
-                front: >
+                front: |
                         Year: Luzern joins
                 back: 1332
         -
                 uuid: 6927122f-c5ca-4bf9-84c2-06ab81b28630
-                front: >
+                front: |
                         Year: Zurich joins
                 back: 1351
         -
                 uuid: 22d21867-82af-4872-bc48-4727729e9f31
-                front: >
+                front: |
                         Year: Glarus and Zug join
                 back: 1352
         -
                 uuid: b3511695-cfb1-4c02-8c5c-db6800701596
-                front: >
+                front: |
                         Year: Bern joins
                 back: 1353
         -
                 uuid: eb13788e-ba81-433f-bbab-f026e2ef80ef
                 front: Acht alten Orte (eight old states)
-                back: >
+                back: |
                         Uri, Schwyz, Unterwalden, Luzern, Zurich,
                         Glarus and Zug, Bern
         -
                 uuid: ada53636-38bb-4feb-a083-21cd04831139
                 front: 1386-88
-                back: >
+                back: |
                         Year:
                         Alliance decisively defeats Hapsburgs at 2
                         different battles.
@@ -93,35 +93,35 @@ notes:
         -
                 uuid: 8672b0cc-c3a8-4cf2-ac58-7129775915ed
                 front: 1481
-                back: >
+                back: |
                         Year:
                         Fribourg, Solothurn join.
                 include_reverse: true
         -
                 uuid: 8c5e3366-7b65-4a04-a45a-b7226bfef1d7
                 front: 1499
-                back: >
+                back: |
                         Year:
                         Granted virtual independence from Emperor Maximilian I.
                 include_reverse: true
         -
                 uuid: 9a40c10d-d1a7-4db9-bd7d-3ce9a53929f7
                 front: 1501
-                back: >
+                back: |
                         Year:
                         Basel, Schaffhausen join.
                 include_reverse: true
         -
                 uuid: 36ecb3ef-1e5b-401d-b2c5-7cd980b0f0d5
                 front: 1513
-                back: >
+                back: |
                         Year:
                         Appenzell joins, taking the alliance to 13.
                 include_reverse: true
         -
                 uuid: a31e52f4-043f-4570-baf4-d60c7c72250b
                 front: 1515
-                back: >
+                back: |
                         Year:
                         Defeated by French at Margiano.
                         As a result, perpetual alliance is formed with
@@ -131,7 +131,7 @@ notes:
         -
                 uuid: 3bc588fb-8323-481b-a20e-9919dcffca7c
                 front: 1519
-                back: >
+                back: |
                         Year:
                         Reformation starts in Zurich.
                         Central Switzerland remains Catholic.
@@ -139,7 +139,7 @@ notes:
         -
                 uuid: 39789a3f-87b5-45d8-baad-d344fd73916f
                 front: 1648
-                back: >
+                back: |
                         Year:
                         Switzerland becomes recognised as neutral state in
                         Treaty of Westphalia.
@@ -147,14 +147,14 @@ notes:
         -
                 uuid: da97fdf8-7915-4668-8610-fd0c78a5cacd
                 front: 1798
-                back: >
+                back: |
                         Year:
                         French invade Switzerland. Old Confederation collapses.
                 include_reverse: true
         -
                 uuid: 33844211-8cf0-4f1c-ba6f-f51b56f72094
                 front: 1803
-                back: >
+                back: |
                         Year:
                         New Cantons of Sankt Gallen, Graubünden, Thurgau,
                         Ticino, Aargau and Vaud join.
@@ -162,7 +162,7 @@ notes:
         -
                 uuid: b5a65b65-9eea-4c7a-a50d-2559c6f8f440
                 front: 1815
-                back: >
+                back: |
                         Year:
                         Congress of Vienna, Treaty of Paris
                         establishes Switzerland as Federation, guarantees
@@ -172,7 +172,7 @@ notes:
         -
                 uuid: 33c2786f-39e4-45ed-a8ac-cac9a08098f3
                 front: 1847
-                back: >
+                back: |
                         Year:
                         Civil war. Protestant army led by General Dufour
                         crushes separatist league of Catholic cantons.
@@ -180,7 +180,7 @@ notes:
         -
                 uuid: 05ef79d1-a7df-4d48-98be-e9f3a7b3769f
                 front: 1848
-                back: >
+                back: |
                         Year:
                         New Federal Constitution: Compromise between central
                         control and cantonal authority. Industrialisation,
@@ -189,7 +189,7 @@ notes:
         -
                 uuid: b3f5e6d1-2f39-4411-af8c-34ef946e63e5
                 front: 1864
-                back: >
+                back: |
                         Year:
                         Foundation of International Committee of the Red Cross
                         (ICRC) in Geneva. Compulsory free education.
@@ -208,21 +208,21 @@ notes:
                 uuid: e0f276c2-5bbf-4c37-8237-005c1220355d
                 include_reverse: true
                 front: 1971
-                back: >
+                back: |
                         Year:
                         Swiss people vote for women's suffrage.
         -
                 uuid: 2091c38c-385e-4335-857f-9335a4579688
                 include_reverse: true
                 front: 1979
-                back: >
+                back: |
                         Year:
                         Canton Jura established
         -
                 uuid: 88466e53-a4d1-4c0b-98e6-e61a8736231b
                 include_reverse: true
                 front: 1984
-                back: >
+                back: |
                         Year:
                         Elizabeth Kopp of Radical Democratic party becomes
                         first woman government minister.
@@ -230,7 +230,7 @@ notes:
                 uuid: 58b25c7c-e958-4a1a-9192-971b7f190fb4
                 include_reverse: true
                 front: 1986
-                back: >
+                back: |
                         Year:
                         Parliamentary proposal to join UN
                         rejected by Swiss voters in belief that it would
@@ -240,7 +240,7 @@ notes:
                 uuid: cddfdb7e-d482-411c-8dce-73eef35b197f
                 include_reverse: true
                 front: 1992
-                back: >
+                back: |
                         Year:
                         Swiss people vote against becoming a member of EEA
                         (European Economic Area).
@@ -248,7 +248,7 @@ notes:
                 uuid: 51aa77fd-c286-4ce0-9111-ef7b293806e5
                 include_reverse: true
                 front: 1998
-                back: >
+                back: |
                         Year:
                         Following charges that stolen assets deposited in Swiss
                         banks by Nazis during WWII had not been
@@ -259,7 +259,7 @@ notes:
                 uuid: b3e88534-2dbf-4852-a6d9-dde86a7e37f6
                 front: 1999
                 include_reverse: true
-                back: >
+                back: |
                         Year:
                         Ruth Dreifuss (Jewish, female, socialist, ex-unionist)
                         becomes Switzerland's first woman president.
@@ -271,14 +271,14 @@ notes:
                 uuid: 9840e4fa-711f-4350-9cca-f2ccfdbb8970
                 include_reverse: true
                 front: 2001
-                back: >
+                back: |
                         Year:
                         Referendum rejects EU membership.
         -
                 uuid: cc157639-1a04-4abd-a8fd-455d78897f7a
                 include_reverse: true
                 front: 2005
-                back: >
+                back: |
                         Year:
                         Referendum backs membership of Schengen; separate
                         referendum backs expansion of job market to
@@ -287,7 +287,7 @@ notes:
                 uuid: 9d573f8a-c4bd-4d7b-b761-4590f70a8e16
                 include_reverse: true
                 front: 2005 November
-                back: >
+                back: |
                         Year, months:
                         Referendum backs 5 year ban of genetically modified
                         crops.
@@ -295,7 +295,7 @@ notes:
                 uuid: 3183ea6c-fdc2-4981-a351-1242001a7140
                 include_reverse: true
                 front: 2006 September
-                back: >
+                back: |
                         Year, months:
                         National referendum gains support from voters to make
                         asylum laws among toughest in the West.
@@ -303,7 +303,7 @@ notes:
                 uuid: 27e5e079-34ee-4c4b-81cd-f65c8fd576a6
                 include_reverse: true
                 front: 2007 January to May
-                back: >
+                back: |
                         Year, months:
                         Ex-directors of Swissair (collapsed in 2001)
                         all cleared in Switzerland's biggest corporate trial.
@@ -311,7 +311,7 @@ notes:
                 uuid: 50a68886-0f3a-40af-923c-097cb3fd57b6
                 include_reverse: true
                 front: 2007 December
-                back: >
+                back: |
                         Year, month:
                         Swiss People's Party (SVP) quits governing
                         coalition after one of its leaders, Christoph Blocher,
@@ -320,7 +320,7 @@ notes:
                 uuid: 137c0bed-418d-4589-b3fc-6093cb742a50
                 include_reverse: true
                 front: 2008 June
-                back: >
+                back: |
                         Year, month:
                         Voters reject referendum initiative to limit
                         naturalisation of foreigners by allowing Swiss communes
@@ -329,7 +329,7 @@ notes:
                 uuid: ecab96a4-1542-497d-901b-d938a0276db5
                 include_reverse: true
                 front: 2008 October
-                back: >
+                back: |
                         Year, month:
                         Libya cancels oil deliveries to Switzerland,
                         withdraws assets worth billions of USD from Swiss
@@ -341,7 +341,7 @@ notes:
                 uuid: 24e9eb54-3a6a-4ef7-b19e-02b27ce528c3
                 include_reverse: true
                 front: 2008 December
-                back: >
+                back: |
                         Year, month:
                         Swiss People's Party (SVP) rejoins governing
                         coalition with election of party member Ueli Maurer
@@ -351,14 +351,14 @@ notes:
         -
                 uuid: 37d18907-eb0d-4623-9142-5139f8d510ad
                 front: 2009 January
-                back: >
+                back: |
                         Year, month:
                         Economy officially goes into recession.
                 include_reverse: true
         -
                 uuid: 129fe63c-cef3-4b79-9043-520b6b033bfa
                 front: 2009 March
-                back: >
+                back: |
                         Year, month:
                         Switzerland's government announces it will relax its
                         rules on banking secrecy to allow Swiss financial
@@ -369,13 +369,13 @@ notes:
                 uuid: 4d4186cc-0d1b-462a-aa3d-401b1017843a
                 front: 2009 November
                 include_reverse: true
-                back: >
+                back: |
                         Year, month:
                         Referendum bans construction of minarets on mosques.
         -
                 uuid: 0620f334-320c-463b-b91c-5c7ee25bfc4b
                 front: 2010 September
-                back: >
+                back: |
                         Year, month:
                         Election of new female minister to Federal
                         Council gave the cabinet a majority of women
@@ -384,7 +384,7 @@ notes:
         -
                 uuid: b7baff71-6f06-4934-994e-b33d9fa12799
                 front: 2010 October
-                back: >
+                back: |
                         Year, month:
                         World's longest tunnel built under Swiss Alps
                         completed.
@@ -392,7 +392,7 @@ notes:
         -
                 uuid: 75efd3d9-c6be-4d40-b9bc-3195335b425a
                 front: 2011 May
-                back: >
+                back: |
                         Year, month:
                         Switzerland becomes first European country
                         to announce plans to phase out nuclear power
@@ -400,7 +400,7 @@ notes:
         -
                 uuid: f4c00a01-10a6-4d28-ad2e-a434abd2a176
                 front: 2011 September
-                back: >
+                back: |
                         Year, month:
                         Government announces CHF will be
                         pegged to &euro; after manufacturers warn that
@@ -411,7 +411,7 @@ notes:
         -
                 uuid: 9c0b35a6-0ed4-4bd5-a90b-8a7a10c7b99b
                 front: 2012 November
-                back: >
+                back: |
                         Year, month:
                         Ecopop environmentalist group collects enough
                         signatures to force national referendum to cap annual
@@ -421,7 +421,7 @@ notes:
         -
                 uuid: b3bd1178-6fb0-41d2-979e-559d862bdb56
                 front: 2013 June
-                back: >
+                back: |
                         Year, month:
                         Lower house of parliament refuses to debate bill to
                         allow banks to pass client information to US tax
@@ -432,14 +432,14 @@ notes:
         -
                 uuid: 118fceb2-b931-48d1-b43f-c14d58ad31a1
                 front: 2013 September
-                back: >
+                back: |
                         Year, month: Voters reject proposal to scrap military
                         conscription
                 include_reverse: true
         -
                 uuid: be8041f9-8c9f-4fb5-a531-65db94e393e9
                 front: 2014 February
-                back: >
+                back: |
                         Year, month:
                         Swiss People's Party proposal to bring back strict
                         quotas for immigration from European Union countries
@@ -450,7 +450,7 @@ notes:
         -
                 uuid: 4ea13cff-e753-4ce3-9bc0-a1fd442b1926
                 front: 2014 November
-                back: >
+                back: |
                         Voters reject a proposal backed by the environmentalist
                         pressure group Ecopop for net immigration to be limited
                         to a maximum of 0.2% of the population.
@@ -458,7 +458,7 @@ notes:
         -
                 uuid: d63bde79-aec9-4368-9a7b-e0e54345938c
                 front: 2015 January
-                back: >
+                back: |
                         Swiss National Bank responds to steep
                         depreciation of &euro; during 2014 by
                         terminating CHF-&euro; pegging

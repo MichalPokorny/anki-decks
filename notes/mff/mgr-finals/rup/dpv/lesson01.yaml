@@ -5,15 +5,15 @@ notes:
                 uuid: 8e2b26e8-30f3-4c2c-aba3-6c85c6284774
                 topic: Řešení SAT
                 front: NNF formule a jak rychlý je převod
-                back: >
+                back: |
                         Formule co má jenom [$]\\wedge, \\vee, \\neg[/$] a negace je jenom u literálů.
                         Převod trvá lineární čas (de Morgan a eliminace dvojité negace formuli neprodlužují).
         -
                 uuid: 0f9b799d-839b-4e9e-8ae1-2314bae8f593
                 topic: Řešení SAT
-                front: >
+                front: |
                         Převod do CNF v lineárním čase: Jméno, jak se dělá
-                back: >
+                back: |
                         Tseitinovo kódování.<br>
                         Vyrobím pro formuli generující strom,
                         pro vnitřní vrcholy vyrobím nové proměnné.
@@ -21,13 +21,13 @@ notes:
                 uuid: dd575466-88ed-4d73-8c3b-a3166cc6bcc0
                 topic: Řešení SAT
                 front: Definice - Antecedentní klauzule (v SAT solveru)
-                back: >
+                back: |
                         Klauzule, která vyvolala unit propagaci literálu (ve které se nacházel).
         -
                 uuid: ad4dd92e-6a3a-4d07-80d9-4e797a51ccfe
                 topic: Řešení SAT
                 front: Definice implikačního grafu
-                back: >
+                back: |
                         Graf popisuje fázi DPLL.<br>
                         Vrcholy jsou proměnné a K.
                         Jsou označené ohodnocením a "decision levelem".
@@ -47,23 +47,23 @@ notes:
         -
                 uuid: d819b91f-b306-437a-9aed-189891951eb5
                 topic: Řešení SAT
-                front: >
+                front: |
                         Jak z implikačního grafu vykoukám novou
                         konfliktní klauzule?
-                back: >
+                back: |
                         Řez v grafu mezi rozhodnutími a K.
         -
                 uuid: 8b253b81-ab75-44b3-8dfd-6454c64fcde2
                 topic: Řešení SAT
                 front: K čemu jsou v implikačním grafu řezy?
-                back: >
+                back: |
                         Řez mezi rozhodnutími a K je konfliktní
                         klauzule implikovaná rozhodnutími.
         -
                 uuid: f2529af7-25ca-42a2-a230-ec5edf03cb03
                 topic: Řešení SAT
                 front: Algoritmus CDCL - za co je to zkratka, co dělá?
-                back: >
+                back: |
                         Conflict-driven clause learning.<br>
 
                         Udělej unit propagaci a pure variable elimination.<br>
@@ -83,7 +83,7 @@ notes:
                 uuid: 1c2792bd-77f2-46b9-bc3c-34fad1a2a7a4
                 topic: Řešení SAT
                 front: Jak v CDCL vybrat vhodnou klauzuli k naučení?
-                back: >
+                back: |
                         Asserting clause: konfliktní klauzule co obsahuje
                         přesně jeden literál ze současného rozhodnutí.
                         (Po backtracku unit propagace okamžitě dá rozhodnutí.)
@@ -98,7 +98,7 @@ notes:
                 uuid: 597265d0-ed3d-4af5-ad9f-dfc558da09d0
                 topic: Řešení SAT
                 front: Kam v CDCL backtrackovat?
-                back: >
+                back: |
                         Podívej se na klauzuli, kterou ses naučil.
                         Backtrackni do druhé nejhlubší úrovně přiřazení v ní.
                         (Smaž všechny rozhodnutí udělané potom.)
@@ -106,7 +106,7 @@ notes:
                 uuid: b72a9764-ad55-4a3b-b72a-4376e36eed3c
                 topic: Řešení SAT
                 front: CDCL - detaily analýzy konfliktu
-                back: >
+                back: |
                         Vezmi konfliktní klauzuli.
 
                         Dokud neobsahuje konfliktní klauzule právě jeden literál
@@ -115,16 +115,16 @@ notes:
         -
                 uuid: cea23069-42ba-472c-b0f0-f875e55b8cf7
                 topic: Řešení SAT
-                front: >
+                front: |
                         Jména: Heuristiky pro výběr proměnných k dosazení
-                back: >
+                back: |
                         VSIDS (Variable State Independent Decaying Sum),
                         Berkmin
         -
                 uuid: 05bb9ed3-3b6f-44fa-a69d-519a55ef075c
                 topic: Řešení SAT
                 front: Heuristika VSIDS
-                back: >
+                back: |
                         Každý literál má skóre. Když se naučím klauzuli,
                         přičtu jejím literálům 1, pravidelně všechny skóre
                         exponenciálně zmenšuju.
@@ -133,7 +133,7 @@ notes:
                 uuid: 3bfa2a31-4515-4bd9-abcf-fa2ce8ef91f9
                 topic: Řešení SAT
                 front: Heuristika Berkmin
-                back: >
+                back: |
                         Každá proměnná, literál má VSIDS skóre, které se nedělí
                         průběžně.<br>
                         Konfliktní klauzule házím do stacku.
@@ -145,7 +145,7 @@ notes:
                 uuid: 5f932d37-3de7-43c5-8c67-50e2e844762d
                 topic: Řešení SAT
                 front: Sledování dvou literálů
-                back: >
+                back: |
                         V každé nevyřešené klauzuli označ 2 nedosazené
                         literály.
                         <br>

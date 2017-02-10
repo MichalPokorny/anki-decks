@@ -4,7 +4,7 @@ notes:
         -
                 uuid: 95b3a90e-dbc5-4bab-8713-1468756d7622
                 front: Konceptuální model plánování, cíle; zjednodušení světa?
-                back: >
+                back: |
                         Stavy: množina, akce: množina, události mimo naši
                         kontrolu, přechodová funkce<br>
                         Cíle: cílový stav / splnění podmínky v plánu (např.
@@ -18,26 +18,26 @@ notes:
         -
                 uuid: 732febcc-69de-4eac-ae60-dcff6f9ec4e2
                 topic: STRIPS plánování
-                front: >
+                front: |
                         Definice: Stav systému
-                back: >
+                back: |
                         Množina platných výroků z [$]L[/$], akce je přidá nebo
                         smaže
         -
                 uuid: 034f6a96-233b-405d-b391-38e4f0a1babd
                 topic: STRIPS plánování
-                front: >
+                front: |
                         Definice: Doména
-                back: >
+                back: |
                         [$]L[/$] je konečná množina výrokových symbolů.<br>
                         Doména nad výroky [$]L[/$]: [$]\\Sigma=(S,A,\\gamma)[/$],
                         kde [$]S\\subseteq\\mathcal{P}(L)[/$] je množina stavů.
         -
                 uuid: 121e9e45-d6a2-4170-acf4-143a3e826192
                 topic: STRIPS plánování
-                front: >
+                front: |
                         Definice - Akce, kdy je použitelná
-                back: >
+                back: |
                         Akce:
                         [$]a=(\\mathrm{precond}(a),\\mathrm{eff}^{-}(a), \\mathrm{eff}^{+}(a))[/$];
                         ([$]\\mathrm{eff}^- \\cap \\mathrm{eff}^+ = \\emptyset[/$]),
@@ -45,42 +45,42 @@ notes:
         -
                 uuid: 2c07c245-ae07-4fc2-9857-952e41e102ea
                 topic: STRIPS plánování
-                front: >
+                front: |
                         Definice: Přechodová funkce
-                back: >
+                back: |
                         [$]\\gamma(s,a)=(s-\\mathrm{eff}^{-}(a))\\cup \\mathrm{eff}^+(a)[/$]
                         je-li [$]a[/$] použitelná akce.
         -
                 uuid: 0b79d1b3-d1c5-403f-ab8b-49b95b4cc411
                 topic: STRIPS plánování
-                front: >
+                front: |
                         Definice: Plánovací problém
-                back: >
+                back: |
                         [$]P = (\\Sigma,s_0,g)[/$], kde [$]\\Sigma=(S,A,\\gamma)[/$]
                         je plánovací doména, [$]s_0[/$] je počáteční stav,
                         [$]g\\subseteq L[/$] jsou cílové výroky.
         -
                 uuid: 73c1b436-401f-4cec-bdb8-4f0bf63da074
                 topic: STRIPS plánování
-                front: >
+                front: |
                         Definice: Minimální řešení
-                back: >
+                back: |
                         Plán jehož výsledek splňuje cílové výroky a je takový
                         nejkratší.
         -
                 uuid: 4e46e196-cd01-43e9-9234-a49402354757
                 topic: STRIPS plánování
-                front: >
+                front: |
                         Definice: Akce [$]a[/$] je relevantní pro cíl [$]g[/$]
-                back: >
+                back: |
                         Když [$]g\\cap \\mathrm{eff}^+(a)\\neq\\emptyset[/$] a
                         [$]g\\cap \\mathrm{eff}^-(a)=\\emptyset[/$].
         -
                 uuid: da45bb52-8736-4e6d-9754-e7a707678e33
                 topic: STRIPS plánování
-                front: >
+                front: |
                         Definice: Regresní množiny pro cíl [$]g[/$]
-                back: >
+                back: |
                         Pro relevantní akci [$]a[/$]:
                         [$$]\\gamma^{-1}(g,a)=(g-\\mathrm{eff}^{+}(a))\\cup \\mathrm{precond}(a)[/$$]
                         [$$]\\Gamma^{-1}(g)=\\{\\gamma^{-1}(g,a) : a\\in A, \\text{relevantni pro}\\ g\\}[/$$]
@@ -89,32 +89,32 @@ notes:
                 uuid: 80482898-f547-4b91-8b36-f9362c688e06
                 topic: STRIPS plánování
                 front: Kdy má problém řešení, v řeči regresních množin?
-                back: >
+                back: |
                         Když [$]s_0[/$] je nadmnožina nějakého prvku
                         [$]\\Gamma_\\infty^{-1}(g)[/$].
         -
                 uuid: 9f3820c7-6ea2-44fc-a98e-b62f77dcaa94
                 topic: STRIPS plánování
                 front: Klasická reprezentace - jak vypadá jazyk?
-                back: >
+                back: |
                         Máme relační symboly a konstanty, můžeme používat proměnné. Nemáme funkce.
         -
                 uuid: a5b34232-4fca-492c-8767-20afa831b20d
                 topic: STRIPS plánování
                 front: Klasická reprezentace - co je stav?
-                back: >
+                back: |
                         Množina konečně mnoha instanciovaných atomů
         -
                 uuid: c364eeda-1c3a-4baf-abf2-df5ef363e1aa
                 topic: STRIPS plánování
                 front: Klasická reprezentace - jaký je logický předpoklad?
-                back: >
+                back: |
                         Closed world assumption
         -
                 uuid: c5dbfefc-72ce-4476-9110-6b7ff1555875
                 topic: STRIPS plánování
                 front: Klasická reprezentace - typy atomů podle toho, co dělají
-                back: >
+                back: |
                         Flexibilní (fluent) se mění, neměnné (rigid) jsou
                         výroky co platí pořád.
         -
@@ -125,9 +125,9 @@ notes:
         -
                 uuid: ecbf6bce-83b9-4d15-acd6-2c7bd62ea698
                 topic: STRIPS plánování
-                front: >
+                front: |
                         Definice: Plánovací operátor a akce
-                back: >
+                back: |
                         [$] (\\mathrm{name}(o), \\mathrm{precond}(o),
                         \\mathrm{effects}(o))[/$]
                         <br>
@@ -143,22 +143,22 @@ notes:
         -
                 uuid: 980e7651-cdb8-4cb9-b435-0e8e879ed6f4
                 topic: STRIPS plánování
-                front: >
+                front: |
                         Notace: Pozitivní, negativní atomy v [$]S[/$]
-                back: >
+                back: |
                         [$]S^+, S^-[/$]
         -
                 uuid: 12412f4d-9dd1-4855-973f-ca777c25f870
                 topic: STRIPS plánování
                 front: Kdy je akce použitelná?
-                back: >
+                back: |
                         Když jsou splněny [$]\\mathrm{precond}^+[/$] a žádný z
                         atomů [$]\\mathrm{precond}^-[/$].
         -
                 uuid: 596441a3-8174-41a4-9207-af9eedacabf6
                 topic: STRIPS plánování
                 front: 6 rozšíření klasického plánování
-                back: >
+                back: |
                         <ul>
                         <li> *Typované proměnné*
                         <li> *Existenčně kvantifikované cíle*
@@ -171,10 +171,10 @@ notes:
         -
                 uuid: 3c7255ce-7c7f-46b0-a41d-b6698f01153b
                 topic: STRIPS plánování
-                front: >
+                front: |
                         Co se musí udělat, když rozšíříme klasické plánování o
                         logické axiomy?
-                back: >
+                back: |
                         Rozdělit atomy na primární (jsou v předpokladech i
                         efektech) a sekundární (jen v předpokladech) &mdash;
                         příklad "holding/empty"

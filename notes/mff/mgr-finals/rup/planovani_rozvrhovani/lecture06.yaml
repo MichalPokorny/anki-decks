@@ -4,17 +4,17 @@ notes:
         -
                 uuid: bfc4332e-5d35-4f43-bda3-bd05086a909d
                 topic: Plánování jako SAT
-                front: >
+                front: |
                         Problém při kódování plánování do SAT/CSP, jeho řešení
-                back: >
+                back: |
                         SAT/CSP jsou statické. Budeme hledat jenom plány
                         do nějaké maximální délky.
         -
                 uuid: 6b2504bf-e38e-4c51-8c5d-4c6a3337f777
                 topic: Plánování jako SAT
-                front: >
+                front: |
                         Kódování plánování jako SAT
-                back: >
+                back: |
                         <ul>
                         <li>
                         Atomy: výroková proměnná s jejich časem (fluenty).
@@ -32,7 +32,7 @@ notes:
                 uuid: 80193da3-fdfe-4d45-abc6-2ce0486fdc70
                 topic: Plánování jako SAT
                 front: Frame axioms &mdash; 2 způsoby
-                back: >
+                back: |
                         <ul>*Klasické*: proměnné co nejsou efekty
                         se nemění [$](p\\not\\in \\mathrm{eff}^+(a))::
                                 a_i \\rightarrow (p_i \\leftrightarrow p_{i+1})[/$];
@@ -51,10 +51,10 @@ notes:
         -
                 uuid: 6fb7a79a-87f7-47b6-a9b5-9902749c9ba4
                 topic: Plánování jako SAT
-                front: >
+                front: |
                         Jak zmenšit počet proměnných pro reprezentaci akcí
                         jako SAT?
-                back: >
+                back: |
                         Z three-place akční proměnné (posuň robota
                         [$]r[/$] z [$]loc_1[/$] do [$]loc_2[/$])
                         udělej tři one-place akční proměnné (posuň
@@ -65,7 +65,7 @@ notes:
                 uuid: b851c651-d119-4dd6-ba1d-ad07c36997d6
                 topic: Plánování jako CSP
                 front: Rozdíl CSP reprezentace od SAT
-                back: >
+                back: |
                         Stavové proměnné: například pozice robota, atd.<br>
                         Neměnné vztahy se popisují relacemi. Operátory
                         dělají změny stavových proměnných.
@@ -73,19 +73,19 @@ notes:
                 uuid: fc31ffb0-fa12-4800-beae-500e1f46decd
                 topic: Plánování jako CSP
                 front: Jak v CSP kódujeme akce?
-                back: >
+                back: |
                         Jako podmínky mezi frame axiomy.
         -
                 uuid: 0fd530e3-8094-40ce-87c4-c055c0707b37
                 topic: Plánování jako SAT/CSP
                 front: Na co nesmíme zapomenout při kódování jako CSP/SAT?
-                back: >
+                back: |
                         Axiomy rámce
         -
                 uuid: 6271c929-aaf6-4836-b1fe-6cba8cf1aabe
                 topic: Plánování jako CSP
                 front: Kde je dobře použitelné plánování jako CSP?
-                back: >
+                back: |
                         *V prostoru plánů*: test konzistence (rychlý ale neúplný).
                         (Úplný jde udělat až na úplném plánu.)
                         <br>
@@ -93,10 +93,10 @@ notes:
         -
                 uuid: 0eaf5364-c57f-4d4a-b6c8-35653a897312
                 topic: Graphplan jako CSP
-                front: >
+                front: |
                         Kódování do CSP - role proměnných, domén,
                         omezujících podmínek
-                back: >
+                back: |
                         Proměnné: výroky ve stavových vrstvách.
                         <br>
                         Domény: akce, které mají atom jako pozitivní efekt,
@@ -107,10 +107,10 @@ notes:
         -
                 uuid: 7373e1b3-4933-4c33-b38c-623723445edd
                 topic: Graphplan jako CSP
-                front: >
+                front: |
                         Kódování do CSP - přesné podmínky
                 markdown: false
-                back: >
+                back: |
                         <ul>
                         <li>
                         <i>Splnění podmínek</i>:
@@ -137,7 +137,7 @@ notes:
                 uuid: d30a0b9f-3881-4c10-8aeb-d2f86a0125d5
                 topic: Graphplan jako BCSP
                 front: BCSP proměnné, domény, co dělají podmínky
-                back: >
+                back: |
                         Boolean proměnné pro akční uzly a výrokové uzly
                         ([$]A_{j,m}, P_{j,n}[/$]).
                         <br>
@@ -149,7 +149,7 @@ notes:
                 uuid: cd07db05-30ad-44d1-9ecf-912454c1df00
                 topic: Graphplan jako BCSP
                 front: BCSP podmínky
-                back: >
+                back: |
                         <ul>
                         <li>
                         <i>Předpoklady</i>: [$]A_{i,m}\\rightarrow P_{j,m-1}[/$]
@@ -172,15 +172,15 @@ notes:
         -
                 uuid: 6df84a72-3b04-4892-96a5-793fbd68bb2a
                 front: Porovnání Graphplan jako CSP a SAT
-                back: >
+                back: |
                         CSP je kompaktnější. Nepotřebuje axiomy vyloučení akcí
                         (protože na to je proměnná).
         -
                 uuid: 1e7ecb60-bcd1-409f-8dbe-d10d7e058d42
-                front: >
+                front: |
                         CSP, SAT jsou NP-c, ale plánování je PSPACE- nebo
                         NEXPTIME-c. Jak to?
-                back: >
+                back: |
                         Převod na SAT/CSP exponenciálně zvětší problém.
                         SAT: exponenciálně mnoho proměnných,
                         CSP: proměnných sice lineárně, ale narůstají

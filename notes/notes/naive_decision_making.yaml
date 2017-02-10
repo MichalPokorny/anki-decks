@@ -20,7 +20,7 @@ notes:
         -
                 uuid: 2d4f2d09-e074-44b8-9621-e9c4bece07ec
                 front: Multi-horse betting - say I have 2 ideal bookmarkers (who I can't individually profit from) and they set a different multiplier for some horse. How can I turn a profit from that?
-                back: >
+                back: |
                         Because they're optimal, for both of them:
                         [$]\frac{1}{\sum_i a_i^{-1}} = 1[/$],
                         [$]\frac{1}{\sum_i b_i^{-1}} = 1[/$].

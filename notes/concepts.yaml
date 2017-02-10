@@ -3,7 +3,7 @@ notes:
         -
                 uuid: 5108d231-f374-48f9-b35b-ef641163a059
                 front: Chesterson's fence
-                back: >
+                back: |
                         Don't tear down the fence if you don't know why it's
                         there.
                         (From The Drift from Domesticity by G. K. Chesterson)
@@ -19,7 +19,7 @@ notes:
         -
                 uuid: 8b87e9a7-a52f-4392-bafc-949d6f3c2394
                 front: Creative incompetence
-                back: >
+                back: |
                         Against Parkinson's law.
 
                         "Create the impression that you have reached your level
@@ -36,7 +36,7 @@ notes:
         -
                 uuid: 1c8f3107-81f2-4aac-bfab-9435ef220835
                 front: Goodhart's law
-                back: >
+                back: |
                         When measure becomes a target, it ceases to be a good
                         measure
                 include_reverse: true
@@ -48,7 +48,7 @@ notes:
         -
                 uuid: 8562d8bf-623b-4acb-b2fe-ce06cce5fec4
                 front: Sophistication effect
-                back: >
+                back: |
                         More knowledgable people (or who know about
                         biases) use their knowledge to better shoot down facts
                         opposing their pre-existing beliefs.
@@ -61,14 +61,14 @@ notes:
         -
                 uuid: 7ca8728f-dd1b-4ff7-8ddd-8f192a223c5e
                 front: Logical rudeness
-                back: >
+                back: |
                         Finding license, authority or justification in theory X
                         itself for refusing to answer objections to theory X.
                 include_reverse: true
         -
                 uuid: f46a0087-b833-4551-85d9-62bf4eb5fb88
                 front: Ugh field
-                back: >
+                back: |
                         Unconsciously flinching from thinking about a serious
                         personal problem. Self-shadowing blind spot covering an
                         area desperately in need of optimization.
@@ -80,7 +80,7 @@ notes:
         -
                 uuid: 0d7ead10-f196-48a8-afc3-4619461fab4d
                 front: Benford's law
-                back: >
+                back: |
                         Aka first-digit law. In many real-life datasets,
                         first digit is likely to be small.
         -
@@ -91,7 +91,7 @@ notes:
                 # http://www.succeedsocially.com/socialmodes
                 uuid: c005ebb3-e28f-418a-b3f2-4361874280b0
                 front: Shoehorn interactions into logical mode
-                back: >
+                back: |
                         For example, trying to talk politics at Friday evening
                         dinner. Problem of overly serious people. Hindering.
                 include_reverse: true
@@ -103,7 +103,7 @@ notes:
         -
                 uuid: 404e987b-d373-42fd-9ff7-d2ae0b5b86d7
                 front: Halo effect
-                back: >
+                back: |
                         Cognitive bias: an observer's overall impression of
                         a person, company, product influences the observer's
                         feelings and thoughts about that entity's character or
@@ -112,7 +112,7 @@ notes:
         -
                 uuid: 5d96587f-a40c-4eef-a8b4-30289ac3569a
                 front: Fundamental attribution error
-                back: >
+                back: |
                         AKA correspondence bias; tendency to over-emphasize
                         personality-based explanations for behaviours observed
                         in others, and under-emphasizing situational
@@ -125,7 +125,7 @@ notes:
                 include_reverse: true
         -
                 uuid: 7d515cff-4bb3-415f-b928-2c79aeb4721e
-                front: >
+                front: |
                         Tendency to search for/interpret information in a way
                         that confirms preconceptions, and discredit information
                         that does not support one's views.
@@ -133,7 +133,7 @@ notes:
                 include_reverse: true
         -
                 uuid: e6a93e05-ab95-4e26-8ea2-9977f65fb564
-                front: >
+                front: |
                         Tendency to claim more responsibility for successes
                         than failures; may also manifest as evaluating
                         ambiguous information in a way beneficial to own
@@ -143,7 +143,7 @@ notes:
         -
                 uuid: 31b2ba92-c9e7-42c7-9c01-7a9560a7465d
                 front: Belief bias
-                back: >
+                back: |
                         When one's evaluation of the logical strength of an
                         argument is biased by belief in truth or falsity of
                         the conclusion
@@ -151,21 +151,21 @@ notes:
         -
                 uuid: 47b2e6b6-f7ce-40b3-b61d-ae7d7606aea2
                 front: Hindsight bias
-                back: >
+                back: |
                         Inclination to see past events as being predictable.
                         AKA "I-knew-it-all-along" effect.
                 include_reverse: true
         -
                 uuid: e4ee94b9-f8b1-452d-857a-4a2e71804533
                 front: Illusory superiority
-                back: >
+                back: |
                         Cognitive bias whereby individuals overestimate their
                         own qualities and abilities, relative to others.
                 include_reverse: true
         -
                 uuid: 1467565d-2842-4cda-aa2f-b243fd2617c5
                 front: Dunning-Kruger effect
-                back: >
+                back: |
                         Low-ability individuals suffer from illusory
                         superiority, mistakingly assessing their ability as
                         much higher than it really is.
@@ -173,7 +173,7 @@ notes:
         -
                 uuid: c0adf504-b379-467c-a8a5-713719402377
                 front: Cognitive dissonance
-                back: >
+                back: |
                         Mental stress experienced by holding contradictory
                         beliefs, ideas or values; performing actions
                         contradictory to beliefs, ideas or values; confronted
@@ -183,7 +183,7 @@ notes:
         -
                 uuid: 7cc71a76-ccff-4824-bbb0-8ac463a7edba
                 front: Forer effect
-                back: >
+                back: |
                         AKA Barnum effect. Individuals give high accuracy
                         ratings to supposedly personally-tailored descriptions
                         of their personality that are vague and general.
@@ -191,7 +191,7 @@ notes:
                 include_reverse: true
         -
                 uuid: f7ee30bd-ef57-4b1c-a1a3-e09a40f4e6a4
-                front: >
+                front: |
                         Short for "meme complex". Group of memes often
                         found in the same individual.
                 back: Memeplex
@@ -199,14 +199,14 @@ notes:
         -
                 uuid: 99a96c84-8323-422d-825a-46b12efb382b
                 front: Exaptation
-                back: >
+                back: |
                         Process by which features acquire functions for which
                         they were not originally adapted or selected.
                 include_reverse: true
         -
                 uuid: fcac86ce-b8e0-42fa-a508-8bddaa6d7081
                 front: Stotting
-                back: >
+                back: |
                         Gazelles - spring into the air, lifting all four feet
                         off the ground simultaneously. Honest signal
                         to predators that gazelle is not worth pursuing.
@@ -214,14 +214,14 @@ notes:
         -
                 uuid: 5ed37412-35b2-442c-9566-b8a3eb6856f1
                 front: Network effect
-                back: >
+                back: |
                         When product/service becomes more valuable to its users
                         as more people use it.
                 include_reverse: true
         -
                 uuid: df51aae9-7a12-40f4-8516-5081c49776d6
                 front: Ideological Turing test
-                back: >
+                back: |
                         Test if your defense of a position you don't hold is
                         distinguishable by a panel of judges from a genuine
                         defense of the position.
@@ -239,7 +239,7 @@ notes:
         -
                 uuid: b8250346-bfd0-4e9a-ab3f-0c1ba7725f72
                 front: Countersignalling
-                back: >
+                back: |
                         When the information you’re trying to signal is so
                         obvious that you need not have signalled in the first
                         place.
@@ -252,7 +252,7 @@ notes:
         -
                 uuid: 568b3a91-2421-4a72-b36a-a6228e44270c
                 front: Nudge
-                back: >
+                back: |
                         Manner in which choices are presented can have
                         dramatic effects on chosen action – even without
                         changing the incentives which might typically motivate
@@ -268,7 +268,7 @@ notes:
         -
                 uuid: 4e199ec9-8602-4e3e-a085-529e277e083b
                 front: Marginal thinking
-                back: >
+                back: |
                         What are extra resources worth?
                         <br>
                         If you have no bananas, and you get a banana, it’s
@@ -278,7 +278,7 @@ notes:
         -
                 uuid: c9f4d2f8-1aac-4fe1-845e-c170f9c9a243
                 front: Comparative vs. absolute advantage
-                back: >
+                back: |
                         If you are better than me at earning an income from your
                         job and cleaning the house, you have an absolute advantage
                         in both these activities.
@@ -297,14 +297,14 @@ notes:
         -
                 uuid: b2c3711a-5e1d-4e92-aecc-46b57cd1c110
                 front: Efficient market hypothesis
-                back: >
+                back: |
                         There are many people approximately as clever as you
                         who value approximately the same things you do
                 include_reverse: true
         -
                 uuid: 54c66332-da6f-4b5d-9784-b78a3c2769ab
                 front: Illusion of transparency
-                back: >
+                back: |
                         We overestimate how much our mental state is
                         known by others, a fact not helped by the ambiguity of
                         the English language. “Elizabeth Newton created a simple
@@ -318,7 +318,7 @@ notes:
         -
                 uuid: 754f1ab1-3a84-42c2-baca-d2409be6a558
                 front: Opportunity cost
-                back: >
+                back: |
                         When we choose to take one option, we are implicitly
                         not taking another. If you only have enough room for
                         one meal and your favourite is the Pad Thai, you choose
@@ -329,7 +329,7 @@ notes:
         -
                 uuid: 1a2efb52-7523-4345-8e90-2b95d71c59bd
                 front: Time value of money
-                back: >
+                back: |
                         We’d prefer to have $100 today than tomorrow, or in a
                         year’s time. In a real sense, this implies that money
                         today is worth more than money in the future.
@@ -337,7 +337,7 @@ notes:
         -
                 uuid: ab0b05f2-3db1-4639-b48a-33a05745535a
                 front: Revealed preferences
-                back: >
+                back: |
                         Talk is cheap, and our actions reveal more about our
                         preferences than we’d like to believe. For instance,
                         although I might say that Marmite is my favourite
@@ -346,14 +346,14 @@ notes:
         -
                 uuid: db5271ea-c4f9-4e65-b8f7-0a788f2d6411
                 front: Typical mind fallacy
-                back: >
+                back: |
                         Mistaken belief that others are having the same mental
                         experiences that we are.
                 include_reverse: true
         -
                 uuid: 0d05b3c9-ff6b-4af7-bb90-f64f2cba3067
                 front: Bikeshedding
-                back: >
+                back: |
                         Substituting a hard and important problem for an easy
                         and inconsequential one. When designing a nuclear plant,
                         Parkinson observed that the committee dedicated
@@ -367,14 +367,14 @@ notes:
         -
                 uuid: 8984509f-a1ca-4d1e-a2f4-cd973b8cea9d
                 front: Algernon’s law
-                back: >
+                back: |
                         IQ is nearly impossible to improve in healthy people
                         without tradeoffs
                 include_reverse: true
         -
                 uuid: 0d760713-6952-41d7-91eb-a6e6733f6f9a
                 front: Social intuitionism
-                back: >
+                back: |
                         Moral judgements are made predominantly on the basis of
                         intuition, followed by rationalisation.
                         <br><br>
@@ -392,7 +392,7 @@ notes:
         -
                 uuid: ff43f9ff-509f-411a-8ef1-268dc777b948
                 front: Moral licensing
-                back: >
+                back: |
                         Doing less good after you feel like you’ve done some
                         good. After donating to charity in the morning, we’re
                         less likely to hold the door open for someone in
@@ -401,7 +401,7 @@ notes:
         -
                 uuid: 65d6f007-a557-4ff4-abc1-d32698288217
                 front: Peltzman effect
-                back: >
+                back: |
                         Taking more risks when you feel more safe.
                         <br><br>
                         When seatbelts were first introduced, motorists
@@ -410,7 +410,7 @@ notes:
         -
                 uuid: 5dbfb332-dff5-4b0a-9dce-73c43e277f0e
                 front: Semmelweis reflex
-                back: >
+                back: |
                         Not evaluating evidence on the basis of its merits and
                         instead rejecting it because it contradicts existing
                         norms, beliefs and paradigms. Similar to status
@@ -419,7 +419,7 @@ notes:
         -
                 uuid: 397d0263-635e-405b-9657-939a521b8566
                 front: Bateman’s principle
-                back: >
+                back: |
                         The most sexually selective sex will be that which has
                         the most costs from rearing the offspring. In humans,
                         women have more costs associated with raising offspring
@@ -432,14 +432,14 @@ notes:
         -
                 uuid: c50df8ec-d6d0-4ee0-bce7-bea6b684bb28
                 front: Hawthorne effect
-                back: >
+                back: |
                         People react differently when they know they are being
                         observed.
                 include_reverse: true
         -
                 uuid: 09cd7a2d-6061-4138-9368-45c55791e405
                 front: Bulverism
-                back: >
+                back: |
                         Dismissing a claim on the basis of how the opponent got
                         there, rather than a reasoned rebuttal.
                         <br><br>
@@ -449,7 +449,7 @@ notes:
         -
                 uuid: 901f3269-727a-48c2-ac51-67e6746af3a9
                 front: Flynn effect
-                back: >
+                back: |
                         IQ has increased by 3 points per decade since around
                         the 1930s. It is hotly debated why this is happening,
                         and whether the trend will continue.
@@ -457,14 +457,14 @@ notes:
         -
                 uuid: 07b23d8b-363c-4bb8-9ee4-56345d2ee50e
                 front: Arbitrage
-                back: >
+                back: |
                         Taking advantage of different prices between markets
                         for same products.
                 include_reverse: true
         -
                 uuid: 51d38d8f-bc6f-4e1b-88a9-f50c8c0876fe
                 front: Chaos theory
-                back: >
+                back: |
                         When the present determines the future, but the
                         approximate present does not approximately determine
                         the future. (double rod pendulum)
@@ -472,7 +472,7 @@ notes:
         -
                 uuid: 93d93198-7a63-45d4-90c6-ef23477c0354
                 front: Red Queen hypothesis
-                back: >
+                back: |
                         Organisms need to be constantly evolving to keep up
                         with offenses/defenses of their predators/prey.
                         This is probably the effect we should thank for
@@ -481,7 +481,7 @@ notes:
         -
                 uuid: b73e6909-e1dc-4104-bb83-98e37537ed6e
                 front: Schelling’s segregation
-                back: >
+                back: |
                         Even when groups only have a mild preference to be
                         around others with a similar characteristic – say,
                         for playing baseball – neighbourhoods will segregate
@@ -490,14 +490,14 @@ notes:
         -
                 uuid: 85721e95-f503-4aa2-b387-5de2fc2ebd19
                 front: Pareto improvement
-                back: >
+                back: |
                         Change that makes at least one person better off,
                         without making anyone worse off.
                 include_reverse: true
         -
                 uuid: 2d9667b0-89c9-449e-bb2d-5687d9090d84
                 front: Regression toward the mean
-                back: >
+                back: |
                         If you get an extreme result (in a normal distribution)
                         once, additional results are likely to be closer to the
                         average selection. If one trial suggests that health
@@ -507,7 +507,7 @@ notes:
         -
                 uuid: 883379c2-719b-4395-8a5a-b00bdc109f95
                 front: Coefficient of determination, including definition
-                back: >
+                back: |
                         How well a model fits or explains data (i.e. how much
                         of the variance it explains).
                         <br>
@@ -526,7 +526,7 @@ notes:
         -
                 uuid: d2c26cd2-f069-4454-b206-f63bb7d5a03f
                 front: Godwin’s Law
-                back: >
+                back: |
                         As online discussion grows longer, the probability of a
                         comparison involving Nazis or Hitler approaches 1.
                         At this point, all hope of meaningful conversation is
@@ -535,7 +535,7 @@ notes:
         -
                 uuid: a8c4c155-f814-47c6-ab2f-a53f9c59f5ce
                 front: Commitment and consistency
-                back: >
+                back: |
                         If people commit to an idea or goal, they are more
                         likely to honour the commitment if establishing that
                         idea or goal is consistent with their self-image. Even
@@ -546,7 +546,7 @@ notes:
         -
                 uuid: afae3ded-1ab2-4d66-98ba-db10570c9458
                 front: Affective forecasting
-                back: >
+                back: |
                         Predicting how happy you will be in the future
                         contingent upon some event or change is hard. We
                         normally guess the effect will be larger than it
@@ -558,14 +558,14 @@ notes:
         -
                 uuid: 05b6782a-dc3c-4537-b0d0-46cbb6d9b9c6
                 front: Fermi calculation
-                back: >
+                back: |
                         Back-of-the-envelope calculation (number of piano
                         tuners in Chicago)
                 include_reverse: true
         -
                 uuid: 07a7b852-0651-4e8b-8c4c-9dea0c3eb14e
                 front: Reversal test
-                back: >
+                back: |
                         When proposal to change a parameter is
                         thought to have bad overall consequences, consider a
                         change in the opposite direction. If this is also
@@ -579,7 +579,7 @@ notes:
         -
                 uuid: 137865f8-c6a8-4c87-9faf-f6a66deb219c
                 front: Outcome bias
-                back: >
+                back: |
                         Error made in evaluating quality of a decision
                         when the outcome is already known.
                         <br>
@@ -595,14 +595,14 @@ notes:
         -
                 uuid: ee8281da-b939-419e-b48f-f34c4f53f8b1
                 front: Hanlon's razor
-                back: >
+                back: |
                         Never attribute to malice what is adequately explained
                         by stupidity
                 include_reverse: true
         -
                 uuid: 2329ca4f-834e-4657-a483-b15487806d98
                 front: Clarke's 3 laws
-                back: >
+                back: |
                         <ol type="1">
                         <li>When a distinguished but elderly scientist states
                         that something is possible, he is almost certainly

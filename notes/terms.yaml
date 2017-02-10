@@ -5,7 +5,7 @@ notes:
         -
                 uuid: ebd0bd3a-24b2-4ab8-b969-90442607c2d1
                 front: Parthian shot
-                back: >
+                back: |
                         Incorrectly "parting shot".
                         Barbed insult as its speaker departs.
         -
@@ -15,7 +15,7 @@ notes:
         -
                 uuid: 43674e5c-729d-43bd-9afc-522887798488
                 front: Maverick
-                back: >
+                back: |
                         Unorthodox/independent-minded person;
                         person who refuses to follow customs or rules of
                         a group
@@ -23,7 +23,7 @@ notes:
         -
                 uuid: 50793e5f-65e3-4cf8-8e8b-a55e650e3699
                 front: Make do
-                back: >
+                back: |
                         To survive, get by with, or use whatever is available
                         (due to lack of resources)
                 include_reverse: true
@@ -34,18 +34,18 @@ notes:
         -
                 uuid: 09802a2a-4905-445d-8e3c-8177f2daf4b3
                 front: Foregone conclusion
-                back: >
+                back: |
                         Result that can be predicted with certainty
                 include_reverse: true
         -
                 uuid: 834a6c70-0399-4ea5-bf3b-0873bc26f8c1
                 front: Abut
-                back: >
+                back: |
                         To border (something) &mbash;
                         "neighboring social classes socially abut"
         -
                 uuid: d13de5f0-237e-45f3-9289-35d1a54bee1a
-                front: >
+                front: |
                         To border (something) &mbash;
                         "neighboring social classes socially [...]"
                 back: Abut
@@ -65,14 +65,14 @@ notes:
         -
                 uuid: 5b5401d0-6523-44ce-90fe-647460869f19
                 front: Trotskyism
-                back: >
+                back: |
                         A few coordinated smart people in right places can
                         seize organizations
                 include_reverse: true
         -
                 uuid: eebf7001-f417-4548-8aa7-7ec0cf4287a8
                 front: Panglossian
-                back: >
+                back: |
                         Naively/unreasonably optimistic (Pangloss: character
                         in Voltaire's Candide)
         -
@@ -82,21 +82,21 @@ notes:
         -
                 uuid: a2faefae-80d6-47ad-b1d5-05f9c605acb0
                 front: Pet peeve
-                back: >
+                back: |
                         Minor annoyance an individual identifies as
                         particularly annoying
                 include_reverse: true
         -
                 uuid: 7114fcd5-8685-437c-b9c1-846f501fb69c
                 front: Intermittent
-                back: >
+                back: |
                         Stopping or ceasing for a time; alternately ceasing and
                         beginning again.
                 include_reverse: true
         -
                 uuid: c07d6e7b-9fb1-49dd-91ae-226e9af06270
                 front: Mopery
-                back: >
+                back: |
                         Mopery (with intent to gawk/creep): vague, informal
                         name for minor offenses.
         -
@@ -106,7 +106,7 @@ notes:
         -
                 uuid: dd1b8818-15f4-4f94-a3c3-b4fe4db9b3ec
                 front: Conveyance
-                back: >
+                back: |
                         Act of taking or carrying someone or something from one
                         place to another; something that carries; transmission;
                         communication
@@ -114,7 +114,7 @@ notes:
         -
                 uuid: 80480816-60e8-49a0-9b22-efdeceb15578
                 front: Proselytize
-                back: >
+                back: |
                         Convert or attempt to convert (someone) from one
                         religion, belief or opinion to another
                 include_reverse: true
@@ -130,29 +130,29 @@ notes:
         # Added by add-term.py
         -
                 uuid: 0df1b4b2-8cac-11e6-b373-a44e31493108
-                front: >
+                front: |
                         In-kind donation
-                back: >
+                back: |
                         Gift of goods or services, instead of money to buy
                         them.
                 include_reverse: true
         -
                 uuid: 405409d6-b928-4a72-96ef-73ea763b7a5b
-                front: >
+                front: |
                         Naturally occurring psychedelic compound produced by
                         &gt;200 species of mushrooms
                 back: Psilocybin
                 include_reverse: true
         -
                 uuid: 487f2df5-83f4-47bb-b03a-856d1a7fb248
-                front: >
+                front: |
                         a) anxiety, mental uneasiness; b) deviation of system
                         from regular state or path caused by outside influence
                 back: Perturbation
                 include_reverse: true
         -
                 uuid: 8f7d0202-bb2c-4091-908e-71886dfd9803
-                front: >
+                front: |
                         Extra full moon: a) fifth of four full moons in a
                         season, b) second full moon in a calendar month'
                 back: Blue moon
@@ -176,20 +176,20 @@ notes:
         -
                 uuid: 68cbd9f2-20b8-4edb-ba3b-c17394ae98fb
                 front: Ganbaru
-                back: >
+                back: |
                         Ubiquitous Japanese word, roughly 'slog on tenaciously
                         through tough times'.
                 include_reverse: true
         -
                 uuid: 7cc6b4d7-11f5-4faf-906c-edc34cd80ecf
                 front: Extant
-                back: >
+                back: |
                         Still in existence; surviving.
                 include_reverse: true
         -
                 uuid: 65deaf6e-0df5-4eb9-8ee0-dfb63f1a1e23
                 front: Foremost
-                back: >
+                back: |
                         Most prominent in rank, importance, or position.
                         Also an adverb.
                         ('It was, (...), the first demonstration of the
@@ -198,14 +198,14 @@ notes:
         -
                 uuid: 842f1469-ca9e-47fd-bf26-2996b5ace505
                 front: Haka
-                back: >
+                back: |
                         Traditional war cry, dance, or challenge of
                         Māori people of New Zealand
                 include_reverse: true
         -
                 uuid: 2869d183-aa2d-40ed-a4c4-854542dea871
                 front: Bless your heart
-                back: >
+                back: |
                         Sincere expression of sympathy/concern. Precursor to
                         insult to soften the blow. "You're dumb, but can't help
                         it."
@@ -213,32 +213,32 @@ notes:
         -
                 uuid: a7760dd0-a5ef-48fc-97e7-aeab01783580
                 front: Histrionic
-                back: >
+                back: |
                         Excessively theatrical or dramatic in character or
                         style
                 include_reverse: true
         -
                 uuid: 5664d405-6721-47a2-844a-7d3f58d38345
                 front: Foible
-                back: >
+                back: |
                         Minor weakness or eccentricity in someone's character
                 include_reverse: true
         -
                 uuid: a679678e-1f25-492d-a3f2-a687a3a1f419
                 front: Out of left field
-                back: >
+                back: |
                         American slang: "unexpectedly", "odd" or "strange".
                         From baseball terminology.
         -
                 uuid: 9649da05-ecc4-407f-8ae4-c7ca803d1e4c
                 front: Gander
-                back: >
+                back: |
                         Look or glance (informal) &mdash;
                         "Take a gander at that luggage, will ya?"
         -
                 uuid: 5ad8ff71-a712-4c89-9a9e-1c76928b26ac
                 front: Uncle Tom
-                back: >
+                back: |
                         Title character of Harriet Beecher Stowe's 1852 novel,
                         Uncle Tom's Cabin. "Uncle Tom" is also used as a
                         derogatory epithet for an excessively subservient
@@ -257,21 +257,21 @@ notes:
         -
                 uuid: 590141d7-3d6e-4b57-938a-e622c46f1566
                 front: Disingenuous
-                back: >
+                back: |
                         Not candid or sincere, typically by pretending that one
                         knows less about something than one really does
                 include_reverse: true
         -
                 uuid: f5fbc628-d56c-4d9d-b01a-480f2e184ee6
                 front: Patrology
-                back: >
+                back: |
                         or patristics: study of early Christian writers who are
                         designated Church Fathers
                 include_reverse: true
         -
                 uuid: 04634187-84b1-429c-b95c-ff8658529392
                 front: Silver lining
-                back: >
+                back: |
                         Emphasize the hopeful side of a situation that might
                         seem gloomy on the surface. The common expression
                         "every cloud has a silver lining" means even the worst
@@ -279,27 +279,27 @@ notes:
         -
                 uuid: 381b39ab-aa16-49cf-8922-df2194476c7e
                 front: What's that got to do with the price of tea in China?
-                back: >
+                back: |
                         Retort to irrelevant suggestion (denoting irrelevance
                         or non sequitur in current discussion).
                 include_reverse: true
         -
                 uuid: 6460dcb1-a32a-41af-92b7-f2cfef250945
-                front: >
+                front: |
                         Meaning of 'ht' abbreviation
                 back: Hat tip
         -
                 uuid: b3411949-39ad-48f1-8391-9662b799b65f
-                front: >
+                front: |
                         Curriculum
-                back: >
+                back: |
                         Subjects comprising a course of study in a school or
                         college (exact spelling!)
                 include_reverse: true
         -
                 uuid: d6455578-1178-4249-926a-d5a825dcc1d6
                 front: Mensch
-                back: >
+                back: |
                         German-derived Yiddish word originally meaning 'human
                         being'; person of integrity and honor; 'stand-up guy';
                         someone who does the right thing
@@ -307,41 +307,41 @@ notes:
         -
                 uuid: 86607ca7-f0bb-478f-b100-deb9ef7ca961
                 front: Shucking
-                back: >
+                back: |
                         Informal: cause (someone) to believe something that is
                         not true; fool or tease.'
                 include_reverse: true
         -
                 uuid: 47cb2755-92af-465c-85f5-bf0ba940c31c
                 front: Sizzle
-                back: >
+                back: |
                         Verb - (of food) make a hissing sound when frying or
                         cooking.
                 include_reverse: true
         -
                 uuid: 23cd9869-8b8f-4467-9838-64bbc6d39d4c
                 front: Jive
-                back: >
+                back: |
                         North American, informal: taunt or sneer at.
                 include_reverse: true
         -
                 uuid: bd1d762e-c6a0-47a1-b7b9-52400653bdc8
                 front: Flimflam
-                back: >
+                back: |
                         Confidence trick; nonsensical or insincere talk; (verb)
                         to swindle someone with a confidence trick
                 include_reverse: true
         -
                 uuid: 71f98473-e167-48c6-9516-76d23eaa9f65
                 front: consilience
-                back: >
+                back: |
                         Principle that evidence from independent, unrelated
                         sources can "converge" to strong conclusions'
                 include_reverse: true
         -
                 uuid: 95854682-9062-49af-bc3e-25ff7f09cb75
                 front: Indelible
-                back: >
+                back: |
                         Impossible to remove, erase, or wash away;
                         permanent: ... ink; unable to be forgotten, memorable:
                         an ... memory
@@ -349,7 +349,7 @@ notes:
         -
                 uuid: 80bba8df-78b6-4631-acc8-b80a8bb0223d
                 front: Entrepreneur
-                back: >
+                back: |
                         Person who organizes and manages any enterprise,
                         especially a business, usually with considerable
                         initiative and risk
@@ -357,20 +357,20 @@ notes:
         -
                 uuid: 95fc1bd9-af07-4900-9d1a-c498cb3eaf57
                 front: Autarky
-                back: >
+                back: |
                         Quality of being self-sufficient. Usually applied to
                         political states or their economic systems.
                 include_reverse: true
         -
                 uuid: 166e8f0f-a1f4-4698-b59e-b640b31fa898
                 front: Dearth
-                back: >
+                back: |
                         Scarcity or lack of something; archaic: famine
                 include_reverse: true
         -
                 uuid: f3502615-7df8-4844-91dd-d11bc323e720
                 front: Jaundice
-                back: >
+                back: |
                         Yellow discoloration of the skin, mucous membranes, and
                         whites of the eyes caused by increased amounts of
                         bilirubin in blood
@@ -383,7 +383,7 @@ notes:
         -
                 uuid: c20db5f4-9447-4e44-82b8-49b4c34c1f6c
                 front: Inure
-                back: >
+                back: |
                         Accustom (someone) to something, especially
                         something unpleasant
                 include_reverse: true
@@ -397,7 +397,7 @@ notes:
         -
                 uuid: addef86b-94ac-476a-9eea-feb4da352d66
                 front: Prurient
-                back: >
+                back: |
                         Having or encouraging an excessive interest in sexual
                         matters, especially sexual activity of others
                 include_reverse: true
@@ -424,7 +424,7 @@ notes:
         -
                 uuid: 453f8774-96b6-47b3-9e7e-73996664e57a
                 front: Vicarious
-                back: >
+                back: |
                         Experienced in imagination through feelings or actions
                         of another person ('this catalogue brings ... pleasure
                         in luxury living'); acting or done for another;
@@ -433,21 +433,21 @@ notes:
         -
                 uuid: 42c76a5c-210d-4769-931a-68927ed76827
                 front: Equivocation
-                back: >
+                back: |
                         Use of ambiguous language to conceal the truth or to
                         avoid committing oneself
                 include_reverse: true
         -
                 uuid: 8437c155-f4e0-4da9-ba81-b9850ccff7e2
                 front: Sophistry
-                back: >
+                back: |
                         Use of clever but false arguments, especially with
                         intention of deceiving; a fallacious argument
                 include_reverse: true
         -
                 uuid: 24a29655-8fa9-4ea9-8245-47488e4a53e4
                 front: Peripheralism
-                back: >
+                back: |
                         Explanation of psychological events emphasizing
                         peripheral human functions, as those of skeletal
                         muscles or the sex organs, rather than cognition or
@@ -471,13 +471,13 @@ notes:
         -
                 uuid: 5b7b44d7-7376-40e1-9f13-e555d1ac8798
                 front: Lebensraum
-                back: >
+                back: |
                         Territory which state or nation believes it needs for
                         natural development
         -
                 uuid: 640a751c-5ace-47ec-b720-a6529d0e86a5
                 front: Bekenstein bound
-                back: >
+                back: |
                         Upper limit on entropy S, or information I, that
                         can be contained within a finite region of space which
                         has a finite amount of energy—or conversely,
@@ -487,19 +487,19 @@ notes:
         -
                 uuid: e4ee6430-4650-4e5a-b994-ffcad4391ddd
                 front: Ersatz
-                back: >
+                back: |
                         (of a product) made or used as a substitute, typically
                         an inferior one, for something else
         -
                 uuid: c637a29d-ffa2-4210-84ce-164de003e3fa
                 front: Atavism
-                back: >
+                back: |
                         Evolutionary throwback, such as traits reappearing that
                         had disappeared generations before
         -
                 uuid: 4a9adeb7-c186-4e79-b454-0c6c398e5dd1
                 front: Rainmaker
-                back: >
+                back: |
                         Person who brings in new business and wins new accounts
                         almost by magic, since it is often not readily apparent
                         how this is caused. Generating substantial new business
@@ -515,7 +515,7 @@ notes:
         -
                 uuid: c8aaac2b-3f43-4182-81e9-977ad0770ea1
                 front: NRE(eng.)
-                back: >
+                back: |
                         Non-recurring engineering (NRE) refers to one-time cost
                         to research, develop, design and test a new product.
                         When budgeting for a new product, NRE must be
@@ -524,14 +524,14 @@ notes:
         -
                 uuid: 635ff3f4-811d-455f-b7a3-f63b526b644e
                 front: Cap-and-trade
-                back: >
+                back: |
                         Carbon permit trading system - building a market for
                         permit trading
                 include_reverse: true
         -
                 uuid: bb12f717-c7ce-4682-8bcd-48ae48055c24
                 front: Empiricism
-                back: >
+                back: |
                         Theory that knowledge comes only or primarily from
                         sensory experience. One of several views of
                         epistemology, along with rationalism and skepticism,
@@ -544,54 +544,54 @@ notes:
         -
                 uuid: 77f451bb-769d-4640-938b-737f4cf47219
                 front: Epistemology
-                back: >
+                back: |
                         Branch of philosophy concerned with theory of knowledge
                 include_reverse: true
         -
                 uuid: 5911b919-df0d-4a63-83f2-06a52f911776
                 front: Paraphernalia
-                back: >
+                back: |
                         Miscellaneous articles, especially equipment needed for
                         a particular activity
                 include_reverse: true
         -
                 uuid: 57597dc9-f585-4392-9a23-bff7d3898513
                 front: Schistosomiasis
-                back: >
+                back: |
                         Also known as snail fever, bilharzia, Katayama fever;
                         disease caused by parasitic flatworms
                 include_reverse: true
         -
                 uuid: e0b603c1-8fe6-455b-8468-cfad351278fc
                 front: Cockeyed
-                back: >
+                back: |
                         Crooked or askew; not level; (of a person or their
                         eyes) having a squint.
                 include_reverse: true
         -
                 uuid: bd8e826f-9d43-43b7-9132-2ec86effb2c9
                 front: Vicacious
-                back: >
+                back: |
                         Lively in temper, conduct, or spirit : sprightly.
                 include_reverse: true
         -
                 uuid: 7bffc3a1-9cd3-43c3-9c61-d64caea143eb
                 front: Maudlin
-                back: >
+                back: |
                         Self-pityingly or tearfully sentimental, often through
                         drunkenness
                 include_reverse: true
         -
                 uuid: 0e362460-1192-4b53-913a-760e11cca22a
                 front: Moral hazard
-                back: >
+                back: |
                         Lack of incentive to guard against risk where one is
                         protected from consequences, e.g. by insurance
                 include_reverse: true
         -
                 uuid: c0332389-05c9-41f8-b82e-46c0e5dc9b84
                 front: Effulgence
-                back: >
+                back: |
                         Brightness taken to the extreme. You may be dazzled by
                         it, stunned by it, or even overcome by it. Usually used
                         to refer to the sun or some other mega-star, ... can
@@ -605,7 +605,7 @@ notes:
         -
                 uuid: 89f913f8-2f4b-43ee-ab69-223c68f78f51
                 front: Parochial
-                back: >
+                back: |
                         Relating to a Church parish; having a limited or
                         narrow outlook or scope.
                 include_reverse: true
@@ -622,7 +622,7 @@ notes:
         -
                 uuid: a6cc8a26-7486-4b77-81f2-0e117eea6b2b
                 front: Redolent
-                back: >
+                back: |
                         Strongly reminiscent or suggestive of;
                         archaic/literary: fragrant or sweet-smelling
                 include_reverse: true
@@ -639,21 +639,21 @@ notes:
         -
                 uuid: 14f0b75b-d923-4eb0-979e-60f02c1341d8
                 front: Nary
-                back: >
+                back: |
                         Often used in "nary a" to mean "not a single".
                         18th century alteration of adjectival phrase
                         "ne'er a".
         -
                 uuid: ee509394-f8d0-4cb1-bce3-0aec549621d0
                 front: Double take
-                back: >
+                back: |
                         Giving something/someone a second glance, after
                         initially taking notice the first time
                 include_reverse: true
         -
                 uuid: 0824e5ed-a9b0-42ff-8609-ae20207931bb
                 front: Perennial
-                back: >
+                back: |
                         Lasting or existing for a long or apparently infinite
                         time; enduring or continually recurring; (of a plant)
                         living for several years
@@ -661,14 +661,14 @@ notes:
         -
                 uuid: 8769fbc1-8290-47c3-9e36-ec9f6fc7493e
                 front: Theodicy
-                back: >
+                back: |
                         Vindication of divine providence in view of existence
                         of evil
                 include_reverse: true
         -
                 uuid: 730504be-2a11-4f9b-8708-9c6be17cf721
                 front: Intentionality
-                back: >
+                back: |
                         Feature of certain mental states by which they are
                         directed at or about objects and states of affairs in
                         the world. Beliefs, desires, intentions have it,
@@ -682,7 +682,7 @@ notes:
         -
                 uuid: b1decf0f-176b-48b5-b717-6f57b7d78cf6
                 front: Tassel
-                back: >
+                back: |
                         Tuft of loosely hanging threads or cords knotted at one
                         end and attached for decoration to soft furnishings,
                         clothing
@@ -695,14 +695,14 @@ notes:
         -
                 uuid: 6a2238e0-3ce3-4c36-9f20-004cb181cd9f
                 front: Ennui
-                back: >
+                back: |
                         Feeling of listlessness and dissatisfaction arising
                         from lack of occupation or excitement
                 include_reverse: true
         -
                 uuid: 6bbd5acd-2ab5-47fa-9606-31f00d73acc3
                 front: Dixi
-                back: >
+                back: |
                         Latin expression, literally "I have spoken".
                         "I have said all I had to say, so the argument is
                         settled"
@@ -710,7 +710,7 @@ notes:
         -
                 uuid: 381d00f4-7f00-45be-adb2-2893a05b861c
                 front: Weigh
-                back: >
+                back: |
                         Verb - find out how heavy (someone or something) is;
                         assess the nature or importance of, especially with a
                         view to a decision or action.
@@ -718,7 +718,7 @@ notes:
         -
                 uuid: 047c861e-6ecd-49df-be64-e98219a17c18
                 front: Tutelage
-                back: >
+                back: |
                         Protection of or authority over someone or something;
                         guardianship; instruction; tuition.
                 include_reverse: true
@@ -729,14 +729,14 @@ notes:
         -
                 uuid: 61774782-b6bb-446b-9a24-e7e9b733298b
                 front: Dirigible
-                back: >
+                back: |
                         Noun: airship; adjective: capable of being steered,
                         guided, or directed.
                 include_reverse: true
         -
                 uuid: f242c89e-c0b2-48f1-913b-1175de1a765b
                 front: Filigree
-                back: >
+                back: |
                         Ornamental work of fine (typically gold or silver)
                         wire formed into delicate tracery
                 include_reverse: true
@@ -748,7 +748,7 @@ notes:
         -
                 uuid: 8d740392-6b21-4fa2-9ea7-14972ee7bbf7
                 front: Riposte
-                back: >
+                back: |
                         Quick, clever reply to insult or criticism; quick
                         return thrust in fencing
                 include_reverse: true
@@ -764,27 +764,27 @@ notes:
         -
                 uuid: 3b6ea71e-2121-45f3-a513-6e1183cf4b26
                 front: Wince
-                back: >
+                back: |
                         Make a slight involuntary grimace or shrinking movement
                         of body out of pain or distress
                 include_reverse: true
         -
                 uuid: b06e9367-2c16-4db2-b52e-5fb2790ea7f5
                 front: Effluent
-                back: >
+                back: |
                         Liquid waste or sewage discharged into river or sea
                 include_reverse: true
         -
                 uuid: d05dd77e-ff37-4e2e-8423-f0d6f69ca4e9
                 front: Respite
-                back: >
+                back: |
                         Short period of rest or relief from something difficult
                         or unpleasant
                 include_reverse: true
         -
                 uuid: b35f4155-da30-4805-aa32-c5d6dfe9ef84
                 front: Soused
-                back: >
+                back: |
                         (of food, especially fish) preserved in pickle or
                         marinade; informal: drunk
                 include_reverse: true
@@ -796,7 +796,7 @@ notes:
         -
                 uuid: 9f17c41a-a3a5-4b72-ad21-d8ae098c1f2e
                 front: Sultry
-                back: >
+                back: |
                         (of the air or weather) hot and humid, (especially of
                         woman or her behaviour) displaying or suggesting a
                         strongly sexual nature.
@@ -808,7 +808,7 @@ notes:
         -
                 uuid: fc932e67-b158-4365-baa1-85a8e908d104
                 front: Levity
-                back: >
+                back: |
                         Treatment of a serious matter with humour or lack of
                         due respect
                 include_reverse: true
@@ -820,7 +820,7 @@ notes:
         -
                 uuid: 6eb63ff2-76b9-4fdd-a4e1-b3bdef3cf488
                 front: Collusion
-                back: >
+                back: |
                         Agreement, sometimes illegal and secretive, to limit
                         open competition by deceiving, misleading, or
                         defrauding others of their legal rights, or to obtain
@@ -830,14 +830,14 @@ notes:
         -
                 uuid: db9b9696-9959-4849-83fa-65605ee9ca7f
                 front: Reverberate
-                back: >
+                back: |
                         (of a loud noise) be repeated several times as an echo;
                         have continuing and serious effects
                 include_reverse: true
         -
                 uuid: ca37cc33-8d90-40e5-b3eb-99cbf5ebf5e9
                 front: Eve
-                back: >
+                back: |
                         Day or period immediately before event or
                         occasion; evening or day before religious festival;
                         (literary) evening
@@ -845,7 +845,7 @@ notes:
         -
                 uuid: 6778b1b2-8ca6-48f3-aa96-9d5bb7eb699b
                 front: Nadir
-                back: >
+                back: |
                         Lowest or most unsuccessful point in a situation;
                         (astronomy) point on the celestial sphere directly
                         below an observer
@@ -853,7 +853,7 @@ notes:
         -
                 uuid: 0c382cf0-6a67-4973-bfb2-e6eb7ca995d6
                 front: Vise
-                back: >
+                back: |
                         Metal tool with movable jaws used to hold an object
                         firmly in place while work is done on it, typically
                         attached to workbench
@@ -861,21 +861,21 @@ notes:
         -
                 uuid: e101a734-d49d-4c1a-bf5f-904ae476af52
                 front: Jarring
-                back: >
+                back: |
                         Incongruous in a striking or shocking way; clashing.
                         Causing a physical shock, jolt, or vibration.
                 include_reverse: true
         -
                 uuid: 93c94bec-5b14-4862-9a29-a60eaa9c6bce
                 front: Haute couture
-                back: >
+                back: |
                         Expensive, fashionable clothes produced by leading
                         fashion houses
                 include_reverse: true
         -
                 uuid: ae5ad625-6516-439a-b947-2335574a9f32
                 front: Brig
-                back: >
+                back: |
                         Two-masted square-rigged ship, typically with
                         additional lower fore-and-aft sail on the gaff and a
                         boom to the mainmast;
@@ -883,9 +883,9 @@ notes:
                 include_reverse: true
         -
                 uuid: 6c0d0a91-c003-409b-af10-32313c0bea47
-                front: >
+                front: |
                         Murder hole/meutrière
-                back: >
+                back: |
                         Hole in the ceiling of gateway or passageway in a
                         fortification through which defenders could fire, throw
                         or pour harmful substances or objects, such as rocks,
@@ -899,7 +899,7 @@ notes:
         -
                 uuid: 66ca4ec9-8c80-499a-9021-e6ac14a0041f
                 front: Paroxysm
-                back: >
+                back: |
                         Sudden attack or outburst of particular emotion or
                         activity; (medicine) sudden recurrence or attack of
                         disease
@@ -912,7 +912,7 @@ notes:
         -
                 uuid: 29d6a8b4-289b-4356-8216-fd67c93dd392
                 front: Conflagration
-                back: >
+                back: |
                         Extensive fire which destroys a great deal of land or
                         property
                 include_reverse: true
@@ -924,14 +924,14 @@ notes:
         -
                 uuid: cce9480a-d38e-4aa6-acda-fa1937840f29
                 front: Mollify
-                back: >
+                back: |
                         Appease anger or anxiety of (someone); (rare) reduce
                         the severity of (something)
                 include_reverse: true
         -
                 uuid: ec7f934a-b2a8-4fd2-bcec-470f3f9b44ab
                 front: Jaunty
-                back: >
+                back: |
                         Having or expressing a lively, cheerful, and
                         self-confident manner
                 include_reverse: true
@@ -947,35 +947,35 @@ notes:
         -
                 uuid: c5fe6f72-b65d-4224-a2a4-7e071698ec34
                 front: Rind
-                back: >
+                back: |
                         Noun: tough outer skin of certain (especially citrus)
                         fruit, verb: strip the bark from (a tree)
                 include_reverse: true
         -
                 uuid: 5ab530cf-ebf9-49d5-9ff5-1a74cbd25ad0
                 front: Reverie
-                back: >
+                back: |
                         State of being pleasantly lost in thought;
                         a daydream
                 include_reverse: true
         -
                 uuid: e750f46a-a009-4bd6-8587-e80548880c72
                 front: Apperception
-                back: >
+                back: |
                         Mental process by which a person makes sense of an
                         idea by assimilating it to the body of ideas he
                         already possesses
         -
                 uuid: 3e3e0c1e-240d-4c4f-bb49-e611581701e0
                 front: Galvanize
-                back: >
+                back: |
                         Shock or excite (someone) into taking action; coat
                         (iron or steel) with protective layer of zinc
                 include_reverse: true
         -
                 uuid: a6c151d9-386f-415a-beb2-c9eb1405251c
                 front: Belay
-                back: >
+                back: |
                         Fix (a running rope) round a cleat, rock, pin, or other
                         object, to secure it; (nautical slang) stop; desist
                         from
@@ -983,21 +983,21 @@ notes:
         -
                 uuid: 620987dd-1f60-4af2-9619-a5813c6da3cd
                 front: To line one's pockets
-                back: >
+                back: |
                         Make much money, especially in an illegal or
                         questionable way
                 include_reverse: true
         -
                 uuid: 555047b7-517d-4da5-bb5d-a6bd0c1a771c
                 front: Confounded
-                back: >
+                back: |
                         Used for emphasis, especially to express anger or
                         annoyance (informal, dated)
                 include_reverse: true
         -
                 uuid: 6bcf6888-6bb1-4c16-9b8b-6015d016af5f
                 front: Jostle
-                back: >
+                back: |
                         Push, elbow, or bump against (someone) roughly,
                         typically in a crowd
                 include_reverse: true
@@ -1009,7 +1009,7 @@ notes:
         -
                 uuid: b6cac6cc-1270-4837-b24f-b3287f903ab6
                 front: Ergodic
-                back: >
+                back: |
                         Relating to or denoting systems or processes with the
                         property that, given sufficient time, they include or
                         impinge on all points in a given space and can be
@@ -1019,21 +1019,21 @@ notes:
         -
                 uuid: d997dd10-9f77-4537-b200-4cfa041104fe
                 front: Prestidigitation
-                back: >
+                back: |
                         (Formal)
                         Conjuring tricks performed as entertainment
                 include_reverse: true
         -
                 uuid: 3f42639c-d261-4933-8cca-f707e7f36107
                 front: Malfeasance
-                back: >
+                back: |
                         (Law)
                         Wrongdoing, especially (US) by a public official
                 include_reverse: true
         -
                 uuid: 7df7da93-a5d8-4501-a59e-e567cabf0b4d
                 front: Patsy
-                back: >
+                back: |
                         (North American, informal)
                         Person easily taken advantage of, especially by
                         being cheated or blamed for something
@@ -1046,7 +1046,7 @@ notes:
         -
                 uuid: dc7afb22-6eb0-4b0e-b77a-3f92bd842071
                 front: Teleology
-                back: >
+                back: |
                         Explanation of phenomena by purpose they serve rather
                         than postulated causes
                 include_reverse: true
@@ -1058,7 +1058,7 @@ notes:
         -
                 uuid: 1cae02a3-7888-481f-a909-92dcd43e4de0
                 front: To coopt
-                back: >
+                back: |
                         <ul>
                         <li> to elect into a body by votes of the existing
                              members
@@ -1070,7 +1070,7 @@ notes:
         -
                 uuid: 9abb425d-9aa8-42fb-abdc-f158d757e4d9
                 front: Wit (verb)
-                back: >
+                back: |
                         Have knowledge/that is to say (used to be more specific
                         about something already referred to) ["The textbooks
                         show an irritating parochialism, to ... an almost total
@@ -1079,14 +1079,14 @@ notes:
         -
                 uuid: d4dd64a3-71e5-4a3e-ab86-def849818470
                 front: Suppliant
-                back: >
+                back: |
                         Person making a humble or earnest plea to someone in
                         power or authority
                 include_reverse: true
         -
                 uuid: 8f75851e-c7d1-4646-bb92-e2a8d2093c3d
                 front: Hubris
-                back: >
+                back: |
                         Excessive pride or self-confidence; (in Greek tragedy)
                         excessive pride towards or defiance of the gods,
                         leading to nemesis
@@ -1094,7 +1094,7 @@ notes:
         -
                 uuid: 6a085dc2-84f2-4daa-812c-b9cf5d01ffda
                 front: Nemesis
-                back: >
+                back: |
                         Inescapable agent of someone's or something's downfall;
                         long-standing rival; arch-enemy; downfall caused by
                         an inescapable agent
@@ -1102,7 +1102,7 @@ notes:
         -
                 uuid: 5ea1f2f2-da5d-41e2-b862-905f712c8414
                 front: It takes one to know one
-                back: >
+                back: |
                         The person who expressed criticism has similar faults
                         to person being criticized. This classic retort to
                         insults dates from early 1900s.
@@ -1110,13 +1110,13 @@ notes:
         -
                 uuid: 101477f6-7064-4008-b2e2-8a248beb8499
                 front: Ordinance
-                back: >
+                back: |
                         (formal) Authoritative order / religious rite
                 include_reverse: true
         -
                 uuid: d80264df-5af4-4f52-9828-c277709966be
                 front: Congenial
-                back: >
+                back: |
                         (of a person) Pleasing or liked for having
                         qualities or interests similar to one's own
                         ("his need for some ... company")
@@ -1128,20 +1128,20 @@ notes:
         -
                 uuid: 6c5e816a-bcbe-46e2-b308-eadc98480ec1
                 front: Ox
-                back: >
+                back: |
                         Domesticated bovine animal kept for milk or meat;
                         cow or bull; castrated bull used as a draught animal
                 include_reverse: true
         -
                 uuid: 28047f94-f4df-4119-bcd0-c43c2eeb541a
                 front: Ply
-                back: >
+                back: |
                         A thickness or layer of a folded or laminated material
                 include_reverse: true
         -
                 uuid: 4ba9893b-0121-4e50-ab07-26296c708626
                 front: Rarefaction
-                back: >
+                back: |
                         Reduction in the density of something, especially air
                         or a gas; (medicine) lessening of tissue density,
                         especially of nervous tissue or bone
@@ -1149,34 +1149,34 @@ notes:
         -
                 uuid: c5a57e2e-1a4e-45cd-a164-2f41bab76765
                 front: Effluence
-                back: >
+                back: |
                         Substance that flows out from something; action of
                         flowing out
                 include_reverse: true
         -
                 uuid: e4537405-4c6b-42a6-8bc1-67ab17cf25c2
                 front: Conceit
-                back: >
+                back: |
                         Excessive pride in oneself / ingenious or fanciful
                         comparison or metaphor
                 include_reverse: true
         -
                 uuid: d6c0f65d-9158-43ee-9efc-2cbe31943d0d
                 front: Croesus (metaphoric)
-                back: >
+                back: |
                         Synonym for wealthy man in Greek and Persian cultures.
                         "Rich as Croesus"/"richer than Croesus".
         -
                 uuid: 204eab42-ee6c-4e73-b1ce-6265fa5e4ebe
                 front: Immanent
-                back: >
+                back: |
                         Existing or operating within; inherent; (of God)
                         permanently pervading and sustaining the universe
                 include_reverse: true
         -
                 uuid: d11dc10b-c3d9-40d1-b9ed-df8d6d7c20ad
                 front: Eschaton
-                back: >
+                back: |
                         (literally) the last; used in theology to refer to
                         the world during the posthistoric era of God's overt
                         (apocalyptic) reign, immediately preceding the end of
@@ -1185,7 +1185,7 @@ notes:
         -
                 uuid: 4e370a21-58e3-4040-9cfa-0bdfbd170d04
                 front: Sophism
-                back: >
+                back: |
                         Clever but false argument, especially one used
                         deliberately to deceive
                 include_reverse: true
@@ -1197,7 +1197,7 @@ notes:
         -
                 uuid: 664fd51f-532f-492c-b94a-73bb20533c47
                 front: Isthmus
-                back: >
+                back: |
                         Narrow strip of land with sea on either side, linking
                         two larger areas of land;
                         (anatomy) narrow organ, passage, piece of tissue
@@ -1206,7 +1206,7 @@ notes:
         -
                 uuid: b7f13337-475b-47a6-b745-d5ca96086c08
                 front: Empyrean
-                back: >
+                back: |
                         (adjective) relating to heaven; (noun) highest part of
                         heaven, thought by ancients to be the realm of pure
                         fire
@@ -1214,7 +1214,7 @@ notes:
         -
                 uuid: ff06b070-6a60-4599-b2c2-40e4fa7d14cf
                 front: Tootle
-                back: >
+                back: |
                         Make a series of sounds by blowing a horn, trumpet,
                         or similar instrument; (informal) go or travel
                         leisurely
@@ -1222,7 +1222,7 @@ notes:
         -
                 uuid: e236b2da-44b7-43cd-9a5b-65295cb1c929
                 front: Convection
-                back: >
+                back: |
                         Heat transfer by mass motion of fluid such as air or
                         water when heated fluid is caused to move away from
                         the source of heat, carrying energy with it
@@ -1235,7 +1235,7 @@ notes:
         -
                 uuid: 0f813af6-dabf-4ac3-9766-af460f725a57
                 front: Dogmatism
-                back: >
+                back: |
                         Tendency to lay down principles as undeniably true,
                         without consideration for evidence or opinions of
                         others
@@ -1243,14 +1243,14 @@ notes:
         -
                 uuid: eb35ad6b-5ab3-4f9b-8830-1c98c846d649
                 front: Affidavit
-                back: >
+                back: |
                         (legal) Written statement confirmed by oath or
                         affirmation, for use as evidence in court
                 include_reverse: true
         -
                 uuid: 171f3ad5-7c4d-4a71-b9fa-e5862dfd66ba
                 front: Sycophant
-                back: >
+                back: |
                         Person who acts obsequiously towards someone important
                         in order to gain advantage
                 include_reverse: true
@@ -1261,7 +1261,7 @@ notes:
         -
                 uuid: f6f7affe-cdcc-4fca-916a-252898c31008
                 front: Reveller
-                back: >
+                back: |
                         Person enjoying themselves in a lively and
                         noisy way
         -
@@ -1292,7 +1292,7 @@ notes:
         -
                 uuid: 8bdc856e-6b87-4f43-8225-c758ed4980cb
                 front: Zugzwang
-                back: >
+                back: |
                         Situation in chess and other games where player
                         is at a disadvantage because they must move
                         when they would prefer to pass
@@ -1300,14 +1300,14 @@ notes:
         -
                 uuid: a0a7de55-93f8-4c67-a729-4128b33e5f6e
                 front: Propitiate
-                back: >
+                back: |
                         Win or regain the favour of (god, spirit, or person)
                         by doing something that pleases them
                 include_reverse: true
         -
                 uuid: 74c8513d-3240-40f6-a2b3-acca2812ac04
                 front: Profligate
-                back: >
+                back: |
                         Adjective: recklessly extravagant or wasteful in use of
                         resources; licentious; dissolute
                         <br><br>
@@ -1316,7 +1316,7 @@ notes:
         -
                 uuid: c44218e5-3ce5-4523-80db-6b1f3fb6ad1c
                 front: Licentious
-                back: >
+                back: |
                         Promiscuous and unprincipled in sexual matters;
                         (archaic) disregarding accepted conventions, especially
                         in grammar or literary style
@@ -1324,21 +1324,21 @@ notes:
         -
                 uuid: 8b98f36c-1751-4f2c-96cf-5d51b46648ab
                 front: Dissolute
-                back: >
+                back: |
                         (Of a person or way of life) overindulging in
                         sensual pleasures
                 include_reverse: true
         -
                 uuid: c629e06a-e6dc-40dd-8ea9-11e2ec71742a
                 front: Accede
-                back: >
+                back: |
                         (Formal) agree to demand, request, or treaty;
                         assume office or position
                 include_reverse: true
         -
                 uuid: 28eb9264-ef5b-4af4-9000-2d0f0c4e45f8
                 front: Privation
-                back: >
+                back: |
                         State in which food and other essentials for well-being
                         are lacking; (formal) loss or absence of a quality
                         or attribute normally present
@@ -1346,7 +1346,7 @@ notes:
         -
                 uuid: 8f037361-8773-43b8-8b33-33f6702837d8
                 front: Syncretism
-                back: >
+                back: |
                         Amalgamation or attempted amalgamation of different
                         religions, cultures, schools of thought;
                         (linguistics) merging of different inflectional
@@ -1355,7 +1355,7 @@ notes:
         -
                 uuid: 6dd83292-6581-4fab-af9a-d20aa2374883
                 front: Neophyte
-                back: >
+                back: |
                         Person new to subject or activity;
                         new convert to a religion.
                 include_reverse: true
@@ -1366,27 +1366,27 @@ notes:
         -
                 uuid: d4812dc3-823e-4afe-a697-b351b6fa4e5d
                 front: imprimatur
-                back: >
+                back: |
                         Latin: "let it be printed"
                 include_reverse: true
         -
                 uuid: 706dad9f-6545-4e1b-8563-2a20c5020fbb
                 front: Predilection
-                back: >
+                back: |
                         Preference or special liking for something; bias in
                         favour of something
                 include_reverse: true
         -
                 uuid: 5640e19a-4fb1-4b09-91a0-623097e3fc67
                 front: Recant
-                back: >
+                back: |
                         Verb: say that one no longer holds an opinion or
                         belief, especially one considered heretical
                 include_reverse: true
         -
                 uuid: 0bb87fd6-d781-4e1d-843a-14ca2ded9443
                 front: Impel
-                back: >
+                back: |
                         Verb: drive, force, or urge (someone) to do something;
                         drive forward; propel
                         ("financial difficulties ...ed him to desperate measures")
@@ -1394,7 +1394,7 @@ notes:
         -
                 uuid: 2977f74d-2568-4ed2-8a1f-ef84a0b54b53
                 front: Fender
-                back: >
+                back: |
                         Noun:
                         1. low frame bordering a fireplace to prevent burning coals from falling out
                         2. plastic cylinder, tyre, piece of old rope or matting, etc., hung over a ship's side to protect it against impact.
@@ -1415,12 +1415,12 @@ notes:
         -
                 uuid: d69a910f-70d3-401d-ad30-0ceb11194819
                 front: Assent
-                back: >
+                back: |
                         Noun/verb: express(ion of) approval or agreement
         -
                 uuid: 19c6ea95-16ed-4478-a8df-75ea040de4f1
                 front: Scourge
-                back: >
+                back: |
                         Noun: (historical) whip used as instrument of
                         punishment; person/thing that causes great trouble or
                         suffering.
@@ -1431,25 +1431,25 @@ notes:
         -
                 uuid: c71be6ec-7b6f-4684-b88e-a44dbc00344e
                 front: Purport
-                back: >
+                back: |
                         Verb: appear to be or do something, especially falsely.
                 include_reverse: true
         -
                 uuid: 21e9f387-dee4-4ff2-b2cb-0f9da8c35a01
                 front: Corroboration
-                back: >
+                back: |
                         Evidence which confirms or supports a statement,
                         theory, or finding; confirmation
                 include_reverse: true
         -
                 uuid: 2875c2fc-19c9-4184-bf10-02d895ac8f19
                 front: Fideism
-                back: >
+                back: |
                         Doctrine that knowledge depends on faith or revelation
                 include_reverse: true
         -
                 uuid: ebf523f7-3d8f-40a6-a57c-0a0f824e79ab
                 front: Ecclesiastical
-                back: >
+                back: |
                         Relating to the Christian Church or its clergy
                 include_reverse: true
