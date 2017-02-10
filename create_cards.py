@@ -66,7 +66,7 @@ def main():
             else:
                 anki_note.flush()
 
-            cards = collection.findCards('nid:"' + anki_note.id + '"')
+            cards = collection.findCards('nid:%d' % anki_note.id)
             for card_id in cards:
                 card = collection.getCard(card_id)
                 if card.did != deck_id:
