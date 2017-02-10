@@ -270,10 +270,10 @@ notes:
                 1-převoditelnost a úplnost: [$]f[/$] má být navíc prostá
 -       guid: ottcRpw]YO
         front: |
-                Definice: [$]m[/$]-úplný jazyk
+                Definice: [$]m[/$]-úplný jazyk [$]A[/$]
         back: |
-                Jazyk, co je částečně rozhodnutelný a každý částečně
-                rozhodnutelný jazyk je na něj [$]m[/$]-převoditelný.
+                Částečně rozhodnutelný a každý částečně rozhodnutelný jazyk je
+                na něj [$]m[/$]-převoditelný.
 -       guid: AJ-Qd?v_5/
         front: |
                 [$]m[/$]-převoditelnost: vlastnosti a rozhodnutelnost

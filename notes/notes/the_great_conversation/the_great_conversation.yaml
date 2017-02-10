@@ -195,7 +195,8 @@ notes:
         back: Trojský král
 -       guid: ytyEUeWh:[
         topic: Trojan war
-        front: Who was Paris's father?
+        front: |
+                Name: Paris's father
         back: Priam, king of Troy
 -       guid: z]qG1nH/AD
         front: Co je Achaea?
@@ -1400,19 +1401,18 @@ notes:
         back: |
                 <ul>
                 <li>
-                *Early*: Accurate on Socrates' own views.
-                Questions people about piety, courage, justice, arete.
+                <i>Early</i>: Accurate on Socrates' own views.
+                Questions people on piety, courage, justice, arete.
                 Usually no agreed conclusion.
                 Participant claims answers, later admits ignorance.
                 <li>
-                *Middle*: Socrates still main character, many positive
-                doctrines supported by arguments. Plato is working
+                <i>Middle</i>: Socrates still main character, many positive
+                doctrines supported by arguments. Plato works
                 out his solutions to problems of Sophists,
                 goes beyond negative answers to Socratic questioning.
                 <li>
-                *Late*: Explores difficulties found in middle
-                dialogues. Socrates plays lesser role. In Laws,
-                he disappears.
+                <i>Late</i>: Explores difficulties found in middle
+                dialogues. Socrates plays lesser role, disappears in Laws.
                 </ul>
 -       guid: e;8:D@->G]
         front: 3 early dialogues with Socrates
@@ -3483,15 +3483,16 @@ notes:
         front: Classification of desires
         back: |
                 <ul>
-                <li> *Vain*: luxuries, being thin, keep up with the Joneses
-                <li> *Natural*
+                <li> <i>Vain</i>: luxuries, being thin, keep up with the Joneses
+                <li> <i>Natural</i>
                 <ul>
-                <li> *Merely natural*: sexual desire (natural but not necessary)
-                  <li> *Necessary*
+                  <li> <i>Merely natural</i>: sexual desire
+                       (natural but not necessary)
+                  <li> <i>Necessary</i>
                   <ul>
-                    <li> *For life*: food, drink, shelter
-                    <li> *For ease of the body*: a bed
-                    <li> *For happiness*: frienship
+                    <li> <i>For life</i>: food, drink, shelter
+                    <li> <i>For ease of the body</i>: a bed
+                    <li> <i>For happiness</i>: frienship
                   </ul>
                 </ul>
                 </ul>
@@ -3538,8 +3539,7 @@ notes:
 -       guid: wNcTso|!E,
         front: Common point between Stoics and Epicureans
         back: |
-                Philosophy serves the aim of living the best and
-                happiest life possible
+                Philosophy is for living the best, happiest life possible
 -       guid: tqvtRH6Vp[
         front: Founder of Stoicism
         back: Zeno, the Stoic
@@ -6430,14 +6430,14 @@ notes:
                 thing is to keep customs we grew up in.
 -       guid: iO<#lD#U!V
         front: |
-                Author: "The plague of main is the opinion
+                Author: "The plague of man is the opinion
                 of knowledge. That is why ignorance is so recommended
                 by our religion as a quality suitable to belief
                 and obedience."
         back: Montaigne
 -       guid: n{EH^9Z&+X
         front: |
-                Name: "the French Socrates"
+                Name: "The French Socrates"
         back: Montaigne
 -       guid: c_g:?AMjI`
         front: |
@@ -6836,13 +6836,13 @@ notes:
         topic: Descartes
         front: Basic categories (kinds of being)
         back: |
-                Kinds of being:
+                Substances:
                 <ul>
-                <li> Infinite substance (God)
-                <li> Finite substances:
+                <li> Infinite (God)
+                <li> Finite:
                         <ul>
-                        <li> Thinking substances (minds)
-                        <li> Extended substances (bodies)
+                        <li> Thinking (minds)
+                        <li> Extended (bodies)
                         </ul>
                 </ul>
 -       guid: i*L:XKA.W7

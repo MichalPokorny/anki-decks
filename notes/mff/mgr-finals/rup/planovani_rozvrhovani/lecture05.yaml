@@ -132,7 +132,7 @@ notes:
         -       guid: bb6`@4,d;{
                 front: |
                         Formálně: Kdy platí mutex akcí &mdash;
-                        [$](a, b)\\in\\mu A_i[/$]?
+                        [$] (a, b)\\in\\mu A_i[/$]?
                 back: |
                         [$]a,b[/$] závislé, nebo
                         [$]\\e p\\in\\mathrm{precond}^+(a),

@@ -272,7 +272,7 @@ notes:
         include_reverse: true
 -       guid: v3msi%Q0h6
         front: |
-                Macro: `\\sqrt{2}`
+                Macro: [$]\\sqrt{2}[/$]
         back: |
                 `M_SQRT2`
         include_reverse: true

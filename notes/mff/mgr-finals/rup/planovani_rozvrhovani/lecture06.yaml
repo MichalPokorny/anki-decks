@@ -137,21 +137,23 @@ notes:
         -       guid: Nrv*aOxS,v
                 topic: Graphplan jako BCSP
                 front: BCSP podmínky
+                markdown: false
                 back: |
                         <ul>
                         <li>
-                        <i>Předpoklady</i>: [$]A_{i,m}\\rightarrow P_{j,m-1}[/$]
+                        <i>Předpoklady</i>: [$]A_{i,m}\rightarrow P_{j,m-1}[/$]
                         <li>
                         <i>Následující stav</i>:
-                        [$$]p_{i,m}\\leftrightarrow (\\bigvee_{p_i\\in\\mathrm{eff}^+(a_j)} A_{j,m})
-                        \\vee (p_{i,m-1} \\wedge (\\bigvee_{p_i\\in\\mathrm{eff}^-(a_j)} \\neg A_{j,m}))[/$$]
+                        [$$]
+                        p_{i,m}\leftrightarrow (\bigvee_{p_i\in\mathrm{eff}^+(a_j)} A_{j,m})
+                        \vee (p_{i,m-1} \wedge (\bigvee_{p_i\in\mathrm{eff}^-(a_j)} \neg A_{j,m}))[/$$]
                         <br>
                         (Stav je aktivní, byl-li přidán a nebyl-li smazán;
                         nejsou no-opy.)
                         <li>
                         <i>Mutex</i> (abych nedovolil zároveň smazat a přidat):
-                        [$]\\neg A_{i,m} \\vee \\neg A_{j,m}[/$],
-                        [$]\\neg P_{i,n} \\vee \\neg P_{j,n}[/$]
+                        [$]\neg A_{i,m} \vee \neg A_{j,m}[/$],
+                        [$]\neg P_{i,n} \vee \neg P_{j,n}[/$]
                         <li>
                         <i>Počáteční a koncové atomy</i>
                         <li>
