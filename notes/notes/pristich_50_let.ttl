@@ -1,7 +1,0 @@
-deck: Notes::Příštích 50 let
-notes:
-        -
-                uuid: 62966058-df0b-48d4-a867-59fb7ca48392
-                front: Doogie mice
-                back: Better memory, but more active pain perception
-

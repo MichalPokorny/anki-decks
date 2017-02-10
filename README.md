@@ -2,7 +2,7 @@ Description
 ==
 
 Loads cards from human-readable & editable YAML files and imports them into
-Anki. Linkage of YAML with Anki is done via UUIDs.
+Anki. Linkage of YAML with Anki is done via Anki note GUIDs.
 
 Building
 ==

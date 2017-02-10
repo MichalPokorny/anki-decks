@@ -122,8 +122,6 @@ for path in yaml_files:
         )
         # my_notes.append()
 
-        ##notes = collection.findNotes('anki-decks-uid:"' + note.uuid + '"')
-        ##print(note.uuid, len(notes))
         ##assert len(notes) == 1
 
         ##anki_note = notes[0]
