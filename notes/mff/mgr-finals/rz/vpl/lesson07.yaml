@@ -58,15 +58,19 @@ notes:
         -       guid: fxKW<J9fPL
                 front: Teorie Booleových algeber
                 back: |
-                        [$]L=<-,\\wedge,\\vee,0,1>[/$] s rovností<br>
+                        [$]L=<-,\\wedge,\\vee,0,1>[/$] s rovností
 
-                        asociativita obou operátorů,
-                        komutativita obou operátorů,
-                        distributivita ([$]x\\wedge(y\\vee z)=(x\\wedge y)\\vee(x\\wedge z)[/$] a obráceně),
-                        absorbce ([$]x\\wedge(x\\vee y)=x[/$] a obráceně),
-                        komplementarita ([$]x\\vee(-x)=1, x\\wedge(-x)=0[/$]),
-                        [$]0\\neq1[/$].
-
+                        <ul>
+                        <li> Asociativita obou operátorů
+                        <li> Komutativita obou operátorů
+                        <li> Distributivita ([$]x\\wedge(y\\vee z)=(x\\wedge y)\\vee(x\\wedge z)[/$] a obráceně)
+                        <li> Absorbce ([$]x\\wedge(x\\vee y)=x[/$] a obráceně)
+                        <li> Komplementarita ([$]x\\vee(-x)=1, x\\wedge(-x)=0[/$])
+                        <li> [$]0\\neq 1[/$]
+                        </ul>
+        -       guid: u`D`Bt(:I~
+                front: Čemu jsou ekvivalentní všechny Booleovy algebry?
+                back: |
                         Až na isomorfismus jsou to právě [$]{}^n 2[/$].
         -       guid: cYLQrmTYIl
                 front: Tablo metoda v PL

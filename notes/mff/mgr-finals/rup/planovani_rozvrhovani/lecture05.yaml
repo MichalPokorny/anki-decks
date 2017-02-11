@@ -17,21 +17,20 @@ notes:
                 back: |
                         <ul>
                         <li>
-                        *Strategie silných závazků*: akce jsou plně instanciovány
-                        a zvoleno jejich místo v plánu.
+                        <i>Strategie silných závazků</i>: akce plně
+                        instanciovány a zvoleno místo v plánu.
                         <li>
-                        *Analýza dosažitelnosti*: zjišťujeme jestli nějakého
-                        stavu můžu dosáhnout v nějakém počtu kroků.
+                        <i>Analýza dosažitelnosti</i>: zjišťuj jestli jde stavu
+                        dosáhnout v nějakém počtu kroků.
                         <li>
-                        *Disjunktivní zjemňování*: kazy opravíme použitím
+                        <i>Disjunktivní zjemňování</i>: kazy opravuj použitím
                         disjunkce rozkladů, zachycením interferencí rozkladů
                         formou omezení
                         </ul>
         -       guid: jG;i%qHY<;
                 front: Graf dosažitelnosti  a jaký je s ním problém
                 back: |
-                        Vrchol: stav, hrana: akce.
-                        Je neprakticky velký.
+                        Vrchol: stav, hrana: akce. Neprakticky velký.
         -       guid: J?eA_DtqG!
                 front: Jakou podmínku na dosažitelnost poskytuje plánovací graf?
                 back: |
@@ -50,12 +49,14 @@ notes:
         -       guid: zS-pivv232
                 front: Vrstvy, úrovně a hrany plánovacího grafu
                 back: |
-                        Vrstva: buď instanciované atomy, nebo akce<br>
-                        Nultá vrstva: počáteční stav; poslední vrstva je stavová.<br>
-                        Akční vrstva a další stavová vrstva: *úroveň*<br>
-                        Hrany: z atomů do akcí, pro které jsou předpoklady.
-                        Z akce do atomů popisujících efekty. (Hrany pro negativní
-                        efekty jsou označeny zvlášť, negativní efekty se nemažou ze stavu.)
+                        <ul>
+                        <li> <i>Vrstva</i>: instanciované atomy, nebo akce
+                        <li> Vrstva 0: počáteční stav; poslední vrstva je stavová.
+                        <li> Úroveň: akční vrstva a další stavová vrstva
+                        <li> Hrany: předpokladové atomy &rarr; akce.
+                        Akce &rarr; efekty. (Hrany [$]\\mathrm{eff}^-[/$]
+                        označeny zvlášť, negativní efekty se nemažou.)
+                        </ul>
         -       guid: H|<%^R$vf9
                 front: Vrstvený plán
                 back: |
@@ -106,17 +107,17 @@ notes:
         -       guid: qOzRd}H|qm
                 front: Jaké věci tvoří mutexy?
                 back: |
-                        Nultá vrstva: všechny atomy jsou dohromady.<br>
-                        První akční vrstva nesmí obsahovat dvě závislé akce,
-                        takže jejich pozitivní efekty nemůžou být v první
-                        stavové vrstvě (když jich nejde dosáhnout bez
-                        závislosti).<br>
-                        Jako speciální případ podmínky pro no-opy
+                        Vrstva 0: všechny atomy jsou dohromady.<br>
+                        První akční vrstva neobsahuje 2 závislé akce &rarr;
+                        jejich [$]\\mathrm{eff}^+[/$] nemůžou být v první
+                        stavové vrstvě (když nejdou dosáhnout bez závislosti).
+                        <br>Jako speciální případ podmínky pro no-opy
                         [$]\\alpha_p[/$]:
-                        2 atomy nesmí být společně v jedné vrstvě, jestli
-                        jsou pozitivní předpoklad a negativní efekt téže akce.
+                        2 atomy nesmí být společně v jedné vrstvě,
+                        jsou-li pozitivní předpoklad a negativní efekt téže
+                        akce.
                         <br>
-                        Dvě akce jsou nekompatibilní, pokud jsou jejich
+                        2 akce jsou nekompatibilní jsou-li jejich
                         předpoklady nekompatibilní. Akce, jejichž předpoklady
                         jsou mutex, můžeme rovnou vyřadit.
         -       guid: H&-?K;9^pP

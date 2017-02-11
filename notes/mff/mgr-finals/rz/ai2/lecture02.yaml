@@ -101,8 +101,9 @@ notes:
         -       guid: eD&r+!N#Q[
                 front: |
                         Složitost: Inference v Bayesovské síti
+                markdown: false
                 back: |
-                        Obecně NP-těžká, resp. Sharp-P těžká (převodem z 3-SATu)
+                        [$]\sharp-\mathrm{P}[/$]-těžká (převodem z 3-SATu)
         -       guid: H6aMi5eN+T
                 front: |
                         Algoritmy přibližné inference pro Bayesovské sítě

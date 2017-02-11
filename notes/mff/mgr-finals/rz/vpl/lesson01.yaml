@@ -20,7 +20,7 @@ notes:
         -       guid: lhW3*A@@u/
                 front: Úplné a korektní dokazovací systémy - kde existuji?
                 back: |
-                        Existují pro predikátovou logiku 1. řádu. Pro vyšší řády to neplatí.
+                        Pro predikátovou logiku 1. řádu, pro vyšší řády ne.
         -       guid: wG#mg_u_r
                 front: Jazyk 2. řádu přidává...
                 back: proměné pro množiny individuí, i relace a funkce

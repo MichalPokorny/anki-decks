@@ -7,9 +7,10 @@ notes:
                 front: Jazyk predikátové logiky
                 back: |
                         <ul>
-                        <li> Spočetně mnoho proměnných ([$]\\mathrm{Var}[/$])
-                        <li> Funkční symboly včetně konstantních symbolů
-                        <li> Relační symboly, potenciálně [$]=[/$] (speciální relační symbol)
+                        <li> Spočetně mnoho proměnných [$]\\mathrm{Var}[/$]
+                        <li> Funkční symboly včetně konstant
+                        <li> Relační symboly, potenciálně [$]=[/$] (speciální
+                             relační symbol)
                              (nulární relační symboly: výrokové proměnné)
                         <li> Kvantifikátory pro každou proměnnou
                         <li> Logické spojky
@@ -148,8 +149,19 @@ notes:
                         Podobně lživá.
         -       guid: dVklIQ@/PE
                 topic: Predikátová logika
-                front: Teorie v predikátové logice
+                front: |
+                        Definice: Teorie v predikátové logice
                 back: |
-                        Teorie je libovolná množina formulí (axiomů).<br>
-                        Model je L-struktura ve které platí axiomy teorie.<br>
-                        Třída modelů [$]M(T)[/$].
+                        Libovolná množina formulí (axiomů).
+        -       guid: q7;K}[6hjj
+                topic: Predikátová logika
+                front: |
+                        Definice: Model teorie [$]T[/$]
+                back: |
+                        [$]L[/$]-struktura ve které platí axiomy [$]T[/$]
+        -       guid: xHvOD)MJ[|
+                topic: Predikátová logika
+                front: |
+                        Značení: Třída modelů teorie [$]T[/$]
+                back: |
+                        [$]M(T)[/$]

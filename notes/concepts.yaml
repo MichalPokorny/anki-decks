@@ -120,9 +120,8 @@ notes:
 -       guid: cpi.QDh/.^
         front: Belief bias
         back: |
-                When one's evaluation of the logical strength of an
-                argument is biased by belief in truth or falsity of
-                the conclusion
+                Evaluation of logical strength of an argument biased by belief
+                in truth or falsity of its conclusion
         include_reverse: true
 -       guid: K|MtU]oz[V
         front: Hindsight bias
@@ -367,13 +366,12 @@ notes:
         front: Bateman’s principle
         back: |
                 The most sexually selective sex will be that which has
-                the most costs from rearing the offspring. In humans,
-                women have more costs associated with raising offspring
+                most costs from rearing offspring.
+                <br><br>
+                In humans, women have more costs with raising offspring
                 (maternal mortality, breastfeeding, rearing) and are
-                the more selective sex. In seahorses, the opposite is
-                true: male seahorses carry offspring in their pouch,
-                and are more selective with those they choose to mate
-                with.
+                more selective. Male seahorses (who carry offspring in
+                their pouch) are more selective.
         include_reverse: true
 -       guid: JnKx$lvtbz
         front: Hawthorne effect

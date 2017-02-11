@@ -543,11 +543,10 @@ notes:
         topic: Hashování
         front: Srůstající řetězce (a 2 podzpůsoby)
         back: |
-                Každý kyblík má jeden prvek a
-                volitelně ukazatel, který tvoří jednosměrný
-                spojový seznam.
-                Když přidám nový prvek, přidám buď na konec
-                seznamu (LICH), nebo za první prvek seznamu (EICH).
+                Každý kyblík má 1 prvek a volitelně ukazatel, tvoří jednosměrný
+                spoják.
+                Přidám nový prvek &rarr; přidám na konec seznamu (LICH),
+                nebo za první prvek (EICH).
         include_reverse: true
 -       guid: E%NSI@16[>
         topic: Hashování
@@ -556,9 +555,8 @@ notes:
                 V kyblíku místo na prvek a ukazatel.
                 Ukazatele ukazují do pomocného pole, které může
                 ukazovat dál.
-                Jakmile dojde pomocné pole, začnu ukládat přetékající
-                prvky
-                do hlavního pole.
+                Dojde pomocné pole &rarr; začnu ukládat přetékající
+                prvky do hlavního pole.
 -       guid: dqfSP,@~Ah
         topic: Hashování
         front: Jak funguje lineární přidávání
@@ -749,15 +747,15 @@ notes:
                 [$]P_{h\\in H}[h(x_1)=a_1\\wedge\\ldots\\wedge h(x_k)=a_k]=1/m^k[/$]
 -       guid: M)MHHi/%6`
         front: |
-                5 příkladů: 2-univerzálních hashovací systémy
+                5 příkladů: 2-univerzální hashovací systémy
         markdown: false
         back: |
                 <ul>
-                <li> Hashování [$] (ax+b)\bmod m[/$].
-                <li> Maticové násobení.
-                <li> Hashování konvolucí.
-                <li> Hashování multiply-shift.
-                <li> Vektory.
+                <li> [$] (ax+b)\bmod m[/$]
+                <li> Maticové násobení
+                <li> Konvoluce
+                <li> Multiply-shift
+                <li> Vektory
                 </ul>
 
 -       guid: e}wl5so5HN

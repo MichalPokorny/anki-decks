@@ -95,7 +95,7 @@ notes:
                         Množina konečně mnoha instanciovaných atomů
         -       guid: kvQh65v*pE
                 topic: STRIPS plánování
-                front: Klasická reprezentace - jaký je logický předpoklad?
+                front: Klasická reprezentace - logický předpoklad
                 back: |
                         Closed world assumption
         -       guid: r}64U!#Y^~
@@ -142,13 +142,15 @@ notes:
                 front: 6 rozšíření klasického plánování
                 back: |
                         <ul>
-                        <li> *Typované proměnné*
-                        <li> *Existenčně kvantifikované cíle*
-                        <li> *Podmíněné operátory* ("přepni přepínač" vs.
+                        <li> <i>Typované proměnné</i>
+                        <li> <i>Existenčně kvantifikované cíle</i>
+                        <li> <i>Podmíněné operátory</i> ("přepni přepínač" vs.
                         "zapni" a "vypni")
-                        <li> *Disjunktivní předpoklady* (libovolné formule)
-                        <li> *Připojené procedury* (složitější předpoklady operátorů)
-                        <li> *Logické axiomy* ("být vedle je ekvivalence")
+                        <li> <i>Disjunktivní předpoklady</i>
+                        (libovolné formule)
+                        <li> <i>Připojené procedury</i> (složitější předpoklady
+                        operátorů)
+                        <li> <i>Logické axiomy</i> ("být vedle je ekvivalence")
                         </ul>
         -       guid: PiEEbNk8&S
                 topic: STRIPS plánování

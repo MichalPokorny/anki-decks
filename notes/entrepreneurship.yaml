@@ -9,10 +9,10 @@ notes:
 -       guid: P2<[oby@B5
         front: Dwell time
         back: |
-                Actual length of time that a visitor spends on page
-                before returning to SERPs. In theory, the longer
-                the better, as this indicates visitor has consumed most
-                content on page before returning to the SERPs or
+                Actual time visitor spends on page before returning to SERPs.
+                <br><br>
+                In theory, the longer the better, as this indicates visitor
+                consumed most content before returning to SERPs or
                 performing another action on the site.
         include_reverse: true
 -       guid: MpzZ+p;q]M

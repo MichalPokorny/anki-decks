@@ -460,10 +460,12 @@ notes:
                 [$]L\\in \\mathrm{TIME}(2^{c_L f(n)})[/$], kde
                 [$]c_L[/$] je konstanta závislá na jazyku [$]L[/$].
 -       guid: t[=kNIFFh`
-        front: Ať je [$]L\\in\\mathrm{NSPACE}(f(n))[/$]. Co víme o čase?
+        front: |
+                [$]L\\in\\mathrm{NSPACE}(f(n))[/$]. Co víme o čase?
         back: |
-                [$$]L\\in\\mathrm{TIME}(2^{c_L f(n)})[/$$]
-                (pro nějakou konstantu [$]c_L[/$] závislou na [$]L[/$])
+                [$]L\\in\\mathrm{TIME}(2^{c_L f(n)})[/$]
+                <br>
+                [$]c_L[/$]: konstanta závislá na [$]L[/$]
 -       guid: A_fKA>EJeI
         front: |
                 Inkluze [$]\\mathrm{L}, \\mathrm{P}, \\mathrm{EXPTIME},
@@ -698,8 +700,9 @@ notes:
 -       guid: t,0>8cau77
         front: co-NP a verifikátory
         back: |
-                [$]L[/$] patří do co-NP právě když existuje polynom
-                [$]p[/$] a polynomiální verifikátor, že [$]L=\\{x | (\\a y) [|y|\\leq p(|x|) \\Rightarrow V(x,y) prijme]\\}[/$].
+                [$]L\\in\\mathrm{co-NP}[/$] právě když existuje polynom
+                [$]p[/$] a polynomiální verifikátor, že
+                [$]L=\\{x:(\\a y)[|y|\\leq p(|x|)\\Rightarrow V(x,y) \\text{prijme}]\\}[/$].
                 (Viz: [$]\\a[/$], ne [$]\\e[/$])
 -       guid: HX5WA,_+%_
         front: P a NP a co-NP

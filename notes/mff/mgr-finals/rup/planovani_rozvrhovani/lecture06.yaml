@@ -16,35 +16,35 @@ notes:
                 back: |
                         <ul>
                         <li>
-                        Atomy: výroková proměnná s jejich časem (fluenty).
+                        Atomy: výroková proměnná s jejich časem (fluenty)
                         <li>
-                        Zahrnu negaci věcí, co neplatí.
+                        Zahrnu negaci věcí, co neplatí
                         <li>
                         Zakódujeme přechody; přidáme každému proměnnou,
-                        která říká, jaká akce ho udělala.
+                        která říká, jaká akce ho udělala
                         <li>
-                        Vyloučíme dvě akce zároveň.
+                        Vyloučíme dvě akce zároveň
                         <li>
-                        Frame axioms.
+                        Frame axioms
                         </ul>
         -       guid: OQ)qQg[$]<
                 topic: Plánování jako SAT
                 front: Frame axioms &mdash; 2 způsoby
                 back: |
-                        <ul>*Klasické*: proměnné co nejsou efekty
+                        <ul>
+                        <li><i>Klasické</i>: proměnné co nejsou efekty
                         se nemění [$](p\\not\\in \\mathrm{eff}^+(a))::
                                 a_i \\rightarrow (p_i \\leftrightarrow p_{i+1})[/$];
                         vyber nějakou akci: [$]\\bigvee\\{a_i : a\\in A\\}[/$]
-                        <li>
-                        *S vysvětlením*: atom se mění jenom akcemi:
+                        <li><i>S vysvětlením</i>: atom se mění jenom akcemi:
                         [$] (\\neg p_i \\wedge p_{i+1}) \\rightarrow (\\bigvee \\{a_i: p\\in\\mathrm{eff}^+(a)\\})[/$]
                         a analogicky pro [$]\\mathrm{eff}^-[/$].
                         <br>
-                        Zde stačí axiom *konfliktního vyloučení*:
+                        Zde stačí axiom <i>konfliktního vyloučení</i>:
                         nedělat najednou závislé akce.
         -       guid: bXr`$ssCK}
-                front: Co se používá víc? Plánování jako SAT, nebo jako CSP?
-                back: Plánování jako CSP
+                front: Používá se víc plánování jako SAT, nebo jako CSP?
+                back: Jako CSP
         -       guid: cHX0}{G(U6
                 topic: Plánování jako SAT
                 front: |

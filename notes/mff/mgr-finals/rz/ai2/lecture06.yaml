@@ -59,40 +59,42 @@ notes:
                 back: |
                         [$$]U(s)=R(s)+\\gamma\\max_{a}\\sum_{s'}P(s'|s,a)U(s')[/$$]
         -       guid: P2{)H?IEFP
-                front: Value iteration algorithm, kdy se skončí?
+                front: Value iteration algorithm, kdy skončí?
                 back: |
-                        Vstup: [$]\\epsilon[/$]: jak daleko si dovolím být od
-                        skutečných utilit.
-                        Potřebuju přechodový model.
-                        <br><br>
-                        Začni s náhodnými počátečními hodnotami.
-                        Opakuj Bellmanovský update:
+                        Vstup: [$]\\epsilon[/$]: jak daleko chci být od
+                        skutečných utilit. Potřebuje přechodový model.
+                        <ul>
+                        <li> Začni s náhodnými počátečními hodnotami.
+                        <li> Opakuj Bellmanovský update:
                         [$]
                         U_{i+1}(s)\\leftarrow R(s)+\\gamma\\max_a \\sum_{s'}P(s'|s,a)U_i(s')
                         [/$]
-                        Konči, až se utilita změní jen málo:
+                        <li> Konec až se utilita změní jen málo:
                         [$]\\delta < \\varepsilon (1-\\gamma)/\\gamma[/$].
+                        </ul>
         # TODO: konvergence value iteration
         -       guid: HDq2l^<4os
-                front: Definice - policy loss
+                markdown: false
+                front: |
+                        Definice: Policy loss
                 back: |
-                        [$$]|U^{\\pi} - U|_{\\max}[/$$]
+                        [$]|U^{\\pi} - U|_{\\max}[/$]
         -       guid: bIWtpt7`;.
+                markdown: false
                 front: Maximální policy loss po [$]i[/$] krocích value iteration
                 back: |
-                        [$$]|U_i-U| < \\varepsilon \\rightarrow |U^{\\pi_i}-U| < 2\\varepsilon\\gamma(1-\\gamma)[/$$]
+                        [$]|U_i-U| < \\varepsilon\\rightarrow|U^{\\pi_i}-U| < 2\\varepsilon\\gamma(1-\\gamma)[/$]
         -       guid: o>|10B`j},
                 topic: Policy iteration
                 front: Motivace proti value iteration
                 back: |
-                        Value iteration policy často zkonverguje daleko dřív než
-                        zkonvergují utility. Nezáleží na přesném rozdílu když
-                        je jedna akce jasně optimální.
+                        Policy často zkonverguje daleko dřív než utility.
+                        Nezáleží na přesné hodnotě je-li optimální akce jasná.
         -       guid: m09L)2g[gf
                 topic: Policy iteration
                 front: Algoritmus
                 back: |
-                        Opakuje kroky:
+                        Opakuj:
                         <ol type="1">
                         <li> Policy evaluation: Počítám utilitu.
                         (Pro malé stavové prostory jde přesně v
@@ -125,10 +127,13 @@ notes:
                         [$]\\pi(b)[/$], kde [$]b(s)\\in[0;1][/$].
         -       guid: h0*]%8|d`*
                 topic: POMDP
-                front: Jak spočítat další belief, když máme pozorování?
+                front: |
+                        Jak spočítat další belief [$]b'(s')[/$], když máme
+                        pozorování?
                 back: |
-                        [$]b'(s')=\\alpha P(e|s') \\sum_s P(s'|s,a) b(s)[/$];
-                        to je to samé jako operace FORWARD
+                        [$]b'(s')=\\alpha P(e|s') \\sum_s P(s'|s,a) b(s)[/$]
+                        <br>
+                        (To samé jako operace FORWARD)
         -       guid: wgexjt6PFl
                 topic: POMDP
                 front: Jak spočítat další belief, když nemáme pozorování?
@@ -145,7 +150,7 @@ notes:
                 topic: POMDP
                 front: Zobecnění reward function pro POMDP belief state
                 back: |
-                        [$$]r(b)=\\sum_s b(s) R(s)[/$$]
+                        [$]r(b)=\\sum_s b(s) R(s)[/$]
         -       guid: E^aN>;j.x+
                 topic: POMDP
                 front: Redukce POMDP na MDP

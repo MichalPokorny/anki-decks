@@ -22,7 +22,7 @@ notes:
                 back: |
                         Databázi časových údajů; Update; IsConsistent?
         -       guid: Gr5#yz(}_;
-                front: Jaké jsou 2 způsoby práce s časem v plánování?
+                front: 2 způsoby práce s časem v plánování
                 back: |
                         <ul>
                         <li> Kvalitativně (relativní vztahy)
@@ -55,38 +55,43 @@ notes:
         -       guid: fek,m@~,^,
                 topic: Algebra intervalů - kvalitativní čas
                 front: Primitivní vztahy mezi intervaly
+                markdown: false
                 back: |
                         <ul>
-                        <li> x **b**efore y ([$]x^{+}<y^{-}[/$])
-                        <li> x **m**eets y ([$]x^{+}=y^{-}[/$]
-                        <li> x **o**verlaps y ([$]x^{-} < y^{-} < x^{+}[/$] a [$]x^{+} < y^{+}[/$])
-                        <li> x **d**uring y (celé [$]x[/$] je v [$]y[/$])
-                        <li> x **s**tarts / **f**inishes y (x je menší než y a je to první/poslední věc v y)
-                        <li> x **e**quals y
-                        <li> symetrické vztahy **b'**, **m'**, **o'**, **d'**, **s'**, **f'**
+                        <li> x <b>b</b>efore y ([$]x^{+}<y^{-}[/$])
+                        <li> x <b>m</b>eets y ([$]x^{+}=y^{-}[/$])
+                        <li> x <b>o</b>verlaps y ([$]x^{-} < y^{-} < x^{+}[/$]
+                        a [$]x^{+} < y^{+}[/$])
+                        <li> x <b>d</b>uring y (celé [$]x[/$] je v [$]y[/$])
+                        <li> x <b>s</b>tarts/<b>f</b>inishes y
+                        (x je menší než y a je to první/poslední věc v y)
+                        <li> x <b>e</b>quals y
+                        <li> symetrické <b>b'</b>, <b>m'</b>, <b>o'</b>,
+                        <b>d'</b>, <b>s'</b>, <b>f'</b>
                         </ul>
         -       guid: Fd6~Z!7z<~
                 topic: Algebra intervalů - kvalitativní čas
                 front: Složitější vztahy mezi intervaly
                 back: |
-                        Složitější vztah je množina možných platných primitivních vztahů.
-                        Množinové operace [$]\\cap,\\cup[/$], tranzitivní operace
+                        Složitější vztah je množina možných platných
+                        primitivních vztahů. Množinové operace
+                        [$]\\cap,\\cup[/$], tranzitivní operace
                         [$]\\cdot[/$].
         -       guid: y2Oavgv%ce
                 topic: Algebra intervalů - kvalitativní čas
                 front: Kdy je síť podmínek konzistentní? (okamžiky)
                 back: |
-                        Když jdou přiřadit reálná čísla začátkům a koncům, že všechny vztahy jsou splněny.
+                        Jdou přiřadit čísla začátkům a koncům, co splní vztahy.
         -       guid: G-2t&;]hJC
                 topic: Algebra intervalů - kvalitativní čas
                 front: Kdy je síť podmínek konzistentní? (podmínky)
                 back: |
-                        Právě když jde přiřadit dvojicím intervalů množinu
-                        primitivních vztahů takových,
-                        že pro libovolnou trojici platí [$]p_{i,j}\\in p_{i,k}\\cdot p_{k,j}[/$].
+                        Jde přiřadit dvojicím intervalů množinu primitivních
+                        vztahů takových, že pro libovolnou trojici platí
+                        [$]p_{i,j}\\in p_{i,k}\\cdot p_{k,j}[/$].
         -       guid: mGwEp.[t.0
                 topic: Algebra intervalů - kvalitativní čas
-                front: Jakou sílu má PC při řešení konzistence sítě podmínek?
+                front: Síla PC při řešení konzistence sítě podmínek
                 back: Není to úplná konzistenční technika.
         -       guid: H!/q/7.%:z
                 topic: Algebra intervalů - kvalitativní čas

@@ -41,8 +41,8 @@ notes:
         back: |
                 [$]C[/$] je množina funkcí [$]\rightarrow\{0,1\}[/$]
                 (concept class). Vzory [$]T[/$] jdou rozčlenit pomocí
-                [$]C[/$], jestli [$]\a[/$] označení z [$]\\ ^{T}2[/$]
-                [$]\\e f_i\\in C[/$] co mu vyhovuje.
+                [$]C[/$], jestli [$]\a[/$] označení z [$]\ ^{T}2[/$]
+                [$]\e f_i\in C[/$] co mu vyhovuje.
 
                 VC-dimenze [$]C[/$]: [$]\max m[/$], pro které existuje
                 [$]m[/$] rozčlenitelných vzorů.
@@ -153,8 +153,8 @@ notes:
         topic: Cromwell's rule
         front: Historical reference
         back: |
-                Oliver Cromwell, who wrote to the synod of
-                Church of Scotland on 5 August 1650, including:
+                Oliver Cromwell wrote to synod of Church of Scotland on 5
+                August 1650, including:
                 <br><br>
                 "I beseech you, in the bowels of Christ, think it
                 possible that you may be mistaken."

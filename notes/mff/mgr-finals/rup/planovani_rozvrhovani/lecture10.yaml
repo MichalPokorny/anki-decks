@@ -162,10 +162,11 @@ notes:
                 topic: "[$]1\\mid r_j\\mid L_{\\max}[/$]\n"
                 front: Jak řešit, když povolím preempci?
                 back: |
-                        Optimální rozvrh konstruuj podle pravidla EDD.
-                        Jakmile narazím na další termín dostupnosti nebo
-                        dokončím úlohu, změním task, na kterém dělám, na úlohu,
-                        která má teď nejmenší due date.
+                        EDD.
+                        <br>
+                        Narazím na další termín dostupnosti nebo
+                        dokončím úlohu &rarr; přepni na úlohu,
+                        co má teď nejmenší due date.
         -       guid: vC>g7Y!;nx
                 topic: "[$]1\\mid r_j\\mid L_{\\max}[/$]\n"
                 front: Složitost obecného nerelaxovaného problému
@@ -190,13 +191,13 @@ notes:
         -       guid: zc7x^3}szw
                 front: Typy paralelních zdrojů podle zpracování úloh
                 back: |
-                        *Identické*: úlohy se zpracovávají stejnou dobu
-                        <br><br>
-                        *Uniformní*: každý zdroj má koeficient rychlosti
+                        <ul>
+                        <li> <i>Identické</i>: stejná trvání úloh
+                        <li> <i>Uniformní</i>: zdroj má koeficient rychlosti
                         oproti normálu
-                        <br><br>
-                        *Různé*: doba zpracování může být ve zdrojích úplně
+                        <li> <i>Různé</i>: doba zpracování na zdrojích úplně
                         různá
+                        </li>
         -       guid: gw^{%2oU6H
                 front: Co když mám alternativní zdroje na řešení preemptivní úlohy?
                 back: |

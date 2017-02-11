@@ -122,12 +122,12 @@ notes:
                 topic: Řešení SAT
                 front: Heuristika Berkmin
                 back: |
-                        Každá proměnná, literál má VSIDS skóre, které se nedělí
+                        Proměnná, literály mají VSIDS skóre, nedělí se
                         průběžně.<br>
                         Konfliktní klauzule házím do stacku.
-                        Když vybírám proměnnou, vezmu jednu klauzuli
+                        Vybírám proměnnou &rarr; vezmu klauzuli
                         ze stacku, z ní dosadím do proměnné s nejvyšším skóre
-                        a polaritu podle skóre literálu. Jestli je stack
+                        a polaritu podle skóre literálu. Stack prázdný &rarr;
                         vyberu jinak.
         -       guid: RgSy+#x>V~
                 topic: Řešení SAT
@@ -137,7 +137,7 @@ notes:
                         literály.
                         <br>
                         Pro každou proměnnou udržuj označené výskyty.
-                        Když dosadíš třeba [$]x_1=0[/$], zkontroluj jenom
+                        Dosadíš [$]x_1=0[/$] &rarr; zkontroluj jenom
                         klauzule co sledují [$]x_1[/$] &mdash; v nich
                         hledej další proměnnou ke sledování. Neexistuje-li,
                         klauzule je jednotková.

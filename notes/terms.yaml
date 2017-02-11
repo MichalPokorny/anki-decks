@@ -721,8 +721,8 @@ notes:
         front: Vise
         back: |
                 Metal tool with movable jaws used to hold an object
-                firmly in place while work is done on it, typically
-                attached to workbench
+                in place while work is done on it, typically attached to
+                workbench
         include_reverse: true
 -       guid: KS-{Nwe.ub
         front: Jarring
@@ -1231,4 +1231,10 @@ notes:
         front: Ecclesiastical
         back: |
                 Relating to the Christian Church or its clergy
+        include_reverse: true
+-       guid: r#-(8B3)ob
+        front: Promulgate
+        back: |
+                Verb: promote or make widely known (an idea or cause);
+                put (a law or decree) into effect by official proclamation
         include_reverse: true

@@ -20,7 +20,8 @@ notes:
                 front: Aktivní učení
                 back: Učí se utility stavů i policy, takže potřebuje i exploration
         -       guid: v-QaazI`E2
-                front: Utility funkce, kterou se učí pasivní učení; model (jako nekonečná
+                front: |
+                        Utility funkce, co se učí pasivní učení (nekonečná
                         suma)
                 back: |
                         [$]U^\\pi(s)=\\mathbb{E}[\\sum_{t=0\\ldots\\infty} \\gamma^t \\cdot R(s_t)] [/$]

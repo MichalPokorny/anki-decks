@@ -5,12 +5,13 @@ notes:
         -       guid: s]0Z>w2%|C
                 topic: Výroková logika
                 front: Jazyk výrokové logiky
+                markdown: false
                 back: |
                         <ul>
                         <li> [$]P[/$]: prvovýroky, neprázdná množina, nejvýš
                              spočetná
-                        <li> Symboly: výrokové proměnné, spojky
-                             [$]\\neg \\vee \\wedge \\ekv \\rightarrow[/$],
+                        <li> Symboly: spojky
+                             [$]\neg \vee \wedge \ekv \rightarrow[/$],
                              závorky
                         </ul>
         -       guid: tnCdT&Rtlq
@@ -112,18 +113,20 @@ notes:
                         [$]M_P(\\bigvee_{v\\in K}\\bigwedge_{p\\in P}p^{v(p)})=K=M^P(\\bigwedge_{v\\in\\overline{K}}\\bigvee_{p\\in P}\\overline{p^{v(p)}})[/$]
         -       guid: H.G[ra#l/M
                 topic: Výroková logika
-                front: Postup pro převod obecné formule na CNF/DNF
+                front: |
+                        Postup: převod formule na CNF/DNF
+                markdown: false
                 back: |
                         <ol type="1">
                         <li>
-                        [$] (\\varphi\\imp\\psi)\\sim(\\neg\\varphi\\vee\\psi), (\\varphi\\ekv\\psi)\\sim((\\neg\\varphi\\vee\\psi)\\wedge(\\neg\\psi\\vee\\varphi)[/$]
+                        [$] (\varphi\imp\psi)\sim(\neg\varphi\vee\psi), (\varphi\ekv\psi)\sim((\neg\varphi\vee\psi)\wedge(\neg\psi\vee\varphi)[/$]
                         <li>
-                        [$]\\neg\\neg\\varphi\\sim\\varphi[/$], [$]\\neg(\\varphi\\wedge\\psi)\\sim(\\neg\\varphi\\vee\\neg\\psi)[/$], [$]\\neg(\\varphi\\vee\\psi)\\sim(\\neg\\varphi\\wedge\\neg\\phi)[/$]
+                        [$]\neg\neg\varphi\sim\varphi[/$], [$]\neg(\varphi\wedge\psi)\sim(\neg\varphi\vee\neg\psi)[/$], [$]\neg(\varphi\vee\psi)\sim(\neg\varphi\wedge\neg\phi)[/$]
                         <li>
-                        [$] (\\varphi\\vee(\\psi\\wedge\\chi))\\sim((\\phi\\wedge\\chi)\\vee\\varphi)\\sim((\\varphi\\vee\\psi)\\wedge(\\varphi\\vee\\chi)) [/$]
+                        [$] (\varphi\vee(\psi\wedge\chi))\sim((\phi\wedge\chi)\vee\varphi)\sim((\varphi\vee\psi)\wedge(\varphi\vee\chi)) [/$]
                         <br><br>
                         Nebo:
-                        [$] (\\varphi\\wedge(\\psi\\vee\\chi))\\sim((\\phi\\vee\\chi)\\wedge\\varphi)\\sim((\\varphi\\wedge\\psi)\\vee(\\varphi\\wedge\\chi)) [/$]
+                        [$] (\varphi\wedge(\psi\vee\chi))\sim((\phi\vee\chi)\wedge\varphi)\sim((\varphi\wedge\psi)\vee(\varphi\wedge\chi)) [/$]
                         </ul>
         -       guid: bIn!YcP&(k
                 topic: Výroková logika

@@ -61,16 +61,17 @@ notes:
                         NP-kompletní. Dá se na to převést barvení grafu
                         ([$]\\mathrm{diff}(\\mathrm{red},\\mathrm{green}), \\ldots, \\mathrm{diff}(\\mathrm{Wa},\\mathrm{Nt}) \\wedge \\mathrm{diff}(\\mathrm{Nt},\\mathrm{Sf}) \\wedge \\ldots \\Rightarrow \\mathrm{Colorable}[/$])
         -       guid: J`4Y/Z90:}
-                front: Heuristiky k pattern-matchingu v FOL
+                front: 3 heuristiky k pattern-matchingu v FOL
                 back: |
                         <ul>
                         <li> *Indexuj podle predikátu*
                         <li>
-                        [$$]\\mathrm{missile}(X) \\wedge \\mathrm{owns}(\\mathrm{nono},X) \\Rightarrow \\mathrm{sells}(\\mathrm{west},X,\\mathrm{nono})[/$$]
+                        [$]\\mathrm{missile}(X) \\wedge \\mathrm{owns}(\\mathrm{nono},X) \\Rightarrow \\mathrm{sells}(\\mathrm{west},X,\\mathrm{nono})[/$]
                         <br>
-                        Matchovat nejdřív rakety, nebo co vlastní Nono? To čeho je míň (first-fail).
-                        <li> Použij při inferenci pravidlo *jenom když se od jeho
-                        posledního použití našel nový fakt* unifikovatelný
+                        Matchovat nejdřív rakety, nebo co vlastní Nono?
+                        To čeho je míň (first-fail).
+                        <li> Použij při inferenci pravidlo *jenom když se od
+                        jeho posledního použití našel nový fakt* unifikovatelný
                         s něčím v těle.
                         </ul>
         -       guid: Ed78^K{|uu
@@ -102,26 +103,27 @@ notes:
                         Lineární prostor vzhledem k délce důkazu.
                         Algoritmus není úplný.
         -       guid: cE_UFs)18P
-                front: Co je potřeba přidat do first-order logické rezoluce aby byla
+                front: Co musím přidat do first-order logické rezoluce aby byla
                         kompletní?
                 back: |
                         <ul>
                         <li> Unifikace.
                         <li> Rozšířit na víc literálů.
-                        <li> *Faktorizování* (na odebrání redundantních literálů - tj. těch co se dají zunifikovat).
+                        <li> *Faktorizace* (na odebrání redundantních literálů
+                        - tj. těch co se dají zunifikovat).
                         </ul>
-                        Je to pak sound & complete.
+                        Je pak sound & complete.
         -       guid: u^N1*DgpQZ
-                front: Strategie pro rezoluci v FOL
+                front: 4 strategie pro rezoluci v FOL
                 back: |
                         <ul>
-                        <li> *Jednotková propagace*: preferujeme pokud jde udělat.
+                        <li> <i>Jednotková propagace</i>: preferuj pokud jde.
                         (Pro Hornovské klauzule je kompletní.)
-                        <li> Podpůrná množina (*support set*): sada klauzulí
-                        že jedna klauzule pro rezoluci je vždy z téhle množiny
-                        a rezolvovanou klauzuli tam přidám.
-                        Na začátku to obsahuje jenom negovaný query.
-                        <li> *Input resolution*: (nekompletní): každý rezoluční krok
-                        obsahuje aspoň jednu klauzuli ze vstupu.
-                        <li> *Subsumpce*: nepřidávej redundantní klauzule do KB
+                        <li> Podpůrná množina (<i>support set</i>): sada
+                        klauzulí že jedna klauzule pro rezoluci je vždy z téhle
+                        množiny a rezolvovanou klauzuli tam přidám.
+                        Na začátku obsahuje jenom negovaný query.
+                        <li> <i>Input resolution</i>: (nekompletní): každý
+                        rezoluční krok obsahuje aspoň jednu vstupní klauzuli.
+                        <li> <i>Subsumpce</i>: nepřidávej redundantní klauzule do KB
                         </ul>

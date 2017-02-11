@@ -19,17 +19,18 @@ notes:
                         Pro zdrojové proměnné alternativní zdroje.
         -       guid: NI?jVQbY]3
                 front: Podmínky obecně a jejich znění
+                markdown: false
                 back: |
                         <ul>
                         <li>
-                        *Start a konec*:
-                        [$]\\mathrm{start}(A)+\\mathrm{p}(A)=\\mathrm{end}(A)[/$]
+                        <i>Start a konec</i>:
+                        [$]\mathrm{start}(A)+\mathrm{p}(A)=\mathrm{end}(A)[/$]
                         <li>
-                        *Uspořádání*:
-                        [$]B\\ll A\\longrightarrow \\mathrm{end}(B)\\leq \\mathrm{start}(A)[/$]
+                        <i>Uspořádání</i>:
+                        [$]B\ll A\longrightarrow\mathrm{end}(B)\leq\mathrm{start}(A)[/$]
                         <li>
-                        *Unární kapacity*:
-                        [$]A\\ll B \\vee B\\ll A[/$] když běží na stejném
+                        <i>Unární kapacity</i>:
+                        [$]A\ll B \vee B\ll A[/$] když běží na stejném
                         unárním zdroji
                         </ul>
         -       guid: rTko%<Dd~|
@@ -44,10 +45,9 @@ notes:
                 front: Typy zdrojů
                 back: |
                         <ul>
-                        <li> *Unární*: jedna aktivita najednou
-                        <li> *Kumulativní*: několik aktivit najednou,
-                        pod kapacitu zdroje
-                        <li> *Produkovatelné/spotřebovatelné*:
+                        <li> <i>Unární</i>: jedna aktivita najednou
+                        <li> <i>Kumulativní</i>: několik najednou, pod kapacitu
+                        <li> <i>Produkovatelné/spotřebovatelné</i>:
                         na zdroji musí zbýt minimální volná kapacita
                         a nesmí se překročit maximální; aktivity
                         konzumují/produkují
@@ -134,16 +134,15 @@ notes:
                         Jak modelovat použití alternativních zdrojů
                         pro aktivitu?
                 back: |
-                        Pro zdroj uděláme duplikát, co se účastní
-                        podmínek, ale neomezuje další aktivity na zdroji.
+                        Pro zdroj uděláme duplikát - účastní se podmínek,
+                        neomezuje další aktivity na zdroji.
                         <br><br>
-                        Když duplikát "neuspěje", odeber zdroj z [$]res(A)[/$].
-                        Když smažu zdroj z domény [$]res(A)[/$], smažu
-                        opovídající duplikát.
+                        Duplikát failne &rarr; odeber zdroj z [$]\\mathrm{res}(A)[/$].
+                        Smažu zdroj z domény [$]\\mathrm{res}(A)[/$] &rarr; smažu
+                        jeho duplikát.
                         <br><br>
                         Omezení časů duplikátu propaguj do originálu
-                        a naopak. Původní aktivita se účastní precedenčních
-                        podmínek.
+                        a naopak. Původní aktivita se účastní precencí.
         -       guid: fjf:E7,zq/
                 front: Formálně - aktivity na alternativních zdrojích
                 markdown: false

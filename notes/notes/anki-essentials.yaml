@@ -36,20 +36,22 @@ notes:
         back: '`Y`'
         include_reverse: true
 -       guid: zPb82#m|d.
-        front: How to use the Cloze note type
+        front: Using the Cloze note type
         markdown: false
         back: |
-                *Text*: The Two Stooges are { {c1::Moe} } and { {c2::Larry} }.
-                <br>
-                *Extra*: Any extra text to show on the back of the card.
+                <ul>
+                <li><i>Text</i>:
+                The Two Stooges are { {c1::Moe} } and { {c2::Larry} }.
+                <li><i>Extra</i>: Extra text to show on the back of the card.
+                </ul>
 -       guid: BxZ]QFcNNx
         front: Lifecycle of an Anki card
         back: |
-                New (card is created from note and card layout)
-                [$]\\Rightarrow[/$]
-                Learning (card is studied for the first time)
-                [$]\\leftrightarrows[/$]
-                Review (card is learned and scheduled for review)
+                New (created from note and card layout)
+                &rarr;
+                Learning (studied for the first time)
+                &harr;
+                Review (learned and scheduled for review)
 -       guid: D7^yjEew8~
         front: How long does a card stay in the Learning stage?
         back: |

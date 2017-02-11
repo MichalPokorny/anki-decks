@@ -144,9 +144,9 @@ notes:
                         Určení výstupního neuronu s maximální odezvou.
         -       guid: O3zl2LcJ]!
                 topic: ART
-                front: Účel zpětných vazbeb z výstupů ke vstupům
+                front: Účel zpětných vazeb z výstupů ke vstupům
                 back: |
-                        Porovnání skutečné podobnosti s rozpoznaným vzorem.
+                        Porovnání podobnosti s rozpoznaným vzorem.
         -       guid: iHRTo?w_)%
                 topic: ART
                 front: Problém
@@ -172,19 +172,20 @@ notes:
                 include_reverse: true
         -       guid: I2=2o.GvXd
                 topic: ART
-                front: Značení vah a parametrů, jejich inicializace
+                front: Značení vah a parametrů, inicializace
+                markdown: false
                 back: |
                         <ul>
                         <li>
-                        [$]t_{ij}(0) = 1[/$] (váhy z výstupu do vstupu &mdash;
+                        [$]t_{ij}(0) = 1[/$] (váhy výstup &rarr; vstup &mdash;
                         vzor specifikovaný výstupním neuronem [$]j[/$])
                         <li>
-                        [$]b_{ij}(0)=1 / (1+N)[/$] (váhy ze vstupu do výstupu)
+                        [$]b_{ij}(0)=1 / (1+N)[/$] (váhy vstup &rarr; výstup)
                         <li>
-                        [$]\\rho\\in[0;1][/$] &mdash; jak blízko musí být vstup
+                        [$]\rho\in[0;1][/$] &mdash; jak blízko musí být vstup
                         k uloženému vzoru, aby byl ve stejné kategorii.
                         <li>
-                        Výstupy výstupních neuronů: [$]\\mu_j[/$]
+                        Výstupy výstupních neuronů: [$]\mu_j[/$]
                         </ul>
         -       guid: g-#?rD)ZYT
                 topic: ART &mdash; Značení

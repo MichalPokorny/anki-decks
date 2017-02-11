@@ -85,7 +85,7 @@ notes:
         front: 1499
         back: |
                 Year:
-                Granted virtual independence from Emperor Maximilian I.
+                Granted virtual independence by Emperor Maximilian I.
         include_reverse: true
 -       guid: fFp3MR2/S0
         front: 1501
@@ -102,11 +102,9 @@ notes:
 -       guid: A5oJi.)`%u
         front: 1515
         back: |
-                Year:
-                Defeated by French at Margiano.
-                As a result, perpetual alliance is formed with
-                French, Swiss withdraw from expansionist
-                policies and declare neutrality.
+                Year: Defeat by French at Margiano &rarr;
+                perpetual alliance formed with French, Swiss withdraw from
+                expansionist policies, declare neutrality.
         include_reverse: true
 -       guid: i![^ZO=7!z
         front: 1519
@@ -138,11 +136,10 @@ notes:
 -       guid: eLhhDg$B)k
         front: 1815
         back: |
-                Year:
-                Congress of Vienna, Treaty of Paris
+                Year: Congress of Vienna, Treaty of Paris
                 establishes Switzerland as Federation, guarantees
-                independence, permanent neutrality. Cantons
-                of Geneva, Valais and Neuchatel join.
+                independence, permanent neutrality.
+                Geneva, Valais, Neuchatel join.
         include_reverse: true
 -       guid: Fh#X@TOaH%
         front: 1847
@@ -198,10 +195,9 @@ notes:
         front: 1986
         back: |
                 Year:
-                Parliamentary proposal to join UN
-                rejected by Swiss voters in belief that it would
-                violate Swiss official neutrality. The country
-                maintains permanent observer status.
+                Parliamentary proposal to join UN rejected by voters in belief
+                it would violate official neutrality. The country maintains
+                permanent observer status.
 -       guid: MYwz0sa{Fj
         include_reverse: true
         front: 1992
@@ -278,9 +274,8 @@ notes:
         front: 2008 June
         back: |
                 Year, month:
-                Voters reject referendum initiative to limit
-                naturalisation of foreigners by allowing Swiss communes
-                to vote on individual cases.
+                Referendum initiative to limit naturalisation of foreigners by
+                allowing communes to vote on individual cases rejected.
 -       guid: j|Du;Es~j=
         include_reverse: true
         front: 2008 October
@@ -371,7 +366,7 @@ notes:
                 Lower house of parliament refuses to debate bill to
                 allow banks to pass client information to US tax
                 authorities pursuing American tax evaders. US
-                threatened to deny Swiss banks access to USD markets
+                threatens to deny Swiss banks access to USD markets
                 unless the country complies.
         include_reverse: true
 -       guid: x]^C<(rJY;
@@ -385,10 +380,9 @@ notes:
         back: |
                 Year, month:
                 Swiss People's Party proposal to bring back strict
-                quotas for immigration from European Union countries
-                narrowly passed in national referendum. The vote
-                invalidates the Swiss-EU agreement
-                on freedom of movement.
+                quotas for immigration from EU countries narrowly passed in
+                national referendum. The vote invalidates the Swiss-EU
+                agreement on freedom of movement.
         include_reverse: true
 -       guid: nc.XhzYAY/
         front: 2014 November

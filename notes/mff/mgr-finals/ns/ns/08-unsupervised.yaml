@@ -76,7 +76,8 @@ notes:
                 front: |
                         Definice: Průměr svazku
                 back: |
-                        [$]\\varphi(S) = \\sup\\{\\arccos (a\\cdot b)|\\|a\\|=\\|b\\|=1, a,b\\in S\\}[/$]
+                        [$]\\varphi(S) = \\sup\\{\\arccos (a\\cdot b) :
+                        \\|a\\|=\\|b\\|=1, a,b\\in S\\}[/$]
         -       guid: s{R!t--...
                 front: Stabilní rovnovážný stav v kompetičním učení - jaká je postačující
                         podmínka?

@@ -229,12 +229,11 @@ notes:
         topic: Trojská válka
         front: Proč poslal Apollo mor na Agamemnonovu armádu?
         back: |
-                Protože ho Agamemnon urazil.<br>
-                <br>
-                Při nájezdu na spojence Tróje Řekové zajmuli
-                dceru Apolova kněžího. Armáda ji dala Agamemnonovi.
-                Kněz žádal o její návrat za výkupné,
-                byl hrubě odmítnut. Kněz požádal Apolla o pomoc.
+                Agamemnon ho urazil.
+                <br><br>
+                Při nájezdu na spojence Tróje Řekové zajmuli dceru Apolova
+                kněžího. Armáda ji dala Agamemnonovi. Kněz žádal o návrat za
+                výkupné, byl hrubě odmítnut, požádal Apolla o pomoc.
 -       guid: S@J13xHw]
         topic: Trojská válka
         front: Kdo byl Calchas?
@@ -641,10 +640,9 @@ notes:
 -       guid: v(Dd<jgLMG
         front: Story of Croesus and Delphi oracle
         back: |
-                Croesus was king of Lydians.
-                He wanted to know whether to go to war against Persians.
-                Oracle said: "If you go to war, a mighty empire will fall."
-                He was encouraged to go to war, and defeated, lost his empire.
+                King of Lydians, wanted to know whether to wage war against
+                Persians. Oracle: "If you go to war, a mighty empire will fall."
+                Encouraged to go to war, defeated, lost his empire.
 -       guid: f3].=|tDc`
         topic: Heraclitus
         front: How can we come to understand the world-order?
@@ -731,8 +729,8 @@ notes:
         topic: Parmenides
         front: What to do if arguments conflict with senses?
         back: |
-                Disregard senses, go wherever arguments take you;
-                this is a departure from naturalist philosophers
+                Disregard senses, go where arguments take you (departure from
+                naturalist philosophers)
 -       guid: t`>z;!cSz+
         front: Position that one should follow where reason takes us
         back: |
@@ -856,7 +854,8 @@ notes:
         back: |
                 Its existence depends upon us (e.g., qualia)
 -       guid: H}!0$)O.ht
-        front: Democritus and the good life
+        topic: Democritus
+        front: On the good life
         back: |
                 Wrote extensively on it, only fragments remain.
 -       guid: J2~-s/4nkf
@@ -957,12 +956,13 @@ notes:
         back: Miltiades, an Ionian general
 -       guid: m&1CRIl)P5
         topic: Persian wars
-        front: Who commanded Persians during the Persian wars?
+        front: |
+                Name: Commander of Persians
         back: Xerxes, their king
 -       guid: ~rhaBWGrX
         topic: Persian wars
         front: |
-                Name: father of Xerxes
+                Name: Father of Xerxes
         back: Darius, king of Persians
 -       guid: Gcn)e>HRb_
         topic: Persian wars
@@ -974,7 +974,8 @@ notes:
                 sea
 -       guid: N^`qyQBW{5
         topic: Persian wars
-        front: Who led the "defense by sea" side in Athens?
+        front: |
+                Name: Led the "defense by sea" side in Athens?
         back: |
                 Themistocles
 -       guid: u5#P8cYTNN
@@ -1108,15 +1109,13 @@ notes:
 -       guid: f6Ez)lo;M[
         front: How was Protagoras paid?
         back: |
-                He and the pupil would go to the temple and the pupil
-                would promise to pay what he thought the education
-                was worth after he received it.
+                Would go to temple with pupil, pupil would promise to pay what
+                he thought education was worth after receiving it.
 -       guid: l/}eH/_Vbo
-        front: What did Protagoras's education make pupils better and better in?
+        front: What did Protagoras's education make pupils better in?
         back: |
-                How to best manage personal estate, how to be in the
-                strongest position in conduct, speech and action,
-                the common business of the city.
+                Managing personal estate, being in strongest position
+                in conduct, speech and action, common business of the city
 -       guid: M^>>kwdCM%
         front: What does *arete* mean?
         back: |
@@ -1135,21 +1134,20 @@ notes:
                 Supposedly, it can be used to prove any side of any issue.
                 Students can construct arguments both for and against.
 -       guid: QVaM&mn6{8
-        front: Protagoras and his student of rhetoric - story
+        front: |
+                Story: Protagoras and his student of rhetoric
         back: |
-                Student was poor and agreed with Protagoras:
-                he wouldn't pay until he won his first case.
-                Didn't enter any cases for some time.
-                Protagoras brought him to court, prosecuting
-                him for payment.
+                Poor student agreed with Protagoras he wouldn't pay until he
+                won his first case. Didn't enter any for some time.  Protagoras
+                brought him to court, prosecuting for payment.
+                <br><br>
+                Student: "If I win, I won't (by judgement) have to pay If I
+                lose, I will not have won my first case, so I will not have to
+                pay &rarr; I don't have to pay."
                 <br>
-                Student: "If I win, I won't (by judgement) have to pay
-                If I lose, I will not have won my first case, so I will
-                not have to pay. So I don't have to pay."
-                <br>
-                Protagoras: "If he loses, then (by judgement) he will
-                have to pay me. If he wins, he will have won his
-                first case and will have to pay me. So he has to pay."
+                Protagoras: "If he loses, then (by judgement) he will have to
+                pay me. If he wins, he will have won his first case and will
+                have to pay me &rarr; he has to pay."
 -       guid: NiO#V!dX/H
         front: Plural of *logos*
         back: logoi
@@ -1158,15 +1156,14 @@ notes:
         back: |
                 Heraclitus and Parmenides both believe in truth
                 (world-order/logos).<br>
-                Sophists believe that thought and being are *not*
-                the same. Thought can represent or misrepresent reality.
-                Sophists think we can't discriminate truth from
-                opinion.
+                Sophists believe thought and being are *not* the same. Thought
+                can represent or misrepresent reality. Sophists think we can't
+                discriminate truth from opinion.
 -       guid: '%owzfpB3B'
         front: Sophists's agreement with Democritus
         back: |
-                We are cut off from the real by the conventional nature
-                of our sense experience (see: rhetoric).
+                We are cut off from the real by conventional nature of sense
+                experience (see: rhetoric).
 -       guid: b!mn{hgsk7
         front: Sophists' disagreement with Democritus
         back: |
@@ -1205,7 +1202,8 @@ notes:
                 Occupation: Herodotus
         back: Historian
 -       guid: c^.zW&u;*P
-        front: Who was "king of all", according to Sophists?
+        front: |
+                "King of all", according to Sophists
         back: Custom (distinction between *physis* and *nomos*)
 -       guid: I*O&BC3D
         topic: Sophists
@@ -1478,31 +1476,29 @@ notes:
         back: |
                 <ul>
                 <li>
-                *No claim on knowing arete*:
-                Sophists claimed to teach arete.
-                Didn't claim to know what it is.
-                Tried to clarify it: whether it can be taught,
-                whether it's one thing or many, etc.
+                <i>No claim on knowing arete</i>:
+                Sophists claim to teach it. Doesn't claim to know what it
+                is. Tried to clarify whether it can be taught, whether it's one
+                thing or many, etc.
                 <li>
-                *Not interested in natural philosophy*:
-                Sophists teach it. Dabbled in it, but gave it up,
-                since it didn't intrigue him. Interested in i.e.,
-                "why are we here?"
+                <i>Not interested in natural philosophy</i>:
+                Sophists teach it. Dabbled in it, but gave it up, it didn't
+                intrigue him. Interested in i.e., "why are we here?"
                 <li>
-                Claimed he *never taught anybody anything*.
+                Claimed he <i>never taught anybody anything</i>.
                 <li>
-                *Didn't take any pay*, highest reward
-                was the gain of good friends.
+                <i>Didn't take pay</i>, highest reward was gain of good
+                friends.
                 </ul>
 -       guid: lE$uV`g;;w
         front: |
                 Socrates's vs. sophists's approach to rhetoric
         back: |
-                Sophists: win<br>
-                Socrates: advance toward the truth.
-                He is convinced there is a truth
-                and that we can make our opinions more like it.
-                He is neither a relativist nor a skeptic.
+                <ul>
+                <li><i>Sophists</i>: win
+                <li><i>Socrates</i>: advance toward the truth. Convinced there
+                is a truth and we can make our opinions more like it. Neither
+                a relativist nor a skeptic.
 -       guid: vS<Hm.6YFe
         front: |
                 Name: "proposal-question-difficulties-new proposal-questions" technique
@@ -1520,13 +1516,16 @@ notes:
                 as to show someone else to be wrong.
                 Or - even happier &mdash; because false opinions are evils.
 -       guid: x|q0,@N;iE
+        topic: Socrates
         front: |
-                Socrates' beliefs he'd be willing to die for (and not yield on)
+                Beliefs he'd be willing to die for (and not yield on)
         back: |
-                We ought to search for truth.<br><br>
-                Human excellence is knowledge.<br><br>
-                All wrongdoing is due to ignorance.<br><br>
-                The most important thing is to care for your soul.
+                <ul>
+                <li> We ought to search for truth.
+                <li> Human excellence is knowledge.
+                <li> All wrongdoing is due to ignorance.
+                <li> The most important thing is to care for your soul.
+                </ul>
 -       guid: j#D*F117eo
         topic: Socrates
         front: Soul and the truth
@@ -1817,28 +1816,24 @@ notes:
         back: |
                 Sand drawing is not the subject of the boy's knowledge.
                 <br><br>
-                Truth cannot be bounce around, truth we know cannot be
-                about the world disclosed to our senses. Nothing about
-                that world sits in place.
+                Truth cannot bounce around, truth we know cannot be about the
+                world disclosed to senses. Nothing about it sits in place.
                 <br><br>
-                We can only know about objects apprehended only by the
-                intellect.
+                We can only know about objects apprehended by intellect.
                 Whether we see a particular square as red or green,
                 we agree its diagonal is [$]\\sqrt{2}\\cdot x[/$].
 -       guid: jT(d#)x1dl
         topic: Plato
         front: On Parmenides and Heraclitus
         back: |
-                Parmenides and Heraclitus are both correct.
-                Each is talking about a different reality.
-                <br>
-                Parmenides's reality is revealed by reasoning, Heraclitus's by senses.
+                Both correct, each about a different reality. Parmenides:
+                reality revealed by reason, Heraclitus: by senses.
 -       guid: r1v:`fK&],
         topic: Plato
         front: His use of the term *Form*
         back: |
-                The general term for the objects of knowledge
-                (e.g., "the Form of the Square").
+                General term for objects of knowledge (e.g., "Form of the
+                Square").
 -       guid: L-4^+)G*n&
         topic: Plato
         front: Epistemological argument for the world of Forms
@@ -1878,54 +1873,54 @@ notes:
                 You can't know what *isn't*.
 -       guid: nnGX9t5Jtm
         topic: Plato
-        front: Knowledge, opinion, and invincible ignorance
+        front: Knowledge, opinion, invincible ignorance
         back: |
                 <ul>
                 <li>
-                **Knowledge**: of things that truly *are* (the world of Forms)
+                <b>Knowledge</b>: of things that truly <i>are</i> (world of
+                Forms)
                 <li>
-                **Invincible ignorace**: things that *aren't*.
-                They aren't, so we cannot know those -
-                we can only know what *is*.
+                <b>Invincible ignorace</b>: things that <i>aren't</i>,
+                so we cannot know them - we can only know what <i>is</i>.
                 <li>
-                **Opinion**: midway between.
-                A capacity of ours, so some objects answer
-                to it: we have opinions *about something*.
-                The thing opinions are about would be
-                things midway between *being* and *not being*
-                (*opinable*).
+                <b>Opinion</b>: midway between. A capacity of ours, so some
+                objects answer to it: we have opinions <i>about something</i>.
+                Subjects of opinions would be things midway between
+                <i>being</i> and <i>not being</i> (<i>opinable</i>).
                 </ul>
 -       guid: d6EWS)>?4L
         topic: Plato
         front: What things are *opinable*?
         back: |
-                The world of experience &mdash; the Heraclitan flux
+                World of experience &mdash; Heraclitan flux
 -       guid: f.Ujf8_X56
         topic: Plato
         front: What is real?
         back: |
-                The world (of experience) and the Forms, which are realer
+                World (of experience) and Forms (realer)
 -       guid: icNJ>$qWpf
         topic: Plato
-        front: Relation between the Forms and the world of experience
+        front: |
+                Famous analogy: Forms and world of experience
         back: |
                 The Divided Line:
                 <br><br>
-                Divide into 2 unequal sections: the visible and the
-                intelligible.
+                Divide into 2 unequal sections: visible and intelligible.
                 <br><br>
                 In terms of relative clarity and opacity, visible
-                is subdivided into images (shadows, reflections in
-                water, etc.)
-                and originals (animals, plants, ...).
+                subdivided into images (shadows, reflections, etc.),
+                originals (animals, plants, ...).
                 <br><br>
-                Relationship is the same between originals and shadows
-                in the world; and the world of Forms and the world
+                Relationship between originals and shadows in the world,
+                and the world of Forms and the world of experience is the same
 -       guid: iAeHyy.^d]
         topic: Plato
         front: 2 relationships between Forms and appearances
         back: |
-                Making Intelligible (makes eagle intelligible), Producing (accounts for eagle's existence as an eagle)
+                <ul>
+                <li> Making Intelligible (makes eagle intelligible)
+                <li> Producing (accounts for eagle's existence as an eagle)
+                </ul>
 -       guid: K)y@exx_s/
         topic: Plato
         front: Superiority of the intelligible to the visible
@@ -2031,18 +2026,22 @@ notes:
         back: Redirecting sight appropriately
 -       guid: Hj`:vAHy@2
         topic: Plato
-        front: Topic of the Socratic dialogue Symposium
-        back: Love (in particular, eros)
+        front: |
+                Topic: Socratic dialogue Symposium
+        back: |
+                Eros (kind of love)
 -       guid: z>TlNk:[xQ
         topic: Plato
         front: Stages of recognizing the Form of Beauty
         back: |
                 <ul>
                 <li>Individual lover.
-                <li>Transcending lovers; beautiful souls in husks of ugly bodies (e.g., Socrates).
+                <li>Transcending lovers; beautiful souls in husks of ugly
+                bodies (e.g., Socrates).
                 <li>Institutions and societies.
                 <li>Knowledge and wisdom.
-                <li>Everlasting loveliness which neither comes nor goes, which neither flowers nor fades (the Form of Beauty).
+                <li>Everlasting loveliness which neither comes nor goes, which
+                neither flowers nor fades (the Form of Beauty).
                 It is nothing human or worldly.
                 </ul>
                 <br><br>
@@ -2073,29 +2072,25 @@ notes:
         topic: Plato
         front: Why does Plato point upward in The School of Athens?
         back: |
-                According to him, our true home is not in this
-                world, but in another
+                Our true home is not in this world, but in another
 -       guid: vJ}CzA&=VL
         topic: Plato
         front: Myth of the Charioteer
         back: |
-                On the structure of the soul.
+                On structure of souls.
                 <br><br>
-                The soul is like a 2-horse chariot.
-                <br><br>
-                One horse: good stock, clean-limbed, carries his head high,
-                hooked nose, lover of glory, white with black eyes,
-                quickly listens to commands.
-                ("The spirited part of the soul.")
-                <br><br>
+                Like a 2-horse chariot:
+                <ul>
+                <li> One horse: good stock, clean-limbed, carries his head
+                high, hooked nose, lover of glory, white with black eyes,
+                quickly listens to commands. ("Spirited part of the soul.")
+                <li>
                 Other horse: Thick short neck, gray eyes, hot-blooded,
-                consorting ith wantonness and vainglory, shaggy of ear,
-                deaf, hard to control with whip and goad.
-                (Desire, appetite)
-                <br><br>
-                The soul is controlled by the charioteer.
-                His task is difficult and troublesome.
-                <br><br>
+                consorting with wantonness and vainglory, shaggy of ear, deaf,
+                hard to control with whip and goad. (Desire, appetite)
+                <li> Soul is controlled by the charioteer. His task is
+                difficult and troublesome.
+                </ul>
                 Desire *motivates*, spirit *animates*, reason *guides*.
 -       guid: rr;Yhbg~R}
         topic: Plato
@@ -2171,15 +2166,17 @@ notes:
                 so the Form of Justice takes us to the Form of the Good.
 -       guid: nOih|Tg~EL
         topic: Plato
-        front: Structure of Plato's ideal state
+        front: Structure of ideal state
         back: |
-                Analogous to the soul's 3 parts.
-                <br><br>
-                (1) Laborers, merchants, farmers...: *productive* part of the community, corresponds to *appetite*
-                <br><br>
-                (2) Adventurous, strong, brave...: *army and navy*, protective part of the state - *spirit*
-                <br><br>
-                (3) Intelligent, rational, self-controlled, in love with wisdom: *governing part*
+                <ol type="1">
+                <li> Laborers, merchants, farmers...: <i>productive</i> part of
+                community, corresponds to <i>appetite</i>
+                <li> Adventurous, strong, brave...: <i>army and navy</i>,
+                protective part of state - <i>spirit</i>
+                <li> Intelligent, rational, self-controlled, in love with
+                wisdom: <i>governing part</i>
+                </ol>
+                Analogy to 3 parts of souls.
 -       guid: DUQ[J6Ku}c
         topic: Plato
         front: Plato's elitism
@@ -2233,9 +2230,8 @@ notes:
         topic: Plato
         front: On "the life unexamined is not worth living"
         back: |
-                The standard is too high for most people.
-                The many need propaganda, censorship, indoctrination
-                and persuasion.
+                Too high standard for most people.
+                Most need propaganda, censorship, indoctrination, persuasion.
 -       guid: NbaLc|V`|f
         topic: Plato
         front: How do Forms lead to infinite regress?
@@ -2245,7 +2241,7 @@ notes:
                 John and Peter are both men, instances of the form Man.
                 <br><br>
                 The Man form is in itself a man.
-                So there's one more form, which the Form of Man takes,
+                There's one more form, which the Form of Man takes,
                 as well as John and Peter. Infinite regress.
         # chapter 7 - aristotle
 -       guid: ER3+UJyT?*
@@ -2299,21 +2295,23 @@ notes:
 -       guid: c:(2E9_u~E
         front: Plato's epistemology vs. Aristotle's
         back: |
-                Plato: rationalist, Aristotle: while senses are imperfect,
-                they are the only reliable avenues along which to pursue knowledge
+                <ul>
+                <li> Plato: rationalist
+                <li> Aristotle: senses are imperfect, but the only reliable
+                avenues to pursue knowledge
+                </ul>
 -       guid: C7[%{dFesJ
         front: Plato on persons vs. Aristotle
         back: |
-                Plato: immortal souls, bodies are prisons,
-                death frees us to communion with Forms
-                <br><br>
-                Aristotle: "rational animals", not identical
-                with soul-thing distinct from body. A person
-                has a soul of a certain sort, but it's not a thing;
-                it's simply the "form" of sort of
-                body that a man has. A person is not a "tandem"
-                composed of "stoker" and "captain" &mdash; we are
-                unified creatures.
+                <ul>
+                <li> Plato: immortal souls, bodies are prisons, death frees us
+                to communion with Forms
+                <li> Aristotle: "rational animals", not identical with
+                soul-thing distinct from body. A person has a soul of a certain
+                sort, but it's not a thing; it's simply the "form" of sort of
+                body that a man has. A person is not a "tandem" of "stoker" and
+                "captain" &mdash; we are unified creatures.
+                </ul>
 -       guid: w,L=S_;3`)
         topic: Plato
         front: What did he blame for killing Socrates?
@@ -2715,13 +2713,12 @@ notes:
         topic: Aristotle
         front: Why is there purpose in nature?
         back: |
-                (1) All natural objects come into being in a given way,
-                and that's not the case with anything that comes to be
-                by chance.
-                <br><br>
-                (2) Art (i.e., of physicians/house builders) either
-                completes nature or "imitates nature". There is purpose
-                in art, so there must be purpose in nature as well.
+                <ol type="1">
+                <li> Natural objects come into being a given way, that's not
+                the case with things that come to be by chance.
+                <li> Art (i.e., physicians/house builders) completes nature or
+                "imitates" it. Purpose in art &rarr; must be purpose in nature.
+                </ol>
 -       guid: C6b5sdZcjW
         front: Idea that natural substances are *for* something
         back: Teleology
@@ -2749,10 +2746,10 @@ notes:
 -       guid: b7P?0zrB!H
         topic: Aristotle
         front: |
-                New concepts Aristotle introduced to explain forms
-                guiding the natural world
+                New concepts introduced to explain forms guiding the natural
+                world
         back: |
-                The four causes, actuality and potentiality.
+                4 causes, actuality/potentiality.
 -       guid: C^`EKp9h}X
         topic: Aristotle
         front: Does there have to be a practical payoff to knowledge?
@@ -2786,27 +2783,27 @@ notes:
                 This would be *metaphysics*.
 -       guid: N(Via6DN=j
         topic: Aristotle
-        front: 5 points of criticism of Plato's Forms
+        front: 5 criticisms of Plato's Forms
         back: |
                 <ul>
-                <li> *Third Man Problem*
-                <li> *Participation*: Things derive reality from
+                <li> <i>Third Man</i>
+                <li> <i>Participation</i>: Things derive reality from
                      "participation" in Forms, but Plato never defines
                      this. Just a "poetic metaphor".
-                <li> *Multiplication*: Explaining real world by
+                <li> <i>Multiplication</i>: Explaining real world by
                      postulating Forms multiplies entities needing
                      explanation.
-                <li> *Conflict*: *Being what individuals of same kind
-                     have in common* and *being individual realities*
+                <li> <i>Conflict</i>: <i>Being what individuals of same kind
+                     have in common</i> and <i>being individual realities</i>
                      conflict. Individual substances &rarr;
                      no sense to think of them as shared among
                      substances. Universal (non-individual) &rarr;
                      no sense to think of them as things existing
                      separately from particulars.
                      Aristotle: Being-a-man is not realized in a Form,
-                     but only in *each individual man*.
+                     but only in <i>each individual man</i>.
                      Forms just add "-itself" to sensible terms.
-                <li> *Change*: Unchanging Forms don't account for it.
+                <li> <i>Change</i>: Unchanging Forms don't account for it.
                 </ul>
 -       guid: z8Y;F$!oP&
         topic: Aristotle
@@ -2898,7 +2895,7 @@ notes:
         back: Celestial bodies (moving eternally in great circles)
 -       guid: lq!3F=+]yC
         topic: Aristotle
-        front: Properties of God
+        front: 6 properties of God
         back: |
                 <ul>
                 <li> <i>Ultimate mover</i> &mdash; all others are
@@ -2908,11 +2905,10 @@ notes:
                 of celestial bodies.
                 <li> A <i>substance</i> &mdash; cannot be less basic
                 than other substances that depend on it.
-                <li> Must be <i>fully actual</i>, or it would need an
-                explanation.
+                <li> Must be <i>fully actual</i>, or would need an explanation.
+                <li> "Object of desire and thought", functions as a final cause
+                - God is what they all "love".
                 </ul>
-                The "object of desire and thought", and functions as
-                a final cause - God is what they all "love".
 -       guid: z:EjBeYI5=
         topic: Aristotle
         front: Why is God a final cause?
@@ -2928,14 +2924,13 @@ notes:
         topic: Aristotle
         front: Why is God good?
         back: |
-                It exists of necessity, so its existence must be good
-                (as it's an object of love and desire), and so it must
-                be the first principle.
+                Exists of necessity, so its existence must be good (as it's an
+                object of love and desire), and so must be the first principle.
 -       guid: l9uyGf{`Gv
         topic: Aristotle
         front: Life of God
         back: |
-                Its life is like the best that we can enjoy, but only for a short time.
+                Like the best that we can enjoy, but only for a short time.
                 <br>
                 It is alive, because life is the actuality of mind,
                 and God is that actuality, and his independent
@@ -3135,16 +3130,15 @@ notes:
 -       guid: uh1Gb*qU3J
         topic: Aristotle
         front: |
-                Why happiness &ne; pleasure?
+                Reason: Happiness &ne; pleasure
         back: |
-                It couldn't be right that good life for humans
-                was same as life lived by cattle.
-                Amusements are pleasant, but it would be absurd
-                if we worked just for amusement.
+                Couldn't be right that good life for humans was same as life
+                of cattle. Amusements are pleasant, but it would be absurd
+                if we worked just for them.
 -       guid: wX%RX#,KtU
         topic: Aristotle
         front: |
-                Why happiness &ne; honor?
+                Reason: Happiness &ne; honor
         back: |
                 More superficial than what we are looking for.
                 Rests on man giving honor.
@@ -3180,11 +3174,10 @@ notes:
 -       guid: e.5X|K~(^4
         topic: Aristotle
         front: |
-                Relation between externalities (pleasure,
-                good fortune, ...) and happiness
+                Relation: Externalities (pleasure, good fortune, ...) and
+                happiness
         back: |
-                Some amount of good fortune is prerequisite for
-                happiness.
+                Some amount of good fortune is prerequisite for happiness.
                 Happiness not entirely in our control.
 -       guid: H#S.jt1`:0
         topic: Aristotle
@@ -3195,21 +3188,18 @@ notes:
                 Rest is not happiness.
 -       guid: Pi4-Kfxs(r
         topic: Aristotle
-        front: Observations on arete
+        front: 3 observations on arete
         back: |
                 <ul>
-                <li> <i>Not an emotion</i>: (1) we are blamed not
-                for being angry but for giving in to it,
-                (2) we feel fear and anger without choice,
-                but virtues are a kind of choice (or aren't possible
-                without choice). We can't be good *naturally*.
-                <li> <i>Not innate</i>: through we have a capacity
-                for them, but learned by practicing
-                until they become habitual. *Can be taught.*
+                <li> <i>Not an emotion</i>: (1) we are blamed not for being
+                angry but for giving in, (2) we feel fear and anger without
+                choice, but virtues are a kind of choice (or aren't possible
+                without it). We can't be good <i>naturally</i>.
+                <li> <i>Not innate</i>: we have a capacity for them, but learn
+                by practicing until they become habits. <i>Can be taught.</i>
                 <li> <i>Many virtues</i> (contrast Plato, Socrates);
-                they are possibly independent. Often,
-                brave men are not moderate. In perfection, you
-                can't have one virtue without having all.
+                possibly independent. Often, brave men are not moderate. In
+                perfection, you can't have one virtue without having all.
                 </ul>
 -       guid: CmJ[]9uzoI
         topic: Aristotle
@@ -3356,7 +3346,7 @@ notes:
                 Epicureans
 -       guid: NOs23Aqhqz
         front: |
-                author: "It is not possible for one to rid himself
+                Author: "It is not possible for one to rid himself
                 of his fears about the most important things if he does
                 not understand the nature of the universe but dreads
                 some of the things he has learned in the myths.
@@ -3432,11 +3422,10 @@ notes:
                 deterministically.
 -       guid: feoB!mbC{D
         topic: Epicurus
-        front: His beliefs about gods
+        front: On gods
         back: |
                 They exists, and like everything else, are from atoms
-                and the void.
-                Nonetheless, they are immortal and blessed.
+                and void. Nonetheless, they are immortal and blessed.
                 Therefore, they aren't concerned with our affairs.
 -       guid: cZY1k.Sad.
         front: |
@@ -3467,17 +3456,14 @@ notes:
         topic: Epicurus
         front: On death
         back: |
-                It doesn't concern us. Good and evil is here.
-                While we exist it's not present, and when it's
-                present we no longer exist.
+                Doesn't concern us. Good and evil is here. While we exist
+                it's not present, when it's present we no longer exist.
 -       guid: mkXB@*EsNd
         topic: Epicurus
-        front: What is pleasure?
+        front: What constitutes pleasure?
         back: |
-                Not physical enjoyment, but body free of pain
-                and mind from anxiety.
-                Not continual drinking, dancing and sex.
-                It's produced by sober reason.
+                <i>Sober reason</i> - not physical enjoyment, drinking and sex,
+                but body free of pain and mind from anxiety.
 -       guid: h7|cnk`xRh
         topic: Epicurus
         front: Classification of desires
@@ -3518,8 +3504,7 @@ notes:
         topic: Epicurus
         front: On justice
         back: |
-                It's just nomos, a practical contract that pays
-                in increased pleasure.
+                Just nomos, a practical contract paying in increased pleasure.
 -       guid: x]U-9a>hP=
         topic: Epicurus
         front: Highest virtue
@@ -3708,15 +3693,14 @@ notes:
         topic: Stoicism
         front: Corollary to "virtue is good" - on judging people
         back: |
-                Virtue is good, so we must judge actions by
-                intentions, not outcomes. Outcomes are not under
-                the agent's control.
+                Judge actions by intentions, not outcomes.
+                Outcomes are not under agent's control.
 -       guid: ubDVtKnR1|
         topic: Stoicism
         front: Corollary to "virtue is good" - on duty
         back: |
                 The important thing to do is your duty.
-                Our first duty is to harmonize our lives with the law
+                Our first duty is to harmonize our lives with law
                 of nature.
                 This leads to an universal philosophy, for all men.
 -       guid: dvu<a+f3qn
@@ -3724,15 +3708,16 @@ notes:
         back: Stoics
 -       guid: No{@zX08`p
         topic: Stoicism
-        front: Stoics on popular polytheism
+        front: On popular polytheism
         back: |
-                They tolerate it, same with astrology and divination.
-                Through there is one God, everything partakes in it;
+                Tolerate it, same with astrology and divination.
+                Through there's one God, everything partakes in it;
                 gods of popular religion are symbols of sacredness
-                of one aspect of nature or another.
+                of some aspects of nature.
                 <br><br>
-                Development of allegorical interpretation of traditional religion,
-                as truths that can be supported in a more scientific way.
+                Development of allegorical interpretation of traditional
+                religion, as truths that can be supported in a more scientific
+                way.
 -       guid: LSDq=<TIo.
         topic: Skepticism
         front: Main school
@@ -3771,14 +3756,14 @@ notes:
         front: Skeptical arguments
         back: |
                 <ul>
-                <li> *Sensory organs differ between animals*. We
+                <li> <i>Sensory organs differ between animals</i>. We
                      can talk about how things appear to us, but not
                      about their essential nature.
-                <li> *Differences between human beings*, especially
-                     with respect to preferences.
+                <li> <i>Differences between human beings</i>, especially
+                     in preferences.
                 </ul>
 -       guid: Ip4CGhH)`L
-        front: First philosopher to note difference between appearances and reality
+        front: First philosopher to note difference of appearances and reality
         back: Parmenides
 -       guid: 6K1(ko+J3
         topic: Skepticism
@@ -3791,10 +3776,9 @@ notes:
         front: 2 ways other philosophies are dogmatic
         back: Circular reasoning, infinite regress
 -       guid: hKd(x:+J3O
-        front: The problem of the *criterion*
+        front: Problem of the *criterion*
         back: |
-                The problem of deciding between claims to knowledge
-                and truth
+                Deciding between claims to knowledge and truth
 -       guid: 3%Tp@&-t8
         topic: Skepticism
         front: On the problem of the criterion
@@ -3804,9 +3788,9 @@ notes:
                 either to circular reasoning, or infinite regress.
 -       guid: K5XMRh6pTG
         topic: Skepticism
-        front: How to live if there is no certain knowledge?
+        front: How to live without certain knowledge?
         back: |
-                By practical criterion, which is *appearance*.
+                By practical criterion &mdash; *appearance*.
 -       guid: P:,xyz3_S~
         topic: Sextus Empiricus
         front: Application of Skepticism in his work
@@ -3817,14 +3801,15 @@ notes:
 -       guid: OboW_}/12K
         topic: Skepticism
         front: Skeptics and action
-        back: They are not great revolutionaries.
+        back: Not great revolutionaries.
 -       guid: fNraZdF)B|
         topic: Skepticism
         front: 2 grounds on which they base their claims
         back: |
                 <ul>
-                <li> Argument that there's no alternative (e.g., problem of the criterion)
-                <li> While we seek certainty about the true nature things, we will be in doubt, perturbed and unhappy
+                <li> Argument from no alternative (e.g., problem of criterion)
+                <li> While we seek certainty about the true nature of things,
+                we will be in doubt, perturbed, unhappy
                 </ul>
 -       guid: ukhSrO7<YN
         topic: Skepticism
@@ -3849,10 +3834,9 @@ notes:
         front: Role of the Hebrew people
         back: |
                 Agents for reestablishment of God's kingdom on earth.
-                Entered into a covenant with God.
-                Terms: reverence and honor him, establish justice
-                among themselves, be a blessing to the rest of corrupt
-                mankind.
+                Entered into a covenant with God: revere and honor him,
+                establish justice among themselves, be a blessing to the rest
+                of corrupt mankind.
 -       guid: F@y.EA4U2C
         topic: Bible
         front: |
@@ -3919,13 +3903,13 @@ notes:
         back: Lay assistant to a priest
 -       guid: eio8h!4?xW
         front: Relation of Samaritans to Hebrews
-        back: They were foreigners, despised by the Jews
+        back: Foreigners, despised by Jews
 -       guid: l!BFX8Y~j$
         topic: Christianity
         front: Jesus versus traditional Greek philosophers on passions
         back: |
-                Unlike tradition, he recommends *extending* it to
-                universal compassion in the kingdom of God
+                Unlike tradition, recommends *extending* it to universal
+                compassion in the kingdom of God
 -       guid: QAYi4e..|*
         topic: Christianity
         front: New Christian virtue lacking from Greeks
@@ -4021,7 +4005,8 @@ notes:
                 "Whirlpool of sin"
 -       guid: CusXb-5HZW
         topic: Augustine
-        front: Story of the pears
+        front: |
+                Story: Pears
         back: |
                 With friends, shook down lots of pears
                 from neighbour's tree and stole them.
@@ -4040,7 +4025,7 @@ notes:
         topic: Augustine
         front: Relations and offspring
         back: |
-                Had a mistress and was faithful to her for many years.
+                Had a mistress, faithful to her for many years.
                 Had a son.
 -       guid: sSuFw`6aP>
         topic: Augustine
@@ -4147,12 +4132,12 @@ notes:
                 A certain "Faustus"
 -       guid: o-<d]6Vu7+
         topic: Augustine
-        front: His problem with Manicheanism
+        front: Problem with Manicheanism
         back: |
                 Unhelpful in practical sense.
                 No help in changing one's life, too *passive*.
-                (This may have led to later views that
-                root of sin is not in intellect but in *will*.)
+                (Possibly led to later views that
+                root of sin is in *will*, not in intellect.)
                 <br><br>
                 Reflection:
                 "I preferred to excuse myself and blame this unknown
@@ -4222,8 +4207,8 @@ notes:
         topic: Augustine
         front: Metaphor - procrastination before conversion
         back: |
-                *Perversity of will* &rarr; *lust*,
-                &rarr; *habit* &rarr; *necessity*
+                Perversity of will &rarr; lust
+                &rarr; habit &rarr; necessity
                 (chain)
 -       guid: oh6o~!C(+Z
         topic: Augustine
@@ -4317,23 +4302,21 @@ notes:
                 skeptics: we can suspend judgement.
 -       guid: r)ar^N@SX1
         topic: Augustine
-        front: How to be happy
+        front: Requirements for happiness
         back: |
-                Not unless we have what we desire.
+                Having what we desire.
                 <br><br>
-                Having it does not guarantee happiness.
-                We must desire right things. Some things, if
-                attained, produce misery (as Augustine knows).
+                Having it does not guarantee happiness - we must desire right
+                things. Some things, if attained, produce misery (as Augustine
+                knows).
                 <br><br>
-                Appropriate objects of desire must be things
-                we cannot lose without desiring to, and
-                must be enduring.
+                Appropriate objects of desire must be things we cannot lose
+                without desiring to, and must be enduring.
 -       guid: ua#-s:pUYL
         topic: Augustine
         front: Response to skeptical objections
         back: |
-                Senses and intellect can deceive, but we know some
-                things:
+                Senses and intellect can deceive, but we know:
                 <ul>
                 <li> We exist, we know we do, we know we're glad for it.
                 <li> Certainty: existence, life and knowledge
@@ -4483,9 +4466,9 @@ notes:
         front: First creations of the One
         back: |
                 <ol type="1">
-                <li> *The Intelligence* - an image of the One that
+                <li> <i>The Intelligence</i> - an image of the One that
                 knows it.
-                <li> *The Soul* - principle of life.
+                <li> <i>The Soul</i> - principle of life.
                 </ol>
 -       guid: QAzpe3$m)P
         topic: Augustine
@@ -4497,12 +4480,9 @@ notes:
         topic: Augustine
         front: Disagreement with Plotinus
         back: |
-                For Christians, God created the world
-                *ex nihilo*.
-                <br><br>
-                Christians: world was created, which is
-                a of discontinuity, entirely different from
-                *emanation*. World is of different substance than God.
+                World was created by God *ex nihilo* in an act of
+                discontinuity, entirely different from *emanation*.
+                World is of different substance than God.
 -       guid: sI[Ouwn~wo
         topic: Augustine
         front: Agreement with Plotinus
@@ -4659,12 +4639,13 @@ notes:
         topic: Augustine
         front: 3 classes of goods
         back: |
-                *Great*: justice<br>
-                *Lesser*: wealth, physical beauty
-                (good, but inessential to highest goods
-                of happiness, virtuous life)<br>
-                *Intermediate*: necessary, but not sufficient
+                <ul>
+                <li><i>Great</i>: justice
+                <li><i>Lesser</i>: wealth, physical beauty (good, but
+                inessential to highest goods of happiness, virtuous life)
+                <li><i>Intermediate</i>: necessary, but not sufficient
                 for virtue, happiness.
+                </ul>
 -       guid: l:uUp~3mE9
         topic: Augustine
         front: How can sin happen in a world created by a good God?
@@ -4718,9 +4699,9 @@ notes:
         topic: Augustine
         front: What happens to free choice once we sin
         back: |
-                By the evil use of free choice man has destroyed
-                both himself and it. When sin is committed by free
-                choice, sin becomes victor and free choice is lost.
+                By evil use of free choice man destroyed both himself and it.
+                When sin is committed by free choice, sin wins and free choice
+                is lost.
 -       guid: bUg{FHx!%L
         topic: Augustine
         front: Healing from sin
@@ -5070,11 +5051,10 @@ notes:
 -       guid: q-{pJJf0%M
         topic: Thomas Aquinas
         front: |
-                Where did he go after his family released him,
-                with whom did he study?
+                Destination and teacher after his family released him
         back: |
-                Cologne, Germany; Albert the Great (very learned,
-                had Aristotelian persuasions)
+                Cologne, Germany; Albert the Great (very learned, Aristotelian
+                persuasions)
 -       guid: q#t!4H?ZxY
         topic: Thomas Aquinas
         front: Character
@@ -5150,10 +5130,8 @@ notes:
         back: |
                 <ul>
                 <li> Truth is one
-                <li> All men have been enlightened by word or wisdom
-                of God
-                <li> Humans, in pride, have turned away from God and
-                from truth
+                <li> Men have been enlightened by word or wisdom of God
+                <li> Humans, in pride, turned away from God and truth
                 </ul>
 -       guid: BY=9#[K^@!
         topic: Thomas Aquinas
@@ -5350,7 +5328,7 @@ notes:
                 there is intelligence")
 -       guid: jde,u.5=/?
         front: |
-                Author: "In this life we cannot see God'ssubstance
+                Author: "In this life we cannot see God's substance
                 but know him only from creatures: as their
                 non-creaturely and transcendent cause. So this is where
                 our words for God come from: from creatures. Such
@@ -5392,58 +5370,47 @@ notes:
         topic: Thomas Aquinas
         front: Second thing we can say about God
         back: |
-                We want to say he's not just the *cause* of life,
-                wisdom, goodness, but also *is* itself alive,
-                wise, good.
+                Not just *cause* of life, wisdom, goodness, but also *is*
+                itself alive, wise, good.
                 <br><br>
-                The meaning of "wise" (etc.) is derived from
-                experience with human/animal wisdom, not from
-                experience of God.
+                Meaning of "wise" (etc.) derived from experience with
+                human/animal wisdom, not from experience of God.
                 <br><br>
-                Blood, food, etc is called "healthly" because
-                of its relation with healthy people (who are
-                actually healthy). Same with God. The words we
-                use express God's substance imperfectly just as
-                creatures (having any perfection) represent
-                him imperfectly.
+                Blood, food, etc called "healthly" because of relation with
+                healthy people. Same with God: words we use express God's
+                substance imperfectly just as creatures (having any perfection)
+                represent him imperfectly.
                 <br><br>
-                "God is good" doesn't mean either "God causes
-                goodness" or "God is not bad", but "What we call
-                goodness in creatures pre-existat in a higher
-                way in God".
+                "God is good" doesn't mean "God causes goodness" or "God is not
+                bad", but "What we call goodness in creatures pre-existant in a
+                higher way in God".
                 <br><br>
-                The words "wise", "good" etc. are learned by
-                application to creatures. Creatures are good
-                because God creates goodness. For creatures,
-                "good" is an extra attribute.
+                "Wise", "good" etc. learned by application to creatures, which
+                are good because God creates goodness. For creatures, "good" is
+                an extra attribute.
                 <br><br>
-                Univocal words: used with just 1 meaning.
-                Aquinas denies that words used of creatures and
-                creator are univocally used.
+                Univocal words: used with just 1 meaning. Aquinas denies that
+                words used of creatures and creator are univocally used.
 -       guid: FkV^rJ(F&_
         topic: Thomas Aquinas
         front: Beings between humans and God
         back: |
-                Angelic beings: pure intelligences, spiritual beings
-                defined by a form or essence, lacking material
-                substratum.
+                Angelic beings: pure intelligences, spiritual beings defined
+                by a form or essence, lacking material substratum.
                 <br><br>
-                Because they don't have material, they don't differ
-                materially, so there's just one of every species
-                of angelic being.
+                Because they don't have material, they don't differ materially,
+                so there's just one of every species of angelic being.
 -       guid: f1:?EOlktB
         topic: Thomas Aquinas
         front: On the human soul
         back: |
                 Like Aristotle.
                 <br><br>
-                Stresses that the 3 levels of soul are not *distinct*
-                in a person (we have just 1 soul, which is nouritive,
-                sensitive and rational).
+                Stresses 3 levels of soul are not *distinct* (just 1 soul,
+                which is nouritive, sensitive and rational).
                 <br><br>
-                Souls are *forms* of human beings. A human body
-                is *material* for a human. Also possibly material
-                for a corpse.
+                Souls are *forms* of human beings. Human body is *material* for
+                a human or for a corpse.
 -       guid: sJBDSV^x5p
         topic: Thomas Aquinas
         front: How are souls immortal?
@@ -5487,16 +5454,14 @@ notes:
 -       guid: h5WIX_HU*[
         topic: Thomas Aquinas
         front: |
-                How can the intellect know particulars?
+                How can intellect know particulars, if it abstracts from
+                matter which identifies them?
         back: |
-                Particulars: not about *humans in general*,
-                but about *Socrates*.
-                Intellect abstracts from matter,
-                which identifies particulars.
-                <br><br>
-                There are 2 uses of sensory images:
-                1. originals from which knowledge starts,
-                2. needed when we think about particular things.
+                Sensory images have 2 uses:
+                <ol type="1">
+                <li> Originals from which knowledge starts,
+                <li> Needed when we think about particular things.
+                </ol>
 -       guid: l+AB]_J/kt
         topic: Thomas Aquinas
         front: |
@@ -5529,8 +5494,8 @@ notes:
         back: |
                 <ul>
                 <li><i>Active</i>: does abstracting,
-                <li><i>Passive</i>: stores abstract ideas (analogy of
-                imagination for senses). We have it because we can
+                <li><i>Passive</i>: stores abstract ideas, analogy of
+                imagination for senses. We have it because we can
                 recall what we didn't think about for some time.
                 </ul>
 -       guid: EmjfJFtE@+
@@ -5544,7 +5509,7 @@ notes:
 -       guid: Lk1Ub/=IZ.
         topic: Thomas Aquinas
         front: |
-                What is our ultimate goal?
+                Our ultimate goal
         back: |
                 Happiness (*eudaimonia*) or beautitude
 -       guid: r@y,:m.y@R
@@ -5611,17 +5576,17 @@ notes:
         topic: Thomas Aquinas
         front: Other parts of natural law
         back: |
-                It is good to continue to live - so murder is wrong.
+                Good to continue to live - so murder is wrong.
 
-                It is part of our nature to eat when hungry -
+                Part of our nature to eat when hungry -
                 so feeding the hungry is good.
 
-                People have a tendency to mate and have children -
+                We have a tendency to mate and have children -
                 so marriage, intened to provide a safe and lasting
                 environment to meet these goals, is a good thing.
 
                 Law is what reason declares to be fitting in
-                the light of the ature of something.
+                the light of the nature of something.
 
                 Drunkenness, gluttony, suicide, lying, homosexuality,
                 breaking of promises: all contrary to nature.
@@ -5634,10 +5599,10 @@ notes:
 
                 Conditions:
                 <ul>
-                <li> Issued by legitimate authority responsibile for community
-                <li> Promulgated publicly so that people know what is or is not acceptable
-                <li> Furthers good of community
-                <li> Conforms with reason
+                <li> *Legitimate authority* responsible for community issues those
+                <li> *Publicly promulgated* so people know what is/is not lawful
+                <li> *Good* for the community
+                <li> Conforms with *reason*
                 </ul>
 -       guid: u^-vQZ2*cH
         topic: Thomas Aquinas
@@ -5704,8 +5669,7 @@ notes:
         front: What is the virtue of *prudence*?
         back: |
                 *Virtuous intellectual habits of thought* - think again
-                when you are hasty, keep overall good in mind when
-                deliberating.
+                when hasty, keep overall good in mind when deliberating.
                 <br><br>
                 "Disposition of our reason to right action."
 -       guid: kT0)zzc1_,
@@ -5736,11 +5700,11 @@ notes:
         back: |
                 Bliss.
                 <ul>
-                <li> *Within*, *created*: Internal perfection; can
-                only come if we wholeheartedly love God above all
-                and love our neighbours as ourselves.
-                <li> *Without*, *uncreated*:  Unity with God, source of
-                all goodness and perfection.
+                <li> *Within*, *created*: Internal perfection; only comes if we
+                wholeheartedly love God above all and love our neighbours as
+                ourselves.
+                <li> *Without*, *uncreated*:  Unity with God, source of all
+                goodness and perfection.
                 </ul>
 -       guid: n3fV[,LI3a
         front: |
@@ -5764,13 +5728,12 @@ notes:
                      causes, aside from maybe some human actions
                      (&times; miracles)
                 <li> Substances necessarily connected with
-                     incidental properties (&times; eucharist)
+                     incidentals (&times; eucharist)
                 <li> Soul = form of living body
                      (&times; individual immortality)
                 </ul>
 
-                Note: these are not *argued against*.
-                Those are *condemned as heretical*.
+                Note: not *argued against* &mdash; *condemned as heretical*.
 -       guid: qq-6>V!+OG
         front: |
                 Message from condemnation of Aristotle of 1270, 1277
@@ -5807,20 +5770,16 @@ notes:
 -       guid: kA^5^>Rtsx
         topic: William of Ockham
         front: |
-                Problem that God's omnipotence causes
+                Problem with God's omnipotence
         back: |
-                Ordinarily, "intuitive cognition" of a tangerine
-                is caused by a tangerine and some things
-                about us (e.g., not being on drugs).
+                "Intuitive cognition" of an apple is usually caused by
+                an apple and some things about us (e.g., not being drugged).
                 <br><br>
-                Could God cause the experience without the mediation
-                of the actual fruit?
+                Having the experience without an actual apple wouldn't be
+                self-contradictory &rarr; God could cause it.
                 <br><br>
-                Yes, it wouldn't be self-contradictory.
-                <br><br>
-                Since knowledge comes from *certainty*,
-                we can't be certain that there actually is a tangerine
-                if we perceive one.
+                Knowledge comes from *certainty*, so we can't be certain
+                there's a tangerine if we perceive one.
                 <br><br>
                 So with causation: what if fire doesn't cause cloth
                 to burn, but God always intervenes?
@@ -5864,10 +5823,9 @@ notes:
                 3 problems uncovered by Descartes
         back: |
                 <ul>
-                <li> *Assimilating modern science*
-                     (e.g., Copernicus, Kepler, Galileo)
-                <li> *Skepticism* (fuel: Reformation, Sextus Empiricus)
-                <li> Attention to *epistemology* - can we
+                <li> <i>Modern science</i> (Copernicus, Kepler, Galileo)
+                <li> <i>Skepticism</i> (fuel: Reformation, Sextus Empiricus)
+                <li> Attention to <i>epistemology</i> - can we
                      know anything? Do sciences give us knowledge
                      of reality?
                 </ul>
@@ -5875,18 +5833,17 @@ notes:
         front: |
                 Medieval picture of the world
         back: |
-                Universe: harmonious and coherent, created by infinite
-                and good God as home for humans, made for their sake.
-                Sky is a thing (a dome). Each astronomical object in
-                its own sphere.
+                Universe: harmonious, coherent, created by infinite and good
+                God as home for humans, made for our sake. Sky is a thing
+                (a dome). Each astronomical object in its own sphere.
                 <br><br>
-                Outer sphere: Empyrean. Heavy things fall towards
-                Earth. Between Earth and Moon: lighter elements (air,
-                fire). All elements suffer constant change, mixing.
-                Change comes from motion of heavens. Outermost spheres
-                rotate very fast (to come to the same position in
-                24 hours). Inner spheres drawn by friction. Spheres
-                move because they desire to be united with Heaven.
+                Outer sphere: Empyrean. Heavy things fall towards Earth.
+                Between Earth and Moon: lighter elements (air, fire). All
+                elements suffer constant change, mixing. Change comes from
+                motion of heavens. Outermost spheres rotate very fast (to come
+                to the same position in 24 hours). Inner spheres drawn by
+                friction. Spheres move because they desire to be united with
+                Heaven.
 -       guid: N1#Z#%5N{>
         front: |
                 Medieval picture of the world - what is beyond
@@ -5935,8 +5892,8 @@ notes:
                 Dante lost his way and couldn't find it again.
                 <br><br>
                 Pagan poet Virgil appears, offers to lead him through
-                hell, purgatory and gates of Heaven. There, Virgil will
-                be supplanted (he can't enter). These visions should
+                hell, purgatory and gates of Heaven, where Virgil will
+                be supplanted (he can't enter). The visions should
                 resolve Dante's crisis.
 -       guid: lMhSt90{e8
         topic: Divine Comedy
@@ -6134,8 +6091,7 @@ notes:
 -       guid: HDos4b+Y1,
         front: Dante's condemnation of Church officials
         back: |
-                Put some bishops, friars, several popes,
-                in Inferno.
+                Put some bishops, friars, several popes, in Inferno.
 -       guid: wFzsZfZHn~
         front: |
                 Motivation to establish orders of Saint Francis,
@@ -6203,13 +6159,12 @@ notes:
                 Italian reformer
 -       guid: brAB7uTKI_
         front: |
-                Sins: Pope Alexander VI
+                Unclerical actions: Pope Alexander VI
         back: |
-                4 illegitimate children, including
-                Cesare, Lucrezia Borgia
+                4 illegitimate children, including Cesare, Lucrezia Borgia
 -       guid: q:w7!vX)?E
         front: |
-                Unclerical actions of Pope Julius II
+                Unclerical actions: Pope Julius II
         back: |
                 Sent troops to regain some papal territories
 -       guid: OO[0OqYE}*
@@ -6218,22 +6173,20 @@ notes:
         back: 13
 -       guid: tnO3r_Qbhx
         front: |
-                Exclamation of Leo X when elected as pope
+                Exclamation: Leo X when elected as pope
         back: |
                 "The papacy is ours. Let us enjoy it."
         include_reverse: true
 -       guid: tOjwEXX;Tk
         front: |
-                Story of Albert of Brandenburg
+                Story: Albert of Brandenburg
         back: |
-                Bishop of 2 districts, aspired to be Archbishop
-                of Mainz (would make him Germany's top cleric).
-                Pope demanded 10 000 ducats. Parishes couldn't
-                supply the fee, so he paid it himself,
-                borrowing at 20% interest from banking house of Fugger.
-                Agreed indulgences would be sold in his territories;
-                half the income used to repay the loan, half sent to
-                Rome to help build Saint Peter's Cathedral.
+                Bishop of 2 districts, aspired to be Archbishop of Mainz (would
+                become Germany's top cleric). Pope demands 10 000 ducats.
+                Parishes can't supply that, he borrows at 20% interest from
+                banking house of Fugger. Agreed indulgences would be sold in
+                his territory; half the income used to repay the loan, half
+                sent to Rome to help build Saint Peter's Cathedral.
 -       guid: mf)3p*G.[z
         front: |
                 Year: Birth of Martin Luther
@@ -6256,13 +6209,12 @@ notes:
         front: |
                 Martin Luther's motivation
         back: |
-                Troubled by his sins, in terror of God's justice.
-                Couldn't be sure his motivations were pure.
-                Never confient he searched out every tinge of
-                selfishness, greed, lust, pride. Agonies of doubt,
+                Troubled by sins, in terror of God's justice. Couldn't be sure
+                motivations were pure. Never confient he sought out every tinge
+                of selfishness, greed, lust, pride. Agonies of doubt,
                 self-accusation.
-
-                Became professor of theology. Wrestled with Psalms,
+                <br><br>
+                Became professor of theology, wrestled with Psalms,
                 letters of Saint Paul. Found the only thing needed was
                 belief in Jesus Christ to win forgiveness for sinners
                 such as himself. Salvation doesn't have to be *earned*!
@@ -6306,6 +6258,7 @@ notes:
         front: |
                 Year: Great debate at Leipzig with Luther
         back: 1519
+        include_reverse: true
 -       guid: N$!W4k?-j-
         front: |
                 City: Great debate with Luther
@@ -6315,7 +6268,7 @@ notes:
         front: |
                 What was risked?
         back: |
-                Destruction Christendom's unity, return of herecies
+                Destruction of Christian unity, return of herecies
 -       guid: xy}lK;e5V`
         front: |
                 Year: Luther excommunicated
@@ -6382,13 +6335,13 @@ notes:
         back: |
                 Montaigne
 -       guid: omjb(z13,C
-        topic: "Apology for Raymond Sebond\n"
+        topic: Apology for Raymond Sebond
         front: |
                 Raymond Sebond: origin and work
         back: |
                 15th century theologian. Claimed not only can God's
                 existence be proven by reason (as Augustine, Anselm,
-                Aquinas), but *all* doctrines of Christianity can.
+                Aquinas), but *all* Christian doctrines can.
 -       guid: oqh]599~[l
         front: |
                 Topic: Apology for Raymond Sebond
@@ -6450,9 +6403,9 @@ notes:
                 a mite and he makes gods by the dozen."
         back: Montaigne
 -       guid: k|agVCw5V[
+        topic: Copernicus
         front: |
-                Insight of Copernicus that started
-                the Copernican revolution
+                Insight that started the Copernican revolution
         back: |
                 Earth is not the center of the universe
 -       guid: zOo#:@+Dq*
@@ -6477,32 +6430,38 @@ notes:
         front: |
                 Year: *De Revolutionibus* by Copernicus published
         back: 1543
+-       guid: x9CYV8L(*t
+        front: 1543
+        back: |
+                <ul>
+                <li> Death of Copernicus
+                <li> *De Revolutionibus* by Copernicus published
+                </ul>
 -       guid: GH$`w$CMnr
+        topic: Copernicus
         front: |
-                What Copernicus keeps and doesn't keep
+                What he keeps and doesn't
         back: |
                 Ptolemaic epicycles not entirely abolished.
                 Retains notion that celestial bodies move in circles;
-                notion of celestial spheres is still important.
-                Accepts that the universe is finite, through much
-                larger than thought before.
-                The sun is also not *clearly* in the center
+                celestial spheres is still important.
+                Accepts the universe is finite, through much larger than
+                thought before.
+                Sun is also not *clearly* in the center
                 (as most popular accounts of his views state).
 -       guid: L@*7A]Pfph
+        topic: Copernicus
         front: |
-                Problem that Copernicus cracked,
-                his solution
+                Problem he cracked, his solution
         back: |
-                Apparently irregular movement of planets:
-                they appear to move slowly eastward against
+                Irregular movement of planets: move slowly eastward against
                 fixed stars, then reverse course and go west.
-
-                Solution: the movement is only apparent,
-                the cause is actual movement of observers on Earth.
-
-                His solution is only a little bit more accurate,
-                and not much less complex than the Ptolemaic view.
-                It's more "harmonic", through.
+                <br><br>
+                Solution: movement is only apparent,
+                the cause is actual movement of Earth observers.
+                <br><br>
+                Only a little bit more accurate, not much less complex than
+                Ptolemaic view. More "harmonic", through.
 -       guid: oIfttW}}<O
         front: |
                 First uses of Copernicus's model
@@ -6513,7 +6472,6 @@ notes:
         front: |
                 Year: Birth of Johannes Kepler
         back: 1571
-        include_reverse: true
 -       guid: PNP^0zx(XU
         front: |
                 Year: Death of Johannes Kepler
@@ -6527,11 +6485,10 @@ notes:
                 His model produced better predictions.
 -       guid: F(oQ)F:Gk<
         topic: Johannes Kepler
-        front: Motivation for keeping Sun from the center
+        front: Motivation for keeping Sun in the center
         back: |
-                "Mystical neoplatonism" - the sun as
-                "the most excellent" body in the universe
-                (not rooted in observation or math)
+                "Mystical neoplatonism" - sun as "the most excellent" body
+                in the universe (not rooted in observation or math)
 -       guid: pp0``N|TAU
         topic: Plato
         front: Religion in ideal state (from *Laws*)
@@ -6580,10 +6537,9 @@ notes:
                 Year: Death of Galileo Galilei
         back: |
                 1642
-        include_reverse: true
 -       guid: GLkTwJ{mGj
         front: |
-                Name: Predicted spherical orbits
+                Name: Removed geocentricity
         back: |
                 Copernicus
 -       guid: eeOxqSy2n<
@@ -6635,19 +6591,17 @@ notes:
 -       guid: A-vaGvg;{F
         topic: Galileo
         front: |
-                New things about new science
+                3 new things about new science
         back: |
-                1. Sense of size of universe changes. We are not the
-                center.
+                <ul>
+                <li> Universe is larger, we are not its center.
+                <li> Beliefs about universe's nature change. Quantity rules,
+                quality is in math.
+                <li> No more teleological explanations, final
+                causes. (Note: a problem for our values!)
                 <br><br>
-                2. Our beliefs about the nature of the universe
-                changes. Quantity rules, quality is in math.
-                <br><br>
-                3. Removes teleological explanations and final
-                causes. (Note: this is a problem for our values!)
-                <br><br>
-                Tickling, redness, etc. is not in the objects,
-                but only in our senses.
+                Tickling, redness, etc. is not in objects, just in our senses.
+                </ul>
 -       guid: C@{|d*.a^d
         front: Primary vs. secondary wualities
         back: |
@@ -6758,29 +6712,30 @@ notes:
                 <li> Don't accept anything as true unless you have
                 evident knowledge of its truth.
                 <br><br>
-                *Clear*: present and apparent to an attentive mind,
-                the same as clearly seeing objects.
-                Accept nothing obscured.
+                <i>Clear</i>: present and apparent to an attentive mind,
+                same as clearly seeing objects. Accept nothing obscured.
                 <br><br>
-                *Distinct*: so precise that it contains only
+                <i>Distinct</i>: so precise that it contains only
                 clearness inside. Ideas should not be possible
                 to confuse with other ideas.
                 <li> Divide each difficulty into as many parts
-                as possible in order to resolve them better.
-                <li> Direct thoughts orderly, beginning with the
-                simplest and most easily known objects to ascend
-                little by little to complex knowledge.
-                <li> Make complete and comprehensive enumerations
-                and reviews so that nothing will be left out.
+                as possible to resolve them better.
+                <li> Direct thoughts orderly, beginning with simplest and most
+                easily known objects to ascend little by little to complex
+                knowledge.
+                <li> Make complete and comprehensive enumerations and reviews
+                so that nothing will be left out.
                 </ul>
 -       guid: N9,c&Kb`xU
         topic: Descartes
         front: |
                 2 basic procedures for intellectual work
         back: |
-                Insight/intuition of simple natures.
-                Deduction of complex phenomena from perceived
-                relations among the simples.
+                <ul>
+                <li> Insight/intuition of simple natures.
+                <li> Deduction of complex phenomena from perceived relations
+                among simples.
+                </ul>
 -       guid: kAq7/NhbVs
         topic: Descartes
         front: |
@@ -6805,7 +6760,17 @@ notes:
                 Year: *Index Librorum Prohibitorum* established
                 by Pope Pius V after approval by the Council of Trent
         back: 1571
-        include_reverse: true
+-
+        guid: q@%+SPd)u3
+        front: 1571
+        back: |
+                <ul>
+                <li>
+                <i>Index Librorum Prohibitorum</i> established by Pope Pius V
+                after approval by the Council of Trent.
+                <li>
+                Birth of Johannes Kepler
+                </ul>
 -       guid: u-^~(j<&@J
         topic: Descartes
         front: |
@@ -6814,17 +6779,14 @@ notes:
 -       guid: b0^6S8f[&.
         topic: Descartes
         front: |
-                Theological argument for why are the Meditations needed
+                Theological requirement for Meditations
         back: |
-                Bible is true &rarr; God exists &rarr Bible is true ...
-                is a circle; we need a rational reason to break
-                the circle.
-                Descartes talks about "believers like ourselves".
+                Bible is true &rarr; God exists &rarr Bible is true
+                is a circle; we need rational reason to break it.
+                Descartes talks to "believers like ourselves".
 
-                He claims to have better proofs than Anselm, Aquinas,
-                Augustine.
-                Refers to thinkers who aren't aligned with immortality
-                (e.g., Aristotle).
+                Claims to have better proofs than Anselm, Aquinas, Augustine.
+                Refers to thinkers unaligned with immortality (e.g., Aristotle).
 -       guid: Ht^!4IF>e8
         front: |
                 Author: "Thus the whole of philosophy is like a tree;
@@ -6878,10 +6840,10 @@ notes:
         topic: Descartes
         front: |
                 Distinction between judgement and ordinary perception;
-                and his example of why
+                his example
         back: |
-                Ordinary perception: We see coats and hats on the street.
-                Judgement: those are men, not robots.
+                Ordinary perception: Coats and hats on the street.
+                Judgement: Men, not robots.
                 Judgement is an activity of the mind.
                 Implicit in all perception is judgement, *giving assent*.
 
@@ -7052,16 +7014,16 @@ notes:
                 Name: "Prince of the Rationalists"
         back: Descartes
 -       guid: 'LmWG3)bZ~:'
+        topic: Descartes
         front: |
-                Descartes's metaphysics
+                Stance on world's nature
         back: |
-                Mechanistic world, built and set in motion by God.
-                The world is a *secular* world.
-                <br><br>
-                Dante is like a fairy-tale, at best a moral allegory
-                with no literal truth.
-                <br><br>
+                Mechanistic, built and set in motion by God. The world is
+                a *secular* world.
                 Minds are radically free.
+                <br><br>
+                Dante: like a fairy-tale, at best moral allegory with no
+                literal truth.
 -       guid: ebCvAy&eka
         topic: Descartes
         front: |
@@ -7413,11 +7375,9 @@ notes:
         topic: John Locke
         front: On origin of ideas
         back: |
-                Locke thinks there are *no* innate ideas.
-
-                Not even trivialities are innate (not present
-                in idiots, childern).
-                Ideas and knowledge come from *experience*.
+                There are *no* innate ideas, not even trivialities
+                (not present in idiots, childern).
+                Ideas, knowledge come from *experience*.
 
                 Experience is *sensation* and *reflection*
                 (on how our minds work).
@@ -7523,7 +7483,7 @@ notes:
         front: What kind of term is "*person*"?
         back: |
                 Forensic, used in courts of law.
-                Determines who to held responsible, praise,
+                Determines who to hold responsible, praise,
                 blame, reward, punish.
 -       guid: DjScV(De}P
         topic: John Locke
@@ -7558,26 +7518,27 @@ notes:
                 and repugnancy of any of our ideas. We can have
                 knowledge no further than we have ideas.
 
-                The standard for knowledge is complete certainty.
-                So our knowledge isonly very small.
+                Standard for knowledge is complete certainty, so our knowledge
+                is only very small.
 -       guid: M7ep!hN=s9
         topic: John Locke
         front: 4 kinds of agreement and disagreement
         back: |
+                Concerning:
                 <ul>
-                <li> Concerning *identity or diversity of ideas*.
+                <li> <i>Identity or diversity of ideas</i>.
                 Make sure ideas are clear and distinct from each other.
-                <li> Concerning *relations between ideas*.
+                <li> <i>Relations between ideas</i>.
                 Examples: mathematical, certain moral truths.
                 ("Analytic" truths.)
-                <li> Concerning *coexistence as a necessary
-                connection*. Mostly about substances: gold
+                <li> <i>Coexistence as a necessary
+                connection</i>. Mostly about substances: gold
                 is necessary yellow, malleable, heavy. Those tend
                 to coexist.
-                <li> Concerning *real existence*: strikes a new note
+                <li> <i>Real existence</i>: strikes a new note
                 -- the existence of something agreeing to one
                 of our ideas is not just a matter of relations
-                *between* ideas.
+                <i>between</i> ideas.
                 </ul>
 -       guid: x(+Z|8on~}
         topic: John Locke
@@ -7685,26 +7646,25 @@ notes:
                 goods
 -       guid: CzIuICa?D0
         topic: John Locke
-        front: Vision of government
+        front: Vision of government, its powers
         back: |
-                Avoids dangers of anarchy and tyrany.
-                It must be responsible to the people who established
-                it (to resist temptation to make itself except
-                from laws).
+                Avoids anarchy and tyrany.
+                Responsible to people who established it (to resist temptation
+                to except itself from laws).
 
-                2 powers: legislative (to enact laws for the good
-                of the whole), executive (to enforce laws,
-                protect the commonwealth from external enemies).
+                2 powers: legislative (enacts laws for good of the whole),
+                executive (enforces laws, protect commonwealth from external
+                enemies).
 
-                These powers don't have supreme authority. They
-                are established for certain ends - they exist
-                by the will of the people and for so long as they
-                serve these ends.
+                Powers don't have supreme authority. They are established for
+                certain ends and exist by will of the people and for so long as
+                they serve these ends.
 -       guid: F34HJyzp$/
         topic: John Locke
-        front: Why was he interested in toleration?
+        front: |
+                Reason: Interest in toleration
         back: |
-                Religiousquarrels - Catholics, Anglicans, Baptists,
+                Religious quarrels - Catholics, Anglicans, Baptists,
                 Presbyterians, Quakers, etc.
 -       guid: fuaVp+nGo+
         topic: John Locke
@@ -7787,10 +7747,12 @@ notes:
                 Locke's errors lead to atheism and skepticism.
 -       guid: q>#~r//NMp
         topic: George Berkeley
-        front: 2 books fo his philosophy
+        front: 2 books of his philosophy
         back: |
-                The Principles of Human Knowledge, Three Dialogues
-                between Hylas and Philonous
+                <ul>
+                <li> The Principles of Human Knowledge
+                <li> Three Dialogues between Hylas and Philonous
+                </ul>
 -       guid: N?KoXGIaPl
         topic: George Berkeley
         front: Goals of his philosophy
@@ -7809,7 +7771,7 @@ notes:
                 </ul>
 -       guid: A=!Dqg8ZNJ
         topic: George Berkeley
-        front: How does Locke depart from commonsense realism?
+        front: 4 points of Locke's departure from commonsense realism
         back: |
                 <ol type="a">
                 <li> Objects of knowledge are our *ideas*.
@@ -7995,7 +7957,7 @@ notes:
         # chapter 15 - david hume - unmasking the pretensions of reason
 -       guid: m]Fw]x}s#0
         front: Usual name for 18th century
-        back: Age of Englightenment
+        back: Age of Enlightenment
 -       guid: BU[u^t*n_*
         front: |
                 Author: "Enlightenment is man's emergence from his
@@ -8012,7 +7974,13 @@ notes:
         front: |
                 Year: Birth of Isaac Newton
         back: 1642
-        include_reverse: true
+-       guid: i$#t@$^i.$
+        front: 1642
+        back: |
+                <ul>
+                <li> Birth of Isaac Newton
+                <li> Death of Galileo Galilei
+                </ul>
 -       guid: e?HW/t!xS4
         front: |
                 Year: Death of Isaac Newton
@@ -8024,7 +7992,7 @@ notes:
         back: |
                 Analysis and synthesis.
 
-                Do not *frame hypotheses* -- stay close to
+                Do not *frame hypotheses* &mdash; stay close to
                 original phenomena, don't jump to conclusions
                 prematurely.
                 What is deduced from phenomena he calls *hypothesis*.
@@ -8036,10 +8004,10 @@ notes:
                 Rationalism vs. empiricism and Newton vs. Descartes
         back: |
                 <ul>
-                <li> *Descartes*: rationalist, proceeds from
+                <li> <i>Descartes</i>: rationalist, proceeds from
                 "intuitively obvious" observations.
-                <li> *Newton*, Locke, Berkeley, Hume: empiricist,
-                wants *evidence*, sticks closely to facts
+                <li> <i>Newton</i>, Locke, Berkeley, Hume: empiricist,
+                wants <i>evidence</i>, sticks closely to facts
                 </ol>
 -       guid: z~!)ie#%l5
         front: |
@@ -8967,17 +8935,15 @@ notes:
 -       guid: tIPFm#@92%
         topic: Immanuel Kant
         front: |
-                What is our illusion concerning application of
-                concepts beyond experience?
+                Our illusion on application of concepts beyond experience
         back: |
-                The illusion is that there categories are applicable
-                further than sensible intuition, without regard
-                to sensibility. But they *don't* thereby determine
-                a greater sphere of objects.
+                That there categories are applicable further than sensible
+                intuition, without regard to sensibility. But they *don't*
+                thereby determine a greater sphere of objects.
 
-                For instance, the concept "substance" is not a complete
-                concept on its own right. It's just a *rule* for
-                organizing content, which must be given by intuition.
+                Example: the concept "substance" is not a complete concept
+                on its own - just a *rule* for organizing content, which must
+                be given by intuition.
 -       guid: vV</K/YWqS
         topic: Immanuel Kant
         front: |
@@ -11174,9 +11140,135 @@ notes:
                 an appropriation-process of the most passionate
                 inwardness is the truth, *the highest truth*
                 available for an existing individual.
+-       guid: IRPj9)[}CU
+        topic: Enlightenment
+        front: 4 topics prominent at close of Enlightenment
+        back: |
+                <ul>
+                <li> Significance of history (development of culture and reason)
+                <li> Role of opposition and antagonism in progress
+                <li> Attainment of the goal by the race, not the individual
+                <li> Justification of the evil accopanying progression
+                </ul>
+-       guid: l*30Yth{jA
+        front: |
+                Year: Birth of Karl Marx
+        back: 1818
+-       guid: Fs:#>Yy:!/
+        front: |
+                Year: Death of Karl Marx
+        back: 1883
+-       guid: uXknmm|zM7
+        topic: Marx
+        front: Philosophical origins
+        back: |
+                Left-wing Hegelians: like Kierkegaard (whom he didn't know),
+                complains Hegelian philosophy is abstract and speculative.
+-       guid: D422X(r}o)
+        topic: Marx
+        front: Hegel's three base beliefs and Marx's views
+        back: |
+                (1) Reality is Spirit, (2) human being is Spirit unknown to
+                itself, alienated from its objects and itself,
+                (3) the cure for **alienation** is the knowledge there's
+                nothing in the world not put there by the subject - Spirit
+                itself
 
+                Marx: This is right, but it's "etherealized".
+                It's not that *life is determined by consciousness*.
+                Consciousness is determined by life, by our material
+                production and intercourse.
+-       guid: sD/|tT7mW*
+        topic: Marx
+        front: Full name of Engels
+        back: Friedrich Engels
+-       guid: B-gu|olt~U
+        topic: Marx
+        front: First premise of all human existence
+        back: Sustenance of material life - eating, drinking, ahbitation, etc.
+-       guid: w.E@keLV2D
+        topic: Marx
+        front: Next premises of human existence
+        back: |
+                Producing subsistence requires instruments of production.
+                This multiplies needs.
+                People propagate their kind and create families.
+                These activities involve people from the start of social
+                relationships.
+-       guid: jY5{GtZgU(
+        front: |
+                Author: "It follows from this that a certain mode of production
+                or industrial stage is always combined with a certain mode
+                of co-operation, or social stage, and this mode of co-operation
+                is itself a 'productive force'."
+        back: Karl Marx
+-       guid: Kz++nov^5c
+        front: |
+                Author: "The philosophers have only *interpreted* the world,
+                in various ways; the point, however, is to *change* it."
+        back: Karl Marx
+-       guid: g&2v|UKY}I
+        topic: Marx
+        front: Role of religion
+        back: |
+                "Opiate for the masses." Certain forms of intellectual and
+                spiritual life are merely compensations for an unsatisfactory
+                life on earth.
+-       guid: uuFkxPA4pO
+        topic: Marx
+        front: 2 economists relied on to analyze the industrial situation of his age
+        back: Adam Smith, David Ricardo
+-       guid: yJmK?R2&q(
+        front: |
+                Author: "Wages are determined through the antagonistic struggle
+                between capitalist and worker. Victory goes necessarily to the
+                capitalist. The capitalist can live longer without the worker
+                than can the worker live without the capitalist."
+        back: Karl Marx
+-       guid: wV[XGD;$>i
+        topic: Marx
+        front: How did 19th century change industrial conditions?
+        back: |
+                Earlier, cobblers had their own shops, ownership and labor
+                was combined in one person. In 19th century, there was a
+                large split between people owning large and expensive means
+                of production and class providing labor - "struggle".
 
+                Because there are more workers than jobs, capitalists pay only
+                subsistence-level wages. So, workers are *commodities* -
+                just "working animals", replacable by machines.
 
+                Rents also go as high as possible.
+-       guid: cS(S(8ib8z
+        topic: Marx
+        front: Explanation of private property
+        back: |
+                When we create something (e.g., carve Lincoln from wood),
+                the product is our labor *objectified*. In contemplating it,
+                we become aware of it and ourselves. Now that I put my labor
+                into it, a thief would steal a part of me. Our *products*
+                (culture, industry, art, technology) are us in objectified
+                form. *Externalization* of ourselves makes us fully human.
+
+                In industrial age, workers produce *commodities*.
+                Their work is not an affirmation of themselves.
+-       guid: HZE#;?yhUh
+        topic: Marx
+        front: Threefold alienation
+        back: |
+                They feel *alienated* from their work. The labor is *forced*;
+                not a satisfaction of a need, but a *means* to satisfy
+                external needs. The alien character is shown in that once
+                no physical/other compulsion exists, labor is shunned like
+                the plague.
+
+                Workers are alienated both from their labor and its products
+                (which belong to the capitalist). Workers just have wages,
+                which are subsistence-level. They put their life into objects
+                they produce, but they no longer belong to them.
+
+                Workers compete against each other for jobs. Workers are also
+                alienated from each other.
 
 
 

@@ -177,12 +177,13 @@ notes:
         back: Cascara
         include_reverse: true
 -       guid: ODYRM4B;fY
-        front: 2 types of pu-erh and the difference
+        front: 2 types of pu-erh, the difference
         back: |
-                *Sheng*: raw, non-fermented. Harvested and stored
+                <ul>
+                <li><i>Sheng</i>: raw, non-fermented, harvested and stored
                 naturally
-                <br><br>
-                *Shu*: fermented, leaves are reddish-brown
+                <li><i>Shu</i>: fermented, reddish-brown leaves
+                </ul>
 -       guid: Jh#,iIi5!(
         front: Mahayana
         back: |

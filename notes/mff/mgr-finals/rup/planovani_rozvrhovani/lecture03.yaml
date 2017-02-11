@@ -21,9 +21,9 @@ notes:
         -       guid: eY{c5Ghg>%
                 topic: Plánování
                 front: |
-                        Prostory, které při plánování prohledáváme
+                        Prostory co při plánování prohledáváme
                 back: |
-                        Stavový prostor, nebo prostor plánů (uzly jsou částečně instanciované plány).
+                        Stavový, prostor plánů (uzly: částečně instanciované plány)
         -       guid: d3[yCN5Ae]
                 topic: Plánování
                 front: |

@@ -1,9 +1,9 @@
 deck: All::Magisterské státnice::Reprezentace znalostí::Výroková a predikátová logika::Přednáška
         3
+topic: Výroková logika
 notes:
         # VPL01
         -       guid: n)#>n{`$1`
-                topic: Výroková logika
                 front: Systematická konstrukce tabla
                 back: |
                         Dokud to jde, vezmi nejlevější položku [$]P[/$] v co nejmenší úrovni,
@@ -16,7 +16,6 @@ notes:
                         Ke každé bezesporné větvi přidej první [$]T\\varphi_n[/$]
                         atomické tablo pro výroky z teorie.
         -       guid: b44=Lug4KG
-                topic: Výroková logika
                 front: Konečnost tablo důkazů
                 back: |
                         Jestli je [$]\\tau=\\bigcup \\tau_i[/$] sporné,
@@ -25,7 +24,6 @@ notes:
                         [$]\\tau[/$] co nemají nad sebou spory.<br>
                         Proto jsou tablo důkazy konečné.
         -       guid: t~z`G^&l=x
-                topic: Výroková logika
                 front: Korektnost tablo důkazů
                 back: |
                         Když vemu nějaký model teorie, pak existuje v tablu
@@ -33,7 +31,6 @@ notes:
                         <br>
                         [$]T\\vdash\\varphi \\Rightarrow T\\vDash\\varphi[/$]
         -       guid: m$C!3QD(N5
-                topic: Výroková logika
                 front: Úplnost tablo metody
                 back: |
                         Bezesporná větev v dokončeném tablu obsahuje protipříklad.
@@ -44,22 +41,24 @@ notes:
                         Libovolné dokončené tablo co začne s [$]F\\varphi[/$] je sporné.
                         (Jinak z něho vykoukáme protipříkladový model.)
         -       guid: iN4dm8J8t+
-                topic: Výroková logika
-                front: Značení - Množina vět teorie
+                front: |
+                        Značení: Množina vět teorie
                 back: |
-                        [$]Thm^P(T)=\\{\\varphi\\in VF_P | T\\vdash\\varphi\\}[/$]
+                        [$]\\mathrm{Thm}^P(T)=
+                        \\{\\varphi\\in\\mathrm{VF}_P:T\\vdash\\varphi\\}[/$]
         -       guid: ulV2@C?JVR
-                topic: Výroková logika
                 front: Kdy je teorie sporná, v řeči důkazů?
                 back: |
-                        Když je v ní dokazatelný [$]\\perp[/$], jinak bezesporná
+                        Je v ní dokazatelný [$]\\perp[/$].
+        -       guid: vja1A0<b=3
+                front: Kdy je teorie bezesporná, v řeči důkazů?
+                back: |
+                        Není v ní dokazatelné [$]\\perp[/$].
         -       guid: s!:lWQ<[fE
-                topic: Výroková logika
                 front: Kdy je teorie kompletní, v řeči důkazů?
                 back: |
-                        Když není sporná a pro každou formuli je dokazatelná nebo její opak.
+                        Není sporná, pro každou formuli je dokazatelná nebo její opak.
         -       guid: s-*}Fq&GS%
-                topic: Výroková logika
                 front: Kdy je [$]T[/$] nad [$]P[/$] extenze teorie [$]T'[/$] nad [$]P'[/$]
                         v řeči důkazů? Kdy je konzervativní?
                 back: |
@@ -67,7 +66,6 @@ notes:
                         <br><br>
                         Konzervativní: [$]\\mathrm{Thm}^{P'}(T')=\\mathrm{Thm}^P(T)\\cap VF_{P'}[/$]
         -       guid: bvphP|h#ud
-                topic: Výroková logika
                 front: Věta o kompaktnosti
                 back: |
                         Teorie má model právě když každá její konečná část má model.<br>

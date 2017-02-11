@@ -88,11 +88,11 @@ notes:
         back: '`$(( (i + 1) % 5 ))`'
 -       guid: hff~md88[X
         include_reverse: true
-        front: Trim suffix of `something` from `$var`
+        front: Trim suffix of `something` from `$name`
         back: |
                 `${name%something}`
 -       guid: zR1Uh(]OZP
-        front: Trim prefix of `something` from `$var`
+        front: Trim prefix of `something` from `$name`
         include_reverse: true
         back: |
                 `${name#something}`

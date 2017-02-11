@@ -240,9 +240,8 @@ notes:
                 [$]\\mathrm{name}(o)[/$]: časové a objektové proměnné
                 operátoru, [$]F(o),C(o)[/$]: kronika.
                 <br><br>
-                Rozdíly: nejsou odlišeny předpoklady a efekty,
-                operátor se neaplikuje na stav ale na kroniku,
-                výsledek aplikace není jednoznačný
+                Rozdíly: neodlišeny předpoklady a efekty, operátor se aplikuje
+                na kroniku, ne na stav, výsledek aplikace není jednoznačný
 -       guid: Da9}.JR@&P
         front: Co je to akce?
         back: Částečně instanciovaný operátor
@@ -369,17 +368,17 @@ notes:
 -       guid: jls_v|nv8P
         topic: Plánování se zdroji
         front: Jak opravit konflikty?
+        markdown: false
         back: |
-                Vezmu minimální kritickou množinu a vyberu
-                opravu, co jeden z intervalů posune mimo průnik.
+                Vezmi minimální kritickou množinu, vyber opravu, co jeden
+                interval posune mimo [$]\cap[/$].
                 <br><br>
-                Je dobré použít opravy, co jsou minimálně silné
-                (protože některé opravy implikují jiné).
+                Je dobré vzít minimálně silné opravy (některé opravy implikují
+                jiné).
                 <br><br>
-                Bacha abych nevyrobil konflikt.
+                Bacha abys nevyrobil konflikt.
 -       guid: t7~<<KG(JC
         front: Jak plánovat se zdroji
         back: |
-                K plánování s kronikami přidáme práci s minimálními
-                konfliktními množinami a odstraňování zdrojových
-                konfliktů.
+                Plánování s kronikami + práce s minimálními konfliktními
+                množinami + odstraňování zdrojových konfliktů

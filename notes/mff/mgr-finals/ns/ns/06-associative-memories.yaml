@@ -11,10 +11,10 @@ notes:
                 back: |
                         <ul>
                         <li> <i>Heteroasociativní</i>:
-                        když jsem do [$]\\varepsilon[/$] vzdálenosti od
-                        správného vzoru, namapuje se správně.
+                        když jsem do [$]\\varepsilon[/$] od správného vzoru,
+                        namapuje se správně.
                         <li> <i>Autoasociativní</i>: "oprava zašuměných vzorů"
-                        <li> <i>Pattern recognition síť</i>: přiřadí skalár
+                        <li> <i>Pattern recognition síť</i>: vrátí skalár
                         </ul>
         -       guid: wNMjAD=yJ;
                 front: Jednovrstevnatá heteroasociativní síť bez zpětné vazby
@@ -140,8 +140,8 @@ notes:
                         Proč můžeme chtít použít pseudoinverzní matici místo
                         Hebbovského učení?
                 back: |
-                        Protože vzory můžou být korelované, takže nevhodné pro
-                        přímé Hebbovské učení s korelační maticí.
+                        Vzory můžou být korelované &mdash; nevhodné pro
+                        Hebbovské učení s korelační maticí.
         -       guid: B}M/s|$Zwl
                 front: K čemu je pseudoinverzní matice?
                 back: |
