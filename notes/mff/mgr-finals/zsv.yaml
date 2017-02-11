@@ -479,15 +479,13 @@ notes:
 -       guid: c7SAaP;h(@
         front: Savičova věta
         back: |
-                Pro každou [$]f(n)\\geq\\log_2 n[/$] platí že
-                [$]\\mathrm{NSPACE}(f(n))\\subseteq \\mathrm{SPACE}(f^2(n))[/$].
+                [$]\\a n: f(n)\\geq\\log_2 n \\longrightarrow
+                \\mathrm{NSPACE}(f(n))\\subseteq \\mathrm{SPACE}(f^2(n))[/$].
 -       guid: krh^gt^rq
         front: |
-                Vztah [$]\\mathrm{PSPACE}[/$]/[$]\\mathrm{NPSPACE}[/$],
-                proč
+                Vztah [$]\\mathrm{PSPACE}[/$]/[$]\\mathrm{NPSPACE}[/$], proč
         back: |
-                [$]\\mathrm{PSPACE}=\\mathrm{NPSPACE}[/$],
-                kvůli Savičově větě.
+                [$]\\mathrm{PSPACE}=\\mathrm{NPSPACE}[/$], kvůli Savičově větě.
 -       guid: gxSycO#{fF
         front: |
                 Definice: Prostorově konstruovatelná funkce [$]f[/$]
@@ -598,7 +596,9 @@ notes:
         front: Bin-packing a first-fit aproximacni faktor
         back: |
                 FF vytvori nejvyse [$]2 \cdot \mathrm{opt}(I)[/$] kosu.
-                Pro kazde [$]m[/$] existuje instance [$]I[/$] kde [$]\mathrm{opt}(I)\geq m[/$] a [$]FF[/$] vytvori aspon [$]5/3 \mathrm{opt}(I)[/$] kosu.
+                [$]\a m[/$] existuje instance [$]I[/$] kde
+                [$]\mathrm{opt}(I)\geq m[/$] a FF vytvori aspon
+                [$]5/3 \mathrm{opt}(I)[/$] kosu.
 -       guid: bQ2BFiiak-
         front: Aproximace TSP a P vs. NP
         back: |

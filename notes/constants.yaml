@@ -136,7 +136,7 @@ notes:
 -       guid: zHT*^@_tZI
         front: 1 AU in km
         back: |
-                1 AU = [$]149.6 \\cdot 10^6 km[/$]
+                [$]1\\ \\mathrm{AU} = 149.6 \\cdot 10^6\\ \\mathrm{km}[/$]
 
                 Průměrná vzdálenost ze středu Země do středu Slunce.
 -       guid: l5/D31S}=-

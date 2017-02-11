@@ -54,19 +54,22 @@ notes:
                 back: |
                         Řez mezi rozhodnutími a K je konfliktní
                         klauzule implikovaná rozhodnutími.
+        -       guid: Q<d1?~PJ8?
+                topic: Řešení SAT
+                front: CDCL - zkratka
+                back: |
+                        Conflict-driven clause learning
         -       guid: FL+xTdt;|.
                 topic: Řešení SAT
-                front: Algoritmus CDCL - za co je to zkratka, co dělá?
+                front: CDCL - postup
                 back: |
-                        Conflict-driven clause learning.<br>
-
                         Udělej unit propagaci a pure variable elimination.<br>
 
                         Opakuj:
                         <ul>
-                        <li>Vyber proměnnou, která ještě není ohodnocená, nebo skonči.
+                        <li>Vyber neohodnocenou proměnnou, nebo skonči.
                         <li>Přidej nové ohodnocení do modelu.
-                        <li>(@) Udělej unit propagaci
+                        <li>(@) Unit propagace
                         <li>Jestli unit propagace dopadla špatně,
                         <li>zanalyzuj konflikt &mdash; najdi backtrack úroveň,
                             vlož novou naučenou klauzuli,
@@ -75,7 +78,7 @@ notes:
                         </ul>
         -       guid: ttY>Zr/}%^
                 topic: Řešení SAT
-                front: Jak v CDCL vybrat vhodnou klauzuli k naučení?
+                front: CDCL - Jak vybrat klauzuli k naučení?
                 back: |
                         Asserting clause: konfliktní klauzule co obsahuje
                         přesně jeden literál ze současného rozhodnutí.
@@ -89,7 +92,7 @@ notes:
                         s opakem literálu z poslední rozhodovací vrstvy.
         -       guid: b]<PZ$|wUn
                 topic: Řešení SAT
-                front: Kam v CDCL backtrackovat?
+                front: CDCL - Kam backtrackovat?
                 back: |
                         Podívej se na klauzuli, kterou ses naučil.
                         Backtrackni do druhé nejhlubší úrovně přiřazení v ní.
@@ -136,11 +139,10 @@ notes:
                         V každé nevyřešené klauzuli označ 2 nedosazené
                         literály.
                         <br>
-                        Pro každou proměnnou udržuj označené výskyty.
-                        Dosadíš [$]x_1=0[/$] &rarr; zkontroluj jenom
-                        klauzule co sledují [$]x_1[/$] &mdash; v nich
-                        hledej další proměnnou ke sledování. Neexistuje-li,
-                        klauzule je jednotková.
+                        Proměnným udržuj označené výskyty. Dosadíš [$]x_1=0[/$]
+                        &rarr; zkontroluj jen klauzule co sledují [$]x_1[/$]
+                        &mdash; v nich hledej další proměnnou ke sledování.
+                        Neexistuje-li, klauzule je jednotková.
         -       guid: LT4-_*222n
                 front: Co udělá sledování dvou literálů při backtracku?
                 back: Nic se nemusí měnit

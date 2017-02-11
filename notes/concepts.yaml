@@ -459,37 +459,33 @@ notes:
 -       guid: C.Sl*FoHe1
         front: Godwin’s Law
         back: |
-                As online discussion grows longer, the probability of a
-                comparison involving Nazis or Hitler approaches 1.
-                At this point, all hope of meaningful conversation is
-                lost and discussion must stop.
+                As online discussion grows, probability of a comparison
+                involving Nazis or Hitler approaches 1. At this point, all hope
+                of meaningful conversation is lost and discussion must stop.
         include_reverse: true
 -       guid: vb,7UaY|vz
         front: Commitment and consistency
         back: |
-                If people commit to an idea or goal, they are more
-                likely to honour the commitment if establishing that
-                idea or goal is consistent with their self-image. Even
-                if the original incentive or motivation is removed
-                after they have agreed, they will continue to honour
-                the agreement.
+                If you commit to an idea or goal, you are more likely to honour
+                the commitment if establishing the idea or goal is consistent
+                with your self-image. Even if the original incentive or
+                motivation is removed after you agreed, you will continue to
+                honour the agreement.
         include_reverse: true
 -       guid: e#Y9,C!J3|
         front: Affective forecasting
         back: |
-                Predicting how happy you will be in the future
-                contingent upon some event or change is hard. We
-                normally guess the effect will be larger than it
-                actually is, because 1) we’ve been asked to think
-                about the event, which makes it seem more important
-                than it really is in everyday happiness, and 2)
-                we underestimate our ability to adapt.
+                Predicting how happy you will be in the future contingent upon
+                some event or change is hard. We normally guess the effect will
+                be larger than it actually is, because 1) we’ve been asked to
+                think about the event, which makes it seem more important
+                than it really is in everyday happiness, and 2) we
+                underestimate our ability to adapt.
         include_reverse: true
 -       guid: eZKXtjur?b
         front: Fermi calculation
         back: |
-                Back-of-the-envelope calculation (number of piano
-                tuners in Chicago)
+                Back-of-the-envelope calculation (piano tuners in Chicago)
         include_reverse: true
 -       guid: pl|ojnFK.`
         front: Reversal test

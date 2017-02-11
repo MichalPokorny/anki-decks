@@ -53,21 +53,22 @@ notes:
         -       guid: vja1A0<b=3
                 front: Kdy je teorie bezesporná, v řeči důkazů?
                 back: |
-                        Není v ní dokazatelné [$]\\perp[/$].
+                        Není v ní dokazatelný [$]\\perp[/$].
         -       guid: s!:lWQ<[fE
                 front: Kdy je teorie kompletní, v řeči důkazů?
                 back: |
-                        Není sporná, pro každou formuli je dokazatelná nebo její opak.
+                        Není sporná a je dokazatelná každá formule nebo její opak.
         -       guid: s-*}Fq&GS%
                 front: Kdy je [$]T[/$] nad [$]P[/$] extenze teorie [$]T'[/$] nad [$]P'[/$]
                         v řeči důkazů? Kdy je konzervativní?
                 back: |
-                        Když [$]P'\\subseteq P[/$] a [$]\\mathrm{Thm}^{P'}(T')\\subseteq \\mathrm{Thm}^P(T)[/$].
+                        Když [$]P'\\subseteq P[/$] a
+                        [$]\\mathrm{Thm}^{P'}(T')\\subseteq \\mathrm{Thm}^P(T)[/$].
                         <br><br>
-                        Konzervativní: [$]\\mathrm{Thm}^{P'}(T')=\\mathrm{Thm}^P(T)\\cap VF_{P'}[/$]
+                        Konzervativní:
+                        [$]\\mathrm{Thm}^{P'}(T')=\\mathrm{Thm}^P(T)\\cap \\mathrm{VF}_{P'}[/$]
         -       guid: bvphP|h#ud
                 front: Věta o kompaktnosti
                 back: |
                         Teorie má model právě když každá její konečná část má model.<br>
-
-                        Zleva doprava: OK. Zprava doleva: tablo důkaz sporu je konečný.<br>
+                        Zleva doprava: OK. Zprava doleva: tablo důkaz sporu je konečný.

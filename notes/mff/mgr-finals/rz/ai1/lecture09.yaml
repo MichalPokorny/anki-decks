@@ -25,7 +25,7 @@ notes:
                            q_1\wedge q_2\wedge\ldots\wedge q_n\rightarrow q
                            \Longrightarrow \mathrm{subst}(\Theta,q)[/$],
                         kde [$]\Theta[/$] je substituce že
-                        [$]\mathrm{subst}(\Theta,p_i)=\mathrm{Subst}(\Theta,q_i)[/$]
+                        [$]\mathrm{subst}(\Theta,p_i)=\mathrm{subst}(\Theta,q_i)[/$]
                         <br>
                         Funguje na Hornovské klauzule.
         -       guid: L-~k`yk.l)
@@ -49,17 +49,20 @@ notes:
         -       guid: sbjGp[e3P)
                 front: Forward-chaining algoritmus v FOL s Horn-klauzulemi, nevýhody
                 back: |
-                        Pro každou klauzuli v KB, ve které přejmenuju proměnné aby byly různé od mých:
-                        pokud se to dá zunifikovat s něčím co už je v KB a konsekvent není přejmenování něčeho co už máme:
-                        přidej to do KB. jestli odvodím hledanou věc, vrať že to jde přidat.<br>
+                        Pro každou klauzuli v KB, ve které přejmenuju proměnné
+                        aby byly různé od mých:
+                        pokud se to dá zunifikovat s něčím co už je v KB a
+                        konsekvent není přejmenování něčeho co už máme:
+                        přidej to do KB. jestli odvodím hledanou věc, vrať že
+                        to jde přidat.<br>
 
                         Problém: [$]R(x) \\longrightarrow R(S(x))[/$] odvodí nekonečně mnoho faktů
         -       guid: cp_MapU.-c
                 front: Složitost pattern-matchingu při hledání, jestli je splněné
                         tělo klauzule
                 back: |
-                        NP-kompletní. Dá se na to převést barvení grafu
-                        ([$]\\mathrm{diff}(\\mathrm{red},\\mathrm{green}), \\ldots, \\mathrm{diff}(\\mathrm{Wa},\\mathrm{Nt}) \\wedge \\mathrm{diff}(\\mathrm{Nt},\\mathrm{Sf}) \\wedge \\ldots \\Rightarrow \\mathrm{Colorable}[/$])
+                        NP-kompletní. Dá se na to převést barvení grafu:<br>
+                        [$]\\mathrm{diff}(\\mathrm{red},\\mathrm{green}), \\ldots, \\mathrm{diff}(\\mathrm{Wa},\\mathrm{Nt}) \\wedge \\mathrm{diff}(\\mathrm{Nt},\\mathrm{Sf}) \\wedge \\ldots \\Rightarrow \\mathrm{Colorable}[/$]
         -       guid: J`4Y/Z90:}
                 front: 3 heuristiky k pattern-matchingu v FOL
                 back: |

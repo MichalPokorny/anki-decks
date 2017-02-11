@@ -29,7 +29,7 @@ notes:
         -       guid: zuaet0&@&l
                 front: Plná forma updatu - váhy do výstupní vrstvy
                 back: |
-                        [$]w_{ij} -= (y_j - d_j) f'(\\xi_j) y_i[/$$]
+                        [$]w_{ij}-=(y_j-d_j)f'(\\xi_j)y_i[/$]
         -       guid: eH*m2,N{O=
                 front: Plná forma updatu - váhy do skrytých vrstev
                 markdown: false
@@ -135,27 +135,30 @@ notes:
                 topic: Adaptivní parametr učení
                 front: Silva-Almeida heuristika
                 back: |
-                        Jestli se nezměnilo znaménko parciální derivace,
-                        urychluj ([$]\\cdot \\uparrow[/$]).
-                        Když se změnilo, zpomaluj ([$]\\cdot\\downarrow[/$]).
+                        Nezměnilo se znaménko parciální derivace &rarr;
+                        zrychli ([$]\\cdot \\uparrow[/$]).
+                        Změnilo se &rarr; zpomal ([$]\\cdot\\downarrow[/$]).
         -       guid: 'ftU5f,7>[:'
                 topic: Adaptivní parametr učení
+                markdown: false
                 front: |
                         Delta-bar-delta algoritmus, proč je lepší
                         než Silva-Almeida
                 back: |
-                        Není tak citlivý na exponenciální růst když se moc
-                        dlouho zrychluje.
+                        Není tak citlivý na exponenciální růst když se dlouho
+                        zrychluje.
                         <br><br>
 
-                        [$]\\delta_{i}^{(k)} =
-                        (1-\\Phi)\\frac{\\partial E}{\\partial \\xi_{i}} + \\Phi \\delta_i^{(k+1)}[/$],
-                        kde [$]\\Phi[/$] je konstanta.
+                        [$]\delta_{i}^{(k)} =
+                        (1-\Phi)\frac{\partial E}{\partial\xi_{i}}+\Phi\delta_i^{(k+1)}[/$],
+                        kde [$]\Phi[/$] je konstanta.
                         <br><br>
-
-                        Když [$]\\delta_{i}^{(k-1)} \\cdot \\frac{\\partial E}{\\partial \\xi_{i}} > 0[/$], tak [$]\\alpha_{i} += \\uparrow[/$], jinak [$]/= \\downarrow[/$].
+                        Když [$]\delta_{i}^{(k-1)}\cdot\frac{\partial E}{\partial\xi_{i}}>0[/$],
+                        tak [$]\alpha_{i}+=\uparrow[/$],
+                        jinak [$]/=\downarrow[/$].
                         <br><br>
-                        Aktualizace vah je bez momentu: [$]w_i -= \\alpha_i^{(k)} \\delta_i^{(k)} y_i^{(k)}[/$].
+                        Aktualizace vah bez momentu:
+                        [$]w_i -= \alpha_i^{(k)} \delta_i^{(k)} y_i^{(k)}[/$]
         -       guid: q5WAC:H.f]
                 topic: Adaptivní parametr učení
                 front: Super-SAB algoritmus
@@ -169,7 +172,7 @@ notes:
                              tvař že změna v téhle souřadnici byla 0.
                         </ul>
         -       guid: g=jf@&=Irr
-                front: Taylorova řada pro aproximaci E druhého řádu
+                front: Taylorova řada pro aproximaci [$]E[/$] druhého řádu
                 back: |
                         [$]E(w+h)\\approx
                         E(w)+\\nabla E(w)^T\\cdot h+\\frac{1}{2}h^T \\nabla^2 E(w) h[/$]
@@ -202,7 +205,7 @@ notes:
                         Adaptační vzoreček
                 back: |
                         [$]
-                        w_{ij} -= \\frac{\\nabla_{ij} E(w)}{\\frac{\\partial^2 E(w)}{\\partial w_{ij}^2}}
+                        w_{ij}-=\\frac{\\nabla_{ij}E(w)}{\\frac{\\partial^2 E(w)}{\\partial w_{ij}^2}}
                         [/$]
         -       guid: v($Fn<*4b6
                 topic: Pseudonewtonovské metody
@@ -213,23 +216,24 @@ notes:
         -       guid: Lsu~CCVFe=
                 topic: Algoritmus QuickProp
                 front: Alternativní způsob psaní aktualizace. Čemu odpovídá jmenovatel?
+                markdown: false
                 back: |
-                        [$]w_{ij} += \\Delta^{(k)} w_i[/$]<br>
+                        [$]w_{ij}+=\Delta^{(k)}w_i[/$]<br>
 
-                        [$$]\\Delta^{(k)} w_i = \\Delta^{(k-1)} w_i \\cdot \\frac{\\nabla_i E^{(k)}}{\\nabla_i E^{(k-1)} - \\nabla_i E^{(k)}}[/$$]<br>
+                        [$]\Delta^{(k)}w_i=\Delta^{(k-1)}w_i\cdot\frac{\nabla_i E^{(k)}}{\nabla_i E^{(k-1)}-\nabla_i E^{(k)}}[/$]<br>
 
                         Jde psát taky:
-                        [$$]
-                        \\Delta^{(k)}w_i = -\\frac{\\nabla_i E^{(k)}}{\\frac{\\nabla_i E^{(k)}-\\nabla_i E^{(k-1)}}{\\Delta^{(k-1)}w_i}}
-                        [/$$]<br>
+                        [$]
+                        \Delta^{(k)}w_i=-\frac{\nabla_i E^{(k)}}{\frac{\nabla_i E^{(k)}-\nabla_i E^{(k-1)}}{\Delta^{(k-1)}w_i}}
+                        [/$]<br>
 
-                        Jmenovatel je diskrétní aproximace parciální derivace [$]\\partial^2 E(w) / \\partial w_i^2[/$]
+                        Jmenovatel: diskrétní aproximace [$]\partial^2 E(w)/\partial w_i^2[/$]
         -       guid: HjwsRi|sC(
                 front: Levenberg-Marquardtův algoritmus
                 back: |
                         Je rychlejší a přesnější v oblasti minima [$]E[/$].
                         Kombinace gradientní a Newtonovy metody.
-                        [$$]w_{\\min}=w_0-(H+\\lambda I)^{-1} \\cdot g[/$$], kde [$]g[/$] je gradient, [$]H[/$] je Hessovská matice<br>
+                        [$]w_{\\min}=w_0-(H+\\lambda I)^{-1} \\cdot g[/$], kde [$]g[/$] je gradient, [$]H[/$] je Hessovská matice<br>
 
                         Pro 1 výstup: [$]g_i = \\partial E/\\partial w_i = 2(y-d)\\frac{\\partial y}{\\partial w_i}[/$]<br>
 
@@ -238,15 +242,15 @@ notes:
         -       guid: hX-)+fD+>i
                 front: Relaxační metody - perturbace vah
                 back: |
-                        Pro náhodně zvolenou váhu spočítám chybovou funkci když
-                        ji trochu posunu, podle toho spočítám diskrétní
-                        aproximaci gradientu a aktualizuju.
+                        Pro náhodnou váhu spočítej chybovou funkci když se
+                        trochu posune, podle spočítej diskrétní aproximaci
+                        gradientu, aktualizuj.
         -       guid: yZfye4Mf1D
                 front: Alternativní perturbační metoda s rychlejší konvergencí
                 back: |
-                        Zperturbuju výstup neuronu [$]i[/$] ([$]o_i[/$])
+                        Zperturbuj [$]o_i[/$] - výstup neuronu [$]i[/$] -
                         o [$]\\Delta o_i[/$].
-                        Spočítám rozdíl chyb. Jestli se zlepší, spočítám,
+                        Spočítej rozdíl chyb. Zlepší se &rarr; spočítej,
                         jak má vypadat potenciál, aby měl neuron tenhle
-                        výstup. Adaptuju váhy proporcionálně k velikosti
-                        ([$]w_i'/\\xi' = w_i/\\xi[/$]).
+                        výstup. Adaptuj váhy proporcionálně k velikosti:
+                        [$]w_i'/\\xi'=w_i/\\xi[/$].

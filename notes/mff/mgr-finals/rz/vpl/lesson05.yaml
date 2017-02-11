@@ -28,20 +28,36 @@ notes:
                         Taky je úplný. (Ale bez důkazu.)
         -       guid: GywkefmU|$
                 topic: Výroková logika
-                front: Rezoluční metoda - množinová reprezentace
+                front: |
+                        Rezoluční metoda - množinová reprezentace<br>
+                        Definice: Klauzule
                 back: |
-                        Klauzule je konečná množina kladných nebo záporných literálů.
-                        Formula je (i nekonečná) množina klauzulí.
-                        (Částečné) hodnocení je libovolná konzistentní množina literálů.
+                        Konečná množina kladných nebo záporných literálů
+        -       guid: zM<LYTU)J>
+                topic: Výroková logika
+                front: |
+                        Rezoluční metoda - množinová reprezentace<br>
+                        Definice: Formule
+                back: |
+                        (I nekonečná) množina klauzulí
+        -       guid: v!aE_o~L{*
+                topic: Výroková logika
+                front: |
+                        Rezoluční metoda - množinová reprezentace<br>
+                        Definice: Ohodnocení
+                back: |
+                        (Částečné) ohodnocení je libovolná konzistentní množina
+                        literálů
         -       guid: mtR/6vT6Ue
                 topic: Výroková logika
                 front: Rezoluční pravidlo
                 back: |
-                        Ať je [$]C_1[/$], [$]C_2[/$] klauzule, [$]l\\in C_1, \\overline{l}\\in C_2[/$] nějaký
-                        literál v [$]l[/$].
-                        Z [$]C_1[/$] a [$]C_2[/$] odvodím přes literál [$]l[/$] klauzuli [$]C[/$], zvanou *rezolventa*:<br>
+                        Ať je [$]C_1[/$], [$]C_2[/$] klauzule, [$]l\\in C_1,
+                        \\overline{l}\\in C_2[/$].
+                        Z [$]C_1[/$] a [$]C_2[/$] odvodím přes [$]l[/$]
+                        klauzuli [$]C[/$] (<i>rezolventa</i>):<br>
 
-                        [$$]C=(C_1\\setminus\\{l\\}) \\vee (C_2\\setminus\\{\\overline{l}\\})[/$$]<br>
+                        [$]C=(C_1\\setminus\\{l\\}) \\vee (C_2\\setminus\\{\\overline{l}\\})[/$]<br>
 
                         Je korektní.
         -       guid: ntMB83>e>m

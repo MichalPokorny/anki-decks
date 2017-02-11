@@ -6,11 +6,11 @@ notes:
                 back: |
                         Node:
                         <ul>
-                        <li> *Chance* [$]\\circ[/$]: náhodné proměnné (jako v
-                        Bayesovských sítích)
-                        <li> *Decision* [$]\\square[/$]: kde decision maker
-                        dělá rozhodnutí
-                        <li> *Utility* [$]\\diamond[/$]: utilita
+                        <li> *Chance* [$]\\circ[/$]: náhodné proměnné (jako
+                        Bayesovské sítě)
+                        <li> *Decision* [$]\\square[/$]: decision maker
+                        rozhoduje
+                        <li> *Utility* [$]\\diamond[/$]
                         </ul>
         -       guid: AP5ZA6p(;-
                 front: Sensitivity analysis

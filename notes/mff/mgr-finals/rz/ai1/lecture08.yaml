@@ -98,12 +98,12 @@ notes:
         -       guid: hb;A:~Wk?A
                 front: Forward-chaining ve výrokové logice - algoritmus, časová složitost
                 back: |
-                        Funguje na Hornovské klauzule.
-                        Ze známých faktů odvodíme všechno, co můžeme.<br>
+                        Funguje na Hornovské klauzule. Ze známých faktů odvoď
+                        vše co jde.<br>
 
-                        Pro každou klauzuli si budu držet počet zatím nesplněných
-                        předpokladů. Když dosáhnu 0, tak odvodím-li hledaný důsledek,
-                        vrátím 0, jinak přidám odvozený symbol do agendy.<br>
+                        Pro klauzule drž počet zatím nesplněných předpokladů.
+                        Dosáhne 0 &rarr; odvodíš-li hledaný důsledek, vrátím
+                        úspěch, jinak přidej odvozený symbol do agendy.<br>
 
-                        Je to úplný a korektní algoritmus pro Hornovy klauzule.
-                        Má lineární složitost vzhledem k velikosti KB.
+                        Úplný a korektní algoritmus pro Hornovy klauzule.
+                        Lineární složitost vzhledem k velikosti KB.

@@ -57,12 +57,13 @@ notes:
                 front: |
                         Různá pravidla učení pro sítě na kompetiční učení
                         bez učitele
+                markdown: false
                 back: |
                         <ul>
                         <li> Aktualizace pomocí parametru učení:
-                             [$]\\Delta w = \\eta x_j[/$]
+                             [$]\Delta w = \eta x_j[/$]
                         <li> Diferenční:
-                             [$]\\Delta w = \\eta (x_j - w)[/$]<br>
+                             [$]\Delta w = \eta (x_j - w)[/$]<br>
                         <li> Dávková aktualizace
                         </ul>
         -       guid: M}~N<0CzeR

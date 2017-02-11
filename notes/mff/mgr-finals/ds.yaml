@@ -60,14 +60,10 @@ notes:
         front: |
                 [$] (a,b)[/$]-strom &mdash; Join &mdash; Postup
         back: |
-                Spojí ztromy [$]T_1[/$], [$]T_2[/$], pokud [$]\\max T_1 < \\min T_2[/$].<br>
-
-                Ať je [$]T_1[/$] ten vyšší. [$]r=d(T_1) - d(T_2)[/$]<br>
-
-                Syny kořene [$]T_2[/$] přidej najednou k synům
-                posledního vrcholu na hladině [$]r[/$] ve stromě
-                [$]T_1[/$].
-                Pokud bude mít moc synů, rozštěp ho jako při Insertu.
+                Spojí ztromy [$]T_1[/$], [$]T_2[/$], pokud [$]\\max T_1<\\min T_2[/$].<br>
+                Ať je [$]T_1[/$] vyšší. Syny kořene [$]T_2[/$] přidej najednou
+                k synům posledního vrcholu hladiny [$]d(T_1)-d(T_2)[/$] v
+                [$]T_1[/$]. Bude mít moc synů &rarr; štěp jako při Insertu.
 -       guid: h0nUH4=nh#
         front: |
                 [$] (a,b)[/$]-strom &mdash; Join &mdash; Složitost
@@ -77,15 +73,12 @@ notes:
         front: |
                 [$] (a,b)[/$]-strom &mdash; Split
         back: |
-                Rozdělí strom na 2, jeden s klíči [$]<k[/$], druhý [$]\\geq k[/$].<br>
+                Rozdělí strom na 2: klíče [$]<k[/$], klíče [$]\\geq k[/$].<br>
 
-                Máme 2 zásobníky: jeden pro levé stromy, druhý pro
-                pravé.<br>
-                Postupuj jako při Find, rozděluj přitom na [$]T_L[/$],
-                [$]T_k[/$], [$]T_P[/$].<br>
-                Postupně plň zásobníky.
-                Pak postupně pojoinuj stromy v zásobnících,
-                takže Split bude trvat [$]\\O(\\log n)[/$].
+                2 zásobníky: jeden pro levé stromy, druhý pro pravé.<br>
+                Jako Find, rozděluj přitom na [$]T_L[/$], [$]T_k[/$],
+                [$]T_P[/$], Postupně plň zásobníky, nakonec je zjoinuj tak
+                aby Split trval [$]\\O(\\log n)[/$].
 -       guid: O]TYMi?dnk
         front: |
                 [$] (a,b)[/$]-strom &mdash; amortizovaný počet štěpení
@@ -100,9 +93,9 @@ notes:
 -       guid: eC?Uo6Cz1!
         front: A-sort a jeho složitost
         back: |
-                Postupně vkládej do [$] (a,b)[/$]-stromu, pak je vypiš během DFS.<br>
-
-                Drž si prst na poslední vložený prvek, od něj dělej hledání při vkládání dalšího.<br>
+                Vkládej do [$] (a,b)[/$]-stromu, pak vypiš DFS.<br>
+                Drž prst na poslední vložený prvek, od něj hledej při dalším
+                vkládání.<br>
 
                 Celkový čas: [$]\\leq 2 \\sum_{i=1}^n \\log_a |{j\\leq i, x_i < x_j}| + \\O(n)[/$]<br>
 
@@ -733,18 +726,18 @@ notes:
 -       guid: i&/Q+OPI$l
         front: Co je to univerzální hashovací systém?
         back: |
-                Pro každé pevné [$]x,y[/$]:
-                [$]P_{h\in H}[h(x)=h(y)]=\frac{1}{m}[/$]
+                [$]\a x\neq y: \mathrm{P}_{h\in H}[h(x)=h(y)]=\frac{1}{m}[/$]
                 <br>
-                Neboli: pravděpodobnost kolize dvou prvků je stejná
-                jako u náhodné funkce.
+                Neboli: kolize dvou prvků stejně pravděpodobná jako u náhodné
+                funkce.
 -       guid: f4s8D3J*ZJ
         front: |
                 Definice: [$]k[/$]-univerzální hashovací systém
                 (po [$]k[/$] nezávislá hashovací funkce)
+        markdown: false
         back: |
-                Pro libovolná [$]x_1,\\ldots x_k\\in U, a_1,\\ldots a_k\\in [m][/$]:
-                [$]P_{h\\in H}[h(x_1)=a_1\\wedge\\ldots\\wedge h(x_k)=a_k]=1/m^k[/$]
+                [$]\a (x_{1\ldots k}\in U, a_{1\ldots k}\in [m]):
+                \mathrm{P}_{h\in H}[h(x_1)=a_1,\ldots h(x_k)=a_k]=\frac{1}{m^k}[/$]
 -       guid: M)MHHi/%6`
         front: |
                 5 příkladů: 2-univerzální hashovací systémy

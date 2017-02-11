@@ -62,49 +62,51 @@ notes:
                         Je to Booleova algebra izomorfní potenční algebře [$]P(M(T))[/$].
         -       guid: Qx|)8I(9m@
                 front: |
-                        Počet:
-                        Neekvivalentní výroky nad [$]P[/$]
+                        Počet: Neekvivalentní výroky nad [$]P[/$]
                 back: |
-                        [$]2^{2^n}[/$], kde [$]n=|P|[/$]
+                        [$]2^{2^n}[/$] ([$]n=|P|[/$])
         -       guid: z]kirpGG2Z
                 front: |
-                        Počet:
-                        Neekvivalentní výroky nad [$]P[/$] pravdivé(lživé) v teorii [$]T[/$]
+                        Počet: Neekvivalentní výroky nad [$]P[/$]
+                        pravdivé(lživé) v teorii [$]T[/$]
                 back: |
-                        [$]2^{2^n - m}[/$], kde [$]n=|P|[/$], [$]m=|M^{P}(T)|[/$]
+                        [$]2^{2^n - m}[/$] ([$]n=|P|[/$], [$]m=|M^{P}(T)|[/$])
         -       guid: u>),:P[_6x
                 front: |
-                        Počet:
-                        Neekvivalentní výroky nad [$]P[/$] nezávislých na teorii [$]T[/$]
+                        Počet: Neekvivalentní výroky nad [$]P[/$] nezávislé
+                        na teorii [$]T[/$]
                 back: |
                         [$]2^{2^n} - 2 \\cdot 2^{2^n-m}[/$]
         -       guid: jT]4S+X>nh
                 front: |
-                        Počet:
-                        Neekvivalentní jednoduché extenzí teorie [$]T[/$]
+                        Počet: Neekvivalentní jednoduché extenzí teorie
+                        [$]T[/$]
                 back: |
-                        [$]2^m[/$], kde [$]m=|M^P(T)|[/$]
+                        [$]2^m[/$] ([$]m=|\\mathrm{M}^P(T)|[/$])
         -       guid: NfQ~3X<?IL
                 front: |
-                        Počet: Neekvivalentní kompletní jednoduché extenzí teorie [$]T[/$]
+                        Počet: Neekvivalentní kompletní jednoduché extenze
+                        teorie [$]T[/$]
                 back: |
-                        [$]m[/$], kde [$]m=|M^P(T)|[/$]
+                        [$]m[/$] ([$]m=|\\mathrm{M}^P(T)|[/$][/$]
         -       guid: b?7c(g9{~|
                 front: |
                         Počet: [$]T[/$]-neekvivalentní výroky nad [$]P[/$]
                 back: |
-                        [$]2^m[/$], kde [$]m=|M^P(T)|[/$]
+                        [$]2^m[/$] ([$]m=|\\mathrm{M}^P(T)|[/$])
         -       guid: CreDL@+0pw
                 topic: Výroková logika
                 front: |
-                        Počet: [$]T[/$]-neekvivalentní výroky co jsou v [$]T[/$] pravdivé(lživé)
+                        Počet: [$]T[/$]-neekvivalentní výroky co jsou
+                        v [$]T[/$] pravdivé(lživé)
                 back: 1
         -       guid: d4i;6Q~OrR
                 topic: Výroková logika
                 front: |
-                        Počet: [$]T[/$]-neekvivalentní výroky nad [$]P[/$] nezávislé v [$]T[/$]
+                        Počet: [$]T[/$]-neekvivalentní výroky nad [$]P[/$]
+                        nezávislé v [$]T[/$]
                 back: |
-                        [$]2^m-2[/$], kde [$]m[/$] je počet modelů [$]T[/$]
+                        [$]2^m-2[/$] ([$]m=|\\mathrm{M}^P(T)|[/$])
         -       guid: sVCdgt7ZbK
                 front: |
                         Značení: [$]\\varphi[/$] je dokazatelná z [$]T[/$]?
@@ -114,7 +116,8 @@ notes:
                 topic: Výroková logika
                 front: Tablo metoda - předpoklady
                 back: |
-                        Jazyk je pevný a nejvýše spočetný, tedy taky nejvýše spočetné teorie.
+                        Pevný a nejvýše spočetný jazyk, tedy nejvýše spočetné
+                        teorie.
         -       guid: l3Wd5|O9a*
                 topic: Výroková logika
                 front: Tablo metody - neformálně, co to je tablo, jak vypadá důkaz,

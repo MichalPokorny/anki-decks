@@ -4,7 +4,7 @@ topic: Plánovací heuristiky
 notes:
         # planovani lecture09
         -       guid: pujuXK=e/5
-                front: Jak zlepšit efektivitu plánovacích algoritmů?
+                front: 3 způsoby zefektivnění plánovacích algoritmů
                 back: |
                         <ul>
                         <li><i>Heuristiky</i>: problémově závislí průvodci

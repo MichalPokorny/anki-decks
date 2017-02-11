@@ -122,15 +122,29 @@ notes:
                 topic: Predikátová logika
                 front: Hodnota atomické formule
                 back: |
-                        Hodnota [$]H_{at}^{A}(\\varphi)[e][/$]: pro atomickou formuli ([$]=^A[/$] je [$]Id_A[/$]).
+                        Hodnota [$]H_{\\mathrm{at}}^{A}(\\varphi)[e][/$]: pro atomickou formuli ([$]=^A[/$] je [$]\\mathrm{Id}_A[/$]).
                         Když je [$]\\varphi[/$] sentence, hodnota nezáleží na ohodnocení.
+        -       guid: QtbD%NJD~*
+                topic: Predikátová logika
+                front: |
+                        Značení: Hodnota neatomické formule [$]\\varphi[/$] v
+                        [$]A[/$] při hodnocení [$]e[/$]
+                back: |
+                        [$]H^A(\\varphi)[e][/$]
         -       guid: owS2!sh&D_
                 topic: Predikátová logika
-                front: Hodnota neatomické formule
+                front: |
+                        Jak se definuje hodnota neatomické formule?
                 back: |
-                        Použiju Booleovské funkce definované tabulkami.<br>
-                        Nad strukturou: [$]H^A((\a x)\\varphi)[e] = \\min_{a\\in A}(H^A(\\varphi)[e(x/a)])[/$]
-                        Záleží jenom na volných proměnných.
+                        Přes Booleovské funkce definované tabulkami.
+                        Nad strukturou: [$]H^A((\a x)\\varphi)[e]=
+                        \\min_{a\\in A}(H^A(\\varphi)[e(x/a)])[/$]
+        -       guid: F+7m[d}z53
+                topic: Predikátová logika
+                front: |
+                        Na čem záleží hodnota formule?
+                back: |
+                        Jenom na volných proměnných.
         -       guid: we<^>U&kJ#
                 topic: Predikátová logika
                 front: Značení - hodnota formule při ohodnocení ve struktuře

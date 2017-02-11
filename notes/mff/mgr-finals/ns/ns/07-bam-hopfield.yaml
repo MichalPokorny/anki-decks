@@ -48,49 +48,51 @@ notes:
                         [$$]e^T:=W\cdot y_0[/$$]<br>
 
                         [$] (x_0,y_0)[/$] je stabilni stav, kdyz [$]\\sgn(e)=x_0[/$]
-                        (skalarni soucin [$]x_0 \\cdot e^T[/$] by mel byt vetsi nez skalarni soucin jinych excitacnich vektoru a [$]x_0[/$])<br>
+                        (skalarni soucin [$]x_0 \\cdot e^T[/$] by mel byt vetsi
+                        nez skalarni soucin jinych excitacnich vektoru a
+                        [$]x_0[/$])<br>
 
                         Energeticka funkce: [$]E:=-x_0 W y_0^T[/$].<br>
                         Když [$]Wy_0[/$] je blíž k [$]x_0[/$], tak tenhle krok ji zmenší.<br>
                         Lokální minima odpovídají stabilním stavům.
         -       guid: f(lTm{..0$
                 topic: BAM
+                markdown: false
                 front: Zobecnění energetické funkce, když přidáme práh
                 back: |
-                        Vektory [$]x[/$] transformujeme: přidáme 1 na konec.
-                        Jako bychom přidali do obou vrstev neuron s výstupem 1.
-
-                        [$]E(x_i,y_i) = -\\frac{1}{2}x_i W y_i^T + \\frac{1}{2}\\theta_r y_i^T + \\frac{1}{2}x_i \\theta_l^T[/$]
+                        [$]x,y[/$] transformujeme: přidáme 1 na konec,
+                        jako bychom přidali do vrstev neuron s výstupem 1.
+                        <br>
+                        [$]E(x,y)=-\frac{1}{2}x W y^T +
+                        \frac{1}{2}\theta_r y^T+\frac{1}{2}x\theta_l^T[/$]
         -       guid: l}=r*8y`FI
                 front: Asynchronní BAM a konvergence
                 back: |
                         Vyberu náhodný neuron, upravím výstup podle jeho
-                        excitace.
-                        Končím když jsem v stabilním stavu.
+                        excitace. Končím když jsem v stabilním stavu.
 
                         Asynchronní sítě konvergují, protože změna neuronu
                         vždycky sníží [$]E[/$] a je konečně mnoho stavů.
-
-                        To platí i pro sítě se synchronní dynamikou.
         -       guid: KSz&jBZ=eq
                 front: Hopfieldova síť
                 back: |
-                        Bipolární neurony se skokovou přenosovou funkcí,
+                        Bipolární neurony, přenosová funkce [$]\\sgn[/$],
                         propojené všechny se všemi.
                         Na učení bez učitele, optimalizaci.
                         Neodděluje vstupní a výstupní neurony.
         -       guid: DxYK=A]0:O
                 front: Učení Hopfieldových sítí
                 back: |
-                        [$]w_{ij} = \\sum_{s=1}^m x_{i}^{(s)} x_j^{(s)}
+                        [$]
+                        w_{ij} = \\sum_{s=1}^m x_{i}^{(s)} x_j^{(s)} \\
+                        w_{ii} = 0
                         [/$]
-                        Když [$]i=j[/$], tak je to 0.
         -       guid: rQf{UmJc<+
                 topic: Hopfieldovy sítě
                 front: Průběh výpočtu Hopfieldovy sítě
                 back: |
                         Vyber náhodný neuron k aktualizaci.
-                        Opakuj dokud se neustálí.
+                        Opakuj do konvergence.
                         Výstup je pak vzor, který se nejvíc podobal
                         předloženému vektoru.
         -       guid: jcCm9L+*DW
@@ -105,21 +107,22 @@ notes:
                         Kdy je stav stabilní?
                 back: |
                         [latex]
-                        \\begin{align*}
-                        \\xi & = & x_1 \\cdot W = x_1 \\cdot (x_1^T x_1 + \\ldots + x_m^T x_m - mI) = \\\\\\\\
-                             & = & (x_1 x_1^T) x_1 + (x_1 x_2^T) x_2 + \\ldots + (x_1 x_m^T) x_m - m x_1 I
-                        \\end{align*}
+                        \begin{align*}
+                        \xi & = & x_1 \cdot W = x_1 \cdot (x_1^T x_1 + \ldots + x_m^T x_m - mI) = \\
+                            & = & (x_1 x_1^T) x_1 + (x_1 x_2^T) x_2 + \ldots + (x_1 x_m^T) x_m - m x_1 I
+                        \end{align*}
                         [/latex]
 
-                        Přitom: [$]x_1 x_1^T = n[/$], označíme:
-                        [$]x_1 x_2^T =: \\alpha_{12}[/$].
+                        Přitom: [$]x_1 x_1^T = n[/$], označ:
+                        [$]x_1 x_2^T\equiv\alpha_{12}[/$].
 
                         Pak:
-                        [$]\\xi = (n-m)x_1 + \\underbrace{\\sum_{j=2}^m \\alpha_{1j}x_j}_{\\text{perturbace}}[/$]
+                        [$]\xi=(n-m)x_1+\underbrace{\sum_{j=2}^m \alpha_{1j}x_j}_{\text{perturbace}}[/$]
 
-                        Stav je stabilní, když [$]m<n[/$] a perturbace je malá,
-                        pak [$]\\sgn(\\xi)=\\sgn(x_1)[/$]. Chceme malý počet
-                        ortogonálních vzorů.
+                        [$]m<n[/$] a perturbace je malá &rarr;
+                        [$]\sgn(\xi)=\sgn(x_1)[/$], stav je stabilní. Chceme
+                        malý počet ortogonálních vzorů.
+                markdown: false
         -       guid: x]r)`o`dao
                 topic: Asynchronní BAM sítě
                 front: Synchronní a asynchronní BAM a maticové stabilní stavy
@@ -135,8 +138,9 @@ notes:
         -       guid: zr){OAvIRg
                 topic: Hopfieldovy sítě
                 front: Energetická funkce s prahy
+                markdown: false
                 back: |
-                        [$]E(x)=-\\frac{1}{2}x^T Wx+\\theta^T x[/$]
+                        [$]E(x)=-\frac{1}{2}x^T Wx+\theta^T x[/$]
         -       guid: kV>nY*apFY
                 front: |
                         K čemu je perceptronové učení Hopfieldových sítí?
@@ -157,7 +161,8 @@ notes:
                         Neuron 2: [$]\\sgn(x_2) z_2 \\cdot v > 0[/$],
                         atd.
 
-                        Každý vzor transformujeme do [$]n[/$] "pomocných" podvzorů, co odpovídají všem rovnicím co máme splnit.
+                        Každý vzor transformuj do [$]n[/$] "podvzorů", co
+                        odpovídají všem rovnicím ke splnění.
         -       guid: yAp<U+$Fn3
                 front: |
                         Použití Hopfieldova modelu na řešení optimalizačních
@@ -214,37 +219,38 @@ notes:
         -       guid: h4*OXPHmo^
                 topic: Zespojitěné Hopfielovy sítě
                 front: Proč konverguje do lokálního optima?
+                markdown: true
                 back: |
-                        [$]dE/dt = -\\sum_{i=1}^n \\sum_{j=1}^n w_{ij} \\frac{dx_i}{dt} x_j + \\sum_{i=1}^n \\sigma^{-1}(x_i) \\frac{dx_i}{dt}[/$]<br>
+                        [$]dE/dt=-\sum_{i=1}^n\sum_{j=1}^n w_{ij}\frac{dx_i}{dt}x_j+\sum_{i=1}^n\sigma^{-1}(x_i)\frac{dx_i}{dt}[/$]<br>
 
-                        Síť je symetrická a [$]u_i=\\sigma^{-1}(x_i)[/$] &rarr;
-                        [$]dE/dt=-\\sum_{i=1}^n \\frac{dx_i}{dt}(\\sum_{j=1}^n w_{ij}x_j - u_i)[/$]<br>
+                        Symetrická síť, [$]u_i=\\sigma^{-1}(x_i)[/$] &rarr;
+                        [$]dE/dt=-\sum_{i=1}^n\frac{dx_i}{dt}(\sum_{j=1}^n w_{ij}x_j-u_i)[/$]<br>
 
-                        Přitom [$]du_i/dt = \\gamma(\\sum_{j=1}^n w_{ij}x_j - u_i)[/$], tedy
-                        [$]dE/dt=-\\frac{1}{\\gamma}\\sum_{i=1}^n \\frac{dx_i}{dt}\\frac{du_i}{dt}[/$]<br>
+                        [$]du_i/dt=\gamma(\sum_{j=1}^n w_{ij}x_j-u_i)[/$] &rarr;
+                        [$]dE/dt=-\frac{1}{\gamma}\sum_{i=1}^n \frac{dx_i}{dt}\frac{du_i}{dt}[/$]<br>
                         <br>
 
                         Dosaď [$]x_i=\\sigma(u_i)[/$]:
-                        [$]dE/dt = -\\frac{1}{\\gamma}\\sum_{i=1}^n \\sigma'(u_i) (\\frac{du_i}{dt})^2[/$]<br>
+                        [$]dE/dt=-\frac{1}{\gamma}\sum_{i=1}^n \sigma'(u_i)(\frac{du_i}{dt})^2[/$]<br>
                         <br>
 
-                        [$]\\sigma'(x_i)>0[/$] (sigmoida roste) a [$]\\gamma>0[/$], tak [$]dE/dt\\leq 0[/$].
+                        [$]\sigma'(x_i)>0[/$] ([$]\\sigma[/$] roste), [$]\gamma>0[/$] &rarr; [$]dE/dt\leq 0[/$]
         -       guid: uj+Xn`iDrU
                 front: Simulované žíhání
                 back: |
-                        Pokud změna sníží energii, proveď ji.
-                        Pokud ji zvýší o [$]\\Delta E[/$], přijmi s
-                        [$]p=\\frac{1}{1+\\exp(\\Delta E/T)}[/$] kde [$]T[/$]
-                        je teplotni konstanta.
-                        Pro velké [$]T[/$] je [$]p\\approx 1/2[/$].
+                        Změna sníží energii &rarr; proveď ji.
+                        Zvýší ji &rarr; přijmi s [$]p=\\sigma(\\Delta E/T)[/$],
+                        [$]T[/$] je teplota. Velké [$]T[/$] &rarr;
+                        [$]p\\approx 1/2[/$].
         -       guid: JiDjwmW&Ft
                 topic: Boltzmannův stroj
                 front: Architektura, pravděpodobnost aktualizace
                 back: |
                         Jako Hopfieldova síť, ale neurony jsou binární<br>
-                        [$]x_i\\leftarrow 1[/$]: pravděpodobnost [$]p_i[/$], jinak [$]\\leftarrow 0[/$]<br>
+                        [$]x_i\\leftarrow 1[/$]: pravděpodobnost [$]p_i[/$],
+                        jinak [$]\\leftarrow 0[/$]<br>
 
-                        [$$]p_i = \\sigma\\left(\\frac{\\sum_{j=1}^n w_{ij} x_j - \\theta_i}{T}\\right)[/$$]
+                        [$]p_i=\\sigma\\left(\\frac{\\sum_{j=1}^n w_{ij}x_j-\\theta_i}{T}\\right)[/$]
         -       guid: Gvc>9+%{U*
                 topic: Boltzmannův stroj
                 front: Energetická funkce

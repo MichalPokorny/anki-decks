@@ -242,9 +242,8 @@ notes:
                 front: Algoritmus
                 markdown: false
                 back: |
-                        Pro každý vrchol si pamatuj současný nejpřesnější
-                        odhad na délku
-                        cesty skrz něj, jako v IDA*.<br>
+                        Pro vrcholy udržuj současný nejpřesnější odhad na délku
+                        cesty skrz ně, jako v IDA*.<br>
 
                         Jako v A* expanduj node s nejmenším odhadem na
                         délku cesty do cíle skrz něj.<br>

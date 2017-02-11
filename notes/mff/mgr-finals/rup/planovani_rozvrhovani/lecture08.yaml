@@ -102,8 +102,7 @@ notes:
 -       guid: wWT&o@dYiA
         front: Jak zajistíme, aby časová osa neobsahovala konflikty?
         back: |
-                Pro každé 2 časové výroky zajistíme, že bude
-                existovat separační podmínka
+                Pro každé 2 časové výroky zařídíme existenci separační podmínky
 -       guid: '|RtTE9j5/'
         front: 3 situace pro separační podmínky
         back: |

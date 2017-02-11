@@ -3,6 +3,7 @@ import fnmatch
 import os
 import yaml
 import markdown
+import sys
 
 def get_git_revision():
     return subprocess.check_output(['git', 'rev-parse', 'HEAD']).strip()

@@ -38,24 +38,24 @@ notes:
         -       guid: cIVGF~0o9?
                 front: Simulované žíhání (AI1)
                 back: |
-                        Snižuje teplotu.
+                        Snižuj teplotu.
                         <br><br>
-                        Stav se přijme, když je zlepšení.
-                        Když to není zlepšení, tak když to dovolí cooling
-                        schema ([$]p\\sim \\exp(\\Delta E/T)[/$]).
+                        Stav přijmi, když zlepšuje. Když nezlepšuje, tak když
+                        to dovolí cooling schema
+                        ([$]p\\sim \\exp(\\Delta E/T)[/$]).
         -       guid: mp!rOJ42mT
                 topic: Local beam search
                 front: Algoritmus
                 back: |
-                        Držím [$]k[/$] stavů místo jednoho.
-                        V jednom kroku vygeneruju všechny jejich successory,
-                        vyberu z nich do dalšího kroku [$]k[/$] nejlepších.
+                        Držím [$]k[/$] stavů místo 1.
+                        Krok: vygeneruj všechny jejich successory,
+                        vyber z nich do dalšího kroku [$]k[/$] nejlepších.
         -       guid: kgF{J^#q8%
                 topic: Local beam search
                 front: Jak zvětšit diverzitu
                 back: |
-                        Stochastikou - vyber s pravděpodobností
-                        úměrnou tomu, jak jsou successoři dobří.
+                        Stochastika - vyber s pravděpodobností úměrnou tomu,
+                        jak jsou successoři dobří.
         -       guid: r?2|$|UK})
                 front: Online vs. offline search
                 back: |
@@ -88,11 +88,11 @@ notes:
         -       guid: Ge7_2-2(&<
                 front: Online DFS
                 back: |
-                        Pro každý stav udržuj ještě nevyzkoušené akce<br>
+                        Pro stavy udržuj ještě nevyzkoušené akce<br>
 
-                        Pamatuj si pro každý stav, jaké backtracky jsme v něm
+                        Pamatuj si pro stavy, jaké backtracky jsme v nich
                         ještě nezkusili.
-                        (NOTE: v jedné cestě do něj můžeme vstoupit různými
+                        (NOTE: v jedné cestě do stavu jde vstoupit různými
                         způsoby.)<br>
 
                         Funguje jenom když jsou všechny akce reverzibilní.

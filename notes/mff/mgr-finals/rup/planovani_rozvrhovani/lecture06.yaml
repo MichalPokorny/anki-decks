@@ -104,16 +104,15 @@ notes:
                         <ul>
                         <li>
                         <i>Splnění podmínek</i>:
-                        [$]p_{4,m}=a \longrightarrow p_{1,m-1}\neq\perp\wedge
-                        p_{2,m-1}\neq\perp[/$]:
                         [$]\mathrm{precond}^{+}(a)=\{p_1, p_2\}[/$],
+                        p_{2,m-1}\neq\perp[/$]:
+                        [$]p_{4,m}=a \longrightarrow p_{1,m-1}\neq\perp\wedge
                         [$]p_4\in\mathrm{eff}^{+}(a)[/$];
                         přidám podmínku pro každý pozitivní efekt.
+                        <li> <i>Mutex atomů</i>:
+                        [$]p_{i,m}=\perp\vee p_{j,m}=\perp[/$]
                         <li>
-                        <i>Mutex mezi atomy</i>: [$]p_{i,m}=\perp\vee p_{j,m}=\perp[/$]
-                        <li>
-                        <i>Mutex mezi akcemi</i>:
-                        provaž pozitivní efekty:
+                        <i>Mutex akcí</i>: provaž pozitivní efekty:
                         [$]p_{i,m}\neq a\vee p_{j,m}\neq b[/$]
                         <li>
                         <i>Cíl</i>: [$]p_{i,k}\neq\perp[/$] ([$]k[/$]
@@ -145,19 +144,16 @@ notes:
                         <li>
                         <i>Následující stav</i>:
                         [$$]
-                        p_{i,m}\leftrightarrow (\bigvee_{p_i\in\mathrm{eff}^+(a_j)} A_{j,m})
-                        \vee (p_{i,m-1} \wedge (\bigvee_{p_i\in\mathrm{eff}^-(a_j)} \neg A_{j,m}))[/$$]
+                        p_{i,m}\leftrightarrow \left(\bigvee_{p_i\in\mathrm{eff}^+(a_j)} A_{j,m}\right)
+                        \vee \left(p_{i,m-1} \wedge \left(\bigvee_{p_i\in\mathrm{eff}^-(a_j)} \neg A_{j,m}\right)\right)[/$$]
                         <br>
-                        (Stav je aktivní, byl-li přidán a nebyl-li smazán;
-                        nejsou no-opy.)
+                        (atom platí, byl-li přidán a nesmazán; nemám no-opy.)
                         <li>
-                        <i>Mutex</i> (abych nedovolil zároveň smazat a přidat):
+                        <i>Mutex</i> (nedovol zároveň smazat a přidat):
                         [$]\neg A_{i,m} \vee \neg A_{j,m}[/$],
                         [$]\neg P_{i,n} \vee \neg P_{j,n}[/$]
-                        <li>
-                        <i>Počáteční a koncové atomy</i>
-                        <li>
-                        Žádné paralelní akce a žádné prázdné vrstvy.
+                        <li> <i>Počáteční a koncové atomy</i>
+                        <li> <i>Žádné paralelní akce, žádné prázdné vrstvy</i>
                         </ul>
         -       guid: q_1jI@pvsq
                 front: Porovnání Graphplan jako CSP a SAT

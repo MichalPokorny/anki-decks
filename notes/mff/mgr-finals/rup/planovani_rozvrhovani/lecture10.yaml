@@ -67,8 +67,9 @@ notes:
                 back: |
                         [$]p(a)[/$]
         -       guid: wS/&_;wf$i
-                front: Co to znamená, že zdroj je unární (nebo disjunktivní)?
-                back: Běží na něm jenom jedna úloha najednou
+                front: |
+                        Co to znamená, že zdroj je unární/disjunktivní?
+                back: Zpracovává jednu úlohu najednou
         -       guid: QVUiJrCXOM
                 front: Co jsou preemptivní a nepreemptivní úlohy?
                 back: |
@@ -168,26 +169,25 @@ notes:
                         dokončím úlohu &rarr; přepni na úlohu,
                         co má teď nejmenší due date.
         -       guid: vC>g7Y!;nx
-                topic: "[$]1\\mid r_j\\mid L_{\\max}[/$]\n"
+                topic: |
+                        [$]1\\mid r_j\\mid L_{\\max}[/$]
                 front: Složitost obecného nerelaxovaného problému
                 back: |
                         NP-těžký
         -       guid: h8:cnZEU<[
-                topic: "[$]1\\mid r_j\\mid L_{\\max}[/$]\n"
+                topic: |
+                        [$]1\\mid r_j\\mid L_{\\max}[/$]
                 front: Řešení obecného nerelaxovaného problému
                 back: |
-                        Větvením vybírám, kterou úlohu budu teď plánovat.
-                        Používám branch and bound.
+                        Větvi na úloze, kterou teď plánuješ. Použij branch and
+                        bound.
                         <br><br>
-                        Potřebuju v každém podstromu znát dolní odhad na řešení.
-                        Pokud je tenhle odhad větší než zatím nejlepší známé
-                        řešení, nemusím ten strom prohledávat.
-                        <br><br>
-                        Odhad získáme relaxací s umožněním preempce.
+                        V podstromu spočítej dolní odhad na řešení - relaxací
+                        s preempcí. Větší než zatím nejlepší známé řešení?
+                        Zařízni prohledávání.
                         <br>
-                        Pokud mám nepreemptivní rozvrh stejně dobrý jako
-                        preemptivní řešení, nemusím hledat dál (lepší
-                        rozvrh neexistuje).
+                        Když najdu nepreemptivní rozvrh stejně dobrý jako
+                        preemptivní řešení, nehledám dál (lepší rozvrh není).
         -       guid: zc7x^3}szw
                 front: Typy paralelních zdrojů podle zpracování úloh
                 back: |
@@ -302,19 +302,16 @@ notes:
                 topic: "[$]F2\\mid\\mid C_{\\max}[/$]\n"
                 front: Úloha
                 back: |
-                        Flow-shop problém na dvou zdrojích s minimalizací
-                        makespanu
+                        Flow-shop problém, 2 zdroje, minimalize makespanu
                         <br><br>
-                        Každá úloha má 2 operace, každá operace
-                        na jednom stroji.
+                        Úloha má 2 operace, každou na jednom stroji.
         -       guid: p%)/.<KTR)
                 topic: "[$]F2\\mid\\mid C_{\\max}[/$]\n"
                 front: Řešení
                 back: |
-                        Stačí určit pořadí, na obou strojích může být
-                        stejné.
+                        Stačí najít pořadí, na obou strojích může být stejné.
                         <br><br>
-                        Úlohy rozdělíme:
+                        Úlohy rozděl:
                         <ul>
                         <li> [$]U[/$]: na [$]z_1[/$] kratší než na [$]z_2[/$]
                         <li> [$]V[/$]: na [$]z_1[/$] delší než na [$]z_2[/$]
@@ -326,8 +323,8 @@ notes:
                         <li> [$]V[/$] sestupně dle [$]p_{2j}[/$]
                         </ul>
                         <br>
-                        Každou operaci rozvrhni do nejmenšího možného
-                        startovního času.
+                        Operace rozvrhni do nejmenšího možného startovního
+                        času.
         -       guid: FlNkhXS+d.
                 topic: Job-shop
                 front: Čím je job-shop problém specifikován?
