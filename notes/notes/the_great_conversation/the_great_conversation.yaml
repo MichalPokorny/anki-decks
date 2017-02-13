@@ -8215,7 +8215,8 @@ notes:
                 *mind* is not a thing. It's like a theater.
 -       guid: M$2pQ$ht_7
         topic: David Hume
-        front: Analogy of the mind
+        front: |
+                Word: Analogy of the mind
         back: Theatre
 -       guid: zH;{5Q@h]]
         topic: David Hume
@@ -8270,9 +8271,8 @@ notes:
                 <li> So, God exists.
                 </ol>
 
-                Attacks (3). Hume: Idea of God comes from our impressions -
-                reflections on our mind's operation (intelligence, wisdom,
-                goodness).
+                Attacks (3): Idea of God is from impressions - reflections on
+                our mind's operation (intelligence, wisdom, goodness).
 -       guid: JG+B}}sCa>
         topic: David Hume
         front: Attack on Descartes's ontological proof of God
@@ -8284,10 +8284,10 @@ notes:
                 <li> So God exists.
                 </ol>
 
-                Hume's attack: (1) is about the *relation of ideas*, not about
-                *facts*. Maybe I can't think about God without thinking he
-                exists, but that doesn't say anything about whether he *really
-                exists*. (3 &rarr; 4) is illegitimate.
+                Attack: (1) is about *relation of ideas*, not about *facts*.
+                Maybe I can't think about God without thinking he exists, but
+                that doesn't say anything about whether he *really does*.
+                (3 &rarr; 4) is illegitimate.
 
                 *Relations of ideas can't prove matters of fact.*
 -       guid: IKk^m4Y|/l
@@ -8296,21 +8296,22 @@ notes:
         back: |
                 Argument from design (universe is a complex machine).
 
-                It's an *a posteriori* argument -- depends on our knowledge of
-                the world being orderly.
+                It's *a posteriori* &mdash; needs knowledge of world being
+                orderly.
 
-                It's just a *probabilistic argument* -- as any argument that
-                arises from experience.
+                It's just *probabilistic* &mdash; as any argument from
+                experience.
 
-                This *doesn't show a perfectly good God* -- since the world
-                isn't perfect. (Principle of proportionality -- we'd be
-                deriving more than the argument gives us)
-
+                *Doesn't show a perfectly good God* &mdash; world isn't
+                perfect. (Principle of proportionality -- we'd be deriving more
+                than argument gives us)
                 Other options: many gods (makers); mortal Gods; evil makers;
                 many previous failed worlds; etc.
 -       guid: i^9auL7ctQ
         topic: David Hume
-        front: How can we apply the principle of causality to the world?
+        front: |
+                How can we apply the principle of causality to the world,
+                concerning its creator etc.?
         back: |
                 Not really. We only have *one example*, so we can't reliably
                 look for causes. We'd need [$]N>1[/$].
@@ -8318,10 +8319,9 @@ notes:
         topic: David Hume
         front: Solipsism
         back: |
-                We don't really have rational reason to suppose
-                an outside world at all, since we can't apply induction
-                on our own, singular case. We'd need to "step outside
-                our skins".
+                No real rational reason to suppose an outside world at all,
+                since we can't apply induction on our own singular case.
+                We'd need to "step outside our skins".
 -       guid: Kj8OzD@R?K
         topic: David Hume
         front: Claim about reason and motivation
@@ -8344,10 +8344,9 @@ notes:
         topic: David Hume
         front: How are moral judgements parallel to causality?
         back: |
-                Their "wrongness" is founded in our minds
-                as approval or disapproval.
-                Goodness or badness is not a question of fact
-                or of relations between ideas.
+                "Wrongness" founded in our minds as approval or disapproval.
+                Goodness or badness is not a question of fact or relations
+                between ideas.
 -       guid: e,D-FY-[,(
         front: |
                 Author: "In every system of morality, which I have
@@ -8397,9 +8396,9 @@ notes:
         front: Criticism of the Cartesian project
         back: |
                 <ol>
-                <li> We can't *really* bring ourselves to doubt everything.
-                <li> There'd be no way back to rational belief from full-on
-                Cartesian doubt - you can always doubt your own faculties.
+                <li> Can't <i>really</i> bring ourselves to doubt everything,
+                <li> and if we could, we could never return to rational belief
+                from Cartesian doubt - we would always doubt our faculties
                 </ol>
 -       guid: gAGvH<xdwF
         topic: David Hume
@@ -8541,33 +8540,27 @@ notes:
                 More precise division of knowledge than "matters of fact"
                 and "relations of ideas"
         back: |
-                A) epistemological question: does it rest on experience,
-                or not?
-
-                B) semantic question: how do the meanings of the
-                words we use to express the knowledge relate to each
-                other?
-
-                1. Epistemological:
-
-                1a: A priori: known to be true without any reference
-                to experience (7+5=12)
-
-                1b. A posteriori: when we must appeal to experience
-                to determine truth or falsity.
-
-                2. Semantic:
-
-                2a: Analytic: when its denial yields a contradiction.
-                For example: "All bodies are extended."
-                (The predicate "extended" is already included in "body".)
+                <ol type="1">
+                <li> <i>Epistemological</i> question (rests on experience?):
+                <ul>
+                <li> A priori: known to be true without reference to experience
+                (7+5=12)
+                <li> A posteriori: appeal to experience needed to determine
+                truth or falsity.
+                </ul>
+                <li> <i>Semantic</i> question (how do meanings of the words
+                used to express the knowledge relate to each other?):
+                <ul>
+                <li> Analytic: denial yields contradiction. For example: "All
+                bodies are extended." (The predicate "extended" is already
+                included in "body".)
                 If an analytical judgement is true, it is necessarily
                 true. (Every father has a child.)
-
-                2b. Synthetic: does more than explicate or analyze
-                a concept. "Every event has a cause.", "Air has weight."
-                The opposite of synthetic judgements is always
-                possible.
+                <li> Synthetic: does more than explicate or analyze a concept.
+                "Every event has a cause.", "Air has weight." Opposite of
+                a synthetic judgement is always possible.
+                </ul>
+                </ol>
 -       guid: r{K_%y#Zn+
         topic: Immanuel Kant
         front: |
@@ -8579,9 +8572,9 @@ notes:
         front: |
                 Examples: Analytic a posteriori knowledge
         back: |
-                Empty class. The test for analycity is examining denial of
-                judgement for contradiction, so we also don't have to examine
-                experience. All analytic judgements must be a priori.
+                Empty class. Test for analycity: denial doesn't yield
+                contradiction, so we also don't need to examine experience.
+                Analytic judgements must be a priori.
 -       guid: o(pvl^Fi<i
         topic: Immanuel Kant
         front: |
@@ -8665,16 +8658,19 @@ notes:
                 2 aspects of the power of the mind to deal
                 with how natural science is possible
         back: |
-                *Sensibility* (passive ability to receive impressions),
-                *understanding* (active power to think objects by
+                <ul>
+                <li>
+                *Sensibility* (passive ability to receive impressions)
+                <li>
+                *Understanding* (active power to think objects by
                 constructing a representation using concepts).
+                </ul>
 -       guid: AH/|-3+w3W
         topic: Immanuel Kant
         front: What is a *concept*?
         back: |
-                A rule for operating on intuitions.
-                To have a *concept* is to have an ability,
-                and their use is *active*, not passive.
+                Rule for operating on intuitions. To have a *concept* is to
+                have an ability, their use is *active*, not passive.
 -       guid: Cvf|J-i@L[
         topic: Immanuel Kant
         front: |

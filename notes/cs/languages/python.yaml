@@ -47,3 +47,14 @@ notes:
         front: Open XKCD about Python being awesome
         back: '`import antigravity`'
         include_reverse: true
+-       guid: Mz]_Tq4B!/
+        front: Print red, green text in console
+        markdown: false
+        back: |
+                Package <code>termcolor</code><br><br>
+                <code>
+                from termcolor import colored<br>
+                print(colored('x', 'red'), colored('y', 'green'))
+                </code>
+        include_reverse: true
+

@@ -6,3 +6,741 @@ notes:
         front: Function to run on startup (per-package)
         back: '`func init()`'
         include_reverse: true
+-       guid: vH`@sHJSua
+        front: Get Go version
+        back: "`go version`"
+-       guid: K7!hp1UCG8
+        front: Print "Hello World" to `stdout`
+        back: |
+                <code>
+                import "fmt"<br>
+                fmt.Println("Hello World");
+                </code>
+        include_reverse: true
+-       guid: D;Yu@b3`I.
+        front: Every Go file must start with ...
+        back: ... a package declaration
+-       guid: MJ<#W|F,Au
+        front: "Display help on `Println` in `fmt`"
+        back: "`godoc fmt Println`"
+        include_reverse: true
+-       guid: Iy9P2)RaUK
+        front: Fixed-size integer types
+        back: |
+                `uint8`, `uint16`, `uint32`, `uint64`, `int8`, `int16`,
+                `int32`, `int64`
+-       guid: B~Up)Sv.;h
+        front: |
+                `byte` is same as ...
+        back: |
+                `uint8`
+-       guid: xcYe{fUp9#
+        front: |
+                `rune` is same as ...
+        back: |
+                `int32`
+-       guid: w)l=is1dJ8
+        front: |
+                3 machine-dependent integer types
+        back: |
+                `uint`, `int`, `uintptr`
+-       guid: E#~p@%eiQ^
+        front: |
+                Floating-point types
+        back: |
+                `float32`, `float64`
+-       guid: vxXJz0(g{Y
+        front: |
+                Complex number types
+        back: |
+                `complex64`, `complex128`
+-       guid: g#=ff&b17^
+        front: |
+                Get 4th character of `"Hello`"
+        back: |
+                `"Hello"[3]`
+        include_reverse: true
+-       guid: fG7Q`})N(H
+        front: |
+                Declare `string` variable `x` without initialization
+        back: |
+                `var x string`
+        include_reverse: true
+-       guid: w!.r0rc*N7
+        front: |
+                Shorthand - declare `string` variable `x` and set it to `"Hey"`
+        back: |
+                `x := "Hey"`
+        include_reverse: true
+-       guid: Mie%`*fw:$
+        front: |
+                Declare string constant `x` containing `"Hey"`
+        back: |
+                `const x string = "Hey"`
+        include_reverse: true
+-       guid: yeeF=EDVxD
+        markdown: false
+        front: |
+                Declare and initialize variables <code>x</code>, <code>y</code>, <code>z</code> to <code>1</code>, <code>2</code>, <code>5</code>
+        back: |
+                <pre>
+                var (
+                  x = 1
+                  y = 2
+                  z = 5
+                )
+                </pre>
+        include_reverse: true
+-       guid: nO!|d.Zm98
+        markdown: false
+        front: |
+                Declare and initialize constants <code>x</code>, <code>y</code>, <code>z</code> to <code>1</code>, <code>2</code>, <code>5</code>
+        back: |
+                <pre>
+                const (
+                  x = 1
+                  y = 2
+                  z = 5
+                )
+                </pre>
+        include_reverse: true
+-       guid: QQP2A@nkxN
+        front: "Read `float64` from standard input"
+        back: |
+                <code>
+                var input float64<br>
+                fmt.Scanf("%f", &input);
+                </code>
+        include_reverse: true
+-       guid: HHTtV_G;r7
+        front: "Cycle while a condition `x` holds"
+        back: |
+                <code>
+                for x {<br>
+                    ...<br>
+                }
+                </code>
+        include_reverse: true
+-       guid: O7i%C*KDdM
+        front: "For over `i` from `0` to `100` exclusive"
+        back: |
+                <code>
+                for i := 0 ; i < 100; i++ {<br>
+                    ...<br>
+                }
+                </code>
+        include_reverse: true
+-       guid: cr|WKuI-[#
+        front: "If-else if-else syntax"
+        back: |
+                <code>
+                if x > 10 {<br>
+                ...<br>
+                } else if {<br>
+                ...<br>
+                } else {<br>
+                ...<br>
+                }
+                </code>
+-       guid: vXe@_&Q$>v
+        front: "Switch over value of `i`"
+        back: |
+                <code>
+                switch i {<br>
+                case 0: fmt.Println("zero");<br>
+                case 1: fmt.Println("one");<br>
+                default: fmt.Println("what");<br>
+                }
+                </code>
+        include_reverse: true
+-       guid: n%T6m0oM!i
+        front: "Type: array of 5 integers"
+        back: |
+                `[5]int`
+        include_reverse: true
+-       guid: sR?S4@<|Hw
+        front: "Get length of array `x`"
+        back: |
+                `len(x)`
+        include_reverse: true
+-       guid: b/e>mKR4a+
+        front: "Iterate over index and value in array `x`"
+        back: |
+                <code>
+                for index, value := range x {<br>
+                ...<br>
+                }
+                </code>
+        include_reverse: true
+-       guid: Q^]UJcumaU
+        front: "Iterate values in array `x`"
+        back: |
+                <code>
+                for _, value := range x {<br>
+                ...<br>
+                }
+                </code>
+        include_reverse: true
+-       guid: kQ+o#Q>p6r
+        front: "Shorthand - declare array of 3 `float64`'s: 3.14, 1.41, 0.5, on one line"
+        back: |
+                <code>
+                x := [3]float64{ 3.14, 1.41, 0.5 }
+                </code>
+-       guid: b{[@sDN9S0
+        front: "Shorthand - declare array of 3 `float64`'s: 3.14, 1.41, 0.5, on 3 lines"
+        back: |
+                <pre>
+                x := [3]float64{<br>
+                    3.14,<br>
+                    1.41,<br>
+                    0.5,<br>
+                }
+                </code>
+                NOTE: Trailing comma
+-       guid: eJCK7u-j[u
+        front: Declare `x` slice of type `float64`
+        back: '`var x []float64`'
+        include_reverse: true
+-       guid: B)~PwM~v]B
+        front: Allocate slice of 5 `float64`s
+        back: '`make([]float64, 5)`'
+        include_reverse: true
+-       guid: N$+jye<vng
+        front: Allocate slice of 5 `float64`s, with capacity for 100
+        back: '`make([]float64, 5, 100)`'
+        include_reverse: true
+-       guid: GIgx$UT0<Q
+        front: Get slice `x` of array `a`, between indexes 5, 10 exclusive
+        back: "`x := a[5:10]`"
+        include_reverse: true
+-       guid: C|o@}Lp,,
+        front: Get slice `x` of entire array `a`
+        back: "`x := array[:]`"
+        include_reverse: true
+-       guid: o%X/ESX+S~
+        front: Add `4` and `5` to slice `x` and store to new slice `y`
+        back: "`y := append(x, 4, 5)`"
+        include_reverse: true
+-       guid: C-seZXi|nD
+        front: Copy content of slice `x` into (same size) slice `y`
+        back: "`copy(y, x)`"
+        include_reverse: true
+-       guid: fR212UvvOE
+        front: "Type: map from `string` to `int`"
+        back: "`map[string]int`"
+        include_reverse: true
+-       guid: z^3*}%8qd[
+        front: "Create empty map from `string` to `int`"
+        back: "`make(map[string]int)`"
+        include_reverse: true
+-       guid: l3v>34pVcO
+        front: "Delete item at index `10` from map `x`"
+        back: "`delete(x, 10)`"
+        include_reverse: true
+-       guid: PwGic%H<#7
+        front: "Get value at map index `10` and whether it exists (`bool`)"
+        back: "`value, ok := map[10]`"
+        include_reverse: true
+-       guid: y[7<k-QwWP
+        front: "Map constant literal syntax"
+        back: |
+                <pre>
+                map[string]string{<br>
+                    "name":"Hydrogen",<br>
+                    "state":"gas",<br>
+                }
+                </pre>
+        include_reverse: true
+-       guid: C#Ep5Rvxr8
+        front: "Die with error `fail`"
+        back: |
+                `panic("fail");`
+-       guid: Qi#1ZZ~*J}
+        front: Syntax - function taking `[]float64` and returning `float64`
+        back: |
+                <code>func fn(xs []float64) float64 { ... }</code>
+        include_reverse: true
+-       guid: xRt|[`ebI>
+        front: Syntax - function returning `int` and `float64`
+        back: |
+                <code>func fn() (int, float64) { ... }</code>
+        include_reverse: true
+-       guid: ni/qQ{hL*i
+        front: Syntax - function consuming variable amount of `int`s
+        back: |
+                <code>func fn(args ...int) { ... }</code>
+        include_reverse: true
+-       guid: JV>U+&n4I0
+        front: Syntax - put slice `xs` into function consuming variable amount of arguments
+        back: |
+                <code>fn(xs...)</code>
+        include_reverse: true
+-       guid: DnLEq[-=Hj
+        front: Declare local function `add` consuming 2 `int`s
+        back: |
+                <pre>
+                add := func (x, y int) int {<br>
+                    return x + y<br>
+                }
+                </pre>
+        include_reverse: true
+-       guid: l4xJ}}`bpS
+        front: Schedule a call to `fn` to run after function completes
+        back: |
+                `defer fn()`
+        include_reverse: true
+-       guid: M&f=F!6tL`
+        markdown: false
+        front: |
+                Recovering from <code>panic</code>
+        back: |
+                Put recovery into <code>defer</code>:
+                <br>
+                <pre>
+                defer func() {
+                    str := recover()
+                    fmt.Println(str)
+                }()
+                panic("FIRE")
+                </pre>
+-       guid: kaPI^s/%W+
+        front: Assign value 100 into value pointed at by `x`
+        back: "`*x = 100`"
+        include_reverse: true
+-       guid: e|VKBXPr|]
+        front: Take pointer to `x`
+        back: "`&x`"
+        include_reverse: true
+-       guid: OArelBT~0^
+        front: Type - pointer to `int`
+        back: "`*int`"
+        include_reverse: true
+-       guid: dKS;t,%@AA
+        front: Builtin - make new pointer to `int`
+        back: "`new(int)`"
+        include_reverse: true
+-       guid: C44zf=z#bk
+        front: Declare struct with 3 <code>float64</code>s <code>x</code>, <code>y</code>, <code>z</code>
+        back: |
+                <pre>
+                type S struct {
+                    x float64
+                    y float64
+                    z float64
+                </pre>
+        markdown: false
+-       guid: Mn$sfzT*`!
+        front: Create new instance `c` of `Circle` with `x=0`, `y=0`, `r=5`, with mentioning field names
+        back: |
+                <code>c := Circle{x: 0, y: 0, r: 5}</code>
+-       guid: l|uf}Q&ZLm
+        front: Create new instance `c` of `Circle` with values `0`, `0`, `5`, without mentioning field names
+        back: |
+                <code>c := Circle{0, 0, 5}</code>
+-       guid: fq6;vGmZW`
+        front: |
+                [$]\\pi[/$]
+        back: |
+                `math.Pi`
+-       guid: QvH~eBe8om
+        front: |
+                Declare method `area()` returning `float64` operating on `*Circle`
+        back: |
+                `func (c *Circle) area() float64 { ... }`
+-       guid: L{|)^LLDaw
+        front: |
+                Declare struct <code>Android</code> embedding <code>Person</code> and adding string <code>Model</code>
+        markdown: false
+        back: |
+                <pre>
+                type Android struct {<br>
+                    Person<br>
+                    Model string<br>
+                }</pre>
+        include_reverse: true
+-       guid: PIX}(^}r`5
+        front: |
+                Get embedded `Person` struct under struct `a`
+        back: |
+                `a.Person`
+-       guid: j#;z{)rmD_
+        front: |
+                Declare interface <code>Shape</code> with method <code>area</code> returning <code>float64</code>
+        back: |
+                <pre>
+                type Shape interface {
+                    area() float64
+                }
+                </pre>
+-       guid: Er*eA(kJ1T
+        front: Spawn goroutine `x(0)`
+        back: "`go x(0)`"
+        include_reverse: true
+-       guid: j}Ps,w[<rE
+        front: |
+                Get random `int` between 0 and 250
+        back: |
+                `import "math/rand"`
+                <br>
+                `rand.Intn(250)`
+-       guid: P_@3]RABB
+        front: |
+                Sleep for 250 milliseconds
+        back: |
+                `import "time"`
+                <br>
+                `time.Sleep(time.Millisecond * 250)`
+-       guid: O+3%C@>a-Q
+        front: |
+                Type: channel of `string`
+        back: |
+                `chan string`
+        include_reverse: true
+-       guid: B5G0w={o>2
+        front: |
+                Syntax: read from channel `c` into new variable `msg`
+        back: |
+                `msg <- c`
+        include_reverse: true
+-       guid: Iq6i#5UYFy
+        front: |
+                Syntax: write `50` into channel `c`
+        back: |
+                `c <- 50`
+        include_reverse: true
+-       guid: DbGf$#5hm!
+        front: |
+                Type: Send-only channel of `string`
+        back: |
+                `chan<- string`
+        include_reverse: true
+-       guid: fGJ0L_^cm}
+        front: |
+                Type: Receive-only channel of `string`
+        back: |
+                `<-chan string`
+        include_reverse: true
+-       guid: J_eAi6,e0O
+        front: |
+                Wait for `msg1` from channel `c1` or `msg2` from `c2`
+        back: |
+                <code>
+                select {<br>
+                case msg1 := <- c1: ...<br>
+                case msg2 := <- c2: ...<br>
+                default: // nothing ready
+                }
+                </code>
+        include_reverse: true
+-       guid: KPoP|]$4W%
+        front: |
+                Create channel and send current time to it after 1 second
+        back: |
+                `time.After(time.Second)`
+        include_reverse: true
+-       guid: zaMrw>nkgy
+        front: |
+                Create buffered synchronous channel of `int` with capacity 10
+        back: |
+                `make(chan int, 10)`
+        include_reverse: true
+-       guid: xs4!qS%*|k
+        front: |
+                Import module `golang/ch11/math` aliased as `m`
+        back: |
+                `import m "golang/ch11/math"`
+        include_reverse: true
+-       guid: Px]K=}SADT
+        front: |
+                Start HTTP documentation server
+        back: |
+                `godoc -http=":8000"`
+        include_reverse: true
+-       guid: n-ZQ0{DvTd
+        front: |
+                Simple test that errors out if `1 != 1`
+        back: |
+                <code>
+                package math<br>
+                <br>
+                import "testing"<br>
+                <br>
+                func TestX(t *testing.T) {<br>
+                    if 1 != 1 {<br>
+                        t.Error("Fail: 1 = ", 1)<br>
+                    }<br>
+                }
+                </code>
+-       guid: b6l,{f+oN+
+        front: Run all tests in current folder
+        back: "`go test`"
+-       guid: KT|g]@b~Hd
+        front: Test whether "hello" contains "el"
+        back: |
+                `strings.Contains("hello", "el")`
+        include_reverse: true
+-       guid: hi/`Vh}+dV
+        front: Count occurrences of "el" in "hello world hello"
+        back: |
+                `strings.Count("hello world hello", "el")`
+        include_reverse: true
+-       guid: f,/<sq%o[q
+        front: Check whether "hello" has prefix "el"
+        back: |
+                `strings.HasPrefix("hello", "el")`
+        include_reverse: true
+-       guid: L)406H6$q;
+        front: Check whether "hello" has suffix "lo"
+        back: |
+                `strings.HasSuffix("hello", "lo")`
+        include_reverse: true
+-       guid: y)yV3%%7eL
+        front: Get starting index of "lo" in "hello"
+        back: |
+                `strings.Index("hello", "lo")`
+        include_reverse: true
+-       guid: lwRh;sQg9s
+        front: Join "a", "b", "de" with ", "
+        back: |
+                `strings.Join([]string{"a", "b", "de"}, ", ")`
+        include_reverse: true
+-       guid: l&aRp;_uyn
+        front: Repeat "hello" 5 times
+        back: |
+                `strings.Repeat("hello", 5)`
+        include_reverse: true
+-       guid: efSK+tSy)J
+        front: Replace first 2 occurrences of "ha" with "he"
+        back: |
+                `strings.Replace("ha I am so haha great", "ha", "he", 2)`
+        include_reverse: true
+-       guid: Kwj7!eQ:1r
+        front: Split string by "-"
+        back: |
+                `strings.Split("a-b-c--d", "-")`
+        include_reverse: true
+-       guid: n!AHb9xe_H
+        front: Convert string to uppercase
+        back: |
+                `strings.ToUpper("Test test")`
+        include_reverse: true
+-       guid: N8~y)J1bx3
+        front: Convert string to lowercase
+        back: |
+                `strings.ToLower("Test test")`
+        include_reverse: true
+-       guid: xB?c1n]Aa#
+        front: Convert `string` to slice of `byte`s
+        back: |
+                `[]byte("test")`
+        include_reverse: true
+-       guid: DuOsCeiAmM
+        front: "`Reader` interface"
+        back: |
+                `Read(p []byte) (n int, err error)`
+        include_reverse: true
+-       guid: G53}R$emhS
+        front: "`Writer` interface"
+        back: |
+                `Write(p []byte) (n int, err error)`
+        include_reverse: true
+-       guid: r+/6*u$;+(
+        front: "The `io` package provides the `...` and `...` interfaces"
+        back: "`Reader`, `Writer`"
+-       guid: H_>&=K,qI#
+        front: "Purpose: `bytes.Buffer`"
+        back: |
+                Implements both `io.Reader` and `io.Writer`, can be used
+                to read/write.
+        include_reverse: true
+-       guid: rY:.Mx<w*t
+        front: Get bytes inside `bytes.Buffer`
+        back: "`buf.Bytes()`"
+-       guid: x1i2c7`luu
+        front: Close a `os.File`
+        back: "`file.Close()` (typically `defer`red)"
+-       guid: xjd*IX,*P2
+        front: "`os.FileInfo` interface - is that a directory?"
+        back: "`IsDir() bool`"
+-       guid: Qpvi!V7DW@
+        front: "`os.FileInfo` interface - modification time"
+        back: "`ModTime() time.Time`"
+-       guid: p4_p)E;CPW
+        front: "`os.FileInfo` interface - file size"
+        back: "`Size() int64`"
+-       guid: dqu2!5:3uO
+        front: "Get `[]FileInfo` representing contents of `/home/prvak`"
+        back: |
+                <code>
+                import "os"<br>
+                dir, err := os.Open(".")<br>
+                defer dir.Close()<br>
+                fileInfos, err := dir.Readdir(-1)
+                </code>
+-       guid: E,vQ6Fo^B,
+        front: "Recursively walk a filesystem"
+        back: |
+                <code>
+                import (<br>
+                  "os"<br>
+                  "path/filepath"<br>
+                )
+                <br>
+                <br>
+                filepath.Walk("/home/prvak", func(path string, info os.FileInfo, err error) error {<br>
+                        ...<br>
+                        return nil<br>
+                })
+                </code>
+-       guid: qO_RMpBrC/
+        front: "Function of package: `container/list`"
+        back: Doubly-linked list
+-       guid: bw_Zhs=nwp
+        front: "Package with doubly-linked lists"
+        back: "`container/list`"
+-       guid: oG;`odK$NO
+        front: "Create new empty `list.List`"
+        back: |
+                `var x list.List`
+-       guid: nS$AO_93{I
+        front: "Add new item at end of `list.List`"
+        back: |
+                `x.PushBack(50)`
+-       guid: smI,0m4Q+u
+        front: "Iterate over a `list.List` of `int`s"
+        back: |
+                `for e := x.Front(); e != nil; e = e.Next() {<br>
+                    fmt.Println(e.Value.(int))<br>
+                }`
+-       guid: J4=6,g{h0|
+        front: "Package for sorting stuff"
+        back: "`sort`"
+-       guid: obi:mrbT/K
+        front: "Sorting custom structures using `sort` package"
+        back: |
+                <code>
+                type ByName []Person<br>
+                <br>
+                // sort.Interface<br>
+                func (a ByName) Len() int { return len(a) }<br>
+                func (a ByName) Less(i, j int) bool { return a[i].Name < a[j].Name }<br>
+                func (a ByName) Swap(i, j int) { a[i], a[j] = a[j], a[i] }<br><br>
+                <br>
+                sort.Sort(ByName(a))
+                </code>
+-       guid: xwX[Bx~1#w
+        front: |
+                Hashing the string `"test"` with CRC32
+        back: |
+                <code>
+                import "hash/crc32"<br>
+                h := crc32.NewIEEE()<br>
+                h.Write([]byte("test"))<br>
+                v := h.Sum32()<br>
+                fmt.Println(v)
+                </code>
+-       guid: NkyNFMH4Uz
+        front: |
+                Hashing the string `"test"` with SHA-1
+        back: |
+                <code>
+                import "crypto/sha1"<br>
+                h := sha1.New()<br>
+                h.Write([]byte("test"))<br>
+                bs := h.Sum([]byte{})<br>
+                fmt.Println(bs)
+                </code>
+-       guid: b&Nue$G#yQ
+        front: "Package: Provides encoding/decoding from/into Writers/Readers of Go objects between Go programs"
+        back: "`encoding/gob`"
+-       guid: cM:*)ZAp{|
+        front: "Serve static assets using `net/http`"
+        back: |
+                <code>
+                http.Handle(<br>
+                    "/assets/",<br>
+                    http.StripPrefix(<br>
+                        "/assets",<br>
+                        http.FileServer(http.Dir("assets")),<br>
+                    ),<br>
+                )
+                </code>
+-       guid: yk;3`%/c;f
+        front: "Writing simple HTTP server using `net/http`"
+        back: |
+                <code>
+                import "net/http"<br>
+                func hello(res http.ResponseWriter, req *http.Request) {<br>
+                    res.Header().Set("Content-Type", "text/html")<br>
+                    io.WriteString(<br>
+                        res,<br>
+                        "Hello world",<br>
+                    )<br>
+                }<br>
+                <br>
+                func main() {<br>
+                    http.HandleFunc("/hello", hello)<br>
+                    http.ListenAndServe(":9000", nil)<br>
+                }
+                </code>
+-       guid: O{S3#]IXgg
+        front: "Package for JSON/RPC"
+        back: "`net/rpc/jsonrpc`"
+-       guid: or[VVN/2WL
+        front: "RPC package"
+        back: "`net/rpc`"
+-       guid: y$Zp#G63On
+        front: "Publish a service using `net/rpc`"
+        back: |
+                <code>
+                type Server struct {}<br>
+                func (this *Server) Negate(i int64, reply *int64) error {<br>
+                    *reply = -i<br>
+                    return nil<br>
+                }<br>
+                func server() {<br>
+                    rpc.Register(new(Server))<br>
+                    ln, err := net.Listen("tcp", ":9999")<br>
+                    for {<br>
+                        c, err := ln.Accept()<br>
+                        go rpc.ServeConn(c)<br>
+                    }<br>
+                }
+                </code>
+-       guid: DS*_c>;&XH
+        front: "Use a service using `net/rpc`"
+        back: |
+                <code>
+                type Server struct {}<br>
+                func (this *Server) Negate(i int64, reply *int64) error {<br>
+                    *reply = -i<br>
+                    return nil<br>
+                }<br>
+                func client() {<br>
+                    c, err := rpc.Dial("tcp", "127.0.0.1:9999")<br>
+                    var result int64<br>
+                    err = c.Call("Server.Negate", int64(999), &result)<br>
+                }
+                </code>
+-       guid: u)?#c>*,7W
+        front: "Parsing command-line flags"
+        back: |
+                <code>
+                import "flag"<br>
+                maxp := flag.Int("max", 6, "the max value")<br>
+                flag.Parse()<br>
+                fmt.Println("Maximum:", *maxp)<br>
+                // flag.Args(): additional non-flag arguments
+                </code>
+-       guid: wuvAAT@Hef
+        front: Using mutexes
+        back: |
+                <code>
+                import "sync"<br>
+                m := new(sync.Mutex)<br>
+                m.Lock()<br>
+                // critical section<br>
+                m.Unlock()
+                </code>
+

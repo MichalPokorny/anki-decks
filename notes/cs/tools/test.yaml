@@ -1,0 +1,79 @@
+topic: "<code>test</code>"
+deck: All::CS::Tools::test
+notes:
+-       guid: gZ5cQPFxB;
+        front: Test whether A is equal to B
+        back: "`[ A -eq B ]`"
+        include_reverse: true
+-       guid: tnl{T;>nhj
+        front: Test whether A is greater than or equal to B
+        back: "`[ A -ge B ]`"
+        include_reverse: true
+-       guid: CcZ(GWb>$>
+        front: Test whether A is greater than B
+        back: "`[ A -gt B ]`"
+        include_reverse: true
+-       guid: QP[vROMW81
+        front: Test whether A is less than or equal to B
+        back: "`[ A -le B ]`"
+        include_reverse: true
+-       guid: udd.%]oA>r
+        front: Test whether A is less than B
+        back: "`[ A -lt B ]`"
+        include_reverse: true
+-       guid: CHY[O6`S<&
+        front: Test whether A is not equal to B
+        back: "`[ A -ne B ]`"
+        include_reverse: true
+-       guid: idV~JQljq.
+        front: Test file A exists (any file type)
+        back: "`[ -e A ]`"
+        include_reverse: true
+-       guid: iqp9zwo!o;
+        front: Test file A exists and is a regular file
+        back: "`[ -f A ]`"
+        include_reverse: true
+-       guid: osQ[++Igw8
+        front: Test file A exists and read permission is granted
+        back: "`[ -r A ]`"
+        include_reverse: true
+-       guid: A+YIIo<,.W
+        front: Test file A exists and write permission is granted
+        back: "`[ -w A ]`"
+        include_reverse: true
+-       guid: rbV/+E(bS,
+        front: Test file A exists and has size greater than zero
+        back: "`[ -s A ]`"
+        include_reverse: true
+-       guid: hfc#LH#v5b
+        front: Test file A exists and execute (search) permission is granted
+        back: "`[ -x A ]`"
+        include_reverse: true
+-       guid: f{~A-}KDAv
+        front: Test A exists and is a directory
+        back: "`[ -d A ]`"
+        include_reverse: true
+-       guid: L{DiR5+/^z
+        front: Test string A equals string B
+        back: "`[ A = B ]`"
+        include_reverse: true
+-       guid: xgymkO/zt>
+        front: Test string A does not equal string B
+        back: "`[ A != B ]`"
+        include_reverse: true
+-       guid: B|`F.gaJ^?
+        front: Test string A has nonzero length
+        back: "`[ -n A ]`"
+        include_reverse: true
+-       guid: O!n?03ua-/
+        front: Expression X is false
+        back: "`[ ! X ]`"
+        include_reverse: true
+-       guid: igr_{8y;G
+        front: X is true or Y is true
+        back: "`[ X -o Y ]`"
+        include_reverse: true
+-       guid: CI#3yx|ozN
+        front: X is true and Y is true
+        back: "`[ X -a Y ]`"
+        include_reverse: true

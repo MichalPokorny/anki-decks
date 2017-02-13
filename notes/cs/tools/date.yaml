@@ -1,0 +1,87 @@
+topic: "<code>date</code> format strings"
+deck: All::CS::Tools::date
+notes:
+-       guid: FMgE:]V,-h
+        front: Day of week (1..7); 1 is Monday
+        back: "`%u`"
+        include_reverse: true
+-       guid: Od+Nx=))6u
+        front: Year (full)
+        back: "`%Y`"
+        include_reverse: true
+-       guid: M81O~(U??T
+        front: Last 2 digits of year
+        back: "`%y`"
+        include_reverse: true
+-       guid: pHCfbWcmY3
+        front: Alphanumeric TZ abbreviation
+        back: "`%Z`"
+        include_reverse: true
+-       guid: bs|D6+R]nO
+        front: "+hhmm numeric time zone (e.g., -0400)"
+        back: "`%z`"
+        include_reverse: true
+-       guid: DXLLmoOXQ*
+        front: "Time; same as %H:%M:%S"
+        back: "`%T`"
+        include_reverse: true
+-       guid: c;LJ960I.R
+        front: "Second (00..60)"
+        back: "`%S`"
+        include_reverse: true
+-       guid: eH*DmQ2+Zg
+        front: "Seconds since 1970-01-01 00:00:00 UTC"
+        back: "`%s`"
+        include_reverse: true
+-       guid: MQ_8DvPaw6
+        front: "24-hour hour and minute, same as %H:%M"
+        back: "`%R`"
+        include_reverse: true
+-       guid: GImV809UYJ
+        front: "Nanoseconds"
+        back: "`%N`"
+        include_reverse: true
+-       guid: C-S|hk~RE)
+        front: "Minute (00..59)"
+        back: "`%M`"
+        include_reverse: true
+-       guid: K>`p%%D)`L
+        front: "Month (01..12)"
+        back: "`%m`"
+        include_reverse: true
+-       guid: e[ugu_K2}U
+        front: "Hour (00..23)"
+        back: "`%H`"
+        include_reverse: true
+-       guid: ut?)1L/sn]
+        front: "Date; same as %m/%d/%y"
+        back: "`%D`"
+        include_reverse: true
+-       guid: kZxKxur%m^
+        front: "Day of month (e.g., 01)"
+        back: "`%d`"
+        include_reverse: true
+-       guid: l8(EpB+,{)
+        front: "Locale's date and time (e.g., Thu Mar  3 23:05:25 2005)"
+        back: "`%c`"
+        include_reverse: true
+-       guid: p&M0]Ku@WT
+        front: "Locale's full month name (e.g., January)"
+        back: "`%B`"
+        include_reverse: true
+-       guid: Mfp3%!4*$H
+        front: "Locale's abbreviated month name (e.g., Jan)"
+        back: "`%b`"
+        include_reverse: true
+-       guid: Bn(Q(8@mKX
+        front: "Locale's full weekday name (e.g., Sunday)"
+        back: "`%A`"
+        include_reverse: true
+-       guid: kA}i5UWi1=
+        front: "Locale's abbreviated weekday name (e.g., Sun)"
+        back: "`%a`"
+        include_reverse: true
+-       guid: t?mJ.p@Q{#
+        front: "A literal %"
+        back: "`%%`"
+        include_reverse: true
