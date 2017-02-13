@@ -59,11 +59,11 @@ notes:
                         Pokud všechny klauzule platí v modelu, vrať true.
                         Pokud některá neplatí, vrať false.
 
-                        Najdi čistý symbol (co je jenom true nebo jenom false).
-                        Jestli existuje, přidej do modelu a odeber všechny klauzule co ho obsahují.
+                        Existuje čistý symbol (co je jen 1 nebo jenom 0)?
+                        &rarr; přidej do modelu, odeber klauzule co ho obsahují.
 
-                        Najdi jednotkovou klauzuli.
-                        Jestli existuje, přidej ji do modelu a odeber.
+                        Najdi jednotkovou klauzuli? &rarr; přidej ji do modelu
+                        a odeber.
 
                         Potom, vyzkoušej nastavení nějakého literálu na true nebo false.
         -       guid: ky9AR_guYo

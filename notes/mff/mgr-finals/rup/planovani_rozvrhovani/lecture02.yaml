@@ -14,7 +14,7 @@ notes:
                         Systém: konečný, plně pozorovatelný, deterministický,
                         statický (žádné události), cíle: jenom dosažení
                         nějakého stavu, plány jsou sekvenční, čas je implicitní
-                        (akce jsou okamžité), plánujeme offline
+                        (okamžité akce), plánujeme offline
         -       guid: Ip^{O+!jB=
                 topic: STRIPS plánování
                 front: |

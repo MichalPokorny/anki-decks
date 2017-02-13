@@ -55,11 +55,10 @@ notes:
                 Časovými výroky:
                 <ul>
                 <li>
-                [$]x@t:(v_1,v_2)[/$]: okamžitá změna
-                z [$]v_1[/$] na [$]v_2[/$] v čase [$]t[/$]:
+                [$]x@t:(v_1,v_2)[/$]: změna [$]v_1\rightarrow v_2[/$] v čase
+                [$]t[/$]
                 <li>
-                [$]x@[t_1,t_2):u[/$]: setrvává v [$][t_1,t_2)[/$] na
-                [$]u[/$]
+                [$]x@[t_1,t_2):u[/$]: setrvává na [$]u[/$] v [$][t_1,t_2)[/$]
                 </ul>
 -       guid: b`f7I$bx69
         front: Co je to *kronika*?
@@ -197,21 +196,22 @@ notes:
                 Definice umožňuje *interferující efekty* &mdash;
                 přidané výroky se můžou navzájem podporovat.
                 <br><br>
-                [$]\\Psi[/$] je pomocník pro [$]\\varepsilon[/$]
+                [$]\\Psi[/$]: pomocník pro [$]\\varepsilon[/$]
                 (není jednoznačný)
 -       guid: IX)9sBk}b?
+        markdown: false
         front: |
-                Definice: Kronika podporuje jinou kroniku
+                Definice: Kronika [$]\Phi[/$] podporuje jinou kroniku
+                [$]\Phi'[/$]
         back: |
-                Ať je [$]\\Phi'=(F',C')[/$] kronika taková, že
-                [$]\\Phi[/$] podporuje [$]F'[/$].
+                Ať je [$]\Phi'=(F',C')[/$] kronika taková, že
+                [$]\Phi[/$] podporuje [$]F'[/$].
+                Ať [$]\theta(\Phi'/\Phi)=\{\psi\cup(\varnothing,C'):\psi\ \text{je pomocnik pro}\ F'\}[/$].
                 <br><br>
-                Potom konzistentní kronika [$]\\Phi=(F,C)[/$]
-                *podporuje* kroniku [$]\\Phi'[/$]
-                právě když [$]\\Phi[/$] podporuje [$]F'[/$] a existuje
-                pomocník [$]\\varphi\\in\\theta(\\Phi'/\\Phi)[/$]
-                takový, že [$]\\Phi\\cup\\varphi[/$] je konzistentní
-                kronika.
+                Potom konzistentní kronika [$]\Phi=(F,C)[/$] <i>podporuje</i>
+                [$]\Phi'[/$] právě když [$]\Phi[/$] podporuje [$]F'[/$] a
+                [$]\e\varphi\in\theta(\Phi'/\Phi):\Phi\cup\varphi[/$] je
+                konzistentní kronika.
 -       guid: Icl3yC:S9%
         front: |
                 Definice: [$]\theta(\Phi'/\Phi)[/$]
@@ -222,14 +222,12 @@ notes:
                 <br><br>
                 ([$]\\Phi'=(F',C')[/$])
 -       guid: c,.<)Sq1{?
+        markdown: false
         front: |
-                Definice:
-                Kronika [$]\\Phi'[/$] je důsledek kroniky [$]\\Phi[/$]
+                Definice: Kronika [$]\Phi'[/$] je důsledek kroniky [$]\Phi[/$]
         back: |
-                Právě když [$]\\Phi[/$] podporuje [$]\\Phi'[/$] a
-                existuje pomocník
-                [$]\\varphi\\in\\theta(\\Phi'/\\Phi)[/$]
-                takový, že [$]\\varphi\\subseteq\\Phi[/$].
+                [$]\Phi[/$] podporuje [$]\Phi'[/$] a
+                [$]\e\varphi\in\theta(\Phi'/\Phi): \varphi\subseteq\\Phi[/$].
 -       guid: bz;5xtGh4H
         front: |
                 Jak vypadají plánovací operátory s časem?
@@ -309,8 +307,8 @@ notes:
         topic: Plánování se zdroji
         front: Co je *kapacitní proměnná*?
         back: |
-                Profil zdroje (změna kapacity) v čase; obor
-                je numerický, změny jsou absolutní (a okamžité)
+                Profil zdroje (změna kapacity) v čase; obor je numerický, změny
+                jsou absolutní (a okamžité)
 -       guid: Q|oPqOzkxy
         topic: Plánování se zdroji
         front: |

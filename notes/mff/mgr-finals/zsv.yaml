@@ -10,7 +10,7 @@ notes:
         back: |
                 Ke každému algoritmu v intuitivním smyslu (konečná
                 posloupnost jednoduchých instrukcí vedoucí k řešení
-                úlohy) existuje ekvivalentní Turingův stroj.
+                úlohy) [$]\\e[/$] ekvivalentní Turingův stroj.
 -       guid: hl+Ol?S>YY
         topic: Turingův stroj
         front: |
@@ -96,12 +96,12 @@ notes:
                 Definice: Částečné rozhodnutelný, resp. rekurzivně
                 spočetný jazyk
         back: |
-                Existuje [$]M[/$], že [$]L = L(M)[/$]
+                [$]\\e M: L = L(M)[/$]
 -       guid: ob[ChPQ[D0
         front: |
                 Definice: Rozhodnutelný, resp. rekurzivní jazyk
         back: |
-                Existuje [$]M[/$], co se vždy zastaví a [$]L = L(M)[/$]
+                [$]\\e M[/$], co se vždy zastaví a [$]L = L(M)[/$]
 -       guid: rE*a?CBD3w
         front: Rekurzivní a rekurzivně spočetné jazyky
         back: |
@@ -149,7 +149,7 @@ notes:
         front: |
                 Definice: Spočetná množina [$]A[/$]
         back: |
-                Existuje prostá funkce [$]f:A\\rightarrow\\N[/$]
+                [$]\\e[/$] prostá funkce [$]f:A\\rightarrow\\N[/$]
 -       guid: Gtn+9?>-q<
         front: Diagonalizační jazyk a jaký je?
         back: |
@@ -171,14 +171,17 @@ notes:
                 Registry: [$]r_i, i\\in\\N[/$]
                 Obsah registru: [$][r_i][/$],
                 nepřímá adresace: [$][[r_i]]=[r_{r[i]}][/$]
-                Instrukce: [$]LOAD(C, r_i)[/$],
-                [$]ADD(r_i, r_j, r_k): r_k := [r_i] + [r_j][/$],
-                [$]SUB[/$] (opatrné odčítání: 0 při podtečení),
-                [$]COPY([r_p], r_d): r_d := [[r_p]][/$],
-                [$]COPY(r_s, [r_d]): r_{[r_d]} := [r_s][/$],
-                [$]JNZ(r_i, I_z)[/$] jump if not zero,
-                [$]READ(r_i)[/$],
-                [$]PRINT(r_i)[/$]
+                Instrukce:
+                <ul>
+                <li> [$]\\mathrm{LOAD}(C, r_i)[/$]
+                <li> [$]\\mathrm{ADD}(r_i, r_j, r_k): r_k \\leftarrow [r_i] + [r_j][/$]
+                <li> [$]\\mathrm{SUB}[/$] (opatrné odčítání: 0 při podtečení)
+                <li> [$]\\mathrm{COPY}([r_p], r_d): r_d \\leftarrow [[r_p]][/$]
+                <li> [$]\\mathrm{COPY}(r_s, [r_d]): r_{[r_d]} \\leftarrow [r_s][/$]
+                <li> [$]\\mathrm{JNZ}(r_i, I_z)[/$] jump if not zero
+                <li> [$]\\mathrm{READ}(r_i)[/$]
+                <li> [$]\\mathrm{PRINT}(r_i)[/$]
+                </ul>
 -       guid: G:f:_6`YJG
         front: I/O v modelu RAM
         back: |
@@ -236,8 +239,8 @@ notes:
         back: |
                 <ul>
                 <li> [$]L[/$] je částečně rozhodnutelný
-                <li> Existuje TS [$]M[/$] že [$]L=\\{x\\in\\Sigma_b^\\*|M_e(x)\\downarrow\\}(=dom \\varphi_e)[/$]
-                <li> Existuje rozhodnutelný jazyk [$]B[/$], že
+                <li> [$]\\e[/$] TS [$]M[/$] že [$]L=\\{x\\in\\Sigma_b^\\*|M_e(x)\\downarrow\\}(=dom \\varphi_e)[/$]
+                <li> [$]\\e[/$] rozhodnutelný jazyk [$]B[/$], že
                      [$]L=\\{x\\in\\Sigma_b^\\*|(\\e y\\in\\Sigma_b^{ * })[< x,y >\\in B]\\}[/$]
                 </ul>
 -       guid: tey2G-+Wy?
@@ -255,16 +258,17 @@ notes:
 -       guid: AeU+($R%hj
         front: Enumerátory a (částečně) rozhodnutelné jazyky
         back: |
-                Částečně rozhodnutelný jazyk: existuje enumerátor
-                Rozhodnutelný: existuje enumerátor co vypisuje slova
-                v pořadí dle očíslování bin. řetězců
+                Částečně rozhodnutelný jazyk: [$]\\e[/$] enumerátor
+                <br>
+                Rozhodnutelný: [$]\\e[/$] enumerátor co vypisuje slova v pořadí
+                dle očíslování bin. řetězců
 -       guid: P/hTEv,GHn
         front: |
                 Definice m-převoditelnosti, m-úplnosti,
                 1-převoditelnosti, 1-úplnosti
         back: |
                 [$]A[/$] je [$]m[/$]-převoditelný na [$]B[/$] ([$]A\\leq_m B[/$]),
-                pokud existuje totální vyčíslitelná funkce [$]f[/$] kde
+                pokud [$]\\e[/$] totální vyčíslitelná funkce [$]f[/$] kde
                 [$] (\\a x\\in\\Sigma_b^{ * })[x\\in A\\ekv f(x)\\in B][/$]<br>
 
                 1-převoditelnost a úplnost: [$]f[/$] má být navíc prostá
@@ -309,8 +313,7 @@ notes:
 -       guid: JlFYwU((Xl
         front: s-m-n věta
         back: |
-                [$]\\a m,n\\geq 1[/$] existuje prostá totální
-                vyčíslitelná funkce
+                [$]\\a m,n\\geq 1 \\e[/$] prostá totální vyčíslitelná funkce
                 [$]s_n^m:\\N^{m+1}\\rightarrow\\N[/$] že pro každé
                 [$]x,y_1,\\ldots y_m,z_1,\\ldots z_n\\in\\Sigma_b^{ * }[/$]
                 platí:
@@ -319,7 +322,9 @@ notes:
         front: Postův korespondenční problém
         back: |
                 Vstup: kostky [$]P=\\{[a_1, b_1], [a_2, b_2], \\ldots [a_k, b_k]\\}[/$].
-                Výstup: existuje párovací posloupnost?
+                <br>
+                Výstup: [$]\\e[/$] párovací posloupnost?
+                <br>
                 Nerozhodnutelný.
 -       guid: Qv@)0TCHZq
         front: Formalizace úlohy
@@ -400,9 +405,11 @@ notes:
         back: |
                 Stejný jako deterministický, ale:
                 [$]\\delta:Q\\times\\Sigma\\rightarrow\\mathcal{P}(Q\\times\\Sigma\\times\\{L,N,R\\})[/$]
+                <br>
                 Výpočet: validní posloupnost konfigurací.
-                Přijímací výpočet: končí v přijímacím stavu.
-                NTS přijímá, když existuje přijímací výpočet.
+                <br>
+                Přijímací výpočet: končí v přijímacím stavu. NTS přijímá,
+                existuje-li přijímací výpočet.
 -       guid: gzf)+qYVNM
         front: |
                 Definice: [$]\\mathrm{NTIME}(f(n))[/$]
@@ -455,10 +462,11 @@ notes:
                 Věta [$]\\mathrm{NSPACE}(f(n))[/$] a
                 [$]\\mathrm{TIME}(2^{c_L f(n)})[/$]
         back: |
-                Ať [$]f(n)[/$] je funkce kde [$]f(n)\\geq\\log_2 n[/$].
-                Pak pro každý [$]L\\in \\mathrm{NSPACE}(f(n))[/$] platí
-                [$]L\\in \\mathrm{TIME}(2^{c_L f(n)})[/$], kde
-                [$]c_L[/$] je konstanta závislá na jazyku [$]L[/$].
+                Ať [$]\\a n: f(n)\\geq\\log_2 n[/$].
+                <br>
+                Pak [$]\\a L\\in \\mathrm{NSPACE}(f(n)):
+                L\\in \\mathrm{TIME}(2^{c_L f(n)})[/$], kde [$]c_L[/$] je
+                konstanta závislá na [$]L[/$].
 -       guid: t[=kNIFFh`
         front: |
                 [$]L\\in\\mathrm{NSPACE}(f(n))[/$]. Co víme o čase?
@@ -496,7 +504,7 @@ notes:
 -       guid: L,K3v%koQ8
         front: Věta o deterministické prostorové hierarchii
         back: |
-                Pro prostorově konstruovatelnou [$]f[/$] existuje
+                [$]\\a[/$] prostorově konstruovatelnou [$]f \\e[/$]
                 jazyk rozhodnutelný v prostoru [$]O(f(n))[/$], ale ne
                 [$]o(f(n))[/$].
 -       guid: z^Nk(+pjtl
@@ -519,7 +527,7 @@ notes:
         front: Věta o deterministické časové hierarchii
         back: |
                 Pro časově konstruovatelnou funkci [$]f[/$]
-                existuje jazyk [$]A[/$] rozhodnutelný v čase
+                [$]\\e[/$] jazyk [$]A[/$] rozhodnutelný v čase
                 [$]O(f(n))[/$], ale ne v čase
                 [$]o(f(n) / \\log f(n))[/$].
 -       guid: r}xh!j>v#{
@@ -532,8 +540,8 @@ notes:
         front: Polynomiální převoditelnost jazyků - definice
         back: |
                 [$]A[/$] je převoditelný na [$]B[/$] v polynomiálním
-                čase ([$]A\\leq_m^P B[/$]) pokud existuje funkce
-                [$]f:\\Sigma^{ * }\\rightarrow\\Sigma^{ * }[/$]
+                čase ([$]A\\leq_m^P B[/$]) pokud [$]\\e
+                f:\\Sigma^{ * }\\rightarrow\\Sigma^{ * }[/$]
                 vyčíslitelná v polynomiálním čase, pro kterou platí
                 [$] (\\a w\\in\\Sigma^{ * })[w\\in A\\ekv f(w)\\in B][/$].
 -       guid: C|mWoL<8ed
@@ -567,7 +575,7 @@ notes:
 -       guid: Awf)4>mYYs
         front: Vertex cover problém
         back: |
-                Existuje množina vrcholů velikosti nejvýš [$]k[/$] co
+                [$]\\e[/$] množina vrcholů velikosti nejvýš [$]k[/$] co
                 se dotýká každé hrany? NP-úplný.
 -       guid: 'r32gFUD_p:'
         front: Hamiltonovská kružnice
@@ -577,7 +585,7 @@ notes:
         back: |
                 Mám množinu trojic
                 [$]M\\subseteq W\\times X\\times Y[/$].
-                Existuje množina velikosti [$]q[/$] co má jenom trojice
+                [$]\\e[/$] množina velikosti [$]q[/$] co má jenom trojice
                 co se nikde neshodují? NP-c.
 -       guid: X@@i(p3k}
         front: |
@@ -585,7 +593,7 @@ notes:
         back: |
                 Algoritmus [$]R[/$] co pro instanci [$]I\\in D_A[/$] má
                 za výstup [$]R(I)[/$] přípustné řešení [$]\\sigma\\in S_A(I)[/$]
-                (pokud přípustné řešení existuje).
+                (pokud [$]\\e[/$] přípustné řešení).
                 <br>
                 Když maximalizuju, tak [$]\\varepsilon > 1[/$] je takové
                 že [$]\\mathrm{opt}(I) \\leq \\varepsilon \\cdot \\mu_A(I,R(I))[/$].
@@ -596,13 +604,13 @@ notes:
         front: Bin-packing a first-fit aproximacni faktor
         back: |
                 FF vytvori nejvyse [$]2 \cdot \mathrm{opt}(I)[/$] kosu.
-                [$]\a m[/$] existuje instance [$]I[/$] kde
+                [$]\a m \e[/$] instance [$]I[/$] kde
                 [$]\mathrm{opt}(I)\geq m[/$] a FF vytvori aspon
                 [$]5/3 \mathrm{opt}(I)[/$] kosu.
 -       guid: bQ2BFiiak-
         front: Aproximace TSP a P vs. NP
         back: |
-                Pokud [$]P\\neq NP[/$], tak neexistuje aproximacni
+                Pokud [$]P\\neq NP[/$], tak [$]\\nexists[/$] aproximacni
                 algoritmus pro TSP s konstantním poměrem.
 -       guid: dnS|8m7]sx
         front: Pseudopolynomiální algoritmus na batoh, složitost
@@ -619,10 +627,12 @@ notes:
         front: |
                 Definice: Číselný rozhodovací problém
         back: |
-                Rozhodovací problém [$]A[/$] je číselný, pokud pro každý
-                polynom [$]p[/$] existuje instance kde [$]\\mathrm{max}(I) > p(\\mathrm{len}(I))[/$],
-                kde [$]\\mathrm{max}[/$] je největší číselný parametr vyskytující se v [$]I[/$],
-                [$]\\mathrm{len}[/$] je délka instance v binárním kódování.<br>
+                Rozhodovací problém [$]A[/$] je číselný, pokud
+                [$]\\a p\\in\\mathrm{poly} \\e[/$] instance kde
+                [$]\\mathrm{max}(I) > p(\\mathrm{len}(I))[/$],
+                kde [$]\\mathrm{max}[/$] je největší číselný parametr
+                v [$]I[/$], [$]\\mathrm{len}[/$] délka instance v binárním
+                kódování.<br>
 
                 Batoh, Loupežníci jsou číselné.<br>
 
@@ -686,13 +696,13 @@ notes:
 -       guid: DxaBoYcJha
         front: Aproximační schemata a silná NP-úplnost. Důsledek?
         back: |
-                Ať je [$]A[/$] optimalizační úloha a existuje polynom [$]q[/$],
-                že pro všechny instance [$]\\mathrm{opt}(I) < q(\\mathrm{len}(I), \\mathrm{max}(I))[/$].
+                Ať je [$]A[/$] optimalizační úloha a [$]\\e q\\in\\mathrm{poly}[/$],
+                že [$]\\a[/$] instance [$]\\mathrm{opt}(I) < q(\\mathrm{len}(I), \\mathrm{max}(I))[/$].
                 <br>
-                Když existuje ÚPAS pro A, tak existuje pseudopolynomiální
+                Když [$]\\e[/$] ÚPAS pro A, tak [$]\\e[/$] pseudopolynomiální
                 algoritmus pro A.
                 <br>
-                (Tedy: pokud [$]P\\neq NP[/$], neexistuje ÚPAS pro
+                (Tedy: [$]P\\neq NP \\rightarrow \\nexists[/$]  ÚPAS pro
                 žádnou silně NP-úplnou úlohu co splňuje požadavky věty)
 -       guid: jEXIwjnjYZ
         front: Definice co-NP jazyků (proti NP jazykům)
@@ -700,8 +710,8 @@ notes:
 -       guid: t,0>8cau77
         front: co-NP a verifikátory
         back: |
-                [$]L\\in\\mathrm{co-NP}[/$] právě když existuje polynom
-                [$]p[/$] a polynomiální verifikátor, že
+                [$]L\\in\\mathrm{co-NP} \\equiv \\e p\\in\\mathrm{poly}[/$],
+                a polynomiální verifikátor, že
                 [$]L=\\{x:(\\a y)[|y|\\leq p(|x|)\\Rightarrow V(x,y) \\text{prijme}]\\}[/$].
                 (Viz: [$]\\a[/$], ne [$]\\e[/$])
 -       guid: HX5WA,_+%_

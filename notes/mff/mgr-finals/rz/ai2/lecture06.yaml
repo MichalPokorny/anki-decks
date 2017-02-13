@@ -61,7 +61,7 @@ notes:
         -       guid: P2{)H?IEFP
                 front: Value iteration algorithm, kdy skončí?
                 back: |
-                        Vstup: [$]\\epsilon[/$]: jak daleko chci být od
+                        Vstup: [$]\\varepsilon[/$]: jak daleko chci být od
                         skutečných utilit. Potřebuje přechodový model.
                         <ul>
                         <li> Začni s náhodnými počátečními hodnotami.

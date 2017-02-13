@@ -90,7 +90,7 @@ notes:
                 front: Definice RBF funkce a co ta zkratka znamená
                 back: |
                         Radial Basis Functions.<br>
-                        [$$]RBF(x,w,\\sigma) := \\exp\\{-\\frac{(x-w)^2}{2\\sigma^2}\\}[/$$]
+                        [$]RBF(x,w,\sigma)\equiv\exp\{-\frac{(x-w)^2}{2\sigma^2}\}[/$]
         -       guid: e1;G#[k])1
                 topic: RBF sítě
                 front: Jakou mají architekturu?

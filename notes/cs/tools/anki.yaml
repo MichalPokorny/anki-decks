@@ -53,3 +53,7 @@ notes:
         back: |
                 `tag:marked`
         include_reverse: true
+-       guid: zUVb=y,Ygr
+        front: |
+                Definition: Mature card
+        back: Interval >= 21 days

@@ -81,15 +81,15 @@ notes:
                 front: CDCL - Jak vybrat klauzuli k naučení?
                 back: |
                         Asserting clause: konfliktní klauzule co obsahuje
-                        přesně jeden literál ze současného rozhodnutí.
+                        přesně 1 literál ze současného rozhodnutí.
                         (Po backtracku unit propagace okamžitě dá rozhodnutí.)
                         <br>
-                        Unique implication point: takový bod, skrz který vedou
-                        všechny cesty z posledního decision vertexu do K.
+                        Unique implication point: bod, skrz který vedou všechny
+                        cesty z posledního decision vertexu do K.
                         <br>
-                        Vybereme UIP, který je nejbližší k K.
-                        Naučíme se jako konfliktní klauzuli tenhle UIP spolu
-                        s opakem literálu z poslední rozhodovací vrstvy.
+                        Vyber UIP nejbližší ke K. Nauč se jako konfliktní
+                        klauzuli tenhle UIP plus opak literálu z poslední
+                        rozhodovací vrstvy.
         -       guid: b]<PZ$|wUn
                 topic: Řešení SAT
                 front: CDCL - Kam backtrackovat?

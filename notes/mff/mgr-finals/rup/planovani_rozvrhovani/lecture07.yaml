@@ -31,15 +31,15 @@ notes:
         -       guid: vVu`+/Yavk
                 front: Co nás zajímá v kvalitativním přístupu k času?
                 back: |
-                        Časové reference: body změny stavových proměnných (okamžiky),
-                        časové periody během kterých platí nějaké tvrzení,
-                        uspořádání časových referencí
+                        Časové reference: body změny stavových proměnných
+                        (okamžiky), časové periody během kterých platí nějaké
+                        tvrzení, uspořádání časových referencí
         -       guid: Qh@g2THi-2
                 topic: Algebra okamžiků - kvalitativní čas
                 front: Svázání primitivními vztahy, složitější vztahy, operace nad
                         vztahy
                 back: |
-                        Okamžiky jsou svázány primitivními vztahy [$]<[/$]/[$]>[/$]/[$]=[/$],
+                        Okamžiky svázány primitivními vztahy [$]<[/$]/[$]>[/$]/[$]=[/$],
                         nebo nějakou jejich množinou.<br>
                         [$]R=\\mathcal{P}(\\{<,>,=\\})[/$]
                         <br>

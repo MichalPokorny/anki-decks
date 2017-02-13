@@ -45,14 +45,14 @@ notes:
                         Kdy by byl stav [$] (x_0,y_0)[/$] stabilní?
                         Jak z toho odvodit energetickou funkci?
                 back: |
-                        [$$]e^T:=W\cdot y_0[/$$]<br>
+                        [$$]e^T\\equiv W\cdot y_0[/$$]<br>
 
                         [$] (x_0,y_0)[/$] je stabilni stav, kdyz [$]\\sgn(e)=x_0[/$]
                         (skalarni soucin [$]x_0 \\cdot e^T[/$] by mel byt vetsi
                         nez skalarni soucin jinych excitacnich vektoru a
                         [$]x_0[/$])<br>
 
-                        Energeticka funkce: [$]E:=-x_0 W y_0^T[/$].<br>
+                        Energeticka funkce: [$]E\\equiv -x_0 W y_0^T[/$].<br>
                         Když [$]Wy_0[/$] je blíž k [$]x_0[/$], tak tenhle krok ji zmenší.<br>
                         Lokální minima odpovídají stabilním stavům.
         -       guid: f(lTm{..0$

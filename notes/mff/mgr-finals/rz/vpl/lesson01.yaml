@@ -40,15 +40,15 @@ notes:
         -       guid: i;k(W>t?Fs
                 front: Extenze prvku v relaci
                 back: |
-                        [$]R[x] := \\{y | (x,y)\\in R\\}[/$]
+                        [$]R[x]\\equiv\\{y | (x,y)\\in R\\}[/$]
         -       guid: EH][o8X:L]
                 front: Restrikce relace na množinu
                 back: |
-                        [$]R \\uparrow z := \\{(x,y)\\in R | x\\in z\\}[/$]
+                        [$]R \\uparrow z\\equiv\\{(x,y)\\in R | x\\in z\\}[/$]
         -       guid: mA!o6LJ2D?
                 front: Složení relací
                 back: |
-                        [$]R \\circ S := \\{(x,z) | \\e y: (x,y)\\in R \\wedge (y,z)\\in S\\}[/$]
+                        [$]R \\circ S\\equiv\\{(x,z) | \\e y: (x,y)\\in R \\wedge (y,z)\\in S\\}[/$]
         -       guid: Q.>lg3h{;Q
                 front: Co je to ekvivalence?
                 back: Relace, co je reflexivní, tranzitivní a symetrická.
@@ -108,15 +108,15 @@ notes:
                 front: Temno - přirozená čísla
                 back: |
                         [$]0 = \\emptyset, 1 = \\{\\emptyset\\}, 2 = \\{0,1\\}, 3 = \\{0,1,2\\}, \\ldots[/$]
-                        Nejmenší množina obsahující [$]\\emptyset[/$] a uzavřená na [$]S(x):=x\\cup\\{x\\}[/$]
+                        Nejmenší množina obsahující [$]\\emptyset[/$] a uzavřená na [$]S(x)\\equiv x\\cup\\{x\\}[/$]
         -       guid: kBU6]fmzOq
                 front: Temno - celá čísla
                 back: |
-                        [$] (\\N\\times\\N)/\\sim, (a,b)\\sim(c,d) := (a+d)=(b+c)[/$]
+                        [$] (\\N\\times\\N)/\\sim, (a,b)\\sim(c,d)\\equiv(a+d)=(b+c)[/$]
         -       guid: Baj^4<&hbu
                 front: Temno - racionální čísla
                 back: |
-                        [$]\\mathbb{Q}=(\\Z\\times(\\Z\\setminus\\{0\\}))/\\sim; \\sim:=(a,b)\\sim(c,d) :=: a\\cdot d = b\\cdot c[/$]
+                        [$]\\mathbb{Q}=(\\Z\\times(\\Z\\setminus\\{0\\}))/\\sim: (a,b)\\sim(c,d) \\equiv a\\cdot d=b\\cdot c[/$]
         -       guid: IHiw*(3!<6
                 front: Temno - reálná čísla
                 back: |

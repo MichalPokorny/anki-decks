@@ -175,8 +175,9 @@ notes:
                 back: |
                         NP-těžký
         -       guid: h8:cnZEU<[
+                markdown: false
                 topic: |
-                        [$]1\\mid r_j\\mid L_{\\max}[/$]
+                        [$]1\mid r_j\mid L_{\max}[/$]
                 front: Řešení obecného nerelaxovaného problému
                 back: |
                         Větvi na úloze, kterou teď plánuješ. Použij branch and
@@ -189,12 +190,12 @@ notes:
                         Když najdu nepreemptivní rozvrh stejně dobrý jako
                         preemptivní řešení, nehledám dál (lepší rozvrh není).
         -       guid: zc7x^3}szw
-                front: Typy paralelních zdrojů podle zpracování úloh
+                front: Typy paralelních zdrojů podle doby zpracování úloh
                 back: |
                         <ul>
                         <li> <i>Identické</i>: stejná trvání úloh
-                        <li> <i>Uniformní</i>: zdroj má koeficient rychlosti
-                        oproti normálu
+                        <li> <i>Uniformní</i>: koeficienty rychlosti oproti
+                        normálu
                         <li> <i>Různé</i>: doba zpracování na zdrojích úplně
                         různá
                         </li>
@@ -218,12 +219,11 @@ notes:
                 topic: "[$$]p_m\\mid\\mathrm{preempt}\\mid C_{\\max}[/$$]\n"
                 front: Jak lze sestavit rozvrh s optimálním makespanem, a jak rychle?
                 back: |
-                        Jde to za [$]\\O(n)[/$].
+                        Čas [$]\\O(n)[/$].
                         <br><br>
-                        Úlohy řadíme v libovolném pořadí. Jakmile dosáhneme
-                        [$]LB[/$], úlohu rozdělíme a pokračujeme v jejím
-                        schedulování na dalším stroji. Protože [$]p_i\\leq LB[/$],
-                        tak se úlohy nikdy nebudou samy se sebou překrývat.
+                        Úlohy řaď libovolně. Dosáhneš [$]LB[/$] &rarr; úlohu
+                        rozděl, dokonči běh na dalším stroji. Protože
+                        [$]p_i\\leq LB[/$], úlohy nebudou samy sebe překrývat.
         -       guid: bp:hUhS_vD
                 topic: "[$$]p_m\\mid\\mathrm{prec}\\mid C_{\\max}[/$$]\n"
                 front: Zadání
@@ -396,10 +396,10 @@ notes:
                 topic: "[$]Jm \\mid \\mid C_{\\max}[/$]\n"
                 front: Jak vyčteme z grafu korektní rozvrh? Kde je makespan?
                 back: |
-                        Korektní rozvrh: z disjunktních hran vyber
-                        jednu, aby v grafu nebyly cykly.
+                        Korektní rozvrh: z disjunktních hran vyber jednu, aby
+                        v grafu nebyly cykly.
                         <br>
-                        Makespan: délka nejdelší cesty [$]S\\rightarrow T[/$].
+                        Makespan: nejdelší cesta [$]S\\rightarrow T[/$].
         -       guid: rr+LOZAV2S
                 topic: "[$]Jm \\mid \\mid C_{\\max}[/$]\n"
                 front: Složitost

@@ -316,8 +316,7 @@ notes:
 -       guid: C;D*?!z]*t
         front: Why may LaTeX not be shown on mobile?
         back: |
-                Because the card must first be viewed on desktop to
-                generate the LaTex before
+                Card must first be viewed on desktop to generate LaTex before
                 the mobile sees the LaTeX.
 -       guid: Q#t#B2W[dg
         front: What workaround forces regeneration of all LaTeX?

@@ -259,8 +259,8 @@ notes:
         back: |
                 [latex]
                 \begin{align*}
-                        t := & a+\Phi(T')-\Phi(T) = &
-                \\         = & \underbrace{2}_{Rotace} + r'(x) - r(x) + r'(y) - r(y) + r'(z) - r(z) = & [r(z)=r'(x)]
+                   t \\equiv & a+\Phi(T')-\Phi(T) = &
+                \\         = & \underbrace{2}_{\text{rotace}} + r'(x) - r(x) + r'(y) - r(y) + r'(z) - r(z) = & [r(z)=r'(x)]
                 \\         = & 2 - r(x) + r'(y) - r(y) + r'(z) \leq & [r'(y) \leq r'(x); r(y)\geq r(x)]
                 \\      \leq & 2 - r(x) + r'(x) - r(x) + r'(z) &
                 \\         = & 2 + r'(x) - 2r(x) + r'(z) &
@@ -279,8 +279,8 @@ notes:
         back: |
                 [latex]
                 \begin{align*}
-                        t := & a+\Phi(T')-\Phi(T) = &
-                \\         = & \underbrace{2}_{Rotace} + r'(x) - r(x) + r'(y) - r(y) + r'(z) - r(z) = & [r(z)=r'(x)]
+                   t \\equiv & a+\Phi(T')-\Phi(T) = &
+                \\         = & \underbrace{2}_{\text{rotace}} + r'(x) - r(x) + r'(y) - r(y) + r'(z) - r(z) = & [r(z)=r'(x)]
                 \\         = & 2 - r(x) + r'(y) - r(y) + r'(z) \leq & [r(y) > r(x)]
                 \\      \leq & 2 - 2r(x) + r'(y) - r'(z) &
                 \end{align*}
@@ -349,8 +349,7 @@ notes:
         topic: Eager binomiální halda
         front: Algoritmus Insert
         back: |
-                Přidej nový strom velikosti 1,
-                postupně slívej dokud existují 2 stromy stejné
+                Přidej strom velikosti 1, slívej dokud existují stejné
                 velikosti.
                 Aktualizuj ukazatel na strom s minimem.
 -       guid: EU3RZ%3}D*
@@ -668,6 +667,7 @@ notes:
 -       guid: =nH8cW(q)
         topic: Kukaččí hashování
         front: Důkaz očekávaného počtu přehašování za Inserty
+        markdown: false
         back: |
                 [$]m=6n[/$].
                 <br>
@@ -683,8 +683,8 @@ notes:
                 [latex]
                 \begin{align*}
                 P[d(i,j)=l] & \leq & P[\e x_{1,\ldots \ell}, i_{1,\ldots \ell-1}:
-                        h(x_1)=\\{i,i_1\\} \wedge \ldots h(x_\ell)=\\{i_{\ell-1},j\\}] \leq \\\\\\\\
-                            & \leq & \underbrace{2^\ell}_{\text{parita}} \cdot n \cdot (n-1) \cdot \ldots \cdot (n-\ell+1) \cdot m^{l-1} \cdot m^{2(n-\ell)} / m^{2n} \leq \\\\\\\\
+                        h(x_1)=\{i,i_1\} \wedge \ldots h(x_\ell)=\{i_{\ell-1},j\\}] \leq \\
+                            & \leq & \underbrace{2^\ell}_{\text{parita}} \cdot n \cdot (n-1) \cdot \ldots \cdot (n-\ell+1) \cdot m^{l-1} \cdot m^{2(n-\ell)} / m^{2n} \leq \\
                             & \leq & \frac{2^\ell}{m^{2\ell}} \cdot n^\ell \cdot m^{\ell-1} = \\left(\frac{2n}{m}\\right)^\ell \cdot \frac{1}{m}
                 \end{align*}
                 [/latex]
@@ -693,7 +693,7 @@ notes:
                 <br>
                 [$$]P[i\text{ je v cyklu delky }\ell]\leq\frac{1}{3^\ell}\frac{1}{m}[/$$]<br>
                 [$$]P[i\text{ je v cyklu}]\leq\sum_{\ell\geq 1}\frac{1}{3^\ell}\cdot\frac{1}{m}\leq\frac{1}{2m}[/$$]<br>
-                [$$]P[\text{existuje cyklus}]\leq\frac{1}{2}[/$$]
+                [$$]P[\e\text{ cyklus}]\leq\frac{1}{2}[/$$]
                 <br>
                 Očekávaný počet přehashování je tedy [$]\leq 1[/$] na
                 [$]n[/$] insertů.
@@ -804,11 +804,11 @@ notes:
         front: Hashování vektory - vychytávky
         markdown: false
         back: |
-                Když je [$]d[/$] sudé, jde použít k ušetření násobení:
-                [$$]h(x_0,\ldots x_{d-1})=[(\sum_{i\in\{0,\ldots d/2-1\}} (a_{2i}+x_{2i+1})(a_{2i+1}+x_{2i})) + b][/$$]
+                [$]d[/$] je sudé &rarr; jde ušetřit násobení:
+                [$$]h(x_{0\ldots d-1})=\left[\left(\sum_{i\in\{0,\ldots d/2-1\}} (a_{2i}+x_{2i+1})(a_{2i+1}+x_{2i})\right) + b\right][/$$]
                 <br>
-                Pokud chci hashovat vektory proměnné délky [$]d'<d[/$], kde [$]d'[/$] je sudé:
-                [$$]h(x_0,\ldots x_{d'-1})=[(\sum_{i\in\{0,\ldots d'/2-1\}} (a_{2i}+x_{2i+1})(a_{2i+1}+x_{2i})) + a_{d'}]_{w'-k+1,\ldots w'}[/$$]
+                Hashuju vektory proměnné délky [$]d'<d[/$], kde [$]d'[/$] je sudé &rarr;
+                [$$]h(x_{0\ldots d'-1})=\left[\left(\sum_{i\in\{0,\ldots d'/2-1\}} (a_{2i}+x_{2i+1})(a_{2i+1}+x_{2i})\right) + a_{d'}\right]_{w'-k+1,\ldots w'}[/$$]
 -       guid: yj`2,[@g~C
         front: Hashování řetězců - parametry
         back: |

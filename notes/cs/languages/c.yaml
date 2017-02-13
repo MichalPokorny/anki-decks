@@ -114,8 +114,7 @@ notes:
         front: |
                 Why to use `reallocarray`
         back: |
-                Because `num * size` in `malloc`/`realloc` call
-                might lead to overflow
+                `num * size` in `malloc`/`realloc` call might lead to overflow
 -       guid: q{-cbZ=02f
         front: |
                 Prototype: `reallocarray`
