@@ -1266,4 +1266,21 @@ notes:
 -       guid: dan-@EBZ<E
         front: Rancor
         back: Bitter deep-seated ill will
-
+-       guid: D,.c]dp0j@
+        front: |
+                Latin for "out of nothing"
+        back: Ex nihilo
+        include_reverse: true
+-       guid: o|WhA-BEPL
+        front: |
+                Latin for "out of nothing comes nothing"
+        back: Ex nihilo nihil fit
+        include_reverse: true
+-       guid: e6C^2p2tEC
+        front: |
+                Sea between Southern Europe, Levant and North Africa
+        back: |
+                Mediterrenean Sea
+-       guid: FTPzNhE8_F
+        front: Hamartia
+        back: Fatal flaw leading to the downfall of a tragic hero or heroine

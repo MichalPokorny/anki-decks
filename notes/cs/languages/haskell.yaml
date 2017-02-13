@@ -3,3 +3,15 @@ notes:
 -       guid: mlq(kfC}bd
         front: Scotty
         back: Web framework
+-       guid: k~X/A~jN+6
+        front: "Type: `1`"
+        back: "`Num t => t`"
+-       guid: kNokKS=e;l
+        front: QuickCheck usage
+        markdown: false
+        back: |
+                <code>
+                import Test.QuickCheck<br>
+                testsOutOkay :: T -> Bool
+                main = quickCheck (\x -> testsOutOkay x)
+                </code>

@@ -354,3 +354,307 @@ notes:
         front: Split vertically and explore filesystem
         back: '`:Sex`'
         include_reverse: true
+-       guid: sbLA)&@v%T
+        front: Repeat last replace
+        back: "`&`"
+        include_reverse: true
+-       guid: M`%-Ti.lk<
+        front: Move 1 screen down
+        back: "`C-f`"
+        include_reverse: true
+-       guid: k+bTVs[|+
+        front: Move 1 screen down
+        back: "`C-b`"
+        include_reverse: true
+-       guid: u$eT$Zk!Z)
+        topic: Vim - Help
+        front: Follow link
+        back: "`C-]`"
+        include_reverse: true
+-       guid: QTk&UAqAf`
+        topic: Vim - Help
+        front: Go back
+        back: "`C-t`"
+        include_reverse: true
+-       guid: QW:VMwI#lb
+        front: Run global search-and-replace `xxx` to `yyy` over all buffers
+        back: "`:bufdo %s/xxx/yyy/g`"
+        include_reverse: true
+-       guid: s@2;ONJ0`U
+        front: "`C-[`"
+        back: Alternative spelling of `Esc`
+-       guid: q#!16)NYq%
+        front: "`C-c`"
+        back: Alternative spelling of `Esc`
+-       guid: GxJf=@&dFC
+        front: "Rotate windows"
+        back: "`C-W r`/`R`"
+        include_reverse: true
+-       guid: r(54rIAkUm
+        front: "Increase/decrease window height"
+        back: "`<num> C-W +/-`"
+        include_reverse: true
+-       guid: L]e~iCF$|6
+        front: "Increase/decrease window width"
+        back: |
+                `<num> C-W >/<`
+        include_reverse: true
+-       guid: KPJN)gjE6K
+        front: Open all edited files in windows
+        back: |
+                `:all`
+        include_reverse: true
+-       guid: Cvj_i8r@p%
+        front: |
+                `S`
+        back: Edit entire line
+        include_reverse: true
+-       guid: E6a6hnf|bE
+        front: |
+                `s`
+        back: Edit single character
+        include_reverse: true
+-       guid: H(cZLf>LaO
+        front: |
+                `W`
+        back: Go to start of next whitespace-separated word
+        include_reverse: true
+-       guid: CQnW[<h-`~
+        front: |
+                `B`
+        back: Go to start of previous whitespace-separated word
+        include_reverse: true
+-       guid: N%4ymgYP5F
+        front: |
+                `E`
+        back: Go to end of current whitespace-separated word
+        include_reverse: true
+-       guid: F+0d[@xl-`
+        front: |
+                `gE`
+        back: Go to end of previous whitespace-separated word
+        include_reverse: true
+-       guid: ez$g;wd*u=
+        front: |
+                Search-and-replace occurences of the <b>word</b> "vi" with VIM
+        markdown: false
+        back: |
+                <code>:%s/\<vi\>/VIM/g</code>
+        include_reverse: true
+-       guid: LS9L{*Y=MM
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Whitespace character
+        back: |
+                <code>\s</code>
+-       guid: j?36[O^Jjg
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Any character except new line
+        back: |
+                <code>.</code>
+-       guid: djyBkQoPtL
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Digit
+        back: |
+                <code>\d</code>
+-       guid: B7JWh3f&By
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Uppercase character
+        back: |
+                <code>\u</code>
+-       guid: Pc98phF%y0
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Lowercase character
+        back: |
+                <code>\l</code>
+-       guid: O!HO*O;I=H
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Word character
+        back: |
+                <code>\w</code>
+-       guid: BbRxa%Y^>T
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Match 0 or more
+        back: |
+                <code>*</code>
+-       guid: PR;|ll5Bbf
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Match 1 or more
+        back: |
+                <code>\+</code>
+-       guid: r(juwGuu2&
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Match 0 or 1
+        back: |
+                <code>\=</code>
+-       guid: wz3SbyQuVI
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Match <code>n</code> to <code>m</code> times the preceding
+        back: |
+                <code>\{n,m}</code>
+-       guid: crAvFj@S,9
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Match exactly <code>n</code> times the preceding
+        back: |
+                <code>\{n}</code>
+-       guid: Hg@lPvl^*g
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Match up to <code>n</code> times the preceding
+        back: |
+                <code>\{,n}</code>
+-       guid: J-;_gG4+7v
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Match at least <code>n</code> times the preceding
+        back: |
+                <code>\{n,}</code>
+-       guid: BQ]?#<+y5]
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Range: G, H, ... R
+        back: |
+                <code>[G-R]</code>
+-       guid: i-?NN45H:W
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Range: Anything that's not a "
+        back: |
+                <code>[^"]</code>
+-       guid: f,H|ra~v0V
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Match literal <code>.</code>
+        back: |
+                <code>\.</code>
+-       guid: oQBl<]rJd;
+        topic: Vim search
+        markdown: false
+        include:reverse: true
+        front: |
+                Whole matched pattern
+        back: |
+                <code>&</code>
+-       guid: w^gDY)@/8V
+        topic: Vim search
+        markdown: false
+        include:reverse: true
+        front: |
+                Pattern matched in first pair of <code>\(\)</code>
+        back: |
+                <code>\1</code>
+-       guid: Dw9gLxfLlk
+        topic: Vim search
+        markdown: false
+        include:reverse: true
+        front: |
+                Pattern matched in <code>n</code>-th pair of <code>\(\)</code>
+        back: |
+                <code>\n</code>
+-       guid: g-Bscv{[7I
+        topic: Vim search
+        markdown: false
+        include:reverse: true
+        front: |
+                Replace - split line in two at this point
+        back: |
+                <code>\r</code>
+-       guid: CB8k[7X;?J
+        topic: Vim search
+        markdown: false
+        include:reverse: true
+        front: |
+                Replace - start: make following characters uppercase
+        back: |
+                <code>\U</code>
+-       guid: G$/gaM-)7!
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Replace - start: make following characters lowercase
+        back: |
+                <code>\L</code>
+-       guid: nug&<z|[#T
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Replace - end of make following characters upper/lowercase
+        back: |
+                <code>\E</code>
+-       guid: GW[nDZ@oN,
+        topic: Vim search
+        markdown: false
+        include:reverse: true
+        front: |
+                Replace - start: make next character uppercase
+        back: |
+                <code>\u</code>
+-       guid: A|CWGc_7/8
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Replace - start: make next character lowercase
+        back: |
+                <code>\l</code>
+-       guid: EOQj93[e)d
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Match either expression <code>e1</code> or <code>e2</code>
+        back: |
+                <code>e1\|e2</code>
+-       guid: xm%G3oUk$B
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Find the <b>word</b> red, green, or blue
+        back: |
+                <code>\<\(red\|green\|blue\)\></code>
+

@@ -57,15 +57,16 @@ notes:
                         nahrazená.
         -       guid: fxKW<J9fPL
                 front: Teorie Booleových algeber
+                markdown: false
                 back: |
-                        [$]L=<-,\\wedge,\\vee,0,1>[/$] s rovností
+                        [$]L=\langle -,\wedge,\vee,0,1\rangle[/$] s rovností
 
                         <ul>
                         <li> Asociativita obou operátorů
                         <li> Komutativita obou operátorů
-                        <li> Distributivita ([$]x\\wedge(y\\vee z)=(x\\wedge y)\\vee(x\\wedge z)[/$] a obráceně)
-                        <li> Absorbce ([$]x\\wedge(x\\vee y)=x[/$] a obráceně)
-                        <li> Komplementarita ([$]x\\vee(-x)=1, x\\wedge(-x)=0[/$])
+                        <li> Distributivita ([$]x\wedge(y\vee z)=(x\wedge y)\vee(x\wedge z)[/$] a obráceně)
+                        <li> Absorbce ([$]x\wedge(x\vee y)=x[/$] a obráceně)
+                        <li> Komplementarita ([$]x\vee(-x)=1,x\wedge(-x)=0[/$])
                         <li> [$]0\\neq 1[/$]
                         </ul>
         -       guid: u`D`Bt(:I~

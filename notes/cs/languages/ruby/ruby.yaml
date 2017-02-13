@@ -54,3 +54,22 @@ notes:
         front: Symbol array syntax
         back: '`%i[hello world foo bar]`'
         include_reverse: true
+-       guid: kim*Fx3o:0
+        front: |
+                Usage: `Array#assoc`
+        back: |
+                `Array#assoc(obj) -> new_ary` or `nil`
+                <br>
+                Search through array whose elements are arrays, compare
+                `obj` with their first element, return first matching
+                array or `nil`
+                <br>
+                <code>
+                a = [["hello", 2, 3], ["world", 1], 123]<br>
+                a.assoc("hello")  #=> ["hello", 2, 3]<br>
+                a.assoc("foo")    #=> nil
+                <code>
+-       guid: sKJj8d]<Ea
+        front: |
+                List all available Rake tasks
+        back: "`rake -T`"

@@ -5,3 +5,9 @@ notes:
         front: '`if (auto x = ...) { ... }`'
         back: Declare a variable, while simultaneously branching on its truthiness
         include_reverse: true
+-       guid: uX39{12W).
+        front: "`namespace fbb = foo::bar::baz;`"
+        back: |
+                Declare namespace alias `fbb` for `foo::bar::baz`
+        include_reverse: true
+

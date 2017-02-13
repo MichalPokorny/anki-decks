@@ -1,0 +1,25 @@
+topic: Rails
+deck: All::CS::Languages::Ruby::Rails
+notes:
+-       guid: yv-Wf7r91W
+        front: Behavior of `#blank?` on `String`
+        back: |
+                `true` iff `str` contains only whitespace
+-       guid: e:3IZ&)(rL
+        front: Behavior of `#blank?` on `0`
+        back: |
+                `false`
+-       guid: qmq2^Di>aQ
+        front: Behavior of `#blank?` on `0.0`
+        back: |
+                `false`
+-       guid: F@ijFqB21R
+        front: "`x.presence`"
+        back: "`(x.present? ? x : nil)`"
+-       guid: MYUWB+=Wuk
+        front: |
+                Usage: `Object#try`
+        back: |
+                `father.try(:name)` === `father.name if father`
+
+                Also returns `nil` if `father` does not `respond_to?(:name)`

@@ -6383,13 +6383,11 @@ notes:
         front: |
                 What he keeps and doesn't
         back: |
-                Ptolemaic epicycles not entirely abolished.
-                Retains notion that celestial bodies move in circles;
-                celestial spheres is still important.
-                Accepts the universe is finite, through much larger than
-                thought before.
-                Sun is also not *clearly* in the center
-                (as most popular accounts of his views state).
+                Ptolemaic epicycles not entirely abolished. Retains notion that
+                celestial bodies move in circles; celestial spheres is still
+                important. Accepts a finite universe, through much larger than
+                thought before. Sun is also not *clearly* in the center (as
+                most popular accounts of his views state).
 -       guid: L@*7A]Pfph
         topic: Copernicus
         front: |
@@ -7826,21 +7824,19 @@ notes:
         front: |
                 What does he remove from philosophy?
         back: |
-                The idea of *substance* - accidents or qualities
-                independent of a mind
+                Idea of *substance* - mind-independent accidents or qualities
 -       guid: s`JR-RWeth
         topic: George Berkeley
         front: |
                 How does he defend the principle that things continue
                 existing even when not perceived?
         back: |
-                While we can, in imagination, combine attributes as
-                we want, this cannot be done with senses.
-                With respect to senses, we are passive.
+                While we can, in imagination, combine attributes as we want,
+                this cannot be done with senses. With respect to senses, we are
+                passive.
 
-                Ideas are *inert* - causally inactive.
-                It's never the case that one idea causes another
-                one to appear.
+                Ideas are *inert* - causally inactive. It's never the case that
+                one idea causes another one to appear.
 
                 Sensations and ideas do not *act*.
 -       guid: z50M?~?E]X
@@ -7864,14 +7860,14 @@ notes:
         front: |
                 Why is our experience regular and well-ordered?
         back: |
-                We are not in control of the ideas we call *the world*.
-                So, if we get our epistemology and metaphysics
-                straight, there is a new and simple proof of God.
+                We are not in control of the ideas we call *the world*. So, if
+                we get our epistemology and metaphysics straight, there is
+                a new and simple proof of God.
 
                 We know of God the same way I know of your spirit.
 
-                This is why things have an independent existence from
-                us: God perceives them.
+                This is why things have an independent existence from us: God
+                perceives them.
         # chapter 15 - david hume - unmasking the pretensions of reason
 -       guid: m]Fw]x}s#0
         front: Usual name for 18th century
@@ -7910,13 +7906,11 @@ notes:
         back: |
                 Analysis and synthesis.
 
-                Do not *frame hypotheses* &mdash; stay close to
-                original phenomena, don't jump to conclusions
-                prematurely.
+                Do not *frame hypotheses* &mdash; stay close to original
+                phenomena, don't jump to conclusions prematurely.
                 What is deduced from phenomena he calls *hypothesis*.
-                Hypotheses, occult or mechanical,
-                metaphysical or physical, have no place in
-                experimental philosophy.
+                Hypotheses, occult or mechanical, metaphysical or physical,
+                have no place in experimental philosophy.
 -       guid: n+:FkK{fU!
         front: |
                 Rationalism vs. empiricism and Newton vs. Descartes
@@ -7981,11 +7975,10 @@ notes:
         topic: David Hume
         front: On Descartes vs Hobbes
         back: |
-                Descartes: right to be skeptical, but spiritual substance was
-                just a hypothesis.
+                Descartes: rightly skeptical, but spiritual substance was just
+                a hypothesis.
 
-                On the other hand, Hobbes's idea that mind is mechanical was
-                also a hypothesis.
+                Hobbes's idea of mechanical mind was also a hypothesis.
 
                 We don't have insight into actual "essence" of human bodies
                 or minds and can only proceed by experiment.
@@ -8006,29 +7999,32 @@ notes:
         front: |
                 Term for content of mind; two 2-fold separations
         back: |
-                "Perception"; divided into *impressions*
-                and *ideas*.
-
-                Impressions: enter the mind with force and violence
+                "Perception" divided into:
+                <ul>
+                <li>
+                <i>Impressions</i>: enter the mind with force and violence
                 (sensations, passions, emotions)
+                <li>
+                <i>Ideas</i>: faint images - thinking and reasoning
+                </ul>
 
-                Ideas: faint images - thinking and reasoning
-
-                *Simple* and *complex* perceptions:
-                simple: slap of hand on table, complex: a melody
+                Perceptions:
+                <ul>
+                <li><i>Simple</i>: slap of hand on table
+                <li><i>Complex</i>: a melody
+                </ul>
 -       guid: l]xl4>Kzic
         topic: David Hume
         front: Relation between impressions and ideas, when does it hold
         back: |
-                All impressions correspond to ideas.
-                Not all ideas (e.g., unicorns) correspond
-                to impressions.
+                All impressions correspond to ideas. Not all ideas correspond
+                to impressions (unicorns).
 
-                This *duplicity* does hold for all *simple* ideas,
-                but not all complex ideas (e.g., unicorns).
+                This *duplicity* holds for all *simple* ideas, but not all
+                complex ideas (e.g., unicorns).
 
-                Every *simple* idea corresponds to a *simple impression*
-                that resembles it.
+                Every *simple* idea corresponds to a *simple impression* that
+                resembles it.
 -       guid: rG3%k}OvXl
         topic: David Hume
         front: What comes first - impressions or ideas?
@@ -8112,9 +8108,9 @@ notes:
                 Where does asking for the source of the *principle of
                 uniformity of nature* lead?
         back: |
-                Infinite regress. How do we know it holds?
-                From experience. How do we know experience is a
-                predictor of the future? Repeat ad infinitum.
+                Infinite regress. How do we know it holds? From experience.
+                How do we know experience is a predictor of the future? Repeat
+                ad infinitum.
 -       guid: jrN@%=ZDX;
         topic: David Hume
         front: What justifies our belief in causality?
@@ -8148,10 +8144,9 @@ notes:
         topic: David Hume
         front: On *causes*
         back: |
-                We should try to remove the term from our reasoning.
-                We never actually saw any connexions between objects!
-                All events are loose and separate!
-                We don't really have an *idea* of a cause.
+                We should try to remove the term from our reasoning. We never
+                actually saw any connexions between objects! All events are
+                loose and separate! We don't really have an *idea* of a cause.
 -       guid: C8uWR`}%9P
         topic: David Hume
         front: What do we really mean when we say something causes something else?
@@ -8239,23 +8234,20 @@ notes:
 -       guid: r&TQ_M61G`
         topic: David Hume
         front: |
-                Why do people resist the conclusion that
-                human actions are caused?
+                Why do people resist conclusion that human actions are caused?
         back: |
-                We feel no connexion of the motive and the action
-                inside our minds. From that, we suppose there
-                is difference between effects from natural
-                causes and effects from intelligence.
-                This is just a confusion.
+                We feel no connexion of motive and action inside our minds.
+                From that, we suppose there is difference between effects from
+                natural causes and effects from intelligence, which is just a
+                confusion.
 -       guid: 'v+(Q4_<pw:'
         topic: David Hume
         front: |
                 What is *liberty*?
         back: |
                 Surely not that actions have no connexion with motives,
-                inclinations, etc. -- liberty is a
-                *power of acting or not acting, according to the
-                determinations of the will*.
+                inclinations, etc. -- liberty is a *power of acting or not
+                acting, according to the determinations of the will*.
 -       guid: Dg%o4lpv9
         topic: David Hume
         front: |
@@ -8272,60 +8264,56 @@ notes:
         back: |
                 <ol>
                 <li> Such an idea requires a cause.
-                <li> Cause must be equal in "formal" reality
-                to "subjective" reality of the idea.
+                <li> Cause must be equal in "formal" reality to "subjective"
+                reality of the idea.
                 <li> I myself can't possibly be the cause.
                 <li> So, God exists.
                 </ol>
 
-                Attacks (3). Hume: God made by impressions -
-                from reflections on operation of our own mind (e.g.,
-                intelligence, wisdom, goodness).
+                Attacks (3). Hume: Idea of God comes from our impressions -
+                reflections on our mind's operation (intelligence, wisdom,
+                goodness).
 -       guid: JG+B}}sCa>
         topic: David Hume
         front: Attack on Descartes's ontological proof of God
         back: |
                 <ol>
-                <li> You can't think of God without thinking he
-                exists.
+                <li> You can't think of God without thinking he exists.
                 <li> You think of God.
                 <li> So you think God exists.
                 <li> So God exists.
                 </ol>
 
-                Hume's attack: (1) is about the *relation of ideas*,
-                not about *facts*. Maybe I can't think about God
-                without thinking that he exists, but that doesn't
-                say anything about whether he *really exists*.
-                Transition (3 &rarr; 4) is illegitimate.
+                Hume's attack: (1) is about the *relation of ideas*, not about
+                *facts*. Maybe I can't think about God without thinking he
+                exists, but that doesn't say anything about whether he *really
+                exists*. (3 &rarr; 4) is illegitimate.
 
                 *Relations of ideas can't prove matters of fact.*
 -       guid: IKk^m4Y|/l
         topic: David Hume
         front: His argument for God
         back: |
-                Argument from design
-                (the universe is a complex machine).
+                Argument from design (universe is a complex machine).
 
-                It's an *a posteriori* argument -- it depends on
-                our knowledge of the world being orderly.
+                It's an *a posteriori* argument -- depends on our knowledge of
+                the world being orderly.
 
-                It's just a *probabilistic argument* -- as any
-                argument that arises from experience.
+                It's just a *probabilistic argument* -- as any argument that
+                arises from experience.
 
-                This *doesn't show a perfectly good God* -- since
-                the world isn't perfect. (Principle of proportionality
-                -- we'd be deriving more than the argument gives us)
+                This *doesn't show a perfectly good God* -- since the world
+                isn't perfect. (Principle of proportionality -- we'd be
+                deriving more than the argument gives us)
 
-                Other options: many gods (makers); mortal Gods;
-                evil makers; many previous failed worlds; etc.
+                Other options: many gods (makers); mortal Gods; evil makers;
+                many previous failed worlds; etc.
 -       guid: i^9auL7ctQ
         topic: David Hume
         front: How can we apply the principle of causality to the world?
         back: |
-                Not really. We only have *one example*, so we can't
-                reliably look for causes.
-                We'd need [$]N>1[/$].
+                Not really. We only have *one example*, so we can't reliably
+                look for causes. We'd need [$]N>1[/$].
 -       guid: eozg9vbgra
         topic: David Hume
         front: Solipsism
@@ -8409,28 +8397,23 @@ notes:
         front: Criticism of the Cartesian project
         back: |
                 <ol>
-                <li> We can't *really* bring ourselves to doubt
-                everything.
-                <li> There'd be no way back to rational belief
-                from full-on Cartesian doubt - you can always
-                doubt your own faculties.
+                <li> We can't *really* bring ourselves to doubt everything.
+                <li> There'd be no way back to rational belief from full-on
+                Cartesian doubt - you can always doubt your own faculties.
                 </ol>
 -       guid: gAGvH<xdwF
         topic: David Hume
         front: 2 kinds of skepticism
         back: |
                 <ol>
-                <li> "Antecedent" (Cartesian) skepticism: unworkable,
-                barren
-                <li> "Mitigated" skepticism: keep in mind
-                "strange infirmities of human understanding",
-                supports modesty, goes against dogmatism
+                <li> "Antecedent" (Cartesian): unworkable, barren
+                <li> "Mitigated": keep in mind "strange infirmities of human
+                understanding", supports modesty, goes against dogmatism
                 </ol>
         # chapter 16 - immanuel kant - rehabilitating reason (within strict limits)
 -       guid: fj_M|oK*SL
         front: |
-                Age: David Hume when publishing A Treatise of
-                Human Nature
+                Age: David Hume when publishing A Treatise of Human Nature
         back: 23
 -       guid: Er^ODbJ0?_
         front: |
@@ -8504,37 +8487,37 @@ notes:
         topic: Immanuel Kant
         front: His revolutionary suggestion
         back: |
-                Drop the assumption that our thoughts *conform to
-                objects*. Drop representational theory of truth.
+                Drop the assumption that our thoughts *conform to objects*.
+                Drop representational theory of truth.
 
-                We can't know whether our ideas correspond
-                to an idea-less object. On the basis
-                of concepts, we can know nothing outside our minds.
-                All of this follows from: 1. we are acquainted
-                only with experienced ideas, 2. objects exist
-                independently of our experience, 3. knowledge
-                requires that we ascertain correspondence between
-                ideas and objects.
+                We can't know whether our ideas correspond to an idea-less
+                object. On the basis of concepts, we can know nothing outside
+                our minds. All of this follows from:
+                <ol type="1">
+                <li> we are acquainted only with experienced ideas
+                <li> objects exist independently of our experience
+                <li> knowledge requires that we ascertain correspondence
+                between ideas and objects
+                </ol>
 
-                What is objects only exist if they are related
-                to a rational mind?
+                What is objects only exist if they are related to a rational
+                mind?
 
-                Maybe objects of experience are constructions of
-                rational mind, and have no reality independent
-                of their construction. Rational minds have some
-                structure (including, e.g. causality), and the
+                Maybe objects of experience are constructions of rational mind,
+                and have no reality independent of their construction. Rational
+                minds have some structure (including, e.g. causality), and the
                 structure is **imposed** on objects known by them.
 -       guid: NFNX2eczOW
         front: What is *critical philosophy*?
         back: |
-                Not criticising that we might not know at all.
-                Critique: an attempt to get behind knowledge claims
-                and ask what makes them possible.
+                Not criticising that we might not know at all. Critique: an
+                attempt to get behind knowledge claims and ask what makes them
+                possible.
 -       guid: le}7*#Rtf2
         topic: Immanuel Kant
         front: |
-                4 main objects of knowledge, about which to ask how are
-                they possible
+                4 main objects of knowledge, about which to ask how are they
+                possible
         back: |
                 <ul>
                 <li> Mathematics
@@ -8545,14 +8528,12 @@ notes:
 -       guid: lD`4i[VnyP
         front: What is *transcendental investigation*?
         back: |
-                Critically examining how a rational mind
-                works. Reaches back into mind, asks how
-                it produces results.
+                Critically examining how a rational mind works. Reaches back
+                into mind, asks how it produces results.
 -       guid: B?L_xsills
         topic: Immanuel Kant
         front: |
-                Which 2 extremes can we avoid by knowing boundaries
-                of reason?
+                Which 2 extremes can we avoid by knowing boundaries of reason?
         back: Dogmatism and skepticism
 -       guid: qS</y+8i%t
         topic: Immanuel Kant
@@ -8598,11 +8579,9 @@ notes:
         front: |
                 Examples: Analytic a posteriori knowledge
         back: |
-                Empty class.
-                The test for analycity is examining denial of judgement
-                for contradiction, so we also don't have to examine
-                experience.
-                All analytic judgements must be a priori.
+                Empty class. The test for analycity is examining denial of
+                judgement for contradiction, so we also don't have to examine
+                experience. All analytic judgements must be a priori.
 -       guid: o(pvl^Fi<i
         topic: Immanuel Kant
         front: |
@@ -8618,20 +8597,17 @@ notes:
                 <ul>
                 <li> All judgements of math and geometry
                 <li> Causality
-                <li> "There is a God" / "the soul is a substance
-                distinct from the body"
-                <li> Imperative to treat others as ends, not as means
-                to some of my ends
+                <li> "God exists"/"soul is distinct from the body"
+                <li> Categorical imperative
                 </ul>
 -       guid: N|UQ84*{aF
         topic: Immanuel Kant
         front: |
                 Description: Synthetic a priori knowledge
         back: |
-                Puzzling and controversial class.
-                Things true no matter what experience shows us.
-                It is true *not* because it is analytic. Its denial
-                is not logically contradictory.
+                Puzzling and controversial class. True no matter what
+                experience shows us. *Not* true because it is analytic - denial
+                does not lead to contradiction.
                 <br><br>
                 These describe how objects ***must be***.
 -       guid: zeui,ylfqE
@@ -8643,7 +8619,7 @@ notes:
         topic: Immanuel Kant
         front: Where would *synthetic a priori knowledge* come from?
         back: |
-                From the structure of our rational mind
+                From structure of our rational mind
 -       guid: N}:oN/o:`_
         topic: Immanuel Kant
         front: What does he call *principles for the construction of objects*?
@@ -8658,18 +8634,17 @@ notes:
 -       guid: zFSxy-v_`V
         topic: Immanuel Kant
         front: |
-                2 tests for distinguishing a priori knowledge from a posteriori knowledge
+                2 tests for distinguishing a priori from a posteriori knowledge
         back: |
-                Universality, necessity -- both are criteria of
-                a posteriori knowledge
+                Universality, necessity -- both are criteria of a posteriori
+                knowledge
 -       guid: E*Fp~29.Mn
         topic: Immanuel Kant
         front: |
                 Why is mathematics synthetic, not analytic?
         back: |
-                Only some *intuition* can tell us what 5+7 is.
-                "5+7" isn't *inscribed* in 12, so it can't be *analyzed*
-                to be equal to 12.
+                Only some *intuition* can tell us what 5+7 is. "5+7" isn't
+                *inscribed* in 12, so it can't be *analyzed* to be equal to 12.
 -       guid: EI`T#F!=n)
         topic: Immanuel Kant
         front: |
@@ -8804,44 +8779,41 @@ notes:
         topic: Baruch Spinoza
         front: His metaphysics
         back: |
-                There is only 1 infinite substance (which exists
-                in itself). This is "God of Nature". Individuals
-                and our experience are just its modifications.
+                There is only 1 infinite substance (which exists in itself).
+                This is "God of Nature". Individuals and our experience are
+                just its modifications.
 
-                Mind and body are not substances, but attributes
-                under which the one substance can be conceived.
+                Mind and body are not substances, but attributes under which
+                the one substance can be conceived.
 
-                For every natural body, there is an idea.
-                The mind is the idea corresponding to a human body.
-                Mind and body are identical, mental changes
-                and bodily changes isomorphic.
+                For every natural body, there is an idea. The mind is the idea
+                corresponding to a human body. Mind and body are identical,
+                mental changes and bodily changes isomorphic.
 
                 There is no free will, because everything is a necessary
-                expression of the divine nature. Freedom is just
-                the power to act from one's own nature.
-                God is the only completely free being.
+                expression of the divine nature. Freedom is just the power to
+                act from one's own nature. God is the only completely free
+                being.
 
-                We are *in bondage* of emotions (love, desire, hate).
-                Emotions are *caused in us*. We move towards freedom
-                by intellectual love of God, coming to see necessities
-                of the world as God sees them. This knowledge is the
-                source of power to act (rather than react), virtue
-                and joy; thus we can approximate the blessed life
-                of God.
+                We are *in bondage* of emotions (love, desire, hate). Emotions
+                are *caused in us*. We move towards freedom by intellectual
+                love of God, coming to see necessities of the world as God sees
+                them. This knowledge is the source of power to act (rather than
+                react), virtue and joy; thus we can approximate the blessed
+                life of God.
 -       guid: LGb~.W!Ljp
         front: |
-                Author: "We are subject to an illusion from which
-                it is difficult to escape. The categories are not,
-                as regards their origin, grounded in sensibility,
-                like the *forms of intuition*, space and time;
-                and they seem, therefore, to allow of an application
-                extending beyond all objects of the senses."
+                Author: "We are subject to an illusion from which it is
+                difficult to escape. The categories are not, as regards their
+                origin, grounded in sensibility, like the *forms of intuition*,
+                space and time; and they seem, therefore, to allow of
+                an application extending beyond all objects of the senses."
         back: Immanuel Kant
 -       guid: bd3eEg1(eN
         topic: Immanuel Kant
         front: |
-                Why can't we use categories apart from sensible
-                intuitions to give us knowledge of objects?
+                Why can't we use categories apart from sensible intuitions
+                to give us knowledge of objects?
         back: |
                 They are merely "forms of thought" - mental "operators",
                 which unite "in one consciousness the manifold given
@@ -8947,37 +8919,33 @@ notes:
         back: |
                 "Substance is a being capable of action."
 
-                Sheer extension does not account for resistance,
-                solidity, impenetrability. He made reality
-                intrinsically dynamic.
+                Sheer extension does not account for resistance, solidity,
+                impenetrability. He made reality intrinsically dynamic.
                 Composed of monads - points of activity.
 -       guid: Owp]Lpl;.A
         topic: Leibniz
         front: |
                 What is a *monad*?
         back: |
-                Ultimate substances: points of activity (force),
-                with an inherent tendency toward motion (rest
-                is infinitesimal motion).
+                Ultimate substances: points of activity (force), with inherent
+                tendency toward motion (rest is infinitesimal motion).
 -       guid: o8.[`((@0A
         topic: Leibniz
         front: |
                 Simplicity and reflection of monads
         back: |
-                Each is intrinsically simple, but has infinitely
-                many properties (of relation to other monads).
-                Each monad "mirrors"/"reflects" the entire universe.
-                In some monads, this reflection is perception
-                and the mind.
-                Knowing any monad completely would mean knowing
-                everything.
+                Each intrinsically simple, but has infinitely many properties
+                (of relation to other monads). Each monad "mirrors"/"reflects"
+                the entire universe. In some monads, this reflection is
+                perception and the mind. Knowing any monad completely would
+                mean knowing everything.
 -       guid: G0$yAmMVa*
         topic: Leibniz
         front: |
                 What constitutes a *possible world*?
         back: |
-                Sum of all substances that are possible along
-                with a given monad
+                Sum of all substances that are possible along with a given
+                monad
 -       guid: IN>Dg+-EYH
         topic: Leibniz
         front: |
@@ -8990,15 +8958,14 @@ notes:
         front: |
                 Why is this world the actual one?
         back: |
-                Has richest variety of contents and greatest simplicity
-                of laws. God (only being not merely possible,
-                but also necessary) chose ***best possible
-                world***.
+                Has richest variety of contents and greatest simplicity of
+                laws. God (only being not merely possible, but also necessary)
+                chose ***best possible world***.
 -       guid: ok4CMNyi[A
         topic: Immanuel Kant
         front: |
-                5 steps in his metaphysics. Where is common sense
-                and science, critical philosophy, mathematics?
+                5 steps in his metaphysics. Where is common sense and science,
+                critical philosophy, mathematics?
         back: |
                 <ol type="1">
                 <li> Noumena - things in themselves -
@@ -9516,10 +9483,9 @@ notes:
                 <li>Truth is eternal and unchanging
                 <li>Truth can, in principle, be known to us
                 <li>Discovering truth is the job of the philosopher
-                <li>Knowing truth about ourselves and the universe
-                is *supremely important* to provide a foundation
-                for science, religion, ethics, the state, and good
-                life for all
+                <li>Knowing truth about ourselves and the universe is
+                *supremely important* to provide foundation for science,
+                religion, ethics, state, good life for all
                 </ul>
 -       guid: OS7Mue6?>$
         front: |
@@ -9566,8 +9532,7 @@ notes:
 -       guid: eZAnrUM`8x
         front: What impresses Romantics about Greeks?
         back: |
-                Unity, harmony.
-                No conflict between reason and inclination,
+                Unity, harmony. No conflict between reason and inclination,
                 science and religion, rationality and feeling.
 -       guid: M@MR2i7f|E
         front: What Romantics dislike about Kant?
@@ -9596,11 +9561,9 @@ notes:
         topic: Arthur Schopenhauer
         front: Organization of phenomen
         back: |
-                *Principle of sufficient reason*: everything
-                we can experience has a cause or ground explaining
-                why it must be as it is.
-                The experienced world, including my body,
-                is "my idea".
+                *Principle of sufficient reason*: everything we can experience
+                has a cause or ground explaining why it must be as it is.
+                The experienced world, including my body, is "my idea".
 -       guid: sGTb;qptJ!
         front: |
                 Year: *The World as Will and Idea* published
@@ -9678,15 +9641,13 @@ notes:
                 discrepancy between knowledge and experience.
 -       guid: x#tAw5-gkE
         front: |
-                Author: "For consciousness is, on the one hand,
-                consciousness of the object, and on the other,
-                consciousness of itself.; consciousness of what for
-                it is the True, and consciousness of its knowledge
-                of the truth. Since both are *for* the same
-                consciousness, this consciousness is itself their
-                comparison; it is for this same consciousness to know
-                whether its knowledge of the object corresponds to
-                the object or not."
+                Author: "For consciousness is, on the one hand, consciousness
+                of the object, and on the other, consciousness of itself;
+                consciousness of what for it is the True, and consciousness of
+                its knowledge of the truth. Since both are *for* the same
+                consciousness, this consciousness is itself their comparison;
+                it is for this same consciousness to know whether its knowledge
+                of the object corresponds to the object or not."
         back: Georg Wilhelm Friedrich Hegel
 -       guid: e:reb4/O$[
         front: |
@@ -9700,25 +9661,21 @@ notes:
 -       guid: u*JoH/]a%V
         topic: Hegel
         front: |
-                How does the object-appearance distinction appear
-                in consciousness?
+                How does object-appearance distinction appear in consciousness?
         back: |
-                When we find discrepancy between awareness and its
-                objects, consciousness corrects itself to make
-                awareness more adequate. But the object has not stayed
-                put, so we see that what we thought the object *is*,
-                now it just *appears to be*. It formerly had
-                the status of *thing-in-itself*, and now it's
-                seen as having been an object *just for us*.
-                Thus the reality-appearance distinction arises
-                *within consciousness*.
+                When we find discrepancy between awareness and its objects,
+                consciousness corrects itself to make awareness more adequate.
+                But the object has not stayed put, so we see that what we
+                thought the object *is*, now it just *appears to be*.
+                It formerly had the status of *thing-in-itself*, and now it's
+                seen as having been an object *just for us*. Thus
+                the reality-appearance distinction arises *in consciousness*.
 
-                Previous philosophers naively thought it existed
-                *between* consciousness and something
-                independent of consciousness.
+                Previous philosophers naively thought it existed *between*
+                consciousness and something independent of it.
 
-                Phenomenology traces the dialectical succession
-                of more and more adequate stages of consciousness.
+                Phenomenology traces the dialectical succession of more and
+                more adequate stages of consciousness.
 -       guid: I;2G@T]?h~
         topic: Hegel
         front: What about the problem of the criterion?

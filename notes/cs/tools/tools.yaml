@@ -730,3 +730,13 @@ notes:
                 Send SIGHUP to all `httpd` processes
         back: |
                 `pkill -HUP httpd`
+-       guid: Qz<1ipd8nz
+        topic: Firefox
+        front: |
+                Shortcut to open Web Inspector
+        back: F12
+-       guid: y|)Ms@/fv-
+        topic: Firefox
+        front: |
+                Shortcut to delete unwanted suggestion
+        back: Ctrl+Delete
