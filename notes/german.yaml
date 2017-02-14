@@ -1,0 +1,237 @@
+topic: German
+deck: All::Languages::German
+notes:
+-       guid: nR&`sbCtMI
+        front: Nouns are...
+        back: ...always capitalized
+-       guid: Mhu?v,i.`5
+        front: Genders in German
+        back: |
+                Feminine, masculine, neuter; may not match biological gender
+-       guid: j)23z,rC/D
+        front: Definite article ("the")
+        back: die
+        include_reverse: true
+-       guid: fxRik,Zn#Z
+        front: Indefinite article ("a/an")
+        back: eine
+        include_reverse: true
+-       guid: DS]-<Oj<v7
+        front: Indefinite masculine article
+        back: ein Mann
+-       guid: dZ|Nj7&@z}
+        front: Indefinite neuter article
+        back: ein Mädchen
+-       guid: ho7Q9!g$0(
+        front: Indefinite feminine article
+        back: eine Frau
+-       guid: t$FM|Ss[5C
+        front: Definite masculine article
+        back: der Mann
+-       guid: d]D>QA#43I
+        front: Definite neuter article
+        back: das Mädchen
+-       guid: v}<*^5Nwp8
+        front: Definite feminine article
+        back: die Frau
+-       guid: wDtIt|AT0]
+        front: ich bin
+        back: I am
+        include_reverse: true
+-       guid: hpQFD0<p/K
+        front: sein
+        back: to be
+        include_reverse: true
+-       guid: D9Hit`1*)]
+        front: you (singular informal) are
+        back: du bist
+        include_reverse: true
+-       guid: v%&LDHFv}j
+        front: er/sie/es ist
+        back: he/she/it is
+        include_reverse: true
+-       guid: bmJbT7N.@[
+        front: wir sind
+        back: we are
+        include_reverse: true
+-       guid: z`LqQO1%4y
+        front: ihr seid
+        back: you (plural informal) are
+        include_reverse: true
+-       guid: Ot)<_2rIQM
+        front: sie sind
+        back: they are
+        include_reverse: true
+-       guid: jq/_`5JHLO
+        front: Sie sind
+        back: you (formal) are
+        include_reverse: true
+-       guid: HI/ycOnpoj
+        front: sein - singular 1st person
+        back: ich bin
+        include_reverse: true
+-       guid: cljh8)Qke7
+        front: sein - singular 2nd person
+        back: du bist
+        include_reverse: true
+-       guid: O__Pktrt3.
+        front: sein - singular 3nd person
+        back: er/sie/es ist
+        include_reverse: true
+-       guid: D/xl/y=6MC
+        front: sein - plural 1st person
+        back: wir sind
+        include_reverse: true
+-       guid: OeV}.GK6jn
+        front: sein - plural 2nd person
+        back: ihr seid
+        include_reverse: true
+-       guid: IOE/Vz]N9V
+        front: sein - plural 3rd person
+        back: sie sind
+        include_reverse: true
+-       guid: HyF-7,<@iI
+        front: Conjugation of "sein"
+        back: |
+                Singular:
+                <ul>
+                <li> ich bin
+                <li> du bist (singular informal)
+                <li> er/sie/es ist
+                </ul>
+                <br>
+                Plural:
+                <ul>
+                <li> wir sind
+                <li> ihr seid (plural informal)
+                <li> sie sind (they are)
+                </ul>
+                (Sie sind: you - formal - are)
+-       guid: cMQ9THKc3u
+        front: Conjugating regular verbs - present tense
+        back: |
+                Identify invariant stem, add ending corresponding to grammatical
+                persons:
+                <ul>
+                <li> ich trink<b>e</b> (-e)
+                <li> du trink<b>st</b> (-st)
+                <li> er/sie/es trink<b>t</b> (-t)
+                <li> wir trink<b>en</b> (-en)
+                <li> ihr trink<b>t</b> (-t)
+                <li> sie trink<b>en</b> (-en)
+                </ul>
+-       guid: g^Db5jP?bb
+        front: Continuous aspect
+        back: |
+                There is none - no separation between "I drink" and
+                "I am drinking".
+-       guid: oH<qOKem,b
+        front: Männer
+        back: men
+        include_reverse: true
+-       guid: pBq!Z&E+BM
+        front: Frauen
+        back: women
+        include_reverse: true
+-       guid: Mt)Z.u&)>*
+        topic: English &rarr; German
+        front: we
+        back: wir
+-       guid: w3ia*D<0{O
+        topic: English &harr; German
+        front: We are men.
+        back: Wir sind Männer.
+        include_reverse: true
+-       guid: wBhCt<%u<O
+        topic: English &harr; German
+        front: You are girls.
+        back: Ihr seid Mädchen.
+        include_reverse: true
+-       guid: k#8fgEE4yI
+        topic: English &harr; German
+        front: Entschuldigung
+        back: Sorry
+        include_reverse: true
+-       guid: w<zwcP/)Mp
+        topic: English &harr; German
+        front: We are from England.
+        back: Wir kommen aus England.
+        include_reverse: true
+-       guid: LWKj!,HBoY
+        front: 4 cases
+        back: |
+                Nominative: the one doing the action
+
+                Accusative: the thing/person receiving the action
+
+                Der: nominative case, den: accusative case
+-       guid: t^^.]j^fzN
+        front: Nominative masculine article "die"
+        back: der
+        include_reverse: true
+-       guid: r*-V1rm4=4
+        front: Nominative feminine article "die"
+        back: die
+        include_reverse: true
+-       guid: DBgT@gnJqg
+        front: Nominative neuter article "die"
+        back: das
+        include_reverse: true
+-       guid: KcFmjg^7,p
+        front: Nominative plural article "die"
+        back: die
+        include_reverse: true
+-       guid: PDXw8N&WgP
+        front: Accusative plural article "die"
+        back: die
+        include_reverse: true
+-       guid: g$,Mw]L;4b
+        front: Accusative masculine article "die"
+        back: den
+        include_reverse: true
+-       guid: DxI/-6MH~s
+        front: Accusative feminine article "die"
+        back: die
+        include_reverse: true
+-       guid: z!*4$O$_8=
+        front: Accusative neuter article "die"
+        back: das
+        include_reverse: true
+-       guid: PCfkNv>dzr
+        front: Accusative plural article "die"
+        back: die
+        include_reverse: true
+-       guid: Oi8=jISx]z
+        front: Nominative masculine article "ein"
+        back: ein
+        include_reverse: true
+-       guid: l,-9Z&NmU&
+        front: Nominative feminine article "ein"
+        back: eine
+        include_reverse: true
+-       guid: j3>;QJlp;K
+        front: Nominative neuter article "ein"
+        back: ein
+        include_reverse: true
+-       guid: kDN/NyfEKB
+        front: Accusative masculine article "ein"
+        back: einen
+        include_reverse: true
+-       guid: gu{bQot5GM
+        front: Accusative feminine article "ein"
+        back: eine
+        include_reverse: true
+-       guid: F%m{BNj`=f
+        front: Accusative neuter article "ein"
+        back: ein
+        include_reverse: true
+-       guid: bO&ghMw~tb
+        front: Conjugations of regular verbs
+        back: |
+                Singular 1st: -e<br>
+                Singular 2nd: -st<br>
+                Singular 3rd: -t<br>
+                Plural 1st: -en<br>
+                You (plural informal): -t<br>
+                You (formal): -en (Sie ess*en*)<br>
+                Plural 3rd: -en

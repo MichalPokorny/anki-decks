@@ -50,3 +50,9 @@ notes:
         front: |
                 Year: Death of Pierre Teilhard de Chardin
         back: 1995
+-       guid: bid+4=m#$`
+        front: |
+                Benjamin Todd
+        back: CEO and co-founder of 80,000 Hours
+        include_reverse: true
+

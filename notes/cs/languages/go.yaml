@@ -608,11 +608,12 @@ notes:
         back: |
                 `x.PushBack(50)`
 -       guid: smI,0m4Q+u
-        front: "Iterate over a `list.List` of `int`s"
+        markdown: false
+        front: Iterate over a <code>list.List</code> of <code>int</code>s
         back: |
-                `for e := x.Front(); e != nil; e = e.Next() {<br>
+                <code>for e := x.Front(); e != nil; e = e.Next() {<br>
                     fmt.Println(e.Value.(int))<br>
-                }`
+                }</code>
 -       guid: J4=6,g{h0|
         front: "Package for sorting stuff"
         back: "`sort`"

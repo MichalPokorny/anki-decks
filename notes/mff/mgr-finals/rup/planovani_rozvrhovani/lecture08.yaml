@@ -227,7 +227,7 @@ notes:
                 Definice: Kronika [$]\Phi'[/$] je důsledek kroniky [$]\Phi[/$]
         back: |
                 [$]\Phi[/$] podporuje [$]\Phi'[/$] a
-                [$]\e\varphi\in\theta(\Phi'/\Phi): \varphi\subseteq\\Phi[/$].
+                [$]\e\varphi\in\theta(\Phi'/\Phi): \varphi\subseteq\Phi[/$].
 -       guid: bz;5xtGh4H
         front: |
                 Jak vypadají plánovací operátory s časem?

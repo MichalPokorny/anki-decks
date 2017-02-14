@@ -37,39 +37,65 @@ notes:
         back: |
                 `main;` (from `int main = 0;` &rarr; `main=0;` &rarr;
                 `main;`)
+-       guid: t*>BVHY)/+
+        topic: C - <code>printf</code>
+        front: Full general syntax of format strings
+        back: |
+                `%[FF][WW][.PP][LL]SS`
+                <br>
+                `FF`: flags<br>
+                `WW`: width<br>
+                `PP`: precision<br>
+                `LL`: modifier (select type width)<br>
+                `SS`: conversion<br>
+-       guid: ADPn#di0|j
+        topic: C - <code>printf</code>
+        front: Print out double in scientific
+        back: '`printf("%e\n", 3.14);`'
+        include_reverse: true
+-       guid: D+w8n>.x*n
+        topic: C - <code>printf</code>
+        front: Print out double in decimal
+        back: '`printf("%g\n", 3.14);`'
+        include_reverse: true
+-       guid: H_1==3v(4R
+        topic: C - <code>printf</code>
+        front: Print out `size_t` as unsigned decimal
+        back: '`printf("%zu\n", x);`'
+        include_reverse: true
 -       guid: C#f]8^yH4W
-        topic: C - `printf`
+        topic: C - <code>printf</code>
         front: Align to left (print '42  ')
         back: '`printf("%-4d\n", 42);`'
         include_reverse: true
 -       guid: h^Q=W]UEk_
-        topic: C - `printf`
+        topic: C - <code>printf</code>
         front: Print number with sign, + or - (print '+42')
         back: '`printf("%+d\n", 42);`'
         include_reverse: true
 -       guid: M_b90&}A@3
-        topic: C - `printf`
+        topic: C - <code>printf</code>
         front: |
                 Print number with `-`, or `' '` for positives
                 (print ' 42')
         back: '`printf("% d\n", 42);'
         include_reverse: true
 -       guid: i&|fvO+$[q
-        topic: C - `printf`
+        topic: C - <code>printf</code>
         front: |
                 Print float in hexadecimal form (`0x1.91eb86p+1`)
         back: |
                 `printf("pi=%a\n", 3.14);`
         include_reverse: true
 -       guid: s{yg=kJzA=
-        topic: C - `printf`
+        topic: C - <code>printf</code>
         front: |
                 Print out `0x1a`, without `0x` in format string
         back: |
                 `printf("%#X\n", 26);`
         include_reverse: true
 -       guid: b_!_58Mkdt
-        topic: C - `printf`
+        topic: C - <code>printf</code>
         front: |
                 Print out `013` as octal representation of 11, without
                 `0` in format string
@@ -285,3 +311,604 @@ notes:
                 Function: Get file descriptor for `FILE*`
         back: |
                 `fileno`
+-       guid: mKwa)}$WHz
+        topic: |
+                Two's complement representation
+        front: |
+                `-1` in 16-bit signed integer
+        back: |
+                `1111 1111 1111 1111`
+        include_reverse: true
+-       guid: y`&=?)>Uyn
+        topic: |
+                Two's complement representation
+        front: |
+                `0` in 16-bit signed integer
+        back: |
+                `0000 0000 0000 0000`
+        include_reverse: true
+-       guid: h[bw2_E|0n
+        topic: |
+                Two's complement representation
+        front: |
+                `1` in 16-bit signed integer
+        back: |
+                `0000 0000 0000 0001`
+        include_reverse: true
+-       guid: l0GfClu!I~
+        topic: |
+                Two's complement representation
+        front: |
+                Bounds of 16-bit signed integer
+        back: |
+                [$][-32768; 32767][/$]
+-       guid: x$rMt9oIw.
+        topic: |
+                Two's complement representation
+        front: |
+                `-32767` in 16-bit signed integer
+        back: |
+                `1000 0000 0000 0001`
+        include_reverse: true
+-       guid: jUz5(,8e3-
+        topic: |
+                Two's complement representation
+        front: |
+                `-32768` in 16-bit signed integer
+        back: |
+                `1000 0000 0000 0000`
+        include_reverse: true
+-       guid: I&!)t9e9bI
+        topic: |
+                Two's complement representation
+        front: |
+                `-32769` in 16-bit signed integer
+        back: |
+                Cannot be represented
+-       guid: rH.7tux(]y
+        topic: |
+                Two's complement representation
+        front: |
+                `32767` in 16-bit signed integer
+        back: |
+                `0111 1111 1111 1111`
+        include_reverse: true
+-       guid: r/n85hfK8#
+        topic: |
+                Two's complement representation
+        front: |
+                `32768` in 16-bit signed integer
+        back: |
+                Cannot be represented
+-       guid: E_;E<^7>p-
+        front: |
+                `errno` and signal handlers
+        back: |
+                Properly written signal handlers should restore `errno`;
+                since `errno` is `volatile`, they may change it
+-       guid: lp_?xIhHcr
+        front: Reserved names for errors
+        back: |
+                Start with `E`, then uppercase letter or digit; these
+                are reserved
+-       guid: Jj?qlD&aN*
+        front: |
+                `EWOULDBLOCK` and `EAGAIN`...
+        back: |
+                ... have the same value
+-       guid: E.nup=kk?}
+        topic: Errors from `errno.h`
+        front: |
+                `EPERM`
+        back: |
+                Operation not permitted; only the owner or processes with
+                special privileges can perform the operation
+        include_reverse: true
+-       guid: CSb+Qno|u2
+        topic: Errors from `errno.h`
+        front: |
+                `ENOENT`
+        back: |
+                No such file or directory
+        include_reverse: true
+-       guid: yK=kbp=tx,
+        topic: Errors from `errno.h`
+        front: |
+                `ESRCH`
+        back: |
+                No process matches the specified process ID
+        include_reverse: true
+-       guid: t>6UR&cYV-
+        topic: Errors from `errno.h`
+        front: |
+                `EINTR`
+        back: |
+                Interrupted function call; an asynchronous signal prevented
+                completion of the call. You should try the call again.
+        include_reverse: true
+-       guid: lAXa<G~4S1
+        topic: Errors from `errno.h`
+        front: |
+                `EIO`
+        back: |
+                Input/output error (usually physical read/write errors)
+        include_reverse: true
+-       guid: r_;H3@m1;U
+        topic: Errors from `errno.h`
+        front: |
+                `ENXIO`
+        back: |
+                No such device or address. Maybe the device is installed
+                incorrectly, missing, not correctly attached.
+        include_reverse: true
+-       guid: c|5[T=6iM{
+        topic: Errors from `errno.h`
+        front: |
+                `E2BIG`
+        back: |
+                Argument list too long (for `exec`)
+        include_reverse: true
+-       guid: s(@l2<180c
+        topic: Errors from `errno.h`
+        front: |
+                `ENOEXEC`
+        back: |
+                Invalid executable file format (for `exec`)
+-       guid: u-M%9H/MKn
+        topic: Errors from `errno.h`
+        front: |
+                `EBADF`
+        back: |
+                Bad file descriptor (e.g., closed, reading from descriptor
+                opened for writing)
+        include_reverse: true
+-       guid: g&R.MnnfBs
+        topic: Errors from `errno.h`
+        front: |
+                `ECHILD`
+        back: |
+                There are no child processes (operation manipulating child
+                processes has not processes to manipulate)
+        include_reverse: true
+-       guid: HNAdV)O|5g
+        topic: Errors from `errno.h`
+        front: |
+                `EDEADLK`
+        back: |
+                Deadlock avoided
+        include_reverse: true
+-       guid: fUcsp<v]au
+        topic: Errors from `errno.h`
+        front: |
+                `ENOMEM`
+        back: |
+                No memory available; capacity of virtual memory is full
+        include_reverse: true
+-       guid: LP0p]`SD!i
+        topic: Errors from `errno.h`
+        front: |
+                `EACCES`
+        back: |
+                Permission denied; file permissions do not allow this operation
+        include_reverse: true
+-       guid: u&%/5rvBe-
+        topic: Errors from `errno.h`
+        front: |
+                `EFAULT`
+        back: |
+                Bad address; an invalid pointer was detected
+        include_reverse: true
+-       guid: wHXB*^0$kB
+        topic: Errors from `errno.h`
+        front: |
+                `ENOTBLK`
+        back: |
+                Not a block device, when a block device was expected
+        include_reverse: true
+-       guid: yWnzs%wKoK
+        topic: Errors from `errno.h`
+        front: |
+                `EBUSY`
+        back: |
+                Resource busy; an unshareable system resource is already in use
+        include_reverse: true
+-       guid: Jcu1.;(mWm
+        topic: Errors from `errno.h`
+        front: |
+                `EEXIST`
+        back: |
+                File exists when a new file would only make sense
+        include_reverse: true
+-       guid: PS-Z!i@eLs
+        topic: Errors from `errno.h`
+        front: |
+                `EXDEV`
+        back: |
+                Detected attempt to make an improper link across file systems
+        include_reverse: true
+-       guid: s-dy`N23,^
+        topic: Errors from `errno.h`
+        front: |
+                `ENODEV`
+        back: |
+                Wrong type of device given to function that expects a particular
+                device type
+        include_reverse: true
+-       guid: s#+-^k*ak/
+        topic: Errors from `errno.h`
+        front: |
+                `ENOTDIR`
+        back: |
+                File that isn't a directory specified when a directory is
+                required
+        include_reverse: true
+-       guid: rTvkv3`{8t
+        topic: Errors from `errno.h`
+        front: |
+                `EISDIR`
+        back: |
+                File is a directory; cannot be opened for writing, and can't
+                create/remove hard links to it
+        include_reverse: true
+-       guid: z<$*Uk~cXO
+        topic: Errors from `errno.h`
+        front: |
+                `EINVAL`
+        back: |
+                Invalid argument
+        include_reverse: true
+-       guid: p}-JPM}($?
+        topic: Errors from `errno.h`
+        front: |
+                `EMFILE`
+        back: |
+                Current process has too many open files and can't open any more
+        include_reverse: true
+-       guid: sHYbnd(aU%
+        topic: Errors from `errno.h`
+        front: |
+                `ENFILE`
+        back: |
+                Too many distinct file openings in the entire system
+        include_reverse: true
+-       guid: F!(^LTOTs(
+        topic: Errors from `errno.h`
+        front: |
+                `ENOTTY`
+        back: |
+                Inappropriate I/O control operation, e.g. trying to set
+                terminal modes on ordinary file
+        include_reverse: true
+-       guid: rsy2`]3wY&
+        topic: Errors from `errno.h`
+        front: |
+                `ETXTBSY`
+        back: |
+                Attempt to execute a file currently open for writing/write
+                to a file that is being executed
+        include_reverse: true
+-       guid: Q0M!t]731k
+        topic: Errors from `errno.h`
+        front: |
+                `EFBIG`
+        back: |
+                File too big - larger than system limits
+        include_reverse: true
+-       guid: HBIJ)r_y%*
+        topic: Errors from `errno.h`
+        front: |
+                `ENOSPC`
+        back: |
+                No space left on device; write failed because the disk is full
+        include_reverse: true
+-       guid: MGsjhNaj)e
+        topic: Errors from `errno.h`
+        front: |
+                `ESPIPE`
+        back: |
+                Invalid seek operation (such as on a pipe)
+        include_reverse: true
+-       guid: q=O__O#3{Q
+        topic: Errors from `errno.h`
+        front: |
+                `EROFS`
+        back: |
+                Attempt made to modify something on read-only file system
+        include_reverse: true
+-       guid: dsnp5U>4N5
+        topic: Errors from `errno.h`
+        front: |
+                `EMLINKS`
+        back: |
+                Too many links; link count of a single file would become
+                too large
+        include_reverse: true
+-       guid: dx6tAsk0Dl
+        topic: Errors from `errno.h`
+        front: |
+                `EPIPE`
+        back: |
+                Broken pipe; no process reading from the other end.
+                (Also generates SIGPIPE signal, and the default handler
+                terminates the program.)
+        include_reverse: true
+-       guid: wW=d<UkF/(
+        topic: Errors from `errno.h`
+        front: |
+                `EDOM`
+        back: |
+                Domain error (for math functions)
+        include_reverse: true
+-       guid: M~qkTqQ5|T
+        topic: Errors from `errno.h`
+        front: |
+                `ERANGE`
+        back: |
+                Range error (for math functions)
+        include_reverse: true
+-       guid: Le1d|<vEpK
+        topic: Errors from `errno.h`
+        front: |
+                `EAGAIN`/`EWOULDBLOCK`
+        back: |
+                Resource temporarily unavailable
+        include_reverse: true
+-       guid: v.}<Z3zZ<3
+        topic: Errors from `errno.h`
+        front: |
+                `EINPROGRESS`
+        back: |
+                Operation that cannot complete immediately initiated on
+                an object in non-blocking mode
+        include_reverse: true
+-       guid: os#}1R)8#E
+        topic: Errors from `errno.h`
+        front: |
+                `EALREADY`
+        back: |
+                Operation on non-blocking mode object already in progress
+        include_reverse: true
+-       guid: v!bo,|yQCd
+        topic: Errors from `errno.h`
+        front: |
+                `ENOTSOCK`
+        back: |
+                File that isn't a socket specified when a socket is required
+        include_reverse: true
+-       guid: sTFd9ArDer
+        topic: Errors from `errno.h`
+        front: |
+                `EMSGSIZE`
+        back: |
+                Size of message sent on socket larger than supported maximum
+                size
+        include_reverse: true
+-       guid: O*$fPz(3)8
+        topic: Errors from `errno.h`
+        front: |
+                `EADDRINUSE`
+        back: |
+                Requested socket address is already in use
+        include_reverse: true
+-       guid: yKd|[w`)~<
+        topic: Errors from `errno.h`
+        front: |
+                `ENETDOWN`
+        back: |
+                Socket operation failed because network was down
+        include_reverse: true
+-       guid: C^4n?sxgi3
+        topic: Errors from `errno.h`
+        front: |
+                `ENETUNREACH`
+        back: |
+                Socket operation failed because subnet containing remote
+                host was unreachable
+        include_reverse: true
+-       guid: hm](/zbf(E
+        topic: Errors from `errno.h`
+        front: |
+                `ENETRESET`
+        back: |
+                Network connection was reset because the remote host crashed
+        include_reverse: true
+-       guid: u.>_JsmW<6
+        topic: Errors from `errno.h`
+        front: |
+                `ECONNABORTED`
+        back: |
+                Network connection was aborted locally
+        include_reverse: true
+-       guid: b(Mlw|pX#J
+        topic: Errors from `errno.h`
+        front: |
+                `ECONNRESET`
+        back: |
+                Network connection was closed for reasons outside of control
+                of local host, e.g. remote host rebooting, unrecoverable
+                protocol violation
+        include_reverse: true
+-       guid: P&9y$h(fI%
+        topic: Errors from `errno.h`
+        front: |
+                `EISCONN`
+        back: |
+                Tried to connect an already connected socket
+        include_reverse: true
+-       guid: b&}mk-0h!,
+        topic: Errors from `errno.h`
+        front: |
+                `ENOTCONN`
+        back: |
+                Socket not connected to anything
+        include_reverse: true
+-       guid: BJvgo5FpiK
+        topic: Errors from `errno.h`
+        front: |
+                `ESHUTDOWN`
+        back: |
+                Socket has already been shut down
+        include_reverse: true
+-       guid: ECc#c>-@<+
+        topic: Errors from `errno.h`
+        front: |
+                `ETIMEDOUT`
+        back: |
+                Socket operation timed out
+        include_reverse: true
+-       guid: pRtP}FMI..
+        topic: Errors from `errno.h`
+        front: |
+                `ECONNREFUSED`
+        back: |
+                Remote host refused to allow network connection
+        include_reverse: true
+-       guid: oG>Hog7]YI
+        topic: Errors from `errno.h`
+        front: |
+                `ELOOP`
+        back: |
+                Too many levels of symlinks encountered when looking up a
+                file name
+        include_reverse: true
+-       guid: eZd]0WbMlA
+        topic: Errors from `errno.h`
+        front: |
+                `ENAMETOOLONG`
+        back: |
+                Filename too long or host name too long
+        include_reverse: true
+-       guid: bk{78}<)fb
+        topic: Errors from `errno.h`
+        front: |
+                `EHOSTDOWN`
+        back: |
+                Remote host for requested network connection is down
+        include_reverse: true
+-       guid: m9hT$h78)F
+        topic: Errors from `errno.h`
+        front: |
+                `EHOSTUNREACH`
+        back: |
+                Remote host for requested connection in unreachable
+        include_reverse: true
+-       guid: HAX&#v,l3q
+        topic: Errors from `errno.h`
+        front: |
+                `ENOTEMPTY`
+        back: |
+                Directory not empty when empty directory expected
+        include_reverse: true
+-       guid: qXE~7)cVRa
+        topic: Errors from `errno.h`
+        front: |
+                `ENOSYS`
+        back: |
+                Function not implemented (in C library or in the operating
+                system)
+        include_reverse: true
+-       guid: hu2f{oxwXd
+        topic: Errors from `errno.h`
+        front: |
+                `ENOTSUP`
+        back: |
+                Requested functionality not available (but may succeed
+                with some different parameters)
+        include_reverse: true
+-       guid: IQ._4-+2{0
+        topic: Errors from `errno.h`
+        front: |
+                `EILSEQ`
+        back: |
+                Invalid or incomplete sequence of bytes in decoding multibyte
+                character
+        include_reverse: true
+-       guid: Qde}H;EPk6
+        front: |
+                `char* program_invocation_name`
+        back: |
+                GNU extension in `errno.h`; same as `argv[0]`
+-       guid: v/Z)XJFH1]
+        front: |
+                `char* program_invocation_short_name`
+        back: |
+                GNU extension in `errno.h`; same as `argv[0]` with removed
+                directories
+-       guid: IL~Dr^.I5;
+        front: |
+                Syslog facility in `syslog.h` - miscellaneous user process
+        back: |
+                `LOG_USER`
+        include_reverse: true
+-       guid: fxy899i->+
+        front: |
+                Syslog facility in `syslog.h` - miscellaneous system daemon
+        back: |
+                `LOG_DAEMON`
+        include_reverse: true
+-       guid: Pi``b@o|-~
+        front: |
+                Syslog facility in `syslog.h` - authentication (security)
+        back: |
+                `LOG_AUTH`
+        include_reverse: true
+-       guid: JucyS/W|zk
+        front: |
+                Syslog priority in `syslog.h` - system is unusable
+        back: |
+                `LOG_EMERG`
+        include_reverse: true
+-       guid: E&t9f,3G08
+        front: |
+                Syslog priority in `syslog.h` - action on message must be taken immediately
+        back: |
+                `LOG_ALERT`
+        include_reverse: true
+-       guid: j7_0o(~,UJ
+        front: |
+                Syslog priority in `syslog.h` - critical condition
+        back: |
+                `LOG_CRIT`
+        include_reverse: true
+-       guid: nrgZ]K}WJQ
+        front: |
+                Syslog priority in `syslog.h` - error
+        back: |
+                `LOG_ERR`
+        include_reverse: true
+-       guid: v=7Sz*s,p@
+        front: |
+                Syslog priority in `syslog.h` - warning
+        back: |
+                `LOG_WARNING`
+        include_reverse: true
+-       guid: Co{!jn@M(G
+        front: |
+                Syslog priority in `syslog.h` - normal but important event
+        back: |
+                `LOG_NOTICE`
+        include_reverse: true
+-       guid: G?w@(pt(bZ
+        front: |
+                Syslog priority in `syslog.h` - purely informational
+        back: |
+                `LOG_INFO`
+        include_reverse: true
+-       guid: ulUW4M=eWi
+        front: |
+                Syslog priority in `syslog.h` - only for debugging
+        back: |
+                `LOG_DEBUG`
+        include_reverse: true
+-       guid: x}2KLcM|en
+        front: |
+                What if I haven't opened a syslog connection and call `syslog`?
+        back: |
+                Opens its own connection to `LOG_USER` and `argv[0]`
+-       guid: N|N8vAtdSW
+        front: |
+                Make `facility_priority` from syslog facility and priority
+        back: |
+                `LOG_MAKEPRI(LOG_USER, LOG_WARNING)`
+        include_reverse: true
+

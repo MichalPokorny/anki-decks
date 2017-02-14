@@ -357,6 +357,12 @@ notes:
                 Year: Death of Thales of Miletus
         back: 547 BC
         include_reverse: true
+-       guid: k{w<C=b$X]
+        front: |
+                Year of birth and death: Thales of Miletus
+        back: |
+                625 BC - 547 BC
+        include_reverse: true
 -       guid: zAmQ|XZ+Z;
         front: Who did Aristotle call the founder of philosophy?
         back: Thales of Miletus
@@ -2235,6 +2241,12 @@ notes:
                 Year: Birth of Aristotle
         back: 384 BC
         include_reverse: true
+-       guid: K%x4x[jN;o
+        front: |
+                Year of birth and death: Aristotle
+        back: |
+                384 BC - 322 BC
+        include_reverse: true
 -       guid: f#o]Ik4-[/
         topic: Aristotle
         front: Place of birth
@@ -3331,6 +3343,12 @@ notes:
                 Year: Death of Epicurus
         back: 270 BC
         include_reverse: true
+-       guid: H&?@:l*Xb!
+        front: |
+                Year of birth and death: Epicurus
+        back: |
+                341 BC - 270 BC
+        include_reverse: true
 -       guid: t#WXx1k-b(
         topic: Epicurus
         front: |
@@ -3532,6 +3550,13 @@ notes:
                 Year: Death of Epictetus
         back: ~AD 135
         include_reverse: true
+-       guid: K`Qd2f{]|D
+        include_reverse: true
+        front: |
+                Year of birth and death: Epictetus
+        back: |
+                AD ~51 - AD ~135
+        include_reverse: true
 -       guid: EWJ9n#O}Ht
         front: |
                 Year: Birth of Marcus Aurelius
@@ -3541,6 +3566,12 @@ notes:
         front: |
                 Year: Death of Marcus Aurelius
         back: AD 180
+        include_reverse: true
+-       guid: iK![US;k}q
+        front: |
+                Year of birth and death: Marcus Aurelius
+        back: |
+                AD 121 - AD 180
         include_reverse: true
 -       guid: jF[[Dw9ljC
         topic: Stoicism
@@ -3913,6 +3944,12 @@ notes:
                 Year: Death of Augustine
         back: 430 AD
         include_reverse: true
+-       guid: Bv;=70elxy
+        front: |
+                Year of birth and death: Augustine
+        back: |
+                354 AD - 430 AD
+        include_reverse: true
 -       guid: GQpNStkEZl
         topic: Augustine
         front: Age at writing *Confessions*
@@ -4126,8 +4163,8 @@ notes:
         front: |
                 Ambrose's education
         back: |
-                In tradition of Greek church fathers, philosophy,
-                was an accomplished orator.
+                Tradition of Greek church fathers, philosophy, accomplished
+                orator.
 -       guid: pnSNJw$`m}
         topic: Augustine
         front: |
@@ -4381,6 +4418,12 @@ notes:
                 Year: Death of Plotinus
         back: AD 270
         include_reverse: true
+-       guid: d.((zu1()h
+        front: |
+                Year of birth and death: Plotinus
+        back: |
+                AD 204 - AD 270
+        include_reverse: true
 -       guid: uH:GI}KUH7
         topic: Plotinus
         front: Mystical experience and what happens there
@@ -4404,9 +4447,8 @@ notes:
                 multiplicity in it. It's "ineffable",  majesty *beyond being*.
                 "Unity" / "the Transcendent" / "the Good", "the Source".
                 <br><br>
-                The One is the source of whatever else exists.
-                It makes all things possible. Not a plurality,
-                but a source of plurality.
+                The One is the source of whatever else exists. It makes all
+                things possible. Not a plurality, but a source of plurality.
 -       guid: C?x91Hz<*D
         topic: Plotinus
         front: How did the Many come to be?
@@ -4490,8 +4532,8 @@ notes:
                 What was God before he created the world? Why did he make it at
                 some particular time?
                 <br><br>
-                Creation is a realm of change, God is eternal.
-                God is not located in time at all.
+                Creation is realm of change; God is eternal, not located in
+                time at all.
 -       guid: c~~a_Pq%F1
         topic: Augustine
         front: Time, the mind and creation
@@ -4875,11 +4917,19 @@ notes:
                 Year: Birth of Anselm
         back: |
                 AD 1033
+        include_reverse: true
 -       guid: w`RJqqKwJ!
         front: |
                 Year: Death of Anselm
         back: |
                 AD 1109
+        include_reverse: true
+-       guid: iDB|~%-kN;
+        front: |
+                Year of birth and death: Anselm
+        back: |
+                AD 1033 - AD 1109
+        include_reverse: true
 -       guid: KbA~M`<$sf
         topic: Anselm
         front: |
@@ -4940,6 +4990,13 @@ notes:
                 Year: Birth of Thomas Aquinas
         back: |
                 AD 1225
+        include_reverse: true
+-       guid: QMgTS4Tuh_
+        front: |
+                Year of birth and death: Thomas Aquinas
+        back: |
+                AD 1225 - AD 1274
+        include_reverse: true
 -       guid: HpI9l4H5{q
         topic: Thomas Aquinas
         front: Birthplace
@@ -5055,6 +5112,7 @@ notes:
                 Year: Death of Thomas Aquinas
         back: |
                 1274
+        include_reverse: true
 -       guid: zB0oKwl46s
         topic: Thomas Aquinas
         front: |
@@ -5071,6 +5129,7 @@ notes:
                 Date: Thomas Aquinas declared saint
         back: |
                 July 21, 1323
+        include_reverse: true
 -       guid: tmS&xMC)Oa
         topic: Thomas Aquinas
         front: Use of term "philosopher"
@@ -5386,7 +5445,7 @@ notes:
         topic: Thomas Aquinas
         front: How does he deny Platonism in his account of souls?
         back: |
-                He says "my soul is not me" (I am my soul in my body)
+                "My soul is not me" (I am my soul in my body)
 -       guid: q1e^P}{2F%
         topic: Thomas Aquinas
         front: |
@@ -5773,6 +5832,11 @@ notes:
         back: |
                 1650
         include_reverse: true
+-       guid: d5vT:hQoEY
+        front: |
+                Year of birth and death: René Descartes
+        back: |
+                1596 - 1650
 -       guid: P6CC4zR{PD
         front: |
                 3 problems uncovered by Descartes
@@ -6145,6 +6209,12 @@ notes:
                 Year: Death of Martin Luther
         back: 1546
         include_reverse: true
+-       guid: Ps!dr^_q2V
+        front: |
+                Year of birth and death: Martin Luther
+        back: |
+                1483 - 1546
+        include_reverse: true
 -       guid: c!aTVrBx{-
         topic: Reformation
         front: |
@@ -6263,6 +6333,12 @@ notes:
                 Year: Death of Montaigne
         back: 1592
         include_reverse: true
+-       guid: B-[_}ZB]en
+        front: |
+                Year of birth and death: Montaigne
+        back: |
+                1533 - 1592
+        include_reverse: true
 -       guid: B&+$K@x[Nq
         front: |
                 Age: Montaigne's retirement
@@ -6359,10 +6435,17 @@ notes:
         front: |
                 Year: Birth of Copernicus
         back: 1473
+        include_reverse: true
 -       guid: gxB|ig5>w[
         front: |
                 Year: Death of Copernicus
         back: 1543
+-       guid: ffO}9cB5&{
+        front: |
+                Year of birth and death: Copernicus
+        back: |
+                1473 - 1543
+        include_reverse: true
 -       guid: 8s^X_uM!Q
         front: |
                 Author: De Revolutionibus
@@ -6376,7 +6459,7 @@ notes:
         back: |
                 <ul>
                 <li> Death of Copernicus
-                <li> *De Revolutionibus* by Copernicus published
+                <li> <i>De Revolutionibus</i> by Copernicus published
                 </ul>
 -       guid: GH$`w$CMnr
         topic: Copernicus
@@ -6411,10 +6494,17 @@ notes:
         front: |
                 Year: Birth of Johannes Kepler
         back: 1571
+        include_reverse: false
 -       guid: PNP^0zx(XU
         front: |
                 Year: Death of Johannes Kepler
         back: 1630
+        include_reverse: true
+-       guid: y(!2:[>/*E
+        front: |
+                Year of birth and death: Johannes Kepler
+        back: |
+                1571 - 1630
         include_reverse: true
 -       guid: b;E2kuyFql
         topic: Johannes Kepler
@@ -6476,6 +6566,13 @@ notes:
                 Year: Death of Galileo Galilei
         back: |
                 1642
+        include_reverse: false
+-       guid: F{)SzP0Bz*
+        front: |
+                Year of birth and death: Galileo Galilei
+        back: |
+                1564 - 1642
+        include_reverse: true
 -       guid: GLkTwJ{mGj
         front: |
                 Name: Removed geocentricity
@@ -6694,7 +6791,7 @@ notes:
 -       guid: g!8+ai-N-q
         front: |
                 Year: *Index Librorum Prohibitorum* established
-                by Pope Pius V after approval by the Council of Trent
+                by Pope Pius V after approval by Council of Trent
         back: 1571
 -
         guid: q@%+SPd)u3
@@ -6703,7 +6800,7 @@ notes:
                 <ul>
                 <li>
                 <i>Index Librorum Prohibitorum</i> established by Pope Pius V
-                after approval by the Council of Trent.
+                after approval by Council of Trent.
                 <li>
                 Birth of Johannes Kepler
                 </ul>
@@ -7002,6 +7099,12 @@ notes:
         back: |
                 1679
         include_reverse: true
+-       guid: NS_}6ju1uJ
+        front: |
+                Year of birth and death: Thomas Hobbes
+        back: |
+                1588 - 1679
+        include_reverse: true
 -       guid: i&h[0zqNRB
         front: |
                 Discovery: William Harvey
@@ -7158,6 +7261,12 @@ notes:
                 Year: Death of Francis Bacon
         back: 1626
         include_reverse: true
+-       guid: uaYod8auJ;
+        front: |
+                Year of birth and death: Francis Bacon
+        back: |
+                1561 - 1626
+        include_reverse: true
 -       guid: Ep5!OTujZF
         front: |
                 Occupation: Francis Bacon
@@ -7251,12 +7360,26 @@ notes:
                 Year: Birth of John Locke
         back: |
                 1632
-        include_reverse: true
+        include_reverse: false
+-       guid: k@^0#W%rF^
+        front: |
+                1632
+        back: |
+                <ul>
+                <li> Birth of John Locke
+                <li> Birth of Baruch Spinoza
+                </ul>
 -       guid: z8;RJ|Qe5J
         front: |
                 Year: Death of John Locke
         back: |
                 1704
+        include_reverse: true
+-       guid: JG>[&r|Mq&
+        front: |
+                Year of birth and death: John Locke
+        back: |
+                1632 - 1704
         include_reverse: true
 -       guid: 'FM)Qh&w<Q:'
         topic: John Locke
@@ -7631,6 +7754,11 @@ notes:
                 Year: Death of George Berkeley
         back: 1753
         include_reverse: true
+-       guid: Feb9tVYkjH
+        front: |
+                Year of birth and death: George Berkeley
+        back: 1685 - 1753
+        include_reverse: true
 -       guid: t9S]gO{!(=
         front: |
                 Family circumstances: George Berkeley
@@ -7715,13 +7843,13 @@ notes:
         front: |
                 How does Locke abuse language?
         back: |
-                Locke: We have universal words, general words are *names* for
-                abstract ideas. "Tiger" means "what is common to all tigers",
-                neither small nor large tiger, not male or female.
+                Locke: Universal words are *names* for abstract ideas. "Tiger"
+                means "what is common to all tigers", neither small nor large,
+                male nor female.
 
-                Berkeley: Nonsense. Mind *doesn't have a power to frame
-                abstract ideas or notions of things*. Idea of "man" would have
-                *some* color, but at the same time *no color in particular*.
+                Berkeley: Nonsense. Mind *has no power to frame abstract ideas
+                or notions of things*. Idea of "man" would have *some* color,
+                but at the same time *no color in particular*.
 
                 We don't actually have an *idea* of existence (of *nothing
                 in particular*), same with *substance*, *solidity*, etc.
@@ -7775,7 +7903,7 @@ notes:
                 Ideas:
                 <ul>
                 <li> Imprinted on senses
-                <li> Perceived by attending to passions and operations of mind
+                <li> Perceived by attending to mind's passions and operations
                 <li> Formed by memory and imagination
                 </ul>
 -       guid: GYO3B2rQ]@
@@ -7853,8 +7981,8 @@ notes:
                 Idea that material has independent existence and causal power
                 to produce sensations in us.
 
-                Idea of material substance independent of mind is grotesque,
-                full of contradiction.
+                Idea of mind-independent material substance is grotesque, full
+                of contradiction.
 -       guid: lr`EMJ?C7R
         topic: George Berkeley
         front: |
@@ -7888,6 +8016,7 @@ notes:
         front: |
                 Year: Birth of Isaac Newton
         back: 1642
+        include_reverse: false
 -       guid: i$#t@$^i.$
         front: 1642
         back: |
@@ -7899,6 +8028,12 @@ notes:
         front: |
                 Year: Death of Isaac Newton
         back: 1727
+        include_reverse: true
+-       guid: BK>ct~({K{
+        front: |
+                Year of birth and death: Isaac Newton
+        back: |
+                1642 - 1727
         include_reverse: true
 -       guid: MCuQhXat!,
         front: |
@@ -7925,10 +8060,18 @@ notes:
         front: |
                 Year: Birth of David Hume
         back: 1711
+        include_reverse: true
 -       guid: G,RbJyyb<8
         front: |
                 Year: Death of David Hume
         back: 1776
+        include_reverse: true
+-       guid: OB!:8:0Gh3
+        front: |
+                Year of birth and death: David Hume
+        back: |
+                1711 - 1776
+        include_reverse: true
 -       guid: gY0#$)uL6`
         topic: David Hume
         front: |
@@ -8418,10 +8561,18 @@ notes:
         front: |
                 Year: Birth of Immanuel Kant
         back: 1724
+        include_reverse: true
 -       guid: dP{5iigk9P
         front: |
                 Year: Death of Immanuel Kant
         back: 1781
+        include_reverse: true
+-       guid: QIMm{.~}]~
+        front: |
+                Year of birth and death: Immanuel Kant
+        back: |
+                1724 - 1781
+        include_reverse: true
 -       guid: eDO9K%V3+!
         topic: Immanuel Kant
         front: |
@@ -8499,13 +8650,12 @@ notes:
                 between ideas and objects
                 </ol>
 
-                What is objects only exist if they are related to a rational
-                mind?
+                What if objects only exist if related to a rational mind?
 
                 Maybe objects of experience are constructions of rational mind,
-                and have no reality independent of their construction. Rational
-                minds have some structure (including, e.g. causality), and the
-                structure is **imposed** on objects known by them.
+                with no reality independent of construction. Rational minds
+                have structure (e.g. causality), which they **imposed** on
+                objects known by them.
 -       guid: NFNX2eczOW
         front: What is *critical philosophy*?
         back: |
@@ -8722,14 +8872,12 @@ notes:
         topic: Immanuel Kant
         front: Relation between synthetic a priori knowledge and experience
         back: |
-                Those aren't derived from experience.
-                Experience is *not* derived from them.
-                So, they are only applicable *to experience*.
-                All *a priori* principles are *principles
-                of possible experience*.
+                Not derived from experience, experience *not* derived from
+                them. So, they are only applicable *to experience*. All
+                *a priori* principles are *principles of possible experience*.
 
                 Dreams etc. lack objectivity because they don't *obey*
-                the regularity of causal law.
+                regularity of causal law.
 -       guid: x<MuY.k+kz
         topic: Immanuel Kant
         front: Reality of the world
@@ -8747,10 +8895,18 @@ notes:
         front: |
                 Year: Birth of Baruch Spinoza
         back: 1632
+        include_reverse: false
 -       guid: g1mfHD$Mwv
         front: |
                 Year: Death of Baruch Spinoza
         back: 1677
+        include_reverse: true
+-       guid: Hs=P~kS|<P
+        front: |
+                Year of birth and death: Baruch Spinoza
+        back: |
+                1632 - 1677
+        include_reverse: true
 -       guid: of+os~*,>X
         front: |
                 Year: Baruch Spinoza expelled from Amsterdam synagogue
@@ -8892,6 +9048,12 @@ notes:
         front: |
                 Year: Death of Gottfried Wilhelm von Leibniz
         back: 1714
+        include_reverse: true
+-       guid: lvreAHay!]
+        front: |
+                Year of birth and death: Gottfried Wilhelm von Leibniz
+        back: |
+                1646 - 1714
         include_reverse: true
 -       guid: v?!b+azS,C
         topic: Leibniz
@@ -9493,6 +9655,11 @@ notes:
                 Year: Death of Georg Wilhelm Friedrich Hegel
         back: 1831
         include_reverse: true
+-       guid: FQ>0JU7Zj4
+        front: |
+                Year of birth and death: Georg Wilhelm Friedrich Hegel
+        back: 1770 - 1831
+        include_reverse: true
 -       guid: l-T8VTVBdl
         front: |
                 Nationality: Hegel
@@ -9545,10 +9712,17 @@ notes:
         front: |
                 Year: Birth of Arthur Schopenhauer
         back: 1788
+        include_reverse: true
 -       guid: yswrAg.)YP
         front: |
                 Year: Death of Arthur Schopenhauer
         back: 1860
+        include_reverse: true
+-       guid: f9q}{akUn>
+        front: |
+                Year of birth and death: Arthur Schopenhauer
+        back: 1788 - 1860
+        include_reverse: true
 -       guid: B/(~dB*wcC
         topic: Arthur Schopenhauer
         front: Main distinguishment
@@ -9564,15 +9738,15 @@ notes:
         front: |
                 Year: *The World as Will and Idea* published
         back: 1818
+        include_reverse: false
 -       guid: u1AMpnb2(y
         topic: Arthur Schopenhauer
         front: |
                 Claims of *The World as Will and Idea*
         back: |
-                The world-in-itself can be explored, since we are in it.
-                It's nothing but "will", a blind, ceaseless striving for
-                existence. The whole phenomenal world is a manifestation of
-                the will.
+                World-in-itself can be explored, since we are in it. It's
+                nothing but "will", a blind, ceaseless striving for existence.
+                The whole phenomenal world is its manifestation.
 -       guid: t(Pw0_8rZM
         topic: Arthur Schopenhauer
         front: |
@@ -9736,50 +9910,47 @@ notes:
         topic: Hegel
         front: Character of sense-certainty
         back: |
-                Appears to be *richest* and *truest* kind of knowledge, because
-                it hasn't ommitted anything from the object. But the certainty
+                Appears to be *richest* and *truest* knowledge, because it
+                hasn't ommitted anything from the object. But the certainty
                 proves to be the most abstract and poorest *truth*.
 
                 Consciousness *cannot say what it knows*.
 
-                For Hegel, if we only had sense-certainty
-                (without narratives, explanations, remebrance, etc.),
-                we couldn't be said to have *any knowledge at all*.
+                Hegel: if we only had sense-certainty (no narratives,
+                explanations, remebrance, etc.), we couldn't be said to have
+                *any knowledge at all*.
 -       guid: zbgr$aB;n?
         topic: Hegel
         front: What does consciousness do with sense-certainty?
         back: |
-                Impelled to go beyond it. Internal dialectic forces
-                consciousness to recognoze inadequacy of sense-certainty.
+                Impelled to go beyond. Internal dialectic forces consciousness
+                to recognoze inadequacy of sense-certainty.
 
-                Sense-certainty "attempts to be" simply sense-certainty,
-                tries to *negate itself*. It tries to know just
-                what is present to it. But it fails, and the insufficency
-                of that attempt is displayed in itself.
-                The attempt *necessarily* involves "this", "here",
+                Sense-certainty "attempts to be" simply sense-certainty, tries
+                to *negate itself*. Tries to know just what is present to it,
+                but fails, and insufficency of that attempt is displayed in
+                itself. The attempt *necessarily* involves "this", "here",
                 "now", "I".
 
-                This negation is *not* skepticism - it's a determinate
-                and specific negation of sufficiency of sense-certainty
-                for knowledge.
+                Negation is *not* skepticism - it's a determinate and specific
+                negation of sufficiency of sense-certainty for knowledge.
 -       guid: q9UTq`&$d`
         topic: Hegel
         front: Can consciousness find knowledge in retreating to elementary beginning
                 points?
         back: |
-                No. We have to continue plunging ahead with our concepts,
+                No. We must keep plunging ahead with our concepts,
                 interpretations of experience, and hope to establish
-                correspondence between subject and object.
-                Mind *must* play an active role.
+                correspondence between subject and object. Mind *must* play an
+                active role.
 -       guid: e1{SeUVEg~
         topic: Hegel
         front: Does consciousness leave sense-certainty behind?
         back: |
-                It understands it's not knowledge, but it starts
-                to interpret it in terms of richer concepts.
-                What is true in the earlier stages is preserved
-                and incorporated at next level.
-                Hegel find this dialectical pattern repeated.
+                Understands it's not knowledge, but starts to interpret it in
+                terms of richer concepts. What is true in earlier stages is
+                preserved and incorporated at next level. Hegel find this
+                dialectical pattern repeated.
 -       guid: C,zPB{yDm7
         topic: Hegel
         front: 3 moments, as with sense-awareness etc.
@@ -9790,32 +9961,32 @@ notes:
         front: 3 next stages after sense-certainty
         back: |
                 <ul>
-                <li> *Perception*: objects characterized by concepts
-                describing properties. (Is a thing a mere collection
-                of properties? Is there some *substance* beyond them?)
-                <li> *Understanding*: things understood in terms
-                of *laws* (e.g. Newton). These are thought to express
-                the truth of things and providing explanations.
-                But in producing those, consciousness is *active*, not
-                merely passive.
-                <li> *Self-consciousness*: consciousness recognizes
-                its active contribution to understanding.
+                <li>
+                <i>Perception</i>: objects characterized by concepts describing
+                properties. (Is a thing a mere collection of properties? Is
+                there some *substance* beyond them?)
+                <li>
+                <i>Understanding</i>: things understood in *laws* (e.g.
+                Newton). Laws thought to express truth and provide
+                explanations. In producing laws, consciousness is *active*,
+                not merely passive.
+                <li>
+                <i>Self-consciousness</i>: consciousness recognizes its active
+                contribution to understanding.
                 </ul>
 -       guid: yEeuTRphRx
         topic: Hegel
         front: Essence of desire
         back: |
-                Incorporating the other into itself.
-                Consciousness *desires* to know.
-                Desire is not just conscious, it is explicitly
-                *self-consicious* - *I* want. Desire is a form
-                of self-consciousness - it revels being *other*
-                from the world revealed to sense.
+                Incorporating the other into itself. Consciousness *desires* to
+                know. Desire is not just conscious, it is explicitly
+                *self-consicious* - *I* want. Desire is a form of
+                self-consciousness - revels being *other* from world revealed
+                to sense.
 
-                But that doesn't yet reveal the *self* as being
-                *self-conscious* - all we have in desire is the
-                disclosure of a difference between two poles,
-                not yet the *nature* of oneself.
+                But that doesn't yet reveal *self* as being *self-conscious* -
+                all we have in desire is disclosure of difference between 2
+                poles, not yet *nature* of oneself.
 -       guid: mk<[zi2iGp
         topic: Hegel
         front: What does self-consciousness require?
@@ -9836,15 +10007,15 @@ notes:
         front: Why does self-consciousness lead to mutual use?
         back: |
                 Self-conscious people use each other at the "other" to make
-                themselves self-conscious. They try to "control" each other -
-                to make the other equal to my experience of him.
+                themselves self-conscious, try to "control" each other - to
+                make the other equal to experience of him.
 
-                Each wants to make the other his own.
-                Each recognizes the other's project.
+                Each wants to make the other his own, each recognizes the
+                other's project.
 
-                So, they *recognize themselves as mutually recognizing
-                each other*. Their consciousness of each other
-                is not like being conscious of stones or pencils.
+                So, they *recognize themselves as mutually recognizing each
+                other*. Consciousness of each other is not like consciousness
+                of stones or pencils.
 -       guid: CrmM[O|SFP
         topic: Hegel
         front: How do people come to *pure* self-consciousness?
@@ -9854,17 +10025,15 @@ notes:
                 <ul>
                 <li> Smith is like me, independent and self-conscious
                 <li> Smith is aware of me
-                <li> Smith recognizes that I am aware of him
-                <li> He realizes that *for me*, he is just another
-                object in the world
+                <li> Smith recognizes I am aware of him
+                <li> He realizes that *for me*, he is an object in the world
                 <li> Like me, Smith is constituted by desire
-                <li> Hence, Smith will not be content to leave
-                me in my independence because that will mean I may
-                come to control him
-                <li> So I had better not leave Smith
-                in his independence, lest he control me
-                <li> Therefore, I must *kill* Smith, even if this
-                means risking my life to do so.
+                <li> Hence, Smith will not be content to leave me independent
+                because thus I might come to control him
+                <li> So I better not leave Smith independent, lest he control
+                me
+                <li> Therefore, I must *kill* Smith, even if risking my life to
+                do so.
                 </ul>
                 In negating this, we reveal to each consciousness
                 its nature as *self-consciousness*.
@@ -9906,62 +10075,53 @@ notes:
         topic: Hegel
         front: What happens if Jones wins and kills Smith?
         back: |
-                He doesn't win. He loses the mirror he could
-                use to see himself as self-conscious.
-                At some point, self-conscious individuals become
-                aware of the life-and-death struggle being
-                self-defeating.
+                Doesn't win - loses mirror he could use to see himself as
+                self-conscious. At some point, self-conscious individuals
+                find life-and-death struggle being self-defeating.
 -       guid: uS$G$y[kbz
         topic: Hegel
         front: What compromise results if Jones realizes killing Smith doesn't help?
         back: |
-                Jones makes himself master over Smith, who becomes
-                his slave. Jones then *exists for himself*,
-                thinks he achieved independence and freedom.
+                Jones enslaves Smith. Jones then *exists for himself*, thinks
+                he achieved independence and freedom.
 -       guid: hjg2!(>=,,
         topic: Hegel
         front: Does enslaving Smith help Jones?
         back: |
-                Oddly, not - the slave's consciousness
-                is dependent (subject to master's will), so
-                it's not fit to provide the master the wanted
-                recognition to confirm the master as free
-                and independent.
+                Oddly, no - slave's consciousness is dependent (subject to
+                master's will), so unfit to provide master recognition to
+                confirm master as free and independent.
 -       guid: ms.o!>zoU9
         topic: Hegel
         front: What happens to Smith if he's enslaved by Jones?
         back: |
-                Smith must work his master's bidding and his
-                work is done for Jones's sake. His work is
-                oriented towards things in the world (e.g.,
-                cobbler). He expresses himself in his products -
-                he *puts himself into products of his labor*.
-                He recognizes himself in the products and achieves
-                a kind of self-realization in his *work* that is
-                denied to his master. He *objectifies* himself
-                and so can recognize himself in his products.
-                This he achieves a kind of self-consciousness.
-                He recognizes his independence in products of his
-                labor.
+                Smith works master's bidding and work is done for Jones's sake.
+                Work is oriented towards things in the world (e.g., cobbler).
+                Expresses himself in his products - *puts himself into products
+                of his labor*. Recognizes himself in products and achieves a
+                kind of self-realization in his *work* that is denied to
+                master. *Objectifies* himself and so can recognize himself in
+                his products. Thus he achieves a kind of self-consciousness -
+                recognizes his independence in products of his labor.
 -       guid: Gb{C2s,7u&
         topic: Hegel
         front: How does Smith feel after he recognizes himself in his labor?
         back: |
-                Seized by fear, as a whole.
-                Trembling in every fibre of his being.
-                This melting away of everything stable
-                is the nature of *self-consciousness*, the absolute
-                negativity, *pure being-for-itself*.
-                Slave says "no" to the entire world, and discovers himself as
-                self-conscious. Sees the master as example of
-                self-consciousness, through master doesn't experience himself
-                that way. (Because he doesn't have an independent consciousness
-                to mirror him.) So he is the bearer of spirit in its
-                progress towards new heights of development.
+                Seized by fear, as a whole, trembling in every fibre of his
+                being.
+                Melting away of everything stable is nature of
+                *self-consciousness*, the absolute negativity, *pure
+                being-for-itself*.
+                Slave says "no" to entire world, discovers himself as
+                self-conscious. Sees master as example of self-consciousness,
+                through master doesn't experience himself that way. (Because
+                he doesn't have independent consciousness to mirror him.) So he
+                is bearer of spirit in progress towards new heights of
+                development.
 
-                Self-consciousness of the slave recognizes itself in products
-                and has an image of self-consciousness in its master, but these
-                two moments "fall apart" and are not integrated in unified
+                Self-consciousness of slave recognizes itself in products and
+                has an image of self-consciousness in master, but these 2
+                moments "fall apart" and don't integrate in unified
                 self-consciousness...
 -       guid: sztUZ[T0d
         topic: Hegel
@@ -9974,82 +10134,73 @@ notes:
         topic: Hegel
         front: What is unsatisfactory about stoicism?
         back: |
-                Freedom of self-consciousness is *indifferent* to
-                natural experience. The reflection is *twofold*.
-                Freedom in thought has only *pure thought* as its truth,
-                a truth lacking the fullness of life. Hence freedom
-                of thought, too, is only the Notion of freedom,
-                not the living reality of freedom itself.
+                Freedom of self-consciousness is *indifferent* to natural
+                experience. The reflection is *twofold*. Freedom in thought has
+                only *pure thought* as its truth, a truth lacking the fullness
+                of life. Hence freedom of thought, too, is only the Notion of
+                freedom, not the living reality of freedom itself.
                 Stoicism *lacks reality*.
 
-                Stoicism "splits a person into 2 halves"
-                (similar to Romantic criticism of Kant).
+                Stoicism "splits people in two" (similar: Romantics on Kant).
 -       guid: kUW}!#mGJ#
         topic: Hegel
         front: What comes after stoicism and what does it do?
         back: |
-                Skepticism. A realization of that of which
-                Stoicism was only the Notion, and is the actual
-                experience of what the freedom of thought is.
-                This is *in itself* the negative and must exhibit
+                Skepticism. A realization of that of which Stoicism was only
+                the Notion, and is the actual experience of what the freedom of
+                thought is. This is *in itself* the negative and must exhibit
                 itself as such.
 
-                Skeptics actually *live* the negation of the world
-                by think. They suspend judgement about every claim.
-                They do this *actively*, ***on purpose***
-                (see: Skeptics actively constructed support for
-                both sides of an argument).
+                Skeptics actually *live* the negation of the world by think.
+                Suspend judgement about every claim, *actively*, ***on
+                purpose*** (see: Skeptics actively construct support for both
+                sides of arguments).
 -       guid: o-}@uJoCf{
         topic: Hegel
         front: What sham of stoicism does Hegel lay bare?
         back: |
-                The tactic of living by appearances, even through
-                they are not proven.
+                Living by appearances, through they are unproven.
 
-                Consciousness recognizes its freedom is in rising
-                above confusion and contincency of existence,
-                yet keeps relapsing into occupying itself with the
-                unessential. Affirms the nullity of seeing, hearing,
-                etc., yet is itself seeing, hearing, etc.
-                Affirms nullity of ethical principles, yet lets
-                its conduct be governed by them. Its deeds and words
-                belie one another.
+                Consciousness recognizes its freedom is in rising above
+                confusion, contingency of existence, yet relapses into
+                occupying itself with unessential. Affirms nullity of seeing,
+                hearing, etc., yet is itself seeing, hearing, etc. Affirms
+                nullity of ethics, yet lets it governed its conduct. Deeds and
+                words belie one another.
 
-                Skeptical self-consciousness is mired deep in
-                self-deception. It's slave to society's customs,
-                while priding itself on purported freedom.
+                Skeptical self-consciousness mired deep in self-deception -
+                slave to society's customs, while priding itself on purported
+                freedom.
 -       guid: l]x?/aCD>H
         topic: Hegel
         front: What is the ultimate goal of the spirit?
         back: |
-                Identify itself in reality, and see *itself*
-                expressed in whatever it knows to be real.
+                Identify itself in reality, see *itself* expressed in what it
+                knows to be real.
 -       guid: M5z4{J1h=g
         topic: Hegel
         front: How does Christianity come from skepticism?
         back: |
-                Spirit recognizes its own contradiction or
-                dual consciousness.
-                This new form is self-liberating, unchangeable,
-                is the awareness of the self-contradictory nature
-                of itself.
+                Spirit recognizes own contradiction or dual consciousness.
+                This new form is self-liberating, unchangeable, is the
+                awareness of the self-contradictory nature of itself.
 -       guid: N7L*C<o6qe
         topic: Hegel
         front: What is the *Unhappy Consciousness*?
         back: |
                 Self-divided consciousness (by skepticism), nonetheless aware
-                it is *one* -- it has free and rational thinking and purely
-                universal (*Unchangeable*), on the other hand, changeable,
-                unessential, "self-bewildering and self-perverting" particular
-                individual, subject to happenstance of accident.
+                it is *one* -- has free and rational thinking and purely
+                universal (*Unchangeable*), yet also changeable, unessential,
+                "self-bewildering and self-perverting" particular individual,
+                subject to happenstance of accident.
 -       guid: Fw;X%BX$r&
         topic: Hegel
         front: What does the *Unhappy Consciousness* do?
         back: |
-                Identify with the *unchanging* part. The Unhappy Consciousness
-                is essentially *religious*.
+                Identify with *unchanging* part. Unhappy Consciousness is
+                essentially *religious*.
 
-                But the Unchangeable is NOT actually a being independent of
+                But Unchangeable is NOT actually a being independent of
                 consciousness - just seems so!
 -       guid: haS4B3CoAZ
         topic: Hegel
@@ -10066,23 +10217,22 @@ notes:
         front: |
                 What is the stage of *reason*?
         back: |
-                Consciousness realizes that self-consciousness of the master,
-                the slave, negatively valued worlds of Skeptic and Stoic, and
-                projection into God has been *its own work*. Wherever
-                consciousness looks, it only sees itself.
+                Consciousness realizes self-consciousness of master, slave,
+                negatively valued worlds of Skeptic and Stoic, projection into
+                God was *its own work*. Where it looks, it only sees itself.
 -       guid: gzfILpcA3A
         topic: Hegel
         front: Hegel vs Kant on faith
         back: |
-                Kant: Reason is a drive that must forever remain unsatisfied.
-                This limits knowledge to make room for faith.
+                Kant: Reason must forever remain unsatisfied; limits knowledge
+                to make room for faith.
 
-                Hegel: His dialectic covers everything consciousness can ever
-                be aware of. Everywhere, consciousness discovers itself.
-                In every explanation, it finds its own imposed values, laws,
-                truths. Consciousness *itself* is unconditioned, this stage
-                Hegel calls *reason*. Reason is certainty of consciousness that
-                it is all reality; thus idealism expresses its Notion.
+                Hegel: Dialectic covers everything consciousness can be aware
+                of. Everywhere, it discovers itself. In every explanation,
+                finds own imposed values, laws, truths. Consciousness *itself*
+                is unconditioned, this stage Hegel calls *reason*. Reason is
+                its certainty that it's all reality; thus idealism expresses
+                its Notion.
 -       guid: AS}%D.0B?h
         front: |
                 Author: "Now that self-consciousness is Reason, its
@@ -10108,8 +10258,8 @@ notes:
                 Why are we *practical idealists*?
         back: |
                 In actions, we assume world is intelligible, rational,
-                meaningful, which is to "assert" it's not alien to reason --
-                that the reason in it is same as the reason in us.
+                meaningful - "assert" it's not alien to reason -- that reason
+                in it is same as reason in us.
 
                 We may find the assertion that consciousness is all of reality
                 outrageous, but we act as if it were true.
@@ -10155,8 +10305,8 @@ notes:
                 all reality?
         back: |
                 Objectivy itself - make itself into what it recognizes it truly
-                is. Must become practical reason and shape life of the
-                community of self-conscious beings; become ethics.
+                is. Must become practical reason shaping life of community of
+                self-conscious beings; become ethics.
 -       guid: P]SUM5y=lf
         topic: Hegel
         front: |
@@ -10175,10 +10325,11 @@ notes:
                 People *necessarily* grow up internalizing standards of their
                 society.
 
-                (1) They identify our own welfare with good of the state.
-
-                (2) They experience themselves as so free they don't even need
+                <ol>
+                <li> They identify our own welfare with good of the state.
+                <li> Experience themselves as so free they don't even need
                 to remark on it.
+                </ol>
 -       guid: f}rzs&jYE-
         topic: Hegel
         front: |
@@ -10202,21 +10353,18 @@ notes:
         back: |
                 Sophists and Socrates.
 
-                They say that customs aren't of *physis*, but of
-                *nomos*.
+                Say customs aren't of *physis*, but *nomos*.
 -       guid: gt7,BX[!0=
         topic: Hegel
         front: |
                 What is the culmination of the negative stage
                 of increasing individual self-consciousness?
         back: |
-                Reformation - criterion of nidividual conscience,
-                Enlightenment - debunk everything based on tradition
-                and privilege, French Revolution - reconstruct
-                society according to reason.
+                Reformation - criterion of individual conscience, Enlightenment
+                - debunk everything based on tradition and privilege, French
+                Revolution - reconstruct society according to reason.
 
-                This is called the stage of *morality*.
-                Kant "typifies" this stage.
+                This is called the stage of *morality*. Kant "typifies" it.
 -       guid: ArR~3[v^>d
         front: |
                 Author: "I should do my duty for duty's sake, and when
@@ -10232,24 +10380,18 @@ notes:
         front: |
                 On freedom as freedom when I can do what I want to do
         back: |
-                Hegel: this is a very shallow kind of freedom.
-                These "liberal" theorists identify themselves only with
-                their nonreflective, rationally uncriticized, given
-                desires (compare what Stoics and Skeptics did).
-                It's an *arbitrary will*.
+                Hegel: a very shallow kind of freedom. These "liberal"
+                theorists identify only with nonreflective, uncriticized, given
+                desires (compare Stoics and Skeptics) - *arbitrary* will.
 
-                If we think we're free when we can do what our
-                *arbitrary will* says, its own *arbitrariness* implies
-                that we are not free.
+                The will's *arbitrariness* implies that we are not free.
 
-                To be free, we must be *rational*, and since
-                rationality is intrinsically *universal*, we must be
-                *ethical*.
-                Reason cannot be the slave of the passions - it must
-                be a determining factor in action.
+                To be free, we must be *rational*, and since rationality is
+                intrinsically *universal*, we must be *ethical*.
+                Reason cannot be slave of passions - it must be a determining
+                factor in action.
 
-                We need to synthesize the Stoic/Skeptical view with
-                Kant.
+                We need to synthesize Stoic/Skeptical view and Kant.
 -       guid: k;fB-V6nMR
         topic: Hegel
         front: |
@@ -10258,26 +10400,24 @@ notes:
                 After we accept Kant's categorical imperative, then
                 what? What do we do now?
 
-                Promises example &rarr; Make them and intend sincerely
-                to keep them? Or abolish them altogether?
-                (Same: stealing &rarr; what to do to private property?)
+                Promises example &rarr; Promise and intend to keep them? Or
+                abolish them altogether? (Same: stealing &rarr; what to do to
+                private property?)
 
-                Categorical imperative is purely formal, so it cannot
-                choose the answer and the right *institution*.
-                CI cannot choose because it has no *content*.
+                Categorical imperative is purely formal, so cannot pick the
+                right *institution*, since it has no *content*.
 -       guid: E:Sp}}]i5f
         topic: Hegel
         front: |
                 What showed the inadequacy of the *stage of morality*?
         back: |
                 French revolution: attempted to impose abstract universal
-                principles, force reality to be rational; the fredom
-                was purely *negative* and resulted in Reign of Terror.
+                principles, force reality to be rational; fredom was purely
+                *negative*; result: Reign of Terror.
 
-                This *negative will* only possesses the feeling
-                of existence when it *destroys something*
-                (through it thinks it wants some positive state of
-                affairs, but it's only an abstract idea).
+                This *negative will* only possesses feeling of existence when
+                it *destroys something* (through it thinks it wants some
+                positive state of affairs, but it's only an abstract idea).
 -       guid: KBmyn-9zba
         topic: Hegel
         front: |
@@ -10289,40 +10429,33 @@ notes:
         front: |
                 What is the *stage of ethics*?
         back: |
-                Spirit wants to recognize itself in cultural
-                expressions. Recognizing rationality in institutions -
-                property, contracts, family, the state.
-                Spirit reappropriates its products after alienating
-                itself from them, and expesses itself in the
-                social dimension.
+                Spirit wants to recognize itself in cultural expressions.
+                Recognizing rationality in institutions - property, contracts,
+                family, state. Spirit reappropriates its products after
+                alienating itself from them, and expresses itself in the social
+                dimension.
 
-                Ethics is virtually indistinguishable from social
-                and political philosophy - it is the *realization*
-                of philosophy in an actual community.
+                Ethics virtually indistinguishable from social, political
+                philosophy - *realization* of philosophy in actual community.
 -       guid: Q>y)f4D;Ql
         topic: Hegel
         front: |
                 Hegel's idea of ideal *stage of ethics* society
         back: |
-                The individual must be noted as part of society.
-                Origin of state as social contract between individuals
-                is, to Hegel, an undue abstraction.
-                An individual per se is an *abstraction* from the whole.
-                The community (the *State*) is the bearer of objective
-                reality of spirit, "higher" than the individual.
-                The state is an organism.
+                Individual must be noted as part of society. Origin of state as
+                social contract between people is, to Hegel, undue abstraction.
+                Individual per se is *abstraction* from the whole. Community
+                (*State*) bears objective reality of spirit, "higher" than
+                individual. State is an organism.
 
-                It must be rational and have impartial and universal
-                laws, and rational and free individuals can give
-                their rational and free consent to it. The state
-                is the correlate of reason.
+                Must be rational and have impartial and universal laws,
+                rational and free individuals can consent to it rationally and
+                freely. State is the correlate of reason.
 
-                Here he wants to harmonize *custom* and *morality*
-                stages.
+                Here he wants to harmonize *custom* and *morality* stages.
 
-                Constitutional monarchy, decisions made by discussion
-                among large-scale interests (e.g., landed class,
-                corporations).
+                Constitutional monarchy, decisions made by discussion among
+                large-scale interests (e.g., landed class, corporations).
 -       guid: yO@U9pCB0?
         front: |
                 Author: "A single person... is suomething subordinate,
@@ -10362,19 +10495,16 @@ notes:
         front: |
                 Moral of French revolution
         back: |
-                Reason cannot sweep up the board and start anew.
-                We should each actualize the norms of our society,
-                and not go off on individualistic tangents.
-                We should recognize what is *already rational* and
-                strengthen that.
+                Reason can't sweep up the board and start anew. We should
+                actualize norms of our society, not go off on individualistic
+                tangents. Recognize what is *already rational*, strengthen it.
 
-                Eventually, when spirit becomes fully *concrete*,
-                we will recognize ourselves in our institutions.
-                All will be in harmony, as in stage of *custom*,
-                but now in *rational harmony*.
+                Eventually, when spirit becomes fully *concrete*, we will
+                recognize ourselves in institutions. All will be in harmony, as
+                in stage of *custom*, but now in *rational harmony*.
 
-                Spirit will take care of itself, both in social
-                settings and in epistemology.
+                Spirit will take care of itself, both in social settings and in
+                epistemology.
 -       guid: 'vgV@TDFkR:'
         front: 2 groups of Hegelians
         back: |
@@ -10388,11 +10518,9 @@ notes:
         topic: Hegel
         front: Why is reason *both substance and infinite power*?
         back: |
-                Being is a function of reason - *nothing* can have
-                a nonrational existence.
-                Reason is power: because it has itself as its own
-                final purpose and works itself from potentiality
-                to actuality.
+                Being is a function of reason - *nothing* exist nonrationally.
+                Reason is power: it has itself as its own final goal, works
+                itself from potentiality to actuality.
 
                 Reason seems like another term for Absolute or
                 World Spirit.
@@ -10400,12 +10528,11 @@ notes:
         topic: Hegel
         front: What is freedom?
         back: |
-                Self-contained existence: If I'm dependent, I cannot
-                exist independently of something external.
+                Self-contained existence: If I'm dependent, I cannot exist
+                independently of something external.
 
-                Spirit is *essentially* free since everything exists
-                only relative to it, but it's becoming *actually* free
-                in history.
+                Spirit is *essentially* free since all exists only relative to
+                it, but becoming *actually* free in history.
 -       guid: z!cC?Qrsf{
         topic: Hegel
         front: |
@@ -10427,10 +10554,9 @@ notes:
                 Role of world-historic individuals (Caesar, Alexander,
                 etc.)
         back: |
-                Know the new universal and they put they energy
-                behind it (unconsciously); unknowingly
-                serve a larger purpose in their own private aims;
-                consolidate power
+                Know new universal and put their energy behind it
+                (unconsciously); unknowingly serve larger purpose in own
+                private aims; consolidate power
 -       guid: E&>2_UBUG/
         topic: Hegel
         front: Cunning of Reason
@@ -10469,6 +10595,11 @@ notes:
                 Year: Death of Søren Kierkegaard
         back: 1855
         include_reverse: true
+-       guid: nR8,,vKwQ*
+        front: |
+                Year of birth and death: Søren Kierkegaard
+        back: 1813 - 1855
+        include_reverse: true
 -       guid: b37niSyO%L
         topic: Søren Kierkegaard
         front: |
@@ -10485,9 +10616,8 @@ notes:
         front: |
                 The human problem
         back: |
-                Cannot be solved in the abstract by thinking, through
-                cannot be solved without thinking; solution is
-                actually making some choices in life
+                Cannot be solved in abstract by thinking, or solved without
+                thinking; solution is actually making choices in life
 -       guid: xXD)Pty;TL
         topic: Søren Kierkegaard
         front: |
@@ -10495,12 +10625,12 @@ notes:
         back: |
                 This technique is called "indirect communication".
 
-                Most of us live in various degrees of self-deception.
-                We are not honest with ourselves about categories
-                that actually structure our lives.
+                Most of us are in various degrees of self-deception and not
+                honest with ourselves about categories that structure our
+                lives.
 
-                His characters are for identifying with and then revealing
-                what living like that means.
+                His characters are to identify with and then revealing what
+                living that way means.
 -       guid: r%1iz5,_uR
         topic: Søren Kierkegaard
         front: |
@@ -10509,8 +10639,8 @@ notes:
         back: |
                 "Being Christian"
 
-                It differs from being automatically baptized and from
-                illusion of intellectual speculation (Hegel).
+                Differs from being automatically baptized and from illusion of
+                intellectual speculation (Hegel).
 -       guid: klr*.DLbB_
         topic: Søren Kierkegaard
         front: |
@@ -10576,30 +10706,25 @@ notes:
         back: |
                 "The Seducer's Diary"
 
-                Origin in levels of possibilities - accentuates
-                "this is not your life".
+                Origin: levels of possibilities - accentuates "this is not you".
 
-                Johaness, diarisst, is fascinated by young girl, Cordelia.
+                Johaness, diarisst, fascinated by young Cordelia.
 
-                Insinuates himself into her family, pays much attention
-                to Cordelia's aunt, makes himself
-                look interesting. Promotes Edward, a conventional and
-                boring young man in love with Cordelia, as a match for
-                Cordelia. Slowly, he brings Cordelia to see Edward -
-                compared to him - as boring. He manipulates an engagement
-                with himself, subtly influences her to believe marriage
-                is an impediment to *true love*. *She* breaks the
-                engagement. Passionate night together, then he leaves her.
+                Insinuates himself into her family, pays attention to her aunt,
+                makes himself look interesting. Promotes Edward, conventional
+                boring young man in love with Cordelia, as match for her.
+                Slowly, brings Cordelia to see Edward as boring, compared to
+                him. Manipulates engagement with himself, subtly influences her
+                to think marriage impedes *true love*. *She* breaks the
+                engagement. Passionate night together, then leaves her.
 
-                The seducer is an opposite of Don Juan. The seducer
-                lives completely in reflection, only occasionally
-                touches reality. Schemes, plts, etc.
-                He enjoys building the drama.
-                Keeps distance from everything, including himself.
-                He claims to love Cordelia -- in the esthetic sense.
-                And to be benefiting her - by *making her life more
-                interesting* - he will leave her a sophisticated
-                woman. He taught her the terrors of the possible.
+                Seducer is opposite of Don Juan - lives completely in
+                reflection, only occasionally touches reality. Schemes, plots,
+                etc. Enjoys building drama, keeps distance from everything,
+                including himself. Claims to love Cordelia - in the esthetic
+                sense, to be benefiting her - by *making her life more
+                interesting* - will leave her a sophisticated woman. Taught her
+                terrors of the possible.
 -       guid: vonqJKk$q6
         front: |
                 Author: "The biggest danger, that of losing oneself,
@@ -10613,7 +10738,7 @@ notes:
                 The Ethical option - where is it? Who's the character?
                 Topic?
         back: |
-                Second part of Either/Or. Long letters from lower
+                2nd part of Either/Or. Long letters from lower
                 courts magistrate, Judge Wiliam, addressed to A.
 
                 Main topic: love, large issue: what it means to be
@@ -10629,30 +10754,25 @@ notes:
                 Judge William: "mark" of romantic love is *immediacy*.
                 Falling in love is something that *happens*.
 
-                Lovers are deeply convinced their relationship is
-                something whole that can't be really changed.
-                This conviction is false, since it's something that
-                *just happens*.
+                Lovers deeply convinced their relationship is something whole
+                that can't be changed, which is false, since it's something
+                that *just happens*.
 
-                Cynism about love leads to (1) resigning on lasting
-                love, having a series of affairs, (2) marriage
-                of convenience without love.
-                Judge William deplores both.
-                A is right in valuing romantic love, but promise of
-                eternity requires not "going with the flow", but
+                Cynism about love leads to (1) resigning on lasting love,
+                serial affairs, (2) marriage of convenience without love.
+                Judge William deplores both. A is right in valuing romance, but
+                promise of eternity requires not "going with the flow", but
                 choice - determination of will.
 -       guid: ib*$,jK9Ou
         topic: Søren Kierkegaard
         front: What kind of love does Judge William defend?
         back: |
-                *Conjugal love* - mark of that is engagement of the
-                will, making promises. It can provide continuity
-                and permanence, and is not death of romantic love -
-                it's its aid.
+                *Conjugal love* - mark: engagement of will, making promises.
+                Can provide continuity and permanence; not death of romantic
+                love - it's its aid.
 
-                It's not fit for art, but married people have fought
-                with something worse than dragons - time.
-                Marriage is *aesthetic*.
+                Not fit for art, but married people have fought worse than
+                dragons - time. Marriage is *aesthetic*.
 
                 Ethical life requires development of the *self*.
 -       guid: n1l(/5{Q.6
@@ -10668,18 +10788,16 @@ notes:
                 our life, we will lose our selves.
 
                 When one chooses seriously, *engaging oneself*, one
-                chooses *ethically*. The judge isn't urging A
-                to choose *good* - just urging him to *choose*.
+                chooses *ethically*. Judge isn't urging A to choose *good* -
+                just to *choose*.
 
-                The judge's either/or is about categories of
-                evaluation. We will lead a radically different life
-                if we decide according to "good/evil" (ethical), versus
-                "interesting/boring" (esthetic).
+                Judge's either/or is about categories of evaluation. We will
+                live radically differently if we decide by "good/evil"
+                (ethical) vs "interesting/boring" (esthetic).
 
-                Do you choose with *ironic detachment*, or
-                a *seriousness and passion of will*?
-                The ethical person stops trying to *be* something,
-                and starts a project of *becoming* something - a self.
+                Do you choose with *ironic detachment*, or a *seriousness and
+                passion of will*? Ethical person stops trying to *be*
+                something, starts a project of *becoming* a self.
 -       guid: qj9qa6t_>B
         front: |
                 Author: "Imagine a captain of a ship the moment a shift
@@ -10866,21 +10984,21 @@ notes:
         topic: Søren Kierkegaard
         front: Active form of despair of defiance
         back: |
-                Experimenting with self. There is nothing firm in this form.
-                The self is not increasingly itself - it is increasingly
-                obvious it's *hypothetically* itself. The self is its own
-                master, and this is the despair, or can be regarded as its
-                pleasure and joy. Yet this absolute ruler rules over nothing.
-                The self is subject to dialectic that rebellion is legitimate
-                at any moment. Despairing self keeps building castles on air.
+                Experimenting with self; nothing firm in this form.
+                Self is not increasingly itself - it is increasingly obvious
+                it's *hypothetically* itself. Self is its own master, and this
+                is the despair, or can be regarded as its pleasure and joy.
+                Yet this absolute ruler rules over nothing - self is subject to
+                dialectic that rebellion is legitimate at any time.
+                Despairing self builds castles on air.
 -       guid: q~`0`B[JfL
         topic: Søren Kierkegaard
         front: Passive form of despair of defiance
         back: |
-                Finds something objectionable about itself: flaw, deficiency,
-                disability. Offended one uses it to take offense at all
-                existence. Wants to be himself despite it. Thinks he himself is
-                evidence against goodness of existence.
+                Finds something objectionable about itself - flaw, disability -
+                uses it to take offense at all existence, wants to be himself
+                despite it. Thinks itself as evidence against goodness of
+                existence.
 
                 Also despair - unwilling to be oneself.
 -       guid: h$e?GX=LP#
@@ -10899,7 +11017,8 @@ notes:
                 Anti-Climacus: this power is God.
 -       guid: Ob(aSVv@ay
         topic: Søren Kierkegaard
-        front: What is the opposite of despair?
+        front: |
+                Word: Opposite of despair
         back: Faith
 -       guid: gZin:=P*3V
         topic: Søren Kierkegaard
@@ -10914,9 +11033,8 @@ notes:
         topic: Søren Kierkegaard
         front: How does he differ from Hegelian evolution?
         back: |
-                Each of his characters is a *possibility*, on the same level.
-
-                The aesthete, the ethicist, the Christian.
+                Each character is a *possibility* on the same level: aesthete,
+                ethicist, Christian.
 
                 We must choose without knowing which is right or best. Moving
                 from one kind of life to another is a *leap*, a conversion.
@@ -10940,28 +11058,26 @@ notes:
         front: |
                 2 questions about individual's relation to truth
         back: |
-                (1) Is it indeed the truth to which I'm related?
-                (*objective* question)
-                - about *what* is believed; cannot be settled by an
+                <ol type="1">
+                <li> <i>Objective</i>: Is it indeed the truth to which I'm
+                related? - about *what* is believed; cannot be settled by an
                 existing individual
 
-                (2) Is the mode of the relationship a true one?
-                (*subjective* question)
-                - about *how* it's said or believed
-                ; this is accentuated because (1) can't be settled.
-                Quality of life depends on intensity, passion,
+                <li> <i>Subjective</i>: Is the mode of relationship a true one?
+                - about *how* it's said or believed; accentuated because (1)
+                an't be settled. Quality of life depends on intensity, passion,
                 decisiveness with which this relation is maintained.
+                </ul>
 
-                An objective uncertainty held fast in
-                an appropriation-process of the most passionate
-                inwardness is the truth, *the highest truth*
-                available for an existing individual.
+                An objective uncertainty held fast in an appropriation-process
+                of the most passionate inwardness is the truth, *the highest
+                truth* available for an existing individual.
 -       guid: IRPj9)[}CU
         topic: Enlightenment
         front: 4 topics prominent at close of Enlightenment
         back: |
                 <ul>
-                <li> History's significance (development of culture and reason)
+                <li> History's significance (development of culture, reason)
                 <li> Role of opposition and antagonism in progress
                 <li> Attainment of goal by the race, not the individual
                 <li> Justification of evil accopanying progression
@@ -10970,10 +11086,25 @@ notes:
         front: |
                 Year: Birth of Karl Marx
         back: 1818
+        include_reverse: false
+-       guid: H|Bm+fP*st
+        front: 1818
+        back: |
+                <ul>
+                <li> Birth of Karl Marx
+                <li> *The World as Will and Idea* published
+                </ul>
 -       guid: Fs:#>Yy:!/
         front: |
                 Year: Death of Karl Marx
         back: 1883
+        include_reverse: true
+-       guid: JVN9E$4&+q
+        front: |
+                Year of birth and death: Karl Marx
+        back: |
+                1818 - 1883
+        include_reverse: true
 -       guid: uXknmm|zM7
         topic: Marx
         front: Philosophical origins
@@ -11047,15 +11178,15 @@ notes:
         front: How did 19th century change industrial conditions?
         back: |
                 Earlier, cobblers had their own shops, ownership and labor
-                was combined in one person. In 19th century, there was a
-                large split between people owning large and expensive means
-                of production and class providing labor - "struggle".
+                combined in 1 person. In 19th century, there was a large split
+                between people owning large and expensive means of production
+                and class providing labor - "struggle".
 
-                Because there are more workers than jobs, capitalists pay only
-                subsistence-level wages. So, workers are *commodities* -
-                just "working animals", replacable by machines.
+                More workers than jobs &rarr; capitalists pay only
+                subsistence-level wages. Workers are *commodities* - "working
+                animals" replacable by machines.
 
-                Rents also go as high as possible.
+                Rents go as high as possible.
 -       guid: cS(S(8ib8z
         topic: Marx
         front: Explanation of private property
@@ -11080,28 +11211,27 @@ notes:
                 Devotion to money
 -       guid: HZE#;?yhUh
         topic: Marx
-        front: Threefold alienation
+        front: 3-fold alienation
         back: |
-                They feel *alienated* from their work. The labor is *forced*;
-                not a satisfaction of a need, but a *means* to satisfy
-                external needs. The alien character is shown in that once
-                no physical/other compulsion exists, labor is shunned like
-                the plague.
-
-                Workers are alienated both from their labor and its products
-                (which belong to the capitalist). Workers just have wages,
-                which are subsistence-level. They put their life into objects
-                they produce, but they no longer belong to them.
-
-                Workers compete against each other for jobs. Workers are also
-                alienated from each other.
+                <ul>
+                <li>From their work. Labor is *forced*; not a satisfaction of
+                need, but *means* to satisfy external needs. Alien character is
+                shown in that once no physical/other compulsion exists, labor
+                is shunned.
+                <li>From their labor and its products (which belong to
+                capitalist). Workers just have (subsistence-level) wages. They
+                put their life into objects they produce, but they no longer
+                belong to them.
+                <li>From each other (workers compete against each other for
+                jobs).
+                </ul>
 -       guid: N*>6);,e>f
         front: |
                 Year: Marx and Engels write the Manifest of the Communist Party
         back: 1848
 -       guid: d)7rd2-IZP
         topic: Marx
-        front: The 2 hostile camps
+        front: 2 hostile camps
         back: Bourgeoisie, Proletariat
 -       guid: J230m~+<]q
         topic: Marx
@@ -11114,18 +11244,18 @@ notes:
         front: Distinguishing mark of communism
         back: |
                 Not abolition of property, but abolition of *bourgeois* property.
-                In current society, private property is already all but abolished -
-                90% of people have none.
+                Private property already all but abolished - 90% of people have
+                none.
 
-                Communism deprives no man of the power to appropriate the products
-                of society; all it does is to deprive him of the power to subjugate
-                the labour of others by means of such appropriation.
+                Communism deprives no man of power to appropriate products of
+                society; just deprives him of power to subjugate labour of
+                others by means of such appropriation.
 -       guid: M~QAB/&he<
         topic: Marx
         front: The freedom history leads to
         back: |
-                Freedom of real, active, working men and women, no longer
-                alienated from their work and products (not Hegelian pure
+                Of real, active, working men and women, no longer alienated
+                from their work and products (not Hegelian pure
                 self-consciousness)
 # chapter 19 - the utilitarians - moral rules and the happiness of all (including women)
 -       guid: z@BTV;?7N3
@@ -11138,6 +11268,11 @@ notes:
                 Year: Death of Jeremy Bentham
         back: 1832
         include_reverse: true
+-       guid: DEE_o<A_{[
+        front: |
+                Year of birth and death: Jeremy Bentham
+        back: 1748 - 1832
+        include_reverse: true
 -       guid: Al1b!h&-4~
         front: |
                 Year: Birth of John Stuart Mill
@@ -11147,6 +11282,11 @@ notes:
         front: |
                 Year: Death of John Stuart Mill
         back: 1873
+        include_reverse: true
+-       guid: t+_0^zaf0D
+        front: |
+                Year of birth and death: John Stuart Mill
+        back: 1806 - 1873
         include_reverse: true
 -       guid: gD8a}QR{<
         front: |
@@ -11415,16 +11555,15 @@ notes:
         topic: Utilitarians
         front: Mill on how to achieve happiness
         back: |
-                Severe depression in his early twenties,
-                exited with a new certainty that happiness is the test of all
-                conduct, the end of life -- but (paradox of hedonism) it
-                can't be attained by making it a direct end. Happy people
-                have some other object fixed in their focus: happiness
-                of others, improvement of mankind, etc.
-                Pleasures of life make it pleasurable when taken *en passant*,
-                witout being a principal object. Ask yourself whether you
-                are happy, and you will cease to be so. Only chance is to treat
-                not happiness, but some end external to it.
+                Severe depression in early 20's, exited with new certainty that
+                happiness is test of all conduct, the end of life -- but
+                (paradox of hedonism) can't be attained by directly aiming at
+                it - happy people focus on some object: happiness of others,
+                improvement of mankind, etc. Pleasures of life make it
+                pleasurable when taken *en passant*, witout being a principal
+                object. Ask yourself whether you are happy, and you will cease
+                to be so. Only chance is to treat not happiness, but some end
+                external to it.
 
                 Happiness is a by-product. (this somehow reconsiles virtue
                 ethicians - Kant, Aristotle, Stoics - with Utilitarians)
@@ -11439,24 +11578,22 @@ notes:
                 (E.g., execute an innocent to prevent a riot.)
 
                 Mill: Justice is a special case of utility.
-                The subjective feeling from utility and justice is different,
-                and stronger for justice, sure. Justice is associated with
-                *rights* - *legal* rights and *moral* rights. (A person may
-                have a moral right even in absence of legal protection.)
-                Injustice leads to resentment, so we want to punish,
-                particularly violations of moral rights.
+                Subjective feeling from utility and justice is different
+                (stronger for justice). Justice is associated with *rights* -
+                *legal* rights and *moral* rights. (People may have moral
+                rights even absent legal protection.) Injustice leads to
+                resentment, so we want to punish, particularly violations of
+                moral rights.
 
-                Rights are things I have a claim on society to protect.
-                Well, what's the origin of rights? On what grounds does society
-                owe me?
+                Rights are things I have a claim on society to protect. What's
+                the origin of rights? On what grounds does society owe me?
 
-                Mill: There's no reason besides general utility, and none is
-                needed.
+                Mill: No reason besides general utility, and none is needed.
                 *Security* is very fundamental to happiness, so much to make
                 it a right.
 
-                *Justice* is, according to Mill, about moral rules that
-                concern the essentials of human well-being.
+                Mill: *Justice* is about moral rules concerning essentials of
+                human well-being.
 -       guid: b9`])qN6Xt
         front: |
                 Author: "When we call anything a person's right, we mean that
@@ -11509,9 +11646,8 @@ notes:
         front: |
                 Mill: Why are woman subjugated?
         back: |
-                By historical accident - women were always in subjugation.
-                It was never rationally decided.
-                It's *law of the strongest*.
+                Historical accident, never rationally designed - women were
+                always in subjugation.  *Law of the strongest*.
 
                 Why did this custom stay, when slavery and monarchy were
                 abolished? Because the empowered class is the entire male
@@ -11521,13 +11657,16 @@ notes:
 
                 Counterargument: Why don't women complain?
 
-                Countercounterargument: (1) Some do. (2) The pattern is that
-                those subjected to power of an ancient origin begin
-                by complaining about its abuse, not about the power; there's
-                plenty of complaints from woman with husbands who abuse them.
-                (3) Men don't want just obedience, they also want sentiment
+                Countercounterargument:
+                <ul type="1">
+                <li> Some do.
+                <li> Pattern: subjects of power of ancient origin begin by
+                complaining about its abuse, not about the power; plenty of
+                complaints from wives of abusive husbands.
+                <li> Men don't want just obedience, they also want sentiment
                 (willing slaves). They enslave women's *minds* - not just
                 on *fear*. The entire force of education indoctrinates women.
+                </ul>
 
                 Popular books: "women exist for the sake of men".
                 Ask boys: "to what purpose are you talking?", ask girls:
@@ -11538,40 +11677,32 @@ notes:
         front: |
                 Bad consequences of subjugation of women
         back: |
-                (1) Morality is undermined in the female world by putting
-                on a show, not on the substance. Virtue and its shadow are at
-                variance.
-
-                (2) Women are persuaded to value trivialities - attractiveness,
-                decorum. They are turned towards sensuality and away from
-                understanding. "A virtuous woman" has sexual connotations,
-                "a virtuous man" has none - "women are, foremost, pleasers!!"
-
-                (3) Everything is focused on how a woman is *regarded*.
-                Attention is focused on only one virtue: chastity.
-                If the honour of a woman is safe, she may ruin her family
-                by gaming and extravagance, yet still present a shameless
-                front.
-
-                (4) They are *weakened* by their existence being justifiable
-                only in terms of relations to another. And they are *brought
+                <ol type="1">
+                <li> *Undermining of female morality*: putting on a show, no
+                substance; virtue and its shadow at variance.
+                <li> *Women persuaded to value trivialities* - attractiveness,
+                decorum. Turned to sensuality, away from understanding.
+                "A virtuous woman" has sexual connotations, "a virtuous man"
+                has none - "women are, foremost, pleasers!!"
+                <li> *Attention only on perceived virtuous chastity*. If honour
+                of a woman is safe, she may ruin her family by gaming, yet
+                present a shameless front.
+                <li> *Weakening of women by their existence being justifiable
+                only in terms of relations to another*. And they are *brought
                 up to be weak*.
                 Submisiveness, meekness, resignation were an essential part
                 of sexual attractiveness.
-
-                (5) Women become *cunning by necessity*. They can't have money
-                or property, so they arise jealousy, etc.
-                Understanding has been denied to women; instinct was sublimated
-                into wit and cunning and substituted.
-                Also, *meddlesomeness*.
-
-                (6) Men who are considerate of their wives' opinions are
-                often made worse, not better, by their influence. Women seldom
-                have hones and conscientious opinions.
-                Women know what will bring money/invitations/good marriages
-                to kids, but not what is right in politics.
-                Women lack straightforward rationality, so they govern their
-                husband indirectly, sneakily.
+                <li> *Women become cunning by necessity*. Can't have money
+                or property &rarr; arise jealousy, etc. Understanding has been
+                denied to women; instinct sublimated into wit, cunning was
+                substituted. Also, *meddlesomeness*.
+                <li> *Men considerate of their wives' opinions are often made
+                worse by their influence*. Women seldom have honest and
+                conscientious opinions. They know what will bring
+                money/invitations/good marriages to kids, but not what is right
+                in politics. Lack straightforward rationality, so they govern
+                their husband indirectly, sneakily.
+                </ul>
 -       guid: M2mczZ.12a
         topic: Utilitarianism
         front: What kind of virtue does Wollstonecraft deny?
@@ -11580,18 +11711,20 @@ notes:
         topic: Utilitarianism
         front: Counterargument to "How do you know that women have the same capacity for reason?"
         back: >
-                Not by society as it is.
-                The only way to tell is to make the experiment.
-                We have kept their nature distorted and disguised.
+                Not by society as it is. Only way to tell is to experiment.
+                We kept their nature distorted and disguised.
 -       guid: e=<G=ZS95,
         topic: Utilitarianism
         front: Possible gains from women's equality
         back: |
-                Justice. Twice the mental faculties for humanity. Women would
-                have a more beneficial influence on general belief and sentiment.
-                (NOTE: Charity by "ladies" of upper classes often made
-                people dependent instead.)
-                Greater happiness for women.
+                <ul>
+                <li> Justice
+                <li> 2&times; mental faculties for humanity
+                <li> Women would have a more beneficial influence on general
+                belief and sentiment. (NOTE: Charity by "ladies" of upper
+                classes often made people dependent instead.)
+                <li> Greater happiness for women
+                </ul>
 # chapter 20 - friedrich nietzsche - the value of existence
 -       guid: h5OiDLfuv
         front: |
@@ -11602,6 +11735,11 @@ notes:
         front: |
                 Year: Death of Friedrich Nietzsche
         back: 1900
+        include_reverse: true
+-       guid: r[!IC>rD8V
+        front: |
+                Year of birth and death: Friedrich Nietzsche
+        back: 1844 - 1900
         include_reverse: true
 -       guid: GOhP}b}k_W
         front: |
@@ -11644,7 +11782,7 @@ notes:
         include_reverse: true
 -       guid: yQSd=Z]`!/
         topic: Friedrich Nietzsche
-        front: Criical reception of his work
+        front: Critical reception of his work
         back: |
                 Few copies sold, reviews based on misunderstanding;
                 generally ignored
@@ -11719,26 +11857,23 @@ notes:
                 (2) Writing plays was a competition, prizes were given for the
                 best plays and playwrights were challenged.
 
-                Nietzsche: For Greeks, everything was a contest - envy,
-                ambition, etc. is everywhere in their life.
-                Greek ethos: competitive spirit is *affirmed*, not *condemned*.
+                Nietzsche: For Greeks, everything was a contest.
+                Greek ethos: competitive spirit *affirmed*, not *condemned*.
 
-                (3) Tragedies unite 2 opposing forces of life:
-                Apollo and Dionysus. Apollo: order and measure, restraint
-                ("Know thyself.").
+                (3) Tragedies unite 2 opposing forces of life: Apollo and
+                Dionysus. Apollo: order, measure, restraint, "Know thyself."
 
-                Apollo: this is the right sort of gods to have, these
-                gods live like humans, but splendidly. (Nothing suggests
-                ascetism, spirituality, duty.)
+                Apollo: right sort of gods to have, such gods live like humans,
+                but splendidly. (No suggestion of ascetism, spirituality,
+                duty.)
 
-                Greeks created the gods from a profound need. First: Titanic
-                order of terror, then: Olympian divine order of joy,
-                then: Apollonian impulse to beauty. (progression)
-                This is how they endured the suffering of existence.
-                Their gods justify the life of man.
+                Greeks created gods from a profound need. First: Titanic order
+                of terror, then: Olympian divine order of joy, then: Apollonian
+                impulse to beauty. (progression) This is how they endured
+                suffering of existence. Their gods justify life of man.
 
                 In tragedies, suffering is not withdrawn - it's presented,
-                explored, given weight. It can't be explained as a way to escape.
+                explored, given weight. Can't be explained as escape.
 
                 Bacchus (or Dionysus): god of wine, excess, loss of control.
                 Conventions left. Dionysian notes in lyric poetry, folk song.
@@ -11747,13 +11882,12 @@ notes:
                 Tragedy happens when Dionysus meets Apollo.
 
                 Nietzsche accepts Schopenhauser's metaphysics, through not
-                his evaluation of it. The world of experience is merely
-                appearance; the thing that *appears* in appearance is just
-                *will* made manifest. The world is endless striving, wanting,
-                desiring. As Kant taught, causality, space, time (principles
-                that *individuate* things) only apply to phenomena, not to
-                noumena (things in themselves) - so these principles don't
-                apply to *will*.
+                his evaluation of it. World of experience is merely appearance;
+                *appearances* are just *will* made manifest. World is endless
+                striving, wanting, desiring. As Kant taught, causality, space,
+                time (principles that *individuate* things) only apply to
+                phenomena, not to noumena (things in themselves) - so these
+                principles don't apply to *will*.
 
                 Realm of individuated phenomena: Apollo (measure, order,
                 knowledge, morality), raging depths of urgent reality:
@@ -11761,60 +11895,60 @@ notes:
                 Apollo governs the world of appearance, Dionysis expresses
                 the will.
 
-                Role of the *chorus*: a chorus often speaks/chants in unison.
-                Interpretations: an ideal spectators, political commentary
-                (citizens commenting on actions of royalty). Nietzsche believes:
+                Role of the *chorus*: often speaks/chants in unison.
+                Interpretations: ideal spectators, political commentary
+                (citizens commenting on actions of royalty).
 
-                1. Greek drama had no roles for individual actors - there was *only* the chorus.
+                Nietzsch:
 
-                2. The chorus were *satyrs*, half-human half-goat companions of Dionysus.
+                1. Greek drama had no roles for individual actors, there was
+                *only* the chorus.
+
+                2. Chorus of *satyrs*, half-human half-goat companions of
+                Dionysus.
 
                 Tragedy is *religious* and *redeems*, and we can be *saved*
                 through it.
 
                 Why was chorus made from satyrs?
-                It's offspring of longing for the primitive and natural,
-                yet not a mere ape - the archetype of man, embodiment
-                of highest and most intense emotions.
-                Satyrs were sublime and divine.
+                Longing for primitive and natural, yet not a mere ape -
+                archetype of man, embodiment of highest and most intense
+                emotions. Satyrs were sublime and divine.
 
                 Spectators identified with the satyr chorus. (i.e., "audience
-                at rock concerts")
-                Dionysian music originated in the primordial reality -
-                the *will* - from which derives all the apparent world,
-                including the spectators.
+                at rock concerts") Dionysian music originated in primordial
+                reality - the *will* - from which derives all the apparent
+                world, including the spectators.
 
-                The drama is a *dream of the chorus*. The Dionysian chorus
-                dreams an Apollinian dream, spectators dream it too.
+                Drama is a *dream of the chorus*. Dionysian chorus dreams
+                an Apollinian dream with the spectators.
 
-                Experiencing a tragic drama is like dreaming, when a dreamer
-                says to oneself "It's a dream! I will dream on!"
+                Experiencing tragic drama is like dreaming, when dreamer says
+                "It's a dream! I will dream on!"
 
                 How tragedies solve the problem of existence:
                 In them, *individuals are destroyed*. It's a window into
                 reality. Given Schopenhauer's metaphysics, our lives are
-                *merely appearance* and not reality, we are a dream
-                of the will. Reality is in Dionysian depths with no
-                individuation of space, time, causality.
-                The chorus *affirms* the dream, including the suffering
-                and destruction, and *so the spectators come to affirm life*.
-                Passionately, joyously. They know they are infinitely more than
-                petty individualities of the apparent world. They experience
-                fusion with the root of the world, and willing the creation
-                of the drama and of their lives.
+                *merely appearance* and not reality, we are a dream of will.
+                Reality is in Dionysian depths with no individuation of space,
+                time, causality. Chorus *affirms* the dream, including
+                suffering and destruction, and *so spectators come to affirm
+                life*, passionately, joyously. They know they are infinitely
+                more than petty individualities of the apparent world. They
+                experience fusion with the root of the world, and willing the
+                creation of drama and their lives.
 
-                The metaphysical comfort: at the bottom of things, despite
-                the changes in appearances, life is indestructibly powerful
-                and pleasurable.
+                Metaphysical comfort: at the bottom of things, despite changes
+                in appearances, life is indestructibly powerful and
+                pleasurable.
 
                 Art saves Greeks from the Buddistic negation of the will.
 
                 Tragedy exclaims: "We believe in eternal life"
 
-                There are 2 kinds of pessimism: pessimism of weakness and
-                of strength. Weakness: Schopenhauer - wants just Buddhist
-                relief from life. Strength: Greeks - joyous affirmation in the
-                face of the terror.
+                There are 2 kinds of pessimism: of weakness and of strength.
+                Weakness: Schopenhauer - wants Buddhist relief from life.
+                Strength: Greeks - joyous affirmation in face of terror.
 
                 Our lives may turn out tragic, but there's nothing else that
                 can give life meaning and solve the problem of the value
@@ -11823,11 +11957,10 @@ notes:
                 What makes our life worth living is *not* anything moral, *not*
                 another life, *not* our relation to God - just its *aesthetic
                 value*. We are just "images and artistic projections for
-                the true author" - the primordial unity, the will, the
-                Dionysian power. This can overcome pessimism.
-                We can accept our lives even if our eyes are wide open
-                to its terrors. This is the *only* way the problem could
-                be solved.
+                the true author" - primordial unity, will, Dionysian power.
+                This can overcome pessimism. We can accept our lives even if
+                we open our eyes to terrors. This is the *only* way the problem
+                could be solved.
 -       guid: yKmb%0d4t%
         topic: Friedrich Nietzsche
         front: After *The Birth of Tragedy*
@@ -12352,7 +12485,7 @@ notes:
                 not in all eternity.
                 Not bear what is necessary, or conceal it... but *love* it.
 
-                The sign of a redeemed life is *gratitude* for *everything*.
+                Sign of a redeemed life is *gratitude* for *everything*.
 
                 Including wrong-doing, illness, pain.
 
@@ -12370,6 +12503,11 @@ notes:
         front: |
                 Year: Death of Charles Sanders Peirce
         back: 1914
+-       guid: dtC!i6&yQi
+        front: |
+                Year of birth and death: Charles Sanders Peirce
+        back: 1839 - 1914
+        include_reverse: true
 -       guid: GA>nn7b#^_
         topic: Charles Sanders Peirce
         front: Upbringing and profession
@@ -12463,14 +12601,14 @@ notes:
         topic: Charles Sanders Peirce
         front: Distinguishing features of the method of science
         back: |
-                1. Belief established by something *independent* of what anyone
-                thinks
-
-                2. A *public* method, doesn't rely on anything particular
+                <ol type="1">
+                <li> Belief established by something *independent* of what
+                anyone thinks
+                <li> A *public* method, doesn't rely on anything particular
                 to you or me
-
-                3. Because of this public character, the social impulse will
+                <li> Because of this public character, the social impulse will
                 not undermine opinion settled scientifically
+                </ol>
 -       guid: q.$x9yGK!p
         topic: Charles Sanders Peirce
         front: Belief vs doubt
@@ -12574,3 +12712,366 @@ notes:
         back: |
                 Readiness to acknowledge one's belief is not yet completely
                 satisfactory, with intense desire to find things out.
+-       guid: l&r,iLH]O`
+        topic: Pragmatism
+        front: Peirce on meaning
+        back: |
+                Pragmatism is not metaphysics, or attempt to determine truth
+                of things. It's about finding meaning of hard words and
+                abstract concepts.
+
+                Meaning is restricted to *intellectual concepts*, opposed
+                to *mere subjective feelings*.
+-       guid: p?GP$KrzBk
+        topic: Pragmatism
+        front: What is an intellectual concept?
+        back: |
+                A concept upon the structure of which arguments about objective
+                fact may hinge - "hard", "10 cm", "lithium", "believes".
+-       guid: DMN!-Q^(Rr
+        topic: Pragmatism
+        front: Illustration of difference between *intellectual concepts* and *mere subjective feelings*
+        back: |
+                Mere subjective feelings: inverted spectrum changes them.
+                But inverted qualia don't change e.g. "hard".
+
+                If you do not understand that a knife won't easily slice
+                a hard object, then you don't understand what "hard" means.
+                "Hard" is about the behavior of hard objects.
+-       guid: zHiHKen!Aq
+        front: |
+                Author: "The very first lesson that we have a right to demand
+                that logic shall teach us is, how to make our ideas clear;
+                and a most important one it is, depreciated only by minds who
+                stand in need of it. To know what we think, to be masters of
+                our own meaning, will make a solid foundation for great and
+                weighty thought ... It is terrible to see how a single unclear
+                idea, a single formula withou meaning, lurking in a young
+                man's head, will sometimes act like an obstruction of inert
+                matter in an artery, hindering the nutrition of the brain, and
+                condemning its victim to pine away in the fullness of his
+                intellectual vigor and in the midst of intellectual plenty."
+        back: Charles Sanders Peirce
+-       guid: Pq-r^|/^i$
+        topic: Pragmatism
+        front: |
+                Peirce's 3 grades of clearness
+        back: |
+                1. can identify samples of quartz
+
+                2. verbal definition
+
+                3. Consider what efects that might conceivable have practical
+                bearings, we conceive the object of our conception to have.
+                Then, our conception of these effects is the whole of our
+                conception of the object.
+
+                The word "hard" is a *sign*, its meaning is another *sign*.
+                Meanings are not things, not brute facts, not sensations or
+                actions.
+
+                There is nothing in our conception of "hard" beyond the
+                effects.
+-       guid: J]4849]&vM
+        front: Operational definition
+        back: |
+                "When you apply a knife's edge to *x*, it will not be cut."
+
+                An operation performed; a result observed.
+
+                All of these infinite number of tests, together, make up
+                the concept of "hard".
+
+                If we know all the laws of gravity, we *know gravity*.
+                There's nothing to know beyond operation &rarr; result.
+-       guid: s.5L-!`OpU
+        front: |
+                Author: "It will serve to show that almost every proposition
+                of ontological metaphysics is either meaningless gibberish
+                - one word being defined by other words, and they still by
+                others, without any real conception ever being reached -
+                or else is downright absurd; so that all such rubbish being
+                swept away, what will remain of philosophy will be a series
+                of problems capable of investigation by the observational
+                methods of the true sciences."
+        back: Charles Sanders Peirce
+-       guid: rqyXYzm5tT
+        front: Peirce vs Hume on metaphysics
+        back: |
+                Both Hume and Peirce want to get rid of fakery and quakery
+                in metaphysics. both think clarity of meaning will help.
+
+                Hume: certifying the meaning of a term is *contemplative*,
+                we find what perception led to the term.
+                Peirce: to find out what a term means, we have to *do*
+                something.
+
+                Hume: criterion is *individualistic* and *private*.
+                Peirce: public.
+
+                Hume: investigation of meaning oriented to past,
+                Peirce: to the future (future use).
+
+                For Hume: meanings of words are *fixed* given past experience.
+                Peirce: we are *creative* with respect to language.
+                What we do determines their meaning. Language evolves.
+-       guid: nZiu@($%Cr
+        front: |
+                Author: "In fact, therefore, men and words reciprocally
+                educate each other; each increase of a man's information
+                involves, and is involved by, a corresponding increase
+                of a word's information."
+        back: Charles Sanders Peirce
+-       guid: m#Vp`{HY!c
+        topic: Pragmatism
+        front: |
+                Term: Entity that has meaning
+        back: Sign (include animal sounds, etc.)
+-       guid: l>Z;7nrj{?
+        topic: Pragmatism
+        front: Shared structure of *signs*
+        back: |
+                *Triadic* structure: a *sign* stands for an *object* to an
+                *interpretant*.
+
+                This started modern philosophy of language.
+
+                Syntax: permissible relations of words in language,
+                semantics: "word-world" relations
+-       guid: xt^>,m}~pO
+        topic: Pragmatism
+        front: 3 ways a sign can relate to its object
+        back: |
+                1. Depends causally on object (e.g., smoke is a sign of fire)
+                -- **indexes**
+                (a weather wane is an index of the wind's direction)
+
+                2. Resemble the object -- **icon**
+                (photographs are both *icons* and *indexes*)
+
+                3. Purely conventional -- **symbols**
+                (most words in human languages)
+
+                Words don't *stand* for ideas, throuugh - they are *terms for*
+                ideas.
+-       guid: Ok,OXSzyi5
+        topic: Pragmatism
+        front: 3 important kinds of interpretants
+        back: |
+                1. Emotional (e.g., "freedom")
+
+                2. Energetic (e.g., "Ground arms!" from drill sergeant)
+
+                3. Logical;
+                a logical interpretant is in itself a sign that has the same
+                meaning as the sign it interprets ("vixen" is defined as
+                "female fox");
+                this cannot be a *final* or *ultimate* interpretant --
+                it is itself a sign, calling for further interpretants
+-       guid: OUnBoB{GcX
+        topic: Pragmatism
+        front: What is the *ultimate interpretant* of logical signs?
+        back: |
+                Habit. E.g.: when I want to cut something, I won't choose
+                a stone ("hard"); the most perfect account of a concept
+                that words will onvey is a description of the habit it
+                produces
+-       guid: cW!L|a,ih?
+        topic: Pragmatism
+        front: 2 consequences of habit grounding mastery of meaning of words
+        back: |
+                1. Holism: a sign has meaning only as part of a system of signs
+
+                2. Our intellectual life is tied to matters of behavior and
+                experience.
+                Peirce recommends the method of science to attain better
+                habits.
+-       guid: nVt]jU>$d!
+        front: |
+                Year: *On the Origin of Species* published
+        back: 1859
+-       guid: E${u;@k1a>
+        front: |
+                Year: Birth of John Dewey
+        back: 1859
+-       guid: I1nO_V/QY<
+        front: |
+                1859
+        back: |
+                <ul>
+                <li> On the Origin of Species published
+                <li> John Dewey born
+                </ul>
+-       guid: u+mC7Z0|w2
+        front: |
+                Year: Death of John Dewey
+        back: 1952
+        include_reverse: true
+-       guid: h-r$2pg9;^
+        front: |
+                Year of birth and death: John Dewey
+        back: 1859 - 1952
+        include_reverse: true
+-       guid: BmPsw|+uPw
+        front: |
+                Projects: John Dewey
+        back: |
+                Incorporating Darwin tinto epistemology, metaphysics, ethics;
+                wrote on social, educational, political manners.
+-       guid: w33K-=2[V9
+        front: |
+                Birthplace: John Dewey
+        back: Vermont, USA
+-       guid: QUho_&pK.[
+        front: Translation of *eidos* in Scholastic philosophy in Middle Ages
+        back: Species
+-       guid: khYtLoL3;}
+        topic: John Dewey
+        front: On Darwin's contribution
+        back: |
+                Finding knowledge and our place in nature in *mutual
+                interactions of changing things*, tno in something
+                transcendental and unchanging.
+
+                Philosophy shifted to moral and political diagnosis and
+                prognosis in real life.
+                Opens new prospect of applying science and experimental method
+                to all pressing, practical human problems.
+-       guid: Off.;b}gJ]
+        topic: John Dewey
+        front: How are hard questions solved?
+        back: |
+                By *evaporating* - abadonment of previously presented
+                alternatives.
+-       guid: GC6BRzI8)?
+        topic: John Dewey
+        front: Agreement with Hegel
+        back: |
+                Sets himself against philosophy that would establish an
+                impassable gulf between knowers and what is known,
+                subject and object, experience and nature, action and the good.
+                John Dewey is a *naturalist*.
+-       guid: ecR7zlyM`s
+        topic: John Dewey
+        front: Epistemological and ethical corrolary of naturalism
+        back: |
+                Give up the quest for certainty, all knowledge is hypothetical
+                and revisable. The same applies to *values*. Not everything
+                is equally valuable, but no certainty is possible.
+-       guid: eG#4;zh}4S
+        front: |
+                Author: "The function of reflective thought is to transform
+                a situation in which there is experienced obscurity, doubt,
+                conflict, disturbance of some sort, into a situation that is
+                clear, coherent, settled, harmonious."
+        back: John Dewey
+-       guid: xI<T/9$4aL
+        topic: John Dewey
+        front: |
+                States of thinking between confused situation &rarr;
+                resolved situation
+        back: |
+                1. suggestions: mind leaps to a possible solution
+
+                2. intellectualization of the difficulty that was *felt*
+                into a *problem* to be solved
+
+                3. use of one suggestion after another as a leading idea
+                (hypotheses) to collect facts
+
+                4. elaboration of idea, supposition as an idea, supposition
+                (reasoning)
+
+                5. testing the hypothesis
+-       guid: GQ;T=}w`*R
+        front: |
+                Name: America's greatest psychologist
+        back: William James
+-       guid: b.C+^App+7
+        front: |
+                Year: Birth of William James
+        back: 1842
+        include_reverse: true
+-       guid: ChlIIl{Dv{
+        front: |
+                Year: Death of William James
+        back: 1910
+        include_reverse: true
+-       guid: klMcQr{?+Y
+        front: |
+                Year of birth and death: William James
+        back: 1842 - 1910
+        include_reverse: true
+-       guid: jta8}<?Wvy
+        topic: William James
+        front: On beliefs
+        back: |
+                Do our conceptions give us cause to hope, or cause to despair?
+
+                Great philosophical systems are reflection of temperaments
+                of their inventors.
+-       guid: lI27U(hAk4
+        topic: William James
+        front: Classification of philosophical systems
+        back: |
+                *Tender-minded*: rationalistic, optimistic, free-willist,
+                idealistic
+
+                *Tough-minded*: empiricist, materialist, pessimistic,
+                fatalistic
+
+                Pragmaticism: middle way; key is a revised notion of truth
+-       guid: w6}cPSqM}*
+        topic: William James
+        front: On truth
+        back: |
+                *Truth* depends on us; what is true is what satisfies our
+                needs. If evidence does not clearly decide the issue (i.e.,
+                in many big philosophical questions), we are free to believe
+                what makes us live a more satisfying life.
+
+                e.g.: fatalism and predeterminism is not a belief that will
+                make our lives better.
+                Similar with faith in God: if it makes life more satisfying, go
+                for it.
+-       guid: JFR-epBsfH
+        topic: John Dewey
+        front: How does his epistemology depart from traditional representation theory of knowledge?
+        back: |
+                1. He does not erect a barrier between knower and the known.
+                We keep interacting with the world and are embedded in it;
+                we don't just have access to our mental states.
+
+                2. He also rejects the rule to "not frame hypotheses" -- mind
+                does this on its own automatically.
+                These leaps should be *encouraged*, not condemned.
+
+                3. What is crucial is not whether a proposition is a leap
+                beyond present evidence. What is crucial is that the theory
+                *works* in the future.
+-       guid: c=DNf2w1ul
+        topic: John Dewey
+        front: Pragmaticism vs rationalism and empiricism
+        back: |
+                Pragmatism is the middle way, takes best from both
+
+                Tradition is commited to particularism (in empiricism) and
+                looks only back into the past, doesn't project into the future.
+                Experience and thought have been antithetical in the past.
+
+                1. The knower is not a disinterested spectator.
+
+                2. We reject the notion of knowledge locate exclusively in
+                the subject (leaving the question of an objective world in
+                the air)
+
+                3. Experience is purposive; oriented toward the future (vs
+                Hume, who traces ideas back to their original impressions;
+                he only counts the *past*)
+
+                4. Knowledge is ordinarily *full* of inference and in intimate
+                contact with the objective world.
+
+                Thus, the problem of the "reality of the external world" simply
+                evaporates.
+

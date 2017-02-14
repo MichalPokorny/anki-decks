@@ -1,0 +1,647 @@
+# Modern C by Jens Gustedt
+topic: C
+deck: All::CS::Languages::C
+notes:
+-       guid: Ko_<6hQrGC
+        front: 3 standards of C
+        back: C89, C99, C11
+-       guid: g!L!NN&.Il
+        front: Declare `main` to return `int` and take no parameters
+        back: |
+                `int main(void);`
+        include_reverse: true
+-       guid: lK&*JGU<Aj
+        front: Macro for successful exit status, its header file
+        back: "`EXIT_SUCCESS`, `stdlib.h`"
+-       guid: G)bq>i7;ah
+        front: Macro for error exit status, its header file
+        back: "`EXIT_FAILURE`, `stdlib.h`"
+-       guid: nZEWzcLe=%
+        front: "Declare array of 3 `double`s `A` with `1.1` at 0, `2.2` at 2, unset (0) at 1, with designated indexes"
+        back: |
+                <code>
+                double A[5] = { [0] = 1.1, [2] = 3.3 };
+                </code>
+-       guid: no@OCeL#~x
+        front: "Declare `x` as constant pointer to variable characters"
+        back: "`char* const x;`"
+-       guid: bEX8af,iV<
+        front: "Declare `x` as variable pointer to constant characters"
+        back: "`const char* x;`"
+-       guid: HkBI4&2.5S
+        front: |
+                GCC: Output compiled program `x.c` into `y`
+        back: |
+                `gcc -o y x.c`
+        include_reverse: true
+-       guid: feL_8qQdpA
+        front: "Header file for `bool`"
+        back: "`stdbool.h`"
+-       guid: lo#W3y5JL_
+        front: "Purpose: `tgmath.h`"
+        back: |
+                Type-generic math macros:
+                `atan`, `sin`, etc. that works for both
+                `double`s and `float`s
+-       guid: m/x?`DnCUS
+        front: "Range of `size_t`"
+        back: "`[0, SIZE_MAX]`"
+-       guid: G`YtN8XT>=
+        front: "Header file: `SIZE_MAX`"
+        back: "`stdint.h`"
+-       guid: K!7S63*D%5
+        front: "When is unsigned `/` and `%` well-defined?"
+        back: "Iff second operator is not `0`"
+-       guid: L1q1]G8:Z9
+        front: "What does unsigned arithmetic do on overflow?"
+        back: Wrap around
+-       guid: D[aQb1PD2V
+        front: "What do comparison operators return?"
+        back: "`true` or `false` (i.e., `1` or `0`)"
+-       guid: L3];gWMHzk
+        front: "Idiom: Coerce scalar `x` to `0` or `1`"
+        back: "`!!x`"
+        include_reverse: true
+-       guid: hVP#~[Sw:V
+        front: "What is *short circuit evaluation*?"
+        back: "Applies for `&&`, `||`; second operand is not evaluated if it wouldn't affect the result."
+        include_reverse: true
+-       guid: iiFCjE>qeQ
+        front: "Type: complex from doubles"
+        back: "`double complex`"
+        include_reverse: true
+-       guid: xB$M->hxlM
+        front: "Construct complex number, real component = 1, imaginary component = 2"
+        back: "`CMPLX(1, 2)` from `complex.h`"
+        include_reverse: true
+-       guid: Or7)1xLK:Y
+        front: "What does the `,` operator do?"
+        back: "Evaluate operands in order and return the last one"
+-       guid: qW9SOs0204
+        front: "Evaluation order for operators"
+        back: "Mostly undefined - except for `&&`, `||`"
+-       guid: spf)eM]8v-
+        front: "Evaluation order for function arguments"
+        back: "Undefined - they can be evaluated in any order"
+-       guid: rY>zS/`)*_
+        front: "Term: Type one can't directly use for arithmetic"
+        back: "Narrow type"
+        include_reverse: true
+-       guid: FXwTsKd>kD
+        front: "What happens on arithmetic on `_Bool`, any `char` or `short`?"
+        back: "Promotion to `int`"
+-       guid: M33_Y*PYk7
+        front: "Dedicated type for pointer differences, positive or negative"
+        back: "`ptrdiff_t`"
+-       guid: LB%z.K<W61
+        front: "Maximum width (unsigned) integer (`stdint.h`)"
+        back: "`(u)intmax_t`"
+        include_reverse: true
+-       guid: F+|[t%d_V@
+        front: "Header: `errno_t`"
+        back: "`errno.h`"
+-       guid: n2zEnP;dBR
+        front: "Dedicated type for error numbers"
+        back: "`errno_t`"
+        include_reverse: true
+-       guid: hdpo)/pR_M
+        front: "Dedicated type: calendar time in seconds since epoch"
+        back: "`time_t`"
+        include_reverse: true
+-       guid: KGMZ63x+8s
+        front: "Dedicated type: processor time"
+        back: "`clock_t`"
+        include_reverse: true
+-       guid: A)eHLLMSe]
+        front: "Dedicated type: `int` with indication that interface performs bounds checking"
+        back: "`rsize_t`"
+        include_reverse: true
+-       guid: nS>jJdF_N5
+        front: "`CLOCKS_PER_SEC`"
+        back: "Macro: Number of `clock_t` cycles per seconds"
+        include_reverse: true
+-       guid: t]jvx<4@L,
+        front: "Hexadecimal floating point constant literals"
+        back: "`0x1.7aP-13`"
+        include_reverse: true
+-       guid: c}Gix^!Poq
+        front: "What is the type of a decimal integer constant?"
+        back: "First of the 3 signed types that fits it"
+-       guid: J;DgT#I7fB
+        front: "Explicitly create literal `1` of type `signed long`"
+        back: "`1L`"
+        include_reverse: true
+-       guid: ki29YdIQ&W
+        front: "Explicitly create literal `1` of type `unsigned`"
+        back: "`1U`"
+        include_reverse: true
+-       guid: qE-Vx!>L#p
+        front: "Explicitly create literal `1` of type `unsigned long long`"
+        back: "`1ULL`"
+        include_reverse: true
+-       guid: ldSi%`AGse
+        front: "Declare array of `int`s with `1`, `2` without explicitly mentioning length"
+        back: "`int A[] = { 1, 2 };`"
+-       guid: q^9<;_hL;[
+        front: "Explicitly designed catch-all initializer"
+        back: "`{ 0 }`"
+        include_reverse: true
+-       guid: KM3E*z`Eyb
+        front: "Declare enum `corvid` with values `magpie`, `raven`, `jay`"
+        back: "`enum corvid { magpie, raven, jay };`"
+        include_reverse: true
+-       guid: pCkfS2.;%2
+        front: "Type of enumeration constants"
+        back: "`signed int`"
+-       guid: ng:8]YO;y]
+        front: "Difference between `const unsigned x = 10;` and `enum { x = 10; };`"
+        back: With the `enum`, `x` is a *compile-time constant*
+-       guid: tUEpBkZ3B?
+        front: "Syntax of compound literals"
+        back: "`(T){ INIT }`, e.g.: `(char const*const[3])({ 10, 20, 30 })`"
+-       guid: hk=@FsjPmw
+        front: Pitfall of `#define`-ing with replacement starting with `(`
+        back: "Add something (e.g., `/**/`) to ensure it's not interpreted as a function-like macro"
+-       guid: I;f|rNiM*#
+        front: Define defined if complex math is unsupported
+        back: "`__STDC_NO_COMPLEX__`"
+        include_reverse: true
+-       guid: cT=a7pMyA~
+        front: Imaginary unit macro in `complex.h`
+        back: "`I`; has either type `float complex` or `double complex`"
+-       guid: mKBP,Y9y0q
+        front: "Header providing limits of `unsigned int`, `unsigned long`, `unsigned long long`"
+        back: "`limits.h`"
+-       guid: lV._~)`>si
+        front: "Macros - limits of `unsigned int`, `unsigned long`, `unsigned long long`"
+        back: "`UINT_MAX`, `ULONG_MAX`, `ULLONG_MAX`"
+-       guid: cHb}3v`G8<
+        front: "Purpose: `iso646.h`"
+        back: "Alternate operator spellings: `xor_eq`, `bitor`, etc."
+-       guid: p,q2j(~(+J
+        front: "What does `bool` expand to?"
+        back: "`_Bool`"
+-       guid: o]]qIC[L5r
+        front: "What does the C standard guarantee about representations of the same value in signed and unsigned types?"
+        back: "Positive values are represented independently from signedness"
+-       guid: P@&$,Oa/;p
+        front: 3 sign representations allowed by C standard
+        back: "sign and magnitude, ones' complement, two's complement"
+-       guid: F|=#!Do7o%
+        front: Ones' complement representation
+        back: "`(-x) == ~(x)`"
+-       guid: ugx%k|V|pP
+        front: Two's complement representation
+        back: "Upper half of type is interpreted as negative"
+-       guid: m/5@zd_jd.
+        front: Pitfall of negation in signed arithmetic
+        back: It may overflow (e.g., `-INT_MIN` is out of boundsin two's complement representation)
+-       guid: eg>XYKSIY>
+        front: "Header: limits of `double`"
+        back: "`float.h`"
+-       guid: LPNca;Em@s
+        front: "Macro: maximum value of `double`"
+        back: "`DBL_MAX`"
+        include_reverse: true
+-       guid: I(DI/2z&^C
+        front: "Macro: **smallest positive** `double`"
+        back: "`DBL_MIN`"
+        include_reverse: true
+-       guid: HP*Be]EW]^
+        front: "Macros: minimum and maximum double exponent"
+        back: "`DBL_MIN_EXP`, `DBL_MAX_EXP`"
+        include_reverse: true
+-       guid: He(uz]W)B+
+        front: "Macros: number of bits in `double` mantissa"
+        back: "`DBL_MANT_DIG`"
+        include_reverse: true
+-       guid: i6:+aMYA2L
+        front: "Type-generic macros to access real and imaginary parts of complex numbers from `tgmath.h`"
+        back: "`creal`, `cimag`"
+-       guid: iG0==x_TKz
+        front: "What does an array in a condition evaluate to?"
+        back: "`true`"
+-       guid: GHgE!:t/bJ
+        front: "Passing multi-dimensional arrays to functions"
+        back: "The innermost dimension of an array parameter to a function is lost"
+-       guid: vcaYF/kx8p
+        front: "Declare variable-length array with length from `int N`"
+        back: "`int array[N];`"
+-       guid: Ge~BU^R(6^
+        front: "Tell compiler I expect to access at least the first 10 elements of an array passed as argument"
+        back: "`void fn(int array[static 10]);`"
+-       guid: dl3r~?*KDa
+        front: "`struct` designated initializer"
+        back: "`struct s abc = { .x = 100, .y = 200 };`"
+-       guid: ?R*I#4|0a
+        front: "`typedef` `x` as array of 5 `char`s"
+        back: "`typedef char x[5];`"
+-       guid: tGe}_~vWQw
+        front: "Year, month, day of month, hour, minute, second, day of week in `struct tm`"
+        back: "`tm_year`, `tm_mon`, `tm_mday`, `tm_hour`, `tm_min`, `tm_sec`, `tm_wday`"
+-       guid: h-im%u6{~O
+        front: "Can structures be assigned by `=`?"
+        back: "Yes"
+-       guid: tpPDw0A&Zh
+        front: "Can structures be compated by `==`, `!=`?"
+        back: "No"
+-       guid: DElWM/I-tt
+        front: "Members of `struct timespec`"
+        back: "`time_t tv_sec; long tv_nsec;`"
+-       guid: h}*+}z/bP2
+        front: "Can we make new types ending with `_t`?"
+        back: "We shouldn't. They are reserved for future C standards."
+-       guid: LZeWiZH|/W
+        front: "Header for varargs"
+        back: "`stdargs.h`"
+-       guid: dsbfCHrv_D
+        front: "`argv[0]`"
+        back: "Name of the program invocation"
+-       guid: r1?!4%88uF
+        front: "What do unknown identifiers evaluate to in the preprocessor?"
+        back: "`0`"
+-       guid: MIoK_^cw/Q
+        front: "Header file: `static_assert`"
+        back: "`assert.h`"
+-       guid: r(gHS^<fx9
+        front: "Usage: `static_assert`"
+        back: |
+                `static_assert(sizeof(double) == sizeof(long double), "Error");`
+-       guid: rjc-<<0f<)
+        front: "`nearbyint` vs `round` vs `trunc`"
+        back: "`round` rounds away from zero, `nearbyint` to nearest integer, `trunc` toward zero"
+-       guid: i>?Mky7{x0
+        front: "`wx` mode for `fopen`"
+        back: "Open for writing, but only if it doesn't exist yet"
+        include_reverse: true
+-       guid: f-|S,iQSck
+        front: "End of file can only be detected after ..."
+        back: "a failed read."
+-       guid: hm$!tm8.h~
+        front: "What happens if I pass `0` as `base` to `strtoul`?"
+        back: "It pick accordingly between 10, 8 and 16 (`123` / `0123` / `0x123`)."
+-       guid: RgMkOT1*yu
+        front: "Names starting with underscore and second underscore or capital letter..."
+        back: "...are reserved (for language extension or internal use)."
+-       guid: iYsQQ@:>a+
+        front: |
+                Why are parameter names in function interfaces and field names
+                of `struct` or `union` pollutable?
+        back: |
+                Some idiot might use your function parameter name as a macro,
+                and then include your header
+-       guid: N*G_]&s*;9
+        front: Valid pointers
+        back: |
+                Valid objects, 1 position beyond, or `NULL`
+-       guid: A*Cx<@U&~V
+        front: Which objects don't have addresses?
+        back: Objects declared with `register` keyword
+-       guid: C]Myj|b=#(
+        front: "`sizeof(char)` by standard"
+        back: 1
+-       guid: GR.55m2qAl
+        front: "Macro: number of bits in `char`"
+        back: "`CHAR_BIT`"
+        include_reverse: true
+-       guid: dmc7tu/}J1
+        front: "Name: Accessing same object with different pointers"
+        back: "Aliasing"
+        include_reverse: true
+-       guid: hi:l$_NGws
+        front: "Purpose: `_Alignof`"
+        back: "Alignment of some type"
+-       guid: Tt(/Fpy$p
+        front: "Get size of array of N doubles without multiplication"
+        back: "`sizeof(double[N])`"
+-       guid: g_[*.0bU(^
+        front: "`memmove` vs `memcpy`"
+        back: "`memcpy` assumes nonoverlapping memory"
+-       guid: nC|oD!!N?.
+        front: "Initialization of objects of static duration"
+        back: "They are always initialized automatically"
+-       guid: g)?z;R{;)`
+        front: "Macro token-glue operator"
+        back: "`##`"
+        include_reverse: true
+-       guid: u$*+cD>F&t
+        front: "Macro varargs-expansion operator"
+        back: "`__VA_ARGS__`"
+        include_reverse: true
+-       guid: x%_>^Y$$Do
+        front: "Base pointer register"
+        back: "`%rbp`"
+        include_reverse: true
+-       guid: lK*veE&WyE
+        front: "Stack pointer register"
+        back: "`%rsp`"
+        include_reverse: true
+-       guid: zT*be<_MK.
+        markdown: false
+        front: "C11 escape sequence of Unicode codepoint 0xE4"
+        back: "<code>\\u00E4</code>"
+-       guid: AD?t=hAX?r
+        front: "`wchar_t` literal"
+        back: "`L'ý'`"
+        include_reverse: true
+-       guid: Igb!lDg/:a
+        front: "`wchar_t*` literal"
+        back: |
+                `L"žluťoučký"`
+        include_reverse: true
+-       guid: HQm=X!,Z04
+        front: "`char[]` literal with UTF-8 encoding"
+        back: |
+                `u8"text"`
+        include_reverse: true
+-       guid: p+d{H5%9-W
+        front: "`char16_t[]` literal with UTF-16 encoding"
+        back: |
+                `u16"text"`
+        include_reverse: true
+-       guid: M2Cg^xwWgh
+        front: "`char32_t[]` literal with UTF-32 encoding"
+        back: |
+                `u32"text"`
+        include_reverse: true
+-       guid: Oeg;&PE{nX
+        front: "In text mode, trailing whitespace..."
+        back: "printed may be supressed."
+-       guid: M(d2)r|R,=
+        front: "Use of `offsetof`"
+        back: "`offsetof(struct something, member)`"
+-       guid: vN0T`E+,8J
+        front: "Proactive use of `register`"
+        back: "Disallow taking pointers to the variable, so that compiler knows it is never aliased"
+-       guid: c#zkCGKiEP
+        front: "Pointers to `inline` functions used in several translation units..."
+        back: "will compare equal."
+-       guid: tzS<7Mve6I
+        front: "What happens if we add a compatible definition of an `inline` function without the `inline` symbol?"
+        back: "Forces compiler to emit the function symbol in the current translation unit (e.g.: do this EXACTLY ONCE - in *implementation* .c TU)"
+-       guid: FZ}C<gTbVG
+        front: "Keyword to tell compiler only this pointer will be used to access the data it points to"
+        back: "`restrict`"
+        include_reverse: true
+-       guid: 'p}t:a.p&s:'
+        front: "Pointers of different types are not assumed to alias, unless..."
+        back: "...one of them is a `char*`"
+-       guid: ABK-k57u!N
+        front: "Recursion for macro expansion..."
+        back: "...is explicitly disabled. You can define a macro named the same as a function."
+-       guid: E~EKZXK-=p
+        front: "Emit compile-time error if `X` is not assignable to `T`, else evaluate to `X`"
+        back: "`((T){ 0 } = (X))`"
+        include_reverse: true
+-       guid: bxnyrYk&9+
+        front: "Macro: Current line in source code"
+        back: "`__LINE__`"
+        include_reverse: true
+-       guid: PWe|csRj]I
+        front: "Macro: Compilation date"
+        back: "`__DATE__`"
+        include_reverse: true
+-       guid: P^+#&UxuEf
+        front: "Macro: Compilation time"
+        back: "`__TIME__`"
+        include_reverse: true
+-       guid: F%f_HCt{>y
+        front: "Macro: Filename of current compilation unit"
+        back: "`__FILE__`"
+        include_reverse: true
+-       guid: ke7%l%}?wx
+        front: "Local `static` variable with name of current function"
+        back: "`__func__`"
+        include_reverse: true
+-       guid: fac-~VrU[U
+        front: "Preprocessor: stringified argument `XX`"
+        back: "`#XX`"
+        include_reverse: true
+-       guid: ef<%>t/u%_
+        front: "Conversion of types before passing into variadic function"
+        back: "Converted as for arithmetic operations - `char` et al. into `int`; plus `float` into `double`"
+-       guid: QiN#Utv_3V
+        front: Standard guarantees of `NULL`
+        back: |
+                Guaranteed to be a null pointer constant.
+                Type is unspecified - it can tootally be an `int`.
+-       guid: w-5{vciL2J
+        front: Vararg function to iterate over all passed `double`s
+        back: |
+                <code>
+                void mapSomething(size_t n, ...) {<br>
+                va_list va;<br>
+                va_start(va, n);<br>
+                for (size_t i = 0; i < n; ++i) doSomething(va_arg(va, double));<br>
+                va_end(va);<br>
+                }
+                </code>
+-       guid: r~K_,9[I1F
+        front: "Use of `_Generic`"
+        back: |
+                <code>
+                _Generic(*controlling_expr*, *type1*: *expr1*, ..., *typeN*: *exprN*)
+                </code>
+                <br>
+                Also: `default`
+                <br>
+                All the choices must be *valid*
+-       guid: 'wMZX=L55}:'
+        front: Sequence points (some)
+        back: |
+                <ul>
+                <li>
+                End of statement, by `;` or `}`
+                <li>
+                End of expression before the `,` operator
+                <li>
+                End of declaration, by `;` or `,`
+                <li>
+                End of controlling expression of `if`, `switch`, `for`,
+                `while`, `?:`, short-circuit (`||`, `&&`)
+                <li>
+                After evaluation of function designator (usually
+                function name) and function arguments of a function call,
+                but before the actual call
+                <li>
+                End of `return` statement
+                </ul>
+-       guid: d[-?jVcvGE
+        front: "Usage of `longjmp`, `setjmp`"
+        back: |
+                <code>
+                _Noreturn void longjmp(jmp_buf target, int condition);
+                <br>
+                int setjmp(jmp_buf target);
+                </code>
+                <br>
+                Reached through normal control flow, `setjmp` returns 0.
+                <br>
+                The variable `target` must be alive on `longjmp`.
+                <br>
+                A `0` as `condition` parameter to `longjmp` is replaced
+                by `1`.
+-       guid: pM/_:3];#O
+        front: "Objects that are modified across `longjmp` must be..."
+        back: "`volatile`"
+-       guid: G<<)3}4d-J
+        front: Two types of signals
+        back: |
+                Interrupts:
+                <ul>
+                <li>
+                Hardware (aka, traps, synchronous signals) -- *synchronous*
+                with program execution, caused by failing instruction
+                <li>
+                Software (aka, asynchronous signals) -- may fall in the middle
+                of multi-stage instruction
+                </ul>
+-       guid: k8eQ8ul23X
+        front: 'Header file: signals'
+        back: "`signal.h`"
+-       guid: E3xLaTzL6.
+        front: "`SIGFPE`"
+        back: "Signal: errorneous arithmetic (e.g. division by zero, overflow)"
+        include_reverse: true
+-       guid: LbB.Ex?I}(
+        front: "`SIGILL`"
+        back: "Signal: detection of invalid function image (e.g. invalid instruction)"
+        include_reverse: true
+-       guid: g)bM_,C7h0
+        front: "`SIGSEGV`"
+        back: "Signal: invalid access to storage"
+        include_reverse: true
+-       guid: HrDpa5!u0K
+        front: "`SIGABRT`"
+        back: "Signal: abnormal termination, such as initiated by `abort`"
+        include_reverse: true
+-       guid: l25J>M#_g8
+        front: "`SIGINT`"
+        back: "Signal: receipt of interactive attention signal"
+        include_reverse: true
+-       guid: j_AaMU=BpS
+        front: "`SIGTERM`"
+        back: "Signal: termination request sent to program"
+        include_reverse: true
+-       guid: i2%&TH/p)*
+        front: "Symbolic constant: default signal handler"
+        back: "`SIG_DFL`"
+        include_reverse: true
+-       guid: vy7+R:%gX9
+        front: "Symbolic constant: ignore signal"
+        back: "`SIG_IGN`"
+        include_reverse: true
+-       guid: D/&],(0PK]
+        front: "Prototype: signal handler"
+        back: "`void signal_handler(int sig);`"
+-       guid: "O#K&C/8:y("
+        front: "Set signal handler of `SIGTERM` to default"
+        back: "`signal(SIGTERM, SIG_DFL);`"
+        include_reverse: true
+-       guid: KwTJ>zD>x4
+        front: "Set signal handler of `SIGTERM` to `signal_handler`"
+        back: "`signal(SIGTERM, signal_handler);` /* returns previous */"
+        include_reverse: true
+-       guid: r_H;z+JnjP
+        front: "Throw a signal"
+        back: "`raise(SIGTERM);`"
+        include_reverse: true
+-       guid: xlNlcU:F@(
+        front: "Function equivalent to default `SIGABRT` handler"
+        back: "`_Exit`"
+-       guid: o4ly)o,tMS
+        front: "Function equivalent to default `SIGTERM` handler"
+        back: "`quick_exit`"
+-       guid: dt*=[qFH@z
+        front: "POSIX (non-standard) signal: continue execution after pause"
+        back: "`SIGCONT`"
+        include_reverse: true
+-       guid: w~F?5:koo$
+        front: 3 classes of types with uninterruptible operations
+        back: |
+                `sig_atomic_t`, `atomic_flag`, `_Atomic`-qualitied types
+                that have lock-free property
+-       guid: C34t+Kh)lj
+        front: "`sig_atomic_t`"
+        back: |
+                Integer type with minimal width of 8 bit.
+                Loads and stores are known to be uninterruptible;
+                should not be used as counters (e.g., increment might
+                not be atomic, increment may trigger second hardware signal).
+-       guid: o[As^k%mw
+        front: Header file with atomics
+        back: "`stdatomic.h`"
+-       guid: c6cFU5~+{L
+        front: "Term for functions that can be called within asynchronous signals; those are just `exit`-class functions, `signal` for the same signal number and a few operations on atomics"
+        back: "Asynchronous signal safe"
+        include_reverse: true
+-       guid: cXjUq&hYWT
+        front: "Signal: bad address"
+        back: "`SIGBUS`"
+        include_reverse: true
+-       guid: nDK/i29`hv
+        front: "Signal: kill signal"
+        back: "`SIGKILL`"
+        include_reverse: true
+-       guid: jJqQeziq_-
+        front: "Signal: keyboard quit signal"
+        back: "`SIGQUIT`"
+        include_reverse: true
+-       guid: y],V@(}%QI
+        front: "Signal: stop process"
+        back: "`SIGSTOP`"
+        include_reverse: true
+-       guid: oAn)zM=DOd
+        front: "Macro: defined if `_Atomic`-declared `long` is lock-free"
+        back: "`ATOMIC_LONG_LOCK_FREE`"
+        include_reverse: true
+-       guid: vJFs7X=SQq
+        front: "`_Thread_local`"
+        back: |
+                Storage class that forces a thread-specific copy of the
+                variable; `thread_local` in `threads.h` expands to it
+-       guid: y$.yRTBZkv
+        front: Using thread-specific storage
+        back: |
+                In `threads.h`:<br>
+                `void* tss_get(tss_t key);`<br>
+                `int tss_set(tss_t key, void *val); // returns error condition`<br>
+                `typedef void (*tss_dtor_t)(void*);`<br>
+                `int tss_create(tss_t* key, tss_dtor_t dtor);`<br>
+                `void tss_delete(tss_t key);`
+-       guid: Bb=P=R[H`}
+        front: Using mutexes
+        back: |
+                In `threads.h`:<br>
+                `mtx_t m;`<br>
+                `int mtx_init(&m, int);`, where `int` is one of `mtx_plain`,
+                `mtx_timed`, `mtx_plain|mtx_recursive`, `mtx_timed|mtx_recursive`.
+                <br>
+                `void mtx_destroy(&m);`<br>
+                `int mutex_lock(&m);`<br>
+                `int mutex_unlock(&m);`<br>
+                `int mtx_trylock(&m);`<br>
+                `int mtx_timedlock(&m, const struct timespec*);`
+-       guid: zSFNsPp8zZ
+        front: Using condition variables
+        back: |
+                In `threads.h`:<br>
+                `cnd_t cv;`<br>
+                `int cnd_init(&cv);`<br>
+                `void cnd_destroy(&cv);`<br>
+                `int cnd_signal(&cv);`<br>
+                `int cnd_timedwait(&cv, &mutex, struct timespec*);`: takes condition variable,
+                mutex,time bound<br>
+                `int cnd_wait(cnd_t*, mtx_t*);`<br>
+                `int cnd_broadcast(cnd_t*);`<br><br>
+
+                Mutex is temporarily released during the wait.
+-       guid: yHIqw*zuva
+        front: 'Purpose: `thrd_exit(0)` from `main`'
+        back: |
+                Terminate main thread, without impacting other running
+                threads
+        include_reverse: true
+-       guid: c?)`7>(>6l
+        front: "How to tell system current thread will never be joined?"
+        back: "`thrd_detach(thrd_current());`"

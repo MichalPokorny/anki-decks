@@ -226,3 +226,7 @@ notes:
                 survive today and are highly venerated.
                 <br>
                 (Da Hong Pao can sell for up to US$1,025,000 per kg.)
+-       guid: h95Ptluf%
+        front: ISO 10646
+        back: Unicode ISO number
+        include_reverse: true

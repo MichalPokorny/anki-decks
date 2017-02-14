@@ -1,0 +1,155 @@
+deck: All::CS::Tools::Google Docs
+topic: Google Docs
+notes:
+-       guid: pSrlWkjls_
+        front: Shortcut - toggle bold
+        back: Ctrl-b
+        include_reverse: true
+-       guid: jE*t=0uYd{
+        front: Shortcut - toggle italic
+        back: Ctrl-i
+        include_reverse: true
+-       guid: ud23/J>gzM
+        front: Shortcut - toggle underline
+        back: Ctrl-u
+        include_reverse: true
+-       guid: Gtb_L[4P]2
+        front: Shortcut - add comment
+        back: Ctrl-Alt-m
+        include_reverse: true
+-       guid: qD{=~/=zN>
+        front: Shortcut - open list of shortcuts
+        back: Ctrl-/
+        include_reverse: true
+-       guid: lpM55#$`V;
+        front: Shortcut - paste without formatting
+        back: Ctrl-Shift-V
+        include_reverse: true
+-       guid: C|;<[5M]o)
+        front: Shortcut - redo
+        back: Ctrl-Shift-Z
+        include_reverse: true
+-       guid: ezo(9wt=||
+        front: Shortcut - insert/edit link
+        back: Ctrl-K
+        include_reverse: true
+-       guid: r4dS;d>@e@
+        front: Shortcut - open link
+        back: Alt-Enter
+        include_reverse: true
+-       guid: sbOg6T0-d9
+        front: Shortcut - print
+        back: Ctrl-p
+        include_reverse: true
+-       guid: hQ&~Qjv>?X
+        front: Shortcut - open
+        back: Ctrl-o
+        include_reverse: true
+-       guid: hm{@q[<q<u
+        front: Shortcut - find
+        back: Ctrl-f
+        include_reverse: true
+-       guid: HbeO)[J3mM
+        front: Shortcut - find again
+        back: Ctrl-g
+        include_reverse: true
+-       guid: Q1fM<Wc@f{
+        front: Shortcut - find and replace
+        back: Ctrl-h
+        include_reverse: true
+-       guid: HZkud}M4[X
+        front: Shortcut - find previous
+        back: Ctrl-Shift-g
+        include_reverse: true
+-       guid: IIbOq<%~o]
+        front: Shortcut - search menus
+        back: Alt-/
+        include_reverse: true
+-       guid: CCuc[n<k5*
+        front: Shortcut - toggle strikethrough
+        back: Alt-Shift-5
+        include_reverse: true
+-       guid: fGYG09km^l
+        front: Shortcut - toggle superscript
+        back: Ctrl-.
+        include_reverse: true
+-       guid: JBd<M9>#Mh
+        front: Shortcut - toggle subscript
+        back: Ctrl-,
+        include_reverse: true
+-       guid: IN9px@R|Zs
+        front: Shortcut - copy text formatting
+        back: Ctrl-Alt-c
+        include_reverse: true
+-       guid: y^[$C/5q%Y
+        front: Shortcut - paste text formatting
+        back: Ctrl-Alt-v
+        include_reverse: true
+-       guid: A)=1;0YB4S
+        front: Shortcut - clear text formatting
+        back: Ctrl-\ / Ctrl-space
+        include_reverse: true
+-       guid: l+ruqnDOZ4
+        front: Shortcut - increase font size
+        back: Ctrl+Shift+>
+        include_reverse: true
+-       guid: d{F<RG~mwk
+        front: Shortcut - decrease font size
+        back: Ctrl+Shift+<
+        include_reverse: true
+-       guid: F;U=;E>k7Z
+        front: Shortcut - increase paragraph indentation
+        back: Ctrl+]
+        include_reverse: true
+-       guid: t.`2%wHO[W
+        front: Shortcut - decrease paragraph indentation
+        back: Ctrl+[
+        include_reverse: true
+-       guid: n;cId=jCCt
+        front: Shortcut - apply normal text style
+        back: Ctrl+Alt+0
+        include_reverse: true
+-       guid: J>]=6qqc?E
+        front: Shortcut - apply heading style [1-6]
+        back: Ctrl+Alt+[1-6]
+        include_reverse: true
+-       guid: Q[b7~}sh.>
+        front: Shortcut - left align
+        back: Ctrl+Shift+L
+        include_reverse: true
+-       guid: DD*g.@&0XS
+        front: Shortcut - center align
+        back: Ctrl+Shift+E
+        include_reverse: true
+-       guid: hxdvLyi9FK
+        front: Shortcut - right align
+        back: Ctrl+Shift+R
+        include_reverse: true
+-       guid: Inwwj*eGEl
+        front: Shortcut - justify
+        back: Ctrl+Shift+J
+        include_reverse: true
+-       guid: o|*&uu>TW.
+        front: Shortcut - make numbered list
+        back: Ctrl+Shift+7
+        include_reverse: true
+-       guid: x`d3s+%,SI
+        front: Shortcut - make bulleted list
+        back: Ctrl+Shift+8
+        include_reverse: true
+-       guid: zV=Mh;%87{
+        front: Shortcut - move paragraph up/down
+        back: Alt+Shift+↑/↓
+        include_reverse: true
+-       guid: P4zf,|pM~L
+        front: Shortcut - open discussion thread
+        back: Ctrl+Alt+Shift+A
+        include_reverse: true
+-       guid: QJnxZ}sn}S
+        front: Shortcut - insert footnote
+        back: Ctrl+Alt+F
+        include_reverse: true
+-       guid: y(MdNYu1j{
+        front: Shortcut - open context menu
+        back: Ctrl+Shift+X / Ctrl+Shift+\
+        include_reverse: true

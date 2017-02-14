@@ -62,18 +62,22 @@ notes:
 -       guid: p;Bg}GCm7D
         front: Population of Europe
         back: 743 million
+        include_reverse: true
 -       guid: Dt]houyTAe
         front: Population of Asia
         back: 4.4 billion
 -       guid: MF=IcA]#dV
         front: Population of Oceania, including Australia
         back: 38 million
+        include_reverse: true
 -       guid: CfvSnP2O%d
         front: Population of North America
         back: 579 million
+        include_reverse: true
 -       guid: N5Z{Asnd=Y
         front: Population of South America
         back: 423 million
+        include_reverse: true
 -       guid: kZK{0H$Sqp
         topic: Latency Numbers Every Programmer Should Know
         front: L1 cache reference
@@ -97,10 +101,12 @@ notes:
         topic: Latency Numbers Every Programmer Should Know
         front: Main memory reference
         back: 100 ns
+        include_reverse: true
 -       guid: fo-Ns*,+ct
         topic: Latency Numbers Every Programmer Should Know
         front: Compress 1K bytes with Zippy
-        back: 2 [$]\\mu s[/$]
+        back: |
+                [$]2\\ \\mu s[/$]
 -       guid: eXSKu!,:^M
         topic: Latency Numbers Every Programmer Should Know
         front: Send 2K bytes over commodity network
@@ -108,15 +114,19 @@ notes:
 -       guid: rtT92i[S^l
         topic: Latency Numbers Every Programmer Should Know
         front: Read 1 MB sequentially from memory
-        back: 7 [$]\\mu s[/$]
+        back: |
+                [$]7\\ \\mu s[/$]
 -       guid: M>hBZvO&X9
         topic: Latency Numbers Every Programmer Should Know
         front: SSD random read
-        back: 16 [$]\\mu s[/$]
+        back: |
+                [$]16\\ \\mu s[/$]
 -       guid: crM49T!eJT
         topic: Latency Numbers Every Programmer Should Know
         front: Round trip within same datacenter
-        back: 500 [$]\\mu s[/$]
+        back: |
+                [$]500\\ \\mu s[/$]
+        include_reverse: true
 -       guid: yO%Bu{]ya~
         topic: Latency Numbers Every Programmer Should Know
         front: Read 1 MB sequentially from disk
@@ -128,18 +138,20 @@ notes:
 -       guid: O&=/[/}/a>
         topic: Latency Numbers Every Programmer Should Know
         front: Read 1 MB sequentially from SSD
-        back: 123 [$]\\mu s[/$]
+        back: |
+                [$]123\\ \\mu s[/$]
 -       guid: KjwXNrOrC*
         topic: Latency Numbers Every Programmer Should Know
         front: Send packet CA &rarr; Netherlands &rarr; CA
         back: 150 ms
+        include_reverse: true
 -       guid: zHT*^@_tZI
         front: 1 AU in km
         back: |
-                [$]1\\ \\mathrm{AU} = 149.6 \\cdot 10^6\\ \\mathrm{km}[/$]
+                [$]1\\ \\mathrm{AU} = 149.6\\ \\cdot 10^6\\ \\mathrm{km}[/$]
 
                 Průměrná vzdálenost ze středu Země do středu Slunce.
 -       guid: l5/D31S}=-
         front: Speed of light
         back: |
-                [$]\\approx 300 000 km/s[/$]
+                [$]\\approx 300\\ 000\\ \\mathrm{km}/\\mathrm{s}[/$]

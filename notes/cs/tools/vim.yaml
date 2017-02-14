@@ -363,7 +363,7 @@ notes:
         back: "`C-f`"
         include_reverse: true
 -       guid: k+bTVs[|+
-        front: Move 1 screen down
+        front: Move 1 screen up
         back: "`C-b`"
         include_reverse: true
 -       guid: u$eT$Zk!Z)
@@ -657,4 +657,19 @@ notes:
                 Find the <b>word</b> red, green, or blue
         back: |
                 <code>\<\(red\|green\|blue\)\></code>
-
+-       guid: lqb,8UAE?!
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Literal <code>*</code>
+        back: |
+                <code>\*</code>
+-       guid: xQ^Dk0m@Lu
+        topic: Vim search
+        markdown: false
+        include_reverse: true
+        front: |
+                Literal <code>+</code>
+        back: |
+                <code>+</code>
