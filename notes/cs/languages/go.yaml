@@ -299,8 +299,9 @@ notes:
                 <br>
                 <pre>
                 defer func() {
-                    str := recover()
-                    fmt.Println(str)
+                    if r := recover(); r != nil {
+                        fmt.Println("Recovered:", r)
+                    }
                 }()
                 panic("FIRE")
                 </pre>
