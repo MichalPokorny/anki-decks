@@ -1,0 +1,559 @@
+# chapter 15 - david hume - unmasking the pretensions of reason
+deck: All::Notes::The Great Conversation - A Historical Introduction to Philosophy
+topic: The Great Conversation - A Historical Introduction to Philosophy
+notes:
+-       guid: m]Fw]x}s#0
+        front: Usual name for 18th century
+        back: Age of Enlightenment
+-       guid: BU[u^t*n_*
+        front: |
+                Author: "Enlightenment is man's emergence from his
+                self-imposed immaturity. Immaturity is the inability
+                to use one's understanding without guidance from
+                another. This immaturity is self-imposed when its
+                cause lies not in lack of understanding, but in lack
+                of resolve and courage to use it without guidance
+                from another. Sapere Aude! &laquo;Have courage
+                to use your own understanding!&raquo; &mdash;
+                that is the motto of enlightenment."
+        back: Immanuel Kant
+-       guid: d:>60+P^N$
+        front: |
+                Year: Birth of Isaac Newton
+        back: 1642
+        include_reverse: false
+-       guid: i$#t@$^i.$
+        front: 1642
+        back: |
+                <ul>
+                <li> Birth of Isaac Newton
+                <li> Death of Galileo Galilei
+                </ul>
+-       guid: e?HW/t!xS4
+        front: |
+                Year: Death of Isaac Newton
+        back: 1727
+        include_reverse: true
+-       guid: BK>ct~({K{
+        front: |
+                Year of birth and death: Isaac Newton
+        back: |
+                1642 - 1727
+        include_reverse: true
+-       guid: MCuQhXat!,
+        front: |
+                Newton's method
+        back: |
+                Analysis and synthesis.
+
+                Do not *frame hypotheses* &mdash; stay close to original
+                phenomena, don't jump to conclusions prematurely.
+                What is deduced from phenomena he calls *hypothesis*.
+                Hypotheses, occult or mechanical, metaphysical or physical,
+                have no place in experimental philosophy.
+-       guid: n+:FkK{fU!
+        front: |
+                Rationalism vs. empiricism and Newton vs. Descartes
+        back: |
+                <ul>
+                <li> <i>Descartes</i>: rationalist, proceeds from
+                "intuitively obvious" observations.
+                <li> <i>Newton</i>, Locke, Berkeley, Hume: empiricist,
+                wants <i>evidence</i>, sticks closely to facts
+                </ol>
+-       guid: z~!)ie#%l5
+        front: |
+                Year: Birth of David Hume
+        back: 1711
+        include_reverse: true
+-       guid: G,RbJyyb<8
+        front: |
+                Year: Death of David Hume
+        back: 1776
+        include_reverse: true
+-       guid: OB!:8:0Gh3
+        front: |
+                Year of birth and death: David Hume
+        back: |
+                1711 - 1776
+        include_reverse: true
+-       guid: gY0#$)uL6`
+        topic: David Hume
+        front: |
+                His project
+        back: |
+                Explain human nature as Newton did for nonhumans: simply and
+                comprehensively. Shares Enlightenment project of *debunking
+                superstition* (including "enthusiasm" of religion, which is far
+                from dead), unscientific philosophy. Convinced human nature is
+                fundamental, other sciences have some relation to it.
+-       guid: l19%bK^TM~
+        front: |
+                Author: "They are not properly a science; but arise
+                rather from the fruitless efforts of human vanity,
+                which would penetrate into subjects utterly inaccessible
+                to understanding, or from the craft of popular
+                superstitions, which, being unable to defend themselves
+                on fair ground, raise these entangling brambles to cover
+                and protect their weakness. Chased from the open
+                country, these robbers fly into the forest, and lie
+                in wait to break in upon every unguarded avenue of the
+                mind, and overwhelm it with religious fears and
+                prejudices.The stoutest antagonist, if he remit his watch
+                a moment, is oppressed. And many, through cowardice
+                and folly, open the gates to the enemies, and willingly
+                receive them with reverence and submission, as their
+                legal sovereigns.
+
+                But is this sufficient reason, why philosophers should
+                desist from such researches, and leave superstition
+                still in possession of her retreat? Is it not proper
+                to draw an opposite conclusion, and perceive the
+                necessity of carrying the war into the most secret
+                recesses of the enemy?"
+        back: David Hume
+-       guid: N&=##>~mJ>
+        front: |
+                Author: "As the science of man is the only solid
+                foundation for the other sciences, so the only solid
+                foundation we can give to this science itself must
+                be laid on experience and observation."
+        back: David Hume
+-       guid: fDm2e@,Mbb
+        topic: David Hume
+        front: On Descartes vs Hobbes
+        back: |
+                Descartes: rightly skeptical, but spiritual substance was just
+                a hypothesis.
+
+                Hobbes's idea of mechanical mind was also a hypothesis.
+
+                We don't have insight into actual "essence" of human bodies
+                or minds and can only proceed by experiment.
+-       guid: A4/h+;o4B=
+        topic: David Hume
+        front: What kind of data do we have on human essence?
+        back: |
+                Our *perceptions*, including our ideas, sciences,
+                as well as arbitrary and superstitious ideas
+-       guid: x@8?n3RAER
+        topic: David Hume
+        front: What does his study of human nature focus on?
+        back: |
+                What is exclusively human: ideas, feelings,
+                actions that are distinctive to us
+-       guid: o4V^3b=^V#
+        topic: David Hume
+        front: |
+                Term for content of mind; two 2-fold separations
+        back: |
+                "Perception" divided into:
+                <ul>
+                <li>
+                <i>Impressions</i>: enter the mind with force and violence
+                (sensations, passions, emotions)
+                <li>
+                <i>Ideas</i>: faint images - thinking and reasoning
+                </ul>
+
+                Perceptions:
+                <ul>
+                <li><i>Simple</i>: slap of hand on table
+                <li><i>Complex</i>: a melody
+                </ul>
+-       guid: l]xl4>Kzic
+        topic: David Hume
+        front: Relation between impressions and ideas, when does it hold
+        back: |
+                All impressions correspond to ideas. Not all ideas correspond
+                to impressions (unicorns).
+
+                This *duplicity* holds for all *simple* ideas, but not all
+                complex ideas (e.g., unicorns).
+
+                Every *simple* idea corresponds to a *simple impression* that
+                resembles it.
+-       guid: rG3%k}OvXl
+        topic: David Hume
+        front: What comes first - impressions or ideas?
+        back: |
+                Impressions. Simple ideas *depend causally* on simple
+                impressions -- they are in fact *copies*.
+-       guid: dZCT!C%yqN
+        topic: David Hume
+        front: Origin of all ideas
+        back: Impressions of experience
+-       guid: uU{lO$X*Pl
+        topic: David Hume
+        front: Terms and ideas
+        back: |
+                Every meaningful term is associated with an idea.
+                However, some terms have no clear ideas behind them!
+                We think they mean something, but they actually don't!
+                This happens frequently - try to trace any term
+                to an impression. If we can, it's a meaningful word
+                expressing an idea. If we can't, it's nonsense.
+-       guid: pm;f+TH>%#
+        topic: David Hume
+        front: |
+                Principles that explains the variety of mental
+                phenomena
+        back: |
+                Principles of association
+-       guid: sMJ>=#_p{K
+        topic: David Hume
+        front: 3 principles of association
+        back: |
+                Resemblance, Contiguity (in place or place),
+                Cause or Effect
+-       guid: MgJAP#BwH=
+        topic: David Hume
+        front: Do we control our minds?
+        back: |
+                No. Association is just how our thoughts arise.
+-       guid: u_YPbGB=Aj
+        topic: David Hume
+        front: 2 reasons for human inquiry
+        back: |
+                Relations of Ideas, Matters of Fact
+-       guid: QS$0?oyQ$7
+        topic: David Hume
+        front: 2 ways a statement can be false
+        back: |
+                2 + 3 &ne; 5: it's a *contradiction*.
+                We don't have to make any experiments or observations,
+                we can see it to be false by thinking alone.
+
+                "Sun won't rise tomorrow": depends on *facts*.
+                Falsity cannot be *demonstrated*, we have to use
+                experience.
+
+                About A: we can be *certain*, about B: no amount
+                of evidence makes it entirely certain.
+-       guid: P$5ERLb<,Q
+        topic: David Hume
+        front: What association grounds reasoning concerning matters of fact?
+        back: |
+                Cause and Effect. Only this relation lets us go
+                beyond our senses and memory.
+-       guid: MscuWyk4f4
+        topic: David Hume
+        front: How *don't* we arrive at the principle of Cause and Effect?
+        back: |
+                Not *a priori*. We can't know it independently
+                of experience.
+-       guid: L7>K{m`5E@
+        topic: David Hume
+        front: |
+                What belief could justify the belief in causality?
+        back: |
+                Believing that the future will (in relevant respects)
+                be similar to the past. (*principle of uniformity
+                of nature*)
+-       guid: AF/+n&N-~y
+        topic: David Hume
+        front: |
+                Where does asking for the source of the *principle of
+                uniformity of nature* lead?
+        back: |
+                Infinite regress. How do we know it holds? From experience.
+                How do we know experience is a predictor of the future? Repeat
+                ad infinitum.
+-       guid: jrN@%=ZDX;
+        topic: David Hume
+        front: What justifies our belief in causality?
+        back: |
+                Not reason! **CUSTOM** or **HABIT**.
+-       guid: xRPbUeZx//
+        front: |
+                Author: "Custom, then, is the great guide of human life.
+                It is that principle alone, which renders our experience
+                useful to us, and makes us expect, for the future,
+                a similar train of events with those which have
+                appeared in the past. Without the influence of custom,
+                we should be entirely ignorant of every matter of fact,
+                beyond what is immediately present to the memory
+                or senses."
+        back: David Hume
+-       guid: k#[%{I`^t@
+        topic: David Hume
+        front: |
+                What is the foundation of probabilistic expectations?
+        back: |
+                More loosely conjoined events
+-       guid: o&8#+I(n}1
+        topic: David Hume
+        front: |
+                What can experience show us, if not the *connections*
+                between objects?
+        back: |
+                Only *frequent conjunctions*.
+-       guid: ekiIEl/$M&
+        topic: David Hume
+        front: On *causes*
+        back: |
+                We should try to remove the term from our reasoning. We never
+                actually saw any connexions between objects! All events are
+                loose and separate! We don't really have an *idea* of a cause.
+-       guid: C8uWR`}%9P
+        topic: David Hume
+        front: What do we really mean when we say something causes something else?
+        back: |
+                That we have a connection in our mind, an association
+-       guid: mk^,6y~,g`
+        topic: David Hume
+        front: Definition of a *cause*
+        back: |
+                An object followed by another, and whose appearance
+                always conveys the thought to that other.
+-       guid: A_*:mXLM^H
+        topic: David Hume
+        front: His term for *spirit* / *soul*
+        back: |
+                *Self*
+-       guid: OzT-TX7Jx)
+        topic: David Hume
+        front: On the *self*
+        back: |
+                The *self* should be a *simple idea*, so it must come from
+                an impression.
+
+                There's no one impression that makes the *self* - such
+                impression would continue through all our life, like the self
+                does, but no impression is that constant and invariable.
+
+                We have *no such idea as the self*!
+                It makes no sense to affirm or deny the idea.
+-       guid: z]z$:OF1SD
+        topic: David Hume
+        front: |
+                Kant's counterargument against Hume's theory of ideas
+        back: |
+                We have some ideas which don't come from impressions
+-       guid: y+N:6,APm#
+        front: |
+                Author: "For my part, when I enter most intimately into
+                what I call *myself*, I always stumble on some
+                particular perception or other, of heat or cold, light
+                or shade, love or hatred, pain or pleasure. I never
+                can catch *myself* at any time without a perception,
+                and never can observe any thing without a perception.
+                When my perceptions are remov'd for any time, as by
+                a sound sleep; so long am I insensible of *myself*,
+                and may truly be said not to exist. And were all my
+                poerceptions remov'd by death and cou'd I neither
+                think, nor feel, nor see, nor love, nor hate after
+                the dissolution of my body, I shou'd be entirely
+                annihilated, nor do I conceive what is farther
+                requisite to make me a perfect non-entity.
+                If any one upon serious and unprejudic'd reflexion,
+                thinks he has a different notion of *himself*, I must
+                confess I can reason no longer with him. All I can
+                allow him is, that he may be in the right as well
+                as I, and that we are essentially different in this
+                particular. He may, perhaps, perceive something simple
+                and continu'd, which he calls *himself*; tho' I am
+                certain there is no such principle in me."
+        back: David Hume
+-       guid: DR!Ke0-:5S
+        front: |
+                Bundle theory
+        back: |
+                We are just a collection of experiences, and the
+                *mind* is not a thing. It's like a theater.
+-       guid: M$2pQ$ht_7
+        topic: David Hume
+        front: |
+                Word: Analogy of the mind
+        back: Theatre
+-       guid: zH;{5Q@h]]
+        topic: David Hume
+        front: Modification of the *cogito*
+        back: |
+                *I think therefore I am* &rarr; "There is thinking
+                going on."
+-       guid: B>-IdRxnHl
+        topic: David Hume
+        front: |
+                Solution to the problem of free will
+        back: |
+                Everyone always had the same opinion: if we get
+                our terms straight, we can settle it.
+                We need definition of *necessity* and *liberty*.
+-       guid: r&TQ_M61G`
+        topic: David Hume
+        front: |
+                Why do people resist conclusion that human actions are caused?
+        back: |
+                We feel no connexion of motive and action inside our minds.
+                From that, we suppose there is difference between effects from
+                natural causes and effects from intelligence, which is just a
+                confusion.
+-       guid: 'v+(Q4_<pw:'
+        topic: David Hume
+        front: |
+                What is *liberty*?
+        back: |
+                Surely not that actions have no connexion with motives,
+                inclinations, etc. -- liberty is a *power of acting or not
+                acting, according to the determinations of the will*.
+-       guid: Dg%o4lpv9
+        topic: David Hume
+        front: |
+                Name: His view of free will
+        back: Compatibilism
+-       guid: yw(jJj9zQi
+        front: |
+                Name: View that humans beings are natural facts,
+                nothing more
+        back: Naturalism
+-       guid: H$TwNq-.MX
+        topic: David Hume
+        front: Attack on Descartes's proof of God from idea
+        back: |
+                <ol>
+                <li> Such an idea requires a cause.
+                <li> Cause must be equal in "formal" reality to "subjective"
+                reality of the idea.
+                <li> I myself can't possibly be the cause.
+                <li> So, God exists.
+                </ol>
+
+                Attacks (3): Idea of God is from impressions - reflections on
+                our mind's operation (intelligence, wisdom, goodness).
+-       guid: JG+B}}sCa>
+        topic: David Hume
+        front: Attack on Descartes's ontological proof of God
+        back: |
+                <ol>
+                <li> You can't think of God without thinking he exists.
+                <li> You think of God.
+                <li> So you think God exists.
+                <li> So God exists.
+                </ol>
+
+                Attack: (1) is about *relation of ideas*, not about *facts*.
+                Maybe I can't think about God without thinking he exists, but
+                that doesn't say anything about whether he *really does*.
+                (3 &rarr; 4) is illegitimate.
+
+                *Relations of ideas can't prove matters of fact.*
+-       guid: IKk^m4Y|/l
+        topic: David Hume
+        front: His argument for God
+        back: |
+                Argument from design (universe is a complex machine).
+
+                It's *a posteriori* &mdash; needs knowledge of world being
+                orderly.
+
+                It's just *probabilistic* &mdash; as any argument from
+                experience.
+
+                *Doesn't show a perfectly good God* &mdash; world isn't
+                perfect. (Principle of proportionality -- we'd be deriving more
+                than argument gives us)
+                Other options: many gods (makers); mortal Gods; evil makers;
+                many previous failed worlds; etc.
+-       guid: i^9auL7ctQ
+        topic: David Hume
+        front: |
+                How can we apply the principle of causality to the world,
+                concerning its creator etc.?
+        back: |
+                Not really. We only have *one example*, so we can't reliably
+                look for causes. We'd need [$]N>1[/$].
+-       guid: eozg9vbgra
+        topic: David Hume
+        front: Solipsism
+        back: |
+                No real rational reason to suppose an outside world at all,
+                since we can't apply induction on our own singular case.
+                We'd need to "step outside our skins".
+-       guid: Kj8OzD@R?K
+        topic: David Hume
+        front: Claim about reason and motivation
+        back: |
+                Reason alone can never motivate any action,
+                including moral motivation
+
+                Our ultimate ends (happiness, pain) will not be
+                accounted for by reason.
+-       guid: t^,a?O[<C(
+        front: |
+                Author: "Where a passion is neither founded on false
+                suppositions, nor chuses means insufficient for the
+                end, the understanding can neither justify nor
+                condemn it. 'Tis not contrary to reason to prefer
+                the destruction of the whole world to the scratching
+                of my finger."
+        back: David Hume
+-       guid: q*Tkh?.oF(
+        topic: David Hume
+        front: How are moral judgements parallel to causality?
+        back: |
+                "Wrongness" founded in our minds as approval or disapproval.
+                Goodness or badness is not a question of fact or relations
+                between ideas.
+-       guid: e,D-FY-[,(
+        front: |
+                Author: "In every system of morality, which I have
+                hitherto met with, I have always remark'd, that the
+                author proceeds for some time in the ordinary way of
+                reasoning, and establishes the being of a God, or
+                makes observations about human affairs; when of
+                a sudden I am surpriz'd to find, that instead of
+                the usual copulations of propositions, *is*, and
+                *is not*, I meet with no proposition that is not
+                connected with an *ought*, or *ought not*. This change
+                is imperceptible; but is, however, of the last
+                consequence. For as this *ought* or *ought not*,
+                expresses some new relation or affirmation, 'tis
+                necessary that it shou'd be observ'd and explain'd;
+                and at the same time that a reason should be given,
+                for what seems altogether inconceivable, how this
+                new relation can be a deduction from others,
+                which are entirely different from it. But as authors
+                do not commonly use this precaution, I shall presume
+                to recommend it to the readers; and am persuaded, that
+                this small attention wou'd subvert all the vulgar
+                [i.e., common] systems of morality, and let us see,
+                that the distinction of vice and virtue is not
+                founded merely on the relations of objects,
+                nor is perceiv'd by reason."
+        back: David Hume
+-       guid: yiPhxkL/~v
+        front: |
+                Originator: Fact/value gap (or is/ought problem)
+        back: David Hume
+-       guid: k[)JB?AV^Y
+        topic: David Hume
+        front: |
+                Kinds of things we tend to value
+        back: |
+                Bringing immediate approval; agreable to others
+-       guid: Cd`g:|LAM~
+        topic: David Hume
+        front: |
+                Explanation of large agreement in moral judgement
+                across all humanity
+        back: |
+                Sympathy / humanity / fellow feeling
+-       guid: j{P!+qFLV{
+        topic: David Hume
+        front: Criticism of the Cartesian project
+        back: |
+                <ol>
+                <li> Can't <i>really</i> bring ourselves to doubt everything,
+                <li> and if we could, we could never return to rational belief
+                from Cartesian doubt - we would always doubt our faculties
+                </ol>
+-       guid: gAGvH<xdwF
+        topic: David Hume
+        front: 2 kinds of skepticism
+        back: |
+                <ol>
+                <li> "Antecedent" (Cartesian): unworkable, barren
+                <li> "Mitigated": keep in mind "strange infirmities of human
+                understanding", supports modesty, goes against dogmatism
+                </ol>

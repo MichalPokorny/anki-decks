@@ -1,0 +1,1078 @@
+# chapter 16 - immanuel kant - rehabilitating reason (within strict limits)
+deck: All::Notes::The Great Conversation - A Historical Introduction to Philosophy
+topic: The Great Conversation - A Historical Introduction to Philosophy
+notes:
+-       guid: fj_M|oK*SL
+        front: |
+                Age: David Hume when publishing A Treatise of Human Nature
+        back: 23
+-       guid: Er^ODbJ0?_
+        front: |
+                Year: Birth of Immanuel Kant
+        back: 1724
+        include_reverse: true
+-       guid: dP{5iigk9P
+        front: |
+                Year: Death of Immanuel Kant
+        back: 1781
+        include_reverse: true
+-       guid: QIMm{.~}]~
+        front: |
+                Year of birth and death: Immanuel Kant
+        back: |
+                1724 - 1781
+        include_reverse: true
+-       guid: eDO9K%V3+!
+        topic: Immanuel Kant
+        front: |
+                First major work
+        back: The Critique of Pure Reason
+-       guid: sawL9m|R5p
+        topic: Immanuel Kant
+        front: |
+                Age: Publishes The Critique of Pure Reason
+        back: 57
+-       guid: nd:IWM1Ap~
+        topic: Immanuel Kant
+        front: Problem he tries to solve
+        back: |
+                Is the "cause" concept as vacuous as Hume says?
+-       guid: GNe_TaZ_BP
+        front: |
+                Author: "The light dove, cleaving the air in her
+                free flight and feeling its resistance, might imagine
+                that its flight would be still easier in empty space.
+                It was thus that Plato left the world of the senses,
+                as setting too narrow limits to the understanding,
+                and ventured out beyond it on the wings of ideas,
+                in the empty space of the pure understanding.
+                He did not observe that with all his efforts he made
+                no advance &mdash; meeting no resistance that might,
+                as it were, serve as a support upon which he could
+                take a stand, to which he could apply his powers,
+                and se set his understanding in motion."
+        back: Immanuel Kant
+-       guid: C}l;R(ejdd
+        topic: Immanuel Kant
+        front: Why does he try to go against Hume, and how?
+        back: |
+                Hume's analysis would lead to Newtonian science being just
+                fiction.
+
+                Tries to give a *critique of reason* that lays out its
+                structure, relationship to its objects, and find limits where
+                it works.
+-       guid: uI<6nYXYjn
+        front: |
+                Author: "Hitherto it has been assumed that all our
+                knowledge must conform to objects. But all attempts
+                to extend our knowledge of objects by establishing
+                something in regard to them *a priori*, by means
+                of concepts, have, on this assumption, ended in failure.
+                We must therefore make trial whether we many not have
+                more success in the tasks of metaphysics, if we suppose
+                that objects must conform to our knowledge... We should
+                then be proceeding precisely on the lines of Copernicus'
+                primary hypothesis. Failing of satisfactory progress
+                in explaining the movements of the heavenly bodies
+                on the supposition that they all revolved round
+                the spectator, he tried whether he might not have
+                better success if he made the spectator
+                to revolve and the stars remain at rest. A similar
+                experiment can be tried in metaphysics, as regards
+                the *intuition* of objects."
+        back: Immanuel Kant
+-       guid: g:Ehp`&@o2
+        topic: Immanuel Kant
+        front: His revolutionary suggestion
+        back: |
+                Drop the assumption that our thoughts *conform to objects*.
+                Drop representational theory of truth.
+
+                We can't know whether our ideas correspond to an idea-less
+                object. On the basis of concepts, we can know nothing outside
+                our minds. All of this follows from:
+                <ol type="1">
+                <li> we are acquainted only with experienced ideas
+                <li> objects exist independently of our experience
+                <li> knowledge requires that we ascertain correspondence
+                between ideas and objects
+                </ol>
+
+                What if objects only exist if related to a rational mind?
+
+                Maybe objects of experience are constructions of rational mind,
+                with no reality independent of construction. Rational minds
+                have structure (e.g. causality), which they **imposed** on
+                objects known by them.
+-       guid: NFNX2eczOW
+        front: What is *critical philosophy*?
+        back: |
+                Not criticising that we might not know at all. Critique: an
+                attempt to get behind knowledge claims and ask what makes them
+                possible.
+-       guid: le}7*#Rtf2
+        topic: Immanuel Kant
+        front: |
+                4 main objects of knowledge, about which to ask how are they
+                possible
+        back: |
+                <ul>
+                <li> Mathematics
+                <li> Natural science
+                <li> Metaphysics
+                <li> Morality
+                </ul>
+-       guid: lD`4i[VnyP
+        front: What is *transcendental investigation*?
+        back: |
+                Critically examining how a rational mind works. Reaches back
+                into mind, asks how it produces results.
+-       guid: B?L_xsills
+        topic: Immanuel Kant
+        front: |
+                Which 2 extremes can we avoid by knowing boundaries of reason?
+        back: Dogmatism and skepticism
+-       guid: qS</y+8i%t
+        topic: Immanuel Kant
+        front: |
+                More precise division of knowledge than "matters of fact"
+                and "relations of ideas"
+        back: |
+                <ol type="1">
+                <li> <i>Epistemological</i> question (rests on experience?):
+                <ul>
+                <li> A priori: known to be true without reference to experience
+                (7+5=12)
+                <li> A posteriori: appeal to experience needed to determine
+                truth or falsity.
+                </ul>
+                <li> <i>Semantic</i> question (how do meanings of the words
+                used to express the knowledge relate to each other?):
+                <ul>
+                <li> Analytic: denial yields contradiction. For example: "All
+                bodies are extended." (The predicate "extended" is already
+                included in "body".)
+                If an analytical judgement is true, it is necessarily
+                true. (Every father has a child.)
+                <li> Synthetic: does more than explicate or analyze a concept.
+                "Every event has a cause.", "Air has weight." Opposite of
+                a synthetic judgement is always possible.
+                </ul>
+                </ol>
+-       guid: r{K_%y#Zn+
+        topic: Immanuel Kant
+        front: |
+                Examples: Analytic a priori knowledge
+        back: |
+                "All bodies are extended."
+-       guid: kqDHZcckCf
+        topic: Immanuel Kant
+        front: |
+                Examples: Analytic a posteriori knowledge
+        back: |
+                Empty class. Test for analycity: denial doesn't yield
+                contradiction, so we also don't need to examine experience.
+                Analytic judgements must be a priori.
+-       guid: o(pvl^Fi<i
+        topic: Immanuel Kant
+        front: |
+                Examples: Synthetic a posteriori knowledge
+        back: |
+                Most of our judgement: "Water always boils at 100 celsius
+                at sea level."
+-       guid: eFK|+]C_SY
+        topic: Immanuel Kant
+        front: |
+                Examples: Synthetic a priori knowledge
+        back: |
+                <ul>
+                <li> All judgements of math and geometry
+                <li> Causality
+                <li> "God exists"/"soul is distinct from the body"
+                <li> Categorical imperative
+                </ul>
+-       guid: N|UQ84*{aF
+        topic: Immanuel Kant
+        front: |
+                Description: Synthetic a priori knowledge
+        back: |
+                Puzzling and controversial class. True no matter what
+                experience shows us. *Not* true because it is analytic - denial
+                does not lead to contradiction.
+                <br><br>
+                These describe how objects ***must be***.
+-       guid: zeui,ylfqE
+        topic: Immanuel Kant
+        front: What will resolve dilemmas of past philosophy?
+        back: |
+                Our possession of *synthetic a priori knowledge*
+-       guid: gcKEwvCYwb
+        topic: Immanuel Kant
+        front: Where would *synthetic a priori knowledge* come from?
+        back: |
+                From structure of our rational mind
+-       guid: N}:oN/o:`_
+        topic: Immanuel Kant
+        front: What does he call *principles for the construction of objects*?
+        back: |
+                Synthetic a priori judgements
+-       guid: rN}hSuBpfG
+        topic: Immanuel Kant
+        front: |
+                Word: A priori judgements are ... judgements
+        back: |
+                Pure
+-       guid: zFSxy-v_`V
+        topic: Immanuel Kant
+        front: |
+                2 tests for distinguishing a priori from a posteriori knowledge
+        back: |
+                Universality, necessity -- both are criteria of a posteriori
+                knowledge
+-       guid: E*Fp~29.Mn
+        topic: Immanuel Kant
+        front: |
+                Why is mathematics synthetic, not analytic?
+        back: |
+                Only some *intuition* can tell us what 5+7 is. "5+7" isn't
+                *inscribed* in 12, so it can't be *analyzed* to be equal to 12.
+-       guid: EI`T#F!=n)
+        topic: Immanuel Kant
+        front: |
+                Which pure intuitions underlie geometry, arithmetic?
+        back: |
+                Pure space, pure time
+-       guid: Rf#0Epf{3U
+        topic: Immanuel Kant
+        front: |
+                On knowing objects as they are
+        back: |
+                Impossible. Part of *an apple being an apple*
+                is the notion of *space*, which is our a priori
+                knowledge.
+-       guid: r9Z%xj>ULo
+        topic: Immanuel Kant
+        front: |
+                2 aspects of the power of the mind to deal
+                with how natural science is possible
+        back: |
+                <ul>
+                <li>
+                *Sensibility* (passive ability to receive impressions)
+                <li>
+                *Understanding* (active power to think objects by
+                constructing a representation using concepts).
+                </ul>
+-       guid: AH/|-3+w3W
+        topic: Immanuel Kant
+        front: What is a *concept*?
+        back: |
+                Rule for operating on intuitions. To have a *concept* is to
+                have an ability, their use is *active*, not passive.
+-       guid: Cvf|J-i@L[
+        topic: Immanuel Kant
+        front: |
+                4-fold distinction of *representations*
+        back: |
+                Representations are contents of the mind.
+
+                Pure/empirical, intuitions (from sensibility)/concepts
+                (from understanding)
+
+                Pure intuition: space and time
+
+                Empirical intuition: redness, warmness
+
+                Pure concept: straight, cause, substance, God, the soul
+
+                Empirical concept: cherry pie, otter, sun, unicorn
+-       guid: egh]tghW:l
+        topic: Immanuel Kant
+        front: |
+                Necessity for cooperation in the mind
+        back: |
+                Between intuitions and concepts,
+                and between sensibility and understanding.
+-       guid: xFO|$c-a;t
+        topic: Immanuel Kant
+        front: |
+                What differs between "It seems the book is heavy"
+                vs. "the book is heavy"?
+        back: |
+                Subjective vs. objective judgement.
+                The difference is the *manner* in which the judgements
+                are made, or their *form*.
+                The distinguishing feature is that in (B),
+                we are thinking of *substance* together with
+                its *properties*. Those concepts are not derived
+                from sensations.
+
+                *Substance* and *object* are a priori concepts.
+-       guid: n3ef,6^Ql9
+        topic: Immanuel Kant
+        front: |
+                Why does our world have causality, time etc.?
+        back: |
+                It's necessary for its existence as an objective world, not
+                just a jumble of randomness. We don't discover causality there.
+                We bring it with us to the experience.
+-       guid: dpz_$nr?o-
+        topic: Immanuel Kant
+        front: Relation between synthetic a priori knowledge and experience
+        back: |
+                Not derived from experience, experience *not* derived from
+                them. So, they are only applicable *to experience*. All
+                *a priori* principles are *principles of possible experience*.
+
+                Dreams etc. lack objectivity because they don't *obey*
+                regularity of causal law.
+-       guid: x<MuY.k+kz
+        topic: Immanuel Kant
+        front: Reality of the world
+        back: |
+                We can't know anything *more real* than the
+                spatio-temporal world of our experience.
+                The world may not be "transcendentally ideal"
+                (i.e., its basic features are not independent of the
+                knowing mind), but it's *empirically real*.
+-       guid: LBuGFkgW;[
+        topic: Baruch Spinoza
+        front: Religion
+        back: Judaism
+-       guid: lQF!]]fv}W
+        front: |
+                Year: Birth of Baruch Spinoza
+        back: 1632
+        include_reverse: false
+-       guid: g1mfHD$Mwv
+        front: |
+                Year: Death of Baruch Spinoza
+        back: 1677
+        include_reverse: true
+-       guid: Hs=P~kS|<P
+        front: |
+                Year of birth and death: Baruch Spinoza
+        back: |
+                1632 - 1677
+        include_reverse: true
+-       guid: of+os~*,>X
+        front: |
+                Year: Baruch Spinoza expelled from Amsterdam synagogue
+        back: 1656
+-       guid: i~DD%MT0M@
+        topic: Baruch Spinoza
+        front: City
+        back: Amsterdam
+-       guid: GWnB&@pj:7
+        topic: Baruch Spinoza
+        front: Major work
+        back: |
+                *The Ethics*
+-       guid: nu]~f#-l[
+        topic: Baruch Spinoza
+        front: |
+                Character: *The Ethics*
+        back: |
+                Published posthumously. Geometric: propositions
+                deduced from definitions and axioms.
+-       guid: tAv=Q:.0s&
+        topic: Baruch Spinoza
+        front: His metaphysics
+        back: |
+                There is only 1 infinite substance (which exists in itself).
+                This is "God of Nature". Individuals and our experience are
+                just its modifications.
+
+                Mind and body are not substances, but attributes under which
+                the one substance can be conceived.
+
+                For every natural body, there is an idea. The mind is the idea
+                corresponding to a human body. Mind and body are identical,
+                mental changes and bodily changes isomorphic.
+
+                There is no free will, because everything is a necessary
+                expression of the divine nature. Freedom is just the power to
+                act from one's own nature. God is the only completely free
+                being.
+
+                We are *in bondage* of emotions (love, desire, hate). Emotions
+                are *caused in us*. We move towards freedom by intellectual
+                love of God, coming to see necessities of the world as God sees
+                them. This knowledge is the source of power to act (rather than
+                react), virtue and joy; thus we can approximate the blessed
+                life of God.
+-       guid: LGb~.W!Ljp
+        front: |
+                Author: "We are subject to an illusion from which it is
+                difficult to escape. The categories are not, as regards their
+                origin, grounded in sensibility, like the *forms of intuition*,
+                space and time; and they seem, therefore, to allow of
+                an application extending beyond all objects of the senses."
+        back: Immanuel Kant
+-       guid: bd3eEg1(eN
+        topic: Immanuel Kant
+        front: |
+                Why can't we use categories apart from sensible intuitions
+                to give us knowledge of objects?
+        back: |
+                They are merely "forms of thought" - mental "operators",
+                which unite "in one consciousness the manifold given
+                in intuition".
+-       guid: tIPFm#@92%
+        topic: Immanuel Kant
+        front: |
+                Our illusion on application of concepts beyond experience
+        back: |
+                That there categories are applicable further than sensible
+                intuition, without regard to sensibility. But they *don't*
+                thereby determine a greater sphere of objects.
+
+                Example: the concept "substance" is not a complete concept
+                on its own - just a *rule* for organizing content, which must
+                be given by intuition.
+-       guid: vV</K/YWqS
+        topic: Immanuel Kant
+        front: |
+                What is a *noumenon*?
+        back: |
+                A *thing-in-itself*, independently of the way it
+                reveals itself to us
+-       guid: 'x]54bOD/R:'
+        topic: Immanuel Kant
+        front: |
+                What is a *phenomenon*?
+        back: |
+                How something appears to us
+-       guid: kZVbzydS]^
+        topic: Immanuel Kant
+        front: How can we apply the term *noumenon*?
+        back: |
+                Only negatively, to remind us that there are things
+                we *can't* know &mdash; that all we know are just
+                appearances.
+-       guid: e1(}B,U_o)
+        front: |
+                Author: "Understanding and sensibility, with us, can
+                determine objects only when they are employed in
+                conjunction. When we separate them ,we have intuitions
+                without concepts, or concepts without intuitions
+                &mdash; in both cases, representations which we
+                are not in a position to apply to any
+                determinate object."
+        back: Immanuel Kant
+-       guid: e(fB0Lu%/+
+        topic: Immanuel Kant
+        front: Map of rational mind's capacities
+        back: |
+                <ul>
+                <li> **SENSIBILITY**: by which objects are *given* in *intuition*
+                        <ul>
+                        <li>Pure: space, time
+                        <li>Empirical: blue, warm, soft
+                        </ul>
+                        (no objects given except through the intuitions
+                        of space and time)
+                <li> **UNDERSTANDING**: by which objects are *thought* via *concepts*
+                        <ul>
+                        <li>Pure: concept substance, concept causality
+                        <li>Empirical: concept blue, concept warm, concept soft
+                        </ul>
+                        (no objects thought except via the pure concepts:
+                        *categories*)
+                <li> **REASONING**: by which we strive to think the *unconditioned*
+                        through the *ideas of pure reason*
+                        <ul>
+                        <li>Pure only: concept god, concept soul, concept world in itself
+                        (concepts not fillable by intuition; so no knowledge
+                        of these objects)
+                        </ul>
+                </ul>
+-       guid: I>QK,NjSiT
+        front: |
+                Year: Birth of Gottfried Wilhelm von Leibniz
+        back: 1646
+        include_reverse: true
+-       guid: rrE,#/%2EZ
+        front: |
+                Year: Death of Gottfried Wilhelm von Leibniz
+        back: 1714
+        include_reverse: true
+-       guid: lvreAHay!]
+        front: |
+                Year of birth and death: Gottfried Wilhelm von Leibniz
+        back: |
+                1646 - 1714
+        include_reverse: true
+-       guid: v?!b+azS,C
+        topic: Leibniz
+        front: |
+                Full name
+        back: Gottfried Wilhelm von Leibniz
+-       guid: i(H?H!/B5k
+        topic: Leibniz
+        front: |
+                Word: Inventor of ...
+        back: Calculus
+-       guid: LQ^u,WI<yw
+        topic: Leibniz
+        front: Occupation
+        back: |
+                Mathematician, physicist, historian, theologian,
+                diplomat
+-       guid: l99d4I60[)
+        topic: Leibniz
+        front: His concept of substance and extension of Descartes, Spinoza
+        back: |
+                "Substance is a being capable of action."
+
+                Sheer extension does not account for resistance, solidity,
+                impenetrability. He made reality intrinsically dynamic.
+                Composed of monads - points of activity.
+-       guid: Owp]Lpl;.A
+        topic: Leibniz
+        front: |
+                What is a *monad*?
+        back: |
+                Ultimate substances: points of activity (force), with inherent
+                tendency toward motion (rest is infinitesimal motion).
+-       guid: o8.[`((@0A
+        topic: Leibniz
+        front: |
+                Simplicity and reflection of monads
+        back: |
+                Each intrinsically simple, but has infinitely many properties
+                (of relation to other monads). Each monad "mirrors"/"reflects"
+                the entire universe. In some monads, this reflection is
+                perception and the mind. Knowing any monad completely would
+                mean knowing everything.
+-       guid: G0$yAmMVa*
+        topic: Leibniz
+        front: |
+                What constitutes a *possible world*?
+        back: |
+                Sum of all substances that are possible along with a given
+                monad
+-       guid: IN>Dg+-EYH
+        topic: Leibniz
+        front: |
+                Leibniz vs Spinoza on necessity of universe
+        back: |
+                Spinoza: the world exists necessarily.
+                Leibniz: not necessarily.
+-       guid: L9>RBE}Q[~
+        topic: Leibniz
+        front: |
+                Why is this world the actual one?
+        back: |
+                Has richest variety of contents and greatest simplicity of
+                laws. God (only being not merely possible, but also necessary)
+                chose ***best possible world***.
+-       guid: ok4CMNyi[A
+        topic: Immanuel Kant
+        front: |
+                5 steps in his metaphysics. Where is common sense and science,
+                critical philosophy, mathematics?
+        back: |
+                <ol type="1">
+                <li> Noumena - things in themselves -
+                <li> Constitute the phenomenal world of appearance, by
+                <li> Producing in the knower a manifold of sensations
+                (Humean impressions), which are
+                <li> Apprehended through the intuitions of space
+                and time (a priori forms in the knower's sensibility),
+                and
+                <li> Structured as substances in causal connections
+                by the a priori categories of the understanding
+                </ol>
+
+                Common sense and science: level 2
+
+                Critical philosophy: reveals levels 3..5
+
+                Mathematics: done at level 4
+-       guid: w3=L^c)/>J
+        topic: Immanuel Kant
+        front: |
+                *Transcendent* vs. *transcendental* direction of metaphysics
+        back: |
+                <ul>
+                <li> *Transcendent*: go towards *noumenal* world
+                <li> *Transcendental*: explain lower levels - into
+                the subject. Critique of pure reason does this.
+                Such investigation Kant calls *immanent*.
+                </ul>
+-       guid: Ha#xd;AA;q
+        topic: Immanuel Kant
+        front: |
+                *Ideas of Pure Reason*
+        back: |
+                Things that arise when reason tries to grasp to noumena.
+
+                God, soul, world in itself.
+
+                "As the understanding stands in need of categories
+                for experience, reasons contains in itself the ground
+                of ideas, by which I mean necessary concepts whose
+                object *cannot* be given in any experience."
+
+                Idea of soul: finding ultimate conditions in internally.
+
+                Idea of world: trying to find the ultimate cosmological Idea.
+
+                Idea of God: trying to find the absolute condition for
+                anything at all.
+-       guid: tqB|pq*E,
+        topic: Immanuel Kant
+        front: |
+                His term for self-psychologizing without data, experiments etc.
+                An attempt to understand the fundamental nature
+                of the self by rational reflection on what the self
+                *must* be to make experience possible.
+        back: Rational psychology
+-       guid: ehjH->5Od5
+        topic: Immanuel Kant
+        front: |
+                Why doesn't "I think" prove that I am a substance?
+        back: |
+                When we say "I think", we aren't peering at or describing
+                our self. The contents of what we think comes *after*
+                the phrase.
+
+                We don't and can't have any knowledge whatsoever
+                of any such subject.
+
+                We cannot infer *noumenal reality* just because of
+                our grammatical tendency to use the word *I*.
+                A necessity in my mode of representing myself
+                doesn't translate into a metaphysical necessity
+                about my nature.
+-       guid: e3QaW2}MTt
+        topic: Immanuel Kant
+        front: Why can't *I* be an object?
+        back: |
+                Objects can be known in expeience only through
+                applying concepts to intuitions. The "I" is a
+                *subject* and *resists objectification*.
+-       guid: yw)@uUqfxa
+        topic: Immanuel Kant
+        front: Sign that reason is overreaching
+        back: |
+                Finding "antinomy" - contradiction.
+                For example, he finds contradiction both in world being
+                eternal and limited in time.
+                Moral: some things may be *unknowable*.
+-       guid: h3Ea2w&C`q
+        topic: Immanuel Kant
+        front: |
+                Solution to free will
+        back: |
+                Distinction between noumena and phenomena.
+
+                Every event can be both natural and free.
+                Thinking that we can only be free or only deterministic
+                is a presumptuous position of *absolute reality*.
+
+                Every appearance has 2 aspects: it's something that
+                appears in the world of our experience, it's something
+                in itself.
+
+                As appearance, a part of the world of nature,
+                it's governed by nature's principles.
+                In this aspect, every action is causally determined.
+
+                But as a thing in itself, we can't even say
+                it occurs in time!
+                And the category of causality doesn't extend beyond
+                the bounds of experience, so an act of will may even
+                be *absolutely* free as in Descartes.
+-       guid: NqU-O{5!1
+        topic: Immanuel Kant
+        front: What is "practical freedom"?
+        back: |
+                When we act *for a reason* and not just in response
+                to nonrational causes.
+-       guid: edJpT|~oG/
+        topic: Immanuel Kant
+        front: |
+                Reason and causality when acting for good reasons
+        back: |
+                When we act for good reasons, we bring into being
+                events which *appear* in the causal order of the world,
+                but *in themselves* may have a completely noncausal
+                &mdash; but rational &mdash; origin.
+-       guid: iJoNyZ`]n%
+        topic: Immanuel Kant
+        front: Where does *freedom* fall?
+        back: Under *Ideas of Reason*
+-       guid: k0n>j7xq2T
+        topic: Immanuel Kant
+        front: Why is the idea of *God* empty?
+        back: |
+                It's supposed to have every possible attribute.
+                But if we try to enumerate them, it's an infinite
+                task we can never complete.
+                No experience or intuition could possibly fulfill
+                the requirements of the Idea.
+                <br><br>
+                It also must be noumenal, hence unknowable.
+-       guid: c%B/Bfs]rf
+        topic: Immanuel Kant
+        front: 3 types of God arguments he dismantles
+        back: Cosmological, design, ontological
+-       guid: wU|2Wu&SCP
+        topic: Immanuel Kant
+        front: Dismantling of the ontological argument
+        back: |
+                Concept of "that than which nothing greater
+                may be conceived" has just a verbal definition.
+
+                All alleged examples are taken from *judgements*,
+                not from things and their existence. But necessity of
+                judgements is not the same as absolute necessity of
+                things. If we reject the absolutely necessary being, we
+                reject the thing itself with all its predicates; so
+                then there is no contradiction.
+
+                (Rejecting 3 angles in a triangle is a contradiction.
+                Rejecting the triangle altogether is not.)
+
+                Counterargument: When atheists reject God, they *must*
+                have a concept of it to reject it.
+
+                Counter-counterargument:
+                "Being" is obviously not a real predicate.
+                It's not a concept of something that could be added
+                to the concept of a thing. It's just the positing
+                of a thing as existing in themselves.
+
+                ("Being" / "existence" is not a predicate in the sense
+                "being a triangle" is. To say that some concept has
+                *being* means claiming that the concept *applies*
+                to something.)
+
+                *Every* judgement of existence is *synthetic*.
+                ([$] (\a x) P(x)[/$] vs. [$] (\e x) P(x)[/$])
+-       guid: K?;SrUFueU
+        topic: Immanuel Kant
+        front: Did he want to make atheism possible?
+        back: |
+                No. "I have therefore found it necessary to deny
+                knowledge, in order to make room for faith."
+-       guid: J|QUlha1<R
+        front: |
+                Author: "I have therefore found it necessary to deny
+                knowledge, in order to make room for faith."
+        back: |
+                Immanuel Kant
+-       guid: e_ec1PgfsK
+        topic: Immanuel Kant
+        front: What positive purpose do Ideas of Reason serve?
+        back: |
+                Can be ideals for complete knowledge, can serve
+                a regulatory purpose - representing goal of striving
+                of rational creatures. We want to understand
+                *completely*.
+-       guid: O,jQx6{*YS
+        topic: Imamnuel Kant
+        front: How does he approach morality?
+        back: |
+                Doesn't try to study "practical anthropology".
+                Tries to find *moral law* that would yield
+                *universality* and *necessity*. These can't come
+                from cultural customs.
+
+                Believes morality to have foundation in *legislation
+                by pure reason*.
+
+                Wants to build moral philosophy wholly cleared of
+                everything empirical. Tries to find and establish
+                supreme principle of morality.
+-       guid: zemwQkY*~l
+        topic: Immanuel Kant
+        front: Is anything good without qualification?
+        back: |
+                Only *good will*. Anything else (intelligence, money,
+                etc.) can be misused.
+-       guid: M,oZm6+W4]
+        topic: Immanuel Kant
+        front: Relation between *good will* and happiness
+        back: |
+                Good will seems to be a necessary condition of beings
+                even worthy of happiness. (It *should* be so.)
+
+                (Beings without any good will yet enjoys uninterrupted
+                prosperity is repugnant to spectators.)
+-       guid: f`5;b[>lvS
+        topic: Immanuel Kant
+        front: What is *will*?
+        back: |
+                Internal commands at the end of a process of rational
+                deliberation. (*Not* from inclination etc.)
+                *Will* is *reason* in its *practical employment*.
+-       guid: EM8;qO;UO,
+        topic: Immanuel Kant
+        front: What is a *maxim*?
+        back: |
+                Rules that express the *subjective intention*
+                of agent in doing an action.
+                E.g.: Let me now keep the promise I made yesterday.
+-       guid: x[pBrKbyFp
+        topic: Immanuel Kant
+        front: What doesn't make an act of will *good*?
+        back: |
+                Not the *consequences* &mdash; even if the will doesn't
+                accomplish anything, it's still good.
+-       guid: uSI]u(VNy~
+        topic: Immanuel Kant
+        front: Form vs content of maxim
+        back: |
+                Content: referring to some outcome, such as helping
+                someone or keeping a promise
+
+                Form: that's what will make maxims morally okay or not
+                okay
+-       guid: BB;vuj}V1G
+        topic: Immanuel Kant
+        front: |
+                Why doesn'the content of a maxim make it a form of
+                good will?
+        back: |
+                Content refers to outcomes, which can't matter
+-       guid: e(NpbP;N)T
+        topic: Immanuel Lant
+        front: What is duty?
+        back: Necessity of action done out of respect for the law
+-       guid: wl+.DLNj6Y
+        topic: Immanuel Kant
+        front: How is duty bound to good will?
+        back: |
+                We act out of a good will when we try to do the right thing.
+                In doing the right thing, we must not have eyes on
+                some advantage to us, but on the goodness of the action.
+                So, we want nothing else but to do our duty.
+-       guid: pkg!^zvlO2
+        topic: Immanuel Kant
+        front: 2 distinguished motivations
+        back: |
+                Inclinations (aversions and pleasures),
+                respect for law (purely rational motivation)
+-       guid: jSF]*:b2N<
+        topic: Immanuel Kant
+        front: 4 classes of actions
+        back: |
+                Done from:
+                <ol type="1">
+                <li> Inclination, contrary to duty
+                <li> Self-interest, according to duty
+                <li> Direct inclination, according to duty
+                <li> Duty, even if it runs contrary to inclination.
+                Only this is an act of *good will*.
+                </ol>
+-       guid: kV:?<99Qyi
+        topic: Immanuel Kant
+        front: What actions are done according to good will?
+        back: |
+                Done from duty, even if it runs contrary to inclination.
+-       guid: gmH_(S]`V+
+        front: |
+                Author: "Worse service cannot be rendered to morality
+                than an attempt be made to derive it from examples.
+                For every example of morality presented to me must
+                itself first be judged according to principles of
+                morality in order to see whether it is fit to serve
+                as an original example, i.e., as a model.
+                But in no way can it authoritatively furnish the
+                concept of morality. Even the Holy One of the gospel
+                must first be compared with our ideal of moral
+                perfection before he is recognized as such."
+        back: Immanuel Kant
+-       guid: mkGaA.Sl#I
+        topic: Immanuel Kant
+        front: 4 kinds of imperatives
+        back: |
+                <ol>
+                <li> Hypothetical: "If you want x in circumstances C,
+                do A."
+                <ul>
+                <li> Technical imperatives: such as medicine, engineering
+                (rule of skill - "use this drug to cure this disease")
+                <li> Pragmatic imperatives: such as advice how to be
+                happy (*counsels of prudence*)
+                </ul>
+                <li> Categorical imperative: "Do A (in circumstances C)."
+                No references to goals, ends, desires, etc.
+                </ul>
+-       guid: P`!OtYjdaO
+        topic: Immanuel Kant
+        front: Why must the moral law be a categorical imperative?
+        back: |
+                Hypotheticals would apply only if my wants are
+                specified in the if-clause; but moral law applies
+                regardless of my wants.
+
+                Moral law must:
+                <ul>
+                <li> Abstract from everything empirical
+                <li> Make no reference to consequences
+                <li> Be independent of inclinations
+                <li> Be capable of inspiring respect
+                </ul>
+
+                Hypothetical imperatives all:
+                <ul>
+                <li> Make references to empirical facts
+                <li> Concern consequences
+                <li> Express our inclinations
+                <li> Inspire, at most, approval; not respect
+                </ul>
+-       guid: m/JCN$GyCD
+        topic: Immanuel Kant
+        front: The Categorical Imperative
+        back: |
+                Act only according to that maxim whereby you can
+                at the same time will that it should become a
+                universal law.
+-       guid: DqX<g.gr^3
+        topic: Immanuel Kant
+        front: Features of the categorical imperative
+        back: |
+                Synthetic; denying it produces no contradiction.
+
+                A priori - it has no empirical content.
+
+                An example of pure reason at work.
+-       guid: IDCrCgu;df
+        topic: Immanuel Kant
+        front: What ends have *conditional value*?
+        back: |
+                Ends which are ends out of someone's desire (diamonds)
+-       guid: wjk.f2mz`3
+        front: |
+                Author: "But let us suppose that there were something
+                whose existence has in itself an absolute worth,
+                something which as an end in itself could be a ground
+                of determinate laws... Now I say that man, and in
+                general every rational being, exists as an end in
+                himself and not merely as a means to be arbitrarily
+                used by this or that will."
+        back: Immanuel Kant
+-       guid: QCOuLPt5>&
+        topic: Immanuel Kant
+        front: Why are humans ends in themselves?
+        back: They are the source of all relative values
+-       guid: l_Zr9IEV&U
+        topic: Immanuel Kant
+        front: 2 classes of entities by value
+        back: |
+                <ol>
+                <li> Things with conditional value (i.e., price).
+                Their value is relative to desire for them,
+                correlates with their use as means to satisfaction
+                of these desires.
+                <li> Persons have *absolute* worth, which we call
+                *dignity*; value is not relative. They have value
+                as *ends* and command *respect*.
+                </ol>
+-       guid: '&T-$IDhYk'
+        topic: Immanuel Kant
+        front: The Categorical Imperative (Ends formulation)
+        back: |
+                Act in such a way that you treat humanity, whether
+                in your own person or in the person of another,
+                always at the same time as an end and never simply
+                as a means.
+-       guid: j_w%zIGFI#
+        topic: Immanuel Kant
+        front: Why are we *autonomous* regarding moral law?
+        back: |
+                We as rational beings give the law to ourselves.
+-       guid: b^RRJS,{C[
+        topic: Immanuel Kant
+        front: |
+                Name: Laws originating outside us
+        back: Heteronomous
+-       guid: na4kGFmcKZ
+        topic: Immanuel Kant
+        front: |
+                Name: Community of autonomous legislators of moral law
+        back: |
+                Realm (kingdom) of ends
+-       guid: G+fc/Y.nR3
+        topic: Immanuel Kant
+        front: |
+                The ideal holy will
+        back: |
+                Would have no conflict between passions and the categorical
+                imperative. It would never want to do something
+                it ought not to.
+-       guid: ld2wx^BQYY
+        topic: Immanuel Kant
+        front: |
+                How does free will come together with morality?
+        back: |
+                We are free when we are autonomous, i.e. make our
+                own laws, which our wills do when they act according
+                to the categorical imperative.
+-       guid: v&mRm5xepf
+        topic: Immanuel Kant
+        front: Phenomenal and noumenal standpoints of ourselves
+        back: |
+                <table>
+                <tr>
+                <th> Phenomenally <th> Noumenally
+                <tr>
+                <td> I appear to myself as an object in the world
+                <td> I am the unknown subject to whom the world appears
+                <tr>
+                <td> All objects are organized by the a priori category of causality
+                <td> Causality does not apply
+                <tr>
+                <td> I appear to act under causal laws that I do not legislate for myself (*heteronomy*)
+                <td> I may act under rational laws I legislate for myself (*autonomy*)
+                <tr>
+                <td> I do not appear to be free
+                <td> I am free, in that I can act on laws that I give to myself
+                </table>
+                The noumenal propositions cannot be known
+                to be true.
+                But they are *possibly* true.
+-       guid: pi&Bxkv]e>
+        topic: Immanuel Kant
+        front: How does Kant create room for free will?
+        back: |
+                In the noumenal world, which can't be known,
+                so we can *possibly* be free.
+-       guid: lA<:fT1yph
+        topic: Immanuel Kant
+        front: Why must we believe in immortality of the soul and God?
+        back: |
+                Reason is telling us that we have a *right to hope*
+                for happiness. So a future life must be possible,
+                where goodness and happiness coincide (as they don't
+                in this life).
+
+                God will be the power that will guarantee the eventual
+                happiness of those who strive for moral goodness.
+-       guid: N%h4o/x,?Y
+        topic: Immanuel Kant
+        front: Pictorial philosophy
+        back: |
+                Noumena
+                <table>
+                <tr>
+                <td>Space and time <td>Categorial imperative
+                <tr>
+                <td>Categories <td>Inclinations and their maxims
+                <tr>
+                <td>Empirical concepts <td> Particular moral rules
+                <tr>
+                <td>Sensible intuitions <td>Morally acceptable actions
+                <tr>
+                <td>The objective world (phenomena)<td>
+                <tr>
+                <td><u>The way things are</u><td><u>The way things ought to be
+                </table>
+
+                Task as knowers: to understand the phenomena of the objective world.
+                Task as doers: make the way things are coincide with how they should be.

@@ -1,0 +1,433 @@
+# chapter 13 - rene descartes - doubting our way to certainty
+deck: All::Notes::The Great Conversation - A Historical Introduction to Philosophy
+topic: The Great Conversation - A Historical Introduction to Philosophy
+notes:
+-       guid: kNQ#:V`m!X
+        front: |
+                Age: René Descartes when he has his vision in a dream
+        back: 23
+-       guid: B6H}y6;CdX
+        front: |
+                Date: Descartes "discovers the foundations of
+                a new science"
+        back: |
+                10 November 1619
+        include_reverse: true
+-       guid: Jd:y<4@8XI
+        topic: Descartes
+        front: |
+                Problem he found with philosophy
+        back: |
+                Seeking knowledge leads to more and more
+                recognition of own ignorance. Math is nice.
+                Nothing in philosophy hasn't been undoubted.
+-       guid: No>{|qK(yp
+        topic: Descartes
+        front: |
+                What did he do when he couldn't find certainty?
+        back: |
+                Gave up "letters", didn't give up learning.
+                He looked in the "great book of the world".
+
+                Travelled, visited courts and armies, mixed with
+                people of various temperaments and ranks,
+                gathered experiences.
+-       guid: HI_:tKXxqA
+        topic: Descartes
+        front: Which marvellous science did he invent in his dream?
+        back: |
+                Analytic geometry - isomorphism between algebraic symbols and
+                geometry. (Opens *wholly mathematical physics*.)
+-       guid: hH.J.D/ACP
+        front: |
+                Year: Descartes holds back *Treatise on the World*
+                as he learns of Galileo's condemnation
+        back: 1633
+-       guid: Bi7xfwtQZd
+        front: 1633
+        back: |
+                Church prohibits teaching of believing
+                that earth moves around the sun
+
+                Descartes, learning of the condemnation, holds back
+                *Treatise on the World*
+-       guid: g_YGP~.+t@
+        topic: Descartes
+        front: |
+                2 influential "laws of nature" later adopted by Newton,
+                departure from Aristotle
+        back: |
+                Each thing as far as in it lies, continues always
+                in the same state. That which is moved always
+                continues to move.
+
+                All motion is of itself in a straight line.
+                Things which move in circles tend to recede from
+                the centre of the circle.
+
+                Aristotle: all things tend to the center, and don't
+                want to keep moving. This only makes sense in an
+                infinite universe *with no center*.
+-       guid: fMhX9lCZrz
+        topic: Descartes
+        front: Cosmic vortex
+        back: |
+                There is no empty space.  Motion pushes bodies out of the way
+                of other bodies.
+-       guid: LX1s|X,elH
+        front: Corpuscularism
+        back: |
+                Everything in the material world can be treated
+                purely geometrically and mathematically.
+                The world is mechanistic.
+-       guid: FY9=1:e<7o
+        topic: Descartes
+        front: Why wasn't progress made before?
+        back: |
+                Previous thinkers lacked a *method*. (Not intelligence.)
+                Drew hasty conclusions, allowed intellectual chaos.
+-       guid: wpT7r^I0;;
+        topic: Descartes
+        front: |
+                4 rules of the *method*
+        back: |
+                <ul>
+                <li> Don't accept anything as true unless you have
+                evident knowledge of its truth.
+                <br><br>
+                <i>Clear</i>: present and apparent to an attentive mind,
+                same as clearly seeing objects. Accept nothing obscured.
+                <br><br>
+                <i>Distinct</i>: so precise that it contains only
+                clearness inside. Ideas should not be possible
+                to confuse with other ideas.
+                <li> Divide each difficulty into as many parts
+                as possible to resolve them better.
+                <li> Direct thoughts orderly, beginning with simplest and most
+                easily known objects to ascend little by little to complex
+                knowledge.
+                <li> Make complete and comprehensive enumerations and reviews
+                so that nothing will be left out.
+                </ul>
+-       guid: N9,c&Kb`xU
+        topic: Descartes
+        front: |
+                2 basic procedures for intellectual work
+        back: |
+                <ul>
+                <li> Insight/intuition of simple natures.
+                <li> Deduction of complex phenomena from perceived relations
+                among simples.
+                </ul>
+-       guid: kAq7/NhbVs
+        topic: Descartes
+        front: |
+                Strategy against skepticism
+        back: |
+                Back up doubt by doubt, then reach some foothold
+                you can base other things on.
+-       guid: zbJXE_jqlo
+        topic: Descartes
+        front: Full title of *Meditations*
+        back: |
+                Meditations on First Philosophy in Which
+                the Existence of God and the Distinction of the Soul
+                from the Body Are Demonstrated
+-       guid: c,oaVdx!s+
+        front: |
+                Year: Descartes' Meditations first published
+        back: 1641
+        include_reverse: true
+-       guid: g!8+ai-N-q
+        front: |
+                Year: *Index Librorum Prohibitorum* established
+                by Pope Pius V after approval by Council of Trent
+        back: 1571
+-
+        guid: q@%+SPd)u3
+        front: 1571
+        back: |
+                <ul>
+                <li>
+                <i>Index Librorum Prohibitorum</i> established by Pope Pius V
+                after approval by Council of Trent.
+                <li>
+                Birth of Johannes Kepler
+                </ul>
+-       guid: u-^~(j<&@J
+        topic: Descartes
+        front: |
+                Name: His friend, priest and scientist
+        back: Mersenne
+-       guid: b0^6S8f[&.
+        topic: Descartes
+        front: |
+                Theological requirement for Meditations
+        back: |
+                Bible is true &rarr; God exists &rarr; Bible is true
+                is a circle; we need rational reason to break it.
+                Descartes talks to "believers like ourselves".
+
+                Claims to have better proofs than Anselm, Aquinas, Augustine.
+                Refers to thinkers unaligned with immortality (e.g., Aristotle).
+-       guid: Ht^!4IF>e8
+        front: |
+                Author: "Thus the whole of philosophy is like a tree;
+                the roots are metaphysics, the trunk is physics,
+                and the branches that issue from the trunk are all
+                the other sciences."
+        back: Descartes
+-       guid: D-xih6st2S
+        topic: Descartes
+        front: Basic categories (kinds of being)
+        back: |
+                Substances:
+                <ul>
+                <li> Infinite (God)
+                <li> Finite:
+                        <ul>
+                        <li> Thinking (minds)
+                        <li> Extended (bodies)
+                        </ul>
+                </ul>
+-       guid: i*L:XKA.W7
+        topic: Descartes
+        front: |
+                Meditations:
+                What is the easiest to grasp? What about
+                physical objects?
+        back: |
+                Our mind. Physical objects are not properly grasped by
+                *mental images* or by *senses*, but by *understanding*.
+-       guid: l3]<?BcUD.
+        front: Representational theory (of knowledge and perception) - 5 key points
+        back: |
+                <ul>
+                <li> No immediate access to the world, only to world of ideas
+                <li> "Ideas" understood broadly to include all contents
+                of mind, including perceptions, images, memories, concepts,
+                beliefs, intentions, decisions
+                <li> They are <i>representations</i> of other things
+                <li> Much of what the ideas represent, they represent
+                as "external" to the mind
+                <li> Representations may be correct or misleading
+                </ul>
+-       guid: M3beIN+tE^
+        front: Definition by genus and difference
+        back: |
+                The genus and difference from other species.
+                E.g., humans are 1) animals, 2) rational.
+-       guid: q`p0G.<{v*
+        topic: Descartes
+        front: |
+                Distinction between judgement and ordinary perception;
+                his example
+        back: |
+                Ordinary perception: Coats and hats on the street.
+                Judgement: Men, not robots.
+                Judgement is an activity of the mind.
+                Implicit in all perception is judgement, *giving assent*.
+
+                <br><br>
+                Example: piece of wax. Everything perceived about it can
+                change, yet we judge it to be the same piece of wax.
+                So, judgement is necessary.
+-       guid: sY^0C5E*z?
+        topic: Descartes
+        front: |
+                Why does God exist?
+        back: |
+                His attributes - infinite, independent, supremely
+                intelligent, supremely powerful - cannot come
+                from me alone (my mind).
+
+                I, being finite, can't have the idea of infiniteness
+                unless I came from something that was infinite etc.
+
+                He also can't deceive - deceipt, fraud, etc. arise
+                from defect, and he's perfect.
+-       guid: CveyX#19g{
+        topic: Descartes
+        front: |
+                Solution to the problem of the criterion
+        back: |
+                Criterion: whatever I grasp with the same clarity
+                and distinctness as "I exist" must also be true.
+-       guid: p-R>IFv-il
+        front: What are *innate ideas*?
+        back: |
+                Ideas we would have even if nothing but us existed.
+                (**Not** ideas present also in babies and mentally
+                defective adults!)
+-       guid: rF1ILMIqj+
+        topic: Descartes
+        front: Formal reality
+        back: |
+                Actual or existing things. We have formal reality, our mental
+                images also do.
+-       guid: l;!/xkXSaV
+        topic: Descartes
+        front: Subjective reality
+        back: |
+                Giraffes, angels have subjective reality when we think of them.
+                Some things have only subjective reality -- ideas "produced by
+                us". Subjective realities eventually come from basic reasons
+                (or: "from nothing nothing comes").
+-       guid: D%W@LGr2@`
+        topic: Descartes
+        front: When is a cause *formally real*?
+        back: |
+                Causes have at least at much reality as their effects.
+                Causes are formally real when they have formally real
+                effects.
+-       guid: Ddyz*hQ-+7
+        topic: Descartes
+        front: When is a *formally* real cause *eminently* real?
+        back: |
+                When it has more reality than its effect
+-       guid: B$3SG{YbZI
+        topic: Descartes
+        front: Structure of argument for God, based on my idea of God
+        back: |
+                <ol type="1">
+                <li> I have an idea of infinitely perfect substance.
+                <li> The idea must have a cause.
+                <li> <i>Ex nihilo nihil fit.</i>
+                <li> So this cause must have at least as much formal
+                     reality as there is <i>subjective</i> reality
+                     in the idea.
+                <li> I am a substance, but not infinitely perfect.
+                <li> So I couldn't be the idea's cause.
+                <li> So there must be a formal reality which is an
+                     infinitely perfect substance.
+                <li> God exists.
+                </ol>
+-       guid: zXw3+Q#g`>
+        topic: Descartes
+        front: Structure of argument for God, based on my existence
+        back: |
+                <ol type="1">
+                <li> I exist.
+                <li> My existence must have a cause.
+                <li> Cause must be A) myself, B) me always having
+                existed, C) my parents, D) something less perfect
+                than God, E) God.
+                <li> Not A), I would have given myself perfections
+                I don't have.
+                <li> Not B), my existing <i>now</i> doesn't follow from me
+                having existed in the past.
+                <li> Not C), leads to infinite regress.
+                <li> Not D), couldn't account for the unity of the idea
+                of God that I have.
+                <li> So E), God exists.
+                </ol>
+-       guid: Q|{Pju~Fno
+        topic: Descartes
+        front: How does will come about?
+        back: |
+                Our will is unbounded, and can lead us where
+                our limited understanding doesn't extend.
+-       guid: NK7sWYsNvX
+        topic: Descartes
+        front: Ontological proof of God's existence
+        back: |
+                <ul>
+                <li> God, by definition, is a being of infinite perfection
+                <li> Existence is a perfection
+                <li> So God exists
+                </ul>
+-       guid: hK:tnS#ysE
+        topic: Descartes
+        front: Conjectural argument for having a body
+        back: |
+                Having mental images (I could imagine my mind not
+                having it)
+-       guid: i5a7U{nBc3
+        topic: Descartes
+        front: Why do physical objects exist?
+        back: |
+                God is not a deceiver.
+-       guid: t~d--FOP?^
+        topic: Descartes
+        front: Imagining something vs. conceiving it
+        back: |
+                <ul>
+                <li> <i>Imagining</i>: having a mental image
+                <li> <i>Conceiving</i>: e.g., a 1000-sided polygon
+                </ul>
+-       guid: jr`)6qC_C-
+        topic: Descartes
+        front: Skeleton of argument for distinctness of soul from body
+        back: |
+                <ol type="1">
+                <li> God can create anything I can clearly and
+                distinctly conceive (without contradiction)
+                <li> If God can create A independently from
+                B, they are distinct
+                <li> I have a clear and distinct idea of my essence
+                as a thinking thing
+                <li> So God can create a thinking soul independently of a body
+                <li> I also have a clear and distinct idea of my
+                body as an extended thing - its essence
+                <li> So God can create a body independent of a soul
+                <li> So my soul is distinct from my body
+                <li> So, I can exist without my body
+                </ol>
+-       guid: i_:-c.B~Q[
+        topic: Descartes
+        front: Skeleton of argument for reality of material things
+        back: |
+                <ol type="1">
+                <li> I have a "strong inclination" to believe in the
+                reality of material things that I seem to sense.
+                (It's "taught by nature".)
+                <li> God must have created me with this inclination
+                <li> If material things do not exist independently, God
+                deceives me
+                <li> God is not a deceiver
+                <li> So material things exist independently
+                </ol>
+-       guid: Fa-M5-<%6j
+        front: |
+                Name: "Prince of the Rationalists"
+        back: Descartes
+-       guid: 'LmWG3)bZ~:'
+        topic: Descartes
+        front: |
+                Stance on world's nature
+        back: |
+                Mechanistic, built and set in motion by God. The world is
+                a *secular* world.
+                Minds are radically free.
+                <br><br>
+                Dante: like a fairy-tale, at best moral allegory with no
+                literal truth.
+-       guid: ebCvAy&eka
+        topic: Descartes
+        front: |
+                3 problems with Descartes's views
+        back: |
+                <ul>
+                <li> <i>Place of humans in nature</i>:
+                        Are we cogs in a machine? Is there
+                        room for purposes? Do we have free will?
+
+                        Descartes's solution: radically split mind and
+                        body.
+
+                        We aren't automata (we have language),
+                        we are more flexible and adaptable than any
+                        machine.
+                <li> <i>Mind-Body</i>.
+                        Descartes: mind and body are separate,
+                        yet we are a unity. How can we be at the same
+                        time two and one?
+                <li> <i>God and skepticism</i>.
+                        If God deceives or doesn't exist,
+                        it's a big problem.
+                </ul>
+-       guid: kVk2qr-5;v
+        front: Interactionism
+        back: |
+                View that mind and body have a two-way causal
+                relationship
