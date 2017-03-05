@@ -279,17 +279,17 @@ notes:
         back: |
                 [latex]
                 \begin{align*}
-                   t \\equiv & a+\Phi(T')-\Phi(T) = &
-                \\         = & \underbrace{2}_{\text{rotace}} + r'(x) - r(x) + r'(y) - r(y) + r'(z) - r(z) = & [r(z)=r'(x)]
-                \\         = & 2 - r(x) + r'(y) - r(y) + r'(z) \leq & [r(y) > r(x)]
+                   t \equiv & a+\Phi(T')-\Phi(T) = &
+                \\        = & \underbrace{2}_{\text{rotace}} + r'(x) - r(x) + r'(y) - r(y) + r'(z) - r(z) = & [r(z)=r'(x)]
+                \\        = & 2 - r(x) + r'(y) - r(y) + r'(z) \leq & [r(y) > r(x)]
                 \\      \leq & 2 - 2r(x) + r'(y) - r'(z) &
                 \end{align*}
                 [/latex]
                 <br>
 
-                Pozorování: [$]2\\leq 2r'(x)-r'(y)-r'(z)[/$]<br>
+                Pozorování: [$]2\leq 2r'(x)-r'(y)-r'(z)[/$]<br>
 
-                Tedy: [$$]t \\leq 2r'(x)-2r(x)=2(r'(x)-r(x))\\leq 3(r'(x)-r(x))[/$$]
+                [$$]\therefore t\leq 2r'(x)-2r(x)=2(r'(x)-r(x))\leq 3(r'(x)-r(x))[/$$]
 -       guid: HJ;abX.u!|
         topic: Splay stromy
         front: |

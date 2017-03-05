@@ -13,6 +13,8 @@ pip install --user PyYAML markdown
 
 Required: Anki, installed in `/usr/share/anki`.
 
+Also see `requirements.txt`.
+
 License
 ==
 
